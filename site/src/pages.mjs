@@ -17,7 +17,7 @@ page({
     const T = t(lang);
     return `
 <section class="hero">
-  <div class="hero-media"><img src="/assets/img/hero-stacks.jpg" srcset="/assets/img/hero-stacks-sm.jpg 820w, /assets/img/hero-stacks.jpg 1600w" sizes="100vw" alt="${T('Rows of steel catalog cabinets in a corridor carved from blue ice', '蓝色冰层里凿出的走廊，两侧是成排的钢制目录柜')}"></div>
+  <div class="hero-media"><img src="/assets/img/lake-library.jpg" srcset="/assets/img/lake-library-sm.jpg 820w, /assets/img/lake-library.jpg 1600w" sizes="100vw" alt="${T('A concrete and glass library on the shore of a frozen lake, snow mountains and a spruce forest behind it, a few windows lit', '冰湖岸边一座混凝土和玻璃的图书馆，背后是雪山和云杉林，几扇窗亮着')}"></div>
   <canvas class="snow" data-snow="full" aria-hidden="true"></canvas>
   <div class="wrap">
     <div class="label"><span class="dot"></span>${T('The Cold Library · Est. 2026', '冷藏图书馆 · 建于 2026')}</div>
@@ -29,6 +29,21 @@ page({
       <button class="btn ghost" type="button" data-open-directory>${T('Floor directory', '楼层指示')}</button>
     </div>
     <div class="hero-meta"><span>${T('Open all night', '整夜开放')}</span><span>${T('Never opened by one person', '从不一个人开箱')}</span><span>${T('Spec', '规范')} <b>v0.1</b></span><span>${T('No cookies', '没有 Cookie')}</span></div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="label lake"><span class="dot"></span>${T('Outside the windows', '窗外')}</div>
+      <h2 class="section-title mt-1">${T('A lake, a snowline, a forest.', '一片湖，一条雪线，一片林。')}</h2>
+      <p class="lede">${T('The library stands where the cold does the work. The lake freezes every winter and keeps a clear surface for reading the sky. Above the snowline on the mountains, snow stays and slowly becomes ice. And at the edge of the grounds a young spruce forest grows in rows, the way the Future Library in Norway grows the paper for 2114. Nothing here is in a hurry.', '图书馆建在冷替你干活的地方。湖每年冬天都会结冰，冰面清澈，可以照见天空。山上雪线以上的雪不会化，年复一年压成冰。院子边上有一片年轻的云杉林，一排一排长着，就像挪威的"未来图书馆"为 2114 年种下的那片树。这里没有什么是着急的。')}</p>
+      <a class="btn ghost mt-1" href="${href(lang, 'name')}">${T('Why cold', '为什么是冷')}</a>
+    </div>
+    <div class="grid two reveal">
+      <figure class="figure tall"><img src="/assets/img/forest-rows-sm.jpg" alt="${T('Young spruce trees in rows under deep snow', '深雪里一排排年轻的云杉')}" loading="lazy"><figcaption>${T('The forest · paper for later', '森林 · 留给以后的纸')}</figcaption></figure>
+      <figure class="figure tall"><img src="/assets/img/lake-dawn-sm.jpg" alt="${T('A still lake reflecting snow mountains at dawn', '清晨静止的湖面倒映着雪山')}" loading="lazy"><figcaption>${T('The lake · above the snowline', '湖 · 雪线以上')}</figcaption></figure>
+    </div>
   </div>
 </section>
 
@@ -259,7 +274,7 @@ page({
       <li><span class="mark">05</span><span>${T('A keeper may refuse to publish anything, or to shut anything down. A keeper may not refuse to destroy what is purely private.', '开启人可以拒绝公开任何东西，也可以拒绝关停任何东西；但不能拒绝销毁纯属隐私的东西。')}</span></li>
     </ul>
   </div>
-  <figure class="figure tall reveal"><img src="/assets/img/drawers-sm.jpg" alt="${T('An open catalog drawer, frost on the label', '拉开的目录抽屉，标签上结着霜')}" loading="lazy"><figcaption>${T('Share card storage · do not photograph', '份额卡存放处 · 请勿拍照')}</figcaption></figure>
+  <figure class="figure tall reveal"><img src="/assets/img/reading-room-sm.jpg" alt="${T('A sealed box on a long table between two lamps', '两盏台灯之间，长桌上放着一个封好的盒子')}" loading="lazy"><figcaption>${T('Box on the table · two keys required', '桌上的箱子 · 需要两把钥匙')}</figcaption></figure>
 </div></section>
 <section class="block"><div class="wrap">
   ${sectionHead(T('Custodians', '保管方'), T('Who holds the box.', '箱子交给谁。'), T('Keeping the key and the box apart is the whole trick. Without it, waiting periods are only promises.', '钥匙和箱子分开放，这就是全部的诀窍。做不到这一点，所有等待期都只是口头约定。'))}
@@ -275,7 +290,7 @@ page({
   description: { en: 'Every wish has a half-life: binding, then advisory, then archive. Why the dead should not rule the living.', zh: '每条心愿都有时效：先照办，再参考，最后存档。为什么逝者不该统治活着的人。' },
   render: (lang) => {
     const T = t(lang);
-    return `${pageHero({ lang, slug: 'half-life', title: T('Department of Half-life', '时效科'), lede: T('A wish should matter most just after you have gone, and less as the years pass. The living need room. This department measures how long each wish may bind them.', '你刚走的时候，你的心愿最该被照办；时间越久，就越该退到一边。活着的人需要空间。这个科室负责测量每条心愿能约束他们多久。') })}
+    return `${pageHero({ lang, slug: 'half-life', title: T('Department of Half-life', '时效科'), lede: T('A wish should matter most just after you have gone, and less as the years pass. The living need room. This department measures how long each wish may bind them.', '你刚走的时候，你的心愿最该被照办；时间越久，就越该退到一边。活着的人需要空间。这个科室负责测量每条心愿能约束他们多久。'), image: 'lake-dawn', alt: T('A still lake mirroring snow mountains at dawn', '清晨的湖面像镜子一样倒映雪山') })}
 <section class="block"><div class="wrap">
   <div class="panel halflife reveal" data-halflife>
     <div class="hl-status"><span>${T('Years since', '离开后')} <b data-hl-years>0</b> ${T('years', '年')}</span><span>${T('Stage', '阶段')}: <b data-hl-stage>${T('Binding', '照办')}</b></span></div>
@@ -325,7 +340,7 @@ page({
   slug: 'projects',
   title: { en: 'Project Wing', zh: '项目馆' },
   description: { en: 'Personal and open-source projects, their maintainers, their handover notes, their successors and their archives. We record links, never code.', zh: '个人项目和开源项目：维护者、交接文档、接班人和存档。我们只登记链接，从不保存代码。' },
-  image: '/assets/img/corridor.jpg',
+  image: '/assets/img/forest-rows.jpg',
   render: (lang, ctx) => {
     const T = t(lang);
     const items = ctx.projects.map((p) => card({
@@ -342,7 +357,7 @@ page({
       stamp: p.status === 'active' ? T('Active', '在维护') : esc(p.status),
       stampClass: 'ice',
     })).join('');
-    return `${pageHero({ lang, slug: 'projects', title: T('Project Wing', '项目馆'), lede: T('Projects outlive their makers more often than plans do. This wing records who keeps a project going, where its handover notes are, who carries on, and where copies are archived. We record links. We never store your code.', '项目比计划更常活过它的作者。这一翼登记：谁在维护一个项目、交接文档在哪、谁来接班、副本存在哪。我们只登记链接，从不保存你的代码。'), image: 'corridor', alt: T('A corridor leading to a frosted vault door', '通往结霜金库门的走廊') })}
+    return `${pageHero({ lang, slug: 'projects', title: T('Project Wing', '项目馆'), lede: T('Projects outlive their makers more often than plans do. This wing records who keeps a project going, where its handover notes are, who carries on, and where copies are archived. We record links. We never store your code.', '项目比计划更常活过它的作者。这一翼登记：谁在维护一个项目、交接文档在哪、谁来接班、副本存在哪。我们只登记链接，从不保存你的代码。'), image: 'forest-rows', alt: T('A young spruce forest planted in rows, deep snow, one warm light far away', '一排排年轻的云杉，深雪，远处一点暖光') })}
 <section class="block"><div class="wrap">
   ${sectionHead(T('Catalog', '目录'), T('On the shelves.', '已上架。'))}
   <div class="catalog">${items}</div>
@@ -374,10 +389,10 @@ page({
   slug: 'reading-room',
   title: { en: 'Reading Room', zh: '阅览室' },
   description: { en: 'Offline tools to write, seal, check and open an Ice Core. Everything runs on your own machine.', zh: '整理、封存、核对、开启交接清单的离线工具。全部在你自己的电脑上运行。' },
-  image: '/assets/img/reading-room.jpg',
+  image: '/assets/img/lake-reading.jpg',
   render: (lang) => {
     const T = t(lang);
-    return `${pageHero({ lang, slug: 'reading-room', title: T('Reading Room', '阅览室'), lede: T('Everything here runs on your own machine. Nothing you type reaches us. The tools are not audited yet: use them for drills before you trust them with anything real.', '这里的一切都在你自己的电脑上运行，你输入的任何东西都不会到我们这里。工具还没有经过安全审计：先用来演练，再决定要不要托付真东西。'), image: 'reading-room', alt: T('A long table with two warm desk lamps and a sealed box', '一张长桌，两盏暖色台灯，桌上一个封好的盒子') })}
+    return `${pageHero({ lang, slug: 'reading-room', title: T('Reading Room', '阅览室'), lede: T('Everything here runs on your own machine. Nothing you type reaches us. The tools are not audited yet: use them for drills before you trust them with anything real.', '这里的一切都在你自己的电脑上运行，你输入的任何东西都不会到我们这里。工具还没有经过安全审计：先用来演练，再决定要不要托付真东西。'), image: 'lake-reading', alt: T('A reading hall with brass lamps and a window wall onto a frozen lake and snow mountains', '阅览大厅里亮着铜台灯，整面落地窗外是冰湖和雪山') })}
 <section class="block"><div class="wrap grid three">
   <div class="panel ice-edge reveal"><span class="num">${T('NO AI', '不用 AI')}</span><h3>${T('Printed questionnaire', '纸质问卷')}</h3><p class="muted">${T('Thirty questions on paper. The safest way to start.', '三十道题，写在纸上。最稳妥的开始方式。')}</p><a href="${REPO}/blob/main/skills/exit-interview/${lang === 'zh' ? 'questionnaire.zh.md' : 'questionnaire.en.md'}">${T('Open the questionnaire →', '打开问卷 →')}</a></div>
   <div class="panel ice-edge reveal"><span class="num">${T('YOUR AI', '你自己的 AI')}</span><h3>${T('Exit Interview skill', '整理谈话技能')}</h3><p class="muted">${T('Give this skill to the assistant you already use. It asks, it outlines, it never writes in your voice, and it stops if you are not okay.', '把这个技能交给你正在用的 AI 助手。它负责提问和列提纲，从不用你的口吻写，发现你状态不好就会停下。')}</p><a href="${REPO}/blob/main/skills/exit-interview/SKILL.md">${T('Read the skill →', '查看技能 →')}</a></div>
@@ -415,7 +430,7 @@ page({
     const oath = lang === 'zh'
       ? ['我不保管不属于我保管的东西。', '我从不独自开箱。', '我转述，我不扮演。', '我写清出处，也写清时效。', '到时候，我放手。', '我不卖目录，也不卖读者。', '我让灯一直亮着，但调得很暗。']
       : ['I keep nothing that is not mine to keep.', 'I never open a box alone.', 'I quote. I do not impersonate.', 'I cite the source, and the stage.', 'When it is time, I let go.', 'I do not sell the catalog, or its readers.', 'I keep the lights on, and low.'];
-    return `${pageHero({ lang, slug: 'librarians', title: T('Register of Librarians', '馆员名册'), lede: T('Librarians keep this place. They file projects, review deposits, run drills and translate. Each has a number. Numbers are not given out in order, and short or memorable ones are held back for events and contributors.', '馆员照看这个地方：登记项目、审核寄存、组织演练、做翻译。每人有一个编号。编号不按注册顺序发放，短号和好记的号码留给活动和贡献者。') })}
+    return `${pageHero({ lang, slug: 'librarians', image: 'mountain-station', alt: T('A small station with one lit window on a snowy ridge under the aurora', '极光下雪山脊上一座亮着一扇窗的小站'), title: T('Register of Librarians', '馆员名册'), lede: T('Librarians keep this place. They file projects, review deposits, run drills and translate. Each has a number. Numbers are not given out in order, and short or memorable ones are held back for events and contributors.', '馆员照看这个地方：登记项目、审核寄存、组织演练、做翻译。每人有一个编号。编号不按注册顺序发放，短号和好记的号码留给活动和贡献者。') })}
 <section class="block"><div class="wrap split">
   <div class="reveal">
     ${sectionHead(T('The register', '名册'), T('On duty.', '在岗。'))}
@@ -534,7 +549,7 @@ page({
     const never = lang === 'zh'
       ? ['保管钥匙、份额、明文、箱子、资产或钱。', '担任遗嘱执行人、遗产管理人、受托人或代理人。', '说一份交接清单就是法律遗嘱。', '用第一人称替逝者说话，克隆声音或面孔，或者陪家属聊天。', '在任何页面出现填写助记词、私钥或密码的输入框。', '在通知里放链接、向你要钱、让你输入或下载任何东西。', '在网站上做任何在线加密。', '放统计脚本、追踪器或第三方代码。', '发币、拿风险投资、按资产规模收费、收券商交易所殡葬保险的钱。', '删除你的文件。']
       : ['Hold keys, shares, plaintext, boxes, assets or money.', 'Act as an executor, administrator, trustee or agent.', 'Call an Ice Core a legal will.', 'Speak for the dead in the first person, clone a voice or a face, or chat with the family.', 'Show an input field for a recovery phrase, a private key or a password.', 'Put a link in a notice, ask for money, or ask you to type or download anything.', 'Run any online cryptography on this website.', 'Load analytics, trackers or third-party code.', 'Issue a token, take venture money, charge by the size of your assets, or take money from brokers, exchanges, funeral homes or insurers.', 'Delete your files.'];
-    return `${pageHero({ lang, slug: 'rules', title: T('House Rules', '馆规'), lede: T('Short rules, kept forever. If we ever break one, this page is the evidence.', '规矩很短，一直有效。如果哪天我们违反了其中一条，这一页就是证据。') })}
+    return `${pageHero({ lang, slug: 'rules', image: 'corridor', alt: T('A long institutional corridor ending at a frosted vault door', '一条长长的走廊，尽头是结了霜的金库门'), title: T('House Rules', '馆规'), lede: T('Short rules, kept forever. If we ever break one, this page is the evidence.', '规矩很短，一直有效。如果哪天我们违反了其中一条，这一页就是证据。') })}
 <section class="block"><div class="wrap split">
   <div class="reveal">
     ${sectionHead(T('Never', '永远不会'), T('Cold Library will never:', '冷藏图书馆永远不会：'))}

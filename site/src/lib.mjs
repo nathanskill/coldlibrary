@@ -50,7 +50,7 @@ export function directoryBoard(lang, slug) {
 </div>`;
 }
 
-export function layout({ lang, slug, title, description, body, image = '/assets/img/hero-stacks.jpg', bodyClass = '' }) {
+export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '' }) {
   const T = t(lang);
   const other = lang === 'en' ? 'zh' : 'en';
   const canonical = SITE + href(lang, slug);
