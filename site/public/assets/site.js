@@ -214,6 +214,24 @@
     });
   }
 
+  /* ---------- parallax ---------- */
+  var plx = $$('[data-parallax]');
+  if (plx.length && !reduceMotion) {
+    var ticking = false;
+    function paint() {
+      ticking = false;
+      var vh = window.innerHeight;
+      plx.forEach(function (n) {
+        var r = n.parentNode.getBoundingClientRect();
+        if (r.bottom < 0 || r.top > vh) return;
+        var k = parseFloat(n.getAttribute('data-parallax')) || 0.15;
+        n.style.transform = 'translate3d(0,' + ((r.top + r.height / 2 - vh / 2) * -k).toFixed(1) + 'px,0)';
+      });
+    }
+    window.addEventListener('scroll', function () { if (!ticking) { ticking = true; requestAnimationFrame(paint); } }, { passive: true });
+    paint();
+  }
+
   /* ---------- orientation ---------- */
   var term = $('#orientation');
   if (term) orientation(term);

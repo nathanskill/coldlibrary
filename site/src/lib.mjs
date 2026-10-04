@@ -50,13 +50,13 @@ export function directoryBoard(lang, slug) {
 </div>`;
 }
 
-export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '' }) {
+export function layout({ lang, slug, title, description, body, image = '/assets/img/hero-glacier.jpg', bodyClass = '' }) {
   const T = t(lang);
   const other = lang === 'en' ? 'zh' : 'en';
   const canonical = SITE + href(lang, slug);
   const enUrl = SITE + href('en', slug);
   const zhUrl = SITE + href('zh', slug);
-  const fullTitle = slug ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — a cold library for ordinary lives', '冷冻图书馆 — 给普通人的冷冻图书馆');
+  const fullTitle = slug ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — a handover file for the day you cannot be reached', '冷冻图书馆 — 身后事交接清单');
   return `<!doctype html>
 <html lang="${lang === 'zh' ? 'zh-CN' : 'en'}" data-theme="dark">
 <head>

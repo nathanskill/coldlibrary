@@ -3,6 +3,19 @@ import { t, esc, href, REPO, pageHero, sectionHead, card, floorsGrid, md } from 
 const ext = (url, label) => `<a href="${url}" rel="noopener">${label}</a>`;
 
 export const PAGES = [];
+
+const LONG_SHELF = [
+  { year: '1994', work: 'NetHack', maker_en: 'Izchak Miller, founding member of the DevTeam', maker_zh: 'Izchak Miller，DevTeam 创始成员', now_en: 'The NetHack DevTeam still ships releases; 5.0 came out in 2026.', now_zh: 'NetHack DevTeam 仍在发版，2026 年出了 5.0。', src: 'https://www.nethack.org/' },
+  { year: '2012', work: 'Alpine (Pine)', maker_en: 'Mark Crispin, an original author, also the author of IMAP', maker_zh: 'Mark Crispin，原作者之一，也是 IMAP 的作者', now_en: 'Maintained by Eduardo Chappa, with commits in 2026.', now_zh: '由 Eduardo Chappa 维护，2026 年仍有提交。', src: 'https://alpineapp.email/' },
+  { year: '2014', work: 'Rake', maker_en: 'Jim Weirich, who created it', maker_zh: 'Jim Weirich，创建者', now_en: 'Maintained by Hiroshi Shibata; v13.4.2 released in April 2026.', now_zh: '由 Hiroshi Shibata 维护，2026 年 4 月发布 v13.4.2。', src: 'https://github.com/ruby/rake' },
+  { year: '2015', work: 'Debian', maker_en: 'Ian Murdock, who founded it in 1993', maker_zh: 'Ian Murdock，1993 年创立', now_en: 'Thousands of volunteers and a release team keep it going.', now_zh: '成千上万的志愿者和发布团队让它继续运转。', src: 'https://bits.debian.org/2015/12/mourning-ian-murdock.html' },
+  { year: '2016', work: 'ZeroMQ', maker_en: 'Pieter Hintjens, who founded the project', maker_zh: 'Pieter Hintjens，项目创办者', now_en: 'An open team still merges fixes and security patches.', now_zh: '开放团队仍在合并修复和安全补丁。', src: 'https://github.com/zeromq/libzmq' },
+  { year: '2019', work: 'Erlang/OTP', maker_en: 'Joe Armstrong, co-inventor of Erlang', maker_zh: 'Joe Armstrong，Erlang 共同发明者', now_en: 'The Erlang/OTP team at Ericsson; OTP 29.1 shipped in September 2026.', now_zh: '爱立信的 Erlang/OTP 团队维护，2026 年 9 月发布 OTP 29.1。', src: 'https://www.erlang.org/news/87' },
+  { year: '2020', work: 'Boost C++', maker_en: 'Beman Dawes, co-founder', maker_zh: 'Beman Dawes，共同创始人', now_en: 'Library authors and the community; releases continue.', now_zh: '各库作者和社区共同维护，仍在持续发版。', src: 'https://www.boost.org/' },
+  { year: '2021', work: 'J', maker_en: 'Roger Hui, who designed it with Ken Iverson', maker_zh: 'Roger Hui，与 Ken Iverson 共同设计', now_en: 'Jsoftware and its contributors, with commits in 2026.', now_zh: 'Jsoftware 和贡献者维护，2026 年仍有提交。', src: 'https://www.jsoftware.com/papers/remembering.htm' },
+  { year: '2023', work: 'Vim', maker_en: 'Bram Moolenaar, its creator and long-time lead', maker_zh: 'Bram Moolenaar，创建者和长期主要开发者', now_en: 'Christian Brabandt and the Vim team; patches land almost daily.', now_zh: 'Christian Brabandt 和 Vim 团队维护，几乎每天都有补丁。', src: 'https://www.vim.org/vim-9.1-released.php' },
+];
+
 const page = (p) => PAGES.push(p);
 
 /* ------------------------------------------------------------------ */
@@ -10,25 +23,70 @@ page({
   slug: '',
   title: { en: 'Lobby', zh: '大厅' },
   description: {
-    en: 'Cold Library is an open format and offline tools for writing down what should happen when you can no longer be reached. We never hold your keys or your files.',
-    zh: '冷冻图书馆是一套开放格式和离线工具，用来写下联系不上以后该怎么办。我们从不保管你的钥匙和文件。',
+    en: 'If you could not be reached tomorrow, would anyone know what to do? Write down your accounts, projects and letters, seal them on your own computer, and split the key among people you trust. Free and open source.',
+    zh: '如果明天你联系不上了，有人知道该怎么办吗？把账户、项目和想说的话写下来，在自己电脑上封存，钥匙分给信得过的人。免费、开源，我们什么都不保管。',
   },
   render: (lang) => {
     const T = t(lang);
     return `
-<section class="hero">
-  <div class="hero-media"><img src="/assets/img/lake-library.jpg" srcset="/assets/img/lake-library-sm.jpg 820w, /assets/img/lake-library.jpg 1600w" sizes="100vw" alt="${T('A concrete and glass library on the shore of a frozen lake, snow mountains and a spruce forest behind it, a few windows lit', '冰湖岸边一座混凝土和玻璃的图书馆，背后是雪山和云杉林，几扇窗亮着')}"></div>
+<section class="hero hero-cine">
+  <div class="hero-media" data-parallax="0.18"><img src="/assets/img/hero-glacier.jpg" srcset="/assets/img/hero-glacier-sm.jpg 820w, /assets/img/hero-glacier.jpg 1536w" sizes="100vw" alt="${T('A vast library carved into a glacier above a frozen lake at night, under the aurora; one person with a lantern walks toward it', '夜里，一座刻进冰川的巨大图书馆立在冰湖上方，极光满天，一个人提着灯走过冰面')}" fetchpriority="high"></div>
+  <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
   <canvas class="snow" data-snow="full" aria-hidden="true"></canvas>
   <div class="wrap">
-    <div class="label"><span class="dot"></span>${T('The Cold Library · Est. 2026', '冷冻图书馆 · 建于 2026')}</div>
-    <h1 class="display mt-1">${T('A cold library for ordinary lives.', '给普通人的冷冻图书馆。')}</h1>
-    <p class="lede">${T('Write down what should happen if you can no longer be reached. Seal it. Give the keys to people you trust. Let it go when it is time. We never hold your keys or your files. You bring your own fuel.', '写下你联系不上以后该怎么办。封存起来，把钥匙交给你信任的人，到时候再放手。我们从不保管你的钥匙和文件，柴火你自己带。')}</p>
+    <div class="label"><span class="dot"></span>${T('Cold Library · a handover file for the day you cannot be reached', '冷冻图书馆 · 身后事交接清单')}</div>
+    <h1 class="display hero-q mt-1">${T('If you could not be reached tomorrow, would anyone know what to do?', '如果明天你联系不上了，<br>有人知道该怎么办吗？')}</h1>
+    <p class="lede">${T('Where your accounts are. Who takes over your project. What you want to say, and to whom. Write it down, seal it on your own computer, and split the key among people you trust. It opens only when two of them agree. Free, open source, and we never hold anything.', '账户在哪，项目交给谁，想对谁说什么。把它写下来，在你自己的电脑上封存，钥匙分给几位信得过的人，至少两人凑齐才能打开。免费、开源，我们什么都不保管。')}</p>
     <div class="btns">
-      <a class="btn ember" href="${href(lang, 'librarians/join')}">${T('Get a librarian card', '领一张馆员证')} <span class="k">→</span></a>
-      <a class="btn" href="${href(lang, 'stacks')}">${T('How an Ice Core works', '交接清单怎么用')}</a>
+      <a class="btn ember" href="${href(lang, 'stacks')}">${T('Start my list', '开始写我的清单')} <span class="k">→</span></a>
+      <a class="btn" href="${href(lang, 'librarians/join')}">${T('Get a librarian card', '领一张馆员证')}</a>
       <button class="btn ghost" type="button" data-open-directory>${T('Floor directory', '楼层指示')}</button>
     </div>
-    <div class="hero-meta"><span>${T('Open all night', '整夜开放')}</span><span>${T('Never opened by one person', '从不一个人开箱')}</span><span>${T('Spec', '规范')} <b>v0.1</b></span><span>${T('No cookies', '没有 Cookie')}</span></div>
+    <div class="hero-meta"><span>${T('Free', '免费')}</span><span>${T('Open source', '开源')}</span><span>${T('Sealed offline', '离线封存')}</span><span>${T('Opens only when two agree', '两人凑齐才能打开')}</span><span>${T('No cookies', '没有 Cookie')}</span></div>
+  </div>
+  <div class="scroll-cue" aria-hidden="true"></div>
+</section>
+
+<section class="block name-line">
+  <div class="wrap">
+    <div class="name-split reveal">
+      <div><span class="big">${T('Cold', '冷冻')}</span><p>${T('Sealed while you are here. Nobody can open it, not your keepers alone, and not us.', '你在的时候，封着。谁也打不开，开启人单独不行，我们也不行。')}</p></div>
+      <div class="plus" aria-hidden="true">+</div>
+      <div><span class="big">${T('Library', '图书馆')}</span><p>${T('When it is time, it is read properly: in order, by the right people, and only what you chose.', '到了该读的时候，被好好读到：按顺序，由对的人，只读你同意的部分。')}</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block story">
+  <div class="wrap">
+    ${sectionHead(T('In four pictures', '四个画面'), T('What the library does.', '这座图书馆做什么。'))}
+    <div class="story-grid">
+      <article class="story-card reveal"><img src="/assets/img/ice-letter-sm.jpg" srcset="/assets/img/ice-letter-sm.jpg 820w, /assets/img/ice-letter.jpg 1536w" sizes="(max-width: 900px) 100vw, 50vw" alt="${T('A sealed envelope with an orange wax seal inside a block of clear ice', '一封盖着橙色火漆的信，封在一块透明的冰里')}" loading="lazy"><div class="story-text"><span class="num">01 · ${T('Seal', '封存')}</span><h3>${T('What you want said, kept cold.', '想说的话，先冻起来。')}</h3><p>${T('Letters, instructions, the list of things only you know. Encrypted on your own computer. Nobody reads it while you are here.', '信、交代、只有你知道的那些事。在你自己的电脑上加密，你在的时候，谁也读不到。')}</p></div></article>
+      <article class="story-card reveal"><img src="/assets/img/three-keys-sm.jpg" srcset="/assets/img/three-keys-sm.jpg 820w, /assets/img/three-keys.jpg 1536w" sizes="(max-width: 900px) 100vw, 50vw" alt="${T('Three hands each holding a piece of one broken brass key', '三只手各拿着一把铜钥匙的一截')}" loading="lazy"><div class="story-text"><span class="num">02 · ${T('Split the key', '分钥匙')}</span><h3>${T('Three people. Any two.', '三个人，任意两个。')}</h3><p>${T('The key is split into three shares on paper. Any two keepers together can open the box. One alone cannot, and neither can we.', '钥匙拆成三份，写在纸上交给三个人。任意两人凑齐才能打开，一个人不行，我们也不行。')}</p></div></article>
+      <article class="story-card reveal"><img src="/assets/img/snow-desk-sm.jpg" srcset="/assets/img/snow-desk-sm.jpg 820w, /assets/img/snow-desk.jpg 1536w" sizes="(max-width: 900px) 100vw, 50vw" alt="${T('A lone desk in a snowfield at night with a notebook, a laptop, keys and a lit lamp', '夜里雪原上一张孤零零的书桌，上面有笔记本、电脑、钥匙和一盏亮着的灯')}" loading="lazy"><div class="story-text"><span class="num">03 · ${T('Hand over', '交接')}</span><h3>${T('No one left staring at locked doors.', '别让家人对着一堆锁发呆。')}</h3><p>${T('Which accounts exist and who to ask. Which subscriptions to stop. Who takes over the project, the domain, the cat. Pointers only, never passwords.', '有哪些账户、该找谁；哪些订阅要停；项目、域名、猫交给谁。只写在哪、找谁，从不写密码。')}</p></div></article>
+      <article class="story-card reveal"><img src="/assets/img/thaw-sm.jpg" srcset="/assets/img/thaw-sm.jpg 820w, /assets/img/thaw.jpg 1536w" sizes="(max-width: 900px) 100vw, 50vw" alt="${T('Ice breaking up on a lake at sunrise, a paper boat on the open water', '日出时湖冰开化，一只纸船漂在水面上')}" loading="lazy"><div class="story-text"><span class="num">04 · ${T('Let go', '放手')}</span><h3>${T('Then the ice melts.', '然后，冰会化。')}</h3><p>${T('Every wish has a half-life: first followed, then advice, then only remembered. The living get to go on living.', '每条嘱托都有时效：先照办，再参考，最后只是记住。活着的人可以继续生活。')}</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    ${sectionHead(T('Who it is for', '写给谁'), T('Anyone whose life has a few locked doors.', '人生里有几扇上锁的门的人。'))}
+    <div class="who reveal">
+      <div><b>${T('Holding digital assets', '有数字资产的人')}</b><span>${T('Wallets and accounts that simply vanish if nobody knows they exist.', '钱包和账户，没人知道它存在，就等于没了。')}</span></div>
+      <div><b>${T('Running a project', '在做项目的人')}</b><span>${T('Domains, servers, users, an open-source repo that others depend on.', '域名、服务器、用户，别人依赖的开源仓库。')}</span></div>
+      <div><b>${T('Living far from family', '一个人在外地生活')}</b><span>${T('The people who would have to sort things out know the least.', '真要收拾残局的人，知道得最少。')}</span></div>
+      <div><b>${T('A parent', '做了父母的人')}</b><span>${T('A few sentences for later, released only when it is time.', '有几句话想留到以后，到了时候才交出去。')}</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="cine-band" aria-label="${T('The Closed Stacks', '闭架书库')}">
+  <div class="cine-media" data-parallax="0.12"><img src="/assets/img/ice-archive.jpg" srcset="/assets/img/ice-archive-sm.jpg 820w, /assets/img/ice-archive.jpg 1536w" sizes="100vw" alt="${T('An endless archive of drawers inside a glacier, one librarian with a warm lamp on a ladder', '冰川里望不到头的抽屉档案馆，一位馆员提着暖灯站在梯子上')}" loading="lazy"></div>
+  <div class="wrap">
+    <div class="label"><span class="dot"></span>${T('B1 · The Closed Stacks', 'B1 · 闭架书库')}</div>
+    <h2 class="section-title mt-1">${T('Kept cold. Read when it is time.', '冻着保存，到时候再读。')}</h2>
+    <a class="btn mt-2" href="${href(lang, 'stacks')}">${T('How an Ice Core works', '交接清单怎么用')} <span class="k">→</span></a>
   </div>
 </section>
 
@@ -174,7 +232,7 @@ page({
     const sections = lang === 'zh'
       ? ['0 先读这里', '1 该找谁', '2 项目与交接', '3 账户（只写官方身后流程）', '4 资产（只写在哪、找谁）', '5 心愿和它们的时效', '6 信件索引', '7 开架区（愿意公开的）', '8 我不想要的', '9 给 agent 的规矩']
       : ['0 Read this first', '1 Who to call', '2 Projects and handover', '3 Accounts (official after-death routes only)', '4 Assets (where, and who to ask)', '5 Wishes and their half-life', '6 Letters index', '7 Open Stacks (what may be public)', '8 What I do not want', '9 Rules for agents'];
-    return `${pageHero({ lang, slug: 'stacks', title: T('Closed Stacks', '闭架书库'), lede: T('An Ice Core is one person\'s file. You write it, seal it, and give the keys to people you trust. It never sits on our shelves: the closed stacks are wherever you keep it.', '交接清单是一个人的档案。你写好、封存，把钥匙交给信任的人。它从不放在我们的架子上：你把它放在哪，哪里就是闭架书库。'), image: 'hero-stacks', alt: T('Catalog cabinets inside a tunnel of ice', '冰隧道里的目录柜') })}
+    return `${pageHero({ lang, slug: 'stacks', title: T('Closed Stacks', '闭架书库'), lede: T('An Ice Core is one person\'s file. You write it, seal it, and give the keys to people you trust. It never sits on our shelves: the closed stacks are wherever you keep it.', '交接清单是一个人的档案。你写好、封存，把钥匙交给信任的人。它从不放在我们的架子上：你把它放在哪，哪里就是闭架书库。'), image: 'ice-archive', alt: T('An endless archive of drawers inside a glacier, one librarian with a warm lamp on a ladder', '冰川里望不到头的抽屉档案馆，一位馆员提着暖灯站在梯子上') })}
 <section class="block"><div class="wrap split">
   <div class="reveal">
     ${sectionHead(T('Contents', '内容'), T('Ten short sections.', '十个短章节。'), T('Written for the people and the machines that will act on it. Not a memoir.', '写给将来照着它办事的人和机器看的，不是回忆录。'))}
@@ -225,7 +283,7 @@ page({
       [T('After death', '身后'), T('The asset map goes to the executor or administrator. Letters are released.', '资产地图交给遗嘱执行人或遗产管理人，信件放出。'), T('Quorum, veto window, and the custodian\'s own conditions', '人数凑齐、过否决期，并满足保管方的条件')],
       [T('Public', '公开'), T('Open Stacks items and irreversible instructions that affect the living.', '公开文集，以及会影响活人的不可逆指令。'), T('Consent per item while alive, 180-day cooling, 2 keeper signatures. Keepers may decline.', '生前逐项同意、180 天冷静期、2 位开启人签字。开启人可以拒绝。')],
     ];
-    return `${pageHero({ lang, slug: 'harbour', title: T('The Cold Harbour', '冷港'), lede: T('In old England, a cold harbour was a shelter by the road: no keeper, no fire, only a roof against the weather. Here it is where sealed letters wait until it is their time to leave.', '在古时候的英国，"冷港"是路边的一间屋子：没人看守，没有炉火，只有一个挡风雪的屋顶。在这里，它是封好的信停靠的地方，等时候到了再出发。'), image: 'harbour', alt: T('A small wooden shelter on a frozen harbour, one window lit', '结冰港湾边的一间小木屋，一扇窗亮着') })}
+    return `${pageHero({ lang, slug: 'harbour', title: T('The Cold Harbour', '冷港'), lede: T('In Old English, a cold harbour was a cold shelter: a roof in the open, somewhere to wait out the weather. Here it is where sealed letters wait until it is their time to leave.', '在古英语里，"冷港"的意思是一处冷的庇护所：野外的一片屋顶，让人在那里等风雪过去。在这里，它是封好的信停靠的地方，等时候到了再出发。'), image: 'ice-letter', alt: T('A sealed envelope with an orange wax seal inside a block of clear ice', '一封盖着橙色火漆的信，封在一块透明的冰里') })}
 <section class="block"><div class="wrap">
   ${sectionHead(T('Before anything leaves', '出发之前'), T('Silence, reminder, confirmation, veto.', '静默、提醒、确认、否决。'), T('Defaults below. You can change them in your own file.', '下面是默认值，你可以在自己的文件里改。'))}
   <div class="steps reveal">
@@ -262,7 +320,7 @@ page({
       [T('A time-lock layer', '时间锁'), T('An extra layer that nobody can open before a set date. Renewed each time you check in.', '再套一层锁，约定日期之前谁都打不开。每次报到时顺延。'), T('Depends on an outside network staying up. Use it as an extra layer, not the only one.', '依赖外部网络一直运行，只能当附加层，不能当唯一一层。')],
       [T('Keepers only', '只交给开启人'), T('Keepers hold both the shares and the box.', '开启人同时拿着份额和箱子。'), T('Any quorum can open at any time. Silence and veto become promises between people. You must tick “I understand”.', '凑够人数就能随时打开，静默期和否决期只是人与人之间的约定。你必须勾选"我知道"。')],
     ];
-    return `${pageHero({ lang, slug: 'keepers', title: T('Key Room', '钥匙房'), lede: T('Your key is split into shares. No single person can open anything. It takes two of three, or whatever number you choose, and the box itself is held somewhere else.', '你的钥匙被拆成几份。任何一个人单独都打不开。默认要三份中的两份，人数你可以自己定；箱子本身则放在别处。') })}
+    return `${pageHero({ lang, slug: 'keepers', title: T('Key Room', '钥匙房'), lede: T('Your key is split into shares. No single person can open anything. It takes two of three, or whatever number you choose, and the box itself is held somewhere else.', '你的钥匙被拆成几份。任何一个人单独都打不开。默认要三份中的两份，人数你可以自己定；箱子本身则放在别处。') , image: 'three-keys', alt: T('Three hands each holding a piece of one broken brass key', '三只手各拿着一把铜钥匙的一截')})}
 <section class="block"><div class="wrap split">
   <div class="reveal">
     ${sectionHead(T('Keepers', '开启人'), T('Choose people, not passwords.', '选人，不是选密码。'))}
@@ -290,7 +348,7 @@ page({
   description: { en: 'Every wish has a half-life: binding, then advisory, then archive. Why the dead should not rule the living.', zh: '每条心愿都有时效：先照办，再参考，最后存档。为什么逝者不该统治活着的人。' },
   render: (lang) => {
     const T = t(lang);
-    return `${pageHero({ lang, slug: 'half-life', title: T('Department of Half-life', '时效科'), lede: T('A wish should matter most just after you have gone, and less as the years pass. The living need room. This department measures how long each wish may bind them.', '你刚走的时候，你的心愿最该被照办；时间越久，就越该退到一边。活着的人需要空间。这个科室负责测量每条心愿能约束他们多久。'), image: 'lake-dawn', alt: T('A still lake mirroring snow mountains at dawn', '清晨的湖面像镜子一样倒映雪山') })}
+    return `${pageHero({ lang, slug: 'half-life', title: T('Department of Half-life', '时效科'), lede: T('A wish should matter most just after you have gone, and less as the years pass. The living need room. This department measures how long each wish may bind them.', '你刚走的时候，你的心愿最该被照办；时间越久，就越该退到一边。活着的人需要空间。这个科室负责测量每条心愿能约束他们多久。'), image: 'thaw', alt: T('Ice breaking up on a lake at sunrise, a paper boat on the open water', '日出时湖冰开化，一只纸船漂在水面上') })}
 <section class="block"><div class="wrap">
   <div class="panel halflife reveal" data-halflife>
     <div class="hl-status"><span>${T('Years since', '离开后')} <b data-hl-years>0</b> ${T('years', '年')}</span><span>${T('Stage', '阶段')}: <b data-hl-stage>${T('Binding', '照办')}</b></span></div>
@@ -378,8 +436,12 @@ page({
     <h3>${T('List a project', '登记一个项目')}</h3>
     <p class="muted">${T('Open an accession request on GitHub. Tell us the link, the maintainers, where the handover notes live and where copies are archived. A librarian files the card.', '在 GitHub 上提交一份入藏申请，告诉我们链接、维护者、交接文档在哪、副本存在哪。馆员会为它建一张卡片。')}</p>
     <a class="btn mt-1" href="${REPO}/issues/new?template=project-accession.yml">${T('Open an accession request', '提交入藏申请')}</a>
-    <p class="faint mt-2">${T('Coming next: the Long Shelf, an exhibit of works that outlived their makers, researched with care and sources.', '下一步：长架，展出那些比作者活得更久的作品，每一条都附出处，谨慎考证。')}</p>
   </div>
+</div></section>
+<section class="block"><div class="wrap">
+  ${sectionHead(T('The Long Shelf', '长架'), T('Works that outlived their makers.', '比作者活得更久的作品。'), T('Each of these lost a founder or a core maker, and someone carried on. Facts checked on 2026-10-04, each with a source. Shown with respect, not as a warning.', '这些项目都失去过创始人或核心作者，然后有人接着做了下去。2026-10-04 核实，每条都有出处。陈列它们是出于敬意，不是为了吓人。'))}
+  <div class="shelf reveal">${LONG_SHELF.map((r) => `<div class="shelf-row"><span class="yr">${r.year}</span><div><b>${esc(r.work)}</b><span class="who-made">${esc(T(r.maker_en, r.maker_zh))}</span></div><p>${esc(T(r.now_en, r.now_zh))}</p><a href="${r.src}" rel="noopener">${T('Source', '出处')}</a></div>`).join('')}</div>
+  <div class="panel mt-3 reveal"><span class="num">${T('ONE SETTING, FIVE MINUTES', '一个设置，五分钟')}</span><h3>${T('Name a GitHub successor.', '给你的 GitHub 指定一位继任者。')}</h3><p class="muted">${T('Settings → Account → Successor settings. If you can no longer manage your account, your successor can archive your public repositories or transfer them, after GitHub checks a death certificate (7 days) or an obituary (21 days). They cannot log in as you and do not get your private repositories. Write the rest into your Ice Core.', '设置 → Account → Successor settings。当你无法再管理账户时，继任者在 GitHub 核实死亡证明（等 7 天）或讣告（等 21 天）后，可以归档或转移你的公开仓库。他不能登录你的账户，也拿不到私有仓库。其余的，写进你的交接清单。')} ${ext('https://docs.github.com/en/account-and-profile/concepts/personal-repository-access-and-collaboration', T('GitHub docs', 'GitHub 文档'))}</p></div>
 </div></section>`;
   },
 });
@@ -597,7 +659,7 @@ page({
   <p class="faint">${ext('https://www.seedvault.no/', 'seedvault.no')} · ${ext('https://www.arcticworldarchive.org/', 'arcticworldarchive.org')} · ${ext('https://www.cnrs.fr/en/press/ice-memory-foundation-opens-first-ever-sanctuary-mountain-ice-cores-antarctica-storing-these', 'CNRS · Ice Memory')}</p></div>
   <div class="panel reveal"><span class="num">2014 → 2114</span><h3>${T('Library', '图书馆')}</h3><p class="muted">${T('In 2014 the artist Katie Paterson planted a thousand trees outside Oslo. Each year one writer gives the Future Library a manuscript, which stays unread in a quiet room of the city\'s public library until 2114, when the trees become the paper. A library can promise to wait.', '2014 年，艺术家凯蒂·帕特森在奥斯陆城外种下一千棵树。每年有一位作家把一份手稿交给"未来图书馆"，手稿存放在奥斯陆公共图书馆的一间静室里，没人读过，一直要等到 2114 年，那时这些树会被做成纸。图书馆可以承诺等待。')}</p>
   <p class="faint">${ext('https://katiepaterson.org/now/future-library/', 'katiepaterson.org')}</p></div>
-  <div class="panel reveal"><span class="num">CEALD + HEREBEORG</span><h3>${T('Cold harbour', '冷港')}</h3><p class="muted">${T('Coldharbour is an old English place name: from ceald, cold, and herebeorg, shelter. It meant a bare roadside refuge with no keeper and no fire. You brought your own fuel. That is still the deal here.', 'Coldharbour 是英国的一个老地名，来自古英语 ceald（冷）和 herebeorg（庇护所），指路边一间简陋的歇脚屋：没人看守，没有炉火，柴火要自己带。这也是本馆至今的规矩。')}</p>
+  <div class="panel reveal"><span class="num">CEALD + HEREBEORG</span><h3>${T('Cold harbour', '冷港')}</h3><p class="muted">${T('Coldharbour is an old English place name. Place-name scholars read it as Old English cald here-beorg: a cold shelter, a lodging in the open. Folklore pictures a roadside hut with no keeper and no fire, where you brought your own fuel; that part is a story, not a record. We kept the story as a house rule.', 'Coldharbour 是英国的一个老地名。地名学者把它解释为古英语 cald here-beorg：冷的庇护所，野外的住处。民间说法里，它是路边一间没人看守、没有炉火的歇脚屋，柴火要自己带——这一段是传说，不是史料。我们把这个传说留下来，当作馆规。')}</p>
   <p class="faint">${ext('https://southoxfordhistory.org.uk/images/photos/Local_history_section/Abingdon_Road/Coldharbour_notes_on_place_name_by_Tim_Healey_Oct_2018.pdf', 'South Oxford History')} · ${ext('https://en.wikipedia.org/wiki/Coldharbour', 'Wikipedia')}</p></div>
   <div class="panel reveal"><span class="num">冷冻 · −18 °C</span><h3>${T('冷冻图书馆', '冷冻图书馆')}</h3><p class="muted">${T('The Chinese name means “frozen library”. Seeds in Svalbard are frozen at minus eighteen degrees, and decades later they can still be sown. Freezing is a pause, not an end. That is what we want for the things people leave here.', '冷冻，是种子库对种子做的事：在零下十八度冻起来，几十年后拿出来，照样能播种。冷冻是暂停，不是结束。我们希望人们留在这里的东西也是这样。')}</p></div>
 </div></section>
