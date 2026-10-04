@@ -29,11 +29,12 @@ recognised layer as ciphertext it cannot read; the warden questions; lamps and t
 - Website: https://coldlibrary.com (bilingual, English default)
 - Items: `catalog/items/*.json` (published), `catalog/items-src/` (fictional examples only, with answers)
 - Tools: `tools/seal-item.mjs` (lock an item), `tools/publish-item.mjs` (hang an approved application)
+- Contracts: `contracts/` (Foundry; `forge install foundry-rs/forge-std` then `forge test`) · Whitepaper: `docs/whitepaper.md`, `docs/whitepaper.zh.md`
 - Spec: `spec/v0.1/` (CC0-1.0) · CLI: `cli/` (Python, Apache-2.0) · Interview: `skills/exit-interview/`
 
 ## Red lines (never cross)
 
-1. Never hold keys, shares, plaintext, boxes, assets, or money. No custody of anything.
+1. The operators never hold keys, shares, plaintext, boxes or funds. Crypto assets may only sit in the owner's own Cold Vault contract (`contracts/`): no admin, no pause, no upgrade, no fee. The owner alone decides heirs and shares (founder, 2026-10-05: 由发起人决定怎么分配，他自己掌控，我们不直接托管钱，我们是一个 web3 协议).
 2. Never act as executor, estate administrator, trustee, or agent. No irreversible action on anyone's behalf.
 3. Never claim a Cold Library file is a legal will. Property follows the legal will or statutory inheritance.
 4. Never impersonate anyone: wardens quote with a date and say "they wrote", never "I". No voice or face cloning.
@@ -41,7 +42,7 @@ recognised layer as ciphertext it cannot read; the warden questions; lamps and t
 6. The server never decrypts anything and never sees warden answers. Locking happens in the owner's browser (or tools/seal-item.mjs), unlocking in the visitor's browser. Real answers are never committed.
 7. No tracking, no analytics, no third-party scripts, no external fonts or CDNs on the website.
 8. No tokens, no VC, no commissions, no "per asset" fees, no broker/exchange/funeral/insurance sponsorship.
-9. Asset entries say *where* and *who to ask*, never amounts, passwords, or recovery phrases.
+9. In files and items, asset entries say *where* and *who to ask*, never amounts, passwords, or recovery phrases. A trial never guards money directly: only a vault's registered heir wallet can claim. No real funds before an independent audit.
 10. Do not name any exchange or broker in Chinese-language materials.
 11. Safety: 18+ only. Stop the interview on any sign of self-harm and show crisis resources. 7-day cooling period before the first seal. A plaque for someone else needs their consent, or their close family's if they have died; every application is reviewed.
 12. Never delete user files. Tools may write new files; they never remove plaintext. They remind the user instead.

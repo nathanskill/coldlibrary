@@ -20,6 +20,7 @@ export const FLOORS = [
   { code: 'L', slug: '', en: 'Lobby', zh: '大厅', what_en: 'Where everyone comes in from the cold.', what_zh: '从外面的冷里走进来的地方。' },
   { code: 'B1', slug: 'stacks', en: 'Closed Stacks', zh: '闭架书库', what_en: 'The sealed layer: things kept for later.', what_zh: '封存层：留给以后的东西。' },
   { code: 'B2', slug: 'harbour', en: 'The Cold Harbour', zh: '冷港', what_en: 'When sealed things are opened, and by whom.', what_zh: '封存的东西什么时候打开，由谁打开。' },
+  { code: 'B4', slug: 'vault', en: 'The Cold Vault', zh: '冷库', what_en: 'Crypto assets in your own contract. You decide who gets what.', what_zh: '加密资产放在你自己的合约里，怎么分由你定。' },
   { code: 'B3', slug: 'keepers', en: 'Key Room', zh: '钥匙房', what_en: 'Keys split among people you trust.', what_zh: '钥匙分给你信任的几个人。' },
   { code: 'W', slug: 'warm-room', en: 'The Warm Room', zh: '暖房', what_en: 'If you are not okay, come here first.', what_zh: '如果你现在不太好，先来这里。', warm: true },
 ];
@@ -154,12 +155,13 @@ export function footer(lang) {
         <div class="brand">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></div>
         <p class="mt-1">${T('A library for everything that is yours, and for the will that carries it on. Perpetual exhibits for projects, perpetual plaques for people, and AI wardens that open the deeper shelves only to the people you recognise.', '一座收藏属于你的一切、并把你的意志传下去的图书馆。项目有永续展位，人有永续铭牌；更深的那几层，只由你设定的 AI 守馆人，对你认可的人打开。')}</p>
       </div>
-      <div><h4>${T('Floors', '楼层')}</h4><ul>${['exhibits', 'plaques', 'wardens', 'accession', 'stacks'].map(link).join('')}</ul></div>
+      <div><h4>${T('Floors', '楼层')}</h4><ul>${['exhibits', 'plaques', 'wardens', 'vault', 'accession'].map(link).join('')}</ul></div>
       <div><h4>${T('The house', '本馆')}</h4><ul>${['librarians', 'continuance', 'rules', 'ledger', 'name'].map(link).join('')}</ul></div>
       <div><h4>${T('Source', '源代码')}</h4><ul>
         <li><a href="${REPO}">GitHub</a></li>
         <li><a href="${REPO}/blob/main/spec/v0.1/${lang === 'zh' ? 'SPEC.zh.md' : 'SPEC.md'}">${T('Spec v0.1', '格式规范 v0.1')}</a></li>
         <li><a href="${REPO}/tree/main/cli">${T('Command-line tool', '命令行工具')}</a></li>
+        <li><a href="${REPO}/blob/main/docs/${lang === 'zh' ? 'whitepaper.zh.md' : 'whitepaper.md'}">${T('Whitepaper', '技术白皮书')}</a></li>
         <li><a href="${REPO}/blob/main/docs/${lang === 'zh' ? 'threat-model.zh.md' : 'threat-model.md'}">${T('Threat model', '威胁模型')}</a></li>
       </ul></div>
     </div>

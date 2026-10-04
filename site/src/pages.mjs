@@ -87,13 +87,25 @@ page({
 
 <section class="block">
   <div class="wrap">
-    ${sectionHead(T('The trial', '考验'), T('Pass the warden. Inherit what was left.', '通过守馆人的考验，解锁前辈留下的财富。'), T('Wealth here means what a person leaves behind: letters, know-how, a project to carry on, a title, and directions to anything set aside. The library itself never holds money or assets.', '这里说的财富，是一个人留下的东西：信、手艺和门道、可以接着做的项目、一个身份，以及某样东西放在哪、找谁领的指引。本馆自己从不经手任何钱和资产。'))}
+    ${sectionHead(T('The trial', '考验'), T('Pass the warden. Inherit what was left.', '通过守馆人的考验，解锁前辈留下的财富。'), T('Wealth here means what a person leaves behind: letters, know-how, a project to carry on, a title, directions to anything set aside, and crypto assets in their own Cold Vault. The library never takes custody of any of it.', '这里说的财富，是一个人留下的东西：信、手艺和门道、可以接着做的项目、一个身份、某样东西放在哪找谁领的指引，以及放在他自己冷库合约里的加密资产。本馆从不托管其中任何一样。'))}
     <div class="steps reveal">
       <div class="step"><h3>${T('You write', '你来写')}</h3><p>${T('What to show everyone, and what to leave for the people who matter: a letter, a story, notes for a successor.', '写下给所有人看的，以及留给重要的人的：一封信、一段故事、给接班人的话。')}</p></div>
       <div class="step"><h3>${T('You set the test', '你来出题')}</h3><p>${T('A few questions only the right people can answer. The answers never leave your computer; they become the key.', '出几个只有对的人才答得上的问题。答案不会离开你的电脑，它们本身就是钥匙。')}</p></div>
       <div class="step"><h3>${T('The warden asks', '守馆人来问')}</h3><p>${T('Visitors talk to your warden. It does not hint, does not bargain, and cannot be paid.', '访客和你的守馆人对话。它不给提示，不讲价，也收买不了。')}</p></div>
       <div class="step"><h3>${T('They receive', '对的人收到')}</h3><p>${T('What you left them, the right to light a lamp and leave a word, a badge such as successor, and directions to anything you set aside.', '你留给他们的东西、点灯留言的资格、一枚徽章（比如"接班人"），以及你留下的东西在哪里、找谁领。')}</p></div>
     </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap split">
+    <div class="reveal">
+      <div class="label ember"><span class="dot"></span>${T('B4 · The Cold Vault', 'B4 · 冷库')}</div>
+      <h2 class="section-title mt-1">${T('What is left can be real assets, too.', '留下的财富，也可以是真金白银。')}</h2>
+      <p class="lede">${T('Keep crypto assets in a Cold Vault: a smart contract that belongs to you, not to us. You decide who receives what share, and when. You can take everything back at any time. If you go silent, your keepers confirm, a veto window passes, and each heir claims their own share with their own wallet.', '把加密资产放进冷库：一个属于你、不属于我们的智能合约。给谁、给多少、什么时候给，都由你决定，你随时可以全部取回。如果你长时间没有音讯，开启人确认、否决期过去，每位继承人用自己的钱包领走自己那一份。')}</p>
+      <div class="btns"><a class="btn ember" href="${href(lang, 'vault')}">${T('How the vault works', '冷库怎么运作')}</a><a class="btn ghost" href="${REPO}/blob/main/docs/${lang === 'zh' ? 'whitepaper.zh.md' : 'whitepaper.md'}">${T('Read the whitepaper', '读技术白皮书')}</a></div>
+    </div>
+    <div class="reveal">${card({ acc: 'B4 · ColdVault', title: T('Non-custodial', '非托管'), fields: [[T('Who holds it', '谁拿着'), T('Your own contract', '你自己的合约')], [T('Who decides', '谁决定'), T('You alone', '只有你')], [T('Admin key', '管理员密钥'), T('None', '没有')], [T('Fee', '手续费'), T('None', '没有')], [T('Status', '状态'), T('Tested, not yet audited', '已测试，尚未审计')]], stamp: T('Testnet next', '下一步测试网') })}</div>
   </div>
 </section>
 
@@ -299,6 +311,39 @@ page({
 <section class="block"><div class="wrap narrow reveal">
   <div class="notice">${T('Status, plainly: the wardens on the example pages follow a script. A warden that holds a real conversation through a language model is being built. Either way, the rules are yours and the key never leaves the visitor\'s browser.', '老实说现状：示例页面上的守馆人是按脚本走的；能用大模型真正对话的守馆人正在做。无论哪种，规矩都由你定，钥匙都不会离开访客的浏览器。')}</div>
   <div class="btns"><a class="btn" href="${href(lang, 'plaques')}">${T('Try a warden', '试一位守馆人')}</a><a class="btn ghost" href="${href(lang, 'accession')}">${T('Set up your own', '设一位自己的')}</a></div>
+</div></section>`;
+  },
+});
+
+
+/* ------------------------------------------------------------------ */
+page({
+  slug: 'vault',
+  title: { en: 'The Cold Vault', zh: '冷库' },
+  description: { en: 'A non-custodial smart contract: your crypto assets stay in your own contract, and you alone decide who receives what share, and when.', zh: '非托管的智能合约：加密资产留在你自己的合约里，给谁、给多少、什么时候给，只由你决定。' },
+  render: (lang) => {
+    const T = t(lang);
+    const wp = `${REPO}/blob/main/docs/${lang === 'zh' ? 'whitepaper.zh.md' : 'whitepaper.md'}`;
+    return `${pageHero({ lang, slug: 'vault', title: T('The Cold Vault', '冷库'), lede: T('Wealth you leave behind should not sit with a stranger. A Cold Vault is a smart contract you deploy for yourself. Cold Library never holds it, cannot open it and takes nothing from it. The contract only follows the plan you wrote.', '你留下的财富，不该放在陌生人手里。冷库是你自己部署的智能合约。冷冻图书馆从不拿着它，打不开它，也不从里面拿一分钱。合约只按你写下的计划办事。'), image: 'drawers', alt: T('A frosted catalogue drawer with a brass label holder', '铜标签框上结了霜的目录抽屉') })}
+<section class="block"><div class="wrap">
+  ${sectionHead(T('How it works', '怎么运作'), T('You decide. The contract follows.', '你来决定，合约照办。'))}
+  <div class="steps reveal">
+    <div class="step"><h3>${T('Set the plan', '定计划')}</h3><p>${T('Heirs and their shares, up to twenty. Keepers who can confirm you are gone silent, and how many must agree. How long the silence, how long the veto window. Optionally a date, like a time capsule.', '继承人和各自的份额，最多二十位。能确认你失联的开启人，以及需要几位同意。多久算失联，否决期多长。也可以设一个日期，像时间胶囊。')}</p></div>
+    <div class="step"><h3>${T('Live as usual', '照常生活')}</h3><p>${T('Deposit, withdraw, change the plan, any time. Every action counts as a check-in and cancels anything pending.', '随时存入、取回、改计划。你的每个操作都算一次报到，会撤销所有进行中的流程。')}</p></div>
+    <div class="step"><h3>${T('If you go silent', '如果你没了音讯')}</h3><p>${T('After the silence period, your keepers confirm. A veto window follows: you can cancel by checking in, and each keeper can stop it once.', '失联期过后，开启人确认。接着是否决期：你只要报到一次就能撤销，每位开启人也能叫停一次。')}</p></div>
+    <div class="step"><h3>${T('Heirs claim', '继承人领取')}</h3><p>${T('Each heir claims their own share with their own wallet. Assets that arrive later are split the same way. Nobody else can claim, whatever they know.', '每位继承人用自己的钱包领走自己那一份，之后才到账的资产也按同样比例分。其他人不管知道什么，都领不走。')}</p></div>
+  </div>
+</div></section>
+<section class="block"><div class="wrap split">
+  <div class="reveal">
+    ${sectionHead(T('With an exhibit or a plaque', '和展位、铭牌连在一起'), T('The trial tells them how. Only their wallet can claim.', '考验告诉他们怎么领，只有他们的钱包能领。'))}
+    <p class="lede">${T('Link a vault to your exhibit or plaque. When an heir passes your warden\'s trial, the recognised layer shows them the vault, the chain, their share and plain instructions. Guessing the answers gains nothing: the contract pays only the wallets you registered.', '把冷库和你的展位或铭牌连起来。继承人通过守馆人的考验后，认可层会告诉他：冷库地址、在哪条链上、他占几成，以及一份白话的领取说明。猜中答案也没用：合约只付给你登记过的钱包。')}</p>
+  </div>
+  <div class="reveal">${card({ acc: 'ColdVault.sol', title: T('The contract', '合约'), fields: [[T('Holds', '持有'), T('Native coin and ERC-20 tokens', '链上原生币和 ERC-20 代币')], [T('Admin, pause, upgrade', '管理员、暂停、升级'), T('None', '都没有')], [T('Fee', '手续费'), T('None', '没有')], [T('Tests', '测试'), T('27 unit and fuzz tests, full path on a local chain', '27 个单元和随机测试，完整流程在本地链跑通')], [T('Audit', '审计'), T('Not yet. Do not use real funds before it.', '还没有。审计之前不要放真钱。')]], stamp: T('Open source', '开源'), stampClass: 'ice' })}</div>
+</div></section>
+<section class="block"><div class="wrap narrow reveal">
+  <div class="notice warn">${T('Status: the contracts are tested but not audited and not deployed on any public network yet. Crypto-asset services are restricted or prohibited in some places, including mainland China; the vault is not offered where it is not lawful. A vault is not a legal will.', '现状：合约已经测试，但还没有审计，也还没有部署到任何公开网络。加密资产相关服务在一些地方受到限制或被禁止，包括中国大陆；在不合法的地方不提供冷库。冷库不是法律遗嘱。')}</div>
+  <div class="btns"><a class="btn" href="${wp}">${T('Read the whitepaper', '读技术白皮书')}</a><a class="btn ghost" href="${REPO}/tree/main/contracts">${T('Contract source', '合约源代码')}</a></div>
 </div></section>`;
   },
 });
@@ -691,7 +736,7 @@ page({
     <div class="panel mt-2"><span class="num">${T('WHAT WE STORE', '我们存了什么')}</span><h3>${T('Stored, and not stored.', '存了什么，没存什么。')}</h3>
       <dl class="kv">
         <dt>${T('Stored', '存了')}</dt><dd>${T('Librarians: email, pen name, number, language, listed or not, dates. Exhibits and plaques: the public layer, the recognised layer as ciphertext we cannot read, the warden\'s questions, lamps and the notes left with them. A salted hash of your network address for one day, to stop abuse.', '馆员：邮箱、笔名、编号、语言、是否公开、日期。展位和铭牌：公开层、我们读不了的认可层密文、守馆人的问题、灯和留言。另外，为了防滥用，把你的网络地址加盐散列后保存一天。')}</dd>
-        <dt>${T('Never stored', '从不保存')}</dt><dd>${T('The answers to warden questions, keys, shares, sealed files, cookies, analytics.', '守馆人问题的答案、钥匙、份额、封存的文件、Cookie、统计数据。')}</dd>
+        <dt>${T('Never stored', '从不保存')}</dt><dd>${T('The answers to warden questions, keys, shares, sealed files, funds, cookies, analytics. Cold Vaults are your own contracts on a public chain; we hold nothing in them.', '守馆人问题的答案、钥匙、份额、封存的文件、资金、Cookie、统计数据。冷库是你自己在公链上的合约，我们在里面什么都不持有。')}</dd>
       </dl>
     </div>
   </div>
@@ -707,8 +752,8 @@ page({
   render: (lang) => {
     const T = t(lang);
     const never = lang === 'zh'
-      ? ['保管钥匙、份额、封存文件、资产或钱。', '读取你锁着的认可层，或保存守馆人问题的答案。', '让守馆人用第一人称冒充任何人，克隆声音或面孔。', '替任何人做决定，担任遗嘱执行人或受托人。', '说展位、铭牌或封存档案是法律遗嘱。', '在任何页面出现填写助记词、私钥或密码的输入框。', '在通知里放链接、向你要钱、让你下载任何东西。', '放统计脚本、追踪器或第三方代码。', '发币、拿风险投资、卖靓号、收券商交易所殡葬保险的钱。', '未经同意为任何人立铭牌。', '删除你的文件。']
-      : ['Hold keys, shares, sealed files, assets or money.', 'Read your recognised layer, or keep the answers to warden questions.', 'Let a warden speak as anyone in the first person, or clone a voice or a face.', 'Decide for anyone, or act as an executor or trustee.', 'Call an exhibit, a plaque or a sealed file a legal will.', 'Show an input field for a recovery phrase, a private key or a password.', 'Put a link in a notice, ask for money, or ask you to download anything.', 'Load analytics, trackers or third-party code.', 'Issue a token, take venture money, sell numbers, or take money from brokers, exchanges, funeral homes or insurers.', 'Put up a plaque for anyone without consent.', 'Delete your files.'];
+      ? ['替你保管钥匙、份额、封存文件或资金。资金只放在你自己的冷库合约里。', '读取你锁着的认可层，或保存守馆人问题的答案。', '让守馆人用第一人称冒充任何人，克隆声音或面孔。', '替任何人做决定，担任遗嘱执行人或受托人。', '说展位、铭牌或封存档案是法律遗嘱。', '在任何页面出现填写助记词、私钥或密码的输入框。', '在通知里放链接、向你要钱、让你下载任何东西。', '放统计脚本、追踪器或第三方代码。', '发币、从你的资产里抽成、拿风险投资、卖靓号、收券商交易所殡葬保险的钱。', '未经同意为任何人立铭牌。', '删除你的文件。']
+      : ['Hold your keys, shares, sealed files or funds. Funds only sit in your own Cold Vault contract.', 'Read your recognised layer, or keep the answers to warden questions.', 'Let a warden speak as anyone in the first person, or clone a voice or a face.', 'Decide for anyone, or act as an executor or trustee.', 'Call an exhibit, a plaque or a sealed file a legal will.', 'Show an input field for a recovery phrase, a private key or a password.', 'Put a link in a notice, ask for money, or ask you to download anything.', 'Load analytics, trackers or third-party code.', 'Issue a token, take a fee from your assets, take venture money, sell numbers, or take money from brokers, exchanges, funeral homes or insurers.', 'Put up a plaque for anyone without consent.', 'Delete your files.'];
     return `${pageHero({ lang, slug: 'rules', image: 'corridor', alt: T('A long quiet corridor ending at a frosted vault door', '一条长长的安静走廊，尽头是结了霜的库门'), title: T('House Rules', '馆规'), lede: T('This page is kept by the Department of Things We Do Not Do, the busiest department in the building. If we ever break one of these rules, this page is the evidence.', '这一页由不办科负责，它是全馆最忙的科室。如果哪天我们违反了其中一条，这一页就是证据。') })}
 <section class="block"><div class="wrap split">
   <div class="reveal">

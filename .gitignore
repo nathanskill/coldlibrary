@@ -6,3 +6,7 @@
 __pycache__/
 node_modules/
 site/dist/
+contracts/out/
+contracts/cache/
+contracts/lib/
+contracts/broadcast/
