@@ -341,6 +341,39 @@ page({
   </div>
   <div class="reveal">${card({ acc: 'ColdVault.sol', title: T('The contract', '合约'), fields: [[T('Holds', '持有'), T('Native coin and ERC-20 tokens', '链上原生币和 ERC-20 代币')], [T('Admin, pause, upgrade', '管理员、暂停、升级'), T('None', '都没有')], [T('Fee', '手续费'), T('None', '没有')], [T('Tests', '测试'), T('27 unit and fuzz tests, full path on a local chain', '27 个单元和随机测试，完整流程在本地链跑通')], [T('Audit', '审计'), T('Not yet. Do not use real funds before it.', '还没有。审计之前不要放真钱。')]], stamp: T('Open source', '开源'), stampClass: 'ice' })}</div>
 </div></section>
+<section class="block" id="desk"><div class="wrap">
+  ${sectionHead(T('The vault desk', '冷库操作台'), T('Use it with your own wallet.', '用你自己的钱包操作。'), T('Testnet only until the audit. Every action is signed in your wallet; this page never sees your keys.', '审计之前只开放测试网。每一步都在你自己的钱包里签名，这个页面看不到你的私钥。'))}
+  <div class="vault-app" data-vault-app>
+    <div class="v-bar"><span class="v-status" data-v-status>…</span><button class="btn" type="button" data-v-connect>${T('Connect wallet', '连接钱包')}</button><button class="btn ember" type="button" data-v-switch hidden>${T('Switch to the Sepolia testnet', '切换到 Sepolia 测试网')}</button></div>
+    <p class="feedback" data-v-msg></p>
+    <div data-v-connected hidden>
+      <div class="grid two">
+        <div>
+          <h3>${T('My vaults', '我的冷库')}</h3>
+          <div data-v-mine class="mt-1"></div>
+          <h3 class="mt-3">${T('A vault I keep or inherit from', '我是开启人或继承人的冷库')}</h3>
+          <form class="form mt-1" data-v-lookup><label>${T('Vault address', '冷库地址')}<input type="text" placeholder="0x…" required></label><button class="btn ghost" type="submit">${T('Open', '打开')}</button></form>
+          <div data-v-found class="mt-1"></div>
+        </div>
+        <form class="form workbench" data-v-create>
+          <fieldset><legend>${T('New vault', '新建冷库')}</legend>
+            <label>${T('Link to an exhibit or plaque (optional)', '关联的展位或铭牌（可选）')}<input type="text" name="itemRef" maxlength="80" placeholder="coldlibrary:M-000001"></label>
+            <div data-v-heirs></div>
+            <button class="btn ghost" type="button" data-v-add-heir>${T('+ Heir', '+ 继承人')}</button>
+            <div data-v-keepers></div>
+            <button class="btn ghost" type="button" data-v-add-keeper>${T('+ Keeper', '+ 开启人')}</button>
+            <label>${T('Confirmations needed', '需要几位开启人确认')}<input type="text" name="threshold" inputmode="numeric" value="2"></label>
+            <label>${T('Silence period, days (7 or more)', '失联期，天（至少 7）')}<input type="text" name="heartbeat" inputmode="numeric" value="180"></label>
+            <label>${T('Veto window, days', '否决期，天')}<input type="text" name="veto" inputmode="numeric" value="28"></label>
+            <label>${T('Release on a date (optional)', '定时发放日期（可选）')}<input type="datetime-local" name="release"></label>
+          </fieldset>
+          <button class="btn ember" type="submit">${T('Create in my wallet', '在我的钱包里创建')}</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="/assets/vault.js" defer></script>
+</div></section>
 <section class="block"><div class="wrap narrow reveal">
   <div class="notice warn">${T('Status: the contracts are tested but not audited and not deployed on any public network yet. Crypto-asset services are restricted or prohibited in some places, including mainland China; the vault is not offered where it is not lawful. A vault is not a legal will.', '现状：合约已经测试，但还没有审计，也还没有部署到任何公开网络。加密资产相关服务在一些地方受到限制或被禁止，包括中国大陆；在不合法的地方不提供冷库。冷库不是法律遗嘱。')}</div>
   <div class="btns"><a class="btn" href="${wp}">${T('Read the whitepaper', '读技术白皮书')}</a><a class="btn ghost" href="${REPO}/tree/main/contracts">${T('Contract source', '合约源代码')}</a></div>

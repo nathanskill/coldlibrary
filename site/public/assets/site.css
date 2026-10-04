@@ -761,3 +761,12 @@ html[lang="zh-CN"] .workbench legend { font-family: var(--f-sans); letter-spacin
   .item-card img { min-height: 0; aspect-ratio: 16 / 9; }
   .qrow { grid-template-columns: 1fr; }
 }
+
+/* ---------- vault desk ---------- */
+.vault-app { margin-top: 26px; border: 1px solid var(--line); border-radius: 18px; padding: 22px; background: var(--bg-2); }
+.v-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.v-status { font-family: var(--f-mono); color: var(--ink-2); margin-right: auto; }
+.vault-app .feedback.bad { color: #ffb48a; }
+.vault-card { border: 1px solid var(--line-2); border-radius: 14px; padding: 16px 18px; margin-bottom: 14px; background: var(--bg); }
+.vault-card dl.kv { margin: 0; }
+.form input[type="datetime-local"] { height: 50px; border-radius: 12px; border: 1px solid var(--line-2); background: var(--bg-2); color: var(--ink); padding: 0 14px; font-family: var(--f-sans); text-transform: none; letter-spacing: 0; }
