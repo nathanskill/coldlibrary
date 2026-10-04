@@ -43,6 +43,29 @@ export async function ensureSchema() {
         hits integer not null default 0,
         primary key (key, bucket)
       )`;
+      await sql`create table if not exists lamps (
+        id bigserial primary key,
+        item text not null,
+        note text,
+        locale text not null default 'en',
+        ip_hash text,
+        created_at timestamptz not null default now()
+      )`;
+      await sql`create index if not exists lamps_item on lamps (item, created_at desc)`;
+      await sql`create table if not exists submissions (
+        id text primary key,
+        email_norm text not null,
+        kind text not null,
+        whose text,
+        locale text not null default 'en',
+        item jsonb not null,
+        status text not null default 'unverified',
+        code_hash text,
+        attempts integer not null default 0,
+        created_at timestamptz not null default now(),
+        verified_at timestamptz
+      )`;
+      await sql`delete from submissions where status = 'unverified' and created_at < now() - interval '2 days'`;
       await sql`insert into librarians (uid, email_norm, pen_name, locale, listed, created_at)
                 values (1, null, 'Founding Librarian', 'en', true, '2026-10-04T00:00:00Z')
                 on conflict (uid) do nothing`;

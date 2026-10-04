@@ -1,20 +1,21 @@
 # 冷冻图书馆 Cold Library
 
-**给普通人的冷冻图书馆。** [coldlibrary.com/zh](https://coldlibrary.com/zh) · [English](README.md)
+**收藏属于你的一切，把你的意志传下去。** [coldlibrary.com/zh](https://coldlibrary.com/zh) · [English](README.md)
 
-冷冻图书馆是一套开放格式和离线工具，用来写下"联系不上以后该怎么办"：东西在哪、该找谁、该停掉什么、想留下的信，以及每条心愿能约束活着的人多久。你在自己的电脑上写好、封存，把钥匙拆给几个信任的人，再把封好的箱子交给另一方保管。
+冷冻图书馆给项目一个**永续展位**，给人一块**永续铭牌**。对外只展示主人愿意展示的部分；更深的一层由 AI **守馆人**看守——通过它的考验，才能解锁前辈留下的财富：信、手艺和门道、接班人徽章、某样东西放在哪找谁领的指引，并且可以点一盏灯。要等到以后才能打开的东西，用离线的**冰芯**工具封存，钥匙拆给几位信任的人。
 
-冷冻图书馆从不保管你的钥匙、份额、文件和明文，也不替任何人执行。它唯一保存的数据是馆员名册（邮箱、笔名、编号）。
+认可层在主人的浏览器里加密，钥匙由守馆人问题的答案推出，只在访客的浏览器里解开。服务器看不到答案和原文，不保管钥匙，不碰任何钱，也不替任何人执行。
 
 | | |
 |---|---|
-| `spec/v0.1/` | 交接清单格式：`COVER.md`、`COLDLIBRARY.md`、`core.json` 及其 JSON Schema（CC0-1.0） |
+| `spec/v0.1/` | 封存层（冰芯）格式：`COVER.md`、`COLDLIBRARY.md`、`core.json` 及其 JSON Schema（CC0-1.0） |
 | `cli/` | `coldlibrary` 命令行工具：init、validate、seal、check-share、open、verify（Apache-2.0） |
 | `skills/exit-interview/` | 给任何 AI 助手用的整理谈话技能，以及可打印的问卷 |
 | `docs/` | 威胁模型 |
-| `catalog/` | 项目馆和开架区，都是普通文件 |
+| `catalog/` | 展位和铭牌（`items/`）、项目卡片、公开文集，都是普通文件 |
+| `tools/` | `seal-item.mjs` 给条目上锁；`publish-item.mjs` 把审核通过的申请挂上墙 |
 | `site/` | 静态网站，零依赖（`node site/build.mjs`） |
-| `api/` | 很小的馆员注册服务（只存邮箱、笔名、编号） |
+| `api/` | 馆员名册、申请（只收密文）、点灯 |
 
 ## 馆规
 

@@ -1,0 +1,97 @@
+{
+  "id": "M-000001",
+  "slug": "ms-lin",
+  "kind": "plaque",
+  "example": true,
+  "image": "plaque-hall",
+  "notes_public": true,
+  "title": {
+    "en": "Lin Qiuyun",
+    "zh": "林秋云"
+  },
+  "subtitle": {
+    "en": "A maths teacher for thirty-one years, and a mender of radios.",
+    "zh": "教了三十一年数学，也修了三十一年收音机。"
+  },
+  "public": {
+    "story": {
+      "en": "Ms Lin taught maths at a county secondary school for thirty-one years. Her students remember two things: she never rushed a problem, and there was always a radio, opened up, on her office windowsill.\n\nShe used to say that mending a radio and solving a problem are the same thing: first listen carefully to what is wrong, then go one part at a time.\n\nShe applied for this plaque herself. She is very much alive, and comes back now and then to add to it.\n\n*Ms Lin is fictional. This plaque shows what a plaque can hold.*",
+      "zh": "林老师在一所县城中学教了三十一年数学。学生们记得她两件事：讲题从不赶时间；办公室窗台上永远摆着一台拆开的收音机。\n\n她常说，修收音机和解题是一回事：先听清楚哪里不对，再一个零件一个零件地找。\n\n这块铭牌是她自己申请的。她身体很好，隔一阵子会回来添几句。\n\n*林老师是虚构人物，这块铭牌用来展示一块铭牌能放些什么。*"
+    },
+    "facts": [
+      {
+        "k": {
+          "en": "Taught",
+          "zh": "教龄"
+        },
+        "v": {
+          "en": "31 years",
+          "zh": "31 年"
+        }
+      },
+      {
+        "k": {
+          "en": "Often said",
+          "zh": "常说"
+        },
+        "v": {
+          "en": "“First listen to what is wrong.”",
+          "zh": "\"先听清楚哪里不对。\""
+        }
+      },
+      {
+        "k": {
+          "en": "Plaque",
+          "zh": "铭牌"
+        },
+        "v": {
+          "en": "Applied for by herself",
+          "zh": "本人申请"
+        }
+      }
+    ],
+    "links": []
+  },
+  "warden": {
+    "name": {
+      "en": "The Warden of Room 302",
+      "zh": "302 室守馆人"
+    },
+    "greeting": {
+      "en": "Hello. This is Ms Lin's plaque. She left a few words for the students she taught, and one thing to collect. Two questions, to show you sat in Room 302.",
+      "zh": "你好，这是林老师的铭牌。她给教过的学生留了几句话，还留了一样东西可以去领。回答两个问题，证明你在 302 坐过。"
+    },
+    "questions": [
+      {
+        "q": {
+          "en": "What was the number on Ms Lin's office door?",
+          "zh": "林老师办公室的门牌号是多少？"
+        },
+        "hint": {
+          "en": "Example answer: 302",
+          "zh": "示例答案：302"
+        }
+      },
+      {
+        "q": {
+          "en": "Her favourite mathematical constant?",
+          "zh": "她最喜欢的数学常数？"
+        },
+        "hint": {
+          "en": "Example answer: e",
+          "zh": "示例答案：e"
+        }
+      }
+    ],
+    "kdf": {
+      "alg": "PBKDF2-SHA256",
+      "salt": "dR75drPCaCzcLpbZ0pjZWQ==",
+      "iter": 210000
+    }
+  },
+  "locked": {
+    "alg": "AES-256-GCM",
+    "iv": "S+V/skDu7/ldGu4+",
+    "ct": "wTR8S9g6gqDjju1XVv8yhWfOye/BeVn2hY/67H2L3+ZrIYKunzQRdPVhWV5XyCV1w7MuEGs/pDZYhyX2LHGTBupnUPWAGDD1AG1X7VPTQmqe1ilX3CQHT0mNu69x9agHHxdxooDX2dgbsnMol841mYJgmG1kuyDc8EhHfElTUSQl70L61srKiEzhPvGTsjm8tDFi3utUerQyolbGNSKcDFlNXEqQWx076JuYQ0uZ7aekZFma9i1UsA+0L0nnBGD1iAi/UilYpQkxMf2izqKJfrYUVZxTJSS4lmwJfsarQ5GfDRSjbQDS1EC+ck2UhLW/MvBdN6XlCVej7MhlQCVQbZ1Y8WHAZ9RW8s0zQExnppLTQXu2EAhXKBTzAHOCWAa4k8zoxA+VOksAkbn285+UiIcTw/NXVsS+mh7RPVbsu4Z4oxD6255F9mTMg/0QiE21XVk9u8cY5MJ97946pCUczELT+VAK/oNIMNV/sBkI3EiwEpM/gEtTFSz79FpCAi+sfCmIAytDF8QzslmmquUCXUfgekWoqkyhZmD5cL7g0CcnXLpIVyqzmyfJ9QUz4I6+K2l3o4ZOTTkqZg/VOsXfsKkzqAI29izH5bhA7RFTV6EkpqfvtGwyUdoV9Y1/RA2MldJhNuz8pJ0RtzwZXglZkk8MPfIQuwLT05axRdfV6nVzIHCLPVEa5DSWrHTWH87CZphwVtwd/iz8jemC+AeMNtpKxsM3yugiEC3wxWmst7gGYgVpzCamAlytBl9x2oId/SjPNZlhbEcexVKFXtVlICpnieLFfy5erlhM2Gzfs5t/7PrS10zhaMnvdguWu/wU23XIeuzuFTM3A9GYF+8id+QYxC6E5+jG6SEHszrO9+BqKlt0cdSnoP2/2y8pXaE216eS93Ag9IvsrUNmxtz+0q/DlElT9EnIvWHB8QQ+SJMOgHjWrdTRltM+CGRro9/Q6+g2598aWHOlLjVpAD/oNmRE6/pQaU8pjizibJHuyBHhEIfeqK2oXBgCFj7z9FyNmMB8w0J7uerhBNtO9FqUBoqINutilO8Lyq6sEBgPwrMTLkAp/WeEdw2pZXkahvtckZ8fmErrQvAN5CKbM7ZZCfOrf4VFwudrwCkkXm7nshk7s1NeljZjV2zNUBzzrtP/o7YcgweTH+gyO6GA9qtSF3qCwsBw6CdQqeYsjcYw8Z2bQtWwTZ3R5at51rhge9DMzb/I0Xg139NT0xhw8SCV6nYMbZ7IJgO8zhStuCERxxpDBh2uP3gT9kq78Crv5LKrNTaHGiTEAOhVp32AuUQzhdYAOlMdCmSgohuQ4HdHgjtk3/DHodL2p8TsEkDaBzvlYfdy4EDEZ4jgRfzVXShK1R/+GvlV+bzHLltzWjwPyhunXAVOedGOUbv6CdsPKHbTtyJfPU2L3UvyFlV5IQJr7Ysmus+3y4XfyDirm1qCovL/yUjV5SWES6oOOAAdWOBAJ3w7aUlkFAJDM6UVTrxvUkTNybE5G/ziW/JAebPMqDmmzNqGRB0R/hbd7tnNi1W9V5vJMYmVy05KC+tlsUWfuS2fVznoSDLAj7z1xnTB4lzcWuX+i3AMsPo="
+  }
+}

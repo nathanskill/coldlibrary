@@ -4,7 +4,7 @@ import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, 
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { layout, SITE, href } from './src/lib.mjs';
-import { PAGES, stackItemPage } from './src/pages.mjs';
+import { PAGES, stackItemPage, itemPage } from './src/pages.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, '..');
@@ -45,8 +45,12 @@ const stacks = stackFiles.map((f) => {
   };
 });
 
-const ctx = { projects, stacks };
-const all = [...PAGES, ...stacks.map(stackItemPage)];
+const items = readdirSync(join(root, 'catalog/items')).filter((f) => f.endsWith('.json')).sort()
+  .map((f) => JSON.parse(readFileSync(join(root, 'catalog/items', f), 'utf8')));
+for (const i of items) if (JSON.stringify(i).includes('"answer"')) throw new Error(`${i.id}: answers must never be published`);
+
+const ctx = { projects, stacks, items };
+const all = [...PAGES, ...stacks.map(stackItemPage), ...items.map(itemPage)];
 
 // ---- render ----
 rmSync(dist, { recursive: true, force: true });
@@ -59,8 +63,8 @@ for (const p of all) {
     const html = layout({
       lang,
       slug: p.slug === '404' ? '' : p.slug,
-      title: p.title[lang],
-      description: p.description[lang],
+      title: p.title[lang] ?? p.title.en,
+      description: p.description[lang] ?? p.description.en,
       image: p.image,
       bodyClass: p.bodyClass || '',
       body: p.render(lang, ctx),

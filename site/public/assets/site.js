@@ -155,15 +155,15 @@
   $$('[data-halflife]').forEach(function (box) {
     var range = $('[data-hl-range]', box), yearsEl = $('[data-hl-years]', box), stageEl = $('[data-hl-stage]', box), sent = $('[data-hl-sentence]', box);
     var labels = JSON.parse(range.getAttribute('data-labels') || '["Binding","Advisory","Archive"]');
+    var first = sent.textContent, carried = sent.getAttribute('data-carried') || first;
     function update() {
       var y = parseFloat(range.value);
       yearsEl.textContent = (y % 1 === 0 ? y : y.toFixed(1));
       var stage = y < 2 ? 0 : (y < 10 ? 1 : 2);
       stageEl.textContent = labels[stage];
-      var fade = stage === 0 ? 1 : (stage === 1 ? 1 - (y - 2) / 8 * 0.45 : 0.42);
-      sent.style.opacity = String(fade);
-      sent.style.filter = stage === 2 ? 'blur(0.4px)' : 'none';
-      sent.style.color = stage === 0 ? 'var(--ink)' : (stage === 1 ? 'var(--ink-2)' : 'var(--ink-3)');
+      sent.textContent = stage === 2 ? carried : first;
+      sent.style.opacity = stage === 1 ? String(1 - (y - 2) / 8 * 0.35) : '1';
+      sent.style.color = stage === 0 ? 'var(--ink)' : (stage === 1 ? 'var(--ink-2)' : 'var(--ember)');
       sent.style.fontStyle = stage === 2 ? 'italic' : 'normal';
     }
     range.addEventListener('input', update); update();
@@ -214,6 +214,153 @@
     });
   }
 
+  /* ---------- crypto shared by the warden and the front desk ---------- */
+  // Same scheme as tools/seal-item.mjs: PBKDF2-SHA256 over normalised answers, AES-256-GCM.
+  var ITER = 210000;
+  function norm(s) { try { return String(s).normalize('NFKC').toLowerCase().replace(/[\s\p{P}\p{S}]/gu, ''); } catch (e) { return String(s).toLowerCase().replace(/[\s.,!?'"“”‘’。，、！？：:；;()（）-]/g, ''); } }
+  function b64d(s) { var b = atob(s), u = new Uint8Array(b.length); for (var i = 0; i < b.length; i++) u[i] = b.charCodeAt(i); return u; }
+  function b64e(u) { var s = ''; for (var i = 0; i < u.length; i++) s += String.fromCharCode(u[i]); return btoa(s); }
+  function hex(u) { return Array.prototype.map.call(u, function (x) { return ('0' + x.toString(16)).slice(-2); }).join(''); }
+  function deriveKey(answers, salt, iter, usage) {
+    var enc = new TextEncoder().encode(answers.map(norm).join('␞'));
+    return crypto.subtle.importKey('raw', enc, 'PBKDF2', false, ['deriveKey']).then(function (base) {
+      return crypto.subtle.deriveKey({ name: 'PBKDF2', salt: salt, iterations: iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, [usage]);
+    });
+  }
+  function sha256hex(s) { return crypto.subtle.digest('SHA-256', new TextEncoder().encode(s)).then(function (d) { return hex(new Uint8Array(d)); }); }
+  function postJSON(url, data) {
+    return fetch(url, { method: 'POST', headers: { 'content-type': 'application/json', 'accept': 'application/json' }, body: JSON.stringify(data) })
+      .then(function (r) { return r.json().catch(function () { return {}; }).then(function (j) { return { ok: r.ok, status: r.status, data: j }; }); })
+      .catch(function () { return { ok: false, status: 0, data: { message: T('The front desk could not be reached.', '联系不上前台。') } }; });
+  }
+
+  /* ---------- lamps ---------- */
+  function loadLamps(box) {
+    var id = box.getAttribute('data-item');
+    fetch('/api/lamps?item=' + encodeURIComponent(id), { headers: { accept: 'application/json' } }).then(function (r) { return r.ok ? r.json() : null; }).then(function (d) {
+      if (!d) return;
+      $('[data-lamp-n]', box).textContent = d.count || 0;
+      var ul = $('[data-lamp-notes]', box); ul.innerHTML = '';
+      (d.notes || []).forEach(function (n) { var li = doc.createElement('li'); var q = doc.createElement('span'); q.textContent = n.text; var t = doc.createElement('small'); t.textContent = (n.at || '').slice(0, 10); li.appendChild(q); li.appendChild(t); ul.appendChild(li); });
+      box.classList.toggle('lit', (d.count || 0) > 0);
+    }).catch(function () {});
+  }
+  $$('[data-lamps]').forEach(loadLamps);
+
+  /* ---------- the warden ---------- */
+  var wbox = $('[data-warden]');
+  if (wbox) warden(wbox);
+  function warden(box) {
+    var data = JSON.parse($('[data-warden-data]').textContent);
+    var screen = $('[data-w-screen]', box), state = $('[data-w-state]', box);
+    var answers = [], payload = null;
+    function el(tag, cls, text) { var e = doc.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+    function say(text, cls) { var d = el('div', 't-line' + (cls ? ' ' + cls : ''), text); screen.appendChild(d); return d; }
+    function you(text) { say('› ' + text, 'you'); }
+    function ask(i) {
+      say(data.questions[i]);
+      if (data.example && data.hints[i]) say(data.hints[i], 'hint');
+      var f = el('form', 'form w-form'); var inp = el('input'); inp.type = 'text'; inp.maxLength = 80; inp.autocomplete = 'off'; inp.setAttribute('aria-label', data.questions[i]);
+      var b = el('button', 'btn', T('Answer', '回答')); b.type = 'submit';
+      f.appendChild(inp); f.appendChild(b); screen.appendChild(f); inp.focus({ preventScroll: true });
+      f.addEventListener('submit', function (e) {
+        e.preventDefault(); var v = inp.value.trim(); if (!norm(v)) return;
+        f.remove(); you(v); answers.push(v);
+        if (i + 1 < data.questions.length) ask(i + 1); else judge();
+      });
+    }
+    function judge() {
+      state.textContent = T('Checking', '核对中'); say(T('Thank you. One moment.', '谢谢，请稍等。'), 'faint');
+      deriveKey(answers, b64d(data.kdf.salt), data.kdf.iter, 'decrypt').then(function (key) {
+        return crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64d(data.locked.iv) }, key, b64d(data.locked.ct));
+      }).then(function (buf) {
+        payload = JSON.parse(new TextDecoder().decode(buf));
+        state.textContent = T('Recognised', '已认可'); box.classList.add('open');
+        say(T('Recognised. What was left for you is below.', '认可通过。留给你的东西在下面。'), 'ok');
+        reveal();
+      }).catch(function () {
+        state.textContent = T('Locked', '已上锁');
+        say(T('Those answers do not open it. I cannot say which one was wrong.', '这些答案打不开。我不能告诉你是哪一题不对。'), 'no');
+        answers = [];
+        var again = el('button', 'btn ghost', T('Try again', '再试一次')); again.type = 'button';
+        again.addEventListener('click', function () { again.remove(); ask(0); }); screen.appendChild(again);
+      });
+    }
+    function L(o) { return o ? (o[LANG] || o.en || '') : ''; }
+    function reveal() {
+      var sec = $('[data-rewards]'); sec.classList.remove('hidden');
+      var letter = $('[data-r-letter]', sec); letter.innerHTML = '';
+      L(payload.letter).split(/\n{2,}/).forEach(function (p) { var e = el('p'); p.split('\n').forEach(function (line, k) { if (k) e.appendChild(el('br')); e.appendChild(doc.createTextNode(line)); }); letter.appendChild(e); });
+      if (payload.pointer) { var pt = $('[data-r-pointer]', sec); pt.textContent = T('Where it is: ', '东西在哪：') + L(payload.pointer); pt.classList.remove('hidden'); }
+      if (payload.badge) { $('[data-r-badge-name]', sec).textContent = L(payload.badge); $('[data-r-badge-code]', sec).textContent = payload.badge_code || ''; $('[data-r-badge]', sec).classList.remove('hidden'); }
+      sec.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      var form = $('[data-lamp-form]', sec), msg = $('[data-lamp-msg]', sec);
+      form.addEventListener('submit', function (e) {
+        e.preventDefault(); var b = $('button', form); b.disabled = true; msg.textContent = T('Lighting…', '正在点灯……');
+        postJSON('/api/lamps', { item: data.id, token: payload.lamp_token, note: $('textarea', form).value.trim(), locale: LANG }).then(function (r) {
+          if (r.ok) { msg.textContent = T('Your lamp is lit.', '你的灯亮了。'); form.classList.add('done'); var box2 = $('[data-lamps]'); if (box2) loadLamps(box2); }
+          else { b.disabled = false; msg.textContent = (r.data && r.data.message) || T('Please try again later.', '请稍后再试。'); }
+        });
+      });
+    }
+    say(data.greeting);
+    ask(0);
+  }
+
+  /* ---------- the front desk: apply for an exhibit or a plaque ---------- */
+  var wb = $('[data-workbench]');
+  if (wb) workbench(wb);
+  function workbench(form) {
+    var qbox = $('[data-questions]', form), msg = $('[data-wb-msg]', form), codeForm = $('[data-wb-code]');
+    var subId = null, email = '';
+    function addQ() {
+      var n = $$('.qrow', qbox).length; if (n >= 3) return;
+      var row = doc.createElement('div'); row.className = 'qrow';
+      row.innerHTML = '<label></label><label></label>';
+      var l1 = row.children[0], l2 = row.children[1];
+      l1.appendChild(doc.createTextNode(T('Question ', '问题 ') + (n + 1))); var q = doc.createElement('input'); q.type = 'text'; q.maxLength = 120; q.required = true; q.name = 'q'; l1.appendChild(q);
+      l2.appendChild(doc.createTextNode(T('Answer', '答案'))); var a = doc.createElement('input'); a.type = 'text'; a.maxLength = 60; a.required = true; a.name = 'a'; a.autocomplete = 'off'; l2.appendChild(a);
+      qbox.appendChild(row);
+      if (n + 1 >= 3) $('[data-add-q]', form).hidden = true;
+    }
+    addQ();
+    $('[data-add-q]', form).addEventListener('click', addQ);
+    $$('input[name="kind"]', form).forEach(function (r) { r.addEventListener('change', function () { $('[data-for-plaque]', form).hidden = form.kind.value !== 'plaque'; }); });
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var qs = $$('input[name="q"]', form).map(function (x) { return x.value.trim(); });
+      var as = $$('input[name="a"]', form).map(function (x) { return x.value.trim(); });
+      if (as.some(function (a) { return !norm(a); })) { msg.textContent = T('Each answer needs at least one letter or digit.', '每个答案至少要有一个字或数字。'); return; }
+      var b = $('button[type="submit"]', form); b.disabled = true; msg.textContent = T('Locking in your browser…', '正在你的浏览器里上锁……');
+      var token = hex(crypto.getRandomValues(new Uint8Array(16)));
+      var badge = form.badge.value.trim();
+      var payload = { letter: { en: form.letter.value, zh: form.letter.value }, pointer: form.pointer.value.trim() ? { en: form.pointer.value.trim(), zh: form.pointer.value.trim() } : null, badge: badge ? { en: badge, zh: badge } : null, badge_code: badge ? 'B-' + hex(crypto.getRandomValues(new Uint8Array(3))).toUpperCase() : null, lamp_token: token };
+      var salt = crypto.getRandomValues(new Uint8Array(16)), iv = crypto.getRandomValues(new Uint8Array(12));
+      deriveKey(as, salt, ITER, 'encrypt').then(function (key) {
+        return crypto.subtle.encrypt({ name: 'AES-GCM', iv: iv }, key, new TextEncoder().encode(JSON.stringify(payload)));
+      }).then(function (ct) {
+        return sha256hex(token).then(function (h) {
+          email = form.email.value.trim();
+          return postJSON('/api/items/submit', {
+            email: email, locale: LANG, kind: form.kind.value, whose: form.kind.value === 'plaque' ? form.whose.value : null,
+            item: { title: form.title.value.trim(), subtitle: form.subtitle.value.trim(), story: form.story.value.trim(), links: form.links.value.split('\n').map(function (s) { return s.trim(); }).filter(Boolean).slice(0, 6), questions: qs, kdf: { alg: 'PBKDF2-SHA256', salt: b64e(salt), iter: ITER }, locked: { alg: 'AES-256-GCM', iv: b64e(iv), ct: b64e(new Uint8Array(ct)) }, lamp_hash: h },
+            adult: true, consent: form.consent.checked,
+          });
+        });
+      }).then(function (r) {
+        if (r.ok && r.data.id) { subId = r.data.id; msg.textContent = T('Locked. A code is on its way to ' + email + '.', '已上锁。验证码正在发往 ' + email + '。'); form.classList.add('sent'); codeForm.classList.remove('hidden'); $('input', codeForm).focus(); }
+        else { b.disabled = false; msg.textContent = (r.data && r.data.message) || T('Something went wrong. Please try again in a minute.', '出了点问题，请过一分钟再试。'); }
+      }).catch(function () { b.disabled = false; msg.textContent = T('This browser cannot lock the layer. Please try a current browser.', '这个浏览器没法上锁，请换一个新一点的浏览器。'); });
+    });
+    codeForm.addEventListener('submit', function (e) {
+      e.preventDefault(); var cmsg = $('[data-wb-code-msg]', codeForm); cmsg.textContent = T('Checking…', '正在核对……');
+      postJSON('/api/items/confirm', { id: subId, email: email, code: $('input', codeForm).value.replace(/\D/g, ''), locale: LANG }).then(function (r) {
+        if (r.ok) { codeForm.classList.add('done'); cmsg.textContent = T('Received. A librarian will review the public layer and hang it. Keep your answers somewhere safe: nobody can recover them.', '已收到。馆员审核公开层后就会挂上去。请把答案记在安全的地方：谁都找不回来。'); }
+        else cmsg.textContent = (r.data && r.data.message) || T('That code did not match.', '验证码不对。');
+      });
+    });
+  }
+
   /* ---------- parallax ---------- */
   var plx = $$('[data-parallax]');
   if (plx.length && !reduceMotion) {
@@ -247,8 +394,8 @@
       [T('The Front Desk', '前台'), T('Front Desk', '前台'), T('Bold. It has been empty since 2026. Welcome.', '大胆。前台从 2026 年起就没人。欢迎。')],
     ];
     var OATH = ZH
-      ? ['我不保管别人的钥匙。', '我从不独自开箱。', '我转述逝者，不替逝者说话。', '我不以此收钱。', '我每年回来看一眼。', '我尊重活着的人。', '到时候，我放手。']
-      : ['I hold no one\'s keys.', 'I never open a box alone.', 'I quote the dead. I do not speak for them.', 'I take no money for this.', 'I come back once a year to look.', 'I defer to the living.', 'When it is time, I let go.'];
+      ? ['我不保管别人的钥匙。', '我从不独自开箱。', '我转述原话，不替任何人说话。', '我不以此收钱。', '我每年回来看一眼。', '我尊重活着的人。', '我帮东西被记住，也帮它们安放。']
+      : ['I hold no one\'s keys.', 'I never open a box alone.', 'I quote. I never speak for anyone.', 'I take no money for this.', 'I come back once a year to look.', 'I defer to the living.', 'I help things be remembered, and help them rest.'];
     var TOTAL = 4, hurry = false;
     // A click anywhere on the screen finishes the typing.
     term.addEventListener('click', function (e) { if (!e.target.closest('button, input, label, a')) hurry = true; });
@@ -439,7 +586,7 @@
     if (s.desk) c.fillText(ZH ? '工位 ' + s.desk : 'DESK ' + s.desk.toUpperCase(), 70, 468);
     // oath line
     c.fillStyle = 'rgba(163,180,194,0.75)'; c.font = 'italic 400 22px "Plex Sans",' + cjk;
-    c.fillText(ZH ? '"我从不独自开箱。到时候，我放手。"' : '“I never open a box alone. When it is time, I let go.”', 70, 640);
+    c.fillText(ZH ? '"有人照看，就一直在。"' : '“Kept for as long as someone cares.”', 70, 640);
     // barcode from the number
     var digits = String(s.uid || '000000'); var bx = 70, by = 520;
     for (var k = 0; k < 64; k++) { var d = parseInt(digits.charAt(k % digits.length), 10) || 0; var w = 2 + ((d + k) % 4); c.fillStyle = 'rgba(228,237,243,' + (0.55 + (k % 3) * 0.15) + ')'; c.fillRect(bx, by, w, 70); bx += w + 3 + (d % 3); if (bx > 700) break; }

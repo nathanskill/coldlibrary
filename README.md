@@ -1,20 +1,21 @@
 # Cold Library
 
-**A cold library for ordinary lives.** [coldlibrary.com](https://coldlibrary.com) · [中文](README.zh.md)
+**Keep what is yours. Carry on what you meant.** [coldlibrary.com](https://coldlibrary.com) · [中文](README.zh.md)
 
-Cold Library is an open format and a set of offline tools for writing down what should happen if you can no longer be reached: where things are, who to call, what to stop, letters to leave, and how long each wish should bind the living. You write it and seal it on your own machine, split the key among people you trust, and hand the sealed box to someone else to hold.
+Cold Library gives a project a **Perpetual Exhibit** and a person a **Perpetual Plaque**. Each shows the world only what its owner chooses. The deeper layer is guarded by an AI **Warden**: visitors who pass its trial unlock what was left for them (letters, know-how, a successor badge, directions to things set aside) and may light a lamp. For things that must wait, the offline **Ice Core** tools seal a file and split its key among people you trust.
 
-Cold Library never holds your keys, shares, files or plaintext, and executes nothing. The only data it stores is the librarian register (email, pen name, number).
+The recognised layer is encrypted in the owner's browser with a key derived from the warden's answers, and decrypted in the visitor's browser. The server never sees answers or plaintext, holds no keys and no money, and executes nothing.
 
 | | |
 |---|---|
-| `spec/v0.1/` | The Ice Core format: `COVER.md`, `COLDLIBRARY.md`, `core.json` and its JSON Schema (CC0-1.0) |
+| `spec/v0.1/` | The sealed-layer (Ice Core) format: `COVER.md`, `COLDLIBRARY.md`, `core.json` and its JSON Schema (CC0-1.0) |
 | `cli/` | `coldlibrary` command-line tool: init, validate, seal, check-share, open, verify (Apache-2.0) |
 | `skills/exit-interview/` | An interview skill for any AI assistant, plus printable questionnaires |
 | `docs/` | Threat model |
-| `catalog/` | The Project Wing and the Open Stacks, as plain files |
+| `catalog/` | Exhibits and plaques (`items/`), project cards and the Open Stacks, as plain files |
+| `tools/` | `seal-item.mjs` locks an item; `publish-item.mjs` hangs an approved application |
 | `site/` | The static website, zero dependencies (`node site/build.mjs`) |
-| `api/` | The small librarian registration service (email, pen name, number — nothing else) |
+| `api/` | Librarian register, applications (ciphertext only) and lamps |
 
 ## House rules
 

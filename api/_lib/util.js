@@ -84,12 +84,12 @@ export function codeMail(lg, code, purpose) {
   if (lg === 'zh') {
     return {
       subject: `冷冻图书馆验证码：${code}`,
-      text: `冷冻图书馆前台。\n\n你的验证码是 ${spaced}，十五分钟内有效。\n${purpose === 'leave' ? '输入它，就会把你从馆员名册中移除，你的编号会被注销，永不复用。\n' : ''}\n如果这不是你本人的操作，请忽略这封邮件。\n冷冻图书馆的邮件从不带链接，也从不索要钱、密码或助记词。\n\n— 前台`,
+      text: `冷冻图书馆前台。\n\n你的验证码是 ${spaced}，十五分钟内有效。\n${purpose === 'leave' ? '输入它，就会把你从馆员名册中移除，你的编号会被注销，永不复用。\n' : purpose === 'submit' ? '输入它，确认你的展位或铭牌申请。馆员审核公开层后会把它挂上去。\n' : ''}\n如果这不是你本人的操作，请忽略这封邮件。\n冷冻图书馆的邮件从不带链接，也从不索要钱、密码或助记词。\n\n— 前台`,
     };
   }
   return {
     subject: `Cold Library code: ${code}`,
-    text: `Front desk, Cold Library.\n\nYour code is ${spaced}. It expires in fifteen minutes.\n${purpose === 'leave' ? 'Entering it removes you from the register. Your number is retired and never reused.\n' : ''}\nIf you did not ask for this, ignore this message.\nCold Library emails never contain links, and never ask for money, passwords or recovery phrases.\n\n— The Front Desk`,
+    text: `Front desk, Cold Library.\n\nYour code is ${spaced}. It expires in fifteen minutes.\n${purpose === 'leave' ? 'Entering it removes you from the register. Your number is retired and never reused.\n' : purpose === 'submit' ? 'Entering it confirms your application for an exhibit or a plaque. A librarian reviews the public layer and hangs it.\n' : ''}\nIf you did not ask for this, ignore this message.\nCold Library emails never contain links, and never ask for money, passwords or recovery phrases.\n\n— The Front Desk`,
   };
 }
 

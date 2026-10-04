@@ -1,0 +1,44 @@
+{
+  "id": "M-000001",
+  "slug": "ms-lin",
+  "kind": "plaque",
+  "example": true,
+  "image": "plaque-hall",
+  "notes_public": true,
+  "title": { "en": "Lin Qiuyun", "zh": "林秋云" },
+  "subtitle": { "en": "A maths teacher for thirty-one years, and a mender of radios.", "zh": "教了三十一年数学，也修了三十一年收音机。" },
+  "public": {
+    "story": {
+      "en": "Ms Lin taught maths at a county secondary school for thirty-one years. Her students remember two things: she never rushed a problem, and there was always a radio, opened up, on her office windowsill.\n\nShe used to say that mending a radio and solving a problem are the same thing: first listen carefully to what is wrong, then go one part at a time.\n\nShe applied for this plaque herself. She is very much alive, and comes back now and then to add to it.\n\n*Ms Lin is fictional. This plaque shows what a plaque can hold.*",
+      "zh": "林老师在一所县城中学教了三十一年数学。学生们记得她两件事：讲题从不赶时间；办公室窗台上永远摆着一台拆开的收音机。\n\n她常说，修收音机和解题是一回事：先听清楚哪里不对，再一个零件一个零件地找。\n\n这块铭牌是她自己申请的。她身体很好，隔一阵子会回来添几句。\n\n*林老师是虚构人物，这块铭牌用来展示一块铭牌能放些什么。*"
+    },
+    "facts": [
+      { "k": { "en": "Taught", "zh": "教龄" }, "v": { "en": "31 years", "zh": "31 年" } },
+      { "k": { "en": "Often said", "zh": "常说" }, "v": { "en": "“First listen to what is wrong.”", "zh": "\"先听清楚哪里不对。\"" } },
+      { "k": { "en": "Plaque", "zh": "铭牌" }, "v": { "en": "Applied for by herself", "zh": "本人申请" } }
+    ],
+    "links": []
+  },
+  "warden": {
+    "name": { "en": "The Warden of Room 302", "zh": "302 室守馆人" },
+    "greeting": {
+      "en": "Hello. This is Ms Lin's plaque. She left a few words for the students she taught, and one thing to collect. Two questions, to show you sat in Room 302.",
+      "zh": "你好，这是林老师的铭牌。她给教过的学生留了几句话，还留了一样东西可以去领。回答两个问题，证明你在 302 坐过。"
+    },
+    "questions": [
+      { "q": { "en": "What was the number on Ms Lin's office door?", "zh": "林老师办公室的门牌号是多少？" }, "hint": { "en": "Example answer: 302", "zh": "示例答案：302" }, "answer": "302" },
+      { "q": { "en": "Her favourite mathematical constant?", "zh": "她最喜欢的数学常数？" }, "hint": { "en": "Example answer: e", "zh": "示例答案：e" }, "answer": "e" }
+    ]
+  },
+  "locked": {
+    "letter": {
+      "en": "To my students,\n\nIf you got this far, you remembered Room 302. Thank you.\n\nI was never worried about the ones who were fast. I was glad about the ones who kept listening when it did not make sense yet. That is most of life, I think.\n\nCome back on Qingming or whenever. Light a lamp, tell me what you are mending these days.\n\nLin Qiuyun",
+      "zh": "给我的学生们：\n\n能走到这一步，说明你还记得 302。谢谢你。\n\n我从来不担心那些算得快的孩子。我高兴的，是那些还没听懂、却还肯继续听的孩子。人这一辈子，大半都是这样。\n\n清明或者随便哪天，回来坐坐。点一盏灯，告诉我你最近在修什么。\n\n林秋云"
+    },
+    "pointer": {
+      "en": "The red radio is mended. It is in the old-things cabinet in the school library. Ask Mr Zhou at the library, and say you were Ms Lin's student.",
+      "zh": "那台红色的收音机修好了，放在学校图书馆的旧物柜里。想要的话，找图书馆的周老师，说你是林老师的学生。"
+    },
+    "badge": { "en": "A Student of Room 302", "zh": "302 室的学生" }
+  }
+}
