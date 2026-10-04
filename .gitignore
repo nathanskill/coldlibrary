@@ -1,0 +1,8 @@
+*.pyc
+.DS_Store
+.art/
+.claude/
+.vercel/
+__pycache__/
+node_modules/
+site/dist/

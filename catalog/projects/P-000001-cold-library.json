@@ -1,0 +1,18 @@
+{
+  "accession": "P-000001",
+  "name": "Cold Library",
+  "url": "https://github.com/nathanskill/coldlibrary",
+  "summary": {
+    "en": "The open format, offline tools and website of this library.",
+    "zh": "这座图书馆自己的开放格式、离线工具和网站。"
+  },
+  "maintainers": [{ "name": "Librarian No. 1", "role": "founding maintainer" }],
+  "handoff_doc": "https://github.com/nathanskill/coldlibrary/blob/main/AGENTS.md",
+  "successor": { "named": false, "note": { "en": "A second maintainer is wanted.", "zh": "正在找第二位维护者。" } },
+  "archives": [
+    { "type": "GitHub", "url": "https://github.com/nathanskill/coldlibrary" }
+  ],
+  "license": "Apache-2.0 (code) · CC0-1.0 (spec)",
+  "status": "active",
+  "since": "2026-10-04"
+}

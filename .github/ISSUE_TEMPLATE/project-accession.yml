@@ -1,0 +1,45 @@
+name: "Accession request: project"
+description: "List a personal or open-source project in the Project Wing. We record links and succession notes, never code."
+title: "[Accession] "
+labels: ["accession", "project-wing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. A librarian will file a catalog card from this request.
+        Please do not include passwords, private keys, recovery phrases, amounts, or anyone's private contact details.
+  - type: input
+    id: name
+    attributes: { label: "Project name", placeholder: "e.g. Cold Library" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: "Public link", placeholder: "https://…" }
+    validations: { required: true }
+  - type: textarea
+    id: summary
+    attributes: { label: "One or two sentences: what it is", description: "English and/or Chinese." }
+    validations: { required: true }
+  - type: input
+    id: maintainers
+    attributes: { label: "Maintainers (public names or handles)" }
+    validations: { required: true }
+  - type: input
+    id: handoff
+    attributes: { label: "Where are the handover notes?", placeholder: "e.g. AGENTS.md, CONTRIBUTING.md, a wiki page" }
+  - type: dropdown
+    id: successor
+    attributes:
+      label: "Is a successor named?"
+      options: ["Yes, publicly", "Yes, privately (not listed)", "Not yet"]
+    validations: { required: true }
+  - type: textarea
+    id: archives
+    attributes: { label: "Archived copies outside the main platform", placeholder: "e.g. Software Heritage, Internet Archive, a mirror" }
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: "Consent"
+      options:
+        - label: "I maintain this project, or I have the maintainers' permission to list it."
+          required: true

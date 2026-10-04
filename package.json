@@ -1,0 +1,15 @@
+{
+  "name": "coldlibrary-site",
+  "private": true,
+  "type": "module",
+  "description": "Static site and the small librarian registration service for coldlibrary.com",
+  "scripts": {
+    "build": "node site/build.mjs",
+    "dev": "node site/dev.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0"
+  },
+  "engines": { "node": ">=20" },
+  "license": "Apache-2.0"
+}
