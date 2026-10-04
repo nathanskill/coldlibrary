@@ -462,6 +462,14 @@ html[lang="zh-CN"] .terminal button.choice { font-family: var(--f-sans); }
 .terminal .progress { display: flex; gap: 6px; margin-top: 18px; }
 .terminal .progress i { flex: 1; height: 3px; background: rgba(120, 200, 255, 0.15); border-radius: 3px; }
 .terminal .progress i.on { background: #7fd0f7; box-shadow: 0 0 8px rgba(127, 208, 247, 0.6); }
+.terminal { /* the terminal stays dark in the light theme */
+  --ink: #e4edf3; --ink-2: #a3b4c2; --line-2: rgba(150, 205, 235, 0.26); --bg-2: #0a1118; --ice: #a8e1ff; --ice-2: #69bfe9; --ice-3: #2f86b5;
+  --glow: rgba(118, 201, 255, 0.32); --ember: #ff7b3f; --ember-glow: rgba(255, 123, 63, 0.35);
+}
+.terminal .btns { margin-top: 0; }
+.terminal .oath-lines .t-line { opacity: 0; animation: oath-in 0.45s ease forwards; }
+@keyframes oath-in { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .terminal .oath-lines .t-line { animation: none; opacity: 1; } }
 
 /* ---------- forms ---------- */
 .form { display: grid; gap: 16px; }

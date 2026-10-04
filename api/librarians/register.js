@@ -19,7 +19,7 @@ export default async function handler(req, res) {
   if (purpose === 'join') {
     name = cleanName(body.penName);
     if (!name) return send(res, 400, { message: L(lg, 'Please give a name for your card.', '请填写证上的名字。') });
-    if (body.adult !== true || body.oath !== true) return send(res, 400, { message: L(lg, 'Orientation is not finished.', '入职培训还没完成。') });
+    if (body.adult !== true || body.oath !== true) return send(res, 400, { message: L(lg, 'Orientation is not finished.', '入职还没完成。') });
   }
 
   if (!(await rateLimit(sql, 'ip:' + clientKey(req), 8))) return send(res, 429, { message: L(lg, 'Too many requests. Please wait ten minutes.', '请求太频繁，请十分钟后再试。') });

@@ -9,7 +9,7 @@ export const FLOORS = [
   { code: '10', slug: 'name', en: 'The Name', zh: '名字', what_en: 'Why cold. Why a library. Why 78° north.', what_zh: '为什么是冷，为什么是图书馆，为什么是北纬 78 度。' },
   { code: '9', slug: 'rules', en: 'House Rules', zh: '馆规', what_en: 'What this library will never do.', what_zh: '这座图书馆永远不会做的事。' },
   { code: '8', slug: 'ledger', en: 'Ledger Room', zh: '账本室', what_en: 'Every cost, every drill, the shutdown plan.', what_zh: '每一笔开支、每一次演练、停运方案。' },
-  { code: '7', slug: 'librarians', en: 'Register of Librarians', zh: '馆员名册', what_en: 'Who keeps this place. Orientation is on this floor.', what_zh: '谁在照看这里。入职培训也在这一层。' },
+  { code: '7', slug: 'librarians', en: 'Register of Librarians', zh: '馆员名册', what_en: 'Who keeps this place. Orientation is on this floor.', what_zh: '谁在照看这里。入职也在这一层。' },
   { code: '6', slug: 'half-life', en: 'Department of Half-life', zh: '时效科', what_en: 'How long a wish binds the living.', what_zh: '一条遗愿能约束活着的人多久。' },
   { code: '5', slug: 'keepers', en: 'Key Room', zh: '钥匙房', what_en: 'Keepers, shares, and who holds the box.', what_zh: '开启人、份额，以及箱子交给谁。' },
   { code: '4', slug: 'reading-room', en: 'Reading Room', zh: '阅览室', what_en: 'Offline tools to write, seal, check and open.', what_zh: '离线工具：整理、封存、核对、开启。' },

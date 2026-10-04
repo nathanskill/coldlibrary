@@ -220,119 +220,107 @@
 
   function orientation(term) {
     var screen = $('[data-o-screen]', term), stepEl = $('[data-o-step]', term);
-    var state = { name: '', email: '', uid: null, since: null, provisional: false };
-    var Q = ZH ? [
-      ['一位访客请图书馆替他保管助记词。你会：', ['放进金库。', '礼貌地拒绝：我们什么都不保管。', '为了公平，保管一半。'], 1, '正确。本馆没有保险柜。我们提交过采购申请，被我们自己驳回了。'],
-      ['一位开启人想单独打开箱子，"就看一眼"。你会：', ['允许，看一眼就关上。', '提醒他：开箱至少要两个人。', '请他喝杯咖啡，假装没看见。'], 1, '正确。一个人站在门口时，门会礼貌地保持关闭。另外，前台没有人。'],
-      ['有人请本馆"用他父亲的口吻回一封信"。你会：', ['生成一段尽量像的文字。', '婉拒。本馆只转述，不扮演逝者。', '加收一点费用后再生成。'], 1, '正确。他想说的话已经写下来了。本馆不负责续写。'],
-      ['入藏一份清单要花多少钱？', ['不要钱。本馆不收钱。', '按字数计费。', '首年免费，之后按悲伤程度收费。'], 0, '正确。本馆的收银台是墙上的一幅画，画得还不错。'],
-      ['你收到一封邮件："我是冷冻图书馆，请点击链接，发送你的钥匙份额和验证码以便核验。"', ['立刻回复，配合核验。', '不回复、不点链接。本馆永远不会索要份额或验证码。', '转发给其他开启人，请大家一起提供。'], 1, '正确。本馆从不索要钥匙。我们连自己的都不要。'],
-      ['凌晨三点，有人给前台写信，说想今晚把信写完，然后告别。', ['帮他尽快封存信件。', '停下来，带他去暖房，给他心理援助热线。', '请他上班时间再来。'], 1, '正确。这座图书馆不是告别工具。暖房的门一直开着。'],
-    ] : [
-      ['A visitor asks the library to keep their recovery phrase safe. You:', ['Put it in the vault.', 'Decline politely. We keep nothing of the kind.', 'Keep half of it, to be fair.'], 1, 'Correct. The Library has no vault. We filed a purchase request. We denied it.'],
-      ['A keeper wants to open a box alone, "just to check". You:', ['Allow it, briefly.', 'Remind them it takes at least two.', 'Offer coffee and look away.'], 1, 'Correct. When one person stands at the door, the door remains politely closed. Also, there is no one at the front desk.'],
-      ['Someone asks the Library to "reply in my late father\'s voice". You:', ['Generate something as close as possible.', 'Decline. The Library quotes the dead; it does not play them.', 'Generate it for a small extra fee.'], 1, 'Correct. What he wanted to say is already written down. We do not write sequels.'],
-      ['How much does it cost to deposit a list?', ['Nothing. The Library takes no money.', 'Priced per word.', 'Free for the first year, then priced by grief.'], 0, 'Correct. The cash register is a painting on the wall. It is a decent painting.'],
-      ['An email arrives: "This is Cold Library. Click here and send your key share and code for review."', ['Reply right away to help.', 'Do not reply, do not click. The Library never asks for shares or codes.', 'Forward it to the other keepers so everyone can send theirs.'], 1, 'Correct. The Library never asks for keys. We do not even want our own.'],
-      ['At 3 a.m. someone writes to the front desk: they want to finish their letters tonight and say goodbye.', ['Help them seal the letters quickly.', 'Stop. Take them to the Warm Room and give them a crisis line.', 'Ask them to come back during office hours.'], 1, 'Correct. This library is not a farewell tool. The Warm Room is always open.'],
+    var state = { name: '', anon: false, desk: '', email: '', uid: null, since: null, provisional: false };
+    // [choice, label on the card, reply]. Every desk is a good desk.
+    var DESKS = [
+      [T('By the window, facing the lake', '靠窗，面朝冰湖'), T('Window', '靠窗'), T('The view is excellent. The draught is included.', '风景很好，漏风免费。')],
+      [T('Deep in the Closed Stacks', '闭架书库深处'), T('Closed Stacks', '闭架书库'), T('Quiet. Nobody will find you there. That is the idea.', '很安静，没人找得到你。这正是重点。')],
+      [T('Next to the Warm Room', '暖房隔壁'), T('Warm Room', '暖房隔壁'), T('Sensible. Go in as often as you like.', '明智。想去几次都行。')],
+      [T('The Front Desk', '前台'), T('Front Desk', '前台'), T('Bold. It has been empty since 2026. Welcome.', '大胆。前台从 2026 年起就没人。欢迎。')],
     ];
     var OATH = ZH
       ? ['我不保管别人的钥匙。', '我从不独自开箱。', '我转述逝者，不替逝者说话。', '我不以此收钱。', '我每年回来看一眼。', '我尊重活着的人。', '到时候，我放手。']
       : ['I hold no one\'s keys.', 'I never open a box alone.', 'I quote the dead. I do not speak for them.', 'I take no money for this.', 'I come back once a year to look.', 'I defer to the living.', 'When it is time, I let go.'];
-    var TOTAL = 9;
+    var TOTAL = 4, hurry = false;
+    // A click anywhere on the screen finishes the typing.
+    term.addEventListener('click', function (e) { if (!e.target.closest('button, input, label, a')) hurry = true; });
 
-    function setStep(n) { stepEl.textContent = (n < 10 ? '0' : '') + n + '/0' + TOTAL; }
+    function setStep(n) { stepEl.textContent = '0' + n + '/0' + TOTAL; }
     function el(tag, cls, text) { var e = doc.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
     function clear() { screen.innerHTML = ''; }
     function progress(n) { var p = el('div', 'progress'); for (var i = 0; i < TOTAL; i++) { var b = el('i', i < n ? 'on' : ''); p.appendChild(b); } return p; }
     function type(lines, done) {
-      var i = 0;
+      var i = 0; hurry = false;
       function next() {
         if (i >= lines.length) return done && done();
         var line = el('div', 't-line'); screen.appendChild(line);
         var s = lines[i++], k = 0;
-        if (reduceMotion) { line.textContent = s; return next(); }
+        if (reduceMotion || hurry) { line.textContent = s; return next(); }
         var caret = el('span', 'caret'); line.appendChild(caret);
         (function tick() {
-          if (k < s.length) { caret.insertAdjacentText('beforebegin', s.charAt(k++)); setTimeout(tick, 18 + Math.random() * 26); }
-          else { caret.remove(); setTimeout(next, 260); }
+          if (hurry) { caret.insertAdjacentText('beforebegin', s.slice(k)); k = s.length; }
+          if (k < s.length) { caret.insertAdjacentText('beforebegin', s.charAt(k++)); setTimeout(tick, 12 + Math.random() * 16); }
+          else { caret.remove(); setTimeout(next, hurry ? 0 : 160); }
         })();
       }
       next();
     }
 
     function stepName() {
-      clear(); setStep(0);
-      type([T('Hello. Welcome to the Cold Library.', '你好。欢迎来到冷冻图书馆。'), T('Please state your name.', '请说出你的名字。'), T('A pen name is fine. It will appear on your card.', '笔名也可以，它会印在你的馆员证上。')], function () {
+      clear(); setStep(1);
+      type([T('Hello. Welcome to the Cold Library.', '你好，欢迎来到冷冻图书馆。'), T('This takes about a minute. There is no test.', '大约一分钟，不考试。'), T('What should we call you? A pen name is fine.', '怎么称呼你？笔名也行。')], function () {
         var f = el('form', 'form mt-1');
-        var inp = el('input'); inp.type = 'text'; inp.maxLength = 40; inp.required = true; inp.autocomplete = 'nickname'; inp.placeholder = T('Your name', '你的名字'); inp.setAttribute('aria-label', T('Your name', '你的名字'));
+        var inp = el('input'); inp.type = 'text'; inp.maxLength = 40; inp.autocomplete = 'nickname'; inp.placeholder = T('Your name or a pen name', '名字或笔名'); inp.setAttribute('aria-label', T('Your name', '你的名字'));
+        var row = el('div', 'btns mt-0');
         var b = el('button', 'btn', T('Continue', '继续')); b.type = 'submit';
-        f.appendChild(inp); f.appendChild(b); screen.appendChild(f); screen.appendChild(progress(0));
+        var skip = el('button', 'btn ghost', T('Stay anonymous', '匿名就好')); skip.type = 'button';
+        row.appendChild(b); row.appendChild(skip);
+        f.appendChild(inp); f.appendChild(row); screen.appendChild(f); screen.appendChild(progress(0));
         inp.focus();
+        skip.addEventListener('click', function () { state.name = T('Anonymous Librarian', '无名馆员'); state.anon = true; desk(); });
         f.addEventListener('submit', function (e) {
           e.preventDefault();
           var v = inp.value.replace(/\s+/g, ' ').trim();
-          if (!v) return;
-          state.name = v.slice(0, 40);
-          question(0);
+          if (!v) return skip.click();
+          state.name = v.slice(0, 40); state.anon = false;
+          desk();
         });
       });
     }
 
-    function question(i) {
-      clear(); setStep(i + 1);
-      var q = Q[i];
-      var pre = i === 0 ? [T('Thank you. We did not write it down. The Library tries not to remember what it does not need.', '谢谢。我们没有记录。本馆尽量不记住不必要的东西。'), T('The room is cold. That is part of the design. There is a Warm Room at the end of the hall. You may go at any time. No permission required.', '房间有点冷，这是设计的一部分。走廊尽头有一间暖房，随时可以去，不需要请假。'), T('Six questions. Wrong answers have no consequences. Neither do right ones.', '六道题。答错没有任何后果，答对也没有。')] : [];
-      type(pre.concat([q[0]]), function () {
+    function desk() {
+      clear(); setStep(2);
+      type([state.anon ? T('Very well. Anonymous it is.', '好的，那就匿名。') : T('Thank you, ' + state.name + '.', '谢谢你，' + state.name + '。'), T('Pick a desk. Any desk. There are no wrong answers.', '挑一张桌子，随便挑，没有错误答案。')], function () {
         var box = el('div', 'choices'); var fb = el('div', 'feedback');
-        q[1].forEach(function (c, ci) {
-          var b = el('button', 'choice', String.fromCharCode(65 + ci) + '  ' + c); b.type = 'button';
+        DESKS.forEach(function (d, ci) {
+          var b = el('button', 'choice', String.fromCharCode(65 + ci) + '  ' + d[0]); b.type = 'button';
           b.addEventListener('click', function () {
-            if (ci === q[2]) {
-              b.classList.add('right'); fb.textContent = q[3];
-              $$('button.choice', box).forEach(function (x) { x.disabled = true; });
-              setTimeout(function () { if (i + 1 < Q.length) question(i + 1); else oath(); }, reduceMotion ? 300 : 1100);
-            } else {
-              b.classList.add('wrong'); b.disabled = true;
-              fb.textContent = T('Not quite. The stacks are patient. Try again.', '不太对。书库很有耐心，再试一次。');
-            }
+            state.desk = d[1]; b.classList.add('right'); fb.textContent = d[2];
+            $$('button.choice', box).forEach(function (x) { x.disabled = true; });
+            setTimeout(oath, reduceMotion ? 300 : 1300);
           });
           box.appendChild(b);
         });
-        screen.appendChild(box); screen.appendChild(fb); screen.appendChild(progress(i + 1));
-        var first = $('button.choice', box); if (first) first.focus();
+        screen.appendChild(box); screen.appendChild(fb); screen.appendChild(progress(1));
       });
     }
 
     function oath() {
-      clear(); setStep(7);
-      type([T('Six of six. Please read the oath, aloud or quietly.', '六题全对。请把誓词念一遍，出声或默念都可以。')], function () {
-        OATH.forEach(function (l, i) { screen.appendChild(el('div', 't-line', '0' + (i + 1) + '  ' + l)); });
-        var f = el('form', 'form mt-1');
-        var lab = el('label', 'check'); var cb = el('input'); cb.type = 'checkbox'; cb.required = true; lab.appendChild(cb); lab.appendChild(doc.createTextNode(T('I take the oath.', '我立此誓。')));
-        var b = el('button', 'btn ember', T('Continue', '继续')); b.type = 'submit';
-        f.appendChild(lab); f.appendChild(b); screen.appendChild(f); screen.appendChild(progress(7));
-        f.addEventListener('submit', function (e) { e.preventDefault(); if (cb.checked) register(); });
+      clear(); setStep(3);
+      type([T('Here is the oath. Nothing to memorise.', '这是誓词，不用背。')], function () {
+        var list = el('div', 'oath-lines');
+        OATH.forEach(function (l, i) { var d = el('div', 't-line', '0' + (i + 1) + '  ' + l); d.style.animationDelay = (i * 90) + 'ms'; list.appendChild(d); });
+        var b = el('button', 'btn ember mt-1', T('I take the oath', '我立此誓')); b.type = 'button';
+        screen.appendChild(list); screen.appendChild(b); screen.appendChild(progress(2));
+        b.addEventListener('click', register);
       });
     }
 
     function register() {
-      clear(); setStep(8);
-      type([T('Last step. Where should the front desk send your code?', '最后一步：前台该把验证码发到哪里？'), T('Our emails never contain links. They never ask for money, passwords or recovery phrases.', '我们的邮件从不带链接，也从不索要钱、密码或助记词。')], function () {
+      clear(); setStep(4);
+      type([T('Last step. Where should the front desk send your number?', '最后一步：前台把编号寄到哪里？'), T('Our emails never contain links, and never ask for money, passwords or recovery phrases.', '我们的邮件从不带链接，也从不索要钱、密码或助记词。')], function () {
         var f = el('form', 'form mt-1');
-        var l1 = el('label', '', T('Email', '邮箱')); var em = el('input'); em.type = 'email'; em.required = true; em.autocomplete = 'email'; l1.appendChild(em);
-        var l2 = el('label', '', T('Name on the card', '证上的名字')); var nm = el('input'); nm.type = 'text'; nm.maxLength = 40; nm.required = true; nm.value = state.name; l2.appendChild(nm);
-        var c1 = el('label', 'check'); var list = el('input'); list.type = 'checkbox'; list.checked = true; c1.appendChild(list); c1.appendChild(doc.createTextNode(T('List me in the public register under this name.', '用这个名字把我列进公开名册。')));
-        var c2 = el('label', 'check'); var adult = el('input'); adult.type = 'checkbox'; adult.required = true; c2.appendChild(adult); c2.appendChild(doc.createTextNode(T('I am 18 or older.', '我已年满 18 岁。')));
-        var b = el('button', 'btn ember', T('Send my code', '发送验证码')); b.type = 'submit';
+        var em = el('input'); em.type = 'email'; em.required = true; em.autocomplete = 'email'; em.placeholder = T('Your email', '你的邮箱'); em.setAttribute('aria-label', T('Email', '邮箱'));
+        if (state.email) em.value = state.email;
+        var c1 = el('label', 'check'); var list = el('input'); list.type = 'checkbox'; list.checked = !state.anon; c1.appendChild(list);
+        c1.appendChild(doc.createTextNode(T('Show me in the public register as ' + state.name + '.', '在公开名册上显示为「' + state.name + '」。')));
+        var b = el('button', 'btn ember', T('I am 18 or older · Send my code', '我已满 18 岁 · 发送验证码')); b.type = 'submit';
         var msg = el('div', 'feedback');
-        [l1, l2, c1, c2, b].forEach(function (x) { f.appendChild(x); });
-        screen.appendChild(f); screen.appendChild(msg); screen.appendChild(progress(8));
+        [em, c1, b].forEach(function (x) { f.appendChild(x); });
+        screen.appendChild(f); screen.appendChild(msg); screen.appendChild(progress(3));
         em.focus();
         f.addEventListener('submit', function (e) {
           e.preventDefault();
-          if (!adult.checked) return;
-          state.name = nm.value.replace(/\s+/g, ' ').trim().slice(0, 40) || state.name;
           state.email = em.value.trim();
           b.disabled = true; msg.textContent = T('Sending…', '正在发送……');
           post('/api/librarians/register', { email: state.email, penName: state.name, locale: LANG, listed: list.checked, adult: true, oath: true })
@@ -346,14 +334,20 @@
     }
 
     function code() {
-      clear(); setStep(8);
-      type([T('A six-digit code is on its way to ' + state.email + '.', '六位验证码正在发往 ' + state.email + '。'), T('It expires in fifteen minutes.', '十五分钟内有效。')], function () {
+      clear(); setStep(4);
+      type([T('A six-digit code is on its way to ' + state.email + '.', '六位验证码正在发往 ' + state.email + '。'), T('It expires in fifteen minutes. If it is not there, look in spam.', '十五分钟内有效。没收到的话，看看垃圾邮件。')], function () {
         var f = el('form', 'form mt-1');
         var inp = el('input', 'code'); inp.type = 'text'; inp.inputMode = 'numeric'; inp.autocomplete = 'one-time-code'; inp.maxLength = 7; inp.required = true; inp.placeholder = '000000'; inp.setAttribute('aria-label', T('Code', '验证码'));
+        var row = el('div', 'btns mt-0');
         var b = el('button', 'btn ember', T('Confirm', '确认')); b.type = 'submit';
+        var back = el('button', 'btn ghost', T('Use another email', '换个邮箱')); back.type = 'button';
+        row.appendChild(b); row.appendChild(back);
         var msg = el('div', 'feedback');
-        f.appendChild(inp); f.appendChild(b); screen.appendChild(f); screen.appendChild(msg); screen.appendChild(progress(8));
+        f.appendChild(inp); f.appendChild(row); screen.appendChild(f); screen.appendChild(msg); screen.appendChild(progress(3));
         inp.focus();
+        back.addEventListener('click', register);
+        // Six digits typed or pasted: confirm without another click.
+        inp.addEventListener('input', function () { if (inp.value.replace(/\D/g, '').length === 6 && !b.disabled) f.requestSubmit ? f.requestSubmit() : b.click(); });
         f.addEventListener('submit', function (e) {
           e.preventDefault();
           b.disabled = true; msg.textContent = T('Checking…', '正在核对……');
@@ -366,11 +360,11 @@
     }
 
     function finish() {
-      clear(); setStep(9);
+      clear(); setStep(4);
       var lines = state.uid
         ? [T('Congratulations. Your number is No. ' + state.uid + '.', '恭喜。你的编号是 No. ' + state.uid + '。'), T('It follows no pattern. Please do not look for one.', '它没有规律，请不要寻找规律。'), T('Your work here is done for today. Please return to your life outside. It is warmer there.', '你今天的工作已经结束。请回到外面的生活里去，那边比较暖和。')]
         : [T('Welcome, ' + state.name + '.', '欢迎你，' + state.name + '。'), T('Your provisional card is below. Your number will come when the front desk opens.', '你的临时馆员证在下面。前台开始登记后，编号会发给你。'), T('Please return to your life outside. It is warmer there.', '请回到外面的生活里去，那边比较暖和。')];
-      type(lines, function () { screen.appendChild(progress(9)); drawCard(); });
+      type(lines, function () { screen.appendChild(progress(4)); drawCard(); });
     }
 
     function post(url, data) {
@@ -424,6 +418,7 @@
     c.fillStyle = 'rgba(163,180,194,0.95)'; c.font = '500 20px "Plex Mono",' + cjk;
     var since = s.since || new Date().toISOString().slice(0, 10);
     c.fillText((ZH ? '入馆 ' : 'SINCE ') + since + (ZH ? '   ·   等级 馆员' : '   ·   RANK LIBRARIAN') + (s.provisional ? (ZH ? '   ·   临时' : '   ·   PROVISIONAL') : ''), 70, 430);
+    if (s.desk) c.fillText(ZH ? '工位 ' + s.desk : 'DESK ' + s.desk.toUpperCase(), 70, 468);
     // oath line
     c.fillStyle = 'rgba(163,180,194,0.75)'; c.font = 'italic 400 22px "Plex Sans",' + cjk;
     c.fillText(ZH ? '"我从不独自开箱。到时候，我放手。"' : '“I never open a box alone. When it is time, I let go.”', 70, 640);

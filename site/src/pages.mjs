@@ -24,7 +24,7 @@ page({
     <h1 class="display mt-1">${T('A cold library for ordinary lives.', '给普通人的冷冻图书馆。')}</h1>
     <p class="lede">${T('Write down what should happen if you can no longer be reached. Seal it. Give the keys to people you trust. Let it go when it is time. We never hold your keys or your files. You bring your own fuel.', '写下你联系不上以后该怎么办。封存起来，把钥匙交给你信任的人，到时候再放手。我们从不保管你的钥匙和文件，柴火你自己带。')}</p>
     <div class="btns">
-      <a class="btn ember" href="${href(lang, 'librarians/join')}">${T('Begin orientation', '开始入职培训')} <span class="k">→</span></a>
+      <a class="btn ember" href="${href(lang, 'librarians/join')}">${T('Get a librarian card', '领一张馆员证')} <span class="k">→</span></a>
       <a class="btn" href="${href(lang, 'stacks')}">${T('How an Ice Core works', '交接清单怎么用')}</a>
       <button class="btn ghost" type="button" data-open-directory>${T('Floor directory', '楼层指示')}</button>
     </div>
@@ -122,8 +122,8 @@ page({
     <div class="reveal">
       <div class="label ember"><span class="dot"></span>${T('Floor 7 · Register of Librarians', '7 楼 · 馆员名册')}</div>
       <h2 class="section-title mt-1">${T('Become a librarian.', '成为一名馆员。')}</h2>
-      <p class="lede">${T('Librarians file projects, review deposits, run drills and translate. Orientation takes four minutes. Your number is yours alone, and it is not given out in order.', '馆员负责登记项目、审核寄存、组织演练、做翻译。入职培训大约四分钟。你的编号独一无二，而且不按注册顺序发放。')}</p>
-      <div class="btns"><a class="btn ember" href="${href(lang, 'librarians/join')}">${T('Begin orientation', '开始入职培训')}</a><a class="btn ghost" href="${href(lang, 'librarians')}">${T('See the register', '看名册')}</a></div>
+      <p class="lede">${T('Librarians file projects, review deposits, run drills and translate. It takes about a minute, mostly clicks, and there is no test. Your number is yours alone, and it is not given out in order.', '馆员负责登记项目、审核寄存、组织演练、做翻译。入职大约一分钟，基本是点一点，不考试。你的编号独一无二，而且不按注册顺序发放。')}</p>
+      <div class="btns"><a class="btn ember" href="${href(lang, 'librarians/join')}">${T('Get a librarian card', '领一张馆员证')}</a><a class="btn ghost" href="${href(lang, 'librarians')}">${T('See the register', '看名册')}</a></div>
     </div>
     <div class="reveal">${card({ acc: 'No. 1', title: T('Founding Librarian', '创始馆员'), fields: [[T('Floor', '楼层'), T('All of them', '全部')], [T('Since', '入馆'), '2026-10-04'], [T('Duty', '职责'), T('Keeps the lights low and the rules short.', '把灯调暗，把规矩写短。')]], stamp: T('On duty', '在岗') })}</div>
   </div>
@@ -449,10 +449,10 @@ page({
   </div>
   <div class="reveal">
     <div class="panel ember-edge">
-      <span class="num ember-text">${T('ORIENTATION', '入职培训')}</span>
-      <h3>${T('Four minutes. Six questions. One oath.', '四分钟，六道题，一段誓词。')}</h3>
-      <p class="muted">${T('You will be asked your name, tested on the house rules, and given a card with your number. We keep your email only to send you a code and the occasional notice from the front desk. Our emails never contain links.', '我们会问你的名字，考你几条馆规，再发给你一张带编号的馆员证。你的邮箱只用来发验证码，以及前台偶尔的通知。我们的邮件从不带链接。')}</p>
-      <a class="btn ember mt-1" href="${href(lang, 'librarians/join')}">${T('Begin orientation', '开始入职培训')}</a>
+      <span class="num ember-text">${T('ORIENTATION', '入职')}</span>
+      <h3>${T('One minute. No test. One oath.', '一分钟，不考试，一段誓词。')}</h3>
+      <p class="muted">${T('Give a name or stay anonymous, pick a desk, take the oath, and get a card with your number. We keep your email only to send you a code and the occasional notice from the front desk. Our emails never contain links.', '留个名字或者匿名，挑一张桌子，念一遍誓词，领一张带编号的馆员证。你的邮箱只用来发验证码，以及前台偶尔的通知。我们的邮件从不带链接。')}</p>
+      <a class="btn ember mt-1" href="${href(lang, 'librarians/join')}">${T('Get a librarian card', '领一张馆员证')}</a>
     </div>
   </div>
 </div></section>
@@ -477,7 +477,7 @@ page({
   <div class="reveal">
     ${sectionHead(T('Ranks', '等级'), T('Rank records what you did. It grants no power.', '等级只记录你做过什么，不给任何权限。'))}
     <dl class="kv">
-      <dt>${T('Librarian', '馆员')}</dt><dd>${T('Finished orientation, took the oath, received a number.', '完成入职培训，念过誓词，领到编号。')}</dd>
+      <dt>${T('Librarian', '馆员')}</dt><dd>${T('Finished orientation, took the oath, received a number.', '完成入职，念过誓词，领到编号。')}</dd>
       <dt>${T('Reviewed Librarian', '年检馆员')}</dt><dd>${T('Came back for a first Annual Review.', '回来做过第一次年检。')}</dd>
       <dt>${T('Docent', '导览员')}</dt><dd>${T('Helped someone deposit, confirmed by that person. Never paid, never pushed.', '帮别人完成过一次入藏，并由对方确认。从不收钱，从不催促。')}</dd>
       <dt>${T('Conservator', '修缮员')}</dt><dd>${T('Code, docs, translation, design, accessibility or a security report accepted into the project.', '代码、文档、翻译、设计、无障碍改进或安全报告被项目采纳。')}</dd>
@@ -492,19 +492,19 @@ page({
 /* ------------------------------------------------------------------ */
 page({
   slug: 'librarians/join',
-  title: { en: 'Orientation', zh: '入职培训' },
-  description: { en: 'Librarian orientation: state your name, answer six questions about the house rules, take the oath, receive your number.', zh: '馆员入职培训：说出你的名字，回答六道关于馆规的题，念誓词，领取编号。' },
+  title: { en: 'Orientation', zh: '入职' },
+  description: { en: 'Librarian orientation: a name, a desk, the oath, your number. About a minute, no test.', zh: '馆员入职：留个名字，挑张桌子，念誓词，领编号。大约一分钟，不考试。' },
   render: (lang) => {
     const T = t(lang);
     return `<section class="page-hero"><div class="wrap">
-  <div class="floor-big"><span class="floor">7</span>${T('Floor', '楼层')} · ${T('Orientation room', '入职培训室')}</div>
-  <h1>${T('Orientation', '入职培训')}</h1>
+  <div class="floor-big"><span class="floor">7</span>${T('Floor', '楼层')} · ${T('Orientation room', '入职室')}</div>
+  <h1>${T('Orientation', '入职')}</h1>
   <p class="lede">${T('Please take a seat. The lights are low on purpose.', '请坐。灯故意调得很暗。')}</p>
 </div></section>
 <section class="block"><div class="wrap narrow">
-  <noscript><div class="notice warn">${T('Orientation needs JavaScript. Everything else on this site works without it.', '入职培训需要开启 JavaScript。网站其他部分不需要。')}</div></noscript>
+  <noscript><div class="notice warn">${T('Orientation needs JavaScript. Everything else on this site works without it.', '入职需要开启 JavaScript。网站其他部分不需要。')}</div></noscript>
   <div class="terminal" id="orientation" data-lang="${lang}">
-    <div class="t-head"><span>${T('Cold Library · Orientation Terminal 07', '冷冻图书馆 · 07 号培训终端')}</span><span data-o-step>00/09</span></div>
+    <div class="t-head"><span>${T('Cold Library · Orientation Terminal 07', '冷冻图书馆 · 07 号入职终端')}</span><span data-o-step>01/04</span></div>
     <div data-o-screen></div>
   </div>
   <div class="libcard-wrap mt-3 hidden" data-card-wrap>
