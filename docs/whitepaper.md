@@ -1,7 +1,7 @@
 # Cold Library Protocol
 
 **Technical whitepaper · v0.1 · 2026-10-05**
-Status: draft. Contracts tested locally, not audited, not deployed to any public network.
+Status: draft. Contracts tested; deployed to the Sepolia testnet (factory `0x70C3C28db630e3A324db800f6f346e1aFdcE0cA3`, source verified on Sourcify). Not audited, not on mainnet.
 
 ## 1. Abstract
 

@@ -105,7 +105,7 @@ page({
       <p class="lede">${T('Keep crypto assets in a Cold Vault: a smart contract that belongs to you, not to us. You decide who receives what share, and when. You can take everything back at any time. If you go silent, your keepers confirm, a veto window passes, and each heir claims their own share with their own wallet.', '把加密资产放进冷库：一个属于你、不属于我们的智能合约。给谁、给多少、什么时候给，都由你决定，你随时可以全部取回。如果你长时间没有音讯，开启人确认、否决期过去，每位继承人用自己的钱包领走自己那一份。')}</p>
       <div class="btns"><a class="btn ember" href="${href(lang, 'vault')}">${T('How the vault works', '冷库怎么运作')}</a><a class="btn ghost" href="${REPO}/blob/main/docs/${lang === 'zh' ? 'whitepaper.zh.md' : 'whitepaper.md'}">${T('Read the whitepaper', '读技术白皮书')}</a></div>
     </div>
-    <div class="reveal">${card({ acc: 'B4 · ColdVault', title: T('Non-custodial', '非托管'), fields: [[T('Who holds it', '谁拿着'), T('Your own contract', '你自己的合约')], [T('Who decides', '谁决定'), T('You alone', '只有你')], [T('Admin key', '管理员密钥'), T('None', '没有')], [T('Fee', '手续费'), T('None', '没有')], [T('Status', '状态'), T('Tested, not yet audited', '已测试，尚未审计')]], stamp: T('Testnet next', '下一步测试网') })}</div>
+    <div class="reveal">${card({ acc: 'B4 · ColdVault', title: T('Non-custodial', '非托管'), fields: [[T('Who holds it', '谁拿着'), T('Your own contract', '你自己的合约')], [T('Who decides', '谁决定'), T('You alone', '只有你')], [T('Admin key', '管理员密钥'), T('None', '没有')], [T('Fee', '手续费'), T('None', '没有')], [T('Status', '状态'), T('On the Sepolia testnet, not yet audited', '已上 Sepolia 测试网，尚未审计')]], stamp: T('Testnet live', '测试网已上线') })}</div>
   </div>
 </section>
 
@@ -375,7 +375,7 @@ page({
   <script src="/assets/vault.js" defer></script>
 </div></section>
 <section class="block"><div class="wrap narrow reveal">
-  <div class="notice warn">${T('Status: the contracts are tested but not audited and not deployed on any public network yet. Crypto-asset services are restricted or prohibited in some places, including mainland China; the vault is not offered where it is not lawful. A vault is not a legal will.', '现状：合约已经测试，但还没有审计，也还没有部署到任何公开网络。加密资产相关服务在一些地方受到限制或被禁止，包括中国大陆；在不合法的地方不提供冷库。冷库不是法律遗嘱。')}</div>
+  <div class="notice warn">${T('Status: the contracts are tested and live on the Sepolia testnet (factory 0x70C3…0cA3, source verified), but not audited and not on mainnet. Crypto-asset services are restricted or prohibited in some places, including mainland China; the vault is not offered where it is not lawful. A vault is not a legal will.', '现状：合约已经测试，并已部署到 Sepolia 测试网（工厂合约 0x70C3…0cA3，源代码已公开验证），但还没有审计，也没有上主网。加密资产相关服务在一些地方受到限制或被禁止，包括中国大陆；在不合法的地方不提供冷库。冷库不是法律遗嘱。')}</div>
   <div class="btns"><a class="btn" href="${wp}">${T('Read the whitepaper', '读技术白皮书')}</a><a class="btn ghost" href="${REPO}/tree/main/contracts">${T('Contract source', '合约源代码')}</a></div>
 </div></section>`;
   },

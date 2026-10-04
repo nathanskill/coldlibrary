@@ -10,7 +10,7 @@
 
   // Networks the desk will use. Factory addresses are filled in after deployment.
   var NETS = {
-    '0xaa36a7': { name: 'Sepolia', factory: '', explorer: 'https://sepolia.etherscan.io', rpc: 'https://ethereum-sepolia-rpc.publicnode.com', native: 'SepoliaETH' },
+    '0xaa36a7': { name: 'Sepolia', factory: '0x70C3C28db630e3A324db800f6f346e1aFdcE0cA3', explorer: 'https://sepolia.etherscan.io', rpc: 'https://ethereum-sepolia-rpc.publicnode.com', native: 'SepoliaETH' },
   };
   var DEFAULT = '0xaa36a7';
   // Local preview only: point the desk at a factory on a local chain.

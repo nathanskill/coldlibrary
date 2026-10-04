@@ -1,0 +1,10 @@
+{
+  "sepolia": {
+    "chainId": 11155111,
+    "ColdVaultFactory": "0x70C3C28db630e3A324db800f6f346e1aFdcE0cA3",
+    "deployedAt": "2026-10-05",
+    "deployer": "0x3b0cfcd9a3d547564c4E30bB9801871FB6E192ED",
+    "source": "contracts/src/ColdVault.sol, verified on Sourcify (exact match)",
+    "note": "Testnet only. Not audited."
+  }
+}
