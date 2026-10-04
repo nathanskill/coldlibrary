@@ -1,0 +1,200 @@
+{
+  "spec": "coldlibrary/0.1",
+  "owner": {
+    "display_name": "林小舟（虚构示例）",
+    "languages": ["zh"],
+    "signing_pubkey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFOwAKSst1lgEGZ1xkHRlxUh4h4+rSrijBiC+eKUvUWC fictional-example-xiaozhou"
+  },
+  "version": {
+    "seq": 3,
+    "signed_at": "2026-09-20",
+    "supersedes": 2,
+    "cosigned_by": "k2"
+  },
+  "crypto": {
+    "cipher": "age-scrypt",
+    "split": "SLIP-39",
+    "master_secret_bits": 256,
+    "threshold": 2,
+    "shares": 3
+  },
+  "precedence": ["本人当面或签名的指示", "最新的有效版本", "旧版本"],
+  "property_follows_legal_will": true,
+  "legal_docs": [
+    { "form": "经过公证的遗嘱（虚构）", "where": "原件在保管这个箱子的公证处；复印件在书桌里的灰色文件夹" },
+    { "form": "意定监护协议（虚构）", "where": "公证副本在灰色文件夹；监护人是大舟（k1）" },
+    { "form": "医疗预先指示（虚构）", "where": "社区医院和灰色文件夹里各有一份" }
+  ],
+  "keepers": [
+    {
+      "id": "k1",
+      "name": "林大舟（虚构，哥哥）",
+      "contact": "dazhou@example.org",
+      "role": "executor",
+      "consented_at": "2026-09-12",
+      "can_veto": true,
+      "can_decline": ["publish", "irreversible"]
+    },
+    {
+      "id": "k2",
+      "name": "周以宁（虚构，朋友、共同维护者）",
+      "contact": "yining@example.org",
+      "role": "contact",
+      "consented_at": "2026-09-14",
+      "can_veto": true,
+      "can_decline": ["publish", "shutdown", "irreversible"]
+    },
+    {
+      "id": "k3",
+      "name": "陈默（虚构，前同事）",
+      "contact": "chenmo@example.net",
+      "role": "contact",
+      "consented_at": "2026-09-15",
+      "can_veto": true,
+      "can_decline": ["publish", "shutdown", "irreversible"]
+    }
+  ],
+  "box": {
+    "custodian": "notary",
+    "custodian_note": "一家公证处（虚构）保管封好的箱子，封面放在信封最上面。见到死亡证明，或在确认人数达到、否决期结束后收到开启人的联合书面申请时，公证处把箱子交给开启人。",
+    "timelock": null,
+    "revocable": true
+  },
+  "liveness": {
+    "silence_months": 6,
+    "reminder_days": 30,
+    "checkin": "signed",
+    "quorum": "2-of-3",
+    "veto_window_days": 28,
+    "single_keeper_path": false
+  },
+  "wishes": [
+    {
+      "id": "w1",
+      "text_ref": "COLDLIBRARY.md#w1",
+      "kind": "ordinary",
+      "stage": "after_death",
+      "half_life": { "binding_until": "+2y", "advisory_until": "+10y" }
+    },
+    {
+      "id": "w2",
+      "text_ref": "COLDLIBRARY.md#w2",
+      "kind": "irreversible",
+      "stage": "public",
+      "half_life": { "binding_until": "+1y", "advisory_until": "+3y" }
+    },
+    {
+      "id": "w3",
+      "text_ref": "COLDLIBRARY.md#w3",
+      "kind": "publish",
+      "stage": "public",
+      "half_life": { "binding_until": "+2y", "advisory_until": "+10y" }
+    },
+    {
+      "id": "w4",
+      "text_ref": "COLDLIBRARY.md#w4",
+      "kind": "publish",
+      "stage": "public",
+      "half_life": { "binding_until": "+2y", "advisory_until": "+10y" }
+    },
+    {
+      "id": "w5",
+      "text_ref": "COLDLIBRARY.md#w5",
+      "kind": "destroy-private",
+      "stage": "after_death",
+      "half_life": { "binding_until": "+1y", "advisory_until": "+2y" }
+    },
+    {
+      "id": "w6",
+      "text_ref": "COLDLIBRARY.md#w6",
+      "kind": "ordinary",
+      "stage": "after_death",
+      "half_life": { "binding_until": "+1y", "advisory_until": "+10y" }
+    }
+  ],
+  "assets": [
+    { "kind": "银行活期账户（虚构）", "where": "对账单在书桌里的灰色文件夹", "contact_ref": "k1" },
+    { "kind": "潮汐监控的公司账户（虚构）", "where": "记录在遗嘱写明的会计那里", "contact_ref": "k1" },
+    { "kind": "养老金（虚构）", "where": "每年的通知信在灰色文件夹", "contact_ref": "k1" },
+    {
+      "kind": "硬件钱包（虚构）",
+      "where": "设备在家里的保险柜。助记词不在这个箱子里，遗嘱写明了它在哪里。",
+      "contact_ref": "k1"
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "邮箱服务商（虚构）",
+      "route": "长期不活跃功能在 6 个月后通知 k1，之后走服务商官方的逝者申请表",
+      "configured": true
+    },
+    {
+      "platform": "代码托管平台（虚构）",
+      "route": "k2 已是灯笼鱼笔记的共同所有者；个人账户走平台官方的逝者申请",
+      "configured": true
+    },
+    {
+      "platform": "域名注册商（虚构）",
+      "route": "由 k1 走注册商官方的转移流程",
+      "configured": false
+    },
+    {
+      "platform": "密码管理器（虚构）",
+      "route": "已为 k1 设置紧急访问，等待期 7 天",
+      "configured": true
+    },
+    {
+      "platform": "社交账号（虚构）",
+      "route": "通过各平台官方的纪念或注销流程处理",
+      "configured": false
+    }
+  ],
+  "projects": [
+    {
+      "name": "灯笼鱼笔记（虚构的开源笔记应用）",
+      "handoff_doc": "灯笼鱼笔记仓库里的 HANDOVER.md；COLDLIBRARY.md 第 2 节",
+      "contact_ref": "k2",
+      "stage": "incapacity"
+    },
+    {
+      "name": "潮汐监控（虚构的在线监控服务）",
+      "handoff_doc": "潮汐监控私有仓库里的 runbook 文件夹；COLDLIBRARY.md 第 2 节",
+      "contact_ref": "k3",
+      "stage": "incapacity"
+    }
+  ],
+  "letters": [
+    {
+      "id": "l1",
+      "to": "大舟（k1）",
+      "stage": "after_death",
+      "file": "letters/001-family.md",
+      "ai_assisted": false
+    },
+    {
+      "id": "l2",
+      "to": "以宁（k2）",
+      "stage": "after_death",
+      "file": "letters/002-project.md",
+      "ai_assisted": true
+    }
+  ],
+  "commons": {
+    "items": ["技术演讲幻灯片（w3）", "灯笼鱼笔记的设计笔记（w4）"],
+    "stage": "public",
+    "per_item_consent": true
+  },
+  "agent_policy": {
+    "may": ["为开启人做摘要", "指出回答问题的章节", "起草清单交给人审核"],
+    "must_not": [
+      "以本人第一人称说话",
+      "模仿本人的声音或面容",
+      "登录任何账户",
+      "转移或出售财产",
+      "向任何人要钱",
+      "公开 commons 以外的内容"
+    ],
+    "must_cite": true,
+    "label_ai": true
+  }
+}

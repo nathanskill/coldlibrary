@@ -1,0 +1,209 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://coldlibrary.com/spec/v0.1/core.schema.json",
+  "title": "Cold Library core.json (spec v0.1)",
+  "description": "Machine-checkable part of an Ice Core. Lives inside the sealed core. Never contains amounts, passwords, recovery phrases or private keys.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["spec", "owner", "version", "crypto", "property_follows_legal_will", "keepers", "box", "liveness", "wishes"],
+  "properties": {
+    "spec": { "const": "coldlibrary/0.1" },
+    "owner": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["display_name"],
+      "properties": {
+        "display_name": { "type": "string", "minLength": 1, "maxLength": 120 },
+        "languages": { "type": "array", "items": { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]+)?$" } },
+        "signing_pubkey": { "type": ["string", "null"], "description": "Optional. Public key used to sign check-ins and new versions." }
+      }
+    },
+    "version": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["seq", "signed_at"],
+      "properties": {
+        "seq": { "type": "integer", "minimum": 1 },
+        "signed_at": { "type": "string", "format": "date" },
+        "supersedes": { "type": ["integer", "null"], "minimum": 1 },
+        "cosigned_by": { "type": ["string", "null"], "description": "Keeper id who co-signed this version, if any." }
+      }
+    },
+    "crypto": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["cipher", "split", "master_secret_bits", "threshold", "shares"],
+      "properties": {
+        "cipher": { "const": "age-scrypt" },
+        "split": { "const": "SLIP-39" },
+        "master_secret_bits": { "enum": [128, 256] },
+        "threshold": { "type": "integer", "minimum": 2, "maximum": 16 },
+        "shares": { "type": "integer", "minimum": 2, "maximum": 16 }
+      }
+    },
+    "precedence": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Order of authority, highest first. Default: the owner in person or by signed instruction; the latest valid version; older versions."
+    },
+    "property_follows_legal_will": { "const": true },
+    "legal_docs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["form", "where"],
+        "properties": {
+          "form": { "type": "string", "description": "e.g. notarized will, lasting power of attorney, advance directive" },
+          "where": { "type": "string" }
+        }
+      }
+    },
+    "keepers": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "role", "consented_at", "can_veto"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^k[0-9]+$" },
+          "name": { "type": "string" },
+          "contact": { "type": "string" },
+          "role": { "enum": ["contact", "executor"], "description": "executor only if the legal will names this person; the core cannot appoint an estate administrator" },
+          "consented_at": { "type": ["string", "null"], "format": "date" },
+          "can_veto": { "type": "boolean" },
+          "can_decline": { "type": "array", "items": { "enum": ["publish", "shutdown", "irreversible"] } }
+        }
+      }
+    },
+    "box": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["custodian", "revocable"],
+      "properties": {
+        "custodian": { "enum": ["notary", "platform", "timelock", "keepers"] },
+        "custodian_note": { "type": "string" },
+        "timelock": { "type": ["string", "null"], "description": "Optional time-lock layer description, e.g. drand tlock round or date" },
+        "revocable": { "type": "boolean" }
+      }
+    },
+    "liveness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["silence_months", "quorum", "veto_window_days"],
+      "properties": {
+        "silence_months": { "type": "integer", "minimum": 3, "maximum": 18 },
+        "reminder_days": { "type": "integer", "minimum": 7, "maximum": 90 },
+        "checkin": { "enum": ["signed", "in-person"] },
+        "quorum": { "type": "string", "pattern": "^[0-9]+-of-[0-9]+$" },
+        "veto_window_days": { "type": "integer", "minimum": 7, "maximum": 90 },
+        "single_keeper_path": { "const": false }
+      }
+    },
+    "wishes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "text_ref", "kind", "stage", "half_life"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^w[0-9]+$" },
+          "text_ref": { "type": "string", "description": "Anchor in COLDLIBRARY.md, e.g. COLDLIBRARY.md#w1" },
+          "kind": { "enum": ["ordinary", "irreversible", "publish", "destroy-private"] },
+          "stage": { "$ref": "#/$defs/stage" },
+          "half_life": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["binding_until", "advisory_until"],
+            "properties": {
+              "binding_until": { "$ref": "#/$defs/relative" },
+              "advisory_until": { "$ref": "#/$defs/relative" }
+            }
+          }
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "description": "Pointers only: what kind, where, who knows. Never amounts, passwords or recovery phrases.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "where"],
+        "properties": {
+          "kind": { "type": "string" },
+          "where": { "type": "string" },
+          "contact_ref": { "type": "string", "pattern": "^k[0-9]+$" }
+        }
+      }
+    },
+    "accounts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["platform", "route"],
+        "properties": {
+          "platform": { "type": "string" },
+          "route": { "type": "string", "description": "Usually the platform's official after-death process. Never 'log in with my password'." },
+          "configured": { "type": "boolean" }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "stage"],
+        "properties": {
+          "name": { "type": "string" },
+          "handoff_doc": { "type": "string" },
+          "contact_ref": { "type": "string", "pattern": "^k[0-9]+$" },
+          "stage": { "$ref": "#/$defs/stage" }
+        }
+      }
+    },
+    "letters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "to", "stage", "file", "ai_assisted"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^l[0-9]+$" },
+          "to": { "type": "string" },
+          "stage": { "$ref": "#/$defs/stage" },
+          "file": { "type": "string", "pattern": "^letters/[A-Za-z0-9._-]+\\.md$" },
+          "ai_assisted": { "type": "boolean" }
+        }
+      }
+    },
+    "commons": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["items", "stage", "per_item_consent"],
+      "properties": {
+        "items": { "type": "array", "items": { "type": "string" } },
+        "stage": { "$ref": "#/$defs/stage" },
+        "per_item_consent": { "const": true }
+      }
+    },
+    "agent_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["may", "must_not", "must_cite", "label_ai"],
+      "properties": {
+        "may": { "type": "array", "items": { "type": "string" } },
+        "must_not": { "type": "array", "items": { "type": "string" } },
+        "must_cite": { "const": true },
+        "label_ai": { "const": true }
+      }
+    }
+  },
+  "$defs": {
+    "stage": { "enum": ["unreachable", "incapacity", "after_death", "public"] },
+    "relative": { "type": "string", "pattern": "^\\+[0-9]+(d|m|y)$" }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "spec": "coldlibrary/0.1",
+  "owner": {
+    "display_name": "Wren Halloway (fictional example)",
+    "languages": ["en"],
+    "signing_pubkey": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIENoa0V5Lj1mC/YB0i2W+dVHJHk57dpkxvs2ttJ7s/hZ fictional-example-wren"
+  },
+  "version": {
+    "seq": 3,
+    "signed_at": "2026-09-20",
+    "supersedes": 2,
+    "cosigned_by": "k2"
+  },
+  "crypto": {
+    "cipher": "age-scrypt",
+    "split": "SLIP-39",
+    "master_secret_bits": 256,
+    "threshold": 2,
+    "shares": 3
+  },
+  "precedence": [
+    "The owner in person or by signed instruction",
+    "The latest valid version",
+    "Older versions"
+  ],
+  "property_follows_legal_will": true,
+  "legal_docs": [
+    {
+      "form": "Notarized will (fictional)",
+      "where": "Original at the notary office that holds this box; copy in the grey folder in the desk"
+    },
+    {
+      "form": "Lasting power of attorney (fictional)",
+      "where": "Registered copy in the grey folder; Sam (k1) is the attorney"
+    },
+    {
+      "form": "Advance directive (fictional)",
+      "where": "Copies with the family practice and in the grey folder"
+    }
+  ],
+  "keepers": [
+    {
+      "id": "k1",
+      "name": "Sam Halloway (fictional sibling)",
+      "contact": "sam@example.org",
+      "role": "executor",
+      "consented_at": "2026-09-12",
+      "can_veto": true,
+      "can_decline": ["publish", "irreversible"]
+    },
+    {
+      "id": "k2",
+      "name": "Ines Marlowe (fictional friend and co-maintainer)",
+      "contact": "ines@example.org",
+      "role": "contact",
+      "consented_at": "2026-09-14",
+      "can_veto": true,
+      "can_decline": ["publish", "shutdown", "irreversible"]
+    },
+    {
+      "id": "k3",
+      "name": "Tobiah Fenwright (fictional former colleague)",
+      "contact": "tobiah@example.net",
+      "role": "contact",
+      "consented_at": "2026-09-15",
+      "can_veto": true,
+      "can_decline": ["publish", "shutdown", "irreversible"]
+    }
+  ],
+  "box": {
+    "custodian": "notary",
+    "custodian_note": "A notary office (fictional) holds the sealed box in an envelope with the cover on top. It hands the box to the keepers on a death certificate, or on their joint written request after quorum and the veto window.",
+    "timelock": null,
+    "revocable": true
+  },
+  "liveness": {
+    "silence_months": 6,
+    "reminder_days": 30,
+    "checkin": "signed",
+    "quorum": "2-of-3",
+    "veto_window_days": 28,
+    "single_keeper_path": false
+  },
+  "wishes": [
+    {
+      "id": "w1",
+      "text_ref": "COLDLIBRARY.md#w1",
+      "kind": "ordinary",
+      "stage": "after_death",
+      "half_life": { "binding_until": "+2y", "advisory_until": "+10y" }
+    },
+    {
+      "id": "w2",
+      "text_ref": "COLDLIBRARY.md#w2",
+      "kind": "irreversible",
+      "stage": "public",
+      "half_life": { "binding_until": "+1y", "advisory_until": "+3y" }
+    },
+    {
+      "id": "w3",
+      "text_ref": "COLDLIBRARY.md#w3",
+      "kind": "publish",
+      "stage": "public",
+      "half_life": { "binding_until": "+2y", "advisory_until": "+10y" }
+    },
+    {
+      "id": "w4",
+      "text_ref": "COLDLIBRARY.md#w4",
+      "kind": "publish",
+      "stage": "public",
+      "half_life": { "binding_until": "+2y", "advisory_until": "+10y" }
+    },
+    {
+      "id": "w5",
+      "text_ref": "COLDLIBRARY.md#w5",
+      "kind": "destroy-private",
+      "stage": "after_death",
+      "half_life": { "binding_until": "+1y", "advisory_until": "+2y" }
+    },
+    {
+      "id": "w6",
+      "text_ref": "COLDLIBRARY.md#w6",
+      "kind": "ordinary",
+      "stage": "after_death",
+      "half_life": { "binding_until": "+1y", "advisory_until": "+10y" }
+    }
+  ],
+  "assets": [
+    {
+      "kind": "Current account at a high-street bank (fictional)",
+      "where": "Statements in the grey folder in the desk",
+      "contact_ref": "k1"
+    },
+    {
+      "kind": "Tidewatch business account (fictional)",
+      "where": "Records with the accountant named in the will",
+      "contact_ref": "k1"
+    },
+    {
+      "kind": "Pension (fictional)",
+      "where": "Yearly letters in the grey folder",
+      "contact_ref": "k1"
+    },
+    {
+      "kind": "Hardware wallet (fictional)",
+      "where": "Device in the home safe. The recovery words are not in this box; the will says where they are.",
+      "contact_ref": "k1"
+    }
+  ],
+  "accounts": [
+    {
+      "platform": "Email provider (fictional)",
+      "route": "Inactive-account feature notifies k1 after 6 months, then the provider's official deceased-user form",
+      "configured": true
+    },
+    {
+      "platform": "Code hosting platform (fictional)",
+      "route": "k2 already co-owns Lanternfish; the personal account goes through the platform's deceased-user request",
+      "configured": true
+    },
+    {
+      "platform": "Domain registrar (fictional)",
+      "route": "The registrar's official transfer process, started by k1",
+      "configured": false
+    },
+    {
+      "platform": "Password manager (fictional)",
+      "route": "Emergency access for k1 with a 7-day wait",
+      "configured": true
+    },
+    {
+      "platform": "Social accounts (fictional)",
+      "route": "Memorialize or close through each platform's official form",
+      "configured": false
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lanternfish (fictional open-source notes app)",
+      "handoff_doc": "HANDOVER.md in the Lanternfish repository; COLDLIBRARY.md section 2",
+      "contact_ref": "k2",
+      "stage": "incapacity"
+    },
+    {
+      "name": "Tidewatch (fictional uptime monitor)",
+      "handoff_doc": "Runbook folder in the private Tidewatch repository; COLDLIBRARY.md section 2",
+      "contact_ref": "k3",
+      "stage": "incapacity"
+    }
+  ],
+  "letters": [
+    {
+      "id": "l1",
+      "to": "Sam (k1)",
+      "stage": "after_death",
+      "file": "letters/001-family.md",
+      "ai_assisted": false
+    },
+    {
+      "id": "l2",
+      "to": "Ines (k2)",
+      "stage": "after_death",
+      "file": "letters/002-project.md",
+      "ai_assisted": true
+    }
+  ],
+  "commons": {
+    "items": ["Conference talk slides (w3)", "Lanternfish design notes (w4)"],
+    "stage": "public",
+    "per_item_consent": true
+  },
+  "agent_policy": {
+    "may": [
+      "Summarize this core for the keepers",
+      "Point to the section that answers a question",
+      "Draft checklists for a person to review"
+    ],
+    "must_not": [
+      "Speak in the first person as the owner",
+      "Imitate the owner's voice or face",
+      "Log in to any account",
+      "Move or sell any asset",
+      "Ask anyone for money",
+      "Publish anything not listed in commons"
+    ],
+    "must_cite": true,
+    "label_ai": true
+  }
+}

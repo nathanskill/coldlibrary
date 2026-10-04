@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coldlibrary"
+version = "0.1.0"
+description = "Offline tools for Cold Library: write, check, seal, split and open an Ice Core."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+requires-python = ">=3.9"
+authors = [{ name = "Cold Library contributors" }]
+keywords = ["cold library", "slip-39", "age", "shamir", "handover", "offline"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Security :: Cryptography",
+]
+dependencies = [
+    "pyrage>=1.2",
+    "shamir-mnemonic>=0.3",
+    "jsonschema>=4.18",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[project.scripts]
+coldlibrary = "coldlibrary.cli:main"
+
+[project.urls]
+Homepage = "https://coldlibrary.com"
+Source = "https://github.com/nathanskill/coldlibrary"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+coldlibrary = ["data/*.txt", "data/*.json", "data/*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
