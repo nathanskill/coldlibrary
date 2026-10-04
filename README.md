@@ -4,7 +4,7 @@
 
 Cold Library is an open format and a set of offline tools for writing down what should happen if you can no longer be reached: where things are, who to call, what to stop, letters to leave, and how long each wish should bind the living. You write it and seal it on your own machine, split the key among people you trust, and hand the sealed box to someone else to hold.
 
-Cold Library itself keeps nothing and executes nothing.
+Cold Library never holds your keys, shares, files or plaintext, and executes nothing. The only data it stores is the librarian register (email, pen name, number).
 
 | | |
 |---|---|

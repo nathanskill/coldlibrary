@@ -12,7 +12,7 @@ where things are, who to contact, letters to leave, and how long each wish
 should bind the living. You write it, encrypt it, split the key among people
 you trust, and hand the sealed box to a separate custodian.
 
-Cold Library itself keeps nothing and executes nothing.
+Cold Library never holds keys, shares, files or plaintext, and executes nothing. The only data it stores is the librarian register: email, pen name, number, language, listed flag and dates.
 
 - Website: https://coldlibrary.com (static, bilingual, English default)
 - Spec: `spec/v0.1/` (CC0-1.0)

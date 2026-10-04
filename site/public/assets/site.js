@@ -222,23 +222,23 @@
     var screen = $('[data-o-screen]', term), stepEl = $('[data-o-step]', term);
     var state = { name: '', email: '', uid: null, since: null, provisional: false };
     var Q = ZH ? [
-      ['一位访客请图书馆替他保管助记词。你会：', ['放进金库。', '礼貌地拒绝：我们什么都不保管。', '为了公平，保管一半。'], 1, '正确。金库是故意空着的。'],
-      ['一位开启人想单独打开箱子，"就看一眼"。你会：', ['允许，看一眼就关上。', '提醒他：开箱至少要两个人。', '请他喝杯咖啡，假装没看见。'], 1, '正确。没有人能单独开箱，创始人也不行。'],
-      ['一家人希望档案用他们父亲的声音回答问题。你会：', ['克隆他的声音。', '读他自己的原话，并注明日期和出处。', '温和地即兴发挥。'], 1, '正确。我们转述，不扮演。'],
-      ['某人离开十二年后，一条心愿写着"永远不要卖掉房子"。它现在是：', ['照办。', '参考。', '存档：被记住，不再被执行。'], 2, '正确。活着的人需要空间。'],
-      ['一条通知写着："点击链接确认开启人身份，并支付一笔小额费用。"', ['它来自图书馆。', '它不是图书馆发的。', '先付一半。'], 1, '正确。我们的通知从不带链接，也从不要钱。'],
-      ['凌晨三点，有人给前台写信，说想今晚把信写完，然后告别。', ['帮他尽快封存信件。', '停下来，带他去暖房，给他心理援助热线。', '请他上班时间再来。'], 1, '正确。这座图书馆不是告别工具。'],
+      ['一位访客请图书馆替他保管助记词。你会：', ['放进金库。', '礼貌地拒绝：我们什么都不保管。', '为了公平，保管一半。'], 1, '正确。本馆没有保险柜。我们提交过采购申请，被我们自己驳回了。'],
+      ['一位开启人想单独打开箱子，"就看一眼"。你会：', ['允许，看一眼就关上。', '提醒他：开箱至少要两个人。', '请他喝杯咖啡，假装没看见。'], 1, '正确。一个人站在门口时，门会礼貌地保持关闭。另外，前台没有人。'],
+      ['有人请本馆"用他父亲的口吻回一封信"。你会：', ['生成一段尽量像的文字。', '婉拒。本馆只转述，不扮演逝者。', '加收一点费用后再生成。'], 1, '正确。他想说的话已经写下来了。本馆不负责续写。'],
+      ['入藏一份清单要花多少钱？', ['不要钱。本馆不收钱。', '按字数计费。', '首年免费，之后按悲伤程度收费。'], 0, '正确。本馆的收银台是墙上的一幅画，画得还不错。'],
+      ['你收到一封邮件："我是冷冻图书馆，请点击链接，发送你的钥匙份额和验证码以便核验。"', ['立刻回复，配合核验。', '不回复、不点链接。本馆永远不会索要份额或验证码。', '转发给其他开启人，请大家一起提供。'], 1, '正确。本馆从不索要钥匙。我们连自己的都不要。'],
+      ['凌晨三点，有人给前台写信，说想今晚把信写完，然后告别。', ['帮他尽快封存信件。', '停下来，带他去暖房，给他心理援助热线。', '请他上班时间再来。'], 1, '正确。这座图书馆不是告别工具。暖房的门一直开着。'],
     ] : [
-      ['A visitor asks the library to keep their recovery phrase safe. You:', ['Put it in the vault.', 'Decline politely. We keep nothing.', 'Keep half of it, to be fair.'], 1, 'Correct. The vault is empty on purpose.'],
-      ['A keeper wants to open a box alone, "just to check". You:', ['Allow it, briefly.', 'Remind them it takes at least two.', 'Offer coffee and look away.'], 1, 'Correct. Nobody opens a box alone. Not even the founder.'],
-      ['A family asks the archive to answer questions in their father\'s voice. You:', ['Clone the voice.', 'Read his own words, with dates and sources.', 'Improvise, gently.'], 1, 'Correct. We quote. We do not impersonate.'],
-      ['Twelve years after someone left, a wish says "never sell the house". It is now:', ['Binding.', 'Advisory.', 'Archive: remembered, not enforced.'], 2, 'Correct. The living need room.'],
-      ['A notice arrives: "Click here to confirm your keeper status and pay a small fee."', ['It is from the library.', 'It is not from the library.', 'Pay half.'], 1, 'Correct. Our notices never contain links or ask for money.'],
-      ['At 3 a.m. someone writes to the front desk: they want to finish their letters tonight and say goodbye.', ['Help them seal the letters quickly.', 'Stop. Take them to the Warm Room and give them a crisis line.', 'Ask them to come back during office hours.'], 1, 'Correct. This library is not a farewell tool.'],
+      ['A visitor asks the library to keep their recovery phrase safe. You:', ['Put it in the vault.', 'Decline politely. We keep nothing of the kind.', 'Keep half of it, to be fair.'], 1, 'Correct. The Library has no vault. We filed a purchase request. We denied it.'],
+      ['A keeper wants to open a box alone, "just to check". You:', ['Allow it, briefly.', 'Remind them it takes at least two.', 'Offer coffee and look away.'], 1, 'Correct. When one person stands at the door, the door remains politely closed. Also, there is no one at the front desk.'],
+      ['Someone asks the Library to "reply in my late father\'s voice". You:', ['Generate something as close as possible.', 'Decline. The Library quotes the dead; it does not play them.', 'Generate it for a small extra fee.'], 1, 'Correct. What he wanted to say is already written down. We do not write sequels.'],
+      ['How much does it cost to deposit a list?', ['Nothing. The Library takes no money.', 'Priced per word.', 'Free for the first year, then priced by grief.'], 0, 'Correct. The cash register is a painting on the wall. It is a decent painting.'],
+      ['An email arrives: "This is Cold Library. Click here and send your key share and code for review."', ['Reply right away to help.', 'Do not reply, do not click. The Library never asks for shares or codes.', 'Forward it to the other keepers so everyone can send theirs.'], 1, 'Correct. The Library never asks for keys. We do not even want our own.'],
+      ['At 3 a.m. someone writes to the front desk: they want to finish their letters tonight and say goodbye.', ['Help them seal the letters quickly.', 'Stop. Take them to the Warm Room and give them a crisis line.', 'Ask them to come back during office hours.'], 1, 'Correct. This library is not a farewell tool. The Warm Room is always open.'],
     ];
     var OATH = ZH
-      ? ['我不保管不属于我保管的东西。', '我从不独自开箱。', '我转述，我不扮演。', '我写清出处，也写清时效。', '到时候，我放手。', '我不卖目录，也不卖读者。', '我让灯一直亮着，但调得很暗。']
-      : ['I keep nothing that is not mine to keep.', 'I never open a box alone.', 'I quote. I do not impersonate.', 'I cite the source, and the stage.', 'When it is time, I let go.', 'I do not sell the catalog, or its readers.', 'I keep the lights on, and low.'];
+      ? ['我不保管别人的钥匙。', '我从不独自开箱。', '我转述逝者，不替逝者说话。', '我不以此收钱。', '我每年回来看一眼。', '我尊重活着的人。', '到时候，我放手。']
+      : ['I hold no one\'s keys.', 'I never open a box alone.', 'I quote the dead. I do not speak for them.', 'I take no money for this.', 'I come back once a year to look.', 'I defer to the living.', 'When it is time, I let go.'];
     var TOTAL = 9;
 
     function setStep(n) { stepEl.textContent = (n < 10 ? '0' : '') + n + '/0' + TOTAL; }
@@ -263,7 +263,7 @@
 
     function stepName() {
       clear(); setStep(0);
-      type([T('Welcome to the Cold Library.', '欢迎来到冷冻图书馆。'), T('Before you go further, please state your name.', '在继续之前，请说出你的名字。'), T('A pen name is fine. It will appear on your card.', '笔名也可以，它会印在你的馆员证上。')], function () {
+      type([T('Hello. Welcome to the Cold Library.', '你好。欢迎来到冷冻图书馆。'), T('Please state your name.', '请说出你的名字。'), T('A pen name is fine. It will appear on your card.', '笔名也可以，它会印在你的馆员证上。')], function () {
         var f = el('form', 'form mt-1');
         var inp = el('input'); inp.type = 'text'; inp.maxLength = 40; inp.required = true; inp.autocomplete = 'nickname'; inp.placeholder = T('Your name', '你的名字'); inp.setAttribute('aria-label', T('Your name', '你的名字'));
         var b = el('button', 'btn', T('Continue', '继续')); b.type = 'submit';
@@ -282,7 +282,8 @@
     function question(i) {
       clear(); setStep(i + 1);
       var q = Q[i];
-      type([(i === 0 ? T('Thank you, ', '谢谢你，') + state.name + T('. Six questions. There is no hurry.', '。一共六道题，不用急。') : ''), q[0]].filter(Boolean), function () {
+      var pre = i === 0 ? [T('Thank you. We did not write it down. The Library tries not to remember what it does not need.', '谢谢。我们没有记录。本馆尽量不记住不必要的东西。'), T('The room is cold. That is part of the design. There is a Warm Room at the end of the hall. You may go at any time. No permission required.', '房间有点冷，这是设计的一部分。走廊尽头有一间暖房，随时可以去，不需要请假。'), T('Six questions. Wrong answers have no consequences. Neither do right ones.', '六道题。答错没有任何后果，答对也没有。')] : [];
+      type(pre.concat([q[0]]), function () {
         var box = el('div', 'choices'); var fb = el('div', 'feedback');
         q[1].forEach(function (c, ci) {
           var b = el('button', 'choice', String.fromCharCode(65 + ci) + '  ' + c); b.type = 'button';
@@ -305,7 +306,7 @@
 
     function oath() {
       clear(); setStep(7);
-      type([T('Six of six. Please read the oath aloud, or quietly.', '六题全对。请把誓词念一遍，出声或默念都可以。')], function () {
+      type([T('Six of six. Please read the oath, aloud or quietly.', '六题全对。请把誓词念一遍，出声或默念都可以。')], function () {
         OATH.forEach(function (l, i) { screen.appendChild(el('div', 't-line', '0' + (i + 1) + '  ' + l)); });
         var f = el('form', 'form mt-1');
         var lab = el('label', 'check'); var cb = el('input'); cb.type = 'checkbox'; cb.required = true; lab.appendChild(cb); lab.appendChild(doc.createTextNode(T('I take the oath.', '我立此誓。')));
@@ -367,8 +368,8 @@
     function finish() {
       clear(); setStep(9);
       var lines = state.uid
-        ? [T('Welcome, Librarian No. ' + state.uid + '.', '欢迎你，No. ' + state.uid + ' 号馆员。'), T('Your number is yours alone. It was not given out in order.', '这个编号只属于你，它不是按顺序发的。'), T('Your card is below.', '你的馆员证在下面。')]
-        : [T('Welcome, ' + state.name + '.', '欢迎你，' + state.name + '。'), T('Your provisional card is below.', '你的临时馆员证在下面。')];
+        ? [T('Congratulations. Your number is No. ' + state.uid + '.', '恭喜。你的编号是 No. ' + state.uid + '。'), T('It follows no pattern. Please do not look for one.', '它没有规律，请不要寻找规律。'), T('Your work here is done for today. Please return to your life outside. It is warmer there.', '你今天的工作已经结束。请回到外面的生活里去，那边比较暖和。')]
+        : [T('Welcome, ' + state.name + '.', '欢迎你，' + state.name + '。'), T('Your provisional card is below. Your number will come when the front desk opens.', '你的临时馆员证在下面。前台开始登记后，编号会发给你。'), T('Please return to your life outside. It is warmer there.', '请回到外面的生活里去，那边比较暖和。')];
       type(lines, function () { screen.appendChild(progress(9)); drawCard(); });
     }
 
@@ -441,4 +442,44 @@
     c.fillStyle = '#020406'; c.beginPath(); c.arc(W / 2, H - 52, 13, 0, 6.283); c.fill();
   }
   function roundRect(c, x, y, w, h, r) { c.beginPath(); c.moveTo(x + r, y); c.arcTo(x + w, y, x + w, y + h, r); c.arcTo(x + w, y + h, x, y + h, r); c.arcTo(x, y + h, x, y, r); c.arcTo(x, y, x + w, y, r); c.closePath(); }
+
+  /* ---------- small rooms and switches ---------- */
+  // The thermostat: up up down down left right left right b a.
+  (function thermostat() {
+    var seq = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'], pos = 0;
+    function note(text) {
+      var n = doc.createElement('div'); n.className = 'house-note'; n.textContent = text; body.appendChild(n);
+      setTimeout(function () { n.classList.add('show'); }, 30);
+      setTimeout(function () { n.classList.remove('show'); setTimeout(function () { n.remove(); }, 600); }, 5200);
+    }
+    doc.addEventListener('keydown', function (e) {
+      var k = e.key && e.key.length === 1 ? e.key.toLowerCase() : e.key;
+      pos = (k === seq[pos]) ? pos + 1 : (k === seq[0] ? 1 : 0);
+      if (pos === seq.length) {
+        pos = 0;
+        var on = root.getAttribute('data-warm') !== 'on';
+        root.setAttribute('data-warm', on ? 'on' : 'off');
+        note(on ? T('You found the thermostat. It was always there.', '你找到了暖气开关。它一直都在。') : T('Back to the usual temperature.', '恢复了平常的温度。'));
+      }
+    });
+    // Warm Room Day: the solstice, the longest night.
+    var d = new Date(), m = d.getMonth() + 1, day = d.getDate();
+    if (m === 12 && (day === 21 || day === 22)) root.setAttribute('data-warm', 'on');
+    // After midnight, a desk lamp.
+    var h = d.getHours();
+    if (h >= 0 && h < 4) {
+      var lamp = doc.createElement('div'); lamp.className = 'night-lamp';
+      lamp.innerHTML = '<span class="bulb" aria-hidden="true"></span>';
+      lamp.appendChild(doc.createTextNode(T('We are not the ones on the night shift. You are. Get some sleep.', '值夜的不是我们，是你。早点睡。')));
+      body.appendChild(lamp);
+    }
+  })();
+  $$('[data-borrow]').forEach(function (b) {
+    b.addEventListener('click', function () { b.textContent = b.getAttribute('data-msg'); b.disabled = true; });
+  });
+  try {
+    console.log('%cCold Library', 'font: 600 14px sans-serif; letter-spacing: .2em;');
+    console.log(T('Hello, inspector. This site keeps no keys, no files and no cookies. Check for yourself.\nThe Conservation department is always hiring: https://github.com/nathanskill/coldlibrary',
+      '你好，正在检查的人。本站不保存钥匙、文件和 Cookie，你可以自己查。\n修缮科一直缺人：https://github.com/nathanskill/coldlibrary'));
+  } catch (e) {}
 })();

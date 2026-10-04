@@ -61,8 +61,10 @@ export function isReserved(n) {
   if (/(520|1314|2114|1004|7878)/.test(s)) return true; // 520, 1314, 2114, the founding date, 78°N
   return false;
 }
+// Never issued at random either: homophones that read as insults in Chinese.
+export function isUnkind(n) { const s = String(n); return /250/.test(s) || /38$/.test(s); }
 export function randomNumber() {
-  for (;;) { const n = crypto.randomInt(100000, 1000000); if (!isReserved(n)) return n; }
+  for (;;) { const n = crypto.randomInt(100000, 1000000); if (!isReserved(n) && !isUnkind(n)) return n; }
 }
 
 export async function mail({ to, subject, text }) {
@@ -95,7 +97,7 @@ export function welcomeMail(lg, uid, name) {
   if (lg === 'zh') {
     return {
       subject: `欢迎入馆，No. ${uid}`,
-      text: `${name}：\n\n你现在是冷冻图书馆的 No. ${uid} 号馆员。这个编号只属于你，它不是按顺序发的。\n\n请记住：\n我不保管不属于我保管的东西。\n我从不独自开箱。\n我转述，我不扮演。\n到时候，我放手。\n\n冷冻图书馆的邮件从不带链接，也从不索要钱、密码或助记词。\n如果哪封邮件这样做了，它就不是我们发的。\n\n— 前台`,
+      text: `${name}：\n\n你现在是冷冻图书馆的 No. ${uid} 号馆员。这个编号只属于你，它没有规律，请不要寻找规律。\n\n请记住：\n我不保管别人的钥匙。\n我从不独自开箱。\n我转述逝者，不替逝者说话。\n到时候，我放手。\n\n冷冻图书馆的邮件从不带链接，也从不索要钱、密码或助记词。\n如果哪封邮件这样做了，它就不是我们发的。\n\n— 前台`,
     };
   }
   return {

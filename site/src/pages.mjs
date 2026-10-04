@@ -10,8 +10,8 @@ page({
   slug: '',
   title: { en: 'Lobby', zh: '大厅' },
   description: {
-    en: 'Cold Library is an open format and offline tools for writing down what should happen when you can no longer be reached. We keep nothing. You bring your own fuel.',
-    zh: '冷冻图书馆是一套开放格式和离线工具，用来写下联系不上以后该怎么办。这里什么都不保管，柴火你自己带。',
+    en: 'Cold Library is an open format and offline tools for writing down what should happen when you can no longer be reached. We never hold your keys or your files.',
+    zh: '冷冻图书馆是一套开放格式和离线工具，用来写下联系不上以后该怎么办。我们从不保管你的钥匙和文件。',
   },
   render: (lang) => {
     const T = t(lang);
@@ -22,7 +22,7 @@ page({
   <div class="wrap">
     <div class="label"><span class="dot"></span>${T('The Cold Library · Est. 2026', '冷冻图书馆 · 建于 2026')}</div>
     <h1 class="display mt-1">${T('A cold library for ordinary lives.', '给普通人的冷冻图书馆。')}</h1>
-    <p class="lede">${T('Write down what should happen if you can no longer be reached. Seal it. Give the keys to people you trust. Let it go when it is time. We keep nothing. You bring your own fuel.', '写下你联系不上以后该怎么办。封存起来，把钥匙交给你信任的人，到时候再放手。这里什么都不保管，柴火你自己带。')}</p>
+    <p class="lede">${T('Write down what should happen if you can no longer be reached. Seal it. Give the keys to people you trust. Let it go when it is time. We never hold your keys or your files. You bring your own fuel.', '写下你联系不上以后该怎么办。封存起来，把钥匙交给你信任的人，到时候再放手。我们从不保管你的钥匙和文件，柴火你自己带。')}</p>
     <div class="btns">
       <a class="btn ember" href="${href(lang, 'librarians/join')}">${T('Begin orientation', '开始入职培训')} <span class="k">→</span></a>
       <a class="btn" href="${href(lang, 'stacks')}">${T('How an Ice Core works', '交接清单怎么用')}</a>
@@ -139,7 +139,7 @@ page({
   description: { en: 'Deposit an Ice Core, a project, or a piece of writing. None of them are kept by us.', zh: '寄存交接清单、项目或一篇文字。这些都不由我们保管。' },
   render: (lang) => {
     const T = t(lang);
-    return `${pageHero({ lang, slug: 'accession', title: T('Front Desk', '前台 · 入藏处'), lede: T('Three things can be deposited here. None of them are kept by us: we record where they are, and the rules for when they may be opened.', '这里可以寄存三样东西。它们都不由我们保管：我们只记录东西在哪，以及什么时候可以打开。') })}
+    return `${pageHero({ lang, slug: 'accession', title: T('Front Desk', '前台 · 入藏处'), lede: T('Nobody sits at this desk. That is a promise, not a staffing issue. Three things can be deposited here, and none of them are kept by us: we record where they are, and the rules for when they may be opened.', '前台没有人。这是承诺，不是缺员。这里可以寄存三样东西，它们都不由我们保管：我们只记录东西在哪，以及什么时候可以打开。') })}
 <section class="block"><div class="wrap">
   ${sectionHead(T('Deposits', '寄存'), T('Choose a counter.', '选一个窗口。'))}
   <div class="grid three">
@@ -206,7 +206,7 @@ sealed/                 ${T('# what you hand over', '# 交出去的部分')}
 </div></section>
 <section class="block tight"><div class="wrap narrow reveal">
   <div class="notice warn"><strong>${T('Assets are pointers only.', '资产只写指向。')}</strong> ${T('Write where something is and who knows what to do. Never amounts, never passwords, never recovery phrases. A file that lists amounts becomes a treasure map, and treasure maps attract the wrong visitors.', '只写东西在哪、谁知道该怎么办。不写金额、不写密码、不写助记词。写了金额的清单就成了藏宝图，会招来不该来的人。')}</div>
-  <div class="btns"><a class="btn" href="${href(lang, 'reading-room')}">${T('Get the tools', '取工具')}</a><a class="btn ghost" href="${REPO}/tree/main/spec/v0.1/examples">${T('See a fictional example', '看一个虚构的例子')}</a></div>
+  <div class="btns"><a class="btn" href="${href(lang, 'reading-room')}">${T('Get the tools', '取工具')}</a><button class="btn ghost" type="button" data-borrow data-msg="${T('The Closed Stacks do not lend. Not even to us.', '闭架书库不外借。对我们自己也不。')}">${T('Borrow', '借阅')}</button><a class="btn ghost" href="${REPO}/tree/main/spec/v0.1/examples">${T('See a fictional example', '看一个虚构的例子')}</a></div>
 </div></section>`;
   },
 });
@@ -242,7 +242,7 @@ page({
 </div></section>
 <section class="block"><div class="wrap grid two">
   <div class="panel reveal"><span class="num">${T('IF IT GOES WRONG', '如果出了错')}</span><h3>${T('The misfire plan', '误触发预案')}</h3><p class="muted">${T('What has been released cannot be recalled. So the first stage releases no content at all. If a letter goes out by mistake, the keeper you named in advance contacts the recipient, apologises, and asks them to delete it.', '放出去的东西收不回来。所以第一阶段不放任何内容。万一误发了信，由你事先指定的那位开启人联系收件人，道歉，并请对方删除。')}</p></div>
-  <div class="panel reveal"><span class="num">${T('NOTICES', '通知')}</span><h3>${T('Our notices are boring on purpose.', '我们的通知故意写得很无聊。')}</h3><p class="muted">${T('A Cold Library notice never contains a link, never asks for money, never asks you to type or download anything. If a message claiming to be from us does any of these, it is not from us.', '冷冻图书馆的通知从不带链接，从不要钱，从不让你输入或下载任何东西。如果一封自称来自我们的消息做了其中任何一件事，它就不是我们发的。')}</p></div>
+  <div class="panel reveal"><span class="num">${T('NOTICES', '通知')}</span><h3>${T('Our notices are boring on purpose.', '我们的通知故意写得很无聊。')}</h3><p class="muted">${T('A Cold Library notice never contains a link, never asks for money, never asks you to type or download anything. If a message claiming to be from us does any of these, it is not from us. The Bureau of Impersonation answers every letter that says “send us your key”: we do not have it, and we never want it.', '冷冻图书馆的通知从不带链接，从不要钱，从不让你输入或下载任何东西。如果一封自称来自我们的消息做了其中任何一件事，它就不是我们发的。冒名甄别科会回复每一封"请把钥匙交给我们"的来信：我们没有钥匙，也永远不要。')}</p></div>
   <div class="panel reveal"><span class="num">${T('LETTERS', '信')}</span><h3>${T('Written by you.', '由你亲笔写。')}</h3><p class="muted">${T('An AI may help you outline. It does not write in your voice. Any passage it drafted is marked, and the reader sees that mark.', 'AI 可以帮你列提纲，但不替你的口吻写。它起草过的段落会被标出来，收信人能看到这个标记。')}</p></div>
   <div class="panel reveal"><span class="num">${T('LAW', '法律')}</span><h3>${T('Unreachable is not dead.', '联系不上，不等于去世。')}</h3><p class="muted">${T('Keepers confirming silence is not a legal finding of death, and nothing here pretends otherwise.', '开启人确认失联，不是法律上的宣告死亡。这里没有任何地方假装它是。')}</p></div>
 </div></section>`;
@@ -302,7 +302,7 @@ page({
 <section class="block"><div class="wrap grid three">
   <div class="panel reveal"><span class="num">0–2 ${T('YEARS', '年')}</span><h3>${T('Binding', '照办')}</h3><p class="muted">${T('Do what it says, unless the law or safety says otherwise.', '照着做，除非法律或安全另有要求。')}</p></div>
   <div class="panel reveal"><span class="num">2–10 ${T('YEARS', '年')}</span><h3>${T('Advisory', '参考')}</h3><p class="muted">${T('Weigh it as advice from someone who loved you. The living decide.', '把它当成一个爱你的人留下的建议来掂量。决定权在活着的人手里。')}</p></div>
-  <div class="panel reveal"><span class="num">10+ ${T('YEARS', '年')}</span><h3>${T('Archive', '存档')}</h3><p class="muted">${T('Remembered, quoted, never enforced.', '被记住，被引用，不再被执行。')}</p></div>
+  <div class="panel reveal"><span class="num">10+ ${T('YEARS', '年')}</span><h3>${T('Archive', '存档')}</h3><p class="muted">${T('Remembered, quoted, never enforced. The Department of Letting Go, next door, helps old lists expire on purpose. We believe things should end.', '被记住，被引用，不再被执行。隔壁的放手科负责让旧清单按时到期、作废。本馆相信，东西应该有终点。')}</p></div>
 </div></section>
 <section class="block"><div class="wrap split">
   <div class="reveal">
@@ -428,8 +428,8 @@ page({
   render: (lang) => {
     const T = t(lang);
     const oath = lang === 'zh'
-      ? ['我不保管不属于我保管的东西。', '我从不独自开箱。', '我转述，我不扮演。', '我写清出处，也写清时效。', '到时候，我放手。', '我不卖目录，也不卖读者。', '我让灯一直亮着，但调得很暗。']
-      : ['I keep nothing that is not mine to keep.', 'I never open a box alone.', 'I quote. I do not impersonate.', 'I cite the source, and the stage.', 'When it is time, I let go.', 'I do not sell the catalog, or its readers.', 'I keep the lights on, and low.'];
+      ? ['我不保管别人的钥匙。', '我从不独自开箱。', '我转述逝者，不替逝者说话。', '我不以此收钱。', '我每年回来看一眼。', '我尊重活着的人。', '到时候，我放手。']
+      : ['I hold no one\'s keys.', 'I never open a box alone.', 'I quote the dead. I do not speak for them.', 'I take no money for this.', 'I come back once a year to look.', 'I defer to the living.', 'When it is time, I let go.'];
     return `${pageHero({ lang, slug: 'librarians', image: 'mountain-station', alt: T('A small station with one lit window on a snowy ridge under the aurora', '极光下雪山脊上一座亮着一扇窗的小站'), title: T('Register of Librarians', '馆员名册'), lede: T('Librarians keep this place. They file projects, review deposits, run drills and translate. Each has a number. Numbers are not given out in order, and short or memorable ones are held back for events and contributors.', '馆员照看这个地方：登记项目、审核寄存、组织演练、做翻译。每人有一个编号。编号不按注册顺序发放，短号和好记的号码留给活动和贡献者。') })}
 <section class="block"><div class="wrap split">
   <div class="reveal">
@@ -456,19 +456,34 @@ page({
     </div>
   </div>
 </div></section>
+<section class="block"><div class="wrap grid two">
+  <div class="panel reveal"><span class="num">${T('OFFICE OF NUMBERS', '馆员编号处')}</span><h3>${T('Numbers follow no pattern.', '编号没有规律。')}</h3><p class="muted">${T('Numbers are issued at random between 100000 and 999999. Everything below 100000 and every memorable number is locked in a cabinet for events and contributors: repeated digits, runs, mirrors, round numbers, and numbers that mean something here, such as 78, 520, 1004 and 2114. Reserved numbers cannot be sold, traded or transferred, and they carry no authority. Each one is granted with a public reason. A retired number is never issued again.', '编号在 100000 到 999999 之间随机发放。100000 以下的号码和所有好记的号码都锁在柜子里，留给活动和贡献者：重复数、顺子、回文、整数，以及在本馆有含义的数字，比如 78、520、1004、2114。靓号不能买卖、交换或转让，也不代表任何权限，每一个都会公开写明发放理由。注销的编号永不再发。')}</p></div>
+  <div class="panel reveal"><span class="num">${T('CALENDAR', '馆历')}</span><h3>${T('Observances', '馆内节日')}</h3>
+    <dl class="kv">
+      <dt>03-31</dt><dd>${T('Duplicate Day. Keepers check that their share still exists.', '复本日：开启人确认自己那一份还在、还找得到。')}</dd>
+      <dt>${T('Qingming', '清明')}</dt><dd>${T('Annual Review Day. Look at your list once. Check your keepers can still be reached.', '年检日：回来看一眼自己的清单，确认开启人还联系得上。')}</dd>
+      <dt>05-20</dt><dd>${T('Keeper Day. Thank someone who holds a share for you.', '开启人日：谢谢那位替你保管一份钥匙的人。')}</dd>
+      <dt>10-04</dt><dd>${T('Founding Day. The front desk stays empty, as usual.', '建馆日：前台照常没有人。')}</dd>
+      <dt>${T('Solstice', '冬至')}</dt><dd>${T('Warm Room Day. The longest night; the whole building turns warm. Call a keeper. Do not mention the list.', '暖房日：一年中最长的夜，整座楼变暖。给开启人打个电话，不谈清单，只问好。')}</dd>
+      <dt>12-31</dt><dd>${T('Letting Go Day. Retire what you no longer need.', '放手日：把不再需要的嘱托撤下来。')}</dd>
+    </dl>
+  </div>
+</div></section>
 <section class="block"><div class="wrap split">
   <div class="reveal">
     ${sectionHead(T('The oath', '誓词'), T('Seven lines.', '七句话。'))}
     <ul class="clean">${oath.map((l, i) => `<li><span class="mark">0${i + 1}</span><span>${esc(l)}</span></li>`).join('')}</ul>
   </div>
   <div class="reveal">
-    ${sectionHead(T('Ranks', '等级'), T('Earned by doing the work.', '靠做事升上去。'))}
+    ${sectionHead(T('Ranks', '等级'), T('Rank records what you did. It grants no power.', '等级只记录你做过什么，不给任何权限。'))}
     <dl class="kv">
-      <dt>${T('Librarian', '馆员')}</dt><dd>${T('Finished orientation and took the oath.', '完成入职培训，念过誓词。')}</dd>
-      <dt>${T('Cataloguer', '编目员')}</dt><dd>${T('Has filed projects or writings that passed review.', '登记过通过审核的项目或文字。')}</dd>
-      <dt>${T('Drill Warden', '演练员')}</dt><dd>${T('Has run a full keeper drill, including the misfire plan.', '主持过一次完整的开启人演练，包括误触发预案。')}</dd>
-      <dt>${T('Keeper of the Stacks', '库管')}</dt><dd>${T('Maintains the spec, the tools or the site.', '维护规范、工具或网站。')}</dd>
+      <dt>${T('Librarian', '馆员')}</dt><dd>${T('Finished orientation, took the oath, received a number.', '完成入职培训，念过誓词，领到编号。')}</dd>
+      <dt>${T('Reviewed Librarian', '年检馆员')}</dt><dd>${T('Came back for a first Annual Review.', '回来做过第一次年检。')}</dd>
+      <dt>${T('Docent', '导览员')}</dt><dd>${T('Helped someone deposit, confirmed by that person. Never paid, never pushed.', '帮别人完成过一次入藏，并由对方确认。从不收钱，从不催促。')}</dd>
+      <dt>${T('Conservator', '修缮员')}</dt><dd>${T('Code, docs, translation, design, accessibility or a security report accepted into the project.', '代码、文档、翻译、设计、无障碍改进或安全报告被项目采纳。')}</dd>
+      <dt>${T('Steward of the Stacks', '馆务托管人')}</dt><dd>${T('A long-standing conservator. Keeps the rules; gives no orders.', '长期的修缮员。负责守规矩，不负责发号施令。')}</dd>
     </dl>
+    <p class="faint mt-1">${T('Badges, not ranks: Night Warden (a responsible security disclosure) · Interpreter (a translation) · Released (retired an old list on purpose) · Dormant (away for two years; a state, not a penalty). No rank can open anyone else\'s box, the founder\'s included.', '徽章不算等级：守夜人（负责任地披露过安全问题）· 译员（贡献过一种语言的翻译）· 已放手（亲手让一份旧清单到期作废）· 冬眠中（两年没来，这是状态，不是惩罚）。任何等级都打不开别人的箱子，创始馆员也不例外。')}</p>
   </div>
 </div></section>`;
   },
@@ -533,6 +548,12 @@ page({
         <li>${T('Your Ice Core is unaffected: it was never here.', '你的交接清单不受影响：它本来就不在这里。')}</li>
       </ul>
     </div>
+    <div class="panel mt-2"><span class="num">${T('WHAT WE STORE', '我们存了什么')}</span><h3>${T('Stored, and not stored.', '存了什么，没存什么。')}</h3>
+      <dl class="kv">
+        <dt>${T('Stored', '存了')}</dt><dd>${T('For librarians only: email, pen name, number, language, whether you are listed, and dates. A salted hash of your network address for one day, to stop abuse.', '只针对馆员：邮箱、笔名、编号、语言、是否公开、日期。另外，为了防滥用，会把你的网络地址加盐散列后保存一天。')}</dd>
+        <dt>${T('Never stored', '从不保存')}</dt><dd>${T('Ice Cores, letters, keys, shares, plaintext, interview answers, cookies, analytics.', '交接清单、信、钥匙、份额、明文、整理谈话的回答、Cookie、统计数据。')}</dd>
+      </dl>
+    </div>
     <div class="notice mt-1">${T('No cookies. No analytics. No third-party scripts. Fonts are served from this domain.', '没有 Cookie，没有统计分析，没有第三方脚本。字体从本站加载。')}</div>
   </div>
 </div></section>`;
@@ -549,7 +570,7 @@ page({
     const never = lang === 'zh'
       ? ['保管钥匙、份额、明文、箱子、资产或钱。', '担任遗嘱执行人、遗产管理人、受托人或代理人。', '说一份交接清单就是法律遗嘱。', '用第一人称替逝者说话，克隆声音或面孔，或者陪家属聊天。', '在任何页面出现填写助记词、私钥或密码的输入框。', '在通知里放链接、向你要钱、让你输入或下载任何东西。', '在网站上做任何在线加密。', '放统计脚本、追踪器或第三方代码。', '发币、拿风险投资、按资产规模收费、收券商交易所殡葬保险的钱。', '删除你的文件。']
       : ['Hold keys, shares, plaintext, boxes, assets or money.', 'Act as an executor, administrator, trustee or agent.', 'Call an Ice Core a legal will.', 'Speak for the dead in the first person, clone a voice or a face, or chat with the family.', 'Show an input field for a recovery phrase, a private key or a password.', 'Put a link in a notice, ask for money, or ask you to type or download anything.', 'Run any online cryptography on this website.', 'Load analytics, trackers or third-party code.', 'Issue a token, take venture money, charge by the size of your assets, or take money from brokers, exchanges, funeral homes or insurers.', 'Delete your files.'];
-    return `${pageHero({ lang, slug: 'rules', image: 'corridor', alt: T('A long institutional corridor ending at a frosted vault door', '一条长长的走廊，尽头是结了霜的金库门'), title: T('House Rules', '馆规'), lede: T('Short rules, kept forever. If we ever break one, this page is the evidence.', '规矩很短，一直有效。如果哪天我们违反了其中一条，这一页就是证据。') })}
+    return `${pageHero({ lang, slug: 'rules', image: 'corridor', alt: T('A long institutional corridor ending at a frosted vault door', '一条长长的走廊，尽头是结了霜的金库门'), title: T('House Rules', '馆规'), lede: T('This page is kept by the Department of Things We Do Not Do, the busiest department in the building. If we ever break one of these rules, this page is the evidence.', '这一页由不办科负责，它是全馆最忙的科室。如果哪天我们违反了其中一条，这一页就是证据。') })}
 <section class="block"><div class="wrap split">
   <div class="reveal">
     ${sectionHead(T('Never', '永远不会'), T('Cold Library will never:', '冷冻图书馆永远不会：'))}
@@ -615,14 +636,14 @@ page({
 /* ------------------------------------------------------------------ */
 page({
   slug: '404',
-  title: { en: 'Misfiled', zh: '放错了架' },
+  title: { en: 'Released', zh: '已放手' },
   description: { en: 'This shelf is empty.', zh: '这个书架是空的。' },
   render: (lang) => {
     const T = t(lang);
     return `<section class="page-hero"><div class="wrap">
   <div class="floor-big"><span class="floor">?</span>${T('Floor unknown', '楼层未知')}</div>
-  <h1>${T('Misfiled.', '放错了架。')}</h1>
-  <p class="lede">${T('This shelf is empty. Things get misfiled; a librarian will find it eventually. Meanwhile, the directory is always open.', '这个书架是空的。东西偶尔会被放错架，馆员迟早会找到它。在那之前，楼层指示一直开着。')}</p>
+  <h1>${T('This page has been released.', '这一页已被放手。')}</h1>
+  <p class="lede">${T('It did its job. Or it never had one. Either is fine. Things also get misfiled here; the directory is always open.', '它完成了自己的使命，或者从来没有过，都可以。东西偶尔也会被放错架，楼层指示一直开着。')}</p>
   <div class="btns"><button class="btn" type="button" data-open-directory>${T('Floor directory', '楼层指示')}</button><a class="btn ghost" href="${href(lang, '')}">${T('Back to the lobby', '回大厅')}</a></div>
 </div></section>`;
   },

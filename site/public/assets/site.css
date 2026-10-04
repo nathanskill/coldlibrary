@@ -560,3 +560,12 @@ svg.horizon { display: block; width: 100%; height: 200px; margin-bottom: 40px; }
 .panel.lake-edge { border-color: rgba(63, 177, 176, 0.35); }
 .panel.pine-edge { border-color: rgba(80, 140, 110, 0.35); }
 .hero .hero-media img { object-position: 68% 55%; }
+
+/* ---------- warm mode (the thermostat, and the solstice) ---------- */
+:root[data-warm="on"] { --ice: #ffc29a; --ice-2: #ff9e66; --ice-3: #c8642d; --glow: rgba(255, 140, 80, 0.3); --line: rgba(255, 196, 160, 0.14); --line-2: rgba(255, 196, 160, 0.28); }
+:root[data-warm="on"] body { background: radial-gradient(1200px 700px at 70% -10%, rgba(255, 123, 63, 0.16), transparent 60%), var(--bg); transition: background 1.2s ease; }
+:root[data-warm="on"] .hero-media img, :root[data-warm="on"] .page-hero .hero-media img { filter: sepia(0.35) saturate(1.1) hue-rotate(-12deg); }
+.house-note { position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 20px); opacity: 0; transition: all 500ms ease; z-index: 90; background: var(--panel-2); border: 1px solid var(--line-2); border-radius: 12px; padding: 12px 18px; font-family: var(--f-mono); font-size: 0.85rem; color: var(--ink); box-shadow: var(--shadow); }
+.house-note.show { opacity: 1; transform: translate(-50%, 0); }
+.night-lamp { position: fixed; left: 16px; bottom: 16px; z-index: 45; display: flex; align-items: center; gap: 10px; max-width: 320px; font-size: 0.82rem; color: var(--ink-2); background: var(--panel-2); border: 1px solid rgba(255, 123, 63, 0.35); border-radius: 12px; padding: 10px 14px; box-shadow: 0 0 40px rgba(255, 123, 63, 0.18); }
+.night-lamp .bulb { width: 12px; height: 12px; border-radius: 50%; background: #ffb070; box-shadow: 0 0 16px 4px rgba(255, 150, 80, 0.6); flex: none; }

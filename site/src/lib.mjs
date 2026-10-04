@@ -150,7 +150,7 @@ export function footer(lang) {
     <div class="cols">
       <div>
         <div class="brand">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></div>
-        <p class="mt-1">${T('An open format and offline tools for writing down what should happen when you can no longer be reached. We keep nothing. You bring your own fuel.', '一套开放格式和离线工具，用来写下"联系不上以后该怎么办"。这里什么都不保管，柴火你自己带。')}</p>
+        <p class="mt-1">${T('An open format and offline tools for writing down what should happen when you can no longer be reached. We never hold your keys or your files. You bring your own fuel.', '一套开放格式和离线工具，用来写下"联系不上以后该怎么办"。我们从不保管你的钥匙和文件，柴火你自己带。')}</p>
       </div>
       <div><h4>${T('Floors', '楼层')}</h4><ul>${['accession', 'stacks', 'harbour', 'projects', 'open-stacks'].map(link).join('')}</ul></div>
       <div><h4>${T('The house', '本馆')}</h4><ul>${['librarians', 'rules', 'ledger', 'name', 'warm-room'].map(link).join('')}</ul></div>
