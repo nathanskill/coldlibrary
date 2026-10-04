@@ -1,6 +1,6 @@
 ---
 accession: S-000001
-title: 为什么是一座冷藏图书馆
+title: 为什么是一座冷冻图书馆
 author: 馆员 No. 1
 date: 2026-10-04
 ---

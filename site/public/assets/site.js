@@ -263,7 +263,7 @@
 
     function stepName() {
       clear(); setStep(0);
-      type([T('Welcome to the Cold Library.', '欢迎来到冷藏图书馆。'), T('Before you go further, please state your name.', '在继续之前，请说出你的名字。'), T('A pen name is fine. It will appear on your card.', '笔名也可以，它会印在你的馆员证上。')], function () {
+      type([T('Welcome to the Cold Library.', '欢迎来到冷冻图书馆。'), T('Before you go further, please state your name.', '在继续之前，请说出你的名字。'), T('A pen name is fine. It will appear on your card.', '笔名也可以，它会印在你的馆员证上。')], function () {
         var f = el('form', 'form mt-1');
         var inp = el('input'); inp.type = 'text'; inp.maxLength = 40; inp.required = true; inp.autocomplete = 'nickname'; inp.placeholder = T('Your name', '你的名字'); inp.setAttribute('aria-label', T('Your name', '你的名字'));
         var b = el('button', 'btn', T('Continue', '继续')); b.type = 'submit';
@@ -409,7 +409,7 @@
     c.strokeStyle = 'rgba(168,225,255,0.12)'; c.lineWidth = 1; roundRect(c, 32, 32, W - 64, H - 64, 18); c.stroke();
     // header
     c.fillStyle = '#a8e1ff'; c.font = '600 30px "Plex Cond",' + cjk; c.textBaseline = 'alphabetic';
-    c.fillText(ZH ? '冷藏图书馆 · 馆员证' : 'COLD LIBRARY · LIBRARIAN', 70, 100);
+    c.fillText(ZH ? '冷冻图书馆 · 馆员证' : 'COLD LIBRARY · LIBRARIAN', 70, 100);
     c.fillStyle = 'rgba(168,225,255,0.55)'; c.font = '500 18px "Plex Mono", monospace';
     c.textAlign = 'right'; c.fillText('78°14′N 15°29′E · −18 °C', W - 70, 100); c.textAlign = 'left';
     // number

@@ -6,7 +6,7 @@ Library asks people to write: a clear will that any future executor can follow.
 
 ## What this is
 
-Cold Library (冷图书馆) is an open format and a set of offline tools for writing
+Cold Library (冷冻图书馆) is an open format and a set of offline tools for writing
 down what should happen if you become unreachable, incapacitated, or die:
 where things are, who to contact, letters to leave, and how long each wish
 should bind the living. You write it, encrypt it, split the key among people
@@ -38,7 +38,7 @@ Cold Library itself keeps nothing and executes nothing.
 
 | English | 中文（对外） | Meaning |
 |---|---|---|
-| Cold Library | 冷图书馆 | The project and brand |
+| Cold Library | 冷冻图书馆 | The project and brand |
 | Ice Core | 交接清单 | One person's file: cover + sealed core + letters |
 | Cover | 封面 | `COVER.md`, public and printable. No names, assets, accounts |
 | Exit Interview | 整理谈话 | Guided questions (questionnaire, local model, or your own AI) that draft the first version |

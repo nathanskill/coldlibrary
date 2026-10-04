@@ -11,7 +11,7 @@ page({
   title: { en: 'Lobby', zh: '大厅' },
   description: {
     en: 'Cold Library is an open format and offline tools for writing down what should happen when you can no longer be reached. We keep nothing. You bring your own fuel.',
-    zh: '冷藏图书馆是一套开放格式和离线工具，用来写下联系不上以后该怎么办。这里什么都不保管，柴火你自己带。',
+    zh: '冷冻图书馆是一套开放格式和离线工具，用来写下联系不上以后该怎么办。这里什么都不保管，柴火你自己带。',
   },
   render: (lang) => {
     const T = t(lang);
@@ -20,8 +20,8 @@ page({
   <div class="hero-media"><img src="/assets/img/lake-library.jpg" srcset="/assets/img/lake-library-sm.jpg 820w, /assets/img/lake-library.jpg 1600w" sizes="100vw" alt="${T('A concrete and glass library on the shore of a frozen lake, snow mountains and a spruce forest behind it, a few windows lit', '冰湖岸边一座混凝土和玻璃的图书馆，背后是雪山和云杉林，几扇窗亮着')}"></div>
   <canvas class="snow" data-snow="full" aria-hidden="true"></canvas>
   <div class="wrap">
-    <div class="label"><span class="dot"></span>${T('The Cold Library · Est. 2026', '冷藏图书馆 · 建于 2026')}</div>
-    <h1 class="display mt-1">${T('A cold library for ordinary lives.', '给普通人的冷藏图书馆。')}</h1>
+    <div class="label"><span class="dot"></span>${T('The Cold Library · Est. 2026', '冷冻图书馆 · 建于 2026')}</div>
+    <h1 class="display mt-1">${T('A cold library for ordinary lives.', '给普通人的冷冻图书馆。')}</h1>
     <p class="lede">${T('Write down what should happen if you can no longer be reached. Seal it. Give the keys to people you trust. Let it go when it is time. We keep nothing. You bring your own fuel.', '写下你联系不上以后该怎么办。封存起来，把钥匙交给你信任的人，到时候再放手。这里什么都不保管，柴火你自己带。')}</p>
     <div class="btns">
       <a class="btn ember" href="${href(lang, 'librarians/join')}">${T('Begin orientation', '开始入职培训')} <span class="k">→</span></a>
@@ -111,7 +111,7 @@ page({
     <div class="reveal">
       <div class="label"><span class="dot"></span>${T('Not a memorial', '这里不是纪念馆')}</div>
       <h2 class="section-title mt-1">${T('No candles. No countdowns.', '没有蜡烛，没有倒计时。')}</h2>
-      <p class="lede">${T('This is a library. Things are filed, kept cold, and read when it is time. The corridors may remind you of an office from a television series. We kept the corridors and left the company behind: here, the dead do not give orders to the living.', '这是一座图书馆。东西被编目、冷藏，到时候再被读到。走廊可能让你想起某部美剧里的那家公司。我们只借了走廊，没借那家公司：在这里，逝者不给活着的人下命令。')}</p>
+      <p class="lede">${T('This is a library. Things are filed, kept cold, and read when it is time. The corridors may remind you of an office from a television series. We kept the corridors and left the company behind: here, the dead do not give orders to the living.', '这是一座图书馆。东西被编目、冻起来，到时候再被读到。走廊可能让你想起某部美剧里的那家公司。我们只借了走廊，没借那家公司：在这里，逝者不给活着的人下命令。')}</p>
       <a class="btn ghost mt-1" href="${href(lang, 'rules')}">${T('Read the house rules', '看馆规')}</a>
     </div>
   </div>
@@ -200,7 +200,7 @@ sealed/                 ${T('# what you hand over', '# 交出去的部分')}
 <section class="block"><div class="wrap">
   ${sectionHead(T('Cover and core', '封面与正文'), T('One page anyone may read. Everything else sealed.', '一页谁都能读，其余全部封存。'))}
   <div class="grid two">
-    ${card({ acc: 'COVER.md', title: T('The cover', '封面'), fields: [[T('Says', '写明'), T('This is a Cold Library cover. It is not a will.', '这是冷藏图书馆的封面，不是遗嘱。')], [T('Opening', '开启'), T('2 of 3 keepers, after the silence period', '静默期过后，3 位开启人中的 2 位')], [T('Box held by', '箱子在'), T('a notary', '公证处')], [T('Never', '从不写'), T('names, assets, accounts', '人名、资产、账户')]], stamp: T('Public', '公开'), stampClass: 'ice' })}
+    ${card({ acc: 'COVER.md', title: T('The cover', '封面'), fields: [[T('Says', '写明'), T('This is a Cold Library cover. It is not a will.', '这是冷冻图书馆的封面，不是遗嘱。')], [T('Opening', '开启'), T('2 of 3 keepers, after the silence period', '静默期过后，3 位开启人中的 2 位')], [T('Box held by', '箱子在'), T('a notary', '公证处')], [T('Never', '从不写'), T('names, assets, accounts', '人名、资产、账户')]], stamp: T('Public', '公开'), stampClass: 'ice' })}
     ${card({ acc: 'core.age', title: T('The core', '正文'), fields: [[T('Holds', '内含'), 'COLDLIBRARY.md · core.json'], [T('Cipher', '加密'), 'age · scrypt'], [T('Key', '钥匙'), T('256-bit, split with SLIP-39', '256 位，用 SLIP-39 拆分')], [T('Never', '从不写'), T('passwords, recovery phrases, amounts', '密码、助记词、金额')]], stamp: T('Sealed', '已封存') })}
   </div>
 </div></section>
@@ -242,7 +242,7 @@ page({
 </div></section>
 <section class="block"><div class="wrap grid two">
   <div class="panel reveal"><span class="num">${T('IF IT GOES WRONG', '如果出了错')}</span><h3>${T('The misfire plan', '误触发预案')}</h3><p class="muted">${T('What has been released cannot be recalled. So the first stage releases no content at all. If a letter goes out by mistake, the keeper you named in advance contacts the recipient, apologises, and asks them to delete it.', '放出去的东西收不回来。所以第一阶段不放任何内容。万一误发了信，由你事先指定的那位开启人联系收件人，道歉，并请对方删除。')}</p></div>
-  <div class="panel reveal"><span class="num">${T('NOTICES', '通知')}</span><h3>${T('Our notices are boring on purpose.', '我们的通知故意写得很无聊。')}</h3><p class="muted">${T('A Cold Library notice never contains a link, never asks for money, never asks you to type or download anything. If a message claiming to be from us does any of these, it is not from us.', '冷藏图书馆的通知从不带链接，从不要钱，从不让你输入或下载任何东西。如果一封自称来自我们的消息做了其中任何一件事，它就不是我们发的。')}</p></div>
+  <div class="panel reveal"><span class="num">${T('NOTICES', '通知')}</span><h3>${T('Our notices are boring on purpose.', '我们的通知故意写得很无聊。')}</h3><p class="muted">${T('A Cold Library notice never contains a link, never asks for money, never asks you to type or download anything. If a message claiming to be from us does any of these, it is not from us.', '冷冻图书馆的通知从不带链接，从不要钱，从不让你输入或下载任何东西。如果一封自称来自我们的消息做了其中任何一件事，它就不是我们发的。')}</p></div>
   <div class="panel reveal"><span class="num">${T('LETTERS', '信')}</span><h3>${T('Written by you.', '由你亲笔写。')}</h3><p class="muted">${T('An AI may help you outline. It does not write in your voice. Any passage it drafted is marked, and the reader sees that mark.', 'AI 可以帮你列提纲，但不替你的口吻写。它起草过的段落会被标出来，收信人能看到这个标记。')}</p></div>
   <div class="panel reveal"><span class="num">${T('LAW', '法律')}</span><h3>${T('Unreachable is not dead.', '联系不上，不等于去世。')}</h3><p class="muted">${T('Keepers confirming silence is not a legal finding of death, and nothing here pretends otherwise.', '开启人确认失联，不是法律上的宣告死亡。这里没有任何地方假装它是。')}</p></div>
 </div></section>`;
@@ -489,7 +489,7 @@ page({
 <section class="block"><div class="wrap narrow">
   <noscript><div class="notice warn">${T('Orientation needs JavaScript. Everything else on this site works without it.', '入职培训需要开启 JavaScript。网站其他部分不需要。')}</div></noscript>
   <div class="terminal" id="orientation" data-lang="${lang}">
-    <div class="t-head"><span>${T('Cold Library · Orientation Terminal 07', '冷藏图书馆 · 07 号培训终端')}</span><span data-o-step>00/09</span></div>
+    <div class="t-head"><span>${T('Cold Library · Orientation Terminal 07', '冷冻图书馆 · 07 号培训终端')}</span><span data-o-step>00/09</span></div>
     <div data-o-screen></div>
   </div>
   <div class="libcard-wrap mt-3 hidden" data-card-wrap>
@@ -543,7 +543,7 @@ page({
 page({
   slug: 'rules',
   title: { en: 'House Rules', zh: '馆规' },
-  description: { en: 'What Cold Library will never do: hold keys, impersonate the dead, ask for money in a notice, or pretend to be a will.', zh: '冷藏图书馆永远不会做的事：保管钥匙、扮演逝者、在通知里要钱、假装自己是遗嘱。' },
+  description: { en: 'What Cold Library will never do: hold keys, impersonate the dead, ask for money in a notice, or pretend to be a will.', zh: '冷冻图书馆永远不会做的事：保管钥匙、扮演逝者、在通知里要钱、假装自己是遗嘱。' },
   render: (lang) => {
     const T = t(lang);
     const never = lang === 'zh'
@@ -552,7 +552,7 @@ page({
     return `${pageHero({ lang, slug: 'rules', image: 'corridor', alt: T('A long institutional corridor ending at a frosted vault door', '一条长长的走廊，尽头是结了霜的金库门'), title: T('House Rules', '馆规'), lede: T('Short rules, kept forever. If we ever break one, this page is the evidence.', '规矩很短，一直有效。如果哪天我们违反了其中一条，这一页就是证据。') })}
 <section class="block"><div class="wrap split">
   <div class="reveal">
-    ${sectionHead(T('Never', '永远不会'), T('Cold Library will never:', '冷藏图书馆永远不会：'))}
+    ${sectionHead(T('Never', '永远不会'), T('Cold Library will never:', '冷冻图书馆永远不会：'))}
     <ul class="clean">${never.map((l, i) => `<li><span class="mark">${String(i + 1).padStart(2, '0')}</span><span>${esc(l)}</span></li>`).join('')}</ul>
   </div>
   <div class="reveal">
@@ -578,7 +578,7 @@ page({
   <p class="faint">${ext('https://katiepaterson.org/now/future-library/', 'katiepaterson.org')}</p></div>
   <div class="panel reveal"><span class="num">CEALD + HEREBEORG</span><h3>${T('Cold harbour', '冷港')}</h3><p class="muted">${T('Coldharbour is an old English place name: from ceald, cold, and herebeorg, shelter. It meant a bare roadside refuge with no keeper and no fire. You brought your own fuel. That is still the deal here.', 'Coldharbour 是英国的一个老地名，来自古英语 ceald（冷）和 herebeorg（庇护所），指路边一间简陋的歇脚屋：没人看守，没有炉火，柴火要自己带。这也是本馆至今的规矩。')}</p>
   <p class="faint">${ext('https://southoxfordhistory.org.uk/images/photos/Local_history_section/Abingdon_Road/Coldharbour_notes_on_place_name_by_Tim_Healey_Oct_2018.pdf', 'South Oxford History')} · ${ext('https://en.wikipedia.org/wiki/Coldharbour', 'Wikipedia')}</p></div>
-  <div class="panel reveal"><span class="num">冷藏 · 馆藏</span><h3>${T('冷藏图书馆', '冷藏图书馆')}</h3><p class="muted">${T('The Chinese name means “cold-storage library”. 冷藏 is what a cold room does for food and medicine; 藏 alone is also the word for a library\'s collection. Kept cold, and kept as part of the collection.', '冷藏，是冷库为食物和药品做的事；"藏"字本身，也是图书馆"馆藏"的那个藏。既冷冷地存着，也作为馆藏的一部分被收着。')}</p></div>
+  <div class="panel reveal"><span class="num">冷冻 · −18 °C</span><h3>${T('冷冻图书馆', '冷冻图书馆')}</h3><p class="muted">${T('The Chinese name means “frozen library”. Seeds in Svalbard are frozen at minus eighteen degrees, and decades later they can still be sown. Freezing is a pause, not an end. That is what we want for the things people leave here.', '冷冻，是种子库对种子做的事：在零下十八度冻起来，几十年后拿出来，照样能播种。冷冻是暂停，不是结束。我们希望人们留在这里的东西也是这样。')}</p></div>
 </div></section>
 <section class="block"><div class="wrap narrow reveal">
   <p class="lede">${T('If you have watched a certain series about a company that splits people in two, the corridors may look familiar. We borrowed the corridors and left the company behind. Here nobody is split, nobody is erased, and no founder rules from a wing of wax figures.', '如果你看过某部讲一家公司把人切成两半的美剧，这些走廊可能会让你眼熟。我们只借了走廊，没借那家公司：在这里，没有人被切开，没有人被抹去，也没有哪位创始人从一座蜡像展厅里继续发号施令。')}</p>

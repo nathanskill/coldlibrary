@@ -43,7 +43,7 @@ export function directoryBoard(lang, slug) {
   }).join('');
   return `<div class="directory" id="directory" role="dialog" aria-modal="true" aria-label="${T('Floor directory', '楼层指示')}" hidden>
   <div class="board">
-    <div class="board-head"><span class="board-title">${T('Cold Library · Floor Directory', '冷藏图书馆 · 楼层指示')}</span><button class="board-close" type="button" data-close-directory>${T('Close · Esc', '关闭 · Esc')}</button></div>
+    <div class="board-head"><span class="board-title">${T('Cold Library · Floor Directory', '冷冻图书馆 · 楼层指示')}</span><button class="board-close" type="button" data-close-directory>${T('Close · Esc', '关闭 · Esc')}</button></div>
     <ol>${items}</ol>
     <div class="board-foot"><span>${T('Stairs are always open. The elevator is a figure of speech.', '楼梯一直开着。电梯只是一个比喻。')}</span><span>78°14′N 15°29′E</span></div>
   </div>
@@ -56,7 +56,7 @@ export function layout({ lang, slug, title, description, body, image = '/assets/
   const canonical = SITE + href(lang, slug);
   const enUrl = SITE + href('en', slug);
   const zhUrl = SITE + href('zh', slug);
-  const fullTitle = slug ? `${title} — ${T('Cold Library', '冷藏图书馆')}` : T('Cold Library — a cold library for ordinary lives', '冷藏图书馆 — 给普通人的冷藏图书馆');
+  const fullTitle = slug ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — a cold library for ordinary lives', '冷冻图书馆 — 给普通人的冷冻图书馆');
   return `<!doctype html>
 <html lang="${lang === 'zh' ? 'zh-CN' : 'en'}" data-theme="dark">
 <head>
@@ -69,7 +69,7 @@ export function layout({ lang, slug, title, description, body, image = '/assets/
 <link rel="alternate" hreflang="zh-CN" href="${zhUrl}">
 <link rel="alternate" hreflang="x-default" href="${enUrl}">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="${T('Cold Library', '冷藏图书馆')}">
+<meta property="og:site_name" content="${T('Cold Library', '冷冻图书馆')}">
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:image" content="${SITE}${image}">
@@ -87,7 +87,7 @@ export function layout({ lang, slug, title, description, body, image = '/assets/
 <a class="skip" href="#main">${T('Skip to content', '跳到正文')}</a>
 <header class="topbar">
   <div class="wrap">
-    <a class="brand" href="${href(lang, '')}" aria-label="${T('Cold Library, lobby', '冷藏图书馆，大厅')}">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷藏图书馆')}</span></a>
+    <a class="brand" href="${href(lang, '')}" aria-label="${T('Cold Library, lobby', '冷冻图书馆，大厅')}">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></a>
     <span class="ticker" aria-hidden="true"><b>78°14′N</b> 15°29′E · ${T('stacks at', '书库温度')} <b>−18 °C</b> · ${T('est.', '建馆')} 2026-10-04 · ${T('never opened by one person', '从不一个人开箱')}</span>
     <span class="spacer"></span>
     <button class="tool" type="button" data-open-directory aria-controls="directory">${ICON_DIR}<span class="tool-text">${T('Floors', '楼层')}</span></button>
@@ -149,7 +149,7 @@ export function footer(lang) {
   <div class="wrap">
     <div class="cols">
       <div>
-        <div class="brand">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷藏图书馆')}</span></div>
+        <div class="brand">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></div>
         <p class="mt-1">${T('An open format and offline tools for writing down what should happen when you can no longer be reached. We keep nothing. You bring your own fuel.', '一套开放格式和离线工具，用来写下"联系不上以后该怎么办"。这里什么都不保管，柴火你自己带。')}</p>
       </div>
       <div><h4>${T('Floors', '楼层')}</h4><ul>${['accession', 'stacks', 'harbour', 'projects', 'open-stacks'].map(link).join('')}</ul></div>
