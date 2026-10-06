@@ -1,14 +1,14 @@
 // POST /api/librarians/register  { email, penName, locale, listed, adult, oath, purpose? }
 // Sends a six-digit code by email. Responds the same way whether or not the email is already registered.
 import { ensureSchema, rateLimit } from '../_lib/db.js';
-import { send, readJson, normEmail, cleanName, lang, L, newCode, codeHash, clientKey, mail, codeMail } from '../_lib/util.js';
+import { send, readJson, normEmail, cleanName, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return send(res, 405, { message: 'POST only' });
   const body = await readJson(req);
   const lg = lang(body.locale);
   const purpose = body.purpose === 'leave' ? 'leave' : 'join';
-  if (!process.env.RESEND_API_KEY) return send(res, 503, { message: L(lg, 'The front desk is not taking registrations yet.', '前台暂时还没开始登记。') });
+  if (!mailConfigured()) return send(res, 503, { message: L(lg, 'The front desk is not taking registrations yet.', '前台暂时还没开始登记。') });
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: L(lg, 'The register is closed for maintenance.', '名册正在维护。') });

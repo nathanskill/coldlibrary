@@ -67,10 +67,38 @@ export function randomNumber() {
   for (;;) { const n = crypto.randomInt(100000, 1000000); if (!isReserved(n) && !isUnkind(n)) return n; }
 }
 
+// Mail desk. Resend by default. A standby provider, Postmark, is used only when
+// MAIL_PROVIDER=postmark and POSTMARK_SERVER_TOKEN are both set (added 2026-10-06).
+// Settings (names only): RESEND_API_KEY, MAIL_FROM, MAIL_PROVIDER, POSTMARK_SERVER_TOKEN.
+export function mailProvider() {
+  const wanted = String(process.env.MAIL_PROVIDER || '').trim().toLowerCase();
+  if (wanted === 'postmark' && String(process.env.POSTMARK_SERVER_TOKEN || '').trim()) return 'postmark';
+  return 'resend';
+}
+export function mailConfigured() {
+  return mailProvider() === 'postmark' ? true : Boolean(process.env.RESEND_API_KEY);
+}
+
 export async function mail({ to, subject, text }) {
+  const from = process.env.MAIL_FROM || 'Cold Library Front Desk <desk@mail.coldlibrary.com>';
+  if (mailProvider() === 'postmark') {
+    // Plain text only, like every Cold Library email. 422 is permanent; 429 and 5xx are transient.
+    const r = await fetch('https://api.postmarkapp.com/email', {
+      method: 'POST',
+      headers: {
+        accept: 'application/json',
+        'content-type': 'application/json',
+        'x-postmark-server-token': String(process.env.POSTMARK_SERVER_TOKEN).trim(),
+      },
+      body: JSON.stringify({ From: from, To: to, Subject: subject, TextBody: text, MessageStream: 'outbound' }),
+    });
+    let errorCode = null;
+    try { const j = await r.json(); if (Number.isInteger(j?.ErrorCode)) errorCode = j.ErrorCode; } catch { errorCode = null; }
+    const ok = r.ok && (errorCode === null || errorCode === 0);
+    return { ok, status: r.status, provider: 'postmark', ...(ok ? {} : { errorCode, retryable: r.status === 429 || r.status >= 500 }) };
+  }
   const key = process.env.RESEND_API_KEY;
   if (!key) return { ok: false, reason: 'not-configured' };
-  const from = process.env.MAIL_FROM || 'Cold Library Front Desk <desk@mail.coldlibrary.com>';
   const r = await fetch('https://api.resend.com/emails', {
     method: 'POST',
     headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' },

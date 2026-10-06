@@ -2,7 +2,7 @@
 // The recognised layer arrives already locked by the applicant's browser; we never see answers or plaintext.
 import { randomBytes } from 'node:crypto';
 import { ensureSchema, rateLimit } from '../_lib/db.js';
-import { send, readJson, normEmail, lang, L, newCode, codeHash, clientKey, mail, codeMail } from '../_lib/util.js';
+import { send, readJson, normEmail, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
 
 const clip = (s, n) => String(s ?? '').replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g, '').trim().slice(0, n);
 const b64 = /^[A-Za-z0-9+/=]+$/;
@@ -11,7 +11,7 @@ export default async function handler(req, res) {
   if (req.method !== 'POST') return send(res, 405, { message: 'POST only' });
   const body = await readJson(req);
   const lg = lang(body.locale);
-  if (!process.env.RESEND_API_KEY) return send(res, 503, { message: L(lg, 'The front desk is not taking applications yet.', '前台暂时还不收申请。') });
+  if (!mailConfigured()) return send(res, 503, { message: L(lg, 'The front desk is not taking applications yet.', '前台暂时还不收申请。') });
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: L(lg, 'The front desk is closed for maintenance.', '前台正在维护。') });
