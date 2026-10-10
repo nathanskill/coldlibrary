@@ -79,13 +79,93 @@
       "permanent": true
     },
     {
+      "source": "/stacks",
+      "destination": "/sealed#ice-core",
+      "permanent": true
+    },
+    {
+      "source": "/zh/stacks",
+      "destination": "/zh/sealed#ice-core",
+      "permanent": true
+    },
+    {
+      "source": "/harbour",
+      "destination": "/sealed#when",
+      "permanent": true
+    },
+    {
+      "source": "/zh/harbour",
+      "destination": "/zh/sealed#when",
+      "permanent": true
+    },
+    {
+      "source": "/keepers",
+      "destination": "/sealed#keepers",
+      "permanent": true
+    },
+    {
+      "source": "/zh/keepers",
+      "destination": "/zh/sealed#keepers",
+      "permanent": true
+    },
+    {
+      "source": "/reading-room",
+      "destination": "/sealed#tools",
+      "permanent": true
+    },
+    {
+      "source": "/zh/reading-room",
+      "destination": "/zh/sealed#tools",
+      "permanent": true
+    },
+    {
+      "source": "/ledger",
+      "destination": "/rules#ledger",
+      "permanent": true
+    },
+    {
+      "source": "/zh/ledger",
+      "destination": "/zh/rules#ledger",
+      "permanent": true
+    },
+    {
+      "source": "/name",
+      "destination": "/about#name",
+      "permanent": true
+    },
+    {
+      "source": "/zh/name",
+      "destination": "/zh/about#name",
+      "permanent": true
+    },
+    {
+      "source": "/continuance",
+      "destination": "/about#continuance",
+      "permanent": true
+    },
+    {
+      "source": "/zh/continuance",
+      "destination": "/zh/about#continuance",
+      "permanent": true
+    },
+    {
       "source": "/half-life",
-      "destination": "/continuance",
+      "destination": "/about#continuance",
       "permanent": true
     },
     {
       "source": "/zh/half-life",
-      "destination": "/zh/continuance",
+      "destination": "/zh/about#continuance",
+      "permanent": true
+    },
+    {
+      "source": "/open-stacks",
+      "destination": "/about#open-stacks",
+      "permanent": true
+    },
+    {
+      "source": "/zh/open-stacks",
+      "destination": "/zh/about#open-stacks",
       "permanent": true
     }
   ]

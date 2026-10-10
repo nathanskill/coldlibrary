@@ -21,12 +21,16 @@ export default async function handler(req, res) {
   if (body.adult !== true || body.consent !== true) return send(res, 400, { message: L(lg, 'Please confirm the consent box.', '请勾选同意声明。') });
   const kind = body.kind === 'plaque' ? 'plaque' : 'exhibit';
   const it = body.item || {};
+  if (!clip(it.title, 60) || !clip(it.subtitle, 120)) return send(res, 400, { message: L(lg, 'A title and one line are needed.', '需要一个标题和一句话。') });
+  if (kind === 'plaque' && body.whose === 'other' && body.third_party_consent !== true) return send(res, 400, { message: L(lg, 'A plaque for someone else needs their consent.', '给别人立铭牌，需要本人同意。') });
+  // The warden block is all or nothing: questions, kdf, ciphertext and lamp hash, or none of them.
   const qs = Array.isArray(it.questions) ? it.questions.map((q) => clip(q, 120)).filter(Boolean).slice(0, 3) : [];
-  const ok = clip(it.title, 60) && clip(it.subtitle, 120) && clip(it.story, 2000) && qs.length >= 1
-    && it.kdf && b64.test(it.kdf.salt || '') && Number(it.kdf.iter) >= 100000
+  const anyWarden = qs.length || it.kdf || it.locked || it.lamp_hash;
+  const wardenOk = qs.length >= 1 && it.kdf && b64.test(it.kdf.salt || '') && Number(it.kdf.iter) >= 100000
     && it.locked && b64.test(it.locked.iv || '') && b64.test(it.locked.ct || '') && String(it.locked.ct).length < 20000
     && /^[0-9a-f]{64}$/.test(it.lamp_hash || '');
-  if (!ok) return send(res, 400, { message: L(lg, 'Some fields are missing or too long.', '有些内容没填，或者太长了。') });
+  if (anyWarden && !wardenOk) return send(res, 400, { message: L(lg, 'The warden part is incomplete. Please lock it again.', '守馆人那部分不完整，请重新锁一次。') });
+  if (String(it.story || '').length > 2000) return send(res, 400, { message: L(lg, 'The story is too long.', '介绍太长了。') });
 
   if (!(await rateLimit(sql, 'sub-ip:' + clientKey(req), 5))) return send(res, 429, { message: L(lg, 'Too many applications. Please wait ten minutes.', '提交太频繁，请十分钟后再试。') });
   if (!(await rateLimit(sql, 'sub-em:' + email, 3))) return send(res, 429, { message: L(lg, 'A code was sent recently. Please check your inbox.', '刚刚已经发过验证码，请查收邮件。') });
@@ -34,8 +38,8 @@ export default async function handler(req, res) {
   const item = {
     title: clip(it.title, 60), subtitle: clip(it.subtitle, 120), story: clip(it.story, 2000),
     links: (Array.isArray(it.links) ? it.links : []).map((u) => clip(u, 200)).filter((u) => /^https:\/\/[^\s<>"]+$/.test(u)).slice(0, 6),
-    questions: qs, kdf: { alg: 'PBKDF2-SHA256', salt: it.kdf.salt, iter: Number(it.kdf.iter) },
-    locked: { alg: 'AES-256-GCM', iv: it.locked.iv, ct: it.locked.ct }, lamp_hash: it.lamp_hash, notes_public: true,
+    has_warden: !!wardenOk, notes_public: true,
+    ...(wardenOk ? { questions: qs, kdf: { alg: 'PBKDF2-SHA256', salt: it.kdf.salt, iter: Number(it.kdf.iter) }, locked: { alg: 'AES-256-GCM', iv: it.locked.iv, ct: it.locked.ct }, lamp_hash: it.lamp_hash } : {}),
   };
   const id = 'S-' + randomBytes(6).toString('hex');
   const code = newCode();

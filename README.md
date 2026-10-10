@@ -2,7 +2,9 @@
 
 **Keep what is yours. Carry on what you meant.** [coldlibrary.com](https://coldlibrary.com) · [中文](README.zh.md)
 
-Cold Library gives a project a **Perpetual Exhibit** and a person a **Perpetual Plaque**. Each shows the world only what its owner chooses. The deeper layer is guarded by an AI **Warden**: visitors who pass its trial unlock what was left for them (letters, know-how, a successor badge, directions to things set aside) and may light a lamp. For things that must wait, the offline **Ice Core** tools seal a file and split its key among people you trust.
+Cold Library gives your work a **Perpetual Exhibit** and a person a **Perpetual Plaque**. Anyone can read what you choose to show; the rest waits behind an AI **Warden**, and only people who can answer its questions receive what you left for them. We keep the library, never the keys.
+
+Visitors who pass a warden's trial unlock what was left for them (letters, know-how, a successor badge, directions to things set aside) and may light a lamp. For things that must wait, the offline **Ice Core** tools seal a file and split its key among people you trust.
 
 The recognised layer is encrypted in the owner's browser with a key derived from the warden's answers, and decrypted in the visitor's browser. The server never sees answers or plaintext, holds no keys and no money, and executes nothing.
 
@@ -11,7 +13,8 @@ The recognised layer is encrypted in the owner's browser with a key derived from
 | `spec/v0.1/` | The sealed-layer (Ice Core) format: `COVER.md`, `COLDLIBRARY.md`, `core.json` and its JSON Schema (CC0-1.0) |
 | `cli/` | `coldlibrary` command-line tool: init, validate, seal, check-share, open, verify (Apache-2.0) |
 | `skills/exit-interview/` | An interview skill for any AI assistant, plus printable questionnaires |
-| `docs/` | Threat model |
+| `contracts/` | Cold Vault: a non-custodial inheritance contract you deploy for yourself (Foundry; Sepolia testnet only, not audited) |
+| `docs/` | Threat model and the Cold Vault whitepaper |
 | `catalog/` | Exhibits and plaques (`items/`), project cards and the Open Stacks, as plain files |
 | `tools/` | `seal-item.mjs` locks an item; `publish-item.mjs` hangs an approved application |
 | `site/` | The static website, zero dependencies (`node site/build.mjs`) |

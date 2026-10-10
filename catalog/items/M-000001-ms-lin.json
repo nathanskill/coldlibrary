@@ -3,7 +3,7 @@
   "slug": "ms-lin",
   "kind": "plaque",
   "example": true,
-  "image": "plaque-hall",
+  "image": "lin-radio",
   "notes_public": true,
   "title": {
     "en": "Lin Qiuyun",
@@ -15,8 +15,8 @@
   },
   "public": {
     "story": {
-      "en": "Ms Lin taught maths at a county secondary school for thirty-one years. Her students remember two things: she never rushed a problem, and there was always a radio, opened up, on her office windowsill.\n\nShe used to say that mending a radio and solving a problem are the same thing: first listen carefully to what is wrong, then go one part at a time.\n\nShe applied for this plaque herself. She is very much alive, and comes back now and then to add to it.\n\n*Ms Lin is fictional. This plaque shows what a plaque can hold.*",
-      "zh": "林老师在一所县城中学教了三十一年数学。学生们记得她两件事：讲题从不赶时间；办公室窗台上永远摆着一台拆开的收音机。\n\n她常说，修收音机和解题是一回事：先听清楚哪里不对，再一个零件一个零件地找。\n\n这块铭牌是她自己申请的。她身体很好，隔一阵子会回来添几句。\n\n*林老师是虚构人物，这块铭牌用来展示一块铭牌能放些什么。*"
+      "en": "Ms Lin taught maths at a county secondary school for thirty-one years. Her students remember two things: she never rushed a problem, and there was always a radio, opened up, on her office windowsill.\n\nShe used to say that mending a radio and solving a problem are the same thing: first listen carefully to what is wrong, then go one part at a time.\n\nShe applied for this plaque herself. She is very much alive, and comes back now and then to add to it.",
+      "zh": "林老师在一所县城中学教了三十一年数学。学生们记得她两件事：讲题从不赶时间；办公室窗台上永远摆着一台拆开的收音机。\n\n她常说，修收音机和解题是一回事：先听清楚哪里不对，再一个零件一个零件地找。\n\n这块铭牌是她自己申请的。她身体很好，隔一阵子会回来添几句。"
     },
     "facts": [
       {
@@ -36,7 +36,7 @@
         },
         "v": {
           "en": "“First listen to what is wrong.”",
-          "zh": "\"先听清楚哪里不对。\""
+          "zh": "“先听清楚哪里不对。”"
         }
       },
       {
@@ -54,44 +54,67 @@
   },
   "warden": {
     "name": {
-      "en": "The Warden of Room 302",
-      "zh": "302 室守馆人"
+      "en": "Ms Lin's warden",
+      "zh": "林老师的守馆人"
     },
     "greeting": {
-      "en": "Hello. This is Ms Lin's plaque. She left a few words for the students she taught, and one thing to collect. Two questions, to show you sat in Room 302.",
-      "zh": "你好，这是林老师的铭牌。她给教过的学生留了几句话，还留了一样东西可以去领。回答两个问题，证明你在 302 坐过。"
+      "en": "Hello. This is Ms Lin's plaque. She left a few words for the students she taught, and one thing to collect. Two questions.",
+      "zh": "你好，这是林老师的铭牌。她给教过的学生留了几句话，还有一样东西可以去领。两道题。"
     },
     "questions": [
       {
         "q": {
           "en": "What was the number on Ms Lin's office door?",
           "zh": "林老师办公室的门牌号是多少？"
-        },
-        "hint": {
-          "en": "Example answer: 302",
-          "zh": "示例答案：302"
         }
       },
       {
         "q": {
           "en": "Her favourite mathematical constant?",
-          "zh": "她最喜欢的数学常数？"
-        },
-        "hint": {
-          "en": "Example answer: e",
-          "zh": "示例答案：e"
+          "zh": "她最喜欢的数学常数是哪个？"
         }
       }
     ],
+    "example_answers": "302 · e",
     "kdf": {
       "alg": "PBKDF2-SHA256",
-      "salt": "dR75drPCaCzcLpbZ0pjZWQ==",
+      "salt": "pbeKi1Qv2tzCa859dzBT0Q==",
       "iter": 210000
     }
   },
   "locked": {
     "alg": "AES-256-GCM",
-    "iv": "S+V/skDu7/ldGu4+",
-    "ct": "wTR8S9g6gqDjju1XVv8yhWfOye/BeVn2hY/67H2L3+ZrIYKunzQRdPVhWV5XyCV1w7MuEGs/pDZYhyX2LHGTBupnUPWAGDD1AG1X7VPTQmqe1ilX3CQHT0mNu69x9agHHxdxooDX2dgbsnMol841mYJgmG1kuyDc8EhHfElTUSQl70L61srKiEzhPvGTsjm8tDFi3utUerQyolbGNSKcDFlNXEqQWx076JuYQ0uZ7aekZFma9i1UsA+0L0nnBGD1iAi/UilYpQkxMf2izqKJfrYUVZxTJSS4lmwJfsarQ5GfDRSjbQDS1EC+ck2UhLW/MvBdN6XlCVej7MhlQCVQbZ1Y8WHAZ9RW8s0zQExnppLTQXu2EAhXKBTzAHOCWAa4k8zoxA+VOksAkbn285+UiIcTw/NXVsS+mh7RPVbsu4Z4oxD6255F9mTMg/0QiE21XVk9u8cY5MJ97946pCUczELT+VAK/oNIMNV/sBkI3EiwEpM/gEtTFSz79FpCAi+sfCmIAytDF8QzslmmquUCXUfgekWoqkyhZmD5cL7g0CcnXLpIVyqzmyfJ9QUz4I6+K2l3o4ZOTTkqZg/VOsXfsKkzqAI29izH5bhA7RFTV6EkpqfvtGwyUdoV9Y1/RA2MldJhNuz8pJ0RtzwZXglZkk8MPfIQuwLT05axRdfV6nVzIHCLPVEa5DSWrHTWH87CZphwVtwd/iz8jemC+AeMNtpKxsM3yugiEC3wxWmst7gGYgVpzCamAlytBl9x2oId/SjPNZlhbEcexVKFXtVlICpnieLFfy5erlhM2Gzfs5t/7PrS10zhaMnvdguWu/wU23XIeuzuFTM3A9GYF+8id+QYxC6E5+jG6SEHszrO9+BqKlt0cdSnoP2/2y8pXaE216eS93Ag9IvsrUNmxtz+0q/DlElT9EnIvWHB8QQ+SJMOgHjWrdTRltM+CGRro9/Q6+g2598aWHOlLjVpAD/oNmRE6/pQaU8pjizibJHuyBHhEIfeqK2oXBgCFj7z9FyNmMB8w0J7uerhBNtO9FqUBoqINutilO8Lyq6sEBgPwrMTLkAp/WeEdw2pZXkahvtckZ8fmErrQvAN5CKbM7ZZCfOrf4VFwudrwCkkXm7nshk7s1NeljZjV2zNUBzzrtP/o7YcgweTH+gyO6GA9qtSF3qCwsBw6CdQqeYsjcYw8Z2bQtWwTZ3R5at51rhge9DMzb/I0Xg139NT0xhw8SCV6nYMbZ7IJgO8zhStuCERxxpDBh2uP3gT9kq78Crv5LKrNTaHGiTEAOhVp32AuUQzhdYAOlMdCmSgohuQ4HdHgjtk3/DHodL2p8TsEkDaBzvlYfdy4EDEZ4jgRfzVXShK1R/+GvlV+bzHLltzWjwPyhunXAVOedGOUbv6CdsPKHbTtyJfPU2L3UvyFlV5IQJr7Ysmus+3y4XfyDirm1qCovL/yUjV5SWES6oOOAAdWOBAJ3w7aUlkFAJDM6UVTrxvUkTNybE5G/ziW/JAebPMqDmmzNqGRB0R/hbd7tnNi1W9V5vJMYmVy05KC+tlsUWfuS2fVznoSDLAj7z1xnTB4lzcWuX+i3AMsPo="
-  }
+    "iv": "FVjl898QRkDS56Gx",
+    "ct": "XmEFtoRC/SsJzQVeCaLF82pbPBlEUBn7KuJ8cR36h9CW9FNwBrVZSxc+fnirnrlP2LvKb4i2ecYTC+h8C2pwsrq0NcATSeDjPrsasBtr2Bgp6Xhpa9MA324J2KL42+ip8LWaABEtjMMVJkMpP6Orb4qLzVgpx7XpvORC51xf0c/ls8P46S9g7uZpD7WNjmJxFyVlnzZmycjkUh68Nh0Ohoc6j7PrIt+Tq4PD5WsT1wpgINIuYVEpDedKEXAvyWHhfaT2sfe6HAm0qUJcI8wTt0egflxQIn3RvHZXZCembFKywE/UV22du8/yjoro+GhttKPGrxWbSW/q3pHxAwyCUuq6BfaroXEg3LuqCHSVSf686RAK1qfGvr06RVdTE6IE4/vlnzjUUfPu8qIEQkjiXoSb0LDozvkpOhJwFnf33P3wXQt8pHHM8Wuv81u7oiPmjMQtonZeHB370J0sTsycjpNHAIRPtzhgs/u4GZZKh9SOK3SgwMhgE6lGOZYIKPHT29aWk6+HXbp1TgIQOoevRtXqgoAooBEUfJ0HgawNcLRUpXl9sD14QL7pny7PlLeTbw7sH6AcAtg04mRrSX+q1j+dpG2GNZqlU25rQPx9GPF+DR4lQtCed2oW7qHIIvQqSjrDZxNwYptqI9MH/JDTLqpCmKucm3IonRCyjS3Z2AkasIdm10oGaCSHHpHbvnNr1Z2CKZo6w9crsTTpqaP56In4z9Et30yQBp/ze7HF1hK3LwzC0gbIq/6lLAH2HuPrgOGwjOy4FK1FG8owrd3vkEX/rgvMbKUbcHPmGXvi1Q2SIEhBbaK5IN2ZGdScvuSD0cSpdgQnPzLRMt8wEckgmOv8VrCF9f3ePdWGp/mm8J27nlxEvV/yVxNA94cIJ5E+AF79mY5EMZ1N4iDj5dH8Vbv5yCOOgpoLWyy6hIOEcoaFAKjXT6x6r2I4ev+4xM+bp3o8Q667ehwUDr9dWybTBsIaws5hCUUwAj7Y+D8kGRHxUDHDVZZXMK18nhwGtqFBeklEjB1EpUlOfBPF6H0ZyWumus0A9YZSP0QH+ubDC9dy6P2WY9Kf4BWMY5IVmsZkZNWyFXFGPQvsH5G/TYAiAhEj2Iy2NLBJpG8tZoDlQp1X81tsekcb/jXrNO1pycupq+q0xcmJiaXt6I99HoTj/AfAwCDgLzSo0J7EkK0LFJjyLvsXs9Js7jwBkaSUeICHMvas8dJQwyW0e15gfGhBFCoQ15PmQcmBUyXgreB7M87ngrswm12KV9WT/II15m/w89u3guzg/aaJXKRgf688BjNqWJ+Atl7v0vFPTTUXmBkRNwcj1UB2Xa7ZkN8UAVLAVQznu5uT6Dait4vPtULgWDEIQ7NhXUmB+3KUGAEaUfrmqMsOOqpwksQJ8+qNcSTEGToK5CQlz1gUANxd/uh68MEw6RMYGj7z4vDXIN9knDkzA1r4Xa+lNaUc3nYGCquPFipsVDJ7k9XBUFS1fUq1wfrHIbMq7s3OsDRI0WXHx4phiYLH8EBJwLm3Sau7Y90IcfirpRLjC32Jkw9Io0Y="
+  },
+  "spine": "rust",
+  "shelved": "2026-10-05",
+  "dek": {
+    "en": "Thirty-one years of maths, and radios.",
+    "zh": "三十一年数学，和收音机。"
+  },
+  "pronoun": {
+    "en": "she",
+    "zh": "她"
+  },
+  "contents": {
+    "letters": 1,
+    "pointer": 1,
+    "badge": 1
+  },
+  "credits": {
+    "words": {
+      "en": "Ms Lin herself",
+      "zh": "林老师本人"
+    },
+    "photo": {
+      "en": "generated image",
+      "zh": "生成图像"
+    },
+    "by": {
+      "en": "applied for by herself",
+      "zh": "本人申请"
+    }
+  },
+  "consent": "self"
 }

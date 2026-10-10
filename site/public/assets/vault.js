@@ -131,7 +131,7 @@
       [T('Balance', '余额'), fmtEth(x.balance) + ' ETH'],
       [T('Heirs', '继承人'), x.heirs.map(function (h) { return short(h[0]) + ' · ' + (h[1] / 100) + '%'; }).join('<br>')],
       [T('Keepers', '开启人'), x.keepers.length ? x.threshold + ' / ' + x.keepers.length + ' · ' + x.keepers.map(short).join(', ') : T('none', '无')],
-      [T('Silence period', '失联期'), days(x.heartbeat) + T(' days', ' 天') + (x.state === 0 ? (x.silenceIn > 0n ? T(' · keepers may confirm in ', ' · 开启人还要等 ') + days(x.silenceIn) + T(' days', ' 天') : T(' · keepers may confirm now', ' · 开启人现在可以确认')) : '')],
+      [T('Silence period', '静默期'), days(x.heartbeat) + T(' days', ' 天') + (x.state === 0 ? (x.silenceIn > 0n ? T(' · keepers may confirm in ', ' · 开启人还要等 ') + days(x.silenceIn) + T(' days', ' 天') : T(' · keepers may confirm now', ' · 开启人现在可以确认')) : '')],
       [T('Veto window', '否决期'), days(x.veto) + T(' days', ' 天')],
       [T('Date release', '定时发放'), x.releaseAfter ? new Date(x.releaseAfter * 1000).toLocaleString() : T('none', '无')],
     ];
@@ -144,7 +144,7 @@
       btn(T('Deposit', '存入'), function () { var v = prompt(T('Amount in ETH', '存入多少 ETH')); if (!v) return Promise.reject(); return send(x.address, '', parseEth(v)); });
       btn(T('Withdraw to me', '取回到我的钱包'), function () { var v = prompt(T('Amount in ETH', '取回多少 ETH')); if (!v) return Promise.reject(); return send(x.address, SEL.withdraw + addr(ZERO) + addr(account) + u(parseEth(v))); });
     }
-    if (x.isKeeper && x.state === 0 && x.silenceIn === 0n) btn(T('Confirm silence', '确认失联'), function () { return send(x.address, SEL.confirmSilence); }, 'ember');
+    if (x.isKeeper && x.state === 0 && x.silenceIn === 0n) btn(T('Confirm silence', '确认静默'), function () { return send(x.address, SEL.confirmSilence); }, 'ember');
     if (x.isKeeper && (x.state === 1 || (x.state === 0 && x.confirmations > 0))) btn(T('Veto', '叫停'), function () { return send(x.address, SEL.veto); });
     var now = x.now; // chain time, not the visitor's clock
     if (x.state !== 2 && ((x.releaseAfter && now >= x.releaseAfter) || (x.state === 1 && now >= x.triggeredAt + Number(x.veto)))) btn(T('Release', '发放'), function () { return send(x.address, SEL.release); }, 'ember');

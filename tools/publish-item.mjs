@@ -27,14 +27,15 @@ if (cmd === 'list') {
     id: newId, slug, kind: s.kind, example: false, image: image || (s.kind === 'plaque' ? 'plaque-hall' : 'exhibit-hall'),
     title: both(s.item.title), subtitle: both(s.item.subtitle),
     public: { story: both(s.item.story), facts: [], links: s.item.links.map((u) => ({ label: both(u.replace(/^https:\/\//, '')), url: u })) },
-    warden: { name: both(s.locale === 'zh' ? '守馆人' : 'The Warden'), greeting: both(s.locale === 'zh' ? '你好。回答下面的问题，就能看到留给你的东西。' : 'Hello. Answer the questions below to see what was left for you.'), questions: s.item.questions.map((q) => ({ q: both(q) })), kdf: s.item.kdf },
-    locked: s.item.locked,
+    shelved: new Date().toISOString().slice(0, 10), spine: 'slate', dek: both(s.item.subtitle), consent: s.whose === 'other' ? 'given' : 'self',
+    contents: s.item.has_warden ? { letters: 1 } : {},
+    warden: s.item.has_warden ? { name: both(s.locale === 'zh' ? '守馆人' : 'The Warden'), greeting: both(s.locale === 'zh' ? '你好。回答下面的问题，就能看到留给你的东西。' : 'Hello. Answer the questions below to see what was left for you.'), questions: s.item.questions.map((q) => ({ q: both(q) })), kdf: s.item.kdf } : null,
+    locked: s.item.has_warden ? s.item.locked : null,
   };
   writeFileSync(join(root, 'catalog/items', `${newId}-${slug}.json`), JSON.stringify(out, null, 2) + '\n');
   const hp = join(root, 'api/_lib/lamp-hashes.json');
   const hashes = JSON.parse(readFileSync(hp, 'utf8'));
-  hashes[newId] = { hash: s.item.lamp_hash, notes_public: s.item.notes_public !== false };
-  writeFileSync(hp, JSON.stringify(hashes, null, 2) + '\n');
+  if (s.item.has_warden) { hashes[newId] = { hash: s.item.lamp_hash, notes_public: s.item.notes_public !== false }; writeFileSync(hp, JSON.stringify(hashes, null, 2) + '\n'); }
   await sql`update submissions set status = 'published' where id = ${id}`;
   console.log('published as', newId, '— commit and push to deploy');
 } else {

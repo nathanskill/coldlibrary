@@ -1,0 +1,112 @@
+{
+  "id": "E-000002",
+  "slug": "cold-library",
+  "kind": "exhibit",
+  "example": false,
+  "image": "maintainer-desk",
+  "spine": "spruce",
+  "shelved": "2026-10-04",
+  "title": {
+    "en": "Cold Library",
+    "zh": "冷冻图书馆"
+  },
+  "subtitle": {
+    "en": "This library's own code, format and tools.",
+    "zh": "这座馆自己的代码、格式和工具。"
+  },
+  "dek": {
+    "en": "The library, shelved in itself.",
+    "zh": "这座馆，也收着它自己。"
+  },
+  "pronoun": {
+    "en": "whoever takes it over",
+    "zh": "接手的人"
+  },
+  "credits": {
+    "words": {
+      "en": "Librarian No. 1",
+      "zh": "一号馆员"
+    },
+    "photo": {
+      "en": "generated image",
+      "zh": "生成图像"
+    },
+    "by": {
+      "en": "hung by its maintainer",
+      "zh": "维护者登记"
+    }
+  },
+  "public": {
+    "story": {
+      "en": "Cold Library keeps what people want kept: a perpetual exhibit for a project, a perpetual plaque for a person, and a warden at each door who opens the deeper shelves only for the right visitors.\n\nThis exhibit is the library itself: the website, the open format for sealed files, the offline tools, and the Cold Vault contracts. Everything is open source, so anyone can put the whole library back up.\n\nIt was built by one person, Librarian No. 1, to keep his own things first. A second maintainer is wanted.",
+      "zh": "冷冻图书馆收着人们想留下的东西：给项目的永续展位，给人的永续铭牌，以及每扇门口的守馆人，只为对的来访者打开更深的书架。\n\n这件展品就是图书馆本身：网站、封存文件的开放格式、离线工具，以及冷库合约。全部开源，谁都能把整座馆重新架起来。\n\n它由一个人建起来，一号馆员，最先是为了放他自己的东西。还在找第二位维护者。"
+    },
+    "facts": [
+      {
+        "k": {
+          "en": "Since",
+          "zh": "开始"
+        },
+        "v": {
+          "en": "2026-10-04",
+          "zh": "2026-10-04"
+        }
+      },
+      {
+        "k": {
+          "en": "Kept by",
+          "zh": "照看的人"
+        },
+        "v": {
+          "en": "Librarian No. 1",
+          "zh": "一号馆员"
+        }
+      },
+      {
+        "k": {
+          "en": "Licence",
+          "zh": "许可证"
+        },
+        "v": {
+          "en": "Code Apache-2.0 · format CC0",
+          "zh": "代码 Apache-2.0 · 格式 CC0"
+        }
+      },
+      {
+        "k": {
+          "en": "Handover",
+          "zh": "交接"
+        },
+        "v": {
+          "en": "A successor is wanted",
+          "zh": "正在找接班人"
+        }
+      }
+    ],
+    "links": [
+      {
+        "label": {
+          "en": "Source on GitHub",
+          "zh": "GitHub 源代码"
+        },
+        "url": "https://github.com/nathanskill/coldlibrary"
+      },
+      {
+        "label": {
+          "en": "Handover notes (AGENTS.md)",
+          "zh": "交接文档（AGENTS.md）"
+        },
+        "url": "https://github.com/nathanskill/coldlibrary/blob/main/AGENTS.md"
+      },
+      {
+        "label": {
+          "en": "Whitepaper",
+          "zh": "技术白皮书"
+        },
+        "url": "https://github.com/nathanskill/coldlibrary/blob/main/docs/whitepaper.md"
+      }
+    ]
+  },
+  "warden": null,
+  "locked": null
+}

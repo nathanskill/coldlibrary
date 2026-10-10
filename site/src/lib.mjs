@@ -1,76 +1,108 @@
 // Shared helpers and layout for the Cold Library static site.
 export const SITE = 'https://coldlibrary.com';
 export const REPO = 'https://github.com/nathanskill/coldlibrary';
+export const FOUNDED = '2026-10-04';
 
 export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+export const t = (lang) => (en, zh) => (lang === 'zh' ? zh : en);
+export const L = (lang) => (o) => (o == null ? '' : typeof o === 'string' ? o : o[lang] ?? o.en ?? '');
+export const href = (lang, slug) => {
+  if (lang === 'zh') return slug ? '/zh/' + slug : '/zh';
+  return slug ? '/' + slug : '/';
+};
 
-// Directory board, top floor first, like an elevator panel.
+// Days the library has been open, counting the founding day as day 1.
+export function dayNumber(today = new Date()) {
+  const start = Date.UTC(2026, 9, 4);
+  const now = Date.UTC(today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate());
+  return Math.max(1, Math.floor((now - start) / 86400000) + 1);
+}
+
+// The elevator directory: a secondary, Severance-flavoured wayfinder. Top floor first.
 export const FLOORS = [
-  { code: '10', slug: 'name', en: 'The Name', zh: '名字', what_en: 'Why cold, and why a library.', what_zh: '为什么是冷冻，为什么是图书馆。' },
-  { code: '9', slug: 'rules', en: 'House Rules', zh: '馆规', what_en: 'What this library will never do.', what_zh: '这座图书馆永远不会做的事。' },
-  { code: '8', slug: 'ledger', en: 'Ledger Room', zh: '账本室', what_en: 'Every cost, and what "perpetual" honestly means.', what_zh: '每一笔开支，以及"永续"老实说是什么意思。' },
-  { code: '7', slug: 'librarians', en: 'Register of Librarians', zh: '馆员名册', what_en: 'Who keeps this place. Get your card here.', what_zh: '谁在照看这里。在这一层领馆员证。' },
-  { code: '6', slug: 'continuance', en: 'Department of Continuance', zh: '传承科', what_en: 'How a will is carried on without ruling anyone.', what_zh: '意志怎样传下去，而不去管束任何人。' },
-  { code: '5', slug: 'wardens', en: 'The Wardens', zh: '守馆人', what_en: 'The AI agents that guard each exhibit and plaque.', what_zh: '守着每个展位和铭牌的 AI。' },
-  { code: '4', slug: 'reading-room', en: 'Reading Room', zh: '阅览室', what_en: 'Tools to write, seal and open, on your own machine.', what_zh: '在你自己的电脑上整理、封存、开启的工具。' },
-  { code: '3', slug: 'exhibits', en: 'Perpetual Exhibits', zh: '永续展位', what_en: 'A standing exhibit for a project or a life\'s work.', what_zh: '给一个项目、一生作品的常设展位。' },
-  { code: '2', slug: 'plaques', en: 'Perpetual Plaques', zh: '永续铭牌', what_en: 'A plaque for a person, and the lamps people light.', what_zh: '给一个人的铭牌，和大家为他点的灯。' },
-  { code: 'M', slug: 'open-stacks', en: 'Open Stacks', zh: '公开文集', what_en: 'Writing people chose to leave in the open.', what_zh: '人们选择公开留下的文字。' },
-  { code: '1', slug: 'accession', en: 'Front Desk', zh: '前台 · 入藏处', what_en: 'Apply for an exhibit or a plaque.', what_zh: '在这里申请展位或铭牌。' },
+  { code: '8', slug: 'about', en: 'About the library', zh: '关于这座馆', what_en: 'Why it is called a cold library, and the log.', what_zh: '为什么叫冷冻图书馆，以及馆务日志。' },
+  { code: '7', slug: 'rules', en: 'House Rules & Ledger', zh: '馆规与账本', what_en: 'What we will never do, and every cost.', what_zh: '我们永远不会做的事，和每一笔开支。' },
+  { code: '6', slug: 'librarians', en: 'Librarians', zh: '馆员', what_en: 'Who keeps this place. A card in one minute.', what_zh: '谁在照看这里。一分钟领一张馆员证。' },
+  { code: '5', slug: 'wardens', en: 'Wardens', zh: '守馆人', what_en: 'The AI at each door, and its trial.', what_zh: '每扇门口的 AI，和它的考验。' },
+  { code: '4', slug: 'exhibits', en: 'Exhibits', zh: '展位', what_en: 'Perpetual exhibits for projects and life works.', what_zh: '给项目和一生作品的永续展位。' },
+  { code: '3', slug: 'plaques', en: 'Plaques', zh: '铭牌', what_en: 'Perpetual plaques for people, living or not.', what_zh: '给人的永续铭牌，在世与否都可以。' },
+  { code: '2', slug: 'collect', en: 'Collection Desk', zh: '领取处', what_en: 'Someone left you something? Start here.', what_zh: '有人给你留了东西？从这里开始。' },
+  { code: '1', slug: 'accession', en: 'Front Desk', zh: '前台', what_en: 'Hang your own exhibit or plaque.', what_zh: '挂上你自己的展位或铭牌。' },
   { code: 'L', slug: '', en: 'Lobby', zh: '大厅', what_en: 'Where everyone comes in from the cold.', what_zh: '从外面的冷里走进来的地方。' },
-  { code: 'B1', slug: 'stacks', en: 'Closed Stacks', zh: '闭架书库', what_en: 'The sealed layer: things kept for later.', what_zh: '封存层：留给以后的东西。' },
-  { code: 'B2', slug: 'harbour', en: 'The Cold Harbour', zh: '冷港', what_en: 'When sealed things are opened, and by whom.', what_zh: '封存的东西什么时候打开，由谁打开。' },
-  { code: 'B4', slug: 'vault', en: 'The Cold Vault', zh: '冷库', what_en: 'Crypto assets in your own contract. You decide who gets what.', what_zh: '加密资产放在你自己的合约里，怎么分由你定。' },
-  { code: 'B3', slug: 'keepers', en: 'Key Room', zh: '钥匙房', what_en: 'Keys split among people you trust.', what_zh: '钥匙分给你信任的几个人。' },
-  { code: 'W', slug: 'warm-room', en: 'The Warm Room', zh: '暖房', what_en: 'If you are not okay, come here first.', what_zh: '如果你现在不太好，先来这里。', warm: true },
+  { code: 'B1', slug: 'sealed', en: 'Sealed layer', zh: '封存层', what_en: 'Things kept for later, sealed offline.', what_zh: '留给以后的东西，离线封存。' },
+  { code: 'B2', slug: 'vault', en: 'Cold Vault', zh: '冷库', what_en: 'Crypto assets in your own contract. Testnet only.', what_zh: '加密资产放在你自己的合约里。目前只在测试网。' },
 ];
 export const floorOf = (slug) => FLOORS.find((f) => f.slug === slug.split('/')[0]);
 
-export const href = (lang, slug) => {
-  const s = slug ? '/' + slug : '/';
-  if (lang === 'zh') return slug ? '/zh/' + slug : '/zh';
-  return s;
-};
+// The façade of the lake library as a thin line drawing: flat roof, a glass band, its reflection, one lit window.
+export const LOGO = `<svg class="logo-mark" viewBox="0 0 40 28" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"><path d="M3 7h34"/><path d="M5 7v11h30V7"/><path d="M5 11.5h30" stroke-opacity=".55"/><path d="M11 11.5V18M17 11.5V18M23 11.5V18M29 11.5V18" stroke-opacity=".7"/><path d="M1 21.5h38"/><path d="M6 24.5h28M11 27h18" stroke-opacity=".4"/></g><rect class="lit" x="23.6" y="12.6" width="4.8" height="4.6"/></svg>`;
 
-export const t = (lang) => (en, zh) => (lang === 'zh' ? zh : en);
-
-const BRAND_SVG = `<svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="1.5" y="1.5" width="29" height="29" rx="7" fill="none" stroke="currentColor" stroke-opacity=".55"/><g stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M16 7v18M8.2 11.5l15.6 9M8.2 20.5l15.6-9"/><path d="M16 7l-2.2 2.2M16 7l2.2 2.2M16 25l-2.2-2.2M16 25l2.2-2.2" stroke-opacity=".7"/></g><circle cx="16" cy="16" r="2.2" fill="currentColor"/></svg>`;
-const ICON_DIR = `<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M2 3h12M2 8h12M2 13h12" stroke="currentColor" stroke-width="1.4" fill="none"/><circle cx="4" cy="3" r="1.2" fill="currentColor"/></svg>`;
 const ICON_THEME = `<svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.6" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 2.4a5.6 5.6 0 0 1 0 11.2z" fill="currentColor"/></svg>`;
+
+export function statusBar(lang, slug) {
+  const T = t(lang);
+  const day = dayNumber();
+  if (slug === 'vault' || slug === 'sealed' || slug === 'collect') {
+    return `<div class="status-bar warn" role="note"><div class="wrap"><span class="dot"></span>${slug === 'sealed'
+      ? T('Status · the sealing tools are not audited yet. Try them on something small first.', '状态 · 封存工具还没有经过审计，先拿小东西试。')
+      : T('Status · Cold Vault runs on the Sepolia testnet only · not audited · do not deposit real funds', '状态 · 冷库只在 Sepolia 测试网运行 · 未经审计 · 请勿存入真实资产')}</div></div>`;
+  }
+  return `<div class="status-bar" role="note"><div class="wrap"><span class="dot"></span><span>${T('Open today', '今日开馆')} · ${T('est. ', '')}${FOUNDED}${T('', ' 建馆')} · <span data-day data-founded="${FOUNDED}">${T('day ' + day, '第 ' + day + ' 天')}</span></span></div></div>`;
+}
 
 export function directoryBoard(lang, slug) {
   const T = t(lang);
   const items = FLOORS.map((f) => {
     const cur = f.slug === slug.split('/')[0];
-    return `<li><a href="${href(lang, f.slug)}" class="${f.warm ? 'warm' : ''}"${cur ? ' aria-current="page"' : ''}><span class="floor">${esc(f.code)}</span><span class="dept">${esc(T(f.en, f.zh))}<span class="what">${esc(T(f.what_en, f.what_zh))}</span></span><span class="arrow">→</span></a></li>`;
+    return `<li><a href="${href(lang, f.slug)}"${cur ? ' aria-current="page"' : ''}><span class="floor">${esc(f.code)}</span><span class="dept">${esc(T(f.en, f.zh))}<span class="what">${esc(T(f.what_en, f.what_zh))}</span></span></a></li>`;
   }).join('');
-  return `<div class="directory" id="directory" role="dialog" aria-modal="true" aria-label="${T('Floor directory', '楼层指示')}" hidden>
+  return `<div class="directory" id="directory" role="dialog" aria-modal="true" aria-label="${T('Floors', '楼层')}" hidden>
   <div class="board">
-    <div class="board-head"><span class="board-title">${T('Cold Library · Floor Directory', '冷冻图书馆 · 楼层指示')}</span><button class="board-close" type="button" data-close-directory>${T('Close · Esc', '关闭 · Esc')}</button></div>
+    <div class="board-head"><span>${T('Cold Library · Floors', '冷冻图书馆 · 楼层')}</span><button class="board-close" type="button" data-close-directory>${T('Close', '关闭')}</button></div>
     <ol>${items}</ol>
-    <div class="board-foot"><span>${T('Stairs are always open. The elevator is a figure of speech.', '楼梯一直开着。电梯只是一个比喻。')}</span><span>78°14′N 15°29′E</span></div>
+    <p class="board-foot">${T('The elevator is a figure of speech. The stairs are always open.', '电梯只是一个比喻。楼梯一直开着。')}</p>
   </div>
 </div>`;
 }
 
-export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '' }) {
+const NAV = ['exhibits', 'plaques', 'wardens', 'vault'];
+
+export function header(lang, slug) {
+  const T = t(lang);
+  const other = lang === 'en' ? 'zh' : 'en';
+  const top = slug.split('/')[0];
+  const nav = NAV.map((s) => { const f = floorOf(s); return `<a href="${href(lang, s)}"${top === s ? ' aria-current="page"' : ''}>${esc(T(f.en.replace('Cold Vault', 'Cold Vault'), f.zh))}</a>`; }).join('');
+  const more = ['collect', 'librarians', 'rules', 'about'].map((s) => { const f = floorOf(s); return `<a href="${href(lang, s)}">${esc(T(f.en, f.zh))}</a>`; }).join('');
+  return `<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="${href(lang, '')}" aria-label="${T('Cold Library, lobby', '冷冻图书馆，大厅')}">${LOGO}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></a>
+    <nav class="nav" aria-label="${T('Main', '主导航')}">${nav}</nav>
+    <span class="spacer"></span>
+    <button class="tool" type="button" data-open-directory aria-controls="directory">${T('Floors', '楼层')}</button>
+    <a class="tool" href="${href(other, slug)}" hreflang="${other === 'zh' ? 'zh-CN' : 'en'}" data-switch-lang="${other}" lang="${other === 'zh' ? 'zh-CN' : 'en'}">${lang === 'en' ? '中文' : 'EN'}</a>
+    <button class="tool icon" type="button" data-toggle-theme aria-label="${T('Switch light or dark', '切换浅色或深色')}">${ICON_THEME}</button>
+    <a class="btn small head-cta" href="${href(lang, 'accession')}">${T('Hang your own', '挂上你自己的')} <span aria-hidden="true">→</span></a>
+    <details class="menu"><summary aria-label="${T('Menu', '菜单')}">${T('Menu', '菜单')}</summary><div class="menu-panel">${nav}${more}<a href="${href(lang, 'accession')}">${T('Hang your own →', '挂上你自己的 →')}</a></div></details>
+  </div>
+</header>`;
+}
+
+export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '', noindex = false }) {
   const T = t(lang);
   const other = lang === 'en' ? 'zh' : 'en';
   const canonical = SITE + href(lang, slug);
-  const enUrl = SITE + href('en', slug);
-  const zhUrl = SITE + href('zh', slug);
   const fullTitle = slug ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — keep what is yours, carry on what you meant', '冷冻图书馆 — 收藏属于你的一切，把意志传下去');
   return `<!doctype html>
-<html lang="${lang === 'zh' ? 'zh-CN' : 'en'}" data-theme="dark">
+<html lang="${lang === 'zh' ? 'zh-CN' : 'en'}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="canonical" href="${canonical}">
-<link rel="alternate" hreflang="en" href="${enUrl}">
-<link rel="alternate" hreflang="zh-CN" href="${zhUrl}">
-<link rel="alternate" hreflang="x-default" href="${enUrl}">
+${noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${canonical}">
+<link rel="alternate" hreflang="en" href="${SITE + href('en', slug)}">
+<link rel="alternate" hreflang="zh-CN" href="${SITE + href('zh', slug)}">
+<link rel="alternate" hreflang="x-default" href="${SITE + href('en', slug)}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${T('Cold Library', '冷冻图书馆')}">
 <meta property="og:title" content="${esc(fullTitle)}">
@@ -78,130 +110,83 @@ export function layout({ lang, slug, title, description, body, image = '/assets/
 <meta property="og:image" content="${SITE}${image}">
 <meta property="og:url" content="${canonical}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#060a0f">
+<meta name="theme-color" content="#F3F1EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1417" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="/assets/fonts/ibm-plex-sans-condensed-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
 <script src="/assets/theme.js"></script>
 <script src="/assets/site.js" defer></script>
 </head>
-<body class="${bodyClass}" data-lang="${lang}" data-slug="${esc(slug)}" data-other="${href(other, slug)}">
+<body class="${bodyClass}" data-lang="${lang}" data-slug="${esc(slug)}">
 <a class="skip" href="#main">${T('Skip to content', '跳到正文')}</a>
-<header class="topbar">
-  <div class="wrap">
-    <a class="brand" href="${href(lang, '')}" aria-label="${T('Cold Library, lobby', '冷冻图书馆，大厅')}">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></a>
-    <span class="ticker" aria-hidden="true"><b>78°14′N</b> 15°29′E · ${T('stacks at', '书库温度')} <b>−18 °C</b> · ${T('est.', '建馆')} 2026-10-04 · ${T('kept for as long as someone cares', '有人照看，就一直在')}</span>
-    <span class="spacer"></span>
-    <button class="tool" type="button" data-open-directory aria-controls="directory">${ICON_DIR}<span class="tool-text">${T('Floors', '楼层')}</span></button>
-    <button class="tool" type="button" data-toggle-theme aria-label="${T('Switch light or dark', '切换浅色或深色')}">${ICON_THEME}</button>
-    <a class="tool lang" href="${href(other, slug)}" hreflang="${other === 'zh' ? 'zh-CN' : 'en'}" data-switch-lang="${other}" lang="${other === 'zh' ? 'zh-CN' : 'en'}">${lang === 'en' ? '中文' : 'EN'}</a>
-  </div>
-</header>
+<div class="lang-bar" id="lang-bar" hidden><div class="wrap"><a href="${href(other, slug)}" data-switch-lang="${other}" lang="${other === 'zh' ? 'zh-CN' : 'en'}">${lang === 'en' ? '这里有中文版 → 切换到中文' : 'An English version is available → switch'}</a><button type="button" data-dismiss-lang aria-label="${T('Dismiss', '关闭')}">×</button></div></div>
+${statusBar(lang, slug.split('/')[0])}
+${header(lang, slug)}
 ${directoryBoard(lang, slug)}
 <main id="main">
 ${body}
 </main>
 ${footer(lang)}
-<div class="lang-hint" id="lang-hint" role="status"><span>${lang === 'en' ? '这里有中文版' : 'English version available'}</span><a href="${href(other, slug)}" data-switch-lang="${other}">${lang === 'en' ? '切换到中文 →' : 'Switch →'}</a><button type="button" aria-label="${T('Dismiss', '关闭')}" data-dismiss-hint>×</button></div>
 </body>
 </html>
 `;
 }
 
-
-// Signature horizon: two snow ridges, a spruce line, and their reflection in the lake. Deterministic.
-export function horizon() {
-  let seed = 78;
-  const rnd = () => ((seed = (seed * 9301 + 49297) % 233280) / 233280);
-  const W = 1600, H = 260, shore = 150;
-  const ridgePts = (base, amp, step) => { const pts = []; for (let x = 0; x <= W; x += step) pts.push([x, base - amp * (0.35 + 0.65 * Math.abs(Math.sin(x / 210 + base))) * (0.6 + rnd() * 0.5)]); return pts; };
-  const toPath = (pts) => `M0 ${shore} ` + pts.map(([x, y]) => `L${x} ${y.toFixed(1)}`).join(' ') + ` L${W} ${shore} Z`;
-  const farPts = ridgePts(100, 70, 40), nearPts = ridgePts(128, 52, 28);
-  const far = toPath(farPts), near = toPath(nearPts);
-  let snow = ''; // caps sit exactly on the higher peaks of the far ridge
-  for (let i = 1; i < farPts.length - 1; i++) {
-    const [x, y] = farPts[i], [x0, y0] = farPts[i - 1], [x1, y1] = farPts[i + 1];
-    if (y < y0 && y < y1 && y < 72) {
-      const t = 0.42; // cap covers the top part of both slopes
-      snow += `<path d="M${(x + (x0 - x) * t).toFixed(1)} ${(y + (y0 - y) * t).toFixed(1)} L${x} ${y.toFixed(1)} L${(x + (x1 - x) * t).toFixed(1)} ${(y + (y1 - y) * t).toFixed(1)} L${(x + (x1 - x) * t * 0.45).toFixed(1)} ${(y + (y1 - y) * t * 0.7).toFixed(1)} L${x} ${(y + (y0 - y) * t * 0.9).toFixed(1)} L${(x + (x0 - x) * t * 0.5).toFixed(1)} ${(y + (y0 - y) * t * 0.65).toFixed(1)} Z"/>`;
-    }
-  }
-  let pines = '';
-  for (let x = 0; x < W; x += 9 + Math.floor(rnd() * 9)) { const h = 14 + rnd() * 26, w = h * 0.36; pines += `<path d="M${x} ${shore} L${(x + w / 2).toFixed(1)} ${(shore - h).toFixed(1)} L${(x + w).toFixed(1)} ${shore} Z"/>`; }
-  let ripples = '';
-  for (let i = 0; i < 9; i++) { const y = shore + 12 + i * 11, x = rnd() * W * 0.7; ripples += `<line x1="${x.toFixed(0)}" y1="${y}" x2="${(x + 120 + rnd() * 380).toFixed(0)}" y2="${y}"/>`; }
-  const scene = `<path class="h-far" d="${far}"/><g class="h-snow">${snow}</g><path class="h-near" d="${near}"/><g class="h-pines">${pines}</g>`;
-  return `<svg class="horizon" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
-<defs><linearGradient id="hz-lake" x1="0" y1="0" x2="0" y2="1"><stop offset="0" class="h-lake-top"/><stop offset="1" class="h-lake-bottom"/></linearGradient>
-<linearGradient id="hz-fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-<mask id="hz-mask"><rect x="0" y="${shore}" width="${W}" height="${H - shore}" fill="url(#hz-fade)"/></mask></defs>
-<rect class="h-lake" x="0" y="${shore}" width="${W}" height="${H - shore}" fill="url(#hz-lake)"/>
-${scene}
-<g mask="url(#hz-mask)"><g transform="translate(0 ${shore * 2}) scale(1 -1)">${scene}</g></g>
-<g class="h-ripples">${ripples}</g>
-<line class="h-shore" x1="0" y1="${shore}" x2="${W}" y2="${shore}"/>
-</svg>`;
-}
-
 export function footer(lang) {
   const T = t(lang);
-  const link = (slug) => { const f = FLOORS.find((x) => x.slug === slug); return `<li><a href="${href(lang, slug)}">${esc(T(f.en, f.zh))}</a></li>`; };
-  return `<footer class="site">
-  ${horizon()}
+  const link = (slug, en, zh) => `<li><a href="${href(lang, slug)}">${T(en, zh)}</a></li>`;
+  return `<footer class="site-foot">
   <div class="wrap">
-    <div class="cols">
-      <div>
-        <div class="brand">${BRAND_SVG}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></div>
-        <p class="mt-1">${T('A library for everything that is yours, and for the will that carries it on. Perpetual exhibits for projects, perpetual plaques for people, and AI wardens that open the deeper shelves only to the people you recognise.', '一座收藏属于你的一切、并把你的意志传下去的图书馆。项目有永续展位，人有永续铭牌；更深的那几层，只由你设定的 AI 守馆人，对你认可的人打开。')}</p>
-      </div>
-      <div><h4>${T('Floors', '楼层')}</h4><ul>${['exhibits', 'plaques', 'wardens', 'vault', 'accession'].map(link).join('')}</ul></div>
-      <div><h4>${T('The house', '本馆')}</h4><ul>${['librarians', 'continuance', 'rules', 'ledger', 'name'].map(link).join('')}</ul></div>
-      <div><h4>${T('Source', '源代码')}</h4><ul>
-        <li><a href="${REPO}">GitHub</a></li>
-        <li><a href="${REPO}/blob/main/spec/v0.1/${lang === 'zh' ? 'SPEC.zh.md' : 'SPEC.md'}">${T('Spec v0.1', '格式规范 v0.1')}</a></li>
-        <li><a href="${REPO}/tree/main/cli">${T('Command-line tool', '命令行工具')}</a></li>
-        <li><a href="${REPO}/blob/main/docs/${lang === 'zh' ? 'whitepaper.zh.md' : 'whitepaper.md'}">${T('Whitepaper', '技术白皮书')}</a></li>
-        <li><a href="${REPO}/blob/main/docs/${lang === 'zh' ? 'threat-model.zh.md' : 'threat-model.md'}">${T('Threat model', '威胁模型')}</a></li>
-      </ul></div>
+    <div class="foot-cols">
+      <div class="foot-brand">${LOGO}<p><b>${T('Cold Library', '冷冻图书馆')}</b><br>${T('We keep the library, never the keys.', '我们守着图书馆，从不保管钥匙。')}</p></div>
+      <ul>${link('exhibits', 'Exhibits', '展位')}${link('plaques', 'Plaques', '铭牌')}${link('wardens', 'Wardens', '守馆人')}${link('vault', 'Cold Vault', '冷库')}${link('sealed', 'Sealed layer', '封存层')}</ul>
+      <ul>${link('collect', 'Collection Desk', '领取处')}${link('librarians', 'Librarians', '馆员')}${link('rules', 'House rules & ledger', '馆规与账本')}${link('about', 'About', '关于')}<li><a href="${REPO}">${T('Source on GitHub', 'GitHub 源代码')}</a></li></ul>
     </div>
-    <div class="fineprint"><span>${T('Spec CC0 · Code Apache-2.0 · No cookies · No tracking', '规范 CC0 · 代码 Apache-2.0 · 没有 Cookie · 没有追踪')}</span><span>${T('Not a legal will · We hold no keys · ', '不是法律遗嘱 · 我们不保管钥匙 · ')}<a href="${href(lang, 'warm-room')}">${T('The Warm Room', '暖房')}</a></span></div>
+    <p class="statute">${T('Non-profit · Open source (code Apache-2.0, format CC0) · No cookies · No ads · No token · Keys never held · Not a legal will · 18+', '非营利 · 开源（代码 Apache-2.0，格式 CC0）· 不用 Cookie · 没有广告 · 没有代币 · 从不保管钥匙 · 不是法律遗嘱 · 仅限 18 岁以上')}</p>
+    <p class="colophon">${T('Set in IBM Plex, served from this site. Photographs are generated images.', '字体 IBM Plex，由本站自己提供。照片均为生成图像。')} <span class="sep">·</span> <a href="${href(lang, 'warm-room')}">${T('Not okay right now? The Warm Room →', '如果你现在不太好：暖房 →')}</a></p>
   </div>
 </footer>`;
 }
 
 // ---------- components ----------
-export function pageHero({ lang, slug, title, lede, image, alt }) {
+// A photograph as a museum plate. Portrait source for phones when one exists.
+export function picture({ name, alt, portrait = null, sizes = '100vw', cls = '', eager = false }) {
+  const p = portrait ? `<source media="(max-width: 700px)" srcset="/assets/img/${portrait}-sm.jpg 720w, /assets/img/${portrait}.jpg 1024w" sizes="100vw">` : '';
+  return `<picture class="${cls}">${p}<img src="/assets/img/${name}.jpg" srcset="/assets/img/${name}-sm.jpg 820w, /assets/img/${name}.jpg 1536w" sizes="${sizes}" alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></picture>`;
+}
+
+export function plate(n, lang, en, zh) {
+  const T = t(lang);
+  return `<span class="plate">${T('Plate', '图版')} ${n} · ${T(en, zh)} · ${T('generated image', '生成图像')}</span>`;
+}
+
+export function pageHero({ lang, slug, title, lede, image, alt, portrait = null, n = 1, caption_en = '', caption_zh = '', strip = false }) {
   const T = t(lang);
   const f = floorOf(slug);
-  const img = image ? `<div class="hero-media"><img src="/assets/img/${image}.jpg" srcset="/assets/img/${image}-sm.jpg 820w, /assets/img/${image}.jpg 1536w" sizes="100vw" alt="${esc(alt || '')}"></div><canvas class="snow" data-snow="light" aria-hidden="true"></canvas>` : '';
-  return `<section class="page-hero${image ? ' with-image' : ''}">${img}
+  return `<section class="page-hero${image ? ' has-image' : ''}${strip ? ' strip' : ''}">
   <div class="wrap">
-    ${f ? `<div class="floor-big"><span class="floor">${esc(f.code)}</span>${T('Floor', '楼层')} · ${esc(T(f.en, f.zh))}</div>` : ''}
+    ${f ? `<p class="kicker"><span class="floor-chip">${esc(f.code)}</span>${esc(T(f.en, f.zh))}</p>` : ''}
     <h1>${title}</h1>
     ${lede ? `<p class="lede">${lede}</p>` : ''}
   </div>
+  ${image ? `<figure class="hero-plate">${picture({ name: image, alt, portrait, eager: true })}${caption_en ? plate(n, lang, caption_en, caption_zh) : ''}</figure>` : ''}
 </section>`;
 }
 
 export function sectionHead(label, title, intro = '') {
-  return `<div class="section-head reveal"><div class="label"><span class="dot"></span>${label}</div><div><h2 class="section-title">${title}</h2>${intro ? `<p class="lede">${intro}</p>` : ''}</div></div>`;
+  return `<div class="section-head">${label ? `<p class="label">${label}</p>` : ''}<h2>${title}</h2>${intro ? `<p class="intro">${intro}</p>` : ''}</div>`;
 }
 
 export function card({ acc, title, fields = [], body = '', stamp = '', stampClass = '' }) {
   const rows = fields.map(([k, v]) => `<div class="field"><span>${k}</span><span>${v}</span></div>`).join('');
-  return `<article class="card reveal">${acc ? `<span class="acc">${esc(acc)}</span>` : ''}<h3 class="card-title">${title}</h3>${rows}${body ? `<div class="card-body">${body}</div>` : ''}${stamp ? `<span class="stamp ${stampClass}">${stamp}</span>` : ''}</article>`;
+  return `<article class="card">${acc ? `<span class="acc">${esc(acc)}</span>` : ''}<h3>${title}</h3>${rows}${body ? `<div class="card-body">${body}</div>` : ''}${stamp ? `<span class="stamp ${stampClass}">${stamp}</span>` : ''}</article>`;
 }
 
-export function floorsGrid(lang) {
-  const T = t(lang);
-  return `<nav class="floors reveal" aria-label="${T('Floors', '楼层')}">${FLOORS.filter((f) => f.slug !== '').map((f) => `<a href="${href(lang, f.slug)}" class="${f.warm ? 'warm' : ''}"><span class="floor">${esc(f.code)}</span><span><b>${esc(T(f.en, f.zh))}</b><small>${esc(T(f.what_en, f.what_zh))}</small></span></a>`).join('')}</nav>`;
-}
-
-// Minimal markdown for Open Stacks texts: headings, paragraphs, blockquotes, emphasis, links.
+// Minimal markdown: headings, paragraphs, blockquotes, emphasis, links.
 export function md(src) {
   const inline = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\*(.+?)\*/g, '<em>$1</em>').replace(/\[(.+?)\]\((https?:\/\/[^)\s]+)\)/g, '<a href="$2">$1</a>');
-  return src.trim().split(/\n{2,}/).map((b) => {
+  return String(src || '').trim().split(/\n{2,}/).map((b) => {
     if (b.startsWith('## ')) return `<h2>${inline(b.slice(3))}</h2>`;
     if (b.startsWith('> ')) return `<blockquote>${inline(b.replace(/^> ?/gm, ''))}</blockquote>`;
     return `<p>${inline(b).replace(/\n/g, '<br>')}</p>`;

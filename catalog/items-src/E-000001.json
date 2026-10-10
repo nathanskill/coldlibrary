@@ -3,33 +3,101 @@
   "slug": "island-ferry",
   "kind": "exhibit",
   "example": true,
-  "image": "harbour",
+  "image": "ferry-pier",
   "notes_public": true,
-  "title": { "en": "Island Ferry Timetable", "zh": "小岛渡轮时刻表" },
-  "subtitle": { "en": "A small open-source app written for one island, used every day since 2014.", "zh": "一个只为一座小岛写的开源小程序，2014 年起每天都有人在用。" },
+  "title": {
+    "en": "Island Ferry Timetable",
+    "zh": "小岛渡轮时刻表"
+  },
+  "subtitle": {
+    "en": "A small open-source app written for one island, used every day since 2014.",
+    "zh": "一个只为一座小岛写的开源小程序，2014 年起每天都有人在用。"
+  },
   "public": {
     "story": {
-      "en": "There is a small island where people take the ferry every morning to work and school. In 2014 Mira, a programmer who lived there, got tired of the paper timetable blowing away, and wrote this app. It is tiny: one timetable, one line that says how many minutes until the next boat, and a notice that turns on by itself when a storm stops the ferries.\n\nFor twelve years it has had no ads and no accounts, and the code has always been open. Three islanders now take turns looking after it.\n\n*This exhibit and everyone in it are fictional. It shows what an exhibit can hold.*",
-      "zh": "海边有一座小岛，岛上的人每天早上坐渡轮去对岸上班上学。2014 年，住在岛上的程序员米拉嫌纸质时刻表总被风吹走，就写了这个小程序。它很小：一张时刻表、一行\"下一班还有几分钟\"、台风停航时自动亮起的通知。\n\n十二年来它没有广告，没有账号，代码一直开源。现在由三位岛民轮流照看。\n\n*这个展位和里面的人都是虚构的，用来展示一个展位能放些什么。*"
+      "en": "There is a small island where people take the ferry every morning to work and school. In 2014 Mira, a programmer who lived there, got tired of the paper timetable blowing away, and wrote this app. It is tiny: one timetable, one line that says how many minutes until the next boat, and a notice that turns on by itself when a storm stops the ferries.\n\nFor twelve years it has had no ads and no accounts, and the code has always been open. Three islanders now take turns looking after it.",
+      "zh": "海边有一座小岛，岛上的人每天早上坐渡轮去对岸上班上学。2014 年，住在岛上的程序员米拉嫌纸质时刻表总被风吹走，就写了这个小程序。它很小：一张时刻表、一行“下一班还有几分钟”、台风停航时自动亮起的通知。\n\n十二年来它没有广告，没有账号，代码一直开源。现在由三位岛民轮流照看。"
     },
     "facts": [
-      { "k": { "en": "Since", "zh": "开始" }, "v": { "en": "2014", "zh": "2014 年" } },
-      { "k": { "en": "Looked after by", "zh": "照看的人" }, "v": { "en": "Three islanders, in turns", "zh": "三位岛民，轮流" } },
-      { "k": { "en": "Used by", "zh": "使用的人" }, "v": { "en": "About 600 people a day", "zh": "每天约 600 人" } },
-      { "k": { "en": "Licence", "zh": "许可证" }, "v": { "en": "MIT", "zh": "MIT" } }
+      {
+        "k": {
+          "en": "Since",
+          "zh": "开始"
+        },
+        "v": {
+          "en": "2014",
+          "zh": "2014 年"
+        }
+      },
+      {
+        "k": {
+          "en": "Looked after by",
+          "zh": "照看的人"
+        },
+        "v": {
+          "en": "Three islanders, in turns",
+          "zh": "三位岛民，轮流"
+        }
+      },
+      {
+        "k": {
+          "en": "Used by",
+          "zh": "使用的人"
+        },
+        "v": {
+          "en": "About 600 people a day",
+          "zh": "每天约 600 人"
+        }
+      },
+      {
+        "k": {
+          "en": "Licence",
+          "zh": "许可证"
+        },
+        "v": {
+          "en": "MIT",
+          "zh": "MIT"
+        }
+      },
+      {
+        "k": {
+          "en": "Handover",
+          "zh": "交接"
+        },
+        "v": {
+          "en": "Notes for whoever takes it over are behind the warden",
+          "zh": "给接手的人的交代，在守馆人身后"
+        }
+      }
     ],
     "links": []
   },
   "warden": {
-    "name": { "en": "The Pier Warden", "zh": "渡口守馆人" },
+    "name": {
+      "en": "The Pier Warden",
+      "zh": "渡口守馆人"
+    },
     "greeting": {
       "en": "Hello. This is the exhibit of the Island Ferry Timetable. Mira left a letter and some practical notes for whoever takes it over. Two questions, and they are yours.",
       "zh": "你好，这里是小岛渡轮时刻表的展位。米拉给接手这个项目的人留了一封信和一些交代。回答两个问题，它们就交给你。"
     },
     "questions": [
-      { "q": { "en": "How many ferries run each day?", "zh": "渡轮一天开几班？" }, "hint": { "en": "Example answer: 7", "zh": "示例答案：7" }, "answer": "7" },
-      { "q": { "en": "What is Mira's cat called?", "zh": "米拉养的猫叫什么？" }, "hint": { "en": "Example answer: Pixel", "zh": "示例答案：Pixel" }, "answer": "Pixel" }
-    ]
+      {
+        "q": {
+          "en": "How many ferries run each day?",
+          "zh": "渡轮一天开几班？"
+        },
+        "answer": "7"
+      },
+      {
+        "q": {
+          "en": "What is Mira's cat called?",
+          "zh": "米拉养的猫叫什么？"
+        },
+        "answer": "Pixel"
+      }
+    ],
+    "example_answers": "7 · Pixel"
   },
   "locked": {
     "letter": {
@@ -40,6 +108,38 @@
       "en": "Renewal dates for the domain and the server are in section 2 of the maintainers' handbook. For the domain, ask Old Chen at the island post office.",
       "zh": "域名和服务器的续费日期写在维护者手册第 2 节。域名的事，找岛上邮局的老陈。"
     },
-    "badge": { "en": "Certified Successor", "zh": "认证接班人" }
+    "badge": {
+      "en": "Certified Successor",
+      "zh": "认证接班人"
+    }
+  },
+  "spine": "lake",
+  "shelved": "2026-10-05",
+  "dek": {
+    "en": "One island, one timetable, twelve years.",
+    "zh": "一座岛，一张时刻表，十二年。"
+  },
+  "pronoun": {
+    "en": "whoever takes it over",
+    "zh": "接手的人"
+  },
+  "contents": {
+    "letters": 1,
+    "pointer": 1,
+    "badge": 1
+  },
+  "credits": {
+    "words": {
+      "en": "Mira, its first maintainer",
+      "zh": "第一位维护者米拉"
+    },
+    "photo": {
+      "en": "generated image",
+      "zh": "生成图像"
+    },
+    "by": {
+      "en": "hung by its maintainers",
+      "zh": "维护者登记"
+    }
   }
 }

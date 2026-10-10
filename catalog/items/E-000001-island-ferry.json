@@ -3,7 +3,7 @@
   "slug": "island-ferry",
   "kind": "exhibit",
   "example": true,
-  "image": "harbour",
+  "image": "ferry-pier",
   "notes_public": true,
   "title": {
     "en": "Island Ferry Timetable",
@@ -15,8 +15,8 @@
   },
   "public": {
     "story": {
-      "en": "There is a small island where people take the ferry every morning to work and school. In 2014 Mira, a programmer who lived there, got tired of the paper timetable blowing away, and wrote this app. It is tiny: one timetable, one line that says how many minutes until the next boat, and a notice that turns on by itself when a storm stops the ferries.\n\nFor twelve years it has had no ads and no accounts, and the code has always been open. Three islanders now take turns looking after it.\n\n*This exhibit and everyone in it are fictional. It shows what an exhibit can hold.*",
-      "zh": "海边有一座小岛，岛上的人每天早上坐渡轮去对岸上班上学。2014 年，住在岛上的程序员米拉嫌纸质时刻表总被风吹走，就写了这个小程序。它很小：一张时刻表、一行\"下一班还有几分钟\"、台风停航时自动亮起的通知。\n\n十二年来它没有广告，没有账号，代码一直开源。现在由三位岛民轮流照看。\n\n*这个展位和里面的人都是虚构的，用来展示一个展位能放些什么。*"
+      "en": "There is a small island where people take the ferry every morning to work and school. In 2014 Mira, a programmer who lived there, got tired of the paper timetable blowing away, and wrote this app. It is tiny: one timetable, one line that says how many minutes until the next boat, and a notice that turns on by itself when a storm stops the ferries.\n\nFor twelve years it has had no ads and no accounts, and the code has always been open. Three islanders now take turns looking after it.",
+      "zh": "海边有一座小岛，岛上的人每天早上坐渡轮去对岸上班上学。2014 年，住在岛上的程序员米拉嫌纸质时刻表总被风吹走，就写了这个小程序。它很小：一张时刻表、一行“下一班还有几分钟”、台风停航时自动亮起的通知。\n\n十二年来它没有广告，没有账号，代码一直开源。现在由三位岛民轮流照看。"
     },
     "facts": [
       {
@@ -58,6 +58,16 @@
           "en": "MIT",
           "zh": "MIT"
         }
+      },
+      {
+        "k": {
+          "en": "Handover",
+          "zh": "交接"
+        },
+        "v": {
+          "en": "Notes for whoever takes it over are behind the warden",
+          "zh": "给接手的人的交代，在守馆人身后"
+        }
       }
     ],
     "links": []
@@ -76,32 +86,54 @@
         "q": {
           "en": "How many ferries run each day?",
           "zh": "渡轮一天开几班？"
-        },
-        "hint": {
-          "en": "Example answer: 7",
-          "zh": "示例答案：7"
         }
       },
       {
         "q": {
           "en": "What is Mira's cat called?",
           "zh": "米拉养的猫叫什么？"
-        },
-        "hint": {
-          "en": "Example answer: Pixel",
-          "zh": "示例答案：Pixel"
         }
       }
     ],
+    "example_answers": "7 · Pixel",
     "kdf": {
       "alg": "PBKDF2-SHA256",
-      "salt": "F4C7ByXTM5BlECEsQw6dug==",
+      "salt": "g61cOuq6cO/7mIV0hlejYA==",
       "iter": 210000
     }
   },
   "locked": {
     "alg": "AES-256-GCM",
-    "iv": "a3xSHhQ5vDzW2G4V",
-    "ct": "pwDowySt6ORZcb43lzaljBMLAv05CdiVf1zvK/Mq5lcw3kkhEaP5ULONz7W57vwoN1U7CLP4AZXY54PSYONssWDCBIM+kQlPlfSd7+exXdAnpGYYrKKjJvUdrIHJCpOBFsqOVfhncYodvH0XB5wmTIQqWlIwSZHuGUwUDziOw+ZoZYVbOdx9HgBd68wQ6FnSopqTfq8J73G7Y4HgzCu5ropg4HQFBH0WcuY7qFUpGVpi6ObYaAQ6PLQmxm9CXH1sKKsACiuZLO1gJaN1pc/QFzbbldfBQ9+GlhyE1DeFaKZQpSykFqqwL0f09k4sfJqecumpy3Ygr4f9qEAla2/X+F+5sr3nlri15MWJTz53rJG74iGQr0BUIDYXILaKaxWsK4FB28xaflVOZ0+VO4nf6MZNu32p2DLtN8YH7Nqb/coAKhAavexbA0Ydlj0STJFMEnen1Bv9eQuQiZvI9ScCcb4SrO1TkS05hxnBP5Ft2Yn86ONEhP5m9YQWNdvbLVm7YtlfdbjN4xgsCPLYiNXTyq1mBQFHfw17O5f7qgw5NITbs3zldVuk3E/bpqVR42rBOHDQGGpw+44C31W75fRJD6P7pMEtRUGq6WyvfB5vpg2hXotExMlH0/RV2h8htCYNxwMjEkFrEQiXK6qRZGuC9LydRBBtn8FRnT2jrMGJFNa0PnSFnr4SIXMiIJm1A/Ly1o8ti9WC5oQnjJX6uoxeIcuXt/AMBBgw1+88KSm/R7GXJkSWRYxbfUw+td7m+QN7zKst6lH7sHDw8iLNLO4QH5wzWP3AKSbHUKRULThk6ykeZXJlQxAL2ByNPaftz2qw+0u2sNAIUrzQRYHcLDaFD/gOzJDRZHX9EdWMGYwZyUd+TuJhpztKPPg2IkbEfdtNZs8E3xhQ2TLw1rGUfxXyAwMGMOl84nII+htM+fUUnWg6BzC6UHFQBE1/0aA4rF2cg23kikZKjQq1girDOzrNxpSYu2cA+HS6P+FGj2KqlrcN3+/Tv6l+zcbp5fbwgzEw97kKae+yhLjKFBRmfkUgEeY899rrPnCNiRRHVHaAsU+LfpPeFwTwnyysCCbTumbOmHXnwy4GUzd4gqN9pM3wKbOs6e7PG+4Zed+C3UOrK0BC6k09VP3XO/+lh6U84dVmhefhOtQ6OYo2TQEoh4zdFSqA01o63GbfLbMXA8ajRPaPNLKpcSftIRfeM7YEx8/oOYhUa/C/eXPL8FNnDsg1e85MEJJw1V+kcuxgGl+RxnzA36KiaM6cGShmgDMfAIf4Xfi5ad7no+EENLkmAup82Ic2vc4esPfyevrUd28GUvldPQym4UuwTP9fysVPwLRlkKrqDHDhgLkHSIx5+D86H7K7R1nfPjgHntKKke2b8Ry4nQfpVoXa6o19K9sI6NtT2QX1YkFezWM5WYi88EiZFhg54sonLxXzU7VgwHDGu+MVsztJj9YuLKBKw+NXl6P+yCmkQCaAPonnxiJ4OaWHqVG5bkXwBf638cat1ukxbjV5zHtFy+oQzUgFFXWQkF92gEOZ41sK9UUczhu/Eagv7oEzBGDIxPeU8vVAPgBAE7aHS5DIuKzCc2U5jKe6zms9zZoOC9znYvjpee9yVvUQCwXvVbl3zidYFFvgLKPBEAdwnOUgcsFubhhZEYpWVfRp906fZ45HZD2LJhd6OTKX4TBXK+EcW4SxNka1vU2hsmBkj3X576nSNIz5hoFNPvlmcwhJmJbwOalSn1wJTR6js5zvepdj9mYrvxz8Kr94PLCXss4veB0tRoem12oYIRfW/yBLZcuOsWd3ooZ874VQOA7jM6M+bd0XVoKjOFSyr353blIB2zNFfWm2IU3/nhik2pqsMY0w50gypL6g/DYL8w2df55PoTOBGkAgFf1YKrB0Dmh0WAl2cjY="
+    "iv": "VSLroa9XxyWuOzTn",
+    "ct": "VqxG87BWI9W8ROJG0hYWqkGU2QCUUnQECkEoLLWmDoABFqcPbh4lqIufRF2sFW929YrVP/MbOqRUpJqAPWDvhDD5FfmcKRUGf6ne02D9DFRdovWCncYBfdgRy7YIhHBy1JKuZJP2haVlbIE0gJtJouggcpnVWx1pLJv2/e6Bdg7pmNFkZYQ7yhfnbK12tI6eL+dcHpSRk+RnP9MLhJptNKyKNw5KGcE/wsUd8gkk0NRpYl8PgkmUOLKrb5Uk2QynoAGHsDm1a6BOmClzdcEBPxh4YBL3EANq7bez5SYRO6ClzRWSSmk9dcHCQhHvWAmI5JuX4kI8SZvVFXWvNyAvgwfc6h2RsHVv11v3hpnqKht8Lq8rGpMm8Vr7rrKcDChLePb1CA78r414HUfuNQAca7fHq+1kt/O/RT1qONXfNbGmzFvmMXBUYZLOWw+WtDT4Alu+hwQc4DmEkaoBlPXHp9geGrx9if7jRDNWCsPC+ztQSfPQyov9JM8If1YMjfmiMs0BQIlGwnM/g/2CbIBw0ZA27iGfqzwQ8+UHYNuhLmJfsZLF+1QneXCdaltUYdpua69KPQ7FEmr1I4omJraLHqbf5M6GNSTSp9l7HfnKMu7Bom/ZioMYe3wHEv+ayl2cV03xk33F9skA/gTCdmluand98+OtSDjMUicaqUw6z0uwSrS28f6G1peRbGsvT5kzGAzO68Dp1tZquEcX4PWuOSZ2CM0hPDhwGSec74NaYpgL6tEPIPwF9ZFENfiJaW6hZTEdTN5CdbdVlLqlUXzQIvKCfBDCksQu9QIN6yGXOyQIwZQtVvQ5yd1Lwr4tUeiuT3pPuUQkPdeyDcXZ+bzFIE/ciikMDosPU0axF/glvbqVekjqZyHmBRVvJoI8uxWNVoZbLsBSBIb/3MoQvQ3xx0TxI0RpU2v4CoNSNSgtB2IVXvZ3G294tJAcNFZFmD++L7LydZ8Jv6L6SIDjcy8s0zXT7f5i1cJggtWaMWsZyKUgC1IhE/XEh0GnhxfzThWMr7fV0j9LMlqP1fhVUDCN5lTosCimczrsFYlfJPClqUJZbpizBdAqsbd//0tb7KkxvOspnHY6+w2HZQ7GvpxlvjGJ4D23qWcwPe4+jhirIpNvjT2L+2d3oYpqrZgUwdNhB1kucDwrfZOcpuJ+vbi5MpXy/g+MXxCpLvhemgBJJ1bGVWgMnwHMuNsUU7R62GSzVqqiRQSdUDgnHnYoaGMi+3KWFzHja0U0zqsjiHinR6tj9H3kTkYl2x9F+gQ1k1Cp3d+M+TIxyPNq0CWqrbMajoZ1PS75LXbWSIjwQ6d7LyjePr+H/eRGq0wUGNksaxrHD2A7+Nt+hmI2Kz3WMal1nvBoPxjJ9MLQ9opRBqM8mKs4kBOMy+w1tmPo7iaNiRQ9drgOIL8ktFptblUkdqI2K8IMx976Pb0tPugfSVfGCuk37k+k7jOIeDZQ6330mda1X2dfvuYNl5+fVLnmQooTD1tAAtlnIaTbAq7MJQdIK8pMJm3VGIZY/pDwV3o2/RLZMywOv6np0MaukGz3YPW1Vp9rKyna17X2uDq5gwDyoKNS9TOtIT3KW0uNMCRUmbb4tz8PeD3C8qpItJEe9ZTb7kzlvMc4A1VTXBTOxtmdKgocVwCbgWVT/AbGxZSXgFKTwzkXvCv+rnzExAbqNzPVHrDhYKuVrTsy1SBEDLD8b0eEeQYeMF/oYfQcxIOHFIJ9dgMoRxqpJOThBfAnZ/h6DE7zklSd0xXLhFluLg3yu4VmIhbUFnP9sC9SxtStp0fABafVM/GdA8nIX5w3YeubKT/yXbFhp2vhmTEii4JGBK3pafacWUu6tcWM6xtrwAFByUA8UI9UKfiknXiSu0P5cFYwgzQl8YFYMpY2Q51rVY9CPbHobkt1Mek="
+  },
+  "spine": "lake",
+  "shelved": "2026-10-05",
+  "dek": {
+    "en": "One island, one timetable, twelve years.",
+    "zh": "一座岛，一张时刻表，十二年。"
+  },
+  "pronoun": {
+    "en": "whoever takes it over",
+    "zh": "接手的人"
+  },
+  "contents": {
+    "letters": 1,
+    "pointer": 1,
+    "badge": 1
+  },
+  "credits": {
+    "words": {
+      "en": "Mira, its first maintainer",
+      "zh": "第一位维护者米拉"
+    },
+    "photo": {
+      "en": "generated image",
+      "zh": "生成图像"
+    },
+    "by": {
+      "en": "hung by its maintainers",
+      "zh": "维护者登记"
+    }
   }
 }
