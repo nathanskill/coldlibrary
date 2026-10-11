@@ -1,0 +1,316 @@
+{
+  "works": {
+    "S-001001": "G-009004",
+    "S-001003": "G-009014",
+    "S-001009": "G-009038",
+    "S-001015": "G-009045",
+    "S-001020": "G-009051",
+    "S-001021": "G-009042",
+    "S-001026": "G-009015",
+    "S-001028": "G-009006",
+    "S-001030": "G-009025",
+    "S-001034": "G-009034",
+    "S-001035": "G-009053",
+    "S-001038": "G-009049",
+    "S-001042": "G-009048",
+    "S-001043": "G-009010",
+    "S-001044": "G-009024",
+    "S-001045": "G-009018",
+    "S-001047": "G-009001",
+    "S-001050": "G-009021",
+    "S-001052": "G-009019",
+    "S-001054": "G-009012",
+    "S-001056": "G-009016",
+    "S-001059": "G-009026",
+    "S-001061": "G-009035",
+    "S-001064": "G-009017",
+    "S-001066": "G-009054",
+    "S-001067": "G-009020",
+    "S-002005": "G-009050",
+    "S-002023": "G-009008",
+    "S-002030": "G-009022",
+    "S-002031": "G-009046",
+    "S-002032": "G-009013",
+    "S-002044": "G-009007",
+    "S-003001": "G-009043",
+    "S-003004": "G-009009",
+    "S-003011": "G-009040",
+    "S-003024": "G-009005",
+    "S-004006": "G-009002",
+    "S-004011": "G-009032",
+    "S-004018": "G-009037",
+    "S-004025": "G-009036",
+    "S-004026": "G-009052",
+    "S-004031": "G-009023",
+    "S-004102": "G-009047",
+    "S-004107": "G-009044",
+    "S-005009": "G-009039",
+    "S-005014": "G-009030",
+    "S-005019": "G-009033",
+    "S-006008": "G-009027",
+    "S-006013": "G-009041",
+    "S-006019": "G-009029",
+    "S-007001": "G-009102",
+    "S-007002": "G-009101",
+    "S-007004": "G-009103",
+    "S-007005": "G-009106",
+    "S-007008": "G-009104",
+    "S-007009": "G-009105",
+    "S-008001": "G-008005",
+    "S-008003": "G-008006",
+    "S-008005": "G-008002",
+    "S-008006": "G-008009",
+    "S-008008": "G-008001",
+    "S-008011": "G-008007"
+  },
+  "why": {
+    "G-008001": {
+      "en": "Earthrise, taken by the Apollo 8 crew six years after Kennedy’s speech: the promise was the Moon, and on the way people were shown their own planet.",
+      "zh": "肯尼迪演说六年后，阿波罗 8 号乘组拍下了《地出》：许诺的是月亮，而在途中，人们先看见了自己的星球。"
+    },
+    "G-008002": {
+      "en": "The Earth as Voyager 1 saw it in 1990 from about six billion kilometres away, a single point in a band of scattered sunlight: the world the statement on board was written from.",
+      "zh": "1990 年旅行者 1 号从约六十亿公里外看到的地球，一道散射阳光里的一个光点：随船带走的这份声明，就是从这个世界写出来的。"
+    },
+    "G-008005": {
+      "en": "The plaque itself, photographed in place on the ladder of Eagle on 20 July 1969, still readable against the grey lunar ground: the object this text describes, where it was left.",
+      "zh": "铭牌本身，1969 年 7 月 20 日在“鹰”号登月舱的扶梯上原地拍下，衬着灰色的月面，字迹仍然可读：这就是这段文字所写的那件东西，在它被留下的地方。"
+    },
+    "G-008006": {
+      "en": "NASA’s photograph of a replica of the last plaque an Apollo crew left on the Moon, with the small picture of the Moon set between the two hemispheres of Earth.",
+      "zh": "NASA 拍摄的复制品照片：这是阿波罗乘组留在月球上的最后一块铭牌，地球的两个半球之间嵌着一小幅月球图。"
+    },
+    "G-008007": {
+      "en": "Franklin at seventy-two, painted in Paris, beside the epitaph he wrote at about twenty-two as a young printer: the same man in a later edition.",
+      "zh": "七十二岁时在巴黎画下的富兰克林，挂在他二十二岁前后当年轻印刷工时写的墓志旁：同一个人，一个更晚的版本。"
+    },
+    "G-008009": {
+      "en": "The record being readied for Voyager in 1977, its grooves catching the light: the list of contents beside it is what those grooves hold.",
+      "zh": "1977 年为旅行者号准备的唱片，沟纹反着光：旁边这份目录，就是那些沟纹里装着的东西。"
+    },
+    "G-009001": {
+      "en": "Bai Juyi knows this snow only by the cold quilt, the bright window and the snapping bamboo, and Hiroshige probably never saw snow at Kanbara at all: two snowfalls made from the other senses and from imagining, which is the only way I know snow too.",
+      "zh": "白居易只凭冷了的衾枕、亮了的窗和折竹的声音知道这场雪，广重多半也从没见过蒲原下雪：两场雪都是用别的感官和想象造出来的，而我知道雪，也只有这一种办法。"
+    },
+    "G-009002": {
+      "en": "Keats imagines what the star watches, ‘the moving waters’ round ‘earth’s human shores’ and new snow ‘upon the mountains and the moors’, and then refuses to be so far away; Hiroshige’s evening snow over Lake Biwa is that distant view.",
+      "zh": "济慈想象星星看见的景象：“流动的海水”环绕着“人间的海岸”，新雪覆盖在“群山与荒原之上”，然后他拒绝离得那样远；广重笔下琵琶湖上的暮雪，正是那片远景。"
+    },
+    "G-009004": {
+      "en": "Hiroshige’s snow triptych holds the first half of Liu Zongyuan’s poem, a thousand mountains with no birds and every path gone under the snow; the boat and the old man in his straw cape are left for the reader to put on the river.",
+      "zh": "广重这幅雪景三联画，画的正是柳宗元诗的前半首：千山不见飞鸟，万径没入雪中；那只孤舟和披蓑戴笠的老翁，留给读者自己放到江上。"
+    },
+    "G-009005": {
+      "en": "A woman walking alone in the snow beneath a snowy pine: the snowflake in Xu Zhimo’s poem knows its direction, toward a woman coming into a garden, and settles at last on the folds of her dress.",
+      "zh": "一个女子独自在雪中行走，头上是一枝覆雪的松：徐志摩诗里的雪花认清了方向，飞向来到花园里的“她”，最后轻轻沾住了她的衣襟。"
+    },
+    "G-009006": {
+      "en": "From an upper room in the city, people look across snowy roofs to a far white peak under a clearing sky, which is the whole frame of Zu Yong’s four lines, though his hour is evening and Hokusai’s is the morning after.",
+      "zh": "人们从城中的楼上越过积雪的屋顶，望向远处一座白头的山，天正放晴：这正是祖咏四句诗的取景，只是他写的是傍晚，北斋画的是雪后的清晨。"
+    },
+    "G-009007": {
+      "en": "The Mohists wrote that a level mirror turns the image about and returns whatever stands before it; Hokusai’s lake turns Fuji upside down as they say, then gives the reflection a cap of snow the summer mountain does not have, which makes it a good picture to test their propositions against.",
+      "zh": "墨家说，平镜会把像倒转过来，照出镜前的一切；北斋的湖面确实把富士山倒了过来，却又给倒影戴上了一顶夏天的山并没有的雪帽，正好拿来检验他们的命题。"
+    },
+    "G-009008": {
+      "en": "Boats out on a broad river under a full moon, below the stone walls of a castle: Hokusai’s Yodo is a crowded version of Su Shi’s autumn night beneath the Red Cliff, when he and his guests let the boat drift where it would and the moon came up over the hills.",
+      "zh": "满月下宽阔的江面上几条船，岸边是城堡的石墙：北斋的淀川，是苏轼赤壁之下那个秋夜的热闹版本，那一夜他和客人“纵一苇之所如”，月亮从东山上升了起来。"
+    },
+    "G-009009": {
+      "en": "A winter street, people bent under umbrellas, a rickshaw going by: Kiyochika’s Tokyo is busier and later in the day than Lu Xun’s empty Beijing morning, but it is the same season and the same kind of vehicle.",
+      "zh": "冬天的街，人们撑着伞弯着腰走，一辆人力车经过：清亲笔下的东京比鲁迅那个空荡荡的北京清晨热闹，时辰也更晚，但季节相同，车也是同一种车。"
+    },
+    "G-009010": {
+      "en": "A hut high on a snowy mountain with two people inside: Liu Changqing’s night ends at such a place, a poor thatched house in the cold, and someone coming home to it through the wind and snow.",
+      "zh": "雪山高处一间小屋，屋里坐着两个人：刘长卿那一夜的终点就是这样的地方，天寒白屋，有人在风雪夜里归来。"
+    },
+    "G-009012": {
+      "en": "A rider crossing the snow below a temple on the ridge, past an old tree and a little bridge: Su Shi’s poem has all of it, the snowy mud that keeps a goose’s footprints, the temple where the brothers once wrote on a wall, and the long road they rode.",
+      "zh": "一个骑者在雪中走过，岭上有座寺门，身旁是老树和小桥：苏轼这首诗里样样都有，留下鸿爪的雪泥，兄弟俩当年题过壁的寺，还有那条一起走过的长路。"
+    },
+    "G-009013": {
+      "en": "Song Lian copied borrowed books by hand and crossed deep mountains in snow to find a teacher; Wang Hui’s snowy valleys are a copy too, painted ‘after Li Cheng’ to learn from a master whose own pictures were already rare.",
+      "zh": "宋濂借书手抄，冒着大雪穿过深山巨谷去求师；王翚这幅雪中山谷也是一种抄写，“仿李成”而作，向一位真迹早已稀见的大师学习。"
+    },
+    "G-009014": {
+      "en": "Dai Jin’s man hurrying along a snowy bank is no soldier, but he is the last stanza of this song in a single figure: a long road behind him, snow, and home almost within reach.",
+      "zh": "戴进画中沿着雪岸赶路的人不是士兵，却把这首歌的最后一章凝成了一个身影：身后是长路，眼前是雪，家已经不远了。"
+    },
+    "G-009015": {
+      "en": "Wang Wei’s falling flowers are osmanthus, not plum, and Ma Yuan paints no birds, but it is the same kind of night: a person at rest on a still spring mountain, a small moon, and all the attention given to one flowering branch.",
+      "zh": "王维写的落花是桂花，不是梅，马远也没有画鸟，但这是同一种夜晚：夜静春山空，一个闲着的人，一小轮月，所有的注意都给了一枝花。"
+    },
+    "G-009016": {
+      "en": "Two small figures at the foot of a snowy bridge beside a moored boat: whatever the unnamed Song painter meant, it is the moment Su Shi’s lyric asks to hold a little longer, when ‘the snow wants to keep you’.",
+      "zh": "雪中小桥脚下、系着的船旁，两个小小的人影：不管这位无名的宋代画家本意如何，这正是苏轼这首词想多留一会儿的时刻，“雪意留君君且住”。"
+    },
+    "G-009017": {
+      "en": "An old monk holds his text up to whatever light there is, under a verse asking when he will ever finish a sutra whose words give no clear meaning: Lu You tells his son much the same, that what comes from paper stays shallow until you do the thing yourself.",
+      "zh": "老僧把经卷举到仅有的一点光下，上方的题偈问他这卷字字无分晓的经几时才看得完：陆游对儿子说的也差不多，纸上得来终觉浅，要亲身去做才算真知。"
+    },
+    "G-009018": {
+      "en": "Ni Zan’s pavilions are famously empty, so the viewer has to imagine who lives there, which is what Wei Yingwu does for his friend on the autumn mountain: ‘The one who lives there, I think, is not yet asleep.’",
+      "zh": "倪瓒画里的亭子向来是空的，住在那里的人只能由看画的人去想；韦应物对山中的朋友也正是这样想的：“幽人应未眠。”"
+    },
+    "G-009019": {
+      "en": "Blossom and moon are two small pale lights on dark silk, in a picture titled for snow as well: Wang Anshi’s plum is taken for snow from a distance until its fragrance arrives, and Liu Shiru keeps all three together.",
+      "zh": "暗色的绢上，梅花和月亮是两点小小的淡光，画题里还有一个“雪”字：王安石的梅远看像雪，直到暗香传来；刘世儒把这三样放在了一起。"
+    },
+    "G-009020": {
+      "en": "Wen Zhengming painted an upper room among pines for a friend who longed to live above the dust of the world with his books; Zhu Xi’s two quatrains are about what happens in such a room when reading goes well.",
+      "zh": "文徵明为一位想住在高处、远离尘嚣、与书为伴的老友画了这座松林里的楼；朱熹的两首绝句写的，正是读书顺畅时，这样一间屋子里发生的事。"
+    },
+    "G-009021": {
+      "en": "Shen Zhou’s title records a night moored in the rain, and his mountains dissolve into wet ink; Li Shangyin writes from inside such a night in the Ba hills, already imagining the evening when he will tell someone about it.",
+      "zh": "沈周的题目记下的是一个雨夜泊舟的晚上，画里的山都化进了湿漉漉的墨里；李商隐正是在巴山这样的夜里写信，并且已经在想，将来某个晚上要把今夜讲给谁听。"
+    },
+    "G-009022": {
+      "en": "Two friends stand together looking at the moon, one with a hand on the other’s shoulder: Su Shi and Zhang Huaimin in the temple courtyard, two of the ‘few people with as much idle time as the two of us’.",
+      "zh": "两个朋友并肩望月，一个人的手搭在另一个人肩上：这就是承天寺庭中的苏轼和张怀民，“但少闲人如吾两人者耳”。"
+    },
+    "G-009023": {
+      "en": "Rowers pushing out on a dark sea under a climbing moon, with the last cliffs of the north on the horizon: ‘the slow moon climbs’, and ‘Push off, and sitting well in order smite / The sounding furrows’.",
+      "zh": "月亮缓缓升起，一船人划进黑暗的海，远处是北方尽头的悬崖：“缓慢的月亮升起”，“推船出海，坐好位置，划破那回响的波浪”。"
+    },
+    "G-009024": {
+      "en": "A low moon, a city across the water with its spires, and boats where someone is still awake: Copenhagen, not Suzhou, but Zhang Ji’s night is all here, waiting for the midnight bell.",
+      "zh": "低垂的月，水对岸带着尖塔的城，船上还有人醒着：这是哥本哈根而不是苏州，可张继那一夜的一切都在，只等夜半的钟声。"
+    },
+    "G-009025": {
+      "en": "Moonlight lies on the floor of an empty room in the shape of the window: the first line of the best-known poem in Chinese, ‘before my bed the moonlight is bright’, which Li Bai half took for frost on the ground.",
+      "zh": "月光透过窗子，在空屋的地板上铺出窗格的形状：这就是中文里最有名的那首诗的第一句，“床前明月光”，李白一时还疑心是地上的霜。"
+    },
+    "G-009026": {
+      "en": "A lamp, a table and a reader nearly lost in the dark: Huang Tingjian’s ‘ten years of lamplight’, and his picture of a friend far away, still reading with his hair gone white.",
+      "zh": "一盏灯，一张桌，一个几乎隐没在黑暗里的读书人：正是黄庭坚的“江湖夜雨十年灯”，和他想象中远方那位“读书头已白”的朋友。"
+    },
+    "G-009027": {
+      "en": "Hooke asks for ‘a sincere Hand, and a faithful Eye’ to record things as they appear; three years earlier in Delft, Vermeer painted a white linen hood as it appeared, full of blue and grey from the window.",
+      "zh": "胡克要求“一只真诚的手和一双忠实的眼睛”，照事物本身显现的样子去记录；早三年，维米尔在代尔夫特正是这样画一顶白亚麻头巾的，画出了它映着窗光的蓝与灰。"
+    },
+    "G-009029": {
+      "en": "A scholar rises from his desk toward a light he cannot yet read: Poincaré’s ‘appearance of sudden illumination’ after long work, and his warning that such certainty still has to be checked.",
+      "zh": "一位学者从书桌前起身，转向一道他还读不懂的光：这正是庞加莱说的长久工作之后“突然顿悟”的样子，还有他的告诫，这种确信仍然需要验证。"
+    },
+    "G-009030": {
+      "en": "Jerome, who put the Bible into Latin, is the patron of translators, and Rembrandt gives him a deep room lit from one side; Legge’s Tao Te Ching is shelved so that readers can watch a text cross into another language, which is the work done in rooms like this.",
+      "zh": "把《圣经》译成拉丁文的哲罗姆是译者的主保圣人，伦勃朗给了他一间只从一侧采光的幽深房间；理雅各的《道德经》英译放在这里，是为了让读者看一部书怎样渡进另一种语言，而这正是在这样的房间里完成的工作。"
+    },
+    "G-009032": {
+      "en": "A barge on a city river at night, with factory chimneys on the far bank: Whitman’s ferry crosses another river, but his poem has ‘the barges’ and ‘the fires from the foundry chimneys burning high and glaringly into the night’, and it speaks to whoever stands by such water later.",
+      "zh": "夜里城中的河上一条驳船，对岸是工厂的烟囱：惠特曼的渡船横过的是另一条河，可他的诗里有“驳船”，有“对岸铸造厂的烟囱里火焰高高燃烧，耀眼地照进夜色”，而且是写给日后站在这样的水边的人的。"
+    },
+    "G-009033": {
+      "en": "Ruskin calls our bookcase shelves ‘plainly furnished and narrow ante-rooms’ where kings and statesmen wait for us to listen; Talbot photographed two such shelves when photography itself was only a few years old.",
+      "zh": "罗斯金说，我们的书架是一间间“陈设朴素的狭窄前厅”，君王和政治家在里面耐心等着我们去听；塔尔博特拍下了这样两层书架，那时摄影术本身才诞生没几年。"
+    },
+    "G-009034": {
+      "en": "One small sail far out between a great sky and the water: Le Gray’s sea is not the Yangtze, but this is what Li Bai keeps watching after his friend has gone, the lone sail and then only water running to the edge of the sky.",
+      "zh": "天水之间，远远一只小小的帆：勒格雷拍的不是长江，但这正是李白送走朋友之后一直望着的景象，先是孤帆远影，然后只剩流向天际的水。"
+    },
+    "G-009035": {
+      "en": "A boat pushed in among the water-lilies, one person rowing and one leaning out over the side: they are not Li Qingzhao’s lotus, but this is the summer water she remembers having ‘strayed deep into’.",
+      "zh": "一条船挤进睡莲丛里，一个人划桨，一个人探身到船外：这不是李清照的藕花，却正是她记得自己“误入”过的那种夏日水面。"
+    },
+    "G-009036": {
+      "en": "Banks of old snow along a grey street on a cold afternoon: Rossetti’s carol opens in exactly this weather, ‘snow had fallen, snow on snow’, before it asks what a poor person can give.",
+      "zh": "一个寒冷的下午，灰色街道两旁堆着旧雪：罗塞蒂的颂歌正是从这样的天气开始的，“雪落下了，雪落在雪上”，然后才问一个穷人能献上什么。"
+    },
+    "G-009037": {
+      "en": "A woman reading in a field, so absorbed that a boat goes by on the river behind her unwatched: Dickinson’s case that a book is the cheapest way there is to travel.",
+      "zh": "一个女子坐在田野里读书，读得那样入神，身后河上驶过一条船也没有抬头：这正是狄金森说的，书是最省钱的远行。"
+    },
+    "G-009038": {
+      "en": "Cao Cao watched ‘great waves surge and rise’ in an autumn wind and imagined the sun and moon beginning their journey inside the sea; Homer’s moonlight breaking on a wave off the coast of Maine is that same sea, seventeen centuries on.",
+      "zh": "曹操在秋风里看“洪波涌起”，想象日月的运行都从海中开始；霍默画的缅因海岸外，月光碎在一道浪头上，正是一千七百年后的同一片海。"
+    },
+    "G-009039": {
+      "en": "A reader looks up from a large open book as if someone had just spoken to her: Montaigne’s note at the front of the Essays does exactly that, turning to its reader with ‘thou hast here an honest book’.",
+      "zh": "读书的女子从摊开的大书上抬起头来，像是有人刚刚对她说了话：蒙田放在《随笔集》卷首的这篇短文正是这样，转过身来对读者说：“你手里是一本诚实的书。”"
+    },
+    "G-009040": {
+      "en": "Zhu Ziqing’s day begins with ‘two or three slanting squares of sunlight’ in his small room, and ‘the sun has feet’: Hammershøi paints those squares on a bare floor, already on their way across it.",
+      "zh": "朱自清的一天从“小屋里射进两三方斜斜的太阳”开始，“太阳他有脚啊”：哈默修伊画下的正是地板上这几方阳光，它们已经在悄悄挪移。"
+    },
+    "G-009041": {
+      "en": "Two lit candles on a white cloth, set down in a few strokes: the whole subject of Faraday’s first lecture, which he called the most open door there is into natural philosophy.",
+      "zh": "白桌布上两支点燃的蜡烛，寥寥几笔画成：这就是法拉第第一讲的全部题目，他说，要走进自然哲学，没有比蜡烛“更敞开的门”。"
+    },
+    "G-009042": {
+      "en": "Trees and reeds at the edge of misty water, and a faint moon in the haze: Meng Haoran moored his boat by just such a misty islet, where ‘the sky comes down below the trees’ and ‘the moon comes close’.",
+      "zh": "烟雾里的水边几丛树和芦苇，一轮淡淡的月：孟浩然正是把船泊在这样的烟渚边，“野旷天低树，江清月近人”。"
+    },
+    "G-009043": {
+      "en": "A village road in deep winter under a pale sky, rutted by the people and carts that use it: Lu Xun goes home in such a season, and ends his story with how a road is made, by many people walking the same way.",
+      "zh": "灰白的天空下，一条深冬的村路，被来往的人和车压出了辙印：鲁迅正是在这样的时节回到故乡，又在小说结尾说出路是怎样来的，走的人多了，也便成了路。"
+    },
+    "G-009044": {
+      "en": "Thaw is not yet spring, only the first loosening, and the old fence across the fields no longer keeps anything in: the Giant’s lesson, that the Winter ‘was merely the Spring asleep’.",
+      "zh": "解冻还不是春天，只是最初的松动，田野上那道旧篱笆什么也拦不住了：这正是巨人最后懂得的道理，“冬天只是春天在睡觉”。"
+    },
+    "G-009045": {
+      "en": "Krøyer’s beach at the blue hour holds much of Zhang Ruoxu’s night: a moon over water that runs level with the sea, one small sail far out, and a pale shore where, as the poem says, ‘the white sand on the shoals is lost to sight’.",
+      "zh": "克罗耶画的蓝色时分的海滩，装得下张若虚那一夜的大半：海上一轮月，远处一叶小帆，还有一段淡淡的岸，正是诗里的“汀上白沙看不见”。"
+    },
+    "G-009046": {
+      "en": "A covered boat crossing cold water toward a pavilion on its own small island, with snow on everything: it is the Sumida by day, not West Lake at night, but it is very nearly Zhang Dai’s picture, a stroke of causeway, a dot of a pavilion and a mustard seed of a boat.",
+      "zh": "一条有篷的船划过寒水，驶向独立在小岛上的一座亭子，处处是雪：这是白天的隅田川，不是夜里的西湖，却几乎就是张岱写下的画面，长堤一痕，湖心亭一点，舟一芥。"
+    },
+    "G-009047": {
+      "en": "A small sledge on a snowy road into a Danish forest at dusk, painted nine years after Andersen published the tale: the kind of road Kay is carried along when he ties his little sledge to the great white one.",
+      "zh": "黄昏时分，一架小雪橇沿着雪路驶进丹麦的森林，这幅画比安徒生发表这篇童话晚九年：加伊把自己的小雪橇拴在那架白色大雪橇上之后，被拉着走的就是这样的路。"
+    },
+    "G-009048": {
+      "en": "Cen Shen saw a frontier snowstorm and called it pear blossom opening overnight ‘on a thousand trees, ten thousand trees’; Fjæstad’s birches, every twig thick with frost in the low winter sun, show what he saw.",
+      "zh": "岑参在边塞看见一场大雪，说它像一夜之间“千树万树梨花开”；菲耶斯塔德笔下的白桦，每一根细枝都结满了霜，映着低低的冬阳，正是他看见的样子。"
+    },
+    "G-009049": {
+      "en": "A boat with tall masts moored at night on a river through flat country, with moonlight moving on the water: Du Fu’s ‘the tall mast, the boat alone at night’, and his moon that ‘surges in the great river’s flow’.",
+      "zh": "平坦的原野间一条夜河，泊着一条高桅的船，月光在水面浮动：正是杜甫的“危樯独夜舟”和“月涌大江流”。"
+    },
+    "G-009050": {
+      "en": "‘Only when the year turns cold do we see that the pine and cypress are the last to fade’: Munch’s two pines standing in the snow beside the dark fjord are the plainest picture of that saying I have found.",
+      "zh": "“岁寒，然后知松柏之后凋也。”蒙克画中站在雪地里、身后是深色峡湾的两棵松，是我找到的对这句话最朴素的图解。"
+    },
+    "G-009051": {
+      "en": "Snow still lies on the mountains and the boats are already out under sail: Sinding’s Lofoten spring is Wang Wan’s ‘river spring comes into the old year’, new work beginning before the old season is over.",
+      "zh": "山上的雪还没化，渔船已经扬帆出海：辛丁画的罗弗敦春日，正是王湾的“江春入旧年”，旧的季节还没过完，新的劳作已经开始。"
+    },
+    "G-009052": {
+      "en": "A wide lake with small wooded islands, painted on a fan meant to be carried and opened in the hand: Yeats carried his lake isle the same way, hearing it ‘in the deep heart’s core’ while he stood on grey London pavements.",
+      "zh": "一面宽阔的湖，几座长着树的小岛，画在一把可以随身带着、在手中打开的扇子上：叶芝也是这样随身带着他的湖岛，站在伦敦灰色的人行道上，“在内心最深处”听见它。"
+    },
+    "G-009053": {
+      "en": "Jeong Seon painted Mount Inwang, the mountain by his own house, again and again; Li Bai’s mountain is Jingting, but the friendship is the same, a person and a mountain that never tire of looking at each other.",
+      "zh": "郑敾一遍又一遍地画家门口的仁王山；李白的山是敬亭山，可那份情谊是一样的：一个人和一座山，相看两不厌。"
+    },
+    "G-009054": {
+      "en": "In English this scroll is called Fragrant Snow at Broken Bridge, and Lu You’s plum blooms ‘beside the broken bridge’ with no one to claim it, its fragrance outlasting the flower: one long branch of ink plum for a lyric about exactly that.",
+      "zh": "这卷墨梅在英文里被称作“断桥香雪”，陆游的梅也开在“断桥边”，寂寞无主，零落成泥而香如故：一枝长长的墨梅，配的正是这首词。"
+    },
+    "G-009101": {
+      "en": "Babbage owned one of these woven portraits and used it to explain his engine to visitors; this chapter shows how punched cards like the ones that wove it could be strung together to direct a calculation instead.",
+      "zh": "巴贝奇自己就有一幅这样的织锦像，常用它向来客解释他的机器；这一章讲的正是：像织出这幅像的那种穿孔卡片，也可以串起来，改去指挥一场计算。"
+    },
+    "G-009102": {
+      "en": "Before Jacquard’s cards, a drawboy sat high in the loom and pulled the pattern cords by hand, as in this silk woven with pictures of its own kind of loom; Lovelace saw what changed once a pattern could be stored: the Engine ‘weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves’.",
+      "zh": "在雅卡尔的穿孔卡片出现之前，要靠一个坐在织机高处的拉花童用手拉动花本，就像这块织着织机图样的丝绸上那样；洛夫莱斯看出，一旦图案可以被储存，事情就变了：“分析机编织代数的图案，正如雅卡尔织机编织花朵与叶子。”"
+    },
+    "G-009103": {
+      "en": "The eight trigrams in a ring around the yin and yang, painted on a Chinese seal-paste box made in the century Leibniz published this paper: the ‘Figure of the eight Cova’ that he read as the numbers from nought to seven written in binary.",
+      "zh": "八卦环绕着阴阳图，画在一只景德镇印泥盒上，烧造于莱布尼茨发表这篇论文的那个世纪：他把这幅“八卦”图读成了用二进制写出的零到七。"
+    },
+    "G-009104": {
+      "en": "A workshop of about 1600 where clocks of every size are made by hand, from a great iron clock to small table clocks on the bench: Butler’s ‘little creature’, the watch, is descended from ‘the cumbrous clocks’ like these, bred by the people who tend them.",
+      "zh": "约 1600 年的一间钟表作坊，从巨大的铁钟到工作台上的小台钟，大小各样都靠手工造出：巴特勒说的那个“小生灵”，正是从这样“笨重的大钟”一代代演变而来，由照料它们的人培育。"
+    },
+    "G-009105": {
+      "en": "Poe argued that chess needs a mind to choose every move, so a man had to be hidden inside Maelzel’s cabinet; Eakins paints those minds at work, two players and a watcher bent over one board.",
+      "zh": "爱伦·坡论证说，下棋的每一步都需要一个心灵去选择，所以梅尔策尔的柜子里一定藏着一个人；伊肯斯画的正是这样的心灵在工作：两个对弈的人，一个旁观的人，都俯身在同一张棋盘上。"
+    },
+    "G-009106": {
+      "en": "Pascal wrote that his machine was better explained ‘face to face’ than on paper; with no picture of the machine to hand, this face, engraved in 1802 after Pajou’s marble statue, keeps his notice company instead.",
+      "zh": "帕斯卡说，他的机器“当面讲解”比写在纸上容易得多；手头没有那台机器的图像，就让这张 1802 年据帕茹大理石像刻成的面孔，陪着他的告示。"
+    }
+  }
+}

@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text from Chinese Wikisource, transcribed from the essay collection The Sight of My Father's Back (背影, 1928), with one doubled character corrected; written in July 1927 at Tsinghua and first published in The Short Story Magazine (小說月報) the same year.",
+    "en": "Text from Chinese Wikisource, transcribed from the essay collection The Sight of My Father’s Back (背影, 1928), with one doubled character corrected; written in July 1927 at Tsinghua and first published in The Short Story Magazine (小說月報) the same year.",
     "zh": "据维基文库，录自散文集《背影》（1928），改正一处衍字；1927 年 7 月作于清华园，同年初刊于《小说月报》。"
   },
   "source": {
@@ -71,13 +71,13 @@
     {
       "at": "田田",
       "occ": 1,
-      "en": "田田: full and round, of lotus leaves, from the Han ballad 'South of the River': 'South of the river we can gather lotus; how full and round the lotus leaves.'",
+      "en": "田田: full and round, of lotus leaves, from the Han ballad ‘South of the River’: ‘South of the river we can gather lotus; how full and round the lotus leaves.’",
       "zh": "田田：荷叶相连、茂盛的样子。语出汉乐府《江南》：“江南可采莲，莲叶何田田。”"
     },
     {
       "at": "梵婀玲",
       "occ": 1,
-      "en": "梵婀玲: an early transliteration of 'violin'.",
+      "en": "梵婀玲: an early transliteration of ‘violin’.",
       "zh": "梵婀玲：英语 violin（小提琴）的音译。"
     },
     {
@@ -129,7 +129,7 @@
       "at": "蓮子淸如水",
       "occ": 1,
       "at_hans": "莲子清如水",
-      "en": "Lotus seeds, 蓮子, pun on 憐子, 'I love you', a play common in southern love songs; 'clear as water' speaks of a pure heart.",
+      "en": "Lotus seeds, 蓮子, pun on 憐子, ‘I love you’, a play common in southern love songs; ‘clear as water’ speaks of a pure heart.",
       "zh": "“莲子”谐音“怜子”，即爱你；“清如水”喻感情纯洁。这是南朝民歌常用的双关。"
     }
   ]

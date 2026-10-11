@@ -33,7 +33,7 @@
   "rights": {
     "status": "open-license",
     "basis": {
-      "en": "The memo itself states: 'Distribution of this memo is unlimited.' Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
+      "en": "The memo itself states: ‘Distribution of this memo is unlimited.’ Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
       "zh": "该备忘录自身声明：“本备忘录的分发不受限制。”依据 IETF 信托法律条款第 2.c 条，2015 年以前发表的 RFC 仍适用发表时的条款：允许完整、不加修改地复制和分发，但未授予翻译权。因此原文按原样收录（仅调整版面），以摘要代替翻译。"
     },
     "license": "RFC distribution statement: “Distribution of this memo is unlimited.”",
@@ -43,7 +43,7 @@
   },
   "translations": {},
   "note": {
-    "en": "In August 1989 UCLA held a symposium, Act One, partly to mark twenty years since the first ARPANET node was installed there, and several speakers 'could not resist the temptation to commit poetry'. This RFC collects the poems: Kleinrock's account of the first IMP arriving early by air freight, his ode to the queue, Cerf's 'Rosencrantz and Ethernet', and Barry Boehm's limericks. Notice that the people who built the network chose to remember its birth in verse.",
+    "en": "In August 1989 UCLA held a symposium, Act One, partly to mark twenty years since the first ARPANET node was installed there, and several speakers ‘could not resist the temptation to commit poetry’. This RFC collects the poems: Kleinrock’s account of the first IMP arriving early by air freight, his ode to the queue, Cerf’s ‘Rosencrantz and Ethernet’, and Barry Boehm’s limericks. Notice that the people who built the network chose to remember its birth in verse.",
     "zh": "1989 年 8 月，UCLA 举办了一场名为“第一幕”的研讨会，部分是为了纪念第一个 ARPANET 节点在那里安装二十周年；几位讲者“忍不住犯了写诗的毛病”。这份 RFC 收集了这些诗：克兰罗克讲述第一台 IMP 如何被空运提前送到、大家如何战战兢兢地接上线、比特终于流动起来，他写给排队论的颂歌，瑟夫戏仿《哈姆雷特》的《罗森克兰茨与以太网》（“交换，还是不交换？”），以及巴里·贝姆的五行打油诗。请留意：建造这个网络的人，选择用诗来记住它的诞生。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
   },
   "pick": null,
@@ -55,8 +55,8 @@
     "commemoration"
   ],
   "excerpt": {
-    "orig": "We cautiously connected and the bits began to flow.\nThe pieces really functioned - just why I still don't know.",
-    "en": "We cautiously connected and the bits began to flow.\nThe pieces really functioned - just why I still don't know.",
+    "orig": "We cautiously connected and the bits began to flow.\nThe pieces really functioned - just why I still don’t know.",
+    "en": "We cautiously connected and the bits began to flow.\nThe pieces really functioned - just why I still don’t know.",
     "zh": "我们小心翼翼地接上线，比特开始流动。\n那些部件真的运转了——为什么，我至今也不懂。"
   },
   "plate": null,

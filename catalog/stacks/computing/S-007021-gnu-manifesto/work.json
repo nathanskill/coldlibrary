@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "The complete page at gnu.org, from the Free Software Foundation's introductory note to the footnotes, converted from HTML to plain text without changes to the wording.",
+    "en": "The complete page at gnu.org, from the Free Software Foundation’s introductory note to the footnotes, converted from HTML to plain text without changes to the wording.",
     "zh": "据 gnu.org 页面全文，从自由软件基金会的引言到脚注，由 HTML 转为纯文本，措辞未改。"
   },
   "source": {
@@ -54,8 +54,8 @@
     "history"
   ],
   "excerpt": {
-    "orig": "GNU, which stands for Gnu's Not Unix, is the name for the complete Unix-compatible software system which I am writing so that I can give it away free to everyone who can use it",
-    "en": "GNU, which stands for Gnu's Not Unix, is the name for the complete Unix-compatible software system which I am writing so that I can give it away free to everyone who can use it",
+    "orig": "GNU, which stands for Gnu’s Not Unix, is the name for the complete Unix-compatible software system which I am writing so that I can give it away free to everyone who can use it",
+    "en": "GNU, which stands for Gnu’s Not Unix, is the name for the complete Unix-compatible software system which I am writing so that I can give it away free to everyone who can use it",
     "zh": "GNU 是“GNU's Not Unix”（GNU 不是 Unix）的缩写，是我正在编写的一个完整的、与 Unix 兼容的软件系统的名字，我写它是为了把它自由地送给每一个用得上它的人。"
   },
   "plate": null,

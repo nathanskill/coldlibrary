@@ -27,7 +27,7 @@
   },
   "orig_lang": "grc",
   "edition": {
-    "en": "The Thirteen Books of Euclid's Elements, translated from the text of Heiberg by T. L. Heath, vol. 1 (Cambridge University Press, 1908), pp. 153–155, 241–242 and 349–350, transcribed from two Internet Archive scans of the first edition and compared line by line. Heath's commentary is omitted; his bracketed references to the definitions, postulates and earlier propositions are kept, as is his bracketing of a sentence Heiberg judged to be a later interpolation. The figures are not reproduced: each proof can be followed by drawing it with compass and straightedge.",
+    "en": "The Thirteen Books of Euclid’s Elements, translated from the text of Heiberg by T. L. Heath, vol. 1 (Cambridge University Press, 1908), pp. 153–155, 241–242 and 349–350, transcribed from two Internet Archive scans of the first edition and compared line by line. Heath’s commentary is omitted; his bracketed references to the definitions, postulates and earlier propositions are kept, as is his bracketing of a sentence Heiberg judged to be a later interpolation. The figures are not reproduced: each proof can be followed by drawing it with compass and straightedge.",
     "zh": "据希思译自海贝格校本的《欧几里得〈原本〉十三卷》第一卷（剑桥大学出版社，1908 年）第 153–155、241–242、349–350 页，依互联网档案馆两种初版扫描本转录并逐行对照。略去希思的评注；保留他用方括号标出的所据定义、公设与前面命题，也保留他对海贝格认为后人窜入的一句所加的方括号。原书插图未收：每个证明都可以用圆规和直尺自己画出来跟着读。"
   },
   "source": {
@@ -50,7 +50,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Twenty-three definitions, five postulates and five common notions, and from them, step by step, a triangle with three equal sides and the theorem now called Pythagoras'. Every line of a proof cites the earlier thing it rests on, which is why this book was used to teach reasoning itself for two thousand years. Notice the fifth postulate, longer and less obvious than the other four; the attempts to prove it from them eventually opened the door to geometries that are not Euclid's.",
+    "en": "Twenty-three definitions, five postulates and five common notions, and from them, step by step, a triangle with three equal sides and the theorem now called Pythagoras’. Every line of a proof cites the earlier thing it rests on, which is why this book was used to teach reasoning itself for two thousand years. Notice the fifth postulate, longer and less obvious than the other four; the attempts to prove it from them eventually opened the door to geometries that are not Euclid’s.",
     "zh": "二十三条定义、五条公设、五条公理，由此一步一步推出一个三边相等的三角形，以及今天所说的勾股定理（毕达哥拉斯定理）。证明的每一行都注明它所依据的前一条，所以两千年来，这本书被用来教人推理本身。请留意第五公设：它比前四条长，也不那么一目了然；人们试图用前四条证明它，最终却打开了通往非欧几何的门。"
   },
   "pick": {

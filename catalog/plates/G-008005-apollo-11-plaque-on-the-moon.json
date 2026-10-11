@@ -1,13 +1,16 @@
 {
   "id": "G-008005",
   "slug": "apollo-11-plaque-on-the-moon",
+  "kind": "photograph",
   "title": {
     "orig": "View of plaque Apollo 11 astronauts left on moon (AS11-40-5899)",
+    "lang": "en",
     "en": "The Apollo 11 Plaque on the Moon",
     "zh": "月面上的阿波罗 11 号铭牌"
   },
   "artist": {
     "orig": "Apollo 11 crew",
+    "lang": "en",
     "en": "Apollo 11 crew (NASA)",
     "zh": "阿波罗 11 号乘组（NASA）",
     "dates": "1969"
@@ -30,6 +33,7 @@
     "width": 1600,
     "height": 1558
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

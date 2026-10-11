@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "The Nine Chapters on the Mathematical Art, compiled in Han China, is a book of problems, answers and 'arts' (shu), that is, methods. These are its arts of fractions: reducing, joining, subtracting, comparing, levelling and dividing. The art of reducing fractions is a complete algorithm for the greatest common divisor by repeated subtraction, the same idea as Euclid's, written down independently on the other side of the world. Liu Hui's commentary, omitted here, adds the reason it works: every number subtracted is a multiple of the common measure.",
+    "en": "The Nine Chapters on the Mathematical Art, compiled in Han China, is a book of problems, answers and ‘arts’ (shu), that is, methods. These are its arts of fractions: reducing, joining, subtracting, comparing, levelling and dividing. The art of reducing fractions is a complete algorithm for the greatest common divisor by repeated subtraction, the same idea as Euclid’s, written down independently on the other side of the world. Liu Hui’s commentary, omitted here, adds the reason it works: every number subtracted is a multiple of the common measure.",
     "zh": "《九章算术》成书于汉代，是一部由问题、答案和“术”（即算法）组成的书。这里收录方田章中的分数诸术：约分、合分、减分、课分、平分、经分。其中约分术的“更相减损”，是用反复相减求最大公约数的完整算法，与欧几里得的思路相同，却是在世界另一端独立写下的。此处从略的刘徽注补上了它为何成立：所减去的每个数，都是那个“等数”的重叠。"
   },
   "pick": null,
@@ -67,7 +67,7 @@
     {
       "at": "十八分之十二",
       "occ": 1,
-      "en": "'Of eighteen parts, twelve': the way fractions are still read in Chinese, denominator first.",
+      "en": "‘Of eighteen parts, twelve’: the way fractions are still read in Chinese, denominator first.",
       "zh": "“十八分之十二”，即把整体分成十八份取其十二。今天的汉语仍这样读分数，先说分母。"
     },
     {
@@ -100,14 +100,14 @@
       "at": "更相減損",
       "occ": 1,
       "at_hans": "更相减损",
-      "en": "Subtract each from the other in turn until the two are equal: the subtractive form of what is now called Euclid's algorithm.",
+      "en": "Subtract each from the other in turn until the two are equal: the subtractive form of what is now called Euclid’s algorithm.",
       "zh": "两数反复交替相减，直到相等。即今天所说辗转相除法（欧几里得算法）的相减形式。"
     },
     {
       "at": "以等數約之",
       "occ": 1,
       "at_hans": "以等数约之",
-      "en": "等數, the 'equal number' reached at the end, is the greatest common divisor.",
+      "en": "等數, the ‘equal number’ reached at the end, is the greatest common divisor.",
       "zh": "等数，相减到最后相等的数，即最大公约数。"
     },
     {
@@ -127,21 +127,21 @@
       "at": "并以為實",
       "occ": 1,
       "at_hans": "并以为实",
-      "en": "并 is to add; 實, 'the substance', is the dividend.",
+      "en": "并 is to add; 實, ‘the substance’, is the dividend.",
       "zh": "并，相加。实，被除数。"
     },
     {
       "at": "母相乘為法",
       "occ": 1,
       "at_hans": "母相乘为法",
-      "en": "法, 'the standard', is the divisor: here the product of the denominators.",
+      "en": "法, ‘the standard’, is the divisor: here the product of the denominators.",
       "zh": "法，除数。这里是各分母的乘积。"
     },
     {
       "at": "實如法而一",
       "occ": 1,
       "at_hans": "实如法而一",
-      "en": "'The dividend, as many times as the divisor, gives one': the standard phrase for division.",
+      "en": "‘The dividend, as many times as the divisor, gives one’: the standard phrase for division.",
       "zh": "“实如法而一”，即用法去除实，古代除法的固定说法。"
     },
     {
@@ -188,7 +188,7 @@
       "at": "平實",
       "occ": 1,
       "at_hans": "平实",
-      "en": "The 'level dividend': the sum of the cross-multiplied numerators.",
+      "en": "The ‘level dividend’: the sum of the cross-multiplied numerators.",
       "zh": "各分子交乘之积的总和。"
     },
     {

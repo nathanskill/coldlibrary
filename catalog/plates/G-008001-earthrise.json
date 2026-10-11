@@ -1,13 +1,16 @@
 {
   "id": "G-008001",
   "slug": "earthrise",
+  "kind": "photograph",
   "title": {
     "orig": "Earthrise (AS08-14-2383)",
+    "lang": "en",
     "en": "Earthrise",
     "zh": "地出"
   },
   "artist": {
     "orig": "William Anders",
+    "lang": "en",
     "en": "William Anders, Apollo 8 (NASA)",
     "zh": "威廉·安德斯，阿波罗 8 号（NASA）",
     "dates": "1933–2024"
@@ -30,6 +33,7 @@
     "width": 1600,
     "height": 1600
   },
+  "tone": "night",
   "rights": {
     "status": "public-domain",
     "basis": {

@@ -1,13 +1,16 @@
 {
   "id": "G-009015",
   "slug": "ma-yuan-viewing-plum-blossoms-by-moonlight",
+  "kind": "artwork",
   "title": {
     "orig": "月下賞梅圖",
+    "lang": "zh-Hant",
     "en": "Viewing Plum Blossoms by Moonlight",
     "zh": "月下赏梅图"
   },
   "artist": {
     "orig": "馬遠",
+    "lang": "zh-Hant",
     "en": "Ma Yuan",
     "zh": "马远",
     "dates": "active c. 1190–1225"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "一幅圆形的绢本团扇。一位文人坐在左下方的岩台上，头顶一枝虬曲的梅横穿画面，旁边站着一位同伴；右侧空阔的天空里挂着一轮小小的淡月，身后的山崖隐入雾中。"
   },
   "note": {
-    "en": "Ma Yuan, a painter at the Southern Song court, was nicknamed 'one-corner Ma' for pressing his scenes into one corner and leaving the rest open. Here almost everything happens along the lower left and the plum branch, and the moon is a small circle in a great deal of silk. The emptiness is not missing content; it is the night air the scholar is looking into.",
+    "en": "Ma Yuan, a painter at the Southern Song court, was nicknamed ‘one-corner Ma’ for pressing his scenes into one corner and leaving the rest open. Here almost everything happens along the lower left and the plum branch, and the moon is a small circle in a great deal of silk. The emptiness is not missing content; it is the night air the scholar is looking into.",
     "zh": "马远是南宋画院画家，因常把景物压到一角、其余留空，人称“马一角”。这里几乎所有内容都集中在左下和那枝梅上，月亮只是大片绢面里的一个小圆。空白不是缺了什么，而是那位文人正望进去的夜气。"
   },
   "pick": {

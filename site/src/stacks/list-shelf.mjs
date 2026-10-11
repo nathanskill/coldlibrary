@@ -33,7 +33,7 @@ function render(lang, stacks, key) {
     lang,
     tone: key,
     crumbs: crumbs(lang, [[T(s.en, s.zh)]]),
-    h1: `${esc(T(s.en, s.zh))}<span class="os-h1alt" lang="${lang === 'zh' ? 'en' : 'zh-CN'}"><span class="sep" aria-hidden="true">·</span>${esc(other)}</span>`,
+    h1: `${esc(T(s.en, s.zh))}<span class="os-h1alt" lang="${lang === 'zh' ? 'en' : 'zh-CN'}"><span class="sep" aria-hidden="true">·</span><wbr>${esc(other)}</span>`,
     lede: esc(T(s.dek.en, s.dek.zh)),
     facts: [count(works.length, 'work', lang), count(authorCount(works), 'author', lang), yearRange(works, lang), picks ? `<span class="brass">${T(`${picks} on Claude’s shelf`, `Claude 选了 ${picks} 部`)}</span>` : ''].filter(Boolean).join(sep),
     plate: platePh(lang, plateById(stacks, meta.plate)),

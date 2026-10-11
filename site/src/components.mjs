@@ -1,6 +1,6 @@
 // Shared components (visual system v5). Each returns HTML. Serif text goes through serif() so its glyphs are sliced.
 import { esc, t, href, serif, glue, go, sep, LOGO, ICON_SEARCH, tagOf, addGlyphs } from './lib.mjs';
-import { SHELVES, shelfOf, workHref, plateHref, shelfHref, titles, authorLabel, yearLabel, rightsCode, openingLines, translationInto, pickNo, isChineseText } from './stacks.mjs';
+import { SHELVES, shelfOf, workHref, plateHref, shelfHref, titles, authorLabel, yearLabel, yearShort, rightsCode, openingLines, translationInto, pickNo, isChineseText, isClassical } from './stacks.mjs';
 
 const T = (lang) => t(lang);
 
@@ -29,7 +29,7 @@ export function wcard(lang, w, stacks, { heading = 'h3' } = {}) {
   <div class="page" aria-hidden="true">${lines}</div>
   <div class="label">
     <${heading}><a href="${workHref(lang, w)}">${serifTitle(tt.main, tt.mainLang)}${tt.sub ? ` <span class="alt">${glue(tt.sub)}</span>` : ''}</a></${heading}>
-    <p class="by">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.lang))}">${esc(a.orig)}</span>` : ''} · ${esc(yearLabel(w, lang))}</p>
+    <p class="by">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.orig_lang || w.lang))}">${esc(a.orig)}</span>` : ''} · ${esc(yearLabel(w, lang))}</p>
     <p class="marks"><span class="id"><span class="vh">${T(lang)('Catalogue number ', '馆藏号 ')}</span>${esc(w.id)}</span>${n ? pickMark(lang, n) : ''}</p>
   </div>
 </article>`;
@@ -42,16 +42,22 @@ export function wrow(lang, w, stacks, { compact = false } = {}) {
   const n = pickNo(stacks, w);
   const zh = translationInto(w, 'zh');
   const en = translationInto(w, 'en');
+  // The translation mark says whether this work can be read in the page's language: 中译 / 白话 on /zh/, EN on /.
+  const into = lang === 'zh' ? zh : en;
+  const native = lang === 'zh' ? isChineseText(w) && !isClassical(w) : /^en/.test(String(w.lang));
+  const trMark = !into || native ? '' : lang === 'zh'
+    ? `<span class="meta nw" title="${isClassical(w) ? '有 Claude 的白话译文' : '有 Claude 的中文译文'}">${isClassical(w) ? '白话' : '中译'}${into.full ? '' : '（节）'}</span>`
+    : `<span class="id" title="English translation by Claude">EN${into.full ? '' : ' ½'}</span>`;
   const marks = [
     lang === 'zh' ? `<span class="meta nw"><span class="id">${w.size.minutes}</span> 分钟</span>` : `<span class="id">${w.size.minutes} min</span>`,
     n ? pickMark(lang, n, T(lang)('On Claude’s shelf', '在 Claude 的书架上')) : '',
-    zh ? `<span class="id" title="${zh.full ? T(lang)('Chinese translation', '有中文译文') : T(lang)('Partial Chinese translation', '中文节译')}">${zh.full ? 'zh' : 'zh ½'}</span>` : (en && lang === 'zh' ? '<span class="id" title="有英译">en</span>' : ''),
+    trMark,
   ].filter(Boolean).join('');
   return `<li class="wrow${compact ? ' compact' : ''}" data-id="${esc(w.id)}" data-form="${esc(w.form)}" data-year="${w.year}" data-lang="${esc(w.lang)}" data-pick="${w.pick ? 1 : 0}" data-tr="${zh ? (zh.full ? 2 : 1) : 0}" data-min="${w.size.minutes}" data-author="${esc(w.author.en)}" data-tags="${esc((w.tags || []).join(' '))}">
   ${compact ? '' : `<span class="r-id id"><span class="vh">${T(lang)('Catalogue number ', '馆藏号 ')}</span>${esc(w.id.slice(2))}</span>`}
   <span class="r-title"><a href="${workHref(lang, w)}">${serifTitle(tt.main, tt.mainLang)}</a>${tt.sub ? `<span class="alt">${esc(tt.sub)}</span>` : ''}</span>
-  <span class="r-author">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.lang))}">${esc(a.orig)}</span>` : ''}</span>
-  ${compact ? '' : `<span class="r-date">${esc(yearLabel(w, lang))}</span><span class="r-marks">${marks}</span>`}
+  <span class="r-author">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.orig_lang || w.lang))}">${esc(a.orig)}</span>` : ''}</span>
+  ${compact ? '' : `<span class="r-date">${esc(yearShort(w, lang))}</span><span class="r-marks">${marks}</span>`}
 </li>`;
 }
 
@@ -65,7 +71,7 @@ export function shelfCard(lang, key, stacks, { heading = 'h3' } = {}) {
   const fill = start.length < 3 ? works.filter((w) => !start.includes(w)).slice(0, 3 - start.length) : [];
   const list = [...start, ...fill].map((w) => {
     const ti = titles(w, lang);
-    return `<li><a href="${workHref(lang, w)}">${serifTitle(ti.main, ti.mainLang)}</a><span class="meta">${esc(authorLabel(w, lang).name)}</span></li>`;
+    return `<li><a href="${workHref(lang, w)}">${serifTitle(ti.main, ti.mainLang)}</a><span class="meta">${ti.sub ? `${glue(ti.sub)} · ` : ''}${esc(authorLabel(w, lang).name)}</span></li>`;
   }).join('');
   return `<article class="shelfcard tone-${key}">
   <${heading}><a href="${shelfHref(lang, key)}">${tt(s.en, s.zh)}</a><span class="other" lang="${lang === 'zh' ? 'en' : 'zh-CN'}">${lang === 'zh' ? s.en : s.zh}</span><span class="id count">${works.length}</span></${heading}>

@@ -1,13 +1,16 @@
 {
   "id": "G-009047",
   "slug": "kyhn-winter-evening-in-a-forest",
+  "kind": "artwork",
   "title": {
     "orig": "Vinteraften i en skov",
+    "lang": "da",
     "en": "Winter Evening in a Forest",
     "zh": "林中冬日黄昏"
   },
   "artist": {
     "orig": "Vilhelm Kyhn",
+    "lang": "da",
     "en": "Vilhelm Kyhn",
     "zh": "维尔海姆·屈恩",
     "dates": "1819–1903"
@@ -33,6 +36,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "dusk",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -47,7 +51,7 @@
     "zh": "黄昏时分，一条积雪的路蜿蜒伸进一片高大的落叶橡树林。低斜的夕阳在树后留下一带橙金色，中景的路上驶过一架小小的马拉雪橇，前景的雪被暮色染成蓝色。"
   },
   "note": {
-    "en": "Kyhn was a Danish Golden Age landscape painter who insisted on painting Denmark's own countryside rather than Italy. This is a large canvas, nearly two metres wide, of an ordinary Danish forest on an ordinary winter evening, given the scale of a history painting. The warmth at the horizon and the cold in the foreground hold each other in balance.",
+    "en": "Kyhn was a Danish Golden Age landscape painter who insisted on painting Denmark’s own countryside rather than Italy. This is a large canvas, nearly two metres wide, of an ordinary Danish forest on an ordinary winter evening, given the scale of a history painting. The warmth at the horizon and the cold in the foreground hold each other in balance.",
     "zh": "屈恩是丹麦黄金时代的风景画家，坚持画丹麦本土的乡野，而不是意大利。这是一幅近两米宽的大画，画的是平常的丹麦森林里一个平常的冬日黄昏，却给了它历史画的尺度。地平线上的暖和前景里的冷，彼此平衡。"
   },
   "pick": null,

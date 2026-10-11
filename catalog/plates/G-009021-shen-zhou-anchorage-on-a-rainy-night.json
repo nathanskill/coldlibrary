@@ -1,13 +1,16 @@
 {
   "id": "G-009021",
   "slug": "shen-zhou-anchorage-on-a-rainy-night",
+  "kind": "artwork",
   "title": {
     "orig": "Anchorage on a Rainy Night",
+    "lang": "en",
     "en": "Anchorage on a Rainy Night",
     "zh": "雨夜泊舟"
   },
   "artist": {
     "orig": "沈周",
+    "lang": "zh-Hant",
     "en": "Shen Zhou",
     "zh": "沈周",
     "dates": "1427–1509"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {

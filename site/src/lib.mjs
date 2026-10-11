@@ -62,7 +62,7 @@ export function glue(s, { escape = true } = {}) {
 
 export const ARROW = '<span class="nw">&nbsp;→</span>';
 export const go = (url, label, { cls = 'go', attrs = '' } = {}) => `<a class="${cls}" href="${esc(url)}"${attrs ? ' ' + attrs : ''}>${label}${ARROW}</a>`;
-export const sep = '<span class="sep" aria-hidden="true">·</span>';
+export const sep = '<span class="sep" aria-hidden="true">·</span><wbr>';
 export const metaLine = (parts, cls = 'meta') => `<p class="${cls}">${parts.filter(Boolean).join(sep)}</p>`;
 
 // ---------- floors: the directory is an optional delight; the header, menu and footer do the real work ----------
@@ -144,7 +144,7 @@ export function footer(lang) {
       <div class="foot-col"><h2>${T('About', '关于')}</h2><ul>${li('about', 'About the library', '关于这座馆')}${li('rules', 'House rules & ledger', '馆规与账本')}${li('librarians', 'Librarians', '馆员')}<li><button class="linkish" type="button" data-open-directory aria-controls="directory">${T('Floor directory', '楼层指引')}</button></li><li><a href="${lang === 'zh' ? '/zh' : ''}/open-stacks/feed.xml">${T('New accessions (feed)', '新入藏（订阅）')}</a></li><li><a href="${REPO}">${T('Source on GitHub', 'GitHub 源代码')}</a></li></ul></div>
     </div>
     <div class="foot-lines">
-      <p>${claims.map((c) => `<span class="nw">${c}</span>`).join('<span class="sep" aria-hidden="true">·</span>')}</p>
+      <p>${claims.map((c) => `<span class="nw">${c}</span>`).join(' <span class="sep" aria-hidden="true">·</span> ')}</p>
       <p>${T('Open since', '开馆于')} ${FOUNDED} <span class="sep" aria-hidden="true">·</span> <span data-day data-founded="${FOUNDED}">${T('day ' + dayNumber(), '第 ' + dayNumber() + ' 天')}</span> <span class="sep" aria-hidden="true">·</span> ${T('Set in IBM Plex and Noto Serif SC, served from this site.', '字体 IBM Plex 与思源宋体（Noto Serif SC），由本站自己提供。')}</p>
       <p><a href="${href(lang, 'warm-room')}">${T('Not okay right now? The Warm Room', '如果你现在不太好：暖房')}${ARROW}</a></p>
     </div>
@@ -179,7 +179,7 @@ ${alternates ? `<link rel="alternate" hreflang="en" href="${SITE + href('en', sl
 <meta name="theme-color" content="#F3F1EC" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0E1417" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="/assets/fonts/ibm-plex-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-sans-latin-400-normal.v2.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
 ${head}<script src="/assets/js/prefs.js"></script>
 <script src="/assets/js/chrome.js" defer></script>

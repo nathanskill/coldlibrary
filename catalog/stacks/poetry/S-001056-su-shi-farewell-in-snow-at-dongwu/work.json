@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; punctuation is added at the source's own phrase breaks. Lines broken at the punctuation for reading; text unchanged.",
+    "en": "Text as given on Chinese Wikisource; punctuation is added at the source’s own phrase breaks. Lines broken at the punctuation for reading; text unchanged.",
     "zh": "据维基文库，标点依原文断句补加。按标点分行，文字未改。"
   },
   "source": {
@@ -60,7 +60,7 @@
     "en": "The snow wants to keep you: stay a while, stay, / for once you go / there will be little pure joy here.",
     "zh": "雪意留君君且住，从此去，少清欢。"
   },
-  "plate": null,
+  "plate": "G-009016",
   "gloss": [
     {
       "at": "對尊前",
@@ -92,7 +92,7 @@
     {
       "at": "超然",
       "occ": 1,
-      "en": "The Chaoran Terrace, 'Above It All', an old terrace on the city wall at Mizhou that Su Shi restored; his brother Su Zhe named it after a line of the Laozi.",
+      "en": "The Chaoran Terrace, ‘Above It All’, an old terrace on the city wall at Mizhou that Su Shi restored; his brother Su Zhe named it after a line of the Laozi.",
       "zh": "超然：超然台。苏轼在密州修葺城北旧台，弟弟苏辙取《老子》“虽有荣观，燕处超然”之意，名之为“超然”。"
     },
     {

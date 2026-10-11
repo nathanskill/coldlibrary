@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Micrographia (London: printed for the Royal Society, 1665), as transcribed by Project Gutenberg (eBook 15491). The first part of the Preface, from its opening to the passage on carrying sound along a wire; the long descriptions of instruments that follow are omitted. Hooke's spelling is kept; the printer's decorative italics are not reproduced. Two slips in the Gutenberg transcription are corrected against the Internet Archive scan of the 1665 first edition (is for it, as for at).",
+    "en": "Micrographia (London: printed for the Royal Society, 1665), as transcribed by Project Gutenberg (eBook 15491). The first part of the Preface, from its opening to the passage on carrying sound along a wire; the long descriptions of instruments that follow are omitted. Hooke’s spelling is kept; the printer’s decorative italics are not reproduced. Two slips in the Gutenberg transcription are corrected against the Internet Archive scan of the 1665 first edition (is for it, as for at).",
     "zh": "据《显微图谱》（伦敦：为皇家学会印行，1665 年），以古腾堡计划电子书第 15491 号为底本。收序言前半部分，从开头到用金属丝传声的一段；其后对仪器的长篇描述从略。保留胡克原有拼写，不再现印刷者装饰性的斜体。另据互联网档案馆所藏 1665 年初版扫描本，改正古腾堡转录本的两处笔误（it 作 is，at 作 as）。"
   },
   "source": {
@@ -61,7 +61,7 @@
     "en": "a sincere Hand, and a faithful Eye, to examine, and to record, the things themselves as they appear.",
     "zh": "一只真诚的手和一双忠实的眼睛，去察看、去记录事物本身显现出来的样子。"
   },
-  "plate": null,
+  "plate": "G-009027",
   "gloss": [
     {
       "at": "Peripateticks",

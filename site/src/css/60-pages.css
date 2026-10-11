@@ -549,3 +549,12 @@ a.hot { color: var(--link); }
   .btn.small, .vault-card .btn, .chips .chip { min-height: 44px; }
   .actions > a, .sec-foot .go, .shelf-tail a, .still-src, .toollist a, .item-links a, .papers a, .hang-layers .meta a, .door > p > .go { display: inline-flex; align-items: center; min-height: 44px; }
 }
+
+/* Phones: today's reading shows the opening of a longer work and hands over to its page. */
+@media (max-width: 599px) {
+  .today .today-text { max-height: 26em; overflow: hidden; position: relative;
+    -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 4em), transparent); mask-image: linear-gradient(to bottom, black calc(100% - 4em), transparent); }
+}
+@media (max-width: 599px) {
+  .products .product > figure img { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; height: auto; }
+}

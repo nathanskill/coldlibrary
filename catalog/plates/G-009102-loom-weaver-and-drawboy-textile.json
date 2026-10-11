@@ -1,0 +1,65 @@
+{
+  "id": "G-009102",
+  "slug": "loom-weaver-and-drawboy-textile",
+  "kind": "object",
+  "title": {
+    "orig": "Textile fragment with incomplete repeating pattern of loom, weaver, and drawboy",
+    "lang": "en",
+    "en": "Loom, Weaver and Drawboy (textile fragment)",
+    "zh": "织机、织工与拉花童（织物残片）"
+  },
+  "artist": {
+    "orig": "作者不詳",
+    "lang": "ja",
+    "en": "Unidentified weaver",
+    "zh": "佚名织工",
+    "dates": "Japan, Edo period (1615–1868)"
+  },
+  "year": 1825,
+  "year_display": {
+    "en": "first half of the 19th century",
+    "zh": "19 世纪上半叶"
+  },
+  "medium": {
+    "en": "Woven silk; 24.8 × 17.8 cm",
+    "zh": "丝织；24.8 × 17.8 厘米"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/65778",
+    "accession": "96.14.40",
+    "credit_line": "Gift of Mr. and Mrs. H. O. Havemeyer, 1896"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP11389.jpg",
+    "width": 1190,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "tone": "sea",
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: woven in Japan in the first half of the 19th century by an unrecorded weaver. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：19 世纪上半叶织于日本，织工未留名。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A small fragment of pale blue-grey silk woven with a repeating picture in brown and gold: tall wooden looms seen at an angle, a weaver seated at the front of each and a second figure perched high in the frame. The pattern breaks off at the edges where the cloth was cut.",
+    "zh": "一小块淡蓝灰色的丝织残片，用褐色和金色织出重复的图样：斜着看去的高大木织机，每台织机前坐着一个织工，机架高处还坐着另一个人。图案在布边被裁断的地方戛然而止。"
+  },
+  "note": {
+    "en": "A drawloom needed two people: the weaver at the front, and a drawboy sitting high in the frame who pulled the cords that lifted the warp threads for each row of the pattern, so the design lived in the loom’s harness of cords and in the drawboy’s attention. Jacquard’s mechanism did away with the drawboy by reading the pattern from a chain of punched cards. This scrap of Japanese figured silk pictures the kind of loom that wove such cloth.",
+    "zh": "提花织机需要两个人：前面的织工，和坐在机架高处的拉花童——他按图案一行一行拉动花本上的线，提起经线；所以图案存在织机的线综里，也存在拉花童的注意力里。雅卡尔的装置从一串穿孔卡片上读出图案，从此不再需要拉花童。这一小块日本提花丝织品，织出的正是织这种布的那种织机。"
+  },
+  "pick": null,
+  "tags": [
+    "loom",
+    "weaving",
+    "silk",
+    "japan"
+  ]
+}

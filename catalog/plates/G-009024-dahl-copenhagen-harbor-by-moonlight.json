@@ -1,13 +1,16 @@
 {
   "id": "G-009024",
   "slug": "dahl-copenhagen-harbor-by-moonlight",
+  "kind": "artwork",
   "title": {
     "orig": "Copenhagen Harbor by Moonlight",
+    "lang": "en",
     "en": "Copenhagen Harbour by Moonlight",
     "zh": "月光下的哥本哈根港"
   },
   "artist": {
     "orig": "Johan Christian Dahl",
+    "lang": "no",
     "en": "Johan Christian Dahl",
     "zh": "约翰·克里斯蒂安·达尔",
     "dates": "1788–1857"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "night",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -44,7 +48,7 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "alt": {
-    "en": "Copenhagen harbour at night: a low moon behind banks of cloud lays a bright path across still water, ships' masts and spires stand in silhouette along the far quay, and dark boats with a few figures sit in the foreground.",
+    "en": "Copenhagen harbour at night: a low moon behind banks of cloud lays a bright path across still water, ships’ masts and spires stand in silhouette along the far quay, and dark boats with a few figures sit in the foreground.",
     "zh": "夜里的哥本哈根港：低垂的月亮藏在层层云后，在平静的水面上铺出一道亮光；远处码头上船桅和尖塔映成剪影，前景里是几条暗色的船和几个人影。"
   },
   "note": {

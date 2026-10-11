@@ -1,13 +1,16 @@
 {
   "id": "G-009052",
   "slug": "wen-zhengming-view-of-lake-tai",
+  "kind": "artwork",
   "title": {
     "orig": "View of Lake Tai",
+    "lang": "zh-Hant",
     "en": "View of Lake Tai",
     "zh": "太湖图"
   },
   "artist": {
     "orig": "文徵明",
+    "lang": "zh-Hant",
     "en": "Wen Zhengming",
     "zh": "文徵明",
     "dates": "1470–1559"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

@@ -5,8 +5,8 @@
   "form": "prose",
   "lang": "en",
   "title": {
-    "orig": "Maelzel's Chess-Player",
-    "en": "Maelzel's Chess-Player",
+    "orig": "Maelzel’s Chess-Player",
+    "en": "Maelzel’s Chess-Player",
     "zh": "梅尔策尔的下棋机"
   },
   "author": {
@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "As published in the Southern Literary Messenger, April 1836, from the English Wikisource transcription, with two scanning slips ('eve', 'anv') corrected against the Poe Society of Baltimore text; Poe's footnotes are omitted.",
+    "en": "As published in the Southern Literary Messenger, April 1836, from the English Wikisource transcription, with two scanning slips (‘eve’, ‘anv’) corrected against the Poe Society of Baltimore text; Poe’s footnotes are omitted.",
     "zh": "据英文维基文库所录 1836 年 4 月《南方文学信使》刊本，并依巴尔的摩爱伦·坡学会的文本改正了两处扫描错字（eve、anv）；坡的脚注从略。"
   },
   "source": {
@@ -45,7 +45,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Poe's essay sets out to prove that the famous chess-playing automaton exhibited by Maelzel must hide a human player, and he was right. Along the way he compares it with Babbage's calculating engine and argues that arithmetic is determinate while chess is not, so no pure machine could play it. His conclusion did not survive the twentieth century, but his method did: watch closely, list what the mechanism would have to do, and reason from the evidence rather than the spectacle.",
+    "en": "Poe’s essay sets out to prove that the famous chess-playing automaton exhibited by Maelzel must hide a human player, and he was right. Along the way he compares it with Babbage’s calculating engine and argues that arithmetic is determinate while chess is not, so no pure machine could play it. His conclusion did not survive the twentieth century, but his method did: watch closely, list what the mechanism would have to do, and reason from the evidence rather than the spectacle.",
     "zh": "爱伦·坡这篇文章意在证明梅尔策尔展出的那台著名下棋自动机里必定藏着一个真人棋手——他说对了。行文中他把它与巴贝奇的计算机器相比，论证算术是确定的而下棋不是，所以纯粹的机器不可能下棋。他的结论没能经受住二十世纪的检验，但他的方法经受住了：仔细观察，列出机械必须做到的事，依据证据而不是表演来推理。"
   },
   "pick": null,
@@ -61,18 +61,18 @@
     "en": "There is then no analogy whatever between the operations of the Chess-Player, and those of the calculating machine of Mr. Babbage",
     "zh": "所以，下棋机的运作与巴贝奇先生的计算机器的运作之间毫无相似之处。"
   },
-  "plate": null,
+  "plate": "G-009105",
   "gloss": [
     {
       "at": "Maelzel",
       "occ": 1,
-      "en": "Johann Nepomuk Maelzel (1772–1838), showman and maker of mechanical instruments, best known for the metronome he patented. He acquired the Turk after Kempelen's death and brought it to America in 1826.",
+      "en": "Johann Nepomuk Maelzel (1772–1838), showman and maker of mechanical instruments, best known for the metronome he patented. He acquired the Turk after Kempelen’s death and brought it to America in 1826.",
       "zh": "约翰·内波穆克·梅尔策尔（1772—1838），表演家和机械乐器制造者，以他取得专利的节拍器闻名。他在肯佩伦死后得到这台下棋机，1826 年把它带到美国。"
     },
     {
       "at": "Brewster's Letters on Natural Magic",
       "occ": 1,
-      "en": "Sir David Brewster's Letters on Natural Magic (1832), a popular account of optical and mechanical illusions, written as letters to Walter Scott.",
+      "en": "Sir David Brewster’s Letters on Natural Magic (1832), a popular account of optical and mechanical illusions, written as letters to Walter Scott.",
       "zh": "戴维·布鲁斯特爵士的《自然魔术书简》（1832），以写给沃尔特·司各特的书信形式，通俗地介绍光学和机械上的种种幻术。"
     },
     {
@@ -90,7 +90,7 @@
     {
       "at": "it was taken to London by Mr. Maelzel",
       "occ": 1,
-      "en": "Poe is mistaken here: it was Kempelen who showed the Turk in London in 1783–84. Maelzel acquired it only after Kempelen's death.",
+      "en": "Poe is mistaken here: it was Kempelen who showed the Turk in London in 1783–84. Maelzel acquired it only after Kempelen’s death.",
       "zh": "坡在这里记错了：1783—1784 年把它带到伦敦展出的是肯佩伦；梅尔策尔是在肯佩伦死后才得到它的。"
     },
     {
@@ -102,7 +102,7 @@
     {
       "at": "quick car",
       "occ": 1,
-      "en": "So printed in 1836; read 'quick ear'.",
+      "en": "So printed in 1836; read ‘quick ear’.",
       "zh": "1836 年的刊本如此印；当读作 quick ear，即灵敏的耳朵。"
     },
     {

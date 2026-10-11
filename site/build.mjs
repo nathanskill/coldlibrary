@@ -62,7 +62,11 @@ copyDir(join(here, 'public'), dist);
 // One stylesheet, assembled from site/src/css/NN-*.css in name order (files starting with "_" are not shipped).
 const cssDir = join(here, 'src/css');
 const cssParts = readdirSync(cssDir).filter((f) => /^\d.*\.css$/.test(f)).sort();
-writeFileSync(join(dist, 'assets/site.css'), cssParts.map((f) => `/* ---- ${f} ---- */\n` + readFileSync(join(cssDir, f), 'utf8')).join('\n'));
+// A conservative minifier: comments and layout whitespace only (spaces inside calc() and selectors are kept).
+const minCss = (css) => css.replace(/\/\*[\s\S]*?\*\//g, '').replace(/\s*\n\s*/g, '\n').replace(/\n+/g, '\n')
+  .replace(/\s*([{};])\s*/g, '$1').replace(/;}/g, '}').replace(/,\n/g, ',').replace(/\n/g, ' ').replace(/\s{2,}/g, ' ').trim() + '\n';
+const cssAll = cssParts.map((f) => readFileSync(join(cssDir, f), 'utf8')).join('\n');
+writeFileSync(join(dist, 'assets/site.css'), process.env.CL_CSS_PRETTY ? cssParts.map((f) => `/* ---- ${f} ---- */\n` + readFileSync(join(cssDir, f), 'utf8')).join('\n') : minCss(cssAll));
 
 const pick = (v, lang) => (typeof v === 'function' ? v(lang) : typeof v === 'string' ? v : v && (v[lang] ?? v.en));
 const urls = [];

@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "One of five poems on places at the home of Wang Wei's friend Huangfu Yue. He builds the silence so carefully that a falling flower is noticed, and then the rising moon, which makes no sound at all, is enough to wake the birds. Read it slowly; it is twenty characters about attention.",
+    "en": "One of five poems on places at the home of Wang Wei’s friend Huangfu Yue. He builds the silence so carefully that a falling flower is noticed, and then the rising moon, which makes no sound at all, is enough to wake the birds. Read it slowly; it is twenty characters about attention.",
     "zh": "王维为友人皇甫岳云溪别墅所写五首中的一首。他把寂静营造得如此细致，连桂花落下都被察觉；接着，无声升起的月亮竟足以惊醒山鸟。慢慢读，这是二十个字写成的一堂专注的课。"
   },
   "pick": null,
@@ -60,7 +60,7 @@
     "en": "The moon comes out and startles the mountain birds, / which call now and then in the spring ravine.",
     "zh": "月出惊山鸟，时鸣春涧中。"
   },
-  "plate": null,
+  "plate": "G-009015",
   "gloss": [
     {
       "at": "人閑",
@@ -86,7 +86,7 @@
       "at": "春澗",
       "occ": 1,
       "at_hans": "春涧",
-      "en": "A stream running in a ravine. The poem is one of five Wang Wei wrote on the scenery at his friend Huangfu Yue's Cloud Valley retreat.",
+      "en": "A stream running in a ravine. The poem is one of five Wang Wei wrote on the scenery at his friend Huangfu Yue’s Cloud Valley retreat.",
       "zh": "涧：山间流水的沟。本诗是王维《皇甫岳云溪杂题五首》之一。"
     }
   ],

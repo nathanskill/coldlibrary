@@ -185,7 +185,7 @@ export function fmtSize(bytes) {
 }
 
 // A house paper (S-000001 …) as plain text, when its page exists.
-function paperTxt(p, lang, date = today()) {
+export function paperTxt(p, lang, date = today()) {
   const tt = T(lang);
   const s = p[lang] || p.en;
   const head = [s.title, s.author, s.date].filter(Boolean).join('\n');

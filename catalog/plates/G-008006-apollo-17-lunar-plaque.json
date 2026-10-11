@@ -1,13 +1,16 @@
 {
   "id": "G-008006",
   "slug": "apollo-17-lunar-plaque",
+  "kind": "object",
   "title": {
     "orig": "Plaque - Apollo 17 (S72-55169)",
+    "lang": "en",
     "en": "The Apollo 17 Plaque (Replica)",
     "zh": "阿波罗 17 号铭牌（复制品）"
   },
   "artist": {
     "orig": "NASA Manned Spacecraft Center",
+    "lang": "en",
     "en": "NASA Manned Spacecraft Center (now Johnson Space Center)",
     "zh": "NASA 载人航天器中心（今约翰逊航天中心）",
     "dates": "1972"
@@ -30,6 +33,7 @@
     "width": 1600,
     "height": 1387
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -40,11 +44,11 @@
     "license_url": null
   },
   "alt": {
-    "en": "A white plaque with a double border: two black hemispheres of Earth's continents with a small grey picture of the Moon between them, five lines of capitals and four signatures below.",
+    "en": "A white plaque with a double border: two black hemispheres of Earth’s continents with a small grey picture of the Moon between them, five lines of capitals and four signatures below.",
     "zh": "一块带双线边框的白色铭牌：两个以黑色绘出大陆的地球半球，中间是一小幅灰色的月球图，下面是五行大写字母和四个签名。"
   },
   "note": {
-    "en": "NASA's photograph of a replica of the plaque Apollo 17 left at Taurus–Littrow in December 1972, the last of the Apollo plaques. It is the companion to the Apollo 17 text on this shelf.",
+    "en": "NASA’s photograph of a replica of the plaque Apollo 17 left at Taurus–Littrow in December 1972, the last of the Apollo plaques. It is the companion to the Apollo 17 text on this shelf.",
     "zh": "NASA 拍摄的阿波罗 17 号铭牌复制品照片；原件于 1972 年 12 月留在陶拉斯–利特罗山谷，是阿波罗计划的最后一块铭牌。它与书架上的阿波罗 17 号铭牌文字相配。"
   },
   "tags": [

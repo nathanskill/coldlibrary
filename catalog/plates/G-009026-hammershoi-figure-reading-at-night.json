@@ -1,13 +1,16 @@
 {
   "id": "G-009026",
   "slug": "hammershoi-figure-reading-at-night",
+  "kind": "artwork",
   "title": {
     "orig": "Figure Reading at a Table in an Interior at Night",
+    "lang": "en",
     "en": "Figure Reading at a Table in an Interior at Night",
     "zh": "夜间室内伏案阅读的人"
   },
   "artist": {
     "orig": "Vilhelm Hammershøi",
+    "lang": "da",
     "en": "Vilhelm Hammershøi",
     "zh": "威廉·哈默修伊",
     "dates": "1864–1916"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

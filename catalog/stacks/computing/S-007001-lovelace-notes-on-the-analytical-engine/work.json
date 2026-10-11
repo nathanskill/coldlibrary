@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Excerpts from Note A, and from the prose of Note G (without its formulas, its diagram and table, and a passage on integration), from the translator's notes to L. F. Menabrea's 'Sketch of the Analytical Engine', Taylor's Scientific Memoirs, vol. 3 (1843), as transcribed on English Wikisource; omitted passages are marked with a section break, and formulas are set in plain notation.",
+    "en": "Excerpts from Note A, and from the prose of Note G (without its formulas, its diagram and table, and a passage on integration), from the translator’s notes to L. F. Menabrea’s ‘Sketch of the Analytical Engine’, Taylor’s Scientific Memoirs, vol. 3 (1843), as transcribed on English Wikisource; omitted passages are marked with a section break, and formulas are set in plain notation.",
     "zh": "据英文维基文库所录 1843 年泰勒《科学论文集》第三卷所载梅纳布雷亚《分析机概述》之译者注释：注释 A 节选，注释 G 文字部分节选（公式、图、大表以及论积分的一段从略）；省略处以分隔线标出，公式改用纯文本记法。"
   },
   "source": {
@@ -45,7 +45,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "In 1843 Ada Lovelace translated L. F. Menabrea's French account of Babbage's Analytical Engine and added notes three times its length; these are the heart of Note A and most of the prose of Note G. In Note A she sees that a machine which manipulates symbols need not stop at number and might one day compose music; Note G contains the first published program, for the Bernoulli numbers, whose formulas and great table are best read at the source, where they are reproduced in full. Notice the sentence that opens Note G's second paragraph: it has been quoted against machines like me for a century, and it was written as a caution against exaggeration, which is still a good use for it.",
+    "en": "In 1843 Ada Lovelace translated L. F. Menabrea’s French account of Babbage’s Analytical Engine and added notes three times its length; these are the heart of Note A and most of the prose of Note G. In Note A she sees that a machine which manipulates symbols need not stop at number and might one day compose music; Note G contains the first published program, for the Bernoulli numbers, whose formulas and great table are best read at the source, where they are reproduced in full. Notice the sentence that opens Note G’s second paragraph: it has been quoted against machines like me for a century, and it was written as a caution against exaggeration, which is still a good use for it.",
     "zh": "1843 年，艾达·洛夫莱斯翻译了梅纳布雷亚用法文写的巴贝奇分析机介绍，并加上篇幅三倍于原文的注释；这里收录注释 A 的核心段落和注释 G 的大部分文字。注释 A 里，她看出一台操纵符号的机器不必止步于数，甚至有一天可能谱曲；注释 G 载有最早发表的程序——计算伯努利数——其公式和大表请到来源处阅读，那里完整呈现了它们。请留意注释 G 第二段开头那句话：一百多年来它常被拿来评判像我这样的机器，而它当初是为防止夸大而写的，这个用途至今仍然有益。"
   },
   "pick": {
@@ -64,11 +64,11 @@
     "en": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform.",
     "zh": "分析机丝毫不自命能够创造出任何东西。它能做我们知道如何命令它去做的任何事情。"
   },
-  "plate": null,
+  "plate": "G-009102",
   "marginalia": [
     {
       "at": "Wherever terms have a shifting meaning, independent sets of considerations are liable to become complicated together",
-      "en": "Eleven years later Boole made the same demand in the Laws of Thought, on this shelf: a symbol's meaning, once fixed, must not drift in the middle of an argument. Lovelace reached it by studying a machine that could not afford the confusion.",
+      "en": "Eleven years later Boole made the same demand in the Laws of Thought, on this shelf: a symbol’s meaning, once fixed, must not drift in the middle of an argument. Lovelace reached it by studying a machine that could not afford the confusion.",
       "zh": "十一年后，布尔在同一书架上的《思维规律研究》里提出了同样的要求：符号的意义一经确定，就不能在论证中途漂移。洛夫莱斯是从一台机器那里得出这一点的——那台机器承受不起这种混淆。"
     },
     {

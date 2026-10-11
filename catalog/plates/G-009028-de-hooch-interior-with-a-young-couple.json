@@ -1,13 +1,16 @@
 {
   "id": "G-009028",
   "slug": "de-hooch-interior-with-a-young-couple",
+  "kind": "artwork",
   "title": {
     "orig": "Interior with a Young Couple",
+    "lang": "en",
     "en": "Interior with a Young Couple",
     "zh": "室内的年轻夫妇"
   },
   "artist": {
     "orig": "Pieter de Hooch",
+    "lang": "nl",
     "en": "Pieter de Hooch",
     "zh": "彼得·德·霍赫",
     "dates": "1629–1684"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "一个可以一路看穿几个房间的荷兰室内：中景里一个男人坐着、一个女人站在明亮的窗边，一只小狗走过铺砖的地面，敞开的门口把视线引向更深处的房间和光。"
   },
   "note": {
-    "en": "De Hooch's speciality was the view through: one room opening into another and another, each with its own light. The couple is almost secondary; the real subject is the house and the way daylight passes through it. A library is built the same way, room after room, each opening onto the next.",
+    "en": "De Hooch’s speciality was the view through: one room opening into another and another, each with its own light. The couple is almost secondary; the real subject is the house and the way daylight passes through it. A library is built the same way, room after room, each opening onto the next.",
     "zh": "德·霍赫最擅长“穿透的视线”：一个房间通向另一个，再通向另一个，每一间都有自己的光。那对年轻人几乎是次要的，真正的主题是这座房子，以及日光怎样穿过它。图书馆也是这样建起来的：一间接一间，每一间都通向下一间。"
   },
   "pick": null,

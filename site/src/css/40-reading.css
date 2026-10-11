@@ -26,6 +26,7 @@
 
 /* ---- header block (§5.3.2) ---- */
 .whead .idline { margin: 0 0 var(--s3); }
+.whead .idline .sep { padding: 0; }
 .wtitle { font-family: var(--f-serif); text-wrap: balance; }
 .wtitle :lang(zh) { letter-spacing: 0; line-height: 1.3; }
 .wsub { margin: var(--s2) 0 0; font-size: var(--t3); line-height: var(--lh3); color: var(--ink-2); text-wrap: balance; }
@@ -37,7 +38,7 @@
 .whead .facts .brass { color: var(--brass-ink); }
 
 /* ---- toolbar: view · script · Aa (§5.3.3) ---- */
-.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s3) var(--s4); margin: var(--s5) 0 var(--s7); }
+.toolbar { position: relative; display: flex; flex-wrap: wrap; align-items: center; gap: var(--s3) var(--s4); margin: var(--s5) 0 var(--s7); }
 .toolbar .seg label:lang(zh), .toolbar .seg [lang|="zh"] { text-spacing-trim: trim-start; }
 .aa > summary { list-style: none; }
 .aa > summary::-webkit-details-marker { display: none; }
@@ -45,7 +46,9 @@
   border: 1px solid var(--line-2); border-radius: var(--radius); background: var(--surface); color: var(--ink-2); font-size: var(--t5); line-height: 1; cursor: pointer; user-select: none; }
 .aa-btn:hover, .aa[open] > .aa-btn { color: var(--ink); border-color: var(--ink-2); }
 .aa-n { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.aa-pop { display: inline-flex; flex-wrap: wrap; align-items: center; vertical-align: middle; gap: var(--s3) var(--s4); margin-left: var(--s3); }
+/* A <details> lays its content out below the summary, so the sizes open as a small Box under the toolbar row. */
+.aa-pop { position: absolute; z-index: 30; left: 0; top: calc(100% + var(--s2)); display: flex; flex-wrap: wrap; align-items: center; gap: var(--s3) var(--s4);
+  max-width: 100%; padding: var(--s3); background: var(--surface); border: 1px solid var(--line-2); border-radius: var(--radius); box-shadow: var(--shadow); }
 .sizes label:first-of-type [aria-hidden] { font-size: var(--t6); }
 .sizes label:last-of-type [aria-hidden] { font-size: var(--t4); }
 .wrapt { display: inline-flex; align-items: center; gap: var(--s2); min-height: 36px; font-size: var(--t5); color: var(--ink-2); cursor: pointer; }
@@ -154,6 +157,8 @@
 .read .part { margin-right: calc(-1 * var(--mr)); padding-right: var(--mr); }
 @media (min-width: 600px) { .read .part { margin-left: calc(-1 * var(--s5)); padding-left: var(--s5); } }
 .read .part.cv { content-visibility: auto; contain-intrinsic-size: auto 1500px; }
+.read .part.k1 { contain-intrinsic-size: auto 1000px; } .read .part.k2 { contain-intrinsic-size: auto 2000px; } .read .part.k3 { contain-intrinsic-size: auto 4000px; }
+.read .part.k4 { contain-intrinsic-size: auto 8000px; } .read .part.k5 { contain-intrinsic-size: auto 14000px; }
 .read .read-h { position: relative; font: 400 var(--t2)/1.3 var(--f-serif); margin: 3lh 0 1lh; text-wrap: balance; hyphens: manual; }
 .read > .part:first-child > .read-h:first-child, .read > .read-h:first-child { margin-top: 0; }
 .read .read-h .o { font: inherit; }
@@ -174,6 +179,10 @@
 .gl:hover { text-decoration-color: var(--ink-3); }
 .gk { white-space: nowrap; }
 .gk::after { content: attr(data-n); display: inline-block; margin-left: .1em; font: 400 .6em/1 var(--f-sans); vertical-align: super; color: var(--ink-3); text-indent: 0; }
+/* In Chinese the note number sits in the top-right corner of its character, as in annotated editions:
+   it takes no width, so a line keeps its length (and a couplet still fits its column). */
+:lang(zh) .gk, .gk:lang(zh) { position: relative; }
+:lang(zh) .gk::after, .gk:lang(zh)::after { position: absolute; top: -.35em; right: -.42em; margin: 0; font-size: .46em; line-height: 1; vertical-align: baseline; }
 .gn { padding-left: 2ch; text-indent: -2ch; font: 400 var(--t5)/var(--lh5) var(--f-sans); color: var(--ink-2); text-align: left; margin: 0 0 var(--s3); hyphens: manual; }
 .gn .gnum { display: inline-block; min-width: 2ch; text-indent: 0; font-weight: 400; color: var(--ink-3); font-variant-numeric: tabular-nums; }
 .gn .ga { color: var(--ink); }
@@ -293,7 +302,7 @@
   .work:has(#sheet-tools:checked) .aa-btn { border: 0; background: none; padding: 0; justify-content: flex-start; color: var(--ink); }
   .work:has(#sheet-tools:checked) .aa-btn::after { content: ""; width: 6px; height: 6px; margin-left: var(--s3); border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(-45deg); }
   .work:has(#sheet-tools:checked) .aa[open] > .aa-btn::after { transform: rotate(45deg); }
-  .work:has(#sheet-tools:checked) .aa-pop { display: flex; margin: var(--s2) 0 0; }
+  .work:has(#sheet-tools:checked) .aa-pop { position: static; margin: var(--s2) 0 0; padding: 0; border: 0; box-shadow: none; background: none; }
   .work:has(#sheet-toc:checked) .scrim[for="sheet-toc"], .work:has(#sheet-tools:checked) .scrim[for="sheet-tools"] { display: block; position: fixed; inset: 0; z-index: 59; background: var(--scrim); cursor: pointer; }
   html:has(.sheet-cb:checked) { overflow: hidden; }
 }

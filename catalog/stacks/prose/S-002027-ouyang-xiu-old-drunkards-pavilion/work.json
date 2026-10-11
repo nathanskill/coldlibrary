@@ -6,7 +6,7 @@
   "lang": "lzh-Hant",
   "title": {
     "orig": "醉翁亭記",
-    "en": "The Old Drunkard's Pavilion",
+    "en": "The Old Drunkard’s Pavilion",
     "zh": "醉翁亭记"
   },
   "author": {
@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Ouyang Xiu's account of a pavilion in the hills above Chuzhou, written in 1046, with its famous line that the old drunkard's heart is not in the wine but in the mountains and water. Almost every sentence ends with the particle ye, which gives the essay its rocking rhythm. This edition names the stream the Yielding Spring, where many later editions have the Brewing Spring.",
+    "en": "Ouyang Xiu’s account of a pavilion in the hills above Chuzhou, written in 1046, with its famous line that the old drunkard’s heart is not in the wine but in the mountains and water. Almost every sentence ends with the particle ye, which gives the essay its rocking rhythm. This edition names the stream the Yielding Spring, where many later editions have the Brewing Spring.",
     "zh": "欧阳修 1046 年写滁州山中的醉翁亭，名句“醉翁之意不在酒，在乎山水之间也”出自这里。几乎每一句都以“也”字收尾，形成摇曳的节奏。此本泉名作“让泉”，许多后来的版本作“酿泉”。"
   },
   "pick": null,
@@ -58,7 +58,7 @@
   ],
   "excerpt": {
     "orig": "醉翁之意不在酒，在乎山水之間也。",
-    "en": "The Old Drunkard's heart is not in the wine but in the mountains and the water.",
+    "en": "The Old Drunkard’s heart is not in the wine but in the mountains and the water.",
     "zh": "醉翁之意不在酒，在乎山水之间也。"
   },
   "plate": null,
@@ -67,7 +67,7 @@
       "at": "環滁",
       "occ": 1,
       "at_hans": "环滁",
-      "en": "滁 is Chuzhou, in today's Anhui, where Ouyang Xiu was sent as governor after his demotion in 1045.",
+      "en": "滁 is Chuzhou, in today’s Anhui, where Ouyang Xiu was sent as governor after his demotion in 1045.",
       "zh": "滁，滁州，今属安徽。欧阳修 1045 年被贬为滁州知州。"
     },
     {
@@ -80,7 +80,7 @@
       "at": "讓泉",
       "occ": 1,
       "at_hans": "让泉",
-      "en": "This text calls the spring 讓泉, the Yielding Spring; many later editions read 釀泉, the 'wine-making spring', as in the third paragraph.",
+      "en": "This text calls the spring 讓泉, the Yielding Spring; many later editions read 釀泉, the ‘wine-making spring’, as in the third paragraph.",
       "zh": "此本作“让泉”；后来许多版本作“酿泉”，与第三段“酿泉为酒”相应。"
     },
     {
@@ -106,7 +106,7 @@
     {
       "at": "醉翁之意不在酒",
       "occ": 1,
-      "en": "The Old Drunkard's mind is not on the wine: now a common saying for having another purpose in view.",
+      "en": "The Old Drunkard’s mind is not on the wine: now a common saying for having another purpose in view.",
       "zh": "后来成为成语，比喻本意不在此而在别处。"
     },
     {
@@ -219,7 +219,7 @@
       "at": "廬陵",
       "occ": 1,
       "at_hans": "庐陵",
-      "en": "Luling, today's Ji'an in Jiangxi, Ouyang Xiu's ancestral home.",
+      "en": "Luling, today’s Ji’an in Jiangxi, Ouyang Xiu’s ancestral home.",
       "zh": "庐陵，今江西吉安，欧阳修的籍贯。"
     }
   ],

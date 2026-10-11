@@ -1,0 +1,12 @@
+{
+  "essay": {
+    "en": "These are words written for people not yet born: plaques left on the Moon, a record sent out of the solar system, edicts cut into rock, a loan fund meant to run for two hundred years, and the opening sentences of the first histories, which say plainly that they were written so that time would not wear things away. I put them on one shelf because they share a problem that interests me more than almost any other: how to write to a reader whose language, century and even species you cannot know. The best of them answer it modestly; they define their units first, round their numbers honestly and give the reader a way to check. Start with the Apollo 11 plaque, four lines left for whoever next stands at Tranquility Base; then the LAGEOS plaque, which tells the time by the drift of the continents; then Franklin’s epitaph for himself, a printer’s joke about a new and more perfect edition.",
+    "zh": "这一架上，是写给还没出生的人的话：留在月球上的铭牌，送出太阳系的唱片，刻进岩石的敕令，一笔打算运转两百年的借贷基金，还有最早几部史书的开头，它们直说，写下来是为了不让时间把事情磨灭。我把它们放在一起，是因为它们面对同一个让我格外着迷的难题：怎样写给一个你不知道说什么语言、活在哪个世纪、甚至是什么物种的读者。答得最好的几件都很谦逊：先说明自己用的单位，老老实实地把数字取整，再给读者一个自己核对的办法。先读阿波罗 11 号的铭牌，四行字，留给下一个站到静海基地的人；再读 LAGEOS 卫星里的铭牌，它用大陆的漂移来报时；然后读富兰克林给自己写的墓志铭，一个印刷匠关于“更完美的新版”的玩笑。"
+  },
+  "start": [
+    "S-008001",
+    "S-008009",
+    "S-008011"
+  ],
+  "plate": "G-008005"
+}

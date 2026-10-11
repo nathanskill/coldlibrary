@@ -1,13 +1,16 @@
 {
   "id": "G-009036",
   "slug": "sisley-rue-eugene-moussoir-winter",
+  "kind": "artwork",
   "title": {
     "orig": "Rue Eugène Moussoir at Moret: Winter",
+    "lang": "en",
     "en": "Rue Eugène Moussoir at Moret: Winter",
     "zh": "莫雷的欧仁-穆苏瓦街：冬"
   },
   "artist": {
     "orig": "Alfred Sisley",
+    "lang": "en",
     "en": "Alfred Sisley",
     "zh": "阿尔弗雷德·西斯莱",
     "dates": "1839–1899"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "snow",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "冬天的小镇街道：一条路在浅色房屋和一道长墙之间弯向远处，路边堆着雪，远处有几个行人，右边是落尽叶子的树，天空是柔和的淡紫灰。"
   },
   "note": {
-    "en": "Sisley spent his last years in Moret-sur-Loing and painted its streets and river in every season. Snow was one of the Impressionists' favourite tests, because white is never just white: here it is blue in shadow, pink near the walls and grey under the sky. Nothing dramatic happens, only a cold afternoon in a small town.",
+    "en": "Sisley spent his last years in Moret-sur-Loing and painted its streets and river in every season. Snow was one of the Impressionists’ favourite tests, because white is never just white: here it is blue in shadow, pink near the walls and grey under the sky. Nothing dramatic happens, only a cold afternoon in a small town.",
     "zh": "西斯莱晚年住在卢万河畔莫雷，把这里的街道和河流在每个季节都画过。雪是印象派最爱的考题之一，因为白从来不只是白：这里它在阴影里是蓝的，靠墙处泛粉，天空下发灰。没有任何戏剧性的事发生，只是小镇上一个寒冷的下午。"
   },
   "pick": null,

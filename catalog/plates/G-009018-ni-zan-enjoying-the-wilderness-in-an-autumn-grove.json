@@ -1,13 +1,16 @@
 {
   "id": "G-009018",
   "slug": "ni-zan-enjoying-the-wilderness-in-an-autumn-grove",
+  "kind": "artwork",
   "title": {
     "orig": "秋林野興圖",
+    "lang": "zh-Hant",
     "en": "Enjoying the Wilderness in an Autumn Grove",
     "zh": "秋林野兴图"
   },
   "artist": {
     "orig": "倪瓚",
+    "lang": "zh-Hant",
     "en": "Ni Zan",
     "zh": "倪瓒",
     "dates": "1306–1374"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -44,7 +48,7 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "alt": {
-    "en": "A spare ink landscape. A cluster of thin autumn trees grows from rounded rocks in the foreground, a small thatched pavilion stands at the water's edge behind them, and a calm river opens toward low hills. Inscriptions in several hands fill the paper above.",
+    "en": "A spare ink landscape. A cluster of thin autumn trees grows from rounded rocks in the foreground, a small thatched pavilion stands at the water’s edge behind them, and a calm river opens toward low hills. Inscriptions in several hands fill the paper above.",
     "zh": "一幅简淡的水墨山水。前景圆润的石头上长着一丛瘦削的秋树，树后水边立着一座小小的茅亭，平静的河面向低缓的远山展开。上方的纸面写满了不同人的题跋。"
   },
   "note": {

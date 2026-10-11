@@ -1,13 +1,16 @@
 {
   "id": "G-009007",
   "slug": "hokusai-reflection-in-lake-at-misaka",
+  "kind": "artwork",
   "title": {
     "orig": "冨嶽三十六景 甲州三坂水面",
+    "lang": "ja",
     "en": "Reflection in Lake at Misaka in Kai Province",
     "zh": "富岳三十六景 甲州三坂水面"
   },
   "artist": {
     "orig": "葛飾北斎",
+    "lang": "ja",
     "en": "Katsushika Hokusai",
     "zh": "葛饰北斋",
     "dates": "1760–1849"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "green",
   "rights": {
     "status": "public-domain",
     "basis": {

@@ -1,0 +1,71 @@
+{
+  "slug": "the-same-moon",
+  "order": 4,
+  "title": {
+    "en": "The same moon",
+    "zh": "同一轮明月"
+  },
+  "dek": {
+    "en": "Eight looks at the same moon: shared by two people far apart, mistaken for frost, invited to drink, questioned, missed at Mid-Autumn, guessed to be circling the earth, joined by the moons of Jupiter, and at last stood on.",
+    "zh": "八次望向同一轮月亮：隔着天涯共看，错认成地上的霜，邀来对饮，举杯相问，中秋相念，被猜出绕着地球转，在木星身边找到了同类，最后，有人站到了它上面。"
+  },
+  "plate": "G-009022",
+  "steps": [
+    {
+      "id": "S-001018",
+      "line": {
+        "en": "Over the sea a bright moon rises, and at the ends of the sky we share this moment: for Zhang Jiuling the moon is the one thing two people far apart can watch together, and he blows out the candle to let it fill the room; next, Li Bai’s moonlight lies on the floor like frost.",
+        "zh": "海上生明月，天涯共此时：在张九龄笔下，月亮是相隔遥远的两个人能同时看见的唯一一样东西，他还吹灭蜡烛，让月光满屋；下一首里，李白的月光落在床前，像一层霜。"
+      }
+    },
+    {
+      "id": "S-001030",
+      "line": {
+        "en": "Moonlight before the bed taken for frost, one look up and one look down, and home is suddenly very far: probably the best-known poem in Chinese, in the form most people learn; on another night, Li Bai invites the moon to drink.",
+        "zh": "床前明月光，疑是地上霜，一举头，一低头，故乡忽然就远了：这大概是最有名的一首中文诗，这里收的是大多数人背过的那个版本；另一个夜晚，李白请月亮来喝酒。"
+      }
+    },
+    {
+      "id": "S-001031",
+      "line": {
+        "en": "With no one to drink with, Li Bai makes a party of three out of the moon, his shadow and himself, admits that neither guest can drink, and asks them to be friends anyway; the next poem puts a harder question to the moon.",
+        "zh": "没有人陪他喝酒，李白就邀来明月，连同自己的影子，凑成三人，又老实承认月不解饮、影徒随身，还是约它们结下无情之游；下一首里，他向月亮提了一个更难的问题。"
+      }
+    },
+    {
+      "id": "S-001033",
+      "line": {
+        "en": "People today never saw the moon of old, but this moon once shone on the people of old: Li Bai’s question is the gentlest account on these shelves of why old writing still reaches us; three centuries later, Su Shi borrows it.",
+        "zh": "今人不见古时月，今月曾经照古人：李白这一问，是书架上最温和的一种解释，说明古人的文字为什么还能抵达我们；三百多年后，苏轼借用了这一问。"
+      }
+    },
+    {
+      "id": "S-001053",
+      "line": {
+        "en": "On Mid-Autumn night, missing a brother he had not seen for years, Su Shi weighs the cold palace in the sky against the human world, chooses the world, and wishes only that both may live long and share the moon a thousand li apart; Wang Guowei finds a poet who guessed where the moon goes next.",
+        "zh": "中秋之夜，苏轼想念多年未见的弟弟，把天上的琼楼玉宇和人间放在一起掂量，选了人间，只愿人长久，千里共婵娟；王国维则找到了一位猜出月亮下一步去向的词人。"
+      }
+    },
+    {
+      "id": "S-003041",
+      "line": {
+        "en": "In entry 47 Wang Guowei praises Xin Qiji for asking the setting moon whether there is another world where it is only now rising, a poet’s guess that the moon circles the earth, ‘in close agreement with the men of science’; Galileo, with a telescope, finds moons circling another world.",
+        "zh": "第四十七则里，王国维称赞辛弃疾问那将落的月亮：是不是别有人间，那边才见它从东头升起；这是词人凭想象悟出的月轮绕地之理，“与科学家密合”；伽利略则用望远镜，看见了绕着另一个世界转的月亮。"
+      }
+    },
+    {
+      "id": "S-006006",
+      "line": {
+        "en": "On 7 January 1610 Galileo sees three small stars in a line beside Jupiter, and night by night, cloudy nights included, he works out that they are moons going round it, then asks every astronomer to check; at the last step, people stand on our own Moon.",
+        "zh": "1610 年 1 月 7 日，伽利略看见木星旁边排成一线的三颗小星；一夜接一夜，连阴天也记在里面，他推断出它们是绕着木星转的卫星，并请天下的天文学家都来核对；最后一步，人站到了我们自己的月亮上。"
+      }
+    },
+    {
+      "id": "S-008001",
+      "line": {
+        "en": "More than twelve hundred years after the first poem on this trail, people stood on the Moon and left four lines on a ladder for whoever comes next, ‘We came in peace for all mankind’, under two hemispheres of Earth drawn without borders.",
+        "zh": "在这条书单第一首诗写成一千两百多年之后，人站上了月亮，在登月舱的梯子上留下四行字给后来的人：“我们为全人类，和平而来”，字的上方是两个半球的地球，没有画一条国界。"
+      }
+    }
+  ]
+}

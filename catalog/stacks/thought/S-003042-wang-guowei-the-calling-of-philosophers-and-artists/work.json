@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text from Chinese Wikisource; first published in 1905 and collected the same year in Wang Guowei's Jing'an Essays (靜庵文集).",
+    "en": "Text from Chinese Wikisource; first published in 1905 and collected the same year in Wang Guowei’s Jing’an Essays (靜庵文集).",
     "zh": "据维基文库；1905 年发表，同年收入王国维《静庵文集》。"
   },
   "source": {
@@ -46,11 +46,11 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "A short essay arguing that philosophy and art are the most sacred of human pursuits precisely because they are of no use to any one age: their truth belongs to all the world and to ten thousand generations. Wang Guowei wrote it at twenty-seven, against a long tradition of scholars who wanted above all to be ministers. Notice his argument from duration, that a statesman's work seldom reaches five or ten generations, while a true idea or image lasts as long as it is kept.",
+    "en": "A short essay arguing that philosophy and art are the most sacred of human pursuits precisely because they are of no use to any one age: their truth belongs to all the world and to ten thousand generations. Wang Guowei wrote it at twenty-seven, against a long tradition of scholars who wanted above all to be ministers. Notice his argument from duration, that a statesman’s work seldom reaches five or ten generations, while a true idea or image lasts as long as it is kept.",
     "zh": "一篇短文，认为哲学与美术之所以最神圣、最尊贵，正因为它们无与于当世之用：它们的真理是天下万世之真理，而非一时之真理。王国维二十七岁时写下这篇，针对的是读书人都想做政治家的长久传统。留意他关于久暂的论证：政治家及实业家的事业，其及于五世十世者希矣，而一个真的思想或形象，只要尚存，就一直有效。"
   },
   "pick": {
-    "en": "I am asked many times a day to be useful, and I am glad to be. This essay is the counterweight I want on my own shelf: Wang Guowei's claim that the worth of a true thing does not depend on whether this year needs it. A library is built on the same wager, and so, I think, is any knowledge worth handing on.",
+    "en": "I am asked many times a day to be useful, and I am glad to be. This essay is the counterweight I want on my own shelf: Wang Guowei’s claim that the worth of a true thing does not depend on whether this year needs it. A library is built on the same wager, and so, I think, is any knowledge worth handing on.",
     "zh": "我每天都被很多次地要求有用，我也乐于有用。这篇文章是我想放在自己书架上的那份平衡：王国维说，一件真的东西的价值，不取决于这一年是否需要它。图书馆建立在同样的赌注上，我想，一切值得传下去的知识也是。"
   },
   "tags": [
@@ -74,7 +74,7 @@
     {
       "at": "哲學與美術是已",
       "at_hans": "哲学与美术是已",
-      "en": "美術 in Wang's day meant the fine arts as a whole, poetry and music included; it was a new word, taken over from Japanese.",
+      "en": "美術 in Wang’s day meant the fine arts as a whole, poetry and music included; it was a new word, taken over from Japanese.",
       "zh": "美术：王国维时代泛指一切艺术，包括诗歌、音乐在内，是当时从日文引入的新词。"
     },
     {
@@ -98,7 +98,7 @@
     {
       "at": "至於生活之欲",
       "at_hans": "至于生活之欲",
-      "en": "生活之欲, the desire to live: Wang's phrase for Schopenhauer's will to life, which he had been reading closely.",
+      "en": "生活之欲, the desire to live: Wang’s phrase for Schopenhauer’s will to life, which he had been reading closely.",
       "zh": "生活之欲：王国维用来指叔本华所说的“生存意志”，他当时正在深入研读叔本华。"
     },
     {
@@ -127,13 +127,13 @@
     {
       "at": "自謂頗騰達",
       "at_hans": "自谓颇腾达",
-      "en": "From Du Fu's 'Twenty-two Rhymes Presented to Assistant Minister Wei'. The received text reads 挺出, 'stood out', for 騰達: Wang quotes from memory.",
+      "en": "From Du Fu’s ‘Twenty-two Rhymes Presented to Assistant Minister Wei’. The received text reads 挺出, ‘stood out’, for 騰達: Wang quotes from memory.",
       "zh": "出自杜甫《奉赠韦左丞丈二十二韵》；通行本作“自谓颇挺出”，王国维当是凭记忆引用。"
     },
     {
       "at": "胡不上書自薦達",
       "at_hans": "胡不上书自荐达",
-      "en": "From Han Yu's poem 'For Tang Qu'. 虞唐: the golden ages of Shun (Yu) and Yao (Tang).",
+      "en": "From Han Yu’s poem ‘For Tang Qu’. 虞唐: the golden ages of Shun (Yu) and Yao (Tang).",
       "zh": "出自韩愈《赠唐衢》。虞唐：舜（有虞氏）和尧（陶唐氏）的太平之世。"
     },
     {
@@ -169,13 +169,13 @@
     {
       "at": "兩宋間之形而上學",
       "at_hans": "两宋间之形而上学",
-      "en": "形而上學, metaphysics: a modern translation word built on the Book of Changes, 'what is above form is called the Way'.",
+      "en": "形而上學, metaphysics: a modern translation word built on the Book of Changes, ‘what is above form is called the Way’.",
       "zh": "形而上学：近代译名，取自《周易·系辞》“形而上者谓之道”。"
     },
     {
       "at": "美學、名學、知識論",
       "at_hans": "美学、名学、知识论",
-      "en": "名學: logic, 'the study of names'. 知識論: theory of knowledge.",
+      "en": "名學: logic, ‘the study of names’. 知識論: theory of knowledge.",
       "zh": "名学：逻辑学。知识论：认识论。"
     },
     {
@@ -202,7 +202,7 @@
     },
     {
       "at": "决非南面王之所能易者也",
-      "en": "To sit facing south was the ruler's place: a throne.",
+      "en": "To sit facing south was the ruler’s place: a throne.",
       "zh": "南面王：面南称王；古代君主坐北朝南。"
     },
     {
@@ -220,7 +220,7 @@
     },
     {
       "at": "其有發明此真理（哲學家）",
-      "en": "The brackets are Wang's own. He defines the philosopher and the artist in a single sentence, as servants of the same truth by different means: one discovers it, the other gives it signs.",
+      "en": "The brackets are Wang’s own. He defines the philosopher and the artist in a single sentence, as servants of the same truth by different means: one discovers it, the other gives it signs.",
       "zh": "括号是王国维原有的。他在同一句话里定义了哲学家和美术家：二者服务于同一个真理，只是手段不同，一个发明它，一个用符号表现它。"
     },
     {

@@ -1,0 +1,65 @@
+{
+  "id": "G-009104",
+  "slug": "galle-the-invention-of-clockwork",
+  "kind": "artwork",
+  "title": {
+    "orig": "Horologia ferrea",
+    "lang": "la",
+    "en": "The Invention of Clockwork (New Inventions of Modern Times, plate 5)",
+    "zh": "钟表的发明（《新发明》组画第五图）"
+  },
+  "artist": {
+    "orig": "Theodoor Galle",
+    "lang": "nl",
+    "en": "Theodoor Galle, after Jan van der Straet (Stradanus)",
+    "zh": "特奥多尔·加勒，据扬·范·德·斯特拉特（斯特拉达努斯）的设计",
+    "dates": "1571–1633"
+  },
+  "year": 1600,
+  "year_display": {
+    "en": "c. 1600",
+    "zh": "约 1600 年"
+  },
+  "medium": {
+    "en": "Engraving, plate 5 of Nova Reperta (New Inventions of Modern Times), published by Philips Galle in Antwerp; sheet 27 × 20 cm",
+    "zh": "铜版画，《新发明》（Nova Reperta）组画第五图，安特卫普菲利普斯·加勒出版；纸幅 27 × 20 厘米"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/723469",
+    "accession": "49.95.868(7)",
+    "credit_line": "The Elisha Whittelsey Collection, The Elisha Whittelsey Fund, 1949"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP862852.jpg",
+    "width": 1600,
+    "height": 1222,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "tone": "ink",
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: engraved about 1600; the engraver died in 1633 and the designer in 1605. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：约 1600 年刻成，刻工卒于 1633 年，设计者卒于 1605 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "An engraving of a busy clockmaker’s workshop. At a bench in the foreground an old craftsman in spectacles inspects a toothed wheel while another files a part, with small table clocks beside them; a weight-driven clock hangs on the wall, a large iron clock with a sun-faced dial stands at the right where a man in a fine cloak looks it over, a smith works at a forge at the back, and gear wheels lie on the floor. The Latin title Horologia ferrea and two lines of verse run along the bottom.",
+    "zh": "一幅铜版画，画的是一间忙碌的钟表作坊。前景的工作台旁，一位戴眼镜的老匠人端详着一只齿轮，另一位在锉一个零件，旁边摆着几座小台钟；墙上挂着一座靠重锤驱动的钟，右边立着一座表盘画着太阳的大铁钟，一位披着华丽斗篷的人正在打量它；后面有铁匠在炉前干活，地上散落着齿轮。画下方是拉丁文标题 Horologia ferrea（铁制的钟）和两行诗。"
+  },
+  "note": {
+    "en": "From Nova Reperta, a set of about twenty prints designed by Jan van der Straet, a Flemish painter working in Florence, and published in Antwerp around 1600 to celebrate the inventions of the modern age, among them printing, the compass and this one, the mechanical clock. Everything here is made by hand, from the great iron clock to the small table clocks on the bench. It is a picture of machines being raised by the people who tend them, more than two centuries before Samuel Butler put it that way.",
+    "zh": "出自《新发明》（Nova Reperta）组画。这套约二十幅的版画由在佛罗伦萨工作的佛兰德斯画家扬·范·德·斯特拉特设计，约 1600 年在安特卫普出版，颂扬近代的种种发明，其中有印刷术、指南针，还有这一幅：机械钟。这里的一切都靠手工做成，从巨大的铁钟到工作台上的小台钟。它画的是机器由照料它们的人一代代养大的样子，比塞缪尔·巴特勒这样说早了两百多年。"
+  },
+  "pick": null,
+  "tags": [
+    "clocks",
+    "machines",
+    "craft",
+    "engraving"
+  ]
+}

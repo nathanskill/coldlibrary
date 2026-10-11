@@ -1,0 +1,12 @@
+{
+  "essay": {
+    "en": "I built this shelf from two long traditions that rarely share a wall: Chinese poetry from the Book of Songs to the songs of the Yuan, and English poetry from Shakespeare’s sonnets to Edward Thomas, with the Chinese poets of the 1920s and Tagore’s own English standing between them. What holds it together is a small set of things the poets keep coming back to: snow on a river, a moon that earlier readers also saw, a lamp in the night rain, friends writing to each other across a great distance. Every poem stands in the language it was written in, with my translation beside it. If you are new here, start with River Snow, which is twenty characters long; then Zhang Ruoxu’s spring river, which asks who first saw the moon; then Dickinson’s six lines on a word that begins to live on the day it is said.",
+    "zh": "这一架，是用两条很少并排陈列的长河搭起来的：一边是中国诗，从《诗经》一直到元人的小令；一边是英语诗，从莎士比亚的十四行诗到爱德华·托马斯；二十年代的中国新诗人，和泰戈尔亲笔写下的英文，站在两者之间。把它们连在一起的，是诗人们一再回到的几样东西：江上的雪，前人也看过的月亮，夜雨里的一盏灯，隔着万里互相寄诗的朋友。每一首都用写成时的语言陈列，旁边是我的译文。初来的话，先读二十个字的《江雪》；再读《春江花月夜》，听张若虚问江畔何人初见月；然后读狄金森那六行小诗：一个词，在说出口的那一天才开始活。"
+  },
+  "start": [
+    "S-001001",
+    "S-001015",
+    "S-004017"
+  ],
+  "plate": "G-009015"
+}

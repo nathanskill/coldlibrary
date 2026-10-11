@@ -54,9 +54,9 @@ function renderSearch(lang, stacks) {
   <span class="r-author"><span data-m>${esc(plateArtist(lang, p))}</span></span>
   <span class="r-date">${esc(plateYear(lang, p))}</span><span class="r-marks"><span class="id">${esc(plateRights(lang, p))}</span></span>
 </li>`).join('');
-  const shelfLinks = SHELVES.map((s) => `<a href="${shelfHref(lang, s.key)}">${esc(T(s.en, s.zh))}</a>`).join('<span class="sep" aria-hidden="true">·</span>');
+  const shelfLinks = SHELVES.map((s) => `<a href="${shelfHref(lang, s.key)}">${esc(T(s.en, s.zh))}</a>`).join('<span class="sep" aria-hidden="true">·</span><wbr>');
   const body = `<div class="wrap os-search" data-filter="search" data-search-page data-total="${works.length}">
-  <noscript><p class="meta os-noscript">${T('Search needs JavaScript; every work is listed below, on its shelf and in the author index.', '搜索需要 JavaScript；所有作品都列在下面，也可以按书架或作者索引查找。')} <a href="${osHref(lang)}">${T('The shelves', '书架')}</a><span class="sep" aria-hidden="true">·</span><a href="${osHref(lang, 'authors')}">${T('Authors', '作者')}</a></p></noscript>
+  <noscript><p class="meta os-noscript">${T('Search needs JavaScript; every work is listed below, on its shelf and in the author index.', '搜索需要 JavaScript；所有作品都列在下面，也可以按书架或作者索引查找。')} <a href="${osHref(lang)}">${T('The shelves', '书架')}</a><span class="sep" aria-hidden="true">·</span><wbr><a href="${osHref(lang, 'authors')}">${T('Authors', '作者')}</a></p></noscript>
   ${bar}
   <div class="os-results" data-results-wrap hidden>
     <ol class="wrows" data-results aria-label="${T('Results', '搜索结果')}"></ol>
@@ -69,7 +69,7 @@ function renderSearch(lang, stacks) {
     <p data-zero-msg></p>
     <p class="actions"><button class="linkish" type="button" data-clear-q>${T('Clear the search', '清除搜索')}</button><button class="linkish" type="button" data-clear hidden>${T('Clear filters', '清除筛选')}</button></p>
     <p class="meta">${T(`The ${inWords(SHELVES.length, 'en')} shelves:`, `${inWords(SHELVES.length, 'zh')}个书架：`)} ${shelfLinks}</p>
-    <p class="meta" data-zero-random>${T('Or one of these:', '或者读读这几部：')} ${buildPicks(works, 3, 'zero').map((w) => `<a href="${workHref(lang, w)}">${esc(titles(w, lang).sub || titles(w, lang).main)}</a>`).join('<span class="sep" aria-hidden="true">·</span>')}<span class="sep" aria-hidden="true">·</span><a href="${osHref(lang, 'random')}">${T('a random work', '随便读一部')}<span class="nw">&nbsp;→</span></a></p>
+    <p class="meta" data-zero-random>${T('Or one of these:', '或者读读这几部：')} ${buildPicks(works, 3, 'zero').map((w) => `<a href="${workHref(lang, w)}">${esc(titles(w, lang).sub || titles(w, lang).main)}</a>`).join('<span class="sep" aria-hidden="true">·</span><wbr>')}<span class="sep" aria-hidden="true">·</span><wbr><a href="${osHref(lang, 'random')}">${T('a random work', '随便读一部')}<span class="nw">&nbsp;→</span></a></p>
   </div>
   ${dataBlock('fs-labels', { ...chipLabels(lang, stacks), msg: searchMessages(lang) })}
 </div>`;
@@ -90,13 +90,14 @@ function searchMessages(lang) {
 // Works "picked at build time": a different handful each day the site is built, the same for every visitor.
 function buildPicks(works, n, salt) {
   let h = 2166136261;
-  for (const ch of new Date().toISOString().slice(0, 10) + salt) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
+  // Seeded by the catalogue, not the build date: the picks (and the characters their titles need) change only when works do.
+  for (const ch of works.map((w) => w.id).join('') + salt) h = Math.imul(h ^ ch.charCodeAt(0), 16777619) >>> 0;
   const pool = [...works], out = [];
   while (out.length < n && pool.length) { h = Math.imul(h ^ (h >>> 13), 1274126177) >>> 0; out.push(pool.splice(h % pool.length, 1)[0]); }
   return out;
 }
 
-// A simple, honest stand-in when JavaScript is off: twelve works, picked when the site was built.
+// A simple, honest stand-in when JavaScript is off: twelve works, picked from the catalogue as it stands.
 function renderRandom(lang, stacks) {
   const T = t(lang);
   const urls = stacks.works.map((w) => workHref(lang, w));
@@ -109,7 +110,7 @@ function renderRandom(lang, stacks) {
     cls: 'os-ph',
   });
   const body = `<div class="wrap">
-  <noscript><p class="meta os-noscript">${T(`Choosing needs JavaScript, so here are ${inWords(picked.length, 'en')} works picked when the site was last built.`, `随机挑选需要 JavaScript，所以这里是网站上次生成时选出的${inWords(picked.length, 'zh')}部作品。`)}</p></noscript>
+  <noscript><p class="meta os-noscript">${T(`Choosing needs JavaScript, so here are ${inWords(picked.length, 'en')} works picked from the shelves.`, `随机挑选需要 JavaScript，所以这里先给你从书架上挑出的${inWords(picked.length, 'zh')}部作品。`)}</p></noscript>
   ${rowList(picked.map((w) => wrow(lang, w, stacks)))}
   <p class="os-next">${go(osHref(lang), T('The Open Stacks', '开架书库'))}</p>
 </div>

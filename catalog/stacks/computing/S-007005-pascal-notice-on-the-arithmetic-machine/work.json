@@ -23,7 +23,7 @@
   "translator": null,
   "orig_lang": "fr",
   "edition": {
-    "en": "Text of the 1645 notice in Œuvres de Blaise Pascal, ed. Léon Brunschvicg and Pierre Boutroux, vol. I (Paris, Hachette; first published 1908; the transcribed scan is of the 1923 second edition), as transcribed on French Wikisource; the editors' notes are omitted and Pascal's spelling is kept.",
+    "en": "Text of the 1645 notice in Œuvres de Blaise Pascal, ed. Léon Brunschvicg and Pierre Boutroux, vol. I (Paris, Hachette; first published 1908; the transcribed scan is of the 1923 second edition), as transcribed on French Wikisource; the editors’ notes are omitted and Pascal’s spelling is kept.",
     "zh": "据法文维基文库所录布伦施维格与布特鲁编《帕斯卡全集》第一卷（巴黎，阿歇特出版社；1908 年初版，所转录的扫描本为 1923 年第二版）中的 1645 年告示；编者注从略，保留帕斯卡原拼写。"
   },
   "source": {
@@ -47,7 +47,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "In 1645 Pascal, then in his early twenties, printed this notice to go with his calculating machine, the Pascaline: part user's guide, part defence, part warning against counterfeit copies. He explains why he gives no written description, since some knowledge is best taught face to face, why the machine has so many parts, and how he went through more than fifty models to reach it. Notice his answer to critics who said the machine could have been less complicated: a simpler instrument, he says, could not have made the operation simple, easy, quick and durable all at once, a trade that designers of every kind of tool still live with.",
+    "en": "In 1645 Pascal, then in his early twenties, printed this notice to go with his calculating machine, the Pascaline: part user’s guide, part defence, part warning against counterfeit copies. He explains why he gives no written description, since some knowledge is best taught face to face, why the machine has so many parts, and how he went through more than fifty models to reach it. Notice his answer to critics who said the machine could have been less complicated: a simpler instrument, he says, could not have made the operation simple, easy, quick and durable all at once, a trade that designers of every kind of tool still live with.",
     "zh": "1645 年，二十出头的帕斯卡为他的计算机器（帕斯卡林）印了这份告示：一半是使用说明，一半是辩护，还有一部分是对仿冒品的警告。他解释了为什么不附书面构造说明（有些知识最好当面传授），为什么机器有那么多零件，以及他如何做了五十多个模型才走到这一步。请留意他对“这台机器本可以更简单”这一批评的回答：构造更简单的器具，无法让运算同时做到简单、容易、迅速而又经久耐用——各种工具的设计者至今都在与这种权衡共处。"
   },
   "pick": null,
@@ -62,7 +62,7 @@
     "en": "experience would have shown them that a less complicated instrument could not have all the qualities that I have happily given to this little Machine.",
     "zh": "经验就会让他们看到：一件不那么复杂的器具，不可能具备我有幸赋予这台小机器的全部条件。"
   },
-  "plate": null,
+  "plate": "G-009106",
   "pairs": [
     "S-007004",
     "S-007002",

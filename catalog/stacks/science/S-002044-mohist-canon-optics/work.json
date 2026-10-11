@@ -62,13 +62,13 @@
     "en": "The image is inverted. Where the rays cross there is a point, and the image lengthens from it. The explanation lies in the point.",
     "zh": "景到，在午有端与景长，说在端。"
   },
-  "plate": null,
+  "plate": "G-009007",
   "gloss": [
     {
       "at": "經：",
       "occ": 1,
       "at_hans": "经：",
-      "en": "The Canon (經) states each thesis in a few words and names its ground, 'the explanation lies in…'. The two parts were handed down in separate chapters of the Mozi and are paired here.",
+      "en": "The Canon (經) states each thesis in a few words and names its ground, ‘the explanation lies in…’. The two parts were handed down in separate chapters of the Mozi and are paired here.",
       "zh": "“经”用极简的话提出论题，并以“说在……”点出根据。经与说在《墨子》中分篇流传，这里一一对应排列。"
     },
     {
@@ -173,7 +173,7 @@
       "at": "寡區",
       "occ": 1,
       "at_hans": "寡区",
-      "en": "The small area of the mirror's surface.",
+      "en": "The small area of the mirror’s surface.",
       "zh": "镜面范围狭小。"
     },
     {
@@ -200,7 +200,7 @@
       "at": "中之外內",
       "occ": 1,
       "at_hans": "中之外内",
-      "en": "中 is the centre of the mirror's curve; the text does not separate the focus from the centre of curvature.",
+      "en": "中 is the centre of the mirror’s curve; the text does not separate the focus from the centre of curvature.",
       "zh": "中，镜面的中心点。原文没有区分焦点与球心。"
     },
     {

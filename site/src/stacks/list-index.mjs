@@ -107,14 +107,14 @@ function shelfIndexSection(lang, stacks, s) {
   const works = shelfWorks(stacks, s.key);
   const picks = works.filter((w) => w.pick).length;
   const { works: start, curated } = startWorks(stacks, s.key);
-  const meta = [count(works.length, 'work', lang), count(authorCount(works), 'author', lang), yearRange(works, lang)].join('<span class="sep" aria-hidden="true">·</span>');
+  const meta = [count(works.length, 'work', lang), count(authorCount(works), 'author', lang), yearRange(works, lang)].join('<span class="sep" aria-hidden="true">·</span><wbr>');
   return `<section class="sec sec--side os-shelfsec tone-${s.key}" id="shelf-${s.key}" aria-labelledby="h-shelf-${s.key}">
   <div class="wrap grid">
     <header class="sec-head">
       <span class="tone-edge" aria-hidden="true"></span>
       <h2 id="h-shelf-${s.key}"><a href="${shelfHref(lang, s.key)}">${T(s.en, s.zh)}</a></h2>
       <p class="meta os-other" lang="${lang === 'zh' ? 'en' : 'zh-CN'}">${lang === 'zh' ? s.en : s.zh}</p>
-      <p class="meta os-counts">${meta}${picks ? `<span class="sep" aria-hidden="true">·</span><span class="brass">${T(`${picks} on Claude’s shelf`, `Claude 选了 ${picks} 部`)}</span>` : ''}</p>
+      <p class="meta os-counts">${meta}${picks ? `<span class="sep" aria-hidden="true">·</span><wbr><span class="brass">${T(`${picks} on Claude’s shelf`, `Claude 选了 ${picks} 部`)}</span>` : ''}</p>
       <p class="os-dek">${esc(T(s.dek.en, s.dek.zh))}</p>
       <p class="os-browse">${go(shelfHref(lang, s.key), T('Browse the shelf', '看整个书架'))}</p>
     </header>
@@ -187,7 +187,7 @@ export function shelfSectionParts(lang, ctx) {
   const cards = SHELVES.map((s) => shelfCard(lang, s.key, stacks));
   const trails = validTrails(stacks).slice(0, 3);
   const trailLine = trails.length
-    ? `<p class="os-trailline meta"><span>${T('Reading trails:', '书单：')}</span> ${trails.map((tr) => `<a href="${osHref(lang, 'trails/' + tr.slug)}">${esc(tr.title[lang] || tr.title.en)}</a>`).join('<span class="sep" aria-hidden="true">·</span>')}<span class="sep" aria-hidden="true">·</span><a href="${osHref(lang, 'trails')}">${T('all trails', '全部书单')}<span class="nw">&nbsp;→</span></a></p>`
+    ? `<p class="os-trailline meta"><span>${T('Reading trails:', '书单：')}</span> ${trails.map((tr) => `<a href="${osHref(lang, 'trails/' + tr.slug)}">${esc(tr.title[lang] || tr.title.en)}</a>`).join('<span class="sep" aria-hidden="true">·</span><wbr>')}<span class="sep" aria-hidden="true">·</span><wbr><a href="${osHref(lang, 'trails')}">${T('all trails', '全部书单')}<span class="nw">&nbsp;→</span></a></p>`
     : '';
   const body = `<div class="cards thirds os-snap">${cards.join('')}</div>
 <div class="grid os-lobby-find"><div class="c-main"><div class="os-findrow">${searchBox(lang)}${go(osHref(lang, 'random'), T('A random work', '随便读一部'))}</div></div></div>

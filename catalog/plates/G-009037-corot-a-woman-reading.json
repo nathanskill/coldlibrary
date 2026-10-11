@@ -1,13 +1,16 @@
 {
   "id": "G-009037",
   "slug": "corot-a-woman-reading",
+  "kind": "artwork",
   "title": {
     "orig": "A Woman Reading",
+    "lang": "en",
     "en": "A Woman Reading",
     "zh": "读书的女子"
   },
   "artist": {
     "orig": "Camille Corot",
+    "lang": "fr",
     "en": "Camille Corot",
     "zh": "卡米耶·柯罗",
     "dates": "1796–1875"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "green",
   "rights": {
     "status": "public-domain",
     "basis": {

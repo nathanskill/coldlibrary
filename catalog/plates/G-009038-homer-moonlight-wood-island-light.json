@@ -1,13 +1,16 @@
 {
   "id": "G-009038",
   "slug": "homer-moonlight-wood-island-light",
+  "kind": "artwork",
   "title": {
     "orig": "Moonlight, Wood Island Light",
+    "lang": "en",
     "en": "Moonlight, Wood Island Light",
     "zh": "月光，伍德岛灯塔"
   },
   "artist": {
     "orig": "Winslow Homer",
+    "lang": "en",
     "en": "Winslow Homer",
     "zh": "温斯洛·霍默",
     "dates": "1836–1910"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "night",
   "rights": {
     "status": "public-domain",
     "basis": {

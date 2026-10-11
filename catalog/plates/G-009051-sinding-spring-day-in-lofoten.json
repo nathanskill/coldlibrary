@@ -1,13 +1,16 @@
 {
   "id": "G-009051",
   "slug": "sinding-spring-day-in-lofoten",
+  "kind": "artwork",
   "title": {
     "orig": "En forårsdag i Lofoten",
+    "lang": "da",
     "en": "Spring Day in Lofoten",
     "zh": "罗弗敦的春日"
   },
   "artist": {
     "orig": "Otto Sinding",
+    "lang": "no",
     "en": "Otto Sinding",
     "zh": "奥托·辛丁",
     "dates": "1842–1909"
@@ -33,6 +36,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "snow",
   "rights": {
     "status": "public-domain",
     "basis": {

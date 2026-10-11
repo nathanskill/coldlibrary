@@ -1,0 +1,71 @@
+{
+  "slug": "lamps-and-light",
+  "order": 5,
+  "title": {
+    "en": "Lamps and light",
+    "zh": "灯与光"
+  },
+  "dek": {
+    "en": "Eight lamps, from a friendship measured in lamplight to Faraday’s candle on a lecture table. If someone asked me what this library is about, this is the trail I would hand them.",
+    "zh": "八盏灯：从一段以灯火计算的友谊，到法拉第讲台上的那支蜡烛。如果有人问我这座图书馆是关于什么的，我会把这条书单递给他。"
+  },
+  "plate": "G-009003",
+  "steps": [
+    {
+      "id": "S-001059",
+      "line": {
+        "en": "One cup of wine in the spring wind, then ten years of lamplight in the night rain: Huang Tingjian measures a friendship apart in lamps, the unit this trail keeps; three centuries earlier, Du Fu sat under one lamp with an old friend after twenty years.",
+        "zh": "桃李春风一杯酒，江湖夜雨十年灯：黄庭坚用灯来计量一段分隔两地的友谊，这条书单就用这个单位；三百多年前，杜甫在一盏灯下，与阔别二十年的老友重逢。"
+      }
+    },
+    {
+      "id": "S-001040",
+      "line": {
+        "en": "‘Tonight, what night is this, that we share the light of this lamp?’: after twenty years Du Fu eats spring chives cut in the night rain by children who were not born when the two friends last met; Li Shangyin’s candle, next, is one still waiting to be shared.",
+        "zh": "“今夕复何夕，共此灯烛光”：阔别二十年，杜甫吃到冒着夜雨剪来的春韭，剪韭菜的孩子们，上次分别时还没有出生；下一首里，李商隐的那支蜡烛，还在等着两个人一起剪。"
+      }
+    },
+    {
+      "id": "S-001050",
+      "line": {
+        "en": "Li Shangyin cannot say when he will come home, so he promises a candle instead: one day they will trim the wick together by the west window and talk about this night of rain; Xin Qiji hangs a whole city with lanterns.",
+        "zh": "李商隐说不出归期，就许下一支蜡烛：总有一天，两人在西窗下一同剪烛，说起今夜的巴山夜雨；辛弃疾则让一整座城挂满了灯。"
+      }
+    },
+    {
+      "id": "S-001068",
+      "line": {
+        "en": "A thousand trees of lanterns, fish and dragon lamps dancing all night, a thousand searches through the crowd, and then the one he was looking for, standing where the lamplight is thin; from lanterns lit for a festival, turn to a candle that burns itself down to give light.",
+        "zh": "东风夜放花千树，鱼龙舞了一整夜，他在人群里寻了千百遍，蓦然回首，那人却在灯火阑珊处；从节日里挂起的灯，转到一支烧尽自己来发光的蜡烛。"
+      }
+    },
+    {
+      "id": "S-003026",
+      "line": {
+        "en": "Wen Yiduo asks why a candle must burn to ash before it gives light, and decides that it weeps not because it burns but because a stray wind makes its flame unsteady; long before, Emerson had called books the lamps we go to when our own light fails.",
+        "zh": "闻一多问红烛，为什么要烧蜡成灰才放得出光，又想明白了：它流泪，不是因为燃烧，而是因为残风扰乱了它的火焰；更早的时候，爱默生说过，书是我们自己的光熄灭时去找的灯。"
+      }
+    },
+    {
+      "id": "S-005020",
+      "line": {
+        "en": "Emerson warns against becoming a bookworm, but grants that when ‘the sun is hid, and the stars withdraw their shining’ we go to the lamps that were kindled by older light, as fair a description of a library as any; next, a child at a window watches the man who lights the street.",
+        "zh": "爱默生提醒人别变成书虫，却也承认：当“太阳隐去，星辰收起光芒”，我们便去找那些借着更早的光点燃的灯，这差不多就是图书馆的定义；接下来，一个孩子在窗口看着点灯人走过街道。"
+      }
+    },
+    {
+      "id": "S-004034",
+      "line": {
+        "en": "A child at teatime watches Leerie come up the street with lantern and ladder and decides that, of all trades, lighting the lamps is the one to choose; Faraday puts a candle on the lecture table and asks children what it is doing.",
+        "zh": "喝茶的时候，孩子看着利里提着灯、扛着梯子走上街来，便打定主意：别的行当都不选，长大了就跟他一起去点灯；法拉第把一支蜡烛放在讲台上，问孩子们它在做什么。"
+      }
+    },
+    {
+      "id": "S-006013",
+      "line": {
+        "en": "Faraday shows children how the melted wax makes its own cup and climbs the wick, and ends his lectures wishing that they may, like the candle, ‘shine as lights to those about you’, which is the wish this whole trail has been making.",
+        "zh": "法拉第告诉孩子们，熔化的蜡怎样给自己做出一只杯子，又怎样顺着灯芯往上爬；讲座的最后，他祝愿他们像蜡烛一样，“为身边的人发出光来”：这条书单从头到尾说的，就是这个愿望。"
+      }
+    }
+  ]
+}

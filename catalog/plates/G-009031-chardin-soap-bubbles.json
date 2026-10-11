@@ -1,13 +1,16 @@
 {
   "id": "G-009031",
   "slug": "chardin-soap-bubbles",
+  "kind": "artwork",
   "title": {
     "orig": "Soap Bubbles",
+    "lang": "en",
     "en": "Soap Bubbles",
     "zh": "肥皂泡"
   },
   "artist": {
     "orig": "Jean Siméon Chardin",
+    "lang": "fr",
     "en": "Jean Siméon Chardin",
     "zh": "让-西美翁·夏尔丹",
     "dates": "1699–1779"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

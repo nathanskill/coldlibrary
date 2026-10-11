@@ -57,6 +57,11 @@
   }
   function closeSheet() { if (!openCb) return false; var cb = openCb; cb.checked = false; openCb = null; cb.focus(); return true; }
   $$('label.close').forEach(pressable);
+  // the Aa panel closes on a click elsewhere (in the tools sheet it stays open)
+  doc.addEventListener('click', function (e) {
+    var aa = work.querySelector('details.aa[open]');
+    if (aa && !openCb && !aa.contains(e.target)) aa.open = false;
+  });
   $$('.toc a').forEach(function (a) { a.addEventListener('click', function () { var cb = doc.getElementById('sheet-toc'); if (cb && cb.checked) { cb.checked = false; openCb = null; } }); });
 
   doc.addEventListener('keydown', function (e) {

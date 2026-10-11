@@ -37,8 +37,29 @@ function langName(code, lang) {
 }
 const allHan = (s) => /^[\s\p{Script=Han}·・]+$/u.test(String(s || ''));
 const pageTag = (lang) => (lang === 'zh' ? 'zh-Hans' : 'en');
-// Copy in the page language; on the English site a Han run inside it gets the work's script as its lang.
-const prose = (s, lang, w) => (lang === 'zh' ? esc(s) : hanRuns(esc(s), /-Hant$/.test(String(w.lang)) ? 'zh-Hant' : 'zh-Hans'));
+// Which script a run of Han characters is in, from the catalogue's own Hant/Hans pairs (text.md beside
+// text.zh-Hans.md, line by line): a character only traditional texts use makes it zh-Hant, one only the
+// simplified copies use makes it zh-Hans; otherwise it takes the work's own script.
+let SCRIPTS = null;
+function scriptSets(stacks) {
+  if (SCRIPTS) return SCRIPTS;
+  const hant = new Set(), hans = new Set();
+  for (const w of stacks.works) {
+    if (!w.textHans) continue;
+    const a = w.text.split('\n'), b = w.textHans.split('\n');
+    if (a.length !== b.length) continue;
+    a.forEach((l, i) => { const x = [...l], y = [...b[i]]; if (x.length === y.length) x.forEach((c, k) => { if (c !== y[k]) { hant.add(c); hans.add(y[k]); } }); });
+  }
+  for (const c of [...hant]) if (hans.has(c)) { hant.delete(c); hans.delete(c); }
+  return (SCRIPTS = { hant, hans });
+}
+const runTagger = (w, stacks) => {
+  const fallback = /-Hant$/.test(String(w.lang)) ? 'zh-Hant' : 'zh-Hans';
+  return (run) => { const S = scriptSets(stacks), cs = [...run]; return cs.some((c) => S.hant.has(c)) ? 'zh-Hant' : cs.some((c) => S.hans.has(c)) ? 'zh-Hans' : fallback; };
+};
+// Copy in the page language; on the English site each Han run inside it gets its own lang.
+let currentTagger = null;
+const prose = (s, lang, w) => (lang === 'zh' ? esc(s) : hanRuns(esc(s), currentTagger || (/-Hant$/.test(String(w.lang)) ? 'zh-Hant' : 'zh-Hans')));
 // The first sentences of a note, up to about 160 characters, for the page description.
 function describe(s) {
   const x = String(s || '').replace(/\s+/g, ' ').trim();
@@ -219,7 +240,7 @@ function idLine(w, lang, T) {
   const s = w.house ? null : shelfOf(w.shelf);
   const sid = `<a class="id" href="${shortWork(w)}" title="${T('Short link · cite this', '短链接 · 引用这一页')}"><span class="vh">${T('Catalogue number ', '馆藏号 ')}</span>${esc(w.id)}</a>`;
   const where = w.house ? `<span>${T('House paper', '馆内文献')}</span>` : `<a href="${shelfHref(lang, w.shelf)}">${T(s.en, s.zh)}</a>`;
-  return `<p class="idline meta">${sid}${sep}${where}</p>`;
+  return `<p class="idline meta">${sid}${SEP0}${where}</p>`; // a flex row (components.css): the gap spaces the dot
 }
 
 // ---------------------------------------------------------------- toolbar
@@ -319,7 +340,7 @@ function colophon(w, lang, m, r) {
   if (checked.endsWith(guide)) checked = checked.slice(0, -guide.length);
   checked = checked.trim();
   const rr = [`<p>${prose(basis, lang, w)}</p>`];
-  if (rt.license) rr.push(`<p>${rt.license_url ? `<a href="${esc(rt.license_url)}">${esc(rt.license)}</a>` : esc(rt.license)}</p>`);
+  if (rt.license) { const ll = lang === 'zh' && !/[㐀-鿿]/.test(rt.license) ? ' lang="en"' : ''; rr.push(`<p${ll}>${rt.license_url ? `<a href="${esc(rt.license_url)}">${esc(rt.license)}</a>` : esc(rt.license)}</p>`); }
   if (checked) rr.push(`<p>${esc(checked)}</p>`);
   if (rt.verbatim_only) rr.push(`<p>${T('Shared word for word, as its licence asks; no translation.', '按许可要求逐字收录，不做翻译。')}</p>`);
   rr.push(`<p class="meta">${guide}</p>`);
@@ -346,7 +367,7 @@ function colophon(w, lang, m, r) {
   const scriptNote = r.hasHans ? T('; traditional characters, with a simplified copy converted by OpenCC', '；繁体原文，简体本由 OpenCC 转换') : '';
   const full = [
     [T('Title', '题名'), `<span lang="${esc(tagOf(w.translator ? w.orig_lang || 'und' : w.lang))}">${esc(w.title.orig)}</span>${w.title.en && w.title.en !== w.title.orig ? `${sep}<span lang="en">${esc(w.title.en)}</span>` : ''}${w.title.zh && w.title.zh !== w.title.orig ? `${sep}<span lang="zh-Hans">${esc(w.title.zh)}</span>` : ''}`],
-    [T('Author', '作者'), `${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.orig_lang || w.lang))}">${esc(a.orig)}</span>` : ''}${a.dates ? ` <span class="tabular">(${esc(a.dates)})</span>` : ''}`],
+    [T('Author', '作者'), `${esc(a.name)}${a.orig && !(allHan(a.orig) && allHan(a.name) && [...a.orig].length === [...a.name].length) ? ` <span lang="${esc(tagOf(w.orig_lang || w.lang))}">${esc(a.orig)}</span>` : ''}${a.dates ? ` <span class="tabular">(${esc(a.dates)})</span>` : ''}`],
     [T('Date', '年代'), [periodOf(w, lang), yearLabel(w, lang)].filter(Boolean).map(esc).join(sep)],
     [T('Form', '体裁'), esc((FORMS[w.form] || [w.form, w.form])[lang === 'zh' ? 1 : 0]) + (w.style === 'essay' ? T(' · essay', ' · 随笔') : '')],
     [T('Language', '语种'), esc(/^lzh/.test(w.lang) ? T('Classical Chinese', '文言文') : /^zh/.test(w.lang) ? T('Modern Chinese', '现代汉语') : langName(w.lang, lang)) + scriptNote],
@@ -381,7 +402,8 @@ const bridge = (lang) => `<p class="meta bridge">${t(lang)('People have always l
 function plateFigure(w, lang, T, stacks) {
   const p = w.plate ? stacks.plateById.get(w.plate) : null;
   if (!p) return '';
-  return `<figure class="wplate wide"><div class="mat">${plateImg(p, { large: true, lang, sizes: '(min-width: 1200px) 939px, (min-width: 900px) 75vw, 100vw' })}</div><figcaption>${plateCaption(lang, p)}${sep}${go(plateHref(lang, p), T('On the plate page', '去图版页'))}</figcaption></figure>`;
+  // On the records shelf the plate comes before the text, so it is the page's first image: not lazy.
+  return `<figure class="wplate wide"><div class="mat">${plateImg(p, { large: true, lang, eager: w.shelf === 'records', sizes: '(min-width: 1200px) 939px, (min-width: 900px) 75vw, 100vw' })}</div><figcaption>${plateCaption(lang, p)}<br>${go(plateHref(lang, p), T('On the plate page', '去图版页'))}</figcaption></figure>`;
 }
 
 // ---------------------------------------------------------------- rail, reading bar, sheets (W-long)
@@ -403,9 +425,10 @@ function progressFormat(toc, lang) {
 function rail(w, lang, T, r, back) {
   const hasToc = r.toc.length >= 3;
   const mark = lang === 'zh' ? '译' : 'zh';
+  const ol = r.textTag && r.textTag !== pageTag(lang) ? ` lang="${esc(r.textTag)}"` : '';
   const entry = (x, i) => {
     const keep = r.paired && !x.tr ? ' keep' : '';
-    const o = r.hasHans && x.hans ? `<span class="o o-hant${keep}">${esc(x.text)}</span><span class="o o-hans${keep}" lang="zh-Hans">${esc(x.hans)}</span>` : `<span class="o${keep}">${esc(x.text)}</span>`;
+    const o = r.hasHans && x.hans ? `<span class="o o-hant${keep}"${ol}>${esc(x.text)}</span><span class="o o-hans${keep}" lang="zh-Hans">${esc(x.hans)}</span>` : `<span class="o${keep}"${ol}>${esc(x.text)}</span>`;
     const tr = x.tr ? `<span class="tr" lang="${esc(r.pTag)}">${esc(x.tr)}</span>` : '';
     return `<li><a href="#${x.id}"><span class="n">${i + 1}</span><span class="t">${o}${tr}${r.partial && x.translated ? `<span class="trmark" title="${T('Translated', '有译文')}">${mark}</span>` : ''}</span></a></li>`;
   };
@@ -433,7 +456,7 @@ function frame(attrs, col, long, ra, bar, T, progress) {
 }
 
 // ---------------------------------------------------------------- the page
-const budget = { over: [], max: [], verse: { line: [], half: [], stanza: [], mixed: [] }, warned: new Set(), rendered: 0, total: 0, floor: new Map() };
+const budget = { over: [], max: [], verse: { line: [], half: [], stanza: [], mixed: [] }, warned: new Set(), rendered: 0, total: 0 };
 const kbOf = (s) => gzipSync(s, { level: 9 }).length / 1024;
 
 function renderWork(w, lang, ctx) {
@@ -447,7 +470,8 @@ function renderWork(w, lang, ctx) {
   // Fiction (the prose shelf, unless marked an essay) sets English paragraphs with first-line indents.
   const essay = w.style === 'essay' || w.shelf !== 'prose';
   const parts = long && (w.size.minutes >= 5 || tocOf(w.text).length >= 3);
-  const opts = { lang, cjk: m.cjk, textTag, aph: w.form === 'aphorisms', parts, cv: w.size.minutes >= 10 };
+  currentTagger = runTagger(w, stacks);
+  const opts = { lang, cjk: m.cjk, textTag, aph: w.form === 'aphorisms', parts, cv: w.size.minutes >= 10, runTag: currentTagger };
   let r = renderReading(w, { ...opts, P: trOf(m.paired), T2: trOf(m.solo) });
   if (r.unmapped) {
     // A partial translation whose segments do not map is shown on its own, never paired.
@@ -456,6 +480,7 @@ function renderWork(w, lang, ctx) {
     r = renderReading(w, { ...opts, P: null, T2: trOf(m.solo) });
   }
   r.pTag = m.paired ? pageTag(m.paired.lang) : 'en';
+  r.textTag = textTag;
   r.totalMin = r.toc.length ? r.toc.reduce((a, x) => a + x.min, 0) : minutesOf(w.text);
   if (lang === 'en' && r.warns.length && !budget.warned.has(w.id)) { budget.warned.add(w.id); for (const x of r.warns) console.warn(`[work] ${w.id}: ${x}`); }
   if (lang === 'en' && r.verseMode) budget.verse[r.verseMode].push(w.id);
@@ -539,6 +564,7 @@ function renderPaper(p, lang) {
   const long = size.minutes >= 3 || tocOf(body).length >= 3;
   const r = renderReading(wl, { lang, cjk: zh, textTag: wl.lang, parts: long, cv: false, P: null, T2: null });
   r.pTag = 'en';
+  r.textTag = wl.lang;
   r.totalMin = minutesOf(body);
   addGlyphs(doc.title, 'base');
   const head = `<header class="whead">${idLine(wl, lang, T)}<h1 class="wtitle" id="work-title"><span class="serif">${glue(doc.title)}</span></h1><p class="byline">${esc(doc.author || '')}</p><p class="meta facts">${[`<span class="nw">${fmtDate(doc.date, lang)}</span>`, `<span class="nw tabular">${zh ? T(NUM(size.han, lang) + ' characters', NUM(size.han, lang) + ' 字') : T(NUM(size.words, lang) + ' words', NUM(size.words, lang) + ' 词')}</span>`, `<span class="nw tabular">${T(size.minutes + ' min', size.minutes + ' 分钟')}</span>`].join(sep)}</p></header>`;

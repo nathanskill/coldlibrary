@@ -60,7 +60,7 @@
     "en": "The swallows go, but they will come again. The willows wither, but they will be green again. The peach blossoms fall, but they will bloom again.",
     "zh": "燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。"
   },
-  "plate": null,
+  "plate": "G-009040",
   "pairs": [
     "S-005003",
     "S-001008",
@@ -84,7 +84,7 @@
       "at": "千門萬戶",
       "occ": 1,
       "at_hans": "千门万户",
-      "en": "千門萬戶: a thousand gates and ten thousand doors, an old poetic phrase for a crowded city, as in Wang Anshi's New Year poem.",
+      "en": "千門萬戶: a thousand gates and ten thousand doors, an old poetic phrase for a crowded city, as in Wang Anshi’s New Year poem.",
       "zh": "千门万户：形容人家众多，旧诗常用，如王安石《元日》“千门万户曈曈日”。"
     },
     {

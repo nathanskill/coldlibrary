@@ -15,31 +15,39 @@ notofonts/noto-cjk commit 9b0f1436e455d902de067a2501422e5dc71ad16b:
   .cache/fonts/LICENSE-OFL.txt           sha256 6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2
   URLs: https://github.com/notofonts/noto-cjk/raw/9b0f1436e455d902de067a2501422e5dc71ad16b/Serif/SubsetOTF/SC/<file>
         and …/Serif/LICENSE. --fetch downloads and checks all three; --regular/--semibold read copies elsewhere.
-Requires python3 with fontTools and brotli (pip3 install --user fonttools brotli). Takes 2-4 minutes from cold,
-seconds when nothing changed (every cut is cached by recipe in .cache/cjk-build/).
+Requires python3 with fontTools and brotli (pip3 install --user fonttools brotli). About a minute with an empty
+cache, 15-25 s otherwise (every cut is cached by recipe in .cache/cjk-build/; unchanged input gives identical files).
+Other flags: --budget-mb 15 (all files here, in 1,000,000-byte MB; --budget-blocks counts 4 KB disk blocks instead),
+--grid 1|2, --new-core, --refresh-common, --vertical, --fetch, --report FILE.json; see --help.
 
 Writes, under site/public/assets/fonts/cjk/ (everything there is committed; the total stays under --budget-mb):
   common.<h>.woff2 + .css    the 120 characters on the most pages (tools/cjk-common.txt, frozen; change it only with
                              --refresh-common). Linked on every page that sets Cold Serif SC; no other file has them.
   k/<key>.<part>.<h>.woff2   per font key: base (both scripts, or the only one), hant / hans (one script only, so the
                              hidden script downloads nothing) and w600 (the characters inside <strong>, weight 600)
-  k/<key>.<h>.css            one stylesheet per key: the key's own faces plus the shared core slices it uses
-  core/<n>.<h>.woff2         shared core slices, made only when per-key files alone would not fit the budget
+  k/<key>.<h>.css            one stylesheet per key: the key's own faces
+  core/<n>.<h>.woff2 + .css  shared core slices, made only when per-key files alone would not fit the budget
   punct-serif-400.woff2      "CL Punct Serif" (spec §3.5); kept as it is while it covers its unicode-range
   map.json, coverage.json    read by site/src/fonts.mjs: links, preloads and the build's coverage gate
   OFL.txt                    the licence
-A page links common.css and its key's CSS (a block a script shows later, such as today-<id> on the lobby or
-grid:<slug> on a shelf, inserts that key's CSS). No two faces a page can load share a code point: common, each key
-part and each core slice are disjoint, a key's own files leave out the slices it links, and a later block's files
-leave out what its page already covers. Files no longer used move to .cache/cjk-stale/; nothing is deleted.
+A page links common.css, its key's CSS and the CSS of each core slice the key uses (site/src/fonts.mjs); a block a
+script shows later, such as today-<id> on the lobby or grid:<slug> on a shelf, inserts its own key's CSS. No two
+faces a page can load share a code point: common, each key part and each core slice are disjoint, a key's own files
+leave out the slices it links, and a later block's files leave out what its page already covers (two alternative
+blocks, say two days' picks, may share characters; the glyphs are identical). Byte-identical parts of two keys
+share one file. Files no longer used, and earlier versions of map.json and coverage.json, go to .cache/cjk-stale/;
+nothing is deleted.
 
 Planning. Each key first gets its own files. When they do not fit the budget, the characters shared by the most
 large keys form a core, cut into slices of a few hundred characters (by frequency, and within a frequency band by
 which shelf uses them), and each large key links only the slices that pay off for it: the links that save the most
 storage for the least extra download on a cold first visit are taken first. A link that would push a key over its
-budget (works 256 KB, list pages 160 KB) is taken only if the storage budget cannot be met otherwise. Small keys
-(cold first visit at most 96 KB on their own), the lobby, its today-<id> blocks and any page with a later block
-never link the core, so a short poem stays at common + its own files.
+budget (works 256 KB, list pages 160 KB) is taken only if the storage budget cannot be met otherwise. Cores of
+800-2000 characters in at most 4 slices of 300-500 are tried; the plan kept has the fewest bytes over page budgets
+plus a quarter of all the extra bytes the core adds to cold first visits. The shipped core is kept while its plan
+scores within 5 % of the best (--new-core plans afresh), so content changes do not move every long page's URLs.
+Small keys (cold first visit at most 96 KB on their own), the lobby, its today-<id> blocks and any page with a
+later block never link the core, so a short poem stays at common + its own files.
 
 Outlines. Hints are dropped and charstrings desubroutinised. With --grid 2 (default) every outline point is moved
 to the nearest even coordinate of the 1000-unit em (at most 1 unit = 0.001 em, 0.03 px at 26 px), which makes the
@@ -48,7 +56,7 @@ the source: identical except zero-length or collinear line segments merged; anyt
 (An earlier draft rescaled to 500 units per em; fontTools wrote those CID-keyed CFF files without a FontMatrix, so
 the CFF data said 1000 units while head said 500. That is gone: --grid 1 keeps the exact source outlines.)
 """
-import argparse, hashlib, io, json, math, os, random, re, sys, time, urllib.request
+import argparse, hashlib, heapq, io, json, math, os, random, re, sys, time, urllib.request
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
@@ -80,7 +88,7 @@ SOURCES = {
 LICENSE_FILE = 'LICENSE-OFL.txt'
 LICENSE_SHA = '6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2'
 PUNCT_FILE = 'punct-serif-400.woff2'
-SPACE = '　'  # the ideographic space needs no glyph from us
+SPACE = '\u3000'  # the ideographic space needs no glyph from us
 
 # Ideograph subsets keep only what horizontal text uses. The punctuation face keeps the spacing and vertical features
 # (text-spacing-trim uses halt/chws). --vertical keeps the vertical tables in every file (vertical text is phase 2).
@@ -95,9 +103,11 @@ WORK_CAP_KB = 256        # spec §3.6: longest works, per visible script
 LIST_CAP_KB = 160        # spec §3.6: shelf, index and author pages
 SHORT_KB = 64            # spec §3.6: short poem, common file included
 W600_WARN = 16 * 1024    # spec §3.5: a page's 600 file over 16 KB is an editorial problem (too much bold)
-CORE_SIZES = (400, 800, 1200, 1600, 2000, 2400, 3200)  # core sizes tried (characters)
-SLICE_SIZES = (200, 300, 400)                          # characters per core slice
-MAX_SLICES = 8           # at most this many core files exist, so a long page downloads at most 8 of them
+CORE_SIZES = (800, 1200, 1600, 2000)   # core sizes tried (characters)
+SLICE_SIZES = (300, 400, 500)          # characters per core slice
+MAX_SLICES = 4           # at most 4 core files, so a long page links at most 6 stylesheets and 7 font files
+PENALTY_WEIGHT = 0.25    # plan score: bytes over page budgets + this × all extra cold bytes the core causes
+PREV_SLACK = 1.05        # keep the shipped core while its plan scores within 5 % of the best new one
 BLOCK = 4096             # file-system block, only for the "on disk" figure in the report
 
 
@@ -347,7 +357,6 @@ def verify_snapped(data, record, grid, cmap):
     if worst > grid / 2:
         sys.exit(f'a point moved {worst} units on a {grid}-unit grid')
     # a few glyphs for the log: points and bounds before -> after
-    rev = {v: k for k, v in cmap.items()}
     samples = []
     for ch in '雪永道德經鬱':
         g = cmap.get(ord(ch))
@@ -402,7 +411,7 @@ def intermediate(path, chars, grid, label):
         data = buf.getvalue()
         worst, merged, samples = verify_snapped(data, record, grid, cmap)
         note = (f'outlines on a {grid}-unit grid: {len(record)} glyphs drawn back, every point within {worst} unit '
-                f'(0.001 em) of the source, {merged} with collinear or zero-length lines merged')
+                f'({worst / 1000:g} em) of the source, {merged} with collinear or zero-length lines merged')
         if samples:
             note += '\n    ' + '; '.join(samples)
     f = TTFont(io.BytesIO(data), lazy=True)
@@ -556,7 +565,7 @@ def fit_model(cutter, weights, pool):
         y.append(got[s]['bytes'])
     coef = lstsq(rows, y)
     err = max(abs(sum(a * b for a, b in zip(coef, r)) - t) / t for r, t in zip(rows, y))
-    return Model(weights, coef), err
+    return Model(weights, coef), err, len(specs)
 
 
 # ---------------------------------------------------------------- planning
@@ -608,9 +617,10 @@ def make_slices(keys, cand, N, L):
     return out
 
 
-def greedy(keys, cand, slices, size, common, common_bytes, base_store, target):
+def greedy(keys, cand, slices, size, common, common_bytes, base_store, target, passes=('capped', 'over', 'all')):
     """Link (key, slice) pairs, cheapest extra download per byte of storage saved first, until the store fits.
-    Pass 1 keeps every key within its budget if it was within it alone; pass 2 (only if still over) does not."""
+    Pass "capped" keeps every key within its budget (if it was within it alone); if the store still does not fit,
+    pass "over" adds links only to keys that are over their budget anyway, and pass "all" to any key."""
     ssize = [size(s) for s in slices]
     links = {n: [] for n in cand}
     parts = {n: own_parts(keys[n]) for n in cand}
@@ -628,12 +638,13 @@ def greedy(keys, cand, slices, size, common, common_bytes, base_store, target):
         c = cold(keys[n], p, slices, [(j, ssize[j]) for j in ls], size, common, common_bytes)
         return stor[n] - st, c - ck[n], p, st, c
 
-    for capped in (True, False):
+    for mode in passes:
         if store <= target:
             break
         heap = []
-        import heapq
         for n in cand:
+            if mode == 'over' and ck[n] <= cap_of(n):
+                continue
             for i in range(len(slices)):
                 if i in links[n] or not (slices[i] & (keys[n].all400 - keys[n].ex400)):
                     continue
@@ -650,7 +661,7 @@ def greedy(keys, cand, slices, size, common, common_bytes, base_store, target):
             if abs(pen / sv - r) > 1e-12:
                 heapq.heappush(heap, (pen / sv, n, i))
                 continue
-            if capped and c > cap_of(n) and own_cold[n] <= cap_of(n):
+            if mode == 'capped' and c > cap_of(n) and own_cold[n] <= cap_of(n):
                 continue
             links[n].append(i)
             parts[n], stor[n], ck[n] = p, st, c
@@ -661,11 +672,14 @@ def greedy(keys, cand, slices, size, common, common_bytes, base_store, target):
         if not u:
             store -= ssize[i]
     penalty = sum(ck[n] - own_cold[n] for n in cand)
-    return links, store, penalty, used
+    overage = sum(max(0, ck[n] - cap_of(n)) for n in cand)
+    return links, store, penalty, overage, used
 
 
-def make_plan(keys, common, size, target):
-    """{'slices': [chars], 'links': {key: [slice index]}, 'store': estimate, 'penalty': extra cold bytes}."""
+def make_plan(keys, common, size, target, prev=None):
+    """{'slices': [chars], 'links': {key: [slice index]}, 'store': estimate, 'penalty': extra cold bytes}. With prev
+    (the core slices shipped now), that core is kept while it still fits and scores within PREV_SLACK of the best, so
+    a content change does not give every long page new font URLs."""
     common_bytes = size(common)
     own = {n: own_parts(k) for n, k in keys.items()}
     base_store = common_bytes + sum(size(c) for parts in own.values() for _, _, c in parts)
@@ -676,20 +690,27 @@ def make_plan(keys, common, size, target):
     protected = {n for n, k in keys.items() if n.startswith(OWN_ONLY) or k.children or k.parents
                  or own_cold[n] <= PROTECT_KB * 1024}
     cand = sorted(n for n in keys if n not in protected)
-    best = None
-    for N in CORE_SIZES:
-        for L in SLICE_SIZES:
-            if -(-N // L) > MAX_SLICES:
-                continue
-            slices = make_slices(keys, cand, N, L)
-            if not slices:
-                continue
-            store0 = base_store - sum(size(c) for n in cand for _, _, c in own[n])
-            store0 += sum(size(c) for n in cand for _, _, c in own[n])  # (own files of candidates, before links)
-            links, store, penalty, used = greedy(keys, cand, slices, size, common, common_bytes, base_store, target)
-            score = (store > target, penalty if store <= target else store, N, L)
-            if best is None or score < best[0]:
-                best = (score, N, L, slices, links, store, penalty, used)
+    configs = [(N, L, make_slices(keys, cand, N, L)) for N in CORE_SIZES for L in SLICE_SIZES if -(-N // L) <= MAX_SLICES]
+    if prev:
+        usable = set().union(*[keys[n].all400 - keys[n].ex400 for n in cand]) if cand else set()
+        kept = [frozenset(set(s) & usable) for s in prev]
+        kept = [s for s in kept if s]
+        if kept and len(kept) <= MAX_SLICES:
+            configs.append(('previous', max(len(s) for s in kept), kept))
+    best = kept_prev = None
+    for N, L, slices in configs:
+        if not slices:
+            continue
+        links, store, penalty, overage, used = greedy(keys, cand, slices, size, common, common_bytes, base_store, target)
+        # bytes over the page budgets count four times as much as extra bytes within them
+        cost = (overage + PENALTY_WEIGHT * penalty) if store <= target else store
+        entry = ((store > target, cost, str(N), L), N, L, slices, links, store, penalty, used)
+        if N == 'previous':
+            kept_prev = entry
+        elif best is None or entry[0] < best[0]:
+            best = entry
+    if kept_prev and not kept_prev[0][0] and (best is None or best[0][0] or kept_prev[0][1] <= best[0][1] * PREV_SLACK):
+        best = kept_prev
     if best is None:
         return plan
     _, N, L, slices, links, store, penalty, used = best
@@ -697,6 +718,15 @@ def make_plan(keys, common, size, target):
     renum = {old: new for new, old in enumerate(keep)}
     plan.update(slices=[slices[i] for i in keep], N=N, L=L, store=store, penalty=penalty,
                 links={n: sorted(renum[i] for i in ls) for n, ls in links.items() if ls})
+    ss = [size(s) for s in plan['slices']]
+    over, top = 0, 0
+    for n, k in keys.items():
+        ls = plan['links'].get(n, [])
+        linked = frozenset().union(*[plan['slices'][i] for i in ls])
+        c = cold(k, own_parts(k, linked), plan['slices'], [(i, ss[i]) for i in ls], size, common, common_bytes)
+        over += c > cap_of(n)
+        top = max(top, c)
+    plan.update(over=over, top=top)
     return plan
 
 
@@ -737,9 +767,9 @@ def safe_names(names):
     return out
 
 
-def stash(path, root):
-    """Move a file out of the site into .cache/cjk-stale/, keeping its path below root. Never deletes: an existing
-    stale file is only replaced by identical bytes; otherwise the new copy gets a numbered name."""
+def stash(path, root, move=True):
+    """Move (or copy) a file out of the site into .cache/cjk-stale/, keeping its path below root. Never deletes: an
+    existing stale file is only replaced by identical bytes; otherwise the new copy gets a numbered name."""
     try:
         r = path.relative_to(root)
     except ValueError:
@@ -751,15 +781,23 @@ def stash(path, root):
     while dst.exists() and dst.read_bytes() != data:
         n += 1
         dst = base.with_name(f'{base.name}.{n}')
-    os.replace(path, dst)
+    if move:
+        os.replace(path, dst)
+    elif not dst.exists():
+        dst.write_bytes(data)
     return dst
 
 
 def write_if_changed(path, data):
+    """Write a file unless it already holds these bytes; an older version is copied to .cache/cjk-stale/ first."""
     path.parent.mkdir(parents=True, exist_ok=True)
     b = data.encode('utf-8') if isinstance(data, str) else data
-    if not path.exists() or path.read_bytes() != b:
-        path.write_bytes(b)
+    if path.exists():
+        if path.read_bytes() == b:
+            return False
+        stash(path, OUT, move=False)
+    path.write_bytes(b)
+    return True
 
 
 def json_lines(obj):
@@ -799,10 +837,14 @@ def build_files(keys, plan, common, cutter, punct_bytes, lic_bytes, missing, pun
         specs += [(w, c) for _, w, c in parts[n]]
     got = cutter.cut(specs)
 
+    shipped = {}  # content hash → path: keys whose part is byte-identical share one file
+
     def put(tmpl, weight, chars):
         e = got[(weight, chars)]
-        r = tmpl.format(h=e['hash'])
-        files[r] = cutter.bytes_of(e['hash'])
+        r = shipped.get(e['hash'])
+        if r is None:
+            r = shipped[e['hash']] = tmpl.format(h=e['hash'])
+            files[r] = cutter.bytes_of(e['hash'])
         return HREF + r, e['bytes']
 
     out_map = {'version': 3, 'family': FAMILY, 'source': 'Noto Serif SC 2.003', 'grid': grid}
@@ -814,11 +856,13 @@ def build_files(keys, plan, common, cutter, punct_bytes, lic_bytes, missing, pun
         r = f'common.{sha256(doc.encode())[:10]}.css'
         files[r] = doc.encode()
         out_map['common'] = {'css': HREF + r, 'href': href, 'bytes': b}
-    core_faces, out_map['core'], cover['core'] = [], [], []
+    out_map['core'], cover['core'] = [], []
     for i, chars in enumerate(slices):
         href, b = put(f'core/{i:02d}.{{h}}.woff2', '400', chars)
-        core_faces.append(face(href, '400', chars))
-        out_map['core'].append({'href': href, 'bytes': b, 'n': len(chars)})
+        doc = css_doc(f'shared core slice {i}', [face(href, '400', chars)])
+        r = f'core/{i:02d}.{sha256(doc.encode())[:10]}.css'
+        files[r] = doc.encode()
+        out_map['core'].append({'css': HREF + r, 'href': href, 'bytes': b, 'n': len(chars)})
         cover['core'].append(chars)
     out_map['keys'], cover['keys'] = {}, {}
     names = safe_names(sorted(keys))
@@ -832,10 +876,9 @@ def build_files(keys, plan, common, cutter, punct_bytes, lic_bytes, missing, pun
             cv[part] = chars
         ls = plan['links'].get(n, [])
         if ls:
-            faces += [core_faces[i] for i in ls]
             entry['core'] = cv['core'] = ls
         if faces:
-            label = n + (f' (+ core {",".join(str(i) for i in ls)})' if ls else '')
+            label = n + (f' (pages also link core slice CSS {",".join(str(i) for i in ls)})' if ls else '')
             doc = css_doc(label, faces)
             r = f'k/{safe}.{sha256(doc.encode())[:10]}.css'
             files[r] = doc.encode()
@@ -863,23 +906,6 @@ def finish_map(files, out_map):
 
 
 # ---------------------------------------------------------------- report
-def visit_bytes(k, entry, out_map, common):
-    """Real bytes a cold first visit downloads, per visible script; and the same with the core slices cached."""
-    cb = out_map.get('common', {}).get('bytes', 0)
-    core = out_map.get('core', [])
-    out, warm = {}, {}
-    for view, vis in k.views():
-        t = cb if vis & common else 0
-        for part in ('base', view, 'w600'):
-            if part and part in entry:
-                t += entry[part]['bytes']
-        w = t
-        for i in entry.get('core', []):
-            pass
-        out[view or 'only'], warm[view or 'only'] = t, w
-    return out, warm
-
-
 def report_data(keys, out_map, cover, common, files):
     core = out_map.get('core', [])
     core_sets = [set(s) for s in cover.get('core', [])]
@@ -918,7 +944,7 @@ def report_data(keys, out_map, cover, common, files):
              for n in keys if n.startswith('grid:') for p in keys[n].parents[:1]}
     samples = {}
     for n in ('S-001001', 'S-002001', 'S-002002', 'S-002005', 'S-003001', 'S-005001', 'page:lobby', 'page:open-stacks',
-              'page:open-stacks/poetry', 'page:open-stacks/claude', 'page:', 'page:about'):
+              'page:open-stacks/poetry', 'page:open-stacks/claude', 'page:about'):
         if n in keys:
             samples[n] = {'core': out_map['keys'][n].get('core', []), 'visit': visits[n], 'warm': visit(n, True)}
     small_over = sorted(((worst[n], n) for n in keys if worst[n] > SHORT_KB * 1024 and not out_map['keys'][n].get('core')
@@ -948,7 +974,7 @@ def report_data(keys, out_map, cover, common, files):
 def print_report(r):
     log(f'\n{FAMILY}: {r["keys"]} font keys, {r["files"]} files, {r["total_bytes"] / 1e6:.2f} MB '
         f'({r["woff2_files"]} WOFF2 {r["woff2_bytes"] / 1e6:.2f} MB, CSS {r["css_bytes"] / 1e6:.2f} MB, JSON {r["json_bytes"] / 1e6:.2f} MB); '
-        f'{r["on_disk_bytes"] / 1e6:.2f} MB in 4 KB blocks (what du shows)')
+        f'on disk {r["on_disk_bytes"] / 2**20:.1f} MiB, as du -sh counts it (each file rounded up to a 4 KB block)')
     log(f'  common: {r["common_chars"]} characters, {kb(r["common_bytes"])}; core: {r["core_slices"]} slices, '
         f'{r["core_chars"]} characters, {kb(r["core_bytes"])}, linked by {r["core_keys"]} keys')
     log('  cold first visit, common file included (per visible script; "cached" = with the core slices already cached):')
@@ -961,7 +987,8 @@ def print_report(r):
     for n, g in sorted(r['grids'].items()):
         log(f'    {g["page"]:28} {kb(g["page_bytes"])}; its grid view adds {kb(g["grid_extra"])} → {kb(g["total"])}')
     if r['small_over_64KB']:
-        log(f'  over 64 KB without the core ({len(r["small_over_64KB"])}): ' + ', '.join(f'{n} {kb(b)}' for n, b in r['small_over_64KB']))
+        log(f'  works kept off the core but over the 64 KB short-poem budget ({len(r["small_over_64KB"])}): '
+            + ', '.join(f'{n} {kb(b)}' for n, b in r['small_over_64KB']))
     if r['works_over_256KB']:
         log(f'  works over 256 KB cold ({len(r["works_over_256KB"])}): ' + ', '.join(f'{n} {kb(b)}' for n, b in r['works_over_256KB']))
     if r['lists_over_160KB']:
@@ -1013,17 +1040,23 @@ def check(keys, missing, common, punct):
         if e is None:
             problems.append(f'{n}: in the manifest but not in map.json')
             continue
-        faces = common_faces + (faces_of(e['css']) if 'css' in e else [])
+        def page_faces(entry):
+            out = faces_of(entry['css']) if 'css' in entry else []
+            for i in entry.get('core', []):
+                out += faces_of(mp['core'][i]['css'])
+            return out
+        faces = common_faces + page_faces(e)
         for p in k.parents:
-            pe = mp['keys'].get(p, {})
-            faces = faces + (faces_of(pe['css']) if 'css' in pe else [])
+            faces = faces + page_faces(mp['keys'].get(p, {}))
         seen = {}
         for w, src, chars in faces:
+            clash = None
             for c in chars:
                 o = seen.setdefault((w, c), src)
-                if o != src:
-                    problems.append(f'{n}: U+{ord(c):04X} is in two files a page loads ({o}, {src})')
-                    break
+                if o != src and clash is None:
+                    clash = (c, o)
+            if clash:
+                problems.append(f'{n}: U+{ord(clash[0]):04X} is in two files a page loads ({clash[1]}, {src})')
         cov4 = {c for (w, c) in seen if w.startswith('400')} | free
         cov6 = {c for (w, c) in seen if w.startswith('600')} | free
         lack = (k.all400 - cov4) | (k.w600 - cov6)
@@ -1044,7 +1077,10 @@ def main():
     ap.add_argument('--refresh-common', action='store_true', help='recompute tools/cjk-common.txt from the manifest')
     ap.add_argument('--common-size', type=int, default=120)
     ap.add_argument('--budget-mb', type=float, default=15.0, help='all files under fonts/cjk/, in MB of 1,000,000 bytes')
+    ap.add_argument('--budget-blocks', action='store_true',
+                    help='count the budget in 4 KB file-system blocks (what du shows) instead of bytes (what git stores)')
     ap.add_argument('--grid', type=int, default=2, choices=(1, 2), help='outline grid in font units (1 = exact)')
+    ap.add_argument('--new-core', action='store_true', help='plan the shared core afresh instead of keeping the shipped one')
     ap.add_argument('--vertical', action='store_true', help='keep the vertical tables and features (vertical text)')
     ap.add_argument('--jobs', type=int, default=max(1, (os.cpu_count() or 2) - 1))
     ap.add_argument('--dry-run', action='store_true', help='plan and estimate only; write nothing in the site')
@@ -1105,8 +1141,9 @@ def main():
                 mp['keys'].setdefault(n, {})
             r = report_data(keys, mp, cv, common, files)
             print_report(r)
-            if r['total_bytes'] > a.budget_mb * 1e6:
-                problems.append(f'{r["total_bytes"] / 1e6:.2f} MB is over the {a.budget_mb} MB budget')
+            measured = r['on_disk_bytes'] if a.budget_blocks else r['total_bytes']
+            if measured > a.budget_mb * 1e6:
+                problems.append(f'{measured / 1e6:.2f} MB is over the {a.budget_mb} MB budget')
         for p in problems[:60]:
             log(f'  PROBLEM: {p}')
         if len(problems) > 60:
@@ -1126,9 +1163,9 @@ def main():
     if '600' in inter:
         for c, v in glyph_weights(inter['600']).items():
             weights.setdefault(c, v)
-    model, err = fit_model(cutter, weights, sorted(union400 - common))
-    log(f'  size model: bytes = S·({model.coef[0]:.3f} {model.coef[1]:+.4f}·ln(n+1)) + {model.coef[2]:.0f}, '
-        f'S = summed charstring bytes; within {err * 100:.1f}% on {sum(1 for _ in range(1))} calibration set')
+    model, err, ncal = fit_model(cutter, weights, sorted(union400 - common))
+    log(f'  size model: bytes = S·({model.coef[0]:.3f} {model.coef[1]:+.4f}·ln(n+1)) + {model.coef[2]:.0f} '
+        f'(S = summed charstring bytes of the n glyphs), within {err * 100:.1f}% on {ncal} calibration cuts')
 
     # Punctuation face (spec §3.5): keep the shipped file while it covers its unicode-range.
     punct_path = OUT / PUNCT_FILE
@@ -1144,21 +1181,30 @@ def main():
     elif sha256(lic_bytes) != LICENSE_SHA:
         log('  note: OFL.txt is not the pinned Noto CJK licence text')
 
+    prev = None
+    try:
+        old = json.loads((OUT / 'coverage.json').read_text(encoding='utf-8'))
+        if old.get('version') == 3 and old.get('core') and not a.new_core:
+            prev = old['core']
+    except (OSError, ValueError):
+        pass
     budget = int(a.budget_mb * 1_000_000)
     target = budget * 0.93
     for attempt in range(5):
-        plan = make_plan(keys, common, model, target)
+        plan = make_plan(keys, common, model, target, prev)
         nlinked = len(plan['links'])
         log(f'plan: own files {plan["own_store"] / 1e6:.2f} MB (estimate) for a WOFF2 target of {target / 1e6:.2f} MB; '
             + (f'core of {sum(len(s) for s in plan["slices"])} characters in {len(plan["slices"])} slices '
-               f'(tried up to {plan["N"]} in slices of {plan["L"]}), linked by {nlinked} keys, '
-               f'about {plan["penalty"] / 1e6:.2f} MB of extra cold downloads in all; estimate {plan["store"] / 1e6:.2f} MB'
+               + (f'(the shipped core, kept) ' if plan['N'] == 'previous' else f'(best of the sizes tried: {plan["N"]} in slices of {plan["L"]}) ')
+               + f'linked by {nlinked} keys, '
+               f'about {plan["penalty"] / 1e6:.2f} MB of extra cold downloads in all; estimate {plan["store"] / 1e6:.2f} MB; '
+               f'{plan["over"]} keys over their budget, largest cold visit {kb(plan["top"])}'
                if plan['slices'] else 'no core needed'))
         if a.dry_run:
             return 0
         files, out_map, parts = build_files(keys, plan, common, cutter, punct_bytes, lic_bytes, missing, punct, a.grid)
         finish_map(files, out_map)
-        total = sum(len(b) for b in files.values())
+        total = sum((-(-len(b) // BLOCK) * BLOCK) if a.budget_blocks else len(b) for b in files.values())
         if total <= budget:
             break
         target -= (total - budget) * 1.05 + 20_000
@@ -1178,11 +1224,6 @@ def main():
     if OLD_CSS.exists():
         stash(OLD_CSS, OLD_CSS.parent)
         moved += 1
-    for d in sorted((p for p in OUT.rglob('*') if p.is_dir()), key=lambda p: -len(p.parts)):
-        try:
-            d.rmdir()  # only succeeds for an empty folder
-        except OSError:
-            pass
     if moved:
         log(f'  moved {moved} files that are no longer used to {rel(STALE)}/')
 

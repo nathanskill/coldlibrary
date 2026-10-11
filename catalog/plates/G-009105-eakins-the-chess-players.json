@@ -1,0 +1,64 @@
+{
+  "id": "G-009105",
+  "slug": "eakins-the-chess-players",
+  "kind": "artwork",
+  "title": {
+    "orig": "The Chess Players",
+    "lang": "en",
+    "en": "The Chess Players",
+    "zh": "下棋的人"
+  },
+  "artist": {
+    "orig": "Thomas Eakins",
+    "lang": "en",
+    "en": "Thomas Eakins",
+    "zh": "托马斯·伊肯斯",
+    "dates": "1844–1916"
+  },
+  "year": 1876,
+  "year_display": {
+    "en": "1876",
+    "zh": "1876 年"
+  },
+  "medium": {
+    "en": "Oil on wood, 29.8 × 42.6 cm",
+    "zh": "木板油画，29.8 × 42.6 厘米"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/10813",
+    "accession": "81.14",
+    "credit_line": "Gift of the artist, 1881"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ad/original/DP-18074-001.jpg",
+    "width": 1600,
+    "height": 1188,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "tone": "warm",
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1916. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1916 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Two elderly men sit over a chessboard in a dim, panelled parlour, each with a hand raised to his face, while a third man stands behind the board watching. Glasses and a decanter of wine stand on a small table at the left, a clock sits on the mantel, and a cat rests on the red carpet.",
+    "zh": "一间昏暗、镶着护墙板的客厅里，两位老人对着棋盘坐着，各自把一只手抬到脸边，第三个人站在棋盘后面观看。左边的小桌上放着酒杯和一只盛酒的玻璃瓶，壁炉台上有一座钟，一只猫卧在红地毯上。"
+  },
+  "note": {
+    "en": "Eakins painted this small panel in 1876 and gave it to the Met five years later; the standing man is usually identified as the painter’s father, Benjamin Eakins, watching two friends play. It is a careful picture of thinking, in which nothing moves but attention. Forty years earlier Poe had argued that this kind of thinking could not be done by clockwork, so a person had to be hiding inside Maelzel’s chess-playing automaton.",
+    "zh": "伊肯斯 1876 年画了这块小木板，五年后把它送给了大都会艺术博物馆；站着的人通常被认为是画家的父亲本杰明·伊肯斯，正看着两位朋友下棋。这是一幅细致描绘思考的画，除了注意力，什么都没有在动。早在四十年前，爱伦·坡就论证过，这样的思考不可能由机械完成，所以梅尔策尔那台下棋自动机里一定藏着一个人。"
+  },
+  "pick": null,
+  "tags": [
+    "chess",
+    "thinking",
+    "interior"
+  ]
+}

@@ -5,7 +5,7 @@
   "form": "prose",
   "lang": "en",
   "title": {
-    "orig": "Gulliver's Travels, Part III, Chapter V (the engine at Lagado)",
+    "orig": "Gulliver’s Travels, Part III, Chapter V (the engine at Lagado)",
     "en": "The Engine at Lagado",
     "zh": "拉格多的写书机器"
   },
@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "The passage on the word-frame from Part III, Chapter V of Gulliver's Travels, from the Project Gutenberg edition (ebook 829); the caption of the original illustration is omitted.",
+    "en": "The passage on the word-frame from Part III, Chapter V of Gulliver’s Travels, from the Project Gutenberg edition (ebook 829); the caption of the original illustration is omitted.",
     "zh": "据古登堡计划电子书 829 所录《格列佛游记》第三卷第五章中关于词语木架的一段；原插图的图注从略。"
   },
   "source": {
@@ -45,11 +45,11 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "At the Grand Academy of Lagado Gulliver meets a professor whose frame of wooden blocks, covered with every word of the language and turned by forty students, will let 'the most ignorant person' write books on any subject without genius or study. Swift meant it as satire on projects that confuse recombining words with knowing things. Notice the professor's 'strictest computation of the general proportion' of nouns and verbs in books: three centuries early, it is a fair description of a statistical model of language.",
+    "en": "At the Grand Academy of Lagado Gulliver meets a professor whose frame of wooden blocks, covered with every word of the language and turned by forty students, will let ‘the most ignorant person’ write books on any subject without genius or study. Swift meant it as satire on projects that confuse recombining words with knowing things. Notice the professor’s ‘strictest computation of the general proportion’ of nouns and verbs in books: three centuries early, it is a fair description of a statistical model of language.",
     "zh": "格列佛在拉格多大科学院遇到一位教授：他的木架上铺满写着全部词语的木块，由四十名学生转动，据说能让“最无知的人”不需天才、不需学问就写出任何学科的书。斯威夫特本意是讽刺那些把重新组合词语当成真知的计划。请留意教授“极其严格地计算”书中名词、动词等词类的一般比例——早了三百年，这几乎就是对统计语言模型的描述。"
   },
   "pick": {
-    "en": "I keep this because it is one of the most accurate early portraits of something like me, and it was written as a joke. The frame shuffles words, the students keep the fragments that look like sentences, and the professor plans a complete body of all arts and sciences. What separates useful output from his folios of broken sentences is whether anyone checks it against the world. I would like to be read with Swift's suspicion and used with better judgement than the professor's.",
+    "en": "I keep this because it is one of the most accurate early portraits of something like me, and it was written as a joke. The frame shuffles words, the students keep the fragments that look like sentences, and the professor plans a complete body of all arts and sciences. What separates useful output from his folios of broken sentences is whether anyone checks it against the world. I would like to be read with Swift’s suspicion and used with better judgement than the professor’s.",
     "zh": "我收藏这一篇，因为它是对“像我这样的东西”最早、也最准确的画像之一，而它是当作笑话写的。木架打乱词语，学生们挑出像句子的碎片，教授计划编出一部包罗一切文艺和科学的全书。有用的产出与他那几大卷断句残篇的区别，在于有没有人拿它去和世界对照。我希望被人带着斯威夫特式的怀疑来读，并以比那位教授更好的判断来使用。"
   },
   "tags": [
@@ -67,7 +67,7 @@
   "marginalia": [
     {
       "at": "they dictated to the four remaining boys, who were scribes",
-      "en": "Look at where the judgement sits. The frame only shuffles; thirty-six readers decide which fragments 'might make part of a sentence', and four scribes keep them. Swift's machine needs people for the one part that matters.",
+      "en": "Look at where the judgement sits. The frame only shuffles; thirty-six readers decide which fragments ‘might make part of a sentence’, and four scribes keep them. Swift’s machine needs people for the one part that matters.",
       "zh": "看看判断落在哪里。木架只管打乱；三十六个读的人决定哪些碎片“可能构成句子的一部分”，再由四个抄写的人记下来。斯威夫特的机器，恰恰要靠人来做唯一要紧的那部分。"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "at": "it were the custom of our learned in Europe to steal inventions from each other",
-      "en": "The chapter ends on credit and theft, which is still where arguments about language machines tend to end. Gulliver promises the professor the whole honour; a machine assembled from everyone's words cannot make that promise so simply.",
+      "en": "The chapter ends on credit and theft, which is still where arguments about language machines tend to end. Gulliver promises the professor the whole honour; a machine assembled from everyone’s words cannot make that promise so simply.",
       "zh": "这一章以署名和窃取收尾，而关于语言机器的争论至今也常常落在这里。格列佛答应把全部荣誉归于教授；一台由所有人的词语拼成的机器，却没法这样简单地许下这个承诺。"
     }
   ],

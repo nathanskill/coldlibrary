@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Two sections of Budge's British Museum guide The Rosetta Stone (London, 1913), via Project Gutenberg: on the writing and on the contents of the inscription. Budge's capitals for emphasis are set in ordinary type, and the first heading is supplied by Cold Library, since that passage has none in the guide.",
+    "en": "Two sections of Budge’s British Museum guide The Rosetta Stone (London, 1913), via Project Gutenberg: on the writing and on the contents of the inscription. Budge’s capitals for emphasis are set in ordinary type, and the first heading is supplied by Cold Library, since that passage has none in the guide.",
     "zh": "巴奇为大英博物馆所写的小册子《罗塞塔石碑》（伦敦，1913 年）中的两节，经古登堡计划：关于铭文的文字和铭文的内容。巴奇用以强调的大写字母改为普通字体；第一个小标题为冷冻图书馆所加，原书该段没有标题。"
   },
   "source": {
@@ -45,7 +45,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "The Rosetta Stone carries a decree of 196 BCE honouring the young king Ptolemy V, and the decree itself orders that it be cut in three scripts: hieroglyphs, the sacred writing; demotic, the everyday Egyptian hand; and Greek, the language of the government. Budge, keeper of Egyptian antiquities at the British Museum, summarises it here and translates its final clause. It is on this shelf because the priests' practical decision to say the same thing three times is what let readers two thousand years later learn the first script again. Budge calls the stone basalt; it has since been identified as granodiorite.",
+    "en": "The Rosetta Stone carries a decree of 196 BCE honouring the young king Ptolemy V, and the decree itself orders that it be cut in three scripts: hieroglyphs, the sacred writing; demotic, the everyday Egyptian hand; and Greek, the language of the government. Budge, keeper of Egyptian antiquities at the British Museum, summarises it here and translates its final clause. It is on this shelf because the priests’ practical decision to say the same thing three times is what let readers two thousand years later learn the first script again. Budge calls the stone basalt; it has since been identified as granodiorite.",
     "zh": "罗塞塔石碑上刻的是公元前 196 年尊崇年轻国王托勒密五世的一道敕令，而敕令本身就规定要用三种文字刻写：神圣的圣书体，日常埃及语所用的世俗体，以及官府的语言希腊文。大英博物馆埃及文物部主管巴奇在这里概述了它的内容，并翻译了它的最后一条。它在这个书架上，是因为祭司们把同一件事说三遍的务实决定，让两千年后的读者重新学会了第一种文字。巴奇称石碑为玄武岩；后来查明它是花岗闪长岩。"
   },
   "pick": null,
@@ -56,8 +56,8 @@
     "languages"
   ],
   "excerpt": {
-    "orig": "That copies of this Decree shall be cut upon slabs of basalt in the \"writing of the speech of the god,\" i.e. hieroglyphs, and in the writing of the books, i.e. demotic, and in the writing of the Ueienin, i.e. Greek.",
-    "en": "That copies of this Decree shall be cut upon slabs of basalt in the \"writing of the speech of the god,\" i.e. hieroglyphs, and in the writing of the books, i.e. demotic, and in the writing of the Ueienin, i.e. Greek.",
+    "orig": "That copies of this Decree shall be cut upon slabs of basalt in the “writing of the speech of the god,” i.e. hieroglyphs, and in the writing of the books, i.e. demotic, and in the writing of the Ueienin, i.e. Greek.",
+    "en": "That copies of this Decree shall be cut upon slabs of basalt in the “writing of the speech of the god,” i.e. hieroglyphs, and in the writing of the books, i.e. demotic, and in the writing of the Ueienin, i.e. Greek.",
     "zh": "这份敕令的抄本要刻在玄武岩石板上，用“神的言语的文字”即圣书体，用“书本的文字”即世俗体，并用“伊奥尼亚人的文字”即希腊文。"
   },
   "plate": null,
@@ -65,7 +65,7 @@
     {
       "at": "Ueienin",
       "occ": 1,
-      "en": "Budge's transcription of the Egyptian name for the Greeks; it means, literally, the Ionians.",
+      "en": "Budge’s transcription of the Egyptian name for the Greeks; it means, literally, the Ionians.",
       "zh": "巴奇对埃及语中希腊人称谓的转写，字面意思是“伊奥尼亚人”。"
     }
   ],

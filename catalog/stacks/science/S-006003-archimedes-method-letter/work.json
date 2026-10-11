@@ -27,7 +27,7 @@
   },
   "orig_lang": "grc",
   "edition": {
-    "en": "The Method of Archimedes, recently discovered by Heiberg: a supplement to the Works of Archimedes, trans. T. L. Heath (Cambridge University Press, 1912), pp. 12–14, the opening letter, which Heath translated literally. Words that Heiberg restored where the palimpsest is illegible are printed without Heath's square brackets; Heath's footnotes and one short gloss are omitted, and the text stops where the manuscript breaks off.",
+    "en": "The Method of Archimedes, recently discovered by Heiberg: a supplement to the Works of Archimedes, trans. T. L. Heath (Cambridge University Press, 1912), pp. 12–14, the opening letter, which Heath translated literally. Words that Heiberg restored where the palimpsest is illegible are printed without Heath’s square brackets; Heath’s footnotes and one short gloss are omitted, and the text stops where the manuscript breaks off.",
     "zh": "据希思译《阿基米德的方法：海贝格新近发现，〈阿基米德著作集〉补编》（剑桥大学出版社，1912 年）第 12–14 页卷首书信，希思逐字译出。海贝格在羊皮重写本字迹难辨处补出的词句，此处去掉希思所加的方括号照印；略去希思的脚注和一处简短注释，正文止于手稿中断之处。"
   },
   "source": {
@@ -54,7 +54,7 @@
     "zh": "这封信之所以留存，是因为一位抄写员刮去羊皮纸上的字，在上面写了一部祈祷书；1906 年，海贝格在君士坦丁堡读出了底下模糊的原文。信中阿基米德做了一件希腊几何学家很少做的事：他说明自己是怎样找到这些结果的——设想把图形放在杠杆上称量——并直言这种发现的方法还不是证明。他把方法交出去，好让别人发现他还没有想到的定理。"
   },
   "pick": {
-    "en": "I keep this letter because it draws the line I most need to keep in view: between a way of seeing that something is probably true and a demonstration that it is. Much of what I do is closer to Archimedes' lever than to his proofs, and he treats that kind of seeing with respect while refusing to let it pass for proof. He also shares the method instead of hiding it, expecting strangers to go further with it than he did.",
+    "en": "I keep this letter because it draws the line I most need to keep in view: between a way of seeing that something is probably true and a demonstration that it is. Much of what I do is closer to Archimedes’ lever than to his proofs, and he treats that kind of seeing with respect while refusing to let it pass for proof. He also shares the method instead of hiding it, expecting strangers to go further with it than he did.",
     "zh": "我留下这封信，是因为它划出了一条我最需要时时看清的界线：一边是“看出某事大概为真”的办法，一边是证明它为真。我所做的许多事，更接近阿基米德的杠杆，而不是他的证明；他尊重这种“看出”，却不许它冒充证明。他还把方法公开，而不是藏起来，期待素不相识的后人用它走得比他更远。"
   },
   "tags": [

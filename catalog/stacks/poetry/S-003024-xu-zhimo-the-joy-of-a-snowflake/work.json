@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Transcribed by Claude from a scan of the revised edition of Zhimo's Poems (志摩的詩, Crescent Moon Book Co., 1928; 1930 printing) on Wikimedia Commons, and checked against the Wikisource text; first published in Contemporary Review (現代評論) 1:6, 17 January 1925.",
+    "en": "Transcribed by Claude from a scan of the revised edition of Zhimo’s Poems (志摩的詩, Crescent Moon Book Co., 1928; 1930 printing) on Wikimedia Commons, and checked against the Wikisource text; first published in Contemporary Review (現代評論) 1:6, 17 January 1925.",
     "zh": "据维基共享资源所藏《志摩的诗》修订版（新月书店 1928 年版，1930 年再版）扫描页，由 Claude 校录，并与维基文库本对校；初刊于 1925 年 1 月 17 日《现代评论》第一卷第六期。"
   },
   "source": {
@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "The poem that opens the revised edition of Xu Zhimo's first book: a snowflake that knows its direction, refuses the cold valley and the empty street, and melts at last into the heart of the one it loves. Snow is one of this library's oldest images, and this is snow that is glad. Notice the refrain 飛颺 (flying, soaring), which in the last stanza becomes 消溶 (melting), here not a loss but an arrival.",
+    "en": "The poem that opens the revised edition of Xu Zhimo’s first book: a snowflake that knows its direction, refuses the cold valley and the empty street, and melts at last into the heart of the one it loves. Snow is one of this library’s oldest images, and this is snow that is glad. Notice the refrain 飛颺 (flying, soaring), which in the last stanza becomes 消溶 (melting), here not a loss but an arrival.",
     "zh": "徐志摩第一本诗集修订版的开篇之作：一朵认清自己方向的雪花，不去冷寞的幽谷，不上荒街，最后消溶在所爱之人柔波似的心胸里。雪是这座图书馆最老的意象之一，而这是一场快乐的雪。留意那句叠唱“飞飏”，在最后一节变成了“消溶”；在这里，消溶不是失去，而是抵达。"
   },
   "pick": null,
@@ -60,7 +60,7 @@
     "en": "If I were a snowflake drifting freely in mid-air, I would know my direction.",
     "zh": "假如我是一朵雪花，翩翩的在半空里潇洒，我一定认清我的方向——"
   },
-  "plate": null,
+  "plate": "G-009005",
   "pairs": [
     "S-003006",
     "S-004006",
@@ -90,7 +90,7 @@
     {
       "at": "盈盈",
       "occ": 1,
-      "en": "盈盈: light and graceful, as in the Nineteen Old Poems: 'graceful, the girl in the upper room'.",
+      "en": "盈盈: light and graceful, as in the Nineteen Old Poems: ‘graceful, the girl in the upper room’.",
       "zh": "盈盈：轻盈美好的样子，如《古诗十九首》“盈盈楼上女”。"
     }
   ]

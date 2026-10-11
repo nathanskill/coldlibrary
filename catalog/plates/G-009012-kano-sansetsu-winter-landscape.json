@@ -1,13 +1,16 @@
 {
   "id": "G-009012",
   "slug": "kano-sansetsu-winter-landscape",
+  "kind": "artwork",
   "title": {
     "orig": "Winter Landscape",
+    "lang": "en",
     "en": "Winter Landscape",
     "zh": "冬景山水"
   },
   "artist": {
     "orig": "狩野山雪",
+    "lang": "ja",
     "en": "Kano Sansetsu",
     "zh": "狩野山雪",
     "dates": "1590–1651"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {

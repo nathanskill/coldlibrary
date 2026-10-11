@@ -1,0 +1,65 @@
+{
+  "id": "G-009103",
+  "slug": "seal-paste-box-with-eight-trigrams",
+  "kind": "object",
+  "title": {
+    "orig": "Seal paste box with eight trigrams",
+    "lang": "en",
+    "en": "Seal-Paste Box with the Eight Trigrams",
+    "zh": "八卦纹印泥盒"
+  },
+  "artist": {
+    "orig": "佚名",
+    "lang": "zh-Hant",
+    "en": "Unidentified potter (Jingdezhen ware)",
+    "zh": "佚名（景德镇窑）",
+    "dates": "Qing dynasty (1644–1911)"
+  },
+  "year": 1750,
+  "year_display": {
+    "en": "18th century",
+    "zh": "18 世纪"
+  },
+  "medium": {
+    "en": "Soft-paste porcelain painted in underglaze cobalt blue (Jingdezhen ware); diam. 11.4 cm",
+    "zh": "软质瓷，釉下青花（景德镇窑）；直径 11.4 厘米"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/47598",
+    "accession": "14.40.298a, b",
+    "credit_line": "Bequest of Benjamin Altman, 1913"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/20635.jpg",
+    "width": 1600,
+    "height": 1037,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "tone": "ink",
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: made at Jingdezhen in the 18th century by an unrecorded potter. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：18 世纪景德镇烧造，工匠未留名。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A black-and-white photograph of a low, round porcelain box with a flat lid. On the lid the eight trigrams, each a stack of three whole or broken lines, run in a ring around a yin-yang disc at the centre; a band of fine wavy lines circles the side.",
+    "zh": "一张黑白照片：一只低矮的圆形瓷盒，盒盖平坦。盖面上，八个卦象——每个由三道连续或断开的横线叠成——环绕着中央的阴阳图排成一圈；盒侧绕着一圈细密的波纹。"
+  },
+  "note": {
+    "en": "A box for the red paste used with seals, made at Jingdezhen, the porcelain town of the imperial kilns, and painted with the eight trigrams of the Book of Changes around the yin and yang. Each trigram is three lines, whole or broken, so there are exactly eight of them, which is why Leibniz could read them as the numbers from nought to seven written in binary. The Met’s photograph of it is in black and white.",
+    "zh": "这是盛放钤印用的红色印泥的盒子，产自设有御窑的瓷都景德镇，盖上用青花画着《易经》的八卦，环绕着阴阳图。每一卦三爻，或连或断，所以恰好有八个；这也是莱布尼茨能把它们读成用二进制写出的零到七的原因。大都会艺术博物馆为它留下的是一张黑白照片。"
+  },
+  "pick": null,
+  "tags": [
+    "trigrams",
+    "yijing",
+    "binary",
+    "porcelain"
+  ]
+}

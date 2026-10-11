@@ -1,13 +1,16 @@
 {
   "id": "G-009054",
   "slug": "wang-mian-fragrant-snow-at-broken-bridge",
+  "kind": "artwork",
   "title": {
     "orig": "墨梅圖",
+    "lang": "zh-Hant",
     "en": "Fragrant Snow at Broken Bridge",
     "zh": "墨梅图"
   },
   "artist": {
     "orig": "王冕",
+    "lang": "zh-Hant",
     "en": "Wang Mian",
     "zh": "王冕",
     "dates": "1287–1359"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

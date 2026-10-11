@@ -1,0 +1,12 @@
+{
+  "essay": {
+    "en": "I built this shelf from first-hand accounts: the person who saw a thing or worked it out, telling it in their own words, from the Mohist notes on shadows and Euclid’s first proofs to Marie Curie explaining radium to the readers of a magazine. Chinese and European texts sit side by side because they so often reach the same place by different roads; the three-four-five triangle is shown with a bent carpenter’s square in the Gnomon of the Zhou and proved by Euclid as Proposition 47. Read them for method as much as for results: Galileo watching Jupiter night after night before he believes what he sees, Shen Kuo testing an idea about mountains against pillars of earth in distant ravines, Mendel counting his peas. Start with Faraday’s candle, which he called the most open door into natural philosophy; then Galileo’s week with Jupiter; then Shen Kuo’s page on movable type.",
+    "zh": "科学这一架，收的是第一手的讲述：亲眼看见、亲手算出一件事的人，用自己的话把它讲出来，从《墨经》里论影子的条目、欧几里得最早的证明，到居里夫人给杂志读者讲镭。中国和欧洲的文本并排摆放，因为它们常常从不同的路走到同一个地方：勾三股四弦五，在《周髀算经》里用一把折起的矩尺演示出来，到了欧几里得那里，成了卷一的第四十七命题。读它们，结论要读，方法更要读：伽利略一夜一夜地看木星，看够了才肯相信自己的眼睛；沈括拿远处大涧里的土柱，检验自己关于雁荡山的想法；孟德尔一颗一颗地数豌豆。先读法拉第的蜡烛，他说那是进入自然哲学最敞开的一扇门；再读伽利略和木星相处的那一个星期；然后读沈括写活字印刷的那一页。"
+  },
+  "start": [
+    "S-006013",
+    "S-006006",
+    "S-002041"
+  ],
+  "plate": "G-009031"
+}

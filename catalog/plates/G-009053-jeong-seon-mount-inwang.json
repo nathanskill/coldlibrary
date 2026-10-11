@@ -1,13 +1,16 @@
 {
   "id": "G-009053",
   "slug": "jeong-seon-mount-inwang",
+  "kind": "artwork",
   "title": {
     "orig": "仁王山",
+    "lang": "ko",
     "en": "Mount Inwang",
     "zh": "仁王山"
   },
   "artist": {
     "orig": "정선 鄭敾",
+    "lang": "ko",
     "en": "Jeong Seon",
     "zh": "郑敾",
     "dates": "1676–1759"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "green",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -44,7 +48,7 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "alt": {
-    "en": "A hanging scroll of a steep, rocky mountain: a great dark rounded peak at the top, slopes thick with pines painted in quick dark dabs, and a tile-roofed house among trees near the bottom. The words Inwangsan and the painter's art name, Gyeomjae, are written at upper right above a red seal.",
+    "en": "A hanging scroll of a steep, rocky mountain: a great dark rounded peak at the top, slopes thick with pines painted in quick dark dabs, and a tile-roofed house among trees near the bottom. The words Inwangsan and the painter’s art name, Gyeomjae, are written at upper right above a red seal.",
     "zh": "一幅描绘陡峭石山的立轴：顶上是一座巨大、深色的圆峰，山坡上密布着用迅疾的深色点子画成的松树，近底部的树丛中有一座瓦顶房屋。右上方写着“仁王山”和画家的号“谦斋”，下钤一方朱印。"
   },
   "note": {

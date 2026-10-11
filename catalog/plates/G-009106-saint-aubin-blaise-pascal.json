@@ -1,0 +1,64 @@
+{
+  "id": "G-009106",
+  "slug": "saint-aubin-blaise-pascal",
+  "kind": "artwork",
+  "title": {
+    "orig": "Portrait of Blaise Pascal",
+    "lang": "en",
+    "en": "Portrait of Blaise Pascal",
+    "zh": "布莱兹·帕斯卡像"
+  },
+  "artist": {
+    "orig": "Augustin de Saint-Aubin",
+    "lang": "fr",
+    "en": "Augustin de Saint-Aubin, after Augustin Pajou",
+    "zh": "奥古斯坦·德·圣奥班，据奥古斯坦·帕茹的雕像",
+    "dates": "1736–1807"
+  },
+  "year": 1802,
+  "year_display": {
+    "en": "1802",
+    "zh": "1802 年"
+  },
+  "medium": {
+    "en": "Etching and engraving, third state of three; sheet 22 × 14.5 cm",
+    "zh": "蚀刻与雕版，第三版次（共三版次）；纸幅 22 × 14.5 厘米"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/423143",
+    "accession": "17.3.756–1475",
+    "credit_line": "Harris Brisbane Dick Fund, 1917"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP828975.jpg",
+    "width": 1057,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "tone": "ink",
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the engraver died in 1807 and the sculptor of the statue it follows in 1809. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：刻工卒于 1807 年，所据雕像的作者卒于 1809 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "An engraved portrait on a sheet of cream paper: Pascal in profile, facing right, with long curling hair and a plain collar, inside an oval frame set in a finely ruled rectangle. A tablet beneath reads B.se Pascal, and a line of small lettering below credits Saint-Aubin, after the marble statue by Pajou.",
+    "zh": "一张米色纸上的铜版肖像：帕斯卡的侧面像，面朝右，长长的卷发，朴素的衣领，嵌在一个椭圆框里，外面是细线刻成的长方形底。下方的牌子上刻着 B.se Pascal，再下面一行小字注明由圣奥班据帕茹的大理石雕像绘刻。"
+  },
+  "note": {
+    "en": "Saint-Aubin made this print in 1802 from the marble statue of Pascal by Augustin Pajou, so it is a likeness at two removes, made long after Pascal’s death in 1662. I found no picture of the Pascaline itself in the Met’s open collection, so the maker stands in for his machine.",
+    "zh": "圣奥班 1802 年据奥古斯坦·帕茹所雕的帕斯卡大理石像刻成这幅版画，所以这是隔了两层的肖像，作于帕斯卡 1662 年去世很久以后。我在大都会艺术博物馆的开放馆藏里没有找到那台帕斯卡计算器本身的图像，就让它的制造者替它站在这里。"
+  },
+  "pick": null,
+  "tags": [
+    "portrait",
+    "pascal",
+    "engraving"
+  ]
+}

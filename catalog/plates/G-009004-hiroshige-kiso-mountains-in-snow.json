@@ -1,13 +1,16 @@
 {
   "id": "G-009004",
   "slug": "hiroshige-kiso-mountains-in-snow",
+  "kind": "artwork",
   "title": {
     "orig": "木曽路之山川",
+    "lang": "ja",
     "en": "The Kiso Mountains in Snow",
     "zh": "木曾路之山川"
   },
   "artist": {
     "orig": "歌川広重",
+    "lang": "ja",
     "en": "Utagawa Hiroshige",
     "zh": "歌川广重",
     "dates": "1797–1858"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "snow",
   "rights": {
     "status": "public-domain",
     "basis": {

@@ -33,7 +33,7 @@
   "rights": {
     "status": "open-license",
     "basis": {
-      "en": "The memo itself states: 'Distribution of this memo is unlimited.' Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
+      "en": "The memo itself states: ‘Distribution of this memo is unlimited.’ Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
       "zh": "该备忘录自身声明：“本备忘录的分发不受限制。”依据 IETF 信托法律条款第 2.c 条，2015 年以前发表的 RFC 仍适用发表时的条款：允许完整、不加修改地复制和分发，但未授予翻译权。因此原文按原样收录（仅调整版面），以摘要代替翻译。"
     },
     "license": "RFC distribution statement: “Distribution of this memo is unlimited.”",
@@ -43,7 +43,7 @@
   },
   "translations": {},
   "note": {
-    "en": "Scott Bradner's two-page memo fixes the meaning of MUST, SHOULD, MAY and their relatives in Internet standards, and those capitalised words now appear in thousands of specifications. It is a small piece of careful drafting: agreeing on how strongly a sentence binds before arguing about what it says. Notice section 6, which asks that the imperatives be used 'with care and sparingly', only where interoperation or harm is at stake.",
+    "en": "Scott Bradner’s two-page memo fixes the meaning of MUST, SHOULD, MAY and their relatives in Internet standards, and those capitalised words now appear in thousands of specifications. It is a small piece of careful drafting: agreeing on how strongly a sentence binds before arguing about what it says. Notice section 6, which asks that the imperatives be used ‘with care and sparingly’, only where interoperation or harm is at stake.",
     "zh": "斯科特·布拉德纳这份两页的备忘录，确定了互联网标准中 MUST（必须）、MUST NOT（不得）、SHOULD（应当）、SHOULD NOT（不应）、MAY（可以）等词的含义，这些大写的词如今出现在成千上万份规范里。它是一件小小的措辞工程：在争论一句话说什么之前，先约定它有多大的约束力。请留意第 6 节：它要求这些祈使词“谨慎而节制地”使用，只用于互通或防止危害确有需要之处。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
   },
   "pick": null,

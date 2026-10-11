@@ -1,0 +1,57 @@
+{
+  "slug": "code-that-is-also-a-letter",
+  "order": 10,
+  "title": {
+    "en": "Code that is also a letter",
+    "zh": "也是一封信的代码"
+  },
+  "dek": {
+    "en": "Technical writing is supposed to be for machines; these six pieces were written to people. Read them for the reader each one has in mind: whoever holds the counting rods, the next programmer, a colleague up all night, a friend remembered, a stranger who opens the source file years from now.",
+    "zh": "技术文字照理是写给机器的，这六篇却是写给人的。读的时候，留意每一篇心里装着的那个读者：握着算筹的人，下一位程序员，熬夜调试的同事，被怀念的朋友，多年以后打开源文件的陌生人。"
+  },
+  "plate": "G-009039",
+  "steps": [
+    {
+      "id": "S-007006",
+      "line": {
+        "en": "Long before anyone typed a program, the Nine Chapters wrote one out for a person: halve both if you can; if not, take the lesser from the greater, again and again, until they are equal, an algorithm addressed to whoever holds the counting rods; two thousand years later, a style guide starts from the same courtesy.",
+        "zh": "早在有人敲出第一行程序之前，《九章算术》就把一个算法写给了人看：能折半就先折半，不能就把分母、分子并排放好，以少减多，更相减损，直到两数相等，整套步骤都是说给手持算筹的人听的；两千年后，一份风格指南也从这份体贴出发。"
+      }
+    },
+    {
+      "id": "S-007012",
+      "line": {
+        "en": "PEP 8 starts from the insight that code is read much more often than it is written, and tells you to break its own rules whenever following them would make the code harder to read; the PEP it quotes fits a whole philosophy into nineteen lines.",
+        "zh": "PEP 8 的出发点是：代码被阅读的次数远多于被编写的次数；它还告诉你，照着它的规则反而让代码更难读的时候，就别照着做；它引用的那份 PEP，把一整套理念装进了十九行。"
+      }
+    },
+    {
+      "id": "S-007011",
+      "line": {
+        "en": "Nineteen aphorisms written down and a twentieth left for the reader, first posted to a mailing list and still printed by every Python interpreter for anyone who types import this; the network’s numbered series of memos had room for a Christmas poem too.",
+        "zh": "写下十九条，第二十条留给读者；它最初发在邮件列表上，至今只要在 Python 解释器里敲下 import this，就会印出来；网络那套编了号的备忘录，也给一首圣诞诗留了位置。"
+      }
+    },
+    {
+      "id": "S-007013",
+      "line": {
+        "en": "Filed among the Requests for Comments with the usual note that ‘distribution of this memo is unlimited’, Vint Cerf’s parody of a Christmas poem ends on the culprit every programmer knows, an off-by-one index; thirteen years later he used the same series to remember the man who had edited it.",
+        "zh": "它和别的 RFC 一样编了号，照例注明“本备忘录可不受限制地分发”；瑟夫这首戏仿的圣诞诗，最后点出了每个程序员都认得的元凶：差一错误；十三年后，他又用同一套文件纪念了编辑这套文件的人。"
+      }
+    },
+    {
+      "id": "S-007020",
+      "line": {
+        "en": "Jon Postel edited the series for almost thirty years and kept the network’s numbers in order, and Cerf praises the documents he left, ‘not only the technical but also the poetic and whimsical’; the last step is three lines that stand where a licence would.",
+        "zh": "波斯特尔编辑这套文件将近三十年，替整个网络管着编号；瑟夫称赞他留下的文件“不只有技术的，也有诗意的、异想天开的”；最后一步，是三行站在许可证位置上的祝福。"
+      }
+    },
+    {
+      "id": "S-007010",
+      "line": {
+        "en": "In place of a legal notice, a blessing at the head of every SQLite source file asks whoever opens it to do good, to forgive and to share freely, never taking more than they give: the plainest proof on these shelves that code can be a letter.",
+        "zh": "SQLite 的每个源文件开头，没有法律声明，只有一段祝福：愿你行善而不作恶，愿你宽恕自己、也宽恕别人，愿你自由分享，所取永不多于所予；代码也可以是一封信，书架上最直白的证据就在这里。"
+      }
+    }
+  ]
+}

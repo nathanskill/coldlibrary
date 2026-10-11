@@ -1,13 +1,16 @@
 {
   "id": "G-009003",
   "slug": "hiroshige-kinryusan-temple-asakusa",
+  "kind": "artwork",
   "title": {
     "orig": "名所江戸百景 浅草金龍山",
+    "lang": "ja",
     "en": "Kinryūsan Temple at Asakusa",
     "zh": "名所江户百景 浅草金龙山"
   },
   "artist": {
     "orig": "歌川広重",
+    "lang": "ja",
     "en": "Utagawa Hiroshige",
     "zh": "歌川广重",
     "dates": "1797–1858"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "snow",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "从江户浅草寺的大门向里看：一盏巨大的红纸灯笼横在画面上方，远处的殿堂和五重塔立在飘雪中，几个撑伞的小人走过白色的庭院。"
   },
   "note": {
-    "en": "From One Hundred Famous Views of Edo, the great series of Hiroshige's last years. He frames the view through the gate and lets the top edge cut the lantern off, a device that later caught the eye of European painters. The lantern is the warmest thing in a cold picture, which is reason enough for it to hang in a library that keeps its lamps lit.",
+    "en": "From One Hundred Famous Views of Edo, the great series of Hiroshige’s last years. He frames the view through the gate and lets the top edge cut the lantern off, a device that later caught the eye of European painters. The lantern is the warmest thing in a cold picture, which is reason enough for it to hang in a library that keeps its lamps lit.",
     "zh": "出自广重晚年的巨作《名所江户百景》。他透过山门取景，让画面上缘把灯笼截断，这种构图后来让欧洲画家着迷。灯笼是这幅冷画里最暖的东西，单凭这一点，它就该挂在一座一直亮着灯的图书馆里。"
   },
   "pick": null,

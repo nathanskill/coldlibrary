@@ -1,0 +1,64 @@
+{
+  "slug": "teachers-and-students",
+  "order": 7,
+  "title": {
+    "en": "Teachers and students",
+    "zh": "师与生"
+  },
+  "dek": {
+    "en": "Seven texts on the oldest arrangement in learning, one person handing what they know to another: a bell that rings as hard as it is struck, a student sent home twice to think, a teacher who will not answer, a lecture on a piece of chalk, and a poet’s rule for learning from everyone.",
+    "zh": "七篇文字，谈学问里最古老的安排：一个人把所知道的交给另一个人。这里有叩之以大则大鸣的钟，有两次被打发回家去想的学生，有不肯回答的先生，有一堂讲一块白垩的课，还有一位诗人向所有人学习的办法。"
+  },
+  "plate": "G-009017",
+  "steps": [
+    {
+      "id": "S-002007",
+      "line": {
+        "en": "Often called the earliest essay wholly about education, the Record says that teaching and learning help each other grow, that a good teacher opens the way without walking the student to its end, and that a good answer rings like a bell, as loudly as it is struck; Xunzi expects the student to end up bluer than the indigo.",
+        "zh": "这篇常被称为最早专谈教育的文章说：教学相长；好老师“开而弗达”，只把路打开，不一直领到尽头；好的回答像撞钟，叩之以小者则小鸣，叩之以大者则大鸣；荀子则盼着学生青出于蓝。"
+      }
+    },
+    {
+      "id": "S-002006",
+      "line": {
+        "en": "Blue comes from the indigo plant and is bluer, ice from water and is colder: Xunzi expects students to go further than their teachers if they keep at it like the earthworm, which reaches the deep springs with only a single mind; Han Yu draws the conclusion about who may teach whom.",
+        "zh": "青取之于蓝而青于蓝，冰水为之而寒于水：荀子相信学生可以走得比老师更远，只要像蚯蚓那样用心专一，没有爪牙筋骨，也能下饮黄泉；韩愈由此说到，谁可以做谁的老师。"
+      }
+    },
+    {
+      "id": "S-002021",
+      "line": {
+        "en": "Written for a seventeen-year-old, Han Yu’s short essay says that the Way, not age or rank, decides who teaches, so a disciple need not be lesser than his teacher; in the Gnomon of the Zhou, a teacher refuses to hand over the answer.",
+        "zh": "这篇短文是写给十七岁的李蟠的：决定谁来做老师的，是道，不是年纪和地位，所以弟子不必不如师；而在《周髀算经》里，有一位老师不肯直接把答案交出来。"
+      }
+    },
+    {
+      "id": "S-006004",
+      "line": {
+        "en": "Rong Fang goes home twice to think and twice comes back without the answer, and Chen Zi tells him that understanding means carrying one case across to many before he finally says, ‘Sit down again, and I will tell you’; Lu Xun’s old teacher would not answer at all.",
+        "zh": "荣方两次回家苦思，两次空手而回；陈子告诉他，懂得，是能问一类而达万事，最后才说：“复坐，吾语汝”；鲁迅的老先生，干脆什么都不肯回答。"
+      }
+    },
+    {
+      "id": "S-003010",
+      "line": {
+        "en": "In the garden a farmer teaches Lu Xun to trap birds and tells him he is too impatient, and at the strictest school in town a question about a strange insect gets only ‘I don’t know!’; Huxley, lecturing to working men, answers with evidence they can check for themselves.",
+        "zh": "在百草园里，闰土的父亲教他捕鸟，说他太性急；到了全城最严厉的书塾，问一句“怪哉”这虫是怎么回事，只换来一声“不知道！”；赫胥黎给工人们讲课，拿出的都是他们自己能核对的证据。"
+      }
+    },
+    {
+      "id": "S-006015",
+      "line": {
+        "en": "Huxley holds up the bit of chalk every carpenter carries in his pocket and teaches a hall of listeners to read in it, ‘with your own eyes’, an ocean where England now stands, then says that an hour of thought has made the chalk shine; Du Fu ends the trail with the method under all of these.",
+        "zh": "赫胥黎拿起每个木匠口袋里都揣着的那一小块白垩，一步一步，用听众“亲眼”就能读出的证据，从里面读出一片曾经覆盖英格兰的海洋，最后说，一个小时的思考已经让它发出了光；杜甫用这一切背后的那个方法来收尾。"
+      }
+    },
+    {
+      "id": "S-001041",
+      "line": {
+        "en": "Learn from teacher after teacher, and that habit becomes your teacher: the last line of Du Fu’s six quatrains is the shortest account I know of how anyone is taught, and it is the one I would leave at the end.",
+        "zh": "转益多师是汝师：杜甫六首绝句的最后一句，是我所知道的、关于一个人怎样被教出来的最短的说法，我愿意把它留在最后。"
+      }
+    }
+  ]
+}

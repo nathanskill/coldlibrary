@@ -1,13 +1,16 @@
 {
   "id": "G-009032",
   "slug": "whistler-nocturne-thames-at-battersea",
+  "kind": "artwork",
   "title": {
     "orig": "Nocturne (Nocturne: The Thames at Battersea)",
+    "lang": "en",
     "en": "Nocturne: The Thames at Battersea",
     "zh": "夜曲：巴特西的泰晤士河"
   },
   "artist": {
     "orig": "James McNeill Whistler",
+    "lang": "en",
     "en": "James McNeill Whistler",
     "zh": "詹姆斯·麦克尼尔·惠斯勒",
     "dates": "1834–1903"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "night",
   "rights": {
     "status": "public-domain",
     "basis": {

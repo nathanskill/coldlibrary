@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "Usually dated to Wang Anshi's last years, after he left high office and retired to Jiangning. The plum is the flower that opens in winter, and the poem's small joke is that from a distance it looks like snow, until the scent arrives and gives it away. For a cold library this is the right flower: something alive that is easy to mistake for the frost around it.",
+    "en": "Usually dated to Wang Anshi’s last years, after he left high office and retired to Jiangning. The plum is the flower that opens in winter, and the poem’s small joke is that from a distance it looks like snow, until the scent arrives and gives it away. For a cold library this is the right flower: something alive that is easy to mistake for the frost around it.",
     "zh": "一般认为作于王安石罢相、退居江宁的晚年。梅是冬天开的花，这首诗的小小机巧在于：远看像雪，直到香气飘来才露了底。对一座冷冻图书馆来说，这是最合适的花：一种活着的东西，很容易被误认为周围的霜雪。"
   },
   "pick": null,
@@ -57,10 +57,10 @@
   ],
   "excerpt": {
     "orig": "遙知不是雪，為有暗香來。",
-    "en": "From far away I know it isn't snow, / because a hidden fragrance comes.",
+    "en": "From far away I know it isn’t snow, / because a hidden fragrance comes.",
     "zh": "遥知不是雪，为有暗香来。"
   },
-  "plate": null,
+  "plate": "G-009019",
   "gloss": [
     {
       "at": "凌寒",
@@ -78,7 +78,7 @@
     {
       "at": "暗香",
       "occ": 1,
-      "en": "A faint, hidden fragrance; the phrase recalls Lin Bu's famous plum couplet, 'a hidden fragrance drifts in the moonlit dusk'.",
+      "en": "A faint, hidden fragrance; the phrase recalls Lin Bu’s famous plum couplet, ‘a hidden fragrance drifts in the moonlit dusk’.",
       "zh": "暗香：清幽的香气。林逋《山园小梅》有“暗香浮动月黄昏”。"
     }
   ],

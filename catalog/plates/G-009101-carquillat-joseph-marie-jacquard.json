@@ -1,0 +1,65 @@
+{
+  "id": "G-009101",
+  "slug": "carquillat-joseph-marie-jacquard",
+  "kind": "artwork",
+  "title": {
+    "orig": "À la mémoire de J. M. Jacquard",
+    "lang": "fr",
+    "en": "Joseph Marie Jacquard",
+    "zh": "约瑟夫-玛丽·雅卡尔像"
+  },
+  "artist": {
+    "orig": "Michel-Marie Carquillat",
+    "lang": "fr",
+    "en": "Michel-Marie Carquillat (weaver), for Didier, Petit et Cie",
+    "zh": "米歇尔-玛丽·卡尔基亚（织工），为迪迪耶-珀蒂公司织造",
+    "dates": "1803–1884"
+  },
+  "year": 1839,
+  "year_display": {
+    "en": "1839",
+    "zh": "1839 年"
+  },
+  "medium": {
+    "en": "Silk, woven on a Jacquard loom; 60.3 × 50.8 cm",
+    "zh": "丝，雅卡尔提花机织造；60.3 × 50.8 厘米"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/222531",
+    "accession": "31.124",
+    "credit_line": "Bequest of William G. Jenkins, 1931"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/es/original/DP109795.jpg",
+    "width": 1361,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "tone": "ink",
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: woven in 1839; the weaver, Michel-Marie Carquillat, died in 1884. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：织于 1839 年，织工米歇尔-玛丽·卡尔基亚卒于 1884 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A portrait woven in silk in tones of black and grey, so fine that it looks like an engraving. Joseph Marie Jacquard, an old man in a long coat, sits in an armchair at his workbench, holding a pair of dividers over a sheet of punched cards; a model of his loom mechanism stands at the left, tools line the shelves behind him, and a curtained window looks out on a church tower. Beneath the picture are the words À la mémoire de J. M. Jacquard.",
+    "zh": "一幅用深浅不同的黑灰丝线织成的肖像，精细得像一幅铜版画。约瑟夫-玛丽·雅卡尔是一位穿长外套的老人，坐在工作台旁的扶手椅上，手持两脚规，按在一叠穿孔卡片上；左边立着他的织机机构模型，身后的架子上摆满工具，挂着帘子的窗外能看见一座教堂的塔楼。画下织着一行法文：À la mémoire de J. M. Jacquard（纪念约·马·雅卡尔）。"
+  },
+  "note": {
+    "en": "Woven in Lyon in 1839 after a painting by Claude Bonnefond; the silk names its weaver, Michel-Marie Carquillat, and the Met catalogues it under the firm that made it, Didier, Petit et Cie. A Jacquard loom reads its pattern from a chain of punched cards, and this portrait is said to have needed some 24,000 of them. Jacquard sits among the means of his own likeness: punched cards under his hand and a model of his loom on the table.",
+    "zh": "1839 年在里昂据克洛德·博纳丰的画作织成；织物上织有织工米歇尔-玛丽·卡尔基亚的名字，大都会艺术博物馆则把它登记在出品的迪迪耶-珀蒂公司名下。雅卡尔织机从一串穿孔卡片上读出图案，据说织这一幅用了约两万四千张。画中的雅卡尔身边，正是织出这幅肖像的手段：手下的穿孔卡片，桌上的织机模型。"
+  },
+  "pick": null,
+  "tags": [
+    "loom",
+    "punched-cards",
+    "portrait",
+    "silk"
+  ]
+}

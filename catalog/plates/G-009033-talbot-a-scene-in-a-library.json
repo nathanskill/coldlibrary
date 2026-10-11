@@ -1,13 +1,16 @@
 {
   "id": "G-009033",
   "slug": "talbot-a-scene-in-a-library",
+  "kind": "photograph",
   "title": {
     "orig": "A Scene in a Library",
+    "lang": "en",
     "en": "A Scene in a Library",
     "zh": "图书馆一景"
   },
   "artist": {
     "orig": "William Henry Fox Talbot",
+    "lang": "en",
     "en": "William Henry Fox Talbot",
     "zh": "威廉·亨利·福克斯·塔尔博特",
     "dates": "1800–1877"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

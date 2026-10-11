@@ -1,13 +1,16 @@
 {
   "id": "G-009022",
   "slug": "friedrich-two-men-contemplating-the-moon",
+  "kind": "artwork",
   "title": {
     "orig": "Zwei Männer in Betrachtung des Mondes",
+    "lang": "de",
     "en": "Two Men Contemplating the Moon",
     "zh": "两个凝望月亮的人"
   },
   "artist": {
     "orig": "Caspar David Friedrich",
+    "lang": "de",
     "en": "Caspar David Friedrich",
     "zh": "卡斯帕·大卫·弗里德里希",
     "dates": "1774–1840"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "dusk",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -44,7 +48,7 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "alt": {
-    "en": "At dusk two men in long coats stand together on a rocky forest path, seen from behind, one resting a hand on the other's shoulder. They look past a great gnarled tree with exposed roots toward a thin crescent moon low in a violet-gold sky.",
+    "en": "At dusk two men in long coats stand together on a rocky forest path, seen from behind, one resting a hand on the other’s shoulder. They look past a great gnarled tree with exposed roots toward a thin crescent moon low in a violet-gold sky.",
     "zh": "黄昏时分，两个穿长外套的人背对我们站在林间多石的小路上，一人把手搭在另一人肩上。他们越过一棵根系裸露的巨大老树，望向紫金色天空低处的一弯细月。"
   },
   "note": {

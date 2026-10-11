@@ -1,0 +1,64 @@
+{
+  "slug": "snow-seven-ways",
+  "order": 1,
+  "title": {
+    "en": "Snow, seven ways",
+    "zh": "雪的七种写法"
+  },
+  "dek": {
+    "en": "Seven writers, one weather. The snow is first seen, then only heard, then parted in, shared with strangers, weighed south against north, chosen by a single flake, and at last walked through, from a Tang river to the far north of a fairy tale.",
+    "zh": "七位作者，同一种天气。雪先是被看见，然后只被听见；有人在雪里送别，有人在雪夜遇见知己，有人把南北两种雪放在一起比，有一片雪花认清了自己的方向；最后，有人一路走进了童话里的极北之地。"
+  },
+  "plate": "G-009016",
+  "steps": [
+    {
+      "id": "S-001001",
+      "line": {
+        "en": "Twenty characters take away the birds, then the footprints, until one old man is left fishing in the cold: the stillest snow in the library, and a silence to carry indoors to the next poem.",
+        "zh": "二十个字，先让飞鸟绝迹，再让人踪消失，只剩一位老人在寒江上独钓：这是书库里最安静的一场雪，带着这份静，走进下一首诗的屋里。"
+      }
+    },
+    {
+      "id": "S-001047",
+      "line": {
+        "en": "Bai Juyi never sees this snow: he feels the cold quilt, notices the window turning bright and hears the bamboo snap under its weight; out on the frontier, Cen Shen’s snow arrives with a gale.",
+        "zh": "白居易没有看见这场雪：先觉衾枕冷，再见窗户明，最后听见竹子被压折的声音；到了边塞，岑参的雪是跟着北风卷地而来的。"
+      }
+    },
+    {
+      "id": "S-001042",
+      "line": {
+        "en": "Cen Shen turns a blizzard in the eighth month into pear blossom on ten thousand trees, then watches the road until nothing of his friend is left but hoofprints in the snow; nearly nine centuries later, on West Lake, someone goes out into the snow on purpose.",
+        "zh": "岑参把八月的边地飞雪写成千树万树的梨花，又一直望着山回路转，直到雪上只剩马走过的痕迹；将近九百年后的西湖上，有人特意划船出去看雪。"
+      }
+    },
+    {
+      "id": "S-002031",
+      "line": {
+        "en": "After three days of snow Zhang Dai rows out alone and sees the lake reduced to a stroke, a dot and a mustard seed, then finds two strangers already there, warming wine; his is the soft snow south of the Yangzi, which Lu Xun is about to set against the snow of the north.",
+        "zh": "大雪三日，张岱独自划船出去，湖上只剩一痕、一点、一芥，到了亭上，却遇见两个早已温好酒的陌生人；这是江南的软雪，鲁迅接下来要拿它和北方的雪相比。"
+      }
+    },
+    {
+      "id": "S-003006",
+      "line": {
+        "en": "Children pat the moist southern snow into a snow arhat that slowly loses its rouge, while the dry northern snow never clings and rises in the wind like mist around a flame; Xu Zhimo’s snowflake has already decided where it is going.",
+        "zh": "南方滋润的雪，被孩子们塑成雪罗汉，嘴上的胭脂一天天褪尽；北方干燥的雪决不黏连，旋风一来便腾起，像包藏火焰的大雾；徐志摩的那片雪花，早已认清了自己的方向。"
+      }
+    },
+    {
+      "id": "S-003024",
+      "line": {
+        "en": "A snowflake that refuses the cold valley and the empty street because it knows its direction, and whose melting is an arrival rather than a loss: the gladdest snow on these shelves, and good company on the way into the longest.",
+        "zh": "一片雪花，不去冷寞的幽谷，不上荒街惆怅，因为它认清了自己的方向；它的消溶不是失去，而是抵达：这是书架上最快乐的一场雪，正好陪你走进最长的那一场。"
+      }
+    },
+    {
+      "id": "S-004102",
+      "line": {
+        "en": "The longest snow here has the warmest ending: Kay sits in the Snow Queen’s hall trying to spell Eternity in ice, and only after Gerda’s tears have thawed him do the pieces lie down and form the word by themselves.",
+        "zh": "这一场雪最长，结尾却最暖：加伊坐在冰雪女王的大厅里，想用冰块拼出“永恒”，怎么也拼不成；直到格尔达的眼泪把他融化，那些冰块才自己躺下来，排成了这个词。"
+      }
+    }
+  ]
+}

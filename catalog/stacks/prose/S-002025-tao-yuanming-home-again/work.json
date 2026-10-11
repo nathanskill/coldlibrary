@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource, with Tao Yuanming's own preface; textual notes are omitted, and the rhapsody is set in its four usual sections.",
+    "en": "Text as given on Chinese Wikisource, with Tao Yuanming’s own preface; textual notes are omitted, and the rhapsody is set in its four usual sections.",
     "zh": "据维基文库，附陶渊明自序；不录校记，辞分通常的四段。"
   },
   "source": {
@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Tao Yuanming's song of going home in 405, after a little more than eighty days as magistrate of Pengze, with his own preface explaining why he left. It is shelved with the prose, keeping its line breaks. Notice the clouds that drift out of the hills without intent, and the birds that, tired of flying, know to come home.",
+    "en": "Tao Yuanming’s song of going home in 405, after a little more than eighty days as magistrate of Pengze, with his own preface explaining why he left. It is shelved with the prose, keeping its line breaks. Notice the clouds that drift out of the hills without intent, and the birds that, tired of flying, know to come home.",
     "zh": "陶渊明 405 年辞去彭泽令（在官八十余日）回乡时所作，附他自己说明去职缘由的序。归入文类，保留原有分行。留意“云无心以出岫，鸟倦飞而知还”。"
   },
   "pick": null,
@@ -101,7 +101,7 @@
       "at": "彭澤",
       "occ": 1,
       "at_hans": "彭泽",
-      "en": "Pengze county, on the Yangzi near Poyang Lake in today's Jiangxi; Tao was its magistrate.",
+      "en": "Pengze county, on the Yangzi near Poyang Lake in today’s Jiangxi; Tao was its magistrate.",
       "zh": "县名，在今江西，濒临长江、鄱阳湖。陶渊明任彭泽县令。"
     },
     {
@@ -114,13 +114,13 @@
       "at": "歸歟之情",
       "occ": 1,
       "at_hans": "归欤之情",
-      "en": "The wish to go home. Confucius, far from home in Chen, cried 'Let us go back' (Analects, book 5).",
+      "en": "The wish to go home. Confucius, far from home in Chen, cried ‘Let us go back’ (Analects, book 5).",
       "zh": "思归的心情。语本《论语·公冶长》：孔子在陈国时思归，叹道“归与”。"
     },
     {
       "at": "口腹自役",
       "occ": 1,
-      "en": "To make oneself a servant to one's mouth and belly.",
+      "en": "To make oneself a servant to one’s mouth and belly.",
       "zh": "为了口腹之需而役使自己。"
     },
     {
@@ -146,7 +146,7 @@
       "at": "歸去來兮",
       "occ": 2,
       "at_hans": "归去来兮",
-      "en": "來 and 兮 are both particles that carry the voice: 'Go home, go home.'",
+      "en": "來 and 兮 are both particles that carry the voice: ‘Go home, go home.’",
       "zh": "来、兮都是语气助词。意即：回去吧。"
     },
     {
@@ -160,7 +160,7 @@
       "at": "悟已往之不諫",
       "occ": 1,
       "at_hans": "悟已往之不谏",
-      "en": "From the madman of Chu in the Analects, book 18: 'What is past cannot be mended; what is to come can still be overtaken.' 諫 here is to set right.",
+      "en": "From the madman of Chu in the Analects, book 18: ‘What is past cannot be mended; what is to come can still be overtaken.’ 諫 here is to set right.",
       "zh": "化用《论语·微子》楚狂接舆之歌：“往者不可谏，来者犹可追。”谏，挽回。"
     },
     {
@@ -173,7 +173,7 @@
       "at": "三徑",
       "occ": 1,
       "at_hans": "三径",
-      "en": "The three paths. Jiang Xu of the Han, retiring home, cleared three paths through his bamboo for his only two visitors; the phrase came to mean a recluse's garden.",
+      "en": "The three paths. Jiang Xu of the Han, retiring home, cleared three paths through his bamboo for his only two visitors; the phrase came to mean a recluse’s garden.",
       "zh": "汉代蒋诩隐居，在竹林中开了三条小路，只与两位朋友往来。后以“三径”指隐士的家园。"
     },
     {
@@ -185,13 +185,13 @@
     {
       "at": "容膝",
       "occ": 1,
-      "en": "A room just big enough to fit one's knees.",
+      "en": "A room just big enough to fit one’s knees.",
       "zh": "仅能容下双膝，形容居室狭小。"
     },
     {
       "at": "扶老",
       "occ": 1,
-      "en": "A walking stick; literally 'support for the old'.",
+      "en": "A walking stick; literally ‘support for the old’.",
       "zh": "手杖的别名。"
     },
     {
@@ -231,7 +231,7 @@
     {
       "at": "植杖而耘耔",
       "occ": 1,
-      "en": "To plant one's staff in the ground and weed (耘) and earth up the roots (耔), like the old farmer in the Analects, book 18.",
+      "en": "To plant one’s staff in the ground and weed (耘) and earth up the roots (耔), like the old farmer in the Analects, book 18.",
       "zh": "把手杖插在地上，除草（耘）培土（耔）。化用《论语·微子》荷蓧丈人“植其杖而芸”。"
     },
     {

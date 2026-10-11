@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Chapter I of An Investigation of the Laws of Thought (London, 1854), from the Project Gutenberg edition (ebook 15114, TeX source), with three slips in that edition corrected against a scan of the 1854 printing (a missing 'of', a stray 'I', and 'inappropriately'); the author's two footnotes are omitted.",
+    "en": "Chapter I of An Investigation of the Laws of Thought (London, 1854), from the Project Gutenberg edition (ebook 15114, TeX source), with three slips in that edition corrected against a scan of the 1854 printing (a missing ‘of’, a stray ‘I’, and ‘inappropriately’); the author’s two footnotes are omitted.",
     "zh": "据古登堡计划电子书 15114（TeX 源文件）所录《思维规律研究》（伦敦，1854 年）第一章，并依 1854 年印本扫描件改正了该电子版的三处笔误（漏掉的 of、多出的 I，以及 inappropriately）；作者的两条脚注从略。"
   },
   "source": {
@@ -45,7 +45,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "This is the opening chapter of the book that turned reasoning into algebra: Boole sets out to find 'the fundamental laws of those operations of the mind by which reasoning is performed' and to write them as a calculus. Every digital circuit now runs on the algebra he introduces in the chapters that follow. Notice how carefully he separates symbols from their interpretation, insisting only that a meaning, once fixed, is never quietly changed in the middle of an argument; it is good advice for any language, including programming languages.",
+    "en": "This is the opening chapter of the book that turned reasoning into algebra: Boole sets out to find ‘the fundamental laws of those operations of the mind by which reasoning is performed’ and to write them as a calculus. Every digital circuit now runs on the algebra he introduces in the chapters that follow. Notice how carefully he separates symbols from their interpretation, insisting only that a meaning, once fixed, is never quietly changed in the middle of an argument; it is good advice for any language, including programming languages.",
     "zh": "这是把推理变成代数的那部书的第一章：布尔要找出“心智借以进行推理的那些运作的基本法则”，并把它们写成一种演算。今天每一块数字电路都运行在他随后各章引入的代数之上。请留意他如何小心地把符号与其解释分开，只坚持一点：意义一经约定，就不可在论证中途悄悄改变——这对任何语言都是好建议，包括编程语言。"
   },
   "pick": null,
@@ -65,7 +65,7 @@
     {
       "at": "Organon",
       "occ": 1,
-      "en": "The collection of Aristotle's works on logic.",
+      "en": "The collection of Aristotle’s works on logic.",
       "zh": "《工具论》，亚里士多德逻辑著作的合集。"
     },
     {
@@ -77,7 +77,7 @@
     {
       "at": "de omni et nullo",
       "occ": 1,
-      "en": "The 'dictum of all and none': whatever is affirmed or denied of a whole class is affirmed or denied of every member of it. It is the principle behind the syllogism.",
+      "en": "The ‘dictum of all and none’: whatever is affirmed or denied of a whole class is affirmed or denied of every member of it. It is the principle behind the syllogism.",
       "zh": "“全和无原则”：凡对一类事物全体有所肯定或否定的，也就对其中每一个有所肯定或否定。它是三段论背后的原则。"
     },
     {

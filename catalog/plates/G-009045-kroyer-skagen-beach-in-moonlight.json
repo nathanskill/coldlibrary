@@ -1,13 +1,16 @@
 {
   "id": "G-009045",
   "slug": "kroyer-skagen-beach-in-moonlight",
+  "kind": "artwork",
   "title": {
     "orig": "Måneskin ved Skagen Strand",
+    "lang": "da",
     "en": "Skagen Beach in Moonlight",
     "zh": "斯卡恩海滩的月光"
   },
   "artist": {
     "orig": "P.S. Krøyer",
+    "lang": "da",
     "en": "P.S. Krøyer",
     "zh": "P.S. 克罗耶",
     "dates": "1851–1909"
@@ -33,6 +36,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "sea",
   "rights": {
     "status": "public-domain",
     "basis": {

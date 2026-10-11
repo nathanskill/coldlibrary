@@ -1,13 +1,16 @@
 {
   "id": "G-009041",
   "slug": "hammershoi-two-candles-on-a-table",
+  "kind": "artwork",
   "title": {
     "orig": "To lys på et bord",
+    "lang": "da",
     "en": "Two Candles on a Table",
     "zh": "桌上的两支蜡烛"
   },
   "artist": {
     "orig": "Vilhelm Hammershøi",
+    "lang": "da",
     "en": "Vilhelm Hammershøi",
     "zh": "威廉·哈默修伊",
     "dates": "1864–1916"
@@ -33,6 +36,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

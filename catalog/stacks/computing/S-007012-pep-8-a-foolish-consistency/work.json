@@ -33,7 +33,7 @@
   "rights": {
     "status": "public-domain",
     "basis": {
-      "en": "Dedicated to the public domain: 'This document has been placed in the public domain.'",
+      "en": "Dedicated to the public domain: ‘This document has been placed in the public domain.’",
       "zh": "作者已献入公有领域：“本文档已置于公有领域。”"
     },
     "license": null,
@@ -45,7 +45,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "PEP 8 is the style guide for Python's standard library, and much of the world's Python follows it; these are its opening sections, before the rules about spaces and line lengths. The second section's title borrows Emerson's line about foolish consistency. Notice where it puts the weight: code is read much more often than it is written, and a guideline that makes code harder to read should be set aside.",
+    "en": "PEP 8 is the style guide for Python’s standard library, and much of the world’s Python follows it; these are its opening sections, before the rules about spaces and line lengths. The second section’s title borrows Emerson’s line about foolish consistency. Notice where it puts the weight: code is read much more often than it is written, and a guideline that makes code harder to read should be set aside.",
     "zh": "PEP 8 是 Python 标准库的风格指南，世界上大量 Python 代码都遵循它；这里是它的开头两节，在那些关于空格和行长的规则之前。第二节的标题借用了爱默生关于“愚蠢的一致性”的名句。请留意它把重心放在哪里：代码被阅读的次数远多于被编写的次数，一条让代码更难读的准则就应当放下。"
   },
   "pick": null,

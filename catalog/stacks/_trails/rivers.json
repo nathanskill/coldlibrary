@@ -1,0 +1,64 @@
+{
+  "slug": "rivers",
+  "order": 8,
+  "title": {
+    "en": "The river does not stop",
+    "zh": "不舍昼夜"
+  },
+  "dek": {
+    "en": "Seven writers stand on a riverbank and think about time, from Confucius and Heraclitus, who lived in the same years at opposite ends of the world, to Whitman on the East River speaking to passengers a hundred years later. By the end the river is carrying readers as well as water.",
+    "zh": "七位作者站在河岸上想时间：从生活在同一时代、分处世界两端的孔子和赫拉克利特，到在东河渡船上对一百年后的乘客说话的惠特曼。走到最后，这条河载着的已不只是水，还有读者。"
+  },
+  "plate": "G-009049",
+  "steps": [
+    {
+      "id": "S-002005",
+      "line": {
+        "en": "In Book 9 the Master stands by a river and says only that it flows on like this, never stopping, day or night, and readers have argued ever since about whether he meant time, learning or both; in the same years, at the other end of the world, Heraclitus was looking at a river too.",
+        "zh": "在《子罕》篇里，孔子站在河边，只说了一句：逝者如斯夫，不舍昼夜；后人一直在争，他说的是光阴、是学问，还是两样都是；差不多同一时候，在世界的另一头，赫拉克利特也望着一条河。"
+      }
+    },
+    {
+      "id": "S-005018",
+      "line": {
+        "en": "You cannot step twice into the same rivers, for fresh waters are ever flowing in upon you: Heraclitus makes the river a law of change rather than a lament; the Han song that comes next hears only the one-way flow.",
+        "zh": "你不能两次踏进同一条河流，因为新的水不断流向你：赫拉克利特把河流当作变化的法则，而不是一声叹息；接下来那首汉乐府，听见的只是河水一去不回。"
+      }
+    },
+    {
+      "id": "S-001008",
+      "line": {
+        "en": "A hundred rivers flow east to the sea, and when will any of them come back west?: the anonymous Han song turns the river into plain advice to use the years while you have them; on a spring night, Zhang Ruoxu finds something on the river that does come back.",
+        "zh": "百川东到海，何时复西归：这首无名的汉乐府，把河流变成一句朴素的劝告，趁年少好好用功；张若虚在一个春夜，找到了江上那样会回来的东西。"
+      }
+    },
+    {
+      "id": "S-001015",
+      "line": {
+        "en": "Who on this bank first saw the moon, and in what year did the moon first shine on a person?: lives go on generation after generation, the river moon looks the same each year, and the long river keeps sending its water on; three and a half centuries later, Su Shi gives an answer.",
+        "zh": "江畔何人初见月，江月何年初照人：人生代代无穷已，江月年年望相似，只见长江送流水；三百多年后，苏轼给出了一个回答。"
+      }
+    },
+    {
+      "id": "S-002023",
+      "line": {
+        "en": "Below Red Cliff a guest grieves that life is brief and the Yangzi endless, and Su Shi answers him with Confucius’s own words, that what flows away like this has never gone, and with the moon that wanes without ever growing less; Zhuangzi’s river god learns how much water there really is.",
+        "zh": "赤壁之下，客人哀叹吾生须臾、长江无穷；苏轼借孔子的话回答他：逝者如斯，而未尝往也，又指着月亮说，盈虚者如彼，而卒莫消长也；庄子笔下的河伯，则要到了海边，才知道水究竟有多大。"
+      }
+    },
+    {
+      "id": "S-002004",
+      "line": {
+        "en": "Swollen with the autumn floods, the Lord of the River thinks all the beauty in the world is his, until he reaches the Northern Sea and can see no end to the water; Whitman’s river carries the trail a hundred years downstream.",
+        "zh": "秋水时至，百川灌河，河伯欣然自喜，以为天下之美尽在于己，直到东行至于北海，望不见水的尽头；惠特曼的那条河，会把这条书单带到一百年后的下游。"
+      }
+    },
+    {
+      "id": "S-004011",
+      "line": {
+        "en": "Whitman crosses the East River at sundown and speaks to whoever will cross it ‘fifty years hence’ and ‘a hundred years hence’, saying that distance avails not: here the river carries readers as well as ferries, and you are one of them.",
+        "zh": "惠特曼在日落时横渡东河，对“五十年后”“一百年后”渡河的人说：距离算不了什么；在这里，河流载的不只是渡船，还有读者，你也是其中之一。"
+      }
+    }
+  ]
+}

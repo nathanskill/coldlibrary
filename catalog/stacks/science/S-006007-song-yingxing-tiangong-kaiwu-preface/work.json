@@ -4,28 +4,59 @@
   "shelf": "science",
   "form": "prose",
   "lang": "lzh-Hant",
-  "title": { "orig": "天工開物·自序", "en": "The Works of Heaven and the Inception of Things: Author's Preface", "zh": "天工开物·自序" },
-  "author": { "orig": "宋應星", "en": "Song Yingxing", "zh": "宋应星", "dates": "1587–c. 1666" },
+  "title": {
+    "orig": "天工開物·自序",
+    "en": "The Works of Heaven and the Inception of Things: Author’s Preface",
+    "zh": "天工开物·自序"
+  },
+  "author": {
+    "orig": "宋應星",
+    "en": "Song Yingxing",
+    "zh": "宋应星",
+    "dates": "1587–c. 1666"
+  },
   "year": 1637,
-  "year_display": { "en": "1637", "zh": "1637 年（明崇祯十年）" },
+  "year_display": {
+    "en": "1637",
+    "zh": "1637 年（明崇祯十年）"
+  },
   "translator": null,
   "edition": {
     "en": "Text as given on Chinese Wikisource. Two evident misprints are corrected (複 for 復, and 佰 for 伯 in the name of Tu Boju) and the signature line is printed without its parentheses.",
     "zh": "据中文维基文库。改正两处明显误字（“複”作“復”；涂伯聚之名中“佰”作“伯”），落款去掉括号。"
   },
-  "source": { "name": "Wikisource", "url": "https://zh.wikisource.org/wiki/天工開物/自序", "retrieved": "2026-10-11" },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/天工開物/自序",
+    "retrieved": "2026-10-11"
+  },
   "rights": {
     "status": "public-domain",
-    "basis": { "en": "Ming dynasty prose, printed in 1637; the author died around 1666.", "zh": "明代文章，1637 年刊行；作者约卒于 1666 年。" },
-    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+    "basis": {
+      "en": "Ming dynasty prose, printed in 1637; the author died around 1666.",
+      "zh": "明代文章，1637 年刊行；作者约卒于 1666 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
   },
-  "translations": { "en": "Claude", "zh": "Claude" },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
   "note": {
     "en": "Song Yingxing failed the highest civil examination several times and turned instead to writing down how things are actually made: rice and silk, salt and sugar, bricks, bells, paper, ink, ships. This short preface explains why, with a sharp line about scholars who argue over ancient tripods without ever having looked at a cooking pot. Notice the order he chose, grains first and gold and jade last, and the closing advice to ambitious officials to throw the book aside.",
     "zh": "宋应星几次会试落第，转而去写下东西究竟是怎样做出来的：稻与丝，盐与糖，砖瓦、铜钟、纸、墨、船。这篇短序说明了缘由，其中有一句很锋利的话，讽刺那些从没看过一口锅怎样铸成、却高谈古鼎的读书人。请留意他安排的次序——五谷在前，金玉在后——以及结尾劝那些一心功名的人把这本书扔到一边。"
   },
   "pick": null,
-  "tags": ["technology", "craft", "agriculture", "encyclopedia", "ming"],
+  "tags": [
+    "technology",
+    "craft",
+    "agriculture",
+    "encyclopedia",
+    "ming"
+  ],
   "excerpt": {
     "orig": "天覆地載，物數號萬，而事亦因之曲成而不遺。豈人力也哉？",
     "en": "Heaven covers and earth bears up. Things are numbered by the ten thousand, and affairs follow from them, each brought to completion in its own way and none left out. Is this the work of human strength?",
@@ -33,33 +64,188 @@
   },
   "plate": null,
   "gloss": [
-    { "at": "天覆地載", "occ": 1, "at_hans": "天覆地载", "en": "Heaven covers all things and earth bears them up: a classical way of naming the whole world.", "zh": "天覆盖万物，地承载万物，泛指天地之间。" },
-    { "at": "曲成而不遺", "occ": 1, "at_hans": "曲成而不遗", "en": "Each brought to completion in its own way, none left out: an echo of the Book of Changes.", "zh": "以各种方式成就，没有遗漏。化用《周易·系辞》“曲成万物而不遗”。" },
-    { "at": "口授目成", "occ": 1, "en": "Taught by word of mouth and seen with one's own eyes.", "zh": "口头传授，亲眼看到。" },
-    { "at": "稠人", "occ": 1, "en": "The crowd, people in general.", "zh": "众人。" },
-    { "at": "楚萍", "occ": 1, "en": "The duckweed fruit of Chu: in an old story, the king of Chu found a strange red fruit on the river and only Confucius could name it. The type of learned trivia.", "zh": "楚王渡江得一红色果实，无人认识，孔子说是“萍实”。代指书本上的奇闻。" },
-    { "at": "釜鬵", "occ": 1, "en": "Cooking pots and cauldrons; 鬵 is a large cauldron.", "zh": "锅和大釜。鬵，大锅。" },
-    { "at": "莒鼎", "occ": 1, "en": "Bronze tripods of the old state of Ju; the Zuo zhuan tells of two of them given to Zichan of Zheng. Another piece of antiquarian talk.", "zh": "莒国的鼎。《左传》记晋侯以莒国的两只方鼎赐给郑国子产。代指高谈的古物。" },
-    { "at": "畫工好圖鬼魅而惡犬馬", "occ": 1, "at_hans": "画工好图鬼魅而恶犬马", "en": "From the Han Feizi: a painter said dogs and horses are hardest to paint, because everyone knows what they look like, and ghosts easiest, because no one does.", "zh": "典出《韩非子》：画师说狗马最难画，因为人人见过；鬼魅最容易，因为谁也没见过。" },
-    { "at": "鄭僑", "occ": 1, "at_hans": "郑侨", "en": "Gongsun Qiao, better known as Zichan (d. 522 BCE), statesman of Zheng, famous for his wide learning.", "zh": "公孙侨，即子产（？—前 522），春秋时郑国执政，以博学著称。" },
-    { "at": "晉華", "occ": 1, "at_hans": "晋华", "en": "Zhang Hua (232–300) of the Jin, author of the Treatise on Curiosities.", "zh": "西晋张华（232—300），著有《博物志》。" },
-    { "at": "滇南", "occ": 1, "en": "Southern Yunnan, at the far southwest; Liaoyang lies at the far northeast. The Ming road ran between them.", "zh": "云南南部，在西南极边；辽阳在东北极边。明代道路贯通其间。" },
-    { "at": "嶺徼", "occ": 1, "at_hans": "岭徼", "en": "The borderlands beyond the Nanling mountains in the far south; Jibei, north of Ji, is the region of Beijing.", "zh": "五岭以南的边远地区。蓟北，指北京一带。" },
-    { "at": "東晉之初、南宋之季", "occ": 1, "at_hans": "东晋之初、南宋之季", "en": "Times when the north of China was held by other states, so that northern goods became foreign imports.", "zh": "东晋初年和南宋末年，北方都为别国所据，北方物产成了外国货。" },
-    { "at": "燕、秦、晉、豫", "occ": 1, "at_hans": "燕、秦、晋、豫", "en": "The northern provinces: roughly today's Hebei, Shaanxi, Shanxi and Henan.", "zh": "大致相当于今河北、陕西、山西、河南。" },
-    { "at": "肅慎之矢", "occ": 1, "at_hans": "肃慎之矢", "en": "The stone-tipped arrows of the Sushen, a people of the far northeast; in an old story only Confucius could identify one: a byword for an exotic curiosity.", "zh": "肃慎是东北远方的民族，曾进贡楛矢石砮，相传只有孔子认得。代指稀罕的异物。" },
-    { "at": "耒耜", "occ": 1, "en": "The plough: 耒 the handle, 耜 the blade.", "zh": "古代翻土的农具。耒是柄，耜是铲头。" },
-    { "at": "天工開物卷", "occ": 1, "at_hans": "天工开物卷", "en": "The title joins two classical phrases: 'the work of heaven' that people carry out, and 'opening up things' to accomplish tasks. It was printed in 1637.", "zh": "书名取《尚书》“天工人其代之”与《周易》“开物成务”之意。1637 年刊行。" },
-    { "at": "洛下之資", "occ": 1, "at_hans": "洛下之资", "en": "The wealth of a rich man of Luoyang.", "zh": "洛阳富户那样的资财。" },
-    { "at": "陳思之館", "occ": 1, "at_hans": "陈思之馆", "en": "A hall like that of Cao Zhi (192–232), Prince Si of Chen, who gathered writers around him.", "zh": "像陈思王曹植（192—232）那样招集文士的馆舍。" },
-    { "at": "凃伯聚", "occ": 1, "at_hans": "涂伯聚", "en": "Tu Shaokui, courtesy name Boju, Song Yingxing's friend, who paid for the printing.", "zh": "涂绍煃，字伯聚，宋应星的朋友，出资刊刻此书。" },
-    { "at": "授梓", "occ": 1, "en": "To hand to the blockcutters; 梓, catalpa, was the wood used for printing blocks.", "zh": "交付刻印。梓，梓木，常用来刻书版。" },
-    { "at": "貴五穀而賤金玉", "occ": 1, "at_hans": "贵五谷而贱金玉", "en": "The book opens with growing grain and ends with pearls and jade: food first, treasure last.", "zh": "全书以种植五谷开篇，以珠玉收尾：粮食在先，珍宝在后。" },
-    { "at": "觀象", "occ": 1, "at_hans": "观象", "en": "Two chapters, on astronomy (觀象) and on music and pitch (樂律), which he wrote and then left out of the printed book.", "zh": "《观象》讲天文，《乐律》讲音律，二卷已写成而付印时删去。" },
-    { "at": "丐", "occ": 1, "en": "Here, to beg or ask: a polite, ironic request.", "zh": "请求。语带反讽的客气话。" },
-    { "at": "崇禎丁丑", "occ": 1, "at_hans": "崇祯丁丑", "en": "The dingchou year of Chongzhen: 1637.", "zh": "崇祯十年，即 1637 年。" },
-    { "at": "奉新", "occ": 1, "en": "Fengxin county in Jiangxi, Song Yingxing's home.", "zh": "今江西奉新县，宋应星的家乡。" },
-    { "at": "家食之問堂", "occ": 1, "at_hans": "家食之问堂", "en": "His study, 'the hall of questions of one who eats at home', that is, one not living on an official salary.", "zh": "宋应星的书斋名。家食，指不食官俸、在家自食。" }
+    {
+      "at": "天覆地載",
+      "occ": 1,
+      "at_hans": "天覆地载",
+      "en": "Heaven covers all things and earth bears them up: a classical way of naming the whole world.",
+      "zh": "天覆盖万物，地承载万物，泛指天地之间。"
+    },
+    {
+      "at": "曲成而不遺",
+      "occ": 1,
+      "at_hans": "曲成而不遗",
+      "en": "Each brought to completion in its own way, none left out: an echo of the Book of Changes.",
+      "zh": "以各种方式成就，没有遗漏。化用《周易·系辞》“曲成万物而不遗”。"
+    },
+    {
+      "at": "口授目成",
+      "occ": 1,
+      "en": "Taught by word of mouth and seen with one’s own eyes.",
+      "zh": "口头传授，亲眼看到。"
+    },
+    {
+      "at": "稠人",
+      "occ": 1,
+      "en": "The crowd, people in general.",
+      "zh": "众人。"
+    },
+    {
+      "at": "楚萍",
+      "occ": 1,
+      "en": "The duckweed fruit of Chu: in an old story, the king of Chu found a strange red fruit on the river and only Confucius could name it. The type of learned trivia.",
+      "zh": "楚王渡江得一红色果实，无人认识，孔子说是“萍实”。代指书本上的奇闻。"
+    },
+    {
+      "at": "釜鬵",
+      "occ": 1,
+      "en": "Cooking pots and cauldrons; 鬵 is a large cauldron.",
+      "zh": "锅和大釜。鬵，大锅。"
+    },
+    {
+      "at": "莒鼎",
+      "occ": 1,
+      "en": "Bronze tripods of the old state of Ju; the Zuo zhuan tells of two of them given to Zichan of Zheng. Another piece of antiquarian talk.",
+      "zh": "莒国的鼎。《左传》记晋侯以莒国的两只方鼎赐给郑国子产。代指高谈的古物。"
+    },
+    {
+      "at": "畫工好圖鬼魅而惡犬馬",
+      "occ": 1,
+      "at_hans": "画工好图鬼魅而恶犬马",
+      "en": "From the Han Feizi: a painter said dogs and horses are hardest to paint, because everyone knows what they look like, and ghosts easiest, because no one does.",
+      "zh": "典出《韩非子》：画师说狗马最难画，因为人人见过；鬼魅最容易，因为谁也没见过。"
+    },
+    {
+      "at": "鄭僑",
+      "occ": 1,
+      "at_hans": "郑侨",
+      "en": "Gongsun Qiao, better known as Zichan (d. 522 BCE), statesman of Zheng, famous for his wide learning.",
+      "zh": "公孙侨，即子产（？—前 522），春秋时郑国执政，以博学著称。"
+    },
+    {
+      "at": "晉華",
+      "occ": 1,
+      "at_hans": "晋华",
+      "en": "Zhang Hua (232–300) of the Jin, author of the Treatise on Curiosities.",
+      "zh": "西晋张华（232—300），著有《博物志》。"
+    },
+    {
+      "at": "滇南",
+      "occ": 1,
+      "en": "Southern Yunnan, at the far southwest; Liaoyang lies at the far northeast. The Ming road ran between them.",
+      "zh": "云南南部，在西南极边；辽阳在东北极边。明代道路贯通其间。"
+    },
+    {
+      "at": "嶺徼",
+      "occ": 1,
+      "at_hans": "岭徼",
+      "en": "The borderlands beyond the Nanling mountains in the far south; Jibei, north of Ji, is the region of Beijing.",
+      "zh": "五岭以南的边远地区。蓟北，指北京一带。"
+    },
+    {
+      "at": "東晉之初、南宋之季",
+      "occ": 1,
+      "at_hans": "东晋之初、南宋之季",
+      "en": "Times when the north of China was held by other states, so that northern goods became foreign imports.",
+      "zh": "东晋初年和南宋末年，北方都为别国所据，北方物产成了外国货。"
+    },
+    {
+      "at": "燕、秦、晉、豫",
+      "occ": 1,
+      "at_hans": "燕、秦、晋、豫",
+      "en": "The northern provinces: roughly today’s Hebei, Shaanxi, Shanxi and Henan.",
+      "zh": "大致相当于今河北、陕西、山西、河南。"
+    },
+    {
+      "at": "肅慎之矢",
+      "occ": 1,
+      "at_hans": "肃慎之矢",
+      "en": "The stone-tipped arrows of the Sushen, a people of the far northeast; in an old story only Confucius could identify one: a byword for an exotic curiosity.",
+      "zh": "肃慎是东北远方的民族，曾进贡楛矢石砮，相传只有孔子认得。代指稀罕的异物。"
+    },
+    {
+      "at": "耒耜",
+      "occ": 1,
+      "en": "The plough: 耒 the handle, 耜 the blade.",
+      "zh": "古代翻土的农具。耒是柄，耜是铲头。"
+    },
+    {
+      "at": "天工開物卷",
+      "occ": 1,
+      "at_hans": "天工开物卷",
+      "en": "The title joins two classical phrases: ‘the work of heaven’ that people carry out, and 'opening up things’ to accomplish tasks. It was printed in 1637.",
+      "zh": "书名取《尚书》“天工人其代之”与《周易》“开物成务”之意。1637 年刊行。"
+    },
+    {
+      "at": "洛下之資",
+      "occ": 1,
+      "at_hans": "洛下之资",
+      "en": "The wealth of a rich man of Luoyang.",
+      "zh": "洛阳富户那样的资财。"
+    },
+    {
+      "at": "陳思之館",
+      "occ": 1,
+      "at_hans": "陈思之馆",
+      "en": "A hall like that of Cao Zhi (192–232), Prince Si of Chen, who gathered writers around him.",
+      "zh": "像陈思王曹植（192—232）那样招集文士的馆舍。"
+    },
+    {
+      "at": "凃伯聚",
+      "occ": 1,
+      "at_hans": "涂伯聚",
+      "en": "Tu Shaokui, courtesy name Boju, Song Yingxing’s friend, who paid for the printing.",
+      "zh": "涂绍煃，字伯聚，宋应星的朋友，出资刊刻此书。"
+    },
+    {
+      "at": "授梓",
+      "occ": 1,
+      "en": "To hand to the blockcutters; 梓, catalpa, was the wood used for printing blocks.",
+      "zh": "交付刻印。梓，梓木，常用来刻书版。"
+    },
+    {
+      "at": "貴五穀而賤金玉",
+      "occ": 1,
+      "at_hans": "贵五谷而贱金玉",
+      "en": "The book opens with growing grain and ends with pearls and jade: food first, treasure last.",
+      "zh": "全书以种植五谷开篇，以珠玉收尾：粮食在先，珍宝在后。"
+    },
+    {
+      "at": "觀象",
+      "occ": 1,
+      "at_hans": "观象",
+      "en": "Two chapters, on astronomy (觀象) and on music and pitch (樂律), which he wrote and then left out of the printed book.",
+      "zh": "《观象》讲天文，《乐律》讲音律，二卷已写成而付印时删去。"
+    },
+    {
+      "at": "丐",
+      "occ": 1,
+      "en": "Here, to beg or ask: a polite, ironic request.",
+      "zh": "请求。语带反讽的客气话。"
+    },
+    {
+      "at": "崇禎丁丑",
+      "occ": 1,
+      "at_hans": "崇祯丁丑",
+      "en": "The dingchou year of Chongzhen: 1637.",
+      "zh": "崇祯十年，即 1637 年。"
+    },
+    {
+      "at": "奉新",
+      "occ": 1,
+      "en": "Fengxin county in Jiangxi, Song Yingxing’s home.",
+      "zh": "今江西奉新县，宋应星的家乡。"
+    },
+    {
+      "at": "家食之問堂",
+      "occ": 1,
+      "at_hans": "家食之问堂",
+      "en": "His study, ‘the hall of questions of one who eats at home’, that is, one not living on an official salary.",
+      "zh": "宋应星的书斋名。家食，指不食官俸、在家自食。"
+    }
   ],
-  "pairs": ["S-002043", "S-002041"]
+  "pairs": [
+    "S-002043",
+    "S-002041"
+  ]
 }

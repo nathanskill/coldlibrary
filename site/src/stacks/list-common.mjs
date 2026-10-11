@@ -67,7 +67,7 @@ export function crumbs(lang, items) {
   const all = [[T('Open Stacks', '开架书库'), osHref(lang)], ...items];
   return `<nav class="os-crumbs" aria-label="${T('Breadcrumb', '位置')}">${all.map(([label, url], i) => (i === all.length - 1 && !url
     ? `<span aria-current="page">${label}</span>`
-    : `<a href="${esc(url)}">${label}</a>`)).join('<span class="sep" aria-hidden="true">/</span>')}</nav>`;
+    : `<a href="${esc(url)}">${label}</a>`)).join('<span class="sep" aria-hidden="true">/</span><wbr>')}</nav>`;
 }
 
 // ---- plates ----

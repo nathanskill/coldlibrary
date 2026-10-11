@@ -66,19 +66,19 @@
     {
       "at": "句",
       "occ": 1,
-      "en": "句 (now written 勾), the 'hook': the shorter leg of a right triangle, here called the base.",
+      "en": "句 (now written 勾), the ‘hook’: the shorter leg of a right triangle, here called the base.",
       "zh": "句，今作“勾”，直角三角形中较短的直角边。"
     },
     {
       "at": "股",
       "occ": 1,
-      "en": "The 'thigh': the longer leg of a right triangle, here called the upright.",
+      "en": "The ‘thigh’: the longer leg of a right triangle, here called the upright.",
       "zh": "直角三角形中较长的直角边。"
     },
     {
       "at": "弦",
       "occ": 1,
-      "en": "The 'bowstring': the hypotenuse.",
+      "en": "The ‘bowstring’: the hypotenuse.",
       "zh": "直角三角形的斜边。"
     },
     {
@@ -91,7 +91,7 @@
       "at": "句股術",
       "occ": 1,
       "at_hans": "句股术",
-      "en": "The rule of base and upright: the relation known in the West as Pythagoras' theorem.",
+      "en": "The rule of base and upright: the relation known in the West as Pythagoras’ theorem.",
       "zh": "勾股定理，西方称毕达哥拉斯定理。"
     },
     {
@@ -110,7 +110,7 @@
       "at": "開方除之",
       "occ": 1,
       "at_hans": "开方除之",
-      "en": "'Open the square': to extract the square root, done on the counting board by a set procedure.",
+      "en": "‘Open the square’: to extract the square root, done on the counting board by a set procedure.",
       "zh": "开平方，在算筹上按固定程序进行。"
     },
     {
@@ -124,7 +124,7 @@
       "at": "徑二尺五寸",
       "occ": 1,
       "at_hans": "径二尺五寸",
-      "en": "Ten 寸 make one 尺; a Han foot was about 23 centimetres. The board's cross-section is a rectangle inscribed in the circle, so its diagonal is the diameter.",
+      "en": "Ten 寸 make one 尺; a Han foot was about 23 centimetres. The board’s cross-section is a rectangle inscribed in the circle, so its diagonal is the diameter.",
       "zh": "十寸为一尺，汉代一尺约合 23 厘米。木板截面是圆的内接矩形，对角线就是直径。"
     },
     {
@@ -181,14 +181,14 @@
     {
       "at": "六分尺之一",
       "occ": 1,
-      "en": "One sixth of a foot. Fractions are written as 'of a foot divided into six parts, one'.",
+      "en": "One sixth of a foot. Fractions are written as ‘of a foot divided into six parts, one’.",
       "zh": "六分之一尺。古代分数的读法：把一尺分为六份，取其一。"
     },
     {
       "at": "令如委數而一",
       "occ": 1,
       "at_hans": "令如委数而一",
-      "en": "The standard phrase for division: 'make it like the length on the ground, and take one', that is, divide by that length.",
+      "en": "The standard phrase for division: ‘make it like the length on the ground, and take one’, that is, divide by that length.",
       "zh": "“如……而一”是古代的除法术语，即用拖地的长度去除。"
     },
     {

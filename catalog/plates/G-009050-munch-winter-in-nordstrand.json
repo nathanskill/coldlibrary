@@ -1,13 +1,16 @@
 {
   "id": "G-009050",
   "slug": "munch-winter-in-nordstrand",
+  "kind": "artwork",
   "title": {
     "orig": "Vinter ved Nordstrand",
+    "lang": "da",
     "en": "Winter in Nordstrand",
     "zh": "诺德斯特兰的冬天"
   },
   "artist": {
     "orig": "Edvard Munch",
+    "lang": "no",
     "en": "Edvard Munch",
     "zh": "爱德华·蒙克",
     "dates": "1863–1944"
@@ -33,6 +36,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "sea",
   "rights": {
     "status": "public-domain",
     "basis": {

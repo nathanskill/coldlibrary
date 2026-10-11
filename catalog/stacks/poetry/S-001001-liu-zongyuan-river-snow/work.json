@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "Twenty characters, and the last one is snow. Liu Zongyuan wrote it during his long exile in Yongzhou, and the poem empties the world line by line, first the birds, then the people, until one figure is left in a boat. The first characters of the four lines read 千萬孤獨, 'thousands, alone', and still the poem is not bleak: the old man is doing something, patiently, in the cold.",
+    "en": "Twenty characters, and the last one is snow. Liu Zongyuan wrote it during his long exile in Yongzhou, and the poem empties the world line by line, first the birds, then the people, until one figure is left in a boat. The first characters of the four lines read 千萬孤獨, ‘thousands, alone’, and still the poem is not bleak: the old man is doing something, patiently, in the cold.",
     "zh": "二十个字，最后一个字是雪。柳宗元贬居永州时所作，诗一句句把世界清空：先是飞鸟，再是行人，最后只剩舟中一人。四句开头的字连起来是“千万孤独”；可这首诗并不消沉，那位老人正在寒冷里耐心地做着一件事。"
   },
   "pick": {
@@ -63,7 +63,7 @@
     "en": "One boat, one old man in a straw cape and hat, / fishing alone in the cold river snow.",
     "zh": "孤舟蓑笠翁，独钓寒江雪。"
   },
-  "plate": null,
+  "plate": "G-009004",
   "gloss": [
     {
       "at": "鳥飛絕",
@@ -83,7 +83,7 @@
       "at": "簑笠",
       "occ": 1,
       "at_hans": "蓑笠",
-      "en": "A straw rain cape (簑) and a broad bamboo hat (笠): the fisherman's gear.",
+      "en": "A straw rain cape (簑) and a broad bamboo hat (笠): the fisherman’s gear.",
       "zh": "蓑衣和斗笠。蓑，草编的雨衣；笠，竹编的宽檐帽，都是渔人的雨具。"
     }
   ],

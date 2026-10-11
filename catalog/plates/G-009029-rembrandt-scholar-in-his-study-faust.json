@@ -1,13 +1,16 @@
 {
   "id": "G-009029",
   "slug": "rembrandt-scholar-in-his-study-faust",
+  "kind": "artwork",
   "title": {
     "orig": "A Scholar in His Study ('Faust')",
-    "en": "A Scholar in His Study ('Faust')",
+    "lang": "en",
+    "en": "A Scholar in His Study (‘Faust’)",
     "zh": "书房中的学者（“浮士德”）"
   },
   "artist": {
     "orig": "Rembrandt van Rijn",
+    "lang": "nl",
     "en": "Rembrandt van Rijn",
     "zh": "伦勃朗",
     "dates": "1606–1669"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {

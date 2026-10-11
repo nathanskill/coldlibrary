@@ -1,13 +1,16 @@
 {
   "id": "G-009005",
   "slug": "hiroshige-woman-walking-in-the-snow",
+  "kind": "artwork",
   "title": {
     "orig": "Woman Walking in the Snow",
+    "lang": "en",
     "en": "Woman Walking in the Snow",
     "zh": "雪中行走的女子"
   },
   "artist": {
     "orig": "歌川広重",
+    "lang": "ja",
     "en": "Utagawa Hiroshige",
     "zh": "歌川广重",
     "dates": "1797–1858"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

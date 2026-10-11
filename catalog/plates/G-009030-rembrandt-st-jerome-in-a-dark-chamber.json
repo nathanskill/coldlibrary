@@ -1,13 +1,16 @@
 {
   "id": "G-009030",
   "slug": "rembrandt-st-jerome-in-a-dark-chamber",
+  "kind": "artwork",
   "title": {
     "orig": "St. Jerome in a Dark Chamber",
+    "lang": "en",
     "en": "St. Jerome in a Dark Chamber",
     "zh": "幽室中的圣哲罗姆"
   },
   "artist": {
     "orig": "Rembrandt van Rijn",
+    "lang": "nl",
     "en": "Rembrandt van Rijn",
     "zh": "伦勃朗",
     "dates": "1606–1669"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "一间昏暗的拱顶房间，中央是一道螺旋楼梯。右边窗口的光落在一个坐在书桌前、身边堆着书的人身上，其余的空间沉入细密排线织成的深影里。"
   },
   "note": {
-    "en": "Saint Jerome, who translated the Bible into Latin, is the patron of translators and librarians, and painters liked to show him at work in his study. Rembrandt makes him small, tucked into the corner by the window, and gives most of the plate to darkness. This is what a translator's room is like: quiet, deep, lit from one side.",
+    "en": "Saint Jerome, who translated the Bible into Latin, is the patron of translators and librarians, and painters liked to show him at work in his study. Rembrandt makes him small, tucked into the corner by the window, and gives most of the plate to darkness. This is what a translator’s room is like: quiet, deep, lit from one side.",
     "zh": "圣哲罗姆把《圣经》译成拉丁文，是译者和图书管理员的主保圣人，画家们喜欢描绘他在书房里工作的样子。伦勃朗把他画得很小，缩在窗边的角落里，把大半个版面交给了黑暗。这就是一个译者的房间：安静、幽深，光从一边照进来。"
   },
   "pick": null,

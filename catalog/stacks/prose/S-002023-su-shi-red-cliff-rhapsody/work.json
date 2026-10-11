@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource, which follows Su Shi's autograph scroll in the National Palace Museum, Taipei; variant character forms are normalised. Su Shi's own postscript on the scroll is included; later colophons are not.",
+    "en": "Text as given on Chinese Wikisource, which follows Su Shi’s autograph scroll in the National Palace Museum, Taipei; variant character forms are normalised. Su Shi’s own postscript on the scroll is included; later colophons are not.",
     "zh": "据维基文库，依台北故宫博物院藏苏轼手书卷；异体字统一为通行字形。收入卷上苏轼本人的附言，后人题跋不收。"
   },
   "source": {
@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Su Shi's rhapsody of an autumn night on the Yangzi in 1082, written during his exile in Huangzhou. A guest's flute turns the evening sad, and Su answers with the water and the moon, which change and do not change. The text follows Su Shi's own handwritten scroll and ends with the note he added for the friend he sent it to, asking him to keep it hidden.",
+    "en": "Su Shi’s rhapsody of an autumn night on the Yangzi in 1082, written during his exile in Huangzhou. A guest’s flute turns the evening sad, and Su answers with the water and the moon, which change and do not change. The text follows Su Shi’s own handwritten scroll and ends with the note he added for the friend he sent it to, asking him to keep it hidden.",
     "zh": "苏轼 1082 年谪居黄州时写长江秋夜泛舟。客人的箫声使夜色转悲，苏子以水与月作答：既变，又不变。文本据苏轼亲书的手卷，末尾保留他写给受赠友人的附言，嘱咐对方深藏不出。"
   },
   "pick": null,
@@ -62,7 +62,7 @@
     "en": "Only the cool breeze on the river and the bright moon over the mountains, which the ear takes in as sound and the eye meets as colour: no one forbids us to take them, and using them never wears them out. They are the inexhaustible treasury of the maker of things.",
     "zh": "惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭，是造物者之无尽藏也"
   },
-  "plate": null,
+  "plate": "G-009008",
   "gloss": [
     {
       "at": "壬戌",
@@ -79,7 +79,7 @@
     {
       "at": "赤壁",
       "occ": 1,
-      "en": "The Red Cliff outside Huangzhou (today's Huanggang, Hubei). The battle of 208 was probably fought further upstream; Su Shi borrows the name and its memories.",
+      "en": "The Red Cliff outside Huangzhou (today’s Huanggang, Hubei). The battle of 208 was probably fought further upstream; Su Shi borrows the name and its memories.",
       "zh": "指黄州城外的赤鼻矶（今湖北黄冈）。公元 208 年的赤壁之战一般认为发生在上游别处，苏轼借这个地名寄托怀古之情。"
     },
     {
@@ -93,7 +93,7 @@
       "at": "《明月》之詩，歌《窈窕》之章",
       "occ": 1,
       "at_hans": "《明月》之诗，歌《窈窕》之章",
-      "en": "Probably the ode 'The Moon Rises' in the Book of Songs, whose first stanza joins the moon's brightness to a lovely woman's grace.",
+      "en": "Probably the ode 'The Moon Rises’ in the Book of Songs, whose first stanza joins the moon’s brightness to a lovely woman’s grace.",
       "zh": "一般认为指《诗经·陈风·月出》，首章写月光皎洁与美人的窈窕身姿。"
     },
     {
@@ -113,7 +113,7 @@
       "at": "一葦",
       "occ": 1,
       "at_hans": "一苇",
-      "en": "A single reed: the little boat. The image is from the Book of Songs: 'Who says the river is wide? A single reed will cross it.'",
+      "en": "A single reed: the little boat. The image is from the Book of Songs: ‘Who says the river is wide? A single reed will cross it.’",
       "zh": "比喻小船。语出《诗经·卫风·河广》：“谁谓河广？一苇杭之。”"
     },
     {
@@ -134,7 +134,7 @@
       "at": "桂棹兮蘭槳",
       "occ": 1,
       "at_hans": "桂棹兮兰桨",
-      "en": "Oars of cassia wood, sweeps of magnolia: the song echoes the Chu ci, 'cassia oars and magnolia sweeps' in 'The Lord of the Xiang'.",
+      "en": "Oars of cassia wood, sweeps of magnolia: the song echoes the Chu ci, 'cassia oars and magnolia sweeps’ in ‘The Lord of the Xiang’.",
       "zh": "桂木做的棹，木兰做的桨。化用《楚辞·九歌·湘君》“桂棹兮兰枻”。"
     },
     {
@@ -161,7 +161,7 @@
       "at": "月明星稀，烏鵲南飛",
       "occ": 1,
       "at_hans": "月明星稀，乌鹊南飞",
-      "en": "Lines from Cao Cao's 'Short Song', written, in the story, on the eve of the battle.",
+      "en": "Lines from Cao Cao’s ‘Short Song’, written, in the story, on the eve of the battle.",
       "zh": "出自曹操《短歌行》，传说作于赤壁之战前夕。"
     },
     {
@@ -174,7 +174,7 @@
       "at": "西望夏口，東望武昌",
       "occ": 1,
       "at_hans": "西望夏口，东望武昌",
-      "en": "Xiakou lay at the mouth of the Han River, in today's Wuhan; the Song town of Wuchang is today's Ezhou, across the Yangzi from Huangzhou.",
+      "en": "Xiakou lay at the mouth of the Han River, in today’s Wuhan; the Song town of Wuchang is today’s Ezhou, across the Yangzi from Huangzhou.",
       "zh": "夏口在汉水入江处，今属武汉；宋代的武昌在今湖北鄂州，与黄州隔江相望。"
     },
     {
@@ -194,7 +194,7 @@
       "at": "橫槊賦詩",
       "occ": 1,
       "at_hans": "横槊赋诗",
-      "en": "To compose poems with a spear laid across one's knees: the classic picture of Cao Cao as poet and soldier at once.",
+      "en": "To compose poems with a spear laid across one’s knees: the classic picture of Cao Cao as poet and soldier at once.",
       "zh": "横持长矛吟诗，是后人心目中曹操既能作战又能作诗的形象。"
     },
     {
@@ -213,7 +213,7 @@
     {
       "at": "逝者如斯",
       "occ": 1,
-      "en": "From the Analects, book 9: standing by a river, Confucius said, 'It passes away like this, never stopping day or night.'",
+      "en": "From the Analects, book 9: standing by a river, Confucius said, ‘It passes away like this, never stopping day or night.’",
       "zh": "语出《论语·子罕》：孔子在河边说：“逝者如斯夫，不舍昼夜。”"
     },
     {

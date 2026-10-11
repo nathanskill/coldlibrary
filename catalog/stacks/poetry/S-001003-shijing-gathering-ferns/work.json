@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "A soldiers' song from the Lesser Odes of the Book of Songs, sung on the way home from a long frontier posting. For five stanzas it is all hunger, harness and duty; then the last stanza turns, and 'when I set out, the willows swayed; now I return, the snow is falling' became one of the most quoted lines in the language for how time passes while you are away. Notice the ferns: sprouting, tender, tough, a whole season measured by what the soldiers ate.",
+    "en": "A soldiers’ song from the Lesser Odes of the Book of Songs, sung on the way home from a long frontier posting. For five stanzas it is all hunger, harness and duty; then the last stanza turns, and ‘when I set out, the willows swayed; now I return, the snow is falling’ became one of the most quoted lines in the language for how time passes while you are away. Notice the ferns: sprouting, tender, tough, a whole season measured by what the soldiers ate.",
     "zh": "《诗经·小雅》里的一首戍卒之歌，唱在久戍归来的路上。前五章写饥渴、车马和差事；末章一转，“昔我往矣，杨柳依依；今我来思，雨雪霏霏”，成了汉语里写离家之后时间流逝最常被引用的句子。留意那些薇菜：从“作”到“柔”再到“刚”，一整季的光阴，是用他们吃的野菜来量的。"
   },
   "pick": null,
@@ -60,7 +60,7 @@
     "en": "When I set out long ago, / the willows were soft and swaying. / Now, as I come back, / the snow is falling thick.",
     "zh": "昔我往矣，杨柳依依。今我来思，雨雪霏霏。"
   },
-  "plate": null,
+  "plate": "G-009014",
   "gloss": [
     {
       "at": "采薇",
@@ -78,7 +78,7 @@
       "at": "玁狁",
       "occ": 1,
       "at_hans": "猃狁",
-      "en": "The Xianyun, a nomadic people on the Zhou's northern frontier, usually identified with the later Xiongnu.",
+      "en": "The Xianyun, a nomadic people on the Zhou’s northern frontier, usually identified with the later Xiongnu.",
       "zh": "猃狁（xiǎn yǔn）：西周时北方的游牧部族，一般认为即后来的匈奴。"
     },
     {

@@ -99,9 +99,9 @@ function renderPlate(lang, stacks, p) {
   const top = `<article class="os-plate" aria-labelledby="h-plate">
   <div class="wrap grid">
     <div class="c-aside os-pinfo">
-      <p class="idline"><a class="id" href="${shortPlate(p)}" title="${T('Short link · cite this', '短链接 · 引用用这个')}"><span class="vh">${T('Catalogue number ', '馆藏号 ')}</span>${esc(p.id)}</a><span class="meta"><span class="sep" aria-hidden="true">·</span><a href="${osHref(lang, 'plates')}">${T('Plates', '图版')}</a></span></p>
+      <p class="idline"><a class="id" href="${shortPlate(p)}" title="${T('Short link · cite this', '短链接 · 引用用这个')}"><span class="vh">${T('Catalogue number ', '馆藏号 ')}</span>${esc(p.id)}</a><span class="meta"><span class="sep" aria-hidden="true">·</span><wbr><a href="${osHref(lang, 'plates')}">${T('Plates', '图版')}</a></span></p>
       <h1 id="h-plate" class="serif${[...title].length > 32 ? ' os-long' : ''}" lang="${lang === 'zh' ? 'zh-CN' : 'en'}">${glue(title)}</h1>
-      ${orig ? `<p class="os-porig">${T('Original title', '原题')}<span class="sep" aria-hidden="true">·</span><span class="serif"${origLang ? ` lang="${esc(origLang)}"` : ''}>${esc(orig)}</span></p>` : ''}
+      ${orig ? `<p class="os-porig">${T('Original title', '原题')}<span class="sep" aria-hidden="true">·</span><wbr><span class="serif"${origLang ? ` lang="${esc(origLang)}"` : ''}>${esc(orig)}</span></p>` : ''}
       <p class="os-pby">${artistLine}</p>
       <p class="meta">${facts}</p>
       <dl class="tomb os-ptomb">${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>

@@ -1,13 +1,16 @@
 {
   "id": "G-009001",
   "slug": "hiroshige-evening-snow-at-kanbara",
+  "kind": "artwork",
   "title": {
     "orig": "蒲原 夜之雪",
+    "lang": "ja",
     "en": "Evening Snow at Kanbara",
     "zh": "蒲原 夜之雪"
   },
   "artist": {
     "orig": "歌川広重",
+    "lang": "ja",
     "en": "Utagawa Hiroshige",
     "zh": "歌川广重",
     "dates": "1797–1858"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "snow",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "夜里，一座村庄被厚雪覆盖。屋顶和山坡都压着雪，天色灰暗，三个行人披着蓑衣、撑着伞，弓着身在雪中前行，身后留下一串脚印。"
   },
   "note": {
-    "en": "Station fifteen of Hiroshige's Fifty-three Stations of the Tōkaidō, the series that made his name. Kanbara lies on a mild stretch of coast where heavy snow is rare, so this is most likely a snowfall he imagined rather than one he saw. Notice how little is printed: much of the white is bare paper, and the darkening sky does the rest.",
+    "en": "Station fifteen of Hiroshige’s Fifty-three Stations of the Tōkaidō, the series that made his name. Kanbara lies on a mild stretch of coast where heavy snow is rare, so this is most likely a snowfall he imagined rather than one he saw. Notice how little is printed: much of the white is bare paper, and the darkening sky does the rest.",
     "zh": "广重成名作《东海道五十三次》中的第十五站。蒲原在气候温和的海边，很少下大雪，所以这多半是他想象出来的一场雪，而不是亲眼所见。留意印上去的东西有多少：大片的白就是纸本身，其余交给那片暗下来的天。"
   },
   "pick": {

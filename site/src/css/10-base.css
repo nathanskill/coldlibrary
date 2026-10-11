@@ -25,6 +25,7 @@ li { list-style: none; }
 dl, dd, figure, blockquote { margin: 0; }
 hr { border: 0; border-top: 1px solid var(--line); margin: var(--s7) 0; }
 strong, b { font-weight: 500; }
+.read :lang(zh) strong, .read strong:lang(zh), .serif:lang(zh) strong { font-weight: 600; }
 em:lang(zh), :lang(zh) em { font-style: normal; text-emphasis: filled dot; text-emphasis-position: under right; }
 small { font-size: var(--t5); }
 mark { background: var(--mark); color: inherit; padding: 0 1px; border-radius: 1px; }

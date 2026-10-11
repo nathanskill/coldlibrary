@@ -1,13 +1,16 @@
 {
   "id": "G-009027",
   "slug": "vermeer-young-woman-with-a-water-pitcher",
+  "kind": "artwork",
   "title": {
     "orig": "Young Woman with a Water Pitcher",
+    "lang": "en",
     "en": "Young Woman with a Water Pitcher",
     "zh": "持水壶的年轻女子"
   },
   "artist": {
     "orig": "Johannes Vermeer",
+    "lang": "nl",
     "en": "Johannes Vermeer",
     "zh": "约翰内斯·维米尔",
     "dates": "1632–1675"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": null,
   "rights": {
     "status": "public-domain",
     "basis": {

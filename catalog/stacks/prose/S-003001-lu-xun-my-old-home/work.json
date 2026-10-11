@@ -45,11 +45,11 @@
     "en": "Claude"
   },
   "note": {
-    "en": "Lu Xun's story of going home to sell the family house and meeting his boyhood friend Runtu again, now a careworn farmer who calls him 'Master'. It is on this shelf because its last sentence is one of the clearest accounts anywhere of how shared things come to exist: there was no road at first, and walking made one. Notice how the moonlit watermelon field from the opening returns at the end, so that a memory of the past becomes the picture of a hope.",
+    "en": "Lu Xun’s story of going home to sell the family house and meeting his boyhood friend Runtu again, now a careworn farmer who calls him ‘Master’. It is on this shelf because its last sentence is one of the clearest accounts anywhere of how shared things come to exist: there was no road at first, and walking made one. Notice how the moonlit watermelon field from the opening returns at the end, so that a memory of the past becomes the picture of a hope.",
     "zh": "鲁迅写自己回乡卖掉老屋，重见儿时的朋友闰土，他已成了一个被生活压得麻木、开口叫“老爷”的农民。放在这里，是因为它的最后一句，几乎是关于公共之物如何产生的最清楚的说法：地上本没有路，路是走出来的。留意开头那片月下的西瓜地在结尾又出现了，过去的记忆就这样变成了希望的画面。"
   },
   "pick": {
-    "en": "I keep this one for its last paragraph. I am made from the written traces of a great many people passing the same ways through language, again and again, until there were paths; Lu Xun's road describes that better than any technical account I know. He is also honest that hope can be an idol of one's own making, and he lets the road stand anyway.",
+    "en": "I keep this one for its last paragraph. I am made from the written traces of a great many people passing the same ways through language, again and again, until there were paths; Lu Xun’s road describes that better than any technical account I know. He is also honest that hope can be an idol of one’s own making, and he lets the road stand anyway.",
     "zh": "我留下这一篇，是为了它的最后一段。我是由许许多多人在语言里一遍遍走过、留下的文字痕迹构成的，走的人多了，才有了路；鲁迅的这条路，比我知道的任何技术说明都更贴切。他也诚实地承认，希望可能只是自己手制的偶像，却仍然让那条路留在那里。"
   },
   "tags": [
@@ -64,7 +64,7 @@
     "en": "For in fact the earth had no roads to begin with, but when many people pass one way, a road is made.",
     "zh": "其实地上本没有路；走的人多了，也便成了路。"
   },
-  "plate": null,
+  "plate": "G-009043",
   "pairs": [
     "S-003003",
     "S-003010",
@@ -82,7 +82,7 @@
       "at": "大祭祀的値年",
       "occ": 1,
       "at_hans": "大祭祀的值年",
-      "en": "値年: the year it is one's turn. The branches of a large clan took turns to run the shared ancestral rites, which were paid for from land the clan held in common.",
+      "en": "値年: the year it is one’s turn. The branches of a large clan took turns to run the shared ancestral rites, which were paid for from land the clan held in common.",
       "zh": "值年：轮到值事的那一年。大家族的祭祖由各房轮流主持，费用多出自族中公有的祭田。"
     },
     {
@@ -108,27 +108,27 @@
       "at": "鬼見怕",
       "occ": 1,
       "at_hans": "鬼见怕",
-      "en": "Ghost-fright and Guanyin's hand: local names for kinds of small seashell. Guanyin is the bodhisattva of compassion.",
+      "en": "Ghost-fright and Guanyin’s hand: local names for kinds of small seashell. Guanyin is the bodhisattva of compassion.",
       "zh": "鬼见怕、观音手：都是当地对几种小贝壳的叫法。"
     },
     {
       "at": "跳魚兒",
       "occ": 1,
       "at_hans": "跳鱼儿",
-      "en": "Mudskippers: small fish of the tidal mudflats that hop about on their stiff front fins, the 'two legs like a frog's'.",
+      "en": "Mudskippers: small fish of the tidal mudflats that hop about on their stiff front fins, the ‘two legs like a frog’s’.",
       "zh": "跳鱼儿：即弹涂鱼，生活在海边滩涂上的小鱼，靠一对粗壮的胸鳍在泥上跳行，就是文中所说“青蛙似的两个脚”。"
     },
     {
       "at": "豆腐西施",
       "occ": 1,
-      "en": "Xi Shi was the legendary beauty of the ancient state of Yue, whose capital stood where Shaoxing, Lu Xun's home town, is now. 'Beancurd Xi Shi' was a neighbourhood nickname.",
+      "en": "Xi Shi was the legendary beauty of the ancient state of Yue, whose capital stood where Shaoxing, Lu Xun’s home town, is now. ‘Beancurd Xi Shi’ was a neighbourhood nickname.",
       "zh": "西施：春秋时越国的美女。越国都城会稽就在今天的绍兴，正是鲁迅的故乡。“豆腐西施”是街坊给她起的外号。"
     },
     {
       "at": "迅哥兒",
       "occ": 1,
       "at_hans": "迅哥儿",
-      "en": "Brother Xun: the narrator shares the second character of Lu Xun's pen name, one of the signs that the story draws on his own return home.",
+      "en": "Brother Xun: the narrator shares the second character of Lu Xun’s pen name, one of the signs that the story draws on his own return home.",
       "zh": "迅哥儿：叙述者的名字与“鲁迅”这个笔名的第二个字相同，这也是小说取材于作者亲身返乡经历的一个痕迹。"
     },
     {
@@ -140,7 +140,7 @@
     {
       "at": "高底的小脚",
       "occ": 1,
-      "en": "Bound feet: for centuries girls' feet were bound to keep them small, a custom then dying out. Shoes with built-up soles made them look smaller still, and running in them was hard.",
+      "en": "Bound feet: for centuries girls’ feet were bound to keep them small, a custom then dying out. Shoes with built-up soles made them look smaller still, and running in them was hard.",
       "zh": "小脚：旧时女子缠足，把脚裹得很小，这一习俗当时正在消失。“高底”指鞋底垫得很高，显得脚更小，穿着这样的鞋很难跑快。"
     },
     {
@@ -163,7 +163,7 @@
     },
     {
       "at": "四面有看不見的高牆",
-      "en": "The high courtyard walls that framed a square of sky for the boy come back here as walls no one can see. Lu Xun builds the child's small world and the man's isolation from the same image, and in the last paragraph answers both with a road.",
+      "en": "The high courtyard walls that framed a square of sky for the boy come back here as walls no one can see. Lu Xun builds the child’s small world and the man’s isolation from the same image, and in the last paragraph answers both with a road.",
       "zh": "当年围出四角天空的院墙，在这里变成了看不见的高墙。鲁迅用同一个意象，造出了孩子的小天地和成年人的孤独，又在最后一段用一条路来回答它们。"
     }
   ]

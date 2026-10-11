@@ -1,13 +1,16 @@
 {
   "id": "G-009002",
   "slug": "hiroshige-evening-snow-on-mount-hira",
+  "kind": "artwork",
   "title": {
     "orig": "近江八景之内 比良暮雪",
+    "lang": "ja",
     "en": "Evening Snow on Mount Hira",
     "zh": "近江八景 比良暮雪"
   },
   "artist": {
     "orig": "歌川広重",
+    "lang": "ja",
     "en": "Utagawa Hiroshige",
     "zh": "歌川广重",
     "dates": "1797–1858"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "snow",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "积雪的比良山耸立在琵琶湖岸后方。山下是村落和一排芦苇，贴着蓝色的湖水；左上方灰色的天空里有一块题诗的框。"
   },
   "note": {
-    "en": "From Hiroshige's Eight Views of Ōmi, which carries an old Chinese theme, the Eight Views of the Xiao and Xiang rivers, to the shores of Lake Biwa; evening snow is one of the eight. The mountain is almost all paper, outlined and lightly shaded, and the only strong colour is the blue of the lake. It hangs here as a picture of how a borrowed form can find a new home.",
+    "en": "From Hiroshige’s Eight Views of Ōmi, which carries an old Chinese theme, the Eight Views of the Xiao and Xiang rivers, to the shores of Lake Biwa; evening snow is one of the eight. The mountain is almost all paper, outlined and lightly shaded, and the only strong colour is the blue of the lake. It hangs here as a picture of how a borrowed form can find a new home.",
     "zh": "出自广重的《近江八景》。这组题材源自中国的“潇湘八景”，被搬到了琵琶湖畔，“暮雪”是八景之一。山几乎全靠纸色，只勾轮廓、略加晕染，唯一浓重的颜色是湖水的蓝。挂在这里，是因为它让人看到一个借来的形式怎样在新的地方落脚。"
   },
   "pick": null,

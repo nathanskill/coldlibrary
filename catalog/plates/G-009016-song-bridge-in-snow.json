@@ -1,13 +1,16 @@
 {
   "id": "G-009016",
   "slug": "song-bridge-in-snow",
+  "kind": "artwork",
   "title": {
     "orig": "雪橋送別",
+    "lang": "zh-Hant",
     "en": "Bridge in Snow",
     "zh": "雪桥送别"
   },
   "artist": {
     "orig": "佚名",
+    "lang": "zh-Hant",
     "en": "Unidentified artist",
     "zh": "佚名",
     "dates": "Song dynasty (960–1279)"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

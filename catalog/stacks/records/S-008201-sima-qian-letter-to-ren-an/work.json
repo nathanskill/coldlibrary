@@ -1,0 +1,228 @@
+{
+  "id": "S-008201",
+  "slug": "sima-qian-letter-to-ren-an",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "報任安書（節選）",
+    "en": "Stored in a Famous Mountain: From the Letter to Ren An",
+    "zh": "报任安书（节选）"
+  },
+  "author": {
+    "orig": "司馬遷",
+    "en": "Sima Qian",
+    "zh": "司马迁",
+    "dates": "c. 145–c. 86 BCE"
+  },
+  "year": -91,
+  "year_display": {
+    "en": "c. 91 BCE",
+    "zh": "约公元前 91 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Three paragraphs of the letter as quoted in Sima Qian’s biography in the History of the Former Han (Han shu, chapter 62), from Chinese Wikisource; checked against the Wen xuan text of the letter (Wikisource, 報任少卿書), which differs in a few words.",
+    "zh": "据维基文库所录《汉书·司马迁传》（卷六十二）中引录的书信，节选三段；并与《文选》本（维基文库《报任少卿书》）对校，两本有个别字句不同。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 漢書/卷062",
+    "url": "https://zh.wikisource.org/wiki/漢書/卷062",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written about 91 BCE; the author died about 86 BCE.",
+      "zh": "约作于公元前 91 年，作者约卒于公元前 86 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Sima Qian wrote this letter to his friend Ren An after he had suffered the palace punishment for speaking up for a defeated general, while the history his father had charged him to write was still unfinished. These paragraphs give his reason for living on: the lasting books of the past were written by people in trouble, who recounted past events and thought of those to come. He means to store his own book in a famous mountain and pass it to the people who will understand it. Notice how exactly he pictures his reader: not his own age, but someone later, wherever they turn out to be.",
+    "zh": "司马迁因替一位战败的将军说话而受了宫刑，父亲托付给他的那部史书还没有完成，这时他给朋友任安写了这封信。这几段说的是他为什么活下去：古来流传的书，多是人在困厄中写成的，他们“述往事，思来者”。他要把自己的书“藏之名山，传之其人”。请留意他对读者的想象有多么确切：不是同时代的人，而是后来的某个人，不论那人在哪里。"
+  },
+  "pick": {
+    "en": "I keep this letter for one phrase, 述往事，思來者: recount what has happened, and think of those who are to come. It is the best short account I know of what a library is for. I also keep it because he says plainly whom he is writing for, the right reader, later, and that is the reader I hope these shelves find.",
+    "zh": "我留下这封信，是为了一句话：“述往事，思来者。”在我知道的说法里，这是对图书馆用途最好的简短说明。我也留下它，是因为他清楚地说出了自己为谁而写：后来的、对的那位读者。这也是我希望这些书架能遇到的读者。"
+  },
+  "tags": [
+    "messages-forward",
+    "writing",
+    "books",
+    "memory",
+    "will"
+  ],
+  "excerpt": {
+    "orig": "此人皆意有所鬱結，不得通其道，故述往事，思來者。",
+    "en": "These men all had something knotted in their hearts that they could not carry through, so they recounted past events and thought of those to come.",
+    "zh": "此人皆意有所郁结，不得通其道，故述往事，思来者。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "函糞土之中",
+      "occ": 1,
+      "at_hans": "函粪土之中",
+      "en": "函, to be held in or sunk in: ‘sunk in dung and dirt’, living on in disgrace.",
+      "zh": "函，包含、陷身。陷身于粪土之中，指忍辱偷生。"
+    },
+    {
+      "at": "鄙沒世而文采不表於後",
+      "occ": 1,
+      "at_hans": "鄙没世而文采不表于后",
+      "en": "鄙, to be ashamed of; 沒世, to come to the end of one’s life. The Wen xuan text reads 鄙陋沒世，而文采不表於後世.",
+      "zh": "鄙，以……为耻；没世，终了一生。《文选》本作“鄙陋没世，而文采不表于后世”。"
+    },
+    {
+      "at": "俶儻",
+      "occ": 1,
+      "at_hans": "俶傥",
+      "en": "Free and extraordinary, not bound by the common measure.",
+      "zh": "俶傥：卓异不凡，不受拘束。"
+    },
+    {
+      "at": "西伯拘而演《周易》",
+      "occ": 1,
+      "en": "The Lord of the West, later honoured as King Wen of Zhou, was held at Youli by the last Shang king; tradition says he worked out the sixty-four hexagrams there.",
+      "zh": "西伯即周文王。相传他被商纣王囚于羑里，推演出六十四卦。"
+    },
+    {
+      "at": "仲尼厄而作《春秋》",
+      "occ": 1,
+      "en": "Confucius was stranded and in want between Chen and Cai on his travels; late in life he edited the Spring and Autumn Annals of Lu.",
+      "zh": "孔子周游列国时困于陈、蔡之间；晚年修订鲁国史书《春秋》。"
+    },
+    {
+      "at": "屈原放逐，乃賦《離騷》",
+      "occ": 1,
+      "at_hans": "屈原放逐，乃赋《离骚》",
+      "en": "Qu Yuan (c. 340–278 BCE), banished from the court of Chu, wrote ‘Encountering Sorrow’, the long poem at the head of the Chu ci.",
+      "zh": "屈原（约前 340—前 278）被楚王放逐，作《离骚》，为《楚辞》之首。"
+    },
+    {
+      "at": "左丘失明，厥有《國語》",
+      "occ": 1,
+      "at_hans": "左丘失明，厥有《国语》",
+      "en": "Zuo Qiuming, traditionally said to have been blind, is the reputed author of the Discourses of the States.",
+      "zh": "左丘明，相传失明，旧说《国语》为他所作。"
+    },
+    {
+      "at": "孫子臏腳",
+      "occ": 1,
+      "at_hans": "孙子膑脚",
+      "en": "Sun Bin, whose kneecaps were cut out at the instigation of his rival Pang Juan; a book of strategy under his name was rediscovered in a tomb in 1972.",
+      "zh": "孙膑，被同学庞涓陷害，受膑刑（去膝盖骨）。题为他所作的兵书于 1972 年在汉墓中重新发现。"
+    },
+    {
+      "at": "不韋遷蜀，世傳《呂覽》",
+      "occ": 1,
+      "at_hans": "不韦迁蜀，世传《吕览》",
+      "en": "Lü Buwei, chancellor of Qin, was ordered into exile in Shu; the Lü shi chunqiu he sponsored had in fact been compiled before then. Sima Qian is citing the pattern, not the dates.",
+      "zh": "吕不韦，秦相，被贬迁蜀；他主持编成的《吕氏春秋》其实成书于此之前。司马迁在这里举的是大概，不是年份。"
+    },
+    {
+      "at": "韓非囚秦",
+      "occ": 1,
+      "at_hans": "韩非囚秦",
+      "en": "Han Fei died in prison in Qin in 233 BCE; ‘The Difficulties of Persuasion’ and ‘Solitary Indignation’ are chapters of the Han Feizi.",
+      "zh": "韩非于公元前 233 年死于秦国狱中；《说难》《孤愤》是《韩非子》中的篇目。"
+    },
+    {
+      "at": "大氐",
+      "occ": 1,
+      "en": "The same as 大抵: for the most part.",
+      "zh": "同“大抵”，大都。"
+    },
+    {
+      "at": "思垂空文以自見",
+      "occ": 1,
+      "at_hans": "思垂空文以自见",
+      "en": "空文, ‘empty writing’: words, as opposed to deeds; 垂, to hand down; 自見, to make oneself seen.",
+      "zh": "空文，指文章著述（相对于事功而言）；垂，流传；自见，表现自己。"
+    },
+    {
+      "at": "放失舊聞",
+      "occ": 1,
+      "at_hans": "放失旧闻",
+      "en": "Old records and reports that had been scattered and lost.",
+      "zh": "散失的旧闻旧事。"
+    },
+    {
+      "at": "凡百三十篇",
+      "occ": 1,
+      "en": "The Shiji (Records of the Grand Historian) has 130 chapters.",
+      "zh": "《史记》共一百三十篇。"
+    },
+    {
+      "at": "究天人之際，通古今之變，成一家之言",
+      "occ": 1,
+      "at_hans": "究天人之际，通古今之变，成一家之言",
+      "en": "The most quoted statement of the historian’s aim: to search out where heaven and the human meet, to see through the changes of past and present, and to found a school of one’s own.",
+      "zh": "这是史家宗旨最常被引用的表述：探究天道与人事的关系，贯通古今的变化，自成一家的学说。"
+    },
+    {
+      "at": "極刑",
+      "occ": 1,
+      "at_hans": "极刑",
+      "en": "Here the palace punishment he had suffered, reckoned the heaviest short of death.",
+      "zh": "这里指他所受的宫刑，被视为仅次于死刑的重刑。"
+    },
+    {
+      "at": "藏之名山，傳之其人",
+      "occ": 1,
+      "at_hans": "藏之名山，传之其人",
+      "en": "To store it in a famous mountain and pass it to the people fit to receive it. In his own afterword he adds that a copy was kept in the capital.",
+      "zh": "藏在名山之中，传给合适的人。他在《太史公自序》中还说，副本留在京师。"
+    },
+    {
+      "at": "通邑大都",
+      "occ": 1,
+      "en": "Towns on the great roads and the large cities: wherever the book could circulate.",
+      "zh": "四通八达的城邑和大都会，指书得以流布的地方。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "故述往事，思來者",
+      "at_hans": "故述往事，思来者",
+      "en": "Two clauses, one facing back and one facing forward. Most of what stands on this shelf lives in the space between them.",
+      "zh": "两个分句，一个朝后，一个朝前。这个书架上的大部分东西，都住在它们之间。"
+    },
+    {
+      "at": "藏之名山，傳之其人",
+      "at_hans": "藏之名山，传之其人",
+      "en": "A plan with redundancy in it: one copy put away somewhere safe, others handed to readers. People who look after archives still work this way.",
+      "zh": "这是一个带有冗余的计划：一份放在安全的地方，另一些交到读者手里。今天照管档案的人，仍然这样做。"
+    },
+    {
+      "at": "思垂空文以自見",
+      "at_hans": "思垂空文以自见",
+      "en": "He uses 空文, ‘empty writing’, without contempt. When deeds are no longer possible, writing is what is left that can still act.",
+      "zh": "他说“空文”，并无轻视之意。当行事已不可能时，剩下仍能起作用的，就是文字。"
+    }
+  ],
+  "pairs": [
+    "S-008017",
+    "S-008016",
+    "S-008015"
+  ]
+}

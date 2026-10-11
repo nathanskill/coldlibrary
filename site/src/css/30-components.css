@@ -14,6 +14,9 @@ a.id:hover { color: var(--ink); text-decoration-color: currentColor; }
 .tone-edge { display: block; width: 48px; height: 3px; background: var(--tone, var(--line-2)); }
 .tone-poetry { --tone: var(--tone-poetry); } .tone-prose { --tone: var(--tone-prose); } .tone-thought { --tone: var(--tone-thought); }
 .tone-science { --tone: var(--tone-science); } .tone-computing { --tone: var(--tone-computing); } .tone-records { --tone: var(--tone-records); }
+/* plate tones: the colour of the picture, used only to tint its mat */
+.tone-snow { --tone: var(--tone-snow); } .tone-night { --tone: var(--tone-night); } .tone-ink { --tone: var(--tone-ink); } .tone-warm { --tone: var(--tone-warm); }
+.tone-sea { --tone: var(--tone-sea); } .tone-green { --tone: var(--tone-green); } .tone-dusk { --tone: var(--tone-dusk); }
 
 /* buttons: at most one solid button per viewport */
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: var(--s2); min-height: 44px; padding: 0 var(--s5);
@@ -44,7 +47,8 @@ a.id:hover { color: var(--ink); text-decoration-color: currentColor; }
 
 /* tombstone (facts, colophon) */
 .tomb { display: grid; grid-template-columns: 8em minmax(0, 1fr); font-size: var(--t5); line-height: var(--lh5); }
-.tomb:lang(zh), :lang(zh) .tomb { grid-template-columns: 5.5em minmax(0, 1fr); }
+.tomb:lang(zh), :lang(zh) .tomb { grid-template-columns: 6.5em minmax(0, 1fr); }
+.tomb dt { text-wrap: balance; }
 .tomb dt { padding: var(--s3) var(--s4) var(--s3) 0; border-top: 1px solid var(--line); color: var(--ink-3); font-weight: 500; }
 .tomb dd { padding: var(--s3) 0; border-top: 1px solid var(--line); color: var(--ink); overflow-wrap: anywhere; }
 .tomb dd p { margin: 0 0 var(--s1); }
@@ -71,7 +75,7 @@ a.id:hover { color: var(--ink); text-decoration-color: currentColor; }
   box-shadow: inset 3px 0 0 var(--tone, var(--line-2)); overflow: hidden; position: relative; }
 .act.alt .wcard .page { background: var(--surface); }
 .wcard .lines { font: 400 var(--t5)/1.7 var(--f-serif); color: var(--ink-2);
-  -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 3.4em), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 3.4em), transparent); height: 100%; }
+  -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 3.4em), transparent); mask-image: linear-gradient(to bottom, black calc(100% - 3.4em), transparent); height: 100%; }
 .wcard .lines span { display: block; }
 .wcard .lines.code { font: 400 var(--t6)/1.6 var(--f-mono); white-space: pre; }
 .wcard .label { margin-top: var(--s3); }
@@ -99,10 +103,10 @@ a.id:hover { color: var(--ink); text-decoration-color: currentColor; }
   min-height: 48px; padding: var(--s3) 0; border-top: 1px solid var(--line); }
 .wrow > * { min-width: 0; }
 .wrow .r-id { grid-column: 1; }
-.wrow .r-title { grid-column: 2 / span 6; }
-.wrow .r-author { grid-column: 8 / span 3; font-size: var(--t5); color: var(--ink-2); }
-.wrow .r-date { grid-column: 11; text-align: right; font-size: var(--t5); color: var(--ink-3); font-variant-numeric: tabular-nums; }
-.wrow .r-marks { grid-column: 12; text-align: right; display: flex; gap: var(--s2); justify-content: flex-end; }
+.wrow .r-title { grid-column: 2 / span 5; }
+.wrow .r-author { grid-column: 7 / span 3; font-size: var(--t5); color: var(--ink-2); }
+.wrow .r-date { grid-column: 10; text-align: right; font-size: var(--t5); color: var(--ink-3); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.wrow .r-marks { grid-column: 11 / span 2; text-align: right; display: flex; flex-wrap: wrap; gap: 0 var(--s3); justify-content: flex-end; }
 .wrow .r-title a { font: 400 var(--t4)/1.4 var(--f-serif); color: var(--ink); text-decoration: none; }
 .wrow .r-title a::after { content: ""; position: absolute; inset: 0; }
 .wrow .r-title .alt { font-size: var(--t5); color: var(--ink-2); margin-left: var(--s2); }
@@ -216,3 +220,7 @@ input:focus, select:focus, textarea:focus { border-color: var(--link); outline: 
 
 /* the inline arrow (Plex has no →) */
 .i-arrow { width: 0.8em; height: 0.8em; vertical-align: -0.05em; }
+@media (max-width: 599px) {
+  .libcard { aspect-ratio: auto; gap: var(--s4); }
+  .libcard .no { font-size: var(--t2); }
+}

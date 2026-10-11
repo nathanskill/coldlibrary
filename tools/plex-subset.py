@@ -1,22 +1,37 @@
 #!/usr/bin/env python3
 """Subset IBM Plex (SIL OFL 1.1) to the Latin the site sets, as WOFF2 (design spec v5 §3.6).
 
-Five files, with the names site/src/css/00-fonts.css already uses:
-  Plex Sans 400 and 500, Plex Serif 400 and 400 italic, Plex Mono 400.
+Run from the repository root:
+  python3 tools/plex-subset.py           cut the five files (offline once .cache/plex/ holds the release zips)
+  python3 tools/plex-subset.py --check   check the shipped files and 00-fonts.css only; writes nothing
+Output, in site/public/assets/fonts/ (names unchanged, so site/src/css/00-fonts.css and the layout's preload of
+Sans 400 keep working): ibm-plex-sans-latin-400-normal, -sans-latin-500-normal, -serif-latin-400-normal,
+-serif-latin-400-italic and -mono-latin-400-normal (.woff2), plus OFL-IBM-Plex.txt. Each file must stay at most
+30 KB and carry → ← ↗ № − and U+202F; --check also compares each @font-face unicode-range in 00-fonts.css with the
+file's cmap. Replaced and retired files are copied or moved to .cache/plex-stale/, never deleted. The cut is
+deterministic: the same zips give byte-identical files.
 
 Ranges: Basic Latin, Latin-1, Latin Extended-A, the pinyin tone vowels U+01CD-01DC, general punctuation
 U+2010-2027 and U+2030-203A, the arrows U+2190-2193 and U+2197, U+2116 (No.), U+2212 (minus), U+00B7, U+202F.
-U+2042 (asterism) is not in Plex; the site draws it another way.
+Plex lacks U+2016-2017, 201B, 201F, 2023-2025, 2027, 2031 and 2034-2038 (they fall through to the next font) and
+U+2042 (asterism), which the site draws another way. Hinting (TrueType) is kept: it fits the budget.
 
 Sources: the pinned IBM Plex releases on GitHub (one package per family since 2024), downloaded once into
-.cache/plex/ and checked against the SHA-256 below. Fonts are read straight from the zip; nothing is unpacked.
+.cache/plex/<tag>/ and checked against the SHA-256 below (Serif 2.0.0 and Mono 2.5.0 match the digests GitHub
+publishes for those assets; Sans 1.1.0, the latest Sans release, predates GitHub digests). Fonts are read straight
+from the zips; nothing is unpacked.
+  https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-sans%401.1.0/ibm-plex-sans.zip
+  https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-serif%402.0.0/ibm-plex-serif.zip
+  https://github.com/IBM/plex/releases/download/%40ibm%2Fplex-mono%402.5.0/ibm-plex-mono.zip
+Licence note: Plex's OFL reserves the font name "Plex"; these subsets are Modified Versions that keep IBM's name
+table, the common practice for self-hosted subsets. If that ever matters, rename the family in the name table here.
 
 Usage:   python3 tools/plex-subset.py [--zips DIR] [--check]
          --zips DIR  read the release zips from DIR (searched recursively, matched by SHA-256) instead of downloading
-         --check     only check the shipped files (size budget, cmap), write nothing
+         --check     only check the shipped files (size budget, cmap, 00-fonts.css ranges), write nothing
 Requires: pip3 install --user fonttools brotli
 """
-import argparse, hashlib, io, os, shutil, sys, urllib.request, zipfile
+import argparse, hashlib, io, os, re, shutil, sys, urllib.request, zipfile
 from pathlib import Path
 from fontTools import subset
 from fontTools.ttLib import TTFont
@@ -26,6 +41,7 @@ OUT = ROOT / 'site/public/assets/fonts'
 CACHE = ROOT / '.cache/plex'
 STALE = ROOT / '.cache/plex-stale'
 LICENSE_OUT = OUT / 'OFL-IBM-Plex.txt'
+FONTS_CSS = ROOT / 'site/src/css/00-fonts.css'
 BUDGET = 30 * 1024  # bytes per file (spec §3.6)
 
 RELEASES = {
@@ -38,11 +54,11 @@ URL = 'https://github.com/IBM/plex/releases/download/{tag}/{asset}'
 
 OUTPUTS = [
     # output name, family, member inside the zip (hinted TrueType)
-    ('ibm-plex-sans-latin-400-normal.woff2', 'sans', 'ibm-plex-sans/fonts/complete/ttf/IBMPlexSans-Regular.ttf'),
-    ('ibm-plex-sans-latin-500-normal.woff2', 'sans', 'ibm-plex-sans/fonts/complete/ttf/IBMPlexSans-Medium.ttf'),
-    ('ibm-plex-serif-latin-400-normal.woff2', 'serif', 'ibm-plex-serif/fonts/complete/ttf/IBMPlexSerif-Regular.ttf'),
-    ('ibm-plex-serif-latin-400-italic.woff2', 'serif', 'ibm-plex-serif/fonts/complete/ttf/IBMPlexSerif-Italic.ttf'),
-    ('ibm-plex-mono-latin-400-normal.woff2', 'mono', 'ibm-plex-mono/fonts/complete/ttf/IBMPlexMono-Regular.ttf'),
+    ('ibm-plex-sans-latin-400-normal.v2.woff2', 'sans', 'ibm-plex-sans/fonts/complete/ttf/IBMPlexSans-Regular.ttf'),
+    ('ibm-plex-sans-latin-500-normal.v2.woff2', 'sans', 'ibm-plex-sans/fonts/complete/ttf/IBMPlexSans-Medium.ttf'),
+    ('ibm-plex-serif-latin-400-normal.v2.woff2', 'serif', 'ibm-plex-serif/fonts/complete/ttf/IBMPlexSerif-Regular.ttf'),
+    ('ibm-plex-serif-latin-400-italic.v2.woff2', 'serif', 'ibm-plex-serif/fonts/complete/ttf/IBMPlexSerif-Italic.ttf'),
+    ('ibm-plex-mono-latin-400-normal.v2.woff2', 'mono', 'ibm-plex-mono/fonts/complete/ttf/IBMPlexMono-Regular.ttf'),
 ]
 # Files earlier versions shipped; the v5 type system no longer uses them (spec §3.1). Moved, never deleted.
 RETIRED = [
@@ -115,6 +131,40 @@ def options():
     return o
 
 
+def css_range(cps):
+    """A unicode-range value for a set of code points, in the style 00-fonts.css uses."""
+    cps, out, i = sorted(cps), [], 0
+    while i < len(cps):
+        j = i
+        while j + 1 < len(cps) and cps[j + 1] == cps[j] + 1:
+            j += 1
+        out.append(f'U+{cps[i]:04X}' + (f'-{cps[j]:04X}' if j > i else ''))
+        i = j + 1
+    return ', '.join(out)
+
+
+def parse_range(text):
+    out = set()
+    for part in text.split(','):
+        part = part.strip().upper().replace('U+', '')
+        if part:
+            a, _, b = part.partition('-')
+            out.update(range(int(a, 16), int(b or a, 16) + 1))
+    return out
+
+
+def css_faces():
+    """{file name: unicode-range code points or None} for the Plex @font-face rules in 00-fonts.css."""
+    css = FONTS_CSS.read_text(encoding='utf-8')
+    out = {}
+    for rule in re.findall(r'@font-face\s*\{[^}]*\}', css):
+        m = re.search(r'url\("?fonts/([^")]+\.woff2)"?\)', rule)
+        if m and 'Plex' in rule:
+            r = re.search(r'unicode-range:\s*([^;}]+)', rule)
+            out[m.group(1)] = parse_range(r.group(1)) if r else None
+    return out
+
+
 def check(path):
     data = path.read_bytes()
     f = TTFont(io.BytesIO(data))
@@ -126,6 +176,12 @@ def check(path):
         problems.append(f'{len(data)} bytes is over the {BUDGET} budget')
     if missing:
         problems.append('cmap lacks ' + ', '.join(missing))
+    faces = css_faces()
+    if path.name not in faces:
+        problems.append(f'no @font-face in {FONTS_CSS.name} uses it')
+    elif faces[path.name] != set(cmap):
+        problems.append(f'its @font-face unicode-range in {FONTS_CSS.name} differs from its cmap; use: '
+                        f'unicode-range: {css_range(cmap)};')
     return len(data), len(cmap), lacking, problems, f['name'].getDebugName(5)
 
 

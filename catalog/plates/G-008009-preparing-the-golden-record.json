@@ -1,13 +1,16 @@
 {
   "id": "G-008009",
   "slug": "preparing-the-golden-record",
+  "kind": "photograph",
   "title": {
     "orig": "Voyager: Preparing the Golden Record (PIA21741)",
+    "lang": "en",
     "en": "Preparing the Golden Record",
     "zh": "准备金唱片"
   },
   "artist": {
     "orig": "NASA/JPL",
+    "lang": "en",
     "en": "NASA/JPL",
     "zh": "NASA/喷气推进实验室",
     "dates": "1977"
@@ -30,6 +33,7 @@
     "width": 1264,
     "height": 1600
   },
+  "tone": "ink",
   "rights": {
     "status": "open-license",
     "basis": {

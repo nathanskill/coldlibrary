@@ -65,7 +65,8 @@ export function loadStacks(root) {
     .map((f) => JSON.parse(readFileSync(join(pdir, f), 'utf8')));
   const tdir = join(base, '_trails');
   const trails = (existsSync(tdir) ? readdirSync(tdir) : []).filter((f) => f.endsWith('.json')).sort()
-    .map((f) => JSON.parse(readFileSync(join(tdir, f), 'utf8')));
+    .map((f) => JSON.parse(readFileSync(join(tdir, f), 'utf8')))
+    .sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || String(a.slug).localeCompare(String(b.slug)));
   const claudeShelf = jsonIf(join(base, 'claude-shelf.json'), null);
   const tags = jsonIf(join(base, 'tags.json'), {});
   const papers = loadHousePapers(root);
@@ -140,7 +141,21 @@ export function titles(w, lang) {
 export function authorLabel(w, lang) {
   const a = w.author;
   const page = a[lang] || a.en;
-  return page !== a.orig && a.orig ? { name: page, orig: a.orig, dates: a.dates } : { name: page, orig: '', dates: a.dates };
+  // Show the original name only when it adds something ("贺拉斯 Quintus Horatius Flaccus", not "美国国家航空航天局（NASA） NASA").
+  // Two Chinese spellings of the same name (陶渊明 / 陶淵明) differ only by script: show one.
+  const han = (x) => /^[\u3400-\u9fff\uf900-\ufaff·・]+$/.test(String(x || ''));
+  const scriptOnly = han(page) && han(a.orig) && [...page].length === [...a.orig].length;
+  const extra = a.orig && page !== a.orig && !String(page).includes(a.orig) && !scriptOnly;
+  return { name: page, orig: extra ? a.orig : '', dates: a.dates };
+}
+
+// A year for lists and rows: "1789", "23 BCE" / "前 23 年". Full dates belong on the work page.
+export function yearShort(w, lang) {
+  const y = w.year;
+  if (typeof y !== 'number') return yearLabel(w, lang);
+  const circa = /^(c\.|约)/.test((w.year_display && (w.year_display[lang] || w.year_display.en)) || '');
+  if (y < 0) return lang === 'zh' ? `${circa ? '约' : ''}前 ${-y} 年` : `${circa ? 'c. ' : ''}${-y} BCE`;
+  return lang === 'zh' ? `${circa ? '约 ' : ''}${y}` : `${circa ? 'c. ' : ''}${y}`;
 }
 
 export const yearLabel = (w, lang) => (w.year_display && (w.year_display[lang] || w.year_display.en)) || String(w.year);

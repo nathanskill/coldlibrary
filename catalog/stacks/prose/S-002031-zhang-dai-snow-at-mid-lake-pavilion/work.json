@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource (Tao'an mengyi, book 3).",
+    "en": "Text as given on Chinese Wikisource (Tao’an mengyi, book 3).",
     "zh": "据维基文库（《陶庵梦忆》卷三）。"
   },
   "source": {
@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Zhang Dai's recollection of a snowy night on West Lake in the winter of 1632–33, written after the fall of the Ming and printed long after his death. The whole lake is reduced to a stroke, a dot, a mustard seed and two or three grains. It belongs in a library that keeps snow and lamps: a small stove, warm wine, and strangers who turn out to be kindred.",
+    "en": "Zhang Dai’s recollection of a snowy night on West Lake in the winter of 1632–33, written after the fall of the Ming and printed long after his death. The whole lake is reduced to a stroke, a dot, a mustard seed and two or three grains. It belongs in a library that keeps snow and lamps: a small stove, warm wine, and strangers who turn out to be kindred.",
     "zh": "张岱追记崇祯五年（1632）冬西湖的一个雪夜，写于明亡之后，刊行时他已去世多年。整个湖被写成一痕、一点、一芥和两三粒。它属于这座收藏雪与灯的图书馆：一炉火，一壶热酒，萍水相逢却气味相投的人。"
   },
   "pick": null,
@@ -62,7 +62,7 @@
     "en": "The only shadows on the lake were a single stroke, the long causeway; a single dot, the mid-lake pavilion; my boat, a mustard seed; and the people in it, two or three grains.",
     "zh": "湖上影子，惟长堤一痕，湖心亭一点，与余舟一芥，舟中人两三粒而已。"
   },
-  "plate": null,
+  "plate": "G-009046",
   "gloss": [
     {
       "at": "崇禎五年十二月",
@@ -168,7 +168,7 @@
     {
       "at": "相公",
       "occ": 1,
-      "en": "A polite term for a gentleman: 'the master', 'sir'.",
+      "en": "A polite term for a gentleman: ‘the master’, ‘sir’.",
       "zh": "旧时对士人的敬称。"
     },
     {

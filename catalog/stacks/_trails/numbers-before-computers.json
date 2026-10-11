@@ -1,0 +1,64 @@
+{
+  "slug": "numbers-before-computers",
+  "order": 9,
+  "title": {
+    "en": "Numbers before computers",
+    "zh": "计算机之前的数"
+  },
+  "dek": {
+    "en": "Seven steps from a reed in a pond to a program for the Bernoulli numbers. Each is a way of making numbers do more work for less effort, and by the end the methods are something a machine could carry out.",
+    "zh": "七步，从池中的一根芦苇走到伯努利数的程序。每一步都是让数字少费力、多做事的办法；走到最后，这些办法已经可以交给机器去执行。"
+  },
+  "plate": "G-009028",
+  "steps": [
+    {
+      "id": "S-002045",
+      "line": {
+        "en": "Base three, upright four, hypotenuse five, then a log, a vine, a reed in a pond and a broken bamboo: the Nine Chapters states the rule once and lets ordinary things test it, and every answer can be checked with a little arithmetic; Euclid proves the same truth from first principles.",
+        "zh": "勾三股四弦五，接着是圆木、葛藤、池中的芦苇、折断的竹子：《九章算术》把法则说一遍，就让寻常之物来检验它，每个答案都能用几行算术核对；欧几里得则从最初的原理出发，证明同一个道理。"
+      }
+    },
+    {
+      "id": "S-006001",
+      "line": {
+        "en": "Twenty-three definitions, five postulates and five common notions, then every step citing the earlier step it rests on, until Proposition 47 reaches the right triangle again, proved rather than shown; Master Sun cares less about proof than about a procedure that never fails.",
+        "zh": "二十三条定义、五条公设、五条公理，此后每一步都注明依据的是前面哪一步，直到第四十七命题又回到直角三角形，这一次不是演示，而是证明；孙子更在意的不是证明，而是一套从不出错的步骤。"
+      }
+    },
+    {
+      "id": "S-002047",
+      "line": {
+        "en": "Count in threes, fives and sevens, set down seventy, twenty-one and fifteen for each one left over, then take away one hundred and five: a recipe anyone can carry out without knowing why it works, which is what a program is; centuries earlier, Archimedes needed new names for numbers before he could count the sand.",
+        "zh": "三三数之、五五数之、七七数之，每剩一个就分别置七十、二十一、十五，满一百零六便减去一百零五：这套办法谁都能照做，不必知道它为什么灵验，程序就是这样的东西；更早几百年，阿基米德得先给大数起好名字，才能去数沙子。"
+      }
+    },
+    {
+      "id": "S-006002",
+      "line": {
+        "en": "To show King Gelon that the grains of sand are very many but not infinite, Archimedes builds names for numbers large enough to count a universe filled with sand, and pushes every assumption against himself so that the result holds anyway; Leibniz goes the other way, down to two digits.",
+        "zh": "为了向格隆王说明沙粒虽多却并非无穷，阿基米德造出一套命名大数的办法，大到足以数尽装满整个宇宙的沙子，而且每个假设都故意往对自己不利的方向放，结论照样成立；莱布尼茨反其道而行，一直减到只剩两个数字。"
+      }
+    },
+    {
+      "id": "S-007004",
+      "line": {
+        "en": "With only 0 and 1 ‘a marvellous order appears everywhere’, and Leibniz, who saw Fuxi’s hexagrams through letters from Beijing, ends by dreaming of a script in which reasoning itself could be done by calculation; Boole begins to write that script.",
+        "zh": "只用 0 和 1，“处处都显出奇妙的秩序”；莱布尼茨通过来自北京的书信看到了伏羲的卦图，最后梦想有一种文字，能让推理本身变成计算；布尔动手写下了这种文字的开头。"
+      }
+    },
+    {
+      "id": "S-007003",
+      "line": {
+        "en": "Boole sets out to find the laws by which the mind reasons and write them as a calculus, with one firm rule for symbols: a meaning once fixed must never quietly change in mid-argument; eleven years earlier, Lovelace had seen what a machine might do with symbols that are not numbers at all.",
+        "zh": "布尔要找出心智推理所依循的法则，并把它们写成一套演算，对符号只立一条硬规矩：意义一旦约定，就不能在同一番推理中途悄悄改变；早在十一年前，洛夫莱斯就已看出，机器还能拿不是数字的符号做些什么。"
+      }
+    },
+    {
+      "id": "S-007001",
+      "line": {
+        "en": "Lovelace sees that an engine which ‘weaves algebraical patterns just as the Jacquard-loom weaves flowers and leaves’ need not stop at number and might even compose music, then sets out the first published program and warns against exaggerating what the machine can do: this is where numbers meet the machine, and where the trail ends.",
+        "zh": "洛夫莱斯看出，这台“像提花织机织出花叶那样织出代数图案”的机器，不必止步于数字，甚至可能作曲；接着她写出第一个公开发表的程序，又提醒人们别夸大它的能力：数在这里遇见了机器，书单也在这里结束。"
+      }
+    }
+  ]
+}

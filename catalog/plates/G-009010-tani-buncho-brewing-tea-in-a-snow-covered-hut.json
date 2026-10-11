@@ -1,13 +1,16 @@
 {
   "id": "G-009010",
   "slug": "tani-buncho-brewing-tea-in-a-snow-covered-hut",
+  "kind": "artwork",
   "title": {
     "orig": "Brewing Tea in a Snow-Covered Hut",
+    "lang": "en",
     "en": "Brewing Tea in a Snow-Covered Hut",
     "zh": "雪屋煮茶"
   },
   "artist": {
     "orig": "谷文晁",
+    "lang": "ja",
     "en": "Tani Bunchō",
     "zh": "谷文晁",
     "dates": "1763–1840"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "一幅细长的立轴。积雪的山崖几乎升到顶端，坡上挤满压着雪的树；半山腰的树丛里有一间小屋，两个很小的人坐在里面，下方一块白色巨石探向水面。左上方竖写着一行短题。"
   },
   "note": {
-    "en": "Tani Bunchō, an Edo painter who studied Chinese, Japanese and even European pictures, painted this at about twenty-eight. Brewing tea in the snow is an old scholar's pleasure from Chinese poetry: a fire, a kettle, and a cold world kept at arm's length. The tall format makes you travel down the mountain to find the warmth.",
+    "en": "Tani Bunchō, an Edo painter who studied Chinese, Japanese and even European pictures, painted this at about twenty-eight. Brewing tea in the snow is an old scholar’s pleasure from Chinese poetry: a fire, a kettle, and a cold world kept at arm’s length. The tall format makes you travel down the mountain to find the warmth.",
     "zh": "谷文晁是江户时代的画家，兼学中国、日本乃至欧洲的绘画，画这幅时约二十八岁。雪中煮茶是中国诗文里的老雅事：一炉火、一把壶，把寒冷的世界挡在一臂之外。竖长的画幅让人沿着山一路往下看，才找到那点暖意。"
   },
   "pick": null,

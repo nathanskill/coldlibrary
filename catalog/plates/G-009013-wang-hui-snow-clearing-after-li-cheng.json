@@ -1,13 +1,16 @@
 {
   "id": "G-009013",
   "slug": "wang-hui-snow-clearing-after-li-cheng",
+  "kind": "artwork",
   "title": {
     "orig": "倣李成雪霽圖",
+    "lang": "zh-Hant",
     "en": "Snow Clearing: Landscape after Li Cheng",
     "zh": "仿李成雪霁图"
   },
   "artist": {
     "orig": "王翬",
+    "lang": "zh-Hant",
     "en": "Wang Hui",
     "zh": "王翚",
     "dates": "1632–1717"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {

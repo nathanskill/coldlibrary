@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "From chapter 13 of the Tiangong kaiwu, as given on Chinese Wikisource: the chapter's opening, the section on materials, and the first four paragraphs of the section on bamboo paper. The author's own small-character notes are kept in round brackets; the illustrations are not reproduced. Five slips in the Wikisource transcription (爲 for 與 twice, 包果 for 包裹, and two stray commas in 竹麻 and 柬啓) are corrected against Project Gutenberg eBook #25273.",
+    "en": "From chapter 13 of the Tiangong kaiwu, as given on Chinese Wikisource: the chapter’s opening, the section on materials, and the first four paragraphs of the section on bamboo paper. The author’s own small-character notes are kept in round brackets; the illustrations are not reproduced. Five slips in the Wikisource transcription (爲 for 與 twice, 包果 for 包裹, and two stray commas in 竹麻 and 柬啓) are corrected against Project Gutenberg eBook #25273.",
     "zh": "选自《天工开物》第十三卷，据维基文库：卷首一段、“纸料”及“造竹纸”前四段。作者原有的小字注以圆括号保留；插图未收。维基文库录文五处讹误（两处“与”误作“为”，“包裹”误作“包果”，“竹麻”“柬启”中间误加逗号）据古腾堡计划电子书 #25273 改正。"
   },
   "source": {
@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "From the thirteenth chapter of The Works of Heaven, on paper: Song Yingxing's opening reflection on what carries knowledge from one age to the next, his note on materials, and his step-by-step account of making bamboo paper in Fujian. The excerpt leaves out the last paragraph of that section and the section on bark paper. Notice the recycled sheets that northerners called paper of the returning soul.",
+    "en": "From the thirteenth chapter of The Works of Heaven, on paper: Song Yingxing’s opening reflection on what carries knowledge from one age to the next, his note on materials, and his step-by-step account of making bamboo paper in Fujian. The excerpt leaves out the last paragraph of that section and the section on bark paper. Notice the recycled sheets that northerners called paper of the returning soul.",
     "zh": "选自《天工开物》第十三卷“杀青”，讲造纸：宋应星卷首关于知识靠什么承载、代代相传的感想，关于纸料的说明，以及福建造竹纸的逐步记述。节选未收该节最后一段和“造皮纸”一节。留意北方人称为“还魂纸”的再生纸。"
   },
   "pick": null,
@@ -99,14 +99,14 @@
     {
       "at": "楮先生",
       "occ": 1,
-      "en": "Master Paper: a joking name from Han Yu's mock biography of the writing brush, whose friends include Mr Paper of Kuaiji.",
+      "en": "Master Paper: a joking name from Han Yu’s mock biography of the writing brush, whose friends include Mr Paper of Kuaiji.",
       "zh": "纸的戏称，出自韩愈《毛颖传》，文中毛笔的朋友有“会稽楮先生”。"
     },
     {
       "at": "殺其青",
       "occ": 1,
       "at_hans": "杀其青",
-      "en": "To 'kill the green': to strip off the green outer skin of the bamboo.",
+      "en": "To ‘kill the green’: to strip off the green outer skin of the bamboo.",
       "zh": "杀青，去掉竹子的青皮。"
     },
     {
@@ -151,7 +151,7 @@
     {
       "at": "汗青",
       "occ": 1,
-      "en": "'Sweating the green': fresh bamboo slips were heated so that they sweated out their sap before being written on; the word came to mean history itself.",
+      "en": "‘Sweating the green’: fresh bamboo slips were heated so that they sweated out their sap before being written on; the word came to mean history itself.",
       "zh": "古人把新竹简用火烤出水分（如出汗）再书写，叫汗青，后来借指史册。"
     },
     {
@@ -224,7 +224,7 @@
       "at": "紙藥",
       "occ": 1,
       "at_hans": "纸药",
-      "en": "'Paper medicine': a slippery plant juice that keeps the fibres floating evenly and stops wet sheets sticking together.",
+      "en": "‘Paper medicine’: a slippery plant juice that keeps the fibres floating evenly and stops wet sheets sticking together.",
       "zh": "从植物中取得的黏液，能使纤维在水中均匀悬浮，湿纸叠放也不粘连。"
     },
     {
@@ -238,7 +238,7 @@
       "at": "還魂紙",
       "occ": 1,
       "at_hans": "还魂纸",
-      "en": "'Paper of the returning soul': recycled paper.",
+      "en": "‘Paper of the returning soul’: recycled paper.",
       "zh": "用废纸再造的纸。"
     }
   ],

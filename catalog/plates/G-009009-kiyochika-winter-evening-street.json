@@ -1,13 +1,16 @@
 {
   "id": "G-009009",
   "slug": "kiyochika-winter-evening-street",
+  "kind": "artwork",
   "title": {
     "orig": "Street Scene in the Outskirts of Edo on an Evening in Winter",
+    "lang": "en",
     "en": "Street Scene in the Outskirts of Edo on an Evening in Winter",
     "zh": "冬日傍晚的江户郊外街景"
   },
   "artist": {
     "orig": "小林清親",
+    "lang": "ja",
     "en": "Kobayashi Kiyochika",
     "zh": "小林清亲",
     "dates": "1847–1915"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the tape and the museum's colour bar from the edges of the photograph, then resized."
   },
+  "tone": "dusk",
   "rights": {
     "status": "public-domain",
     "basis": {

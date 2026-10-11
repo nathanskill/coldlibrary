@@ -1,13 +1,16 @@
 {
   "id": "G-009042",
   "slug": "shiokawa-bunrin-landscape-with-the-moon",
+  "kind": "artwork",
   "title": {
     "orig": "Landscape with the Moon",
+    "lang": "en",
     "en": "Landscape with the Moon",
     "zh": "月下山水"
   },
   "artist": {
     "orig": "塩川文麟",
+    "lang": "ja",
     "en": "Shiokawa Bunrin (attributed)",
     "zh": "盐川文麟（传）",
     "dates": "1808–1877"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "night",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -44,7 +48,7 @@
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "alt": {
-    "en": "A pale silk hanging scroll: a faint full moon in a misty sky above soft grey hills, a band of low cloud across the middle, and at the bottom a few dark trees and reeds at the water's edge.",
+    "en": "A pale silk hanging scroll: a faint full moon in a misty sky above soft grey hills, a band of low cloud across the middle, and at the bottom a few dark trees and reeds at the water’s edge.",
     "zh": "一幅淡色的绢本立轴：雾蒙蒙的天空里一轮淡淡的满月，下面是柔和的灰色山丘，中段横着一带低云，底部水边有几棵深色的树和一丛芦苇。"
   },
   "note": {

@@ -1,0 +1,64 @@
+{
+  "slug": "how-things-are-made",
+  "order": 6,
+  "title": {
+    "en": "How things are made",
+    "zh": "东西是怎么做出来的"
+  },
+  "dek": {
+    "en": "Seven texts by and about makers: a cook, a recorder of trades, papermakers, a commoner who made type, a young inventor and his fifty models, a mountain carved by water, and a poet who praised all trades. Read them for the details that only someone who did the work would notice.",
+    "zh": "七篇关于制作的文字：一位厨子，一位记录百工的读书人，造纸的匠人，造活字的平民，做了五十多台样机的年轻发明家，一座被水凿出来的山，还有一位赞美百工的诗人。读的时候，留意那些只有亲手做过的人才会注意到的细节。"
+  },
+  "plate": "G-009011",
+  "steps": [
+    {
+      "id": "S-002003",
+      "line": {
+        "en": "Cook Ding’s knife is as sharp after nineteen years as the day it left the whetstone, because he follows the grain and slows down at the knotted places instead of hacking through them; Song Yingxing wanted scholars to look that closely at a cooking pot.",
+        "zh": "庖丁的刀用了十九年，刀刃还像刚从磨刀石上取下来一样，因为他顺着纹理走，遇到筋骨盘结处就放慢，不去硬砍；宋应星希望读书人也肯这样仔细地看一看锅灶。"
+      }
+    },
+    {
+      "id": "S-006007",
+      "line": {
+        "en": "Song Yingxing mocks learned men who hold forth on ancient tripods without ever having looked at the mould for a cooking pot, puts grains first and gold and jade last, and tells the ambitious to throw his book aside; open his chapter on paper next, since paper carries every other book.",
+        "zh": "宋应星笑那些“釜鬵之范鲜经，而侈谈莒鼎”的博学之士，把五谷排在最前、金玉排在最后，还劝求功名的人把这本书扔到一边；接着翻开他写造纸的那一章，因为别的书都要靠纸来承载。"
+      }
+    },
+    {
+      "id": "S-002043",
+      "line": {
+        "en": "Bamboo soaked for a hundred days, boiled for eight days and nights and lifted on a screen of fine bamboo strips, and even scraps pulped again into what northerners called the paper of the returning soul; once there is paper, Shen Kuo shows how to print on it faster than any hand can copy.",
+        "zh": "竹子在塘里浸上百日，再煮八天八夜，用细竹丝编的帘子抄起，连碎纸也能捣烂重造，北方人叫它“还魂纸”；有了纸，沈括会告诉你，怎样印得比任何一只手抄得都快。"
+      }
+    },
+    {
+      "id": "S-002041",
+      "line": {
+        "en": "A commoner named Bi Sheng, clay type baked hard, two iron plates used in turn, and wood rejected because it swells unevenly when wet: the earliest surviving account of movable type is a page of workshop detail; nearly six centuries later Pascal also found his machine by trial.",
+        "zh": "布衣毕昇，胶泥刻字，火烧令坚，两块铁板轮流使用，不用木头，是因为木理疏密不一，沾水便高下不平：世上现存最早的活字印刷记载，是一页作坊里的细节；将近六百年后，帕斯卡也是一次次试出了他的机器。"
+      }
+    },
+    {
+      "id": "S-007005",
+      "line": {
+        "en": "Pascal built more than fifty models in wood, ivory, ebony and copper and carried the last over two hundred and fifty leagues of road before he trusted it, and he names the paradox every maker meets, that to make the work simple the machine had to be complicated; Shen Kuo then finds a landscape that water made.",
+        "zh": "帕斯卡用木头、象牙、乌木和铜做了五十多台样机，又把最后一台带着走了两百五十多里格的路，才肯相信它；他还说出了每个造东西的人都会遇到的悖论：要让操作简单，机器就得复杂；接下来，沈括找到了一片由水造出来的风景。"
+      }
+    },
+    {
+      "id": "S-002042",
+      "line": {
+        "en": "Shen Kuo sees that the strange peaks of Yandang were not pushed up but left standing when running water carried the earth away, and checks the idea against pillars of earth in distant ravines: a landscape made slowly, with no maker at all; Hopkins ends the trail by praising both kinds of making.",
+        "zh": "沈括看出，雁荡诸峰不是从地里挺出来的，而是谷中大水冲走沙土之后剩下的巨石，又拿远处大涧里的土柱来印证：这是一片没有工匠、慢慢造成的风景；最后，霍普金斯把这两种“造”一起赞美。"
+      }
+    },
+    {
+      "id": "S-004022",
+      "line": {
+        "en": "Hopkins praises dappled skies, speckled trout and finches’ wings together with ‘all trades, their gear and tackle and trim’, and does not separate the made from the grown, which is the right note to end on.",
+        "zh": "霍普金斯赞美斑驳的天空、带斑点的鳟鱼、雀鸟的翅膀，也赞美“百工，和它们的器具、索具与装备”，从不把造出来的和长出来的分开，以此作结，正合适。"
+      }
+    }
+  ]
+}

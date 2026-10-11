@@ -1,13 +1,16 @@
 {
   "id": "G-009025",
   "slug": "hammershoi-moonlight-strandgade-30",
+  "kind": "artwork",
   "title": {
     "orig": "Moonlight, Strandgade 30",
+    "lang": "en",
     "en": "Moonlight, Strandgade 30",
     "zh": "月光，斯特兰德街 30 号"
   },
   "artist": {
     "orig": "Vilhelm Hammershøi",
+    "lang": "da",
     "en": "Vilhelm Hammershøi",
     "zh": "威廉·哈默修伊",
     "dates": "1864–1916"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "night",
   "rights": {
     "status": "public-domain",
     "basis": {

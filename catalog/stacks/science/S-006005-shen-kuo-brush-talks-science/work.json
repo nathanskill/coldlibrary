@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Six entries from books 3, 7, 21 and 24, as given on Chinese Wikisource; the book headings are added for orientation. Shen Kuo's account of Bi Sheng's movable type, from book 18, is shelved separately as S-002041. Three evident misprints in the online text are corrected (已 for 己, 余 for 餘, 陜 for 陝). The entry from book 7 continues a conversation with a senior official about the calendar.",
+    "en": "Six entries from books 3, 7, 21 and 24, as given on Chinese Wikisource; the book headings are added for orientation. Shen Kuo’s account of Bi Sheng’s movable type, from book 18, is shelved separately as S-002041. Three evident misprints in the online text are corrected (已 for 己, 余 for 餘, 陜 for 陝). The entry from book 7 continues a conversation with a senior official about the calendar.",
     "zh": "据中文维基文库，选卷三、卷七、卷二十一、卷二十四共六条，卷名为便于查找而加。卷十八记毕昇活字一条另作 S-002041 上架。改正网上文本三处明显误字（“已”作“己”，“余”作“餘”，“陜”作“陝”）。卷七一条接续作者与上官讨论历法的问答。"
   },
   "source": {
@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Shen Kuo was a Song official, engineer and astronomer who in retirement wrote down what he had seen and tested. These six notes include the earliest known statement that a magnetised needle points not quite south, an explanation of the moon's phases with a powdered ball, a rainbow watched from both sides of a stream in Khitan country, fossil shells read as an old shoreline, and the prediction that rock oil would one day come into wide use; his entry on Bi Sheng's movable type (活板) has its own shelf mark, S-002041. Notice how the note on the inverted image turns, without warning, into a remark about people.",
+    "en": "Shen Kuo was a Song official, engineer and astronomer who in retirement wrote down what he had seen and tested. These six notes include the earliest known statement that a magnetised needle points not quite south, an explanation of the moon’s phases with a powdered ball, a rainbow watched from both sides of a stream in Khitan country, fossil shells read as an old shoreline, and the prediction that rock oil would one day come into wide use; his entry on Bi Sheng’s movable type (活板) has its own shelf mark, S-002041. Notice how the note on the inverted image turns, without warning, into a remark about people.",
     "zh": "沈括是宋代的官员、工程家和天文学家，晚年把一生所见、所试的事一条条写下来。这六条里有已知最早指出磁针“常微偏东，不全南”的记载，有用涂了粉的弹丸解释月相，有在契丹境内隔着溪涧从两边看过的一道彩虹，有把山崖里的螺蚌壳读作昔日的海岸，还有“此物后必大行于世”的石油预言；记毕昇活字的“活板”一条另有书架号 S-002041。请留意讲小孔成像的那一条，怎样不动声色地转到了人身上。"
   },
   "pick": null,
@@ -76,7 +76,7 @@
       "at": "格術",
       "occ": 1,
       "at_hans": "格术",
-      "en": "The 'art of crossing': the mathematicians' name for reasoning about rays that cross at a point.",
+      "en": "The ‘art of crossing’: the mathematicians’ name for reasoning about rays that cross at a point.",
       "zh": "算家称光线交叉成像的道理为“格术”。格，阻隔、交叉。"
     },
     {
@@ -103,7 +103,7 @@
     {
       "at": "腰鼓",
       "occ": 1,
-      "en": "An hourglass-shaped drum, narrow at the waist: Shen Kuo's picture of rays narrowing to a point and widening again.",
+      "en": "An hourglass-shaped drum, narrow at the waist: Shen Kuo’s picture of rays narrowing to a point and widening again.",
       "zh": "两头粗、中间细的鼓。沈括用它比喻光线收束到一点再散开。"
     },
     {
@@ -130,7 +130,7 @@
       "at": "又問予",
       "occ": 1,
       "at_hans": "又问予",
-      "en": "The questioner is Shen Kuo's superior, from the time when Shen was helping to revise the armillary sphere; this entry continues their conversation from the one before it.",
+      "en": "The questioner is Shen Kuo’s superior, from the time when Shen was helping to revise the armillary sphere; this entry continues their conversation from the one before it.",
       "zh": "发问的是沈括的上官。当时沈括参与详定浑天仪，此条接续上一条两人的问答。"
     },
     {
@@ -144,7 +144,7 @@
       "at": "熙寧中",
       "occ": 1,
       "at_hans": "熙宁中",
-      "en": "In the Xining years (1068–1077). Shen Kuo's embassy to the Liao court was in 1075.",
+      "en": "In the Xining years (1068–1077). Shen Kuo’s embassy to the Liao court was in 1075.",
       "zh": "熙宁年间（1068—1077）。沈括于 1075 年出使辽国。"
     },
     {
@@ -183,20 +183,20 @@
     {
       "at": "鄜、延",
       "occ": 1,
-      "en": "Fuzhou and Yanzhou in northern Shaanxi, around today's Fu county and Yan'an, where Shen Kuo served on the frontier.",
+      "en": "Fuzhou and Yanzhou in northern Shaanxi, around today’s Fu county and Yan’an, where Shen Kuo served on the frontier.",
       "zh": "鄜州和延州，在今陕西富县、延安一带。沈括曾在此守边。"
     },
     {
       "at": "石油",
       "occ": 1,
-      "en": "Rock oil: Shen Kuo's name for it is the word still used for petroleum in Chinese.",
+      "en": "Rock oil: Shen Kuo’s name for it is the word still used for petroleum in Chinese.",
       "zh": "“石油”这个名称由沈括提出，至今仍用来称呼石油。"
     },
     {
       "at": "高奴縣出脂水",
       "occ": 1,
       "at_hans": "高奴县出脂水",
-      "en": "An old record that Gaonu county, near Yan'an, had a stream of fatty water that would burn; it goes back to the Han history.",
+      "en": "An old record that Gaonu county, near Yan’an, had a stream of fatty water that would burn; it goes back to the Han history.",
       "zh": "旧说高奴县（在今延安附近）有可燃的“脂水”，见于《汉书·地理志》的记载。"
     },
     {
@@ -221,7 +221,7 @@
       "at": "洛陽塵",
       "occ": 1,
       "at_hans": "洛阳尘",
-      "en": "The dust of Luoyang was proverbial; the poet Lu Ji wrote that in the capital's dust a white robe turns black.",
+      "en": "The dust of Luoyang was proverbial; the poet Lu Ji wrote that in the capital’s dust a white robe turns black.",
       "zh": "洛阳尘土之多是有名的。陆机诗有“京洛多风尘，素衣化为缁”。"
     },
     {

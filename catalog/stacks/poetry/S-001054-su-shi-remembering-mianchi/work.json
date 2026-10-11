@@ -6,7 +6,7 @@
   "lang": "lzh-Hant",
   "title": {
     "orig": "和子由澠池懷舊",
-    "en": "Remembering Mianchi: Matching Ziyou's Poem",
+    "en": "Remembering Mianchi: Matching Ziyou’s Poem",
     "zh": "和子由渑池怀旧"
   },
   "author": {
@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "In 1061 Su Shi, in his mid-twenties and setting out for his first post, wrote this in reply to a poem by his brother Ziyou about Mianchi, a town where the two had once stayed at a temple and written on its wall. The image of the goose's tracks in snow, 雪泥鸿爪, became an idiom for the faint traces a life leaves. Su Shi's own note to the last line recalls that on that earlier journey their horse died on the road and they rode on to Mianchi by donkey.",
+    "en": "In 1061 Su Shi, in his mid-twenties and setting out for his first post, wrote this in reply to a poem by his brother Ziyou about Mianchi, a town where the two had once stayed at a temple and written on its wall. The image of the goose’s tracks in snow, 雪泥鸿爪, became an idiom for the faint traces a life leaves. Su Shi’s own note to the last line recalls that on that earlier journey their horse died on the road and they rode on to Mianchi by donkey.",
     "zh": "1061 年，二十多岁的苏轼赴第一个任所途中，写诗答弟弟子由忆渑池之作；兄弟二人当年曾在渑池一座寺里借宿，并在壁上题诗。“雪泥鸿爪”由此成了成语，形容人生留下的淡淡痕迹。苏轼自注最后一句：当年马死在路上，他们骑驴到了渑池。"
   },
   "pick": {
@@ -64,7 +64,7 @@
     "en": "What is a life, wherever it goes, most like? / A wild goose stepping on snowy mud.",
     "zh": "人生到处知何似，应似飞鸿踏雪泥。"
   },
-  "plate": null,
+  "plate": "G-009012",
   "gloss": [
     {
       "at": "飛鴻",
@@ -89,7 +89,7 @@
     {
       "at": "新塔",
       "occ": 1,
-      "en": "A stupa built for a monk's remains after his death.",
+      "en": "A stupa built for a monk’s remains after his death.",
       "zh": "新塔：僧人死后，弟子为他建塔安葬骨灰。"
     },
     {

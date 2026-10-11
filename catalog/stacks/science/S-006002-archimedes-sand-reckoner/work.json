@@ -27,7 +27,7 @@
   },
   "orig_lang": "grc",
   "edition": {
-    "en": "The Works of Archimedes, ed. and trans. T. L. Heath (Cambridge University Press, 1897), pp. 221–223 and 232. Heath translated only the opening and the conclusion literally and paraphrased the arithmetic between them in modern notation; this text keeps the two literal parts. Heath's Greek glosses and footnotes are omitted.",
+    "en": "The Works of Archimedes, ed. and trans. T. L. Heath (Cambridge University Press, 1897), pp. 221–223 and 232. Heath translated only the opening and the conclusion literally and paraphrased the arithmetic between them in modern notation; this text keeps the two literal parts. Heath’s Greek glosses and footnotes are omitted.",
     "zh": "据希思编译《阿基米德著作集》（剑桥大学出版社，1897 年）第 221–223 页与第 232 页。希思只把开篇和结尾逐字译出，中间的算术用现代记号意译；本文只收这两段逐字译文，略去希思所注的希腊原词和脚注。"
   },
   "source": {
@@ -50,7 +50,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "A letter to the king of Syracuse arguing that the grains of sand are not infinite, only very many, and that a good naming system can count past them. On the way Archimedes gives the earliest and fullest surviving account of Aristarchus' sun-centred cosmos, then sets out to measure the width of the sun himself. Notice that every assumption is pushed in the direction that makes his case harder, so that the conclusion survives any reasonable correction.",
+    "en": "A letter to the king of Syracuse arguing that the grains of sand are not infinite, only very many, and that a good naming system can count past them. On the way Archimedes gives the earliest and fullest surviving account of Aristarchus’ sun-centred cosmos, then sets out to measure the width of the sun himself. Notice that every assumption is pushed in the direction that makes his case harder, so that the conclusion survives any reasonable correction.",
     "zh": "这是写给叙拉古国王的一封信，论证沙粒并非无穷，只是非常多，而一套好的命名方法能数过它们。途中阿基米德留下了阿里斯塔克斯日心宇宙存世最早、最完整的记述，随后又着手亲自测量太阳的视宽度。请留意他的每一条假定都朝着让自己更难证明的方向放大，这样结论经得起任何合理的修正。"
   },
   "pick": null,

@@ -1,13 +1,16 @@
 {
   "id": "G-009020",
   "slug": "wen-zhengming-living-aloft",
+  "kind": "artwork",
   "title": {
     "orig": "樓居圖",
-    "en": "Living Aloft: Master Liu's Retreat",
+    "lang": "zh-Hant",
+    "en": "Living Aloft: Master Liu’s Retreat",
     "zh": "楼居图"
   },
   "artist": {
     "orig": "文徵明",
+    "lang": "zh-Hant",
     "en": "Wen Zhengming",
     "zh": "文徵明",
     "dates": "1470–1559"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "green",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "一幅淡设色的山水。一座两层的楼阁立在高松和落叶的树之间，敞开的楼上坐着两个人；下方有门和小径，身后的山在雾中升起，画幅上部写满了工整的长题。"
   },
   "note": {
-    "en": "Wen Zhengming painted this at seventy-three for an old friend, Master Liu, who longed to live in an upper-storey retreat, above the dust of the world and among his books. Wen's poem at the top speaks of the wish. It is less a landscape than a portrait of a reading room, and a fitting picture for a library that also lives a little above the street.",
+    "en": "Wen Zhengming painted this at seventy-three for an old friend, Master Liu, who longed to live in an upper-storey retreat, above the dust of the world and among his books. Wen’s poem at the top speaks of the wish. It is less a landscape than a portrait of a reading room, and a fitting picture for a library that also lives a little above the street.",
     "zh": "文徵明七十三岁时为老友刘先生画了这幅画——刘先生一直向往住进一座楼居，高出尘世，与书为伴。顶上文徵明的诗写的就是这份心愿。与其说这是山水，不如说是一间读书楼的肖像；挂在一座也稍稍高于街市的图书馆里，正合适。"
   },
   "pick": null,

@@ -1,13 +1,16 @@
 {
   "id": "G-008008",
   "slug": "apollo-11-plaque-replica",
+  "kind": "object",
   "title": {
     "orig": "Plaque which Apollo 11 astronauts will leave on the moon (S69-39334)",
+    "lang": "en",
     "en": "The Apollo 11 Plaque (Replica)",
     "zh": "阿波罗 11 号铭牌（复制品）"
   },
   "artist": {
     "orig": "NASA Manned Spacecraft Center",
+    "lang": "en",
     "en": "NASA Manned Spacecraft Center (now Johnson Space Center)",
     "zh": "NASA 载人航天器中心（今约翰逊航天中心）",
     "dates": "1969"
@@ -30,6 +33,7 @@
     "width": 1600,
     "height": 1317
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -40,11 +44,11 @@
     "license_url": null
   },
   "alt": {
-    "en": "A white plaque with two black hemispheres of Earth's continents, four lines of capitals and four signatures below.",
+    "en": "A white plaque with two black hemispheres of Earth’s continents, four lines of capitals and four signatures below.",
     "zh": "一块白色铭牌：两个以黑色绘出大陆的地球半球，下面是四行大写字母和四个签名。"
   },
   "note": {
-    "en": "NASA's pre-flight photograph of a replica, released in July 1969, in which every word can be read. The plaque itself measures nine by seven and five-eighths inches and is one-sixteenth of an inch thick.",
+    "en": "NASA’s pre-flight photograph of a replica, released in July 1969, in which every word can be read. The plaque itself measures nine by seven and five-eighths inches and is one-sixteenth of an inch thick.",
     "zh": "NASA 在飞行前发布的复制品照片（1969 年 7 月），上面每个字都清晰可读。铭牌原件长 9 英寸、宽 7⅝ 英寸，厚十六分之一英寸。"
   },
   "tags": [

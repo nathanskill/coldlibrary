@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "A drinking song in an old yuefu form, written around 752 with two friends, Cen Xun and Yuan Danqiu, whom it names. It swings between grandeur and despair inside single lines: the river from heaven, white hair by evening, gifts that 'must have their use'. Read it aloud; the long and short lines are built for a voice, and the last phrase turns the whole party into a toast against a sorrow older than everyone in the room.",
+    "en": "A drinking song in an old yuefu form, written around 752 with two friends, Cen Xun and Yuan Danqiu, whom it names. It swings between grandeur and despair inside single lines: the river from heaven, white hair by evening, gifts that ‘must have their use’. Read it aloud; the long and short lines are built for a voice, and the last phrase turns the whole party into a toast against a sorrow older than everyone in the room.",
     "zh": "一首沿用乐府旧题的劝酒歌，约 752 年与岑勋、元丹丘两位朋友同饮时作，诗中直呼其名。它常在一句之内就从豪迈跌到悲凉：黄河天上来，朝如青丝暮成雪，天生我材必有用。请大声读它；长短句是为嗓音而造的，最后一句把整场酒会变成一次举杯，对抗比在座所有人都古老的愁。"
   },
   "pick": null,
@@ -57,7 +57,7 @@
   ],
   "excerpt": {
     "orig": "君不見，黃河之水天上來，奔流到海不復回！",
-    "en": "Have you not seen / the Yellow River's waters coming down from heaven, / rushing to the sea, never to return?",
+    "en": "Have you not seen / the Yellow River’s waters coming down from heaven, / rushing to the sea, never to return?",
     "zh": "君不见，黄河之水天上来，奔流到海不复回！"
   },
   "plate": null,
@@ -65,20 +65,20 @@
     {
       "at": "岑夫子",
       "occ": 1,
-      "en": "Cen Xun, a friend of Li Bai; 夫子 is a respectful 'master'.",
+      "en": "Cen Xun, a friend of Li Bai; 夫子 is a respectful ‘master’.",
       "zh": "岑夫子：岑勋，李白的朋友。夫子，尊称。"
     },
     {
       "at": "丹丘生",
       "occ": 1,
-      "en": "Yuan Danqiu, a Daoist and Li Bai's close friend.",
+      "en": "Yuan Danqiu, a Daoist and Li Bai’s close friend.",
       "zh": "丹丘生：元丹丘，道士，李白的好友。"
     },
     {
       "at": "將進酒",
       "occ": 1,
       "at_hans": "将进酒",
-      "en": "將, read qiāng: please. 'Please, drink.' It is also the title, an old yuefu tune.",
+      "en": "將, read qiāng: please. ‘Please, drink.’ It is also the title, an old yuefu tune.",
       "zh": "将（qiāng）：请。将进酒，请喝酒。也是乐府旧题。"
     },
     {

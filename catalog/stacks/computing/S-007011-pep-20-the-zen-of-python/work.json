@@ -33,7 +33,7 @@
   "rights": {
     "status": "public-domain",
     "basis": {
-      "en": "Dedicated to the public domain: 'This document has been placed in the public domain.'",
+      "en": "Dedicated to the public domain: ‘This document has been placed in the public domain.’",
       "zh": "作者已献入公有领域：“本文档已置于公有领域。”"
     },
     "license": null,
@@ -45,7 +45,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Tim Peters posted these lines to the Python mailing list in 1999, and they became PEP 20 in 2004; typing import this in any Python interpreter still prints them. They are design principles disguised as jokes, or jokes that turned out to be design principles. Notice the twentieth aphorism, left unwritten, and the gentle self-corrections of the lines that begin with 'Although'.",
+    "en": "Tim Peters posted these lines to the Python mailing list in 1999, and they became PEP 20 in 2004; typing import this in any Python interpreter still prints them. They are design principles disguised as jokes, or jokes that turned out to be design principles. Notice the twentieth aphorism, left unwritten, and the gentle self-corrections of the lines that begin with ‘Although’.",
     "zh": "蒂姆·彼得斯 1999 年把这些句子发到 Python 邮件列表上，2004 年它们成为 PEP 20；如今在任何 Python 解释器里输入 import this，仍会把它们打印出来。它们是伪装成笑话的设计原则，也可以说是后来成了设计原则的笑话。请留意那没有写出来的第二十条，以及那几句以“尽管”开头、温和地自我修正的话。"
   },
   "pick": null,

@@ -1,13 +1,16 @@
 {
   "id": "G-009040",
   "slug": "hammershoi-sunlight-on-the-floor",
+  "kind": "artwork",
   "title": {
     "orig": "Stue i Strandgade med solskin på gulvet",
+    "lang": "da",
     "en": "Interior in Strandgade, Sunlight on the Floor",
     "zh": "斯特兰德街的起居室，地板上的阳光"
   },
   "artist": {
     "orig": "Vilhelm Hammershøi",
+    "lang": "da",
     "en": "Vilhelm Hammershøi",
     "zh": "威廉·哈默修伊",
     "dates": "1864–1916"
@@ -33,6 +36,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "ink",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -47,7 +51,7 @@
     "zh": "一间浅灰色的房间，有一扇挂着白纱帘的高窗和一扇关着的白门。一位穿黑衣的女子背对我们，坐在靠墙的小桌前；阳光透过窗子，在空荡的地板上铺出明亮的窗格图案。"
   },
   "note": {
-    "en": "The same apartment at Strandgade 30, by day. Hammershøi's wife Ida often posed for him seen from behind, so the room keeps its privacy, and so does she. The real subject is the patch of sun on the floorboards, which will have moved by the time anyone looks up.",
+    "en": "The same apartment at Strandgade 30, by day. Hammershøi’s wife Ida often posed for him seen from behind, so the room keeps its privacy, and so does she. The real subject is the patch of sun on the floorboards, which will have moved by the time anyone looks up.",
     "zh": "同一间斯特兰德街 30 号的公寓，白天。哈默修伊的妻子伊达常背对画面为他做模特，于是房间保有它的隐私，她也一样。真正的主题是地板上那块阳光——等有人抬头时，它已经挪开了。"
   },
   "pick": {

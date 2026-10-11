@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Six excerpts from the AGC assembly listings of Luminary 099 (lunar module) and Comanche 055 (command module), as transcribed by the Virtual AGC project from MIT Museum printouts and published in the Apollo-11 repository (commit 911e5c0); the transcribers' own annotations and page markers are omitted and tabs are expanded to spaces.",
+    "en": "Six excerpts from the AGC assembly listings of Luminary 099 (lunar module) and Comanche 055 (command module), as transcribed by the Virtual AGC project from MIT Museum printouts and published in the Apollo-11 repository (commit 911e5c0); the transcribers’ own annotations and page markers are omitted and tabs are expanded to spaces.",
     "zh": "据 Virtual AGC 项目依麻省理工学院博物馆所藏打印稿转录、发布于 Apollo-11 代码库（提交 911e5c0）的 Luminary 099（登月舱）与 Comanche 055（指令舱）AGC 汇编清单，选录六段；转录者自己的批注和页码标记从略，制表符展开为空格。"
   },
   "source": {
@@ -33,7 +33,7 @@
   "rights": {
     "status": "public-domain",
     "basis": {
-      "en": "Each transcribed file carries the header 'Copyright: Public domain.' from the Virtual AGC project, and the repository is marked with the Creative Commons Public Domain Mark 1.0. The programs were written at the MIT Instrumentation Laboratory under contract to NASA and assembled in 1969; these are the publishers' statements rather than a court ruling.",
+      "en": "Each transcribed file carries the header ‘Copyright: Public domain.’ from the Virtual AGC project, and the repository is marked with the Creative Commons Public Domain Mark 1.0. The programs were written at the MIT Instrumentation Laboratory under contract to NASA and assembled in 1969; these are the publishers’ statements rather than a court ruling.",
       "zh": "每个转录文件都带有 Virtual AGC 项目所加的“Copyright: Public domain.”文件头，代码库标注了知识共享“公有领域标记 1.0”。这些程序由麻省理工学院仪器实验室受 NASA 委托编写，于 1969 年汇编；以上是发布者的声明，并非法院裁定。"
     },
     "license": "Public Domain Mark 1.0",
@@ -43,7 +43,7 @@
   },
   "translations": {},
   "note": {
-    "en": "These are a few pages from the programs that flew Apollo 11 in July 1969: Luminary for the lunar module and Comanche for the command module, written at the MIT Instrumentation Laboratory and transcribed from the printouts by the Virtual AGC project. The master ignition routine is signed by Peter Adler and Don Eyles and decorated with mottoes in French and mock Latin; elsewhere the comments talk to the astronaut and to themselves. Notice 'TEMPORARY, I HOPE HOPE HOPE' in code that landed on the Moon.",
+    "en": "These are a few pages from the programs that flew Apollo 11 in July 1969: Luminary for the lunar module and Comanche for the command module, written at the MIT Instrumentation Laboratory and transcribed from the printouts by the Virtual AGC project. The master ignition routine is signed by Peter Adler and Don Eyles and decorated with mottoes in French and mock Latin; elsewhere the comments talk to the astronaut and to themselves. Notice ‘TEMPORARY, I HOPE HOPE HOPE’ in code that landed on the Moon.",
     "zh": "这里是 1969 年 7 月驾驶阿波罗 11 号的程序中的几页：登月舱的 Luminary 和指令舱的 Comanche，由麻省理工学院仪器实验室编写，Virtual AGC 项目据打印稿转录。主点火程序署着彼得·阿德勒和唐·艾尔斯的名字，配有法文箴言“心怀邪念者可耻”和仿拉丁文的“勿碰我”；别处的注释在对宇航员说话（“宇航员：请把那个蠢东西转过来”“去见巫师喽……”“再见，欢迎再来”），也在自言自语，还引了莎士比亚。请留意登上月球的代码里那句“临时的，我希望希望希望”。"
   },
   "pick": {

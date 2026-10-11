@@ -46,7 +46,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Liu Hui's preface of 263 to his commentary on the Nine Chapters: where the book came from, why he wrote the commentary, and a worked method for measuring the height and size of the sun with two gnomons and a sighting tube. The geometry is sound, but it rests on the assumption of a flat earth, so the distances it gives for the sun are far too small; what lasted was the method of measuring the unreachable from two points. Notice his remark that the branches divide but share one trunk.",
+    "en": "Liu Hui’s preface of 263 to his commentary on the Nine Chapters: where the book came from, why he wrote the commentary, and a worked method for measuring the height and size of the sun with two gnomons and a sighting tube. The geometry is sound, but it rests on the assumption of a flat earth, so the distances it gives for the sun are far too small; what lasted was the method of measuring the unreachable from two points. Notice his remark that the branches divide but share one trunk.",
     "zh": "刘徽 263 年为《九章算术》作注时写的序：讲此书来历、作注缘由，并给出用两根表杆和一支窥管测日高、日径的方法。几何本身无误，但建立在大地是平面的假设上，所以求得的日高、日远都远小于实际；流传下来的是从两点测量不可及之物的方法。留意他说“枝条虽分而同本干”。"
   },
   "pick": null,
@@ -80,7 +80,7 @@
       "at": "九九之術",
       "occ": 1,
       "at_hans": "九九之术",
-      "en": "The 'nine nines': the multiplication table, which in China ran downward from nine times nine.",
+      "en": "The ‘nine nines’: the multiplication table, which in China ran downward from nine times nine.",
       "zh": "九九乘法口诀。古代从“九九八十一”开始念起，故称九九。"
     },
     {
@@ -156,7 +156,7 @@
       "at": "枝條雖分而同本幹",
       "occ": 1,
       "at_hans": "枝条虽分而同本干",
-      "en": "Liu Hui's picture of mathematics as one tree: many methods, a single trunk.",
+      "en": "Liu Hui’s picture of mathematics as one tree: many methods, a single trunk.",
       "zh": "刘徽把数学看作一棵树：方法千枝万叶，根干只有一个。"
     },
     {
@@ -170,7 +170,7 @@
       "at": "六藝",
       "occ": 1,
       "at_hans": "六艺",
-      "en": "The six arts of a gentleman's education: rites, music, archery, charioteering, writing and calculation.",
+      "en": "The six arts of a gentleman’s education: rites, music, archery, charioteering, writing and calculation.",
       "zh": "古代教育的六门功课：礼、乐、射、御、书、数。"
     },
     {
@@ -184,7 +184,7 @@
       "at": "規矩",
       "occ": 1,
       "at_hans": "规矩",
-      "en": "The compass and the carpenter's square.",
+      "en": "The compass and the carpenter’s square.",
       "zh": "圆规和曲尺。"
     },
     {
@@ -215,7 +215,7 @@
     {
       "at": "重差",
       "occ": 1,
-      "en": "The method of double differences: measuring a distant object from two sighting posts. Liu Hui's chapter on it later circulated alone as the Sea Island Mathematical Manual.",
+      "en": "The method of double differences: measuring a distant object from two sighting posts. Liu Hui’s chapter on it later circulated alone as the Sea Island Mathematical Manual.",
       "zh": "用两根表杆测量远处目标的方法。刘徽所撰《重差》后来单独流传，即《海岛算经》。"
     },
     {

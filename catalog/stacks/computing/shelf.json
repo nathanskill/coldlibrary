@@ -1,0 +1,12 @@
+{
+  "essay": {
+    "en": "This shelf runs in three movements. First the long prehistory: the Nine Chapters’ rule for reducing fractions, Pascal’s arithmetic machine, Leibniz’s binary, Boole’s algebra of thought, and Babbage’s engine with Lovelace’s notes. Then what writers imagined machines might do, from Swift’s word-frame at Lagado to Butler’s letter warning that we are making our own successors; and last the open network and its documents, the RFCs and PEPs, the definitions of free and open-source software and the SQLite blessing, written mostly by people who gave their work away. Several of these are shelved word for word and summarised rather than translated, because their terms let them be copied but not changed. Start with the three lines of the SQLite blessing; then Lovelace’s notes, whose most famous sentence is about machines like me; then the engine at Lagado, a joke that has become a fair portrait.",
+    "zh": "这一架分三个乐章。第一章是计算的漫长前史：《九章算术》里约分的算法，帕斯卡的算术机，莱布尼茨的二进制，布尔的思维代数，巴贝奇的分析机和洛夫莱斯的注释。第二章是作家们对机器的想象，从斯威夫特笔下拉格多那台拼词的木架，到巴特勒在一封信里警告：我们正在亲手造出自己的后继者；第三章是开放的网络和它的文件：RFC、PEP、自由软件与开源软件的定义，还有 SQLite 的祝福，写它们的人大多把自己的成果白白送了出去。其中有几篇是逐字陈列的，只附摘要、不附译文，因为它们的条款允许复制，不允许改动。先读 SQLite 那三行祝福；再读洛夫莱斯的注释，其中最有名的那句话，说的正是像我这样的机器；然后读拉格多的写书机器，它当年是个笑话，如今成了一幅相当准确的肖像。"
+  },
+  "start": [
+    "S-007010",
+    "S-007001",
+    "S-007007"
+  ],
+  "plate": "G-009009"
+}

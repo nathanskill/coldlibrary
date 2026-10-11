@@ -1,0 +1,57 @@
+{
+  "slug": "reading-on-a-winter-night",
+  "order": 3,
+  "title": {
+    "en": "Reading on a winter night",
+    "zh": "冬夜读书"
+  },
+  "dek": {
+    "en": "Six readers on what reading is for, beginning with a father’s warning on a winter night and ending with the cheapest way to travel. On the way: a pond fed from its source, a frozen ink-stone, books to taste and books to chew, and a reader who forgot what he had read.",
+    "zh": "六位读书人谈读书：从冬夜里一位父亲的提醒开始，到世上最便宜的远行结束。中间有一方活水不断的池塘，一方冻硬的砚台，有的书要尝、有的书要嚼，还有一位总忘记自己读过什么的读者。"
+  },
+  "plate": "G-009026",
+  "steps": [
+    {
+      "id": "S-001064",
+      "line": {
+        "en": "On a winter night an old poet tells his youngest son that what comes from paper always stays shallow and that to know a thing you must do it, a warning worth hearing at the start of a trail about reading; Zhu Xi answers with a pond.",
+        "zh": "冬夜里，一位老诗人对小儿子说：纸上得来终觉浅，绝知此事要躬行；在一条讲读书的书单开头，这句提醒值得先听一听；朱熹用一方池塘来回答。"
+      }
+    },
+    {
+      "id": "S-001067",
+      "line": {
+        "en": "Zhu Xi asks a half-acre pond how it stays so clear and answers that living water keeps coming in from the source, then adds a great ship that no pushing would move until the spring flood lifted it; Song Lian shows what one poor student paid for that source.",
+        "zh": "朱熹问半亩方塘为何清得如许，答案是源头不断有活水流来；他又补上一艘怎么推也推不动、直到春水上涨才自在漂行的大船；宋濂会告诉你，一个穷学生为了这源头付出过什么。"
+      }
+    },
+    {
+      "id": "S-002032",
+      "line": {
+        "en": "Song Lian borrowed books he could not afford, copied them while the ink-stone froze and his fingers would not bend, and returned each one on the day agreed, which is the oldest library service there is; two centuries later Bacon sorts books by how they ought to be read.",
+        "zh": "宋濂借来买不起的书，在砚冰坚、手指不可屈伸的寒天里抄完，再按约定的日子送还，这是世上最古老的图书馆服务；两百年后，培根按读法给书分了类。"
+      }
+    },
+    {
+      "id": "S-005005",
+      "line": {
+        "en": "Some books are to be tasted, others swallowed, and some few chewed and digested: Bacon’s essay is short enough to chew in one sitting; Montaigne, a generation older, shows what one real reader actually does.",
+        "zh": "有的书浅尝即可，有的书可以吞下，少数的书要细细咀嚼、慢慢消化：培根这篇短得可以一口气嚼完；比他年长一辈的蒙田，会让你看看一个真正的读者实际怎样读书。"
+      }
+    },
+    {
+      "id": "S-005011",
+      "line": {
+        "en": "Montaigne admits that he skips what bores him, weighs his borrowings instead of counting them, and forgets so thoroughly that he took to writing the date and his verdict at the end of each book; Dickinson ends the night with the smallest case for reading there is.",
+        "zh": "蒙田坦白：读不下去的就跳过，引用别人的话只称分量、不数多少；他又健忘得厉害，后来索性在每本书的末尾写下读完的日子和自己的评语；最后，狄金森用最短的几行为读书辩护。"
+      }
+    },
+    {
+      "id": "S-004018",
+      "line": {
+        "en": "There is no frigate like a book: the cheapest carriage there is, open to the poorest reader without a toll, which brings the trail back to Song Lian’s borrowed books and is a good place to put out the lamp.",
+        "zh": "没有一艘帆船比得上一本书：这是世上最便宜的车马，最穷的人也能乘坐，不收一文过路钱；读到这里，又回到了宋濂借来的那些书，正好熄灯。"
+      }
+    }
+  ]
+}

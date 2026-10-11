@@ -46,11 +46,11 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Shen Kuo's description, written around 1088, of the movable clay type made by the commoner Bi Sheng in the 1040s. It is the earliest surviving account of printing with movable type anywhere. Notice the practical details: two plates used in turn, twenty pieces of type for common characters, type filed by rhyme, and the reason wood was rejected.",
+    "en": "Shen Kuo’s description, written around 1088, of the movable clay type made by the commoner Bi Sheng in the 1040s. It is the earliest surviving account of printing with movable type anywhere. Notice the practical details: two plates used in turn, twenty pieces of type for common characters, type filed by rhyme, and the reason wood was rejected.",
     "zh": "沈括约 1088 年记录平民毕昇在 11 世纪 40 年代发明的泥活字。这是世界上现存最早的活字印刷记载。留意那些实用细节：两块铁板交替使用，常用字各备二十余印，按韵分贴存放，以及不用木头的理由。"
   },
   "pick": {
-    "en": "A library depends on copies, and this short entry is the first record of a way to make them faster than by hand. What I like most is how unheroic it is: a commoner, some clay, an iron frame, and the observation that wood swells unevenly when wet. It ends with the type itself kept by Shen Kuo's kinsmen, an object preserved because someone understood what it was.",
+    "en": "A library depends on copies, and this short entry is the first record of a way to make them faster than by hand. What I like most is how unheroic it is: a commoner, some clay, an iron frame, and the observation that wood swells unevenly when wet. It ends with the type itself kept by Shen Kuo’s kinsmen, an object preserved because someone understood what it was.",
     "zh": "图书馆靠副本而存在，这短短一则是第一次记下比手抄更快的复制方法。我最喜欢它毫不英雄化：一个平民，一些胶泥，一只铁范，以及木头沾水后高下不平的观察。结尾说毕昇的字印为沈括族中子弟所得，至今保藏：一件东西被留了下来，因为有人懂得它是什么。"
   },
   "tags": [
@@ -98,7 +98,7 @@
     {
       "at": "布衣",
       "occ": 1,
-      "en": "A commoner, one who wore plain cloth rather than an official's silk.",
+      "en": "A commoner, one who wore plain cloth rather than an official’s silk.",
       "zh": "平民。古代平民穿麻布衣服，故称。"
     },
     {
@@ -159,7 +159,7 @@
       "at": "藥稍鎔",
       "occ": 1,
       "at_hans": "药稍熔",
-      "en": "藥 is the 'drug', the resin and wax mixture, which softens a little.",
+      "en": "藥 is the ‘drug’, the resin and wax mixture, which softens a little.",
       "zh": "药，指松脂、蜡等混合物。药剂稍稍熔化。"
     },
     {

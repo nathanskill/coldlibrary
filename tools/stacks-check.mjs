@@ -15,7 +15,7 @@ const STATUS = ['public-domain', 'open-license'];
 const RIGHTS_KINDS = ['age', 'us-gov', 'dedicated', 'license'];
 const PLATE_RIGHTS_KINDS = [...RIGHTS_KINDS, 'cc0'];
 const PLATE_KINDS = ['artwork', 'photograph', 'object'];
-const TONES = [...SHELVES, 'lake', 'rust', 'spruce', 'slate', 'birch', 'brass'];
+const TONES = ['snow', 'night', 'ink', 'warm', 'sea', 'green', 'dusk', ...SHELVES, 'lake', 'rust', 'spruce', 'slate', 'birch', 'brass'];
 const WHERE = ['AU', 'EU', 'UK', 'CN', 'US'];
 // Plate files (spec §2.6): suffix, long side, budget.
 const PLATE_FILES = [['', 1600, 450 * 1024], ['-sm', 800, 120 * 1024], ['-480', 480, 40 * 1024]];

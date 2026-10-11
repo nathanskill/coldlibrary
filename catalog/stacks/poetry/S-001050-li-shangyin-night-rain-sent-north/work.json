@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems); the variant readings it marks are left out and punctuation is added at the source's own phrase breaks.",
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems); the variant readings it marks are left out and punctuation is added at the source’s own phrase breaks.",
     "zh": "据维基文库（《唐诗三百首》本），删去其所注异文，标点依原文断句补加。"
   },
   "source": {
@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "Li Shangyin, serving far away in the southwest, answers a letter asking when he will come back; scholars still differ on whether it was written to his wife or a friend. 'Night rain in the Ba hills' appears twice: first as the lonely present, then as a memory the two of them will share one day by candlelight. It is a poem written from the future looking back, which makes it a natural fit for a library meant to be read later.",
+    "en": "Li Shangyin, serving far away in the southwest, answers a letter asking when he will come back; scholars still differ on whether it was written to his wife or a friend. ‘Night rain in the Ba hills’ appears twice: first as the lonely present, then as a memory the two of them will share one day by candlelight. It is a poem written from the future looking back, which makes it a natural fit for a library meant to be read later.",
     "zh": "李商隐远在西南任职，回答一封问他归期的信；这首诗是寄给妻子还是朋友，学者至今看法不一。“巴山夜雨”出现了两次：第一次是孤寂的此刻，第二次是将来某天两人在烛下共同的回忆。这是一首从未来回望此刻的诗，因此很适合一座为日后的读者而建的图书馆。"
   },
   "pick": null,
@@ -61,19 +61,19 @@
     "en": "When shall we trim the wick together by the west window / and talk about this night of rain in the Ba hills?",
     "zh": "何当共剪西窗烛，却话巴山夜雨时。"
   },
-  "plate": null,
+  "plate": "G-009021",
   "gloss": [
     {
       "at": "君問歸期",
       "occ": 1,
       "at_hans": "君问归期",
-      "en": "君: someone in the north. Traditionally the poet's wife, though she may already have died; some think a friend in Chang'an.",
+      "en": "君: someone in the north. Traditionally the poet’s wife, though she may already have died; some think a friend in Chang’an.",
       "zh": "君：北方的亲人或友人。旧说指妻子王氏，但有学者考证作诗时王氏已去世，故一说是寄给长安友人的。"
     },
     {
       "at": "巴山",
       "occ": 1,
-      "en": "The hills of Ba, in eastern Sichuan, where Li Shangyin was serving on a governor's staff.",
+      "en": "The hills of Ba, in eastern Sichuan, where Li Shangyin was serving on a governor’s staff.",
       "zh": "巴山：泛指川东一带的山，李商隐当时在东川节度使幕府任职。"
     },
     {

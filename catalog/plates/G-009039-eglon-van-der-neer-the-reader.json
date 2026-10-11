@@ -1,13 +1,16 @@
 {
   "id": "G-009039",
   "slug": "eglon-van-der-neer-the-reader",
+  "kind": "artwork",
   "title": {
     "orig": "The Reader",
+    "lang": "en",
     "en": "The Reader",
     "zh": "读书人"
   },
   "artist": {
     "orig": "Eglon van der Neer",
+    "lang": "nl",
     "en": "Eglon van der Neer",
     "zh": "埃格隆·范德内尔",
     "dates": "1635/36–1703"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

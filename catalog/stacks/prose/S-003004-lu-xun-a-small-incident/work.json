@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "Less than a page long: a rickshaw puller stops to help an old woman his passenger is sure is pretending, and the passenger watches the man's dusty back grow larger than himself. It is here because it records the moment a person sees his own smallness and lets it change him, which is rarer in literature than it should be. Notice the handful of coppers, and the questions Lu Xun refuses to answer for himself.",
+    "en": "Less than a page long: a rickshaw puller stops to help an old woman his passenger is sure is pretending, and the passenger watches the man’s dusty back grow larger than himself. It is here because it records the moment a person sees his own smallness and lets it change him, which is rarer in literature than it should be. Notice the handful of coppers, and the questions Lu Xun refuses to answer for himself.",
     "zh": "不到一页：一个人力车夫停下来，扶起一个乘客认定是装腔作势的老女人，乘客看着他满身灰尘的后影变得比自己高大。收在这里，是因为它记下了一个人看见自己的“小”、并让它改变自己的时刻，这在文学里比应有的少。留意那一大把铜元，以及鲁迅不肯替自己回答的那些问题。"
   },
   "pick": null,
@@ -60,7 +60,7 @@
     "en": "Only this small incident keeps floating before my eyes, sometimes even more clearly than before, making me ashamed, urging me to renew myself, and adding to my courage and my hope.",
     "zh": "独有这一件小事，却总是浮在我眼前，有时反更分明，教我惭愧，催我自新，并且增长我的勇气和希望。"
   },
-  "plate": null,
+  "plate": "G-009009",
   "pairs": [
     "S-004106",
     "S-002005"
@@ -69,7 +69,7 @@
     {
       "at": "京城",
       "occ": 1,
-      "en": "The capital: Beijing, then the seat of the Republic's government. Lu Xun had come there in 1912.",
+      "en": "The capital: Beijing, then the seat of the Republic’s government. Lu Xun had come there in 1912.",
       "zh": "京城：北京，当时民国政府所在地。鲁迅 1912 年到北京。"
     },
     {
@@ -117,7 +117,7 @@
       "at": "子曰詩云",
       "occ": 1,
       "at_hans": "子曰诗云",
-      "en": "'The Master said' and 'the Songs say': the stock openings of quotations from the Analects and the Book of Songs, standing for the old classical schooling.",
+      "en": "‘The Master said’ and ‘the Songs say’: the stock openings of quotations from the Analects and the Book of Songs, standing for the old classical schooling.",
       "zh": "子曰诗云：《论语》里的“子曰”和引用《诗经》时的“诗云”，泛指旧时私塾读的经书。"
     }
   ]

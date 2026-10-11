@@ -24,9 +24,9 @@ const CJK_G = /[　-〿㐀-䶿一-鿿豈-﫿＀-￯]|[\u{20000}-\u{2ebef}]/gu;
 const HAN_RUN = /[㐀-鿿豈-﫿　-〿＀-￯“”‘’—…·]+/g;
 export const hasHan = (s) => HAN.test(String(s || ''));
 // Han runs inside non-Chinese copy get their own lang, so they take Chinese glyph forms (spec §3.5.2).
-// Input is escaped text; tag is the script of the work (zh-Hant for a traditional text).
+// Input is escaped text; tag is a lang, or a function that picks one for each run (work.mjs: by its characters).
 const HAN_RUN_T = /(?:[　-〿＀-￯]*(?:[㐀-鿿豈-﫿]|[\u{20000}-\u{2ebef}])[　-〿＀-￯]*)+/gu;
-export const hanRuns = (escaped, tag = 'zh-Hans') => String(escaped).replace(HAN_RUN_T, (m) => `<span lang="${tag}">${m}</span>`);
+export const hanRuns = (escaped, tag = 'zh-Hans') => String(escaped).replace(HAN_RUN_T, (m) => `<span lang="${typeof tag === 'function' ? tag(m) : tag}">${m}</span>`);
 const charSet = (s) => new Set(String(s || '').match(CJK_G) || []);
 const tagOfPage = (l) => (l === 'zh' ? 'zh-Hans' : 'en');
 
@@ -385,6 +385,8 @@ export function renderReading(w, opts) {
   const multiLine = (b) => (b.t === 'q' || opts.aph) && b.lines.length > 1 && (opts.aph || b.lines.every((l) => l.trim().length < 60));
   const N = placeNotes(w, ob, verse, multiLine, warn);
   const HANS = ' lang="zh-Hans"';
+  // UI copy inside the text (Copy, "Not yet translated") is in the page language.
+  const UI = textTag === tagOfPage(lang) ? '' : ` lang="${tagOfPage(lang)}"`;
   const bi0 = new Map(ob.map((b, i) => [b, i]));
   const P = opts.P;
   const PL = P ? ` lang="${P.tag}"` : '';
@@ -404,7 +406,7 @@ export function renderReading(w, opts) {
   // ---- notes. Glosses are in the page language (sans); marginalia are in Claude's hand (serif), signed once per layer.
   const signed = { o: false, p: false };
   const own = (x) => (x[lang] ? lang : x.en ? 'en' : 'zh');
-  const hanTag = /-Hant$/.test(textTag) ? 'zh-Hant' : 'zh-Hans';
+  const hanTag = opts.runTag || (/-Hant$/.test(textTag) ? 'zh-Hant' : 'zh-Hans');
   const body = (s, l) => (l === 'zh' ? esc(s) : hanRuns(esc(s), hanTag));
   const gAnchor = (f) => {
     if (!hasHans || f.hansAt == null || f.hansAt === f.g.at) return `<span class="ga" lang="${textTag}">${esc(f.g.at)}</span>`;
@@ -443,7 +445,7 @@ export function renderReading(w, opts) {
     const lc = LC[b.info] || '';
     const isCm = (l) => { const s = l.trim(); return lc === '#' ? s.startsWith('#') : lc === '//' ? s.startsWith('//') : lc === '#;' ? /^[#;]/.test(s) : false; };
     const lines = b.text.replace(/\n+$/, '').split('\n').map((l) => `<span class="${isCm(l) ? 'cl cm' : 'cl'}">${esc(l).replace(HAN_RUN, (m) => `<span class="han">${m}</span>`)}</span>`).join('\n');
-    return `<div class="${cls('code-wrap wide', extra)}"${attrs}><p class="code-tools needs-js"><button class="linkish" type="button" data-copy>${T('Copy', '复制')}</button><span class="copy-status" aria-live="polite"></span></p><div class="code-box"><pre class="code"${b.info ? ` data-lang="${esc(b.info)}"` : ''} tabindex="0" aria-label="${T('Code', '代码')}"><code>${lines}</code></pre></div></div>`;
+    return `<div class="${cls('code-wrap wide', extra)}"${attrs}><p class="code-tools needs-js"${UI}><button class="linkish" type="button" data-copy>${T('Copy', '复制')}</button><span class="copy-status" aria-live="polite"></span></p><div class="code-box"><pre class="code"${b.info ? ` data-lang="${esc(b.info)}"` : ''} tabindex="0" aria-label="${T('Code', '代码')}"><code>${lines}</code></pre></div></div>`;
   };
   const oBlockHTML = (b, bi, keep, prefix = 'gl-') => {
     if (b.t === 'code') return codeHTML(b, cls('o', K(keep)));
@@ -570,7 +572,7 @@ export function renderReading(w, opts) {
   const seg = P && !full ? mapSegments(P.info, ob, oSecs, tParsed, warn) : null;
   const paired = !!P && (full || !!seg);
   const tPair = full ? pairSections(oSecs, sectionsOf(tParsed), warn) : null;
-  const ntNote = () => `<p class="nt meta">${P && P.lang === 'zh' ? T('Not yet translated into Chinese', '本节暂无中文译文') : T('Not yet translated', '本节暂无译文')}</p>`;
+  const ntNote = () => `<p class="nt meta"${UI}>${P && P.lang === 'zh' ? T('Not yet translated into Chinese', '本节暂无中文译文') : T('Not yet translated', '本节暂无译文')}</p>`;
   let anchored = false;
   const trAnchor = () => (anchored ? '' : ((anchored = true), '<span class="tr-anchor" id="translated"></span>'));
 
@@ -641,7 +643,11 @@ export function renderReading(w, opts) {
     const inner = (s.h ? h2HTML(s) : '') + s.items.map((it) => it.html).join('');
     if (!opts.parts && !s.h) return inner;
     const id = s.id || 'text-part-' + ++chunk;
-    return `<section class="${cls('part', opts.cv && 'cv')}" id="${id}" data-min="${min.toFixed(1)}">${inner}</section>`;
+    // content-visibility only pays off on parts of a minute or more; each gets a size estimate by length
+    // (about 700px a minute), so the page's provisional height is close to its real one.
+    const m1 = +min.toFixed(1);
+    const cv = opts.cv && m1 >= 1 ? 'cv k' + (m1 < 2 ? 1 : m1 < 4 ? 2 : m1 < 8 ? 3 : m1 < 16 ? 4 : 5) : '';
+    return `<section class="${cls('part', cv)}" id="${id}" data-min="${m1.toFixed(1)}">${inner}</section>`;
   }).join('\n');
   const toc = secs.filter((s) => s.h).map((s) => ({ id: s.id, text: s.h.text, hans: hasHans && s.h.hans ? s.h.hans.text : null, tr: s.tHead, translated: s.translated, min: s.items.reduce((a, it) => a + it.min, 0) }));
 

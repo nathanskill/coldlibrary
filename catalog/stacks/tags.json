@@ -1,0 +1,675 @@
+{
+  "snow": {
+    "en": "Snow",
+    "zh": "雪",
+    "aliases": [
+      "snow"
+    ]
+  },
+  "winter": {
+    "en": "Winter",
+    "zh": "冬",
+    "aliases": [
+      "winter",
+      "cold",
+      "ice",
+      "christmas"
+    ]
+  },
+  "spring": {
+    "en": "Spring",
+    "zh": "春",
+    "aliases": [
+      "spring",
+      "new-year"
+    ]
+  },
+  "autumn": {
+    "en": "Autumn",
+    "zh": "秋",
+    "aliases": [
+      "autumn",
+      "mid-autumn"
+    ]
+  },
+  "rain": {
+    "en": "Wind and rain",
+    "zh": "风雨",
+    "aliases": [
+      "rain",
+      "wind",
+      "storm",
+      "weather"
+    ]
+  },
+  "moon": {
+    "en": "The moon",
+    "zh": "月",
+    "aliases": [
+      "moon"
+    ]
+  },
+  "stars": {
+    "en": "Stars and the sky",
+    "zh": "星空",
+    "aliases": [
+      "stars",
+      "starlight",
+      "sky",
+      "navigation",
+      "astronomy",
+      "telescope",
+      "jupiter",
+      "pulsars",
+      "hydrogen",
+      "radio",
+      "space",
+      "satellite"
+    ]
+  },
+  "night": {
+    "en": "Night",
+    "zh": "夜",
+    "aliases": [
+      "night",
+      "evening",
+      "dusk"
+    ]
+  },
+  "river": {
+    "en": "Rivers",
+    "zh": "江河",
+    "aliases": [
+      "river",
+      "rivers"
+    ]
+  },
+  "sea": {
+    "en": "The sea",
+    "zh": "海",
+    "aliases": [
+      "sea",
+      "islands"
+    ]
+  },
+  "water": {
+    "en": "Water",
+    "zh": "水",
+    "aliases": [
+      "water",
+      "lake",
+      "source"
+    ]
+  },
+  "mountains": {
+    "en": "Mountains",
+    "zh": "山",
+    "aliases": [
+      "mountains"
+    ]
+  },
+  "flowers": {
+    "en": "Flowers",
+    "zh": "花",
+    "aliases": [
+      "flowers",
+      "plum",
+      "lotus",
+      "peach-blossom",
+      "lilac",
+      "fragrance"
+    ]
+  },
+  "nature": {
+    "en": "Nature",
+    "zh": "自然",
+    "aliases": [
+      "nature",
+      "trees",
+      "pines",
+      "bamboo",
+      "willows",
+      "grass",
+      "leaf",
+      "woods",
+      "garden",
+      "gardens",
+      "fields",
+      "meadow",
+      "bees",
+      "animals",
+      "fish",
+      "wilderness",
+      "wildness",
+      "romanticism",
+      "variety"
+    ]
+  },
+  "birds": {
+    "en": "Birds",
+    "zh": "鸟",
+    "aliases": [
+      "birds",
+      "geese",
+      "swallows",
+      "pigeons"
+    ]
+  },
+  "light": {
+    "en": "Light",
+    "zh": "光",
+    "aliases": [
+      "light",
+      "sun",
+      "sunset",
+      "morning",
+      "dawn",
+      "shadow",
+      "shadows",
+      "optics",
+      "mirrors",
+      "camera-obscura",
+      "reflection",
+      "rainbow"
+    ]
+  },
+  "lamps": {
+    "en": "Lamps and fire",
+    "zh": "灯火",
+    "aliases": [
+      "lamp",
+      "lamps",
+      "candle",
+      "fire",
+      "festival"
+    ]
+  },
+  "friendship": {
+    "en": "Friendship",
+    "zh": "友情",
+    "aliases": [
+      "friendship",
+      "hospitality",
+      "neighbours",
+      "strangers",
+      "reunion",
+      "gathering",
+      "invitation",
+      "counsel"
+    ]
+  },
+  "farewell": {
+    "en": "Farewell",
+    "zh": "送别",
+    "aliases": [
+      "farewell",
+      "parting"
+    ]
+  },
+  "longing": {
+    "en": "Longing",
+    "zh": "思念",
+    "aliases": [
+      "longing",
+      "distance",
+      "seeking"
+    ]
+  },
+  "home": {
+    "en": "Home and family",
+    "zh": "家",
+    "aliases": [
+      "home",
+      "homecoming",
+      "return",
+      "village",
+      "shelter",
+      "room",
+      "family",
+      "father",
+      "brother",
+      "brothers",
+      "tangerines"
+    ]
+  },
+  "love": {
+    "en": "Love",
+    "zh": "爱情",
+    "aliases": [
+      "love",
+      "tenderness",
+      "constancy",
+      "gifts"
+    ]
+  },
+  "teachers": {
+    "en": "Teachers and students",
+    "zh": "师生",
+    "aliases": [
+      "teachers",
+      "teaching",
+      "school",
+      "lecture",
+      "dialogue",
+      "royal-institution"
+    ]
+  },
+  "travel": {
+    "en": "Travel",
+    "zh": "行旅",
+    "aliases": [
+      "travel",
+      "road",
+      "voyage",
+      "walking",
+      "railway",
+      "frontier",
+      "maps"
+    ]
+  },
+  "solitude": {
+    "en": "Solitude",
+    "zh": "独处",
+    "aliases": [
+      "solitude",
+      "loneliness",
+      "privacy",
+      "stillness"
+    ]
+  },
+  "childhood": {
+    "en": "Childhood and youth",
+    "zh": "童年与少年",
+    "aliases": [
+      "childhood",
+      "children",
+      "youth",
+      "kite"
+    ]
+  },
+  "learning": {
+    "en": "Learning",
+    "zh": "学习",
+    "aliases": [
+      "learning",
+      "practice",
+      "knowledge",
+      "scholarship",
+      "scholar",
+      "commentary",
+      "tradition"
+    ]
+  },
+  "reading": {
+    "en": "Reading",
+    "zh": "读书",
+    "aliases": [
+      "reading"
+    ]
+  },
+  "books": {
+    "en": "Books",
+    "zh": "书",
+    "aliases": [
+      "books",
+      "libraries",
+      "printing",
+      "movable-type",
+      "paper",
+      "copying",
+      "borrowing",
+      "editions",
+      "palimpsest",
+      "encyclopedia",
+      "censorship",
+      "freedom of the press",
+      "microprint"
+    ]
+  },
+  "writing": {
+    "en": "Words and writing",
+    "zh": "文字",
+    "aliases": [
+      "writing",
+      "words",
+      "language",
+      "literature",
+      "poetics",
+      "poetry",
+      "criticism",
+      "ci",
+      "calligraphy",
+      "style",
+      "preface",
+      "self-portrait",
+      "lexicon",
+      "slang",
+      "precision"
+    ]
+  },
+  "letters": {
+    "en": "Letters",
+    "zh": "书信",
+    "aliases": [
+      "letters",
+      "letter",
+      "letters to oneself"
+    ]
+  },
+  "translation": {
+    "en": "Translation",
+    "zh": "翻译",
+    "aliases": [
+      "translation",
+      "languages",
+      "decipherment",
+      "china-and-europe"
+    ]
+  },
+  "memory": {
+    "en": "Memory",
+    "zh": "记忆",
+    "aliases": [
+      "memory",
+      "remembrance",
+      "traces",
+      "keeping",
+      "commemoration",
+      "anniversary",
+      "history"
+    ]
+  },
+  "time": {
+    "en": "Time",
+    "zh": "时光",
+    "aliases": [
+      "time",
+      "days",
+      "change",
+      "impermanence",
+      "seasons",
+      "age"
+    ]
+  },
+  "the-long-view": {
+    "en": "The long view",
+    "zh": "长远",
+    "aliases": [
+      "long-view",
+      "long-term",
+      "generations",
+      "ancestors",
+      "past and present",
+      "eternity",
+      "infinity",
+      "permanence",
+      "immortality",
+      "deep-time",
+      "geology",
+      "erosion",
+      "evolution",
+      "continental-drift",
+      "view"
+    ]
+  },
+  "wine": {
+    "en": "Wine",
+    "zh": "酒",
+    "aliases": [
+      "wine",
+      "tavern"
+    ]
+  },
+  "will": {
+    "en": "Will",
+    "zh": "意志",
+    "aliases": [
+      "will",
+      "courage",
+      "perseverance",
+      "persistence",
+      "endurance",
+      "integrity",
+      "striving",
+      "direction",
+      "succession",
+      "trust"
+    ]
+  },
+  "how-to-live": {
+    "en": "How to live",
+    "zh": "怎样生活",
+    "aliases": [
+      "stoicism",
+      "simplicity",
+      "freedom",
+      "dao",
+      "tao",
+      "emptiness",
+      "softness",
+      "equanimity",
+      "kindness",
+      "humility",
+      "virtue",
+      "conscience",
+      "character",
+      "duty",
+      "restraint",
+      "self-examination",
+      "daily practice",
+      "leisure",
+      "independence",
+      "conformity",
+      "purpose",
+      "life",
+      "humaneness",
+      "usefulness",
+      "attention",
+      "work",
+      "service",
+      "forgiveness",
+      "utopia"
+    ]
+  },
+  "thinking": {
+    "en": "Thinking",
+    "zh": "思考",
+    "aliases": [
+      "thinking",
+      "method",
+      "reason",
+      "reasoning",
+      "doubt",
+      "logic",
+      "judgement",
+      "mind",
+      "truth",
+      "honesty",
+      "first-principles",
+      "induction",
+      "hypothesis",
+      "authority",
+      "questions",
+      "philosophy",
+      "logos",
+      "psychology",
+      "originality",
+      "genius",
+      "evidence"
+    ]
+  },
+  "hope": {
+    "en": "Hope",
+    "zh": "希望",
+    "aliases": [
+      "hope",
+      "renewal"
+    ]
+  },
+  "humour": {
+    "en": "Humour",
+    "zh": "幽默",
+    "aliases": [
+      "humour",
+      "satire",
+      "april-fools",
+      "hoax"
+    ]
+  },
+  "craft": {
+    "en": "Craft",
+    "zh": "手艺",
+    "aliases": [
+      "craft",
+      "design",
+      "technology",
+      "agriculture",
+      "invention",
+      "engineering",
+      "apprentices",
+      "recycling"
+    ]
+  },
+  "mathematics": {
+    "en": "Mathematics",
+    "zh": "数学",
+    "aliases": [
+      "mathematics",
+      "geometry",
+      "algorithm",
+      "fractions",
+      "greatest-common-divisor",
+      "remainder-theorem",
+      "right-triangle",
+      "gougu",
+      "pythagoras",
+      "proof",
+      "puzzles",
+      "problems",
+      "large-numbers",
+      "notation",
+      "binary",
+      "boolean-algebra",
+      "statistics",
+      "curvature",
+      "sand"
+    ]
+  },
+  "discovery": {
+    "en": "Discovery",
+    "zh": "发现",
+    "aliases": [
+      "discovery",
+      "experiment",
+      "observation",
+      "measurement",
+      "microscope",
+      "instruments",
+      "physics",
+      "chemistry",
+      "biology",
+      "electricity",
+      "lightning",
+      "radioactivity",
+      "magnetism",
+      "molecules",
+      "kinetic-theory",
+      "motion",
+      "gravity",
+      "genetics",
+      "heredity",
+      "natural-selection",
+      "pure-science",
+      "science",
+      "royal-society"
+    ]
+  },
+  "machines": {
+    "en": "Machines",
+    "zh": "机器",
+    "aliases": [
+      "machines",
+      "analytical-engine",
+      "calculating-machine",
+      "pascaline",
+      "automaton",
+      "chess",
+      "babbage",
+      "lovelace",
+      "punched-cards",
+      "language-machine",
+      "silicon"
+    ]
+  },
+  "code": {
+    "en": "Code",
+    "zh": "代码",
+    "aliases": [
+      "python",
+      "source-code",
+      "database",
+      "unix",
+      "design-principles",
+      "readability",
+      "debugging",
+      "off-by-one",
+      "first-program",
+      "open-source",
+      "free-software",
+      "gnu",
+      "licences",
+      "four-freedoms",
+      "public-domain",
+      "debian",
+      "definition",
+      "blessing",
+      "hacker-culture",
+      "manifesto"
+    ]
+  },
+  "the-internet": {
+    "en": "The internet",
+    "zh": "互联网",
+    "aliases": [
+      "internet",
+      "rfc",
+      "networking",
+      "arpanet",
+      "http",
+      "end-to-end",
+      "architecture",
+      "principles",
+      "standards",
+      "418",
+      "coffee"
+    ]
+  },
+  "messages-forward": {
+    "en": "Messages forward",
+    "zh": "寄往未来",
+    "aliases": [
+      "future",
+      "future readers",
+      "posterity",
+      "message",
+      "voyager",
+      "pioneer",
+      "record",
+      "instructions",
+      "continuation",
+      "knowledge-handed-forward",
+      "apollo"
+    ]
+  },
+  "inscriptions": {
+    "en": "Inscriptions",
+    "zh": "铭刻",
+    "aliases": [
+      "inscription",
+      "plaque",
+      "monument",
+      "monuments",
+      "edicts"
+    ]
+  }
+}

@@ -1,13 +1,16 @@
 {
   "id": "G-009014",
   "slug": "dai-jin-returning-home-through-the-snow",
+  "kind": "artwork",
   "title": {
     "orig": "雪歸圖",
+    "lang": "zh-Hant",
     "en": "Returning Home through the Snow",
     "zh": "雪归图"
   },
   "artist": {
     "orig": "戴進",
+    "lang": "zh-Hant",
     "en": "Dai Jin",
     "zh": "戴进",
     "dates": "1388–1462"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Trimmed the dark photographic background around the object, then resized."
   },
+  "tone": "warm",
   "rights": {
     "status": "public-domain",
     "basis": {

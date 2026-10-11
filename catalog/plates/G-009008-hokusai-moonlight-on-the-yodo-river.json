@@ -1,13 +1,16 @@
 {
   "id": "G-009008",
   "slug": "hokusai-moonlight-on-the-yodo-river",
+  "kind": "artwork",
   "title": {
     "orig": "雪月花 淀川",
+    "lang": "ja",
     "en": "Moonlight on the Yodo River",
     "zh": "雪月花 淀川"
   },
   "artist": {
     "orig": "葛飾北斎",
+    "lang": "ja",
     "en": "Katsushika Hokusai",
     "zh": "葛饰北斋",
     "dates": "1760–1849"
@@ -34,6 +37,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "night",
   "rights": {
     "status": "public-domain",
     "basis": {
@@ -48,7 +52,7 @@
     "zh": "满月悬在大阪的淀川上空。载满乘客的船在蓝色河面上滑行，经过右侧的石垣和白色城楼；远处是低矮的绿岸和山丘。"
   },
   "note": {
-    "en": "Hokusai's series Snow, Moon and Flowers sets each of the three classical pleasures at a famous place; the moon is given to the Yodo, with Osaka Castle at the water's edge. The night is not dark at all but a clear blue evening, and the moon is a pale disc. It is a picture of people out on the water together, enjoying the light.",
+    "en": "Hokusai’s series Snow, Moon and Flowers sets each of the three classical pleasures at a famous place; the moon is given to the Yodo, with Osaka Castle at the water’s edge. The night is not dark at all but a clear blue evening, and the moon is a pale disc. It is a picture of people out on the water together, enjoying the light.",
     "zh": "北斋的《雪月花》把三种古典的赏玩各放在一处名胜：月给了淀川，大阪城就在水边。这一夜一点也不黑，是一个清亮的蓝色傍晚，月亮只是一枚淡淡的圆。画的是人们一起到水上去，享受这份光。"
   },
   "pick": null,

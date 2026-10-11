@@ -22,7 +22,7 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out and punctuation is added at the source's own phrase breaks. Lines broken at the punctuation for reading; text unchanged.",
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out and punctuation is added at the source’s own phrase breaks. Lines broken at the punctuation for reading; text unchanged.",
     "zh": "据维基文库，删去其所注异文，标点依原文断句补加。按标点分行，文字未改。"
   },
   "source": {
@@ -79,13 +79,13 @@
       "at": "倚杖聽江聲",
       "occ": 1,
       "at_hans": "倚杖听江声",
-      "en": "Su Shi's lodging, the Lingao Pavilion, stood right above the Yangzi.",
+      "en": "Su Shi’s lodging, the Lingao Pavilion, stood right above the Yangzi.",
       "zh": "苏轼所住的临皋亭就在长江边上。"
     },
     {
       "at": "此身非我有",
       "occ": 1,
-      "en": "From Zhuangzi: your body is not your own, it is a form lent by heaven and earth. 營營, busy striving, in the next line, is also Zhuangzi's word.",
+      "en": "From Zhuangzi: your body is not your own, it is a form lent by heaven and earth. 營營, busy striving, in the next line, is also Zhuangzi’s word.",
       "zh": "化用《庄子·知北游》“汝身非汝有也”。下句“营营”（奔走钻营）也出自《庄子·庚桑楚》。"
     },
     {

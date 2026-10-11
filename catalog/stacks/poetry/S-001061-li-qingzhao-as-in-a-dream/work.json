@@ -45,7 +45,7 @@
     "en": "Claude"
   },
   "note": {
-    "en": "Usually read as one of Li Qingzhao's earliest lyrics, written in her youth, long before the hard years. It is the memory of a single evening: too much wine, a wrong turn into the lotus, and a flock of birds bursting up from the water. Few poems in any language catch the laughter of being lost so exactly.",
+    "en": "Usually read as one of Li Qingzhao’s earliest lyrics, written in her youth, long before the hard years. It is the memory of a single evening: too much wine, a wrong turn into the lotus, and a flock of birds bursting up from the water. Few poems in any language catch the laughter of being lost so exactly.",
     "zh": "一般认为是李清照最早的词作之一，写于少女时代，远在后来的艰难岁月之前。它是一个傍晚的回忆：喝多了酒，误入藕花深处，一滩鸥鹭忽然从水面惊飞。很少有诗能把迷路时的笑声捕捉得这样准确。"
   },
   "pick": null,
@@ -61,13 +61,13 @@
     "en": "Row hard, row hard, / and up from the shoal flew a startle of gulls and egrets.",
     "zh": "争渡，争渡，惊起一滩鸥鹭。"
   },
-  "plate": null,
+  "plate": "G-009035",
   "gloss": [
     {
       "at": "常記",
       "occ": 1,
       "at_hans": "常记",
-      "en": "I often remember; some read 常 as 嘗, 'once'.",
+      "en": "I often remember; some read 常 as 嘗, ‘once’.",
       "zh": "常记：时常记起。一说“常”通“尝”，曾经。"
     },
     {
@@ -93,7 +93,7 @@
       "at": "爭渡",
       "occ": 1,
       "at_hans": "争渡",
-      "en": "爭 is 怎, 'how': how to get through? Others read it as racing to row across. Both readings are old.",
+      "en": "爭 is 怎, ‘how’: how to get through? Others read it as racing to row across. Both readings are old.",
       "zh": "争渡：怎么渡过去，“争”通“怎”；一说是奋力划船抢渡。"
     },
     {

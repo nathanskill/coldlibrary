@@ -1,0 +1,64 @@
+{
+  "slug": "messages-forward",
+  "order": 2,
+  "title": {
+    "en": "Messages forward",
+    "zh": "寄往未来"
+  },
+  "dek": {
+    "en": "Seven ways of writing to someone not yet born, each aimed further off than the last: from words that outlast a family’s titles to a cover that must teach its finder how to play the record inside.",
+    "zh": "七种写给尚未出生之人的办法，一个比一个寄得更远：从比家族爵禄更长久的言论，到一张必须先教会拾到者怎样播放的唱片封套。"
+  },
+  "plate": "G-009018",
+  "steps": [
+    {
+      "id": "S-008016",
+      "line": {
+        "en": "Asked what the old saying about ‘not decaying’ means, a minister from Lu sets aside his host’s long line of family titles and names three things that last, virtue, deeds and words; every later step on this trail is a wager on the third.",
+        "zh": "有人问古语里的“不朽”是什么意思，鲁国的穆叔没有把显赫的家世算进去，只说了三样：立德、立功、立言；这条书单后面的每一步，押的都是第三样。"
+      }
+    },
+    {
+      "id": "S-008015",
+      "line": {
+        "en": "Thucydides tests every report, distrusts even his own impressions and says plainly where he has had to reconstruct a speech, which is why a history written for readers long after still serves them; about a century and a half later, an emperor in India had his words cut into rock.",
+        "zh": "修昔底德检验每一份报告，连自己的印象也不轻信，还直说哪些演说是他重构的，所以这部为后世读者写的史书至今可用；大约一个半世纪之后，印度的一位君王让人把他的话刻进了岩石。"
+      }
+    },
+    {
+      "id": "S-008021",
+      "line": {
+        "en": "Asoka had his edicts cut on rock faces and stone pillars so that the teaching ‘may long endure’ and his great-grandsons might carry it on, and he planted banyans and dug wells along the roads for travellers he would never meet; two centuries later Horace claims that a book of poems will outlast stone and bronze.",
+        "zh": "阿育王让人把敕令刻上崖壁和石柱，好让它“长久留存”，让曾孙们接着做下去，还在路边种榕树、掘水井，留给永远不会见面的行人；两百年后，贺拉斯宣称，一卷诗比石头和青铜都更长久。"
+      }
+    },
+    {
+      "id": "S-008019",
+      "line": {
+        "en": "Horace’s monument is built of metre, proof against gnawing rain and the north wind, and two thousand years of readers have kept his boast for him; Franklin, a printer, tried something more practical.",
+        "zh": "贺拉斯的纪念碑是用格律砌成的，不怕啃噬的雨，也不怕狂暴的北风，两千年来的读者替他兑现了这句大话；印刷匠出身的富兰克林，试了一个更实际的办法。"
+      }
+    },
+    {
+      "id": "S-008012",
+      "line": {
+        "en": "Franklin left a thousand pounds each to Boston and Philadelphia, to be lent at five per cent to young tradesmen for two hundred years, a plan that works only if people not yet born keep it running, and they did; LAGEOS looks millions of years further.",
+        "zh": "富兰克林给波士顿和费城各留下一千英镑，以五厘的利息借给年轻的手艺人，前后要运转两百年，这个计划只有靠尚未出生的人接着执行才行得通，而他们真的做到了；LAGEOS 看得更远，远到几百万年以后。"
+      }
+    },
+    {
+      "id": "S-008009",
+      "line": {
+        "en": "Sealed inside a satellite covered in mirrors, Carl Sagan’s plaque tells the time by the drift of the continents and rounds its numbers so as not to claim more than anyone knew; the last step goes further still, to a stranger who must first be taught how to read it.",
+        "zh": "封在一颗布满镜子的卫星里，萨根设计的铭牌用大陆的漂移来报时，还特意把数字取整，不肯冒称比人们所知更精确；最后一步寄得更远，寄给一个必须先学会怎样读它的陌生人。"
+      }
+    },
+    {
+      "id": "S-008007",
+      "line": {
+        "en": "Before it says anything about Earth, the cover shows its finder how to play the record and adds a picture of a circle so that they can check their own decoding: the most careful answer on these shelves to the question of how to write to someone you will never meet.",
+        "zh": "在说起地球之前，封套先教拾到它的人怎样播放唱片，再附一幅画着圆的图，让对方核对自己有没有解对：怎样写给一个永远不会见面的人，书架上最周到的回答就在这里。"
+      }
+    }
+  ]
+}

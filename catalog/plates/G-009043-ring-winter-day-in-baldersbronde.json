@@ -1,13 +1,16 @@
 {
   "id": "G-009043",
   "slug": "ring-winter-day-in-baldersbronde",
+  "kind": "artwork",
   "title": {
     "orig": "Vinterdag med sne i Baldersbrønde",
+    "lang": "da",
     "en": "Winter Day with Snow in Baldersbrønde",
     "zh": "巴尔德斯布伦德的雪日"
   },
   "artist": {
     "orig": "L.A. Ring",
+    "lang": "da",
     "en": "L.A. Ring",
     "zh": "L.A. 林",
     "dates": "1854–1933"
@@ -33,6 +36,7 @@
     "retrieved": "2026-10-11",
     "edit": "Resized only."
   },
+  "tone": "snow",
   "rights": {
     "status": "public-domain",
     "basis": {
