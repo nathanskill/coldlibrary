@@ -1,0 +1,60 @@
+{
+  "id": "G-009049",
+  "slug": "aert-van-der-neer-river-landscape-in-moonlight",
+  "title": {
+    "orig": "Flodlandskab i måneskin",
+    "en": "River Landscape in Moonlight",
+    "zh": "月光下的河景"
+  },
+  "artist": {
+    "orig": "Aert van der Neer",
+    "en": "Aert van der Neer",
+    "zh": "阿尔特·范德内尔",
+    "dates": "1603/04–1677"
+  },
+  "year": 1645,
+  "year_display": {
+    "en": "c. 1645",
+    "zh": "约 1645 年"
+  },
+  "medium": {
+    "en": "Oil on panel",
+    "zh": "木板油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMSsp447",
+    "accession": "KMSsp447"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/cn69m761t_kmssp447.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1600,
+    "height": 1014,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1677. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1677 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "A Dutch river at night under a sky of heavy clouds lit from behind by the moon. A church tower and a village stand in silhouette on the left bank, a moored boat with tall masts sits by trees on the right, and silver light catches on the water between them.",
+    "zh": "夜里的荷兰河景，浓重的云层被月亮从背后照亮。左岸的教堂塔楼和村庄映成剪影，右边树旁停着一条高桅的船，两岸之间的水面闪着银光。"
+  },
+  "note": {
+    "en": "Aert van der Neer built a whole career on two subjects, moonlit rivers and frozen winters, and painted them with a patience few of his contemporaries shared. The moon itself is hidden; we see it only at the edges of the clouds and on the water. His son Eglon, whose reader hangs nearby, painted rooms instead.",
+    "zh": "阿尔特·范德内尔一生只画两类题材：月下的河流和冰封的冬天，而且画得极有耐心，同时代人少有能及。月亮本身藏起来了，我们只在云的边缘和水面上看到它。他的儿子埃格隆——那幅读书人就挂在附近——画的却是房间。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "river",
+    "night",
+    "clouds"
+  ]
+}

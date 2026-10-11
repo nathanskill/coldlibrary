@@ -1,0 +1,61 @@
+{
+  "id": "G-009012",
+  "slug": "kano-sansetsu-winter-landscape",
+  "title": {
+    "orig": "Winter Landscape",
+    "en": "Winter Landscape",
+    "zh": "冬景山水"
+  },
+  "artist": {
+    "orig": "狩野山雪",
+    "en": "Kano Sansetsu",
+    "zh": "狩野山雪",
+    "dates": "1590–1651"
+  },
+  "year": 1635,
+  "year_display": {
+    "en": "second quarter of the 17th century",
+    "zh": "17 世纪第二个二十五年（约 1625–50 年）"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink on paper",
+    "zh": "立轴，纸本水墨"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/57173",
+    "accession": "36.100.61",
+    "credit_line": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/LC-36_100_61_jps-021.jpg",
+    "width": 739,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1651. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1651 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "An ink painting in a tall mounting. The upper half is almost all pale mist; below, rounded snowy hills carry a small temple gate on a ridge, and at the bottom a traveller on horseback crosses the snow past a gnarled old tree and a little bridge.",
+    "zh": "一幅装在细长裱件里的水墨画。上半部几乎全是淡淡的雾；下方圆润的雪山上，一座小小的山门立在山脊，最下面一位骑马的行人走过雪地，经过一棵虬曲的老树和一座小桥。"
+  },
+  "note": {
+    "en": "Kano Sansetsu worked in Kyoto in the generation after the great Kano decorators and is known for an unusual, almost geometric eye. In this small winter scroll he gives most of the paper to mist and puts the whole season into a few snowy hills, one tree and one traveller. It shows how much a winter can hold with very little ink.",
+    "zh": "狩野山雪活跃于京都，比狩野派那几位伟大的装饰画家晚一代，以独特、近乎几何的眼光著称。在这幅小小的冬景里，他把大半张纸交给雾，只用几座雪山、一棵树和一个行人，就装下了整个季节。它让人看到，很少的墨能装下多少冬天。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "mist",
+    "travel",
+    "ink"
+  ]
+}

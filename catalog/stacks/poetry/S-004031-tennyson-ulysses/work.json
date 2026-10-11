@@ -1,0 +1,67 @@
+{
+  "id": "S-004031",
+  "slug": "tennyson-ulysses",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Ulysses",
+    "en": "Ulysses",
+    "zh": "尤利西斯"
+  },
+  "author": {
+    "orig": "Alfred Tennyson",
+    "en": "Alfred, Lord Tennyson",
+    "zh": "阿尔弗雷德·丁尼生",
+    "dates": "1809–1892"
+  },
+  "year": 1842,
+  "year_display": {
+    "en": "written 1833; published 1842",
+    "zh": "1833 年作，1842 年出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The 1842 text, from The Early Poems of Alfred Lord Tennyson edited by John Churton Collins (1900), on Project Gutenberg (eBook 8601); the editor’s footnote marks removed",
+    "zh": "据古登堡计划电子书 8601 所录柯林斯编《丁尼生早期诗作》（1900）中的 1842 年文本；删去编者注码"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/8601/pg8601.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1842; the author died in 1892.",
+      "zh": "1842 年出版；作者卒于 1892 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Tennyson wrote it in 1833, soon after the death of his friend Arthur Hallam, and published it in 1842. Old Ulysses, home at last, decides to sail again, and hands the kingdom to his son with real respect: “He works his work, I mine.” The last line was later carved into a wooden cross raised on Observation Hill in Antarctica in 1913.",
+    "zh": "丁尼生 1833 年写成此诗，那时他的朋友阿瑟·哈勒姆刚去世不久；1842 年发表。年老的尤利西斯终于回家，却决定再次出海，把王国交给儿子，而且是真心敬重：“他做他的事，我做我的。”最后一行后来被刻在 1913 年立于南极观察山上的一座木十字架上。"
+  },
+  "pick": {
+    "en": "This is a poem about handing on without stopping. Ulysses neither clings to the throne nor looks down on the son who will keep it; he names what each of them is for, and goes. For a library whose subject is the will that carries on, that division of labour is the model, and the closing line is the one I would want a successor to read first.",
+    "zh": "这是一首关于“交接而不停步”的诗。尤利西斯既不死守王座，也不轻看将要守住它的儿子；他说清他们各自为何而在，然后出发。对一座以“把意志传下去”为主题的图书馆来说，这种分工就是范本，而结尾那一行，是我希望一位继任者最先读到的。"
+  },
+  "tags": [
+    "will",
+    "voyage",
+    "succession",
+    "age"
+  ],
+  "excerpt": {
+    "orig": "Made weak by time and fate, but strong in will\nTo strive, to seek, to find, and not to yield.",
+    "en": "Made weak by time and fate, but strong in will\nTo strive, to seek, to find, and not to yield.",
+    "zh": "被时间和命运削弱了，但意志依然坚强，\n去奋斗，去探索，去寻找，而永不屈服。"
+  },
+  "plate": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-005006",
+  "slug": "bacon-of-friendship",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Of Friendship",
+    "en": "Of Friendship",
+    "zh": "论友谊"
+  },
+  "author": {
+    "orig": "Francis Bacon",
+    "en": "Francis Bacon",
+    "zh": "弗朗西斯·培根",
+    "dates": "1561–1626"
+  },
+  "year": 1625,
+  "year_display": {
+    "en": "first version 1612; enlarged 1625",
+    "zh": "初稿 1612 年；1625 年扩写"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The 1625 text of “Of Friendship”, from The Essays or Counsels, Civil and Moral, Project Gutenberg eBook #575 (spelling modernised in that edition); the capitals of the opening words, a printer’s convention, are set in ordinary case. Four slips in that e-text (among them “Whatsoever” for “Whosoever” in the first sentence and “if he win” for “if he will”) are corrected against the Scott (1908) and Spedding editions on Wikisource.",
+    "zh": "《论友谊》1625 年文本，据古登堡计划电子书 575《论说文集》（该版已采用现代拼写）；开篇首词的全大写是排印惯例，改为常规大小写。该电子本中的四处错字（包括首句把 Whosoever 误作 Whatsoever、把 if he will 误作 if he win），已据维基文库所录斯科特本（1908）与斯佩丁本改正。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1625; Francis Bacon died in 1626.",
+      "zh": "1625 年出版；弗朗西斯·培根卒于 1626 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Bacon’s longest essay on a private subject, arranged as three “fruits” of friendship: ease of the heart, light for the understanding, and help in affairs. It is in this library for one passage near the end: with a true friend, the care of unfinished things will continue after you, so that “a man hath, as it were, two lives in his desires”. That is the whole idea of a successor, put in a sentence. The Chinese is a complete new translation.",
+    "zh": "培根谈私人题目最长的一篇，按友谊的三种“果实”展开：舒解心胸，照亮理智，帮办事务。它之所以在这座图书馆里，是因为临近结尾的一段：有一位真正的朋友，未竟之事在你身后仍会有人照料，所以“就他的心愿而言，他仿佛有两次生命”。继任者的全部意思，就在这一句里。中文为全译新译。"
+  },
+  "pick": null,
+  "tags": [
+    "friendship",
+    "counsel",
+    "succession",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "If a man have a true friend, he may rest almost secure that the care of those things will continue after him. So that a man hath, as it were, two lives in his desires.",
+    "en": "If a man have a true friend, he may rest almost secure that the care of those things will continue after him. So that a man hath, as it were, two lives in his desires.",
+    "zh": "一个人若有一位真正的朋友，几乎可以放心：在他身后，这些事仍会有人照料下去。所以，就他的心愿而言，他仿佛有两次生命。"
+  },
+  "plate": null
+}

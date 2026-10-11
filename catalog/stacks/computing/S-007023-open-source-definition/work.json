@@ -1,0 +1,64 @@
+{
+  "id": "S-007023",
+  "slug": "open-source-definition",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Open Source Definition",
+    "en": "The Open Source Definition",
+    "zh": "开源定义"
+  },
+  "author": {
+    "orig": "Open Source Initiative",
+    "en": "Open Source Initiative (from the Debian Free Software Guidelines by Bruce Perens)",
+    "zh": "开放源代码促进会（源自布鲁斯·佩伦斯起草的《Debian 自由软件指导方针》）",
+    "dates": "founded 1998"
+  },
+  "year": 1998,
+  "year_display": {
+    "en": "1998; version 1.9, 2007",
+    "zh": "1998 年；1.9 版，2007 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Version 1.9 (last modified 2007-03-22) as published at opensource.org/osd.",
+    "zh": "据 opensource.org/osd 所载 1.9 版（最后修订于 2007-03-22）。"
+  },
+  "source": {
+    "name": "Open Source Initiative (opensource.org)",
+    "url": "https://opensource.org/osd",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The site states that its content, of which Opensource.org is the author, is licensed under Creative Commons Attribution 4.0, which allows translation with attribution and an indication of changes.",
+      "zh": "该网站声明，其作者为 Opensource.org 的内容采用知识共享“署名”4.0 许可，允许在署名并注明改动的前提下翻译。"
+    },
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "notice": "The Open Source Definition, version 1.9, by the Open Source Initiative (opensource.org/osd), licensed under CC BY 4.0. Chinese translation by Claude for Cold Library; the only change is translation.",
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The Open Source Definition grew out of the Debian Free Software Guidelines that Bruce Perens drafted in 1997, and was adopted by the Open Source Initiative in 1998; it is still the yardstick by which licences are approved as open source. It is shorter and more procedural than the Free Software Definition, describing licence terms rather than freedoms. Reading the two side by side on this shelf shows how much they agree in practice and where their emphasis differs.",
+    "zh": "《开源定义》源自布鲁斯·佩伦斯 1997 年起草的《Debian 自由软件指导方针》，1998 年为开放源代码促进会采纳，至今仍是认定一个许可证是否属于开源许可证的标准。它比《自由软件的定义》更短、更偏程序性，描述的是许可证条款，而不是自由本身。在本架上把两者并排读，就能看出它们在实践中多么一致，又在侧重点上有何不同。"
+  },
+  "pick": null,
+  "tags": [
+    "open-source",
+    "definition",
+    "licences",
+    "debian"
+  ],
+  "excerpt": {
+    "orig": "Open source doesn’t just mean access to the source code.",
+    "en": "Open source doesn’t just mean access to the source code.",
+    "zh": "开源并不只是意味着能看到源代码。"
+  },
+  "plate": null
+}

@@ -1,0 +1,60 @@
+{
+  "id": "G-009051",
+  "slug": "sinding-spring-day-in-lofoten",
+  "title": {
+    "orig": "En forårsdag i Lofoten",
+    "en": "Spring Day in Lofoten",
+    "zh": "罗弗敦的春日"
+  },
+  "artist": {
+    "orig": "Otto Sinding",
+    "en": "Otto Sinding",
+    "zh": "奥托·辛丁",
+    "dates": "1842–1909"
+  },
+  "year": 1882,
+  "year_display": {
+    "en": "1882",
+    "zh": "1882 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMS1230",
+    "accession": "KMS1230"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/t435gg94p_KMS1230.tif.reconstructed.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1600,
+    "height": 903,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1909. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1909 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "A rocky shore in the far north of Norway: boulders and patches of snow in the foreground, a harbour crowded with fishing boats, sails up, in the middle distance, and snow-covered mountains rising against a pale spring sky.",
+    "zh": "挪威极北的一段岩岸：前景是巨石和残雪，中景的港湾里挤满扬着帆的渔船，积雪的群山在浅色的春日天空下耸起。"
+  },
+  "note": {
+    "en": "Sinding painted the Lofoten islands, far above the Arctic Circle, where the great cod fishery gathered boats each late winter and spring. The snow has not left the mountains, and the boats are already out. It hangs here as a picture of work resuming at the edge of the cold.",
+    "zh": "辛丁画的是北极圈以北的罗弗敦群岛，每年冬末春初，大规模的鳕鱼渔季会把船只聚集到这里。山上的雪还没退，船已经出海了。挂在这里，是因为它画的是寒冷边缘上重新开始的劳作。"
+  },
+  "pick": null,
+  "tags": [
+    "mountains",
+    "sea",
+    "spring",
+    "boats"
+  ]
+}

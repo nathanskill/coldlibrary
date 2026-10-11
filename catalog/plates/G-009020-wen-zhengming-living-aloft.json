@@ -1,0 +1,61 @@
+{
+  "id": "G-009020",
+  "slug": "wen-zhengming-living-aloft",
+  "title": {
+    "orig": "樓居圖",
+    "en": "Living Aloft: Master Liu's Retreat",
+    "zh": "楼居图"
+  },
+  "artist": {
+    "orig": "文徵明",
+    "en": "Wen Zhengming",
+    "zh": "文徵明",
+    "dates": "1470–1559"
+  },
+  "year": 1543,
+  "year_display": {
+    "en": "1543",
+    "zh": "1543 年"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink and colour on paper",
+    "zh": "立轴，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/39536",
+    "accession": "2017.327.2",
+    "credit_line": "Gift of Marie-Hélène and Guy Weill, in honor of Wen C. Fong, 2015"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP274197.jpg",
+    "width": 1009,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1559. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1559 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A pale landscape in soft colour. A two-storey pavilion stands among tall pines and leafless trees, with two figures seated in the open upper room; a gate and a path lie below, mountains rise in mist behind, and a long inscription in neat script fills the top of the scroll.",
+    "zh": "一幅淡设色的山水。一座两层的楼阁立在高松和落叶的树之间，敞开的楼上坐着两个人；下方有门和小径，身后的山在雾中升起，画幅上部写满了工整的长题。"
+  },
+  "note": {
+    "en": "Wen Zhengming painted this at seventy-three for an old friend, Master Liu, who longed to live in an upper-storey retreat, above the dust of the world and among his books. Wen's poem at the top speaks of the wish. It is less a landscape than a portrait of a reading room, and a fitting picture for a library that also lives a little above the street.",
+    "zh": "文徵明七十三岁时为老友刘先生画了这幅画——刘先生一直向往住进一座楼居，高出尘世，与书为伴。顶上文徵明的诗写的就是这份心愿。与其说这是山水，不如说是一间读书楼的肖像；挂在一座也稍稍高于街市的图书馆里，正合适。"
+  },
+  "pick": null,
+  "tags": [
+    "studio",
+    "scholar",
+    "pines",
+    "pavilion"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-002030",
+  "slug": "su-shi-night-walk-at-chengtian-temple",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "記承天寺夜遊",
+    "en": "A Night Walk at Chengtian Temple",
+    "zh": "记承天寺夜游"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1083,
+  "year_display": {
+    "en": "1083",
+    "zh": "1083 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from the Dongpo zhilin), including the signature line that the Wikisource editors supply from the Yongle dadian.",
+    "zh": "据维基文库（《东坡志林》所收），含维基文库编者据《永乐大典》补入的署名一句。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/記承天寺夜遊",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1101.",
+      "zh": "北宋散文，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Ninety-odd characters written by Su Shi in exile in Huangzhou in 1083, about getting out of bed for the moonlight and walking with a friend. Notice how the courtyard first becomes water and the shadows become water plants, and only then are they named: bamboo and cypress. The last line is a quiet case for idleness as a form of attention.",
+    "zh": "苏轼 1083 年谪居黄州时写的九十余字：因月色起身，与友人散步。留意庭院先化作积水，影子先化作藻荇，然后才被说破：竹柏影也。最后一句平静地为“闲”辩护：闲，也是一种留心。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "night",
+    "friendship",
+    "shadows"
+  ],
+  "excerpt": {
+    "orig": "庭下如積水空明，水中藻荇交橫，蓋竹柏影也。",
+    "en": "The courtyard was like a pool of clear, empty water, and in the water the stems of water plants crossed one another: the shadows of the bamboo and the cypress.",
+    "zh": "庭下如积水空明，水中藻荇交横，盖竹柏影也。"
+  },
+  "plate": null
+}

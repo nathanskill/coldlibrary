@@ -1,0 +1,69 @@
+{
+  "id": "S-004106",
+  "slug": "tolstoy-three-questions",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Три вопроса",
+    "en": "Three Questions",
+    "zh": "三个问题"
+  },
+  "author": {
+    "orig": "Лев Николаевич Толстой",
+    "en": "Leo Tolstoy",
+    "zh": "列夫·托尔斯泰",
+    "dates": "1828–1910"
+  },
+  "year": 1903,
+  "year_display": {
+    "en": "1903; translated 1906",
+    "zh": "1903 年作；1906 年英译"
+  },
+  "translator": {
+    "name": "Louise and Aylmer Maude",
+    "dates": "1855–1939; 1858–1938",
+    "year": 1906
+  },
+  "edition": {
+    "en": "Translation by Louise and Aylmer Maude in Twenty-three Tales (Oxford, 1906), as transcribed on Wikisource",
+    "zh": "据维基文库所录路易丝·莫德与艾尔默·莫德译本，收入《二十三个故事》（牛津，1906）"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Twenty-three_Tales/Three_Questions",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in 1903; the author died in 1910; the Maudes’ translation was published in 1906, and they died in 1938 and 1939.",
+      "zh": "1903 年作，作者卒于 1910 年；莫德夫妇的译本 1906 年出版，二人分别卒于 1938 年和 1939 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A parable. A king wants to know the right time, the right people and the right thing to do; a hermit answers by letting him dig a garden bed. The answer, “there is only one time that is important—Now”, is plain, and the story makes it feel earned rather than handed down.",
+    "zh": "一则寓言。国王想知道做事的正确时机、最需要的人和最重要的事；一位隐士让他挖了一畦菜地，作为回答。答案——“只有一个时间是重要的：现在”——朴素得很，故事却让人觉得它是挣来的，而不是被训诫的。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "kindness",
+    "parable",
+    "gardens",
+    "russia"
+  ],
+  "excerpt": {
+    "orig": "Remember then: there is only one time that is important—Now!",
+    "en": "Remember then: there is only one time that is important—Now!",
+    "zh": "那么记住吧：只有一个时间是重要的——现在！"
+  },
+  "plate": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "S-006017",
+  "slug": "maxwell-molecules",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": { "orig": "Molecules", "en": "Molecules: a Lecture to the British Association", "zh": "分子：在英国科学促进会的讲演" },
+  "author": { "orig": "James Clerk Maxwell", "en": "James Clerk Maxwell", "zh": "詹姆斯·克拉克·麦克斯韦", "dates": "1831–1879" },
+  "year": 1873,
+  "year_display": { "en": "Lecture at Bradford, September 1873", "zh": "1873 年 9 月在布拉德福德的讲演" },
+  "translator": null,
+  "edition": {
+    "en": "As printed under the title The Theory of Molecules in The Popular Science Monthly, vol. 4 (January 1874), and transcribed on English Wikisource. The lecture complete; the two tables of molecular data printed after it are omitted, and the six lines Maxwell quotes from Tennyson are run together with slashes.",
+    "zh": "据《大众科学月刊》第 4 卷（1874 年 1 月）以“分子的理论”为题刊印的文本，以英文维基文库转录本为底本。讲演全文；文后所附两张分子数据表从略，麦克斯韦所引丁尼生的六行诗以斜线连排。"
+  },
+  "source": { "name": "Wikisource", "url": "https://en.wikisource.org/wiki/Popular_Science_Monthly/Volume_4/January_1874/The_Theory_of_Molecules", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Delivered in 1873 and printed in 1873–74; the author died in 1879. The lines quoted from Tennyson's Lucretius were published in 1868; Tennyson died in 1892.",
+      "zh": "1873 年讲演，1873–74 年刊印；作者卒于 1879 年。所引丁尼生《卢克莱修》诗句发表于 1868 年，丁尼生卒于 1892 年。"
+    },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "zh": "Claude" },
+  "note": {
+    "en": "Maxwell explains to a general audience how one can know the size, speed and number of things no one has ever seen, from Democritus and Lucretius through diffusion and the kinetic theory of gases. The close is the part people remember: a hydrogen molecule vibrates at the same rate in Sirius as on earth, so every molecule carries a standard of measure as distinct as the metre kept in Paris. His final inference, that identical molecules must have been made by no natural process, did not survive later physics, which found natural processes that make atoms, in the early universe and in stars, and explained why every one of a kind is identical; the picture of standards that do not wear still holds.",
+    "zh": "麦克斯韦向普通听众讲解，人怎样才能知道从没有人见过的东西的大小、速度和数目：从德谟克利特和卢克莱修讲起，一直讲到扩散和气体分子运动论。人们记住的是结尾：一个氢分子在天狼星上和在地球上以同样的频率振动，所以每个分子都带着一种与巴黎的米原器同样清晰的度量标准。他最后的推论——完全相同的分子不可能由任何自然过程造成——已被后来的物理学推翻：人们找到了在宇宙早期和恒星内部造出原子的自然过程，也解释了为什么同一种类的每一个都完全相同；但那幅“标准永不磨损”的图景依然成立。"
+  },
+  "pick": null,
+  "tags": ["physics", "molecules", "kinetic-theory", "measurement", "stars"],
+  "excerpt": {
+    "orig": "the molecules out of which these systems are built—the foundation-stones of the material universe—remain unbroken and unworn.",
+    "en": "the molecules out of which these systems are built—the foundation-stones of the material universe—remain unbroken and unworn.",
+    "zh": "构成这些体系的分子——物质宇宙的基石——却始终完好无损，从不磨蚀。"
+  },
+  "plate": null
+}

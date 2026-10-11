@@ -1,0 +1,61 @@
+{
+  "id": "G-009034",
+  "slug": "le-gray-brig-on-the-water",
+  "title": {
+    "orig": "Brig on the Water",
+    "en": "Brig on the Water",
+    "zh": "海上的双桅船"
+  },
+  "artist": {
+    "orig": "Gustave Le Gray",
+    "en": "Gustave Le Gray",
+    "zh": "古斯塔夫·勒格雷",
+    "dates": "1820–1884"
+  },
+  "year": 1856,
+  "year_display": {
+    "en": "1856",
+    "zh": "1856 年"
+  },
+  "medium": {
+    "en": "Albumen silver print from a glass negative",
+    "zh": "蛋白银盐印相（玻璃底片）"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/261937",
+    "accession": "1976.645.1",
+    "credit_line": "Gift of A. Hyatt Mayor, 1976"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ph/original/DP240624.jpg",
+    "width": 1600,
+    "height": 1260,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1884. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1884 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A sepia photograph of a calm sea under a heavy, luminous sky. A small two-masted ship sits on the horizon in the middle of the frame, sunlight breaks through the clouds at right, and the water in the foreground glitters.",
+    "zh": "一张棕褐色调的照片：沉重而明亮的天空下，海面平静。一艘小小的双桅船停在画面中央的地平线上，阳光从右侧的云层中透出，前景的海水闪闪发亮。"
+  },
+  "note": {
+    "en": "Le Gray's seascapes caused a sensation in the 1850s. The plates of the time could rarely hold a bright sky and darker water in one exposure, and many of his seascapes were printed from two negatives; this one is catalogued as a single negative. Either way the patience is the same: waiting for the light and the ship to be right at once.",
+    "zh": "勒格雷的海景照片在 1850 年代轰动一时。当时的底片很难在一次曝光里同时留住明亮的天空和较暗的海水，他的许多海景是用两张底片合印的；这一张在馆藏记录里是单张底片。无论哪种，所需要的耐心是一样的：等光线和船同时到位。"
+  },
+  "pick": null,
+  "tags": [
+    "sea",
+    "sky",
+    "photography",
+    "ship"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-007011",
+  "slug": "pep-20-the-zen-of-python",
+  "shelf": "computing",
+  "form": "aphorisms",
+  "lang": "en",
+  "title": {
+    "orig": "PEP 20 – The Zen of Python",
+    "en": "PEP 20: The Zen of Python",
+    "zh": "PEP 20：Python 之禅"
+  },
+  "author": {
+    "orig": "Tim Peters",
+    "en": "Tim Peters",
+    "zh": "蒂姆·彼得斯",
+    "dates": "fl. 1999"
+  },
+  "year": 2004,
+  "year_display": {
+    "en": "1999 (posted); 2004 (PEP 20)",
+    "zh": "1999 年（发表于邮件列表）；2004 年（成为 PEP 20）"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The Abstract, the aphorisms and the Easter Egg section of PEP 20 as published on peps.python.org.",
+    "zh": "据 peps.python.org 所载 PEP 20 的摘要、格言和“彩蛋”一节。"
+  },
+  "source": {
+    "name": "Python Enhancement Proposals",
+    "url": "https://peps.python.org/pep-0020/",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Dedicated to the public domain: 'This document has been placed in the public domain.'",
+      "zh": "作者已献入公有领域：“本文档已置于公有领域。”"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Tim Peters posted these lines to the Python mailing list in 1999, and they became PEP 20 in 2004; typing import this in any Python interpreter still prints them. They are design principles disguised as jokes, or jokes that turned out to be design principles. Notice the twentieth aphorism, left unwritten, and the gentle self-corrections of the lines that begin with 'Although'.",
+    "zh": "蒂姆·彼得斯 1999 年把这些句子发到 Python 邮件列表上，2004 年它们成为 PEP 20；如今在任何 Python 解释器里输入 import this，仍会把它们打印出来。它们是伪装成笑话的设计原则，也可以说是后来成了设计原则的笑话。请留意那没有写出来的第二十条，以及那几句以“尽管”开头、温和地自我修正的话。"
+  },
+  "pick": null,
+  "tags": [
+    "python",
+    "design-principles",
+    "aphorisms",
+    "readability"
+  ],
+  "excerpt": {
+    "orig": "Simple is better than complex. Complex is better than complicated.",
+    "en": "Simple is better than complex. Complex is better than complicated.",
+    "zh": "简单胜于复杂。复杂胜于凌乱。"
+  },
+  "plate": null
+}

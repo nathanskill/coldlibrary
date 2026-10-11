@@ -1,0 +1,64 @@
+{
+  "id": "S-001047",
+  "slug": "bai-juyi-night-snow",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夜雪",
+    "en": "Night Snow",
+    "zh": "夜雪"
+  },
+  "author": {
+    "orig": "白居易",
+    "en": "Bai Juyi",
+    "zh": "白居易",
+    "dates": "772–846"
+  },
+  "year": 815,
+  "year_display": {
+    "en": "c. 815",
+    "zh": "约 815 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夜雪",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 846.",
+      "zh": "唐诗，作者卒于 846 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Bai Juyi never shows the snow. He feels the cold first, then sees the window lit by it, and finally hears its weight breaking the bamboo outside. A whole snowfall reported by the senses of someone lying in bed, it is one of the quietest poems on this shelf.",
+    "zh": "白居易始终没有直接写雪。他先觉得冷，再看见窗户被雪映亮，最后听见积雪压断窗外竹子的声音。一场雪，全由一个躺在床上的人的感官来报告，这是这个书架上最安静的诗之一。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "night",
+    "winter",
+    "bamboo"
+  ],
+  "excerpt": {
+    "orig": "夜深知雪重，時聞折竹聲。",
+    "en": "Deep in the night I know the snow is heavy: / now and then I hear the bamboo snap.",
+    "zh": "夜深知雪重，时闻折竹声。"
+  },
+  "plate": null
+}

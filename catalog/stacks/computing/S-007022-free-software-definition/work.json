@@ -1,0 +1,62 @@
+{
+  "id": "S-007022",
+  "slug": "free-software-definition",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "What is Free Software? (The Free Software Definition)",
+    "en": "The Free Software Definition",
+    "zh": "自由软件的定义"
+  },
+  "author": {
+    "orig": "Free Software Foundation",
+    "en": "Free Software Foundation",
+    "zh": "自由软件基金会",
+    "dates": "founded 1985"
+  },
+  "year": 1986,
+  "year_display": {
+    "en": "1986, revised to version 1.169",
+    "zh": "1986 年；修订至 1.169 版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The page at gnu.org, converted from HTML to plain text without changes to the wording; the table of contents is omitted and an e-mail address is shown in ⟨ ⟩.",
+    "zh": "据 gnu.org 页面，由 HTML 转为纯文本，措辞未改；页内目录从略，电子邮件地址以 ⟨ ⟩ 括出。"
+  },
+  "source": {
+    "name": "GNU Project (gnu.org)",
+    "url": "https://www.gnu.org/philosophy/free-sw.en.html",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The page is licensed under Creative Commons Attribution-NoDerivatives 4.0, which allows sharing in whole or in part with attribution but no adaptations, so it is shelved verbatim and summarised rather than translated.",
+      "zh": "该页面采用知识共享“署名—禁止演绎”4.0 许可：允许署名后全部或部分分享，但不得改编，因此原样收录，以摘要代替翻译。"
+    },
+    "license": "CC BY-ND 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-nd/4.0/",
+    "notice": "Copyright © 1996-2002, 2004-2019, 2021, 2022, 2023, 2024, 2026 Free Software Foundation, Inc. This page is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.",
+    "verbatim_only": true
+  },
+  "translations": {},
+  "note": {
+    "en": "The Free Software Definition, kept by the Free Software Foundation since 1986, sets out the four essential freedoms: to run a program as you wish, to study and change it, to redistribute copies, and to distribute modified versions. It is a living document whose history section records each substantive change. Notice footnote 1, which explains why the freedoms are numbered from zero.",
+    "zh": "《自由软件的定义》自 1986 年起由自由软件基金会维护，阐明了四项基本自由：按你的意愿、为任何目的运行程序的自由（自由 0）；研究程序如何运作并加以修改的自由（自由 1）；再分发副本以帮助他人的自由（自由 2）；把修改后的版本分发给他人的自由（自由 3）。它强调“free”指自由而非免费，自由软件也可以是商业的，并讨论了著佐权（copyleft）、打包与分发细节、出口管制、合同式许可等边界问题。它是一份不断修订的文献，“历史”一节记录了每次实质性修改。原文采用 CC BY-ND 4.0 许可，故按原样收录，不作翻译；请留意脚注 1，它解释了这些自由为什么从零开始编号。"
+  },
+  "pick": null,
+  "tags": [
+    "free-software",
+    "four-freedoms",
+    "definition",
+    "licences"
+  ],
+  "excerpt": {
+    "orig": "“Free software” means software that respects users' freedom and community.",
+    "en": "“Free software” means software that respects users' freedom and community.",
+    "zh": "“自由软件”是指尊重用户自由和社群的软件。"
+  },
+  "plate": null
+}

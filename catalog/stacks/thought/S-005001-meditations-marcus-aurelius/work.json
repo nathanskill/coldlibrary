@@ -1,0 +1,69 @@
+{
+  "id": "S-005001",
+  "slug": "meditations-marcus-aurelius",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Τὰ εἰς ἑαυτόν",
+    "en": "Meditations",
+    "zh": "沉思录"
+  },
+  "author": {
+    "orig": "Μᾶρκος Αὐρήλιος Ἀντωνῖνος",
+    "en": "Marcus Aurelius",
+    "zh": "马可·奥勒留",
+    "dates": "121–180"
+  },
+  "year": 175,
+  "year_display": {
+    "en": "c. 170–180; translated 1862",
+    "zh": "约 170–180 年作；1862 年英译"
+  },
+  "translator": {
+    "name": "George Long",
+    "dates": "1800–1879",
+    "year": 1862
+  },
+  "edition": {
+    "en": "All twelve books of George Long’s translation, from Project Gutenberg eBook #15877 (The Thoughts of the Emperor Marcus Aurelius Antoninus). Long’s section numbers and cross-references are kept; his footnotes, his daggers marking doubtful readings and the square brackets round words he supplied are removed, the supplied words kept; four Greek words given in transliteration are restored in Greek letters. About forty scanning errors in that e-text (such as “snowed” for “showed” and “Briae” for “Baiae”) are corrected where Standard Ebooks and the 1889 Boston printing of Long’s revised translation agree, and his bracketed remark on three untranslated words in X.23 is dropped.",
+    "zh": "乔治·朗译本十二卷全文，据古登堡计划电子书 15877。保留朗的节号与互见；删去他的脚注、标示存疑读法的剑号，以及他补出的词两旁的方括号（补出的词保留）；四个转写的希腊词恢复为希腊字母。该电子本中约四十处扫描错误（如把 showed 误作 snowed、把 Baiae 误作 Briae），凡标准电子书版与 1889 年波士顿印行的朗氏修订译本一致之处，均已改正；第十卷第 23 节中朗关于三个未译之词的括注删去。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/15877/pg15877.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written c. 170–180; Marcus Aurelius died in 180. George Long, the translator, died in 1879; the translation was first published in 1862.",
+      "zh": "约作于 170–180 年；马可·奥勒留卒于 180 年。译者乔治·朗卒于 1879 年；译本初版于 1862 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The private notebook of a Roman emperor, written in Greek, much of it on campaign, and never meant for readers; George Long’s 1862 translation keeps its plain second-person address. It is on this shelf because it is the clearest record we have of someone using philosophy as a daily practice rather than a doctrine. Notice how often he corrects himself: the book is less a set of answers than a man reminding himself, again, of what he already knows. The Chinese gives twenty-five passages.",
+    "zh": "这是一位罗马皇帝的私人笔记，用希腊文写成，许多写于军中，本不打算给人看；乔治·朗 1862 年的译本保留了它朴素的第二人称口吻。把它放在这一架，是因为它最清楚地记录了一个人怎样把哲学当作每天的功课，而不是一套学说。请留意他有多常纠正自己：这本书与其说是答案，不如说是一个人一遍遍提醒自己早已知道的事。中文选译二十五节。"
+  },
+  "pick": null,
+  "tags": [
+    "stoicism",
+    "self-examination",
+    "change",
+    "daily practice",
+    "letters to oneself"
+  ],
+  "excerpt": {
+    "orig": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+    "en": "Look within. Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+    "zh": "向内看。善的泉源在里面，只要你不断地挖，它就会不断地涌出来。"
+  },
+  "plate": null
+}

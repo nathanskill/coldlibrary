@@ -1,0 +1,64 @@
+{
+  "id": "S-004033",
+  "slug": "edward-thomas-adlestrop",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Adlestrop",
+    "en": "Adlestrop",
+    "zh": "阿德尔斯特罗普"
+  },
+  "author": {
+    "orig": "Edward Thomas",
+    "en": "Edward Thomas",
+    "zh": "爱德华·托马斯",
+    "dates": "1878–1917"
+  },
+  "year": 1917,
+  "year_display": {
+    "en": "1917",
+    "zh": "1917 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Standard Ebooks edition of Edward Thomas’s poetry",
+    "zh": "据 Standard Ebooks 爱德华·托马斯诗集"
+  },
+  "source": {
+    "name": "Standard Ebooks",
+    "url": "https://standardebooks.org/ebooks/edward-thomas/poetry/text/single-page",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1917; the author died in 1917.",
+      "zh": "1917 年首次发表；作者卒于 1917 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Edward Thomas remembered an express train stopping, unscheduled, at a small Cotswold station on a hot afternoon in June 1914; the poem was printed in 1917, after his death. It records almost nothing: a name, some willows, a blackbird. That is why it has lasted, one minute kept whole.",
+    "zh": "爱德华·托马斯记得 1914 年 6 月一个炎热的下午，一列快车在科茨沃尔德的一个小站意外停下；这首诗在他去世后的 1917 年付印。诗几乎什么也没记录：一个站名，几棵柳树，一只乌鸫。正因如此它才流传下来——一分钟，被完整地保存。"
+  },
+  "pick": null,
+  "tags": [
+    "memory",
+    "birds",
+    "summer",
+    "railway"
+  ],
+  "excerpt": {
+    "orig": "And for that minute a blackbird sang\nClose by,",
+    "en": "And for that minute a blackbird sang\nClose by,",
+    "zh": "就在那一分钟，一只乌鸫在\n近旁歌唱，"
+  },
+  "plate": null
+}

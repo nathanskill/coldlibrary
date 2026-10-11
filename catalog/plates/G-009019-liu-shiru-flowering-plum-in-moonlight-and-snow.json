@@ -1,0 +1,61 @@
+{
+  "id": "G-009019",
+  "slug": "liu-shiru-flowering-plum-in-moonlight-and-snow",
+  "title": {
+    "orig": "月下雪梅圖",
+    "en": "Flowering Plum in Moonlight and Snow",
+    "zh": "月下雪梅图"
+  },
+  "artist": {
+    "orig": "劉世儒",
+    "en": "Liu Shiru",
+    "zh": "刘世儒",
+    "dates": "active 16th century"
+  },
+  "year": 1575,
+  "year_display": {
+    "en": "16th century",
+    "zh": "16 世纪"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink on silk",
+    "zh": "立轴，绢本水墨"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/36084",
+    "accession": "59.117",
+    "credit_line": "Gift of Alan Priest, 1959"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP-37469-002.jpg",
+    "width": 1033,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Ming dynasty painting; the painter was active in the 16th century. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "明代绘画，画家活跃于 16 世纪。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "On brown silk, an old plum tree rises from the bottom, its crooked branches scattered with small pale blossoms, and a round moon glows near the top beside a column of inscription.",
+    "zh": "在褐色的绢上，一株老梅从底部升起，虬曲的枝条上缀着小小的淡色花朵；顶部一轮圆月在一行题字旁微微发亮。"
+  },
+  "note": {
+    "en": "Liu Shiru was a Ming painter who specialised in plum blossom, a flower that opens in late winter, often while snow is still on the branches; in Chinese painting it stands for endurance and renewal. Here the moon and the blossoms are both small pale lights on dark silk, and they seem to answer each other.",
+    "zh": "刘世儒是专攻梅花的明代画家。梅在冬末开放，常常枝上还带着雪，在中国画里象征坚忍与复苏。这里的月亮和花朵都是暗色绢面上小小的淡色光点，彼此像在呼应。"
+  },
+  "pick": null,
+  "tags": [
+    "plum",
+    "moon",
+    "snow",
+    "night"
+  ]
+}

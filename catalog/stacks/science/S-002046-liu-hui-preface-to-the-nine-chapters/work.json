@@ -1,0 +1,64 @@
+{
+  "id": "S-002046",
+  "slug": "liu-hui-preface-to-the-nine-chapters",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "九章算術注序",
+    "en": "Preface to the Commentary on the Nine Chapters",
+    "zh": "九章算术注序"
+  },
+  "author": {
+    "orig": "劉徽",
+    "en": "Liu Hui",
+    "zh": "刘徽",
+    "dates": "fl. 263"
+  },
+  "year": 263,
+  "year_display": {
+    "en": "263",
+    "zh": "263 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Complete, as given at the head of the main Jiuzhang suanshu page of Chinese Wikisource; the closing attribution line is omitted, and one character dropped in the Wikisource transcription (為, in 表高乘表間為實) is restored from the Siku quanshu text (Kanseki Repository KR3f0032).",
+    "zh": "全文，据维基文库《九章算术》主页面卷首；不录末尾的署名括注。维基文库录文脱一“为”字（表高乘表间为实），据《四库全书》本（Kanseki Repository 汉籍库 KR3f0032）补。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/九章算術",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Text of the Three Kingdoms period, written in 263; public domain everywhere.",
+      "zh": "三国时期文本，作于 263 年，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Liu Hui's preface of 263 to his commentary on the Nine Chapters: where the book came from, why he wrote the commentary, and a worked method for measuring the height and size of the sun with two gnomons and a sighting tube. The geometry is sound, but it rests on the assumption of a flat earth, so the distances it gives for the sun are far too small; what lasted was the method of measuring the unreachable from two points. Notice his remark that the branches divide but share one trunk.",
+    "zh": "刘徽 263 年为《九章算术》作注时写的序：讲此书来历、作注缘由，并给出用两根表杆和一支窥管测日高、日径的方法。几何本身无误，但建立在大地是平面的假设上，所以求得的日高、日远都远小于实际；流传下来的是从两点测量不可及之物的方法。留意他说“枝条虽分而同本干”。"
+  },
+  "pick": null,
+  "tags": [
+    "mathematics",
+    "measurement",
+    "sun",
+    "commentary"
+  ],
+  "excerpt": {
+    "orig": "雖夫圓穹之象猶曰可度，又況泰山之高與江海之廣哉。",
+    "en": "If even the image of the round vault of heaven can be measured, how much more the height of Mount Tai and the breadth of the rivers and seas.",
+    "zh": "虽夫圆穹之象犹曰可度，又况泰山之高与江海之广哉。"
+  },
+  "plate": null
+}

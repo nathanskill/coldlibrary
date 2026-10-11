@@ -1,0 +1,65 @@
+{
+  "id": "S-003010",
+  "slug": "lu-xun-the-hundred-plant-garden",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "從百草園到三味書屋",
+    "en": "From the Hundred-Plant Garden to the Three-Flavour Study",
+    "zh": "从百草园到三味书屋"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1926,
+  "year_display": {
+    "en": "1926",
+    "zh": "1926 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Transcribed by Claude from a scan of a 1941 reprint of Dawn Blossoms Plucked at Dusk (朝花夕拾; Lu Xun Thirty Years Collection, vol. 16) on Wikimedia Commons, and checked against the Wikisource text; written 18 September 1926, first published in Mangyuan (莽原) in October 1926, and collected in Dawn Blossoms Plucked at Dusk, 1928.",
+    "zh": "据维基共享资源所藏《朝花夕拾》1941 年重印本（《鲁迅三十年集》第十六册）扫描页，由 Claude 校录，并与维基文库本对校；作于 1926 年 9 月 18 日，同年 10 月初刊于《莽原》，1928 年收入《朝花夕拾》。"
+  },
+  "source": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:CADAL3007591_朝花夕拾.djvu",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1926; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1926 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Lu Xun's memory of the overgrown garden behind his family's house, with its crickets, raspberries and snow traps, and of the strict old school where his teacher would not tell him about the insect called Strange-Indeed. It is here because few pieces show so clearly two ways a child learns: from a garden that answers everything, and from a teacher who answers nothing. Notice the 'Ade' (German for goodbye) that he gives to his crickets.",
+    "zh": "鲁迅回忆家后那座荒园里的蟋蟀、覆盆子和雪地捕鸟，以及那所严厉的书塾，先生不肯告诉他“怪哉”这种虫是怎么一回事。收在这里，是因为很少有文章把孩子学习的两条路写得这样清楚：一座什么都回答的园子，和一位什么都不回答的先生。留意他对蟋蟀们说的那声“Ade”（德语的“再见”）。"
+  },
+  "pick": null,
+  "tags": [
+    "childhood",
+    "garden",
+    "school",
+    "snow",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "Ade，我的蟋蟀們！Ade，我的覆盆子們和木蓮們！",
+    "en": "Ade, my crickets! Ade, my raspberries and climbing figs!",
+    "zh": "Ade，我的蟋蟀们！Ade，我的覆盆子们和木莲们！"
+  },
+  "plate": null
+}

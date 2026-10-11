@@ -1,0 +1,60 @@
+{
+  "id": "G-009050",
+  "slug": "munch-winter-in-nordstrand",
+  "title": {
+    "orig": "Vinter ved Nordstrand",
+    "en": "Winter in Nordstrand",
+    "zh": "诺德斯特兰的冬天"
+  },
+  "artist": {
+    "orig": "Edvard Munch",
+    "en": "Edvard Munch",
+    "zh": "爱德华·蒙克",
+    "dates": "1863–1944"
+  },
+  "year": 1900,
+  "year_display": {
+    "en": "1900–01",
+    "zh": "1900–01 年"
+  },
+  "medium": {
+    "en": "Oil on unprimed cardboard",
+    "zh": "未打底纸板油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/DEP717",
+    "accession": "DEP717"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/pg15bj05v_DEP717-cropped.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1600,
+    "height": 1285,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1944. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1944 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "Two tall pine trunks with dark, rounded clumps of needles stand in snow in front of a wide blue-black fjord; a strip of white shore runs across the middle, and low hills lie along the far side under a grey sky.",
+    "zh": "两棵高大的松树立在雪中，深色的针叶聚成圆团，面前是一片宽阔的蓝黑色峡湾；一条白色的岸线横过画面中部，对岸灰色天空下是低缓的山丘。"
+  },
+  "note": {
+    "en": "Munch is best known for more troubled pictures, but he also painted the Oslo fjord in winter, plainly and with affection; Nordstrand lies on the fjord just south of the city. The pines are reduced to flat shapes and the water to one deep colour, and the result is calm, almost a woodcut made in paint.",
+    "zh": "蒙克以更不安的画作闻名，但他也画冬天的奥斯陆峡湾，画得朴素而深情；诺德斯特兰就在城南的峡湾边。松树被简化成平面的形状，水被简化成一种深色，结果是安静的，几乎是一幅用油彩画成的木刻。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "fjord",
+    "pines",
+    "winter"
+  ]
+}

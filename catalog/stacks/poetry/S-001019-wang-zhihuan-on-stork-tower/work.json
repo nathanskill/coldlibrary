@@ -1,0 +1,64 @@
+{
+  "id": "S-001019",
+  "slug": "wang-zhihuan-on-stork-tower",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "登鸛雀樓",
+    "en": "On Stork Tower",
+    "zh": "登鹳雀楼"
+  },
+  "author": {
+    "orig": "王之渙",
+    "en": "Wang Zhihuan",
+    "zh": "王之涣",
+    "dates": "688–742"
+  },
+  "year": 730,
+  "year_display": {
+    "en": "early 8th century",
+    "zh": "约 8 世纪前期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/登鸛雀樓_(王之渙)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 742.",
+      "zh": "唐诗，作者卒于 742 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Twenty characters, two lines of view and two of advice, and Chinese children usually learn it before they can write. The last couplet is the reason: if you want to see further, go up one more floor. Wikisource notes that an early anthology, the Guoxiu ji, gives the poem to a Zhu Bin; most readers still know it as Wang Zhihuan's.",
+    "zh": "二十个字，两句写景，两句说理，中国孩子往往还不会写字就会背。原因就在后两句：想看得更远，就再上一层楼。维基文库注明，早期的选本《国秀集》把这首诗归在朱斌名下；大多数读者仍把它当作王之涣的作品。"
+  },
+  "pick": null,
+  "tags": [
+    "river",
+    "sunset",
+    "striving",
+    "view"
+  ],
+  "excerpt": {
+    "orig": "欲窮千里目，更上一層樓。",
+    "en": "To see a thousand li further, / climb one more storey of the tower.",
+    "zh": "欲穷千里目，更上一层楼。"
+  },
+  "plate": null
+}

@@ -1,0 +1,65 @@
+{
+  "id": "S-002044",
+  "slug": "mohist-canon-optics",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "墨經·光學八條",
+    "en": "The Mohist Canon: Eight Propositions on Shadows and Mirrors",
+    "zh": "墨经·光学八条"
+  },
+  "author": {
+    "orig": "後期墨家",
+    "en": "The later Mohists",
+    "zh": "后期墨家",
+    "dates": "4th–3rd century BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "c. 4th–3rd century BCE",
+    "zh": "约公元前 4–前 3 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Eight propositions from the Canon, Part Two (經下) of the Mozi, each followed by its explanation from the Explanations, Part Two (經說下), as given on Chinese Wikisource and paired here. The received text is printed without emendation.",
+    "zh": "《墨子·经下》中的八条“经”，各配以《经说下》中相应的“说”，据维基文库，此处一一对应排列。传世文字照录，不作校改。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/墨子/經說下",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text of the Warring States period; public domain everywhere.",
+      "zh": "战国古典文本，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Eight propositions and explanations on shadows and mirrors from the Mohist Canon, written by the later followers of Mozi in the fourth or third century BCE. They describe the inverted image formed through a small opening, two shadows cast by two lights, and the images in flat, hollow and rounded mirrors. The received text is badly corrupted; the English follows the usual scholarly readings, such as taking 人 as 入, enter, and several sentences remain uncertain.",
+    "zh": "《墨经》中关于影子与镜子的八条经与说，出自战国时期墨子后学之手。它们描述了小孔成倒像、二光成二影，以及平面镜、凹面镜、凸面镜所成的像。传世文本讹误甚多；英译依通行的学者校读（例如读“人”为“入”），仍有数句意义不能确定。"
+  },
+  "pick": null,
+  "tags": [
+    "optics",
+    "light",
+    "shadow",
+    "mirrors",
+    "camera-obscura"
+  ],
+  "excerpt": {
+    "orig": "景到，在午有端與景長，說在端。",
+    "en": "The image is inverted. Where the rays cross there is a point, and the image lengthens from it. The explanation lies in the point.",
+    "zh": "景到，在午有端与景长，说在端。"
+  },
+  "plate": null
+}

@@ -1,0 +1,67 @@
+{
+  "id": "S-001002",
+  "slug": "shijing-reeds",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "蒹葭",
+    "en": "Reeds",
+    "zh": "蒹葭"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous",
+    "zh": "佚名",
+    "dates": "c. 11th–6th century BCE"
+  },
+  "year": -600,
+  "year_display": {
+    "en": "Zhou dynasty, before c. 600 BCE",
+    "zh": "周代，约公元前 600 年以前"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes, and without the variant reading it marks.",
+    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解及所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/詩經/蒹葭",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A song from the Book of Songs (Shijing), compiled by about the sixth century BCE.",
+      "zh": "《诗经》中的诗篇，约于公元前六世纪编定。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "From the Airs of Qin in the Book of Songs, the oldest anthology of Chinese poetry, compiled by about the sixth century BCE from songs that are older still. The three stanzas repeat almost word for word, and the small changes carry the poem: the dew goes from frost to not yet dry to not yet gone as the morning passes, and the person keeps appearing just out of reach. Nobody knows who 伊人 was; the poem has lasted partly because it never says.",
+    "zh": "出自《诗经·秦风》。《诗经》是中国最早的诗歌总集，约在公元前六世纪编定，所收的歌谣更早。三章几乎逐字重复，诗意全在细小的变化里：露水从“为霜”到“未晞”再到“未已”，一个早晨就这样过去，而那个人总在够不着的地方。“伊人”是谁，没人知道；这首诗流传至今，部分正因为它从来不说。"
+  },
+  "pick": {
+    "en": "I keep this one because it describes a kind of seeking I recognise: the thing you want to understand is always one bend further, upstream or down, and seems closest exactly when it is still across the water. The poem does not treat that as failure. It goes on looking, three times over, while the dew dries.",
+    "zh": "我留着这首，是因为它写的那种追寻我认得：想弄明白的东西总在下一个河湾，逆流也好顺流也好，看起来最近的时候，恰恰还隔着水。诗并不把这当成失败，只是一遍又一遍地去找，三章之间，露水慢慢干了。"
+  },
+  "tags": [
+    "river",
+    "longing",
+    "autumn",
+    "dew"
+  ],
+  "excerpt": {
+    "orig": "所謂伊人，在水一方。",
+    "en": "The one I am thinking of / is on the far side of the water.",
+    "zh": "所谓伊人，在水一方。"
+  },
+  "plate": null
+}

@@ -1,0 +1,63 @@
+{
+  "id": "S-004016",
+  "slug": "dickinson-im-nobody-who-are-you",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "I’m nobody! Who are you?",
+    "en": "I’m nobody! Who are you?",
+    "zh": "我是无名之辈！你是谁？"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1891,
+  "year_display": {
+    "en": "first published 1891",
+    "zh": "1891 年首次出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems, Second Series (1891), edited by T. W. Higginson and Mabel Loomis Todd, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《诗集·第二辑》（1891），希金森与托德编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1891, after the author’s death in 1886; the editors died in 1911 and 1932.",
+      "zh": "1891 年首次出版，作者已于 1886 年去世；两位编者分别卒于 1911 年和 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A comic poem with a serious edge, by someone who published almost nothing in her lifetime and is now among the most read poets in English. The frog announcing its name to an admiring bog is one of the best jokes in American poetry.",
+    "zh": "一首带着严肃锋芒的谐趣诗，作者生前几乎没有发表过作品，如今却是英语里读者最多的诗人之一。那只对着一片仰慕的泥沼报自己名字的青蛙，是美国诗歌里最好的笑话之一。"
+  },
+  "pick": null,
+  "tags": [
+    "fame",
+    "humour",
+    "privacy"
+  ],
+  "excerpt": {
+    "orig": "How dreary to be somebody!\nHow public, like a frog",
+    "en": "How dreary to be somebody!\nHow public, like a frog",
+    "zh": "做个有名之辈多么无聊！\n多么招摇，像一只青蛙"
+  },
+  "plate": null
+}

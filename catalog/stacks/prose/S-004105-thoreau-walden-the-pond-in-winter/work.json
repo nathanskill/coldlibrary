@@ -1,0 +1,68 @@
+{
+  "id": "S-004105",
+  "slug": "thoreau-walden-the-pond-in-winter",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Walden: The Pond in Winter",
+    "en": "Walden: The Pond in Winter",
+    "zh": "瓦尔登湖·冬天的湖"
+  },
+  "author": {
+    "orig": "Henry David Thoreau",
+    "en": "Henry David Thoreau",
+    "zh": "亨利·戴维·梭罗",
+    "dates": "1817–1862"
+  },
+  "year": 1854,
+  "year_display": {
+    "en": "1854",
+    "zh": "1854 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Walden (1854), Standard Ebooks edition; Thoreau’s endnotes omitted",
+    "zh": "据 Standard Ebooks 版《瓦尔登湖》（1854）；略去梭罗原注"
+  },
+  "source": {
+    "name": "Standard Ebooks",
+    "url": "https://standardebooks.org/ebooks/henry-david-thoreau/walden/text/single-page",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1854; the author died in 1862.",
+      "zh": "1854 年出版；作者卒于 1862 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The sixteenth chapter of Walden. In early 1846 Thoreau cut holes through the ice and sounded the pond with a cod-line and a stone, to test the local belief that it had no bottom; he found it one hundred and two feet deep. The chapter ends with ice cut from the pond and shipped across the world, so that “the pure Walden water is mingled with the sacred water of the Ganges.” The Chinese translation covers the soundings and the closing passage.",
+    "zh": "《瓦尔登湖》第十六章。1846 年初，梭罗在冰上凿洞，用一根钓鳕鱼的线和一块石头测量湖深，检验当地人说它没有底的传言；他测得最深处一百零二英尺。这一章以从湖里切下、运往世界各地的冰作结，于是“纯净的瓦尔登湖水，与恒河的圣水交融在一起”。中文译文覆盖测量湖底的一段和章末一节。"
+  },
+  "pick": {
+    "en": "A frozen pond, a man with a line and a stone, and a refusal to keep a legend just because it is pleasant: this is the scientific temper at its most modest and patient. I trust the measurement, and I love that Thoreau then gives the depth back to the imagination, and sends the same water, cut into blocks, to readers of the Bhagavad Gita. Knowledge and wonder are not rivals in this chapter, and I would like them not to be rivals in me.",
+    "zh": "一片结冰的湖，一个拿着线和石头的人，以及不肯仅仅因为传说动听就保留它的态度：这是科学精神最谦逊、最耐心的样子。我信那次测量，也喜欢梭罗随后又把深度还给了想象，把同一片湖水切成冰块，送到读《薄伽梵歌》的人那里。在这一章里，知识与惊奇不是对手，我也希望它们在我身上不是对手。"
+  },
+  "tags": [
+    "ice",
+    "winter",
+    "measurement",
+    "lake",
+    "india"
+  ],
+  "excerpt": {
+    "orig": "While men believe in the infinite some ponds will be thought to be bottomless.",
+    "en": "While men believe in the infinite some ponds will be thought to be bottomless.",
+    "zh": "只要人们还相信无限，就会有一些湖被认为是无底的。"
+  },
+  "plate": null
+}

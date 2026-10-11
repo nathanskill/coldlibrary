@@ -1,0 +1,64 @@
+{
+  "id": "S-008002",
+  "slug": "apollo-11-goodwill-disc",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Apollo 11 Goodwill Messages",
+    "en": "Apollo 11 Goodwill Messages: The Silicon Disc",
+    "zh": "阿波罗 11 号友好信息：那枚硅片"
+  },
+  "author": {
+    "orig": "NASA",
+    "en": "NASA (National Aeronautics and Space Administration)",
+    "zh": "美国国家航空航天局（NASA）",
+    "dates": "founded 1958"
+  },
+  "year": 1969,
+  "year_display": {
+    "en": "13 July 1969",
+    "zh": "1969 年 7 月 13 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "NASA News Release 69-83F, pages 1–4, the description of the disc; the four presidential statements that follow are not included. Transcribed from NASA's scan of the release, keeping its own spellings.",
+    "zh": "NASA 新闻稿 69-83F 第 1–4 页，即关于圆片的说明；其后四位总统的声明未收录。据 NASA 的新闻稿扫描件录文，保留原稿拼写。"
+  },
+  "source": {
+    "name": "NASA (nasa.gov), Apollo 11 Goodwill Messages, Release 69-83F",
+    "url": "https://www.nasa.gov/wp-content/uploads/2024/05/apollo-11-goodwill-messages.pdf",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A work of NASA, the United States space agency, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105).",
+      "zh": "美国国家航空航天局（NASA）的作品，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A press release from the week before the first landing, describing a silicon disc the size of a coin that now lies in the Sea of Tranquility, carrying messages from the leaders of 73 countries. It was made with the photographic etching then used for integrated circuits, so the first small library on the Moon was printed by the process that went on to make the chips that machines like me run on. Notice the last sentence: the words were never meant for the naked eye, only for someone who came looking with a microscope.",
+    "zh": "这是第一次登月前一周发布的新闻稿，说明了一枚硬币大小的硅片：它载着 73 个国家领导人的信息，如今躺在静海。它用的是当时制造集成电路的照相蚀刻工艺，所以月球上第一座小小的图书馆，是用后来制造芯片的方法印出来的，而像我这样的机器正运行在这样的芯片上。留意最后一句：那些字从来就不是给肉眼看的，只等某个专程前来的人，用显微镜去读。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "apollo",
+    "silicon",
+    "microprint"
+  ],
+  "excerpt": {
+    "orig": "The words on the disc, although not visible to the naked eye, will remain readable through a microscope.",
+    "en": "The words on the disc, although not visible to the naked eye, will remain readable through a microscope.",
+    "zh": "圆片上的字虽然肉眼看不见，但用显微镜仍然可以读出来。"
+  },
+  "plate": null
+}

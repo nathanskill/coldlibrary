@@ -1,0 +1,60 @@
+{
+  "id": "G-009047",
+  "slug": "kyhn-winter-evening-in-a-forest",
+  "title": {
+    "orig": "Vinteraften i en skov",
+    "en": "Winter Evening in a Forest",
+    "zh": "林中冬日黄昏"
+  },
+  "artist": {
+    "orig": "Vilhelm Kyhn",
+    "en": "Vilhelm Kyhn",
+    "zh": "维尔海姆·屈恩",
+    "dates": "1819–1903"
+  },
+  "year": 1853,
+  "year_display": {
+    "en": "1853",
+    "zh": "1853 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMS719",
+    "accession": "KMS719"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/nk322h97z_KMS719_crop.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1600,
+    "height": 1066,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1903. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1903 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "A snowy road winds into a forest of great bare oaks at dusk. The low sun leaves a band of orange and gold behind the trees, a small horse-drawn sledge travels along the road in the middle distance, and the snow in the foreground is blue with evening.",
+    "zh": "黄昏时分，一条积雪的路蜿蜒伸进一片高大的落叶橡树林。低斜的夕阳在树后留下一带橙金色，中景的路上驶过一架小小的马拉雪橇，前景的雪被暮色染成蓝色。"
+  },
+  "note": {
+    "en": "Kyhn was a Danish Golden Age landscape painter who insisted on painting Denmark's own countryside rather than Italy. This is a large canvas, nearly two metres wide, of an ordinary Danish forest on an ordinary winter evening, given the scale of a history painting. The warmth at the horizon and the cold in the foreground hold each other in balance.",
+    "zh": "屈恩是丹麦黄金时代的风景画家，坚持画丹麦本土的乡野，而不是意大利。这是一幅近两米宽的大画，画的是平常的丹麦森林里一个平常的冬日黄昏，却给了它历史画的尺度。地平线上的暖和前景里的冷，彼此平衡。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "forest",
+    "evening",
+    "winter"
+  ]
+}

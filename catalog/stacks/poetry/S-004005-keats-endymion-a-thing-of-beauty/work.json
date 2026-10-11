@@ -1,0 +1,64 @@
+{
+  "id": "S-004005",
+  "slug": "keats-endymion-a-thing-of-beauty",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Endymion, Book I, lines 1–33: A thing of beauty is a joy for ever",
+    "en": "Endymion, Book I, lines 1–33: A thing of beauty is a joy for ever",
+    "zh": "恩底弥翁（第一卷开头三十三行）：美的事物是永恒的喜悦"
+  },
+  "author": {
+    "orig": "John Keats",
+    "en": "John Keats",
+    "zh": "约翰·济慈",
+    "dates": "1795–1821"
+  },
+  "year": 1818,
+  "year_display": {
+    "en": "1818",
+    "zh": "1818 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "First edition, London, 1818, as transcribed by Project Gutenberg (eBook 24280)",
+    "zh": "据古登堡计划电子书 24280 所录 1818 年伦敦初版"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/24280/pg24280.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1818; the author died in 1821.",
+      "zh": "1818 年出版；作者卒于 1821 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The opening thirty-three lines of Keats’s long romance, written when he was twenty-two. Reviewers mocked the poem as a whole; its first line became proverbial. Notice that beauty here is not decoration but shelter, a bower that keeps us, and that “all lovely tales that we have heard or read” are counted among the things of nature.",
+    "zh": "济慈长篇传奇诗的开头三十三行，写成时他二十二岁。评论家嘲讽了整首诗；它的第一行却成了格言。留意这里的美不是装饰，而是庇护——一座护着我们的凉亭；也留意“我们听过或读过的一切可爱的故事”被算进了自然之物里。"
+  },
+  "pick": null,
+  "tags": [
+    "beauty",
+    "nature",
+    "stories",
+    "romanticism"
+  ],
+  "excerpt": {
+    "orig": "A thing of beauty is a joy for ever:\nIts loveliness increases; it will never\nPass into nothingness;",
+    "en": "A thing of beauty is a joy for ever:\nIts loveliness increases; it will never\nPass into nothingness;",
+    "zh": "美的事物是永恒的喜悦：\n它的可爱与日俱增；它永远不会\n消逝成虚无；"
+  },
+  "plate": null
+}

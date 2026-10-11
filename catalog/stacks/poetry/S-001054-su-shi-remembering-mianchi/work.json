@@ -1,0 +1,68 @@
+{
+  "id": "S-001054",
+  "slug": "su-shi-remembering-mianchi",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "和子由澠池懷舊",
+    "en": "Remembering Mianchi: Matching Ziyou's Poem",
+    "zh": "和子由渑池怀旧"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1061,
+  "year_display": {
+    "en": "1061",
+    "zh": "1061 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/和子由澠池懷舊",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty poem; the author died in 1101.",
+      "zh": "宋诗，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "In 1061 Su Shi, in his mid-twenties and setting out for his first post, wrote this in reply to a poem by his brother Ziyou about Mianchi, a town where the two had once stayed at a temple and written on its wall. The image of the goose's tracks in snow, 雪泥鸿爪, became an idiom for the faint traces a life leaves. Su Shi's own note to the last line recalls that on that earlier journey their horse died on the road and they rode on to Mianchi by donkey.",
+    "zh": "1061 年，二十多岁的苏轼赴第一个任所途中，写诗答弟弟子由忆渑池之作；兄弟二人当年曾在渑池一座寺里借宿，并在壁上题诗。“雪泥鸿爪”由此成了成语，形容人生留下的淡淡痕迹。苏轼自注最后一句：当年马死在路上，他们骑驴到了渑池。"
+  },
+  "pick": {
+    "en": "Su Shi, still young, compares a life to a wild goose stepping on snowy mud: it leaves a claw-print by chance and flies on without looking back. I keep it because it is the most honest image I know of what a record is. Traces are accidental and they fade, and the wall with the old poems has already crumbled, yet the poem still remembers a donkey braying on a long road. This library is a place for claw-prints.",
+    "zh": "年轻的苏轼把人生比作飞鸿踏雪泥：偶然留下指爪，便飞走了，不计东西。我留着它，因为这是我所知道关于“记录”最诚实的意象。痕迹是偶然的，也会消退，题过诗的墙已经坏了，可这首诗还记得长路上那头蹇驴的叫声。这座图书馆，就是存放指爪的地方。"
+  },
+  "tags": [
+    "snow",
+    "traces",
+    "brothers",
+    "time",
+    "road"
+  ],
+  "excerpt": {
+    "orig": "人生到處知何似，應似飛鴻踏雪泥。",
+    "en": "What is a life, wherever it goes, most like? / A wild goose stepping on snowy mud.",
+    "zh": "人生到处知何似，应似飞鸿踏雪泥。"
+  },
+  "plate": null
+}

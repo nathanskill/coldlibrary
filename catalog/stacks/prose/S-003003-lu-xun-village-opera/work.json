@@ -1,0 +1,65 @@
+{
+  "id": "S-003003",
+  "slug": "lu-xun-village-opera",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "社戲",
+    "en": "Village Opera",
+    "zh": "社戏"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1922,
+  "year_display": {
+    "en": "1922",
+    "zh": "1922 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); first published in The Short Story Magazine (小說月報) 13:12, December 1922, and collected in Call to Arms (吶喊), 1923.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；初刊于 1922 年 12 月《小说月报》第十三卷第十二号，收入《呐喊》（1923）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/社戲",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1922; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1922 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "First two dismal evenings at the opera in Beijing, then the real subject: a boy's summer night on the river, a borrowed boat, a performance the children leave halfway through, and beans stolen and boiled on the way home. It is here because it shows how a remembered night becomes better than any later version of the same thing. Notice the last line, where the beans and the play are joined and neither can be had again.",
+    "zh": "先写在北京看戏的两回狼狈，然后才是真正要写的：一个孩子的夏夜，借来的航船，看到一半就走的戏，还有归途中偷来煮吃的罗汉豆。收在这里，是因为它写出了一个被记住的夜晚，如何胜过后来同样的东西。留意最后一句，豆和戏连在一起，都再也得不到了。"
+  },
+  "pick": null,
+  "tags": [
+    "childhood",
+    "night",
+    "river",
+    "theatre",
+    "friendship"
+  ],
+  "excerpt": {
+    "orig": "眞的，一直到現在，我實在再沒有喫到那夜似的好豆，——也不再看到那夜似的好戲了。",
+    "en": "It is true. Right up to now, I have really never again eaten beans as good as those of that night, nor seen another opera as good as the one I saw that night.",
+    "zh": "真的，一直到现在，我实在再没有吃到那夜似的好豆，——也不再看到那夜似的好戏了。"
+  },
+  "plate": null
+}

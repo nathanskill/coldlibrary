@@ -1,0 +1,56 @@
+{
+  "id": "G-008005",
+  "slug": "apollo-11-plaque-on-the-moon",
+  "title": {
+    "orig": "View of plaque Apollo 11 astronauts left on moon (AS11-40-5899)",
+    "en": "The Apollo 11 Plaque on the Moon",
+    "zh": "月面上的阿波罗 11 号铭牌"
+  },
+  "artist": {
+    "orig": "Apollo 11 crew",
+    "en": "Apollo 11 crew (NASA)",
+    "zh": "阿波罗 11 号乘组（NASA）",
+    "dates": "1969"
+  },
+  "year": 1969,
+  "year_display": {
+    "en": "20 July 1969",
+    "zh": "1969 年 7 月 20 日"
+  },
+  "medium": {
+    "en": "Photograph taken on the lunar surface (NASA AS11-40-5899)",
+    "zh": "摄于月球表面的照片（NASA 编号 AS11-40-5899）"
+  },
+  "institution": {
+    "name": "NASA Image and Video Library",
+    "object_url": "https://images.nasa.gov/details/as11-40-5899"
+  },
+  "image": {
+    "source_url": "https://images-assets.nasa.gov/image/as11-40-5899/as11-40-5899~orig.jpg",
+    "width": 1600,
+    "height": 1558
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A NASA photograph, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105).",
+      "zh": "NASA 拍摄的照片，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。"
+    },
+    "license": null,
+    "license_url": null
+  },
+  "alt": {
+    "en": "Close view of a ladder on the lunar module, its strut wrapped in gold and silver foil; a metal plaque with two globes and lines of text is fixed between the rungs, with pale grey lunar ground behind.",
+    "zh": "登月舱梯子的近景，支柱包着金色和银色的箔；梯级之间固定着一块金属铭牌，上面有两个地球半球和几行字，背后是浅灰色的月面。"
+  },
+  "note": {
+    "en": "Photographed on the surface of the Moon on 20 July 1969, after the thin steel sheet that covered the plaque in flight had been removed. The plaque is still there, on the descent stage of Eagle at Tranquility Base; no one has stood beside it since.",
+    "zh": "1969 年 7 月 20 日摄于月面，此时飞行途中覆盖铭牌的薄钢片已被取下。铭牌至今仍在原处，在静海基地“鹰”号的下降级上；此后再没有人站到它身旁。"
+  },
+  "tags": [
+    "moon",
+    "apollo",
+    "plaque",
+    "photograph"
+  ]
+}

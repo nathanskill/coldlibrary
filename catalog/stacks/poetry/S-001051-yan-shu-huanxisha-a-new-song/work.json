@@ -1,0 +1,64 @@
+{
+  "id": "S-001051",
+  "slug": "yan-shu-huanxisha-a-new-song",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "浣溪沙（一曲新詞酒一杯）",
+    "en": "To the Tune Huanxisha: A New Song, a Cup of Wine",
+    "zh": "浣溪沙（一曲新词酒一杯）"
+  },
+  "author": {
+    "orig": "晏殊",
+    "en": "Yan Shu",
+    "zh": "晏殊",
+    "dates": "991–1055"
+  },
+  "year": 1040,
+  "year_display": {
+    "en": "first half of the 11th century",
+    "zh": "约 11 世纪前期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/浣溪沙_(晏殊)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1055.",
+      "zh": "宋词，作者卒于 1055 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Yan Shu was a chief minister of the Northern Song, and his lyrics are quiet, polished and full of leisure. Huanxisha, 'washing silk in the stream', is the name of the tune, not the subject; Song lyrics were written to existing melodies. This one turns on a famous couplet, flowers falling and swallows returning, loss and return in the same breath, which is how the seasons actually work.",
+    "zh": "晏殊是北宋宰相，他的词安静、精致，带着闲适。“浣溪沙”是词牌，不是题目；宋词是按现成的曲调填写的。这首词的关键是那一联名句：花落去，燕归来，失去与归来同在一口气里，四季本来就是这样运行的。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "spring",
+    "swallows",
+    "evening"
+  ],
+  "excerpt": {
+    "orig": "無可奈何花落去，似曾相識燕歸來。",
+    "en": "Nothing to be done: the flowers fall. / As if I knew them, the swallows come back.",
+    "zh": "无可奈何花落去，似曾相识燕归来。"
+  },
+  "plate": null
+}

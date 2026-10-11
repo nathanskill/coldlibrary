@@ -1,0 +1,64 @@
+{
+  "id": "S-001070",
+  "slug": "xin-qiji-written-on-a-wall-at-boshan",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "醜奴兒·書博山道中壁",
+    "en": "To the Tune Chounu'er: Written on a Wall on the Road to Boshan",
+    "zh": "丑奴儿·书博山道中壁"
+  },
+  "author": {
+    "orig": "辛棄疾",
+    "en": "Xin Qiji",
+    "zh": "辛弃疾",
+    "dates": "1140–1207"
+  },
+  "year": 1185,
+  "year_display": {
+    "en": "1180s",
+    "zh": "12 世纪 80 年代"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/醜奴兒·書博山道中壁",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1207.",
+      "zh": "宋词，作者卒于 1207 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Another lyric from Xin Qiji's years of retirement, written on a wall along the road to Boshan. The two halves are mirror images, youth and age, and the repeated phrases do the work: the young man repeats 'climb the tower' with enthusiasm, the older man repeats 'want to speak, and stop'. What he finally says is about the weather, and the reader understands everything.",
+    "zh": "同样作于辛弃疾闲居期间，题写在博山道中的墙壁上。上下两阕互为镜像，一个少年，一个中年，叠句承担了全部的分量：少年兴致勃勃地重复“爱上层楼”，中年人重复的是“欲说还休”。他最后说出口的只是天气，读者却什么都明白了。"
+  },
+  "pick": null,
+  "tags": [
+    "youth",
+    "age",
+    "autumn",
+    "restraint"
+  ],
+  "excerpt": {
+    "orig": "而今識盡愁滋味，欲說還休，欲說還休，卻道天涼好個秋！",
+    "en": "Now that I know the whole taste of sorrow, / I want to speak, and stop, / I want to speak, and stop, / and say instead: what a fine cool autumn.",
+    "zh": "而今识尽愁滋味，欲说还休，欲说还休，却道天凉好个秋！"
+  },
+  "plate": null
+}

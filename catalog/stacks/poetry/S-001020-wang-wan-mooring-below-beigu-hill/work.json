@@ -1,0 +1,65 @@
+{
+  "id": "S-001020",
+  "slug": "wang-wan-mooring-below-beigu-hill",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "次北固山下",
+    "en": "Mooring Below Beigu Hill",
+    "zh": "次北固山下"
+  },
+  "author": {
+    "orig": "王灣",
+    "en": "Wang Wan",
+    "zh": "王湾",
+    "dates": "c. 693–c. 751"
+  },
+  "year": 712,
+  "year_display": {
+    "en": "c. 712",
+    "zh": "约 712 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/次北固山下",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died around 751.",
+      "zh": "唐诗，作者约卒于 751 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The third couplet was so admired that the chief minister Zhang Yue wrote it out with his own hand and hung it in the hall of government as a model of poetry. It shows the sun rising out of the sea while night is not yet over, and spring arriving on the river before the old year has ended. It is a poem about new things beginning inside old ones, which is a fair description of a library.",
+    "zh": "第三联极受推崇，宰相张说曾亲笔把它题在政事堂上，作为诗的范本。它写夜还未尽，海上的太阳已经升起；旧年还没过完，江上的春天已经到来。这是一首写新事物在旧事物之中开始的诗，用来形容一座图书馆也很贴切。"
+  },
+  "pick": null,
+  "tags": [
+    "river",
+    "dawn",
+    "spring",
+    "letters",
+    "new-year"
+  ],
+  "excerpt": {
+    "orig": "海日生殘夜，江春入舊年。",
+    "en": "The sea sun is born from the last of the night; / the river spring comes into the old year.",
+    "zh": "海日生残夜，江春入旧年。"
+  },
+  "plate": null
+}

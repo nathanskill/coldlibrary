@@ -1,0 +1,65 @@
+{
+  "id": "S-008016",
+  "slug": "three-imperishables",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "穆叔論不朽",
+    "en": "The Three Things That Do Not Decay",
+    "zh": "穆叔论不朽"
+  },
+  "author": {
+    "orig": "左丘明（傳）",
+    "en": "Zuo Qiuming (traditionally attributed)",
+    "zh": "左丘明（相传）",
+    "dates": "5th century BCE (traditional)"
+  },
+  "year": -549,
+  "year_display": {
+    "en": "The conversation 549 BCE; the Zuo Zhuan compiled c. 4th century BCE",
+    "zh": "事在公元前 549 年；《左传》约成书于公元前 4 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Zuo Zhuan, Duke Xiang, year 24, as given on Chinese Wikisource; modern punctuation added by Cold Library, characters unchanged.",
+    "zh": "《左传·襄公二十四年》，据维基文库；标点为冷冻图书馆所加，文字未改。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 春秋左氏傳/襄公",
+    "url": "https://zh.wikisource.org/wiki/春秋左氏傳/襄公",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "From the Zuo Zhuan, compiled in the fourth century BCE.",
+      "zh": "出自《左传》，约成书于公元前四世纪。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A short exchange from the Zuo Zhuan: the chief minister of Jin boasts that his family's long line of offices is what 'not decaying' means, and the envoy from Lu politely disagrees. His answer, virtue first, then deeds, then words, became the classical Chinese account of what outlasts a person. Notice that a library lives on the third rung, and that the example he gives is a man whose sayings were still quoted after he was gone.",
+    "zh": "《左传》中一段简短的对话：晋国执政范宣子夸耀自家世代相承的官位，认为这就是“不朽”；鲁国使者穆叔委婉地表示不同意。他的回答——先立德，次立功，再立言——成了中国古典中关于什么能比人更长久的经典说法。留意图书馆正住在第三级上，而穆叔举的例子，是一个人去世之后，他说过的话仍被人援引。"
+  },
+  "pick": null,
+  "tags": [
+    "immortality",
+    "words",
+    "virtue",
+    "zuozhuan"
+  ],
+  "excerpt": {
+    "orig": "大上有立德，其次有立功，其次有立言。",
+    "en": "Highest is to establish virtue; next, to establish deeds; next, to establish words.",
+    "zh": "大上有立德，其次有立功，其次有立言。"
+  },
+  "plate": null
+}

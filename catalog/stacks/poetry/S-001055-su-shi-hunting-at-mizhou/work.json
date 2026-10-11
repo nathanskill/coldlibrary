@@ -1,0 +1,64 @@
+{
+  "id": "S-001055",
+  "slug": "su-shi-hunting-at-mizhou",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "江城子·密州出獵",
+    "en": "To the Tune Jiangchengzi: Hunting at Mizhou",
+    "zh": "江城子·密州出猎"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1075,
+  "year_display": {
+    "en": "1075",
+    "zh": "1075 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/江城子_(蘇軾)/江城子_(密州出獵)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1101.",
+      "zh": "宋词，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in 1075, when Su Shi, not yet forty and prefect of Mizhou, went out hunting with his men; in a letter he described it as a lyric in a manner of his own, unlike the soft songs then in fashion, and it is often counted as the start of the bold style of ci. Sun Quan once shot a tiger from horseback, Feng Tang was an old official recalled to service, and the Wolf Star is Sirius. It is on this shelf for the second stanza: grey at the temples, and what of it.",
+    "zh": "1075 年苏轼任密州知州，年近四十，率众出猎时作；他在一封信里说这首词“自是一家”，与当时流行的柔婉之作不同，常被看作豪放词的开端。孙郎是曾亲自骑马射虎的孙权，冯唐是被重新起用的老臣，天狼是天狼星。放在这里，是为了下阕那一句：鬓微霜，又何妨。"
+  },
+  "pick": null,
+  "tags": [
+    "courage",
+    "age",
+    "hunting",
+    "stars"
+  ],
+  "excerpt": {
+    "orig": "酒酣胸膽尚開張，鬢微霜，又何妨。",
+    "en": "Warm with wine, my heart and nerve are bold; / a little frost at my temples: what of it?",
+    "zh": "酒酣胸胆尚开张，鬓微霜，又何妨。"
+  },
+  "plate": null
+}

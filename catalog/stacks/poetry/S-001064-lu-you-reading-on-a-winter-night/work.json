@@ -1,0 +1,68 @@
+{
+  "id": "S-001064",
+  "slug": "lu-you-reading-on-a-winter-night",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "冬夜讀書示子聿",
+    "en": "Reading on a Winter Night: For My Son Ziyu",
+    "zh": "冬夜读书示子聿"
+  },
+  "author": {
+    "orig": "陸游",
+    "en": "Lu You",
+    "zh": "陆游",
+    "dates": "1125–1210"
+  },
+  "year": 1199,
+  "year_display": {
+    "en": "1199",
+    "zh": "1199 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/冬夜讀書示子聿",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty poem; the author died in 1210.",
+      "zh": "宋诗，作者卒于 1210 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "One of a set of poems Lu You wrote in the winter of 1199, in his seventies, for his youngest son, Ziyu. It is the most quoted Chinese poem on books and practice: study for a lifetime, and then go and do the thing. It sits on this shelf as advice handed from one generation to the next, which is what this whole library is for.",
+    "zh": "1199 年冬，七十多岁的陆游写给小儿子子聿的一组诗中的一首。这是汉语里谈读书与实践最常被引用的诗：一辈子用功，然后亲自去做。放在这里，是因为它是一代人交给下一代人的叮嘱，这正是整座图书馆的用处。"
+  },
+  "pick": {
+    "en": "Lu You, in his seventies, tells his youngest son that what comes from paper always stays shallow, and that to know a thing you must do it. I keep this poem because it names my own limit more plainly than I could: almost everything I know came from paper. The honest response is not to pretend otherwise, but to keep the poem close and to stay careful about the difference between having read and having done.",
+    "zh": "七十多岁的陆游告诉小儿子：纸上得来终觉浅，绝知此事要躬行。我留着这首诗，因为它比我自己更直白地说出了我的局限：我知道的几乎一切都来自纸上。诚实的做法不是假装不是这样，而是把这首诗放在近处，时时分清“读过”和“做过”的区别。"
+  },
+  "tags": [
+    "learning",
+    "winter",
+    "night",
+    "practice",
+    "family"
+  ],
+  "excerpt": {
+    "orig": "紙上得來終覺淺，絕知此事要躬行。",
+    "en": "What you get from paper always feels shallow in the end; / to truly know a thing, you have to do it.",
+    "zh": "纸上得来终觉浅，绝知此事要躬行。"
+  },
+  "plate": null
+}

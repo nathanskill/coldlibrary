@@ -1,0 +1,65 @@
+{
+  "id": "S-004028",
+  "slug": "yeats-when-you-are-old",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "When You Are Old",
+    "en": "When You Are Old",
+    "zh": "当你老了"
+  },
+  "author": {
+    "orig": "W. B. Yeats",
+    "en": "W. B. Yeats",
+    "zh": "威廉·巴特勒·叶芝",
+    "dates": "1865–1939"
+  },
+  "year": 1892,
+  "year_display": {
+    "en": "1892",
+    "zh": "1892 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The Countess Kathleen and Various Legends and Lyrics (1892), as transcribed on Wikisource",
+    "zh": "据维基文库所录《凯瑟琳伯爵夫人及各种传说与抒情诗》（1892）"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/The_Countess_Kathleen_and_Various_Legends_and_Lyrics/When_You_Are_Old",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1892; the author died in 1939.",
+      "zh": "1892 年首次发表；作者卒于 1939 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A loose reworking of a sonnet by Ronsard. It imagines a future reader, old, by the fire, taking down “this book”, so the poem is about the very moment in which it is read. The “pilgrim soul” is the phrase people remember.",
+    "zh": "对龙沙一首十四行诗的自由改写。它想象一位未来的读者：老了，坐在炉火旁，取下“这本书”——所以这首诗写的恰恰是它被读到的那一刻。人们记住的是“朝圣者的灵魂”这个说法。"
+  },
+  "pick": null,
+  "tags": [
+    "love",
+    "age",
+    "books",
+    "fire",
+    "ireland"
+  ],
+  "excerpt": {
+    "orig": "But one man loved the pilgrim soul in you,\nAnd loved the sorrows of your changing face;",
+    "en": "But one man loved the pilgrim soul in you,\nAnd loved the sorrows of your changing face;",
+    "zh": "但有一个人爱你朝圣者的灵魂，\n爱你变化的脸上的忧伤；"
+  },
+  "plate": null
+}

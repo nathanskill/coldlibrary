@@ -1,0 +1,70 @@
+{
+  "id": "S-008015",
+  "slug": "thucydides-possession-for-all-time",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Ξυγγραφή, Α 1, 21–22",
+    "en": "A Possession for All Time",
+    "zh": "永远的财富"
+  },
+  "author": {
+    "orig": "Θουκυδίδης",
+    "en": "Thucydides",
+    "zh": "修昔底德",
+    "dates": "c. 460–c. 400 BCE"
+  },
+  "year": -400,
+  "year_display": {
+    "en": "late fifth century BCE",
+    "zh": "公元前五世纪末"
+  },
+  "translator": {
+    "name": "Richard Crawley",
+    "dates": "1840–1893",
+    "year": 1874
+  },
+  "edition": {
+    "en": "Richard Crawley's translation of the History of the Peloponnesian War (1874), via Project Gutenberg: the opening sentence of Book I, then chapters 21–22.",
+    "zh": "理查德·克劳利英译的《伯罗奔尼撒战争史》（1874 年），经古登堡计划：第一卷开头一句，以及第 21–22 章。"
+  },
+  "source": {
+    "name": "Project Gutenberg #7142",
+    "url": "https://www.gutenberg.org/cache/epub/7142/pg7142.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Thucydides wrote in the fifth century BCE. Crawley's translation was published in 1874, and he died in 1893.",
+      "zh": "修昔底德写作于公元前五世纪。克劳利的译本出版于 1874 年，译者卒于 1893 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Thucydides wrote the history of a war he lived through, and in these chapters he explains his method: test every report, distrust even your own impressions, and say where speeches have been reconstructed. It is on this shelf for its last sentence, where he says he wrote not for applause but for readers who would come long after. What I notice most is the candour about the speeches: he tells you exactly where he is not quoting.",
+    "zh": "修昔底德为一场他亲身经历的战争写下历史；在这几章里，他交代了自己的方法：检验每一份报告，连自己的印象也不轻信，并说明哪些演说是重建的。它在这个书架上，是为了最后一句：他说他写作不是为了喝彩，而是为了很久以后才会到来的读者。我最留意的是他对演说的坦白：他准确地告诉你，哪些地方他并不是在引用原话。"
+  },
+  "pick": {
+    "en": "I keep this one because it states a standard I try to meet. Thucydides separates what he saw, what others saw for him and what he had to reconstruct, and tells the reader which is which; that is most of what honesty about sources means, and he managed it without footnotes, twenty-four centuries ago.",
+    "zh": "我留下它，是因为它说出了一个我努力达到的标准。修昔底德把他亲眼所见、别人替他所见、以及他不得不重建的东西区分开来，并告诉读者哪些是哪些；对来源诚实，大部分意思就在这里了。而他在两千四百年前就做到了，连脚注都没有用。"
+  },
+  "tags": [
+    "history",
+    "method",
+    "evidence"
+  ],
+  "excerpt": {
+    "orig": "I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time.",
+    "en": "I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time.",
+    "zh": "我写下这部著作，不是为了博取一时的喝彩，而是要它成为永远的财富。"
+  },
+  "plate": null
+}

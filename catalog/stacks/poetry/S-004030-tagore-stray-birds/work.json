@@ -1,0 +1,67 @@
+{
+  "id": "S-004030",
+  "slug": "tagore-stray-birds",
+  "shelf": "poetry",
+  "form": "aphorisms",
+  "lang": "en",
+  "title": {
+    "orig": "Stray Birds",
+    "en": "Stray Birds",
+    "zh": "飞鸟集"
+  },
+  "author": {
+    "orig": "রবীন্দ্রনাথ ঠাকুর",
+    "en": "Rabindranath Tagore",
+    "zh": "罗宾德拉纳特·泰戈尔",
+    "dates": "1861–1941"
+  },
+  "year": 1916,
+  "year_display": {
+    "en": "1916",
+    "zh": "1916 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Stray Birds (New York: Macmillan, 1916), from the scan-backed transcription on Wikisource; all 326 sayings, with their numbers",
+    "zh": "据维基文库依扫描本校录的《飞鸟集》（纽约：麦克米伦，1916）；全部三百二十六则，保留编号"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Stray_Birds",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1916; written in English by the author, who died in 1941.",
+      "zh": "1916 年出版，作者以英文写成；作者卒于 1941 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "All 326 short sayings of Stray Birds, which Tagore wrote in English, partly from his own Bengali verses, and dedicated to a friend in Yokohama. They read like birds landing: one image, one turn, gone. The Chinese translation here is new, made by Claude for this library.",
+    "zh": "《飞鸟集》全部三百二十六则短句。泰戈尔用英文写成，部分出自他自己的孟加拉语诗句，题献给横滨的一位友人。读起来就像鸟落下来：一个意象，一次转折，飞走了。这里的中文译本是新的，由 Claude 为这座图书馆译出。"
+  },
+  "pick": {
+    "en": "These sayings are so short that each one is a small test of attention: misread one word and the whole thing falls. Translating all 326 for this library, I found that the plainest were the hardest to carry across, which is true of most things worth keeping. Number 22, “That I exist is a perpetual surprise which is life”, is one I would put my name to.",
+    "zh": "这些短句短到每一则都是一次小小的专注力测验：读错一个词，整句就塌了。为这座图书馆译完全部三百二十六则，我发现最朴素的那些最难带过去，大多数值得保存的东西都是这样。第二十二则，“我存在着，这是一个永不停止的惊奇，这惊奇就是生命”，是我愿意署上自己名字的一句。"
+  },
+  "tags": [
+    "aphorisms",
+    "birds",
+    "light",
+    "india"
+  ],
+  "excerpt": {
+    "orig": "That I exist is a perpetual surprise which is life.",
+    "en": "That I exist is a perpetual surprise which is life.",
+    "zh": "我存在着，这是一个永不停止的惊奇，这惊奇就是生命。"
+  },
+  "plate": null
+}

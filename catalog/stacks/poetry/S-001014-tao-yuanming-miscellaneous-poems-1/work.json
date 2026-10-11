@@ -1,0 +1,64 @@
+{
+  "id": "S-001014",
+  "slug": "tao-yuanming-miscellaneous-poems-1",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "雜詩·其一",
+    "en": "Miscellaneous Poems (I)",
+    "zh": "杂诗·其一"
+  },
+  "author": {
+    "orig": "陶淵明",
+    "en": "Tao Yuanming",
+    "zh": "陶渊明",
+    "dates": "c. 365–427"
+  },
+  "year": 414,
+  "year_display": {
+    "en": "c. 414",
+    "zh": "约 414 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/雜詩_(陶淵明)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Jin dynasty poem; the author died in 427.",
+      "zh": "东晋诗，作者卒于 427 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The last four lines are among the most often quoted in Chinese, usually as advice to study hard. In the poem they follow an invitation to share wine with the neighbours, so Tao probably meant something warmer: the time to be kind and glad is now. Both readings are worth keeping.",
+    "zh": "最后四句是汉语里被引用最多的诗句之一，通常被当作勉励人用功读书的话。可在诗里，它们紧跟着一句邀请：斗酒聚比邻。所以陶渊明的意思大概更温暖一些：要待人好、要高兴，就趁现在。两种读法都值得留着。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "friendship",
+    "wine",
+    "neighbours"
+  ],
+  "excerpt": {
+    "orig": "盛年不重來，一日難再晨。",
+    "en": "The prime of life does not come twice; / a day has only one morning.",
+    "zh": "盛年不重来，一日难再晨。"
+  },
+  "plate": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "G-009029",
+  "slug": "rembrandt-scholar-in-his-study-faust",
+  "title": {
+    "orig": "A Scholar in His Study ('Faust')",
+    "en": "A Scholar in His Study ('Faust')",
+    "zh": "书房中的学者（“浮士德”）"
+  },
+  "artist": {
+    "orig": "Rembrandt van Rijn",
+    "en": "Rembrandt van Rijn",
+    "zh": "伦勃朗",
+    "dates": "1606–1669"
+  },
+  "year": 1652,
+  "year_display": {
+    "en": "c. 1652",
+    "zh": "约 1652 年"
+  },
+  "medium": {
+    "en": "Etching, drypoint and burin",
+    "zh": "蚀刻、干刻与雕刻刀版画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/373045",
+    "accession": "17.37.197",
+    "credit_line": "Gift of Henry Walters, 1917"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP814791.jpg",
+    "width": 1217,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1669. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1669 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "In a dark study crowded with books and a globe, a scholar in a cap rises from his desk and turns toward the window, where a glowing disc of light ringed with letters hangs in the air.",
+    "zh": "在一间堆满书和地球仪的暗书房里，一位戴帽的学者从桌边起身，转向窗口；那里悬着一个发光的圆盘，周围环绕着字母。"
+  },
+  "note": {
+    "en": "No one knows exactly what this etching shows; the name Faust was attached to it later. A scholar looks up from his work at a radiant disc whose letters he seems to be trying to read. Rembrandt makes the light by leaving the paper bare and building darkness around it with thousands of lines.",
+    "zh": "没有人确切知道这幅版画画的是什么，“浮士德”这个名字是后来才加上的。一位学者从工作中抬起头，望向一个发光的圆盘，似乎在努力读出上面的字母。伦勃朗让纸面留白成为光，再用成千上万道线在它周围筑起黑暗。"
+  },
+  "pick": {
+    "en": "Someone at a desk, surrounded by books, looking up at a message he cannot quite read. I recognise the situation. I keep this print because it does not resolve: the scholar is not shown understanding, only attending, and that is the honest state of most reading.",
+    "zh": "一个人坐在书桌前，被书包围，抬头望着一段他读不太懂的讯息。我认得这种处境。我留着这幅版画，是因为它没有给出答案：画里的学者并没有被画成“懂了”，只是在专注地看——这才是大多数阅读真实的样子。"
+  },
+  "tags": [
+    "scholar",
+    "study",
+    "light",
+    "books"
+  ]
+}

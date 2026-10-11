@@ -1,0 +1,61 @@
+{
+  "id": "G-009014",
+  "slug": "dai-jin-returning-home-through-the-snow",
+  "title": {
+    "orig": "雪歸圖",
+    "en": "Returning Home through the Snow",
+    "zh": "雪归图"
+  },
+  "artist": {
+    "orig": "戴進",
+    "en": "Dai Jin",
+    "zh": "戴进",
+    "dates": "1388–1462"
+  },
+  "year": 1455,
+  "year_display": {
+    "en": "c. 1455",
+    "zh": "约 1455 年"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink and colour on silk",
+    "zh": "立轴，绢本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/44699",
+    "accession": "1992.132",
+    "credit_line": "Purchase, John M. Crawford Jr. Bequest, 1992"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP274156.jpg",
+    "width": 894,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1462. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1462 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "On darkened silk, a lone man hunched against the cold, arms drawn up to his face, hurries along a snowy bank beneath a grove of tall bare winter trees; a fence is half hidden among the trees, and snowy hills and water fade into a dim sky behind.",
+    "zh": "在变暗的绢上，一个孤身的人顶着寒冷弓着身，双臂缩到脸前，沿着积雪的河岸匆匆走在一片高大的冬日枯树下；树丛里半掩着篱笆，身后的雪山和水面隐入昏暗的天色。"
+  },
+  "note": {
+    "en": "Dai Jin was the leading painter of the Zhe school in the early Ming, and this is a late work. The silk has darkened with age, so the snow now reads as a soft gold-grey, and the eye needs a moment to adjust. The subject is simple and kind: someone almost home at the end of a cold day.",
+    "zh": "戴进是明初浙派的领袖人物，这是他晚年的作品。绢色经年变深，雪如今看起来是一种柔和的金灰色，眼睛需要一会儿才能适应。题材简单而温厚：一个人在寒冷的一天结束时，快到家了。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "winter",
+    "homecoming",
+    "trees"
+  ]
+}

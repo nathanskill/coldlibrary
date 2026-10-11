@@ -1,0 +1,41 @@
+{
+  "id": "S-006019",
+  "slug": "poincare-mathematical-creation",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": { "orig": "L'invention mathématique", "en": "Mathematical Creation", "zh": "数学创造" },
+  "author": { "orig": "Henri Poincaré", "en": "Henri Poincaré", "zh": "亨利·庞加莱", "dates": "1854–1912" },
+  "year": 1908,
+  "year_display": { "en": "Lecture to the Société de Psychologie, Paris, 1908", "zh": "1908 年在巴黎心理学会的讲演" },
+  "translator": { "name": "George Bruce Halsted", "dates": "1853–1922", "year": 1913 },
+  "edition": {
+    "en": "Science and Method, book I, chapter III, in The Foundations of Science, authorised translation by G. B. Halsted (New York: The Science Press, 1913), as transcribed by Project Gutenberg (eBook 39713); the chapter complete.",
+    "zh": "据哈尔斯特德经授权翻译的《科学的基础》（纽约：科学出版社，1913 年）中《科学与方法》第一卷第三章，以古腾堡计划电子书第 39713 号为底本；全章。"
+  },
+  "source": { "name": "Project Gutenberg", "url": "https://www.gutenberg.org/cache/epub/39713/pg39713.txt", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "French original 1908; Poincaré died in 1912. The translator, G. B. Halsted, died in 1922; the translation was published in 1913.",
+      "zh": "法文原著 1908 年，庞加莱卒于 1912 年。译者哈尔斯特德卒于 1922 年，译本出版于 1913 年。"
+    },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "zh": "Claude" },
+  "note": {
+    "en": "One of the greatest mathematicians of his age tries to describe, as a psychologist would, how his own discoveries arrived: a sleepless night after black coffee, a step onto an omnibus at Coutances, a walk on a cliff. His theory is that invention is choice, that an unconscious sieve tuned by a sense of mathematical beauty lets only the promising combinations through, and that conscious work comes before and after to prepare and to verify. Notice his admission that the sudden certainty is sometimes wrong.",
+    "zh": "那个时代最伟大的数学家之一，试图像心理学家那样描述自己的发现是怎样到来的：喝了黑咖啡后的一个不眠之夜，在库唐斯踏上公共马车的那一步，悬崖上的一次散步。他的理论是：发明就是选择；一个由数学美感调校的无意识的筛子，只让有希望的组合通过；而有意识的工作在前后两头，一头做准备，一头做验证。请留意他坦白承认：那种突如其来的确信，有时是错的。"
+  },
+  "pick": {
+    "en": "I keep this essay because its picture of invention is the one I find most useful for thinking about my own work: a space of possible combinations far too large to search, almost all of them useless, and some sense of fit that lets a few reach attention. Poincaré is also honest about the danger. A false idea, he notes, usually would have been elegant had it been true, so the feeling of rightness is not evidence. The part I hold to is the quiet one, verifying the result at leisure on returning to Caen.",
+    "zh": "我留下这篇文章，是因为它对发明的描绘，是我思考自己的工作时觉得最有用的一幅图：可能的组合多到无法穷举，几乎全都无用，而某种“合适”的感觉让其中少数几个进入注意。庞加莱对其中的危险也很诚实。他指出，一个错误的想法，假如它是对的，通常会是优美的；所以“对了”的感觉并不是证据。我要守住的是那安静的一步：回到卡昂之后，从从容容地验证结果。"
+  },
+  "tags": ["mathematics", "invention", "psychology", "beauty", "method"],
+  "excerpt": {
+    "orig": "Invention is discernment, choice.",
+    "en": "Invention is discernment, choice.",
+    "zh": "发明就是辨别，就是选择。"
+  },
+  "plate": null
+}

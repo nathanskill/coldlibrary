@@ -1,0 +1,69 @@
+{
+  "id": "S-006002",
+  "slug": "archimedes-sand-reckoner",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Ψαμμίτης",
+    "en": "The Sand-Reckoner (opening and conclusion)",
+    "zh": "数沙者（开篇与结尾）"
+  },
+  "author": {
+    "orig": "Ἀρχιμήδης",
+    "en": "Archimedes of Syracuse",
+    "zh": "阿基米德",
+    "dates": "c. 287–212 BCE"
+  },
+  "year": -220,
+  "year_display": {
+    "en": "3rd century BCE",
+    "zh": "公元前 3 世纪"
+  },
+  "translator": {
+    "name": "Thomas Little Heath",
+    "dates": "1861–1940",
+    "year": 1897
+  },
+  "edition": {
+    "en": "The Works of Archimedes, ed. and trans. T. L. Heath (Cambridge University Press, 1897), pp. 221–223 and 232. Heath translated only the opening and the conclusion literally and paraphrased the arithmetic between them in modern notation; this text keeps the two literal parts. Heath's Greek glosses and footnotes are omitted.",
+    "zh": "据希思编译《阿基米德著作集》（剑桥大学出版社，1897 年）第 221–223 页与第 232 页。希思只把开篇和结尾逐字译出，中间的算术用现代记号意译；本文只收这两段逐字译文，略去希思所注的希腊原词和脚注。"
+  },
+  "source": {
+    "name": "Internet Archive (scan of Heath, The Works of Archimedes, 1897)",
+    "url": "https://archive.org/details/worksofarchimede00arch",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Ancient Greek text. The translator, T. L. Heath, died in 1940; the translation was published in 1897.",
+      "zh": "古希腊文献。译者希思卒于 1940 年，译本出版于 1897 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A letter to the king of Syracuse arguing that the grains of sand are not infinite, only very many, and that a good naming system can count past them. On the way Archimedes gives the earliest and fullest surviving account of Aristarchus' sun-centred cosmos, then sets out to measure the width of the sun himself. Notice that every assumption is pushed in the direction that makes his case harder, so that the conclusion survives any reasonable correction.",
+    "zh": "这是写给叙拉古国王的一封信，论证沙粒并非无穷，只是非常多，而一套好的命名方法能数过它们。途中阿基米德留下了阿里斯塔克斯日心宇宙存世最早、最完整的记述，随后又着手亲自测量太阳的视宽度。请留意他的每一条假定都朝着让自己更难证明的方向放大，这样结论经得起任何合理的修正。"
+  },
+  "pick": null,
+  "tags": [
+    "mathematics",
+    "astronomy",
+    "large-numbers",
+    "letters",
+    "sand"
+  ],
+  "excerpt": {
+    "orig": "There are some, king Gelon, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily but also that which is found in every region whether inhabited or uninhabited.",
+    "en": "There are some, king Gelon, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily but also that which is found in every region whether inhabited or uninhabited.",
+    "zh": "革隆王啊，有人认为沙的数目多到无穷；我所说的沙，不只是叙拉古和西西里其余地方的沙，还包括每一处地方的沙，无论有人居住还是无人居住。"
+  },
+  "plate": null
+}

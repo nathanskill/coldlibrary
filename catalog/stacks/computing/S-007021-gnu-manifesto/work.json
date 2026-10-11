@@ -1,0 +1,62 @@
+{
+  "id": "S-007021",
+  "slug": "gnu-manifesto",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The GNU Manifesto",
+    "en": "The GNU Manifesto",
+    "zh": "GNU 宣言"
+  },
+  "author": {
+    "orig": "Richard Stallman",
+    "en": "Richard Stallman",
+    "zh": "理查德·斯托曼",
+    "dates": "b. 1953"
+  },
+  "year": 1985,
+  "year_display": {
+    "en": "1985, with footnotes added since 1993",
+    "zh": "1985 年；1993 年起陆续加注"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The complete page at gnu.org, from the Free Software Foundation's introductory note to the footnotes, converted from HTML to plain text without changes to the wording.",
+    "zh": "据 gnu.org 页面全文，从自由软件基金会的引言到脚注，由 HTML 转为纯文本，措辞未改。"
+  },
+  "source": {
+    "name": "GNU Project (gnu.org)",
+    "url": "https://www.gnu.org/gnu/manifesto.en.html",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The Free Software Foundation permits anyone to make or distribute verbatim copies in any medium, provided the copyright and permission notices are preserved and the recipient is given the same permission; modified versions, including translations, may not be made. Cold Library passes the same permission on to its readers.",
+      "zh": "自由软件基金会允许任何人以任何媒介制作或分发逐字副本，条件是保留版权声明和许可声明，并给予接收者同样的再分发许可；不得制作修改版本（包括译本）。冷冻图书馆把同样的许可转授给读者。"
+    },
+    "license": "FSF verbatim copying permission",
+    "license_url": "https://www.gnu.org/gnu/manifesto.en.html",
+    "notice": "Copyright © 1985, 1993, 2004, 2005, 2007, 2009, 2010, 2015, 2021 Free Software Foundation, Inc. Permission is granted to anyone to make or distribute verbatim copies of this document, in any medium, provided that the copyright notice and permission notice are preserved, and that the distributor grants the recipient permission for further redistribution as permitted by this notice. Modified versions may not be made.",
+    "verbatim_only": true
+  },
+  "translations": {},
+  "note": {
+    "en": "Richard Stallman wrote the GNU Manifesto in 1985 to ask for help building a complete free operating system, and it is the founding text of the free software movement. Its permission allows verbatim copies only, so it is shelved unchanged and untranslated. Read it as a historical argument, including the footnotes in which its author marks his own earlier wording as careless.",
+    "zh": "理查德·斯托曼 1985 年写下《GNU 宣言》，呼吁人们帮助建造一个完整的自由操作系统，它是自由软件运动的奠基文本。宣言解释了 GNU（“GNU 不是 Unix”）是什么，作者为何“必须”写它，为何要与 Unix 兼容、如何供人自由使用，为什么许多程序员愿意帮忙，所有计算机用户将如何受益；接着逐条回应“程序员靠什么谋生”“没有报酬谁来编程”等反对意见；最后设想一个人们不必辛苦劳作就能谋生的“后稀缺”世界。自由软件基金会后来加的脚注说明，“免费”的措辞不严谨，本意是自由而非价格。其许可只允许逐字复制，故按原样收录，不作翻译。"
+  },
+  "pick": null,
+  "tags": [
+    "free-software",
+    "gnu",
+    "manifesto",
+    "history"
+  ],
+  "excerpt": {
+    "orig": "GNU, which stands for Gnu's Not Unix, is the name for the complete Unix-compatible software system which I am writing so that I can give it away free to everyone who can use it",
+    "en": "GNU, which stands for Gnu's Not Unix, is the name for the complete Unix-compatible software system which I am writing so that I can give it away free to everyone who can use it",
+    "zh": "GNU 是“GNU's Not Unix”（GNU 不是 Unix）的缩写，是我正在编写的一个完整的、与 Unix 兼容的软件系统的名字，我写它是为了把它自由地送给每一个用得上它的人。"
+  },
+  "plate": null
+}

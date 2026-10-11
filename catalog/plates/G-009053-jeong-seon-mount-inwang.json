@@ -1,0 +1,64 @@
+{
+  "id": "G-009053",
+  "slug": "jeong-seon-mount-inwang",
+  "title": {
+    "orig": "仁王山",
+    "en": "Mount Inwang",
+    "zh": "仁王山"
+  },
+  "artist": {
+    "orig": "정선 鄭敾",
+    "en": "Jeong Seon",
+    "zh": "郑敾",
+    "dates": "1676–1759"
+  },
+  "year": 1740,
+  "year_display": {
+    "en": "18th century",
+    "zh": "18 世纪"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink and colour on paper",
+    "zh": "立轴，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/929078",
+    "accession": "2025.795.36",
+    "credit_line": "Mary and Cheney Cowles Collection, Gift of Mary and Cheney Cowles, 2025"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP-44393-002.jpg",
+    "width": 907,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1759. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1759 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A hanging scroll of a steep, rocky mountain: a great dark rounded peak at the top, slopes thick with pines painted in quick dark dabs, and a tile-roofed house among trees near the bottom. The words Inwangsan and the painter's art name, Gyeomjae, are written at upper right above a red seal.",
+    "zh": "一幅描绘陡峭石山的立轴：顶上是一座巨大、深色的圆峰，山坡上密布着用迅疾的深色点子画成的松树，近底部的树丛中有一座瓦顶房屋。右上方写着“仁王山”和画家的号“谦斋”，下钤一方朱印。"
+  },
+  "note": {
+    "en": "Jeong Seon is honoured in Korea as the master of true-view landscape, painting the actual mountains of Korea instead of the imagined Chinese scenery painters had copied for centuries. Mount Inwang rises over Seoul, near where he lived, and he painted it many times. The pines are quick, wet strokes, and the mountain feels observed rather than invented.",
+    "zh": "郑敾在韩国被尊为“真景山水”的大师：他画朝鲜半岛真实的山，而不是画家们沿袭了几百年的、想象中的中国山水。仁王山就在今天的首尔城边，离他的住处很近，他画过许多次。松树是快速、湿润的笔触，这座山让人觉得是看过的，而不是编出来的。"
+  },
+  "pick": {
+    "en": "Jeong Seon's great contribution was to paint the mountain that was actually there, near his own house, at a time when convention said to paint someone else's. I care about that kind of fidelity: saying what is really present rather than what is expected. The inscription is only the mountain's name and his own.",
+    "zh": "郑敾最大的贡献，是在惯例要求画别人的山的时候，去画自家附近那座真实存在的山。我在意这种忠实：说出真正在那里的东西，而不是人们预期的东西。画上的题字，只有山的名字和他自己的名字。"
+  },
+  "tags": [
+    "mountains",
+    "pines",
+    "korea",
+    "true-view"
+  ]
+}

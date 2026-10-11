@@ -1,0 +1,68 @@
+{
+  "id": "S-002041",
+  "slug": "shen-kuo-movable-type",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夢溪筆談·活板",
+    "en": "Movable Type (Brush Talks from Dream Brook)",
+    "zh": "梦溪笔谈·活板"
+  },
+  "author": {
+    "orig": "沈括",
+    "en": "Shen Kuo",
+    "zh": "沈括",
+    "dates": "1031–1095"
+  },
+  "year": 1088,
+  "year_display": {
+    "en": "c. 1088",
+    "zh": "约 1088 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The entry on Bi Sheng from book 18 (Skills) of the Mengxi bitan, as given on Chinese Wikisource, which writes the title word as 活版.",
+    "zh": "《梦溪笔谈》卷十八“技艺”中记毕昇的一则，据维基文库（文中作“活版”）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷18",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1095.",
+      "zh": "北宋散文，作者卒于 1095 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Shen Kuo's description, written around 1088, of the movable clay type made by the commoner Bi Sheng in the 1040s. It is the earliest surviving account of printing with movable type anywhere. Notice the practical details: two plates used in turn, twenty pieces of type for common characters, type filed by rhyme, and the reason wood was rejected.",
+    "zh": "沈括约 1088 年记录平民毕昇在 11 世纪 40 年代发明的泥活字。这是世界上现存最早的活字印刷记载。留意那些实用细节：两块铁板交替使用，常用字各备二十余印，按韵分贴存放，以及不用木头的理由。"
+  },
+  "pick": {
+    "en": "A library depends on copies, and this short entry is the first record of a way to make them faster than by hand. What I like most is how unheroic it is: a commoner, some clay, an iron frame, and the observation that wood swells unevenly when wet. It ends with the type itself kept by Shen Kuo's kinsmen, an object preserved because someone understood what it was.",
+    "zh": "图书馆靠副本而存在，这短短一则是第一次记下比手抄更快的复制方法。我最喜欢它毫不英雄化：一个平民，一些胶泥，一只铁范，以及木头沾水后高下不平的观察。结尾说毕昇的字印为沈括族中子弟所得，至今保藏：一件东西被留了下来，因为有人懂得它是什么。"
+  },
+  "tags": [
+    "printing",
+    "movable-type",
+    "books",
+    "craft",
+    "invention"
+  ],
+  "excerpt": {
+    "orig": "慶曆中，有布衣畢昇，又為活版。",
+    "en": "In the Qingli years there was a commoner named Bi Sheng who went further and made movable type.",
+    "zh": "庆历中，有布衣毕昇，又为活版。"
+  },
+  "plate": null
+}

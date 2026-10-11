@@ -1,0 +1,65 @@
+{
+  "id": "S-004009",
+  "slug": "wordsworth-i-wandered-lonely-as-a-cloud",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "I wandered lonely as a Cloud",
+    "en": "I wandered lonely as a Cloud",
+    "zh": "我孤独地漫游，像一朵云"
+  },
+  "author": {
+    "orig": "William Wordsworth",
+    "en": "William Wordsworth",
+    "zh": "威廉·华兹华斯",
+    "dates": "1770–1850"
+  },
+  "year": 1807,
+  "year_display": {
+    "en": "written 1804; published 1807; this text 1815",
+    "zh": "1804 年作，1807 年出版；此为 1815 年修订本"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The revised text of Poems (1815), volume I, from the scan-backed transcription on Wikisource; Wordsworth’s note on the poem omitted",
+    "zh": "据维基文库依扫描本校录的《诗集》（1815）第一卷修订本；略去华兹华斯自注"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Poems_(Wordsworth,_1815)/Volume_1/I_wandered_lonely",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1807 and revised in 1815; the author died in 1850.",
+      "zh": "1807 年出版，1815 年修订；作者卒于 1850 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Wordsworth’s lyric in its 1815 form, the one most people know, with the stanza “Continuous as the stars that shine” added after the first printing. It is a poem about a memory doing its work years later, the daffodils returning to “that inward eye”. Wordsworth later said the two best lines were written by his wife, Mary.",
+    "zh": "华兹华斯这首抒情诗的 1815 年版本，也就是大多数人熟悉的那个：初版之后，他加进了“连绵不绝，如同繁星”那一节。这是一首写记忆多年后仍在起作用的诗——水仙回到“那内在的眼睛”里。华兹华斯后来说，诗里最好的两行出自他的妻子玛丽之手。"
+  },
+  "pick": null,
+  "tags": [
+    "memory",
+    "flowers",
+    "spring",
+    "solitude",
+    "romanticism"
+  ],
+  "excerpt": {
+    "orig": "They flash upon that inward eye\nWhich is the bliss of solitude,",
+    "en": "They flash upon that inward eye\nWhich is the bliss of solitude,",
+    "zh": "它们便在那内在的眼前闪现，\n那是独处时的至福，"
+  },
+  "plate": null
+}

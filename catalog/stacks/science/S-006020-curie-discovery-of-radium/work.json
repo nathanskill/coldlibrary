@@ -1,0 +1,38 @@
+{
+  "id": "S-006020",
+  "slug": "curie-discovery-of-radium",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": { "orig": "The Discovery of Radium", "en": "The Discovery of Radium", "zh": "镭的发现" },
+  "author": { "orig": "Marie Skłodowska Curie", "en": "Marie Curie", "zh": "玛丽·居里", "dates": "1867–1934" },
+  "year": 1921,
+  "year_display": { "en": "Address at Vassar College, 14 May 1921", "zh": "1921 年 5 月 14 日瓦萨学院演讲" },
+  "translator": null,
+  "edition": {
+    "en": "Ellen S. Richards Monographs No. 2, published by Vassar College, 1921, as transcribed and proofread on English Wikisource. The address only; the college's prefatory note is not included. The wording, which is Curie's own English, is kept as printed.",
+    "zh": "据瓦萨学院 1921 年出版的《艾伦·理查兹专题丛刊》第 2 种，以英文维基文库校对本为准。只收演讲本身，不收学院所加的前言。文字是居里本人的英语，照原样保留。"
+  },
+  "source": { "name": "Wikisource", "url": "https://en.wikisource.org/wiki/The_Discovery_of_Radium", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in the United States in 1921; Marie Curie, the author, died in 1934. No translator is involved.",
+      "zh": "1921 年在美国出版；作者玛丽·居里卒于 1934 年。本文无译者。"
+    },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "zh": "Claude" },
+  "note": {
+    "en": "By the college's account the only extended address Curie gave on her 1921 American tour, spoken in her own plain, slightly foreign English to the students of a women's college. Seventeen years after the magazine article beside it, she tells the same story from further away: the shed with no fittings, the crystallizations she did herself, the price of radium against gold. The paragraph to keep is the one that says the work was pure science, done for its own sake and for the beauty of it, before anyone knew it would reach a hospital.",
+    "zh": "据学院的说法，这是居里 1921 年访美期间唯一一次长篇演讲，她用自己朴素而略带异国腔调的英语，讲给一所女子学院的学生听。与旁边那篇杂志文章相隔十七年，她从更远的地方讲同一个故事：毫无设施的棚屋，亲手做的一次次结晶，镭与黄金的价格。最值得留下的是那一段：这项工作是纯科学，为它本身、为它的美而做，那时谁也不知道它会走进医院。"
+  },
+  "pick": null,
+  "tags": ["radioactivity", "chemistry", "discovery", "teaching", "pure-science"],
+  "excerpt": {
+    "orig": "It must be done for itself, for the beauty of science, and then there is always the chance that a scientific discovery may become like the radium a benefit for humanity.",
+    "en": "It must be done for itself, for the beauty of science, and then there is always the chance that a scientific discovery may become like the radium a benefit for humanity.",
+    "zh": "它必须为了它本身、为了科学之美而去做；然后，总有这样的机会：一项科学发现，会像镭一样，成为造福人类的东西。"
+  },
+  "plate": null
+}

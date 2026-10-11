@@ -1,0 +1,65 @@
+{
+  "id": "S-001038",
+  "slug": "du-fu-night-thoughts-while-travelling",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "旅夜書懷",
+    "en": "Writing My Thoughts on a Night Journey",
+    "zh": "旅夜书怀"
+  },
+  "author": {
+    "orig": "杜甫",
+    "en": "Du Fu",
+    "zh": "杜甫",
+    "dates": "712–770"
+  },
+  "year": 765,
+  "year_display": {
+    "en": "765",
+    "zh": "765 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/旅夜書懷",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 770.",
+      "zh": "唐诗，作者卒于 770 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Du Fu wrote it in 765, travelling down the Yangtze after leaving Chengdu. The second couplet is one of the great pictures in Chinese poetry, stars pressing down on a plain and moonlight heaving on the river; then he turns the same scale on himself and finds one gull. He doubted his writing would make his name. It did.",
+    "zh": "765 年杜甫离开成都、沿长江东下时所作。“星垂平野阔，月涌大江流”是中国诗里最壮阔的画面之一；接着他用同样的尺度看自己，只看见一只沙鸥。他怀疑自己会因文章而留名。他确实因此留了名。"
+  },
+  "pick": null,
+  "tags": [
+    "stars",
+    "river",
+    "night",
+    "travel",
+    "writing"
+  ],
+  "excerpt": {
+    "orig": "星垂平野闊，月湧大江流。",
+    "en": "Stars hang low over the wide plain; / the moon surges in the great river's flow.",
+    "zh": "星垂平野阔，月涌大江流。"
+  },
+  "plate": null
+}

@@ -1,0 +1,207 @@
+## hacker
+
+n.
+
+[originally, someone who makes furniture with an axe]
+
+1. A person who enjoys exploring the details of programmable systems and how to stretch their capabilities, as opposed to most users, who prefer to learn only the minimum necessary. RFC1392, the Internet Users' Glossary, usefully amplifies this as: A person who delights in having an intimate understanding of the internal workings of a system, computers and computer networks in particular.
+
+2. One who programs enthusiastically (even obsessively) or who enjoys programming rather than just theorizing about programming.
+
+3. A person capable of appreciating hack value.
+
+4. A person who is good at programming quickly.
+
+5. An expert at a particular program, or one who frequently does work using it or on it; as in ‘a Unix hacker’. (Definitions 1 through 5 are correlated, and people who fit them congregate.)
+
+6. An expert or enthusiast of any kind. One might be an astronomy hacker, for example.
+
+7. One who enjoys the intellectual challenge of creatively overcoming or circumventing limitations.
+
+8. [deprecated] A malicious meddler who tries to discover sensitive information by poking around. Hence password hacker, network hacker. The correct term for this sense is cracker.
+
+The term ‘hacker’ also tends to connote membership in the global community defined by the net (see the network. For discussion of some of the basics of this culture, see the How To Become A Hacker FAQ. It also implies that the person described is seen to subscribe to some version of the hacker ethic (see hacker ethic).
+
+It is better to be described as a hacker by others than to describe oneself that way. Hackers consider themselves something of an elite (a meritocracy based on ability), though one to which new members are gladly welcome. There is thus a certain ego satisfaction to be had in identifying yourself as a hacker (but if you claim to be one and are not, you'll quickly be labeled bogus). See also geek, wannabee.
+
+This term seems to have been first adopted as a badge in the 1960s by the hacker culture surrounding TMRC and the MIT AI Lab. We have a report that it was used in a sense close to this entry's by teenage radio hams and electronics tinkerers in the mid-1950s.
+
+## grok
+
+/grok/, /grohk/, vt.
+
+[common; from the novel Stranger in a Strange Land, by Robert A. Heinlein, where it is a Martian word meaning literally ‘to drink’ and metaphorically ‘to be one with’] The emphatic form is grok in fullness.
+
+1. To understand. Connotes intimate and exhaustive knowledge. When you claim to ‘grok’ some knowledge or technique, you are asserting that you have not merely learned it in a detached instrumental way but that it has become part of you, part of your identity. For example, to say that you "know" LISP is simply to assert that you can code in it if necessary -- but to say you "grok" LISP is to claim that you have deeply entered the world-view and spirit of the language, with the implication that it has transformed your view of programming. Contrast zen, which is similar supernal understanding experienced as a single brief flash. See also glark.
+
+2. Used of programs, may connote merely sufficient understanding. "Almost all C compilers grok the void type these days."
+
+## elegant
+
+adj.
+
+[common; from mathematical usage] Combining simplicity, power, and a certain ineffable grace of design. Higher praise than ‘clever’, ‘winning’, or even cuspy.
+
+The French aviator, adventurer, and author Antoine de Saint-Exupéry, probably best known for his classic children's book The Little Prince, was also an aircraft designer. He gave us perhaps the best definition of engineering elegance when he said "A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."
+
+## cruft
+
+/kruhft/
+
+[very common; back-formation from crufty]
+
+1. n. An unpleasant substance. The dust that gathers under your bed is cruft; the TMRC Dictionary correctly noted that attacking it with a broom only produces more.
+
+2. n. The results of shoddy construction.
+
+3. vt. [from hand cruft, pun on ‘hand craft’] To write assembler code for something normally (and better) done by a compiler (see hand-hacking).
+
+4. n. Excess; superfluous junk; used esp. of redundant or superseded code.
+
+5. [University of Wisconsin] n. Cruft is to hackers as gaggle is to geese; that is, at UW one properly says "a cruft of hackers".
+
+## bit rot
+
+n.
+
+[common] Also bit decay. Hypothetical disease the existence of which has been deduced from the observation that unused programs or features will often stop working after sufficient time has passed, even if ‘nothing has changed’. The theory explains that bits decay as if they were radioactive. As time passes, the contents of a file or the code in a program will become increasingly garbled.
+
+There actually are physical processes that produce such effects (alpha particles generated by trace radionuclides in ceramic chip packages, for example, can change the contents of a computer memory unpredictably, and various kinds of subtle media failures can corrupt files in mass storage), but they are quite rare (and computers are built with error-detecting circuitry to compensate for them). The notion long favored among hackers that cosmic rays are among the causes of such events turns out to be a myth; see the cosmic rays entry for details.
+
+The term software rot is almost synonymous. Software rot is the effect, bit rot the notional cause.
+
+## heisenbug
+
+/hi:´zen·buhg/, n.
+
+[from Heisenberg's Uncertainty Principle in quantum physics] A bug that disappears or alters its behavior when one attempts to probe or isolate it. (This usage is not even particularly fanciful; the use of a debugger sometimes alters a program's operating environment significantly enough that buggy code, such as that which relies on the values of uninitialized memory, behaves quite differently.) Antonym of Bohr bug; see also mandelbug, schroedinbug. In C, nine out of ten heisenbugs result from uninitialized auto variables, fandango on core phenomena (esp. lossage related to corruption of the malloc arena) or errors that smash the stack.
+
+## Bohr bug
+
+/bohr buhg/, n.
+
+[from quantum physics] A repeatable bug; one that manifests reliably under a possibly unknown but well-defined set of conditions. Antonym of heisenbug; see also mandelbug, schroedinbug.
+
+## mandelbug
+
+/man´del·buhg/, n.
+
+[from the Mandelbrot set] A bug whose underlying causes are so complex and obscure as to make its behavior appear chaotic or even non-deterministic. This term implies that the speaker thinks it is a Bohr bug, rather than a heisenbug. See also schroedinbug.
+
+## schroedinbug
+
+/shroh´din·buhg/, n.
+
+[MIT: from the Schroedinger's Cat thought-experiment in quantum physics] A design or implementation bug in a program that doesn't manifest until someone reading source or using the program in an unusual way notices that it never should have worked, at which point the program promptly stops working for everybody until fixed. Though (like bit rot) this sounds impossible, it happens; some programs have harbored latent schroedinbugs for years. Compare heisenbug, Bohr bug, mandelbug.
+
+## fencepost error
+
+n.
+
+1. [common] A problem with the discrete equivalent of a boundary condition, often exhibited in programs by iterative loops. From the following problem: "If you build a fence 100 feet long with posts 10 feet apart, how many posts do you need?" (Either 9 or 11 is a better answer than the obvious 10.) For example, suppose you have a long list or array of items, and want to process items m through n; how many items are there? The obvious answer is n - m, but that is off by one; the right answer is n - m + 1. A program that used the ‘obvious’ formula would have a fencepost error in it. See also zeroth and off-by-one error, and note that not all off-by-one errors are fencepost errors. The game of Musical Chairs involves a catastrophic off-by-one error where N people try to sit in N - 1 chairs, but it's not a fencepost error. Fencepost errors come from counting things rather than the spaces between them, or vice versa, or by neglecting to consider whether one should count one or both ends of a row.
+
+2. [rare] An error induced by unexpected regularities in input values, which can (for instance) completely thwart a theoretically efficient binary tree or hash table implementation. (The error here involves the difference between expected and worst case behaviors of an algorithm.)
+
+## Ninety-Ninety Rule
+
+n.
+
+"The first 90% of the code accounts for the first 90% of the development time. The remaining 10% of the code accounts for the other 90% of the development time." Attributed to Tom Cargill of Bell Labs, and popularized by Jon Bentley's September 1985 Bumper-Sticker Computer Science column in Communications of the ACM. It was there called the "Rule of Credibility", a name which seems not to have stuck. Other maxims in the same vein include the law attributed to the early British computer scientist Douglas Hartree: "The time from now until the completion of the project tends to become constant."
+
+## Brooks's Law
+
+prov.
+
+"Adding manpower to a late software project makes it later" -- a result of the fact that the expected advantage from splitting development work among N programmers is O(N) (that is, proportional to N), but the complexity and communications cost associated with coordinating and then merging their work is O(N^2) (that is, proportional to the square of N). The quote is from Fred Brooks, a manager of IBM's OS/360 project and author of The Mythical Man-Month (Addison-Wesley, 1975, ISBN 0-201-00650-2), an excellent early book on software engineering. The myth in question has been most tersely expressed as "Programmer time is fungible" and Brooks established conclusively that it is not. Hackers have never forgotten his advice (though it's not the whole story; see bazaar); too often, management still does. See also creationism, second-system effect, optimism.
+
+## Conway's Law
+
+prov.
+
+The rule that the organization of the software and the organization of the software team will be congruent; commonly stated as "If you have four groups working on a compiler, you'll get a 4-pass compiler". The original statement was more general, "Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." This first appeared in the April 1968 issue of Datamation. Compare SNAFU principle.
+
+The law was named after Melvin Conway, an early proto-hacker who wrote an assembler for the Burroughs 220 called SAVE. (The name ‘SAVE’ didn't stand for anything; it was just that you lost fewer card decks and listings because they all had SAVE written on them.) There is also Tom Cheatham's amendment of Conway's Law: "If a group of N persons implements a COBOL compiler, there will be N-1 passes. Someone in the group has to be the manager."
+
+## Zawinski's Law
+
+"Every program attempts to expand until it can read mail. Those programs which cannot so expand are replaced by ones which can." Coined by Jamie Zawinski (who called it the "Law of Software Envelopment") to express his belief that all truly useful programs experience pressure to evolve into toolkits and application platforms (the mailer thing, he says, is just a side effect of that). It is commonly cited, though with widely varying degrees of accuracy.
+
+## bikeshedding
+
+[originally BSD, now common] Technical disputes over minor, marginal issues conducted while more serious ones are being overlooked. The implied image is of people arguing over what color to paint the bicycle shed while the house is not finished.
+
+## yak shaving
+
+[MIT AI Lab, after 2000: orig. probably from a Ren & Stimpy episode.] Any seemingly pointless activity which is actually necessary to solve a problem which solves a problem which, several levels of recursion later, solves the real problem you're working on.
+
+## magic smoke
+
+n.
+
+A substance trapped inside IC packages that enables them to function (also called blue smoke; this is similar to the archaic phlogiston hypothesis about combustion). Its existence is demonstrated by what happens when a chip burns up -- the magic smoke gets let out, so it doesn't work any more. See smoke test, let the smoke out.
+
+Usenetter Jay Maynard tells the following story: "Once, while hacking on a dedicated Z80 system, I was testing code by blowing EPROMs and plugging them in the system, then seeing what happened. One time, I plugged one in backwards. I only discovered that after I realized that Intel didn't put power-on lights under the quartz windows on the tops of their EPROMs -- the die was glowing white-hot. Amazingly, the EPROM worked fine after I erased it, filled it full of zeros, then erased it again. For all I know, it's still in service. Of course, this is because the magic smoke didn't get let out." Compare the original phrasing of Murphy's Law.
+
+## phase of the moon
+
+n.
+
+Used humorously as a random parameter on which something is said to depend. Sometimes implies unreliability of whatever is dependent, or that reliability seems to be dependent on conditions nobody has been able to determine. "This feature depends on having the channel open in mumble mode, having the foo switch set, and on the phase of the moon." See also heisenbug.
+
+True story: Once upon a time there was a program bug that really did depend on the phase of the moon. There was a little subroutine that had traditionally been used in various programs at MIT to calculate an approximation to the moon's true phase. GLS incorporated this routine into a LISP program that, when it wrote out a file, would print a timestamp line almost 80 characters long. Very occasionally the first line of the message would be too long and would overflow onto the next line, and when the file was later read back in the program would barf. The length of the first line depended on both the precise date and time and the length of the phase specification when the timestamp was printed, and so the bug literally depended on the phase of the moon!
+
+The first paper edition of the Jargon File (Steele-1983) included an example of one of the timestamp lines that exhibited this bug, but the typesetter ‘corrected’ it. This has since been described as the phase-of-the-moon-bug bug.
+
+However, beware of assumptions. A few years ago, engineers of CERN (European Center for Nuclear Research) were baffled by some errors in experiments conducted with the LEP particle accelerator. As the formidable amount of data generated by such devices is heavily processed by computers before being seen by humans, many people suggested the software was somehow sensitive to the phase of the moon. A few desperate engineers discovered the truth; the error turned out to be the result of a tiny change in the geometry of the 27km circumference ring, physically caused by the deformation of the Earth by the passage of the Moon! This story has entered physics folklore as a Newtonian vengeance on particle physics and as an example of the relevance of the simplest and oldest physical laws to the most modern science.
+
+## ELIZA effect
+
+/@·li:´z@ @·fekt´/, n.
+
+[AI community] The tendency of humans to attach associations to terms from prior experience. For example, there is nothing magic about the symbol + that makes it well-suited to indicate addition; it's just that people associate it with addition. Using + or ‘plus’ to mean addition in a computer language is taking advantage of the ELIZA effect.
+
+This term comes from the famous ELIZA program by Joseph Weizenbaum, which simulated a Rogerian psychotherapist by rephrasing many of the patient's statements as questions and posing them to the patient. It worked by simple pattern recognition and substitution of key words into canned phrases. It was so convincing, however, that there are many anecdotes about people becoming very emotionally caught up in dealing with ELIZA. All this was due to people's tendency to attach to words meanings which the computer never put there. The ELIZA effect is a Good Thing when writing a programming language, but it can blind you to serious shortcomings when analyzing an Artificial Intelligence system. Compare ad-hockery; see also AI-complete. Sources for a clone of the original Eliza are available at ftp://ftp.cc.utexas.edu/pub/AI_ATTIC/Programs/Classic/Eliza/Eliza.c.
+
+## AI-complete
+
+/A·I k@m·pleet'/, adj.
+
+[MIT, Stanford: by analogy with NP-complete (see NP-)] Used to describe problems or subproblems in AI, to indicate that the solution presupposes a solution to the ‘strong AI problem’ (that is, the synthesis of a human-level intelligence). A problem that is AI-complete is, in other words, just too hard.
+
+Examples of AI-complete problems are ‘The Vision Problem’ (building a system that can see as well as a human) and ‘The Natural Language Problem’ (building a system that can understand and speak a natural language as well as a human). These may appear to be modular, but all attempts so far (2003) to solve them have foundered on the amount of context information and ‘intelligence’ they seem to require. See also gedanken.
+
+## Turing tar-pit
+
+n.
+
+1. A place where anything is possible but nothing of interest is practical. Alan Turing helped lay the foundations of computer science by showing that all machines and languages capable of expressing a certain very primitive set of operations are logically equivalent in the kinds of computations they can carry out, and in principle have capabilities that differ only in speed from those of the most powerful and elegantly designed computers. However, no machine or language exactly matching Turing's primitive set has ever been built (other than possibly as a classroom exercise), because it would be horribly slow and far too painful to use. A Turing tar-pit is any computer language or other tool that shares this property. That is, it's theoretically universal -- but in practice, the harder you struggle to get any real work done, the deeper its inadequacies suck you in. Compare bondage-and-discipline language.
+
+2. The perennial holy wars over whether language A or B is the "most powerful".
+
+## deep magic
+
+n.
+
+[poss. from C. S. Lewis's Narnia books] An awesomely arcane technique central to a program or system, esp. one neither generally published nor available to hackers at large (compare black art); one that could only have been composed by a true wizard. Compiler optimization techniques and many aspects of OS design used to be deep magic; many techniques in cryptography, signal processing, graphics, and AI still are. Compare heavy wizardry. Esp.: found in comments of the form "Deep magic begins here...". Compare voodoo programming.
+
+## koan
+
+/koh´an/, n.
+
+A Zen teaching riddle. Classically, koans are attractive paradoxes to be meditated on; their purpose is to help one to enlightenment by temporarily jamming normal cognitive processing so that something more interesting can happen (this practice is associated with Rinzai Zen Buddhism). Defined here because hackers are very fond of the koan form and compose their own koans for humorous and/or enlightening effect. See Some AI Koans, has the X nature, hacker humor.
+
+## ha ha only serious
+
+[from SF fandom, orig. as mutation of HHOK, ‘Ha Ha Only Kidding’] A phrase (often seen abbreviated as HHOS) that aptly captures the flavor of much hacker discourse. Applied especially to parodies, absurdities, and ironic jokes that are both intended and perceived to contain a possibly disquieting amount of truth, or truths that are constructed on in-joke and self-parody. This lexicon contains many examples of ha-ha-only-serious in both form and content. Indeed, the entirety of hacker culture is often perceived as ha-ha-only-serious by hackers themselves; to take it either too lightly or too seriously marks a person as an outsider, a wannabee, or in larval stage. For further enlightenment on this subject, consult any Zen master. See also hacker humor, and koan.
+
+## recursion
+
+n.
+
+See recursion. See also tail recursion.
+
+## write-only code
+
+n.
+
+[a play on read-only memory] Code so arcane, complex, or ill-structured that it cannot be modified or even comprehended by anyone but its author, and possibly not even by him/her. A Bad Thing.

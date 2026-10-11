@@ -1,0 +1,66 @@
+{
+  "id": "S-006005",
+  "slug": "shen-kuo-brush-talks-science",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夢溪筆談（選）",
+    "en": "Brush Talks from Dream Brook: Six Notes on Nature",
+    "zh": "梦溪笔谈（选）"
+  },
+  "author": {
+    "orig": "沈括",
+    "en": "Shen Kuo",
+    "zh": "沈括",
+    "dates": "1031–1095"
+  },
+  "year": 1088,
+  "year_display": {
+    "en": "c. 1088",
+    "zh": "约 1088 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Six entries from books 3, 7, 21 and 24, as given on Chinese Wikisource; the book headings are added for orientation. Shen Kuo's account of Bi Sheng's movable type, from book 18, is shelved separately as S-002041. Three evident misprints in the online text are corrected (已 for 己, 余 for 餘, 陜 for 陝). The entry from book 7 continues a conversation with a senior official about the calendar.",
+    "zh": "据中文维基文库，选卷三、卷七、卷二十一、卷二十四共六条，卷名为便于查找而加。卷十八记毕昇活字一条另作 S-002041 上架。改正网上文本三处明显误字（“已”作“己”，“余”作“餘”，“陜”作“陝”）。卷七一条接续作者与上官讨论历法的问答。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夢溪筆談",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty prose; the author died in 1095.",
+      "zh": "宋代笔记，作者卒于 1095 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Shen Kuo was a Song official, engineer and astronomer who in retirement wrote down what he had seen and tested. These six notes include the earliest known statement that a magnetised needle points not quite south, an explanation of the moon's phases with a powdered ball, a rainbow watched from both sides of a stream in Khitan country, fossil shells read as an old shoreline, and the prediction that rock oil would one day come into wide use. Notice how the note on the inverted image turns, without warning, into a remark about people.",
+    "zh": "沈括是宋代的官员、工程家和天文学家，晚年把一生所见、所试的事一条条写下来。这六条里有已知最早指出磁针“常微偏东，不全南”的记载，有用涂了粉的弹丸解释月相，有在契丹境内隔着溪涧从两边看过的一道彩虹，有把山崖里的螺蚌壳读作昔日的海岸，还有“此物后必大行于世”的石油预言。请留意讲小孔成像的那一条，怎样不动声色地转到了人身上。"
+  },
+  "pick": null,
+  "tags": [
+    "optics",
+    "astronomy",
+    "magnetism",
+    "geology",
+    "rainbow",
+    "song"
+  ],
+  "excerpt": {
+    "orig": "不求去礙，而欲見不顛倒，難矣哉！",
+    "en": "If one does not try to remove what stands in the way, and still hopes to see things the right way up, that is hard indeed.",
+    "zh": "不求去碍，而欲见不颠倒，难矣哉！"
+  },
+  "plate": null
+}

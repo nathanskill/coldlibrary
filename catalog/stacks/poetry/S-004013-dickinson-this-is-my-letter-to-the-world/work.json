@@ -1,0 +1,63 @@
+{
+  "id": "S-004013",
+  "slug": "dickinson-this-is-my-letter-to-the-world",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "This is my letter to the world",
+    "en": "This is my letter to the world",
+    "zh": "这是我写给世界的信"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1890,
+  "year_display": {
+    "en": "first published 1890",
+    "zh": "1890 年首次出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems by Emily Dickinson (1890), edited by Mabel Loomis Todd and T. W. Higginson, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《艾米莉·狄金森诗集》（1890），托德与希金森编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1890, after the author’s death in 1886; the editors died in 1911 and 1932.",
+      "zh": "1890 年首次出版，作者已于 1886 年去世；两位编者分别卒于 1911 年和 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Dickinson’s editors placed this poem at the front of the first selection of her work, four years after her death, as a kind of preface. It is a letter sent with no expectation of a reply, entrusted “to hands I cannot see”. Every reader of it now is one of those hands.",
+    "zh": "狄金森去世四年后，编者把这首诗放在她第一部诗选的最前面，当作一篇序言。这是一封不指望回信的信，托付给“我看不见的手”。今天读到它的每一个人，都是那些手中的一双。"
+  },
+  "pick": null,
+  "tags": [
+    "letters",
+    "future readers",
+    "nature"
+  ],
+  "excerpt": {
+    "orig": "Her message is committed\nTo hands I cannot see;",
+    "en": "Her message is committed\nTo hands I cannot see;",
+    "zh": "她的讯息已经托付\n给我看不见的手；"
+  },
+  "plate": null
+}

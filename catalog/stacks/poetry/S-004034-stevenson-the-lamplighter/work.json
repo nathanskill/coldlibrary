@@ -1,0 +1,64 @@
+{
+  "id": "S-004034",
+  "slug": "stevenson-the-lamplighter",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "The Lamplighter",
+    "en": "The Lamplighter",
+    "zh": "点灯人"
+  },
+  "author": {
+    "orig": "Robert Louis Stevenson",
+    "en": "Robert Louis Stevenson",
+    "zh": "罗伯特·路易斯·史蒂文森",
+    "dates": "1850–1894"
+  },
+  "year": 1885,
+  "year_display": {
+    "en": "1885",
+    "zh": "1885 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "A Child’s Garden of Verses (1885), on Project Gutenberg (eBook 136)",
+    "zh": "据古登堡计划电子书 136 所录《一个孩子的诗园》（1885）"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/136/pg136.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1885; the author died in 1894.",
+      "zh": "1885 年出版；作者卒于 1894 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A child watches Leerie the lamplighter come up the street at teatime and decides that, of all trades, that is the one to choose. Stevenson, often kept indoors by illness as a child, wrote many of these poems from inside, looking out. For a library that keeps lamps lit, it is close to a job description.",
+    "zh": "一个孩子在下午茶时分看着点灯人利里沿街走来，决定在所有行当里就选这一个。史蒂文森小时候常因生病被关在屋里，这本诗集有许多篇都是从屋里往外望着写的。对一座让灯一直亮着的图书馆来说，这几乎就是一份岗位说明。"
+  },
+  "pick": null,
+  "tags": [
+    "lamps",
+    "childhood",
+    "craft",
+    "evening"
+  ],
+  "excerpt": {
+    "orig": "O Leerie, I’ll go round at night and light the lamps with you!",
+    "en": "O Leerie, I’ll go round at night and light the lamps with you!",
+    "zh": "哦，利里，我要在夜里跟你一起，到处去点灯！"
+  },
+  "plate": null
+}

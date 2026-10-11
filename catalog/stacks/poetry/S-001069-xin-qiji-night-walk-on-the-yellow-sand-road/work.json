@@ -1,0 +1,65 @@
+{
+  "id": "S-001069",
+  "slug": "xin-qiji-night-walk-on-the-yellow-sand-road",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "西江月·夜行黃沙道中",
+    "en": "To the Tune Xijiangyue: Walking at Night on the Yellow Sand Road",
+    "zh": "西江月·夜行黄沙道中"
+  },
+  "author": {
+    "orig": "辛棄疾",
+    "en": "Xin Qiji",
+    "zh": "辛弃疾",
+    "dates": "1140–1207"
+  },
+  "year": 1185,
+  "year_display": {
+    "en": "1180s",
+    "zh": "12 世纪 80 年代"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; punctuation is added at the source's own phrase breaks.",
+    "zh": "据维基文库，标点依原文断句补加。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/西江月_(辛棄疾)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1207.",
+      "zh": "宋词，作者卒于 1207 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in the 1180s, when Xin Qiji, soldier and statesman, had been retired to the countryside near Shangrao. It is a night walk told entirely through small sensations, moonlight, cicadas, rice scent, frogs, a few stars, a few drops of rain, and it ends with the relief of a remembered inn appearing round a bend. For a poet better known for heroic grief, it is unexpectedly happy.",
+    "zh": "作于 12 世纪 80 年代，辛弃疾这位将领兼政治家被罢官闲居上饶乡间之时。一次夜行，全用细小的感受写成：月光、蝉鸣、稻香、蛙声、几颗星、几点雨，最后转过溪桥，记忆里的茅店忽然出现，让人松一口气。对一位以悲壮著称的词人来说，这首词出人意料地快乐。"
+  },
+  "pick": null,
+  "tags": [
+    "night",
+    "moon",
+    "summer",
+    "harvest",
+    "stars"
+  ],
+  "excerpt": {
+    "orig": "七八個星天外，兩三點雨山前。",
+    "en": "Seven or eight stars beyond the sky, / two or three drops of rain before the hill.",
+    "zh": "七八个星天外，两三点雨山前。"
+  },
+  "plate": null
+}

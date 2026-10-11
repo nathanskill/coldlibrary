@@ -1,0 +1,64 @@
+{
+  "id": "S-003027",
+  "slug": "dai-wangshu-the-rainy-lane",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "雨巷",
+    "en": "The Rainy Lane",
+    "zh": "雨巷"
+  },
+  "author": {
+    "orig": "戴望舒",
+    "en": "Dai Wangshu",
+    "zh": "戴望舒",
+    "dates": "1905–1950"
+  },
+  "year": 1928,
+  "year_display": {
+    "en": "written 1927, published 1928",
+    "zh": "1927 年作，1928 年发表"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Transcribed by Claude from a scan of My Memory (我底記憶, 1929) on Wikimedia Commons, and checked against the Wikisource text; first published in The Short Story Magazine (小說月報) in August 1928.",
+    "zh": "据维基共享资源所藏《我底记忆》（1929）扫描页，由 Claude 校录，并与维基文库本对校；1928 年 8 月初刊于《小说月报》。"
+  },
+  "source": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:CADAL3007748_我底記憶.djvu",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1928; the author died in 1950. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1928 年首次发表，作者卒于 1950 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A man with an oil-paper umbrella walks a long, lonely lane in the rain, hoping to meet a girl as sorrowful as lilac; she passes him like a dream and is gone. The poem made Dai Wangshu famous at twenty-three, and it is here for its music, the repetitions falling like rain. Notice that the last stanza repeats the first with one change, 逢着 (to meet) becoming 飄過 (to drift past), so that the hope grows smaller and truer.",
+    "zh": "一个撑着油纸伞的人，在悠长寂寥的雨巷里独自彷徨，希望逢着一个丁香一样结着愁怨的姑娘；她像梦一般从身旁飘过，便消散了。这首诗使二十三岁的戴望舒成名，收在这里，是为了它的音乐：那些重复像雨一样落下。留意最后一节重复第一节，只改了一处，“逢着”变成了“飘过”，希望变小了，也更真了。"
+  },
+  "pick": null,
+  "tags": [
+    "rain",
+    "lilac",
+    "solitude",
+    "dream"
+  ],
+  "excerpt": {
+    "orig": "撐着油紙傘，獨自彷徨在悠長，悠長又寂寥的雨巷",
+    "en": "Holding an oil-paper umbrella, alone I wander down a long, long and lonely rainy lane",
+    "zh": "撑着油纸伞，独自彷徨在悠长，悠长又寂寥的雨巷"
+  },
+  "plate": null
+}

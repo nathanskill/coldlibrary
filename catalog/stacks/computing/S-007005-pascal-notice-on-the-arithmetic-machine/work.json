@@ -1,0 +1,65 @@
+{
+  "id": "S-007005",
+  "slug": "pascal-notice-on-the-arithmetic-machine",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "fr",
+  "title": {
+    "orig": "Advis necessaire à ceux qui auront curiosité de voir la Machine Arithmétique",
+    "en": "A Necessary Notice on the Arithmetic Machine",
+    "zh": "算术机器告示"
+  },
+  "author": {
+    "orig": "Blaise Pascal",
+    "en": "Blaise Pascal",
+    "zh": "布莱兹·帕斯卡",
+    "dates": "1623–1662"
+  },
+  "year": 1645,
+  "year_display": {
+    "en": "1645",
+    "zh": "1645 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text of the 1645 notice in Œuvres de Blaise Pascal, ed. Léon Brunschvicg and Pierre Boutroux, vol. I (Paris, Hachette; first published 1908; the transcribed scan is of the 1923 second edition), as transcribed on French Wikisource; the editors' notes are omitted and Pascal's spelling is kept.",
+    "zh": "据法文维基文库所录布伦施维格与布特鲁编《帕斯卡全集》第一卷（巴黎，阿歇特出版社；1908 年初版，所转录的扫描本为 1923 年第二版）中的 1645 年告示；编者注从略，保留帕斯卡原拼写。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://fr.wikisource.org/wiki/Œuvres_de_Blaise_Pascal/Lettre_Dédicatoire_de_la_Machine_Arithmétique_et_Avis_nécessaire/Avis",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Printed in 1645; Pascal died in 1662. The edition used (1908, 2nd edition 1923) was edited by Léon Brunschvicg, who died in 1944, and Pierre Boutroux, who died in 1922.",
+      "zh": "1645 年印行；作者卒于 1662 年。所用版本（1908 年初版，1923 年第二版）的编者布伦施维格卒于 1944 年，布特鲁卒于 1922 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In 1645 Pascal, then in his early twenties, printed this notice to go with his calculating machine, the Pascaline: part user's guide, part defence, part warning against counterfeit copies. He explains why he gives no written description, since some knowledge is best taught face to face, why the machine has so many parts, and how he went through more than fifty models to reach it. Notice his answer to critics who said the machine could have been less complicated: a simpler instrument, he says, could not have made the operation simple, easy, quick and durable all at once, a trade that designers of every kind of tool still live with.",
+    "zh": "1645 年，二十出头的帕斯卡为他的计算机器（帕斯卡林）印了这份告示：一半是使用说明，一半是辩护，还有一部分是对仿冒品的警告。他解释了为什么不附书面构造说明（有些知识最好当面传授），为什么机器有那么多零件，以及他如何做了五十多个模型才走到这一步。请留意他对“这台机器本可以更简单”这一批评的回答：构造更简单的器具，无法让运算同时做到简单、容易、迅速而又经久耐用——各种工具的设计者至今都在与这种权衡共处。"
+  },
+  "pick": null,
+  "tags": [
+    "calculating-machine",
+    "pascaline",
+    "design",
+    "craft"
+  ],
+  "excerpt": {
+    "orig": "l’experience leur auroit fait voir qu’un instrument moins composé ne pouvoit avoir toutes ces conditions que j’ay heureusement données à cette petite Machine.",
+    "en": "experience would have shown them that a less complicated instrument could not have all the qualities that I have happily given to this little Machine.",
+    "zh": "经验就会让他们看到：一件不那么复杂的器具，不可能具备我有幸赋予这台小机器的全部条件。"
+  },
+  "plate": null
+}

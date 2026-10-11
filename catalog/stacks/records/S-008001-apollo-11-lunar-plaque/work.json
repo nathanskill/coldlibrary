@@ -1,0 +1,64 @@
+{
+  "id": "S-008001",
+  "slug": "apollo-11-lunar-plaque",
+  "shelf": "records",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Apollo 11 Lunar Plaque",
+    "en": "Apollo 11 Lunar Plaque",
+    "zh": "阿波罗 11 号月面铭牌"
+  },
+  "author": {
+    "orig": "NASA",
+    "en": "NASA (National Aeronautics and Space Administration)",
+    "zh": "美国国家航空航天局（NASA）",
+    "dates": "founded 1958"
+  },
+  "year": 1969,
+  "year_display": {
+    "en": "July 1969",
+    "zh": "1969 年 7 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Transcribed from NASA photograph S69-39334 of the plaque, and checked against the wording in NASA Release 69-83F (13 July 1969)",
+    "zh": "据 NASA 照片 S69-39334 中的铭牌录文，并与 NASA 新闻稿 69-83F（1969 年 7 月 13 日）中的文字核对"
+  },
+  "source": {
+    "name": "NASA Image and Video Library, S69-39334",
+    "url": "https://images.nasa.gov/details/S69-39334",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A work of NASA, the United States space agency, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105).",
+      "zh": "美国国家航空航天局（NASA）的作品，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A stainless-steel plate, about 23 by 19 centimetres, fixed to the ladder on a leg of the lunar module Eagle and left at Tranquility Base when the crew flew home. It is on this shelf because it was written for whoever next stands on that spot, and because it speaks for all mankind rather than for the four people who signed it. Notice the two hemispheres above the words: the continents are drawn with no borders on them.",
+    "zh": "一块不锈钢牌，约 23 × 19 厘米，固定在“鹰”号登月舱一条支腿的梯子上；宇航员返航时，它留在了静海基地。它在这个书架上，是因为它是写给下一个站在那里的人的，而且它代表的是全人类，而不是签名的那四个人。留意文字上方的两个半球：上面的大陆没有画任何国界。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "apollo",
+    "plaque",
+    "peace"
+  ],
+  "excerpt": {
+    "orig": "WE CAME IN PEACE FOR ALL MANKIND",
+    "en": "We came in peace for all mankind",
+    "zh": "我们为全人类，和平而来"
+  },
+  "plate": "G-008008"
+}

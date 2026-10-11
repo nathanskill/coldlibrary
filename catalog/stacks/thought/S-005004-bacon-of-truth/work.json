@@ -1,0 +1,64 @@
+{
+  "id": "S-005004",
+  "slug": "bacon-of-truth",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Of Truth",
+    "en": "Of Truth",
+    "zh": "论真理"
+  },
+  "author": {
+    "orig": "Francis Bacon",
+    "en": "Francis Bacon",
+    "zh": "弗朗西斯·培根",
+    "dates": "1561–1626"
+  },
+  "year": 1625,
+  "year_display": {
+    "en": "1625",
+    "zh": "1625 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The 1625 text of “Of Truth”, from The Essays or Counsels, Civil and Moral, Project Gutenberg eBook #575 (spelling modernised in that edition); the capitals of the opening words, a printer’s convention, are set in ordinary case. Two slips in that e-text (“fireth” for “filleth”, “falsehoods” for “falsehood”) are corrected against the Scott (1908) and Spedding editions on Wikisource.",
+    "zh": "《论真理》1625 年文本，据古登堡计划电子书 575《论说文集》（该版已采用现代拼写）；开篇首词的全大写是排印惯例，改为常规大小写。该电子本中的两处错字（filleth 误作 fireth，falsehood 误作 falsehoods），已据维基文库所录斯科特本（1908）与斯佩丁本改正。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1625; Francis Bacon died in 1626.",
+      "zh": "1625 年出版；弗朗西斯·培根卒于 1626 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The first of Bacon’s Essays in the 1625 edition, and one of the shortest. He admits, with unusual candour, that people like lies because truth is daylight and a lie is candlelight, kinder to the masks of the world. Notice the “vantage ground of truth”, which he insists must be looked down from with pity, not with pride. The Chinese is a complete new translation.",
+    "zh": "1625 年版《论说文集》的第一篇，也是最短的几篇之一。他少见地坦白承认：人喜欢谎言，因为真理是白昼，谎言是烛光，对世间的种种假面更宽容。请留意“真理的高地”，他坚持从那里往下看时要怀着怜悯，而不是骄傲。中文为全译新译。"
+  },
+  "pick": null,
+  "tags": [
+    "truth",
+    "essay",
+    "honesty",
+    "light"
+  ],
+  "excerpt": {
+    "orig": "Truth may perhaps come to the price of a pearl, that showeth best by day; but it will not rise to the price of a diamond, or carbuncle, that showeth best in varied lights.",
+    "en": "Truth may perhaps come to the price of a pearl, that showeth best by day; but it will not rise to the price of a diamond, or carbuncle, that showeth best in varied lights.",
+    "zh": "真理的身价或许可比珍珠，在白日下最显光彩；却抬不到钻石或红玉的身价，那些宝石要在变幻的光线下才最好看。"
+  },
+  "plate": null
+}

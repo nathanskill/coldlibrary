@@ -1,0 +1,65 @@
+{
+  "id": "S-001050",
+  "slug": "li-shangyin-night-rain-sent-north",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夜雨寄北",
+    "en": "Night Rain, Sent North",
+    "zh": "夜雨寄北"
+  },
+  "author": {
+    "orig": "李商隱",
+    "en": "Li Shangyin",
+    "zh": "李商隐",
+    "dates": "c. 813–c. 858"
+  },
+  "year": 851,
+  "year_display": {
+    "en": "c. 851",
+    "zh": "约 851 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems); the variant readings it marks are left out and punctuation is added at the source's own phrase breaks.",
+    "zh": "据维基文库（《唐诗三百首》本），删去其所注异文，标点依原文断句补加。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夜雨寄北",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died around 858.",
+      "zh": "唐诗，作者约卒于 858 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Li Shangyin, serving far away in the southwest, answers a letter asking when he will come back; scholars still differ on whether it was written to his wife or a friend. 'Night rain in the Ba hills' appears twice: first as the lonely present, then as a memory the two of them will share one day by candlelight. It is a poem written from the future looking back, which makes it a natural fit for a library meant to be read later.",
+    "zh": "李商隐远在西南任职，回答一封问他归期的信；这首诗是寄给妻子还是朋友，学者至今看法不一。“巴山夜雨”出现了两次：第一次是孤寂的此刻，第二次是将来某天两人在烛下共同的回忆。这是一首从未来回望此刻的诗，因此很适合一座为日后的读者而建的图书馆。"
+  },
+  "pick": null,
+  "tags": [
+    "rain",
+    "night",
+    "candle",
+    "letters",
+    "distance"
+  ],
+  "excerpt": {
+    "orig": "何當共剪西窗燭，卻話巴山夜雨時。",
+    "en": "When shall we trim the wick together by the west window / and talk about this night of rain in the Ba hills?",
+    "zh": "何当共剪西窗烛，却话巴山夜雨时。"
+  },
+  "plate": null
+}

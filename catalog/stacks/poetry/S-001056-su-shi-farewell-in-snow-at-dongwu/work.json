@@ -1,0 +1,64 @@
+{
+  "id": "S-001056",
+  "slug": "su-shi-farewell-in-snow-at-dongwu",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "江城子·東武雪中送客",
+    "en": "To the Tune Jiangchengzi: Seeing Off a Guest in the Snow at Dongwu",
+    "zh": "江城子·东武雪中送客"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1075,
+  "year_display": {
+    "en": "c. 1075",
+    "zh": "约 1075 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; punctuation is added at the source's own phrase breaks.",
+    "zh": "据维基文库，标点依原文断句补加。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/江城子_(蘇軾)/江城子_(東武雪中送客)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1101.",
+      "zh": "宋词，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Dongwu is Mizhou, where Su Shi was prefect, and he wrote this in the snow for a departing friend, to the same tune as his hunting song. The second half plays on the name of a hill, Turning-Head Hill, where travellers turned to look back, and the Chaoran Terrace was the lookout he had restored in the town. It belongs here for the line in which the snow itself asks the guest to stay.",
+    "zh": "东武即密州，苏轼任知州时冒雪送别友人，用的是与《密州出猎》同一个词牌。下阕拿“转头山”的山名做文章，行人到此回头相望；超然台是他在城中修复的高台。放在这里，是为了上阕那一句“雪意留君君且住”：连雪都在挽留客人。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "farewell",
+    "friendship",
+    "winter"
+  ],
+  "excerpt": {
+    "orig": "雪意留君君且住，從此去，少清歡。",
+    "en": "The snow wants to keep you: stay a while, stay, / for once you go / there will be little pure joy here.",
+    "zh": "雪意留君君且住，从此去，少清欢。"
+  },
+  "plate": null
+}

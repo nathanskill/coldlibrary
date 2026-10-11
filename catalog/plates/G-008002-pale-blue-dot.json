@@ -1,0 +1,56 @@
+{
+  "id": "G-008002",
+  "slug": "pale-blue-dot",
+  "title": {
+    "orig": "Pale Blue Dot Revisited (PIA23645)",
+    "en": "Pale Blue Dot",
+    "zh": "暗淡蓝点"
+  },
+  "artist": {
+    "orig": "Voyager 1 (NASA/JPL)",
+    "en": "Voyager 1 narrow-angle camera, NASA/JPL",
+    "zh": "旅行者 1 号窄视角相机，NASA/喷气推进实验室",
+    "dates": "photographed 1990"
+  },
+  "year": 1990,
+  "year_display": {
+    "en": "14 February 1990; reprocessed 2020",
+    "zh": "1990 年 2 月 14 日拍摄；2020 年重新处理"
+  },
+  "medium": {
+    "en": "Digital image from the Voyager 1 spacecraft (NASA PIA23645, a 2020 reprocessing of the 1990 frames)",
+    "zh": "旅行者 1 号飞船拍摄的数字图像（NASA PIA23645，2020 年对 1990 年原始画面的重新处理）"
+  },
+  "institution": {
+    "name": "NASA Image and Video Library",
+    "object_url": "https://images.nasa.gov/details/PIA23645"
+  },
+  "image": {
+    "source_url": "https://images-assets.nasa.gov/image/PIA23645/PIA23645~orig.jpg",
+    "width": 1600,
+    "height": 1583
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "A NASA mission image produced at the Jet Propulsion Laboratory. NASA states that its images are generally not subject to copyright in the United States, and JPL's image use policy allows use for any purpose without prior permission; credit NASA/JPL-Caltech.",
+      "zh": "喷气推进实验室制作的 NASA 任务图像。NASA 声明其图像在美国一般不受版权保护；喷气推进实验室的图像使用政策允许无需事先许可、用于任何目的，署名 NASA/JPL-Caltech。"
+    },
+    "license": "JPL Image Use Policy (any purpose; credit NASA/JPL-Caltech)",
+    "license_url": "https://www.jpl.nasa.gov/jpl-image-use-policy/"
+  },
+  "alt": {
+    "en": "A grainy field of deep blue fading to pale violet, crossed by faint bands of scattered sunlight; inside one band, just right of centre, the Earth is a single tiny bluish point.",
+    "zh": "一片颗粒感的深蓝，渐渐过渡到淡紫，几道散射阳光形成的淡淡光带斜穿而过；在其中一道光带里、画面中央偏右处，地球只是一个小小的蓝色光点。"
+  },
+  "note": {
+    "en": "On 14 February 1990, shortly before its cameras were switched off for good, Voyager 1 turned and photographed the planets from about six billion kilometres away. In this frame the Earth is smaller than a single pixel, and the bands of light are sunlight scattered inside the camera. This version, made for the picture's thirtieth anniversary, reprocesses the original data with modern software.",
+    "zh": "1990 年 2 月 14 日，在相机被永久关闭前不久，旅行者 1 号转过身来，从大约六十亿公里外为行星们拍照。在这幅画面里，地球比一个像素还小，那些光带是相机内部散射的阳光。这个版本是为这张照片三十周年制作的，用现代软件重新处理了原始数据。"
+  },
+  "tags": [
+    "earth",
+    "voyager",
+    "distance",
+    "photograph"
+  ]
+}

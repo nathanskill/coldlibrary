@@ -1,14 +1,26 @@
 // Build the static site: node site/build.mjs  →  site/dist/
 // Zero dependencies. English at /, Chinese at /zh/.
+//
+// Page contract (every module that adds pages exports objects like this):
+//   { slug, title: {en, zh} | (lang) => string, description: {en, zh} | (lang) => string,
+//     render(lang, ctx) => html, bodyClass?: string | (lang) => string, fontKey?: string,
+//     noindex?, image?, scripts?: ['reading', …] (files in /assets/js/), alternates?: true }
+// Text set in the Chinese serif must go through serif()/addGlyphs() (lib.mjs) so its glyphs reach the font slicer.
 import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, copyFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { layout, SITE, href } from './src/lib.mjs';
-import { PAGES, stackItemPage, itemPage } from './src/pages.mjs';
+import { layout, SITE, href, resetGlyphs, takeGlyphs } from './src/lib.mjs';
+import { loadStacks, frontMatter } from './src/stacks.mjs';
+import { PAGES, itemPage } from './src/pages.mjs';
+import { workPages } from './src/stacks/work.mjs';
+import { stackPages } from './src/stacks/lists.mjs';
+import { fontHead, writeManifest } from './src/fonts.mjs';
+import { emitOutputs } from './src/outputs.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, '..');
-const dist = join(here, 'dist');
+// CL_DIST lets parallel builds write to their own folder; CL_NO_MANIFEST=1 skips writing site/cjk-manifest.json.
+const dist = process.env.CL_DIST || join(here, 'dist');
 
 function copyDir(src, dst) {
   mkdirSync(dst, { recursive: true });
@@ -18,18 +30,11 @@ function copyDir(src, dst) {
   }
 }
 
-function frontMatter(text) {
-  const m = text.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
-  if (!m) return { meta: {}, body: text };
-  const meta = {};
-  for (const line of m[1].split('\n')) { const i = line.indexOf(':'); if (i > 0) meta[line.slice(0, i).trim()] = line.slice(i + 1).trim(); }
-  return { meta, body: m[2] };
-}
-
 // ---- catalog ----
 const projects = readdirSync(join(root, 'catalog/projects')).filter((f) => f.endsWith('.json')).sort()
   .map((f) => JSON.parse(readFileSync(join(root, 'catalog/projects', f), 'utf8')));
 
+// Legacy shape of the house papers (catalog/open-stacks/*.md), still read by pages.mjs until it is migrated.
 const stackFiles = readdirSync(join(root, 'catalog/open-stacks')).filter((f) => f.endsWith('.en.md')).sort();
 const stacks = stackFiles.map((f) => {
   const base = f.replace(/\.en\.md$/, '');
@@ -37,12 +42,7 @@ const stacks = stackFiles.map((f) => {
   const zhPath = join(root, 'catalog/open-stacks', base + '.zh.md');
   const zh = existsSync(zhPath) ? frontMatter(readFileSync(zhPath, 'utf8')) : en;
   const excerpt = (b) => b.trim().split(/\n{2,}/)[0].replace(/[*#>]/g, '').slice(0, 180);
-  return {
-    accession: en.meta.accession,
-    slug: base.replace(/^S-\d+-/, ''),
-    en: { ...en.meta, body: en.body, excerpt: excerpt(en.body) },
-    zh: { ...zh.meta, body: zh.body, excerpt: excerpt(zh.body) },
-  };
+  return { accession: en.meta.accession, slug: base.replace(/^S-\d+-/, ''), en: { ...en.meta, body: en.body, excerpt: excerpt(en.body) }, zh: { ...zh.meta, body: zh.body, excerpt: excerpt(zh.body) } };
 });
 
 const items = readdirSync(join(root, 'catalog/items')).filter((f) => f.endsWith('.json')).sort()
@@ -53,26 +53,49 @@ const log = JSON.parse(readFileSync(join(root, 'catalog/log.json'), 'utf8'));
 // Contract test count, counted from source so the homepage never claims a number by hand.
 const testDir = join(root, 'contracts/test');
 const tests = existsSync(testDir) ? readdirSync(testDir).filter((f) => f.endsWith('.sol')).map((f) => (readFileSync(join(testDir, f), 'utf8').match(/function test/g) || []).length).reduce((a, b) => a + b, 0) : 0;
-const ctx = { projects, stacks, items, log, tests };
-const all = [...PAGES, ...stacks.map(stackItemPage), ...items.map(itemPage)];
+
+// The Open Stacks: works, plates, shelves, trails, Claude's shelf, tags, house papers.
+const open = loadStacks(root);
+const ctx = { root, projects, stacks, items, log, tests, open };
+
+const all = [...PAGES, ...items.map(itemPage), ...stackPages(ctx), ...workPages(ctx)];
+const seen = new Set();
+for (const p of all) { if (seen.has(p.slug)) throw new Error(`two pages claim the slug "${p.slug}"`); seen.add(p.slug); }
 
 // ---- render ----
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
 copyDir(join(here, 'public'), dist);
 
+// One stylesheet, assembled from site/src/css/NN-*.css in name order (files starting with "_" are not shipped).
+const cssDir = join(here, 'src/css');
+const cssParts = readdirSync(cssDir).filter((f) => /^\d.*\.css$/.test(f)).sort();
+writeFileSync(join(dist, 'assets/site.css'), cssParts.map((f) => `/* ---- ${f} ---- */\n` + readFileSync(join(cssDir, f), 'utf8')).join('\n'));
+
+const pick = (v, lang) => (typeof v === 'function' ? v(lang) : v && (v[lang] ?? v.en));
 const urls = [];
+const manifest = {};
+let pages = 0;
 for (const p of all) {
-  for (const lang of ['en', 'zh']) {
+  for (const lang of p.langs || ['en', 'zh']) {
+    resetGlyphs();
+    const body = p.render(lang, ctx);
+    const glyphs = takeGlyphs();
+    const fontKey = p.fontKey || 'page:' + (p.slug || 'lobby');
+    const m = manifest[fontKey] || (manifest[fontKey] = { base: '', hant: '', hans: '', w600: '' });
+    for (const k of Object.keys(m)) m[k] = [...new Set(m[k] + glyphs[k])].join('');
     const html = layout({
       lang,
       slug: p.slug === '404' ? '' : p.slug,
-      title: p.title[lang] ?? p.title.en,
-      description: p.description[lang] ?? p.description.en,
+      title: pick(p.title, lang),
+      description: pick(p.description, lang),
       image: p.image,
       noindex: !!p.noindex,
-      bodyClass: p.bodyClass || '',
-      body: p.render(lang, ctx),
+      bodyClass: pick(p.bodyClass, lang) || '',
+      head: fontHead(fontKey, glyphs, lang),
+      scripts: p.scripts || [],
+      alternates: p.alternates !== false,
+      body,
     });
     let file;
     if (p.slug === '404') file = lang === 'en' ? '404.html' : 'zh/404.html';
@@ -81,9 +104,11 @@ for (const p of all) {
     const out = join(dist, file);
     mkdirSync(dirname(out), { recursive: true });
     writeFileSync(out, html);
-    if (p.slug !== '404') urls.push(SITE + href(lang, p.slug));
+    pages++;
+    if (p.slug !== '404' && !p.noindex) urls.push(SITE + href(lang, p.slug));
   }
 }
+if (!process.env.CL_NO_MANIFEST) writeManifest(manifest, root);
 
 // Every item as a file its owner can keep: public fields and ciphertext only, never answers.
 mkdirSync(join(dist, 'items'), { recursive: true });
@@ -98,11 +123,14 @@ for (const i of items) {
   writeFileSync(join(dir, i.id.slice(2) + '.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>${i.id} · Cold Library</title><link rel="canonical" href="${SITE}${to}"><meta http-equiv="refresh" content="0; url=${to}"></head><body><p><a href="${to}">${i.id} →</a></p></body></html>\n`);
 }
 
-writeFileSync(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+// Open Stacks outputs: .txt copies, search data, feeds, /s/ and /g/ short URLs, extra sitemap entries.
+const extraUrls = emitOutputs(ctx, dist) || [];
+
+writeFileSync(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...urls, ...extraUrls].map((u) => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: ${SITE}/sitemap.xml\n`);
 
 // Spec and schema are served from the site too, so the format can be fetched without GitHub.
 mkdirSync(join(dist, 'spec/v0.1'), { recursive: true });
 copyFileSync(join(root, 'spec/v0.1/core.schema.json'), join(dist, 'spec/v0.1/core.schema.json'));
 
-console.log(`built ${all.length * 2} pages → ${dist}`);
+console.log(`built ${pages} pages (${open.works.length} works, ${open.plates.length} plates) → ${dist}`);

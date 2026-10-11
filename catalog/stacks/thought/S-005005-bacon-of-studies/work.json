@@ -1,0 +1,64 @@
+{
+  "id": "S-005005",
+  "slug": "bacon-of-studies",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Of Studies",
+    "en": "Of Studies",
+    "zh": "论学问"
+  },
+  "author": {
+    "orig": "Francis Bacon",
+    "en": "Francis Bacon",
+    "zh": "弗朗西斯·培根",
+    "dates": "1561–1626"
+  },
+  "year": 1625,
+  "year_display": {
+    "en": "first version 1597; this text 1625",
+    "zh": "初版 1597 年；此为 1625 年文本"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The 1625 text of “Of Studies”, from The Essays or Counsels, Civil and Moral, Project Gutenberg eBook #575 (spelling modernised in that edition); the capitals of the opening words, a printer’s convention, are set in ordinary case.",
+    "zh": "《论学问》1625 年文本，据古登堡计划电子书 575《论说文集》（该版已采用现代拼写）；开篇首词的全大写是排印惯例，改为常规大小写。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/575/pg575.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1625; Francis Bacon died in 1626.",
+      "zh": "1625 年出版；弗朗西斯·培根卒于 1626 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Five hundred words on what reading is for, quoted to students for four centuries. Bacon’s distinctions still hold: some books to be tasted, others swallowed, a few chewed and digested, and some, he admits, read by deputy. It was the first essay in his first book of 1597, and he was still revising it in 1625. The Chinese is a complete new translation.",
+    "zh": "五百字，讲读书为了什么，四百年来一直被拿来讲给学生听。培根的分辨至今成立：有的书浅尝，有的书吞下，少数的书要咀嚼消化，还有一些，他承认，可以请人代读。它是 1597 年他第一本书的第一篇，到 1625 年他还在修改。中文为全译新译。"
+  },
+  "pick": null,
+  "tags": [
+    "reading",
+    "learning",
+    "books",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested",
+    "en": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested",
+    "zh": "有的书只须浅尝，有的书可以整个吞下，少数的书则要细细咀嚼、慢慢消化"
+  },
+  "plate": null
+}

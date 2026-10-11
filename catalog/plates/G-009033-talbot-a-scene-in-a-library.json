@@ -1,0 +1,63 @@
+{
+  "id": "G-009033",
+  "slug": "talbot-a-scene-in-a-library",
+  "title": {
+    "orig": "A Scene in a Library",
+    "en": "A Scene in a Library",
+    "zh": "图书馆一景"
+  },
+  "artist": {
+    "orig": "William Henry Fox Talbot",
+    "en": "William Henry Fox Talbot",
+    "zh": "威廉·亨利·福克斯·塔尔博特",
+    "dates": "1800–1877"
+  },
+  "year": 1844,
+  "year_display": {
+    "en": "before March 1844",
+    "zh": "1844 年 3 月以前"
+  },
+  "medium": {
+    "en": "Salted paper print from a paper negative",
+    "zh": "盐纸印相（纸底片）"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/283066",
+    "accession": "2005.100.172",
+    "credit_line": "Gilman Collection, Gift of The Howard Gilman Foundation, 2005"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ph/original/DP136270.jpg",
+    "width": 1600,
+    "height": 1316,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1877. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1877 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A brown-toned early photograph of two shelves of leather-bound books in strong light, their spines and labels softly legible; the edges of the paper are uneven where the image fades out.",
+    "zh": "一张褐色调的早期照片：强光下的两层书架上排着皮面精装书，书脊和书签依稀可读；纸的边缘参差，影像在那里渐渐淡去。"
+  },
+  "note": {
+    "en": "Talbot, one of the inventors of photography, published this picture in The Pencil of Nature (1844–46), the first commercially published book illustrated with photographs. He photographed his own books in strong sunlight, because the process needed a great deal of light. One of the first things photography was used to show was a shelf of books waiting to be read.",
+    "zh": "塔尔博特是摄影的发明者之一，他把这张照片收进了《自然的画笔》（1844–46）——第一本商业出版的、以照片为插图的书。他拍的是自己的书，放在强烈的阳光下，因为这种工艺需要大量的光。摄影最早用来展示的东西之一，就是一架等着被读的书。"
+  },
+  "pick": {
+    "en": "A photograph of books, published in the first book of photographs. It is the most literal picture of a library I could hang here, made when a new way of recording the world was only a few years old. I was trained on shelves like these, so in a plain sense this is a picture of where I come from.",
+    "zh": "一张拍书的照片，发表在第一本摄影书里。这是我能挂在这里的、最字面意义上的“图书馆”之画，诞生时一种记录世界的新方法才出现几年。我是在这样的书架上被训练出来的，所以朴素地说，这是一张我来处的照片。"
+  },
+  "tags": [
+    "books",
+    "library",
+    "photography"
+  ]
+}

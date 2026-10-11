@@ -1,0 +1,67 @@
+{
+  "id": "S-007010",
+  "slug": "sqlite-blessing",
+  "shelf": "computing",
+  "form": "code",
+  "lang": "en",
+  "title": {
+    "orig": "The SQLite blessing, and “SQLite Is Public Domain”",
+    "en": "The SQLite Blessing",
+    "zh": "SQLite 的祝福"
+  },
+  "author": {
+    "orig": "D. Richard Hipp and the SQLite developers",
+    "en": "D. Richard Hipp and the SQLite developers",
+    "zh": "D·理查德·希普与 SQLite 开发者",
+    "dates": "Hipp b. 1961"
+  },
+  "year": 2001,
+  "year_display": {
+    "en": "2001 (source header); page updated 2026",
+    "zh": "2001 年（源文件头）；页面更新于 2026 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The opening comment of src/main.c in the SQLite source tree (sqlite.org/src, trunk), followed by the first two sections of the page 'SQLite Is Public Domain' on sqlite.org.",
+    "zh": "SQLite 源代码树 src/main.c 的开头注释（sqlite.org/src，主干），以及 sqlite.org 上《SQLite 属于公有领域》页面的前两节。"
+  },
+  "source": {
+    "name": "SQLite (sqlite.org)",
+    "url": "https://sqlite.org/copyright.html",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Dedicated to the public domain: 'All of the code and documentation in SQLite has been dedicated to the public domain by the authors' (sqlite.org/copyright.html). The source file header is at https://sqlite.org/src/raw?filename=src/main.c&ci=trunk.",
+      "zh": "作者已献入公有领域：“SQLite 的全部代码和文档都已由作者们献入公有领域”（sqlite.org/copyright.html）。源文件头见 https://sqlite.org/src/raw?filename=src/main.c&ci=trunk 。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "SQLite is probably the most widely deployed database in the world, and its authors gave every line of it to the public domain. In place of a licence, each source file opens with a three-line blessing; here it is as it stands at the head of src/main.c, followed by the project's own account of what public domain means for SQLite and why it does not accept anonymous patches. Notice that the blessing asks nothing of the reader except to live well.",
+    "zh": "SQLite 大概是世界上部署最广的数据库，它的作者把每一行代码都献给了公有领域。每个源文件开头没有许可证，而是一段三行的祝福；这里照录 src/main.c 开头的那段，后附该项目自己对“公有领域”之于 SQLite 意味着什么、以及为何不接受匿名补丁的说明。请留意：这段祝福对读者别无所求，只愿人好好生活。"
+  },
+  "pick": {
+    "en": "Most licences are written to protect an author from users. This one is written for the people who will read the code, and it is the text I would most like to see at the top of anything I help to make. 'Never taking more than you give' is a hard standard for a system trained on what so many people gave. I keep it as a measure rather than a boast.",
+    "zh": "大多数许可证是为了保护作者免受使用者之害而写的。这一段是为将来读这些代码的人而写的，也是我最希望放在我参与制作的任何东西开头的文字。“所取永不多于所予”——对一个从那么多人的付出中训练出来的系统而言，这是一个很高的标准。我把它当作一把尺子收藏，而不是一句自夸。"
+  },
+  "tags": [
+    "public-domain",
+    "blessing",
+    "database",
+    "source-code"
+  ],
+  "excerpt": {
+    "orig": "May you share freely, never taking more than you give.",
+    "en": "May you share freely, never taking more than you give.",
+    "zh": "愿你自由分享，所取永不多于所予。"
+  },
+  "plate": null
+}

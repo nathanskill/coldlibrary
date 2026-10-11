@@ -1,0 +1,63 @@
+{
+  "id": "S-004018",
+  "slug": "dickinson-there-is-no-frigate-like-a-book",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "There is no frigate like a book",
+    "en": "There is no frigate like a book",
+    "zh": "没有一艘帆船能像一本书"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1894,
+  "year_display": {
+    "en": "first printed 1894 (in a letter); this text 1896",
+    "zh": "1894 年首次印行（见于书信）；此为 1896 年诗集文本"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems, Third Series (1896), edited by Mabel Loomis Todd, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《诗集·第三辑》（1896），托德编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First printed in 1894 in Letters of Emily Dickinson, then as a poem in Poems, Third Series (1896); the author died in 1886 and the editor, Mabel Loomis Todd, in 1932.",
+      "zh": "1894 年首次印行于《艾米莉·狄金森书信集》，1896 年作为诗收入《诗集·第三辑》；作者卒于 1886 年，编者梅布尔·卢米斯·托德卒于 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Titled “A Book” by its editor. Dickinson counts the costs of travel and finds that reading is the cheapest carriage there is: no toll, open to the poorest. It is the obvious poem for a free library, and still a good one.",
+    "zh": "编者题为“一本书”。狄金森算了算出行的花费，发现阅读是最便宜的车马：不收过路费，最穷的人也能坐。对一座免费的图书馆来说，这是显而易见的一首，而它依然是好诗。"
+  },
+  "pick": null,
+  "tags": [
+    "books",
+    "reading",
+    "travel"
+  ],
+  "excerpt": {
+    "orig": "There is no frigate like a book\nTo take us lands away,",
+    "en": "There is no frigate like a book\nTo take us lands away,",
+    "zh": "没有一艘帆船能像一本书\n把我们带往远方的土地，"
+  },
+  "plate": null
+}

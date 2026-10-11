@@ -1,0 +1,11 @@
+The swallows go, but they will come again. The willows wither, but they will be green again. The peach blossoms fall, but they will bloom again. But tell me, you who are wise: why do our days go and never return? Has someone stolen them? Then who is it, and where have they been hidden? Or have they run away of their own accord? Then where are they now?
+
+I do not know how many days I have been given, but my hands are surely growing emptier. Counting in silence, I find that more than eight thousand days have already slipped through my fingers. Like a drop of water from the point of a needle falling into the sea, my days drip into the stream of time, without a sound and without a shadow. My brow breaks into a sweat, and my tears run down in spite of me.
+
+What goes, goes; what comes, keeps coming. And between going and coming, how swift it all is. When I get up in the morning, two or three slanting squares of sunlight shine into my small room. The sun has feet: softly and quietly it moves on, and I, in a daze, turn round with it. And so, when I wash my hands, the day passes through the basin; when I eat, the day passes through the rice bowl; when I sit in silence, it passes before my fixed and staring eyes. I notice how swiftly it goes, and when I put out my hand to hold it back, it slips past my hand that is holding it back. When it grows dark and I lie in bed, it nimbly steps over my body and flies off past my feet. When I open my eyes and meet the sun again, another day has slipped away. I bury my face in my hands and sigh. But the shadow of the new day has begun to flicker past in my sighing.
+
+In these days that flee as if on wings, in this world of a thousand doors and ten thousand homes, what can I do? Only wander, only hurry. In the rush of eight thousand days, what is left to me but wandering? The days gone by are like light smoke scattered by a breeze, like thin mist melted by the morning sun. What traces have I left? Have I left even a trace as fine as gossamer? I came into this world naked, and in the twinkling of an eye I shall go back naked. But I cannot accept it: why should I make this journey for nothing?
+
+You who are wise, tell me: why do our days go and never return?
+
+28 March

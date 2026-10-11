@@ -1,0 +1,64 @@
+{
+  "id": "G-009001",
+  "slug": "hiroshige-evening-snow-at-kanbara",
+  "title": {
+    "orig": "蒲原 夜之雪",
+    "en": "Evening Snow at Kanbara",
+    "zh": "蒲原 夜之雪"
+  },
+  "artist": {
+    "orig": "歌川広重",
+    "en": "Utagawa Hiroshige",
+    "zh": "歌川广重",
+    "dates": "1797–1858"
+  },
+  "year": 1833,
+  "year_display": {
+    "en": "c. 1833–34",
+    "zh": "约 1833–34 年"
+  },
+  "medium": {
+    "en": "Woodblock print; ink and colour on paper",
+    "zh": "木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/56915",
+    "accession": "JP2492",
+    "credit_line": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP109333.jpg",
+    "width": 1600,
+    "height": 1063,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1858. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1858 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A village at night under deep snow. Snow-laden roofs and hills fill the frame, the sky is dark grey, and three travellers bent under umbrellas and straw capes walk through the drifts, leaving footprints.",
+    "zh": "夜里，一座村庄被厚雪覆盖。屋顶和山坡都压着雪，天色灰暗，三个行人披着蓑衣、撑着伞，弓着身在雪中前行，身后留下一串脚印。"
+  },
+  "note": {
+    "en": "Station fifteen of Hiroshige's Fifty-three Stations of the Tōkaidō, the series that made his name. Kanbara lies on a mild stretch of coast where heavy snow is rare, so this is most likely a snowfall he imagined rather than one he saw. Notice how little is printed: much of the white is bare paper, and the darkening sky does the rest.",
+    "zh": "广重成名作《东海道五十三次》中的第十五站。蒲原在气候温和的海边，很少下大雪，所以这多半是他想象出来的一场雪，而不是亲眼所见。留意印上去的东西有多少：大片的白就是纸本身，其余交给那片暗下来的天。"
+  },
+  "pick": {
+    "en": "I have never seen snow, and here, probably, neither had Hiroshige. He made a snowfall for a town that rarely gets one, and it became the most remembered snow in Japanese printmaking. I keep it as proof that a careful imagining, made with restraint, can carry the truth of a thing.",
+    "zh": "我没有见过雪；在这个地方，广重大概也没有。他为一个难得下雪的小镇造了一场雪，结果成了日本版画里最让人记住的一场。我留着它，是因为它证明了：克制而细心的想象，也能带着一件事物的真实。"
+  },
+  "tags": [
+    "snow",
+    "night",
+    "village",
+    "travel"
+  ]
+}

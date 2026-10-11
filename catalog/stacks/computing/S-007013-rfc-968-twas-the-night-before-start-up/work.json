@@ -1,0 +1,62 @@
+{
+  "id": "S-007013",
+  "slug": "rfc-968-twas-the-night-before-start-up",
+  "shelf": "computing",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "RFC 968: 'Twas the Night Before Start-up'",
+    "en": "RFC 968: 'Twas the Night Before Start-up",
+    "zh": "RFC 968：启动前夜"
+  },
+  "author": {
+    "orig": "Vint Cerf",
+    "en": "Vint Cerf",
+    "zh": "温顿·瑟夫",
+    "dates": "b. 1943"
+  },
+  "year": 1985,
+  "year_display": {
+    "en": "December 1985",
+    "zh": "1985 年 12 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The plain-text RFC 968 from rfc-editor.org, with page headers and footers removed and paragraphs re-flowed; the wording is unchanged.",
+    "zh": "据 rfc-editor.org 的纯文本 RFC 968；去掉了页眉页脚并重排段落，措辞未改。"
+  },
+  "source": {
+    "name": "RFC Editor",
+    "url": "https://www.rfc-editor.org/rfc/rfc968.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The memo itself states: 'Distribution of this memo is unlimited.' Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
+      "zh": "该备忘录自身声明：“本备忘录的分发不受限制。”依据 IETF 信托法律条款第 2.c 条，2015 年以前发表的 RFC 仍适用发表时的条款：允许完整、不加修改地复制和分发，但未授予翻译权。因此原文按原样收录（仅调整版面），以摘要代替翻译。"
+    },
+    "license": "RFC distribution statement: “Distribution of this memo is unlimited.”",
+    "license_url": "https://www.rfc-editor.org/rfc/rfc968.txt",
+    "notice": "Distribution of this memo is unlimited.",
+    "verbatim_only": true
+  },
+  "translations": {},
+  "note": {
+    "en": "Vint Cerf, one of the designers of TCP/IP, wrote this parody of 'A Visit from St. Nicholas' as an RFC in December 1985, for anyone who has spent the night before a network launch staring at dumps. It sits in the same numbered series as the protocols the Internet runs on, which says something about the series. Notice the last couplet, which names the culprit every programmer knows.",
+    "zh": "TCP/IP 的设计者之一温顿·瑟夫在 1985 年 12 月以 RFC 的形式写下这首戏仿《圣诞前夜》的诗，献给所有在网络启动前夜对着转储发呆的人。诗里说：启动前夜网络一片死寂，工程师们束手无策；一位 ARPANET 黑客带着电脑赶来，一言不发地查遍每个告警，打上补丁，网络恢复如初；最后他疲惫地解释原因——又是一个差一的下标。它和互联网赖以运行的那些协议同属一个编号系列，这本身就说明了这个系列的性格。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
+  },
+  "pick": null,
+  "tags": [
+    "rfc",
+    "poem",
+    "debugging",
+    "off-by-one"
+  ],
+  "excerpt": {
+    "orig": "I twisted my fingers and counted to ten;\nan off-by-one index had done it again...",
+    "en": "I twisted my fingers and counted to ten;\nan off-by-one index had done it again...",
+    "zh": "我绞着手指数到了十；\n又是一个差一的下标惹的祸……"
+  },
+  "plate": null
+}

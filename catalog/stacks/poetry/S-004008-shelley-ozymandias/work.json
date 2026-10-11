@@ -1,0 +1,64 @@
+{
+  "id": "S-004008",
+  "slug": "shelley-ozymandias",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Ozymandias",
+    "en": "Ozymandias",
+    "zh": "奥兹曼迪亚斯"
+  },
+  "author": {
+    "orig": "Percy Bysshe Shelley",
+    "en": "Percy Bysshe Shelley",
+    "zh": "珀西·比希·雪莱",
+    "dates": "1792–1822"
+  },
+  "year": 1818,
+  "year_display": {
+    "en": "1818",
+    "zh": "1818 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Thomas Hutchinson’s Oxford text of the Complete Poetical Works (1914), on Project Gutenberg (eBook 4800)",
+    "zh": "据古登堡计划电子书 4800 所录哈钦森编牛津版《雪莱诗全集》（1914）"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/4800/pg4800.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in The Examiner in January 1818; the author died in 1822.",
+      "zh": "1818 年 1 月刊于《观察家报》；作者卒于 1822 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Shelley wrote it in a friendly sonnet contest in December 1817. The poem is a chain of witnesses: a traveller tells the poet, who tells us, about a sculptor who read a king’s face better than the king knew it. What survives in the end is not the empire but the carving, and the story about it.",
+    "zh": "雪莱 1817 年 12 月在一次朋友间的十四行诗比赛中写成。诗是一串转述：旅人讲给诗人，诗人讲给我们，讲的是一位雕刻师，他读懂国王的脸比国王自己还透。最后留下来的不是帝国，而是那件雕刻，以及关于它的故事。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "monuments",
+    "desert",
+    "sonnet"
+  ],
+  "excerpt": {
+    "orig": "Nothing beside remains. Round the decay\nOf that colossal wreck, boundless and bare\nThe lone and level sands stretch far away.",
+    "en": "Nothing beside remains. Round the decay\nOf that colossal wreck, boundless and bare\nThe lone and level sands stretch far away.",
+    "zh": "此外什么也没有留下。在那巨大残骸的\n废墟四周，无边无际，空空荡荡，\n寂寞而平坦的黄沙伸向远方。"
+  },
+  "plate": null
+}

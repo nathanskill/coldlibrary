@@ -1,0 +1,65 @@
+{
+  "id": "S-008017",
+  "slug": "cao-pi-on-literature",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "典論·論文",
+    "en": "A Discourse on Literature",
+    "zh": "典论·论文"
+  },
+  "author": {
+    "orig": "曹丕",
+    "en": "Cao Pi",
+    "zh": "曹丕",
+    "dates": "187–226"
+  },
+  "year": 218,
+  "year_display": {
+    "en": "c. 217–220",
+    "zh": "约 217–220 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource, from the Wen Xuan anthology",
+    "zh": "据维基文库所录《昭明文选》本"
+  },
+  "source": {
+    "name": "Wikisource (zh), 典論/論文",
+    "url": "https://zh.wikisource.org/wiki/典論/論文",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in the early third century; the author died in 226.",
+      "zh": "作于三世纪初，作者卒于 226 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Cao Pi wrote this as crown prince of Wei, and it is usually counted the first Chinese essay devoted to literature as such: how writers misjudge one another, why each form asks for different virtues, and why a style cannot be handed on. It ends with the claim that writing is 'a splendid undertaking that does not decay', outlasting both a lifetime and its honours. Notice that he ranks the Seven Masters of Jian'an even as he misses them; several had died in the epidemic of 217.",
+    "zh": "曹丕作为魏国太子时写下这篇文章，它通常被视为中国第一篇专门讨论文学本身的论文：文人怎样彼此误判，不同的文体为什么要求不同的长处，文风为什么无法传授。它以这样的论断收尾：文章是“不朽之盛事”，比寿命和荣华都更长久。留意他一边品评建安七子，一边怀念他们；其中好几位死于 217 年的那场疫病。"
+  },
+  "pick": null,
+  "tags": [
+    "literature",
+    "criticism",
+    "writing",
+    "immortality"
+  ],
+  "excerpt": {
+    "orig": "蓋文章經國之大業，不朽之盛事。",
+    "en": "For writing is the great work of ordering a state, a splendid undertaking that does not decay.",
+    "zh": "盖文章经国之大业，不朽之盛事。"
+  },
+  "plate": null
+}

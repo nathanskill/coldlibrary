@@ -1,0 +1,64 @@
+{
+  "id": "S-001025",
+  "slug": "wang-wei-bamboo-grove-lodge",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "竹里館",
+    "en": "The Bamboo Grove Lodge",
+    "zh": "竹里馆"
+  },
+  "author": {
+    "orig": "王維",
+    "en": "Wang Wei",
+    "zh": "王维",
+    "dates": "c. 699–761"
+  },
+  "year": 750,
+  "year_display": {
+    "en": "mid-8th century",
+    "zh": "约 8 世纪中期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/輞川集_(王維)/竹里館",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 761.",
+      "zh": "唐诗，作者卒于 761 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "From the Wangchuan Collection: Wang Wei wrote a quatrain on each of twenty places on his country estate, and his friend Pei Di answered every one. It is a poem about being unseen and not minding: no one knows he is there, and the moon comes anyway. The long whistle, 长啸, was an art of the recluse, somewhere between singing and breathing.",
+    "zh": "出自《辋川集》：王维为辋川别业的二十处景致各写一首绝句，好友裴迪一一唱和。这是一首关于不被看见而毫不介意的诗：没有人知道他在这里，月亮还是来了。“长啸”是隐士的一种技艺，介于歌唱与吐纳之间。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "music",
+    "solitude",
+    "night"
+  ],
+  "excerpt": {
+    "orig": "深林人不知，明月來相照。",
+    "en": "Deep in the wood, no one knows I am here; / the bright moon comes to shine on me.",
+    "zh": "深林人不知，明月来相照。"
+  },
+  "plate": null
+}

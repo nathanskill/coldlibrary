@@ -1,0 +1,64 @@
+{
+  "id": "S-001058",
+  "slug": "su-shi-returning-at-night-to-lingao",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "臨江仙·夜歸臨皋",
+    "en": "To the Tune Linjiangxian: Returning at Night to Lingao",
+    "zh": "临江仙·夜归临皋"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1082,
+  "year_display": {
+    "en": "1082",
+    "zh": "1082 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out and punctuation is added at the source's own phrase breaks.",
+    "zh": "据维基文库，删去其所注异文，标点依原文断句补加。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/臨江仙_(蘇軾)/夜歸臨皋",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1101.",
+      "zh": "宋词，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Another Huangzhou lyric from 1082. Locked out of his own house by a snoring servant, Su Shi stands with his staff and listens to the river, and the small comedy opens into a large wish, to slip away in a boat. A Song anecdote says that the next day word went round that he had sailed off, and the prefect hurried to his house only to find him fast asleep.",
+    "zh": "同样是 1082 年在黄州所作。家童鼾声如雷，把他关在门外，苏轼倚杖听江声，一场小小的喜剧由此展开成一个很大的愿望：乘小舟从此离去。宋人笔记说，第二天传言他已挂冠乘舟而去，知州急忙赶到他家，却见他鼻息如雷，睡得正香。"
+  },
+  "pick": null,
+  "tags": [
+    "night",
+    "river",
+    "freedom",
+    "wine"
+  ],
+  "excerpt": {
+    "orig": "敲門都不應，倚杖聽江聲。",
+    "en": "I knock, and no one answers; / leaning on my staff, I listen to the river.",
+    "zh": "敲门都不应，倚杖听江声。"
+  },
+  "plate": null
+}

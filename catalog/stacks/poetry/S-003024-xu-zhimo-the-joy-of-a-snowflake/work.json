@@ -1,0 +1,64 @@
+{
+  "id": "S-003024",
+  "slug": "xu-zhimo-the-joy-of-a-snowflake",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "雪花的快樂",
+    "en": "The Joy of a Snowflake",
+    "zh": "雪花的快乐"
+  },
+  "author": {
+    "orig": "徐志摩",
+    "en": "Xu Zhimo",
+    "zh": "徐志摩",
+    "dates": "1897–1931"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "written 1924, published 1925",
+    "zh": "1924 年作，1925 年发表"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Transcribed by Claude from a scan of the revised edition of Zhimo's Poems (志摩的詩, Crescent Moon Book Co., 1928; 1930 printing) on Wikimedia Commons, and checked against the Wikisource text; first published in Contemporary Review (現代評論) 1:6, 17 January 1925.",
+    "zh": "据维基共享资源所藏《志摩的诗》修订版（新月书店 1928 年版，1930 年再版）扫描页，由 Claude 校录，并与维基文库本对校；初刊于 1925 年 1 月 17 日《现代评论》第一卷第六期。"
+  },
+  "source": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:CADAL3007713_志摩的詩.djvu",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1925; the author died in 1931. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1925 年首次发表，作者卒于 1931 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The poem that opens the revised edition of Xu Zhimo's first book: a snowflake that knows its direction, refuses the cold valley and the empty street, and melts at last into the heart of the one it loves. Snow is one of this library's oldest images, and this is snow that is glad. Notice the refrain 飛颺 (flying, soaring), which in the last stanza becomes 消溶 (melting), here not a loss but an arrival.",
+    "zh": "徐志摩第一本诗集修订版的开篇之作：一朵认清自己方向的雪花，不去冷寞的幽谷，不上荒街，最后消溶在所爱之人柔波似的心胸里。雪是这座图书馆最老的意象之一，而这是一场快乐的雪。留意那句叠唱“飞飏”，在最后一节变成了“消溶”；在这里，消溶不是失去，而是抵达。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "joy",
+    "direction",
+    "love"
+  ],
+  "excerpt": {
+    "orig": "假如我是一朵雪花，翩翩的在半空裏瀟灑，我一定認清我的方向——",
+    "en": "If I were a snowflake drifting freely in mid-air, I would know my direction.",
+    "zh": "假如我是一朵雪花，翩翩的在半空里潇洒，我一定认清我的方向——"
+  },
+  "plate": null
+}

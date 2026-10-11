@@ -1,0 +1,64 @@
+{
+  "id": "S-004007",
+  "slug": "keats-to-autumn",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "To Autumn",
+    "en": "To Autumn",
+    "zh": "秋颂"
+  },
+  "author": {
+    "orig": "John Keats",
+    "en": "John Keats",
+    "zh": "约翰·济慈",
+    "dates": "1795–1821"
+  },
+  "year": 1820,
+  "year_display": {
+    "en": "written 1819; published 1820",
+    "zh": "1819 年作，1820 年出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text of Lamia, Isabella, The Eve of St. Agnes, and Other Poems (1820), from M. Robertson’s 1909 reprint on Project Gutenberg (eBook 23684); stanza numbers omitted",
+    "zh": "据古登堡计划电子书 23684（罗伯逊 1909 年重印的 1820 年诗集）；略去诗节编号"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/23684/pg23684.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1820; the author died in 1821.",
+      "zh": "1820 年出版；作者卒于 1821 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Written in September 1819 after a walk near Winchester, this is often called the most perfect short poem in English. It moves through a single day and a single season at once, from ripening morning to swallows gathering at dusk. Nothing in it argues; it simply attends, and that is the lesson.",
+    "zh": "1819 年 9 月济慈在温彻斯特附近散步后写成，常被称为英语里最完美的短诗。它同时走过一天和一个季节：从成熟的早晨，到黄昏时聚集的燕子。诗里什么也不争辩，只是专注地看——这就是它教人的东西。"
+  },
+  "pick": null,
+  "tags": [
+    "autumn",
+    "harvest",
+    "seasons",
+    "romanticism"
+  ],
+  "excerpt": {
+    "orig": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;",
+    "en": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;",
+    "zh": "雾气与醇熟丰饶的季节，\n你是那催熟万物的太阳的知心密友；"
+  },
+  "plate": null
+}

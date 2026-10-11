@@ -1,0 +1,69 @@
+{
+  "id": "S-004102",
+  "slug": "andersen-the-snow-queen",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Snedronningen",
+    "en": "The Snow Queen: A Tale in Seven Stories",
+    "zh": "冰雪女王：七个故事组成的童话"
+  },
+  "author": {
+    "orig": "Hans Christian Andersen",
+    "en": "Hans Christian Andersen",
+    "zh": "汉斯·克里斯蒂安·安徒生",
+    "dates": "1805–1875"
+  },
+  "year": 1844,
+  "year_display": {
+    "en": "1844; translated 1872",
+    "zh": "1844 年作；1872 年英译"
+  },
+  "translator": {
+    "name": "Mrs. H. B. Paull (Susannah Mary Paull)",
+    "dates": "1812–1888",
+    "year": 1872
+  },
+  "edition": {
+    "en": "Translation by Mrs. H. B. Paull (Susannah Mary Paull) in Hans Andersen’s Fairy Tales (London: Frederick Warne), from the scan-backed transcription on Wikisource; translator’s footnote omitted",
+    "zh": "据维基文库依扫描本校录的保罗夫人（苏珊娜·玛丽·保罗）译本，收入《安徒生童话》（伦敦：弗雷德里克·沃恩）；略去译者注"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Hans_Andersen's_Fairy_Tales/The_Snow_Queen",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1844; the author died in 1875; Mrs. Paull’s translation was published in 1872 and she died in 1888.",
+      "zh": "1844 年出版，作者卒于 1875 年；保罗夫人的译本 1872 年出版，译者卒于 1888 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "One of Andersen’s longest tales, in seven stories. A splinter of a demon’s mirror freezes a boy’s heart, and a girl walks barefoot to the far north to fetch him back. The Chinese translation covers the Seventh Story only, in the Snow Queen’s palace, where Kay tries to spell “Eternity” in ice and cannot, until he is found.",
+    "zh": "安徒生最长的童话之一，由七个故事组成。魔鬼镜子的一粒碎片冻住了一个男孩的心，一个女孩赤着脚一路走到极北去把他找回来。这里的中文译文只译了第七个故事：在冰雪女王的宫殿里，加伊想用冰块拼出“永恒”这个词却拼不出，直到有人找到了他。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "winter",
+    "fairy tale",
+    "friendship",
+    "eternity"
+  ],
+  "excerpt": {
+    "orig": "And they both sat there, grown up, yet children at heart; and it was summer,—warm, beautiful summer.",
+    "en": "And they both sat there, grown up, yet children at heart; and it was summer,—warm, beautiful summer.",
+    "zh": "他们俩就这样坐在那里，已经长大成人，却仍然有一颗孩子的心；那是夏天——温暖的、美丽的夏天。"
+  },
+  "plate": null
+}

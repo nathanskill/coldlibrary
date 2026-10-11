@@ -1,0 +1,64 @@
+{
+  "id": "S-002026",
+  "slug": "fan-zhongyan-yueyang-tower",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "岳陽樓記",
+    "en": "Yueyang Tower",
+    "zh": "岳阳楼记"
+  },
+  "author": {
+    "orig": "范仲淹",
+    "en": "Fan Zhongyan",
+    "zh": "范仲淹",
+    "dates": "989–1052"
+  },
+  "year": 1046,
+  "year_display": {
+    "en": "1046",
+    "zh": "1046 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/岳陽樓記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1052.",
+      "zh": "北宋散文，作者卒于 1052 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in 1046 by Fan Zhongyan at the request of Teng Zijing, who had rebuilt the tower above Lake Dongting. Two weathers on the lake bring two moods, and then the essay sets both aside for a steadier ideal. Its line about worrying before the world and rejoicing after it is one of the most quoted sentences in Chinese.",
+    "zh": "1046 年范仲淹应重修岳阳楼的滕子京之请而作。洞庭湖的两种天气带来两种心情，随后文章把两者都放下，转向一种更稳定的理想。“先天下之忧而忧，后天下之乐而乐”是中文里最常被引用的句子之一。"
+  },
+  "pick": null,
+  "tags": [
+    "lake",
+    "tower",
+    "weather",
+    "duty"
+  ],
+  "excerpt": {
+    "orig": "先天下之憂而憂，後天下之樂而樂",
+    "en": "Be the first to worry about the world's worries, and the last to enjoy the world's joys.",
+    "zh": "先天下之忧而忧，后天下之乐而乐"
+  },
+  "plate": null
+}

@@ -1,0 +1,63 @@
+{
+  "id": "S-002062",
+  "slug": "shen-kuo-rock-oil",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夢溪筆談·石油",
+    "en": "Rock Oil (Brush Talks from Dream Brook)",
+    "zh": "梦溪笔谈·石油"
+  },
+  "author": {
+    "orig": "沈括",
+    "en": "Shen Kuo",
+    "zh": "沈括",
+    "dates": "1031–1095"
+  },
+  "year": 1088,
+  "year_display": {
+    "en": "c. 1088",
+    "zh": "约 1088 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The entry on rock oil from book 24 of the Mengxi bitan, as given on Chinese Wikisource.",
+    "zh": "《梦溪笔谈》卷二十四记石油的一则，据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷24",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1095.",
+      "zh": "北宋散文，作者卒于 1095 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Shen Kuo's note on the oil seeping from the ground near Yanzhou, which he called shiyou, rock oil, the name Chinese still uses for petroleum. He used its soot to make ink and predicted that it would one day be widely used. Notice his reasoning: the pine forests that gave ink-makers their soot were already disappearing.",
+    "zh": "沈括记延州一带地下渗出的油，他称之为“石油”，中文至今沿用此名。他用其烟煤制墨，并预言此物“后必大行于世”。留意他的理由：供制墨取烟的松林已在消失。"
+  },
+  "pick": null,
+  "tags": [
+    "petroleum",
+    "ink",
+    "forests"
+  ],
+  "excerpt": {
+    "orig": "此物後必大行於世，自余始為之。",
+    "en": "This substance will surely come into wide use in later times, and it began with me.",
+    "zh": "此物后必大行于世，自余始为之。"
+  },
+  "plate": null
+}

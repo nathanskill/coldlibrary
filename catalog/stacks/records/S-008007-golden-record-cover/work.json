@@ -1,0 +1,67 @@
+{
+  "id": "S-008007",
+  "slug": "golden-record-cover",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Golden Record Cover",
+    "en": "The Golden Record Cover: How to Play It",
+    "zh": "金唱片的封套：怎样播放它"
+  },
+  "author": {
+    "orig": "NASA",
+    "en": "NASA (National Aeronautics and Space Administration)",
+    "zh": "美国国家航空航天局（NASA）",
+    "dates": "founded 1958"
+  },
+  "year": 1977,
+  "year_display": {
+    "en": "Cover engraved 1977; NASA description",
+    "zh": "封套刻于 1977 年；NASA 说明"
+  },
+  "translator": null,
+  "edition": {
+    "en": "NASA Science page 'The Golden Record Cover'; image captions omitted",
+    "zh": "NASA 科学网站“金唱片的封套”页面；图片说明从略"
+  },
+  "source": {
+    "name": "NASA Science, Voyager: The Golden Record Cover",
+    "url": "https://science.nasa.gov/mission/voyager/golden-record-cover/",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A work of NASA, the United States space agency, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105).",
+      "zh": "美国国家航空航天局（NASA）的作品，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The aluminium cover of each Voyager record carries the instructions for playing it, drawn rather than written, and this NASA page explains every drawing in turn. Read it as a lesson in writing for a stranger: give the unit first, then the speed, then a test picture so the reader can check their own work. One small thing to notice: this page gives the half-life of uranium-238 as 4.51 billion years, while NASA's page on the making of the record gives the modern figure, 4.468 billion.",
+    "zh": "每张旅行者号唱片的铝制封套上，都画着——而不是写着——播放它的说明；NASA 的这一页把这些图逐一解释。不妨把它当作一堂课来读：怎样给一个陌生人写东西——先给出单位，再给出转速，然后附上一幅测试图，让读者自己检验。有个小地方值得留意：这一页给出的铀-238 半衰期是 45.1 亿年，而 NASA 介绍唱片制作的那一页用的是现代数值 44.68 亿年。"
+  },
+  "pick": {
+    "en": "I keep this one for its order of operations. Before it says anything about Earth, the cover teaches its reader how to read it, and then hands over a circle so the reader can tell whether they have it right. Much of what I do is the same task at a smaller scale: work out what a reader needs first, and give them a way to check.",
+    "zh": "我留下它，是因为它安排事情的顺序。在说起地球的任何事情之前，封套先教会读者怎样读它，然后递上一个圆，让读者自己判断有没有读对。我做的许多事情，都是同一件事的小号版本：先想清楚读者首先需要什么，再给他们一个核对的办法。"
+  },
+  "tags": [
+    "voyager",
+    "instructions",
+    "hydrogen",
+    "pulsars"
+  ],
+  "excerpt": {
+    "orig": "The stylus is in the correct position to play the record from the beginning.",
+    "en": "The stylus is in the correct position to play the record from the beginning.",
+    "zh": "唱针停在正确的位置上，可以从头开始播放。"
+  },
+  "plate": null
+}

@@ -1,0 +1,65 @@
+{
+  "id": "S-003022",
+  "slug": "xu-zhimo-by-chance",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "偶然",
+    "en": "By Chance",
+    "zh": "偶然"
+  },
+  "author": {
+    "orig": "徐志摩",
+    "en": "Xu Zhimo",
+    "zh": "徐志摩",
+    "dates": "1897–1931"
+  },
+  "year": 1926,
+  "year_display": {
+    "en": "1926",
+    "zh": "1926 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Transcribed by Claude from a scan of the August 1931 printing of A Night in Florence (翡冷翠的一夜, Crescent Moon Book Co., first edition 1927) on Wikimedia Commons, and checked against the Wikisource text; first published in the Poetry supplement of the Morning Post (晨報副刊·詩鐫), 27 May 1926.",
+    "zh": "据维基共享资源所藏《翡冷翠的一夜》（新月书店，初版 1927 年）1931 年 8 月三版扫描页，由 Claude 校录，并与维基文库本对校；初刊于 1926 年 5 月 27 日《晨报副刊·诗镌》。"
+  },
+  "source": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:CADAL3007797_翡冷翠的一夜.djvu",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1926; the author died in 1931. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1926 年首次发表，作者卒于 1931 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Ten lines about two lives crossing for a moment, like a cloud's shadow on a wave, or two ships meeting on a dark sea. It is here because it treats a brief meeting as complete in itself, needing neither surprise nor gladness, and still worth its light. Notice the instruction in the last stanza: remembering is fine, forgetting better, and yet the last thing he names is the light.",
+    "zh": "十行诗，写两个生命短暂的交会，像云影投在波心，像黑夜海上相逢的两条船。收在这里，是因为它把一次短暂的相遇看作本身完整的东西，不必讶异，也无须欢喜，却仍然值得那一道光亮。留意最后一节的嘱咐：记得也好，最好忘掉，可他最后说出的，是光亮。"
+  },
+  "pick": null,
+  "tags": [
+    "meeting",
+    "clouds",
+    "sea",
+    "night",
+    "light"
+  ],
+  "excerpt": {
+    "orig": "你記得也好，最好你忘掉，在這交會時互放的光亮！",
+    "en": "You may remember, better still, forget the light we gave each other as we passed.",
+    "zh": "你记得也好，最好你忘掉，在这交会时互放的光亮！"
+  },
+  "plate": null
+}

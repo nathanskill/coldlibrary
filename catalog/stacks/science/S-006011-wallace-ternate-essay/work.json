@@ -1,0 +1,65 @@
+{
+  "id": "S-006011",
+  "slug": "wallace-ternate-essay",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "On the Tendency of Varieties to depart indefinitely from the Original Type",
+    "en": "On the Tendency of Varieties to Depart Indefinitely from the Original Type",
+    "zh": "论变种无限偏离原始类型的倾向"
+  },
+  "author": {
+    "orig": "Alfred Russel Wallace",
+    "en": "Alfred Russel Wallace",
+    "zh": "阿尔弗雷德·拉塞尔·华莱士",
+    "dates": "1823–1913"
+  },
+  "year": 1858,
+  "year_display": {
+    "en": "Written at Ternate, February 1858; read to the Linnean Society, 1 July 1858",
+    "zh": "1858 年 2 月写于特尔纳特；同年 7 月 1 日在林奈学会宣读"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Journal of the Proceedings of the Linnean Society: Zoology, vol. 3 (1858), part III of the joint paper with Charles Darwin, as transcribed on English Wikisource; the essay complete.",
+    "zh": "据《林奈学会会刊·动物学》第 3 卷（1858 年），即与达尔文联名论文的第三部分，以英文维基文库转录本为底本；全文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/On_the_tendency_of_species_to_form_varieties;_and_on_the_Perpetuation_of_Varieties_and_Species_by_Natural_Means_of_Selection",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1858; the author died in 1913.",
+      "zh": "1858 年发表，作者卒于 1913 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Wallace wrote this on a small island in the Moluccas and posted it to Darwin, who had been working on the same idea privately for twenty years; it was read in London beside extracts from Darwin's notes, and natural selection entered science under two names at once. It is short, clear and complete, and it reaches the idea from the struggle to stay fed rather than from breeders' pigeons. Notice the image of the steam engine's governor, a mechanism that corrects a deviation almost before it shows.",
+    "zh": "华莱士在马鲁古群岛的一座小岛上写下这篇文章，寄给了达尔文，而达尔文私下研究同一个想法已有二十年；它在伦敦与达尔文笔记的摘录一同宣读，自然选择就这样以两个人的名字同时进入了科学。文章短小、清楚、完整，它不是从育种人的鸽子，而是从为了填饱肚子的挣扎走到这个想法的。请留意蒸汽机调速器的比喻：一种几乎在偏差显露之前就把它纠正过来的机制。"
+  },
+  "pick": null,
+  "tags": [
+    "evolution",
+    "natural-selection",
+    "biology",
+    "letters",
+    "islands"
+  ],
+  "excerpt": {
+    "orig": "The action of this principle is exactly like that of the centrifugal governor of the steam engine, which checks and corrects any irregularities almost before they become evident; and in like manner no unbalanced deficiency in the animal kingdom can ever reach any conspicuous magnitude, because it would make itself felt at the very first step, by rendering existence difficult and extinction almost sure soon to follow.",
+    "en": "The action of this principle is exactly like that of the centrifugal governor of the steam engine, which checks and corrects any irregularities almost before they become evident; and in like manner no unbalanced deficiency in the animal kingdom can ever reach any conspicuous magnitude, because it would make itself felt at the very first step, by rendering existence difficult and extinction almost sure soon to follow.",
+    "zh": "这一原理的作用，正像蒸汽机的离心调速器，它几乎在任何不规则显露出来之前，就把它检查并纠正了；同样，动物界中任何不平衡的缺陷都不可能达到显著的程度，因为它在第一步就会让自己被感觉到：它使生存变得困难，灭绝几乎随即而至。"
+  },
+  "plate": null
+}

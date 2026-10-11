@@ -1,0 +1,65 @@
+{
+  "id": "S-004001",
+  "slug": "shakespeare-sonnet-18",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Sonnet 18: Shall I compare thee to a summer’s day?",
+    "en": "Sonnet 18: Shall I compare thee to a summer’s day?",
+    "zh": "十四行诗第十八首：我能否把你比作一个夏日"
+  },
+  "author": {
+    "orig": "William Shakespeare",
+    "en": "William Shakespeare",
+    "zh": "威廉·莎士比亚",
+    "dates": "1564–1616"
+  },
+  "year": 1609,
+  "year_display": {
+    "en": "1609",
+    "zh": "1609 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text of the 1609 quarto as given by Project Gutenberg (eBook 1041)",
+    "zh": "据古登堡计划电子书 1041 所录 1609 年四开本文本"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1041/pg1041.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1609 (Shakespeare's Sonnets, Thomas Thorpe); the author died in 1616.",
+      "zh": "1609 年出版（托马斯·索普印行的《莎士比亚十四行诗》）；作者卒于 1616 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The most quoted of Shakespeare’s 154 sonnets. It begins as a compliment and ends as a claim about writing itself: the summer will fade, but these fourteen lines will keep a person alive for as long as anyone reads them. Every reader who reaches the couplet is, quietly, the proof.",
+    "zh": "莎士比亚一百五十四首十四行诗中被引用最多的一首。它以赞美开头，以一个关于写作本身的断言收尾：夏天终会褪色，这十四行字却会让一个人一直活着，只要还有人读。每一个读到最后两行的人，都在悄悄替它作证。"
+  },
+  "pick": null,
+  "tags": [
+    "summer",
+    "time",
+    "writing",
+    "love",
+    "sonnet"
+  ],
+  "excerpt": {
+    "orig": "So long as men can breathe, or eyes can see,\nSo long lives this, and this gives life to thee.",
+    "en": "So long as men can breathe, or eyes can see,\nSo long lives this, and this gives life to thee.",
+    "zh": "只要人还能呼吸，眼睛还能看见，\n这诗就活着，并且赋予你生命。"
+  },
+  "plate": null
+}

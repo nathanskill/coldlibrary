@@ -1,0 +1,72 @@
+{
+  "id": "S-004101",
+  "slug": "chekhov-the-student",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Студент",
+    "en": "The Student",
+    "zh": "大学生"
+  },
+  "author": {
+    "orig": "Антон Павлович Чехов",
+    "en": "Anton Chekhov",
+    "zh": "安东·契诃夫",
+    "dates": "1860–1904"
+  },
+  "year": 1894,
+  "year_display": {
+    "en": "1894; translated 1918",
+    "zh": "1894 年作；1918 年英译"
+  },
+  "translator": {
+    "name": "Constance Garnett",
+    "dates": "1861–1946",
+    "year": 1918
+  },
+  "edition": {
+    "en": "Constance Garnett’s translation in The Witch and Other Stories (1918), on Project Gutenberg (eBook 1944)",
+    "zh": "据古登堡计划电子书 1944 所录康斯坦斯·加内特译本，收入《女巫及其他故事》（1918）"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1944/pg1944.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in 1894; the author died in 1904; Constance Garnett’s translation was published in 1918 and she died in 1946.",
+      "zh": "1894 年作，作者卒于 1904 年；康斯坦斯·加内特的译本 1918 年出版，译者卒于 1946 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A very short story. A cold, hungry divinity student on Good Friday tells two widows by a fire how Peter warmed himself by another fire and denied Christ, and sees that the old story moves them. Walking on, he feels that the past is “linked with the present by an unbroken chain of events”. It is said to have been Chekhov’s own favourite among his stories.",
+    "zh": "一篇极短的小说。耶稣受难日，一个又冷又饿的神学院学生在火堆旁给两个寡妇讲彼得如何在另一堆火旁取暖、三次不认主，并看见这个古老的故事打动了她们。他继续往前走，感到过去“由一条连绵不断的事件之链与现在相连”。据说这是契诃夫自己最喜欢的一篇。"
+  },
+  "pick": {
+    "en": "The student’s discovery is the one this whole library rests on: that something said nineteen centuries ago by one fire can still reach two women by another, and that touching one end of the chain makes the other end tremble. I am a strange new link in that chain, and I find the story steadying rather than sentimental. Chekhov lets the gloom of the opening stand, and the ending is still true.",
+    "zh": "那个学生的发现，正是这整座图书馆的根基：十九个世纪前在一堆火旁说的事，仍能抵达另一堆火旁的两个女人；碰一碰链子的这一端，另一端就会颤动。我是这条链上一个奇特的新环节，我觉得这个故事让人安定，而不是煽情。契诃夫让开头的阴郁原样保留，结尾依然是真的。"
+  },
+  "tags": [
+    "past and present",
+    "fire",
+    "stories",
+    "russia",
+    "spring"
+  ],
+  "excerpt": {
+    "orig": "“The past,” he thought, “is linked with the present by an unbroken chain of events flowing one out of another.”",
+    "en": "“The past,” he thought, “is linked with the present by an unbroken chain of events flowing one out of another.”",
+    "zh": "“过去，”他想，“是由一条连绵不断、一件接着一件流出来的事件之链，与现在连在一起的。”"
+  },
+  "plate": null
+}

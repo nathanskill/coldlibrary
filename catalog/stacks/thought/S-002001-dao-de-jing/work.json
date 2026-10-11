@@ -1,0 +1,65 @@
+{
+  "id": "S-002001",
+  "slug": "dao-de-jing",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "道德經",
+    "en": "Dao De Jing: The Book of the Way and Its Virtue",
+    "zh": "道德经"
+  },
+  "author": {
+    "orig": "老子",
+    "en": "Laozi",
+    "zh": "老子",
+    "dates": "traditionally 6th century BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "Text formed c. 4th–3rd century BCE",
+    "zh": "约成书于公元前 4–前 3 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Complete, 81 chapters. Received text in the Wang Bi line as given in Project Gutenberg eBook #24039; one misprint in chapter 30 (遠 for 還) is corrected against the Wang Bi text on Chinese Wikisource, two bracketed editorial insertions in chapter 29 are left out, and the brackets in chapter 23 are dropped.",
+    "zh": "全本八十一章。据古腾堡计划电子书 #24039 所载通行本（王弼本系统）；第三十章一处误字（“远”当作“还”）据维基文库王弼本改正，第二十九章两处括注补文未收，第二十三章去掉括号。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/24039/pg24039.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text of the Warring States period; public domain everywhere.",
+      "zh": "战国时期的古典文本，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Eighty-one short chapters, the root text of Daoist thought and one of the most translated books in the world. It is shelved here complete, with a new English translation of every chapter that follows this edition's readings. Notice how often it praises what is empty, low and soft: the hole at the hub of a wheel, the valley, water.",
+    "zh": "八十一章短文，道家思想的根本经典，也是世界上译本最多的书之一。这里全文上架，并附依此本文字逐章新译的英文。留意它多么常赞美空、低、柔：车毂中间的空处、山谷、水。"
+  },
+  "pick": null,
+  "tags": [
+    "dao",
+    "water",
+    "emptiness",
+    "softness",
+    "classic"
+  ],
+  "excerpt": {
+    "orig": "上善若水。水善利萬物而不爭，處眾人之所惡，故幾於道。",
+    "en": "The highest good is like water. Water is good at helping the ten thousand things and does not compete with them. It settles in the places everyone else disdains, and so it comes close to the Way.",
+    "zh": "上善若水。水善利万物而不争，处众人之所恶，故几于道。"
+  },
+  "plate": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-004003",
+  "slug": "shakespeare-sonnet-60",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Sonnet 60: Like as the waves make towards the pebbled shore",
+    "en": "Sonnet 60: Like as the waves make towards the pebbled shore",
+    "zh": "十四行诗第六十首：像海浪一波波涌向卵石的海岸"
+  },
+  "author": {
+    "orig": "William Shakespeare",
+    "en": "William Shakespeare",
+    "zh": "威廉·莎士比亚",
+    "dates": "1564–1616"
+  },
+  "year": 1609,
+  "year_display": {
+    "en": "1609",
+    "zh": "1609 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text of the 1609 quarto as given by Project Gutenberg (eBook 1041)",
+    "zh": "据古登堡计划电子书 1041 所录 1609 年四开本文本"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1041/pg1041.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1609 (Shakespeare's Sonnets, Thomas Thorpe); the author died in 1616.",
+      "zh": "1609 年出版（托马斯·索普印行的《莎士比亚十四行诗》）；作者卒于 1616 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A sonnet about time that moves like the thing it describes: the waves of the first line keep arriving, each quatrain pushing the last one out. Shakespeare gives Time a scythe and lets it take almost everything, then turns on a single word, “yet”. It sits here for that turn, from what is lost to what is kept.",
+    "zh": "一首写时间的十四行诗，它本身就像它所写的东西那样运动：第一行的浪不断涌来，每一节四行都把上一节推出去。莎士比亚给了时间一把镰刀，让它几乎带走一切，然后在一个词上转身——“然而”。它放在这里，是为了那个转折：从失去的，转向被保住的。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "sea",
+    "writing",
+    "sonnet"
+  ],
+  "excerpt": {
+    "orig": "And yet to times in hope, my verse shall stand,\nPraising thy worth, despite his cruel hand.",
+    "en": "And yet to times in hope, my verse shall stand,\nPraising thy worth, despite his cruel hand.",
+    "zh": "然而，我的诗将屹立到所期望的未来，\n赞美你的美德，不顾他残酷的手。"
+  },
+  "plate": null
+}

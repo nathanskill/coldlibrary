@@ -1,0 +1,61 @@
+{
+  "id": "G-009008",
+  "slug": "hokusai-moonlight-on-the-yodo-river",
+  "title": {
+    "orig": "雪月花 淀川",
+    "en": "Moonlight on the Yodo River",
+    "zh": "雪月花 淀川"
+  },
+  "artist": {
+    "orig": "葛飾北斎",
+    "en": "Katsushika Hokusai",
+    "zh": "葛饰北斋",
+    "dates": "1760–1849"
+  },
+  "year": 1833,
+  "year_display": {
+    "en": "c. 1833",
+    "zh": "约 1833 年"
+  },
+  "medium": {
+    "en": "Woodblock print; ink and colour on paper",
+    "zh": "木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/55463",
+    "accession": "JP1429",
+    "credit_line": "Rogers Fund, 1922"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP141236.jpg",
+    "width": 1600,
+    "height": 1099,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1849. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1849 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A full moon hangs over the Yodo River at Osaka. Riverboats crowded with passengers glide on the blue water past the stone walls and white keep of a castle on the right, with low green banks and hills beyond.",
+    "zh": "满月悬在大阪的淀川上空。载满乘客的船在蓝色河面上滑行，经过右侧的石垣和白色城楼；远处是低矮的绿岸和山丘。"
+  },
+  "note": {
+    "en": "Hokusai's series Snow, Moon and Flowers sets each of the three classical pleasures at a famous place; the moon is given to the Yodo, with Osaka Castle at the water's edge. The night is not dark at all but a clear blue evening, and the moon is a pale disc. It is a picture of people out on the water together, enjoying the light.",
+    "zh": "北斋的《雪月花》把三种古典的赏玩各放在一处名胜：月给了淀川，大阪城就在水边。这一夜一点也不黑，是一个清亮的蓝色傍晚，月亮只是一枚淡淡的圆。画的是人们一起到水上去，享受这份光。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "river",
+    "night",
+    "boats"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-002045",
+  "slug": "nine-chapters-base-and-upright",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "九章算術·句股（節選）",
+    "en": "The Nine Chapters on the Mathematical Art: Base and Upright (excerpt)",
+    "zh": "九章算术·勾股（节选）"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous (Han dynasty compilers)",
+    "zh": "佚名（汉代编者）",
+    "dates": "compiled c. 1st century BCE – 1st century CE"
+  },
+  "year": 50,
+  "year_display": {
+    "en": "Compiled by the 1st century CE",
+    "zh": "成书不晚于公元 1 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Problems 1 to 7 and 13 of chapter 9, as given on the main Jiuzhang suanshu page of Chinese Wikisource; the problem numbers and the commentaries are not included.",
+    "zh": "卷九第一至七题及第十三题，据维基文库《九章算术》主页面；不录题号与注文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/九章算術",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Han dynasty mathematical text; public domain everywhere.",
+      "zh": "汉代算书，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The opening problems of the ninth chapter of The Nine Chapters on the Mathematical Art, the chapter on right triangles, compiled under the Han. The rule for finding the hypotenuse from base and upright is stated in general form, then applied to a log, a vine, a reed in a pond, a rope and a broken bamboo. Notice that every problem is a picture of an ordinary thing, and every answer can be checked with a few lines of arithmetic.",
+    "zh": "《九章算术》卷九“勾股”的开头几题，此书成于汉代。先以一般形式给出由勾、股求弦之术，再用于圆木、葛藤、池中芦苇、绳索和折竹。留意每道题都是一件寻常事物的图景，每个答案都能用几行算术验算。"
+  },
+  "pick": null,
+  "tags": [
+    "mathematics",
+    "geometry",
+    "right-triangle",
+    "problems"
+  ],
+  "excerpt": {
+    "orig": "今有池方一丈，葭生其中央，出水一尺。引葭赴岸，適與岸齊。問：水深、葭長各幾何？",
+    "en": "Suppose there is a square pond ten feet on a side, with a reed growing in the middle that stands one foot above the water. If the reed is pulled towards the bank, it just reaches the edge. How deep is the water, and how long is the reed?",
+    "zh": "今有池方一丈，葭生其中央，出水一尺。引葭赴岸，适与岸齐。问：水深、葭长各几何？"
+  },
+  "plate": null
+}

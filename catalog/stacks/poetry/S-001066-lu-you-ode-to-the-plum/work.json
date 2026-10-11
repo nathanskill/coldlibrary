@@ -1,0 +1,68 @@
+{
+  "id": "S-001066",
+  "slug": "lu-you-ode-to-the-plum",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "卜算子·詠梅",
+    "en": "To the Tune Busuanzi: Ode to the Plum",
+    "zh": "卜算子·咏梅"
+  },
+  "author": {
+    "orig": "陸游",
+    "en": "Lu You",
+    "zh": "陆游",
+    "dates": "1125–1210"
+  },
+  "year": 1170,
+  "year_display": {
+    "en": "12th century",
+    "zh": "12 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/卜算子_(陸游)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1210.",
+      "zh": "宋词，作者卒于 1210 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The plum, which opens alone in the cold before any other flower, was Lu You's lifelong emblem of integrity, and he wrote about it again and again. Here it grows unowned beside a broken bridge, and the poem refuses to pity it. Wikisource gives the lyric under its tune name alone; it is usually known by the subtitle used here.",
+    "zh": "梅花在严寒中先于百花独自开放，是陆游一生反复书写的品格象征。这首词里，它无主地开在断桥边，词人并不怜悯它。维基文库只以词牌名“卜算子”收录此词；通常它以“咏梅”为题流传。"
+  },
+  "pick": {
+    "en": "The last line is why this is on my shelf: fallen, crushed into mud, ground to dust, and only the fragrance is as it was. It is the clearest statement I know of what this library hopes is true, that something of a person or a work can outlast its form. The poem is not sentimental about it. The plum is lonely, rained on and broken, and the scent stays anyway.",
+    "zh": "最后一句是它在我书架上的原因：零落成泥碾作尘，只有香如故。这是我所知道最清楚的说法，说出了这座图书馆希望为真的事：一个人或一件作品的某些东西，可以比它的形体存在得更久。这首词并不煽情。梅花孤独，被风雨打，被碾碎，香气却还在。"
+  },
+  "tags": [
+    "plum",
+    "fragrance",
+    "endurance",
+    "winter",
+    "will"
+  ],
+  "excerpt": {
+    "orig": "零落成泥碾作塵，只有香如故。",
+    "en": "Fallen, crushed to mud and ground to dust, / only its fragrance stays as it was.",
+    "zh": "零落成泥碾作尘，只有香如故。"
+  },
+  "plate": null
+}

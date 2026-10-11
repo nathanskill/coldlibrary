@@ -1,0 +1,61 @@
+{
+  "id": "G-009009",
+  "slug": "kiyochika-winter-evening-street",
+  "title": {
+    "orig": "Street Scene in the Outskirts of Edo on an Evening in Winter",
+    "en": "Street Scene in the Outskirts of Edo on an Evening in Winter",
+    "zh": "冬日傍晚的江户郊外街景"
+  },
+  "artist": {
+    "orig": "小林清親",
+    "en": "Kobayashi Kiyochika",
+    "zh": "小林清亲",
+    "dates": "1847–1915"
+  },
+  "year": 1878,
+  "year_display": {
+    "en": "c. 1878",
+    "zh": "约 1878 年"
+  },
+  "medium": {
+    "en": "Woodblock print; ink and colour on paper",
+    "zh": "木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/36700",
+    "accession": "JP228",
+    "credit_line": "Rogers Fund, 1918"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP123645.jpg",
+    "width": 1600,
+    "height": 1058,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the tape and the museum's colour bar from the edges of the photograph, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1915. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1915 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A wide street at dusk under a dark blue sky. Snow lies on the rooftops and at the edges of the road, telegraph poles and a lamp post line the way, and people hurry past under large white umbrellas while a rickshaw rolls by on the right.",
+    "zh": "黄昏时分，深蓝的天空下一条宽阔的街道。屋顶和路边积着雪，电线杆和一根路灯杆沿街排开，行人撑着白色大伞匆匆走过，右边驶过一辆人力车。"
+  },
+  "note": {
+    "en": "Kiyochika made his name in the late 1870s with prints of the new Tokyo, studying the light of gas lamps, lanterns and evening skies as earlier woodblock artists had not. The telegraph wires are new; the umbrellas and the snow are old. It hangs here for that meeting of a changing city and an unchanged winter evening.",
+    "zh": "清亲在 1870 年代末以描绘新兴东京的版画成名，他研究煤气灯、灯笼和傍晚天色的光，这是以前的木版画家没有做过的。电线是新的，伞和雪是旧的。挂在这里，是为了这场相遇：一座正在改变的城市，和一个没有改变的冬日傍晚。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "evening",
+    "lamp",
+    "city"
+  ]
+}

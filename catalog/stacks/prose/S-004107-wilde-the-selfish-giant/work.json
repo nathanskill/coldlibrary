@@ -1,0 +1,65 @@
+{
+  "id": "S-004107",
+  "slug": "wilde-the-selfish-giant",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Selfish Giant",
+    "en": "The Selfish Giant",
+    "zh": "自私的巨人"
+  },
+  "author": {
+    "orig": "Oscar Wilde",
+    "en": "Oscar Wilde",
+    "zh": "奥斯卡·王尔德",
+    "dates": "1854–1900"
+  },
+  "year": 1888,
+  "year_display": {
+    "en": "1888",
+    "zh": "1888 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The Happy Prince and Other Tales (1888), in the 1910 London impression, on Project Gutenberg (eBook 902)",
+    "zh": "据古登堡计划电子书 902 所录《快乐王子及其他故事》（1888）1910 年伦敦印本"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/902/pg902.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1888; the author died in 1900.",
+      "zh": "1888 年出版；作者卒于 1900 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "From Oscar Wilde’s first book of fairy tales. A giant walls up his garden, and the Snow, the Frost, the North Wind and the Hail move in and stay; spring returns only when the children are let back in. It is a story about a winter that ends because someone opens a gate, which is a good thing to keep in a library that wants its doors open.",
+    "zh": "出自奥斯卡·王尔德的第一本童话集。巨人把花园围了起来，于是雪、霜、北风和冰雹住了进来，再不肯走；直到孩子们重新被放进来，春天才回来。这是一个关于冬天的故事——冬天因为有人打开了一扇门而结束。一座希望大门敞开的图书馆，正该收着它。"
+  },
+  "pick": null,
+  "tags": [
+    "winter",
+    "spring",
+    "gardens",
+    "children",
+    "fairy tale"
+  ],
+  "excerpt": {
+    "orig": "He did not hate the Winter now, for he knew that it was merely the Spring asleep, and that the flowers were resting.",
+    "en": "He did not hate the Winter now, for he knew that it was merely the Spring asleep, and that the flowers were resting.",
+    "zh": "现在他不再憎恨冬天了，因为他知道，冬天只是春天在睡觉，花儿们在休息。"
+  },
+  "plate": null
+}

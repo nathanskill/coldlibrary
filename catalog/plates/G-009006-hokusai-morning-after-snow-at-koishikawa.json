@@ -1,0 +1,61 @@
+{
+  "id": "G-009006",
+  "slug": "hokusai-morning-after-snow-at-koishikawa",
+  "title": {
+    "orig": "冨嶽三十六景 礫川雪の旦",
+    "en": "Morning after the Snow at Koishikawa in Edo",
+    "zh": "富岳三十六景 砾川雪之旦"
+  },
+  "artist": {
+    "orig": "葛飾北斎",
+    "en": "Katsushika Hokusai",
+    "zh": "葛饰北斋",
+    "dates": "1760–1849"
+  },
+  "year": 1830,
+  "year_display": {
+    "en": "c. 1830–32",
+    "zh": "约 1830–32 年"
+  },
+  "medium": {
+    "en": "Woodblock print; ink and colour on paper",
+    "zh": "木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/55288",
+    "accession": "JP1330",
+    "credit_line": "Rogers Fund, 1922"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP141015.jpg",
+    "width": 1600,
+    "height": 1097,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1849. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1849 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "From the upper room of a teahouse on a snowy hill, a group of people look out across white rooftops toward Mount Fuji, small and snow-capped on the horizon, under a deep, graded blue sky.",
+    "zh": "雪后的山坡上，一群人在茶屋的楼上向外望，越过白色的屋顶，望向远处地平线上小小的、积雪的富士山；天空是层层加深的蓝。"
+  },
+  "note": {
+    "en": "From Thirty-six Views of Mount Fuji, the series that includes the Great Wave. Here the mountain is a small white shape far away, and the real subject is the moment after a snowfall when people go to the window to look. The blue is Prussian blue, then a newly imported pigment, which let Hokusai print skies this deep.",
+    "zh": "出自《富岳三十六景》，也就是收有《神奈川冲浪里》的那一组。这里富士山只是远处一小块白，真正的主题是一场雪之后，人们走到窗边去看的那一刻。那种蓝是普鲁士蓝，当时刚从海外传入的颜料，北斋因此能把天空印得这样深。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "morning",
+    "mountains",
+    "window"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-001010",
+  "slug": "cao-cao-though-the-tortoise-lives-long",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "龜雖壽",
+    "en": "Though the Tortoise Lives Long",
+    "zh": "龟虽寿"
+  },
+  "author": {
+    "orig": "曹操",
+    "en": "Cao Cao",
+    "zh": "曹操",
+    "dates": "155–220"
+  },
+  "year": 207,
+  "year_display": {
+    "en": "207",
+    "zh": "207 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/龜雖壽",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Eastern Han poem; the author died in 220.",
+      "zh": "东汉诗，作者卒于 220 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The last section of the same suite as Viewing the Blue Sea, written when Cao Cao was in his fifties. It admits at once that even the longest-lived creatures come to an end, and then refuses to let that be the point. 老骥伏枥，志在千里 became the phrase for ambition that does not age, and the poem's practical advice, that a calm mind lengthens life, is still sound.",
+    "zh": "与《观沧海》同属一组乐府，写于曹操五十多岁时。开头就承认再长寿的生灵也有尽头，随即拒绝让这成为重点。“老骥伏枥，志在千里”成了不随年老而衰的志向的代称；诗里那句很实在的话，心境平和可以延年，至今也还对。"
+  },
+  "pick": null,
+  "tags": [
+    "will",
+    "age",
+    "time",
+    "courage"
+  ],
+  "excerpt": {
+    "orig": "老驥伏櫪，志在千里；烈士暮年，壯心不已。",
+    "en": "The old warhorse lies in its stall, its heart still set on a thousand li; / a man of spirit in his later years does not give up his great heart.",
+    "zh": "老骥伏枥，志在千里；烈士暮年，壮心不已。"
+  },
+  "plate": null
+}

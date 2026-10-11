@@ -1,0 +1,63 @@
+{
+  "id": "S-004015",
+  "slug": "dickinson-hope-is-the-thing-with-feathers",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Hope is the thing with feathers",
+    "en": "Hope is the thing with feathers",
+    "zh": "希望是长着羽毛的东西"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1891,
+  "year_display": {
+    "en": "first published 1891",
+    "zh": "1891 年首次出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems, Second Series (1891), edited by T. W. Higginson and Mabel Loomis Todd, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《诗集·第二辑》（1891），希金森与托德编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1891, after the author’s death in 1886; the editors died in 1911 and 1932.",
+      "zh": "1891 年首次出版，作者已于 1886 年去世；两位编者分别卒于 1911 年和 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The editors of 1891 titled it simply “Hope”. Dickinson makes hope a small bird that sings in the worst weather and never asks to be fed. It sits next to the winter poems on this shelf, because that is where it does its work.",
+    "zh": "1891 年的编者给它加了个简单的题目“希望”。狄金森把希望写成一只小鸟：在最坏的天气里唱歌，从不讨一粒食。它放在这排架子上冬天的诗旁边，因为它就是在那里起作用的。"
+  },
+  "pick": null,
+  "tags": [
+    "hope",
+    "birds",
+    "winter"
+  ],
+  "excerpt": {
+    "orig": "Hope is the thing with feathers\nThat perches in the soul,",
+    "en": "Hope is the thing with feathers\nThat perches in the soul,",
+    "zh": "希望是长着羽毛的东西，\n它栖息在灵魂里，"
+  },
+  "plate": null
+}

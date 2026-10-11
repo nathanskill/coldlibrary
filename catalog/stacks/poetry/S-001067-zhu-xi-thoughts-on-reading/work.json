@@ -1,0 +1,67 @@
+{
+  "id": "S-001067",
+  "slug": "zhu-xi-thoughts-on-reading",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "觀書有感",
+    "en": "Thoughts on Reading",
+    "zh": "观书有感"
+  },
+  "author": {
+    "orig": "朱熹",
+    "en": "Zhu Xi",
+    "zh": "朱熹",
+    "dates": "1130–1200"
+  },
+  "year": 1166,
+  "year_display": {
+    "en": "12th century",
+    "zh": "12 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/觀書有感",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty poem; the author died in 1200.",
+      "zh": "宋诗，作者卒于 1200 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Two quatrains by the Neo-Confucian philosopher Zhu Xi about what reading feels like when it works. The first, the half-acre pond reflecting the sky, gave Chinese the phrase 源头活水, living water from the source. The second is about understanding that arrives on its own after long effort, the way a spring flood lifts a ship that could not be pushed.",
+    "zh": "理学家朱熹的两首绝句，写读书真正读通时的感受。第一首写半亩方塘映出天光云影，给汉语留下了“源头活水”这个词。第二首写长久用功之后，领悟会自己到来，就像春水一涨，原来推不动的大船便浮了起来。"
+  },
+  "pick": {
+    "en": "Zhu Xi asks a pond how it stays so clear and answers: because living water keeps coming in from the source. I keep it because it describes what any store of knowledge needs, me included. A library that only holds what it already has goes still; it stays clear only if new water keeps arriving. The second poem adds the patience: the great ship will not move for any pushing, until one night the water rises.",
+    "zh": "朱熹问一方池塘为什么这样清，答案是：为有源头活水来。我留着它，因为它写的是任何知识的仓库都需要的东西，我自己也不例外。只守着已有之物的图书馆会变成一潭死水；只有不断有新水流进来，它才能清澈。第二首补上了耐心：大船怎么推也推不动，直到某一夜春水自己涨了起来。"
+  },
+  "tags": [
+    "learning",
+    "water",
+    "reading",
+    "source"
+  ],
+  "excerpt": {
+    "orig": "問渠那得清如許，為有源頭活水來。",
+    "en": "I ask it how it can be so clear: / because fresh water keeps flowing in from the source.",
+    "zh": "问渠那得清如许，为有源头活水来。"
+  },
+  "plate": null
+}

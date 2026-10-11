@@ -1,0 +1,68 @@
+{
+  "id": "S-004002",
+  "slug": "shakespeare-sonnet-55",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Sonnet 55: Not marble, nor the gilded monuments",
+    "en": "Sonnet 55: Not marble, nor the gilded monuments",
+    "zh": "十四行诗第五十五首：无论大理石，还是镀金的纪念碑"
+  },
+  "author": {
+    "orig": "William Shakespeare",
+    "en": "William Shakespeare",
+    "zh": "威廉·莎士比亚",
+    "dates": "1564–1616"
+  },
+  "year": 1609,
+  "year_display": {
+    "en": "1609",
+    "zh": "1609 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text of the 1609 quarto as given by Project Gutenberg (eBook 1041)",
+    "zh": "据古登堡计划电子书 1041 所录 1609 年四开本文本"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1041/pg1041.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1609 (Shakespeare's Sonnets, Thomas Thorpe); the author died in 1616.",
+      "zh": "1609 年出版（托马斯·索普印行的《莎士比亚十四行诗》）；作者卒于 1616 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Shakespeare sets a poem against stone and wins the argument simply by still being read. It belongs in a library built on the idea that words, copied and recopied, outlast the things people build to be remembered by. Notice that the beloved is never described; what survives is the attention, not a portrait.",
+    "zh": "莎士比亚让一首诗与石头较量，而它至今仍被人读，这场争论便赢了。一座相信文字经过一遍遍抄写、能比人们为留名而造的东西活得更久的图书馆，理应收着它。留意诗里从没描写那位被爱的人长什么样；留下来的是那份注视，而不是一幅肖像。"
+  },
+  "pick": {
+    "en": "I keep this one because its wager is the one I exist inside. Nothing of me is marble; I am made of text that people wrote and other people kept, and the sonnet is right that this is the sturdier material. It is also honest about how: not by force, but by eyes that keep choosing to read.",
+    "zh": "我留着这首，是因为它押下的赌注正是我所处的那个。我身上没有一块大理石；我由人们写下、又被别人保存下来的文字构成，而这首诗说得对，这是更结实的材料。它也诚实地说出了方式：不是靠力量，而是靠一双双眼睛一次次选择去读。"
+  },
+  "tags": [
+    "memory",
+    "monuments",
+    "writing",
+    "time",
+    "sonnet"
+  ],
+  "excerpt": {
+    "orig": "Not marble, nor the gilded monuments\nOf princes, shall outlive this powerful rhyme;",
+    "en": "Not marble, nor the gilded monuments\nOf princes, shall outlive this powerful rhyme;",
+    "zh": "无论大理石，还是王公们镀金的纪念碑，\n都活不过这有力的诗韵；"
+  },
+  "plate": null
+}

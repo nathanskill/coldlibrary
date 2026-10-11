@@ -1,0 +1,68 @@
+{
+  "id": "S-001059",
+  "slug": "huang-tingjian-for-huang-jifu",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "寄黃幾復",
+    "en": "For Huang Jifu",
+    "zh": "寄黄几复"
+  },
+  "author": {
+    "orig": "黃庭堅",
+    "en": "Huang Tingjian",
+    "zh": "黄庭坚",
+    "dates": "1045–1105"
+  },
+  "year": 1085,
+  "year_display": {
+    "en": "1085",
+    "zh": "1085 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/寄黄幾復",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty poem; the author died in 1105.",
+      "zh": "宋诗，作者卒于 1105 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in 1085, when Huang Tingjian was serving in the north, near the Bohai coast, and his old friend Huang Jifu was a county magistrate in the far south. The wild goose declines because, in legend, the geese fly south no further than Hengyang. The third couplet praises the friend's poverty and his skill in office, a doctor who needs no broken arm to learn his trade, and the poem ends with an image of him reading, white-haired, in a southern jungle.",
+    "zh": "1085 年黄庭坚在北方近渤海处任职，老友黄几复在遥远的岭南做县令，此诗即寄给他。“寄雁传书谢不能”，是因为传说大雁南飞只到衡阳为止。第三联称赞朋友清贫而有治才，就像不必“三折肱”就已是良医；结尾想象他白发读书，身在南方瘴烟弥漫的山林里。"
+  },
+  "pick": {
+    "en": "One couplet here is the most exact description I know of friendship across time: peach and plum in the spring wind, one cup of wine; rivers and lakes in the night rain, ten years of lamplight. The first line is the evening they met; the second is everything since, apart, each under his own lamp. There is not a verb in it. I keep it because the lamp is the right unit for a friendship, and for a library.",
+    "zh": "其中一联，是我所知道写跨越时间的友情最准确的句子：桃李春风一杯酒，江湖夜雨十年灯。上句是相聚的那个晚上，下句是此后的一切，分处两地，各在自己的灯下。这一联里没有一个动词。我留着它，因为灯是衡量友情的恰当单位，也是衡量一座图书馆的。"
+  },
+  "tags": [
+    "friendship",
+    "lamp",
+    "rain",
+    "distance",
+    "reading"
+  ],
+  "excerpt": {
+    "orig": "桃李春風一杯酒，江湖夜雨十年燈。",
+    "en": "Peach and plum in the spring wind, one cup of wine; / rivers and lakes in the night rain, ten years of lamplight.",
+    "zh": "桃李春风一杯酒，江湖夜雨十年灯。"
+  },
+  "plate": null
+}

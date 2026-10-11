@@ -1,0 +1,63 @@
+{
+  "id": "S-002061",
+  "slug": "shen-kuo-south-pointing-needle",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夢溪筆談·指南針",
+    "en": "The South-Pointing Needle (Brush Talks from Dream Brook)",
+    "zh": "梦溪笔谈·指南针"
+  },
+  "author": {
+    "orig": "沈括",
+    "en": "Shen Kuo",
+    "zh": "沈括",
+    "dates": "1031–1095"
+  },
+  "year": 1088,
+  "year_display": {
+    "en": "c. 1088",
+    "zh": "约 1088 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The entry on the magnetised needle from book 24 of the Mengxi bitan, as given on Chinese Wikisource.",
+    "zh": "《梦溪笔谈》卷二十四记磁针的一则，据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷24",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1095.",
+      "zh": "北宋散文，作者卒于 1095 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Shen Kuo's note on the magnetised needle: four ways to mount it, the best being a single silk thread and a speck of wax. It contains the earliest known written observation that a compass needle points not due south but slightly east of it, what is now called magnetic declination. Notice that he ends by admitting he cannot explain it.",
+    "zh": "沈括关于磁化指南针的笔记：四种放置方法，以独茧缕加芥子大小的蜡悬挂为最好。其中有已知最早的文字记录，指出磁针并不正指南，而是“常微偏东”，即今天所说的磁偏角。留意他最后坦承“莫可原其理”。"
+  },
+  "pick": null,
+  "tags": [
+    "compass",
+    "magnetism",
+    "declination"
+  ],
+  "excerpt": {
+    "orig": "方家以磁石磨針鋒，則能指南，然常微偏東，不全南也",
+    "en": "Diviners rub the point of a needle with a lodestone, and then it can point south; but it always inclines slightly to the east and does not point due south.",
+    "zh": "方家以磁石磨针锋，则能指南，然常微偏东，不全南也"
+  },
+  "plate": null
+}

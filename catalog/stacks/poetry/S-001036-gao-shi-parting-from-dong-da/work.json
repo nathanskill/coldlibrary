@@ -1,0 +1,64 @@
+{
+  "id": "S-001036",
+  "slug": "gao-shi-parting-from-dong-da",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "別董大",
+    "en": "Parting from Dong the Elder",
+    "zh": "别董大"
+  },
+  "author": {
+    "orig": "高適",
+    "en": "Gao Shi",
+    "zh": "高适",
+    "dates": "c. 704–765"
+  },
+  "year": 747,
+  "year_display": {
+    "en": "c. 747",
+    "zh": "约 747 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/別董大",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 765.",
+      "zh": "唐诗，作者卒于 765 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Dong the Elder is usually identified as the qin master Dong Tinglan, and Gao Shi, poor and unknown himself at the time, saw him off in a snowstorm. The first couplet is all weather; the second is pure encouragement, the opposite of the usual farewell. Wikisource gives two poems under this title, and this is the first.",
+    "zh": "董大一般认为是琴师董庭兰。高适当时自己也贫困不得志，在风雪里送他远行。前两句全是天气，后两句全是鼓励，与一般送别诗正好相反。维基文库此题下有两首，这是第一首。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "farewell",
+    "friendship",
+    "wind"
+  ],
+  "excerpt": {
+    "orig": "莫愁前路無知己，天下誰人不識君。",
+    "en": "Do not worry that on the road ahead you will have no friends: / under heaven, who is there who does not know you?",
+    "zh": "莫愁前路无知己，天下谁人不识君。"
+  },
+  "plate": null
+}

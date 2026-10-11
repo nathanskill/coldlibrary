@@ -1,0 +1,62 @@
+{
+  "id": "S-007024",
+  "slug": "basics-of-the-unix-philosophy",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Art of Unix Programming, Chapter 1: Basics of the Unix Philosophy",
+    "en": "Basics of the Unix Philosophy",
+    "zh": "Unix 哲学基础"
+  },
+  "author": {
+    "orig": "Eric S. Raymond",
+    "en": "Eric S. Raymond",
+    "zh": "埃里克·S·雷蒙德",
+    "dates": "b. 1957"
+  },
+  "year": 2003,
+  "year_display": {
+    "en": "2003",
+    "zh": "2003 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The section 'Basics of the Unix Philosophy' (chapter 1) of the online edition at catb.org, converted from HTML to plain text without changes to the wording; quoted sidebars are shown as block quotes. catb.org serves only http, so the https link is the Internet Archive's copy, checked byte for byte against the page fetched from catb.org.",
+    "zh": "据 catb.org 在线版第一章“Unix 哲学基础”一节，由 HTML 转为纯文本，措辞未改；引语边栏以引用块显示。catb.org 只提供 http，因此所附 https 链接为互联网档案馆的副本，已与从 catb.org 取得的页面逐字节核对一致。"
+  },
+  "source": {
+    "name": "catb.org (Internet Archive copy)",
+    "url": "https://web.archive.org/web/20261004222418/http://www.catb.org/esr/writings/taoup/html/ch01s06.html",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The book and its online version are distributed under Creative Commons Attribution-NoDerivs 1.0, with paper publication for profit reserved to Pearson Education. Creative Commons explains that copying one chapter of an ND-licensed book unaltered does not create an adaptation, so this section is shelved verbatim and summarised rather than translated.",
+      "zh": "该书及其在线版采用知识共享“署名—禁止演绎”1.0 许可分发，以营利为目的的纸本出版权保留给培生教育出版集团。知识共享组织说明，原样复制一本 ND 许可图书中的一章并不构成改编，因此本节原样收录，以摘要代替翻译。"
+    },
+    "license": "CC BY-ND 1.0",
+    "license_url": "https://creativecommons.org/licenses/by-nd/1.0/",
+    "notice": "Copyright © 2003 Eric S. Raymond. This book and its on-line version are distributed under the terms of the Creative Commons Attribution-NoDerivs 1.0 license, with the additional proviso that the right to publish it on paper for sale or other for-profit use is reserved to Pearson Education, Inc.",
+    "verbatim_only": true
+  },
+  "translations": {},
+  "note": {
+    "en": "Eric S. Raymond's 2003 book gathers the design wisdom of the Unix tradition, and this section is its core: Doug McIlroy's summary, Rob Pike's rules about measuring before optimising, Ken Thompson's 'When in doubt, use brute force', and seventeen rules from Modularity to Extensibility. Its licence forbids derivatives, so it is shelved verbatim and untranslated. Notice how many of the rules are about the next person who will read the code, who may be yourself some years down the road.",
+    "zh": "埃里克·S·雷蒙德 2003 年的这本书汇集了 Unix 传统的设计智慧，这一节是全书的核心：道格·麦克罗伊的总结（写只做一件事并把它做好的程序；写能彼此协作的程序；写处理文本流的程序，因为文本流是通用接口），罗布·派克关于“先测量再优化”“数据主导”的几条规则，肯·汤普森的“拿不准时，就用蛮力”，以及从“模块化”到“可扩展”的十七条规则，例如“清晰胜于机巧”“没有出人意料的话可说时，就什么也别说”“必须失败时，要尽早、大声地失败”“先做原型，再打磨”。其许可禁止演绎，故按原样收录，不作翻译。请留意其中有多少条是为下一个读代码的人着想的，而那个人也许就是几年后的你自己。"
+  },
+  "pick": null,
+  "tags": [
+    "unix",
+    "design",
+    "philosophy",
+    "simplicity"
+  ],
+  "excerpt": {
+    "orig": "This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.",
+    "en": "This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.",
+    "zh": "这就是 Unix 哲学：写只做一件事并把它做好的程序。写能彼此协作的程序。写处理文本流的程序，因为那是一种通用接口。"
+  },
+  "plate": null
+}

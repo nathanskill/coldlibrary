@@ -1,0 +1,63 @@
+{
+  "id": "S-002029",
+  "slug": "zhou-dunyi-on-loving-the-lotus",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "愛蓮說",
+    "en": "On Loving the Lotus",
+    "zh": "爱莲说"
+  },
+  "author": {
+    "orig": "周敦頤",
+    "en": "Zhou Dunyi",
+    "zh": "周敦颐",
+    "dates": "1017–1073"
+  },
+  "year": 1063,
+  "year_display": {
+    "en": "1063",
+    "zh": "1063 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the later commentary printed with it is not included.",
+    "zh": "据维基文库；不收附印的后人评注。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/愛蓮說",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1073.",
+      "zh": "北宋散文，作者卒于 1073 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Zhou Dunyi's short essay of 1063 on the lotus, which rises from the mud unstained. In a hundred and nineteen characters it sets three flowers against three ways of living. Notice the last turn: he asks who shares his love of the lotus, and does not answer.",
+    "zh": "周敦颐 1063 年的短文，写出淤泥而不染的莲。一百一十九个字，以三种花对照三种活法。留意最后一转：他问谁与他同爱莲，却不作答。"
+  },
+  "pick": null,
+  "tags": [
+    "lotus",
+    "flowers",
+    "character"
+  ],
+  "excerpt": {
+    "orig": "予獨愛蓮之出淤泥而不染，濯清漣而不妖",
+    "en": "I alone love the lotus: it rises out of the mud and is not stained by it; it is washed by clear ripples and is not showy.",
+    "zh": "予独爱莲之出淤泥而不染，濯清涟而不妖"
+  },
+  "plate": null
+}

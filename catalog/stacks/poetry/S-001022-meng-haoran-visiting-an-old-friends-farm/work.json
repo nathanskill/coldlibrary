@@ -1,0 +1,64 @@
+{
+  "id": "S-001022",
+  "slug": "meng-haoran-visiting-an-old-friends-farm",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "過故人莊",
+    "en": "Visiting an Old Friend's Farm",
+    "zh": "过故人庄"
+  },
+  "author": {
+    "orig": "孟浩然",
+    "en": "Meng Haoran",
+    "zh": "孟浩然",
+    "dates": "689–740"
+  },
+  "year": 735,
+  "year_display": {
+    "en": "early 8th century",
+    "zh": "约 8 世纪前期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/過故人莊",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 740.",
+      "zh": "唐诗，作者卒于 740 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A whole friendship in forty characters: a simple meal, talk about the crops, and a promise to come back in autumn when the chrysanthemums open. Nothing dramatic happens, and that is the point. The Double Ninth, the ninth day of the ninth month, is the festival for climbing heights and drinking chrysanthemum wine with friends.",
+    "zh": "四十个字写尽一段友情：一顿家常饭，聊聊庄稼，约好秋天菊花开时再来。什么大事也没有发生，这正是要紧的地方。重阳是九月初九，登高、饮菊花酒、与朋友相聚的节日。"
+  },
+  "pick": null,
+  "tags": [
+    "friendship",
+    "village",
+    "autumn",
+    "promise"
+  ],
+  "excerpt": {
+    "orig": "待到重陽日，還來就菊花。",
+    "en": "When the Double Ninth comes round, / I will come back for the chrysanthemums.",
+    "zh": "待到重阳日，还来就菊花。"
+  },
+  "plate": null
+}

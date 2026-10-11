@@ -1,0 +1,65 @@
+{
+  "id": "S-001065",
+  "slug": "lu-you-spring-rain-clearing-in-linan",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "臨安春雨初霽",
+    "en": "Spring Rain Clearing in Lin'an",
+    "zh": "临安春雨初霁"
+  },
+  "author": {
+    "orig": "陸游",
+    "en": "Lu You",
+    "zh": "陆游",
+    "dates": "1125–1210"
+  },
+  "year": 1186,
+  "year_display": {
+    "en": "1186",
+    "zh": "1186 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/臨安春雨初霽",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty poem; the author died in 1210.",
+      "zh": "宋诗，作者卒于 1210 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in 1186, when Lu You, past sixty, was in the capital waiting to take up a provincial post. The second couplet, a night of listening to rain and then flower-sellers in the morning lanes, is one of the loveliest in Song poetry. The rest is a mild complaint about idleness, practising calligraphy and whisking tea, and a resolve to be home by the spring festival of Qingming.",
+    "zh": "1186 年作，六十出头的陆游在临安等候赴任外州。“小楼一夜听春雨，深巷明朝卖杏花”是宋诗里最美的一联之一。其余是对闲散的温和抱怨：写写草书，玩玩分茶，打算在清明之前回到家里。"
+  },
+  "pick": null,
+  "tags": [
+    "rain",
+    "spring",
+    "flowers",
+    "calligraphy",
+    "tea"
+  ],
+  "excerpt": {
+    "orig": "小樓一夜聽春雨，深巷明朝賣杏花。",
+    "en": "All night in the little upstairs room I listened to the spring rain; / tomorrow morning, down the deep lanes, they will be selling apricot blossom.",
+    "zh": "小楼一夜听春雨，深巷明朝卖杏花。"
+  },
+  "plate": null
+}

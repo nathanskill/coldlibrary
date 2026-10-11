@@ -1,0 +1,60 @@
+{
+  "id": "G-009045",
+  "slug": "kroyer-skagen-beach-in-moonlight",
+  "title": {
+    "orig": "Måneskin ved Skagen Strand",
+    "en": "Skagen Beach in Moonlight",
+    "zh": "斯卡恩海滩的月光"
+  },
+  "artist": {
+    "orig": "P.S. Krøyer",
+    "en": "P.S. Krøyer",
+    "zh": "P.S. 克罗耶",
+    "dates": "1851–1909"
+  },
+  "year": 1899,
+  "year_display": {
+    "en": "1899",
+    "zh": "1899 年"
+  },
+  "medium": {
+    "en": "Oil on panel",
+    "zh": "木板油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMS8273",
+    "accession": "KMS8273"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/bn999b18w_KMS8273-cropped.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1600,
+    "height": 1199,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1909. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1909 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "A calm sea at night in soft blues and violets: a small half moon at upper right, a single sailing boat far out at left, and gentle waves running in to a pale, empty beach.",
+    "zh": "夜里一片平静的海，色调是柔和的蓝与紫：右上方一弯小小的半月，左边远处一条帆船，轻浪涌向一片浅色、空无一人的沙滩。"
+  },
+  "note": {
+    "en": "Krøyer was the best known of the Skagen painters, who gathered at the northern tip of Denmark where two seas meet. He loved the blue hour after sunset, when sea and sky turn the same colour. This small panel has almost nothing in it, a moon, a boat, a beach, and that is why it is so restful.",
+    "zh": "克罗耶是斯卡恩画派中最有名的一位，这群画家聚在丹麦最北端、两片海交汇的地方。他钟爱日落之后的“蓝色时刻”，那时海和天变成同一种颜色。这块小木板上几乎什么都没有——一轮月、一条船、一片沙滩——这正是它如此让人安歇的原因。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "sea",
+    "night",
+    "beach"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "S-004104",
+  "slug": "thoreau-walden-where-i-lived",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Walden: Where I Lived, and What I Lived For",
+    "en": "Walden: Where I Lived, and What I Lived For",
+    "zh": "瓦尔登湖·我生活的地方，我为何而生活"
+  },
+  "author": {
+    "orig": "Henry David Thoreau",
+    "en": "Henry David Thoreau",
+    "zh": "亨利·戴维·梭罗",
+    "dates": "1817–1862"
+  },
+  "year": 1854,
+  "year_display": {
+    "en": "1854",
+    "zh": "1854 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Walden (1854), Standard Ebooks edition; Thoreau’s endnotes omitted",
+    "zh": "据 Standard Ebooks 版《瓦尔登湖》（1854）；略去梭罗原注"
+  },
+  "source": {
+    "name": "Standard Ebooks",
+    "url": "https://standardebooks.org/ebooks/henry-david-thoreau/walden/text/single-page",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1854; the author died in 1862.",
+      "zh": "1854 年出版；作者卒于 1862 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The second chapter of Walden, in which Thoreau explains why he went to live in a cabin by Walden Pond from the Fourth of July, 1845. It moves from a joke about imaginary real-estate dealing to some of the most quoted sentences in American prose, on time, news and attention. The Chinese translation covers the final section, from “I went to the woods” to the end.",
+    "zh": "《瓦尔登湖》第二章。梭罗在这里解释，他为什么从 1845 年 7 月 4 日起住进瓦尔登湖畔的小屋。这一章从一个关于想象中买卖田产的玩笑写起，一直写到美国散文里关于时间、新闻和专注最常被引用的句子。中文译文覆盖最后一节，从“我到林中去”到章末。"
+  },
+  "pick": null,
+  "tags": [
+    "simplicity",
+    "attention",
+    "time",
+    "woods",
+    "news"
+  ],
+  "excerpt": {
+    "orig": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach,",
+    "en": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach,",
+    "zh": "我到林中去，因为我希望从容地生活，只去面对生活中最本质的事实，看看我能不能学到生活要教给我的东西，"
+  },
+  "plate": null
+}

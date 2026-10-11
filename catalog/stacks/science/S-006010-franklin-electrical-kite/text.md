@@ -1,0 +1,11 @@
+To Peter Collinson, Esq. F.R.S., London.
+
+*Philadelphia, Oct. 19, 1752.*
+
+SIR,
+
+As frequent mention is made in public papers from Europe of the success of the Philadelphia experiment for drawing the electric fire from clouds by means of pointed rods of iron erected on high buildings, &c. it may be agreeable to the curious to be informed that the same experiment has succeeded in Philadelphia, though made in a different and more easy manner, which is as follows:
+
+Make a small cross of two light strips of cedar, the arms so long as to reach to the four corners of a large thin silk handkerchief when extended; tie the corners of the handkerchief to the extremities of the cross, so you have the body of a kite; which being properly accommodated with a tail, loop, and string, will rise in the air, like those made of paper; but this being of silk is fitter to bear the wet and wind of a thunder-gust without tearing. To the top of the upright stick of the cross is to be fixed a very sharp pointed wire, rising a foot or more above the wood. To the end of the twine, next the hand, is to be tied a silk ribbon, and where the silk and twine join, a key may be fastened. This kite is to be raised when a thunder-gust appears to be coming on, and the person who holds the string must stand within a door or window, or under some cover, so that the silk ribbon may not be wet; and care must be taken that the twine does not touch the frame of the door or window. As soon as any of the thunder clouds come over the kite, the pointed wire will draw the electric fire from them, and the kite, with all the twine, will be electrified, and the loose filaments of the twine will stand out every way, and be attracted by an approaching finger. And when the rain has wetted the kite and twine, so that it can conduct the electric fire freely, you will find it stream out plentifully from the key on the approach of your knuckle. At this key the phial may be charged; and from electric fire thus obtained, spirits may be kindled, and all the other electric experiments be performed, which are usually done by the help of a rubbed glass globe or tube, and thereby the sameness of the electric matter with that of lightning completely demonstrated.
+
+B. Franklin.

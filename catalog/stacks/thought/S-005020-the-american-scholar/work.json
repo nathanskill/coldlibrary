@@ -1,0 +1,65 @@
+{
+  "id": "S-005020",
+  "slug": "the-american-scholar",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The American Scholar",
+    "en": "The American Scholar",
+    "zh": "美国学者"
+  },
+  "author": {
+    "orig": "Ralph Waldo Emerson",
+    "en": "Ralph Waldo Emerson",
+    "zh": "拉尔夫·沃尔多·爱默生",
+    "dates": "1803–1882"
+  },
+  "year": 1837,
+  "year_display": {
+    "en": "delivered 31 August 1837",
+    "zh": "1837 年 8 月 31 日演讲"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The complete oration, from the second edition (Boston: James Munroe and Company, 1838), as transcribed from a scan on English Wikisource; the title page is omitted and paragraphs split across pages are rejoined. A leftover line-break hyphen (“in-corruption”) is closed up and one misprint of the 1838 printing (“Marveil” for Marvell) is corrected.",
+    "zh": "演讲全文，据英文维基文库依扫描本所录的第二版（波士顿：詹姆斯·芒罗公司，1838）；略去扉页，被分页切断的段落已重新接合。合上一处残留的换行连字符（in-corruption），并改正 1838 年印本的一处排印错误（Marvell 误作 Marveil）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/The_American_Scholar",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Delivered in 1837 and printed in 1837 and 1838; Ralph Waldo Emerson died in 1882.",
+      "zh": "1837 年演讲，1837 年与 1838 年印行；爱默生卒于 1882 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Emerson’s address to the Phi Beta Kappa Society at Harvard in 1837, on what a scholar is for: not a bookworm but “Man Thinking”. Its second part is the best short account here of how to use a library without being used by it: books are “the best of things, well used; abused, among the worst”, and their one purpose is to inspire. Notice the lamps: when our own light fails, we go to the lamps that were kindled by older light. The Chinese translates that second part.",
+    "zh": "爱默生 1837 年在哈佛对斐陶斐荣誉学会的演讲，讲学者为了什么：不是书虫，而是“思考着的人”。它的第二部分，是本架关于怎样使用图书馆、而不被图书馆所用的最好的短论：书“用得好，是最好的东西；用得不好，是最坏的东西之一”，它的唯一用处是激发。请留意那些灯：当我们自己的光熄灭时，就去寻那些由更早的光点燃的灯。中文译出这第二部分。"
+  },
+  "pick": null,
+  "tags": [
+    "books",
+    "scholarship",
+    "reading",
+    "independence",
+    "lecture"
+  ],
+  "excerpt": {
+    "orig": "Books are the best of things, well used; abused, among the worst.",
+    "en": "Books are the best of things, well used; abused, among the worst.",
+    "zh": "书用得好，是最好的东西；用得不好，是最坏的东西之一。"
+  },
+  "plate": null
+}

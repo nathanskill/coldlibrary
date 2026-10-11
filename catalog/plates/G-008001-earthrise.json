@@ -1,0 +1,56 @@
+{
+  "id": "G-008001",
+  "slug": "earthrise",
+  "title": {
+    "orig": "Earthrise (AS08-14-2383)",
+    "en": "Earthrise",
+    "zh": "地出"
+  },
+  "artist": {
+    "orig": "William Anders",
+    "en": "William Anders, Apollo 8 (NASA)",
+    "zh": "威廉·安德斯，阿波罗 8 号（NASA）",
+    "dates": "1933–2024"
+  },
+  "year": 1968,
+  "year_display": {
+    "en": "24 December 1968",
+    "zh": "1968 年 12 月 24 日"
+  },
+  "medium": {
+    "en": "Photograph on colour film, taken from lunar orbit (NASA AS08-14-2383)",
+    "zh": "彩色胶片照片，摄于环月轨道（NASA 编号 AS08-14-2383）"
+  },
+  "institution": {
+    "name": "NASA Image and Video Library",
+    "object_url": "https://images.nasa.gov/details/as08-14-2383"
+  },
+  "image": {
+    "source_url": "https://images-assets.nasa.gov/image/as08-14-2383/as08-14-2383~orig.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A NASA photograph, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105).",
+      "zh": "NASA 拍摄的照片，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。"
+    },
+    "license": null,
+    "license_url": null
+  },
+  "alt": {
+    "en": "The Earth, half lit and half in shadow, hangs in a black sky above the grey, cratered horizon of the Moon.",
+    "zh": "地球一半被照亮、一半在阴影中，悬在黑色的天空里，下方是灰色、布满陨坑的月球地平线。"
+  },
+  "note": {
+    "en": "Taken by the crew of Apollo 8 on 24 December 1968, during their fourth orbit of the Moon, and usually credited to William Anders. It is among the first colour photographs a person took of the Earth from as far away as the Moon, and it changed how many people pictured their own planet. It hangs beside a speech that promised the Moon and, on the way, showed people their home.",
+    "zh": "1968 年 12 月 24 日，阿波罗 8 号乘组在环绕月球的第四圈时拍下这张照片，通常归功于威廉·安德斯。它是人类最早亲手从月球那么远的地方拍下的地球彩色照片之一，改变了许多人想象自己这颗星球的方式。它挂在一篇许诺登月的演说旁边：那次许诺在途中，先让人们看了一眼自己的家园。"
+  },
+  "tags": [
+    "earth",
+    "moon",
+    "apollo",
+    "photograph"
+  ]
+}

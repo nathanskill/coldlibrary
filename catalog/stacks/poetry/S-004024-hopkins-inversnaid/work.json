@@ -1,0 +1,63 @@
+{
+  "id": "S-004024",
+  "slug": "hopkins-inversnaid",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Inversnaid",
+    "en": "Inversnaid",
+    "zh": "因弗斯奈德"
+  },
+  "author": {
+    "orig": "Gerard Manley Hopkins",
+    "en": "Gerard Manley Hopkins",
+    "zh": "杰拉德·曼利·霍普金斯",
+    "dates": "1844–1889"
+  },
+  "year": 1881,
+  "year_display": {
+    "en": "written 1881; published 1918",
+    "zh": "1881 年作，1918 年出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems of Gerard Manley Hopkins (1918), edited by Robert Bridges, from the scan-backed transcription on Wikisource; the editor’s notes omitted",
+    "zh": "据维基文库依扫描本校录的《霍普金斯诗集》（1918），罗伯特·布里奇斯编；略去编者注"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/Inversnaid",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in 1881 and first published in 1918; the author died in 1889 and the editor in 1930.",
+      "zh": "1881 年写成，1918 年首次出版；作者卒于 1889 年，编者卒于 1930 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Written in 1881 after a visit to Inversnaid, on Loch Lomond. A brown Highland stream rushes down into the loch, and the poem ends with a plea that wild and wet places be left alone. Its dialect words, “degged” for sprinkled and “braes” for hillsides, are part of its music.",
+    "zh": "1881 年霍普金斯到洛蒙德湖畔的因弗斯奈德游历后写成。一条褐色的高地溪流冲进湖里，诗以一句恳求作结：让荒野与湿地保持原样。诗里的方言词，比如“degged”（沾湿）和“braes”（山坡），是它音乐的一部分。"
+  },
+  "pick": null,
+  "tags": [
+    "wilderness",
+    "water",
+    "scotland"
+  ],
+  "excerpt": {
+    "orig": "What would the world be, once bereft\nOf wet and of wildness? Let them be left,",
+    "en": "What would the world be, once bereft\nOf wet and of wildness? Let them be left,",
+    "zh": "这世界会成什么样，一旦失去\n湿润与荒野？让它们留着吧，"
+  },
+  "plate": null
+}

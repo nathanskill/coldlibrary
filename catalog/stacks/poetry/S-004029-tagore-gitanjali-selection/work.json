@@ -1,0 +1,65 @@
+{
+  "id": "S-004029",
+  "slug": "tagore-gitanjali-selection",
+  "shelf": "poetry",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Gitanjali (Song Offerings)",
+    "en": "Gitanjali (Song Offerings): a selection",
+    "zh": "吉檀迦利（献歌）选"
+  },
+  "author": {
+    "orig": "রবীন্দ্রনাথ ঠাকুর",
+    "en": "Rabindranath Tagore",
+    "zh": "罗宾德拉纳特·泰戈尔",
+    "dates": "1861–1941"
+  },
+  "year": 1912,
+  "year_display": {
+    "en": "1912",
+    "zh": "1912 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Gitanjali (London, 1912), Tagore’s own English prose translations, from the scan-backed transcription on Wikisource; poems 1, 5, 7, 11, 13, 60, 63, 69, 82 and 103, with their original numbers",
+    "zh": "据维基文库依扫描本校录的《吉檀迦利》（伦敦，1912），泰戈尔自译的英文散文诗；选第 1、5、7、11、13、60、63、69、82、103 首，保留原编号"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Gitanjali",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1912 in the author’s own English translation; the author died in 1941.",
+      "zh": "1912 年出版，英文为作者自译；作者卒于 1941 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Ten of the 103 prose poems in Gitanjali, which Tagore translated into English himself from his Bengali songs and published in London in 1912; the next year he received the Nobel Prize in Literature. Notice how often they are about unfinished things: a song not yet sung, a lamp not yet lit, and the patience of a “thou” who “knowest how to wait”.",
+    "zh": "《吉檀迦利》一百零三首散文诗中的十首。泰戈尔亲自把自己的孟加拉语歌诗译成英文，1912 年在伦敦出版；第二年他获得诺贝尔文学奖。留意这些诗多么常写未完成的事：一首还没唱出的歌、一盏还没点亮的灯，以及那位“懂得等待”的“你”的耐心。"
+  },
+  "pick": null,
+  "tags": [
+    "song",
+    "devotion",
+    "time",
+    "lamps",
+    "india"
+  ],
+  "excerpt": {
+    "orig": "Thy centuries follow each other perfecting a small wild flower.",
+    "en": "Thy centuries follow each other perfecting a small wild flower.",
+    "zh": "你的世纪一个接着一个，只为使一朵小小的野花臻于完美。"
+  },
+  "plate": null
+}

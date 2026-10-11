@@ -1,0 +1,64 @@
+{
+  "id": "S-002042",
+  "slug": "shen-kuo-yandang-mountains",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夢溪筆談·雁蕩山",
+    "en": "The Yandang Mountains (Brush Talks from Dream Brook)",
+    "zh": "梦溪笔谈·雁荡山"
+  },
+  "author": {
+    "orig": "沈括",
+    "en": "Shen Kuo",
+    "zh": "沈括",
+    "dates": "1031–1095"
+  },
+  "year": 1088,
+  "year_display": {
+    "en": "c. 1088",
+    "zh": "约 1088 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The entry on the Yandang Mountains from book 24 (Miscellaneous Notes 1) of the Mengxi bitan, as given on Chinese Wikisource; one small-character pronunciation note is removed, and five misreadings in the Wikisource transcription (崯, 窮, 千, 峽, 以) are corrected to 嶮, 穹, 干, 陝, 有 against the Siku quanshu text (Kanseki Repository KR3j0092).",
+    "zh": "《梦溪笔谈》卷二十四“杂志一”中记雁荡山的一则，据维基文库；删去一处小字注音，并据《四库全书》本（Kanseki Repository 汉籍库 KR3j0092）改正维基文库录文的五处误字：崯、穷、千、峡、以，分别改作险、穹、干、陕、有。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷24",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1095.",
+      "zh": "北宋散文，作者卒于 1095 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Shen Kuo explains why the strange peaks of the Yandang Mountains cannot be seen from outside their valleys: they were not pushed up, but left standing when running water carried away the earth around them. It is among the earliest clear statements anywhere of erosion as a force that shapes a landscape. Notice how he checks the idea against the pillars of earth that stand in the great ravines of Chenggao and the west.",
+    "zh": "沈括解释雁荡诸峰为何从谷外望去都无所见：它们不是隆起的，而是谷中大水冲去沙土之后留下来的巨石。这是世界上最早清楚表述流水侵蚀塑造地貌的文字之一。留意他还用成皋、陕西一带大涧中的“立土”来印证这一想法。"
+  },
+  "pick": null,
+  "tags": [
+    "geology",
+    "erosion",
+    "mountains",
+    "water"
+  ],
+  "excerpt": {
+    "orig": "原其理，當是為谷中大水沖激，沙土盡去，唯巨石巋然挺立耳。",
+    "en": "Looking for the reason, it must be that the great waters in the valleys rushed against them and washed away all the sand and earth, leaving only the great rocks standing tall.",
+    "zh": "原其理，当是为谷中大水冲激，沙土尽去，唯巨石岿然挺立耳。"
+  },
+  "plate": null
+}

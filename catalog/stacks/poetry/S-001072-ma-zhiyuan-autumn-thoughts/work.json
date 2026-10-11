@@ -1,0 +1,64 @@
+{
+  "id": "S-001072",
+  "slug": "ma-zhiyuan-autumn-thoughts",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "天淨沙·秋思",
+    "en": "To the Tune Tianjingsha: Autumn Thoughts",
+    "zh": "天净沙·秋思"
+  },
+  "author": {
+    "orig": "馬致遠",
+    "en": "Ma Zhiyuan",
+    "zh": "马致远",
+    "dates": "c. 1250–c. 1321"
+  },
+  "year": 1300,
+  "year_display": {
+    "en": "c. 1300",
+    "zh": "约 1300 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/天淨沙·秋思",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Yuan dynasty song (sanqu); the author died around 1321.",
+      "zh": "元散曲，作者约卒于 1321 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A sanqu, the song-lyric of the Yuan dynasty, and the most famous one: its first three lines contain no verbs, only nine things set side by side, and the scene assembles itself. Wikisource records 'level sand' as a variant for 'someone's home'. The traveller at the end is looking at a house that is not his, and that is the whole poem.",
+    "zh": "这是一首元代散曲，也是最有名的一首：前三句没有一个动词，只把九样东西并排放在一起，画面便自己拼成了。维基文库把“人家”另作“平沙”列为异文。结尾的游子望见的是一户不属于他的人家，这就是整首曲子。"
+  },
+  "pick": null,
+  "tags": [
+    "autumn",
+    "travel",
+    "sunset",
+    "home"
+  ],
+  "excerpt": {
+    "orig": "小橋、流水、人家。",
+    "en": "A small bridge, flowing water, someone's home.",
+    "zh": "小桥、流水、人家。"
+  },
+  "plate": null
+}

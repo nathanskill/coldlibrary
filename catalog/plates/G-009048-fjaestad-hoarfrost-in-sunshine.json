@@ -1,0 +1,60 @@
+{
+  "id": "G-009048",
+  "slug": "fjaestad-hoarfrost-in-sunshine",
+  "title": {
+    "orig": "Rimfrost i sol",
+    "en": "White Frost in Sunshine",
+    "zh": "阳光下的白霜"
+  },
+  "artist": {
+    "orig": "Gustaf Fjæstad",
+    "en": "Gustaf Fjæstad",
+    "zh": "古斯塔夫·菲耶斯塔德",
+    "dates": "1868–1948"
+  },
+  "year": 1903,
+  "year_display": {
+    "en": "1903",
+    "zh": "1903 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMS1939",
+    "accession": "KMS1939"
+  },
+  "image": {
+    "source_url": "https://api.smk.dk/api/v1/thumbnail/08fd1ad2-6331-4919-a91e-56bb40edf59a.jpg",
+    "width": 1600,
+    "height": 1268,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1948. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1948 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "Two slender birches, every twig thick with white hoarfrost, lean over a snowy bank; behind them pale hills and a frozen valley disappear into bright, misty winter light.",
+    "zh": "两棵纤细的白桦倚在积雪的坡上，每一根细枝都裹着厚厚的白霜；身后浅色的山丘和冰封的山谷，隐没在明亮而朦胧的冬日光线里。"
+  },
+  "note": {
+    "en": "Fjæstad was a Swedish painter so devoted to snow and frost that he became known as a master of hoarfrost, working with a circle of artists at Rackstad in Värmland. He painted frost not as a white blur but as a texture you can almost touch. The light is the brief, low sun of a northern winter day.",
+    "zh": "菲耶斯塔德是瑞典画家，痴迷于雪和霜，被称为“白霜大师”，他和一群艺术家在韦姆兰的拉克斯塔德一起工作。他画霜，不是一团白，而是一种几乎能摸到的质感。这里的光，是北方冬日里短暂、低斜的太阳。"
+  },
+  "pick": null,
+  "tags": [
+    "frost",
+    "snow",
+    "birches",
+    "winter"
+  ]
+}

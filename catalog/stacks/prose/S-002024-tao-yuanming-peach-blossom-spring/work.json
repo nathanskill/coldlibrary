@@ -1,0 +1,64 @@
+{
+  "id": "S-002024",
+  "slug": "tao-yuanming-peach-blossom-spring",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "桃花源記并詩",
+    "en": "Peach Blossom Spring, with its Poem",
+    "zh": "桃花源记并诗"
+  },
+  "author": {
+    "orig": "陶淵明",
+    "en": "Tao Yuanming",
+    "zh": "陶渊明",
+    "dates": "c. 365–427"
+  },
+  "year": 421,
+  "year_display": {
+    "en": "c. 421",
+    "zh": "约 421 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource, including the poem that follows the account; textual notes are omitted, and the poem is set four lines to a paragraph.",
+    "zh": "据维基文库，收入记后之诗；不录校记，诗每四句为一段。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/桃花源記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Eastern Jin prose and verse; the author died in 427.",
+      "zh": "东晋诗文，作者卒于 427 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Tao Yuanming's account of a fisherman who finds a hidden valley whose people have lived apart since the Qin, followed by the poem it was written to introduce. It gave Chinese its phrase for a good place beyond reach. Notice that no one can find the way back, and that the story closes on a quiet line: after that no one asked the way to the ford.",
+    "zh": "陶渊明记一个渔人误入隐秘的山谷，那里的人自秦时避乱以来与世隔绝；后附它原本要引出的那首诗。中文里“世外桃源”一说由此而来。留意没有人找得到回去的路，故事以一句平静的话收尾：后遂无问津者。"
+  },
+  "pick": null,
+  "tags": [
+    "peach-blossom",
+    "hidden-valley",
+    "utopia",
+    "spring"
+  ],
+  "excerpt": {
+    "orig": "林盡水源，便得一山，山有小口，髣髴若有光。",
+    "en": "Where the grove ended, at the source of the stream, he found a hill, and in the hill a small opening from which there seemed to come a glimmer of light.",
+    "zh": "林尽水源，便得一山，山有小口，仿佛若有光。"
+  },
+  "plate": null
+}

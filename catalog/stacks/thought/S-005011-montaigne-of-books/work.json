@@ -1,0 +1,69 @@
+{
+  "id": "S-005011",
+  "slug": "montaigne-of-books",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Des livres",
+    "en": "Of Books",
+    "zh": "论书"
+  },
+  "author": {
+    "orig": "Michel de Montaigne",
+    "en": "Michel de Montaigne",
+    "zh": "米歇尔·德·蒙田",
+    "dates": "1533–1592"
+  },
+  "year": 1580,
+  "year_display": {
+    "en": "1580, with later additions; translated 1685–86, revised 1877",
+    "zh": "1580 年，后有增补；1685–86 年英译，1877 年修订"
+  },
+  "translator": {
+    "name": "Charles Cotton; revised by William Carew Hazlitt",
+    "dates": "1630–1687; 1834–1913",
+    "year": 1877
+  },
+  "edition": {
+    "en": "Book II, chapter X, complete, from Essays of Michel de Montaigne, translated by Charles Cotton, edited by William Carew Hazlitt (1877), Project Gutenberg eBook #3600. Montaigne’s Latin quotations are kept, each followed by the edition’s English rendering in parentheses (in square brackets in the source); the editors’ own notes are omitted. In about a dozen places the Gutenberg wording departs from the printed Cotton–Hazlitt text without explanation (for example “negligent and uninviting” of Cicero, where the book has “very tedious”); those passages are restored to the 1877 printing, checked against the 1892 New York reprint.",
+    "zh": "第二卷第十章全文，据古登堡计划电子书 3600《蒙田随笔集》（查尔斯·科顿译，威廉·卡鲁·哈兹利特编，1877）。保留蒙田引用的拉丁文，其后以圆括号附该版的英译（原书为方括号）；略去编者自己的注释。古登堡本约有十来处措辞与科顿—哈兹利特的印本不同，来历不明（例如评西塞罗处作 negligent and uninviting，印本作 very tedious）；这些地方已按 1877 年印本恢复，并以 1892 年纽约重印本核对。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/3600/pg3600.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in French in 1580. Charles Cotton’s translation appeared in 1685–86 and he died in 1687; William Carew Hazlitt, who revised it for the 1877 edition, died in 1913.",
+      "zh": "法文原作 1580 年初版。查尔斯·科顿的译本出版于 1685–86 年，他卒于 1687 年；为 1877 年版修订译文的威廉·卡鲁·哈兹利特卒于 1913 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Montaigne on his own reading: what he skips, what he rereads, why he prefers Plutarch and Seneca to Cicero, and why he weighs his borrowings instead of counting them. It is the most companionable essay about reading on this shelf. Near the end he says his memory was so poor that he would pick up books he had annotated as if they were new, so he began writing the date and his verdict at the back of each one. The Chinese gives the opening and that passage.",
+    "zh": "蒙田谈自己的阅读：跳过什么，重读什么，为什么喜欢普鲁塔克和塞涅卡胜过西塞罗，为什么借来的东西他不数而是称。这是本架谈阅读最亲切的一篇。临近结尾他说，他的记性差到会把自己批注过的书当作新书重新拿起来，所以开始在每本书的末尾记下读完的日期和自己的评语。中文译出开头和这一段。"
+  },
+  "pick": null,
+  "tags": [
+    "reading",
+    "books",
+    "memory",
+    "history",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "I do not number my borrowings, I weigh them",
+    "en": "I do not number my borrowings, I weigh them",
+    "zh": "我借来的东西，我不数，我称"
+  },
+  "plate": null
+}

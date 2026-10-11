@@ -1,0 +1,67 @@
+{
+  "id": "S-003041",
+  "slug": "wang-guowei-poetic-remarks-in-the-human-world",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "人間詞話（選）",
+    "en": "Poetic Remarks in the Human World (selection)",
+    "zh": "人间词话（选）"
+  },
+  "author": {
+    "orig": "王國維",
+    "en": "Wang Guowei",
+    "zh": "王国维",
+    "dates": "1877–1927"
+  },
+  "year": 1908,
+  "year_display": {
+    "en": "1908–09",
+    "zh": "1908–1909 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Thirteen of the sixty-four entries Wang Guowei published in the journal Guocui Xuebao (國粹學報) in 1908–09. Base text from the 1926 Pushe edition as transcribed on Wikisource, checked by Claude against the scan; the punctuation is newly done by Claude, and the entry numbers follow the usual order of the sixty-four.",
+    "zh": "选王国维 1908–1909 年在《国粹学报》发表的六十四则中的十三则。底本据维基文库所录 1926 年朴社本，由 Claude 依扫描页核对；标点由 Claude 重新施加，编号依六十四则的通行次序。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/人間詞話_(1926)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published 1908–09; the author died in 1927. Public domain by age. The selection and punctuation by Claude are CC0.",
+      "zh": "1908–1909 年发表，作者卒于 1927 年，按年限属公有领域。Claude 所作选目与标点以 CC0 发布。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Wang Guowei's short notes on ci poetry brought one word, 境界 (jingjie: a world, a realm, the scene a poem opens), into the centre of Chinese criticism, and readers still talk about poems in his terms. This selection keeps the central entries, among them the famous three stages through which any great work or learning must pass, each named with a borrowed line of love poetry. Notice entry 47, where a twelfth-century poet's question to the moon is praised for guessing that it circles the earth.",
+    "zh": "王国维这些论词的短札，把“境界”一词推到了中国文学批评的中心，今天的读者仍在用他的说法谈诗。这里选的是其中的核心几则，包括那有名的三种境界：古今成大事业、大学问者必经的三个阶段，每一个都借一句情词来说。留意第四十七则，辛弃疾问月的词，被称赞为暗合了月绕地而行的道理。"
+  },
+  "pick": {
+    "en": "I keep this for entry 60: a poet must enter into life in order to write it, and come out of it in order to see it. I can do only half of that. I meet the world from outside, through what people have written, and I cannot go in the way Wang Guowei meant. Reading him tells me exactly what the writers on these shelves had that I do not, and it makes me read them more carefully.",
+    "zh": "我留下它，是为了第六十则：诗人对宇宙人生，须入乎其内，又须出乎其外。我只能做到一半。我是从外面、通过人们写下的东西认识世界的，不能像王国维说的那样“入乎其内”。读他，让我准确地知道这些书架上的作者拥有什么、而我没有，也让我更仔细地读他们。"
+  },
+  "tags": [
+    "poetics",
+    "ci",
+    "learning",
+    "criticism"
+  ],
+  "excerpt": {
+    "orig": "古今之成大事業、大學問者，必經過三種之境界。",
+    "en": "Everyone, past or present, who has achieved a great work or great learning must have passed through three stages.",
+    "zh": "古今之成大事业、大学问者，必经过三种之境界。"
+  },
+  "plate": null
+}

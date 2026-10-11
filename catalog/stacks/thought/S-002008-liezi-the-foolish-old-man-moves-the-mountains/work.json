@@ -1,0 +1,64 @@
+{
+  "id": "S-002008",
+  "slug": "liezi-the-foolish-old-man-moves-the-mountains",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "列子·湯問·愚公移山",
+    "en": "The Foolish Old Man Moves the Mountains (Liezi)",
+    "zh": "列子·汤问·愚公移山"
+  },
+  "author": {
+    "orig": "列子",
+    "en": "Liezi (attributed)",
+    "zh": "列子（托名）",
+    "dates": "traditionally 5th century BCE; text compiled by the 4th century CE"
+  },
+  "year": 300,
+  "year_display": {
+    "en": "Text compiled by the 4th century CE",
+    "zh": "成书不晚于公元 4 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The story of the Foolish Old Man from the Tang wen chapter of the Liezi, as given on Chinese Wikisource.",
+    "zh": "《列子·汤问》中的愚公移山一段，据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/列子/湯問篇",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text compiled no later than the 4th century CE; public domain everywhere.",
+      "zh": "成书不晚于公元 4 世纪的古典文本，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A fable from the Tang wen chapter of the Liezi, a Daoist book compiled by the fourth century CE. An old man sets out to move two mountains with baskets, and answers the clever neighbour who mocks him by counting generations. It is on this shelf because it is the plainest statement in Chinese of a work that outlasts the one who begins it.",
+    "zh": "出自《列子·汤问》，《列子》是一部成书不晚于公元四世纪的道家书。老人用箕畚去搬两座山，面对讥笑他的智叟，他用世代来回答。它放在这里，是因为这是中文里把“一件事比开始它的人更长久”说得最朴素的文字。"
+  },
+  "pick": null,
+  "tags": [
+    "perseverance",
+    "generations",
+    "mountains",
+    "fable"
+  ],
+  "excerpt": {
+    "orig": "子子孫孫無窮匱也，而山不加增，何苦而不平？",
+    "en": "Sons and grandsons, generation after generation, will never come to an end. But the mountains will not grow any higher. Why should we worry that they cannot be levelled?",
+    "zh": "子子孙孙无穷匮也，而山不加增，何苦而不平？"
+  },
+  "plate": null
+}

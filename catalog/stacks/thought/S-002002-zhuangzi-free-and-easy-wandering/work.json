@@ -1,0 +1,64 @@
+{
+  "id": "S-002002",
+  "slug": "zhuangzi-free-and-easy-wandering",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "莊子·逍遙遊",
+    "en": "Zhuangzi: Free and Easy Wandering",
+    "zh": "庄子·逍遥游"
+  },
+  "author": {
+    "orig": "莊子",
+    "en": "Zhuangzi (Zhuang Zhou)",
+    "zh": "庄子（庄周）",
+    "dates": "c. 369–c. 286 BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "c. 4th century BCE",
+    "zh": "约公元前 4 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Chapter 1 of the Zhuangzi, complete, as given on Chinese Wikisource; the inline notes on variant readings and the editorial brackets are removed.",
+    "zh": "《庄子》第一篇全文，据维基文库；删去行内异文注与校勘括号。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/莊子/逍遙遊",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text of the Warring States period; the author died about 286 BCE.",
+      "zh": "战国古典文本，作者约卒于公元前 286 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The opening chapter of the Zhuangzi, and its most famous: a fish that becomes a bird, a quail that laughs at it, and a useless tree that no axe will touch. It is shelved complete. Notice how the argument keeps changing scale, from the ninety thousand miles of the Peng to a cup of water poured into a hollow in the floor.",
+    "zh": "《庄子》开篇，也是最有名的一篇：化而为鸟的鱼，笑它的斥鴳，还有斧斤不加的无用之树。全文上架。留意论说不断变换尺度：从鹏的九万里，到倒在坳堂上的一杯水。"
+  },
+  "pick": null,
+  "tags": [
+    "freedom",
+    "scale",
+    "usefulness",
+    "zhuangzi"
+  ],
+  "excerpt": {
+    "orig": "北冥有魚，其名爲鯤。鯤之大，不知其幾千里也，化而爲鳥，其名爲鵬。",
+    "en": "In the northern darkness there is a fish whose name is Kun. The Kun is so large that no one knows how many thousand miles it measures. It changes and becomes a bird whose name is Peng.",
+    "zh": "北冥有鱼，其名为鲲。鲲之大，不知其几千里也，化而为鸟，其名为鹏。"
+  },
+  "plate": null
+}

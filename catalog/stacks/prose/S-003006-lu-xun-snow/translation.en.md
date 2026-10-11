@@ -1,0 +1,13 @@
+The rain of warm countries has never turned into icy, hard, glittering snowflakes. Men of wide learning find it monotonous, and does the rain itself think it unfortunate? The snow south of the Yangzi is moist and lovely in the extreme. It is a hint of spring still half hidden, the skin of a young girl in the bloom of health. In the snowy fields there are blood-red camellias, single-petalled plum blossoms white with a tinge of green, deep yellow wintersweet with bell-shaped flowers, and under the snow, cold green weeds. There are certainly no butterflies, and whether bees come to gather honey from the camellias and plum blossoms, I cannot clearly remember. But before my eyes I seem to see the winter flowers blooming in the snowy fields, with many bees flying busily among them, and I hear them humming too.
+
+The children, blowing on their small hands, frozen as red as the purple shoots of ginger, gather seven or eight together to build a snow arhat. When they cannot manage it, somebody's father comes to help. The arhat is built much taller than the children; and though it is only a heap, small at the top and big at the bottom, so that in the end no one can tell whether it is a gourd or an arhat, still it is very white and very bright, held together by its own moisture, and it sparkles all over. The children give it longan stones for eyes, and steal rouge from somebody's mother's powder box to paint its lips. Now it really is a great arhat. With flashing eyes and bright red lips, it sits in the snowy ground.
+
+The next day a few children come to visit it. They clap their hands at it, nod, and laugh. But in the end it is left sitting alone. Fine days come to melt its skin, and cold nights give it a coat of ice, turning it into something like opaque crystal; then a run of fine days makes it into something no one could name, and the rouge on its lips fades away.
+
+But the snowflakes of the north, after they have fallen, remain for ever like powder, like sand; they never stick together, whether scattered on roofs, on the ground, or on the withered grass. That is how they are. The snow on the roofs has long since melted, because of the warmth from the fires of the people living inside. Elsewhere, under a clear sky, when a whirlwind suddenly blows, the snow flies up vigorously and glitters in the sunlight, like a dense mist enfolding flames, whirling and rising, filling the whole sky, so that the sky too whirls and rises and sparkles.
+
+On the boundless wilderness, under the frozen vault of heaven, what glitters as it whirls and rises is the spirit of the rain ...
+
+Yes, it is the solitary snow, the rain that has died, the spirit of the rain.
+
+(18 January 1925)

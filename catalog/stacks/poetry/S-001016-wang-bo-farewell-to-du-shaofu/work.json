@@ -1,0 +1,63 @@
+{
+  "id": "S-001016",
+  "slug": "wang-bo-farewell-to-du-shaofu",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "送杜少府之任蜀州",
+    "en": "Seeing Off Vice-Prefect Du to His Post in Shu",
+    "zh": "送杜少府之任蜀州"
+  },
+  "author": {
+    "orig": "王勃",
+    "en": "Wang Bo",
+    "zh": "王勃",
+    "dates": "650–676"
+  },
+  "year": 668,
+  "year_display": {
+    "en": "late 660s",
+    "zh": "约 7 世纪 60 年代末"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems); the variant readings it marks are left out.",
+    "zh": "据维基文库（《唐诗三百首》本），删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/杜少府之任蜀州",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 676.",
+      "zh": "唐诗，作者卒于 676 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Wang Bo was still very young when he wrote this, and it is the poem most readers know him by. Farewell poems usually end in tears; this one forbids them, on the grounds that a true friend anywhere makes distance small. Its third couplet is still written in letters to people who are far away.",
+    "zh": "王勃写这首诗时还很年轻，它也是大多数读者认识王勃的那首诗。送别诗大多以泪水收尾，这首却不许流泪，理由是：只要世上有知己，再远也像近邻。“海内存知己，天涯若比邻”至今还常被写进寄给远方的信里。"
+  },
+  "pick": null,
+  "tags": [
+    "friendship",
+    "farewell",
+    "distance"
+  ],
+  "excerpt": {
+    "orig": "海內存知己，天涯若比隣。",
+    "en": "Within the four seas, if you have one who knows you, / the ends of the sky are like next door.",
+    "zh": "海内存知己，天涯若比邻。"
+  },
+  "plate": null
+}

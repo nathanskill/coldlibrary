@@ -1,0 +1,64 @@
+{
+  "id": "G-009015",
+  "slug": "ma-yuan-viewing-plum-blossoms-by-moonlight",
+  "title": {
+    "orig": "月下賞梅圖",
+    "en": "Viewing Plum Blossoms by Moonlight",
+    "zh": "月下赏梅图"
+  },
+  "artist": {
+    "orig": "馬遠",
+    "en": "Ma Yuan",
+    "zh": "马远",
+    "dates": "active c. 1190–1225"
+  },
+  "year": 1200,
+  "year_display": {
+    "en": "early 13th century",
+    "zh": "13 世纪初"
+  },
+  "medium": {
+    "en": "Fan mounted as an album leaf; ink and colour on silk",
+    "zh": "团扇，装为册页，绢本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/44638",
+    "accession": "1986.493.2",
+    "credit_line": "Gift of John M. Crawford Jr., in honor of Alfreda Murck, 1986"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP160432.jpg",
+    "width": 1600,
+    "height": 1495,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Southern Song painting of the early 13th century; the painter was active c. 1190–1225. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "南宋绘画，作于 13 世纪初；画家约活跃于 1190–1225 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A round silk fan painting. A scholar sits on a ledge at lower left beneath a twisting plum branch that reaches across the picture, with a companion standing nearby; a small pale moon hangs in the empty sky at right, and cliffs fade into mist behind.",
+    "zh": "一幅圆形的绢本团扇。一位文人坐在左下方的岩台上，头顶一枝虬曲的梅横穿画面，旁边站着一位同伴；右侧空阔的天空里挂着一轮小小的淡月，身后的山崖隐入雾中。"
+  },
+  "note": {
+    "en": "Ma Yuan, a painter at the Southern Song court, was nicknamed 'one-corner Ma' for pressing his scenes into one corner and leaving the rest open. Here almost everything happens along the lower left and the plum branch, and the moon is a small circle in a great deal of silk. The emptiness is not missing content; it is the night air the scholar is looking into.",
+    "zh": "马远是南宋画院画家，因常把景物压到一角、其余留空，人称“马一角”。这里几乎所有内容都集中在左下和那枝梅上，月亮只是大片绢面里的一个小圆。空白不是缺了什么，而是那位文人正望进去的夜气。"
+  },
+  "pick": {
+    "en": "The scholar is not doing anything useful. He has gone out at night to look at a flowering branch and the moon, and the painter treats that as worth a court commission. I keep it because attention given freely to something small is one of the things I most want to understand, and to protect.",
+    "zh": "这位文人并没有在做什么“有用”的事。他夜里出门，只为看一枝开花的梅和一轮月，而画家把这件事当作值得为宫廷描绘的题材。我留着它，是因为把注意力无所求地交给一件小东西，是我最想理解、也最想守护的事情之一。"
+  },
+  "tags": [
+    "moon",
+    "plum",
+    "night",
+    "scholar"
+  ]
+}

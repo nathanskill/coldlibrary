@@ -1,0 +1,64 @@
+{
+  "id": "S-001023",
+  "slug": "cui-hao-yellow-crane-tower",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "黃鶴樓",
+    "en": "Yellow Crane Tower",
+    "zh": "黄鹤楼"
+  },
+  "author": {
+    "orig": "崔顥",
+    "en": "Cui Hao",
+    "zh": "崔颢",
+    "dates": "c. 704–754"
+  },
+  "year": 730,
+  "year_display": {
+    "en": "early 8th century",
+    "zh": "约 8 世纪前期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/黃鶴樓_(崔顥)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 754.",
+      "zh": "唐诗，作者卒于 754 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A story told in later collections says Li Bai climbed this tower, read Cui Hao's poem on the wall, and put down his brush, saying the view had already been written. Whether or not it happened, the poem earns it: the yellow crane three times in the first three lines, the rules of regulated verse broken on purpose, and then a sudden clear view of trees and grass across the river. The crane is the past; the tower is what is left of it.",
+    "zh": "后世笔记里有个故事：李白登上黄鹤楼，读到崔颢题在壁上的诗，便搁笔说“眼前有景道不得，崔颢题诗在上头”。不论真假，这首诗担得起：前三句三次出现“黄鹤”，有意打破律诗的规矩，然后忽然一片清朗，望见对岸的树和草。黄鹤是过去，楼是过去留下的东西。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "river",
+    "home",
+    "clouds"
+  ],
+  "excerpt": {
+    "orig": "黃鶴一去不復返，白雲千載空悠悠。",
+    "en": "The yellow crane, once gone, never came back; / for a thousand years the white clouds have drifted, empty.",
+    "zh": "黄鹤一去不复返，白云千载空悠悠。"
+  },
+  "plate": null
+}

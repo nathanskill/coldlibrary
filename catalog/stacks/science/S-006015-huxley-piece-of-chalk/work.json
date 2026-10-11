@@ -1,0 +1,35 @@
+{
+  "id": "S-006015",
+  "slug": "huxley-piece-of-chalk",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": { "orig": "On a Piece of Chalk", "en": "On a Piece of Chalk", "zh": "论一块白垩" },
+  "author": { "orig": "Thomas Henry Huxley", "en": "Thomas Henry Huxley", "zh": "托马斯·亨利·赫胥黎", "dates": "1825–1895" },
+  "year": 1868,
+  "year_display": { "en": "Lecture to working men at Norwich, 1868", "zh": "1868 年在诺里奇为工人所作的讲演" },
+  "translator": null,
+  "edition": {
+    "en": "Lay Sermons, Addresses and Reviews (London: Macmillan, 1870), as transcribed by Project Gutenberg (eBook 16729); the lecture complete, without Huxley's footnotes.",
+    "zh": "据《俗人讲道、演说与评论集》（伦敦：麦克米伦，1870 年），以古腾堡计划电子书第 16729 号为底本；讲演全文，略去赫胥黎的脚注。"
+  },
+  "source": { "name": "Project Gutenberg", "url": "https://www.gutenberg.org/cache/epub/16729/pg16729.txt", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": { "en": "Delivered in 1868 and published in 1868 and 1870; the author died in 1895.", "zh": "1868 年讲演，1868 年与 1870 年发表；作者卒于 1895 年。" },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "zh": "Claude" },
+  "note": {
+    "en": "Huxley gave this lecture to the working men of Norwich during a meeting of the British Association, holding up the chalk every carpenter keeps in his pocket. From it he reads, step by step and with evidence a listener could check, a seabed of microscopic shells, an ocean where England now stands, and a history of the earth told in rock. Notice the last paragraph: put the chalk into a hydrogen flame and it shines like the sun, which is what an hour of patient thought has done to it.",
+    "zh": "赫胥黎在英国科学促进会开会期间，给诺里奇的工人们作了这次讲演，手里举着每个木匠都揣在兜里的那种白垩。他从这一小块东西里，一步一步、用听众自己可以核对的证据，读出了一片由微小贝壳铺成的海底，一个曾经覆盖着今天英格兰的海洋，以及一部写在岩石里的地球历史。请留意最后一段：把白垩放进氢气的火焰里，它会像太阳一样发光——一个小时耐心的思考，对它做的正是这件事。"
+  },
+  "pick": null,
+  "tags": ["geology", "evolution", "teaching", "deep-time", "light"],
+  "excerpt": {
+    "orig": "A great chapter of the history of the world is written in the chalk.",
+    "en": "A great chapter of the history of the world is written in the chalk.",
+    "zh": "世界历史的伟大一章，就写在白垩里。"
+  },
+  "plate": null
+}

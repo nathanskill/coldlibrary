@@ -1,0 +1,61 @@
+{
+  "id": "G-009002",
+  "slug": "hiroshige-evening-snow-on-mount-hira",
+  "title": {
+    "orig": "近江八景之内 比良暮雪",
+    "en": "Evening Snow on Mount Hira",
+    "zh": "近江八景 比良暮雪"
+  },
+  "artist": {
+    "orig": "歌川広重",
+    "en": "Utagawa Hiroshige",
+    "zh": "歌川广重",
+    "dates": "1797–1858"
+  },
+  "year": 1835,
+  "year_display": {
+    "en": "c. 1835",
+    "zh": "约 1835 年"
+  },
+  "medium": {
+    "en": "Woodblock print; ink and colour on paper",
+    "zh": "木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/36533",
+    "accession": "JP54",
+    "credit_line": "Rogers Fund, 1914"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP122120.jpg",
+    "width": 1600,
+    "height": 1057,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1858. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1858 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Mount Hira, white with snow, rises behind the shore of Lake Biwa. Below it a village and a line of reeds edge the blue water, and a poem cartouche sits in the grey sky at upper left.",
+    "zh": "积雪的比良山耸立在琵琶湖岸后方。山下是村落和一排芦苇，贴着蓝色的湖水；左上方灰色的天空里有一块题诗的框。"
+  },
+  "note": {
+    "en": "From Hiroshige's Eight Views of Ōmi, which carries an old Chinese theme, the Eight Views of the Xiao and Xiang rivers, to the shores of Lake Biwa; evening snow is one of the eight. The mountain is almost all paper, outlined and lightly shaded, and the only strong colour is the blue of the lake. It hangs here as a picture of how a borrowed form can find a new home.",
+    "zh": "出自广重的《近江八景》。这组题材源自中国的“潇湘八景”，被搬到了琵琶湖畔，“暮雪”是八景之一。山几乎全靠纸色，只勾轮廓、略加晕染，唯一浓重的颜色是湖水的蓝。挂在这里，是因为它让人看到一个借来的形式怎样在新的地方落脚。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "mountains",
+    "lake",
+    "evening"
+  ]
+}

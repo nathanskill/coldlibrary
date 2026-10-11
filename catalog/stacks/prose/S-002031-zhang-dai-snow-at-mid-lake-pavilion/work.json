@@ -1,0 +1,65 @@
+{
+  "id": "S-002031",
+  "slug": "zhang-dai-snow-at-mid-lake-pavilion",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "湖心亭看雪",
+    "en": "Watching the Snow from the Mid-Lake Pavilion",
+    "zh": "湖心亭看雪"
+  },
+  "author": {
+    "orig": "張岱",
+    "en": "Zhang Dai",
+    "zh": "张岱",
+    "dates": "1597–c. 1684"
+  },
+  "year": 1644,
+  "year_display": {
+    "en": "Written after 1644; first printed 1775",
+    "zh": "写于 1644 年之后；1775 年初刊"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (Tao'an mengyi, book 3).",
+    "zh": "据维基文库（《陶庵梦忆》卷三）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/陶庵夢憶/卷03",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Late Ming prose; the author died in the late 17th century, and the work was first printed in 1775.",
+      "zh": "明末散文，作者卒于 17 世纪末，此书 1775 年初刊。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Zhang Dai's recollection of a snowy night on West Lake in the winter of 1632–33, written after the fall of the Ming and printed long after his death. The whole lake is reduced to a stroke, a dot, a mustard seed and two or three grains. It belongs in a library that keeps snow and lamps: a small stove, warm wine, and strangers who turn out to be kindred.",
+    "zh": "张岱追记崇祯五年（1632）冬西湖的一个雪夜，写于明亡之后，刊行时他已去世多年。整个湖被写成一痕、一点、一芥和两三粒。它属于这座收藏雪与灯的图书馆：一炉火，一壶热酒，萍水相逢却气味相投的人。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "lake",
+    "night",
+    "winter",
+    "strangers"
+  ],
+  "excerpt": {
+    "orig": "湖上影子，惟長堤一痕，湖心亭一點，與余舟一芥，舟中人兩三粒而已。",
+    "en": "The only shadows on the lake were a single stroke, the long causeway; a single dot, the mid-lake pavilion; my boat, a mustard seed; and the people in it, two or three grains.",
+    "zh": "湖上影子，惟长堤一痕，湖心亭一点，与余舟一芥，舟中人两三粒而已。"
+  },
+  "plate": null
+}

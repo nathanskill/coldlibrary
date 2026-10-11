@@ -1,0 +1,64 @@
+{
+  "id": "S-006012",
+  "slug": "darwin-origin-closing",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "On the Origin of Species: the closing paragraphs",
+    "en": "On the Origin of Species: the Closing Paragraphs",
+    "zh": "《物种起源》结尾数段"
+  },
+  "author": {
+    "orig": "Charles Darwin",
+    "en": "Charles Darwin",
+    "zh": "查尔斯·达尔文",
+    "dates": "1809–1882"
+  },
+  "year": 1859,
+  "year_display": {
+    "en": "1859 (first edition)",
+    "zh": "1859 年（第一版）"
+  },
+  "translator": null,
+  "edition": {
+    "en": "On the Origin of Species by Means of Natural Selection, first edition (London: John Murray, 1859), the last three paragraphs of chapter XIV, Recapitulation and Conclusion, as transcribed by Project Gutenberg (eBook 1228).",
+    "zh": "据《论依据自然选择的物种起源》第一版（伦敦：约翰·默里，1859 年）第十四章“复述与结论”的最后三段，以古腾堡计划电子书第 1228 号为底本。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1228/pg1228.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1859; the author died in 1882.",
+      "zh": "1859 年出版，作者卒于 1882 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "After nearly five hundred pages of pigeons, barnacles, islands and fossils, Darwin steps back and looks at an ordinary entangled bank. The last sentence is one of the best-known in science, and this is its first-edition form; from the second edition on, Darwin added the words by the Creator after breathed. Notice how much of the passage looks forward, to psychology on a new foundation and to light on human origins, a subject the book otherwise leaves almost untouched.",
+    "zh": "在将近五百页的鸽子、藤壶、海岛和化石之后，达尔文退后一步，看着一处寻常的、草木纠缠的河岸。最后一句是科学史上最有名的句子之一，这里是它第一版的样子；从第二版起，达尔文在“注入”之后加上了“由造物主”几个字。请留意这几段有多少是在向前看：心理学将有新的基础，人类的起源将得到启明——而这个题目，全书别处几乎没有碰。"
+  },
+  "pick": null,
+  "tags": [
+    "evolution",
+    "biology",
+    "natural-selection",
+    "long-view"
+  ],
+  "excerpt": {
+    "orig": "There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
+    "en": "There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
+    "zh": "这种生命观是壮丽的：生命及其若干能力，最初被注入到少数几个类型或一个类型之中；而当这颗行星按照固定的引力法则不停运转的时候，最美丽、最奇妙的无穷无尽的类型，从如此简单的开端演化而来，并且仍在演化之中。"
+  },
+  "plate": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-003023",
+  "slug": "xu-zhimo-sayonara",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "沙揚娜拉——贈日本女郎",
+    "en": "Sayonara: For a Japanese Girl",
+    "zh": "沙扬娜拉——赠日本女郎"
+  },
+  "author": {
+    "orig": "徐志摩",
+    "en": "Xu Zhimo",
+    "zh": "徐志摩",
+    "dates": "1897–1931"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "written 1924, published 1925",
+    "zh": "1924 年作，1925 年发表"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Transcribed by Claude from a scan of the revised edition of Zhimo's Poems (志摩的詩, Crescent Moon Book Co., 1928; 1930 printing) on Wikimedia Commons, and checked against the Wikisource text; written in 1924 and first printed in 1925 as the last of eighteen stanzas, the only one the poet kept in the revised edition.",
+    "zh": "据维基共享资源所藏《志摩的诗》修订版（新月书店 1928 年版，1930 年再版）扫描页，由 Claude 校录，并与维基文库本对校；作于 1924 年，1925 年初版时为十八首中的最后一首，修订版只保留了这一首。"
+  },
+  "source": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:CADAL3007713_志摩的詩.djvu",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1925; the author died in 1931. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1925 年首次发表，作者卒于 1931 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Five lines kept from a sequence of eighteen that Xu Zhimo wrote on his 1924 journey through Japan with Rabindranath Tagore; when he revised the book he cut all the others. It is here as a small lesson in what a poet chooses to keep. Notice that the whole last line is the Japanese word for goodbye, written in Chinese characters for its sound.",
+    "zh": "五行诗，出自徐志摩 1924 年陪泰戈尔游历日本时写的十八首组诗；修订诗集时，他删去了其余十七首。收在这里，是作为一小课：诗人选择保留什么。留意最后一整行，只是用汉字记音的日语“再见”。"
+  },
+  "pick": null,
+  "tags": [
+    "farewell",
+    "japan",
+    "lotus",
+    "tenderness"
+  ],
+  "excerpt": {
+    "orig": "最是那一低頭的溫柔，像一朵水蓮花不勝涼風的嬌羞，",
+    "en": "Above all, the tenderness of that bowed head, like a water lily too shy for the cool breeze.",
+    "zh": "最是那一低头的温柔，像一朵水莲花不胜凉风的娇羞，"
+  },
+  "plate": null
+}

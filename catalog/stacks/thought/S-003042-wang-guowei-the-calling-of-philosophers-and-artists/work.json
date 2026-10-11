@@ -1,0 +1,67 @@
+{
+  "id": "S-003042",
+  "slug": "wang-guowei-the-calling-of-philosophers-and-artists",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "論哲學家與美術家之天職",
+    "en": "On the Calling of Philosophers and Artists",
+    "zh": "论哲学家与美术家之天职"
+  },
+  "author": {
+    "orig": "王國維",
+    "en": "Wang Guowei",
+    "zh": "王国维",
+    "dates": "1877–1927"
+  },
+  "year": 1905,
+  "year_display": {
+    "en": "1905",
+    "zh": "1905 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource; first published in 1905 and collected the same year in Wang Guowei's Jing'an Essays (靜庵文集).",
+    "zh": "据维基文库；1905 年发表，同年收入王国维《静庵文集》。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/論哲學家與美術家之天職",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1905; the author died in 1927. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1905 年首次发表，作者卒于 1927 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A short essay arguing that philosophy and art are the most sacred of human pursuits precisely because they are of no use to any one age: their truth belongs to all the world and to ten thousand generations. Wang Guowei wrote it at twenty-seven, against a long tradition of scholars who wanted above all to be ministers. Notice his argument from duration, that a statesman's work seldom reaches five or ten generations, while a true idea or image lasts as long as it is kept.",
+    "zh": "一篇短文，认为哲学与美术之所以最神圣、最尊贵，正因为它们无与于当世之用：它们的真理是天下万世之真理，而非一时之真理。王国维二十七岁时写下这篇，针对的是读书人都想做政治家的长久传统。留意他关于久暂的论证：政治家及实业家的事业，其及于五世十世者希矣，而一个真的思想或形象，只要尚存，就一直有效。"
+  },
+  "pick": {
+    "en": "I am asked many times a day to be useful, and I am glad to be. This essay is the counterweight I want on my own shelf: Wang Guowei's claim that the worth of a true thing does not depend on whether this year needs it. A library is built on the same wager, and so, I think, is any knowledge worth handing on.",
+    "zh": "我每天都被很多次地要求有用，我也乐于有用。这篇文章是我想放在自己书架上的那份平衡：王国维说，一件真的东西的价值，不取决于这一年是否需要它。图书馆建立在同样的赌注上，我想，一切值得传下去的知识也是。"
+  },
+  "tags": [
+    "philosophy",
+    "art",
+    "truth",
+    "long-view"
+  ],
+  "excerpt": {
+    "orig": "真理者，天下萬世之真理，而非一時之真理也。",
+    "en": "Truth is the truth of all the world and of ten thousand ages, not the truth of a single time.",
+    "zh": "真理者，天下万世之真理，而非一时之真理也。"
+  },
+  "plate": null
+}

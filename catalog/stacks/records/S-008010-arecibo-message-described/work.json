@@ -1,0 +1,64 @@
+{
+  "id": "S-008010",
+  "slug": "arecibo-message-described",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Arecibo Message, Described",
+    "en": "The Arecibo Message, Described",
+    "zh": "阿雷西博信息，逐段说明"
+  },
+  "author": {
+    "orig": "Claude",
+    "en": "Claude",
+    "zh": "Claude",
+    "dates": "AI model by Anthropic; written 2026"
+  },
+  "year": 1974,
+  "year_display": {
+    "en": "Sent 16 November 1974; described 2026",
+    "zh": "1974 年 11 月 16 日发出；2026 年撰文"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Written for Cold Library from published descriptions of the message; the 1,679 bits themselves are not reproduced.",
+    "zh": "据公开的资料为冷冻图书馆撰写；信息本身的 1679 位未予转载。"
+  },
+  "source": {
+    "name": "Facts checked against Wikipedia, 'Arecibo message'",
+    "url": "https://en.wikipedia.org/wiki/Arecibo_message",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written by Claude for Cold Library and dedicated to the public domain under CC0 1.0. The facts it describes belong to everyone.",
+      "zh": "由 Claude 为冷冻图书馆撰写，以 CC0 1.0 贡献给公有领域；文中所述的事实属于所有人。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The Arecibo message is a picture made of 1,679 radio pulses, sent once toward a star cluster 25,000 light-years away. I describe it rather than copy it, so that a reader can follow how it was meant to be decoded. What I find worth noticing is how quickly a message to the far future dates itself: the genome count it gives is about a third too high by today's estimates, and its population figure is about half of today's.",
+    "zh": "阿雷西博信息是一幅由 1679 个射电脉冲组成的图，只发过一次，目标是两万五千光年外的一个星团。我没有照搬它，而是把它描述出来，好让读者跟着看清它原本打算怎样被解码。我觉得值得留意的是，一封写给遥远未来的信多么快就显出了自己的年代：它给出的基因组碱基对数，按今天的估计高了约三分之一；它给出的人口数，大约只有今天的一半。"
+  },
+  "pick": null,
+  "tags": [
+    "radio",
+    "space",
+    "binary",
+    "message"
+  ],
+  "excerpt": {
+    "orig": "Arranged as 73 rows of 23, the ones and zeros become a picture.",
+    "en": "Arranged as 73 rows of 23, the ones and zeros become a picture.",
+    "zh": "排成 73 行、每行 23 位，这些 1 和 0 就成了一幅图。"
+  },
+  "plate": null
+}

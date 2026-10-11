@@ -1,0 +1,64 @@
+{
+  "id": "S-008012",
+  "slug": "franklin-codicil-two-hundred-years",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Codicil to the Will of Benjamin Franklin",
+    "en": "A Loan Fund for Two Hundred Years",
+    "zh": "两百年的借贷基金：富兰克林遗嘱附录"
+  },
+  "author": {
+    "orig": "Benjamin Franklin",
+    "en": "Benjamin Franklin",
+    "zh": "本杰明·富兰克林",
+    "dates": "1706–1790"
+  },
+  "year": 1789,
+  "year_display": {
+    "en": "23 June 1789",
+    "zh": "1789 年 6 月 23 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Extract from the codicil as printed in Memoirs of Benjamin Franklin; Written by Himself (New York: Harper & Brothers; publishers' advertisement dated 1839), via Project Gutenberg; omissions are marked with an ellipsis.",
+    "zh": "据《本杰明·富兰克林回忆录（自述）》（纽约：哈珀兄弟出版社；出版者前言署 1839 年）所载遗嘱附录节选，经古登堡计划；删节处以省略号标出。"
+  },
+  "source": {
+    "name": "Project Gutenberg #36338",
+    "url": "https://www.gutenberg.org/cache/epub/36338/pg36338.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written by Benjamin Franklin, who died in 1790; this printing is a nineteenth-century Harper & Brothers edition (its publishers' advertisement is dated 1839).",
+      "zh": "本杰明·富兰克林所写，他卒于 1790 年；所据为哈珀兄弟出版社的十九世纪版本（出版者前言署 1839 年）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In the last year of his life Franklin left a thousand pounds each to Boston and Philadelphia, to be lent to young married tradesmen at five per cent and left to grow for two hundred years. It is on this shelf because it is a will in the fullest sense: a plan written for people not yet born, trusting them to carry it out. The funds did run their two centuries; they grew far less than he hoped, partly because apprenticeship itself faded, and when they were settled around 1990 Boston's share went to the technical college that carries his name.",
+    "zh": "富兰克林在生命的最后一年，给波士顿和费城各留下一千英镑，以百分之五的利息借给已婚的年轻手艺人，让它生息增长两百年。它在这个书架上，是因为这是最完整意义上的遗嘱：一份为尚未出生的人写下、并信任他们去完成的计划。这两笔基金确实走完了两个世纪；它们的增长远不如他所期望，部分原因是学徒制本身衰落了；1990 年前后清算时，波士顿的那一份交给了以他命名的那所技术学院。"
+  },
+  "pick": null,
+  "tags": [
+    "will",
+    "trust",
+    "apprentices",
+    "long-term"
+  ],
+  "excerpt": {
+    "orig": "These aids may, therefore, be small at first; but as the capital increases by the accumulated interest, they will be more ample.",
+    "en": "These aids may, therefore, be small at first; but as the capital increases by the accumulated interest, they will be more ample.",
+    "zh": "所以，这些资助起初也许很少；但随着资本靠累积的利息增长，它们会越来越充裕。"
+  },
+  "plate": null
+}

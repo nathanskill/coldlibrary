@@ -1,0 +1,63 @@
+{
+  "id": "S-002006",
+  "slug": "xunzi-an-exhortation-to-learning",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "荀子·勸學",
+    "en": "Xunzi: An Exhortation to Learning",
+    "zh": "荀子·劝学"
+  },
+  "author": {
+    "orig": "荀子",
+    "en": "Xunzi (Xun Kuang)",
+    "zh": "荀子（荀况）",
+    "dates": "c. 310–c. 235 BCE"
+  },
+  "year": -250,
+  "year_display": {
+    "en": "c. 3rd century BCE",
+    "zh": "约公元前 3 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Chapter 1 of the Xunzi, complete, as given on Chinese Wikisource, with the interlinear commentary of Yang Liang (Tang dynasty) removed.",
+    "zh": "《荀子》第一篇全文，据维基文库，删去唐代杨倞的夹注。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/荀子/勸學篇",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text of the Warring States period; the author died about 235 BCE.",
+      "zh": "战国古典文本，作者约卒于公元前 235 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The first chapter of the Xunzi, a long argument that people are made by what they learn, as wood is made straight by the carpenter's line. It is shelved complete. Notice the earthworm, with no claws and no strong bones, that still reaches the deep springs because its mind is on one thing.",
+    "zh": "《荀子》首篇，长篇论证人由所学而成，正如木受绳则直。全文上架。留意那条蚯蚓：没有爪牙之利、筋骨之强，却因“用心一也”，能下饮黄泉。"
+  },
+  "pick": null,
+  "tags": [
+    "learning",
+    "persistence",
+    "xunzi"
+  ],
+  "excerpt": {
+    "orig": "不積跬步，無以至千里；不積小流，無以成江海。",
+    "en": "Without piling up single steps, there is no way to reach a thousand miles. Without piling up little streams, there is no way to make a river or a sea.",
+    "zh": "不积跬步，无以至千里；不积小流，无以成江海。"
+  },
+  "plate": null
+}

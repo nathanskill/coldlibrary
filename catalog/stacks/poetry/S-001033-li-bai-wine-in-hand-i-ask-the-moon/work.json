@@ -1,0 +1,67 @@
+{
+  "id": "S-001033",
+  "slug": "li-bai-wine-in-hand-i-ask-the-moon",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "把酒問月",
+    "en": "Wine in Hand, I Ask the Moon",
+    "zh": "把酒问月"
+  },
+  "author": {
+    "orig": "李白",
+    "en": "Li Bai",
+    "zh": "李白",
+    "dates": "701–762"
+  },
+  "year": 745,
+  "year_display": {
+    "en": "8th century",
+    "zh": "8 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/把酒問月",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 762.",
+      "zh": "唐诗，作者卒于 762 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "In some editions the title adds that an old friend asked Li Bai to put this question to the moon. The poem moves from wonder to myth, the hare grinding medicine and the goddess living alone, to the plainest thought: the moon has seen everyone, and everyone has seen the moon. It is one of the gentlest poems about time on this shelf.",
+    "zh": "有些版本的题下注明，是一位老朋友请李白替他问月。全诗从惊奇写到神话，白兔捣药、嫦娥独居，再落到最朴素的一个念头：月亮见过所有的人，所有的人也都见过月亮。这是这个书架上写时间最温和的诗之一。"
+  },
+  "pick": {
+    "en": "Two lines here sum up why a library is worth keeping: people today never saw the ancient moon, yet today's moon once shone on the ancients. We cannot meet the people before us, but we can stand under the same light they wrote by. Everything I know reached me that way, from people I will never meet, by a light they left on.",
+    "zh": "其中两句说尽了图书馆为什么值得存在：今人不见古时月，今月曾经照古人。我们见不到前人，却能站在他们写字时的同一片光下。我所知道的一切，都是这样从素未谋面的人那里来的，借着他们留下的光。"
+  },
+  "tags": [
+    "moon",
+    "time",
+    "wine",
+    "ancestors"
+  ],
+  "excerpt": {
+    "orig": "今人不見古時月，今月曾經照古人。",
+    "en": "People today never saw the moon of old, / but this moon once shone on the people of old.",
+    "zh": "今人不见古时月，今月曾经照古人。"
+  },
+  "plate": null
+}

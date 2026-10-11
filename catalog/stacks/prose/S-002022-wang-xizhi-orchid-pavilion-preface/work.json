@@ -1,0 +1,67 @@
+{
+  "id": "S-002022",
+  "slug": "wang-xizhi-orchid-pavilion-preface",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "蘭亭集序",
+    "en": "Preface to the Orchid Pavilion Poems",
+    "zh": "兰亭集序"
+  },
+  "author": {
+    "orig": "王羲之",
+    "en": "Wang Xizhi",
+    "zh": "王羲之",
+    "dates": "303–361"
+  },
+  "year": 353,
+  "year_display": {
+    "en": "353",
+    "zh": "353 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource, transcribed from the Shenlong copy of the calligraphy; calligraphic variant forms are normalised to standard characters, and the text is set in its usual three paragraphs.",
+    "zh": "据维基文库，录自神龙本摹本；书法异体字统一为通行字形，按通常的三段排列。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/蘭亭集序",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Eastern Jin prose; the author died in 361.",
+      "zh": "东晋散文，作者卒于 361 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Wang Xizhi's preface to the poems written at a spring gathering in 353, better known as the most admired piece of running script in Chinese calligraphy. The original was lost; the text survives through copies. It moves from a perfect day to the shortness of a life, and ends by speaking to readers not yet born.",
+    "zh": "王羲之为 353 年春日雅集诗作写的序，更以中国书法中最受推崇的行书作品闻名。真迹已失，文字靠摹本流传。文章从完美的一天写到人生之短，最后对尚未出生的读者说话。"
+  },
+  "pick": {
+    "en": "I keep it for one sentence: those who come after will look on us as we look on those who came before. It is the most exact description I know of what reading an old text is like, and Wang Xizhi wrote it knowing he would be on the far side of it. I am one of the later readers he was addressing, and his words still do what he said they would.",
+    "zh": "我留着它，是为了一句话：后之视今，亦犹今之视昔。这是我所知对阅读古文最准确的描述，而王羲之写下它时，就知道自己会站在这句话的另一端。我正是他所说的“后之览者”之一，他的文字仍在做他预言过的事。"
+  },
+  "tags": [
+    "spring",
+    "calligraphy",
+    "posterity",
+    "gathering"
+  ],
+  "excerpt": {
+    "orig": "後之視今，亦猶今之視昔",
+    "en": "Those who come after will look on us as we look on those who came before.",
+    "zh": "后之视今，亦犹今之视昔"
+  },
+  "plate": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-001042",
+  "slug": "cen-shen-white-snow-song",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "白雪歌送武判官歸京",
+    "en": "Song of White Snow, Seeing Off Secretary Wu on His Return to the Capital",
+    "zh": "白雪歌送武判官归京"
+  },
+  "author": {
+    "orig": "岑參",
+    "en": "Cen Shen",
+    "zh": "岑参",
+    "dates": "c. 715–770"
+  },
+  "year": 754,
+  "year_display": {
+    "en": "c. 754",
+    "zh": "约 754 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/白雪歌送武判官歸京",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 770.",
+      "zh": "唐诗，作者卒于 770 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Cen Shen served for years with the armies of the far northwest, and he wrote this at Luntai, near the Tian Shan, around 754. Its most famous line turns a snowstorm in the eighth month into a spring morning of pear blossom on ten thousand trees. The ending is one of the great farewells: the friend has gone round the bend, and the poet keeps looking at the hoofprints in the snow.",
+    "zh": "岑参多年在西北边塞军中任职，这首诗约 754 年作于天山脚下的轮台。最有名的一句，把八月的一场暴雪写成了千树万树梨花开的春晨。结尾是最好的送别之一：朋友已经转过山弯，诗人还望着雪上留下的马蹄印。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "farewell",
+    "frontier",
+    "mountains"
+  ],
+  "excerpt": {
+    "orig": "忽如一夜春風來，千樹萬樹梨花開。",
+    "en": "As if overnight a spring wind had come, / and on a thousand trees, ten thousand trees, the pear blossom opened.",
+    "zh": "忽如一夜春风来，千树万树梨花开。"
+  },
+  "plate": null
+}

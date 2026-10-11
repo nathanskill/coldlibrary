@@ -1,0 +1,64 @@
+{
+  "id": "S-003043",
+  "slug": "lu-xun-hope",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "希望",
+    "en": "Hope",
+    "zh": "希望"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "1925",
+    "zh": "1925 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); written 1 January 1925, first published in Threads of Talk (語絲) and collected in Wild Grass (野草), 1927.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；作于 1925 年 1 月 1 日，初刊于《语丝》，收入《野草》（1927）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/希望",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1925; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1925 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written on New Year's Day 1925: Lu Xun finds his heart lonely and calm, lays down the shield of hope, and looks for the young people who ought to be carrying it, only to find them calm too. He quotes Petőfi's bitter song about hope, and then a line of Petőfi's that became his own: despair is as vain as hope. It is on the thought shelf because it refuses both comforts and still means to go out and meet the night.",
+    "zh": "写于 1925 年元旦：鲁迅发现自己的心分外寂寞而平安，放下了希望之盾，去寻找本应拿着它的青年，却发现他们也很平安。他引了裴多菲那首苦涩的《希望》之歌，又引了裴多菲的一句话，这句话后来也成了他自己的：绝望之为虚妄，正与希望相同。放在哲思这一层，是因为它两种安慰都不接受，却仍然要自己去肉薄那暗夜。"
+  },
+  "pick": null,
+  "tags": [
+    "hope",
+    "youth",
+    "night",
+    "courage"
+  ],
+  "excerpt": {
+    "orig": "絕望之爲虛妄，正與希望相同。",
+    "en": "Despair is as vain as hope.",
+    "zh": "绝望之为虚妄，正与希望相同。"
+  },
+  "plate": null
+}

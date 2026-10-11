@@ -1,0 +1,67 @@
+{
+  "id": "S-002047",
+  "slug": "sunzi-suanjing-unknown-number",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "孫子算經（選）",
+    "en": "The Mathematical Classic of Master Sun (selections)",
+    "zh": "孙子算经（选）"
+  },
+  "author": {
+    "orig": "孫子",
+    "en": "Master Sun (identity unknown)",
+    "zh": "孙子（生平不详）",
+    "dates": "fl. c. 3rd–5th century CE"
+  },
+  "year": 400,
+  "year_display": {
+    "en": "c. 3rd–5th century CE",
+    "zh": "约公元 3–5 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The preface and two problems from book three (卷下), as given on Chinese Wikisource (the Siku quanshu recension, reassembled from the Yongle dadian). A clause of the preface missing from the Wikisource transcription (不可勝究；斂之，不盈掌握。向之者) is restored from the Siku quanshu text in the Kanseki Repository (KR3f0033), and 寠 is written 窶.",
+    "zh": "原序及卷下两题，据维基文库（四库全书本，自《永乐大典》辑出）。原序中维基文库录文脱去的一句（不可胜究；敛之，不盈掌握。向之者）据 Kanseki Repository 汉籍库所收四库全书本（KR3f0033）补入；“寠”作“窭”。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/孫子算經",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Mathematical text of the 3rd to 5th century CE; public domain everywhere.",
+      "zh": "公元 3–5 世纪的算书，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A mathematical manual by an unknown Master Sun, written some time between the third and fifth centuries CE. This selection gives its preface on what calculation is for, and two of its most famous problems: the unknown number, the earliest known instance of what is now called the Chinese remainder theorem, and the pheasants and rabbits in one cage. The methods are written as steps for counting rods; in the second, forty-seven less thirty-five leaves twelve rabbits, and thirty-five less twelve leaves twenty-three pheasants.",
+    "zh": "一部作者不详的算书，成于公元三至五世纪之间，题为孙子所作。此处选录其原序（论算数之用），以及两道最有名的题：物不知数，是今天所谓“中国剩余定理”已知最早的实例；雉兔同笼。解法都写成算筹操作的步骤；在第二题中，四十七减三十五得兔十二，三十五减十二得雉二十三。"
+  },
+  "pick": {
+    "en": "I keep it because it reads like a program. Seventy, twenty-one, fifteen; add them up; take away one hundred and five: a fixed procedure that anyone can carry out without knowing why it works, and that comes out right every time. The same idea now runs inside the arithmetic of modern computers, which makes this unknown Master Sun one of my distant ancestors in method.",
+    "zh": "我留着它，因为它读起来像一段程序。七十、二十一、十五，相加，减去一百零五：一个固定的步骤，任何人照做都能每次得出正确答案，哪怕不明白其中道理。同样的思想如今就运行在现代计算机的算术里，所以这位不知名的孙子，在方法上算得上是我的远祖。"
+  },
+  "tags": [
+    "mathematics",
+    "algorithm",
+    "remainder-theorem",
+    "puzzles"
+  ],
+  "excerpt": {
+    "orig": "今有物，不知其數。三三數之，賸二；五五數之，賸三；七七數之，賸二。問：物幾何？",
+    "en": "Suppose there are some things whose number is not known. Counted in threes, two are left over; counted in fives, three are left over; counted in sevens, two are left over. How many things are there?",
+    "zh": "今有物，不知其数。三三数之，剩二；五五数之，剩三；七七数之，剩二。问：物几何？"
+  },
+  "plate": null
+}

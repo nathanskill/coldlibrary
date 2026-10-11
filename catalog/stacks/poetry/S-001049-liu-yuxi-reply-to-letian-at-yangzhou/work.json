@@ -1,0 +1,64 @@
+{
+  "id": "S-001049",
+  "slug": "liu-yuxi-reply-to-letian-at-yangzhou",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "酬樂天揚州初逢席上見贈",
+    "en": "Reply to Letian, Who Gave Me a Poem When We First Met at a Feast in Yangzhou",
+    "zh": "酬乐天扬州初逢席上见赠"
+  },
+  "author": {
+    "orig": "劉禹錫",
+    "en": "Liu Yuxi",
+    "zh": "刘禹锡",
+    "dates": "772–842"
+  },
+  "year": 826,
+  "year_display": {
+    "en": "826",
+    "zh": "826 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/酬樂天揚州初逢席上見贈",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 842.",
+      "zh": "唐诗，作者卒于 842 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "In 826 Liu Yuxi, back from more than twenty years of exile in the south, met Bai Juyi at Yangzhou; Bai wrote a poem lamenting how badly Liu had been treated, and this is Liu's reply. It answers pity with its third couplet: beside a sunken boat a thousand sails go by, in front of a sick tree ten thousand trees come into spring. The 'flute' poem is Xiang Xiu's lament for lost friends, and the woodcutter watched a game of chess in the mountains and came home to find a lifetime gone.",
+    "zh": "826 年，刘禹锡结束二十多年的南方贬谪，与白居易在扬州相遇；白居易作诗为他的遭遇不平，这首是刘禹锡的答诗。它用第三联回应同情：沉舟侧畔千帆过，病树前头万木春。“闻笛赋”指向秀追念亡友的《思旧赋》；“烂柯人”是山中观棋的樵夫，回家时已过了一辈子。"
+  },
+  "pick": null,
+  "tags": [
+    "friendship",
+    "renewal",
+    "spring",
+    "exile"
+  ],
+  "excerpt": {
+    "orig": "沉舟側畔千帆過，病樹前頭萬木春。",
+    "en": "Beside the sunken boat a thousand sails go by; / in front of the sick tree ten thousand trees are in spring.",
+    "zh": "沉舟侧畔千帆过，病树前头万木春。"
+  },
+  "plate": null
+}

@@ -12,43 +12,7 @@
   function el(tag, cls, text) { var e = doc.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   function wait(ms) { return new Promise(function (r) { setTimeout(r, reduceMotion ? 0 : ms); }); }
 
-  /* ---------- theme: follows the system until the visitor chooses ---------- */
-  function effectiveDark() {
-    var t = root.getAttribute('data-theme');
-    if (t) return t === 'dark';
-    return !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-  }
-  $$('[data-toggle-theme]').forEach(function (b) {
-    b.addEventListener('click', function () { var next = effectiveDark() ? 'light' : 'dark'; root.setAttribute('data-theme', next); store('cl-theme', next); });
-  });
-
-  /* ---------- language bar ---------- */
-  $$('[data-switch-lang]').forEach(function (a) { a.addEventListener('click', function () { store('cl-lang', a.getAttribute('data-switch-lang')); }); });
-  (function () {
-    var bar = $('#lang-bar'); if (!bar) return;
-    var nav = (navigator.language || '').toLowerCase();
-    if (store('cl-lang') || store('cl-lang-bar-dismissed')) return;
-    if ((!ZH && nav.indexOf('zh') === 0) || (ZH && nav && nav.indexOf('zh') !== 0)) bar.hidden = false;
-    var x = $('[data-dismiss-lang]', bar);
-    if (x) x.addEventListener('click', function () { bar.hidden = true; store('cl-lang-bar-dismissed', '1'); });
-  })();
-
-  /* ---------- day counter ---------- */
-  $$('[data-day]').forEach(function (n) {
-    var f = (n.getAttribute('data-founded') || '2026-10-04').split('-');
-    var start = Date.UTC(+f[0], +f[1] - 1, +f[2]), d = new Date();
-    var day = Math.max(1, Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - start) / 86400000) + 1);
-    n.textContent = T('day ' + day, '第 ' + day + ' 天');
-  });
-
-  /* ---------- elevator directory ---------- */
-  var dir = $('#directory'), lastFocus = null;
-  function openDir() { if (!dir) return; lastFocus = doc.activeElement; dir.hidden = false; var first = $('a[aria-current="page"]', dir) || $('a', dir); if (first) first.focus(); }
-  function closeDir() { if (!dir) return; dir.hidden = true; if (lastFocus && lastFocus.focus) lastFocus.focus(); }
-  $$('[data-open-directory]').forEach(function (b) { b.addEventListener('click', openDir); });
-  $$('[data-close-directory]').forEach(function (b) { b.addEventListener('click', closeDir); });
-  if (dir) dir.addEventListener('click', function (e) { if (e.target === dir) closeDir(); });
-  doc.addEventListener('keydown', function (e) { if (e.key === 'Escape') { if (dir && !dir.hidden) closeDir(); var m = $('details.menu[open]'); if (m) m.open = false; } });
+  /* Theme, language hint, day counter, floor directory and menu live in /assets/js/chrome.js. */
 
   /* ---------- snow: only over the closing photograph, at most 40 flakes ---------- */
   $$('canvas.snow').forEach(function (cv) {

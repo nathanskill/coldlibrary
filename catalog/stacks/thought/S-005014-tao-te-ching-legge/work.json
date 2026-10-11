@@ -1,0 +1,67 @@
+{
+  "id": "S-005014",
+  "slug": "tao-te-ching-legge",
+  "shelf": "thought",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "道德經",
+    "en": "Tao Te Ching (Legge’s translation)",
+    "zh": "道德经（理雅各英译）"
+  },
+  "author": {
+    "orig": "老子",
+    "en": "Laozi",
+    "zh": "老子",
+    "dates": "c. 6th century BCE (traditional)"
+  },
+  "year": -400,
+  "year_display": {
+    "en": "compiled c. 4th century BCE; translated 1891",
+    "zh": "约公元前四世纪成书；1891 年英译"
+  },
+  "translator": {
+    "name": "James Legge",
+    "dates": "1815–1897",
+    "year": 1891
+  },
+  "edition": {
+    "en": "All eighty-one chapters of James Legge’s The Tâo Teh King, from The Sacred Books of the East, vol. 39 (Oxford, 1891), as given by Project Gutenberg eBook #216. Legge’s parentheses, which mark words he supplied, are his and are kept; his rhymed renderings keep their line breaks.",
+    "zh": "理雅各译《道德经》八十一章全文，出自《东方圣书》第 39 卷（牛津，1891），据古登堡计划电子书 216。理雅各用圆括号标出他补出的词，予以保留；他以韵文译出的段落保留分行。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/216/pg216.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "An ancient Chinese text. James Legge, the translator, died in 1897; the translation was published in 1891.",
+      "zh": "中国先秦典籍。译者理雅各卒于 1897 年；译本出版于 1891 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {},
+  "note": {
+    "en": "James Legge’s translation, published in 1891 in The Sacred Books of the East, one of the earliest complete English versions, and one that later translators have often argued with. His parentheses show how much a translator must supply to make the classical Chinese run in English, and his rhymed passages show the taste of his century. The Chinese original sits on the neighbouring shelf; this copy is here so that readers can watch the text cross into another language, which is why it has no Chinese translation of its own.",
+    "zh": "理雅各的译本，1891 年收入《东方圣书》，是最早的几部完整英译之一，后来的译者也常与它争辩。他括号里补出的字显示，要让文言在英文里读得通，译者得补上多少东西；他用韵文译出的段落，则带着他那个世纪的趣味。中文原典放在旁边的书架上；这个译本放在这里，是为了让读者看见一部经典怎样进入另一种语言，所以它没有另配中文译文。"
+  },
+  "pick": null,
+  "tags": [
+    "tao",
+    "translation",
+    "water",
+    "emptiness",
+    "classic"
+  ],
+  "excerpt": {
+    "orig": "The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.",
+    "en": "The Tao that can be trodden is not the enduring and unchanging Tao. The name that can be named is not the enduring and unchanging name.",
+    "zh": "道可道，非常道；名可名，非常名。"
+  },
+  "plate": null
+}

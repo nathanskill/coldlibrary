@@ -1,0 +1,64 @@
+{
+  "id": "S-001028",
+  "slug": "zu-yong-lingering-snow-on-zhongnan",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "終南望餘雪",
+    "en": "Looking at the Lingering Snow on Zhongnan",
+    "zh": "终南望余雪"
+  },
+  "author": {
+    "orig": "祖詠",
+    "en": "Zu Yong",
+    "zh": "祖咏",
+    "dates": "c. 699–c. 746"
+  },
+  "year": 724,
+  "year_display": {
+    "en": "c. 724",
+    "zh": "约 724 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/終南望餘雪",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died around 746.",
+      "zh": "唐诗，作者约卒于 746 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written as an examination poem, which by the rules should have run to twelve lines; Zu Yong handed in four, and when asked why, said the meaning was complete. The story is in the Tang anecdote collections, and the poem bears it out: snow on the far mountain, a little brightness after the clouds, and the city below feeling colder for it.",
+    "zh": "这是一首应试诗，按规矩应写十二句，祖咏只写了四句就交卷，有人问他，他说：“意尽。”这个故事见于唐人笔记，诗本身也证明了他：远山积雪，云开后林梢一片明亮，山下的城里反而更冷了。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "mountains",
+    "evening",
+    "cold"
+  ],
+  "excerpt": {
+    "orig": "林表明霽色，城中增暮寒。",
+    "en": "At the edge of the woods the clearing sky is bright; / in the city the evening cold grows deeper.",
+    "zh": "林表明霁色，城中增暮寒。"
+  },
+  "plate": null
+}

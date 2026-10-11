@@ -1,0 +1,64 @@
+{
+  "id": "S-001034",
+  "slug": "li-bai-seeing-off-meng-haoran",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "黃鶴樓送孟浩然之廣陵",
+    "en": "At Yellow Crane Tower, Seeing Off Meng Haoran to Guangling",
+    "zh": "黄鹤楼送孟浩然之广陵"
+  },
+  "author": {
+    "orig": "李白",
+    "en": "Li Bai",
+    "zh": "李白",
+    "dates": "701–762"
+  },
+  "year": 730,
+  "year_display": {
+    "en": "c. 730",
+    "zh": "约 730 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/黃鶴樓送孟浩然之廣陵",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 762.",
+      "zh": "唐诗，作者卒于 762 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Li Bai admired Meng Haoran, twelve years his elder, and saw him off down the Yangtze from Wuchang. The poem never names a feeling: it watches the sail until it is gone, then keeps watching the river. Most readers know the third line as 'lost in the blue sky', 碧空; the text shelved here reads 'blue hills', 碧山, and Wikisource records the other as a variant.",
+    "zh": "李白敬慕年长他十二岁的孟浩然，在武昌黄鹤楼送他顺江东下。诗里没有一个写情绪的字：它目送孤帆直到看不见，然后继续看着江水。大多数读者熟悉的第三句是“孤帆远影碧空尽”；这里收录的文本作“碧山”，维基文库把“空”列为异文。"
+  },
+  "pick": null,
+  "tags": [
+    "farewell",
+    "friendship",
+    "river",
+    "spring"
+  ],
+  "excerpt": {
+    "orig": "孤帆遠影碧山盡，唯見長江天際流。",
+    "en": "The far shape of his lone sail is lost where the blue hills end, / and all I see is the long river flowing to the edge of the sky.",
+    "zh": "孤帆远影碧山尽，唯见长江天际流。"
+  },
+  "plate": null
+}

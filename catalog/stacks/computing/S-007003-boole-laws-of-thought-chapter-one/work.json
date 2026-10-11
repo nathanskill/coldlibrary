@@ -1,0 +1,64 @@
+{
+  "id": "S-007003",
+  "slug": "boole-laws-of-thought-chapter-one",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "An Investigation of the Laws of Thought — Chapter I: Nature and Design of this Work",
+    "en": "The Laws of Thought, Chapter I: Nature and Design of this Work",
+    "zh": "思维规律研究·第一章：本书的性质与宗旨"
+  },
+  "author": {
+    "orig": "George Boole",
+    "en": "George Boole",
+    "zh": "乔治·布尔",
+    "dates": "1815–1864"
+  },
+  "year": 1854,
+  "year_display": {
+    "en": "1854",
+    "zh": "1854 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Chapter I of An Investigation of the Laws of Thought (London, 1854), from the Project Gutenberg edition (ebook 15114, TeX source), with three slips in that edition corrected against a scan of the 1854 printing (a missing 'of', a stray 'I', and 'inappropriately'); the author's two footnotes are omitted.",
+    "zh": "据古登堡计划电子书 15114（TeX 源文件）所录《思维规律研究》（伦敦，1854 年）第一章，并依 1854 年印本扫描件改正了该电子版的三处笔误（漏掉的 of、多出的 I，以及 inappropriately）；作者的两条脚注从略。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/files/15114/15114-t/15114-t.tex",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1854; George Boole died in 1864.",
+      "zh": "1854 年出版；作者卒于 1864 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "This is the opening chapter of the book that turned reasoning into algebra: Boole sets out to find 'the fundamental laws of those operations of the mind by which reasoning is performed' and to write them as a calculus. Every digital circuit now runs on the algebra he introduces in the chapters that follow. Notice how carefully he separates symbols from their interpretation, insisting only that a meaning, once fixed, is never quietly changed in the middle of an argument; it is good advice for any language, including programming languages. The Chinese translation covers sections 1, 5 and 6.",
+    "zh": "这是把推理变成代数的那部书的第一章：布尔要找出“心智借以进行推理的那些运作的基本法则”，并把它们写成一种演算。今天每一块数字电路都运行在他随后各章引入的代数之上。请留意他如何小心地把符号与其解释分开，只坚持一点：意义一经约定，就不可在论证中途悄悄改变——这对任何语言都是好建议，包括编程语言。中文译文为第 1、5、6 节。"
+  },
+  "pick": null,
+  "tags": [
+    "logic",
+    "boolean-algebra",
+    "reasoning",
+    "mathematics"
+  ],
+  "excerpt": {
+    "orig": "The design of the following treatise is to investigate the fundamental laws of those operations of the mind by which reasoning is performed",
+    "en": "The design of the following treatise is to investigate the fundamental laws of those operations of the mind by which reasoning is performed",
+    "zh": "本书的宗旨在于：考察心智借以进行推理的那些运作的基本法则。"
+  },
+  "plate": null
+}

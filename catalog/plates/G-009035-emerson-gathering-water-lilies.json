@@ -1,0 +1,61 @@
+{
+  "id": "G-009035",
+  "slug": "emerson-gathering-water-lilies",
+  "title": {
+    "orig": "Gathering Water-Lilies",
+    "en": "Gathering Water-Lilies",
+    "zh": "采睡莲"
+  },
+  "artist": {
+    "orig": "Peter Henry Emerson",
+    "en": "Peter Henry Emerson",
+    "zh": "彼得·亨利·爱默生",
+    "dates": "1856–1936"
+  },
+  "year": 1886,
+  "year_display": {
+    "en": "1886",
+    "zh": "1886 年"
+  },
+  "medium": {
+    "en": "Platinum print from a glass negative",
+    "zh": "铂金印相（玻璃底片）"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/286671",
+    "accession": "2005.100.741",
+    "credit_line": "Gilman Collection, Purchase, Mrs. Walter Annenberg and The Annenberg Foundation Gift, 2005"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ph/original/DP138139.jpg",
+    "width": 1600,
+    "height": 1085,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1936. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1936 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A black-and-white photograph of a rowing boat among water lilies on still water. One person rows from the stern while the other leans out over the side to lift a lily from the water; tall reeds close in behind them.",
+    "zh": "一张黑白照片：平静水面上的睡莲丛中有一条划艇。一人在船尾划桨，另一人探身到船舷外，从水里捞起一朵睡莲；身后是高高的芦苇。"
+  },
+  "note": {
+    "en": "Emerson argued that photography should look the way the eye sees, softly focused away from the centre, and he made his case on the Norfolk Broads among the people who worked there. This plate comes from his first book, Life and Landscape on the Norfolk Broads (1886). It is the stillest water on this wall.",
+    "zh": "爱默生主张摄影应当像眼睛那样看东西，中心之外柔和失焦；他在诺福克湖区、在当地劳作的人们中间证明了这一点。这张照片出自他的第一本书《诺福克湖区的生活与风景》（1886）。这是这面墙上最静的一片水。"
+  },
+  "pick": null,
+  "tags": [
+    "lake",
+    "water",
+    "photography",
+    "summer"
+  ]
+}

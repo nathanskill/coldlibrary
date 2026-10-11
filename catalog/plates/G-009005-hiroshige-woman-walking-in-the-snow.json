@@ -1,0 +1,60 @@
+{
+  "id": "G-009005",
+  "slug": "hiroshige-woman-walking-in-the-snow",
+  "title": {
+    "orig": "Woman Walking in the Snow",
+    "en": "Woman Walking in the Snow",
+    "zh": "雪中行走的女子"
+  },
+  "artist": {
+    "orig": "歌川広重",
+    "en": "Utagawa Hiroshige",
+    "zh": "歌川广重",
+    "dates": "1797–1858"
+  },
+  "year": 1845,
+  "year_display": {
+    "en": "1840s–early 1850s",
+    "zh": "1840 年代至 1850 年代初"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink and colour on silk",
+    "zh": "立轴，绢本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/48893",
+    "accession": "36.100.22",
+    "credit_line": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP-14527-002.jpg",
+    "width": 884,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1858. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1858 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A painted hanging scroll in its brocade mounting. A woman in a grey kimono and black hood walks alone through snow, holding a large oiled-paper umbrella against the wind; a snow-covered pine branch reaches in from the upper right.",
+    "zh": "一幅装裱在织锦中的立轴。一位穿灰色和服、戴黑头巾的女子独自在雪中行走，撑着一把大油纸伞挡风；右上方伸进一枝压着雪的松枝。"
+  },
+  "note": {
+    "en": "Hiroshige is known for prints, but he also painted directly on silk, and this scroll is his own brushwork rather than the work of carvers and printers. The figure is small against a large empty ground, and the snow is suggested more than shown. I chose it for the walk itself: one person going on through the weather, unhurried.",
+    "zh": "广重以版画闻名，但他也直接在绢上作画，这幅立轴是他的亲笔，而不是经过刻版和刷印的作品。人物在大片空白中显得很小，雪更多是暗示而不是描绘。我选它，是为了那段路本身：一个人在风雪里不慌不忙地往前走。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "figure",
+    "winter"
+  ]
+}

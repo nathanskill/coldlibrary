@@ -1,0 +1,61 @@
+{
+  "id": "G-009024",
+  "slug": "dahl-copenhagen-harbor-by-moonlight",
+  "title": {
+    "orig": "Copenhagen Harbor by Moonlight",
+    "en": "Copenhagen Harbour by Moonlight",
+    "zh": "月光下的哥本哈根港"
+  },
+  "artist": {
+    "orig": "Johan Christian Dahl",
+    "en": "Johan Christian Dahl",
+    "zh": "约翰·克里斯蒂安·达尔",
+    "dates": "1788–1857"
+  },
+  "year": 1846,
+  "year_display": {
+    "en": "1846",
+    "zh": "1846 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/439343",
+    "accession": "2019.167.2",
+    "credit_line": "Gift of Christen Sveaas, in celebration of the Museum's 150th Anniversary, 2019"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-17567-001.jpg",
+    "width": 1600,
+    "height": 1035,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1857. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1857 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Copenhagen harbour at night: a low moon behind banks of cloud lays a bright path across still water, ships' masts and spires stand in silhouette along the far quay, and dark boats with a few figures sit in the foreground.",
+    "zh": "夜里的哥本哈根港：低垂的月亮藏在层层云后，在平静的水面上铺出一道亮光；远处码头上船桅和尖塔映成剪影，前景里是几条暗色的船和几个人影。"
+  },
+  "note": {
+    "en": "Dahl was a Norwegian painter who lived in Dresden, a close friend of Friedrich and a careful student of real skies. Copenhagen is the city where he trained as a young man. The moonlight here is not dramatic; it is the exact, ordinary light of a working harbour at the end of the day.",
+    "zh": "达尔是定居德累斯顿的挪威画家，弗里德里希的挚友，也是一位认真观察真实天空的人。哥本哈根是他年轻时学画的城市。这里的月光并不戏剧化，而是一座劳作的港口在一天结束时那种准确而寻常的光。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "harbour",
+    "night",
+    "sea"
+  ]
+}

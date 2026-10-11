@@ -1,0 +1,65 @@
+{
+  "id": "S-001040",
+  "slug": "du-fu-for-wei-the-eighth",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "贈衛八處士",
+    "en": "For Wei the Eighth, a Gentleman Living Retired",
+    "zh": "赠卫八处士"
+  },
+  "author": {
+    "orig": "杜甫",
+    "en": "Du Fu",
+    "zh": "杜甫",
+    "dates": "712–770"
+  },
+  "year": 759,
+  "year_display": {
+    "en": "759",
+    "zh": "759 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems); the variant readings it marks are left out.",
+    "zh": "据维基文库（《唐诗三百首》本），删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/贈衛八處士",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 770.",
+      "zh": "唐诗，作者卒于 770 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "In the spring of 759, in the middle of the rebellion, Du Fu spent one evening with an old friend he had not seen for twenty years. Shen and Shang are Orion and Antares, two stars never in the sky at the same time. The poem does not hide that half their friends are gone, and it still ends on a meal, ten cups of wine and a shared lamp, with chives cut in the rain by children who were not born the last time.",
+    "zh": "759 年春，安史之乱正烈，杜甫与一位二十年未见的老朋友共度了一个夜晚。参与商是参宿和心宿，两颗从不同时出现在天上的星。诗并不回避“访旧半为鬼”，却仍以一顿饭、十杯酒和一盏共享的灯结束；冒雨剪春韭的，是上次见面时还没出生的孩子们。"
+  },
+  "pick": null,
+  "tags": [
+    "friendship",
+    "lamp",
+    "time",
+    "rain",
+    "reunion"
+  ],
+  "excerpt": {
+    "orig": "今夕復何夕，共此燈燭光。",
+    "en": "And tonight, what night is this, / that we share the light of this lamp?",
+    "zh": "今夕复何夕，共此灯烛光。"
+  },
+  "plate": null
+}

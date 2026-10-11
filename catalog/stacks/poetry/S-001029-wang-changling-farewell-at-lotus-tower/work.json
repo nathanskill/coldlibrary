@@ -1,0 +1,64 @@
+{
+  "id": "S-001029",
+  "slug": "wang-changling-farewell-at-lotus-tower",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "芙蓉樓送辛漸",
+    "en": "Seeing Off Xin Jian at Lotus Tower",
+    "zh": "芙蓉楼送辛渐"
+  },
+  "author": {
+    "orig": "王昌齡",
+    "en": "Wang Changling",
+    "zh": "王昌龄",
+    "dates": "c. 698–c. 757"
+  },
+  "year": 742,
+  "year_display": {
+    "en": "c. 742",
+    "zh": "约 742 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/芙蓉樓送辛漸_(寒雨連江夜入吳)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died around 757.",
+      "zh": "唐诗，作者约卒于 757 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Wang Changling was serving in a minor post on the lower Yangtze when he sent this message north with a departing friend; Wikisource gives two poems under the title, and this is the first. The last line is his answer to anything people might say about him: his heart is as clear as ice in a jade vessel. It is a whole reputation, sent by word of mouth, in seven characters.",
+    "zh": "王昌龄任江宁丞时，托北归的朋友带回这句话；维基文库此题下有两首，这是第一首。最后一句是他对一切流言的回答：一片冰心在玉壶。一个人的清白，托人口头带回，只用了七个字。"
+  },
+  "pick": null,
+  "tags": [
+    "farewell",
+    "rain",
+    "river",
+    "integrity"
+  ],
+  "excerpt": {
+    "orig": "洛陽親友如相問，一片冰心在玉壺。",
+    "en": "If friends and family in Luoyang ask after me, / tell them: a heart of ice in a jade pot.",
+    "zh": "洛阳亲友如相问，一片冰心在玉壶。"
+  },
+  "plate": null
+}

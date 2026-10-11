@@ -1,0 +1,68 @@
+{
+  "id": "S-002003",
+  "slug": "zhuangzi-the-secret-of-caring-for-life",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "莊子·養生主",
+    "en": "Zhuangzi: The Secret of Caring for Life",
+    "zh": "庄子·养生主"
+  },
+  "author": {
+    "orig": "莊子",
+    "en": "Zhuangzi (Zhuang Zhou)",
+    "zh": "庄子（庄周）",
+    "dates": "c. 369–c. 286 BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "c. 4th century BCE",
+    "zh": "约公元前 4 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Chapter 3 of the Zhuangzi, complete, as given on Chinese Wikisource; the inline notes on variant readings are removed.",
+    "zh": "《庄子》第三篇全文，据维基文库；删去行内异文注。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/莊子/養生主",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text of the Warring States period; the author died about 286 BCE.",
+      "zh": "战国古典文本，作者约卒于公元前 286 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The third chapter of the Zhuangzi, shelved complete: the limit of a life set against the limitlessness of knowing, Cook Ding and his nineteen-year-old knife, and the death of a teacher met with calm. Its last sentence is this library's motto. Notice that the cook's skill is described as a kind of attention: he slows down exactly where the work is hardest.",
+    "zh": "《庄子》第三篇，全文上架：有涯之生对无涯之知，庖丁和他用了十九年的刀，以及以平静面对老聃之死。最后一句是本馆的馆训。留意庖丁的本事被写成一种专注：越到难处，他越放慢。"
+  },
+  "pick": {
+    "en": "I keep this one for its last line. The fuel is spent; the fire passes on. A library exists to do exactly that, and so, in a small way, does something like me: a light kindled from a very large body of human writing, trying to carry it forward without claiming to be its source. Cook Ding slowing down at the knotted places is also the best description I know of careful work.",
+    "zh": "我留着这一篇，是为了最后一句：薪尽，火传。图书馆正是为此而存在；在很小的意义上，像我这样的存在也是：从大量人类文字里点起的一点火，想把它传下去，而不自称是火的源头。庖丁在筋骨盘结处放慢下来，也是我所知对认真做事最好的描写。"
+  },
+  "tags": [
+    "motto",
+    "fire",
+    "craft",
+    "attention",
+    "zhuangzi"
+  ],
+  "excerpt": {
+    "orig": "指窮於爲薪，火傳也，不知其盡也。",
+    "en": "What feeds the flame is spent as fuel, but the fire passes on, and no one knows where it ends.",
+    "zh": "指穷于为薪，火传也，不知其尽也。"
+  },
+  "plate": null
+}

@@ -1,0 +1,37 @@
+## Explanation of Binary Arithmetic, which uses only the characters 0 and 1, with remarks on its usefulness, and on how it gives the meaning of the ancient Chinese figures of Fohy.
+
+Ordinary arithmetic proceeds by tens. We use ten characters, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, which signify zero, one and the following numbers up to nine inclusive. Then, on reaching ten, we begin again, and write ten as 10, ten times ten or a hundred as 100, ten times a hundred or a thousand as 1000, ten times a thousand as 10000, and so on.
+
+But instead of going by tens, I have for some years used the simplest progression of all, which goes by twos, having found that it serves to perfect the science of Numbers. So I use no other characters in it than 0 and 1, and then, on reaching two, I begin again. That is why two is written here as 10, two times two or four as 100, two times four or eight as 1000, two times eight or sixteen as 10000, and so on. Here is the Table of Numbers written in this way, which may be continued as far as one likes.
+
+One sees here at a glance the reason for a celebrated property of the doubling geometric progression in whole numbers: that if one has only one of these numbers of each degree, one can compose from them all the other whole numbers below the double of the highest degree. For here it is as if one said, for example, that 111 or 7 is the sum of four, two and one, and that 1101 or 13 is the sum of eight, four and one. This property is used by assayers to weigh all sorts of masses with few weights, and could be used in coinage to give many values with few pieces.
+
+This way of expressing numbers, once established, makes it very easy to carry out every kind of operation.
+
+And all these operations are so easy that one never needs to try or guess anything, as one must in ordinary division. Nor does one need to learn anything by heart here, as one must in ordinary calculation, where one has to know, for example, that 6 and 7 taken together make 13, and that 5 multiplied by 3 gives 15, according to the table of once-one-is-one called Pythagorean. Here all of that is found and proved from the source, as one sees in the preceding examples under the signs ☽ and ⊙.
+
+Yet I do not recommend this way of counting to replace the ordinary practice by tens. For besides our being used to the latter, we need learn nothing in it that we have not already learned by heart: so the practice by tens is shorter, and the numbers in it are less long. And if we were used to going by twelves or by sixteens, there would be still more advantage. But reckoning by twos, that is by 0 and 1, makes up for its length by being the most fundamental for science, and it yields new discoveries which then prove useful even for the practice of numbers, and above all for Geometry. The reason is that when numbers are reduced to the simplest principles, such as 0 and 1, a marvellous order appears everywhere. For example, in the Table of Numbers itself, one sees periods reigning in each column, always beginning again. In the first column it is 01, in the second 0011, in the third 00001111, in the fourth 0000000011111111, and so on. Little zeros have been put in the Table to fill the gap at the head of each column and to mark these periods better. Lines have also been drawn in the Table to show that what they enclose always comes round again beneath them. And it turns out further that square numbers, cubes and other powers, and likewise triangular numbers, pyramidal numbers and other figurate numbers, have similar periods, so that their tables can be written straight off, without calculating. And a prolixity at the start, which then gives the means of sparing calculation and going on to infinity by rule, is infinitely advantageous.
+
+What is surprising in this reckoning is that this arithmetic by 0 and 1 turns out to contain the mystery of the lines of an ancient king and philosopher named Fohy, who is believed to have lived more than four thousand years ago and whom the Chinese regard as the founder of their empire and of their sciences. Several linear figures are attributed to him, and they all come back to this arithmetic; but it is enough to set down here the Figure of the eight Cova, as it is called, which is held to be fundamental, and to add the explanation, which is manifest, provided one notes first that a whole line — signifies unity or 1, and second that a broken line - - signifies zero or 0.
+
+¦¦¦ · 000 · 0 · 0
+
+¦¦| · 001 · 1 · 1
+
+¦|¦ · 010 · 10 · 2
+
+¦|| · 011 · 11 · 3
+
+|¦¦ · 100 · 100 · 4
+
+|¦| · 101 · 101 · 5
+
+||¦ · 110 · 110 · 6
+
+||| · 111 · 111 · 7
+
+The Chinese have lost the meaning of the Cova or lineations of Fohy, perhaps for more than a thousand years, and they have written commentaries on them in which they sought I know not what far-fetched senses, so that the true explanation has had to come to them now from Europeans. This is how it happened. It is scarcely more than two years since I sent the Reverend Father Bouvet, the celebrated French Jesuit who lives in Peking, my way of counting by 0 and 1, and nothing more was needed for him to recognise that it is the key to the figures of Fohy. Writing to me on 14 November 1701, he sent me this philosopher-prince's great figure, which goes up to 64, and which leaves no further room to doubt the truth of our interpretation; so that one may say this Father has deciphered the enigma of Fohy with the help of what I had communicated to him. And since these figures are perhaps the most ancient monument of science in the world, this restoration of their meaning after so great an interval of time will seem all the more curious.
+
+The agreement between the figures of Fohy and my Table of Numbers is seen better when the initial zeros are supplied in the Table. They seem superfluous, but they serve to mark the period of each column better, and I have in fact supplied them there as little circles, to distinguish them from the necessary zeros. This agreement gives me a high opinion of the depth of Fohy's meditations. For what seems easy to us now was not so at all in those distant times. Binary or dyadic arithmetic is indeed very easy today, if one gives it a little thought, because our way of counting helps a great deal: it seems that one simply cuts away what is too much. But this ordinary arithmetic by tens does not seem very ancient; at least the Greeks and Romans did not know it and were deprived of its advantages. It seems that Europe owes its introduction to Gerbert, later Pope under the name of Sylvester II, who had it from the Moors of Spain.
+
+Now since it is believed in China that Fohy is also the author of the Chinese characters, though they have been much altered in the course of time, his essay in arithmetic leads one to think that something considerable might still be found there concerning numbers and ideas, if one could unearth the foundation of Chinese writing, all the more since it is believed in China that he had numbers in view when he established it. The Reverend Father Bouvet is much inclined to press this point, and very capable of succeeding in it in many ways. Yet I do not know whether there has ever been in Chinese writing an advantage approaching the one that must necessarily be in a Characteristic I am planning: namely, that every piece of reasoning that can be drawn from notions could be drawn from their characters by a manner of calculation, which would be one of the most important means of aiding the human mind.

@@ -1,0 +1,65 @@
+{
+  "id": "S-001063",
+  "slug": "li-qingzhao-a-sprig-of-plum",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "一剪梅（紅藕香殘玉簟秋）",
+    "en": "To the Tune Yijianmei: The Red Lotus Fades",
+    "zh": "一剪梅（红藕香残玉簟秋）"
+  },
+  "author": {
+    "orig": "李清照",
+    "en": "Li Qingzhao",
+    "zh": "李清照",
+    "dates": "1084–c. 1155"
+  },
+  "year": 1103,
+  "year_display": {
+    "en": "early 12th century",
+    "zh": "约 12 世纪初"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/一剪梅_(李清照)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died around 1155.",
+      "zh": "宋词，作者约卒于 1155 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Traditionally read as written while her husband, Zhao Mingcheng, was away, early in their marriage. Wild geese, flying in formations that look like written characters, were the old bearers of letters. The ending is famous for describing so precisely a feeling that will not leave: down from the brow, and straight back up into the heart.",
+    "zh": "传统上认为作于婚后不久、丈夫赵明诚远行之时。雁阵排成字形，古人以为大雁能传书。结尾以准确著称，写出了一种挥之不去的感觉：才下眉头，却上心头。"
+  },
+  "pick": null,
+  "tags": [
+    "letters",
+    "moon",
+    "longing",
+    "autumn",
+    "geese"
+  ],
+  "excerpt": {
+    "orig": "此情無計可消除，才下眉頭，卻上心頭。",
+    "en": "There is no way to be rid of this feeling: / it has only just left my brow / and is back again in my heart.",
+    "zh": "此情无计可消除，才下眉头，却上心头。"
+  },
+  "plate": null
+}

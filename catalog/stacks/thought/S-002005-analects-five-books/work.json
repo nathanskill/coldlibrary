@@ -1,0 +1,64 @@
+{
+  "id": "S-002005",
+  "slug": "analects-five-books",
+  "shelf": "thought",
+  "form": "aphorisms",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "論語（學而、爲政、里仁、述而、子罕）",
+    "en": "The Analects: Books 1, 2, 4, 7 and 9",
+    "zh": "论语（学而、为政、里仁、述而、子罕）"
+  },
+  "author": {
+    "orig": "孔子及其弟子",
+    "en": "Confucius and his disciples",
+    "zh": "孔子及其弟子",
+    "dates": "Confucius 551–479 BCE"
+  },
+  "year": -400,
+  "year_display": {
+    "en": "Compiled 5th–4th century BCE",
+    "zh": "约编成于公元前 5–前 4 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Five complete books, text as given on Chinese Wikisource, collated with Project Gutenberg eBook #23839. Where the Wikisource text adopts readings from excavated manuscripts (1.7, 4.14, 7.6, 7.17), the received reading is kept; inline variant notes are removed and a few quotation marks corrected.",
+    "zh": "五篇全文，据维基文库，并与古腾堡计划电子书 #23839 对校。维基文库采用出土文献异文之处（1.7、4.14、7.6、7.17）仍从传世本；删去行内异文注，订正数处引号。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/論語",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text compiled in the Warring States period; public domain everywhere.",
+      "zh": "战国时期编成的古典文本，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Five complete books of the Analects, the sayings of Confucius as remembered by his disciples: Learning, Government, Dwelling in Humaneness, Transmitting, and The Master Seldom. Together they hold many of the lines people still quote, from the pleasure of learning and practising to the pine and cypress that are last to fade. Notice how often he describes himself as a learner rather than a sage.",
+    "zh": "《论语》五篇全文：学而、为政、里仁、述而、子罕，是弟子记下的孔子言行。今天常被引用的句子不少都在这里，从“学而时习之”到“岁寒，然后知松柏之后凋也”。留意他多么常把自己说成学习者，而不是圣人。"
+  },
+  "pick": null,
+  "tags": [
+    "learning",
+    "teaching",
+    "humaneness",
+    "confucius"
+  ],
+  "excerpt": {
+    "orig": "學而時習之，不亦說乎？有朋自遠方來，不亦樂乎？",
+    "en": "To learn something and, in due time, to practise it: is that not a pleasure? To have friends come from far away: is that not a joy?",
+    "zh": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？"
+  },
+  "plate": null
+}

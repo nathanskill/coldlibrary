@@ -1,0 +1,38 @@
+{
+  "id": "S-006016",
+  "slug": "riemann-hypotheses-of-geometry",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": { "orig": "Über die Hypothesen, welche der Geometrie zu Grunde liegen", "en": "On the Hypotheses which lie at the Bases of Geometry: the Plan and the Application to Space", "zh": "论作为几何学基础的假设：研究计划与对空间的应用" },
+  "author": { "orig": "Bernhard Riemann", "en": "Bernhard Riemann", "zh": "伯恩哈德·黎曼", "dates": "1826–1866" },
+  "year": 1854,
+  "year_display": { "en": "Lecture at Göttingen, 10 June 1854; published 1868", "zh": "1854 年 6 月 10 日哥廷根就职讲演；1868 年发表" },
+  "translator": { "name": "William Kingdon Clifford", "dates": "1845–1879", "year": 1873 },
+  "edition": {
+    "en": "Clifford's translation in Nature, vol. 8 (1 and 8 May 1873), pp. 14–17 and 36–37, transcribed from the Internet Archive scans of the two issues: the opening Plan of the Investigation and the whole of part III, Application to Space. Parts I and II, which develop the mathematics of n-fold manifolds and their curvature, are omitted. Scanning errors are corrected; Clifford's wording, including physic for physics, is kept.",
+    "zh": "据克利福德刊于《自然》第 8 卷（1873 年 5 月 1 日与 8 日）第 14–17 页、第 36–37 页的译文，依互联网档案馆两期扫描本转录：收开头的“研究计划”和第三部分“对空间的应用”全文。第一、二部分讲 n 重流形及其曲率的数学，从略。改正扫描识别错误，保留克利福德的用词（如以 physic 称物理学）。"
+  },
+  "source": { "name": "Internet Archive (scan of Nature, 1 May 1873)", "url": "https://archive.org/details/paper-doi-10_1038_008014a0", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "German original read in 1854 and printed in 1868; Riemann died in 1866. The translator, W. K. Clifford, died in 1879; the translation was published in Nature in 1873. The second part is at https://archive.org/details/paper-doi-10_1038_008036a0.",
+      "zh": "德文原稿 1854 年宣读，1868 年刊印；黎曼卒于 1866 年。译者克利福德卒于 1879 年，译文 1873 年刊于《自然》。第二部分见 https://archive.org/details/paper-doi-10_1038_008036a0。"
+    },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "zh": "Claude" },
+  "note": {
+    "en": "Riemann gave this lecture to qualify as a university teacher; Gauss chose the topic and is said to have walked home deeply impressed. Its claim is that the axioms of geometry are not necessary truths but hypotheses about the world, to be tested like any others, and that space might be curved, or even discrete, at scales we cannot yet see. Sixty years later the mathematics in the omitted middle became the language of general relativity; notice how plainly the last paragraphs leave the question to physics.",
+    "zh": "黎曼作这次讲演，是为了取得大学授课资格；题目是高斯选的，据说他听完后深为震动地走回了家。讲演的主张是：几何学的公理不是必然真理，而是关于世界的假设，应当像其他假设一样接受检验；空间在我们还看不到的尺度上，可能是弯曲的，甚至可能是离散的。六十年后，这里略去的中间部分的数学，成了广义相对论的语言；请留意最后几段多么坦率地把问题交给了物理学。"
+  },
+  "pick": null,
+  "tags": ["mathematics", "geometry", "space", "curvature", "hypothesis"],
+  "excerpt": {
+    "orig": "These matters of fact are—like all matters of fact—not necessary, but only of empirical certainty; they are hypotheses.",
+    "en": "These matters of fact are—like all matters of fact—not necessary, but only of empirical certainty; they are hypotheses.",
+    "zh": "这些事实，和一切事实一样，并不是必然的，而只具有经验的确定性；它们是假设。"
+  },
+  "plate": null
+}

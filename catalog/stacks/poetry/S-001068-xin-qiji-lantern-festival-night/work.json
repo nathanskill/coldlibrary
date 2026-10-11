@@ -1,0 +1,64 @@
+{
+  "id": "S-001068",
+  "slug": "xin-qiji-lantern-festival-night",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "青玉案·元夕",
+    "en": "To the Tune Qingyu'an: The Lantern Festival",
+    "zh": "青玉案·元夕"
+  },
+  "author": {
+    "orig": "辛棄疾",
+    "en": "Xin Qiji",
+    "zh": "辛弃疾",
+    "dates": "1140–1207"
+  },
+  "year": 1175,
+  "year_display": {
+    "en": "12th century",
+    "zh": "12 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/青玉案_(辛棄疾)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1207.",
+      "zh": "宋词，作者卒于 1207 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The Lantern Festival, the fifteenth night of the first month, filled Song cities with lamps, and Xin Qiji spends most of the lyric on the noise and glitter. Then he finds the person he was looking for standing apart, where the lanterns are few. The scholar Wang Guowei later took these last lines as the third and highest stage of any great undertaking: after long searching, you turn, and it is there.",
+    "zh": "元宵是正月十五之夜，宋代城市里灯火满街，辛弃疾用大半篇幅写那热闹与辉煌。然后，他要找的那个人站在一旁，在灯火稀疏的地方。后来王国维把这几句当作成就大事业、大学问的第三重、也是最高的境界：千百度寻找之后，蓦然回首，它就在那里。"
+  },
+  "pick": null,
+  "tags": [
+    "lamps",
+    "night",
+    "festival",
+    "seeking"
+  ],
+  "excerpt": {
+    "orig": "眾裡尋他千百度；驀然回首，那人卻在，燈火闌珊處。",
+    "en": "In the crowd I looked for that one a thousand times; / then suddenly I turned my head, / and that one was there, / where the lamplight was thin.",
+    "zh": "众里寻他千百度；蓦然回首，那人却在，灯火阑珊处。"
+  },
+  "plate": null
+}

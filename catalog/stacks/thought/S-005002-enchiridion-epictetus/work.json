@@ -1,0 +1,68 @@
+{
+  "id": "S-005002",
+  "slug": "enchiridion-epictetus",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Ἐγχειρίδιον",
+    "en": "The Enchiridion",
+    "zh": "手册"
+  },
+  "author": {
+    "orig": "Ἐπίκτητος",
+    "en": "Epictetus",
+    "zh": "爱比克泰德",
+    "dates": "c. 50–c. 135"
+  },
+  "year": 125,
+  "year_display": {
+    "en": "compiled by Arrian, c. 125; translated 1877",
+    "zh": "阿里安编，约 125 年；1877 年英译"
+  },
+  "translator": {
+    "name": "George Long",
+    "dates": "1800–1879",
+    "year": 1877
+  },
+  "edition": {
+    "en": "The complete Encheiridion, in all fifty-two chapters, from George Long’s The Discourses of Epictetus; with the Encheiridion and Fragments (London, 1877), as transcribed on English Wikisource. Long’s footnotes are omitted; his parenthetical alternative renderings are his own and are kept.",
+    "zh": "《手册》五十二章全文，据英文维基文库所录乔治·朗《爱比克泰德讲谈录，附手册与残篇》（伦敦，1877）。略去朗的脚注；括号中的另译出自朗本人，予以保留。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/The_Discourses_of_Epictetus;_with_the_Encheiridion_and_Fragments/The_Encheiridion_or_Manual",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Compiled in the 2nd century; Epictetus died c. 135. George Long, the translator, died in 1879; this translation was published in 1877.",
+      "zh": "成书于 2 世纪；爱比克泰德约卒于 135 年。译者乔治·朗卒于 1879 年；此译本出版于 1877 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The Handbook is Arrian’s digest of the teaching of Epictetus, a freed slave who taught that some things are up to us and most are not. Long’s version is literal to the point of stiffness, with his alternative renderings left in parentheses, which makes it a good text to read slowly. The first chapter sets out the distinction that everything after it depends on. The Chinese translates chapters I to XVII.",
+    "zh": "《手册》是阿里安为老师爱比克泰德的教诲所编的要略；爱比克泰德出身奴隶，教人分清哪些事在我们权能之内、而大多数事不在。朗的译本直译到近乎生硬，还把另一种译法留在括号里，正适合慢慢读。第一章立下的那个区分，是后面一切所依据的。中文译出第一至十七章。"
+  },
+  "pick": null,
+  "tags": [
+    "stoicism",
+    "freedom",
+    "judgement",
+    "handbook"
+  ],
+  "excerpt": {
+    "orig": "Men are disturbed not by the things which happen, but by the opinions about the things",
+    "en": "Men are disturbed not by the things which happen, but by the opinions about the things",
+    "zh": "扰乱人的，不是发生的事情，而是人对这些事情的看法。"
+  },
+  "plate": null
+}

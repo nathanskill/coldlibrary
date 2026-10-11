@@ -1,0 +1,65 @@
+{
+  "id": "S-005013",
+  "slug": "walking-thoreau",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Walking",
+    "en": "Walking",
+    "zh": "散步"
+  },
+  "author": {
+    "orig": "Henry David Thoreau",
+    "en": "Henry David Thoreau",
+    "zh": "亨利·戴维·梭罗",
+    "dates": "1817–1862"
+  },
+  "year": 1862,
+  "year_display": {
+    "en": "1862",
+    "zh": "1862 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The complete essay, including Thoreau’s poem “The Old Marlborough Road”, from Project Gutenberg eBook #1022. Verse quoted inside the prose is run on with slashes. The Greek line Thoreau quotes from the Chaldean Oracles, lost in that e-text, is restored, and four readings (among them “howling mother of ours” for “hovering”) are corrected where the 1862 Atlantic text and the Excursions printing agree.",
+    "zh": "全文，包括梭罗自己的诗《老马尔伯勒路》，据古登堡计划电子书 1022。文中引用的诗句以斜线连排。梭罗所引《迦勒底神谕》的那行希腊文在该电子本中已经损坏，现予恢复；另有四处异文（包括把 howling mother of ours 误作 hovering），凡 1862 年《大西洋月刊》文本与《远足集》印本一致之处，均已改正。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1022/pg1022.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in The Atlantic Monthly in 1862; Henry David Thoreau died in 1862.",
+      "zh": "1862 年刊于《大西洋月刊》；梭罗卒于 1862 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Thoreau’s essay, printed in The Atlantic Monthly in 1862, begins as a defence of sauntering and widens into a case for wildness as something people need, not merely tolerate. It has his best jokes about the word “saunterer” and his own small poem about a road nobody repairs. The closing pages describe a November sunset over a meadow that, he imagines, will “cheer and reassure the latest child that walked there”. The Chinese gives the opening and the close.",
+    "zh": "梭罗的这篇文章 1862 年刊于《大西洋月刊》，从为“闲逛”辩护开始，渐渐扩展为一种主张：野性是人所需要的，而不只是可以容忍的。文中有他拿“闲逛者”一词开的最好的玩笑，还有他写一条无人修补的路的小诗。结尾几页写十一月草地上的一次落日，他想象那光会“鼓舞、安慰将来最后一个走在那里的孩子”。中文译出开头和结尾。"
+  },
+  "pick": null,
+  "tags": [
+    "walking",
+    "nature",
+    "wildness",
+    "sunset",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "So we saunter toward the Holy Land, till one day the sun shall shine more brightly than ever he has done",
+    "en": "So we saunter toward the Holy Land, till one day the sun shall shine more brightly than ever he has done",
+    "zh": "我们就这样向着圣地闲逛而去，直到有一天，太阳照得比以往任何时候都更明亮"
+  },
+  "plate": null
+}

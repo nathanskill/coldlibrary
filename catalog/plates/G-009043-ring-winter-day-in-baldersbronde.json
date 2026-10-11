@@ -1,0 +1,60 @@
+{
+  "id": "G-009043",
+  "slug": "ring-winter-day-in-baldersbronde",
+  "title": {
+    "orig": "Vinterdag med sne i Baldersbrønde",
+    "en": "Winter Day with Snow in Baldersbrønde",
+    "zh": "巴尔德斯布伦德的雪日"
+  },
+  "artist": {
+    "orig": "L.A. Ring",
+    "en": "L.A. Ring",
+    "zh": "L.A. 林",
+    "dates": "1854–1933"
+  },
+  "year": 1906,
+  "year_display": {
+    "en": "1906",
+    "zh": "1906 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMS1942",
+    "accession": "KMS1942"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/vt150n759_kms1942.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1600,
+    "height": 1049,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1933. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1933 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "A village road curves through snow past low yellow farmhouses with snowy roofs. A large pollarded willow with bare, feathery branches stands at the roadside, and the sky is a pale winter grey.",
+    "zh": "一条村路在雪中弯过几座低矮的黄色农舍，屋顶积着雪。路边立着一棵截过顶的大柳树，枝条光秃而纤细，天空是冬日的浅灰。"
+  },
+  "note": {
+    "en": "Ring was a Danish painter of ordinary rural life, roads, fields and villagers, painted without sentiment and with great care; he lived in Baldersbrønde on Zealand for some years and painted it often. The pollarded willow is a working tree, cut back again and again so that it grows anew, a fair emblem for a library that keeps renewing old things.",
+    "zh": "林是丹麦画家，画平常的乡村生活——道路、田野、村民——不煽情，却极其用心；他曾在西兰岛的巴尔德斯布伦德住过一些年，常常画这里。那棵截顶的柳树是“干活的树”，一次次被剪短、一次次重新长出；用来象征一座不断让旧物焕新的图书馆，正合适。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "village",
+    "winter",
+    "road"
+  ]
+}

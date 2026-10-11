@@ -1,0 +1,65 @@
+{
+  "id": "S-006010",
+  "slug": "franklin-electrical-kite",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Electrical Kite",
+    "en": "The Electrical Kite: a Letter to Peter Collinson",
+    "zh": "电风筝：致彼得·柯林森的信"
+  },
+  "author": {
+    "orig": "Benjamin Franklin",
+    "en": "Benjamin Franklin",
+    "zh": "本杰明·富兰克林",
+    "dates": "1706–1790"
+  },
+  "year": 1752,
+  "year_display": {
+    "en": "19 October 1752",
+    "zh": "1752 年 10 月 19 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The Complete Works in Philosophy, Politics and Morals of the late Dr. Benjamin Franklin, vol. 1 (London, 1806), as transcribed by Project Gutenberg (eBook 48136); the letter complete.",
+    "zh": "据《富兰克林哲学、政治与道德著作全集》第一卷（伦敦，1806 年），以古腾堡计划电子书第 48136 号为底本；全信。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/48136/pg48136.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written and first published in 1752; the author died in 1790.",
+      "zh": "1752 年写成并首次发表；作者卒于 1790 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The whole famous experiment fits in one paragraph: a silk handkerchief, two cedar strips, a pointed wire, a key and a ribbon kept dry under a doorway. Franklin writes it as a recipe so that anyone could repeat it, and it ends by showing that the spark from a rubbed glass tube and the lightning in a storm are the same thing. It is also genuinely dangerous, and the letter belongs on this shelf to be read, not repeated.",
+    "zh": "整个著名的实验装在一段话里：一块丝手帕，两根雪松木条，一根尖头金属丝，一把钥匙，一条在门洞下保持干燥的丝带。富兰克林把它写成一份配方，好让任何人都能照做；结尾证明了摩擦玻璃管得到的火花与雷雨中的闪电是同一种东西。这个实验也确实很危险，这封信放在这一架上，是为了读，不是为了照做。"
+  },
+  "pick": null,
+  "tags": [
+    "electricity",
+    "lightning",
+    "experiment",
+    "letters",
+    "storm"
+  ],
+  "excerpt": {
+    "orig": "And when the rain has wetted the kite and twine, so that it can conduct the electric fire freely, you will find it stream out plentifully from the key on the approach of your knuckle.",
+    "en": "And when the rain has wetted the kite and twine, so that it can conduct the electric fire freely, you will find it stream out plentifully from the key on the approach of your knuckle.",
+    "zh": "等到雨水把风筝和麻线打湿，使它能畅通地传导电火，你会发现，当你的指节靠近钥匙时，电火从钥匙上大量地流泻出来。"
+  },
+  "plate": null
+}

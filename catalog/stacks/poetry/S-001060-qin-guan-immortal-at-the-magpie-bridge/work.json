@@ -1,0 +1,64 @@
+{
+  "id": "S-001060",
+  "slug": "qin-guan-immortal-at-the-magpie-bridge",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "鵲橋仙（纖雲弄巧）",
+    "en": "To the Tune Queqiaoxian: Fine Clouds Work Their Patterns",
+    "zh": "鹊桥仙（纤云弄巧）"
+  },
+  "author": {
+    "orig": "秦觀",
+    "en": "Qin Guan",
+    "zh": "秦观",
+    "dates": "1049–1100"
+  },
+  "year": 1090,
+  "year_display": {
+    "en": "late 11th century",
+    "zh": "约 11 世纪后期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/鵲橋仙_(秦觀)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1100.",
+      "zh": "宋词，作者卒于 1100 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written for the Double Seventh, the night when, in legend, the Herdboy and the Weaving Girl, two stars kept apart by the Milky Way, meet once a year on a bridge of magpies. Most poems for the festival are sad; Qin Guan's turns the separation around in its last two lines, which are now among the most quoted lines on love that survives distance. It pairs with the Han poem about the same two stars, also on this shelf.",
+    "zh": "为七夕而作。传说中被银河隔开的牵牛、织女二星，每年这一夜在鹊桥上相会一次。多数七夕诗是伤感的；秦观的这首却在最后两句把离别翻转过来，这两句如今是写经得起距离的爱情最常被引用的句子。它与同在这个书架上、写同样两颗星的汉代古诗正好成对。"
+  },
+  "pick": null,
+  "tags": [
+    "stars",
+    "love",
+    "distance",
+    "night"
+  ],
+  "excerpt": {
+    "orig": "兩情若是久長時，又豈在朝朝暮暮。",
+    "en": "If love between two is to last, / why must it be every morning and every evening?",
+    "zh": "两情若是久长时，又岂在朝朝暮暮。"
+  },
+  "plate": null
+}

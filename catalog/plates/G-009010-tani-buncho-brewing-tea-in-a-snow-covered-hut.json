@@ -1,0 +1,61 @@
+{
+  "id": "G-009010",
+  "slug": "tani-buncho-brewing-tea-in-a-snow-covered-hut",
+  "title": {
+    "orig": "Brewing Tea in a Snow-Covered Hut",
+    "en": "Brewing Tea in a Snow-Covered Hut",
+    "zh": "雪屋煮茶"
+  },
+  "artist": {
+    "orig": "谷文晁",
+    "en": "Tani Bunchō",
+    "zh": "谷文晁",
+    "dates": "1763–1840"
+  },
+  "year": 1791,
+  "year_display": {
+    "en": "1791",
+    "zh": "1791 年"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink and colour on paper",
+    "zh": "立轴，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/45395",
+    "accession": "1975.268.113",
+    "credit_line": "The Harry G. C. Packard Collection of Asian Art, Gift of Harry G. C. Packard, and Purchase, Fletcher, Rogers, Harris Brisbane Dick, and Louis V. Bell Funds, Joseph Pulitzer Bequest, and The Annenberg Fund Inc. Gift, 1975"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP277639.jpg",
+    "width": 459,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1840. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1840 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A tall, narrow scroll. A snowy crag rises almost to the top, its slopes crowded with snow-laden trees; partway down, two tiny figures sit inside a hut among the branches, and below them a large white rock juts over the water. A short inscription runs down the upper left.",
+    "zh": "一幅细长的立轴。积雪的山崖几乎升到顶端，坡上挤满压着雪的树；半山腰的树丛里有一间小屋，两个很小的人坐在里面，下方一块白色巨石探向水面。左上方竖写着一行短题。"
+  },
+  "note": {
+    "en": "Tani Bunchō, an Edo painter who studied Chinese, Japanese and even European pictures, painted this at about twenty-eight. Brewing tea in the snow is an old scholar's pleasure from Chinese poetry: a fire, a kettle, and a cold world kept at arm's length. The tall format makes you travel down the mountain to find the warmth.",
+    "zh": "谷文晁是江户时代的画家，兼学中国、日本乃至欧洲的绘画，画这幅时约二十八岁。雪中煮茶是中国诗文里的老雅事：一炉火、一把壶，把寒冷的世界挡在一臂之外。竖长的画幅让人沿着山一路往下看，才找到那点暖意。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "tea",
+    "mountains",
+    "hut"
+  ]
+}

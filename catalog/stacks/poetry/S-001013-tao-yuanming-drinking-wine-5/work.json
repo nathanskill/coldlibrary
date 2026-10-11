@@ -1,0 +1,64 @@
+{
+  "id": "S-001013",
+  "slug": "tao-yuanming-drinking-wine-5",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "飲酒·其五",
+    "en": "Drinking Wine (V)",
+    "zh": "饮酒·其五"
+  },
+  "author": {
+    "orig": "陶淵明",
+    "en": "Tao Yuanming",
+    "zh": "陶渊明",
+    "dates": "c. 365–427"
+  },
+  "year": 417,
+  "year_display": {
+    "en": "early 5th century",
+    "zh": "约 5 世纪初"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/飲酒二十首",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Jin dynasty poem; the author died in 427.",
+      "zh": "东晋诗，作者卒于 427 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "From a set of twenty poems that Tao, as his preface says, jotted down on long evenings after drinking alone, and then had an old friend copy out. Two lines here are among the most loved in Chinese: picking chrysanthemums by the eastern hedge, he sees, rather than looks for, the southern hill. The ending is frank about the limits of words, an odd thing for a poem to say and a true one.",
+    "zh": "出自《饮酒二十首》。陶渊明在序里说，这些诗是长夜独饮微醉之后随手写下，再请老朋友抄录的。“采菊东篱下，悠然见南山”是汉语里最受喜爱的诗句之一：他是“见”到南山，而不是去“望”。结尾坦白了语言的边界，这话出自一首诗有些奇怪，却是真的。"
+  },
+  "pick": null,
+  "tags": [
+    "mountains",
+    "flowers",
+    "evening",
+    "stillness"
+  ],
+  "excerpt": {
+    "orig": "採菊東籬下，悠然見南山。",
+    "en": "I pick chrysanthemums by the eastern hedge / and, at ease, see the southern hill.",
+    "zh": "采菊东篱下，悠然见南山。"
+  },
+  "plate": null
+}

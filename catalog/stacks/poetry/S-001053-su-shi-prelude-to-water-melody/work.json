@@ -1,0 +1,65 @@
+{
+  "id": "S-001053",
+  "slug": "su-shi-prelude-to-water-melody",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "水調歌頭（明月幾時有）",
+    "en": "To the Tune Shuidiao Getou: How Long Has the Bright Moon Been There",
+    "zh": "水调歌头（明月几时有）"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1076,
+  "year_display": {
+    "en": "1076",
+    "zh": "1076 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/水調歌頭_(明月幾時有)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1101.",
+      "zh": "宋词，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written at Mid-Autumn 1076 in Mizhou, when Su Shi had not seen his brother Ziyou, Su Zhe, for several years; his preface says he drank until dawn and wrote it thinking of him. It begins by borrowing Li Bai's question to the moon and ends on one of the best-loved wishes in Chinese: that we live long, and share the same moonlight across a thousand li. Notice that the poet weighs the cold palace in the sky against the human world, and chooses the world.",
+    "zh": "1076 年中秋作于密州，当时苏轼已经几年没有见到弟弟子由（苏辙），词前小序说是欢饮达旦、大醉之后“兼怀子由”而作。开头借用李白问月，结尾是汉语里最受喜爱的祝愿之一：但愿人长久，千里共婵娟。留意他把天上的琼楼玉宇与人间放在一起掂量，最后选了人间。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "brothers",
+    "distance",
+    "mid-autumn",
+    "wine"
+  ],
+  "excerpt": {
+    "orig": "但願人長久，千里共嬋娟。",
+    "en": "I only wish that we may both live long / and share, a thousand li apart, the beauty of the moon.",
+    "zh": "但愿人长久，千里共婵娟。"
+  },
+  "plate": null
+}

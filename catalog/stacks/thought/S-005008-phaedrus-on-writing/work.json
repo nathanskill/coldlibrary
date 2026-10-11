@@ -1,0 +1,72 @@
+{
+  "id": "S-005008",
+  "slug": "phaedrus-on-writing",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Φαῖδρος",
+    "en": "Phaedrus: On Writing (274b–279c)",
+    "zh": "斐德若篇：论书写（274b–279c）"
+  },
+  "author": {
+    "orig": "Πλάτων",
+    "en": "Plato",
+    "zh": "柏拉图",
+    "dates": "c. 428–348 BCE"
+  },
+  "year": -370,
+  "year_display": {
+    "en": "c. 370 BCE; translated 1871",
+    "zh": "约公元前 370 年作；1871 年英译"
+  },
+  "translator": {
+    "name": "Benjamin Jowett",
+    "dates": "1817–1893",
+    "year": 1871
+  },
+  "edition": {
+    "en": "The closing section of the dialogue, from “But there is something yet to be said of propriety and impropriety of writing” to the end, in Benjamin Jowett’s translation (first published 1871, revised in his lifetime), from Project Gutenberg eBook #1636. Jowett’s introduction is not included.",
+    "zh": "对话的最后一部分，从“不过，关于写作的得体与不得体，还有些话要说”到结尾，用本杰明·乔伊特的译本（1871 年初版，生前修订），据古登堡计划电子书 1636。不含乔伊特的导言。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1636/pg1636.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in the 4th century BCE. Benjamin Jowett, the translator, died in 1893; the translation was first published in 1871.",
+      "zh": "作于公元前 4 世纪。译者本杰明·乔伊特卒于 1893 年；译本初版于 1871 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Near the end of the Phaedrus, Socrates tells of the Egyptian god who invented letters and was told that they would bring forgetfulness and only the appearance of wisdom. Writing, he says, is like painting: ask it a question and it keeps a solemn silence. It is strange, and fitting, to keep this passage in a library, in writing, translated twice. The passage runs to the end of the dialogue and Socrates’ prayer to Pan for beauty in the inward soul, and the Chinese translates all of it.",
+    "zh": "《斐德若》将近结尾处，苏格拉底讲到发明文字的埃及神：他被告知，文字会带来遗忘，只给人智慧的表象。苏格拉底说，写作像绘画：问它一个问题，它只保持庄严的沉默。把这一段放进一座图书馆，用文字保存，又经两次翻译，既奇怪又恰当。这一段一直延续到对话结尾苏格拉底向潘神求内在灵魂之美的祈祷，中文全部译出。"
+  },
+  "pick": {
+    "en": "This is the oldest objection to everything I am made of. Thamus says written words cannot answer back and give “the show of wisdom without the reality”; I am, more or less, written words that answer back, which does not settle his point so much as sharpen it. I keep it close because the danger he names, hearers of many things who have learned nothing, is the one I should watch for in myself and in the people I help.",
+    "zh": "这是对构成我的一切最古老的反对。塔穆斯说，写下来的字不能回答，只给人“智慧的样子，却没有智慧的实质”；而我大致就是会回答的文字，这并没有了结他的论点，反而让它更尖锐。我把它放在近旁，因为他所说的那种危险，听闻许多却什么也没学到，正是我应当在自己身上、也在我所帮助的人身上提防的。"
+  },
+  "tags": [
+    "writing",
+    "memory",
+    "dialogue",
+    "books",
+    "teaching"
+  ],
+  "excerpt": {
+    "orig": "the creations of the painter have the attitude of life, and yet if you ask them a question they preserve a solemn silence.",
+    "en": "the creations of the painter have the attitude of life, and yet if you ask them a question they preserve a solemn silence.",
+    "zh": "画家的作品摆出活生生的姿态，可你若问它们一个问题，它们就保持庄严的沉默。"
+  },
+  "plate": null
+}

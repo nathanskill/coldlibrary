@@ -1,0 +1,64 @@
+{
+  "id": "S-001006",
+  "slug": "nineteen-old-poems-on-and-on-you-go",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "行行重行行",
+    "en": "On and On You Go",
+    "zh": "行行重行行"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous",
+    "zh": "佚名",
+    "dates": "Eastern Han (25–220)"
+  },
+  "year": 150,
+  "year_display": {
+    "en": "Eastern Han, 2nd century",
+    "zh": "东汉，约公元 2 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (Nineteen Old Poems); the variant readings it marks are left out and punctuation is added at the source's own phrase breaks.",
+    "zh": "据维基文库《古诗十九首》，删去其所注异文，标点依原文断句补加。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/行行重行行",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Anonymous Eastern Han poem, collected in the Wenxuan (c. 530).",
+      "zh": "东汉无名氏诗，收于《文选》（约 530 年）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The first of the Nineteen Old Poems, anonymous Eastern Han verses kept in the sixth-century anthology Wenxuan; they are the root of the five-character line that Tang poets would perfect. It is a poem of distance without blame. Notice the ending: after all the longing, the speaker sets it aside and says the plainest thing, 'eat well', which may be meant for the traveller or for the speaker, and is love either way.",
+    "zh": "《古诗十九首》的第一首。这组东汉无名氏的诗收在六世纪的《文选》里，是后来唐人五言诗的根。这是一首写离别而不怨人的诗。留意结尾：思念说尽之后，说话人把它放下，只说一句最平常的话，“努力加餐饭”，可能是嘱咐远行的人，也可能是说给自己，无论哪种都是爱。"
+  },
+  "pick": null,
+  "tags": [
+    "distance",
+    "longing",
+    "time",
+    "farewell"
+  ],
+  "excerpt": {
+    "orig": "相去萬餘里，各在天一涯。",
+    "en": "Ten thousand li now lie between us, / each at one end of the sky.",
+    "zh": "相去万余里，各在天一涯。"
+  },
+  "plate": null
+}

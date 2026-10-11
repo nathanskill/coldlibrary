@@ -1,0 +1,66 @@
+{
+  "id": "S-007004",
+  "slug": "leibniz-explanation-of-binary-arithmetic",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "fr",
+  "title": {
+    "orig": "Explication de l'arithmétique binaire",
+    "en": "Explanation of Binary Arithmetic",
+    "zh": "二进制算术释义"
+  },
+  "author": {
+    "orig": "Gottfried Wilhelm Leibniz",
+    "en": "Gottfried Wilhelm Leibniz",
+    "zh": "戈特弗里德·威廉·莱布尼茨",
+    "dates": "1646–1716"
+  },
+  "year": 1703,
+  "year_display": {
+    "en": "1703",
+    "zh": "1703 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as established by C. I. Gerhardt, Leibnizens mathematische Schriften, vol. 7 (1863), pp. 223–227, as transcribed on French Wikisource; the table of numbers and the worked examples, which are images there, are omitted; four obvious transcription slips are corrected (tout, Fohy, on, and the figure 2 in the trigram table).",
+    "zh": "据法文维基文库所录格哈特编《莱布尼茨数学著作集》第七卷（1863 年）第 223–227 页；原有的数表和算例在该处为图片，此处从略；改正了四处明显的转录笔误（tout、Fohy、on，以及八卦表中的数字 2）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://fr.wikisource.org/wiki/Leibniz-en.francais-Gerhardt.Math.1a7.djvu/Numération.binaire",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in 1703 for the Académie royale des sciences in Paris; Leibniz died in 1716, and the editor C. I. Gerhardt in 1899.",
+      "zh": "1703 年为巴黎皇家科学院而作；作者卒于 1716 年，编者格哈特卒于 1899 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Leibniz's paper for the Paris Academy explains counting with only 0 and 1, and then reports how, through letters with the Jesuit Joachim Bouvet in Beijing, he saw his binary numbers in the order of the trigrams and hexagrams attributed to Fuxi. His claim that Chinese scholars had 'lost' their meaning is his own and says more about his excitement than about the commentary tradition; the correspondence itself is a fine instance of knowledge crossing the world by post. Notice the last paragraph, where binary leads him to his dream of a script in which all reasoning could be done by calculation.",
+    "zh": "莱布尼茨提交巴黎科学院的这篇论文，先讲只用 0 和 1 的计数法，再讲他如何通过与在北京的耶稣会士白晋通信，在归于伏羲的八卦、六十四卦次序中认出自己的二进制数。他说中国学者“失去了”卦的含义，这是他自己的判断，更多反映他的兴奋，而不是注疏传统的实情；而这番书信往来本身，正是知识借邮路穿越半个世界的好例子。请留意最后一段：二进制把他引向了一个梦想——一种能让一切推理都用计算来完成的文字。"
+  },
+  "pick": null,
+  "tags": [
+    "binary",
+    "yijing",
+    "fuxi",
+    "china-and-europe",
+    "notation"
+  ],
+  "excerpt": {
+    "orig": "Les nombres étant réduits aux plus simples principes, comme 0 et 1, il paroit partout un ordre merveilleux.",
+    "en": "When numbers are reduced to the simplest principles, such as 0 and 1, a marvellous order appears everywhere.",
+    "zh": "当数被化归到最简单的原理，如 0 和 1 时，处处都会显现出一种奇妙的秩序。"
+  },
+  "plate": null
+}

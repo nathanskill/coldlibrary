@@ -1,0 +1,64 @@
+{
+  "id": "S-001026",
+  "slug": "wang-wei-birdsong-ravine",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "鳥鳴澗",
+    "en": "Birdsong Ravine",
+    "zh": "鸟鸣涧"
+  },
+  "author": {
+    "orig": "王維",
+    "en": "Wang Wei",
+    "zh": "王维",
+    "dates": "c. 699–761"
+  },
+  "year": 740,
+  "year_display": {
+    "en": "8th century",
+    "zh": "8 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/皇甫嶽雲溪雜題五首/鳥鳴澗",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 761.",
+      "zh": "唐诗，作者卒于 761 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "One of five poems on places at the home of Wang Wei's friend Huangfu Yue. He builds the silence so carefully that a falling flower is noticed, and then the rising moon, which makes no sound at all, is enough to wake the birds. Read it slowly; it is twenty characters about attention.",
+    "zh": "王维为友人皇甫岳云溪别墅所写五首中的一首。他把寂静营造得如此细致，连桂花落下都被察觉；接着，无声升起的月亮竟足以惊醒山鸟。慢慢读，这是二十个字写成的一堂专注的课。"
+  },
+  "pick": null,
+  "tags": [
+    "night",
+    "moon",
+    "spring",
+    "stillness"
+  ],
+  "excerpt": {
+    "orig": "月出驚山鳥，時鳴春澗中。",
+    "en": "The moon comes out and startles the mountain birds, / which call now and then in the spring ravine.",
+    "zh": "月出惊山鸟，时鸣春涧中。"
+  },
+  "plate": null
+}

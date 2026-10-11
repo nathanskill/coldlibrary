@@ -1,0 +1,9 @@
+Fuerit tibi forsan de me aliquid auditum; quanquam et hoc dubium sit: an exiguum et obscurum longe nomen seu locorum seu temporum perventurum sit. Et illud forsitan optabis nosse: quid hominis fuerim aut quis operum exitus meorum, eorum maxime quorum ad te fama pervenerit vel quorum tenue nomen audieris.
+
+Et de primo quidem varie erunt hominum voces; ita enim ferme quisque loquitur, ut impellit non veritas sed voluptas: nec laudis nec infamie modus est. Vestro de grege unus fui autem, mortalis homuncio, nec magne admodum nec vilis originis, familia — ut de se ait Augustus Cesar — antiqua, natura quidem non iniquo neque inverecundo animo, nisi ei consuetudo contagiosa nocuisset.
+
+…
+
+Ingenio fui equo potius quam acuto, ad omne bonum et salubre studium apto, sed ad moralem precipue philosophiam et ad poeticam prono; quam ipse processu temporis neglexi, sacris literis delectatus, in quibus sensi dulcedinem abditam, quam aliquando contempseram, poeticis literis non nisi ad ornatum reservatis. Incubui unice, inter multa, ad notitiam vetustatis, quoniam michi semper etas ista displicuit; ut, nisi me amor carorum in diversum traheret, qualibet etate natus esse semper optaverim, et hanc oblivisci, nisus animo me aliis semper inserere. Historicis itaque delectatus sum; non minus tamen offensus eorum discordia, secutus in dubio quo me vel veri similitudo rerum vel scribentium traxit autoritas.
+
+Eloquio, ut quidam dixerunt, claro ac potenti; ut michi visum est, fragili et obscuro. Neque vero in comuni sermone cum amicis aut familiaribus eloquentie unquam cura me attigit; mirorque eam curam Augustum Cesarem suscepisse. Ubi autem res ipsa vel locus vel auditor aliter poscere visus est, paulo annisus sum; idque quam efficaciter, nescio: eorum sit iudicium coram quibus dixi. Ego, modo bene vixissem, qualiter dixissem parvi facerem: ventosa gloria est de solo verborum splendore famam querere.

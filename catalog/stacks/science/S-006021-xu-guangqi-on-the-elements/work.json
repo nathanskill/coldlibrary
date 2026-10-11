@@ -1,0 +1,32 @@
+{
+  "id": "S-006021",
+  "slug": "xu-guangqi-on-the-elements",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": { "orig": "幾何原本雜議", "en": "Miscellaneous Remarks on the Elements of Geometry", "zh": "几何原本杂议" },
+  "author": { "orig": "徐光啟", "en": "Xu Guangqi", "zh": "徐光启", "dates": "1562–1633" },
+  "year": 1607,
+  "year_display": { "en": "c. 1607–1611", "zh": "约 1607–1611 年" },
+  "translator": null,
+  "edition": { "en": "Text as given on Chinese Wikisource, from the front matter of the Jihe yuanben", "zh": "据中文维基文库所收《几何原本》卷首" },
+  "source": { "name": "Wikisource", "url": "https://zh.wikisource.org/wiki/幾何原本/雜議", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": { "en": "Ming dynasty prose; the author died in 1633.", "zh": "明代文章，作者卒于 1633 年。" },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "en": "Claude" },
+  "note": {
+    "en": "In 1607 Xu Guangqi and the Jesuit Matteo Ricci published the first six books of Euclid in Chinese, and in doing so Xu fixed many of the mathematical terms Chinese still uses, among them 几何, 平行线 and 直角. These remarks are his case for why everyone should read it, and they sit on this shelf beside Heath's English of the same book. Notice the prediction near the end, that in a hundred years everyone would study it and think they had come to it late; it took closer to three hundred.",
+    "zh": "1607 年，徐光启与耶稣会士利玛窦合译的欧几里得《原本》前六卷在中国刊行；徐光启在翻译中确立了许多今天仍在使用的数学名词，如几何、平行线、直角。这篇杂议是他为“人人都应当读这本书”所作的申辩，与同一部书希思的英译本并排放在这一架上。请留意结尾附近的预言：百年之后人人都会学它，并且会觉得学得晚了；实际上用了将近三百年。"
+  },
+  "pick": null,
+  "tags": ["mathematics", "geometry", "translation", "learning", "ming"],
+  "excerpt": {
+    "orig": "竊意百年之後，必人人習之，卽又以爲習之晚也。",
+    "en": "My own thought is that a hundred years from now everyone will study it, and will then think they came to it late.",
+    "zh": "窃意百年之后，必人人习之，即又以为习之晚也。"
+  },
+  "plate": null
+}

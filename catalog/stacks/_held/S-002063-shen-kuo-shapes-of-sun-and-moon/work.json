@@ -1,0 +1,63 @@
+{
+  "id": "S-002063",
+  "slug": "shen-kuo-shapes-of-sun-and-moon",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夢溪筆談·日月之形",
+    "en": "The Shapes of the Sun and Moon (Brush Talks from Dream Brook)",
+    "zh": "梦溪笔谈·日月之形"
+  },
+  "author": {
+    "orig": "沈括",
+    "en": "Shen Kuo",
+    "zh": "沈括",
+    "dates": "1031–1095"
+  },
+  "year": 1088,
+  "year_display": {
+    "en": "c. 1088",
+    "zh": "约 1088 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Three consecutive entries from book 7 (Images and Numbers 1) of the Mengxi bitan, as given on Chinese Wikisource.",
+    "zh": "《梦溪笔谈》卷七“象数一”中相连的三则，据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夢溪筆談/卷07",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1095.",
+      "zh": "北宋散文，作者卒于 1095 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Three questions Shen Kuo was asked while working on the armillary sphere, and his answers: why the lunar lodges are unequal, why the sun and moon must be round, and why there is not an eclipse every month. The second answer is a small experiment anyone can repeat with a ball half covered in powder. The third describes the paths of the sun and moon as two rings laid one on another, slightly askew.",
+    "zh": "沈括参与详定浑仪时被问到的三个问题及其回答：二十八宿为何不均，日月为何必是圆球，为何并非每月都有日月食。第二个回答是任何人都能重复的小实验：一只半边涂粉的弹丸。第三个回答把黄道与月道比作两个相叠而略有偏差的环。"
+  },
+  "pick": null,
+  "tags": [
+    "astronomy",
+    "moon",
+    "eclipse"
+  ],
+  "excerpt": {
+    "orig": "如一彈丸，以粉塗其半，側視之，則粉處如鉤；對視之，則正圓",
+    "en": "Take a ball and coat half of it with white powder. Look at it from the side, and the powdered part is like a hook; look at it head on, and it is perfectly round.",
+    "zh": "如一弹丸，以粉涂其半，侧视之，则粉处如钩；对视之，则正圆"
+  },
+  "plate": null
+}

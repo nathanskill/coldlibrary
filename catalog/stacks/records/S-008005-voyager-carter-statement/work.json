@@ -1,0 +1,64 @@
+{
+  "id": "S-008005",
+  "slug": "voyager-carter-statement",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Voyager Spacecraft Statement by the President",
+    "en": "The Voyager Message: Statement by President Carter",
+    "zh": "旅行者号飞船总统声明"
+  },
+  "author": {
+    "orig": "Jimmy Carter",
+    "en": "Jimmy Carter",
+    "zh": "吉米·卡特",
+    "dates": "1924–2024"
+  },
+  "year": 1977,
+  "year_display": {
+    "en": "29 July 1977",
+    "zh": "1977 年 7 月 29 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as printed in the Public Papers of the Presidents, via the American Presidency Project; the editors' closing note is omitted.",
+    "zh": "据《美国总统公开文件》，经“美国总统项目”网站；编者附注从略。"
+  },
+  "source": {
+    "name": "The American Presidency Project, UC Santa Barbara",
+    "url": "https://www.presidency.ucsb.edu/documents/voyager-spacecraft-statement-the-president",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Issued by Jimmy Carter as President of the United States, in his official capacity, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105).",
+      "zh": "吉米·卡特以美国总统身份发表的公务文字，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Carter's statement travels on both Voyager records, which left Earth in 1977 and are now in interstellar space. It is unusual among official papers in addressing a reader who may never exist, and in being frank with that reader about the unfinished state of the world it came from. The sentence to notice is the one about surviving 'our time so we may live into yours'.",
+    "zh": "卡特的这份声明随两张旅行者号唱片同行；两艘飞船在 1977 年离开地球，如今已在星际空间。官方文件里很少有这样的：它对一个也许永远不存在的读者说话，而且对那个读者坦白了它所来自的世界尚未完成的样子。值得留意的是那一句：努力度过“我们的时代，好让我们能活进你们的时代”。"
+  },
+  "pick": null,
+  "tags": [
+    "voyager",
+    "space",
+    "message",
+    "future"
+  ],
+  "excerpt": {
+    "orig": "We are attempting to survive our time so we may live into yours.",
+    "en": "We are attempting to survive our time so we may live into yours.",
+    "zh": "我们正努力度过我们的时代，好让我们能活进你们的时代。"
+  },
+  "plate": "G-008002"
+}

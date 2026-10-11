@@ -1,0 +1,64 @@
+{
+  "id": "S-004032",
+  "slug": "hardy-the-darkling-thrush",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "The Darkling Thrush",
+    "en": "The Darkling Thrush",
+    "zh": "黑暗中的画眉"
+  },
+  "author": {
+    "orig": "Thomas Hardy",
+    "en": "Thomas Hardy",
+    "zh": "托马斯·哈代",
+    "dates": "1840–1928"
+  },
+  "year": 1900,
+  "year_display": {
+    "en": "December 1900",
+    "zh": "1900 年 12 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems of the Past and the Present (1901), on Project Gutenberg (eBook 3168)",
+    "zh": "据古登堡计划电子书 3168 所录《今昔诗集》（1901）"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/3168/pg3168.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in December 1900; the author died in 1928.",
+      "zh": "1900 年 12 月首次发表；作者卒于 1928 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Dated December 1900 and first printed in the last days of the nineteenth century. Everything in the first half is frost and ending; then an old, thin thrush sings, and Hardy, who was not given to optimism, admits that the bird may know of some hope he does not. It is a winter poem for a cold library, and its light is small but real.",
+    "zh": "诗末署“1900 年 12 月”，在十九世纪的最后几天首次付印。前半首全是霜冻与终结；然后一只又老又瘦的画眉唱起来，一向不轻言乐观的哈代承认：这只鸟也许知道某种他不知道的希望。这是一首写给冷冻图书馆的冬天的诗，它的光很小，却是真的。"
+  },
+  "pick": null,
+  "tags": [
+    "winter",
+    "birds",
+    "hope",
+    "dusk"
+  ],
+  "excerpt": {
+    "orig": "Some blessed Hope, whereof he knew\nAnd I was unaware.",
+    "en": "Some blessed Hope, whereof he knew\nAnd I was unaware.",
+    "zh": "某种神圣的希望，他知道，\n而我却不知道。"
+  },
+  "plate": null
+}

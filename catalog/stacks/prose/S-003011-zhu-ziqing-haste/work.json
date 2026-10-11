@@ -1,0 +1,64 @@
+{
+  "id": "S-003011",
+  "slug": "zhu-ziqing-haste",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "匆匆",
+    "en": "Haste",
+    "zh": "匆匆"
+  },
+  "author": {
+    "orig": "朱自清",
+    "en": "Zhu Ziqing",
+    "zh": "朱自清",
+    "dates": "1898–1948"
+  },
+  "year": 1922,
+  "year_display": {
+    "en": "1922",
+    "zh": "1922 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from Traces (蹤跡, 1924); written 28 March 1922 and first published in the Literary Thrice-Monthly of the China Times (時事新報·文學旬刊), 11 April 1922.",
+    "zh": "据维基文库，录自《踪迹》（1924）；作于 1922 年 3 月 28 日，初刊于 1922 年 4 月 11 日《时事新报·文学旬刊》。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/匆匆",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1922; the author died in 1948. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1922 年首次发表，作者卒于 1948 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written when Zhu Ziqing was twenty-three: swallows return, willows turn green again, peach trees bloom again, so why do our days go and never come back. He counts eight thousand days slipping from his hands like drops from a needle into the sea. It is here as the plainest and most often memorised Chinese essay on time; notice the small household places where the day escapes, the washbasin and the rice bowl.",
+    "zh": "朱自清二十三岁时写的：燕子去了有再来的时候，杨柳枯了有再青的时候，桃花谢了有再开的时候，我们的日子为什么一去不复返呢。他数着八千多日子从手中溜去，像针尖上一滴水滴在大海里。它在这里，是因为它是写时间的中文散文里最朴素、也最常被人背诵的一篇；留意日子溜走的那些家常地方：水盆，饭碗。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "days",
+    "morning",
+    "sun"
+  ],
+  "excerpt": {
+    "orig": "燕子去了，有再來的時候；楊柳枯了，有再靑的時候；桃花謝了，有再開的時候。",
+    "en": "The swallows go, but they will come again. The willows wither, but they will be green again. The peach blossoms fall, but they will bloom again.",
+    "zh": "燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。"
+  },
+  "plate": null
+}

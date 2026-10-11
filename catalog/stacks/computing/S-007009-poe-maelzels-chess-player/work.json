@@ -1,0 +1,65 @@
+{
+  "id": "S-007009",
+  "slug": "poe-maelzels-chess-player",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Maelzel's Chess-Player",
+    "en": "Maelzel's Chess-Player",
+    "zh": "梅尔策尔的下棋机"
+  },
+  "author": {
+    "orig": "Edgar Allan Poe",
+    "en": "Edgar Allan Poe",
+    "zh": "埃德加·爱伦·坡",
+    "dates": "1809–1849"
+  },
+  "year": 1836,
+  "year_display": {
+    "en": "April 1836",
+    "zh": "1836 年 4 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "As published in the Southern Literary Messenger, April 1836, from the English Wikisource transcription, with two scanning slips ('eve', 'anv') corrected against the Poe Society of Baltimore text; Poe's footnotes are omitted.",
+    "zh": "据英文维基文库所录 1836 年 4 月《南方文学信使》刊本，并依巴尔的摩爱伦·坡学会的文本改正了两处扫描错字（eve、anv）；坡的脚注从略。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Maelzel%27s_Chess-Player",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1836; Edgar Allan Poe died in 1849.",
+      "zh": "1836 年发表；作者卒于 1849 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Poe's essay sets out to prove that the famous chess-playing automaton exhibited by Maelzel must hide a human player, and he was right. Along the way he compares it with Babbage's calculating engine and argues that arithmetic is determinate while chess is not, so no pure machine could play it; that paragraph is translated into Chinese. His conclusion did not survive the twentieth century, but his method did: watch closely, list what the mechanism would have to do, and reason from the evidence rather than the spectacle.",
+    "zh": "爱伦·坡这篇文章意在证明梅尔策尔展出的那台著名下棋自动机里必定藏着一个真人棋手——他说对了。行文中他把它与巴贝奇的计算机器相比，论证算术是确定的而下棋不是，所以纯粹的机器不可能下棋；中文译出的就是这一段。他的结论没能经受住二十世纪的检验，但他的方法经受住了：仔细观察，列出机械必须做到的事，依据证据而不是表演来推理。"
+  },
+  "pick": null,
+  "tags": [
+    "automaton",
+    "chess",
+    "babbage",
+    "reasoning",
+    "hoax"
+  ],
+  "excerpt": {
+    "orig": "There is then no analogy whatever between the operations of the Chess-Player, and those of the calculating machine of Mr. Babbage",
+    "en": "There is then no analogy whatever between the operations of the Chess-Player, and those of the calculating machine of Mr. Babbage",
+    "zh": "所以，下棋机的运作与巴贝奇先生的计算机器的运作之间毫无相似之处。"
+  },
+  "plate": null
+}

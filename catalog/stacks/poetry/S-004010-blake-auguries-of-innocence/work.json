@@ -1,0 +1,64 @@
+{
+  "id": "S-004010",
+  "slug": "blake-auguries-of-innocence",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Auguries of Innocence",
+    "en": "Auguries of Innocence",
+    "zh": "天真的预言"
+  },
+  "author": {
+    "orig": "William Blake",
+    "en": "William Blake",
+    "zh": "威廉·布莱克",
+    "dates": "1757–1827"
+  },
+  "year": 1803,
+  "year_display": {
+    "en": "c. 1803; printed 1863",
+    "zh": "约 1803 年作，1863 年首次付印"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Blake’s own text in the Pickering Manuscript, as transcribed on Wikisource, with his spelling and near-absence of punctuation",
+    "zh": "据维基文库所录布莱克“皮克林手稿”原文，保留其拼写和几乎不加标点的写法"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/The_Pickering_Manuscript/Auguries_of_Innocence",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written about 1803 and first printed in 1863; the author died in 1827.",
+      "zh": "约 1803 年写成，1863 年首次付印；作者卒于 1827 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Blake left this poem in a notebook, the Pickering Manuscript; it was first printed in 1863, long after his death. Its opening quatrain is among the most quoted lines in English, and the rest is a long run of couplets, each a small law that ties a hurt creature to the whole of heaven. Read slowly; the lack of punctuation is Blake’s, and the pauses are left to you.",
+    "zh": "布莱克把这首诗留在一本笔记里，即“皮克林手稿”；它在他去世很久以后的 1863 年才首次印出。开头四行是英语里被引用最多的诗句之一，其后是一长串对句，每一句都是一条小小的定律，把一只受伤的生灵与整个天国连在一起。请慢慢读；不加标点是布莱克自己的写法，停顿留给了你。"
+  },
+  "pick": null,
+  "tags": [
+    "infinity",
+    "animals",
+    "innocence",
+    "eternity"
+  ],
+  "excerpt": {
+    "orig": "To see a World in a Grain of Sand\nAnd a Heaven in a Wild Flower\nHold Infinity in the palm of your hand\nAnd Eternity in an hour",
+    "en": "To see a World in a Grain of Sand\nAnd a Heaven in a Wild Flower\nHold Infinity in the palm of your hand\nAnd Eternity in an hour",
+    "zh": "从一粒沙看见一个世界\n从一朵野花看见一个天国\n把无限握在你的掌心\n把永恒收进一个时辰"
+  },
+  "plate": null
+}

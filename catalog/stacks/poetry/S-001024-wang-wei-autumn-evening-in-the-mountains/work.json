@@ -1,0 +1,65 @@
+{
+  "id": "S-001024",
+  "slug": "wang-wei-autumn-evening-in-the-mountains",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "山居秋暝",
+    "en": "Autumn Evening in the Mountains",
+    "zh": "山居秋暝"
+  },
+  "author": {
+    "orig": "王維",
+    "en": "Wang Wei",
+    "zh": "王维",
+    "dates": "c. 699–761"
+  },
+  "year": 745,
+  "year_display": {
+    "en": "mid-8th century",
+    "zh": "约 8 世纪中期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/山居秋暝",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 761.",
+      "zh": "唐诗，作者卒于 761 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Wang Wei was a painter as well as a poet, and the middle couplets are composed like a picture: moon and pines above, water and stones below, then sound before sight, as you hear the bamboo before you see the women. The last line quietly reverses Summoning the Recluse, a poem in the Songs of Chu that called the noble wanderer home because the mountains were no place to stay long. Wang Wei says: stay.",
+    "zh": "王维既是诗人也是画家，中间两联像一幅构图：上有明月松林，下有清泉山石；然后先闻其声后见其人，竹林先响，浣女才出现。最后一句悄悄反用了楚辞《招隐士》里“王孙兮归来，山中兮不可以久留”的意思。王维说：可以留下。"
+  },
+  "pick": null,
+  "tags": [
+    "mountains",
+    "moon",
+    "rain",
+    "autumn",
+    "stillness"
+  ],
+  "excerpt": {
+    "orig": "明月松間照，清泉石上流。",
+    "en": "The bright moon shines between the pines, / the clear spring flows over the stones.",
+    "zh": "明月松间照，清泉石上流。"
+  },
+  "plate": null
+}

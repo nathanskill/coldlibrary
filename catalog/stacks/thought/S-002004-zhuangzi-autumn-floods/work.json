@@ -1,0 +1,64 @@
+{
+  "id": "S-002004",
+  "slug": "zhuangzi-autumn-floods",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "莊子·秋水（節選）",
+    "en": "Zhuangzi: Autumn Floods (excerpt)",
+    "zh": "庄子·秋水（节选）"
+  },
+  "author": {
+    "orig": "莊子",
+    "en": "Zhuangzi and his school",
+    "zh": "庄子及其后学",
+    "dates": "4th–3rd century BCE"
+  },
+  "year": -280,
+  "year_display": {
+    "en": "c. 3rd century BCE",
+    "zh": "约公元前 3 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "From chapter 17 of the Zhuangzi, as given on Chinese Wikisource: the opening section and the last three sections of the chapter. Inline notes on variant readings are removed and editorial brackets dropped.",
+    "zh": "选自《庄子》第十七篇，据维基文库：取开头一段与篇末三段。删去行内异文注，去掉校勘括号。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/莊子/秋水",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text of the Warring States period; public domain everywhere.",
+      "zh": "战国古典文本，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "From the seventeenth chapter of the Zhuangzi, one of the outer chapters usually attributed to his followers. This excerpt gives the opening dialogue between the Lord of the River and the god of the Northern Sea, and the three short stories that close the chapter: the tortoise in the mud, the owl and its rat, and the happiness of fish. Notice that the debate on the bridge over the Hao ends not with a proof but with a place: I know it from here.",
+    "zh": "选自《庄子》第十七篇，属外篇，一般认为出自庄子后学。节选包括开头河伯与北海若的对话，以及篇末三则短章：曳尾涂中的龟、鸱与腐鼠、濠梁之辩。留意濠梁之辩不是以证明收尾，而是以一个地点收尾：我知之濠上也。"
+  },
+  "pick": null,
+  "tags": [
+    "sea",
+    "humility",
+    "fish",
+    "zhuangzi"
+  ],
+  "excerpt": {
+    "orig": "井蛙不可以語於海者，拘於墟也。",
+    "en": "You cannot talk about the sea to a frog in a well: it is confined to its hole.",
+    "zh": "井蛙不可以语于海者，拘于墟也。"
+  },
+  "plate": null
+}

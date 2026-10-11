@@ -1,0 +1,63 @@
+{
+  "id": "S-004012",
+  "slug": "whitman-o-me-o-life",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "O Me! O Life!",
+    "en": "O Me! O Life!",
+    "zh": "哦，我！哦，生命！"
+  },
+  "author": {
+    "orig": "Walt Whitman",
+    "en": "Walt Whitman",
+    "zh": "沃尔特·惠特曼",
+    "dates": "1819–1892"
+  },
+  "year": 1867,
+  "year_display": {
+    "en": "1867; text 1891–92",
+    "zh": "1867 年初刊；文本为 1891–92 年版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Leaves of Grass, the 1891–92 “deathbed” edition, on Project Gutenberg (eBook 1322); wrapped long lines rejoined",
+    "zh": "据古登堡计划电子书 1322 所录《草叶集》1891–92 年“临终版”；已把排版折行的长句接回"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1322/pg1322.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1867; the text used is from 1891–92; the author died in 1892.",
+      "zh": "1867 年初刊，所用文本为 1891–92 年版；作者卒于 1892 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A short poem from Leaves of Grass: a page of doubts, then an answer two lines long. The answer does not argue the doubts away; it changes the question from what life is worth to what one might add to it. “You may contribute a verse” is a quiet invitation, and this library takes it literally.",
+    "zh": "出自《草叶集》的一首短诗：一页的疑问，然后是两行的回答。回答并没有把疑问驳倒，而是把问题从“生命值多少”换成了“你能为它添上什么”。“你可以献上一句诗”是一个安静的邀请，这座图书馆照字面接受了它。"
+  },
+  "pick": null,
+  "tags": [
+    "life",
+    "purpose",
+    "questions"
+  ],
+  "excerpt": {
+    "orig": "That you are here—that life exists and identity,\nThat the powerful play goes on, and you may contribute a verse.",
+    "en": "That you are here—that life exists and identity,\nThat the powerful play goes on, and you may contribute a verse.",
+    "zh": "你在这里——生命存在，自我存在，\n那场宏大的戏仍在上演，而你可以献上一句诗。"
+  },
+  "plate": null
+}

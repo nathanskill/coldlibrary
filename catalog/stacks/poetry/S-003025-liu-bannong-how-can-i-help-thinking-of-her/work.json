@@ -1,0 +1,65 @@
+{
+  "id": "S-003025",
+  "slug": "liu-bannong-how-can-i-help-thinking-of-her",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "教我如何不想她",
+    "en": "How Can I Help Thinking of Her",
+    "zh": "教我如何不想她"
+  },
+  "author": {
+    "orig": "劉半農",
+    "en": "Liu Bannong",
+    "zh": "刘半农",
+    "dates": "1891–1934"
+  },
+  "year": 1920,
+  "year_display": {
+    "en": "written 1920, collected 1926",
+    "zh": "1920 年作，1926 年收入诗集"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from Raising the Whip (揚鞭集, 1926); written in London on 4 September 1920.",
+    "zh": "据维基文库，录自《扬鞭集》（1926）；1920 年 9 月 4 日作于伦敦。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/教我如何不想她",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in 1920 and published in book form in 1926; the author died in 1934. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1920 年作，1926 年收入诗集出版，作者卒于 1934 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in London in 1920 and later set to music by the linguist Zhao Yuanren, this short song uses 她 for 'her', the written pronoun for women that Liu Bannong had proposed, and it helped carry the character into everyday use. It is here because a single new character, offered freely, became everyone's. Notice how each stanza passes through a different light, from light clouds and moonlight to fallen petals and the last afterglow.",
+    "zh": "1920 年作于伦敦，后来由语言学家赵元任谱成歌曲。诗中用“她”字指女性，这正是刘半农提倡的新代词，这首诗帮它进入了日常书写。收在这里，是因为一个无偿提出的新字，最后成了所有人的字。留意每一节经过不同的光景，从微云、月光，到落花，再到西天的残霞。"
+  },
+  "pick": null,
+  "tags": [
+    "longing",
+    "moon",
+    "sea",
+    "song",
+    "language"
+  ],
+  "excerpt": {
+    "orig": "月光戀愛着海洋，海洋戀愛着月光。",
+    "en": "The moonlight is in love with the sea, the sea is in love with the moonlight.",
+    "zh": "月光恋爱着海洋，海洋恋爱着月光。"
+  },
+  "plate": null
+}

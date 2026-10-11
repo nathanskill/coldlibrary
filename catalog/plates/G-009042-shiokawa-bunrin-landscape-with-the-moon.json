@@ -1,0 +1,61 @@
+{
+  "id": "G-009042",
+  "slug": "shiokawa-bunrin-landscape-with-the-moon",
+  "title": {
+    "orig": "Landscape with the Moon",
+    "en": "Landscape with the Moon",
+    "zh": "月下山水"
+  },
+  "artist": {
+    "orig": "塩川文麟",
+    "en": "Shiokawa Bunrin (attributed)",
+    "zh": "盐川文麟（传）",
+    "dates": "1808–1877"
+  },
+  "year": 1850,
+  "year_display": {
+    "en": "19th century",
+    "zh": "19 世纪"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink and colour on silk",
+    "zh": "立轴，绢本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/55299",
+    "accession": "36.100.5",
+    "credit_line": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/36_100_5_O2_sf.jpg",
+    "width": 1042,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1877. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1877 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A pale silk hanging scroll: a faint full moon in a misty sky above soft grey hills, a band of low cloud across the middle, and at the bottom a few dark trees and reeds at the water's edge.",
+    "zh": "一幅淡色的绢本立轴：雾蒙蒙的天空里一轮淡淡的满月，下面是柔和的灰色山丘，中段横着一带低云，底部水边有几棵深色的树和一丛芦苇。"
+  },
+  "note": {
+    "en": "Attributed to Shiokawa Bunrin, a Kyoto painter of the Shijō school, which favoured soft washes and observed nature over bold outlines. Almost nothing here is drawn with a line: moon, hills and mist are all pools of diluted ink on silk. It is the quietest night on this wall.",
+    "zh": "传为盐川文麟所作。他是京都四条派画家，这一派偏爱柔和的渲染和对自然的观察，而不是浓重的轮廓线。这里几乎没有一根线：月、山、雾，都是绢上一汪汪淡墨。这是这面墙上最安静的一夜。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "mist",
+    "night",
+    "hills"
+  ]
+}

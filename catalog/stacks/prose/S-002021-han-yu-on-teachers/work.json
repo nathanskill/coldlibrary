@@ -1,0 +1,63 @@
+{
+  "id": "S-002021",
+  "slug": "han-yu-on-teachers",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "師說",
+    "en": "On Teachers",
+    "zh": "师说"
+  },
+  "author": {
+    "orig": "韓愈",
+    "en": "Han Yu",
+    "zh": "韩愈",
+    "dates": "768–824"
+  },
+  "year": 802,
+  "year_display": {
+    "en": "c. 802",
+    "zh": "约 802 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (as collected in the Quan Tang wen and the Guwen guanzhi).",
+    "zh": "据维基文库（《全唐文》《古文观止》所收）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/師說",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty essay; the author died in 824.",
+      "zh": "唐代散文，作者卒于 824 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Han Yu's short essay on why everyone needs a teacher, written around 802 for a seventeen-year-old student, Li Pan. It argues that the Way, not age or rank, decides who teaches whom. Notice the line that a disciple need not be lesser than the teacher: some simply heard the Way sooner.",
+    "zh": "韩愈约 802 年写给十七岁学生李蟠的短文，讲人为什么都需要老师。它主张决定谁做老师的是道，而不是年龄或地位。留意“弟子不必不如师”一句：只是闻道有先后。"
+  },
+  "pick": null,
+  "tags": [
+    "teaching",
+    "learning",
+    "tang"
+  ],
+  "excerpt": {
+    "orig": "聞道有先後，術業有專攻，如是而已。",
+    "en": "Some hear the Way sooner and some later; each art and craft has its specialists. That is all there is to it.",
+    "zh": "闻道有先后，术业有专攻，如是而已。"
+  },
+  "plate": null
+}

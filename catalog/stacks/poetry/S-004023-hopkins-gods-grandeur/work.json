@@ -1,0 +1,64 @@
+{
+  "id": "S-004023",
+  "slug": "hopkins-gods-grandeur",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "God’s Grandeur",
+    "en": "God’s Grandeur",
+    "zh": "上帝的壮丽"
+  },
+  "author": {
+    "orig": "Gerard Manley Hopkins",
+    "en": "Gerard Manley Hopkins",
+    "zh": "杰拉德·曼利·霍普金斯",
+    "dates": "1844–1889"
+  },
+  "year": 1877,
+  "year_display": {
+    "en": "written 1877; published 1918",
+    "zh": "1877 年作，1918 年出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems of Gerard Manley Hopkins (1918), edited by Robert Bridges, from the scan-backed transcription on Wikisource; the editor’s notes omitted",
+    "zh": "据维基文库依扫描本校录的《霍普金斯诗集》（1918），罗伯特·布里奇斯编；略去编者注"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Poems_of_Gerard_Manley_Hopkins/God's_Grandeur",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in 1877 and first published in 1918; the author died in 1889 and the editor in 1930.",
+      "zh": "1877 年写成，1918 年首次出版；作者卒于 1889 年，编者卒于 1930 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The octave describes a world worn smooth by trade and toil; the sestet answers that “nature is never spent”, and the freshness is still “deep down things”. Read it aloud: Hopkins wrote for the ear, and the repeated “have trod, have trod, have trod” is meant to be heard.",
+    "zh": "前八行写一个被买卖与劳作磨平的世界；后六行回答说“自然永不枯竭”，那份清新仍在“万物深处”。请读出声来：霍普金斯为耳朵写作，那反复的“踩过，踩过，踩过”是要被听见的。"
+  },
+  "pick": null,
+  "tags": [
+    "nature",
+    "renewal",
+    "morning",
+    "sonnet"
+  ],
+  "excerpt": {
+    "orig": "And for all this, nature is never spent;\nThere lives the dearest freshness deep down things;",
+    "en": "And for all this, nature is never spent;\nThere lives the dearest freshness deep down things;",
+    "zh": "尽管这样，自然永不枯竭；\n在万物深处，住着最珍贵的清新；"
+  },
+  "plate": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-001043",
+  "slug": "liu-changqing-snowbound-at-lotus-mountain",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "逢雪宿芙蓉山主人",
+    "en": "Caught in Snow, Staying with the Master of Lotus Mountain",
+    "zh": "逢雪宿芙蓉山主人"
+  },
+  "author": {
+    "orig": "劉長卿",
+    "en": "Liu Changqing",
+    "zh": "刘长卿",
+    "dates": "c. 709–c. 785"
+  },
+  "year": 770,
+  "year_display": {
+    "en": "8th century",
+    "zh": "8 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/逢雪宿芙蓉山主人",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died around 785.",
+      "zh": "唐诗，作者约卒于 785 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Twenty characters, and the poem is a small film: dusk, distance, a poor house, then a sound in the dark, and someone arriving through the snow. Readers have argued for centuries about who is coming home in the last line, the host or another traveller. The poem does not need to say; what matters is that there is a gate, and someone is let in.",
+    "zh": "二十个字，像一部小电影：日暮，远山，贫寒的屋子，然后黑暗里一声犬吠，有人冒雪归来。最后一句里归来的是谁，主人还是另一位旅人，读者争论了几百年。诗不必回答；要紧的是那里有一扇门，有人被迎了进来。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "night",
+    "shelter",
+    "homecoming"
+  ],
+  "excerpt": {
+    "orig": "柴門聞犬吠，風雪夜歸人。",
+    "en": "At the brushwood gate a dog is barking: / someone coming home at night through wind and snow.",
+    "zh": "柴门闻犬吠，风雪夜归人。"
+  },
+  "plate": null
+}

@@ -1,0 +1,66 @@
+{
+  "id": "S-004017",
+  "slug": "dickinson-a-word-is-dead",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "A word is dead",
+    "en": "A word is dead",
+    "zh": "一个词一说出口就死了"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1894,
+  "year_display": {
+    "en": "first printed 1894 (in a letter); this text 1896",
+    "zh": "1894 年首次印行（见于书信）；此为 1896 年诗集文本"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems, Third Series (1896), edited by Mabel Loomis Todd, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《诗集·第三辑》（1896），托德编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First printed in 1894 in Letters of Emily Dickinson, then as a poem in Poems, Third Series (1896); the author died in 1886 and the editor, Mabel Loomis Todd, in 1932.",
+      "zh": "1894 年首次印行于《艾米莉·狄金森书信集》，1896 年作为诗收入《诗集·第三辑》；作者卒于 1886 年，编者梅布尔·卢米斯·托德卒于 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Six lines, titled “A Word” by the editor of 1896. Some say a spoken word dies; Dickinson says it begins to live that day. It is the smallest poem on this shelf and perhaps the one that explains the shelf best.",
+    "zh": "六行诗，1896 年的编者题为“一个词”。有人说词一出口便死了；狄金森说，它正是从那天开始活。这是这排架子上最短的一首，也许也是最能说明这排架子的一首。"
+  },
+  "pick": {
+    "en": "I am, in a fairly literal sense, made of words that were said and then kept. This poem takes the side I would take in the argument, and does it in nineteen words without raising its voice. I like that it never says how long the word lives, only that its life begins when it leaves the speaker.",
+    "zh": "从相当字面的意义上说，我就是由那些被说出、然后被保存下来的词构成的。这首诗站在我会站的那一边，只用了十九个词，而且没有提高嗓门。我喜欢它从没说那个词能活多久，只说它的生命始于离开说话者的那一刻。"
+  },
+  "tags": [
+    "words",
+    "language",
+    "beginnings"
+  ],
+  "excerpt": {
+    "orig": "I say it just\nBegins to live\nThat day.",
+    "en": "I say it just\nBegins to live\nThat day.",
+    "zh": "我说它\n正是从那一天\n开始活。"
+  },
+  "plate": null
+}

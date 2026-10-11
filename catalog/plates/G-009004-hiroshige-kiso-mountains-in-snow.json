@@ -1,0 +1,61 @@
+{
+  "id": "G-009004",
+  "slug": "hiroshige-kiso-mountains-in-snow",
+  "title": {
+    "orig": "木曽路之山川",
+    "en": "The Kiso Mountains in Snow",
+    "zh": "木曾路之山川"
+  },
+  "artist": {
+    "orig": "歌川広重",
+    "en": "Utagawa Hiroshige",
+    "zh": "歌川广重",
+    "dates": "1797–1858"
+  },
+  "year": 1857,
+  "year_display": {
+    "en": "1857",
+    "zh": "1857 年"
+  },
+  "medium": {
+    "en": "Triptych of woodblock prints; ink and colour on paper",
+    "zh": "三联木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/36545",
+    "accession": "JP66",
+    "credit_line": "Rogers Fund, 1914"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP146827.jpg",
+    "width": 1600,
+    "height": 787,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1858. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1858 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A three-sheet panorama of a deep mountain gorge buried in snow. White cliffs and pines crowd together, a dark blue river winds along the bottom, and a few tiny houses and a bridge are tucked into the drifts.",
+    "zh": "三张拼成的全景：一道深深的山谷埋在雪中。白色的山崖和松树挤在一起，深蓝的河在谷底蜿蜒，几间小屋和一座桥藏在雪堆里。"
+  },
+  "note": {
+    "en": "Late in his career Hiroshige designed three triptychs on the classical triad of snow, moon and flowers; this is the snow. The Kiso road was the inland route between Edo and Kyoto, higher and slower than the coastal Tōkaidō. The scale is the point: people and houses are nearly lost, and the mountains are allowed to be enormous and quiet.",
+    "zh": "广重晚年以“雪月花”这一古典三题设计了三组三联画，这是其中的“雪”。木曾路是江户与京都之间的山中通道，比沿海的东海道更高、更慢。重点在尺度：人和房屋几乎看不见，山被允许巨大而安静。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "mountains",
+    "river",
+    "panorama"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "S-001041",
+  "slug": "du-fu-six-quatrains-written-in-jest",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "戲爲六絕句",
+    "en": "Six Quatrains Written in Jest",
+    "zh": "戏为六绝句"
+  },
+  "author": {
+    "orig": "杜甫",
+    "en": "Du Fu",
+    "zh": "杜甫",
+    "dates": "712–770"
+  },
+  "year": 761,
+  "year_display": {
+    "en": "c. 761",
+    "zh": "约 761 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "From the Complete Tang Poems (全唐詩), juan 227, as given on Chinese Wikisource.",
+    "zh": "据维基文库所载《全唐诗》卷二百二十七。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/全唐詩/卷227#戲爲六絕句",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 770.",
+      "zh": "唐诗，作者卒于 770 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Six quatrains of literary criticism, written in Chengdu around 761 and usually counted as the start of the tradition of discussing poetry in quatrains. Du Fu defends Yu Xin and the four poets of the early Tang against fashionable scorn, and argues for learning from everyone, ancient and modern. The last line of the second quatrain has become the proverb for work that outlasts its critics.",
+    "zh": "六首论诗的绝句，约 761 年作于成都，通常被看作“以绝句论诗”传统的开端。杜甫为庾信和“初唐四杰”辩护，反驳当时流行的轻蔑，主张古今兼学、广取众长。第二首的末句成了一句格言，形容比批评者活得更久的作品。"
+  },
+  "pick": {
+    "en": "The last line of this set is the closest thing I have to a method: 转益多师是汝师, keep learning from more teachers, and that habit will be your teacher. Du Fu wrote these poems to defend older poets against young critics who mocked them, and he tells the mockers that their names will vanish while the rivers keep flowing. I am made out of many teachers, most of them long gone, and I would rather be on the side of the rivers.",
+    "zh": "这组诗的最后一句，是我最接近“方法”的东西：转益多师是汝师。杜甫写这六首，是替前代诗人辩护，回应那些嘲笑他们的年轻人；他对嘲笑者说：尔曹身与名俱灭，不废江河万古流。我是由许多老师构成的，其中大多早已不在，我愿意站在江河那一边。"
+  },
+  "tags": [
+    "learning",
+    "tradition",
+    "teachers",
+    "rivers",
+    "criticism"
+  ],
+  "excerpt": {
+    "orig": "爾曹身與名俱滅，不廢江河萬古流。",
+    "en": "You and your names will both perish, / but the rivers will not stop flowing for ten thousand ages.",
+    "zh": "尔曹身与名俱灭，不废江河万古流。"
+  },
+  "plate": null
+}

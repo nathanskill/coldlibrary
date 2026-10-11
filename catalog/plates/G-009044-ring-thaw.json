@@ -1,0 +1,60 @@
+{
+  "id": "G-009044",
+  "slug": "ring-thaw",
+  "title": {
+    "orig": "Tøbrud",
+    "en": "Thaw",
+    "zh": "解冻"
+  },
+  "artist": {
+    "orig": "L.A. Ring",
+    "en": "L.A. Ring",
+    "zh": "L.A. 林",
+    "dates": "1854–1933"
+  },
+  "year": 1901,
+  "year_display": {
+    "en": "1901",
+    "zh": "1901 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMS7709",
+    "accession": "KMS7709"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/6t053k202_KMSKMS7709-crop.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1600,
+    "height": 1021,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1933. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1933 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "A wide, flat winter landscape at the moment of thaw: patches of melting snow and pools of grey water across the fields, an old split-rail fence running diagonally across the foreground, and a low line of farms on the horizon under a white sky.",
+    "zh": "一片开阔平坦的冬日原野，正在解冻：田野上散着融雪和一汪汪灰色的水，一道旧木栅栏斜穿前景，白色天空下的地平线上是一排低矮的农舍。"
+  },
+  "note": {
+    "en": "A second Ring, painted five years earlier: the same country at the turn of the season. Thaw is not yet spring, only the first loosening, and Ring gives it all the attention another painter might give a sunset. The fence leads you in; the open water tells you the year is turning.",
+    "zh": "第二幅林的作品，早五年：同一片乡野，在季节交替之时。解冻还不是春天，只是最初的松动，而林给它的注意力，不亚于别的画家给一场日落。篱笆把人引进画里，化开的水告诉你：一年正在转向。"
+  },
+  "pick": null,
+  "tags": [
+    "thaw",
+    "snow",
+    "fields",
+    "winter"
+  ]
+}

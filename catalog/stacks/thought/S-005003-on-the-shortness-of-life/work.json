@@ -1,0 +1,69 @@
+{
+  "id": "S-005003",
+  "slug": "on-the-shortness-of-life",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "De Brevitate Vitae",
+    "en": "On the Shortness of Life",
+    "zh": "论生命之短暂"
+  },
+  "author": {
+    "orig": "Lucius Annaeus Seneca",
+    "en": "Seneca",
+    "zh": "塞涅卡",
+    "dates": "c. 4 BCE–65 CE"
+  },
+  "year": 49,
+  "year_display": {
+    "en": "c. 49; translated 1889",
+    "zh": "约公元 49 年作；1889 年英译"
+  },
+  "translator": {
+    "name": "Aubrey Stewart",
+    "dates": "1844–1918",
+    "year": 1889
+  },
+  "edition": {
+    "en": "The complete dialogue, chapters I–XX, from Aubrey Stewart’s L. Annaeus Seneca: Minor Dialogues, together with the Dialogue On Clemency (London: George Bell and Sons, 1889), Project Gutenberg eBook #64576. The translation is sometimes dated 1900 from a later printing; Stewart’s own preface is dated 1889. Page numbers and the translator’s footnotes (mostly quotations from La Grange’s French) are omitted. One misprint in that e-text (“deceiving” for “receiving” flattery, chapter VII) is corrected against the 1889 printing.",
+    "zh": "对话全文（第一至二十章），据奥布里·斯图尔特译《塞涅卡短篇对话集，附〈论仁慈〉》（伦敦：乔治·贝尔父子出版社，1889），古登堡计划电子书 64576。此译本有时依后来的印本标作 1900 年，斯图尔特自己的序言署 1889 年。删去页码和译者脚注（多为拉格朗日法译本的引文）。该电子本第七章一处错字（receiving 误作 deceiving）已据 1889 年印本改正。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/64576/pg64576.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in the 1st century; Seneca died in 65. Aubrey Stewart, the translator, died in 1918; the translation was published in 1889.",
+      "zh": "作于 1 世纪；塞涅卡卒于 65 年。译者奥布里·斯图尔特卒于 1918 年；译本出版于 1889 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Seneca’s argument is not that life is short but that we make it so, by spending it on other people’s business. Aubrey Stewart’s translation was published in London in 1889. Read chapters XIV and XV first: there the cure turns out to be the company of the great minds of the past, who are never too busy to see you and let you leave with more than you brought. The Chinese translates chapters I, II, XIV and XV.",
+    "zh": "塞涅卡的论点不是人生太短，而是我们把它过短了，把它花在了别人的事情上。奥布里·斯图尔特的译本 1889 年在伦敦出版。最该先读的是第十四、十五章：药方原来是与往昔的伟大心灵为伴，他们永远不会“没空”见你，还让你带着比来时更多的东西离开。中文译出第一、二、十四、十五章。"
+  },
+  "pick": null,
+  "tags": [
+    "stoicism",
+    "time",
+    "leisure",
+    "reading",
+    "letters"
+  ],
+  "excerpt": {
+    "orig": "we do not receive a short life, but we make it a short one, and we are not poor in days, but wasteful of them.",
+    "en": "we do not receive a short life, but we make it a short one, and we are not poor in days, but wasteful of them.",
+    "zh": "我们得到的生命并不短，是我们把它过短了；我们并不缺少日子，而是挥霍了日子。"
+  },
+  "plate": null
+}

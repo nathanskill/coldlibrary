@@ -1,0 +1,65 @@
+{
+  "id": "S-002023",
+  "slug": "su-shi-red-cliff-rhapsody",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "前赤壁賦",
+    "en": "The Red Cliff Rhapsody (the first)",
+    "zh": "前赤壁赋"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1082,
+  "year_display": {
+    "en": "1082",
+    "zh": "1082 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource, which follows Su Shi's autograph scroll in the National Palace Museum, Taipei; variant character forms are normalised. Su Shi's own postscript on the scroll is included; later colophons are not.",
+    "zh": "据维基文库，依台北故宫博物院藏苏轼手书卷；异体字统一为通行字形。收入卷上苏轼本人的附言，后人题跋不收。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/前赤壁賦",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1101.",
+      "zh": "北宋散文，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Su Shi's rhapsody of an autumn night on the Yangzi in 1082, written during his exile in Huangzhou. A guest's flute turns the evening sad, and Su answers with the water and the moon, which change and do not change. The text follows Su Shi's own handwritten scroll and ends with the note he added for the friend he sent it to, asking him to keep it hidden.",
+    "zh": "苏轼 1082 年谪居黄州时写长江秋夜泛舟。客人的箫声使夜色转悲，苏子以水与月作答：既变，又不变。文本据苏轼亲书的手卷，末尾保留他写给受赠友人的附言，嘱咐对方深藏不出。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "river",
+    "autumn",
+    "night",
+    "impermanence"
+  ],
+  "excerpt": {
+    "orig": "惟江上之清風，與山間之明月，耳得之而為聲，目遇之而成色，取之無禁，用之不竭，是造物者之無盡藏也",
+    "en": "Only the cool breeze on the river and the bright moon over the mountains, which the ear takes in as sound and the eye meets as colour: no one forbids us to take them, and using them never wears them out. They are the inexhaustible treasury of the maker of things.",
+    "zh": "惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭，是造物者之无尽藏也"
+  },
+  "plate": null
+}

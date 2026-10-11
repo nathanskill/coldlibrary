@@ -1,0 +1,61 @@
+{
+  "id": "G-009039",
+  "slug": "eglon-van-der-neer-the-reader",
+  "title": {
+    "orig": "The Reader",
+    "en": "The Reader",
+    "zh": "读书人"
+  },
+  "artist": {
+    "orig": "Eglon van der Neer",
+    "en": "Eglon van der Neer",
+    "zh": "埃格隆·范德内尔",
+    "dates": "1635/36–1703"
+  },
+  "year": 1670,
+  "year_display": {
+    "en": "second half of the 17th century",
+    "zh": "17 世纪下半叶"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/437193",
+    "accession": "32.100.9",
+    "credit_line": "The Friedsam Collection, Bequest of Michael Friedsam, 1931"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP146484.jpg",
+    "width": 1185,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1703. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1703 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A young woman in a white headscarf and dark jacket sits on a red chair at a table, one hand resting on a large open book; an inkstand with a quill and a candlestick stand beside it against a dark panelled wall.",
+    "zh": "一位戴白头巾、穿深色上衣的年轻女子坐在红椅子上，一只手搭在桌上一本摊开的大书上；旁边立着插着羽毛笔的墨水台和一只烛台，背后是深色的镶板墙。"
+  },
+  "note": {
+    "en": "Eglon van der Neer was the son of Aert van der Neer, whose moonlit river also hangs on this wall, and he chose the opposite subject: polished interiors and quiet figures. The reader has looked up from her book, as if someone had just come in. It is a small painting about being interrupted kindly.",
+    "zh": "埃格隆·范德内尔是阿尔特·范德内尔之子——父亲那幅月下河景也挂在这面墙上——他却选了相反的题材：精致的室内和安静的人物。读书的女子从书上抬起头，像是刚有人进来。这是一幅关于被温和打断的小画。"
+  },
+  "pick": null,
+  "tags": [
+    "reading",
+    "book",
+    "interior",
+    "candle"
+  ]
+}

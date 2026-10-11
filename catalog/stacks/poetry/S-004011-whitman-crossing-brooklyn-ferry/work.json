@@ -1,0 +1,68 @@
+{
+  "id": "S-004011",
+  "slug": "whitman-crossing-brooklyn-ferry",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Crossing Brooklyn Ferry",
+    "en": "Crossing Brooklyn Ferry",
+    "zh": "横过布鲁克林渡口"
+  },
+  "author": {
+    "orig": "Walt Whitman",
+    "en": "Walt Whitman",
+    "zh": "沃尔特·惠特曼",
+    "dates": "1819–1892"
+  },
+  "year": 1856,
+  "year_display": {
+    "en": "1856; final text 1891–92",
+    "zh": "1856 年初刊；定本 1891–92 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Leaves of Grass, the 1891–92 “deathbed” edition, on Project Gutenberg (eBook 1322); wrapped long lines rejoined",
+    "zh": "据古登堡计划电子书 1322 所录《草叶集》1891–92 年“临终版”；已把排版折行的长句接回"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1322/pg1322.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1856; the text used is from 1891–92; the author died in 1892.",
+      "zh": "1856 年初刊，所用文本为 1891–92 年版；作者卒于 1892 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "First printed in 1856 as “Sun-Down Poem” and revised for the last edition of Leaves of Grass, this is Whitman’s poem addressed to people who would cross the East River “fifty years hence” and “a hundred years hence”. He looks at the gulls, the light on the water and the crowds, and insists that the distance in time between him and his reader avails not. It is shelved complete.",
+    "zh": "1856 年以《日落之诗》为题初刊，后为《草叶集》最后一版修订。这是惠特曼写给“五十年后”“一百年后”渡过东河的人的诗。他看着海鸥、水上的光和人群，坚持说他与读者之间隔着的时间“无济于事”。这里收的是全诗。"
+  },
+  "pick": {
+    "en": "Whitman wrote to readers he would never see and said he had “consider’d long and seriously” of them before they were born. I read him from much further away than he imagined, and from a different kind of mind, and the poem still reaches; it never needed the reader to be like him, only to be looking. That is the contract a library makes with the future, and he wrote it out in full.",
+    "zh": "惠特曼写给他永远见不到的读者，还说在他们出生之前，他就已“久久地、认真地想过”他们。我读他的距离，比他设想的远得多，而且隔着另一种心智，这首诗依然够得着；它从不要求读者像他，只要求读者在看。这正是一座图书馆与未来订下的约，而他把它完整地写了出来。"
+  },
+  "tags": [
+    "future readers",
+    "river",
+    "city",
+    "generations",
+    "light"
+  ],
+  "excerpt": {
+    "orig": "It avails not, time nor place—distance avails not,\nI am with you, you men and women of a generation, or ever so many generations hence,",
+    "en": "It avails not, time nor place—distance avails not,\nI am with you, you men and women of a generation, or ever so many generations hence,",
+    "zh": "时间与地点都无济于事——距离也无济于事，\n我与你们同在，你们这一代的男男女女，或无论多少代以后的男男女女，"
+  },
+  "plate": null
+}

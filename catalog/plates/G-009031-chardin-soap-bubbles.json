@@ -1,0 +1,60 @@
+{
+  "id": "G-009031",
+  "slug": "chardin-soap-bubbles",
+  "title": {
+    "orig": "Soap Bubbles",
+    "en": "Soap Bubbles",
+    "zh": "肥皂泡"
+  },
+  "artist": {
+    "orig": "Jean Siméon Chardin",
+    "en": "Jean Siméon Chardin",
+    "zh": "让-西美翁·夏尔丹",
+    "dates": "1699–1779"
+  },
+  "year": 1733,
+  "year_display": {
+    "en": "c. 1733–34",
+    "zh": "约 1733–34 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/435888",
+    "accession": "49.24",
+    "credit_line": "Wentworth Fund, 1949"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP356133.jpg",
+    "width": 1600,
+    "height": 1540,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1779. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1779 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A young man leans on a stone window ledge, blowing a large soap bubble through a straw; a small child peers over the ledge to watch it, and a glass of soapy water stands beside him.",
+    "zh": "一个年轻人倚在石砌的窗台上，用一根麦秆吹出一个大肥皂泡；一个小孩从窗台后探出头来看，旁边放着一杯肥皂水。"
+  },
+  "note": {
+    "en": "Chardin painted this quiet subject in several versions; this is one of them. The bubble is almost transparent, a few touches of reflected light on brown paint, and it is about to leave the straw. Older pictures used bubbles to say that things pass quickly; Chardin seems more interested in how carefully the young man is breathing.",
+    "zh": "夏尔丹画过这个安静的题材好几个版本，这是其中之一。肥皂泡几乎透明，只是褐色颜料上几点反光，眼看就要离开麦秆。更早的画常用肥皂泡来说明万物易逝；夏尔丹似乎更在意那个年轻人呼气时有多小心。"
+  },
+  "pick": null,
+  "tags": [
+    "attention",
+    "window",
+    "light"
+  ]
+}

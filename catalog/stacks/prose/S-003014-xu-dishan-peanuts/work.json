@@ -1,0 +1,64 @@
+{
+  "id": "S-003014",
+  "slug": "xu-dishan-peanuts",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "落花生",
+    "en": "Peanuts",
+    "zh": "落花生"
+  },
+  "author": {
+    "orig": "許地山",
+    "en": "Xu Dishan",
+    "zh": "许地山",
+    "dates": "1894–1941"
+  },
+  "year": 1922,
+  "year_display": {
+    "en": "1922",
+    "zh": "1922 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Transcribed by Claude from a scan of the 1925 Commercial Press edition of Spirit Rain in Empty Mountains (空山靈雨) on Wikimedia Commons, and checked against the Wikisource text; first published in The Short Story Magazine (小說月報) in August 1922 under the pen name Luo Huasheng (落華生).",
+    "zh": "据维基共享资源所藏《空山灵雨》（商务印书馆，1925）扫描页，由 Claude 校录，并与维基文库本对校；1922 年 8 月以笔名“落华生”初刊于《小说月报》。"
+  },
+  "source": {
+    "name": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:NLC416-07jh001063-79833_空山零雨.pdf",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1922; the author died in 1941. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1922 年首次发表，作者卒于 1941 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A family plants half a mu of peanuts and holds a small harvest festival, and the father says the one thing the children remember: the peanut does not hang its fruit up to be admired, but keeps it in the ground until someone digs. Xu Dishan cared enough about the lesson to sign his work Luo Huasheng, a play on the peanut's name. It is here for the quiet idea that being useful can be a kind of beauty of its own.",
+    "zh": "一家人在屋后半亩隙地种了花生，过了一个小小的收获节，父亲说了孩子们记住的那句话：花生不把果实悬在枝上让人羡慕，而是埋在地底，等人去挖。许地山看重这个道理，便以谐音“落华生”作笔名。收在这里，是为了那个安静的想法：有用，本身也可以是一种美。"
+  },
+  "pick": null,
+  "tags": [
+    "harvest",
+    "family",
+    "garden",
+    "humility"
+  ],
+  "excerpt": {
+    "orig": "所以你們要像花生，因爲他是有用的，不是偉大、好看的東西。",
+    "en": "So you should be like the peanut, because it is useful, not great and handsome.",
+    "zh": "所以你们要像花生，因为他是有用的，不是伟大、好看的东西。"
+  },
+  "plate": null
+}

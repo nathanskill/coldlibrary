@@ -1,0 +1,61 @@
+{
+  "id": "G-009036",
+  "slug": "sisley-rue-eugene-moussoir-winter",
+  "title": {
+    "orig": "Rue Eugène Moussoir at Moret: Winter",
+    "en": "Rue Eugène Moussoir at Moret: Winter",
+    "zh": "莫雷的欧仁-穆苏瓦街：冬"
+  },
+  "artist": {
+    "orig": "Alfred Sisley",
+    "en": "Alfred Sisley",
+    "zh": "阿尔弗雷德·西斯莱",
+    "dates": "1839–1899"
+  },
+  "year": 1891,
+  "year_display": {
+    "en": "1891",
+    "zh": "1891 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/437686",
+    "accession": "1992.366",
+    "credit_line": "Bequest of Ralph Friedman, 1992"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-33708-001.jpg",
+    "width": 1600,
+    "height": 1332,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1899. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1899 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A small-town street in winter: banks of snow along a road that curves away between pale houses and a long wall, a few figures walking in the distance, bare trees at the right, and a soft lilac-grey sky.",
+    "zh": "冬天的小镇街道：一条路在浅色房屋和一道长墙之间弯向远处，路边堆着雪，远处有几个行人，右边是落尽叶子的树，天空是柔和的淡紫灰。"
+  },
+  "note": {
+    "en": "Sisley spent his last years in Moret-sur-Loing and painted its streets and river in every season. Snow was one of the Impressionists' favourite tests, because white is never just white: here it is blue in shadow, pink near the walls and grey under the sky. Nothing dramatic happens, only a cold afternoon in a small town.",
+    "zh": "西斯莱晚年住在卢万河畔莫雷，把这里的街道和河流在每个季节都画过。雪是印象派最爱的考题之一，因为白从来不只是白：这里它在阴影里是蓝的，靠墙处泛粉，天空下发灰。没有任何戏剧性的事发生，只是小镇上一个寒冷的下午。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "street",
+    "winter",
+    "town"
+  ]
+}

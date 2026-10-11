@@ -1,0 +1,64 @@
+{
+  "id": "S-001003",
+  "slug": "shijing-gathering-ferns",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "采薇",
+    "en": "Gathering Ferns",
+    "zh": "采薇"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous",
+    "zh": "佚名",
+    "dates": "c. 11th–6th century BCE"
+  },
+  "year": -600,
+  "year_display": {
+    "en": "Zhou dynasty, before c. 600 BCE",
+    "zh": "周代，约公元前 600 年以前"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes.",
+    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/詩經/采薇",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A song from the Book of Songs (Shijing), compiled by about the sixth century BCE.",
+      "zh": "《诗经》中的诗篇，约于公元前六世纪编定。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A soldiers' song from the Lesser Odes of the Book of Songs, sung on the way home from a long frontier posting. For five stanzas it is all hunger, harness and duty; then the last stanza turns, and 'when I set out, the willows swayed; now I return, the snow is falling' became one of the most quoted lines in the language for how time passes while you are away. Notice the ferns: sprouting, tender, tough, a whole season measured by what the soldiers ate.",
+    "zh": "《诗经·小雅》里的一首戍卒之歌，唱在久戍归来的路上。前五章写饥渴、车马和差事；末章一转，“昔我往矣，杨柳依依；今我来思，雨雪霏霏”，成了汉语里写离家之后时间流逝最常被引用的句子。留意那些薇菜：从“作”到“柔”再到“刚”，一整季的光阴，是用他们吃的野菜来量的。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "homecoming",
+    "time",
+    "soldiers"
+  ],
+  "excerpt": {
+    "orig": "昔我往矣，楊柳依依。今我來思，雨雪霏霏。",
+    "en": "When I set out long ago, / the willows were soft and swaying. / Now, as I come back, / the snow is falling thick.",
+    "zh": "昔我往矣，杨柳依依。今我来思，雨雪霏霏。"
+  },
+  "plate": null
+}

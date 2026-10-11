@@ -1,0 +1,64 @@
+{
+  "id": "S-003002",
+  "slug": "lu-xun-kong-yiji",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "孔乙己",
+    "en": "Kong Yiji",
+    "zh": "孔乙己"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1919,
+  "year_display": {
+    "en": "1919",
+    "zh": "1919 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); first published in New Youth (新青年), vol. 6, 1919, and collected in Call to Arms (吶喊), 1923.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；初刊于 1919 年《新青年》第六卷，收入《呐喊》（1923）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/孔乙己",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1919; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1919 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A failed scholar who drinks his wine standing in a long gown, the only customer who does, and who is laughed at until one day he simply stops coming. Lu Xun tells it through a bored twelve-year-old serving boy, which is what makes it so hard to read: the boy laughs too. Notice the board where his debt is chalked; nineteen coppers are the last trace he leaves.",
+    "zh": "一个没有进学的读书人，是酒店里唯一站着喝酒而穿长衫的人，被众人取笑，直到有一天不再来。鲁迅借一个无聊的十二岁小伙计来讲，这正是它难读的地方：孩子也跟着笑。留意那块记账的粉板，十九个钱是他留下的最后痕迹。"
+  },
+  "pick": null,
+  "tags": [
+    "tavern",
+    "scholar",
+    "learning",
+    "loneliness"
+  ],
+  "excerpt": {
+    "orig": "孔乙己是這樣的使人快活，可是沒有他，別人也便這麽過。",
+    "en": "That was how Kong Yiji made people happy, but without him, they got along just as well.",
+    "zh": "孔乙己是这样的使人快活，可是没有他，别人也便这么过。"
+  },
+  "plate": null
+}

@@ -1,0 +1,64 @@
+{
+  "id": "S-008008",
+  "slug": "we-choose-to-go-to-the-moon",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Address at Rice University on the Nation's Space Effort",
+    "en": "We Choose to Go to the Moon",
+    "zh": "我们选择登月"
+  },
+  "author": {
+    "orig": "John F. Kennedy",
+    "en": "John F. Kennedy",
+    "zh": "约翰·F. 肯尼迪",
+    "dates": "1917–1963"
+  },
+  "year": 1962,
+  "year_display": {
+    "en": "12 September 1962",
+    "zh": "1962 年 9 月 12 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Excerpts from the text in the Public Papers of the Presidents, via the American Presidency Project; omissions are marked with an ellipsis.",
+    "zh": "据《美国总统公开文件》所载文本节选，经“美国总统项目”网站；删节处以省略号标出。"
+  },
+  "source": {
+    "name": "The American Presidency Project, UC Santa Barbara",
+    "url": "https://www.presidency.ucsb.edu/documents/address-rice-university-houston-the-nations-space-effort",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Issued by John F. Kennedy as President of the United States, in his official capacity, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105).",
+      "zh": "约翰·F. 肯尼迪以美国总统身份发表的公务文字，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Kennedy gave this speech in a hot football stadium in Houston, seven years before the first landing; the passages kept here leave out most of its Cold War argument and keep its sense of scale. It belongs on this shelf as a promise made partly to students who would still be at school when it was kept. Notice the rocket 'made of new metal alloys, some of which have not yet been invented': a plan that openly counts on work nobody had done yet.",
+    "zh": "肯尼迪在休斯敦一座炎热的橄榄球场里发表了这篇演说，比第一次登月早七年；这里保留的段落略去了它大部分冷战时期的论辩，留下了它对尺度的感觉。它放在这个书架上，因为它是一个承诺，有一部分是说给那些在承诺兑现时可能还在读书的学生听的。留意那枚“用新的金属合金制成，其中有些合金还没有被发明出来”的火箭：一个公开指望着尚无人完成的工作的计划。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "space",
+    "promise",
+    "speech"
+  ],
+  "excerpt": {
+    "orig": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard",
+    "en": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard",
+    "zh": "我们选择在这个十年里登上月球，并去做其他的事；不是因为它们容易，而是因为它们艰难"
+  },
+  "plate": "G-008001"
+}

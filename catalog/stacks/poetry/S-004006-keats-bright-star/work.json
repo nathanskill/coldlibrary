@@ -1,0 +1,65 @@
+{
+  "id": "S-004006",
+  "slug": "keats-bright-star",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Bright star, would I were steadfast as thou art",
+    "en": "Bright star, would I were steadfast as thou art",
+    "zh": "明亮的星"
+  },
+  "author": {
+    "orig": "John Keats",
+    "en": "John Keats",
+    "zh": "约翰·济慈",
+    "dates": "1795–1821"
+  },
+  "year": 1819,
+  "year_display": {
+    "en": "written 1819; printed 1838",
+    "zh": "1819 年作，1838 年首次付印"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Standard Ebooks edition of Keats’s poetry, where it appears under its nineteenth-century title “The Last Sonnet”",
+    "zh": "据 Standard Ebooks 济慈诗集，题作十九世纪通行的《最后的十四行诗》"
+  },
+  "source": {
+    "name": "Standard Ebooks",
+    "url": "https://standardebooks.org/ebooks/john-keats/poetry/text/single-page",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written in 1819 and first printed in 1838; the author died in 1821.",
+      "zh": "1819 年写成，1838 年首次付印；作者卒于 1821 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Keats copied this sonnet into a volume of Shakespeare’s poems in 1820, on the voyage to Italy; it was printed only after his death, and for a long time was called his last sonnet. The speaker wants the star’s steadfastness without its loneliness, and the poem is built on that refusal. Notice the snow on the mountains, seen from very high up, as if by the star itself.",
+    "zh": "1820 年，在前往意大利的船上，济慈把这首十四行诗抄在一本莎士比亚诗集里；它直到他去世后才付印，很长时间里被称作他的最后一首十四行诗。说话的人想要那颗星的坚定，却不要它的孤独，整首诗就建立在这个拒绝上。留意山与荒原上的雪，是从极高处望见的，仿佛那颗星自己在看。"
+  },
+  "pick": null,
+  "tags": [
+    "stars",
+    "snow",
+    "love",
+    "constancy",
+    "sonnet"
+  ],
+  "excerpt": {
+    "orig": "Bright star, would I were steadfast as thou art!",
+    "en": "Bright star, would I were steadfast as thou art!",
+    "zh": "明亮的星，但愿我像你一样坚定！"
+  },
+  "plate": null
+}

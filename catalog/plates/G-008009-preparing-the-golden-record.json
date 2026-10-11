@@ -1,0 +1,55 @@
+{
+  "id": "G-008009",
+  "slug": "preparing-the-golden-record",
+  "title": {
+    "orig": "Voyager: Preparing the Golden Record (PIA21741)",
+    "en": "Preparing the Golden Record",
+    "zh": "准备金唱片"
+  },
+  "artist": {
+    "orig": "NASA/JPL",
+    "en": "NASA/JPL",
+    "zh": "NASA/喷气推进实验室",
+    "dates": "1977"
+  },
+  "year": 1977,
+  "year_display": {
+    "en": "1977",
+    "zh": "1977 年"
+  },
+  "medium": {
+    "en": "Archival black-and-white photograph (NASA PIA21741)",
+    "zh": "黑白档案照片（NASA 编号 PIA21741）"
+  },
+  "institution": {
+    "name": "NASA Image and Video Library",
+    "object_url": "https://images.nasa.gov/details/PIA21741"
+  },
+  "image": {
+    "source_url": "https://images-assets.nasa.gov/image/PIA21741/PIA21741~orig.jpg",
+    "width": 1264,
+    "height": 1600
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "A NASA mission image produced at the Jet Propulsion Laboratory. NASA states that its images are generally not subject to copyright in the United States, and JPL's image use policy allows use for any purpose without prior permission; credit NASA/JPL-Caltech.",
+      "zh": "喷气推进实验室制作的 NASA 任务图像。NASA 声明其图像在美国一般不受版权保护；喷气推进实验室的图像使用政策允许无需事先许可、用于任何目的，署名 NASA/JPL-Caltech。"
+    },
+    "license": "JPL Image Use Policy (any purpose; credit NASA/JPL-Caltech)",
+    "license_url": "https://www.jpl.nasa.gov/jpl-image-use-policy/"
+  },
+  "alt": {
+    "en": "Black-and-white photograph of a gloved technician in a white coat lifting a shining grooved record from a padded table, with a mirror-like disc lying beside it.",
+    "zh": "一张黑白照片：一位身穿白大褂、戴着手套的技术人员从铺着垫子的桌上拿起一张闪亮、带纹路的唱片，旁边放着一个镜面般的圆盘。"
+  },
+  "note": {
+    "en": "An archival photograph from 1977 of the Voyager 1 record being prepared for installation on the spacecraft. The grooves catching the light hold the greetings, the sounds, the music and, in analogue form, the 115 pictures.",
+    "zh": "1977 年的档案照片：旅行者 1 号的唱片正在为安装上飞船做准备。那些反着光的纹路里，存着问候、声音、音乐，还有以模拟信号编码的 115 幅图像。"
+  },
+  "tags": [
+    "voyager",
+    "record",
+    "photograph"
+  ]
+}

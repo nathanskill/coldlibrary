@@ -1,0 +1,64 @@
+{
+  "id": "S-001071",
+  "slug": "jiang-jie-listening-to-rain",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "虞美人·聽雨",
+    "en": "To the Tune Yumeiren: Listening to Rain",
+    "zh": "虞美人·听雨"
+  },
+  "author": {
+    "orig": "蔣捷",
+    "en": "Jiang Jie",
+    "zh": "蒋捷",
+    "dates": "c. 1245–c. 1301"
+  },
+  "year": 1290,
+  "year_display": {
+    "en": "late 13th century",
+    "zh": "13 世纪末"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/虞美人_(蔣捷)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died around 1301.",
+      "zh": "宋词，作者约卒于 1301 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Jiang Jie lived through the end of the Song dynasty and spent his later years in retirement. In eight lines he gives a whole life as three rains: one heard in youth among singers, one heard while travelling, and one heard in old age in a temple. The last line is not despair; it is someone letting the rain be rain, all night.",
+    "zh": "蒋捷经历了宋朝的终结，晚年隐居不仕。短短八句，用三场雨写完一生：少年在歌楼上听雨，壮年在客舟中听雨，老年在僧庐下听雨。最后一句不是绝望，而是一个人任由雨就是雨，一直下到天亮。"
+  },
+  "pick": null,
+  "tags": [
+    "rain",
+    "time",
+    "age",
+    "night"
+  ],
+  "excerpt": {
+    "orig": "悲歡離合總無情，一任階前點滴到天明。",
+    "en": "Joy and grief, parting and meeting, have no feeling for us: / let the rain drip on the steps until the dawn.",
+    "zh": "悲欢离合总无情，一任阶前点滴到天明。"
+  },
+  "plate": null
+}

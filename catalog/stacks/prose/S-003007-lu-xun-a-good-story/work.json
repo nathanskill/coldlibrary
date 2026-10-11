@@ -1,0 +1,65 @@
+{
+  "id": "S-003007",
+  "slug": "lu-xun-a-good-story",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "好的故事",
+    "en": "A Good Story",
+    "zh": "好的故事"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "1925",
+    "zh": "1925 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); first published in Threads of Talk (語絲) and collected in Wild Grass (野草), 1927.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；初刊于《语丝》，收入《野草》（1927）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/好的故事",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1925; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1925 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "On a dim night of firecrackers, reading by a failing lamp, Lu Xun dozes and sees a story made of reflections on a river: tallow trees, dogs, a pagoda, village girls, all woven and unwoven by the oar. He reaches for a pen, and it is gone. It belongs here because it is about the oldest problem of every library, the distance between what was seen and what can be written down. Notice the long plain list of things on the riverbank, which is itself an attempt to keep them.",
+    "zh": "在鞭爆繁响的昏沉的夜里，灯火将尽，鲁迅靠在椅背上朦胧睡去，看见一篇由河中倒影织成的故事：乌桕、狗、塔、村女，随着每一打桨交织又散开。他伸手去取笔，故事已经没有了。它属于这里，因为它写的是每一座图书馆最古老的难题：看见的东西与能写下的东西之间的距离。留意他列出岸边事物的那一长串名词，那本身就是想把它们留住的努力。"
+  },
+  "pick": null,
+  "tags": [
+    "dream",
+    "river",
+    "reflection",
+    "writing",
+    "lamp"
+  ],
+  "excerpt": {
+    "orig": "我眞愛這一篇好的故事，趁碎影還在，我要追回他，完成他，留下他。",
+    "en": "I truly love this good story. While the fragments are still there, I want to bring it back, finish it, keep it.",
+    "zh": "我真爱这一篇好的故事，趁碎影还在，我要追回他，完成他，留下他。"
+  },
+  "plate": null
+}

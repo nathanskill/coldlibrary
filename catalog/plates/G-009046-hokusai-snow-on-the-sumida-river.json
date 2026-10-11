@@ -1,0 +1,60 @@
+{
+  "id": "G-009046",
+  "slug": "hokusai-snow-on-the-sumida-river",
+  "title": {
+    "orig": "雪月花 隅田",
+    "en": "Snow on the Sumida River",
+    "zh": "雪月花 隅田"
+  },
+  "artist": {
+    "orig": "葛飾北斎",
+    "en": "Katsushika Hokusai",
+    "zh": "葛饰北斋",
+    "dates": "1760–1849"
+  },
+  "year": 1833,
+  "year_display": {
+    "en": "c. 1833",
+    "zh": "约 1833 年"
+  },
+  "medium": {
+    "en": "Woodblock print; ink and colour on paper",
+    "zh": "木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/44981",
+    "accession": "JP2921",
+    "credit_line": "Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP141240.jpg",
+    "width": 1600,
+    "height": 1092,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1849. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1849 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Snow covers the banks and small islands of the Sumida River in Edo. A covered boat is poled across the blue water between them, a pavilion with a white roof stands on the right, and the pale sky deepens to blue at the top.",
+    "zh": "雪覆盖了江户隅田川的河岸和小洲。一只篷船在中间的蓝色水面上撑过，右边立着一座白顶的亭子，浅色的天空在上方渐渐转为深蓝。"
+  },
+  "note": {
+    "en": "The snow print from the same Snow, Moon and Flowers series as the Yodo moon on this wall. Hokusai lets the snow sit in thick, rounded masses on every bank and branch, almost like cotton, against a hard blue river. Put the two side by side and you can see one artist tuning the same palette for cold and for warmth.",
+    "zh": "与这面墙上的《淀川》同属《雪月花》，这是“雪”的一幅。北斋让雪厚厚地、圆圆地堆在每一处岸边和枝头，几乎像棉花，衬着坚硬的蓝色河水。把两幅并排看，能看出同一个画家怎样用同一套颜色调出冷和暖。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "river",
+    "boats"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "S-002028",
+  "slug": "liu-yuxi-inscription-for-a-humble-room",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "陋室銘",
+    "en": "Inscription for a Humble Room",
+    "zh": "陋室铭"
+  },
+  "author": {
+    "orig": "劉禹錫",
+    "en": "Liu Yuxi (attributed)",
+    "zh": "刘禹锡（传）",
+    "dates": "772–842"
+  },
+  "year": 825,
+  "year_display": {
+    "en": "c. 820s",
+    "zh": "约 9 世纪 20 年代"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/陋室銘",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty inscription; the attributed author died in 842, and any other candidate is also of the Tang.",
+      "zh": "唐代铭文，所传作者卒于 842 年，其他可能的作者亦为唐人。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "An inscription of eighty-one characters for a small room, traditionally attributed to Liu Yuxi, though some scholars doubt the attribution. It is one of the shortest texts on this shelf. Notice how it ends by borrowing a question of Confucius from the Analects, what humbleness would there be, and the Analects stands on these stacks too.",
+    "zh": "一篇八十一字的小屋铭文，传为刘禹锡所作，也有学者怀疑作者归属。它是这一架上最短的文字之一。留意结尾借用《论语》里孔子的话“何陋之有”，而《论语》也在这座书库里。"
+  },
+  "pick": null,
+  "tags": [
+    "room",
+    "simplicity",
+    "inscription"
+  ],
+  "excerpt": {
+    "orig": "山不在高，有仙則名。水不在深，有龍則靈。",
+    "en": "A mountain need not be high: if an immortal lives there, it is famous. Water need not be deep: if a dragon lives there, it is sacred.",
+    "zh": "山不在高，有仙则名。水不在深，有龙则灵。"
+  },
+  "plate": null
+}

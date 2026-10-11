@@ -1,0 +1,65 @@
+{
+  "id": "S-008019",
+  "slug": "horace-exegi-monumentum",
+  "shelf": "records",
+  "form": "verse",
+  "lang": "la",
+  "title": {
+    "orig": "Carmina III.30",
+    "en": "Odes III.30: A Monument More Lasting than Bronze",
+    "zh": "颂歌第三卷第三十首：比青铜更持久"
+  },
+  "author": {
+    "orig": "Quintus Horatius Flaccus",
+    "en": "Horace",
+    "zh": "贺拉斯",
+    "dates": "65–8 BCE"
+  },
+  "year": -23,
+  "year_display": {
+    "en": "23 BCE",
+    "zh": "公元前 23 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Latin text as given on Latin Wikisource",
+    "zh": "据拉丁文维基文库所录拉丁原文"
+  },
+  "source": {
+    "name": "Wikisource (la), Carmina (Horatius)/Liber III/Carmen XXX",
+    "url": "https://la.wikisource.org/wiki/Carmina_(Horatius)/Liber_III/Carmen_XXX",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 23 BCE; the poet died in 8 BCE.",
+      "zh": "公元前 23 年出版，诗人卒于公元前 8 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Horace closed his first three books of odes with this poem, a claim that the books themselves would outlast bronze and the pyramids. It has been quoted and imitated ever since, from Ovid to Pushkin, which proves its point in a way he could not have planned. Notice how particular the promise is: he expects to be remembered by the river Aufidus near his birthplace, and for a craftsman's achievement, bringing Greek metres into Latin.",
+    "zh": "贺拉斯用这首诗为他的前三卷颂歌作结，宣称这些诗卷本身会比青铜和金字塔更长久。此后从奥维德到普希金，它一再被引用和仿写，以一种他无法预先安排的方式证明了自己。留意这个承诺多么具体：他期待被记住的地方，是他出生地附近的奥菲杜斯河畔；他期待被记住的，是一项工匠式的成就——把希腊的格律带进拉丁语。"
+  },
+  "pick": null,
+  "tags": [
+    "poetry",
+    "monument",
+    "latin",
+    "fame"
+  ],
+  "excerpt": {
+    "orig": "Exegi monumentum aere perennius",
+    "en": "I have finished a monument more lasting than bronze",
+    "zh": "我已建成一座纪念碑，比青铜更持久"
+  },
+  "plate": null
+}

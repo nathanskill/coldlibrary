@@ -1,0 +1,60 @@
+{
+  "id": "G-009041",
+  "slug": "hammershoi-two-candles-on-a-table",
+  "title": {
+    "orig": "To lys på et bord",
+    "en": "Two Candles on a Table",
+    "zh": "桌上的两支蜡烛"
+  },
+  "artist": {
+    "orig": "Vilhelm Hammershøi",
+    "en": "Vilhelm Hammershøi",
+    "zh": "威廉·哈默修伊",
+    "dates": "1864–1916"
+  },
+  "year": 1901,
+  "year_display": {
+    "en": "c. 1901",
+    "zh": "约 1901 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "SMK – Statens Museum for Kunst (National Gallery of Denmark)",
+    "object_url": "https://open.smk.dk/artwork/image/KMS9203",
+    "accession": "KMS9203"
+  },
+  "image": {
+    "source_url": "https://iip-thumb.smk.dk/iiif/jp2/c534ft70g_kms9203.tif.jp2/full/!2000,2000/0/default.jpg",
+    "width": 1168,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1916. SMK marks this image as public domain (Public Domain Mark 1.0).",
+      "zh": "公有领域：作者卒于 1916 年。丹麦国家美术馆（SMK）将此图像标为公有领域（公有领域标记 1.0）。"
+    },
+    "license": "PDM-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "alt": {
+    "en": "A small, loosely painted study of two tall white candles, both lit, in plain metal candlesticks on a white tablecloth, against a dark brown background.",
+    "zh": "一幅笔触松快的小习作：两支点着的白色长蜡烛插在朴素的金属烛台上，立在白桌布上，背景是深褐色。"
+  },
+  "note": {
+    "en": "A quick study rather than a finished painting: two candles, a cloth and a dark wall in a few brown and grey strokes. Hammershøi spent his life on very few things, rooms, light and a handful of objects, and this is the shortest statement of them. Two lights on one table: very nearly the emblem of this library.",
+    "zh": "这是一幅速写式的习作，不是完成的画：两支蜡烛、一块桌布、一面暗墙，几笔褐与灰。哈默修伊一生只画很少的东西——房间、光、几件器物——这是其中最简短的一句。一张桌上两点光：几乎就是这座图书馆的标志。"
+  },
+  "pick": null,
+  "tags": [
+    "candle",
+    "lamp",
+    "still-life",
+    "night"
+  ]
+}

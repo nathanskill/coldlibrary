@@ -1,0 +1,64 @@
+{
+  "id": "S-001005",
+  "slug": "qu-yuan-ode-to-the-orange-tree",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "橘頌",
+    "en": "Ode to the Orange Tree",
+    "zh": "橘颂"
+  },
+  "author": {
+    "orig": "屈原",
+    "en": "Qu Yuan",
+    "zh": "屈原",
+    "dates": "c. 340–278 BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "c. 300 BCE",
+    "zh": "约公元前 300 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out and punctuation is added at the source's own phrase breaks.",
+    "zh": "据维基文库，删去其所注异文，标点依原文断句补加。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/橘頌",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Warring States poem from the Songs of Chu; the author is traditionally held to have died around 278 BCE.",
+      "zh": "战国时期《楚辞》作品，作者传统上认为约卒于公元前 278 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "One of the Nine Pieces of the Songs of Chu, traditionally attributed to Qu Yuan: a poem in praise of a tree that will not grow anywhere but where it was planted. The first half describes the orange; at 嗟爾幼志 the poem turns and speaks to it directly, as to a young person of firm purpose, and ends by taking it as a model. It is on this shelf because it is a poem about a will that stays.",
+    "zh": "《楚辞·九章》中的一篇，传为屈原所作：赞美一棵只肯生在原地的树。前半写橘，到“嗟尔幼志”一句转而直接对它说话，把它当作一位志向坚定的少年，最后以它为榜样。放在这里，是因为它写的是一种不肯迁移的意志。"
+  },
+  "pick": null,
+  "tags": [
+    "will",
+    "trees",
+    "integrity",
+    "youth"
+  ],
+  "excerpt": {
+    "orig": "受命不遷，生南國兮。",
+    "en": "Bound by its nature not to move, / it grows in the southern country.",
+    "zh": "受命不迁，生南国兮。"
+  },
+  "plate": null
+}

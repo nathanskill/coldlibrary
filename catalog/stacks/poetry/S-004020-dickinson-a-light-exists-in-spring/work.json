@@ -1,0 +1,63 @@
+{
+  "id": "S-004020",
+  "slug": "dickinson-a-light-exists-in-spring",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "A light exists in spring",
+    "en": "A light exists in spring",
+    "zh": "春天里有一种光"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1896,
+  "year_display": {
+    "en": "first published 1896",
+    "zh": "1896 年首次出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems, Third Series (1896), edited by Mabel Loomis Todd, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《诗集·第三辑》（1896），托德编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1896 in Poems, Third Series, after the author’s death in 1886; the editor, Mabel Loomis Todd, died in 1932.",
+      "zh": "1896 年首次出版于《诗集·第三辑》，作者已于 1886 年去世；编者梅布尔·卢米斯·托德卒于 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Dickinson describes a quality of early-spring light “that science cannot overtake”, and then the small loss when it passes. The last image, of trade encroaching on a sacrament, is startling and exact.",
+    "zh": "狄金森写早春的一种光，“科学追不上它”，然后写它离开时那一点小小的失落。最后一个意象——买卖侵入了圣礼——出人意料，又精确无比。"
+  },
+  "pick": null,
+  "tags": [
+    "light",
+    "spring",
+    "seasons"
+  ],
+  "excerpt": {
+    "orig": "A color stands abroad\nOn solitary hills\nThat science cannot overtake,\nBut human nature feels.",
+    "en": "A color stands abroad\nOn solitary hills\nThat science cannot overtake,\nBut human nature feels.",
+    "zh": "一种颜色便伫立在外，\n在孤寂的山丘上，\n科学追不上它，\n人的天性却能感到。"
+  },
+  "plate": null
+}

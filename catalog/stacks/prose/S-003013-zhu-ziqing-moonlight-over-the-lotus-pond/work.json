@@ -1,0 +1,65 @@
+{
+  "id": "S-003013",
+  "slug": "zhu-ziqing-moonlight-over-the-lotus-pond",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "荷塘月色",
+    "en": "Moonlight over the Lotus Pond",
+    "zh": "荷塘月色"
+  },
+  "author": {
+    "orig": "朱自清",
+    "en": "Zhu Ziqing",
+    "zh": "朱自清",
+    "dates": "1898–1948"
+  },
+  "year": 1927,
+  "year_display": {
+    "en": "1927",
+    "zh": "1927 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from the essay collection The Sight of My Father's Back (背影, 1928), with one doubled character corrected; written in July 1927 at Tsinghua and first published in The Short Story Magazine (小說月報) the same year.",
+    "zh": "据维基文库，录自散文集《背影》（1928），改正一处衍字；1927 年 7 月作于清华园，同年初刊于《小说月报》。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/荷塘月色",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1927; the author died in 1948. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1927 年首次发表，作者卒于 1948 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A restless man walks alone at night round the lotus pond at Tsinghua, and for an hour the moonlight frees him from everything he must do and say. It is here for its patient, exact description of light: moonlight like flowing water, leaves that seem washed in milk, light and shadow in harmony like a tune on a violin. Notice the admission in the middle, that the cicadas and frogs have their liveliness, and he has nothing.",
+    "zh": "一个心里颇不宁静的人，夜里独自绕着清华园的荷塘走，一个钟头里，月光让他摆脱了白天一定要做的事、一定要说的话。收在这里，是为了它对光的耐心而准确的描写：月光如流水一般，叶子和花仿佛在牛乳中洗过，光与影有着和谐的旋律，如梵婀玲上奏着的名曲。留意中间那句坦白：热闹是它们的，我什么也没有。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "night",
+    "lotus",
+    "solitude",
+    "light"
+  ],
+  "excerpt": {
+    "orig": "月光如流水一般，靜靜地瀉在這一片葉子和花上。",
+    "en": "The moonlight poured down like flowing water, quietly, onto the leaves and flowers.",
+    "zh": "月光如流水一般，静静地泻在这一片叶子和花上。"
+  },
+  "plate": null
+}

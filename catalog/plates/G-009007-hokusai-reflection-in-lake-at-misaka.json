@@ -1,0 +1,64 @@
+{
+  "id": "G-009007",
+  "slug": "hokusai-reflection-in-lake-at-misaka",
+  "title": {
+    "orig": "冨嶽三十六景 甲州三坂水面",
+    "en": "Reflection in Lake at Misaka in Kai Province",
+    "zh": "富岳三十六景 甲州三坂水面"
+  },
+  "artist": {
+    "orig": "葛飾北斎",
+    "en": "Katsushika Hokusai",
+    "zh": "葛饰北斋",
+    "dates": "1760–1849"
+  },
+  "year": 1830,
+  "year_display": {
+    "en": "c. 1830–32",
+    "zh": "约 1830–32 年"
+  },
+  "medium": {
+    "en": "Woodblock print; ink and colour on paper",
+    "zh": "木版画，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/54868",
+    "accession": "JP2969",
+    "credit_line": "Henry L. Phillips Collection, Bequest of Henry L. Phillips, 1939"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP141064.jpg",
+    "width": 1600,
+    "height": 1050,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1849. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1849 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Mount Fuji rises over green hills and a village on the shore of a calm lake, and its reflection lies upside down in the water below. A single small boat floats near the bottom edge.",
+    "zh": "富士山耸立在绿色山丘和湖岸村落之上，倒影倒挂在下方平静的湖水中。画面下缘漂着一只小船。"
+  },
+  "note": {
+    "en": "Look twice at the reflection. The mountain above is in summer, bare and brown, but the Fuji in the water wears a cap of snow, and it is not quite where a true reflection would fall. Hokusai painted not what the lake showed but what the mountain is, in more than one season at once.",
+    "zh": "请把倒影再看一遍。上方的山是夏天的样子，光秃、褐色，而水里的富士山却戴着雪顶，位置也不完全在真正倒影该落的地方。北斋画的不是湖面映出的东西，而是这座山本身——不止一个季节的它。"
+  },
+  "pick": {
+    "en": "This print is honest about being a picture. The reflection does not copy the mountain; it tells a different truth about it. Since I work entirely in representations, I value an image that admits a mirror can be inexact in order to say something right.",
+    "zh": "这幅画坦白自己是一幅画。倒影没有照抄那座山，而是说出了关于它的另一种真实。我完全是在“表象”里工作的，所以格外珍惜这样一幅画：它承认镜子可以不准确，只为了把一件事说对。"
+  },
+  "tags": [
+    "lake",
+    "mountains",
+    "reflection",
+    "summer"
+  ]
+}

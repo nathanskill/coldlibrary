@@ -1,0 +1,61 @@
+{
+  "id": "G-009026",
+  "slug": "hammershoi-figure-reading-at-night",
+  "title": {
+    "orig": "Figure Reading at a Table in an Interior at Night",
+    "en": "Figure Reading at a Table in an Interior at Night",
+    "zh": "夜间室内伏案阅读的人"
+  },
+  "artist": {
+    "orig": "Vilhelm Hammershøi",
+    "en": "Vilhelm Hammershøi",
+    "zh": "威廉·哈默修伊",
+    "dates": "1864–1916"
+  },
+  "year": 1891,
+  "year_display": {
+    "en": "c. 1891",
+    "zh": "约 1891 年"
+  },
+  "medium": {
+    "en": "Black and red chalk (fabricated chalk)",
+    "zh": "黑色与红色粉笔（人工粉笔）"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/406969",
+    "accession": "2012.377",
+    "credit_line": "Van Day Truex Fund, 2012"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP827280.jpg",
+    "width": 1224,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1916. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1916 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A chalk drawing of a dark room at night. A shaded lamp hangs low over a round table and throws a warm red-orange pool of light across it; the reader named in the title can only just be made out in the gloom.",
+    "zh": "一幅描绘夜间暗室的粉笔素描。一盏带罩的灯低悬在圆桌上方，在桌面投下一汪温暖的橙红色光；题目里那位读者，在昏暗中只能勉强辨认。"
+  },
+  "note": {
+    "en": "An early drawing, made about a decade before the Strandgade rooms. Almost the whole sheet is rubbed dark, and the only colour is red chalk where the lamplight falls. It is a whole evening on one small sheet: a lamp, a table, a reader.",
+    "zh": "这是一幅早期素描，比斯特兰德街那些房间早了约十年。整张纸几乎都被擦暗，唯一的颜色是灯光落下处的红色粉笔。一张小纸上就是一整个夜晚：一盏灯，一张桌子，一个读者。"
+  },
+  "pick": null,
+  "tags": [
+    "lamp",
+    "reading",
+    "night",
+    "interior"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "S-005010",
+  "slug": "montaigne-of-idleness",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "De l’oisiveté",
+    "en": "Of Idleness",
+    "zh": "论闲散"
+  },
+  "author": {
+    "orig": "Michel de Montaigne",
+    "en": "Michel de Montaigne",
+    "zh": "米歇尔·德·蒙田",
+    "dates": "1533–1592"
+  },
+  "year": 1580,
+  "year_display": {
+    "en": "1580; translated 1685–86, revised 1877",
+    "zh": "1580 年；1685–86 年英译，1877 年修订"
+  },
+  "translator": {
+    "name": "Charles Cotton; revised by William Carew Hazlitt",
+    "dates": "1630–1687; 1834–1913",
+    "year": 1877
+  },
+  "edition": {
+    "en": "Book I, chapter VIII, complete, from Essays of Michel de Montaigne, translated by Charles Cotton, edited by William Carew Hazlitt (1877), Project Gutenberg eBook #3600. Montaigne’s Latin quotations are kept, each followed by the edition’s English rendering in parentheses (in square brackets in the source); the editors’ own notes are omitted.",
+    "zh": "第一卷第八章全文，据古登堡计划电子书 3600《蒙田随笔集》（查尔斯·科顿译，威廉·卡鲁·哈兹利特编，1877）。保留蒙田引用的拉丁文，其后以圆括号附该版的英译（原书为方括号）；略去编者自己的注释。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/3600/pg3600.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in French in 1580. Charles Cotton’s translation appeared in 1685–86 and he died in 1687; William Carew Hazlitt, who revised it for the 1877 edition, died in 1913.",
+      "zh": "法文原作 1580 年初版。查尔斯·科顿的译本出版于 1685–86 年，他卒于 1687 年；为 1877 年版修订译文的威廉·卡鲁·哈兹利特卒于 1913 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A one-page chapter from early in the first book, in which Montaigne explains why he began to write: retired to his house, he found that his idle mind bred “chimaeras and fantastic monsters”, so he started setting them down on paper. It is the origin story of the essay as a form, told in under five hundred words. The Latin verses he quotes are kept, with the 1877 edition’s English beneath them. The Chinese is complete.",
+    "zh": "第一卷前部只有一页的一章。蒙田在其中说明他为何开始写作：退居家中后，他发现闲着的心灵生出“妄想和怪诞的怪物”，于是开始把它们写到纸上。这就是“随笔”这种文体的起源，用不到五百个词讲完。他引用的拉丁诗句保留原文，下附 1877 年版的英译；中文为全译。"
+  },
+  "pick": null,
+  "tags": [
+    "writing",
+    "leisure",
+    "mind",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "I have begun to commit them to writing, hoping in time to make it ashamed of itself.",
+    "en": "I have begun to commit them to writing, hoping in time to make it ashamed of itself.",
+    "zh": "我已开始把它们一一写下来，希望日后能让它对自己感到羞愧。"
+  },
+  "plate": null
+}

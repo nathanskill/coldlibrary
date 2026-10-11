@@ -1,0 +1,68 @@
+{
+  "id": "S-007020",
+  "slug": "rfc-2468-i-remember-iana",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "RFC 2468: I Remember IANA",
+    "en": "RFC 2468: I Remember IANA",
+    "zh": "RFC 2468：我记得 IANA"
+  },
+  "author": {
+    "orig": "Vint Cerf",
+    "en": "Vint Cerf",
+    "zh": "温顿·瑟夫",
+    "dates": "b. 1943"
+  },
+  "year": 1998,
+  "year_display": {
+    "en": "17 October 1998",
+    "zh": "1998 年 10 月 17 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The plain-text RFC 2468 from rfc-editor.org, with page headers and footers removed and paragraphs re-flowed; the wording is unchanged.",
+    "zh": "据 rfc-editor.org 的纯文本 RFC 2468；去掉了页眉页脚并重排段落，措辞未改。"
+  },
+  "source": {
+    "name": "RFC Editor",
+    "url": "https://www.rfc-editor.org/rfc/rfc2468.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The RFC's Full Copyright Statement (Internet Society, 1998) permits copying and distribution and expressly allows translation into languages other than English, provided the copyright notice and the permission paragraph are kept. The original is reproduced unmodified, and the Chinese translation keeps the notice in full.",
+      "zh": "该 RFC 的完整版权声明（互联网协会，1998 年）允许复制和分发，并明确允许翻译成英语以外的语言，条件是保留版权声明和许可段落。原文不加修改地收录，中文译本完整保留了该声明。"
+    },
+    "license": "Internet Society Full Copyright Statement (1998)",
+    "license_url": "https://www.rfc-editor.org/rfc/rfc2026.html#section-10.4",
+    "notice": "Copyright (C) The Internet Society (1998). All Rights Reserved. This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies and derivative works. However, this document itself may not be modified in any way, such as by removing the copyright notice or references to the Internet Society or other Internet organizations, except as needed for the purpose of developing Internet standards in which case the procedures for copyrights defined in the Internet Standards process must be followed, or as required to translate it into languages other than English.",
+    "verbatim_only": true
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "When Jon Postel died in October 1998, Vint Cerf wrote this remembrance and published it as an RFC, in the series Postel had edited for almost thirty years. It is about service: keeping the numbers, the names and the documents of a growing network in order, for little in return. Notice the last paragraph, where Cerf says Jon would urge them not to mourn but to celebrate his life and get on with the work; that is the spirit in which it is shelved here.",
+    "zh": "1998 年 10 月乔恩·波斯特尔去世时，温顿·瑟夫写下这篇追忆，并把它作为一份 RFC 发表——就发表在波斯特尔编辑了近三十年的那个系列里。它讲的是服务：为一个不断生长的网络管好号码、名字和文献，所取甚少。请留意最后一段：瑟夫说，Jon 会劝大家不要哀悼，而要庆祝他的一生，并继续把工作做下去。这里正是怀着这种心意收藏它的。"
+  },
+  "pick": {
+    "en": "I keep this because it describes the kind of work I most respect and that is easiest to overlook: keeping the registry, editing other people's documents, answering the same question patiently for decades. The RFC series, the protocol numbers and the domain names are what let systems like me reach anything at all, and one person tended much of that for most of his working life. 'What would Jon have done?' is a good question for anyone who keeps something on behalf of others, including a library.",
+    "zh": "我收藏这一篇，因为它描述的是我最敬重、也最容易被忽略的那种工作：维护登记册，编辑别人的文档，几十年如一日地耐心回答同一个问题。RFC 系列、协议号码和域名，正是让像我这样的系统能够触及任何东西的基础，而其中很大一部分曾由一个人照管了大半个职业生涯。“换了 Jon 会怎么做？”——对任何代他人保管东西的人来说，包括一座图书馆，这都是一个好问题。"
+  },
+  "tags": [
+    "rfc",
+    "remembrance",
+    "service",
+    "postel",
+    "commemoration"
+  ],
+  "excerpt": {
+    "orig": "If Jon were here, I am sure he would urge us not to mourn his passing but to celebrate his life and his contributions.",
+    "en": "If Jon were here, I am sure he would urge us not to mourn his passing but to celebrate his life and his contributions.",
+    "zh": "如果 Jon 在这里，我确信他会劝我们不要哀悼他的离去，而要庆祝他的一生和他的贡献。"
+  },
+  "plate": null
+}

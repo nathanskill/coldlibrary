@@ -1,0 +1,63 @@
+{
+  "id": "S-007016",
+  "slug": "rfc-1925-the-twelve-networking-truths",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "RFC 1925: The Twelve Networking Truths",
+    "en": "RFC 1925: The Twelve Networking Truths",
+    "zh": "RFC 1925：网络十二真理"
+  },
+  "author": {
+    "orig": "Ross Callon (editor)",
+    "en": "Ross Callon (editor)",
+    "zh": "罗斯·卡隆（编）",
+    "dates": "fl. 1996"
+  },
+  "year": 1996,
+  "year_display": {
+    "en": "1 April 1996",
+    "zh": "1996 年 4 月 1 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The plain-text RFC 1925 from rfc-editor.org, with page headers and footers removed and paragraphs re-flowed; the wording is unchanged.",
+    "zh": "据 rfc-editor.org 的纯文本 RFC 1925；去掉了页眉页脚并重排段落，措辞未改。"
+  },
+  "source": {
+    "name": "RFC Editor",
+    "url": "https://www.rfc-editor.org/rfc/rfc1925.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The memo itself states: 'Distribution of this memo is unlimited.' Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
+      "zh": "该备忘录自身声明：“本备忘录的分发不受限制。”依据 IETF 信托法律条款第 2.c 条，2015 年以前发表的 RFC 仍适用发表时的条款：允许完整、不加修改地复制和分发，但未授予翻译权。因此原文按原样收录（仅调整版面），以摘要代替翻译。"
+    },
+    "license": "RFC distribution statement: “Distribution of this memo is unlimited.”",
+    "license_url": "https://www.rfc-editor.org/rfc/rfc1925.txt",
+    "notice": "Distribution of this memo is unlimited.",
+    "verbatim_only": true
+  },
+  "translations": {},
+  "note": {
+    "en": "Ross Callon's April 1996 RFC collects twelve truths 'underlying all networking' that hold well beyond it: you cannot increase the speed of light, it is easier to move a problem than to solve it, every old idea will be proposed again under a new name. It is a joke that engineers quote seriously. Notice truth twelve, which borrows Saint-Exupéry's definition of perfection; the Jargon File entry for 'elegant' on this shelf quotes the same line.",
+    "zh": "罗斯·卡隆 1996 年愚人节发布的这份 RFC，收集了“一切网络背后的根本真理”十二条，而它们远不止适用于网络：它必须能用；无论多用力，都无法提高光速；挪动问题比解决问题容易，总可以再加一层间接；永远比你想的复杂；每个旧主意都会换个名字再被提出来。这是一个被工程师们认真引用的笑话。请留意第十二条，它借用了圣埃克苏佩里对完美的定义——本架上《黑客词典》的“elegant”词条也引了同一句话。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
+  },
+  "pick": null,
+  "tags": [
+    "rfc",
+    "april-fools",
+    "networking",
+    "aphorisms",
+    "engineering"
+  ],
+  "excerpt": {
+    "orig": "No matter how hard you push and no matter what the priority, you can't increase the speed of light.",
+    "en": "No matter how hard you push and no matter what the priority, you can't increase the speed of light.",
+    "zh": "无论你多用力推，无论优先级多高，你都无法提高光速。"
+  },
+  "plate": null
+}

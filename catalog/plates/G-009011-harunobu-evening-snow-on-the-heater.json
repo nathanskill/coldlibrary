@@ -1,0 +1,61 @@
+{
+  "id": "G-009011",
+  "slug": "harunobu-evening-snow-on-the-heater",
+  "title": {
+    "orig": "座敷八景 塗桶暮雪",
+    "en": "Evening Snow on the Heater",
+    "zh": "座敷八景 涂桶暮雪"
+  },
+  "artist": {
+    "orig": "鈴木春信",
+    "en": "Suzuki Harunobu",
+    "zh": "铃木春信",
+    "dates": "1725–1770"
+  },
+  "year": 1766,
+  "year_display": {
+    "en": "series c. 1766; this impression late 18th century",
+    "zh": "组画约作于 1766 年；此为 18 世纪后期印本"
+  },
+  "medium": {
+    "en": "Woodblock print with blind embossing (karazuri); ink and colour on paper",
+    "zh": "木版画，无墨压印，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/56879",
+    "accession": "JP2449",
+    "credit_line": "The Howard Mansfield Collection, Purchase, Rogers Fund, 1936"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP121348.jpg",
+    "width": 1170,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1770. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1770 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Two young women in a quiet room with a lattice window and patterned paper walls. One sits smoking a long pipe; the other kneels to stretch silk floss over a lacquered dome-shaped form, and more white floss lies on the matting, printed without ink and embossed so that it rises from the paper like small drifts of snow.",
+    "zh": "两位年轻女子在一间安静的屋里，有格子窗和印花的纸墙。一人坐着抽长烟管；另一人跪着，把丝绵绷在一只漆过的圆顶木模上，席上还放着几团白色丝绵。它们不着墨，只用压印，从纸面鼓起，像一小堆一小堆的雪。"
+  },
+  "note": {
+    "en": "From Harunobu's Eight Parlor Views (c. 1766), which moves the classical Eight Views of the Xiao and Xiang rivers indoors. The Met catalogues it as Evening Snow on the Heater, but the white domes are silk floss stretched over lacquered drying forms (nurioke), and that floss is the evening snow of the title. It is the paper itself, pressed into relief without ink: imagine light raking across the real sheet, and the white becomes a texture, not a colour.",
+    "zh": "出自春信约 1766 年的《座敷八景》，这组画把古典的“潇湘八景”搬进了室内。大都会博物馆把它编目为“暖炉暮雪”，但那些白色圆顶其实是绷在漆木模（塗桶）上晾干的丝绵，题目里的“暮雪”就是它们。那是纸本身，不着墨，只压成浮雕：想象光斜着掠过那张真实的纸，那片白就成了质感，而不是颜色。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "interior",
+    "room",
+    "quiet"
+  ]
+}

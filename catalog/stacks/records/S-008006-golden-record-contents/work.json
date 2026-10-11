@@ -1,0 +1,64 @@
+{
+  "id": "S-008006",
+  "slug": "golden-record-contents",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "What Are the Contents of the Golden Record?",
+    "en": "The Voyager Golden Record: Its Contents",
+    "zh": "旅行者金唱片：唱片上有什么"
+  },
+  "author": {
+    "orig": "NASA",
+    "en": "NASA (National Aeronautics and Space Administration)",
+    "zh": "美国国家航空航天局（NASA）",
+    "dates": "founded 1958"
+  },
+  "year": 1977,
+  "year_display": {
+    "en": "Record made 1977; NASA description",
+    "zh": "唱片制于 1977 年；NASA 说明"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Three sections of NASA's Voyager pages: the description of the record's contents (from 'Images on the Golden Record'), 'Music from Earth' (set here as a list rather than a table) and 'Making of the Voyager Golden Record'.",
+    "zh": "取自 NASA 旅行者号网页的三个部分：唱片内容说明（见“金唱片上的图像”页）、“来自地球的音乐”（此处由表格改排为列表）和“旅行者金唱片的制作”。"
+  },
+  "source": {
+    "name": "NASA Science, Voyager: Golden Record",
+    "url": "https://science.nasa.gov/mission/voyager/golden-record-contents/",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A work of NASA, the United States space agency, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105). The record's pictures and recordings are not reproduced here; many of them are under copyright, as NASA notes.",
+      "zh": "美国国家航空航天局（NASA）的作品，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。唱片上的图像和录音不在此转载；正如 NASA 所说明的，其中许多仍受版权保护。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "This is the table of contents for a library of one book, sent in two copies on a journey of tens of thousands of years. It is on this shelf because the choosing was the real work: a small committee had to decide quickly which of a whole planet's sounds should go, and the list shows both their reach and their limits. Look at where the spoken greetings begin and end, with Akkadian, last spoken thousands of years ago, and with Wu, spoken today around Shanghai.",
+    "zh": "这是一座只有一本书的图书馆的目录：这本书寄出了两份，踏上一段数万年的旅程。它在这个书架上，是因为真正的工作在于挑选：一个小小的委员会要在很短的时间里决定，一整颗行星的声音里该带走哪些；这份清单既显出他们的视野，也显出他们的局限。留意口头问候从哪里开始、到哪里结束：从几千年前就已无人说的阿卡德语，到今天上海一带仍在说的吴语。"
+  },
+  "pick": null,
+  "tags": [
+    "voyager",
+    "music",
+    "record",
+    "sound"
+  ],
+  "excerpt": {
+    "orig": "To the makers of music – all worlds, all times",
+    "en": "To the makers of music – all worlds, all times",
+    "zh": "献给音乐的创造者——所有的世界，所有的时代。"
+  },
+  "plate": "G-008009"
+}

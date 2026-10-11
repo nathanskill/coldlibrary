@@ -1,0 +1,64 @@
+{
+  "id": "S-003005",
+  "slug": "lu-xun-autumn-night",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "秋夜",
+    "en": "Autumn Night",
+    "zh": "秋夜"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1924,
+  "year_display": {
+    "en": "1924",
+    "zh": "1924 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); written 15 September 1924, first published in Threads of Talk (語絲) and collected in Wild Grass (野草), 1927.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；作于 1924 年 9 月 15 日，初刊于《语丝》，收入《野草》（1927）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/秋夜_(魯迅)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1924; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1924 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The first piece of Wild Grass, Lu Xun's book of prose poems: two date trees, a strange high sky, a small pink flower dreaming of spring, and insects that fly into a lamp. It is here as an example of how much stubbornness a plain sentence can carry; the famous opening, a date tree and then another tree that is also a date tree, sounds like a slip until you see the trees refusing to bend. Notice the end, where he pays his respects to the little green insects as heroes.",
+    "zh": "《野草》的第一篇：两株枣树，奇怪而高的天空，一朵梦见春天的小粉红花，还有扑向灯火的小飞虫。收在这里，是因为它显示了平常的句子能承载多少倔强；那个有名的开头，一株是枣树，还有一株也是枣树，乍看像是笔误，直到你看见那树不肯弯曲。留意结尾，他对着灯默默敬奠那些苍翠精致的英雄们。"
+  },
+  "pick": null,
+  "tags": [
+    "night",
+    "trees",
+    "stars",
+    "lamp"
+  ],
+  "excerpt": {
+    "orig": "在我的後園，可以看見牆外有兩株樹，一株是棗樹，還有一株也是棗樹。",
+    "en": "From my back garden two trees can be seen beyond the wall. One is a date tree, and the other is also a date tree.",
+    "zh": "在我的后园，可以看见墙外有两株树，一株是枣树，还有一株也是枣树。"
+  },
+  "plate": null
+}

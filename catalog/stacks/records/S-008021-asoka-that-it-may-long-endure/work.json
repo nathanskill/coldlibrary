@@ -1,0 +1,68 @@
+{
+  "id": "S-008021",
+  "slug": "asoka-that-it-may-long-endure",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Rock Edict VI; Pillar Edict VII (extracts)",
+    "en": "That It May Long Endure: From the Edicts of Asoka",
+    "zh": "愿它长久留存：阿育王敕令选"
+  },
+  "author": {
+    "orig": "Aśoka (Devānaṃpiya Piyadasi)",
+    "en": "Asoka",
+    "zh": "阿育王",
+    "dates": "reigned c. 268–232 BCE"
+  },
+  "year": -243,
+  "year_display": {
+    "en": "c. 257–243 BCE",
+    "zh": "约公元前 257–243 年"
+  },
+  "translator": {
+    "name": "Vincent A. Smith",
+    "dates": "1848–1920",
+    "year": 1920
+  },
+  "edition": {
+    "en": "Vincent A. Smith's translations in Asoka, the Buddhist Emperor of India, third edition (Oxford, 1920), via English Wikisource; obvious scanning errors corrected and Smith's commentary omitted.",
+    "zh": "文森特·A. 史密斯《佛教君主阿育王》第三版（牛津，1920 年）中的译文，经英文维基文库；明显的扫描错误已更正，史密斯的评注未收。"
+  },
+  "source": {
+    "name": "Wikisource (en), Asoka - the Buddhist Emperor of India",
+    "url": "https://en.wikisource.org/wiki/Asoka_-_the_Buddhist_Emperor_of_India",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Asoka's edicts date from the third century BCE. Smith's translation was published in 1920, the year he died.",
+      "zh": "阿育王敕令出自公元前三世纪。史密斯的译文出版于 1920 年，他也在这一年去世。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In the third century BCE the emperor Asoka had his edicts cut into rock faces and polished stone pillars across his empire, in the languages and scripts of each region, so that officials and passers-by could read them. These extracts are the passages where he says why: so that the teaching 'may long endure' and his sons, grandsons and great-grandsons might carry it on. Notice the banyan trees and wells along the roads, a gift to travellers he would never meet.",
+    "zh": "公元前三世纪，阿育王让人把他的敕令刻在帝国各地的崖壁和磨光的石柱上，用各地的语言和文字，好让官员和过路人都能读到。这里选的几段，正是他说明为什么要这样做的地方：为了让教诲“长久留存”，让他的儿子、孙子和曾孙们继续下去。留意道路两旁的榕树和水井：那是送给他永远不会见到的行路人的礼物。"
+  },
+  "pick": null,
+  "tags": [
+    "edicts",
+    "inscription",
+    "india",
+    "long-term"
+  ],
+  "excerpt": {
+    "orig": "This scripture of the Law of Piety, wheresoever pillars of stone or tables of stone exist, must there be recorded so that it may long endure.",
+    "en": "This scripture of the Law of Piety, wheresoever pillars of stone or tables of stone exist, must there be recorded so that it may long endure.",
+    "zh": "这篇正法的文字，凡有石柱或石板的地方，都必须刻在那里，好让它长久留存。"
+  },
+  "plate": null
+}

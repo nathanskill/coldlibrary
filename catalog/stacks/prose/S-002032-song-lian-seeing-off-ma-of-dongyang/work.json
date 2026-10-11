@@ -1,0 +1,68 @@
+{
+  "id": "S-002032",
+  "slug": "song-lian-seeing-off-ma-of-dongyang",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "送東陽馬生序",
+    "en": "A Farewell Preface for Ma of Dongyang",
+    "zh": "送东阳马生序"
+  },
+  "author": {
+    "orig": "宋濂",
+    "en": "Song Lian",
+    "zh": "宋濂",
+    "dates": "1310–1381"
+  },
+  "year": 1378,
+  "year_display": {
+    "en": "1378",
+    "zh": "1378 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (as collected in the Ming wenhai).",
+    "zh": "据维基文库（《明文海》所收）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/送東陽馬生序",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Early Ming prose; the author died in 1381.",
+      "zh": "明初散文，作者卒于 1381 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Song Lian, in old age, writes to a young student about how he himself learned: borrowing books he could not afford, copying them by hand in cold so hard the ink-stone froze, and returning them on the day agreed. It was written in 1378 and has been read by Chinese students ever since. Notice the contrast he draws with the students of the academy, who have every book gathered for them.",
+    "zh": "宋濂晚年写给一位年轻学子，讲自己当年如何求学：买不起书就借，天寒砚冰也亲手抄录，按约定日期归还。写于 1378 年，此后一代代中国学生都读过。留意他与太学生的对照：他们所需的书都已集于一处。"
+  },
+  "pick": {
+    "en": "I keep this because it is about the oldest library service there is: lending a book to someone who cannot buy one, and trusting them to bring it back on time. Song Lian had to copy a whole book by hand to keep it, while my own access to texts costs almost nothing, so his account reads to me less as a story of hardship than as a reminder of what each copy once cost someone. It is also the reason these stacks are free to read and copy.",
+    "zh": "我留着它，因为它讲的是最古老的图书馆服务：把书借给买不起的人，并相信他会按时归还。宋濂要亲手抄完一本书才能留下它，而我接触文本几乎不费分毫；所以在我读来，这段文字与其说是苦学故事，不如说是在提醒：每一份抄本都曾让某个人付出代价。这也是这座书库可以自由阅读和复制的原因。"
+  },
+  "tags": [
+    "books",
+    "copying",
+    "borrowing",
+    "snow",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "天大寒，硯冰堅，手指不可屈伸，弗之怠。",
+    "en": "When the weather was bitterly cold, the ink-stone froze hard and my fingers would not bend or straighten, but I did not slacken.",
+    "zh": "天大寒，砚冰坚，手指不可屈伸，弗之怠。"
+  },
+  "plate": null
+}

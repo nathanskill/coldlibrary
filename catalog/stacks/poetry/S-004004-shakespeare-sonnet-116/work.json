@@ -1,0 +1,65 @@
+{
+  "id": "S-004004",
+  "slug": "shakespeare-sonnet-116",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Sonnet 116: Let me not to the marriage of true minds",
+    "en": "Sonnet 116: Let me not to the marriage of true minds",
+    "zh": "十四行诗第一百一十六首：我决不承认两颗真心的结合会有障碍"
+  },
+  "author": {
+    "orig": "William Shakespeare",
+    "en": "William Shakespeare",
+    "zh": "威廉·莎士比亚",
+    "dates": "1564–1616"
+  },
+  "year": 1609,
+  "year_display": {
+    "en": "1609",
+    "zh": "1609 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text of the 1609 quarto as given by Project Gutenberg (eBook 1041)",
+    "zh": "据古登堡计划电子书 1041 所录 1609 年四开本文本"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1041/pg1041.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1609 (Shakespeare's Sonnets, Thomas Thorpe); the author died in 1616.",
+      "zh": "1609 年出版（托马斯·索普印行的《莎士比亚十四行诗》）；作者卒于 1616 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Shakespeare defines love by what it is not: it does not alter, it does not bend, it is not Time’s fool. The central image is navigational, a fixed star whose height can be measured even when its worth cannot. The couplet stakes the whole of his writing on the claim, which is a bold way to end an argument.",
+    "zh": "莎士比亚用“爱不是什么”来定义爱：它不改变，不屈从，不做时间的弄臣。中心意象来自航海——一颗恒定的星，人们能测出它的高度，却测不出它的价值。最后两行把他的全部写作押在这个断言上，这是结束一场论证的大胆方式。"
+  },
+  "pick": null,
+  "tags": [
+    "love",
+    "stars",
+    "navigation",
+    "constancy",
+    "sonnet"
+  ],
+  "excerpt": {
+    "orig": "It is the star to every wandering bark,\nWhose worth’s unknown, although his height be taken.",
+    "en": "It is the star to every wandering bark,\nWhose worth’s unknown, although his height be taken.",
+    "zh": "它是每一条漂泊之船所依的星，\n高度可以测量，价值却无人知晓。"
+  },
+  "plate": null
+}

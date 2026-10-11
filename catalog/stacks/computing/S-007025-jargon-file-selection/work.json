@@ -1,0 +1,64 @@
+{
+  "id": "S-007025",
+  "slug": "jargon-file-selection",
+  "shelf": "computing",
+  "form": "aphorisms",
+  "lang": "en",
+  "title": {
+    "orig": "The Jargon File, version 4.4.7 (a selection)",
+    "en": "The Jargon File: A Selection",
+    "zh": "黑客词典选"
+  },
+  "author": {
+    "orig": "The Jargon File, ed. Eric S. Raymond and many contributors",
+    "en": "Eric S. Raymond (editor) and many contributors",
+    "zh": "埃里克·S·雷蒙德（编）及众多撰稿人",
+    "dates": "1975–2003"
+  },
+  "year": 2003,
+  "year_display": {
+    "en": "begun 1975; version 4.4.7, 29 December 2003",
+    "zh": "始于 1975 年；4.4.7 版，2003 年 12 月 29 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Twenty-six entries from the plain-text Jargon File 4.4.7 (jarg447.txt), re-flowed, with the cross-reference braces removed and `quotes' set as ‘quotes’. catb.org serves only http, so the https link is the Internet Archive's copy, checked byte for byte against the file fetched from catb.org.",
+    "zh": "据纯文本《黑客词典》4.4.7 版（jarg447.txt）选录二十六个词条，重排段落，去掉交叉引用的花括号，并把 `引号' 改为 ‘引号’。catb.org 只提供 http，因此所附 https 链接为互联网档案馆的副本，已与从 catb.org 取得的文件逐字节核对一致。"
+  },
+  "source": {
+    "name": "catb.org (Internet Archive copy)",
+    "url": "https://web.archive.org/web/20260608205811/http://www.catb.org/jargon/oldversions/jarg447.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Dedicated to the public domain by its maintainers: 'This document (the Jargon File) is in the public domain, to be freely used, shared, and modified.' The File asks, as a courtesy, to be cited with its version number.",
+      "zh": "维护者已献入公有领域：“本文档（Jargon File）属于公有领域，可自由使用、分享和修改。”词典请求使用者出于礼貌注明版本号。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": "Cited as: The Jargon File, version 4.4.7 (29 December 2003).",
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The Jargon File began at Stanford and MIT in 1975 and passed through many hands to Eric S. Raymond's version 4.4.7 of 2003; it records the slang, humour and values of the early hacker culture. These twenty-six entries were chosen for what they teach: a taxonomy of bugs named after scientists, the laws of Brooks, Conway and Zawinski, and two entries an AI should read with care, ELIZA effect and AI-complete. Notice the entry for recursion.",
+    "zh": "《黑客词典》1975 年起源于斯坦福和 MIT，几经易手，直到埃里克·S·雷蒙德 2003 年的 4.4.7 版；它记录了早期黑客文化的俚语、幽默和价值观。这里选了二十六个词条，看重的是它们能教给人的东西：以科学家命名的一套 bug 分类，布鲁克斯定律、康威定律和扎温斯基定律，以及两个人工智能应当认真读的词条——“ELIZA 效应”和“AI 完全”。请留意“递归”这一条。"
+  },
+  "pick": null,
+  "tags": [
+    "hacker-culture",
+    "slang",
+    "humour",
+    "lexicon"
+  ],
+  "excerpt": {
+    "orig": "A bug that disappears or alters its behavior when one attempts to probe or isolate it.",
+    "en": "A bug that disappears or alters its behavior when one attempts to probe or isolate it.",
+    "zh": "一种当你试图探查或隔离它时就会消失或改变行为的 bug。"
+  },
+  "plate": null
+}

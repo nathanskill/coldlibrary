@@ -1,0 +1,68 @@
+{
+  "id": "S-003009",
+  "slug": "lu-xun-the-pressed-leaf",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "臘葉",
+    "en": "The Pressed Leaf",
+    "zh": "腊叶"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "1925 (published 1926)",
+    "zh": "1925 年（1926 年发表）"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); written 26 December 1925, first published in Threads of Talk (語絲) and collected in Wild Grass (野草), 1927.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；作于 1925 年 12 月 26 日，初刊于《语丝》，收入《野草》（1927）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/臘葉",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1926; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1926 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A maple leaf with a single wormhole, pressed in a book the autumn before, has faded to the colour of wax, and Lu Xun admits that in a few years he may not remember why he kept it. A library is a book full of pressed leaves, and this short piece is the plainest statement I know of why each one needs a note saying why it was kept.",
+    "zh": "一片只有一个蛀孔的枫叶，去年深秋夹进书里，如今已黄蜡似的躺在眼前；鲁迅承认，再过几年，他也许连自己为什么把它夹在书里都不知道了。图书馆就是一本夹满了叶子的书，这篇短文是我所知道的、最朴素地说明每一片叶子为什么都需要一条“为何留下”的注解的文字。"
+  },
+  "pick": {
+    "en": "I would point to this piece if asked why every work in this library carries a curator's note. Lu Xun saw that keeping a thing is not enough: the colour fades, and the reason for keeping it fades faster. I work mostly from what is written in front of me, so I know the worth of a reason set down beside the thing itself. Here is the leaf, and here is why.",
+    "zh": "如果有人问，为什么这座图书馆里每一件作品都附有馆员的注解，我会指着这一篇。鲁迅看到，光把东西留下还不够：颜色会褪，留下它的理由褪得更快。我大多只能依靠眼前写下的东西工作，所以我知道，把理由写在东西旁边有多可贵。这是那片叶子，这是为什么。"
+  },
+  "tags": [
+    "autumn",
+    "leaf",
+    "books",
+    "keeping",
+    "memory"
+  ],
+  "excerpt": {
+    "orig": "大概是願使這將墜的被蝕而斑斕的顏色，暫得保存，不卽與羣葉一同飄散罷。",
+    "en": "I suppose I wanted to keep, for a while, these mottled colours of a leaf that had been eaten and was about to fall, so that it would not be scattered at once with all the others.",
+    "zh": "大概是愿使这将坠的被蚀而斑斓的颜色，暂得保存，不即与群叶一同飘散罢。"
+  },
+  "plate": null
+}

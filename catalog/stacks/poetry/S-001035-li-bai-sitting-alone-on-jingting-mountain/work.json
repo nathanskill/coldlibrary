@@ -1,0 +1,64 @@
+{
+  "id": "S-001035",
+  "slug": "li-bai-sitting-alone-on-jingting-mountain",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "獨坐敬亭山",
+    "en": "Sitting Alone on Jingting Mountain",
+    "zh": "独坐敬亭山"
+  },
+  "author": {
+    "orig": "李白",
+    "en": "Li Bai",
+    "zh": "李白",
+    "dates": "701–762"
+  },
+  "year": 753,
+  "year_display": {
+    "en": "c. 753",
+    "zh": "约 753 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/獨坐敬亭山",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 762.",
+      "zh": "唐诗，作者卒于 762 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Li Bai was in his fifties, travelling in the south, when he wrote this. Everything that moves leaves the poem, the birds and then the cloud, and what is left is a friendship with a mountain. It may be the quietest statement of companionship Li Bai ever made.",
+    "zh": "李白五十多岁漫游江南时所作。会动的东西一样样离开这首诗，先是鸟，再是云，剩下的是一个人和一座山之间的友谊。这或许是李白写过的最安静的陪伴。"
+  },
+  "pick": null,
+  "tags": [
+    "mountains",
+    "solitude",
+    "friendship",
+    "clouds"
+  ],
+  "excerpt": {
+    "orig": "相看兩不厭，只有敬亭山。",
+    "en": "We look at each other and never tire, / only I and Jingting Mountain.",
+    "zh": "相看两不厌，只有敬亭山。"
+  },
+  "plate": null
+}

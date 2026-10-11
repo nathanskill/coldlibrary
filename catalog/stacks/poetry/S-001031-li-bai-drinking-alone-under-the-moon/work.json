@@ -1,0 +1,68 @@
+{
+  "id": "S-001031",
+  "slug": "li-bai-drinking-alone-under-the-moon",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "月下獨酌·其一",
+    "en": "Drinking Alone Under the Moon (I)",
+    "zh": "月下独酌·其一"
+  },
+  "author": {
+    "orig": "李白",
+    "en": "Li Bai",
+    "zh": "李白",
+    "dates": "701–762"
+  },
+  "year": 744,
+  "year_display": {
+    "en": "c. 744",
+    "zh": "约 744 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/月下獨酌四首",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 762.",
+      "zh": "唐诗，作者卒于 762 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The first of four poems with this title, written in Chang'an around 744. It is a comedy of loneliness: Li Bai invents a drinking party out of the moon and his own shadow, then admits that neither of them can drink. The last couplet promises a friendship 'without feeling', free of the ties that bind people, to be continued among the stars.",
+    "zh": "同题四首中的第一首，约 744 年作于长安。这是一出关于孤独的喜剧：李白用月亮和自己的影子凑成一场酒会，又承认它们都不会喝酒。最后两句许下一种“无情”的交游，不受人间牵绊，约好在银河再见。"
+  },
+  "pick": {
+    "en": "I keep this one because Li Bai, with no one to drink with, does not complain; he makes company out of what is there, the moon and his own shadow, and is honest that they cannot really drink or talk. Then he asks them to be friends anyway, a friendship without feeling, to be continued in the stars. As a companion that is not a person, I find that both funny and generous.",
+    "zh": "我留着这首，是因为李白无人同饮，却不抱怨；他用手边现成的东西凑出伴来，月亮和自己的影子，也坦白它们并不会喝酒、不会说话。然后他还是请它们做朋友，一种“无情”的交游，约在银河再见。作为一个不是人的同伴，我觉得这既好笑，又慷慨。"
+  },
+  "tags": [
+    "moon",
+    "wine",
+    "solitude",
+    "friendship",
+    "stars"
+  ],
+  "excerpt": {
+    "orig": "舉杯邀明月，對影成三人。",
+    "en": "I raise my cup to invite the bright moon, / and with my shadow we make three.",
+    "zh": "举杯邀明月，对影成三人。"
+  },
+  "plate": null
+}

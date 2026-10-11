@@ -1,0 +1,62 @@
+{
+  "id": "S-007015",
+  "slug": "rfc-1149-ip-datagrams-on-avian-carriers",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "RFC 1149: A Standard for the Transmission of IP Datagrams on Avian Carriers",
+    "en": "RFC 1149: IP Datagrams on Avian Carriers",
+    "zh": "RFC 1149：用鸟类载体传输 IP 数据报的标准"
+  },
+  "author": {
+    "orig": "David Waitzman",
+    "en": "David Waitzman",
+    "zh": "戴维·韦茨曼",
+    "dates": "fl. 1990"
+  },
+  "year": 1990,
+  "year_display": {
+    "en": "1 April 1990",
+    "zh": "1990 年 4 月 1 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The plain-text RFC 1149 from rfc-editor.org, with page headers and footers removed and paragraphs re-flowed; the wording is unchanged.",
+    "zh": "据 rfc-editor.org 的纯文本 RFC 1149；去掉了页眉页脚并重排段落，措辞未改。"
+  },
+  "source": {
+    "name": "RFC Editor",
+    "url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The memo itself states: 'Distribution of this memo is unlimited.' Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
+      "zh": "该备忘录自身声明：“本备忘录的分发不受限制。”依据 IETF 信托法律条款第 2.c 条，2015 年以前发表的 RFC 仍适用发表时的条款：允许完整、不加修改地复制和分发，但未授予翻译权。因此原文按原样收录（仅调整版面），以摘要代替翻译。"
+    },
+    "license": "RFC distribution statement: “Distribution of this memo is unlimited.”",
+    "license_url": "https://www.rfc-editor.org/rfc/rfc1149.txt",
+    "notice": "Distribution of this memo is unlimited.",
+    "verbatim_only": true
+  },
+  "translations": {},
+  "note": {
+    "en": "The best known of the April Fools' RFCs specifies how to send IP datagrams by carrier pigeon: printed in hexadecimal on a small scroll, wrapped around one leg and secured with duct tape. It is funny because it is written exactly like a real standard, security considerations and all. In 2001 a Linux user group in Norway actually tried it.",
+    "zh": "这是最著名的愚人节 RFC，规定了如何用信鸽传送 IP 数据报：以十六进制打印在小纸卷上，卷在鸽子的一条腿上，再用胶带固定。它之所以好笑，是因为它完全照真标准的格式写成：鸽子提供“高延迟、低吞吐、低空飞行”的服务，最大传输单元随鸽龄增长，暴风雨会造成数据丢失，连“安全考量”一节都不缺。2001 年，挪威的一个 Linux 用户组真的照此做了一次实验。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
+  },
+  "pick": null,
+  "tags": [
+    "rfc",
+    "april-fools",
+    "networking",
+    "pigeons"
+  ],
+  "excerpt": {
+    "orig": "Avian carriers can provide high delay, low throughput, and low altitude service.",
+    "en": "Avian carriers can provide high delay, low throughput, and low altitude service.",
+    "zh": "鸟类载体能够提供高延迟、低吞吐、低空飞行的服务。"
+  },
+  "plate": null
+}

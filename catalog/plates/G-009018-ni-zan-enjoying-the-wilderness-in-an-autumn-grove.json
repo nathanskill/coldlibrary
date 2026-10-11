@@ -1,0 +1,61 @@
+{
+  "id": "G-009018",
+  "slug": "ni-zan-enjoying-the-wilderness-in-an-autumn-grove",
+  "title": {
+    "orig": "秋林野興圖",
+    "en": "Enjoying the Wilderness in an Autumn Grove",
+    "zh": "秋林野兴图"
+  },
+  "artist": {
+    "orig": "倪瓚",
+    "en": "Ni Zan",
+    "zh": "倪瓒",
+    "dates": "1306–1374"
+  },
+  "year": 1339,
+  "year_display": {
+    "en": "dated 1339",
+    "zh": "1339 年"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink on paper",
+    "zh": "立轴，纸本水墨"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/45635",
+    "accession": "1989.363.38",
+    "credit_line": "Bequest of John M. Crawford Jr., 1988"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP-31579-002.jpg",
+    "width": 972,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1374. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1374 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A spare ink landscape. A cluster of thin autumn trees grows from rounded rocks in the foreground, a small thatched pavilion stands at the water's edge behind them, and a calm river opens toward low hills. Inscriptions in several hands fill the paper above.",
+    "zh": "一幅简淡的水墨山水。前景圆润的石头上长着一丛瘦削的秋树，树后水边立着一座小小的茅亭，平静的河面向低缓的远山展开。上方的纸面写满了不同人的题跋。"
+  },
+  "note": {
+    "en": "Ni Zan, one of the Four Masters of the Yuan, became famous for a few dry strokes, an empty pavilion and wide water; this early work, painted in his thirties, already has the habit. Later owners added their own poems above, so the scroll is also a long conversation about itself. Look at how much of the river is simply paper.",
+    "zh": "倪瓒是元四家之一，以寥寥干笔、一座空亭、一片阔水闻名；这件三十多岁时的早期作品已经有了这种习惯。后来的藏家在上方题了自己的诗，所以这幅画也是一场关于它自己的长谈。看看那条河有多少地方只是纸。"
+  },
+  "pick": null,
+  "tags": [
+    "autumn",
+    "river",
+    "trees",
+    "ink"
+  ]
+}

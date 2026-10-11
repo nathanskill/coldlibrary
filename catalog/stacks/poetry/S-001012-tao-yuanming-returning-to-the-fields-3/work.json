@@ -1,0 +1,64 @@
+{
+  "id": "S-001012",
+  "slug": "tao-yuanming-returning-to-the-fields-3",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "歸園田居·其三",
+    "en": "Returning to Live in the Country (III)",
+    "zh": "归园田居·其三"
+  },
+  "author": {
+    "orig": "陶淵明",
+    "en": "Tao Yuanming",
+    "zh": "陶渊明",
+    "dates": "c. 365–427"
+  },
+  "year": 406,
+  "year_display": {
+    "en": "c. 406",
+    "zh": "约 406 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/歸園田居",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Jin dynasty poem; the author died in 427.",
+      "zh": "东晋诗，作者卒于 427 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Perhaps the best loved of the five, partly because it admits that Tao was not a very good farmer: the weeds are winning. What matters to him is the last line, that he has not gone against his own wish. It sits here for its walk home under the moon with a hoe on the shoulder, one of the gentlest pictures of honest work in the language.",
+    "zh": "这大概是五首中最受喜爱的一首，部分原因是它坦白陶渊明并不太会种地：草盛豆苗稀。他在意的是最后一句，没有违背自己的心愿。放在这里，是为了那幅“带月荷锄归”的画面，汉语里写诚实劳作最温和的图景之一。"
+  },
+  "pick": null,
+  "tags": [
+    "fields",
+    "moon",
+    "work",
+    "dew"
+  ],
+  "excerpt": {
+    "orig": "晨興理荒穢，帶月荷鋤歸。",
+    "en": "I rise at dawn to clear the weeds / and come home with the moon, my hoe on my shoulder.",
+    "zh": "晨兴理荒秽，带月荷锄归。"
+  },
+  "plate": null
+}

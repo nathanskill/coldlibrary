@@ -1,0 +1,64 @@
+{
+  "id": "S-001048",
+  "slug": "bai-juyi-grass-on-the-ancient-plain",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "賦得古原草送別",
+    "en": "Grass on the Ancient Plain: A Farewell",
+    "zh": "赋得古原草送别"
+  },
+  "author": {
+    "orig": "白居易",
+    "en": "Bai Juyi",
+    "zh": "白居易",
+    "dates": "772–846"
+  },
+  "year": 788,
+  "year_display": {
+    "en": "c. 788",
+    "zh": "约 788 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/賦得古原草送別",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 846.",
+      "zh": "唐诗，作者卒于 846 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The 赋得 of the title marks a poem written on an assigned topic, usually as examination practice, and Bai Juyi was about sixteen. The story goes that the older poet Gu Kuang teased him about his name, 'living easy', in expensive Chang'an, then read the fire couplet and said that a young man who could write that would find living easy anywhere. The couplet is now the plainest image in Chinese for what cannot be destroyed.",
+    "zh": "题中的“赋得”表示命题作诗，多为应试习作，白居易当时大约十六岁。相传前辈诗人顾况拿他的名字打趣，说长安米贵，居大不易；读到“野火烧不尽，春风吹又生”，又改口说能写出这样的句子，居亦易矣。这一联如今是汉语里形容不可摧毁之物最朴素的意象。"
+  },
+  "pick": null,
+  "tags": [
+    "spring",
+    "renewal",
+    "farewell",
+    "grass"
+  ],
+  "excerpt": {
+    "orig": "野火燒不盡，春風吹又生。",
+    "en": "Wildfire cannot burn it all away; / the spring wind blows, and it grows again.",
+    "zh": "野火烧不尽，春风吹又生。"
+  },
+  "plate": null
+}

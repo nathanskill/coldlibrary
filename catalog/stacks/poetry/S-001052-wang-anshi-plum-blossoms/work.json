@@ -1,0 +1,64 @@
+{
+  "id": "S-001052",
+  "slug": "wang-anshi-plum-blossoms",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "梅花",
+    "en": "Plum Blossoms",
+    "zh": "梅花"
+  },
+  "author": {
+    "orig": "王安石",
+    "en": "Wang Anshi",
+    "zh": "王安石",
+    "dates": "1021–1086"
+  },
+  "year": 1080,
+  "year_display": {
+    "en": "after 1076",
+    "zh": "1076 年以后"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/梅花_(王安石)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty poem; the author died in 1086.",
+      "zh": "宋诗，作者卒于 1086 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Usually dated to Wang Anshi's last years, after he left high office and retired to Jiangning. The plum is the flower that opens in winter, and the poem's small joke is that from a distance it looks like snow, until the scent arrives and gives it away. For a cold library this is the right flower: something alive that is easy to mistake for the frost around it.",
+    "zh": "一般认为作于王安石罢相、退居江宁的晚年。梅是冬天开的花，这首诗的小小机巧在于：远看像雪，直到香气飘来才露了底。对一座冷冻图书馆来说，这是最合适的花：一种活着的东西，很容易被误认为周围的霜雪。"
+  },
+  "pick": null,
+  "tags": [
+    "plum",
+    "snow",
+    "winter",
+    "fragrance"
+  ],
+  "excerpt": {
+    "orig": "遙知不是雪，為有暗香來。",
+    "en": "From far away I know it isn't snow, / because a hidden fragrance comes.",
+    "zh": "遥知不是雪，为有暗香来。"
+  },
+  "plate": null
+}

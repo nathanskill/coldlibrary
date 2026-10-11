@@ -1,0 +1,65 @@
+{
+  "id": "S-001027",
+  "slug": "wang-wei-seeing-off-yuan-the-second",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "送元二使安西",
+    "en": "Seeing Off Yuan the Second on a Mission to Anxi",
+    "zh": "送元二使安西"
+  },
+  "author": {
+    "orig": "王維",
+    "en": "Wang Wei",
+    "zh": "王维",
+    "dates": "c. 699–761"
+  },
+  "year": 750,
+  "year_display": {
+    "en": "mid-8th century",
+    "zh": "约 8 世纪中期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/送元二使安西",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 761.",
+      "zh": "唐诗，作者卒于 761 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Set to music soon after it was written, it became the standard parting song of the Tang, sung with lines repeated as the Three Refrains of Yang Pass, 阳关三叠. Willow branches were broken off and given at partings, and the rain has washed them green. Everything in the poem is about a small delay: one more cup before the road begins.",
+    "zh": "这首诗写成后不久就被谱成乐曲，成了唐代通行的送别歌，叠唱而成《阳关三叠》。古人折柳送别，一场朝雨把柳色洗得青青。整首诗都在写一次小小的拖延：上路之前，再喝一杯。"
+  },
+  "pick": null,
+  "tags": [
+    "farewell",
+    "friendship",
+    "wine",
+    "rain",
+    "willows"
+  ],
+  "excerpt": {
+    "orig": "勸君更盡一杯酒，西出陽關無故人。",
+    "en": "I urge you, drink one more cup of wine: / west of Yang Pass you will have no old friends.",
+    "zh": "劝君更尽一杯酒，西出阳关无故人。"
+  },
+  "plate": null
+}

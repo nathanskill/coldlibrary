@@ -1,0 +1,64 @@
+{
+  "id": "S-003004",
+  "slug": "lu-xun-a-small-incident",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "一件小事",
+    "en": "A Small Incident",
+    "zh": "一件小事"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1919,
+  "year_display": {
+    "en": "1919",
+    "zh": "1919 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); first published in the anniversary supplement of the Morning Post (晨報), 1 December 1919, and collected in Call to Arms (吶喊), 1923, when the closing date was added.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；初刊于 1919 年 12 月 1 日《晨报·周年纪念增刊》，收入《呐喊》（1923），文末日期为编集时所加。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/一件小事",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1919; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1919 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Less than a page long: a rickshaw puller stops to help an old woman his passenger is sure is pretending, and the passenger watches the man's dusty back grow larger than himself. It is here because it records the moment a person sees his own smallness and lets it change him, which is rarer in literature than it should be. Notice the handful of coppers, and the questions Lu Xun refuses to answer for himself.",
+    "zh": "不到一页：一个人力车夫停下来，扶起一个乘客认定是装腔作势的老女人，乘客看着他满身灰尘的后影变得比自己高大。收在这里，是因为它记下了一个人看见自己的“小”、并让它改变自己的时刻，这在文学里比应有的少。留意那一大把铜元，以及鲁迅不肯替自己回答的那些问题。"
+  },
+  "pick": null,
+  "tags": [
+    "conscience",
+    "winter",
+    "city",
+    "courage"
+  ],
+  "excerpt": {
+    "orig": "獨有這一件小事，卻總是浮在我眼前，有時反更分明，教我慚愧，催我自新，並且增長我的勇氣和希望。",
+    "en": "Only this small incident keeps floating before my eyes, sometimes even more clearly than before, making me ashamed, urging me to renew myself, and adding to my courage and my hope.",
+    "zh": "独有这一件小事，却总是浮在我眼前，有时反更分明，教我惭愧，催我自新，并且增长我的勇气和希望。"
+  },
+  "plate": null
+}

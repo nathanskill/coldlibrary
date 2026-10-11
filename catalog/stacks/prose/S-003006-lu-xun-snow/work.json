@@ -1,0 +1,65 @@
+{
+  "id": "S-003006",
+  "slug": "lu-xun-snow",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "雪",
+    "en": "Snow",
+    "zh": "雪"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "1925",
+    "zh": "1925 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from volume 1 of the Complete Works of Lu Xun (1948 printing); written 18 January 1925, first published in Threads of Talk (語絲) and collected in Wild Grass (野草), 1927.",
+    "zh": "据维基文库，录自《鲁迅全集》第一卷（1948 年印本）；作于 1925 年 1 月 18 日，初刊于《语丝》，收入《野草》（1927）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/雪_(鲁迅)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1925; the author died in 1936. Public domain by age: the author died before 1956 and the text was published before 1931.",
+      "zh": "1925 年首次发表，作者卒于 1936 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Two snows: the moist southern snow that children build into a rouged arhat which slowly melts, and the dry northern snow that never clings together and rises in the wind like mist around a flame. Snow is one of this library's oldest images, and this is the most exact account of it in modern Chinese prose that I know. Notice how the piece turns at 'But' from tenderness to something solitary and bright.",
+    "zh": "两种雪：江南滋润的雪，孩子们塑成涂了胭脂的雪罗汉，慢慢消融；朔方的雪，永不粘连，在风中像包藏火焰的大雾一样旋转升腾。雪是这座图书馆最老的意象之一，这是我所知道的现代汉语散文里写雪最准确的一篇。留意文章在“但是”处如何从温柔转向孤独而灿烂。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "winter",
+    "childhood",
+    "north",
+    "south"
+  ],
+  "excerpt": {
+    "orig": "在無邊的曠野上，在凜冽的天宇下，閃閃地旋轉升騰着的是雨的精魂……",
+    "en": "On the boundless wilderness, under the frozen vault of heaven, what glitters as it whirls and rises is the spirit of the rain ...",
+    "zh": "在无边的旷野上，在凛冽的天宇下，闪闪地旋转升腾着的是雨的精魂……"
+  },
+  "plate": null
+}

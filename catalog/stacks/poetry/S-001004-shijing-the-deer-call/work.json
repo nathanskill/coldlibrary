@@ -1,0 +1,64 @@
+{
+  "id": "S-001004",
+  "slug": "shijing-the-deer-call",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "鹿鳴",
+    "en": "The Deer Call",
+    "zh": "鹿鸣"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous",
+    "zh": "佚名",
+    "dates": "c. 11th–6th century BCE"
+  },
+  "year": -600,
+  "year_display": {
+    "en": "Zhou dynasty, before c. 600 BCE",
+    "zh": "周代，约公元前 600 年以前"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes.",
+    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/詩經/鹿鳴",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A song from the Book of Songs (Shijing), compiled by about the sixth century BCE.",
+      "zh": "《诗经》中的诗篇，约于公元前六世纪编定。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The opening song of the Lesser Odes, sung at banquets for honoured guests for more than two thousand years; in later dynasties the feast for newly passed examination candidates was named after it. It is a poem about hospitality as a kind of learning: the host feeds his guests and in return they 'show me the right road'. Cao Cao quoted its first four lines in his Short Song, which is one way a poem gets carried on.",
+    "zh": "《诗经·小雅》的第一篇，两千多年来在宴请嘉宾时歌唱；后世为新科举人设的宴会就叫“鹿鸣宴”。这是一首把待客当作求学的诗：主人款待客人，客人则“示我周行”。曹操在《短歌行》里引用了它的前四句，一首诗就是这样被传下去的。"
+  },
+  "pick": null,
+  "tags": [
+    "friendship",
+    "hospitality",
+    "music",
+    "wine"
+  ],
+  "excerpt": {
+    "orig": "呦呦鹿鳴，食野之苹。我有嘉賓，鼓瑟吹笙。",
+    "en": "Yu, yu, the deer are calling, grazing on the wild sedge. / I have good guests with me: play the zither, blow the reed-pipes.",
+    "zh": "呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。"
+  },
+  "plate": null
+}

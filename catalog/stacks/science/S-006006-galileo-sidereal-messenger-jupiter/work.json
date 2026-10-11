@@ -1,0 +1,69 @@
+{
+  "id": "S-006006",
+  "slug": "galileo-sidereal-messenger-jupiter",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Sidereus Nuncius",
+    "en": "The Sidereal Messenger: the Moons of Jupiter",
+    "zh": "星际信使：木星的卫星"
+  },
+  "author": {
+    "orig": "Galileo Galilei",
+    "en": "Galileo Galilei",
+    "zh": "伽利略·伽利莱",
+    "dates": "1564–1642"
+  },
+  "year": 1610,
+  "year_display": {
+    "en": "1610",
+    "zh": "1610 年"
+  },
+  "translator": {
+    "name": "Edward Stafford Carlos",
+    "dates": "1842–1927",
+    "year": 1880
+  },
+  "edition": {
+    "en": "The Sidereal Messenger of Galileo Galilei, trans. E. S. Carlos (London: Rivingtons, 1880), as transcribed by Project Gutenberg (eBook 46036): the account of the first observations, 7 to 13 January 1610, and the conclusions Galileo draws from two months of nightly records. The long table of observations between them is omitted, as are Carlos's footnotes. Galileo's small diagrams of each night's arrangement are not reproduced; the sentence after each reference describes it.",
+    "zh": "据卡洛斯译《伽利略的星际信使》（伦敦：Rivingtons，1880 年），以古腾堡计划电子书第 46036 号为底本：收 1610 年 1 月 7 日至 13 日最初几夜的观测记述，以及伽利略根据两个月逐夜记录得出的结论。中间冗长的观测记录与卡洛斯的脚注从略。伽利略每夜所画的星位小图未能收入，每处提到图的地方，紧接着的句子都描述了当时的排列。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/46036/pg46036.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Latin original 1610; Galileo died in 1642. The translator, E. S. Carlos, a schoolmaster at Christ's Hospital, died in 1927 (Wikidata Q26156392); the translation was published in 1880.",
+      "zh": "拉丁文原著 1610 年出版，伽利略卒于 1642 年。译者卡洛斯是基督公学的教师，卒于 1927 年（维基数据 Q26156392）；译本出版于 1880 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In January 1610 Galileo turned a new telescope on Jupiter and saw three small stars in a line beside it that would not stay where fixed stars should. Over a week he moves from assuming the planet has wandered, to suspecting the stars, to concluding that four bodies circle Jupiter as the Moon circles the Earth. It is one of the clearest records anywhere of a mind changing because the evidence made it change, night by night, with the cloudy nights left in.",
+    "zh": "1610 年 1 月，伽利略把一架新望远镜对准木星，看见它旁边排成一线的三颗小星，它们不肯待在恒星该待的地方。一个星期里，他从以为是行星走错了位置，到怀疑那些星，再到断定有四个天体绕着木星转，就像月亮绕着地球。这是世上最清楚的记录之一：一个人的想法被证据一夜一夜地改变，连阴天没能观测的夜晚也照实写着。"
+  },
+  "pick": null,
+  "tags": [
+    "astronomy",
+    "telescope",
+    "observation",
+    "jupiter",
+    "night"
+  ],
+  "excerpt": {
+    "orig": "I therefore concluded, and decided unhesitatingly, that there are three stars in the heavens moving about Jupiter, as Venus and Mercury round the Sun; which at length was established as clear as daylight by numerous other subsequent observations.",
+    "en": "I therefore concluded, and decided unhesitatingly, that there are three stars in the heavens moving about Jupiter, as Venus and Mercury round the Sun; which at length was established as clear as daylight by numerous other subsequent observations.",
+    "zh": "于是我断定，并毫不犹豫地确认：天上有三颗星在绕着木星运动，就像金星和水星绕着太阳运动一样。后来又经过许多次观测，这一点终于像白昼一样清楚地确立了。"
+  },
+  "plate": null
+}

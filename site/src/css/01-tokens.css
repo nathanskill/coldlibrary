@@ -1,0 +1,93 @@
+/* ---------- tokens ----------
+   Colour: snow paper by day, night lake after dark. Follow the system until the visitor chooses.
+   Space: nine steps. Type: six UI sizes (--t1…--t6); reading text has its own scale in 40-reading.css. */
+:root {
+  --f-sans-base: "Plex Sans", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", system-ui, sans-serif;
+  --f-serif-base: "Plex Serif", "Cold Serif SC", "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", Georgia, serif;
+  --f-mono: "Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --f-sans: var(--f-sans-base);
+  --f-serif: var(--f-serif-base);
+
+  /* snow paper */
+  --bg: #F3F1EC;
+  --bg-2: #EBE8E1;
+  --surface: #FBFAF7;
+  --mat: #E5E1D8;
+  --ink: #1E2326;
+  --ink-2: #4A5358;
+  --ink-3: #5E666B;
+  --read-ink: #1E2326;
+  --line: rgba(30, 35, 38, 0.13);
+  --line-2: rgba(30, 35, 38, 0.24);
+  --accent: #2F4A3E;
+  --link: #2F6F78;
+  --brass: #9C7A3C;
+  --brass-ink: #7A5E2E;
+  --lamp: #C9622F;
+  --stamp: #B4472E;
+  --ok: #2F6B4E;
+  --amber: #B7832A;
+  --btn-bg: #2F4A3E;
+  --btn-ink: #FBFAF7;
+  --mark: rgba(156, 122, 60, 0.20);
+  --letter-bg: #FBF7EC;
+  --letter-ink: #2A2622;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --scrim: rgba(20, 24, 26, 0.32);
+  /* shelf tones: used only as a 3px edge */
+  --tone-poetry: #2F5F6A; --tone-prose: #8A4A32; --tone-thought: #2F4A3E;
+  --tone-science: #3E4B57; --tone-computing: #8C8170; --tone-records: #9C7A3C;
+
+  /* space */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px; --s9: 96px;
+  /* grid */
+  --maxw: 1180px; --pad: 24px; --gutter: 24px; --head-h: 64px; --measure: 36em;
+  --radius: 2px;
+
+  /* type: six UI sizes */
+  --t1: clamp(32px, 2.2vw + 14px, 44px);
+  --t2: clamp(24px, 1vw + 14px, 28px);
+  --t3: 20px;
+  --t4: 17px;
+  --t5: 14px;
+  --t6: 12px;
+  --lh1: 1.15; --lh2: 1.25; --lh3: 1.4; --lh4: 1.6; --lh5: 1.5;
+
+  color-scheme: light;
+}
+:lang(zh) {
+  --f-sans: "CL Punct Sans", var(--f-sans-base);
+  --f-serif: "CL Punct Serif", var(--f-serif-base);
+  --lh1: 1.3; --lh2: 1.4; --lh3: 1.6; --lh4: 1.8; --lh5: 1.7;
+}
+@media (max-width: 899px) { :root { --gutter: 20px; } }
+@media (max-width: 599px) {
+  :root { --gutter: 16px; --pad: 16px; --head-h: 56px; --s8: 48px; --s9: 64px; --t4: 16px; }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0E1417; --bg-2: #141C20; --surface: #18222A; --mat: #10171B;
+    --ink: #E6ECEF; --ink-2: #A9B4B9; --ink-3: #7F8B91; --read-ink: #DCE3E6;
+    --line: rgba(230, 236, 239, 0.13); --line-2: rgba(230, 236, 239, 0.24);
+    --accent: #8FB5A3; --link: #7FB8C1; --brass: #C9A465; --brass-ink: #C9A465; --lamp: #F2A04E;
+    --stamp: #E07A5F; --ok: #8FCBA8; --amber: #E0B25A; --btn-bg: #3C6B58; --btn-ink: #F3F6F4;
+    --mark: rgba(201, 164, 101, 0.26); --letter-bg: #1E2522; --letter-ink: #E8E4DA;
+    --shadow: 0 8px 24px rgba(0, 0, 0, 0.4); --scrim: rgba(0, 0, 0, 0.5);
+    --tone-poetry: #4F8794; --tone-prose: #B0694C; --tone-thought: #4F7A66;
+    --tone-science: #5E7385; --tone-computing: #9A8E7A; --tone-records: #C9A465;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0E1417; --bg-2: #141C20; --surface: #18222A; --mat: #10171B;
+  --ink: #E6ECEF; --ink-2: #A9B4B9; --ink-3: #7F8B91; --read-ink: #DCE3E6;
+  --line: rgba(230, 236, 239, 0.13); --line-2: rgba(230, 236, 239, 0.24);
+  --accent: #8FB5A3; --link: #7FB8C1; --brass: #C9A465; --brass-ink: #C9A465; --lamp: #F2A04E;
+  --stamp: #E07A5F; --ok: #8FCBA8; --amber: #E0B25A; --btn-bg: #3C6B58; --btn-ink: #F3F6F4;
+  --mark: rgba(201, 164, 101, 0.26); --letter-bg: #1E2522; --letter-ink: #E8E4DA;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.4); --scrim: rgba(0, 0, 0, 0.5);
+  --tone-poetry: #4F8794; --tone-prose: #B0694C; --tone-thought: #4F7A66;
+  --tone-science: #5E7385; --tone-computing: #9A8E7A; --tone-records: #C9A465;
+  color-scheme: dark;
+}

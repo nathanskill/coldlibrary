@@ -1,0 +1,64 @@
+{
+  "id": "S-004019",
+  "slug": "dickinson-the-brain-is-wider-than-the-sky",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "The brain is wider than the sky",
+    "en": "The brain is wider than the sky",
+    "zh": "大脑比天空更宽广"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1896,
+  "year_display": {
+    "en": "first published 1896",
+    "zh": "1896 年首次出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems, Third Series (1896), edited by Mabel Loomis Todd, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《诗集·第三辑》（1896），托德编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1896 in Poems, Third Series, after the author’s death in 1886; the editor, Mabel Loomis Todd, died in 1932.",
+      "zh": "1896 年首次出版于《诗集·第三辑》，作者已于 1886 年去世；编者梅布尔·卢米斯·托德卒于 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Titled “The Brain” by its editor. Three stanzas of measurement, the mind against the sky, the sea and God, each tested with a homely image: side by side, blue to blue, pound for pound. The last line, “as syllable from sound”, is the kind of distinction only a poet who worked in syllables would think to make.",
+    "zh": "编者题为“大脑”。三节诗都是测量：拿心智去比天空、大海和上帝，每一次都用家常的意象来试——并排放、蓝对蓝、一磅对一磅。最后一行“如音节之于声音”，是只有以音节为业的诗人才会想到的区分。"
+  },
+  "pick": null,
+  "tags": [
+    "mind",
+    "sky",
+    "sea",
+    "measurement"
+  ],
+  "excerpt": {
+    "orig": "The brain is wider than the sky,\nFor, put them side by side,\nThe one the other will include\nWith ease, and you beside.",
+    "en": "The brain is wider than the sky,\nFor, put them side by side,\nThe one the other will include\nWith ease, and you beside.",
+    "zh": "大脑比天空更宽广，\n因为，把它们并排放着，\n一个就能把另一个装下，\n还轻轻松松装下你。"
+  },
+  "plate": null
+}

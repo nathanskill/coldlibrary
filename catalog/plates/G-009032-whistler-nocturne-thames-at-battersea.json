@@ -1,0 +1,61 @@
+{
+  "id": "G-009032",
+  "slug": "whistler-nocturne-thames-at-battersea",
+  "title": {
+    "orig": "Nocturne (Nocturne: The Thames at Battersea)",
+    "en": "Nocturne: The Thames at Battersea",
+    "zh": "夜曲：巴特西的泰晤士河"
+  },
+  "artist": {
+    "orig": "James McNeill Whistler",
+    "en": "James McNeill Whistler",
+    "zh": "詹姆斯·麦克尼尔·惠斯勒",
+    "dates": "1834–1903"
+  },
+  "year": 1878,
+  "year_display": {
+    "en": "1878",
+    "zh": "1878 年"
+  },
+  "medium": {
+    "en": "Lithotint with scraping, printed on pale blue chine",
+    "zh": "石版淡彩（刮擦），印于淡蓝色薄纸"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/337702",
+    "accession": "17.3.159",
+    "credit_line": "Harris Brisbane Dick Fund, 1917"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP813769.jpg",
+    "width": 1600,
+    "height": 1068,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1903. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1903 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A misty grey-blue view across the Thames at night. The far bank is a low dark band of buildings and chimneys with a few faint lights reflected in the water, and a single barge with a standing figure drifts in the foreground.",
+    "zh": "夜里隔着泰晤士河望去，一片雾蒙蒙的灰蓝。对岸是一条低矮的暗带，房屋和烟囱的几点微光倒映在水里，前景漂着一条驳船，船上站着一个人。"
+  },
+  "note": {
+    "en": "Whistler called his night views of the Thames nocturnes, borrowing the word from music, because he wanted them looked at the way one listens. In this lithotint he brushed tone onto the stone and scraped the lights out, so the whole river is a single soft wash. The factories on the far bank become, for a moment, as calm as a hillside.",
+    "zh": "惠斯勒把他画泰晤士河夜景的作品称作“夜曲”，这个词借自音乐，因为他希望人们像听音乐一样去看。在这幅石版淡彩里，他把色调刷上石版，再刮出亮处，整条河就成了一片柔和的晕染。对岸的工厂在这一刻，也像山坡一样安静。"
+  },
+  "pick": null,
+  "tags": [
+    "night",
+    "river",
+    "city",
+    "mist"
+  ]
+}

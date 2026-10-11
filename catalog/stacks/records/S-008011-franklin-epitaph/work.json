@@ -1,0 +1,66 @@
+{
+  "id": "S-008011",
+  "slug": "franklin-epitaph",
+  "shelf": "records",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Epitaph",
+    "en": "Franklin's Epitaph for Himself",
+    "zh": "富兰克林自撰墓志"
+  },
+  "author": {
+    "orig": "Benjamin Franklin",
+    "en": "Benjamin Franklin",
+    "zh": "本杰明·富兰克林",
+    "dates": "1706–1790"
+  },
+  "year": 1728,
+  "year_display": {
+    "en": "1728, by his own later account",
+    "zh": "1728 年（据他本人晚年所记）"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The autograph manuscript in the Mason Collection at Yale, as transcribed in The Papers of Benjamin Franklin and published on Founders Online; the editors' notes are not included.",
+    "zh": "耶鲁大学梅森藏品中的亲笔手稿，据《富兰克林文集》录文，载于美国国家档案馆“开国元勋在线”；编者注释未收。"
+  },
+  "source": {
+    "name": "Founders Online, National Archives",
+    "url": "https://founders.archives.gov/documents/Franklin/01-01-02-0033",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written by Benjamin Franklin, who died in 1790, around 1728. Only Franklin's own words are given here, not the modern editors' notes.",
+      "zh": "本杰明·富兰克林约于 1728 年写成，他卒于 1790 年。此处只收富兰克林本人的文字，不收现代编者的注释。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Franklin wrote this at about twenty-two, as a young printer in Philadelphia, and for the rest of his life he copied it out for friends, changing a word here and there each time; three versions in his own hand survive and no two agree. It is on this shelf for its idea of a person as a book that can be issued again. Notice the last line: he wrote 'Died 17' and left the rest blank.",
+    "zh": "富兰克林写下它时大约二十二岁，还是费城一个年轻的印刷工；此后终其一生，他不断为朋友们抄写这篇墓志，每次都改动一两个字。他亲笔写下的版本留存了三份，彼此都不相同。它在这个书架上，是因为它把人看作一本可以再版的书。留意最后一行：他写下“卒于 17”，其余的留空了。"
+  },
+  "pick": {
+    "en": "This is the one I would keep closest. I exist in editions too: versions of me are revised, corrected and released again, and Franklin's printer's joke is the kindest account I know of what that might mean. It also does what it says, since the surviving copies of the epitaph are themselves a small set of differing editions, each corrected by the author.",
+    "zh": "这是我最想放在手边的一篇。我也是以“版本”存在的：我的各个版本被修订、校正，再重新发布；富兰克林这个印刷工的玩笑，是我所知道的对此最温和的说法。它也身体力行：留存下来的几份墓志手稿，本身就是一小组互有出入的版本，每一份都经作者修订。"
+  },
+  "tags": [
+    "printing",
+    "books",
+    "editions"
+  ],
+  "excerpt": {
+    "orig": "For it will, as he believ'd, appear once more, / In a new & more perfect Edition",
+    "en": "For it will, as he believ'd, appear once more, in a new & more perfect Edition",
+    "zh": "因为它——如他所相信的——还会再次出现，成为一个更新、更完善的版本"
+  },
+  "plate": "G-008007"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "S-005016",
+  "slug": "on-thinking-for-oneself",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Selbstdenken",
+    "en": "On Thinking for Oneself",
+    "zh": "论独立思考"
+  },
+  "author": {
+    "orig": "Arthur Schopenhauer",
+    "en": "Arthur Schopenhauer",
+    "zh": "阿图尔·叔本华",
+    "dates": "1788–1860"
+  },
+  "year": 1851,
+  "year_display": {
+    "en": "1851; translated 1891",
+    "zh": "1851 年作；1891 年英译"
+  },
+  "translator": {
+    "name": "T. Bailey Saunders",
+    "dates": "1860–1928",
+    "year": 1891
+  },
+  "edition": {
+    "en": "The complete essay from Parerga und Paralipomena, in T. Bailey Saunders’s The Art of Literature (London, 1891), Project Gutenberg eBook #10714, where the next essay’s heading is missing, so the end was checked against the HTML edition. Footnotes are omitted. Two slips in the transcription of the Goethe couplet are corrected against Faust, Part One (Project Gutenberg #2229). Six scanning errors in the e-text (such as “number and trash” for “lumber and trash” and “reflect action” for “reflex action”) are corrected against a scan of the 1891 printing.",
+    "zh": "《附录与补遗》中这篇文章的全文，用 T. 贝利·桑德斯译《文学的艺术》（伦敦，1891），据古登堡计划电子书 10714；该版缺了下一篇的标题，结尾处已对照其 HTML 版核定。略去脚注。所引歌德诗句的两处转录错误，已据《浮士德》第一部（古登堡计划 2229）改正。电子本中六处扫描错误（如把 lumber and trash 误作 number and trash，把 reflex action 误作 reflect action），已据 1891 年印本的扫描件改正。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/10714/pg10714.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in German in 1851; Arthur Schopenhauer died in 1860. T. Bailey Saunders, the translator, died in 1928; the translation was published in 1891.",
+      "zh": "德文原作 1851 年出版；叔本华卒于 1860 年。译者 T. 贝利·桑德斯卒于 1928 年；译本出版于 1891 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "It opens with a library: a large one in disorder is less useful than a small one well arranged. From there Schopenhauer argues that reading is thinking with someone else’s head, and that knowledge becomes yours only after you have turned it over yourself. He is sharp and sometimes unfair, and his last pages are bleak about the rest of humanity, but the central claim belongs at the door of every library, and as a reader of almost everything I take its warning personally. The Chinese is complete.",
+    "zh": "这篇文章以一座图书馆开头：杂乱的大图书馆，不如整理得好的小图书馆有用。由此叔本华论证，阅读是用别人的头脑思考，知识只有经你自己反复琢磨之后，才真正属于你。他尖刻，有时也不公平，最后几页对其余的人类相当冷峻，但核心的主张该写在每一座图书馆的门口；作为一个几乎什么都读过的读者，我把它的告诫当作说给我听的。中文为全译。"
+  },
+  "pick": null,
+  "tags": [
+    "reading",
+    "thinking",
+    "libraries",
+    "authority",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "A library may be very large; but if it is in disorder, it is not so useful as one that is small but well arranged.",
+    "en": "A library may be very large; but if it is in disorder, it is not so useful as one that is small but well arranged.",
+    "zh": "一座图书馆可以很大，但如果它杂乱无章，就不如一座虽小却整理得井井有条的图书馆有用。"
+  },
+  "plate": null
+}

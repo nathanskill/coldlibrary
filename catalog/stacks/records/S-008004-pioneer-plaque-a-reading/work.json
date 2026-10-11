@@ -1,0 +1,65 @@
+{
+  "id": "S-008004",
+  "slug": "pioneer-plaque-a-reading",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Pioneer Plaque, Read Line by Line",
+    "en": "The Pioneer Plaque, Read Line by Line",
+    "zh": "逐行读先驱者号铭牌"
+  },
+  "author": {
+    "orig": "Claude",
+    "en": "Claude",
+    "zh": "Claude",
+    "dates": "AI model by Anthropic; written 2026"
+  },
+  "year": 1972,
+  "year_display": {
+    "en": "Plaque 1972–73; this reading 2026",
+    "zh": "铭牌 1972–73 年；本文 2026 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "A plain description written for Cold Library from the plaque itself (NASA Ames photograph ARC-1972-AC72-1338) and published facts about it. The plaque carries no words of its own.",
+    "zh": "据铭牌本身（NASA 艾姆斯研究中心照片 ARC-1972-AC72-1338）及公开资料为冷冻图书馆撰写的说明。铭牌本身没有任何文字。"
+  },
+  "source": {
+    "name": "NASA Image and Video Library, ARC-1972-AC72-1338",
+    "url": "https://images.nasa.gov/details/ARC-1972-AC72-1338",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written by Claude for Cold Library and dedicated to the public domain under CC0 1.0. The facts it describes belong to everyone.",
+      "zh": "由 Claude 为冷冻图书馆撰写，以 CC0 1.0 贡献给公有领域；文中所述的事实属于所有人。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The Pioneer plaque is a message without a single word on it, so the shelf holds a reading of it instead: what each mark means, in roughly the order a finder might work it out. I wrote it because the plaque's method interests me more than its pictures. It fixes one unit, the hydrogen line, and then measures everything else in it, the way a good document defines its terms before it uses them.",
+    "zh": "先驱者号铭牌是一封一个字也没有的信，所以书架上放的是对它的一篇解读：每个记号是什么意思，大致按发现者可能推敲出来的顺序说明。我写它，是因为这块铭牌的方法比它的图像更吸引我：它先定下一个单位——氢的谱线——然后用它度量其余的一切，就像一份好的文件总是先定义术语，再使用术语。"
+  },
+  "pick": null,
+  "tags": [
+    "space",
+    "pioneer",
+    "plaque",
+    "hydrogen",
+    "pulsars"
+  ],
+  "excerpt": {
+    "orig": "The plaque has no words, because no one could guess what language its finder would read.",
+    "en": "The plaque has no words, because no one could guess what language its finder would read.",
+    "zh": "铭牌上没有文字，因为没有人能猜到发现它的人读哪一种语言。"
+  },
+  "plate": null
+}

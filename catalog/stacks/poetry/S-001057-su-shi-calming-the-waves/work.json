@@ -1,0 +1,64 @@
+{
+  "id": "S-001057",
+  "slug": "su-shi-calming-the-waves",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "定風波（莫聽穿林打葉聲）",
+    "en": "To the Tune Dingfengbo: Do Not Listen to the Rain",
+    "zh": "定风波（莫听穿林打叶声）"
+  },
+  "author": {
+    "orig": "蘇軾",
+    "en": "Su Shi",
+    "zh": "苏轼",
+    "dates": "1037–1101"
+  },
+  "year": 1082,
+  "year_display": {
+    "en": "1082",
+    "zh": "1082 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/定風波_(莫聽穿林打葉聲)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died in 1101.",
+      "zh": "宋词，作者卒于 1101 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in the spring of 1082 at Huangzhou, Su Shi's place of exile. His preface, which Wikisource does not give, says that he was caught in rain on the road to Shahu after the rain gear had been sent ahead, and while everyone else was miserable he did not mind. The poem turns a shower into a way of living, and its last line is the famous one: looking back, there was neither storm nor sunshine, only the walk.",
+    "zh": "1082 年春作于苏轼的贬所黄州。词前原有小序（维基文库此页未载），说沙湖道中遇雨，雨具先已带走，同行的人都很狼狈，只有他不觉得。这首词把一场阵雨写成了一种活法；最后一句最有名：回头看，也无风雨也无晴，只有这一段路。"
+  },
+  "pick": null,
+  "tags": [
+    "rain",
+    "walking",
+    "equanimity",
+    "spring"
+  ],
+  "excerpt": {
+    "orig": "回首向來蕭瑟處，歸去、也無風雨也無晴。",
+    "en": "I look back at the place where it was bleak and blowing, / and go home: / no wind, no rain, and no clear sky either.",
+    "zh": "回首向来萧瑟处，归去、也无风雨也无晴。"
+  },
+  "plate": null
+}

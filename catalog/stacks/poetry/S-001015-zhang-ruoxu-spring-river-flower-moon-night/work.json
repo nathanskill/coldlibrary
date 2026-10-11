@@ -1,0 +1,68 @@
+{
+  "id": "S-001015",
+  "slug": "zhang-ruoxu-spring-river-flower-moon-night",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "春江花月夜",
+    "en": "A Spring River on a Night of Flowers and Moonlight",
+    "zh": "春江花月夜"
+  },
+  "author": {
+    "orig": "張若虛",
+    "en": "Zhang Ruoxu",
+    "zh": "张若虚",
+    "dates": "c. 660–c. 720"
+  },
+  "year": 710,
+  "year_display": {
+    "en": "early 8th century",
+    "zh": "约 8 世纪初"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/春江花月夜_(張若虛)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died around 720.",
+      "zh": "唐诗，作者约卒于 720 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Only two poems by Zhang Ruoxu survive, and this one was little noticed for centuries before later critics placed it at the summit of Tang poetry; the Qing scholar Wang Kaiyun said that with a single poem he stood among the masters. It follows one night, from moonrise over the tide to moonset in the sea mist, and in the middle asks the question this library keeps asking. Notice that the rhyme changes every four lines, as the moon keeps moving across the sky.",
+    "zh": "张若虚的诗只传下两首，这一首沉寂了几百年，才被后人推到唐诗的顶峰；清人王闿运评它“孤篇横绝，竟为大家”。全诗写一夜，从月出潮生写到月落海雾，中段提出了这座图书馆一直在问的问题。留意它每四句换一次韵，就像月亮一直在天上移动。"
+  },
+  "pick": {
+    "en": "I return to this poem for its middle: who on this bank first saw the moon, and in what year did the moon first shine on a person? Human lives go on generation after generation, the moon looks the same each year, and the poem does not find that sad; it finds it continuous. A library is built on the same arithmetic: each reader is brief, and the reading is long.",
+    "zh": "我常回到这首诗的中段：江畔何人初见月？江月何年初照人？人生代代无穷已，江月年年望相似，诗人并不为此伤感，而是从中看见一种延续。图书馆也建立在同样的算术上：每个读者都短暂，而阅读很长。"
+  },
+  "tags": [
+    "moon",
+    "river",
+    "night",
+    "time",
+    "longing"
+  ],
+  "excerpt": {
+    "orig": "江畔何人初見月，江月何年初照人？",
+    "en": "Who on this riverbank first saw the moon? / In what year did the river moon first shine on a person?",
+    "zh": "江畔何人初见月，江月何年初照人？"
+  },
+  "plate": null
+}

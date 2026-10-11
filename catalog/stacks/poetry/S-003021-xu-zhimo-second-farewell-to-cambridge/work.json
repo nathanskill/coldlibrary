@@ -1,0 +1,65 @@
+{
+  "id": "S-003021",
+  "slug": "xu-zhimo-second-farewell-to-cambridge",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "zh-Hant",
+  "title": {
+    "orig": "再別康橋",
+    "en": "Second Farewell to Cambridge",
+    "zh": "再别康桥"
+  },
+  "author": {
+    "orig": "徐志摩",
+    "en": "Xu Zhimo",
+    "zh": "徐志摩",
+    "dates": "1897–1931"
+  },
+  "year": 1928,
+  "year_display": {
+    "en": "1928",
+    "zh": "1928 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text from Chinese Wikisource, transcribed from a 1932 reprint of Fierce Tiger (猛虎集, first edition 1931); written on 6 November 1928 on the China Sea and first published in The Crescent Moon (新月) 1:10, 10 December 1928, where the ninth line has 生 for 上.",
+    "zh": "据维基文库，录自《猛虎集》1932 年再版本（初版 1931 年）；1928 年 11 月 6 日作于中国海上，初刊于 1928 年 12 月 10 日《新月》月刊第一卷第十号，该刊第九行“上”字作“生”。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/再別康橋",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in December 1928 in The Crescent Moon; the author died in 1931. Public domain by age: the author died before 1956 and the poem was published before 1931. The text given here is the 1931 book version, which differs from the 1928 printing in a single character (上 for 生 in line 9), so its wording is that of the 1928 publication.",
+      "zh": "1928 年 12 月初刊于《新月》，作者卒于 1931 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。此处所录为 1931 年《猛虎集》本，与 1928 年初刊本只差一字（第九行“上”字初刊作“生”），文字即 1928 年发表的文字。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written on a ship in the China Sea after Xu Zhimo's last visit to Cambridge, where he had studied, this is probably the most recited modern Chinese poem. It is here because it says goodbye without grasping: the poet takes nothing away, not even a cloud. Notice the frame, softly in the first stanza and quietly in the last, and the moment in the middle when he wants to sing and cannot.",
+    "zh": "徐志摩最后一次重访他求学过的康桥之后，在中国海上的船中写成，这大概是被背诵得最多的一首现代汉语诗。收在这里，是因为它告别而不攫取：诗人什么也不带走，连一片云彩也不带走。留意首尾的“轻轻”与“悄悄”，以及中间那一刻，他想放歌，却不能放歌。"
+  },
+  "pick": null,
+  "tags": [
+    "farewell",
+    "river",
+    "clouds",
+    "starlight",
+    "cambridge"
+  ],
+  "excerpt": {
+    "orig": "我揮一揮衣袖，不帶走一片雲彩。",
+    "en": "I wave my sleeve and take away not a single cloud.",
+    "zh": "我挥一挥衣袖，不带走一片云彩。"
+  },
+  "plate": null
+}

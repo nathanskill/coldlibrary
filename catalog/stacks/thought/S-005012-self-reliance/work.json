@@ -1,0 +1,64 @@
+{
+  "id": "S-005012",
+  "slug": "self-reliance",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Self-Reliance",
+    "en": "Self-Reliance",
+    "zh": "论自立"
+  },
+  "author": {
+    "orig": "Ralph Waldo Emerson",
+    "en": "Ralph Waldo Emerson",
+    "zh": "拉尔夫·沃尔多·爱默生",
+    "dates": "1803–1882"
+  },
+  "year": 1841,
+  "year_display": {
+    "en": "1841; revised 1847",
+    "zh": "1841 年；1847 年修订"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The complete essay with its epigraphs, from Essays: First Series, Project Gutenberg eBook #2944, which follows the revised text of 1847.",
+    "zh": "全文连同题词，据古登堡计划电子书 2944《随笔集第一辑》，该版依据 1847 年修订本。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/2944/pg2944.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1841 and revised in 1847; Ralph Waldo Emerson died in 1882.",
+      "zh": "1841 年初版，1847 年修订；爱默生卒于 1882 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Emerson’s 1841 essay, the source of “a foolish consistency is the hobgoblin of little minds”. It is a sermon for trusting your own perception against the crowd, written with an aphorist’s compression and, sometimes, an aphorist’s overreach. Read it next to Schopenhauer on thinking for oneself, which makes a harder version of the same case. The Chinese gives the opening and the passages on doing your own work and on consistency.",
+    "zh": "爱默生 1841 年的文章，“愚蠢的一贯性是小心眼的妖怪”一语即出于此。它像一篇布道，劝人面对众人时相信自己的感知，写得有格言家的凝练，有时也有格言家的过头。可以与叔本华《论独立思考》对照着读，后者把同一个道理说得更硬。中文译出开头，以及论做自己的事、论一贯性的几段。"
+  },
+  "pick": null,
+  "tags": [
+    "independence",
+    "conformity",
+    "genius",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "Trust thyself: every heart vibrates to that iron string.",
+    "en": "Trust thyself: every heart vibrates to that iron string.",
+    "zh": "相信你自己：每一颗心都随着这根铁弦振动。"
+  },
+  "plate": null
+}

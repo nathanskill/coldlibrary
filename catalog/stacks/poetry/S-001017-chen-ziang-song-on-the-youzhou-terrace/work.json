@@ -1,0 +1,63 @@
+{
+  "id": "S-001017",
+  "slug": "chen-ziang-song-on-the-youzhou-terrace",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "登幽州臺歌",
+    "en": "Song on Climbing the Youzhou Terrace",
+    "zh": "登幽州台歌"
+  },
+  "author": {
+    "orig": "陳子昂",
+    "en": "Chen Zi'ang",
+    "zh": "陈子昂",
+    "dates": "661–702"
+  },
+  "year": 696,
+  "year_display": {
+    "en": "696",
+    "zh": "696 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/登幽州臺歌",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 702.",
+      "zh": "唐诗，作者卒于 702 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Four lines with no imagery at all, only time: the people before, the people after, and one person standing between them on an old terrace. Chen Zi'ang wrote it in 696 while serving with an army in the north, his advice ignored. It belongs in a library meant for people not yet born, because it is the exact feeling such a library tries to answer.",
+    "zh": "四句诗里没有一个具体的景物，只有时间：前面的人，后面的人，一个人站在两者之间的古台上。陈子昂 696 年随军北征，进言不被采纳，登台写下此诗。它属于一座为尚未出生的人而建的图书馆，因为它写的正是这样一座图书馆想要回应的那种感受。"
+  },
+  "pick": null,
+  "tags": [
+    "time",
+    "solitude",
+    "history"
+  ],
+  "excerpt": {
+    "orig": "前不見古人，後不見來者。",
+    "en": "Before me, I cannot see the ancients; / after me, I cannot see those still to come.",
+    "zh": "前不见古人，后不见来者。"
+  },
+  "plate": null
+}

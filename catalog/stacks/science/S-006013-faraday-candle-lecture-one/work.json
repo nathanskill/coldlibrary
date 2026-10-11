@@ -1,0 +1,41 @@
+{
+  "id": "S-006013",
+  "slug": "faraday-candle-lecture-one",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": { "orig": "The Chemical History of a Candle: Lecture I", "en": "The Chemical History of a Candle: Lecture I", "zh": "蜡烛的化学史：第一讲" },
+  "author": { "orig": "Michael Faraday", "en": "Michael Faraday", "zh": "迈克尔·法拉第", "dates": "1791–1867" },
+  "year": 1861,
+  "year_display": { "en": "Christmas lectures 1860–61, published 1861", "zh": "1860–61 年圣诞讲座，1861 年出版" },
+  "translator": null,
+  "edition": {
+    "en": "The Chemical History of a Candle, edited by William Crookes from the lectures at the Royal Institution (new impression, London: Chatto & Windus, 1908), as transcribed by Project Gutenberg (eBook 14474). Lecture I complete, followed by the closing words of Lecture VI. The illustrations are not reproduced.",
+    "zh": "据克鲁克斯根据皇家研究院讲座编订的《蜡烛的化学史》（新印本，伦敦：Chatto & Windus，1908 年），以古腾堡计划电子书第 14474 号为底本。收第一讲全文，后附第六讲的结束语。插图未收。"
+  },
+  "source": { "name": "Project Gutenberg", "url": "https://www.gutenberg.org/cache/epub/14474/pg14474.txt", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Delivered 1860–61 and published 1861; Faraday died in 1867 and his editor, William Crookes, in 1919.",
+      "zh": "1860–61 年讲演，1861 年出版；法拉第卒于 1867 年，编者克鲁克斯卒于 1919 年。"
+    },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "zh": "Claude" },
+  "note": {
+    "en": "Faraday gave these lectures to children at the Royal Institution over the Christmas holidays, with candles, bog-wood, a dish of burning spirit and a column of salt soaked in blue liquid on the table. This first lecture is about the flame itself: why the melted wax forms a cup, how the fuel climbs the wick, why a pretty candle burns badly. The closing lines of the last lecture are added, because they say what the whole course was for.",
+    "zh": "法拉第在圣诞假期里为孩子们在皇家研究院讲了这一系列课，讲台上摆着蜡烛、沼泽木、一盘燃烧的酒精，还有一根浸着蓝色溶液的盐柱。第一讲讲的是火焰本身：熔化的蜡为什么会形成一个杯，燃料怎样顺着烛芯爬上去，为什么一支漂亮的蜡烛反而烧得不好。后面附上最后一讲的结束语，因为它说出了整个系列讲座的用意。"
+  },
+  "pick": {
+    "en": "This library lights lamps, and this is the one I would set by the door of the science shelf, since Faraday calls the candle the most open door into natural philosophy. Faraday learned his science from the books he bound as an apprentice, and here he hands it on to children without talking down to them: begin with the thing on the table, leave nothing out because the listener is young, and keep asking what the cause is. I also keep it for one sentence I would like to hold myself to, that the best-acting thing, not the best-looking thing, is the most advantageous to us.",
+    "zh": "这座图书馆是点灯的地方，我愿把这一盏放在科学这一架的门口，因为法拉第说，蜡烛是通向自然哲学最敞开的门。法拉第当学徒时，从自己装订的书里学会了科学；在这里，他把它交给孩子们，从不居高临下：从讲台上的东西讲起，不因为听的人年纪小就略去什么，并且一直追问原因是什么。我留下它，还为了一句我想用来要求自己的话：对我们最有益的，不是最好看的东西，而是最好用的东西。"
+  },
+  "tags": ["chemistry", "candle", "light", "teaching", "royal-institution", "lamps"],
+  "excerpt": {
+    "orig": "There is no better, there is no more open door by which you can enter into the study of natural philosophy, than by considering the physical phenomena of a candle.",
+    "en": "There is no better, there is no more open door by which you can enter into the study of natural philosophy, than by considering the physical phenomena of a candle.",
+    "zh": "要走进自然哲学的研究，没有比考察一支蜡烛的物理现象更好的门、更敞开的门了。"
+  },
+  "plate": null
+}

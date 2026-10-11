@@ -1,0 +1,63 @@
+{
+  "id": "S-002007",
+  "slug": "record-of-learning",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "禮記·學記",
+    "en": "The Record of Learning (from the Book of Rites)",
+    "zh": "礼记·学记"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous Confucian scholars",
+    "zh": "佚名（儒家学者）",
+    "dates": "late Warring States to early Han"
+  },
+  "year": -200,
+  "year_display": {
+    "en": "c. 3rd–2nd century BCE",
+    "zh": "约公元前 3–前 2 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Complete, as given on Chinese Wikisource; the source prints the chapter as one block, and it is divided here into paragraphs for reading.",
+    "zh": "全文，据维基文库；原文连排为一段，此处为便于阅读分段。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/禮記/學記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Classical Chinese text of the Warring States or early Han; public domain everywhere.",
+      "zh": "战国至汉初的古典文本，在全世界属于公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A chapter of the Book of Rites, probably written in the late Warring States or early Han, and often called the earliest surviving essay devoted entirely to education. It is shelved complete. Notice its picture of a good answer: like a bell, it rings lightly when struck lightly and fully when struck hard, and it waits for the sound to settle.",
+    "zh": "《礼记》中的一篇，大约写于战国末至汉初，常被称为现存最早专论教育的文章。全文上架。留意它对好回答的描写：如撞钟，叩之以小者则小鸣，叩之以大者则大鸣，待其从容，然后尽其声。"
+  },
+  "pick": null,
+  "tags": [
+    "teaching",
+    "learning",
+    "bell"
+  ],
+  "excerpt": {
+    "orig": "玉不琢，不成器。人不學，不知道。",
+    "en": "Jade that is not carved does not become a vessel; a person who does not learn does not know the Way.",
+    "zh": "玉不琢，不成器。人不学，不知道。"
+  },
+  "plate": null
+}

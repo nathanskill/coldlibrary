@@ -1,0 +1,61 @@
+{
+  "id": "G-009037",
+  "slug": "corot-a-woman-reading",
+  "title": {
+    "orig": "A Woman Reading",
+    "en": "A Woman Reading",
+    "zh": "读书的女子"
+  },
+  "artist": {
+    "orig": "Camille Corot",
+    "en": "Camille Corot",
+    "zh": "卡米耶·柯罗",
+    "dates": "1796–1875"
+  },
+  "year": 1869,
+  "year_display": {
+    "en": "1869 and 1870",
+    "zh": "1869 与 1870 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/435991",
+    "accession": "28.90",
+    "credit_line": "Gift of Louise Senff Cameron, in memory of her uncle, Charles H. Senff, 1928"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-16589-001.jpg",
+    "width": 1108,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1875. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1875 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A young woman in a blue blouse and full brown skirt sits in a grassy field, her cheek resting on one hand, reading a small book open in her lap. Behind her a pale river and a distant shore stretch under a grey-blue sky.",
+    "zh": "一位穿蓝色上衣和宽大褐裙的年轻女子坐在草地上，一只手托着脸颊，读着摊在膝上的一本小书。她身后是浅色的河流和远岸，天空灰蓝。"
+  },
+  "note": {
+    "en": "Corot was a landscape painter, but in later life he also painted figures, and he exhibited this one in 1869 and then kept working on it. She reads outdoors, wholly absorbed, and the landscape behind her seems to keep still so as not to disturb her.",
+    "zh": "柯罗是风景画家，但晚年也画人物，这一幅他在 1869 年展出之后又继续修改。她在户外读书，全然沉浸，身后的风景仿佛为了不打扰她而保持着静止。"
+  },
+  "pick": null,
+  "tags": [
+    "reading",
+    "book",
+    "river",
+    "figure"
+  ]
+}

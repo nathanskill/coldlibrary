@@ -1,0 +1,64 @@
+{
+  "id": "S-004027",
+  "slug": "yeats-cloths-of-heaven",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "Aedh Wishes for the Cloths of Heaven",
+    "en": "He Wishes for the Cloths of Heaven",
+    "zh": "他希望得到天国的锦缎"
+  },
+  "author": {
+    "orig": "W. B. Yeats",
+    "en": "W. B. Yeats",
+    "zh": "威廉·巴特勒·叶芝",
+    "dates": "1865–1939"
+  },
+  "year": 1899,
+  "year_display": {
+    "en": "1899",
+    "zh": "1899 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The Wind Among the Reeds (1899), on Project Gutenberg (eBook 32233), where it is titled “Aedh Wishes for the Cloths of Heaven”",
+    "zh": "据古登堡计划电子书 32233 所录《苇间风》（1899），题作《艾德希望得到天国的锦缎》"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/32233/pg32233.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1899; the author died in 1939.",
+      "zh": "1899 年首次发表；作者卒于 1939 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In The Wind Among the Reeds it was “Aedh Wishes for the Cloths of Heaven”; Yeats renamed it later. Eight lines built from a few repeated words: cloths, light, feet, dreams. The last line asks for care from anyone who is handed something fragile, which is also a fair thing to ask of a library’s readers.",
+    "zh": "在《苇间风》里，它题为《艾德希望得到天国的锦缎》；叶芝后来改了名。八行诗用几个反复出现的词搭成：锦缎、光、脚、梦。最后一行请求每一个接过易碎之物的人小心对待——对一座图书馆的读者，这也是一个合理的请求。"
+  },
+  "pick": null,
+  "tags": [
+    "dreams",
+    "light",
+    "gifts",
+    "ireland"
+  ],
+  "excerpt": {
+    "orig": "I have spread my dreams under your feet;\nTread softly because you tread on my dreams.",
+    "en": "I have spread my dreams under your feet;\nTread softly because you tread on my dreams.",
+    "zh": "我已把我的梦铺在你的脚下；\n轻一点踩吧，因为你踩着的是我的梦。"
+  },
+  "plate": null
+}

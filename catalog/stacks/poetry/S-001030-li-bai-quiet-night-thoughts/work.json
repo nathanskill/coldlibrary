@@ -1,0 +1,64 @@
+{
+  "id": "S-001030",
+  "slug": "li-bai-quiet-night-thoughts",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "靜夜思",
+    "en": "Quiet Night Thoughts",
+    "zh": "静夜思"
+  },
+  "author": {
+    "orig": "李白",
+    "en": "Li Bai",
+    "zh": "李白",
+    "dates": "701–762"
+  },
+  "year": 726,
+  "year_display": {
+    "en": "c. 726",
+    "zh": "约 726 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The version in Three Hundred Tang Poems, one of three versions given side by side on Chinese Wikisource.",
+    "zh": "据维基文库所列三个版本中的《唐诗三百首》本。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/靜夜思",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 762.",
+      "zh": "唐诗，作者卒于 762 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Probably the best-known poem in Chinese. Wikisource gives three versions: the oldest editions of Li Bai's works read 'I see the moonlight' and 'look at the mountain moon', while the form most people learn, with 'bright moon' twice, comes from the Qing anthology Three Hundred Tang Poems, and that is the form shelved here. All of them are Li Bai's moon; the difference is a small lesson in how texts travel.",
+    "zh": "大概是汉语里最有名的一首诗。维基文库并列了三个版本：李白文集的早期版本作“床前看月光”“举头望山月”；大多数人背的那个版本，两处都是“明月”，出自清代的《唐诗三百首》，这里收的就是这个版本。几个版本都是李白的月亮；其间的差别，是一堂关于文本如何流传的小课。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "night",
+    "home",
+    "frost"
+  ],
+  "excerpt": {
+    "orig": "舉頭望明月，低頭思故鄉。",
+    "en": "I raise my head and look at the bright moon, / lower my head and think of home.",
+    "zh": "举头望明月，低头思故乡。"
+  },
+  "plate": null
+}

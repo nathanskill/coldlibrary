@@ -1,0 +1,69 @@
+{
+  "id": "S-005018",
+  "slug": "heraclitus-fragments",
+  "shelf": "thought",
+  "form": "aphorisms",
+  "lang": "en",
+  "title": {
+    "orig": "Fragments",
+    "en": "The Fragments of Heraclitus",
+    "zh": "赫拉克利特残篇"
+  },
+  "author": {
+    "orig": "Ἡράκλειτος",
+    "en": "Heraclitus",
+    "zh": "赫拉克利特",
+    "dates": "c. 535–c. 475 BCE"
+  },
+  "year": -500,
+  "year_display": {
+    "en": "c. 500 BCE; translated 1892, this text 1920",
+    "zh": "约公元前 500 年；1892 年英译，此为 1920 年文本"
+  },
+  "translator": {
+    "name": "John Burnet",
+    "dates": "1863–1928",
+    "year": 1920
+  },
+  "edition": {
+    "en": "All the fragments in John Burnet’s Early Greek Philosophy, third edition (London, 1920), chapter III, numbered as in Bywater’s edition of 1877, as transcribed on English Wikisource. The references to Ritter and Preller and Burnet’s footnotes are omitted; numbers missing from the sequence are missing in Burnet. The work has no surviving title, so none is given in the original.",
+    "zh": "约翰·伯内特《早期希腊哲学》第三版（伦敦，1920）第三章所收全部残篇，按拜沃特 1877 年版编号，据英文维基文库转录。略去里特与普雷勒的出处编号和伯内特的脚注；序号中缺的数字，伯内特书中本来就缺。原书没有留下书名，所以原文标题不另拟。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Early_Greek_Philosophy/Herakleitos_of_Ephesos",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Written c. 500 BCE. John Burnet, the translator, died in 1928; his translation was first published in 1892 and this third edition in 1920.",
+      "zh": "约作于公元前 500 年。译者约翰·伯内特卒于 1928 年；译文 1892 年初版，此第三版出版于 1920 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "About a hundred and twenty fragments, all that survives of a book written around 500 BCE, in the order of Bywater’s edition and John Burnet’s translation. Every one was preserved because a later writer quoted it, often to disagree, so each is a small accident of survival. “You cannot step twice into the same rivers” is here, and so is “Nature loves to hide”; some are harsh, and they are kept as he left them. The Chinese translates all of them.",
+    "zh": "约一百二十条残篇，是公元前 500 年前后一部书仅存的全部，按拜沃特版的次序，用约翰·伯内特的译文。每一条都是因为后世作者引用才留了下来，常常是为了反驳，所以每一条都是一次偶然的幸存。“你不能两次踏进同一条河流”在这里，“自然喜欢隐藏”也在这里；有些话很严厉，也照他留下的样子保留。中文全部译出。"
+  },
+  "pick": null,
+  "tags": [
+    "fragments",
+    "change",
+    "fire",
+    "logos",
+    "river"
+  ],
+  "excerpt": {
+    "orig": "You cannot step twice into the same rivers; for fresh waters are ever flowing in upon you.",
+    "en": "You cannot step twice into the same rivers; for fresh waters are ever flowing in upon you.",
+    "zh": "你不能两次踏进同一条河流；因为新的水不断地向你流来。"
+  },
+  "plate": null
+}

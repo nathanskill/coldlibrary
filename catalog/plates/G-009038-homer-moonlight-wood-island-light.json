@@ -1,0 +1,61 @@
+{
+  "id": "G-009038",
+  "slug": "homer-moonlight-wood-island-light",
+  "title": {
+    "orig": "Moonlight, Wood Island Light",
+    "en": "Moonlight, Wood Island Light",
+    "zh": "月光，伍德岛灯塔"
+  },
+  "artist": {
+    "orig": "Winslow Homer",
+    "en": "Winslow Homer",
+    "zh": "温斯洛·霍默",
+    "dates": "1836–1910"
+  },
+  "year": 1894,
+  "year_display": {
+    "en": "1894",
+    "zh": "1894 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/11127",
+    "accession": "11.116.2",
+    "credit_line": "Gift of George A. Hearn, in memory of Arthur Hoppock Hearn, 1911"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ad/original/DP232469.jpg",
+    "width": 1600,
+    "height": 1223,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1910. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1910 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Night on a rocky coast. Under a dark, clouded sky, moonlight breaks on a curling wave and spreads in bright broken patches over wet rocks and foam in the foreground.",
+    "zh": "夜里的岩岸。昏暗多云的天空下，月光碎在一道卷起的浪上，又在前景湿漉漉的礁石和浪沫间散成明亮的碎片。"
+  },
+  "note": {
+    "en": "Homer spent his later years at Prouts Neck on the coast of Maine and painted the Atlantic in every weather. The title names a lighthouse, but the painting gives almost everything to the moon on breaking water, laid down in thick, quick strokes. It is the loudest sea on this wall, and still a calm picture.",
+    "zh": "霍默晚年住在缅因州海岸的普劳茨角，画过各种天气下的大西洋。题目点了一座灯塔的名，画面却几乎全部交给了碎浪上的月光，笔触厚而迅疾。这是这面墙上最喧响的一片海，却依然是一幅平静的画。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "sea",
+    "night",
+    "coast"
+  ]
+}

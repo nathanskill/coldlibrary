@@ -1,0 +1,55 @@
+{
+  "id": "G-008007",
+  "slug": "franklin-by-duplessis",
+  "title": {
+    "orig": "Benjamin Franklin (1706–1790)",
+    "en": "Benjamin Franklin",
+    "zh": "本杰明·富兰克林"
+  },
+  "artist": {
+    "orig": "Joseph Siffred Duplessis",
+    "en": "Joseph Siffred Duplessis",
+    "zh": "约瑟夫·西弗雷德·迪普莱西",
+    "dates": "1725–1802"
+  },
+  "year": 1778,
+  "year_display": {
+    "en": "1778",
+    "zh": "1778 年"
+  },
+  "medium": {
+    "en": "Oil on canvas, oval, 72.4 × 58.1 cm, in a carved and gilded frame",
+    "zh": "布面油画，椭圆形，72.4 × 58.1 厘米，配雕花描金画框"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/436236"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP-1255-001.jpg",
+    "width": 1200,
+    "height": 1600
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A public-domain painting released by The Metropolitan Museum of Art under its Open Access policy (CC0).",
+      "zh": "大都会艺术博物馆依其开放获取政策以 CC0 发布的公有领域画作。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Oval portrait of an old man with long grey hair, wearing a red coat with a fur collar, set in a gilded carved frame crowned with a laurel wreath, with the word VIR on a tablet beneath.",
+    "zh": "一幅椭圆形肖像：一位留着灰色长发的老人，身穿毛皮领的红色外衣；画框雕花描金，顶上饰有月桂花环，下方的牌子上刻着 VIR 一词。"
+  },
+  "note": {
+    "en": "Painted in Paris in 1778, when Franklin was seventy-two and serving as the American envoy to France. The frame carries a single Latin word, VIR, 'a man'. It hangs beside the epitaph he wrote fifty years earlier as a printer of twenty-two.",
+    "zh": "1778 年画于巴黎，当时富兰克林七十二岁，正担任美国驻法国的使节。画框上只刻着一个拉丁词：VIR，“一个人”。它挂在他五十年前、二十二岁还是个印刷工时写下的那篇墓志旁边。"
+  },
+  "tags": [
+    "portrait",
+    "franklin",
+    "painting"
+  ]
+}

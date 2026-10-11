@@ -1,0 +1,64 @@
+{
+  "id": "S-001037",
+  "slug": "du-fu-glad-of-rain-on-a-spring-night",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "春夜喜雨",
+    "en": "Glad of Rain on a Spring Night",
+    "zh": "春夜喜雨"
+  },
+  "author": {
+    "orig": "杜甫",
+    "en": "Du Fu",
+    "zh": "杜甫",
+    "dates": "712–770"
+  },
+  "year": 761,
+  "year_display": {
+    "en": "761",
+    "zh": "761 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/春夜喜雨",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 770.",
+      "zh": "唐诗，作者卒于 770 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written in Chengdu in 761, during one of the few settled spells of Du Fu's life, at the thatched cottage that friends helped him build. The rain is praised the way one would praise a good person: it knows when it is needed, does its work at night, and asks for no notice. The title names gladness outright, which is rare in Du Fu.",
+    "zh": "761 年作于成都，那是杜甫一生中少有的安定时光，住在朋友帮他盖起的草堂里。他夸这场雨，就像夸一个好人：知道什么时候被需要，在夜里做完它的事，不求人知。题目里直接用了一个“喜”字，这在杜甫诗中并不多见。"
+  },
+  "pick": null,
+  "tags": [
+    "rain",
+    "night",
+    "spring",
+    "lamp"
+  ],
+  "excerpt": {
+    "orig": "隨風潛入夜，潤物細無聲。",
+    "en": "It follows the wind, slipping in by night, / and soaks all things, fine and without a sound.",
+    "zh": "随风潜入夜，润物细无声。"
+  },
+  "plate": null
+}

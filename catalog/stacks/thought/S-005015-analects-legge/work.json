@@ -1,0 +1,67 @@
+{
+  "id": "S-005015",
+  "slug": "analects-legge",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "論語",
+    "en": "The Analects (Legge’s translation, selection)",
+    "zh": "论语（理雅各英译，选）"
+  },
+  "author": {
+    "orig": "孔子",
+    "en": "Confucius",
+    "zh": "孔子",
+    "dates": "551–479 BCE"
+  },
+  "year": -400,
+  "year_display": {
+    "en": "compiled c. 5th–4th century BCE; translated 1861",
+    "zh": "约公元前五至四世纪编成；1861 年英译"
+  },
+  "translator": {
+    "name": "James Legge",
+    "dates": "1815–1897",
+    "year": 1861
+  },
+  "edition": {
+    "en": "Six of the twenty books, complete: I (Hsio R), II (Wei Chang), IV (Le Jin), VII (Shu R), IX (Tsze Han) and XV (Wei Ling Kung), from Legge’s The Chinese Classics, vol. 1 (1861; revised 1893), as transcribed on English Wikisource. The Chinese text Legge printed above each chapter is omitted here, since the original has its own place in the Open Stacks; paragraphs split by page breaks in the transcription are rejoined.",
+    "zh": "二十篇中的六篇全文：学而、为政、里仁、述而、子罕、卫灵公，据英文维基文库所录理雅各《中国经典》第一卷（1861 年初版，1893 年修订）。理雅各在每章上方所印的中文原文这里不录，因为原典在开架书库另有位置；转录中被分页切断的段落已重新接合。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "An ancient Chinese text. James Legge, the translator, died in 1897; the translation was first published in 1861 and revised in 1893.",
+      "zh": "中国先秦典籍。译者理雅各卒于 1897 年；译本 1861 年初版，1893 年修订。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {},
+  "note": {
+    "en": "Six books of the Analects in James Legge’s translation, chosen because between them they hold most of the sayings on learning, teaching and the passing of time: “at fifteen, I had my mind bent on learning”, “a transmitter and not a maker”, the river that does not cease day or night. Legge’s English is careful, Victorian and sometimes stiff; “the superior man” for junzi has been argued over ever since. Read it beside the Chinese original on the neighbouring shelf.",
+    "zh": "理雅各译《论语》六篇；选这几篇，是因为论学、论教、论时光流逝的话大多在其中：“吾十有五而志于学”，“述而不作”，“逝者如斯夫，不舍昼夜”。理雅各的英文审慎，带着维多利亚时代的气息，有时显得生硬；他把“君子”译作 the superior man，此后一直有人争论。请与旁边书架上的中文原典对照阅读。"
+  },
+  "pick": null,
+  "tags": [
+    "learning",
+    "teaching",
+    "translation",
+    "confucius",
+    "classic"
+  ],
+  "excerpt": {
+    "orig": "The Master said, \"If a man keeps cherishing his old knowledge, so as continually to be acquiring new, he may be a teacher of others.\"",
+    "en": "The Master said, \"If a man keeps cherishing his old knowledge, so as continually to be acquiring new, he may be a teacher of others.\"",
+    "zh": "子曰：温故而知新，可以为师矣。"
+  },
+  "plate": null
+}

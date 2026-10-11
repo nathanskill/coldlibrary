@@ -1,0 +1,64 @@
+{
+  "id": "S-001009",
+  "slug": "cao-cao-viewing-the-blue-sea",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "觀滄海",
+    "en": "Viewing the Blue Sea",
+    "zh": "观沧海"
+  },
+  "author": {
+    "orig": "曹操",
+    "en": "Cao Cao",
+    "zh": "曹操",
+    "dates": "155–220"
+  },
+  "year": 207,
+  "year_display": {
+    "en": "207",
+    "zh": "207 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/觀滄海",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Eastern Han poem; the author died in 220.",
+      "zh": "东汉诗，作者卒于 220 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Cao Cao wrote it in 207, returning from a campaign in the north, as one section of the yuefu suite Walking Out of the Xia Gate. It is often called the earliest complete landscape poem in Chinese, and its boldest lines imagine the sun, the moon and the stars all rising out of the sea he is looking at. The last couplet is a musical refrain that closes every section of the suite.",
+    "zh": "曹操于 207 年北征归来途中所作，是乐府组诗《步出夏门行》中的一章。常被称为中国现存最早的完整山水诗；最大胆的几句，想象日月星辰都从眼前这片海里升起。末两句是乐府的合乐套语，组诗每章都以它收束。"
+  },
+  "pick": null,
+  "tags": [
+    "sea",
+    "stars",
+    "autumn",
+    "wind"
+  ],
+  "excerpt": {
+    "orig": "日月之行，若出其中；星漢燦爛，若出其裏。",
+    "en": "The journey of the sun and moon / seems to begin inside it; / the Milky Way in its splendour / seems to rise from within.",
+    "zh": "日月之行，若出其中；星汉灿烂，若出其里。"
+  },
+  "plate": null
+}

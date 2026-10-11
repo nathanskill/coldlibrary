@@ -1,0 +1,65 @@
+{
+  "id": "S-001044",
+  "slug": "zhang-ji-night-mooring-at-maple-bridge",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "楓橋夜泊",
+    "en": "Night Mooring at Maple Bridge",
+    "zh": "枫桥夜泊"
+  },
+  "author": {
+    "orig": "張繼",
+    "en": "Zhang Ji",
+    "zh": "张继",
+    "dates": "c. 712–c. 779"
+  },
+  "year": 756,
+  "year_display": {
+    "en": "mid-8th century",
+    "zh": "约 8 世纪中期"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/楓橋夜泊",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died around 779.",
+      "zh": "唐诗，作者约卒于 779 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Zhang Ji is remembered almost entirely for this poem, and the temple outside Suzhou is remembered partly because of it; people still gather there on New Year's Eve to hear the bell. The poem moves from sight to sound, and ends on a bell carrying across water to one sleepless person.",
+    "zh": "张继几乎只因这一首诗被记住，苏州城外的寒山寺也部分因它而闻名；至今每逢除夕，仍有人去那里听钟。诗从所见写到所闻，最后是一声钟响，越过水面，传到一个无眠的人耳边。"
+  },
+  "pick": null,
+  "tags": [
+    "night",
+    "river",
+    "frost",
+    "bell",
+    "travel"
+  ],
+  "excerpt": {
+    "orig": "姑蘇城外寒山寺，夜半鐘聲到客船。",
+    "en": "Outside the walls of Gusu, from Cold Mountain Temple, / the midnight bell reaches the traveller's boat.",
+    "zh": "姑苏城外寒山寺，夜半钟声到客船。"
+  },
+  "plate": null
+}

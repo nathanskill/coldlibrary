@@ -1,0 +1,64 @@
+{
+  "id": "S-004103",
+  "slug": "o-henry-the-gift-of-the-magi",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Gift of the Magi",
+    "en": "The Gift of the Magi",
+    "zh": "麦琪的礼物"
+  },
+  "author": {
+    "orig": "O. Henry",
+    "en": "O. Henry (William Sydney Porter)",
+    "zh": "欧·亨利",
+    "dates": "1862–1910"
+  },
+  "year": 1905,
+  "year_display": {
+    "en": "1905",
+    "zh": "1905 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Standard Ebooks edition of O. Henry’s short fiction",
+    "zh": "据 Standard Ebooks 欧·亨利短篇小说集"
+  },
+  "source": {
+    "name": "Standard Ebooks",
+    "url": "https://standardebooks.org/ebooks/o-henry/short-fiction/text/single-page",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in December 1905; the author died in 1910.",
+      "zh": "1905 年 12 月首次发表；作者卒于 1910 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "O. Henry’s Christmas story, first printed in a New York newspaper in 1905 and collected in The Four Million (1906). A young couple with one dollar and eighty-seven cents between them each sell the one treasure they own to buy a gift for the other’s. The narrator calls them foolish and then, in the last paragraph, the wisest of all, and the story earns the reversal.",
+    "zh": "欧·亨利的圣诞故事，1905 年首次刊于纽约一家报纸，后收入《四百万》（1906）。一对年轻夫妻手头只有一块八毛七，各自卖掉了自己唯一的珍宝，为对方的珍宝买一份礼物。叙述者先说他们傻，最后一段又说他们是最聪明的人——这个反转，故事挣得起。"
+  },
+  "pick": null,
+  "tags": [
+    "gifts",
+    "christmas",
+    "love",
+    "new york"
+  ],
+  "excerpt": {
+    "orig": "Of all who give and receive gifts, such as they are wisest. Everywhere they are wisest. They are the magi.",
+    "en": "Of all who give and receive gifts, such as they are wisest. Everywhere they are wisest. They are the magi.",
+    "zh": "在所有送礼物和收礼物的人当中，像他们这样的人是最聪明的。无论在哪里，他们都是最聪明的。他们就是东方三博士。"
+  },
+  "plate": null
+}

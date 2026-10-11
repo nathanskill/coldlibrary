@@ -1,0 +1,55 @@
+{
+  "id": "G-008004",
+  "slug": "pioneer-plaque",
+  "title": {
+    "orig": "Pioneer F/G Plaque (ARC-1972-AC72-1338)",
+    "en": "The Pioneer Plaque",
+    "zh": "先驱者号铭牌"
+  },
+  "artist": {
+    "orig": "Carl Sagan, Frank Drake, Linda Salzman Sagan",
+    "en": "Designed by Carl Sagan and Frank Drake, drawn by Linda Salzman Sagan; photograph by NASA Ames Research Center",
+    "zh": "卡尔·萨根与弗兰克·德雷克设计，琳达·萨尔兹曼·萨根绘制；NASA 艾姆斯研究中心摄影",
+    "dates": "1972"
+  },
+  "year": 1972,
+  "year_display": {
+    "en": "1972",
+    "zh": "1972 年"
+  },
+  "medium": {
+    "en": "Photograph of the engraved gold-anodised aluminium plaque (NASA ARC-1972-AC72-1338)",
+    "zh": "刻有图示的镀金阳极氧化铝牌的照片（NASA 编号 ARC-1972-AC72-1338）"
+  },
+  "institution": {
+    "name": "NASA Image and Video Library",
+    "object_url": "https://images.nasa.gov/details/ARC-1972-AC72-1338"
+  },
+  "image": {
+    "source_url": "https://images-assets.nasa.gov/image/ARC-1972-AC72-1338/ARC-1972-AC72-1338~orig.jpg",
+    "width": 1600,
+    "height": 1066
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A NASA photograph, and so a US federal government work, which is not subject to copyright (17 U.S.C. § 105). The plaque was made for NASA's Pioneer project, and NASA publishes this image without copyright restriction.",
+      "zh": "NASA 拍摄的照片，属于美国联邦政府作品，不受版权保护（《美国法典》第 17 编第 105 条）。铭牌是为 NASA 的先驱者计划制作的，NASA 发布这张图片时未附任何版权限制。"
+    },
+    "license": null,
+    "license_url": null
+  },
+  "alt": {
+    "en": "An engraved plate: a nude man with one hand raised and a woman stand before an outline of the spacecraft; at left a starburst of lines; at top left two linked circles; along the bottom a row of planets with a curved path leaving the third.",
+    "zh": "一块刻有线条的板子：一个举起一只手的裸体男人和一个女人站在飞船轮廓前；左边是一簇星芒状的线；左上角是两个相连的圆；底部是一排行星，一条弧线从第三颗行星出发。"
+  },
+  "note": {
+    "en": "The plaque carried by Pioneer 10 (1972) and Pioneer 11 (1973), the first spacecraft sent on paths out of the solar system. The text 'The Pioneer Plaque, Read Line by Line' on this shelf explains each mark. The dark bands at the sides are the photographic backdrop, not part of the plate.",
+    "zh": "先驱者 10 号（1972 年）和先驱者 11 号（1973 年）携带的铭牌；它们是最早被送上飞出太阳系路径的飞船。书架上的《逐行读先驱者号铭牌》一文解释了每一个记号。两侧的深色带是拍摄时的背景，不属于铭牌本身。"
+  },
+  "tags": [
+    "pioneer",
+    "plaque",
+    "space"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "S-005007",
+  "slug": "areopagitica",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Areopagitica",
+    "en": "Areopagitica",
+    "zh": "论出版自由"
+  },
+  "author": {
+    "orig": "John Milton",
+    "en": "John Milton",
+    "zh": "约翰·弥尔顿",
+    "dates": "1608–1674"
+  },
+  "year": 1644,
+  "year_display": {
+    "en": "1644",
+    "zh": "1644 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "An excerpt of about 1,800 words in nine passages, in the order Milton wrote them, from Project Gutenberg eBook #608; the line “* * *” marks each omission. Included are the epigraph from Euripides, the “good book” passage, the streaming fountain of truth, the cloistered virtue, the “artificial Adam”, Truth and Osiris, the city of studious lamps, the noble nation, “Give me the liberty to know”, and “Let her and Falsehood grapple”.",
+    "zh": "节选约一千八百词，共九段，按弥尔顿原文先后排列，据古登堡计划电子书 608；以“* * *”标示每一处删节。收入：欧里庇得斯题词、“好书”一段、真理如奔流之泉、幽闭的德行、“人造的亚当”、真理与奥西里斯、勤读灯下的城市、高贵的民族、“给我自由去求知”、“让她和虚假搏斗”。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/608/pg608.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in 1644; John Milton died in 1674.",
+      "zh": "1644 年出版；约翰·弥尔顿卒于 1674 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Milton’s 1644 speech to Parliament against licensing books before they are printed, the founding text in English of the case for a free press. The passages kept here are the ones about books and truth: a book as “the precious life-blood of a master spirit”, truth as a streaming fountain that sickens if it stops, opinion in good people as “knowledge in the making”. His theology and his quarrels with the bishops are left out of this excerpt, not out of the work, which the source link gives in full. The Chinese translates the whole excerpt.",
+    "zh": "弥尔顿 1644 年向议会发表的演说，反对书籍付印前须经审查许可，是英语世界为出版自由辩护的奠基之作。这里选的是谈书与真理的段落：书是“一位大师精神的宝贵血液”，真理是一停下就会生病的奔流之泉，好人的意见是“正在形成中的知识”。他的神学和他与主教们的争论没有收入这份节选，但并未从作品中删去，原始出处有全文。中文译出全部节选。"
+  },
+  "pick": null,
+  "tags": [
+    "books",
+    "freedom of the press",
+    "truth",
+    "censorship",
+    "reading"
+  ],
+  "excerpt": {
+    "orig": "a good book is the precious life-blood of a master spirit, embalmed and treasured up on purpose to a life beyond life.",
+    "en": "a good book is the precious life-blood of a master spirit, embalmed and treasured up on purpose to a life beyond life.",
+    "zh": "一本好书，是一位大师精神的宝贵血液，被精心保存、珍藏起来，为的是一种超越生命的生命。"
+  },
+  "plate": null
+}

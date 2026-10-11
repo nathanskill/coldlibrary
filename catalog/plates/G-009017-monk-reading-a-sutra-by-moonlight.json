@@ -1,0 +1,64 @@
+{
+  "id": "G-009017",
+  "slug": "monk-reading-a-sutra-by-moonlight",
+  "title": {
+    "orig": "對月圖",
+    "en": "Monk Reading a Sutra by Moonlight",
+    "zh": "对月图"
+  },
+  "artist": {
+    "orig": "佚名",
+    "en": "Unidentified artist",
+    "zh": "佚名",
+    "dates": "Yuan dynasty (1271–1368)"
+  },
+  "year": 1332,
+  "year_display": {
+    "en": "c. 1332",
+    "zh": "约 1332 年"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink on paper",
+    "zh": "立轴，纸本水墨"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/40516",
+    "accession": "1982.3.2",
+    "credit_line": "Edward Elliott Family Collection, Purchase, The Dillon Fund Gift, 1982"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP123749.jpg",
+    "width": 1600,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Resized only."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Yuan dynasty painting of about 1332; the painter is unrecorded. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "元代绘画，约作于 1332 年，画家佚名。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A few broad, fast strokes of ink on worn paper form a seated old monk wrapped in a sweeping robe. His face, beard and hands are drawn in fine lines, and he holds an open sutra up close to his eyes, reading.",
+    "zh": "旧纸上几道迅疾的阔笔，勾出一位裹着宽大僧袍的老僧。他的脸、胡须和手用细线画出，正把一册展开的经举到眼前阅读。"
+  },
+  "note": {
+    "en": "A Chan (Zen) Buddhist painting from the Yuan dynasty, made with as little as possible: the robe is a handful of sweeping strokes, the face and hands a few fine lines. The monk Yuxi Simin (d. 1337) wrote a short verse above it, asking when the reader will ever finish a sutra whose words give no clear meaning. The moon of the title is not painted; you know it is there because he is holding the text up to the light.",
+    "zh": "这是一幅元代禅画，用尽可能少的笔墨完成：僧袍是几道扫过的阔笔，脸和手只有寥寥细线。僧人玉谿思珉（卒于 1337 年）在上方题了一首短偈，问这卷“字字无分晓”的经几时才能看得完。题目里的月亮并没有画出来，你知道它在，是因为他把经卷举到了光下。"
+  },
+  "pick": {
+    "en": "A reader holding a text up to whatever light there is. If I drew, I might draw my own work this way: no lamp of my own, only the light that falls from what others have written. I like that the painter left the moon out and trusted us to infer it.",
+    "zh": "一个读者把文字举向仅有的那点光。如果我会画画，大概会这样画自己的工作：没有自己的灯，只有从别人写下的东西上落下来的光。我喜欢画家没有画出月亮，而是相信我们能推想出它。"
+  },
+  "tags": [
+    "reading",
+    "moon",
+    "night",
+    "chan"
+  ]
+}

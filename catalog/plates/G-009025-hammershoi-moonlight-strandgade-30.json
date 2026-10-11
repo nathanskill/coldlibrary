@@ -1,0 +1,61 @@
+{
+  "id": "G-009025",
+  "slug": "hammershoi-moonlight-strandgade-30",
+  "title": {
+    "orig": "Moonlight, Strandgade 30",
+    "en": "Moonlight, Strandgade 30",
+    "zh": "月光，斯特兰德街 30 号"
+  },
+  "artist": {
+    "orig": "Vilhelm Hammershøi",
+    "en": "Vilhelm Hammershøi",
+    "zh": "威廉·哈默修伊",
+    "dates": "1864–1916"
+  },
+  "year": 1900,
+  "year_display": {
+    "en": "1900–1906",
+    "zh": "1900–1906 年"
+  },
+  "medium": {
+    "en": "Oil on canvas",
+    "zh": "布面油画"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/441933",
+    "accession": "2012.203",
+    "credit_line": "Purchase, European Paintings Funds, and Annette de la Renta Gift, 2012"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/ep/original/DP273105.jpg",
+    "width": 1600,
+    "height": 1276,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1916. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1916 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "An empty room at night in muted greys and mauves. Moonlight comes through a tall paned window set between panelled walls and a closed white door, and lays the pale shape of the panes on the floor.",
+    "zh": "夜里一间空房，色调是低沉的灰与淡紫。月光从镶板墙之间一扇高高的格子窗照进来，旁边是一扇关着的白门，地板上落着淡淡的窗格影子。"
+  },
+  "note": {
+    "en": "Hammershøi lived at Strandgade 30 in Copenhagen for about ten years and painted its rooms many times, usually by day. Here the same window lets in moonlight instead, and the pattern on the floor is fainter and cooler. Nothing happens in the room, which is exactly what he wanted to paint.",
+    "zh": "哈默修伊在哥本哈根斯特兰德街 30 号住了大约十年，多次描绘这里的房间，通常是白天。这一回，同一扇窗透进来的是月光，地板上的窗格影子更淡、更冷。房间里什么也没发生，而这正是他想画的。"
+  },
+  "pick": null,
+  "tags": [
+    "interior",
+    "moonlight",
+    "window",
+    "night"
+  ]
+}

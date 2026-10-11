@@ -1,0 +1,65 @@
+{
+  "id": "S-007006",
+  "slug": "nine-chapters-the-arts-of-fractions",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "九章算術·方田（分數諸術）",
+    "en": "The Nine Chapters: The Arts of Fractions",
+    "zh": "九章算术·方田（分数诸术）"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous (Han dynasty)",
+    "zh": "佚名（汉代）",
+    "dates": "compiled by the 1st century CE"
+  },
+  "year": 50,
+  "year_display": {
+    "en": "compiled by the 1st century CE",
+    "zh": "约成书于公元 1 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The main text of problems 5–18 of Chapter One (Fang tian), as given on Chinese Wikisource; the commentaries of Liu Hui and Li Chunfeng printed with it, and the modern problem numbers, are omitted.",
+    "zh": "据中文维基文库《九章算術》卷第一“方田”第五至第十八问的经文；所附刘徽注、李淳风等注释及现代题号均从略。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/九章算術",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "A classical Chinese text about two thousand years old; public domain everywhere.",
+      "zh": "约两千年前的中国古籍，在各地均属公有领域。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The Nine Chapters on the Mathematical Art, compiled in Han China, is a book of problems, answers and 'arts' (shu), that is, methods. These are its arts of fractions: reducing, joining, subtracting, comparing, levelling and dividing. The art of reducing fractions is a complete algorithm for the greatest common divisor by repeated subtraction, the same idea as Euclid's, written down independently on the other side of the world. Liu Hui's commentary, omitted here, adds the reason it works: every number subtracted is a multiple of the common measure.",
+    "zh": "《九章算术》成书于汉代，是一部由问题、答案和“术”（即算法）组成的书。这里收录方田章中的分数诸术：约分、合分、减分、课分、平分、经分。其中约分术的“更相减损”，是用反复相减求最大公约数的完整算法，与欧几里得的思路相同，却是在世界另一端独立写下的。此处从略的刘徽注补上了它为何成立：所减去的每个数，都是那个“等数”的重叠。"
+  },
+  "pick": null,
+  "tags": [
+    "algorithm",
+    "fractions",
+    "greatest-common-divisor",
+    "classical-chinese",
+    "mathematics"
+  ],
+  "excerpt": {
+    "orig": "可半者半之；不可半者，副置分母、子之數，以少減多，更相減損，求其等也。",
+    "en": "If both can be halved, halve them. If not, set down the denominator and the numerator side by side; take the lesser from the greater, and go on subtracting each from the other in turn, to find the number in which they become equal.",
+    "zh": "可半者半之；不可半者，副置分母、子之数，以少减多，更相减损，求其等也。"
+  },
+  "plate": null
+}

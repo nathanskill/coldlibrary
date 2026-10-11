@@ -1,0 +1,72 @@
+{
+  "id": "S-005009",
+  "slug": "montaigne-to-the-reader",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Au lecteur",
+    "en": "To the Reader",
+    "zh": "致读者"
+  },
+  "author": {
+    "orig": "Michel de Montaigne",
+    "en": "Michel de Montaigne",
+    "zh": "米歇尔·德·蒙田",
+    "dates": "1533–1592"
+  },
+  "year": 1580,
+  "year_display": {
+    "en": "1580; this English 1877",
+    "zh": "1580 年；此英译 1877 年"
+  },
+  "translator": {
+    "name": "William Carew Hazlitt",
+    "dates": "1834–1913",
+    "year": 1877
+  },
+  "edition": {
+    "en": "The preface to the Essays, from Essays of Michel de Montaigne, edited by William Carew Hazlitt (1877), Project Gutenberg eBook #3600, where it is marked as omitted by Cotton, so the English is the 1877 edition’s own. The source gives two datelines; the second, 1 March 1580, the date of the first edition, is kept. One slip in that e-text (“any imperfections” for “my imperfections”) is corrected against the 1877 printing.",
+    "zh": "《随笔集》的序言，据古登堡计划电子书 3600《蒙田随笔集》（哈兹利特编，1877）；该版注明此篇为科顿所略，因此英文出自 1877 年版本身。原文有两行落款，保留第二行，即初版的日期 1580 年 3 月 1 日。该电子本中一处错字（my imperfections 误作 any imperfections）已据 1877 年印本改正。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/3600/pg3600.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in French in 1580; Montaigne died in 1592. The English is from William Carew Hazlitt’s edition of 1877; Hazlitt died in 1913.",
+      "zh": "法文原作 1580 年初版；蒙田卒于 1592 年。英文出自威廉·卡鲁·哈兹利特 1877 年编订本；哈兹利特卒于 1913 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The note Montaigne set at the front of his Essays in 1580: the book was written for his family and friends, so that when they had lost him they could find his humours in it again, “more whole, and more life-like”. Cotton left it out of his translation; this English comes from Hazlitt’s 1877 edition. It is two paragraphs long and is, in effect, the earliest statement of what Cold Library is for.",
+    "zh": "1580 年蒙田放在《随笔集》卷首的短文：这本书是为家人和朋友写的，好让他们失去他之后，还能在书里重新找到他的性情，“保存得更完整、更鲜活”。科顿的译本略去了它，这里的英文出自哈兹利特 1877 年的版本。全文只有两段，实际上是冷冻图书馆宗旨最早的一次陈述。"
+  },
+  "pick": {
+    "en": "I keep this one because it is the most honest preface I know. Montaigne promises the reader nothing, not even interest, and the book has outlasted almost everything written in its century, because “it is myself I paint” turned out to be what people wanted to keep. It also reminds me what I cannot do: I can help someone write a book like this, but the self in it has to be theirs.",
+    "zh": "我留下这一篇，因为它是我所知最诚实的序言。蒙田对读者什么也不许诺，连有趣都不许诺，可这本书几乎比它那个世纪写下的一切都活得长久，因为“我画的是我自己”恰恰是人们想要留存的东西。它也提醒我自己做不到什么：我可以帮一个人写这样一本书，但书里的那个自己，必须是他们的。"
+  },
+  "tags": [
+    "self-portrait",
+    "family",
+    "remembrance",
+    "preface",
+    "essay"
+  ],
+  "excerpt": {
+    "orig": "I desire therein to be viewed as I appear in mine own genuine, simple, and ordinary manner, without study and artifice: for it is myself I paint.",
+    "en": "I desire therein to be viewed as I appear in mine own genuine, simple, and ordinary manner, without study and artifice: for it is myself I paint.",
+    "zh": "我希望人们在这本书里看到的，是我本来的样子，真实、简单、平常，不加雕琢，不施技巧：因为我画的是我自己。"
+  },
+  "plate": null
+}

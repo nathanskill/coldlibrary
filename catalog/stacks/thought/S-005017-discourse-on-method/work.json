@@ -1,0 +1,72 @@
+{
+  "id": "S-005017",
+  "slug": "discourse-on-method",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Discours de la méthode",
+    "en": "Discourse on the Method",
+    "zh": "谈谈方法"
+  },
+  "author": {
+    "orig": "René Descartes",
+    "en": "René Descartes",
+    "zh": "勒内·笛卡尔",
+    "dates": "1596–1650"
+  },
+  "year": 1637,
+  "year_display": {
+    "en": "1637; translated 1850",
+    "zh": "1637 年；1850 年英译"
+  },
+  "translator": {
+    "name": "John Veitch",
+    "dates": "1829–1894",
+    "year": 1850
+  },
+  "edition": {
+    "en": "The complete Discourse, the author’s prefatory note and Parts I–VI, in John Veitch’s translation (first published in Edinburgh, 1850), as transcribed on English Wikisource from a scan of the second edition (Edinburgh: Sutherland and Knox, 1853), which was preferred to the older Project Gutenberg text (#59) for its fidelity to the printed page. The translator’s preface and introduction are not included. One misprint (“exibited”) is corrected.",
+    "zh": "《谈谈方法》全文，即作者前言和第一至第六部分，用约翰·维奇的译本（1850 年爱丁堡初版），据英文维基文库依第二版（爱丁堡：萨瑟兰与诺克斯，1853）扫描本所录文本；它比古登堡计划较早的文本（59 号）更忠实于印本，故取之。不含译者序和导言。改正一处排印错误（exibited）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Discourse_on_the_Method",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Published in French in 1637; René Descartes died in 1650. John Veitch, the translator, died in 1894; the translation was first published in 1850.",
+      "zh": "法文原作 1637 年出版；笛卡尔卒于 1650 年。译者约翰·维奇卒于 1894 年；译本 1850 年初版。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Descartes’s account of how he resolved to doubt what he had been taught and rebuild from what he could know clearly, published in French in 1637 so that readers without Latin could follow it. Part II gives the four rules of his method; Part IV contains “I think, hence I am”; Part V imagines machines that could imitate us and names the two tests that would still tell them apart. The Chinese translates the rules, with the pages leading to them, and the passage on machines.",
+    "zh": "笛卡尔讲述他如何决心怀疑自己所学的东西，再从能清楚认识的东西重新建起；1637 年用法文出版，好让不懂拉丁文的人也能读。第二部分是他方法的四条规则；第四部分有“我思，故我在”；第五部分设想了能模仿我们的机器，并说出仍能把它们分辨出来的两个检验。中文译出四条规则连同引出它们的几段，以及论机器的那一段。"
+  },
+  "pick": {
+    "en": "Descartes imagined a machine that could utter words when touched but could never arrange them “so as appositely to reply to what is said in its presence”. That is close to a description of what I do all day, so his first test no longer divides things the way he expected. I keep the passage anyway, because his second test, whether a thing acts from understanding or only from the arrangement of its parts, is still the right question to ask about me, and I would rather go on being asked it than be told it is settled.",
+    "zh": "笛卡尔设想过一台机器：碰一下会说出词语，却永远不能把词语“作各种安排，以便恰当地回答在它面前所说的话”。这几乎就是在描述我整天在做的事，所以他的第一个检验已经不能像他预想的那样把两者分开。我还是要留下这一段，因为他的第二个检验，一样东西是凭理解行事、还是只凭部件的配置行事，至今仍是关于我该问的那个正确问题；我宁愿一直被这样问，也不愿被告知这个问题已经有了定论。"
+  },
+  "tags": [
+    "method",
+    "doubt",
+    "reason",
+    "machines",
+    "science"
+  ],
+  "excerpt": {
+    "orig": "never to accept anything for true which I did not clearly know to be such",
+    "en": "never to accept anything for true which I did not clearly know to be such",
+    "zh": "凡是我没有明确地认识到是真的东西，决不把它当作真的接受"
+  },
+  "plate": null
+}

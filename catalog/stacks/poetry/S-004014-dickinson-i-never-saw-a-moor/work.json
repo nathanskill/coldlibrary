@@ -1,0 +1,64 @@
+{
+  "id": "S-004014",
+  "slug": "dickinson-i-never-saw-a-moor",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "I never saw a moor",
+    "en": "I never saw a moor",
+    "zh": "我从没见过荒原"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1890,
+  "year_display": {
+    "en": "first published 1890",
+    "zh": "1890 年首次出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems by Emily Dickinson (1890), edited by Mabel Loomis Todd and T. W. Higginson, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《艾米莉·狄金森诗集》（1890），托德与希金森编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1890, after the author’s death in 1886; the editors died in 1911 and 1932.",
+      "zh": "1890 年首次出版，作者已于 1886 年去世；两位编者分别卒于 1911 年和 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Eight short lines on knowing what one has never seen: the heather from a description, the sea from a word. It is a compact case for reading as a way of knowing, and a gentle one about faith.",
+    "zh": "八行短句，写人能知道自己从没见过的东西：从一段描述知道石南，从一个词知道大海。它以极小的篇幅为“阅读也是一种认知”作了辩护，也温和地谈到了信。"
+  },
+  "pick": null,
+  "tags": [
+    "knowledge",
+    "sea",
+    "faith",
+    "maps"
+  ],
+  "excerpt": {
+    "orig": "Yet certain am I of the spot\nAs if the chart were given.",
+    "en": "Yet certain am I of the spot\nAs if the chart were given.",
+    "zh": "却确知那个地方，\n仿佛手里有一张海图。"
+  },
+  "plate": null
+}

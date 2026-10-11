@@ -1,0 +1,64 @@
+{
+  "id": "S-004026",
+  "slug": "yeats-the-lake-isle-of-innisfree",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "The Lake Isle of Innisfree",
+    "en": "The Lake Isle of Innisfree",
+    "zh": "因尼斯弗里湖岛"
+  },
+  "author": {
+    "orig": "W. B. Yeats",
+    "en": "W. B. Yeats",
+    "zh": "威廉·巴特勒·叶芝",
+    "dates": "1865–1939"
+  },
+  "year": 1890,
+  "year_display": {
+    "en": "1890",
+    "zh": "1890 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems (1895), in the 1920 London printing, on Project Gutenberg (eBook 38877)",
+    "zh": "据古登堡计划电子书 38877 所录《诗集》（1895）1920 年伦敦印本"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/38877/pg38877.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1890; the author died in 1939.",
+      "zh": "1890 年首次发表；作者卒于 1939 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Yeats wrote it in London in 1888, homesick, after a small fountain in a shop window reminded him of lake water; it was first published in 1890. The poem is a plan, nine bean rows and a hive, made by someone standing on grey pavement. The last line, “in the deep heart’s core”, is where the lake actually is.",
+    "zh": "1888 年叶芝在伦敦思乡，商店橱窗里一个小喷泉让他想起湖水，于是写下这首诗，1890 年首次发表。诗是一份计划——九垄豆子，一个蜂巢——由一个站在灰色人行道上的人拟定。最后一行“在内心最深处”，才是那片湖真正所在的地方。"
+  },
+  "pick": null,
+  "tags": [
+    "lake",
+    "peace",
+    "home",
+    "ireland"
+  ],
+  "excerpt": {
+    "orig": "And I shall have some peace there, for peace comes dropping slow,",
+    "en": "And I shall have some peace there, for peace comes dropping slow,",
+    "zh": "我会在那里得到一些安宁，因为安宁慢慢滴落，"
+  },
+  "plate": null
+}

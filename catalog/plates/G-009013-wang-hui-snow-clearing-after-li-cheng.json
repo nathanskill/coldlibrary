@@ -1,0 +1,61 @@
+{
+  "id": "G-009013",
+  "slug": "wang-hui-snow-clearing-after-li-cheng",
+  "title": {
+    "orig": "倣李成雪霽圖",
+    "en": "Snow Clearing: Landscape after Li Cheng",
+    "zh": "仿李成雪霁图"
+  },
+  "artist": {
+    "orig": "王翬",
+    "en": "Wang Hui",
+    "zh": "王翚",
+    "dates": "1632–1717"
+  },
+  "year": 1669,
+  "year_display": {
+    "en": "dated 1669",
+    "zh": "1669 年"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink and colour on paper",
+    "zh": "立轴，纸本设色"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/40021",
+    "accession": "1978.13",
+    "credit_line": "Ex coll.: C. C. Wang Family, Gift of Mr. and Mrs. Earl Morse, in honor of Professor Wen Fong, 1978"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP-36810-002.jpg",
+    "width": 696,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1717. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1717 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "A tall winter landscape in ink. Snow-covered peaks and cliffs climb toward the top, bare trees cluster on the rocks, and a stream runs through the lower half; a few lines of small characters stand in the sky at upper left.",
+    "zh": "一幅竖长的水墨冬景。积雪的峰峦和山崖向上攀升，岩石上簇生着落尽叶子的树，一条溪流穿过下半部；左上方的天空里有几行小字题款。"
+  },
+  "note": {
+    "en": "Wang Hui, one of the Four Wangs of the early Qing, painted this in the manner of Li Cheng, a tenth-century master of wintry forests whose genuine works were already rare centuries before. Painting after an old master was a way of keeping a style alive by practising it. The white of the snow is paper left untouched, with ink laid around it.",
+    "zh": "王翚是清初“四王”之一，这幅仿的是十世纪擅画寒林的李成——李成的真迹早在几百年前就已罕见。“仿”某位古人，是靠亲手练习让一种画法活下去。雪的白是留出来的纸，墨围着它铺开。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "mountains",
+    "winter",
+    "ink"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "S-002064",
+  "slug": "song-yingxing-works-of-heaven-authors-preface",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "天工開物·自序",
+    "en": "The Works of Heaven and the Inception of Things: Author's Preface",
+    "zh": "天工开物·自序"
+  },
+  "author": {
+    "orig": "宋應星",
+    "en": "Song Yingxing",
+    "zh": "宋应星",
+    "dates": "1587–c. 1666"
+  },
+  "year": 1637,
+  "year_display": {
+    "en": "1637",
+    "zh": "1637 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the signature line is printed without its parentheses.",
+    "zh": "据维基文库；署名一行去掉括号。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/天工開物/自序",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Late Ming text printed in 1637; the author died about 1666.",
+      "zh": "明末文本，1637 年刊行，作者约卒于 1666 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Song Yingxing's preface to his illustrated account of crafts and production, printed in 1637 with a friend's help. He apologises for being too poor to buy samples or gather colleagues, writes for princes who have never seen a plough, and ends by telling ambitious scholars to toss the book aside because it will not help them in any examination. Notice the order of the book: grain first, gold and jade last.",
+    "zh": "宋应星为他那部图文并茂的工艺之书写的序，1637 年在友人资助下刊行。他抱歉自己贫穷，无力购物考证、招集同人；他为没见过耒耜的王孙写作；最后请功名之士把这书弃掷案头，因为它与功名进取毫不相关。留意全书的次序：五谷在前，金玉在后。"
+  },
+  "pick": null,
+  "tags": [
+    "craft",
+    "technology",
+    "preface"
+  ],
+  "excerpt": {
+    "orig": "丐大業文人，棄擲案頭，此書于功名進取毫不相關也。",
+    "en": "Let the ambitious men of letters toss it aside on their desks: this book has nothing whatever to do with advancement in examinations and office.",
+    "zh": "丐大业文人，弃掷案头，此书于功名进取毫不相关也。"
+  },
+  "plate": null
+}

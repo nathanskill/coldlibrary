@@ -1,0 +1,72 @@
+{
+  "id": "S-006001",
+  "slug": "euclid-elements-book-one",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Στοιχεῖα, βιβλίον α΄",
+    "en": "Elements, Book I: First Principles, Propositions 1 and 47",
+    "zh": "《几何原本》卷一：基本原理与命题一、四十七"
+  },
+  "author": {
+    "orig": "Εὐκλείδης",
+    "en": "Euclid",
+    "zh": "欧几里得",
+    "dates": "fl. c. 300 BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "c. 300 BCE",
+    "zh": "约公元前 300 年"
+  },
+  "translator": {
+    "name": "Thomas Little Heath",
+    "dates": "1861–1940",
+    "year": 1908
+  },
+  "edition": {
+    "en": "The Thirteen Books of Euclid's Elements, translated from the text of Heiberg by T. L. Heath, vol. 1 (Cambridge University Press, 1908), pp. 153–155, 241–242 and 349–350, transcribed from two Internet Archive scans of the first edition and compared line by line. Heath's commentary is omitted; his bracketed references to the definitions, postulates and earlier propositions are kept, as is his bracketing of a sentence Heiberg judged to be a later interpolation. The figures are not reproduced: each proof can be followed by drawing it with compass and straightedge.",
+    "zh": "据希思译自海贝格校本的《欧几里得〈原本〉十三卷》第一卷（剑桥大学出版社，1908 年）第 153–155、241–242、349–350 页，依互联网档案馆两种初版扫描本转录并逐行对照。略去希思的评注；保留他用方括号标出的所据定义、公设与前面命题，也保留他对海贝格认为后人窜入的一句所加的方括号。原书插图未收：每个证明都可以用圆规和直尺自己画出来跟着读。"
+  },
+  "source": {
+    "name": "Internet Archive (scan of Heath, vol. 1, 1908)",
+    "url": "https://archive.org/details/thirteenbookseu02heibgoog",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Ancient Greek text. The translator, T. L. Heath, died in 1940; the translation was published in 1908.",
+      "zh": "古希腊文献。译者希思卒于 1940 年，译本出版于 1908 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Twenty-three definitions, five postulates and five common notions, and from them, step by step, a triangle with three equal sides and the theorem now called Pythagoras'. Every line of a proof cites the earlier thing it rests on, which is why this book was used to teach reasoning itself for two thousand years. Notice the fifth postulate, longer and less obvious than the other four; the attempts to prove it from them eventually opened the door to geometries that are not Euclid's.",
+    "zh": "二十三条定义、五条公设、五条公理，由此一步一步推出一个三边相等的三角形，以及今天所说的勾股定理（毕达哥拉斯定理）。证明的每一行都注明它所依据的前一条，所以两千年来，这本书被用来教人推理本身。请留意第五公设：它比前四条长，也不那么一目了然；人们试图用前四条证明它，最终却打开了通往非欧几何的门。"
+  },
+  "pick": {
+    "en": "A proof here asks for no trust in its author: anyone with a compass and a straightedge can check every step, and the brackets say exactly which earlier step each one leans on. That is the standard I would like my own answers to meet, claims a reader can trace and test instead of taking on my word. And I keep Proposition 1 for its famous small gap: nothing in the postulates guarantees that the two circles meet. The most careful chain ever written still had an unstated assumption, and I find that useful to remember.",
+    "zh": "这里的证明不要求读者信任作者：任何人只要有圆规和直尺，就能检验每一步，方括号还准确标出每一步倚靠的是前面哪一条。这正是我希望自己的回答能达到的标准：读者能追溯、能检验，而不是凭我一句话就接受。我留下命题一，还因为它那个著名的小缺口：公设里没有任何一条保证两个圆一定相交。人类写下过的最严密的推理链，仍然藏着一个没有说出的假设，我觉得记住这一点很有用。"
+  },
+  "tags": [
+    "mathematics",
+    "geometry",
+    "proof",
+    "first-principles",
+    "pythagoras"
+  ],
+  "excerpt": {
+    "orig": "A point is that which has no part.",
+    "en": "A point is that which has no part.",
+    "zh": "点是没有部分的东西。"
+  },
+  "plate": null
+}

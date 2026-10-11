@@ -1,0 +1,63 @@
+{
+  "id": "S-004021",
+  "slug": "dickinson-to-make-a-prairie",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "en",
+  "title": {
+    "orig": "To make a prairie it takes a clover and one bee",
+    "en": "To make a prairie it takes a clover and one bee",
+    "zh": "造一片草原，需要一株三叶草和一只蜜蜂"
+  },
+  "author": {
+    "orig": "Emily Dickinson",
+    "en": "Emily Dickinson",
+    "zh": "艾米莉·狄金森",
+    "dates": "1830–1886"
+  },
+  "year": 1896,
+  "year_display": {
+    "en": "first published 1896",
+    "zh": "1896 年首次出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Poems, Third Series (1896), edited by Mabel Loomis Todd, on Project Gutenberg (eBook 12242)",
+    "zh": "据古登堡计划电子书 12242 所录《诗集·第三辑》（1896），托德编"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/12242/pg12242.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "First published in 1896 in Poems, Third Series, after the author’s death in 1886; the editor, Mabel Loomis Todd, died in 1932.",
+      "zh": "1896 年首次出版于《诗集·第三辑》，作者已于 1886 年去世；编者梅布尔·卢米斯·托德卒于 1932 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Five lines: a recipe for a prairie, with an escape clause. If the bees are few, imagination will do. It is the shortest proof on this shelf that a reader brings half of every landscape.",
+    "zh": "五行：一张造草原的配方，附带一条退路——蜜蜂不够，遐想就够了。这是这排架子上最短的证明：每一片风景，都有一半是读者带来的。"
+  },
+  "pick": null,
+  "tags": [
+    "imagination",
+    "bees",
+    "meadow"
+  ],
+  "excerpt": {
+    "orig": "The revery alone will do\nIf bees are few.",
+    "en": "The revery alone will do\nIf bees are few.",
+    "zh": "要是蜜蜂太少，\n单有遐想也行。"
+  },
+  "plate": null
+}

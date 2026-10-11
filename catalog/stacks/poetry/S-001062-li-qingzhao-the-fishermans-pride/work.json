@@ -1,0 +1,65 @@
+{
+  "id": "S-001062",
+  "slug": "li-qingzhao-the-fishermans-pride",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "漁家傲·記夢",
+    "en": "To the Tune Yujia'ao: Recording a Dream",
+    "zh": "渔家傲·记梦"
+  },
+  "author": {
+    "orig": "李清照",
+    "en": "Li Qingzhao",
+    "zh": "李清照",
+    "dates": "1084–c. 1155"
+  },
+  "year": 1130,
+  "year_display": {
+    "en": "c. 1130",
+    "zh": "约 1130 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/漁家傲_(李清照)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Song dynasty lyric (ci); the author died around 1155.",
+      "zh": "宋词，作者约卒于 1155 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "The boldest of Li Qingzhao's lyrics, usually dated to the years after she fled south. She dreams of sailing up the Milky Way and being asked by heaven where she is going, and answers like a traveller who has outgrown the road. The roc rising on a wind of ninety thousand li comes from Zhuangzi, and the Three Islands are the islands of the immortals in the eastern sea.",
+    "zh": "李清照词中最豪放的一首，一般认为作于南渡之后。她梦见乘船溯银河而上，天帝问她要去哪里，她的回答像一个已经走出了原来那条路的旅人。“九万里风鹏正举”出自《庄子》，三山是东海中的仙山。"
+  },
+  "pick": null,
+  "tags": [
+    "stars",
+    "sea",
+    "dream",
+    "courage",
+    "writing"
+  ],
+  "excerpt": {
+    "orig": "九萬里風鵬正舉。風休住，蓬舟吹取三山去。",
+    "en": "Ninety thousand li on the wind, the great roc is rising. / Wind, do not stop: / blow my little boat away to the Three Islands.",
+    "zh": "九万里风鹏正举。风休住，蓬舟吹取三山去。"
+  },
+  "plate": null
+}

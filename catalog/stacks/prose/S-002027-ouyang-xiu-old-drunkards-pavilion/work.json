@@ -1,0 +1,64 @@
+{
+  "id": "S-002027",
+  "slug": "ouyang-xiu-old-drunkards-pavilion",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "醉翁亭記",
+    "en": "The Old Drunkard's Pavilion",
+    "zh": "醉翁亭记"
+  },
+  "author": {
+    "orig": "歐陽脩",
+    "en": "Ouyang Xiu",
+    "zh": "欧阳修",
+    "dates": "1007–1072"
+  },
+  "year": 1046,
+  "year_display": {
+    "en": "1046",
+    "zh": "1046 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource, which reads the name of the stream as 讓泉 (Yielding Spring); textual notes are omitted.",
+    "zh": "据维基文库，泉名作“让泉”；不录注释。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/醉翁亭記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1072.",
+      "zh": "北宋散文，作者卒于 1072 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Ouyang Xiu's account of a pavilion in the hills above Chuzhou, written in 1046, with its famous line that the old drunkard's heart is not in the wine but in the mountains and water. Almost every sentence ends with the particle ye, which gives the essay its rocking rhythm. This edition names the stream the Yielding Spring, where many later editions have the Brewing Spring.",
+    "zh": "欧阳修 1046 年写滁州山中的醉翁亭，名句“醉翁之意不在酒，在乎山水之间也”出自这里。几乎每一句都以“也”字收尾，形成摇曳的节奏。此本泉名作“让泉”，许多后来的版本作“酿泉”。"
+  },
+  "pick": null,
+  "tags": [
+    "mountains",
+    "pavilion",
+    "wine",
+    "seasons"
+  ],
+  "excerpt": {
+    "orig": "醉翁之意不在酒，在乎山水之間也。",
+    "en": "The Old Drunkard's heart is not in the wine but in the mountains and the water.",
+    "zh": "醉翁之意不在酒，在乎山水之间也。"
+  },
+  "plate": null
+}

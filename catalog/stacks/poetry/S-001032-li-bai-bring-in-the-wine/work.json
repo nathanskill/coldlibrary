@@ -1,0 +1,64 @@
+{
+  "id": "S-001032",
+  "slug": "li-bai-bring-in-the-wine",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "將進酒",
+    "en": "Bring in the Wine",
+    "zh": "将进酒"
+  },
+  "author": {
+    "orig": "李白",
+    "en": "Li Bai",
+    "zh": "李白",
+    "dates": "701–762"
+  },
+  "year": 752,
+  "year_display": {
+    "en": "c. 752",
+    "zh": "约 752 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out, and the 將 it supplies in brackets in the sixth line is printed without them.",
+    "zh": "据维基文库，删去其所注异文；第六行原以括号补出的“将”字径直排入。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/將進酒_(李白)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 762.",
+      "zh": "唐诗，作者卒于 762 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "A drinking song in an old yuefu form, written around 752 with two friends, Cen Xun and Yuan Danqiu, whom it names. It swings between grandeur and despair inside single lines: the river from heaven, white hair by evening, gifts that 'must have their use'. Read it aloud; the long and short lines are built for a voice, and the last phrase turns the whole party into a toast against a sorrow older than everyone in the room.",
+    "zh": "一首沿用乐府旧题的劝酒歌，约 752 年与岑勋、元丹丘两位朋友同饮时作，诗中直呼其名。它常在一句之内就从豪迈跌到悲凉：黄河天上来，朝如青丝暮成雪，天生我材必有用。请大声读它；长短句是为嗓音而造的，最后一句把整场酒会变成一次举杯，对抗比在座所有人都古老的愁。"
+  },
+  "pick": null,
+  "tags": [
+    "wine",
+    "friendship",
+    "time",
+    "river"
+  ],
+  "excerpt": {
+    "orig": "君不見，黃河之水天上來，奔流到海不復回！",
+    "en": "Have you not seen / the Yellow River's waters coming down from heaven, / rushing to the sea, never to return?",
+    "zh": "君不见，黄河之水天上来，奔流到海不复回！"
+  },
+  "plate": null
+}

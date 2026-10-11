@@ -1,0 +1,63 @@
+{
+  "id": "S-007017",
+  "slug": "rfc-1958-architectural-principles-of-the-internet",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "RFC 1958: Architectural Principles of the Internet",
+    "en": "RFC 1958: Architectural Principles of the Internet",
+    "zh": "RFC 1958：互联网的架构原则"
+  },
+  "author": {
+    "orig": "Brian Carpenter (editor), for the Internet Architecture Board",
+    "en": "Brian Carpenter (editor), for the Internet Architecture Board",
+    "zh": "布赖恩·卡彭特（编），代表互联网架构委员会",
+    "dates": "fl. 1996"
+  },
+  "year": 1996,
+  "year_display": {
+    "en": "June 1996",
+    "zh": "1996 年 6 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The plain-text RFC 1958 from rfc-editor.org, with page headers and footers removed and paragraphs re-flowed; the table of contents, whose page numbers no longer apply, is omitted.",
+    "zh": "据 rfc-editor.org 的纯文本 RFC 1958；去掉了页眉页脚并重排段落；目录的页码已不适用，故从略。"
+  },
+  "source": {
+    "name": "RFC Editor",
+    "url": "https://www.rfc-editor.org/rfc/rfc1958.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "The memo itself states: 'Distribution of this memo is unlimited.' Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
+      "zh": "该备忘录自身声明：“本备忘录的分发不受限制。”依据 IETF 信托法律条款第 2.c 条，2015 年以前发表的 RFC 仍适用发表时的条款：允许完整、不加修改地复制和分发，但未授予翻译权。因此原文按原样收录（仅调整版面），以摘要代替翻译。"
+    },
+    "license": "RFC distribution statement: “Distribution of this memo is unlimited.”",
+    "license_url": "https://www.rfc-editor.org/rfc/rfc1958.txt",
+    "notice": "Distribution of this memo is unlimited.",
+    "verbatim_only": true
+  },
+  "translations": {},
+  "note": {
+    "en": "Written in 1996 for the Internet Architecture Board, this short memo is the nearest thing the Internet has to a written constitution, and it begins by saying that the only principle sure to survive is constant change. It sets down the end-to-end argument, 'be strict when sending and tolerant when receiving', and 'nothing gets standardised until there are multiple instances of running code'. Notice its image of renewing a city street by street rather than razing it, which is also how a library grows.",
+    "zh": "这份短备忘录于 1996 年代表互联网架构委员会发布，是互联网最接近成文“宪法”的东西；它开篇就说，唯一必定长存的原则是不断变化。它写下了端到端原则（网络只管尽力传送数据报，其余一切在边缘完成），“发送时严格，接收时宽容”，“拿不准时选最简单的方案”，以及“在出现多个可运行的实现之前，什么都不标准化”。请留意它的比喻：一条街一条街地翻新一座城市，而不是把城市推平重建——一座图书馆也是这样生长的。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
+  },
+  "pick": null,
+  "tags": [
+    "rfc",
+    "internet",
+    "architecture",
+    "end-to-end",
+    "principles"
+  ],
+  "excerpt": {
+    "orig": "The principle of constant change is perhaps the only principle of the Internet that should survive indefinitely.",
+    "en": "The principle of constant change is perhaps the only principle of the Internet that should survive indefinitely.",
+    "zh": "不断变化的原则，也许是互联网唯一应当无限期存续的原则。"
+  },
+  "plate": null
+}

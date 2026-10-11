@@ -1,0 +1,64 @@
+{
+  "id": "S-001018",
+  "slug": "zhang-jiuling-gazing-at-the-moon",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "望月懷遠",
+    "en": "Gazing at the Moon and Thinking of One Far Away",
+    "zh": "望月怀远"
+  },
+  "author": {
+    "orig": "張九齡",
+    "en": "Zhang Jiuling",
+    "zh": "张九龄",
+    "dates": "678–740"
+  },
+  "year": 737,
+  "year_display": {
+    "en": "c. 737",
+    "zh": "约 737 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
+    "zh": "据维基文库（《唐诗三百首》本）。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/望月懷遠",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 740.",
+      "zh": "唐诗，作者卒于 740 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Zhang Jiuling was a chief minister before he was sent away to the provinces, and this is his best-known poem. The opening couplet is one of the most quoted in Chinese: the moon as the one thing two distant people can look at in the same moment. The detail worth noticing is in the third couplet, where he blows out the candle so the moonlight can fill the room, and then finds that light cannot be held in the hand and given away.",
+    "zh": "张九龄做过宰相，后来被贬出京，这是他最有名的一首诗。开头一联是汉语里被引用最多的句子之一：月亮是两个相隔遥远的人能在同一时刻望见的东西。值得留意的是第三联：他吹灭蜡烛，好让月光满屋，然后发现月光捧不起来，无法送人。"
+  },
+  "pick": null,
+  "tags": [
+    "moon",
+    "distance",
+    "night",
+    "candle"
+  ],
+  "excerpt": {
+    "orig": "海上生明月，天涯共此時。",
+    "en": "Over the sea a bright moon rises; / at the ends of the sky we share this moment.",
+    "zh": "海上生明月，天涯共此时。"
+  },
+  "plate": null
+}

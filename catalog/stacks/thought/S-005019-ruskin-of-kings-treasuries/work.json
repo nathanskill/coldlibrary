@@ -1,0 +1,65 @@
+{
+  "id": "S-005019",
+  "slug": "ruskin-of-kings-treasuries",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Of Kings’ Treasuries",
+    "en": "Of Kings’ Treasuries (the passage on books)",
+    "zh": "论君王的宝库（论书一节）"
+  },
+  "author": {
+    "orig": "John Ruskin",
+    "en": "John Ruskin",
+    "zh": "约翰·罗斯金",
+    "dates": "1819–1900"
+  },
+  "year": 1865,
+  "year_display": {
+    "en": "delivered 1864; published 1865",
+    "zh": "1864 年演讲；1865 年出版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "A continuous excerpt of about 2,400 words from “Sesame: Of Kings’ Treasuries”, the first lecture in Sesame and Lilies, from “But, granting that we had both the will and the sense to choose our friends well” to “before you can gather one grain of the metal”. Text of the 1894 George Allen edition, as transcribed by Project Gutenberg (eBook #1293); one footnote marker removed.",
+    "zh": "《芝麻：论君王的宝库》（《芝麻与百合》第一讲）中连续的一段，约二千四百词，从“可是，就算我们既有意愿、也有眼光去好好选择朋友”到“才能收集到一粒金属”。据古登堡计划电子书 1293 所录 1894 年乔治·艾伦版文本；删去一个脚注标号。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1293/pg1293.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Delivered in 1864 and published in 1865; John Ruskin died in 1900. The 1894 edition used here was printed in his lifetime.",
+      "zh": "1864 年演讲，1865 年出版；约翰·罗斯金卒于 1900 年。所用 1894 年版印行于他生前。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "A lecture Ruskin gave near Manchester in December 1864, and the most eloquent case in English for the bookcase as a society always open to you. Ruskin divides books into books of the hour and books of all time, and imagines the author of a true book saying, “This is the best of me … this, if anything of mine, is worth your memory.” His Victorian assumptions about class show here and there; the central passage has not aged. The Chinese translates the whole excerpt.",
+    "zh": "1864 年 12 月罗斯金在曼彻斯特一带所作的演讲，也是英语里把书架说成“一个始终向你敞开的社会”说得最动人的一篇。他把书分为一时之书与永久之书，并设想一本真正的书的作者这样说：“这是我身上最好的东西……这个，如果我有什么值得你记住的，就是它。”文中处处可见维多利亚时代的阶层观念；但核心的这一段并没有过时。中文译出全部节选。"
+  },
+  "pick": null,
+  "tags": [
+    "books",
+    "reading",
+    "libraries",
+    "permanence",
+    "lecture"
+  ],
+  "excerpt": {
+    "orig": "A book is essentially not a talking thing, but a written thing; and written, not with a view of mere communication, but of permanence.",
+    "en": "A book is essentially not a talking thing, but a written thing; and written, not with a view of mere communication, but of permanence.",
+    "zh": "书在本质上不是说话的东西，而是写下来的东西；而且写下来，不是为了单纯的传达，而是为了长存。"
+  },
+  "plate": null
+}

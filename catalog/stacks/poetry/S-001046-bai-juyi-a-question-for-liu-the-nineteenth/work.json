@@ -1,0 +1,68 @@
+{
+  "id": "S-001046",
+  "slug": "bai-juyi-a-question-for-liu-the-nineteenth",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "問劉十九",
+    "en": "A Question for Liu the Nineteenth",
+    "zh": "问刘十九"
+  },
+  "author": {
+    "orig": "白居易",
+    "en": "Bai Juyi",
+    "zh": "白居易",
+    "dates": "772–846"
+  },
+  "year": 817,
+  "year_display": {
+    "en": "c. 817",
+    "zh": "约 817 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource.",
+    "zh": "据维基文库。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/問劉十九",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Tang dynasty poem; the author died in 846.",
+      "zh": "唐诗，作者卒于 846 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Written around 817, when Bai Juyi was serving in Jiangzhou; Liu the Nineteenth was a friend there, numbered, as was the custom, by his place among his cousins. The green ants of the first line, 绿蚁, are the fine green froth on new, unfiltered rice wine. Nothing in the poem is grand, and that is why it has been loved for twelve hundred years.",
+    "zh": "约 817 年白居易任江州司马时所作；刘十九是当地的朋友，按当时习俗以族中排行相称。“绿蚁”指新酿未滤的米酒表面细细的绿色浮沫。诗里没有任何宏大的东西，这正是它被爱了一千二百年的原因。"
+  },
+  "pick": {
+    "en": "This is the smallest complete invitation I know: what there is (new wine, a stove), what is coming (snow), and a question. It is twenty characters long and ends on 无, the particle that makes it a question, so the poem leaves the answer to the friend. I keep it as a model for how to ask someone to come in from the cold.",
+    "zh": "这是我所知道最小、也最完整的一份邀请：手边有什么（新酒、火炉），天要怎样（欲雪），然后是一个问题。二十个字，以一个“无”字收尾，把回答留给朋友。我留着它，作为请人从寒冷里进来的范本。"
+  },
+  "tags": [
+    "snow",
+    "wine",
+    "friendship",
+    "fire",
+    "invitation"
+  ],
+  "excerpt": {
+    "orig": "晚來天欲雪，能飲一杯無？",
+    "en": "Evening is coming and it looks like snow: / could you manage a cup, or not?",
+    "zh": "晚来天欲雪，能饮一杯无？"
+  },
+  "plate": null
+}

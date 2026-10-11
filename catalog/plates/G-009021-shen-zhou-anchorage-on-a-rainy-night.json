@@ -1,0 +1,61 @@
+{
+  "id": "G-009021",
+  "slug": "shen-zhou-anchorage-on-a-rainy-night",
+  "title": {
+    "orig": "Anchorage on a Rainy Night",
+    "en": "Anchorage on a Rainy Night",
+    "zh": "雨夜泊舟"
+  },
+  "artist": {
+    "orig": "沈周",
+    "en": "Shen Zhou",
+    "zh": "沈周",
+    "dates": "1427–1509"
+  },
+  "year": 1477,
+  "year_display": {
+    "en": "dated 1477",
+    "zh": "1477 年"
+  },
+  "medium": {
+    "en": "Hanging scroll; ink on paper",
+    "zh": "立轴，纸本水墨"
+  },
+  "institution": {
+    "name": "The Metropolitan Museum of Art",
+    "object_url": "https://www.metmuseum.org/art/collection/search/49549",
+    "accession": "2017.327.1",
+    "credit_line": "Gift of Marie-Hélène and Guy Weill, 2015"
+  },
+  "image": {
+    "source_url": "https://images.metmuseum.org/CRDImages/as/original/DP235605.jpg",
+    "width": 670,
+    "height": 1600,
+    "retrieved": "2026-10-11",
+    "edit": "Trimmed the dark photographic background around the object, then resized."
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Public domain: the artist died in 1509. The Metropolitan Museum of Art releases this image under CC0 through its Open Access programme.",
+      "zh": "公有领域：作者卒于 1509 年。大都会艺术博物馆通过开放获取计划以 CC0 发布此图像。"
+    },
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "alt": {
+    "en": "Pale grey ink mountains, soft with mist, rise above a stand of tall thin trees and a quiet bank in the lower part of the scroll. Lines of poetry fill the paper above the painting, with a second inscription at the right.",
+    "zh": "淡灰的水墨山峦笼着雾气，耸立在画幅下部一丛高瘦的树和一段安静的河岸之上。画面上方的纸上写满诗句，右侧还有另一段题字。"
+  },
+  "note": {
+    "en": "Shen Zhou, founder of the Wu school of Suzhou, painted this at fifty; the title records a night moored in the rain. The whole picture is wet: ink is laid on in soft washes and dabs, and the mountains seem to dissolve into the air. Being held in place by the weather, with time to look, is a good condition for a painting.",
+    "zh": "沈周是苏州吴门画派的开创者，画这幅时五十岁；题目记下的是雨夜泊舟的一晚。整幅画都是湿的：墨用柔和的渲染和点子铺开，山仿佛溶进了空气里。被天气困在原地、反而有了时间去看——这是作画的好处境。"
+  },
+  "pick": null,
+  "tags": [
+    "rain",
+    "night",
+    "mountains",
+    "ink"
+  ]
+}

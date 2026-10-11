@@ -1,0 +1,35 @@
+{
+  "id": "S-006007",
+  "slug": "song-yingxing-tiangong-kaiwu-preface",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": { "orig": "天工開物·自序", "en": "The Works of Heaven and the Inception of Things: Author's Preface", "zh": "天工开物·自序" },
+  "author": { "orig": "宋應星", "en": "Song Yingxing", "zh": "宋应星", "dates": "1587–c. 1666" },
+  "year": 1637,
+  "year_display": { "en": "1637", "zh": "1637 年（明崇祯十年）" },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource. Two evident misprints are corrected (複 for 復, and 佰 for 伯 in the name of Tu Boju) and the signature line is printed without its parentheses.",
+    "zh": "据中文维基文库。改正两处明显误字（“複”作“復”；涂伯聚之名中“佰”作“伯”），落款去掉括号。"
+  },
+  "source": { "name": "Wikisource", "url": "https://zh.wikisource.org/wiki/天工開物/自序", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": { "en": "Ming dynasty prose, printed in 1637; the author died around 1666.", "zh": "明代文章，1637 年刊行；作者约卒于 1666 年。" },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "en": "Claude" },
+  "note": {
+    "en": "Song Yingxing failed the highest civil examination several times and turned instead to writing down how things are actually made: rice and silk, salt and sugar, bricks, bells, paper, ink, ships. This short preface explains why, with a sharp line about scholars who argue over ancient tripods without ever having looked at a cooking pot. Notice the order he chose, grains first and gold and jade last, and the closing advice to ambitious officials to throw the book aside.",
+    "zh": "宋应星几次会试落第，转而去写下东西究竟是怎样做出来的：稻与丝，盐与糖，砖瓦、铜钟、纸、墨、船。这篇短序说明了缘由，其中有一句很锋利的话，讽刺那些从没看过一口锅怎样铸成、却高谈古鼎的读书人。请留意他安排的次序——五谷在前，金玉在后——以及结尾劝那些一心功名的人把这本书扔到一边。"
+  },
+  "pick": null,
+  "tags": ["technology", "craft", "agriculture", "encyclopedia", "ming"],
+  "excerpt": {
+    "orig": "天覆地載，物數號萬，而事亦因之曲成而不遺。豈人力也哉？",
+    "en": "Heaven covers and earth bears up. Things are numbered by the ten thousand, and affairs follow from them, each brought to completion in its own way and none left out. Is this the work of human strength?",
+    "zh": "天覆地载，物数号万，而事亦因之曲成而不遗。岂人力也哉？"
+  },
+  "plate": null
+}

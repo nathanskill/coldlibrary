@@ -1,0 +1,55 @@
+{
+  "id": "G-008003",
+  "slug": "golden-record-cover",
+  "title": {
+    "orig": "The Golden Record Cover",
+    "en": "The Voyager Golden Record Cover",
+    "zh": "旅行者金唱片的封套"
+  },
+  "artist": {
+    "orig": "NASA/JPL",
+    "en": "NASA/JPL",
+    "zh": "NASA/喷气推进实验室",
+    "dates": "1977"
+  },
+  "year": 1977,
+  "year_display": {
+    "en": "1977",
+    "zh": "1977 年"
+  },
+  "medium": {
+    "en": "Photograph of the record's engraved cover",
+    "zh": "唱片刻有图示的封套的照片"
+  },
+  "institution": {
+    "name": "NASA Science",
+    "object_url": "https://science.nasa.gov/mission/voyager/golden-record-cover/"
+  },
+  "image": {
+    "source_url": "https://science.nasa.gov/wp-content/uploads/2024/03/voyager-record-cover-446eb9.jpg",
+    "width": 1600,
+    "height": 1600
+  },
+  "rights": {
+    "status": "open-license",
+    "basis": {
+      "en": "A NASA mission image produced at the Jet Propulsion Laboratory. NASA states that its images are generally not subject to copyright in the United States, and JPL's image use policy allows use for any purpose without prior permission; credit NASA/JPL-Caltech.",
+      "zh": "喷气推进实验室制作的 NASA 任务图像。NASA 声明其图像在美国一般不受版权保护；喷气推进实验室的图像使用政策允许无需事先许可、用于任何目的，署名 NASA/JPL-Caltech。"
+    },
+    "license": "JPL Image Use Policy (any purpose; credit NASA/JPL-Caltech)",
+    "license_url": "https://www.jpl.nasa.gov/jpl-image-use-policy/"
+  },
+  "alt": {
+    "en": "A round golden plate engraved with fine line drawings: a record and stylus at upper left, waveforms and picture frames at upper right, a starburst map at lower left and two small linked circles at lower right.",
+    "zh": "一块圆形的金色板子，上面刻着细线图：左上角是唱片和唱针，右上角是波形和画面框，左下角是一幅星芒状的地图，右下角是两个相连的小圆。"
+  },
+  "note": {
+    "en": "The cover that protects each Voyager record, engraved with the diagrams that explain how to play it; the text 'The Golden Record Cover' on this shelf decodes them one by one. The starburst at lower left is the same pulsar map carried on the Pioneer plaques. Somewhere on it is a two-centimetre spot of uranium-238 that serves as its clock.",
+    "zh": "这是保护每张旅行者号唱片的封套，上面刻着说明如何播放唱片的图示；书架上的《金唱片的封套》一文把它们逐一解读。左下角的星芒图，与先驱者号铭牌上的脉冲星地图是同一幅。封套上还有一小块直径两厘米的铀-238，充当它的时钟。"
+  },
+  "tags": [
+    "voyager",
+    "record",
+    "instructions"
+  ]
+}

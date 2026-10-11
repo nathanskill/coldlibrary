@@ -1,0 +1,64 @@
+{
+  "id": "S-001011",
+  "slug": "tao-yuanming-returning-to-the-fields-1",
+  "shelf": "poetry",
+  "form": "verse",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "歸園田居·其一",
+    "en": "Returning to Live in the Country (I)",
+    "zh": "归园田居·其一"
+  },
+  "author": {
+    "orig": "陶淵明",
+    "en": "Tao Yuanming",
+    "zh": "陶渊明",
+    "dates": "c. 365–427"
+  },
+  "year": 406,
+  "year_display": {
+    "en": "c. 406",
+    "zh": "约 406 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
+    "zh": "据维基文库，删去其所注异文。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/歸園田居",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "basis": {
+      "en": "Jin dynasty poem; the author died in 427.",
+      "zh": "东晋诗，作者卒于 427 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
+  },
+  "translations": {
+    "en": "Claude"
+  },
+  "note": {
+    "en": "Tao Yuanming gave up office in 405 and went home to farm; this is the first of five poems he wrote about it soon after. It is the founding poem of a long tradition, the scholar who chooses the field over the court. Notice how ordinary the furniture of happiness is: so many mu of land, so many rooms, a dog, a cock, some smoke over the village.",
+    "zh": "陶渊明 405 年辞官归田，不久写下这组五首诗，这是第一首。它开创了一个绵延很久的传统：读书人舍弃官场，选择田园。留意幸福的陈设有多平常：几亩地，几间屋，一声狗叫，一声鸡鸣，村子上空一缕炊烟。"
+  },
+  "pick": null,
+  "tags": [
+    "home",
+    "fields",
+    "freedom",
+    "village"
+  ],
+  "excerpt": {
+    "orig": "久在樊籠裏，復得返自然。",
+    "en": "Long I was kept inside a cage, / and now I have come back to what is natural.",
+    "zh": "久在樊笼里，复得返自然。"
+  },
+  "plate": null
+}

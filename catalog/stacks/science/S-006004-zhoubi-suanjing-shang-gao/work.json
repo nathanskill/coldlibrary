@@ -1,0 +1,35 @@
+{
+  "id": "S-006004",
+  "slug": "zhoubi-suanjing-shang-gao",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": { "orig": "周髀算經·卷上（選）", "en": "The Gnomon of the Zhou: Shang Gao and Chen Zi", "zh": "周髀算经·卷上（选）" },
+  "author": { "orig": "佚名", "en": "Anonymous", "zh": "佚名", "dates": "Western Han, compiled c. 1st century BCE" },
+  "year": -100,
+  "year_display": { "en": "compiled c. 1st century BCE", "zh": "约成书于公元前 1 世纪" },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource: Book One, Part One complete, and Part Two up to the point where Chen Zi begins his technical account of the gnomon.",
+    "zh": "据中文维基文库：卷上之一全文；卷上之二至陈子开始讲解立竿测影之术处为止。"
+  },
+  "source": { "name": "Wikisource", "url": "https://zh.wikisource.org/wiki/周髀算經", "retrieved": "2026-10-11" },
+  "rights": {
+    "status": "public-domain",
+    "basis": { "en": "Classical Chinese text of the Han dynasty, about two thousand years old.", "zh": "汉代典籍，距今约两千年。" },
+    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+  },
+  "translations": { "en": "Claude" },
+  "note": {
+    "en": "One of the oldest Chinese books of mathematics and astronomy opens with a conversation about where number comes from, and within a few lines reaches the three-four-five triangle, the gougu relation that Euclid proves as I.47 on the same shelf. Here it is shown rather than proved, with a bent carpenter's square and a ring of squares on a board. The second dialogue is about learning itself: a student fails twice, is sent home to think, and is told that understanding means carrying one case across to many.",
+    "zh": "这部中国最古老的数学与天文著作之一，以一场关于“数从何而来”的对话开篇，没几行就讲到勾三股四弦五，也就是同一架上欧几里得在卷一命题四十七中证明的那个关系。这里它不是被证明，而是被演示出来的：折一把矩尺，在一块板上把方环绕起来。第二段对话谈的是学习本身：学生两次想不出来，被打发回家去想，老师告诉他，懂就是能把一类事推到万事。"
+  },
+  "pick": null,
+  "tags": ["mathematics", "gougu", "astronomy", "learning", "dialogue", "han"],
+  "excerpt": {
+    "orig": "故折矩，以為句廣三，股修四，徑隅五。",
+    "en": "So bend a carpenter's square, making the base three across and the upright four long; then the diagonal between the corners is five.",
+    "zh": "故折矩，以为句广三，股修四，径隅五。"
+  },
+  "plate": null
+}
