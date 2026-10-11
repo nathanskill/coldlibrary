@@ -34,12 +34,8 @@ export function count(n, noun, lang) {
 // ---- years ----
 export const fmtYear = (y, lang) => (y < 0 ? (lang === 'zh' ? `公元前 ${-y} 年` : `${-y} BCE`) : (lang === 'zh' ? `${y} 年` : String(y)));
 // A short form of a work's display date: the last clause of "Zhou dynasty, before c. 600 BCE", or the bare year.
-export function shortYear(w, lang) {
-  const d = (w.year_display && (w.year_display[lang] || w.year_display.en)) || '';
-  if (!d || /[;；()（）]/.test(d)) return fmtYear(w.year, lang);
-  const parts = d.split(lang === 'zh' ? /，|, / : /, /);
-  return parts[parts.length - 1].trim();
-}
+// A year for lists: the work's year only ("1789", "c. 806", "23 BCE"); full dates live on the work page.
+export function shortYear(w, lang) { return yearShort(w, lang); }
 export function yearRange(works, lang) {
   if (!works.length) return '';
   const ys = works.map((w) => w.year);

@@ -11,7 +11,7 @@ export function spanLine(lang, stacks) {
   const c = counts(stacks);
   if (!c.first || !c.last) return '';
   const name = (w) => esc(titles(w, lang).sub || titles(w, lang).main);
-  const link = (w) => `<a href="${workHref(lang, w)}">${lang === 'zh' ? `《${name(w)}》` : `“${name(w)}”`}</a>`;
+  const link = (w) => `<a href="${workHref(lang, w)}">${lang === 'zh' ? (/《/.test(name(w)) ? name(w) : `《${name(w)}》`) : `“${name(w)}”`}</a>`;
   return lang === 'zh'
     ? `从${link(c.first)}（${esc(shortYear(c.first, lang))}）到${link(c.last)}（${esc(shortYear(c.last, lang))}）`
     : `from ${link(c.first)} (${esc(shortYear(c.first, lang))}) to ${link(c.last)} (${esc(shortYear(c.last, lang))})`;
