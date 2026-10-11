@@ -60,5 +60,52 @@
     "en": "The old warhorse lies in its stall, its heart still set on a thousand li; / a man of spirit in his later years does not give up his great heart.",
     "zh": "老骥伏枥，志在千里；烈士暮年，壮心不已。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "神龜",
+      "occ": 1,
+      "at_hans": "神龟",
+      "en": "The sacred tortoise, believed to live for thousands of years.",
+      "zh": "神龟：传说中能活几千岁的通灵之龟。"
+    },
+    {
+      "at": "騰蛇",
+      "occ": 1,
+      "at_hans": "腾蛇",
+      "en": "A flying serpent of legend that rides on clouds and mist.",
+      "zh": "腾蛇：传说中能乘云雾飞行的蛇。"
+    },
+    {
+      "at": "老驥伏櫪",
+      "occ": 1,
+      "at_hans": "老骥伏枥",
+      "en": "驥 is a fine horse; 櫪, the manger.",
+      "zh": "骥：良马，千里马。枥：马槽。"
+    },
+    {
+      "at": "烈士",
+      "occ": 1,
+      "en": "A man of high purpose; not 'martyr', as in modern Chinese.",
+      "zh": "烈士：有远大抱负的人，与今义“为正义而牺牲的人”不同。"
+    },
+    {
+      "at": "盈縮之期",
+      "occ": 1,
+      "at_hans": "盈缩之期",
+      "en": "The span of a life, long (盈) or short (縮).",
+      "zh": "盈缩：指人寿命的长短。"
+    },
+    {
+      "at": "幸甚至哉",
+      "occ": 1,
+      "en": "The refrain that closes each part of this yuefu suite; it is not part of the argument.",
+      "zh": "乐府诗配乐时的套语，与正文内容无关。"
+    }
+  ],
+  "pairs": [
+    "S-001009",
+    "S-004031",
+    "S-001055"
+  ]
 }

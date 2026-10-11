@@ -20,8 +20,8 @@ where a rainbow-coloured dream has settled.
 
 To seek a dream? Pole a long punt
 upstream to where the green grass is greener,
-with a boatload of starlight,
-and sing aloud in the dazzle of the stars.
+with a boatload of starlight
+sing aloud in the dazzle of the stars.
 
 But I cannot sing aloud:
 quietness is the music of parting;
@@ -33,4 +33,4 @@ as quietly as I came;
 I wave my sleeve
 and take away not a single cloud.
 
-6 November, on the China Sea
+6 November, on the China Sea.

@@ -60,5 +60,37 @@
     "en": "The fields are wide, the sky comes down below the trees; / the river is clear, and the moon comes close.",
     "zh": "野旷天低树，江清月近人。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "移舟",
+      "occ": 1,
+      "en": "Moving the boat in to moor for the night. The Jiande River of the title is the stretch of the Xin'an River at Jiande, in Zhejiang.",
+      "zh": "移舟：划动小船靠岸。建德江：新安江流经浙江建德的一段。"
+    },
+    {
+      "at": "煙渚",
+      "occ": 1,
+      "at_hans": "烟渚",
+      "en": "A misty islet; 渚 is a small island in a river.",
+      "zh": "烟渚：雾气笼罩的小洲。渚：水中的小块陆地。"
+    },
+    {
+      "at": "天低樹",
+      "occ": 1,
+      "at_hans": "天低树",
+      "en": "The sky seems to come down lower than the trees, as it does over wide open country.",
+      "zh": "原野空旷，远处的天空看起来比近处的树还低。"
+    },
+    {
+      "at": "月近人",
+      "occ": 1,
+      "en": "The moon reflected in the clear river seems close enough to touch.",
+      "zh": "江水清澈，水中的月影仿佛与人更近了。"
+    }
+  ],
+  "pairs": [
+    "S-001038",
+    "S-001044"
+  ]
 }

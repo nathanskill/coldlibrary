@@ -64,5 +64,63 @@
     "en": "What is a life, wherever it goes, most like? / A wild goose stepping on snowy mud.",
     "zh": "人生到处知何似，应似飞鸿踏雪泥。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "飛鴻",
+      "occ": 1,
+      "at_hans": "飞鸿",
+      "en": "A wild goose in flight, a migrant that comes and goes with the seasons.",
+      "zh": "飞鸿：飞行的大雁，候鸟。"
+    },
+    {
+      "at": "那復計東西",
+      "occ": 1,
+      "at_hans": "那复计东西",
+      "en": "那 is 哪: how would it care whether east or west.",
+      "zh": "那：同“哪”。计：计较，顾及。"
+    },
+    {
+      "at": "老僧",
+      "occ": 1,
+      "en": "The monk Fengxian, who had put the brothers up at the temple in Mianchi in 1056.",
+      "zh": "老僧：指奉闲和尚。1056 年苏轼兄弟进京应试途中曾借宿渑池僧舍。"
+    },
+    {
+      "at": "新塔",
+      "occ": 1,
+      "en": "A stupa built for a monk's remains after his death.",
+      "zh": "新塔：僧人死后，弟子为他建塔安葬骨灰。"
+    },
+    {
+      "at": "舊題",
+      "occ": 1,
+      "at_hans": "旧题",
+      "en": "The poems the brothers wrote on the temple wall on that earlier visit.",
+      "zh": "旧题：兄弟二人当年在寺壁上的题诗。"
+    },
+    {
+      "at": "蹇驢",
+      "occ": 1,
+      "at_hans": "蹇驴",
+      "en": "A lame donkey.",
+      "zh": "蹇（jiǎn）驴：跛脚的驴。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "泥上偶然留指爪",
+      "en": "The lines chain together: 雪泥 ends one line and 泥上 begins the next, and 飛鴻 comes back reversed as 鴻飛. Each image leaves a print on the one after it.",
+      "zh": "诗句彼此勾连：“雪泥”收住上句，“泥上”接起下句；“飞鸿”又倒过来成了“鸿飞”。每个意象都在下一个意象上留下印子。"
+    },
+    {
+      "at": "鴻飛那復計東西",
+      "en": "東西 may be literal as well. Su Shi was travelling west to his first post at Fengxiang, and Ziyou had turned back east to the capital.",
+      "zh": "“东西”或许也是实指：苏轼正西去凤翔赴第一个任所，子由则东返京城。"
+    }
+  ],
+  "pairs": [
+    "S-001053",
+    "S-001057"
+  ]
 }

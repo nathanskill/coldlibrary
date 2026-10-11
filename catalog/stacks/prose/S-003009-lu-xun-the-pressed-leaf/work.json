@@ -64,5 +64,57 @@
     "en": "I suppose I wanted to keep, for a while, these mottled colours of a leaf that had been eaten and was about to fall, so that it would not be scattered at once with all the others.",
     "zh": "大概是愿使这将坠的被蚀而斑斓的颜色，暂得保存，不即与群叶一同飘散罢。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003005",
+    "S-002022",
+    "S-005008"
+  ],
+  "gloss": [
+    {
+      "at": "雁門集",
+      "occ": 1,
+      "at_hans": "雁门集",
+      "en": "Yanmen ji: the collected poems of Sadula, a fourteenth-century poet of Central Asian descent whose family had settled at Yanmen in Shanxi.",
+      "zh": "《雁门集》：元代诗人萨都剌的诗集。萨都剌祖上是西域人，后居雁门（今山西代县一带）。"
+    },
+    {
+      "at": "淺絳",
+      "occ": 1,
+      "at_hans": "浅绛",
+      "en": "絳: a deep crimson; 淺絳 is a paler shade of it, and 緋紅 just after is a bright scarlet.",
+      "zh": "绛：深红色；浅绛是淡些的红，紧接着的绯红是鲜红。"
+    },
+    {
+      "at": "這是病葉呵",
+      "occ": 1,
+      "at_hans": "这是病叶呵",
+      "en": "In 1931, in a preface for an English translation of Wild Grass, Lu Xun said this piece was written for the one who loved him and wanted to keep him.",
+      "zh": "鲁迅 1931 年在《〈野草〉英文译本序》里说：“《腊叶》，是为爱我者的想要保存我而作的。”"
+    },
+    {
+      "at": "何消說得",
+      "occ": 1,
+      "at_hans": "何消说得",
+      "en": "何消說得: needless to say; an old colloquial phrase.",
+      "zh": "何消说得：不用说。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "當他靑蔥的時候是從沒有這麽注意的",
+      "en": "An honest admission: the leaves earned this close a look only once they began to turn. Much of what any library holds was noticed at that same late hour.",
+      "zh": "一句诚实的话：叶子要到开始变色，才得到他这样细看。任何一座图书馆里收着的东西，有许多也是在这样晚的时候才被注意到的。"
+    },
+    {
+      "at": "明眸似的向人凝視",
+      "en": "The wormhole is the flaw, and it is also what gives the leaf an eye. Of all the leaves on the tree he kept the damaged one, because it looked back.",
+      "zh": "蛀孔是瑕疵，也正是它让这片叶子有了眼睛。满树的叶子里，他留下的是受了伤的那一片，因为它在回望。"
+    },
+    {
+      "at": "暫得保存",
+      "en": "Only for a while. He does not claim that pressing the leaf will keep it, only that it will not be scattered at once. A library makes the same modest promise, and keeps it by copying.",
+      "zh": "只是“暂得”。他不说夹起来就能留住，只说不至于马上飘散。图书馆许下的也是这样朴素的承诺，靠一遍遍地抄存来兑现。"
+    }
+  ]
 }

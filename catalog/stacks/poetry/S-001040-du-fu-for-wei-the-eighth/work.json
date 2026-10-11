@@ -61,5 +61,54 @@
     "en": "And tonight, what night is this, / that we share the light of this lamp?",
     "zh": "今夕复何夕，共此灯烛光。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "參與商",
+      "occ": 1,
+      "at_hans": "参与商",
+      "en": "Shen (in Orion) and Shang (Antares, in Scorpius), two stars never in the sky together: one sets as the other rises.",
+      "zh": "参星和商星（心宿二），此出彼没，永不同时出现在天空。"
+    },
+    {
+      "at": "今夕復何夕",
+      "occ": 1,
+      "at_hans": "今夕复何夕",
+      "en": "An echo of the Book of Songs, 今夕何夕, 'what night is this', said in wonder at a meeting.",
+      "zh": "化用《诗经·唐风·绸缪》“今夕何夕”，惊喜于这一晚的相逢。"
+    },
+    {
+      "at": "半爲鬼",
+      "occ": 1,
+      "at_hans": "半为鬼",
+      "en": "Half of them have become ghosts: half are dead.",
+      "zh": "一半已经去世。"
+    },
+    {
+      "at": "父執",
+      "occ": 1,
+      "at_hans": "父执",
+      "en": "A friend of one's father.",
+      "zh": "父执：父亲的朋友。"
+    },
+    {
+      "at": "間黃粱",
+      "occ": 1,
+      "at_hans": "间黄粱",
+      "en": "Mixed with yellow millet; 間 is to mix in.",
+      "zh": "间：掺和。黄粱：黄米。"
+    },
+    {
+      "at": "累十觴",
+      "occ": 1,
+      "at_hans": "累十觞",
+      "en": "Ten cups one after another; 觴 is a wine cup.",
+      "zh": "累：接连。觞：酒杯。"
+    }
+  ],
+  "pairs": [
+    "S-001022",
+    "S-001059",
+    "S-005006"
+  ]
 }

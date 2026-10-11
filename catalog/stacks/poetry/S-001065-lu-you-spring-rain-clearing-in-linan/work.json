@@ -61,5 +61,51 @@
     "en": "All night in the little upstairs room I listened to the spring rain; / tomorrow morning, down the deep lanes, they will be selling apricot blossom.",
     "zh": "小楼一夜听春雨，深巷明朝卖杏花。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "世味",
+      "occ": 1,
+      "en": "The taste of the world: the appeal of public life.",
+      "zh": "世味：人情世味，指做官的兴味。"
+    },
+    {
+      "at": "京華",
+      "occ": 1,
+      "at_hans": "京华",
+      "en": "The capital, here Lin'an (Hangzhou), the Southern Song capital.",
+      "zh": "京华：京城，指南宋都城临安（今杭州）。"
+    },
+    {
+      "at": "閒作草",
+      "occ": 1,
+      "at_hans": "闲作草",
+      "en": "草 is cursive script. Lu You was a fine calligrapher; here he writes it to pass the time.",
+      "zh": "草：草书。闲作草，随意写草书消遣。"
+    },
+    {
+      "at": "戲分茶",
+      "occ": 1,
+      "at_hans": "戏分茶",
+      "en": "分茶 was a Song tea game: hot water poured onto whisked powdered tea so that the fine froth (細乳) forms patterns and pictures.",
+      "zh": "分茶：宋代的一种点茶技艺，用沸水冲点茶末，使茶汤表面的细沫（细乳）幻化出图案。"
+    },
+    {
+      "at": "素衣莫起風塵歎",
+      "occ": 1,
+      "at_hans": "素衣莫起风尘叹",
+      "en": "Echoes Lu Ji: in the wind and dust of the capital a white robe turns black. Lu You tells his robe not to sigh.",
+      "zh": "化用陆机《为顾彦先赠妇》“京洛多风尘，素衣化为缁”。"
+    },
+    {
+      "at": "清明",
+      "occ": 1,
+      "en": "Qingming, the spring festival for tending family graves, early in April.",
+      "zh": "清明：清明节，在公历四月初，有扫墓的习俗。"
+    }
+  ],
+  "pairs": [
+    "S-001037",
+    "S-001071"
+  ]
 }

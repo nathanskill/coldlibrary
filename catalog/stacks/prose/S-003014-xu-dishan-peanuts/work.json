@@ -60,5 +60,59 @@
     "en": "So you should be like the peanut, because it is useful, not great and handsome.",
     "zh": "所以你们要像花生，因为他是有用的，不是伟大、好看的东西。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002029",
+    "S-001005",
+    "S-003012"
+  ],
+  "gloss": [
+    {
+      "at": "半畝隙地",
+      "occ": 1,
+      "at_hans": "半亩隙地",
+      "en": "畝 (mu): a Chinese measure of land, about 667 square metres; half a mu is a large back garden.",
+      "zh": "亩：土地面积单位，一亩约合 667 平方米。"
+    },
+    {
+      "at": "愛吃花生",
+      "occ": 1,
+      "at_hans": "爱吃花生",
+      "en": "The peanut's old name is 落花生, 'born of the fallen flower': after flowering, the stalk bends down and pushes the young pod into the soil, where it ripens.",
+      "zh": "落花生：花生的旧称。花谢以后，子房柄向下伸长，把幼果推进土里，果实在地下长成，所以叫落花生。"
+    },
+    {
+      "at": "小丫頭",
+      "occ": 1,
+      "at_hans": "小丫头",
+      "en": "丫頭: a young maidservant; well-off households then kept girls in service.",
+      "zh": "丫头：旧时人家的婢女。"
+    },
+    {
+      "at": "買種底買種",
+      "occ": 1,
+      "at_hans": "买种底买种",
+      "en": "'Those who bought seed bought seed': some of us bought the seed, some dug, some watered. Early vernacular writers often wrote 底 where we now write 的.",
+      "zh": "买种底买种：买种的买种。早期白话文常用“底”字，相当于现在的“的”。"
+    },
+    {
+      "at": "爹爹",
+      "occ": 1,
+      "en": "The father was Xu Nanying (1855–1917), a poet and scholar-official from Tainan in Taiwan; after 1895 he served in Guangdong.",
+      "zh": "爹爹：许地山的父亲许南英（1855–1917），台湾台南人，诗人，1895 年后到广东做官。"
+    },
+    {
+      "at": "夜闌",
+      "occ": 1,
+      "at_hans": "夜阑",
+      "en": "夜闌: deep in the night; 闌 means drawing to a close.",
+      "zh": "夜阑：夜深。阑，将尽。"
+    },
+    {
+      "at": "心版",
+      "occ": 1,
+      "en": "心版: 'the tablet of the heart', a phrase familiar from the Chinese Bible (Proverbs 3:3, 'write them upon the table of thine heart'). Xu Dishan had studied theology and became a scholar of religion.",
+      "zh": "心版：心上，好像刻着字的木版。和合本《圣经·箴言》有“刻在你心版上”的说法。许地山曾在燕京大学学习神学，后来成为宗教学者。"
+    }
+  ]
 }

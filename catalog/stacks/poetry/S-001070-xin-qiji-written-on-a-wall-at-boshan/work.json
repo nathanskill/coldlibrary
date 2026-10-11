@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,39 @@
     "en": "Now that I know the whole taste of sorrow, / I want to speak, and stop, / I want to speak, and stop, / and say instead: what a fine cool autumn.",
     "zh": "而今识尽愁滋味，欲说还休，欲说还休，却道天凉好个秋！"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "層樓",
+      "occ": 1,
+      "at_hans": "层楼",
+      "en": "A high tower of many storeys. Climbing one to look into the distance was a stock occasion for sorrowful verse.",
+      "zh": "层楼：高楼。登高望远，是古人抒发愁思的常见情境。"
+    },
+    {
+      "at": "強說愁",
+      "occ": 1,
+      "at_hans": "强说愁",
+      "en": "強, read qiǎng: forcing himself to speak of sorrow, to have something to write.",
+      "zh": "强（qiǎng）：勉强。"
+    },
+    {
+      "at": "而今識盡",
+      "occ": 1,
+      "at_hans": "而今识尽",
+      "en": "Now, having tasted it all. Xin Qiji wrote this during the long retirement that followed his dismissal from office in 1181.",
+      "zh": "而今：如今。识尽：尝够，深深懂得。辛弃疾 1181 年被罢官，此词作于此后长期闲居期间。"
+    },
+    {
+      "at": "好個秋",
+      "occ": 1,
+      "at_hans": "好个秋",
+      "en": "What an autumn: 好個 is colloquial, 'what a fine'.",
+      "zh": "好个秋：好一个凉爽的秋天。"
+    }
+  ],
+  "pairs": [
+    "S-001071",
+    "S-001068"
+  ]
 }

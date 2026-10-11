@@ -60,5 +60,48 @@
     "en": "The journey of the sun and moon / seems to begin inside it; / the Milky Way in its splendour / seems to rise from within.",
     "zh": "日月之行，若出其中；星汉灿烂，若出其里。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "碣石",
+      "occ": 1,
+      "en": "Jieshi, a mountain by the Bohai, usually placed near present-day Changli in Hebei. Cao Cao climbed it in 207, returning from his campaign against the Wuhuan.",
+      "zh": "碣石山，一般认为在今河北昌黎一带的渤海边。207 年曹操北征乌桓，归途登临。"
+    },
+    {
+      "at": "滄海",
+      "occ": 1,
+      "at_hans": "沧海",
+      "en": "The blue-green sea, here the Bohai.",
+      "zh": "沧海：大海，这里指渤海。沧，通“苍”，青绿色。"
+    },
+    {
+      "at": "澹澹",
+      "occ": 1,
+      "en": "Heaving and rolling, of water.",
+      "zh": "澹澹（dàn）：水波荡漾的样子。"
+    },
+    {
+      "at": "竦峙",
+      "occ": 1,
+      "en": "Standing tall.",
+      "zh": "竦峙（sǒng zhì）：高高地挺立。"
+    },
+    {
+      "at": "星漢",
+      "occ": 1,
+      "at_hans": "星汉",
+      "en": "The Milky Way, the River of Stars.",
+      "zh": "星汉：银河。"
+    },
+    {
+      "at": "幸甚至哉",
+      "occ": 1,
+      "en": "A refrain sung at the end of each part of this yuefu suite: 'How fortunate, how great; I sing to tell my mind.' It is not part of the scene.",
+      "zh": "乐府诗配乐时的套语，各章末尾都有，与正文内容无关。"
+    }
+  ],
+  "pairs": [
+    "S-001010"
+  ]
 }

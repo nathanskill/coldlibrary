@@ -37,8 +37,14 @@ catalog/stacks/<shelf>/<ID>-<slug>/
   translation.en.md     optional, a translation by Claude
   translation.zh.md     optional, a translation by Claude
 catalog/plates/<ID>-<slug>.json        a public-domain image (painting, print, photograph)
-site/public/assets/plates/<ID>.jpg     1600 px on the long side
-site/public/assets/plates/<ID>-sm.jpg  800 px on the long side
+site/public/assets/plates/<ID>.jpg     1600 px on the long side, ≤ 450 KB, progressive
+site/public/assets/plates/<ID>-sm.jpg  800 px on the long side, ≤ 120 KB
+site/public/assets/plates/<ID>-480.jpg 480 px on the long side, ≤ 40 KB   (python3 tools/plate-images.py makes all three)
+catalog/stacks/<shelf>/shelf.json      Claude's shelf essay, three "start here" works, a header plate
+catalog/stacks/claude-shelf.json       Claude's shelf: permanent accession numbers and display order
+catalog/stacks/_trails/<slug>.json     reading trails, 5–8 steps, one sentence per step
+catalog/stacks/tags.json               the controlled tag vocabulary (≈40 tags, en + zh, aliases)
+catalog/plates/_pairings.json          which plate hangs beside which work (applied to work.plate)
 ```
 
 Shelves: `poetry` 诗与词 · `prose` 文与小说 · `thought` 哲思 · `science` 科学 · `computing` 计算与开源 ·
@@ -96,6 +102,31 @@ IDs are `S-` + six digits for works and `G-` + six digits for plates. Each curat
 - `excerpt`: one or two lines that make someone want to read it.
 
 Run `node tools/stacks-check.mjs` before committing; it validates every work and plate.
+## Fields added in October 2026 (design spec v5 §4.6; tools/stacks-check.mjs enforces them)
+
+- `translations.<lang>`: `"Claude"` means a full translation by Claude. A partial one is
+  `{ "by": "Claude", "coverage": "partial", "label": {en, zh}, "segments": [ {"src": "<section id>"} | {"src": "p:12-18"} ] }`.
+  A translation mirrors its original block for block: the same `##` headings in the same order, the same number of
+  paragraphs in each section, verse line for line (or exactly two lines per couplet line). For classical Chinese,
+  `translation.zh.md` is a modern Chinese 白话 version. `verbatim_only` works never get a translation.
+- `gloss`: `[ { "at": "簑笠", "occ": 1, "at_hans": "蓑笠", "en": "…", "zh": "…" } ]` — Claude's notes (注释). `at` is an
+  exact substring of `text.md` with `*` emphasis removed, `occ` the occurrence, `at_hans` the simplified spelling when it differs.
+- `marginalia`: `[ { "at": "…", "en": "…", "zh": "…" } ]` — Claude's pencil notes; only on works with a `pick`, at most 3.
+- `orig_lang`: required when `translator` is set (BCP 47 of the original, e.g. `grc`, `la`, `da`, `fr`).
+- `pairs`: up to 3 work ids Claude pairs this one with. `period` overrides the computed dynasty. `style: "essay"` drops
+  first-line indents on prose. `rights.kind` (`age` · `us-gov` · `dedicated` · `license`) and
+  `rights.checked: { "where": ["AU","EU","UK","CN","US"], "date": "…" }` record the basis and the jurisdictions checked.
+- Plates: `kind` (`artwork` · `photograph` · `object`), `tone` (tints the mat), and `title.lang` / `artist.lang`.
+
+## Tools
+
+- `node tools/stacks-check.mjs [--warn]` — validate everything above (also runs, as a warning, on every build).
+- `python3 tools/stacks-hans.py <folder>` — simplified text for a `-Hant` work. Run it only for a new work: many `text.zh-Hans.md` files were
+  corrected by hand after conversion (OpenCC leaves variants such as 輭 靑 淸 楡 unconverted), and re-running it would undo that.
+- `python3 tools/plate-images.py` — re-encode plates to the three sizes (originals move to `.cache/plates-orig/`).
+- `node tools/tags-migrate.mjs [--write]` — map every work's tags onto `tags.json` through its aliases.
+- `node site/build.mjs && python3 tools/cjk-font.py` — rebuild, then re-slice the Chinese serif for the characters each page uses.
+
 
 ## Plate JSON
 

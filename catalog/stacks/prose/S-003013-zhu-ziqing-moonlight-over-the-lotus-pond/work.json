@@ -61,5 +61,76 @@
     "en": "The moonlight poured down like flowing water, quietly, onto the leaves and flowers.",
     "zh": "月光如流水一般，静静地泻在这一片叶子和花上。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002030",
+    "S-002029",
+    "S-001015"
+  ],
+  "gloss": [
+    {
+      "at": "田田",
+      "occ": 1,
+      "en": "田田: full and round, of lotus leaves, from the Han ballad 'South of the River': 'South of the river we can gather lotus; how full and round the lotus leaves.'",
+      "zh": "田田：荷叶相连、茂盛的样子。语出汉乐府《江南》：“江南可采莲，莲叶何田田。”"
+    },
+    {
+      "at": "梵婀玲",
+      "occ": 1,
+      "en": "梵婀玲: an early transliteration of 'violin'.",
+      "zh": "梵婀玲：英语 violin（小提琴）的音译。"
+    },
+    {
+      "at": "江南的舊俗",
+      "occ": 1,
+      "at_hans": "江南的旧俗",
+      "en": "江南: the lake and river country south of the lower Yangzi. Zhu Ziqing grew up in Yangzhou, just north of the river, and thought of the south as home.",
+      "zh": "江南：长江下游以南的水乡。朱自清在扬州长大，心里把江南当作故乡。"
+    },
+    {
+      "at": "六朝",
+      "occ": 1,
+      "en": "The Six Dynasties: the southern courts that ruled from Jiankang, now Nanjing, between the third and the sixth centuries; their love songs of lotus gathering survive.",
+      "zh": "六朝：三至六世纪先后建都建康（今南京）的吴、东晋、宋、齐、梁、陈六个朝代。"
+    },
+    {
+      "at": "梁元帝采蓮賦",
+      "occ": 1,
+      "at_hans": "梁元帝采莲赋",
+      "en": "Emperor Yuan of Liang: Xiao Yi (508–555), poet, scholar and collector of one of the largest libraries of his age.",
+      "zh": "梁元帝：萧绎（508–555），南朝梁的皇帝，能诗文，藏书极多。"
+    },
+    {
+      "at": "妖童媛女",
+      "occ": 1,
+      "en": "妖 here means bewitchingly handsome, not wicked; 媛 is a beautiful woman.",
+      "zh": "妖童媛女：俊美的少年和美丽的少女。妖，艳丽，不是妖怪的意思。"
+    },
+    {
+      "at": "鷁首",
+      "occ": 1,
+      "at_hans": "鹢首",
+      "en": "鷁首: the prow of a boat, which in old times was carved or painted with the yi, a water bird.",
+      "zh": "鹢首：船头。古代船头常画鹢鸟，所以称船头为鹢首。"
+    },
+    {
+      "at": "羽杯",
+      "occ": 1,
+      "en": "羽杯: a winged cup, the oval drinking cup with two ear-shaped handles.",
+      "zh": "羽杯：两侧有耳、形如鸟翼的酒杯，即羽觞。"
+    },
+    {
+      "at": "西洲曲",
+      "occ": 1,
+      "en": "The Song of Xizhou: an anonymous love song of the Southern Dynasties, among the most admired of its kind.",
+      "zh": "《西洲曲》：南朝乐府民歌，写一位女子的相思。"
+    },
+    {
+      "at": "蓮子淸如水",
+      "occ": 1,
+      "at_hans": "莲子清如水",
+      "en": "Lotus seeds, 蓮子, pun on 憐子, 'I love you', a play common in southern love songs; 'clear as water' speaks of a pure heart.",
+      "zh": "“莲子”谐音“怜子”，即爱你；“清如水”喻感情纯洁。这是南朝民歌常用的双关。"
+    }
+  ]
 }

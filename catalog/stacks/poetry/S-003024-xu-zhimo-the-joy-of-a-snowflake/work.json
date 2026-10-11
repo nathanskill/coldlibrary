@@ -60,5 +60,38 @@
     "en": "If I were a snowflake drifting freely in mid-air, I would know my direction.",
     "zh": "假如我是一朵雪花，翩翩的在半空里潇洒，我一定认清我的方向——"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003006",
+    "S-004006",
+    "S-001052"
+  ],
+  "gloss": [
+    {
+      "at": "飛颺",
+      "occ": 1,
+      "at_hans": "飞飏",
+      "en": "颺 (yáng): an older character for 揚, to rise and drift on the wind.",
+      "zh": "飏：同“扬”，随风飞扬。"
+    },
+    {
+      "at": "娟娟",
+      "occ": 1,
+      "en": "娟娟: delicate and lovely, an old poetic word.",
+      "zh": "娟娟：姿态柔美的样子。"
+    },
+    {
+      "at": "硃砂梅",
+      "occ": 1,
+      "at_hans": "朱砂梅",
+      "en": "Cinnabar plum: a variety of the winter-flowering Chinese plum with deep red blossoms.",
+      "zh": "朱砂梅：梅花的一个品种，花色深红。"
+    },
+    {
+      "at": "盈盈",
+      "occ": 1,
+      "en": "盈盈: light and graceful, as in the Nineteen Old Poems: 'graceful, the girl in the upper room'.",
+      "zh": "盈盈：轻盈美好的样子，如《古诗十九首》“盈盈楼上女”。"
+    }
+  ]
 }

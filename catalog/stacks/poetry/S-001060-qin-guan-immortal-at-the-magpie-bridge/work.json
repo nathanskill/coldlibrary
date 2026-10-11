@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,52 @@
     "en": "If love between two is to last, / why must it be every morning and every evening?",
     "zh": "两情若是久长时，又岂在朝朝暮暮。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "纖雲弄巧",
+      "occ": 1,
+      "at_hans": "纤云弄巧",
+      "en": "Fine clouds weaving clever shapes, as the Weaving Girl weaves. The seventh night was also when girls prayed to her for skill with the needle.",
+      "zh": "纤云变幻出各种巧妙的花样。七夕又称“乞巧节”，女子在这天向织女乞求巧艺。"
+    },
+    {
+      "at": "飛星",
+      "occ": 1,
+      "at_hans": "飞星",
+      "en": "Shooting stars; some read it as the two stars themselves, the Herdboy and the Weaving Girl.",
+      "zh": "飞星：流星；一说指牵牛、织女二星。"
+    },
+    {
+      "at": "銀漢",
+      "occ": 1,
+      "at_hans": "银汉",
+      "en": "The Silver River, the Milky Way between the two stars.",
+      "zh": "银汉：银河。"
+    },
+    {
+      "at": "金風玉露",
+      "occ": 1,
+      "at_hans": "金风玉露",
+      "en": "Golden wind and jade dew: the wind and dew of autumn, the season of the seventh night.",
+      "zh": "金风：秋风（古以五行配四季，秋属金）。玉露：秋露。"
+    },
+    {
+      "at": "忍顧",
+      "occ": 1,
+      "at_hans": "忍顾",
+      "en": "忍: how could they bear to; 顧, to look back at.",
+      "zh": "忍顾：怎忍回头看。"
+    },
+    {
+      "at": "鵲橋",
+      "occ": 1,
+      "at_hans": "鹊桥",
+      "en": "On the seventh night of the seventh month, magpies were said to form a bridge across the Milky Way so that the lovers could meet.",
+      "zh": "鹊桥：传说每年七月初七，喜鹊在银河上搭桥，让牛郎织女相会。"
+    }
+  ],
+  "pairs": [
+    "S-001007"
+  ]
 }

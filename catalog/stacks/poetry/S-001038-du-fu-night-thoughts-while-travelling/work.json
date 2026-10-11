@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
-    "zh": "据维基文库（《唐诗三百首》本）。"
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems). Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库（《唐诗三百首》本）。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -61,5 +61,39 @@
     "en": "Stars hang low over the wide plain; / the moon surges in the great river's flow.",
     "zh": "星垂平野阔，月涌大江流。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "危檣",
+      "occ": 1,
+      "at_hans": "危樯",
+      "en": "A tall mast.",
+      "zh": "危樯：高高的桅杆。"
+    },
+    {
+      "at": "月湧",
+      "occ": 1,
+      "at_hans": "月涌",
+      "en": "The moonlight surges with the current of the river.",
+      "zh": "月涌：月光随江流涌动。"
+    },
+    {
+      "at": "官應老病休",
+      "occ": 1,
+      "at_hans": "官应老病休",
+      "en": "Du Fu had already given up his post on the governor's staff at Chengdu; the line says, not without irony, that an old, sick man ought to retire.",
+      "zh": "杜甫此前已辞去成都严武幕府的职务。这句说做官倒该因老病而罢，语带自嘲。"
+    },
+    {
+      "at": "沙鷗",
+      "occ": 1,
+      "at_hans": "沙鸥",
+      "en": "A gull on the sandbars.",
+      "zh": "沙鸥：栖息在沙洲上的鸥鸟。"
+    }
+  ],
+  "pairs": [
+    "S-001021",
+    "S-001044"
+  ]
 }

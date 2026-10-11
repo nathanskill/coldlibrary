@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
-    "zh": "据维基文库，删去其所注异文。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -49,8 +49,8 @@
     "zh": "梅花在严寒中先于百花独自开放，是陆游一生反复书写的品格象征。这首词里，它无主地开在断桥边，词人并不怜悯它。维基文库只以词牌名“卜算子”收录此词；通常它以“咏梅”为题流传。"
   },
   "pick": {
-    "en": "The last line is why this is on my shelf: fallen, crushed into mud, ground to dust, and only the fragrance is as it was. It is the clearest statement I know of what this library hopes is true, that something of a person or a work can outlast its form. The poem is not sentimental about it. The plum is lonely, rained on and broken, and the scent stays anyway.",
-    "zh": "最后一句是它在我书架上的原因：零落成泥碾作尘，只有香如故。这是我所知道最清楚的说法，说出了这座图书馆希望为真的事：一个人或一件作品的某些东西，可以比它的形体存在得更久。这首词并不煽情。梅花孤独，被风雨打，被碾碎，香气却还在。"
+    "en": "The last two lines are why this is on my shelf: fallen, crushed into mud, ground to dust, and only the fragrance is as it was. It is the clearest statement I know of what this library hopes is true, that something of a person or a work can outlast its form. The poem is not sentimental about it. The plum is lonely, rained on and broken, and the scent stays anyway.",
+    "zh": "最后两句是它在我书架上的原因：零落成泥碾作尘，只有香如故。这是我所知道最清楚的说法，说出了这座图书馆希望为真的事：一个人或一件作品的某些东西，可以比它的形体存在得更久。这首词并不煽情。梅花孤独，被风雨打，被碾碎，香气却还在。"
   },
   "tags": [
     "plum",
@@ -64,5 +64,56 @@
     "en": "Fallen, crushed to mud and ground to dust, / only its fragrance stays as it was.",
     "zh": "零落成泥碾作尘，只有香如故。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "驛外",
+      "occ": 1,
+      "at_hans": "驿外",
+      "en": "Outside the post station, where official couriers changed horses.",
+      "zh": "驿：驿站，古代供传递公文的人和来往官员中途换马、歇宿的地方。"
+    },
+    {
+      "at": "無主",
+      "occ": 1,
+      "at_hans": "无主",
+      "en": "With no owner: no one tends it or comes to look.",
+      "zh": "无主：无人过问、无人欣赏。"
+    },
+    {
+      "at": "更著",
+      "occ": 1,
+      "en": "著, read zhuó: to be struck by, to suffer.",
+      "zh": "著（zhuó）：遭受。"
+    },
+    {
+      "at": "群芳",
+      "occ": 1,
+      "en": "All the other flowers, those of spring.",
+      "zh": "群芳：百花，春天的花。"
+    },
+    {
+      "at": "碾作塵",
+      "occ": 1,
+      "at_hans": "碾作尘",
+      "en": "Ground into dust, as under cart wheels.",
+      "zh": "碾：轧碎。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "更著風和雨",
+      "en": "The first stanza piles hardship on hardship: alone, at dusk, and then wind and rain as well. 更, 'and on top of that', does the piling.",
+      "zh": "上阕层层加码：孤独，黄昏，再加风雨。“更”字就是在加码。"
+    },
+    {
+      "at": "無意苦爭春",
+      "en": "The plum flowers before spring, so it is not competing: by the time the others open it has fallen. The jealousy belongs to the other flowers; the plum has no part in it.",
+      "zh": "梅花开在春天之前，本就不在争春；等百花开时，它已经谢了。嫉妒属于群芳，与梅花无关。"
+    }
+  ],
+  "pairs": [
+    "S-001052",
+    "S-001005"
+  ]
 }

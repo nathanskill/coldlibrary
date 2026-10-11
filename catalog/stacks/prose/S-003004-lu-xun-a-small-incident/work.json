@@ -60,5 +60,65 @@
     "en": "Only this small incident keeps floating before my eyes, sometimes even more clearly than before, making me ashamed, urging me to renew myself, and adding to my courage and my hope.",
     "zh": "独有这一件小事，却总是浮在我眼前，有时反更分明，教我惭愧，催我自新，并且增长我的勇气和希望。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004106",
+    "S-002005"
+  ],
+  "gloss": [
+    {
+      "at": "京城",
+      "occ": 1,
+      "en": "The capital: Beijing, then the seat of the Republic's government. Lu Xun had come there in 1912.",
+      "zh": "京城：北京，当时民国政府所在地。鲁迅 1912 年到北京。"
+    },
+    {
+      "at": "民國六年",
+      "occ": 1,
+      "at_hans": "民国六年",
+      "en": "The sixth year of the Republic: 1917, counting 1912 as the first.",
+      "zh": "民国六年：1917 年。民国纪年以 1912 年为元年。"
+    },
+    {
+      "at": "人力車",
+      "occ": 1,
+      "at_hans": "人力车",
+      "en": "The rickshaw, a light two-wheeled cab pulled by a man on foot, came to China from Japan in the 1870s.",
+      "zh": "人力车：由人拉着跑的双轮小车，十九世纪七十年代从日本传入中国，俗称洋车、黄包车。"
+    },
+    {
+      "at": "S門",
+      "occ": 1,
+      "at_hans": "S门",
+      "en": "S Gate: usually taken to be Xuanwu Gate in Beijing, also called Shunzhi Gate; the Shaoxing Guild Hall, where Lu Xun then lived, was just outside it.",
+      "zh": "S 门：一般认为指北京宣武门（又称顺治门）。鲁迅当时住在门外的绍兴会馆。"
+    },
+    {
+      "at": "觔斗",
+      "occ": 1,
+      "at_hans": "斤斗",
+      "en": "觔斗: the same as 筋斗, a somersault; here a bad fall.",
+      "zh": "觔斗：同“筋斗”（简体本作“斤斗”），这里指重重地摔一跤。"
+    },
+    {
+      "at": "皮袍",
+      "occ": 1,
+      "en": "A fur-lined gown: winter wear for a man of some means.",
+      "zh": "皮袍：带毛皮里子的长袍，是有些身份的人的冬衣。"
+    },
+    {
+      "at": "銅元",
+      "occ": 1,
+      "at_hans": "铜元",
+      "en": "銅元: the machine-struck copper coins of the time, the small change of daily life.",
+      "zh": "铜元：清末民初通行的机制铜币，是日常的零钱。"
+    },
+    {
+      "at": "子曰詩云",
+      "occ": 1,
+      "at_hans": "子曰诗云",
+      "en": "'The Master said' and 'the Songs say': the stock openings of quotations from the Analects and the Book of Songs, standing for the old classical schooling.",
+      "zh": "子曰诗云：《论语》里的“子曰”和引用《诗经》时的“诗云”，泛指旧时私塾读的经书。"
+    }
+  ]
 }

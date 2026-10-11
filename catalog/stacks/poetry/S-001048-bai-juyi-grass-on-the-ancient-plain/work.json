@@ -60,5 +60,44 @@
     "en": "Wildfire cannot burn it all away; / the spring wind blows, and it grows again.",
     "zh": "野火烧不尽，春风吹又生。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "離離",
+      "occ": 1,
+      "at_hans": "离离",
+      "en": "Lush and thick. 賦得 in the title marks a poem on a set topic, the kind written for the examinations; Bai Juyi is said to have written this at sixteen.",
+      "zh": "离离：青草茂盛的样子。题中“赋得”表示按指定题目作诗，是科举应试诗的格式；相传此诗是白居易十六岁时所作。"
+    },
+    {
+      "at": "枯榮",
+      "occ": 1,
+      "at_hans": "枯荣",
+      "en": "Withering and flourishing.",
+      "zh": "枯荣：枯萎和茂盛。"
+    },
+    {
+      "at": "侵古道",
+      "occ": 1,
+      "en": "Spreading over the old road.",
+      "zh": "侵：侵占，蔓延。"
+    },
+    {
+      "at": "晴翠",
+      "occ": 1,
+      "en": "The green of grass in sunlight.",
+      "zh": "晴翠：阳光照耀下的草色。"
+    },
+    {
+      "at": "王孫",
+      "occ": 1,
+      "at_hans": "王孙",
+      "en": "A young nobleman, here the departing friend. The Songs of Chu: the prince goes wandering and does not return, and the spring grass grows thick.",
+      "zh": "王孙：贵族子弟，这里指远行的友人。语出《楚辞·招隐士》“王孙游兮不归，春草生兮萋萋”。"
+    }
+  ],
+  "pairs": [
+    "S-001049",
+    "S-001027"
+  ]
 }

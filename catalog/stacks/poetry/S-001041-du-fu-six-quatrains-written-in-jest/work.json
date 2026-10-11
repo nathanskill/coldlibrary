@@ -64,5 +64,64 @@
     "en": "You and your names will both perish, / but the rivers will not stop flowing for ten thousand ages.",
     "zh": "尔曹身与名俱灭，不废江河万古流。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "庾信",
+      "occ": 1,
+      "en": "Yu Xin (513–581), a poet of the Southern Dynasties who was kept in the north after an embassy; his late work, written there, was his finest.",
+      "zh": "庾信（513–581）：南北朝诗人，出使西魏被留北方，晚年作品最为成熟。"
+    },
+    {
+      "at": "前賢畏後生",
+      "occ": 1,
+      "at_hans": "前贤畏后生",
+      "en": "Turns the Analects saying 後生可畏, 'the young are to be held in awe', against the young mockers.",
+      "zh": "反用《论语·子罕》“后生可畏”。"
+    },
+    {
+      "at": "楊王盧駱",
+      "occ": 1,
+      "at_hans": "杨王卢骆",
+      "en": "Yang Jiong, Wang Bo, Lu Zhaolin and Luo Binwang, the Four Talents of the early Tang. A farewell poem by Wang Bo is on this shelf.",
+      "zh": "杨炯、王勃、卢照邻、骆宾王，合称“初唐四杰”。王勃的《送杜少府之任蜀州》也在这个书架上。"
+    },
+    {
+      "at": "風騷",
+      "occ": 1,
+      "at_hans": "风骚",
+      "en": "The Airs of the Book of Songs and the Li Sao of the Songs of Chu: the two sources of Chinese poetry.",
+      "zh": "风：《诗经》中的国风。骚：《楚辞》中的《离骚》。代指诗歌的源头。"
+    },
+    {
+      "at": "屈宋",
+      "occ": 1,
+      "en": "Qu Yuan and Song Yu, poets of the Songs of Chu. The Qi and Liang of the next half-line are southern dynasties (479–557) known for ornate court verse.",
+      "zh": "屈宋：屈原、宋玉，楚辞作家。下句齐梁：南朝齐、梁两代（479–557），诗风绮靡。"
+    },
+    {
+      "at": "別裁僞體",
+      "occ": 1,
+      "at_hans": "别裁伪体",
+      "en": "To sort out and cut away the false styles; 裁 is to cut.",
+      "zh": "别裁：区别裁汰。伪体：只模仿形式而无真情的作品。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "縱使盧王操翰墨",
+      "en": "縱使, 'even granting': Du Fu gives the critics their point, that these poets fall short of Han and Wei, and then shows that it does not matter. The quatrain wins by conceding first.",
+      "zh": "“纵使”，先让一步：就算卢、王比不上汉魏，又怎样。先承认，再翻转，这一首就是这样赢的。"
+    },
+    {
+      "at": "未掣鯨魚碧海中",
+      "en": "The fourth quatrain sets two scales side by side: kingfishers on orchid stems, a whale in the blue sea. The fault it names is not prettiness but small ambition.",
+      "zh": "第四首把两种尺度并置：兰苕上的翡翠，碧海中的鲸鱼。它指出的毛病不是精巧，而是志向太小。"
+    }
+  ],
+  "pairs": [
+    "S-002021",
+    "S-008017",
+    "S-001016"
+  ]
 }

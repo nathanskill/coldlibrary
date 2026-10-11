@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes.",
-    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解。"
+    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,50 @@
     "en": "When I set out long ago, / the willows were soft and swaying. / Now, as I come back, / the snow is falling thick.",
     "zh": "昔我往矣，杨柳依依。今我来思，雨雪霏霏。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "采薇",
+      "occ": 1,
+      "en": "薇 is wild vetch, a pea-like plant with edible young shoots; the soldiers forage for it.",
+      "zh": "薇：野豌豆一类的植物，嫩苗可食。戍卒采它充饥。"
+    },
+    {
+      "at": "薇亦作止",
+      "occ": 1,
+      "en": "作: sprouting. 止, which closes many lines in this song, is a particle with no meaning of its own.",
+      "zh": "作：冒出地面。止：句末语气词，无实义。"
+    },
+    {
+      "at": "玁狁",
+      "occ": 1,
+      "at_hans": "猃狁",
+      "en": "The Xianyun, a nomadic people on the Zhou's northern frontier, usually identified with the later Xiongnu.",
+      "zh": "猃狁（xiǎn yǔn）：西周时北方的游牧部族，一般认为即后来的匈奴。"
+    },
+    {
+      "at": "歲亦陽止",
+      "occ": 1,
+      "at_hans": "岁亦阳止",
+      "en": "陽 is the tenth month of the old calendar, the beginning of winter.",
+      "zh": "阳：农历十月，已经入冬。"
+    },
+    {
+      "at": "象弭魚服",
+      "occ": 1,
+      "at_hans": "象弭鱼服",
+      "en": "Bow-ends tipped with ivory, and quivers made from the hide of a sea creature, traditionally glossed as seal or shark.",
+      "zh": "象弭：两端用象牙装饰的弓。鱼服：用鱼兽皮（一说鲨鱼皮）制成的箭袋。"
+    },
+    {
+      "at": "雨雪霏霏",
+      "occ": 1,
+      "en": "雨 is a verb here, to fall (read yù): snow falling, thick and fast.",
+      "zh": "雨（yù）：动词，落下。霏霏：雪下得很密的样子。"
+    }
+  ],
+  "pairs": [
+    "S-001027",
+    "S-001042"
+  ]
 }

@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text from Chinese Wikisource, transcribed from a 1932 reprint of Fierce Tiger (猛虎集, first edition 1931); written on 6 November 1928 on the China Sea and first published in The Crescent Moon (新月) 1:10, 10 December 1928, where the ninth line has 生 for 上.",
-    "zh": "据维基文库，录自《猛虎集》1932 年再版本（初版 1931 年）；1928 年 11 月 6 日作于中国海上，初刊于 1928 年 12 月 10 日《新月》月刊第一卷第十号，该刊第九行“上”字作“生”。"
+    "en": "The text follows the first printing, in The Crescent Moon (新月) 1:10, 10 December 1928, checked by Claude against the National Library of China scan of that issue on Wikimedia Commons. Written on 6 November 1928 on the China Sea. The book version in Fierce Tiger (猛虎集, 1931), which Wikisource transcribes from its 1932 reprint, differs in three small points: 上 for 生 in line 9, a comma after 滿載一船星輝, and no full stop after the date.",
+    "zh": "文字依初刊本：1928 年 12 月 10 日《新月》月刊第一卷第十号，由 Claude 依维基共享资源所藏中国国家图书馆该期扫描核对。1928 年 11 月 6 日作于中国海上。维基文库据 1932 年再版本所录的《猛虎集》（1931）本与此有三处小异：第九行“生”作“上”，“满载一船星辉”后有逗号，末行日期后无句号。"
   },
   "source": {
     "name": "Wikisource",
@@ -33,8 +33,8 @@
   "rights": {
     "status": "public-domain",
     "basis": {
-      "en": "First published in December 1928 in The Crescent Moon; the author died in 1931. Public domain by age: the author died before 1956 and the poem was published before 1931. The text given here is the 1931 book version, which differs from the 1928 printing in a single character (上 for 生 in line 9), so its wording is that of the 1928 publication.",
-      "zh": "1928 年 12 月初刊于《新月》，作者卒于 1931 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。此处所录为 1931 年《猛虎集》本，与 1928 年初刊本只差一字（第九行“上”字初刊作“生”），文字即 1928 年发表的文字。"
+      "en": "First published in December 1928 in The Crescent Moon, the printing followed here; the author died in 1931. Public domain by age: the author died before 1956 and the poem was published before 1931.",
+      "zh": "1928 年 12 月初刊于《新月》，此处即依初刊本；作者卒于 1931 年。作者卒于 1956 年前、作品发表于 1931 年前，按年限属公有领域。"
     },
     "license": null,
     "license_url": null,
@@ -61,5 +61,66 @@
     "en": "I wave my sleeve and take away not a single cloud.",
     "zh": "我挥一挥衣袖，不带走一片云彩。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-001027",
+    "S-001034",
+    "S-003022"
+  ],
+  "gloss": [
+    {
+      "at": "輭泥生",
+      "occ": 1,
+      "at_hans": "软泥生",
+      "en": "輭 is an older form of 軟, soft. 生 is the reading of the 1928 printing, 'grown from the soft mud'; the 1931 book has 上, 'on the soft mud'.",
+      "zh": "原文“輭”，同“软”。“软泥生的”是 1928 年初刊本的文字；1931 年《猛虎集》本作“软泥上的”。"
+    },
+    {
+      "at": "靑荇",
+      "occ": 1,
+      "at_hans": "青荇",
+      "en": "荇 (xìng): floating heart, a water plant whose small round leaves lie on the surface; it is the 荇菜 of the first poem in the Book of Songs.",
+      "zh": "荇：荇菜，叶子浮在水面的水草，就是《诗经》首篇《关雎》“参差荇菜”的荇菜。"
+    },
+    {
+      "at": "康河",
+      "occ": 1,
+      "en": "The Cam, the river that flows through Cambridge past the backs of the colleges.",
+      "zh": "康河：流经剑桥、从各学院后园穿过的河。"
+    },
+    {
+      "at": "楡蔭下的一潭",
+      "occ": 1,
+      "at_hans": "榆荫下的一潭",
+      "en": "Usually identified as Byron's Pool, upstream near Grantchester, said to have been a bathing place of the poet Byron; Xu mentions it in his essay 'The Cambridge I Know'.",
+      "zh": "一般认为指上游格兰切斯特附近的拜伦潭，相传诗人拜伦常在那里游泳；徐志摩在散文《我所知道的康桥》里提到过它。"
+    },
+    {
+      "at": "撑一支長篙",
+      "occ": 1,
+      "at_hans": "撑一支长篙",
+      "en": "Punting: pushing a flat-bottomed boat along with a long pole, the Cambridge way of boating that Xu describes with delight in 'The Cambridge I Know'.",
+      "zh": "撑长篙：撑篙行船，是康河上的玩法，徐志摩在《我所知道的康桥》里津津乐道地写过。"
+    },
+    {
+      "at": "漫溯",
+      "occ": 1,
+      "en": "溯 (sù): to go upstream; 漫溯, to drift upstream at leisure.",
+      "zh": "漫溯：随意地逆流而上。溯，逆流而行。"
+    },
+    {
+      "at": "笙簫",
+      "occ": 1,
+      "at_hans": "笙箫",
+      "en": "笙 and 簫: the mouth organ and the end-blown bamboo flute, standing together for music.",
+      "zh": "笙箫：笙和箫，两种管乐器，合起来泛指音乐。"
+    },
+    {
+      "at": "康橋",
+      "occ": 1,
+      "at_hans": "康桥",
+      "en": "康橋: Xu's name for Cambridge, now usually written 劍橋. He studied there in 1921–22 at King's College and came back for a short visit in the summer of 1928; this poem was written on the voyage home.",
+      "zh": "康桥：徐志摩对剑桥（Cambridge）的译名。他 1921 至 1922 年在剑桥大学国王学院学习，1928 年夏重访，这首诗写于回国的海上。"
+    }
+  ]
 }

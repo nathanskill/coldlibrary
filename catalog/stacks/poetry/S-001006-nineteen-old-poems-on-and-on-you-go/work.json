@@ -60,5 +60,53 @@
     "en": "Ten thousand li now lie between us, / each at one end of the sky.",
     "zh": "相去万余里，各在天一涯。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "生別離",
+      "occ": 1,
+      "at_hans": "生别离",
+      "en": "Parted while both are still alive. The Songs of Chu call it the greatest sorrow.",
+      "zh": "活生生地分离。《楚辞·九歌·少司命》：“悲莫悲兮生别离。”"
+    },
+    {
+      "at": "萬餘里",
+      "occ": 1,
+      "at_hans": "万余里",
+      "en": "More than ten thousand li. A li was a little over 400 metres in the Han; the number means unimaginably far.",
+      "zh": "里：古代长度单位，汉代一里约合今四百余米。万余里，极言其远。"
+    },
+    {
+      "at": "胡馬依北風",
+      "occ": 1,
+      "at_hans": "胡马依北风",
+      "en": "Horses from the northern steppe lean into the north wind, and birds from Yue in the far south nest on southern boughs: even animals keep to home.",
+      "zh": "胡地的马依恋北风，越地的鸟在朝南的枝上筑巢，比喻眷恋故土。"
+    },
+    {
+      "at": "衣帶日已緩",
+      "occ": 1,
+      "at_hans": "衣带日已缓",
+      "en": "Her sash grows looser each day: she is growing thin.",
+      "zh": "衣带一天比一天宽松，指人日渐消瘦。"
+    },
+    {
+      "at": "浮雲蔽白日",
+      "occ": 1,
+      "at_hans": "浮云蔽白日",
+      "en": "Often read as a hint that something, or someone, has turned the traveller's heart, as clouds hide the sun.",
+      "zh": "常被解作游子在外受了迷惑，如浮云遮住太阳。"
+    },
+    {
+      "at": "努力加餐飯",
+      "occ": 1,
+      "at_hans": "努力加餐饭",
+      "en": "A stock phrase in Han letters: take care of yourself, eat well. Some read it as said to herself.",
+      "zh": "汉代书信中常见的叮嘱语：保重，多吃饭。也有人认为是自我宽慰。"
+    }
+  ],
+  "pairs": [
+    "S-001007",
+    "S-001018"
+  ]
 }

@@ -60,5 +60,46 @@
     "en": "The swallows go, but they will come again. The willows wither, but they will be green again. The peach blossoms fall, but they will bloom again.",
     "zh": "燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-005003",
+    "S-001008",
+    "S-002023"
+  ],
+  "gloss": [
+    {
+      "at": "八千多日子",
+      "occ": 1,
+      "en": "Eight thousand days is about twenty-two years; Zhu Ziqing was twenty-three when he wrote this.",
+      "zh": "八千多日：约二十二年。朱自清写这篇文章时二十三岁。"
+    },
+    {
+      "at": "頭涔涔而淚澘澘",
+      "occ": 1,
+      "at_hans": "头涔涔而泪潸潸",
+      "en": "涔涔: dripping, of sweat; 澘澘, the same as 潸潸, streaming, of tears. A deliberately classical, balanced phrase.",
+      "zh": "涔涔：汗水不断流下的样子。澘澘：同“潸潸”，流泪的样子。"
+    },
+    {
+      "at": "千門萬戶",
+      "occ": 1,
+      "at_hans": "千门万户",
+      "en": "千門萬戶: a thousand gates and ten thousand doors, an old poetic phrase for a crowded city, as in Wang Anshi's New Year poem.",
+      "zh": "千门万户：形容人家众多，旧诗常用，如王安石《元日》“千门万户曈曈日”。"
+    },
+    {
+      "at": "祇有徘徊罷了",
+      "occ": 1,
+      "at_hans": "只有徘徊罢了",
+      "en": "祇, 畱 and 囘 in this paragraph are older printed forms of 只 (only), 留 (to leave behind) and 回 (to return).",
+      "zh": "原文这一段的“祇”“畱”“囘”，是“只”“留”“回”的旧写法。"
+    },
+    {
+      "at": "游絲",
+      "occ": 1,
+      "at_hans": "游丝",
+      "en": "游絲: gossamer, the fine threads that young spiders float on the spring air.",
+      "zh": "游丝：春天飘在空中的蛛丝。"
+    }
+  ]
 }

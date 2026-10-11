@@ -61,5 +61,45 @@
     "en": "When shall we trim the wick together by the west window / and talk about this night of rain in the Ba hills?",
     "zh": "何当共剪西窗烛，却话巴山夜雨时。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "君問歸期",
+      "occ": 1,
+      "at_hans": "君问归期",
+      "en": "君: someone in the north. Traditionally the poet's wife, though she may already have died; some think a friend in Chang'an.",
+      "zh": "君：北方的亲人或友人。旧说指妻子王氏，但有学者考证作诗时王氏已去世，故一说是寄给长安友人的。"
+    },
+    {
+      "at": "巴山",
+      "occ": 1,
+      "en": "The hills of Ba, in eastern Sichuan, where Li Shangyin was serving on a governor's staff.",
+      "zh": "巴山：泛指川东一带的山，李商隐当时在东川节度使幕府任职。"
+    },
+    {
+      "at": "何當",
+      "occ": 1,
+      "at_hans": "何当",
+      "en": "When will it be that.",
+      "zh": "何当：什么时候能够。"
+    },
+    {
+      "at": "共剪西窗燭",
+      "occ": 1,
+      "at_hans": "共剪西窗烛",
+      "en": "To trim the candle wick together: to sit up late talking.",
+      "zh": "剪烛：剪去燃过的烛芯，使烛光明亮，指深夜长谈。"
+    },
+    {
+      "at": "卻話",
+      "occ": 1,
+      "at_hans": "却话",
+      "en": "卻: then, looking back. To talk over this night from the far side of it.",
+      "zh": "却：再，回头。却话，回过头来谈论。"
+    }
+  ],
+  "pairs": [
+    "S-001059",
+    "S-001071"
+  ]
 }

@@ -64,5 +64,56 @@
     "en": "Peach and plum in the spring wind, one cup of wine; / rivers and lakes in the night rain, ten years of lamplight.",
     "zh": "桃李春风一杯酒，江湖夜雨十年灯。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "我居北海君南海",
+      "occ": 1,
+      "en": "Huang Tingjian was at Dezhou, near the Bohai; Huang Jifu at Sihui, in present-day Guangdong. The words recall the Zuo Zhuan: 'You dwell by the northern sea, I by the southern sea.'",
+      "zh": "黄庭坚时在德州德平镇（近渤海），黄几复在四会（今属广东）。语出《左传·僖公四年》“君处北海，寡人处南海”。"
+    },
+    {
+      "at": "謝不能",
+      "occ": 1,
+      "at_hans": "谢不能",
+      "en": "謝: to decline. The geese politely refuse the errand.",
+      "zh": "谢：推辞，谢绝。"
+    },
+    {
+      "at": "四立壁",
+      "occ": 1,
+      "en": "Four bare walls: the Records of the Historian say that Sima Xiangru's home had nothing but walls standing.",
+      "zh": "语出《史记·司马相如列传》“家居徒四壁立”，形容家贫。"
+    },
+    {
+      "at": "不蘄三折肱",
+      "occ": 1,
+      "at_hans": "不蕲三折肱",
+      "en": "蘄: to seek. From the Zuo Zhuan: break your arm three times and you will know how to be a good doctor. Huang Jifu needs no such failures to govern well.",
+      "zh": "蕲（qí）：求。语出《左传·定公十三年》“三折肱知为良医”。这里说黄几复有治理之才，不必经过多次挫折。"
+    },
+    {
+      "at": "瘴煙",
+      "occ": 1,
+      "at_hans": "瘴烟",
+      "en": "Malarial mist, the feared miasma of the far south.",
+      "zh": "瘴烟：南方山林间湿热蒸郁的雾气，古人认为能致病。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "我居北海君南海",
+      "en": "The first half-line puts two people at opposite ends of the empire in seven characters, by saying 海 twice.",
+      "zh": "首句前半七个字，只靠两个“海”字，就把两个人放到了天下的两端。"
+    },
+    {
+      "at": "想得讀書頭已白",
+      "en": "想得, 'I picture it': the last couplet is imagined from a thousand miles away, down to the apes across the stream. The friend is reading, and the poet can only suppose so.",
+      "zh": "“想得”，是想象：最后一联全是在千里之外想出来的，连溪对岸的猿啼也是。朋友在读书，诗人只能这样设想。"
+    }
+  ],
+  "pairs": [
+    "S-001040",
+    "S-001050"
+  ]
 }

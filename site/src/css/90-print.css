@@ -1,30 +1,32 @@
 /* ---------- print (spec §5.3.10) ----------
-   The work prints as a book page: the text in the current view, black on white at 11pt serif, the glosses as a
-   numbered list after it, and the colophon in full. Chrome, controls and neighbours stay on screen. */
+   A work prints as a book page: the text in the current view, black on white at 11pt serif, the glosses as a
+   numbered list after it (reading.js builds the list on beforeprint; without JS each gloss follows its paragraph),
+   and the colophon in full. Chrome, controls, Claude's marginalia, related works and neighbours stay on screen.
+   A printed page is narrower than 900 CSS px, so the one-column reading layout applies. */
 @media print {
   @page { margin: 20mm; }
   :root, :root[data-theme="dark"] {
     --bg: white; --bg-2: white; --surface: white; --mat: white; --ink: black; --ink-2: black; --ink-3: dimgray; --read-ink: black;
-    --line: silver; --line-2: gray; --link: black; --brass-ink: black; color-scheme: light;
+    --line: silver; --line-2: gray; --link: black; --brass-ink: black; --accent: black; color-scheme: light;
     /* the six UI sizes, restated for paper */
     --t1: 20pt; --t2: 14pt; --t3: 12pt; --t4: 11pt; --t5: 9pt; --t6: 8pt;
   }
   html, body { background: white; color: black; }
-  .site-head, .site-foot, .skip, .directory, .rbar, .ptop, .rail, .toolbar, .sheet-cb, .scrim, .pnote,
-  .em-related, .neigh, .bridge, .needs-js, .code-tools, .read .pl, .read .gn, .read .mn, .em-colophon .fix { display: none !important; }
-  .wgrid, .work .wgrid { display: block; padding: 0; max-width: none; }
+  .site-head, .site-foot, .skip, .directory, .rbar, .ptop, .rail, .toolbar, .sheet-cb, .work .scrim, .pnote,
+  .em-related, .neigh, .bridge, .needs-js, .code-tools, .read .pl, .read .mn, .em-colophon .fix { display: none !important; }
+  .work:has(.gl-print) .read .gn { display: none; }
+  .wgrid { display: block; padding: 0; }
   .wrap { max-width: none; padding: 0; }
-  .work .wcol { width: auto; }
-  .wide, .read .part, .layer-p.has-n .vrows { margin-right: 0 !important; padding-right: 0 !important; }
+  .wide, .read .part { margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
   .read .part.cv { content-visibility: visible; }
 
-  .read { --rs: 1 !important; --r-vd-cjk: 13pt; --r-vd-lat: 12pt; --r-vl-cjk: 11pt; --r-vl-lat: 11pt; --r-p-lat: 11pt; --r-p-zh: 11pt; --r-p-lzh: 11pt; --r-code: 9pt; --r-doc: 9pt; color: black; }
+  .read { --rs: 1; --r-vd-cjk: 13pt; --r-vd-lat: 12pt; --r-vl-cjk: 11pt; --r-vl-lat: 11pt; --r-p-lat: 11pt; --r-p-zh: 11pt; --r-p-lzh: 11pt; --r-code: 9pt; --r-doc: 9pt; color: black; }
   .read p, .read .line { orphans: 3; widows: 3; }
   .read .read-h { break-after: avoid; }
-  .read .stanza, .read .vrows, .read .code-wrap, .wplate { break-inside: avoid; }
+  .read .stanza, .read .vr, .read .code-wrap, .wplate { break-inside: avoid; }
   .read pre.code, .read pre.doc { white-space: pre-wrap; overflow: visible; background: none; border: 1px solid silver; }
-  .vrows > :is(.gn, .mn) { display: none; }
-  .gl::after { color: black; }
+  .gl { text-decoration: none; }
+  .gk::after { color: black; }
   .wplate img { max-height: 120mm; }
 
   /* glosses after the text, numbered as in the margin */
@@ -37,7 +39,6 @@
   .em-note, .em-pick, .em-trails, .em-colophon { break-inside: avoid-page; }
   .full-record > summary { display: none; }
   .full-record::details-content { content-visibility: visible; display: contents; }
-  .full-record > :not(summary) { display: grid; }
   .tomb dt, .tomb dd { padding: 1.5mm 0; }
   a { color: black; text-decoration: none; }
   a.src::after { content: " (" attr(href) ")"; font-size: var(--t6); overflow-wrap: anywhere; }

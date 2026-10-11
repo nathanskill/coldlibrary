@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out and punctuation is added at the source's own phrase breaks.",
-    "zh": "据维基文库，删去其所注异文，标点依原文断句补加。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out and punctuation is added at the source's own phrase breaks. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文，标点依原文断句补加。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,52 @@
     "en": "I knock, and no one answers; / leaning on my staff, I listen to the river.",
     "zh": "敲门都不应，倚杖听江声。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "東坡",
+      "occ": 1,
+      "at_hans": "东坡",
+      "en": "The Eastern Slope, a plot of land at Huangzhou that Su Shi farmed in exile; he took it as his literary name, Dongpo.",
+      "zh": "东坡：苏轼贬居黄州时开垦的一块坡地，他因此自号“东坡居士”。"
+    },
+    {
+      "at": "三更",
+      "occ": 1,
+      "en": "The third watch, around midnight; the night was divided into five watches.",
+      "zh": "三更：约当半夜十一点到一点。古代把一夜分为五更。"
+    },
+    {
+      "at": "倚杖聽江聲",
+      "occ": 1,
+      "at_hans": "倚杖听江声",
+      "en": "Su Shi's lodging, the Lingao Pavilion, stood right above the Yangzi.",
+      "zh": "苏轼所住的临皋亭就在长江边上。"
+    },
+    {
+      "at": "此身非我有",
+      "occ": 1,
+      "en": "From Zhuangzi: your body is not your own, it is a form lent by heaven and earth. 營營, busy striving, in the next line, is also Zhuangzi's word.",
+      "zh": "化用《庄子·知北游》“汝身非汝有也”。下句“营营”（奔走钻营）也出自《庄子·庚桑楚》。"
+    },
+    {
+      "at": "縠紋",
+      "occ": 1,
+      "at_hans": "縠纹",
+      "en": "Ripples like the fine crinkles of crêpe silk; 縠 is a gauze with a crimped weave.",
+      "zh": "縠（hú）纹：比喻水面的细小波纹。縠，有皱纹的纱。"
+    },
+    {
+      "at": "小舟從此逝",
+      "occ": 1,
+      "at_hans": "小舟从此逝",
+      "en": "Ye Mengde tells that when this lyric went round, people said Su Shi had left his cap and robe on the bank and sailed away. The prefect, alarmed, hurried to his house and found him asleep and snoring.",
+      "zh": "据叶梦得《避暑录话》，此词传开后，人们说苏轼把冠服挂在江边、乘舟而去。郡守大惊，急忙前去察看，却见他鼻鼾如雷，还没睡醒。"
+    }
+  ],
+  "pairs": [
+    "S-001057",
+    "S-002023",
+    "S-002030"
+  ]
 }

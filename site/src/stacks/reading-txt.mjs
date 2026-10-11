@@ -1,56 +1,52 @@
-// The plain-text copy of a work (spec §5.3.10): /open-stacks/<slug>.txt (English header) and
-// /zh/open-stacks/<slug>.txt (Chinese header). UTF-8, LF line ends.
-// work.mjs uses plainText() to show the file's size in the colophon; outputs.mjs should write the same string.
-import { SITE } from '../lib.mjs';
+// The size of a work's plain-text copy, as the colophon shows it (spec §5.3.10).
+// outputs.mjs writes /open-stacks/<slug>.txt and /zh/open-stacks/<slug>.txt, so the size comes from the same function:
+// fmtSize(txtSize(w, lang)). The house paper's .txt is written by outputs.mjs paperTxt(), which is not exported;
+// paperText() below mirrors it line for line (tools: scratchpad check compares it with the written files) until
+// outputs.mjs exports it. The old plainText()/plainSize() format is retired: plainText() now returns the real file.
+import { txtFile, txtSize, fmtSize } from '../outputs.mjs';
+import { SITE, href } from '../lib.mjs';
 
-const L = (o, lang) => (o == null ? '' : typeof o === 'string' ? o : o[lang] ?? o.en ?? '');
-export const today = () => new Date().toISOString().slice(0, 10);
-
-// Translation coverage as the catalogue declares it ("Claude" = full by Claude; an object may be partial).
-const cov = (w, l) => {
-  const t = (w.translations || {})[l];
-  if (!t || !(w.trans || {})[l]) return null;
-  if (typeof t === 'string') return { full: true, by: t, label: null };
-  return { full: t.coverage !== 'partial', by: t.by || 'Claude', label: t.label || null };
+const T = (lang) => (en, zh) => (lang === 'zh' ? zh : en);
+// The build date, exactly as outputs.mjs computes it (only its length affects the size).
+const today = () => {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(process.env.CL_BUILD_DATE || '')) return process.env.CL_BUILD_DATE;
+  const d = new Date();
+  return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
 };
-
-export function plainText(w, lang, { generated = today() } = {}) {
-  const zh = lang === 'zh';
-  const T = (en, z) => (zh ? z : en);
+// outputs.mjs plain(): LF line ends, no trailing spaces, code fences dropped, "## " markers dropped.
+function plain(src) {
+  const lines = String(src || '').replace(/\r\n?/g, '\n').split('\n').map((l) => l.replace(/[ \t]+$/, ''));
   const out = [];
-  if (w.house) {
-    const p = w[lang] || w.en;
-    out.push(p.title, p.author, p.date, `${T('Cold Library · Open Stacks · House paper', '冷冻图书馆 · 开架书库 · 馆内文献')} · ${w.id} · ${SITE}/s/${w.id.slice(2)}`,
-      T('Written by Librarian No. 1 for this library.', '由一号馆员为本馆撰写。'), `${T('Generated', '生成于')} ${generated}`, '', '----', '', String(p.body || '').trim(), '');
-    return out.join('\n');
+  let fence = false;
+  for (const l of lines) {
+    if (/^```/.test(l)) { fence = !fence; continue; }
+    const h = !fence && l.match(/^#{2,3}\s+(.+)$/);
+    if (h) {
+      while (out.length && out[out.length - 1] === '') out.pop();
+      if (out.length) out.push('', '');
+      out.push(h[1].trim());
+      continue;
+    }
+    out.push(l);
   }
-  const title = w.translator ? (w.title[String(w.lang).slice(0, 2)] || w.title.en) : w.title.orig;
-  const page = w.title[lang] || w.title.en;
-  out.push(title + (page && page !== title ? ` / ${page}` : ''));
-  const a = w.author || {};
-  const aName = a[lang] || a.en || a.orig || '';
-  out.push([aName + (a.orig && a.orig !== aName ? ` (${a.orig})` : ''), a.dates].filter(Boolean).join(', '));
-  if (w.translator) out.push(T(`Translated by ${w.translator.name}${w.translator.year ? ', ' + w.translator.year : ''}`, `${w.translator.name} 译${w.translator.year ? '，' + w.translator.year + ' 年' : ''}`));
-  out.push(L(w.year_display, lang) || String(w.year));
-  out.push(`${T('Cold Library · Open Stacks', '冷冻图书馆 · 开架书库')} · ${w.id} · ${SITE}/s/${w.id.slice(2)}`);
-  const r = w.rights || {};
-  out.push(`${T('Rights: ', '权利：')}${L(r.basis, lang)}${r.license ? ` (${r.license})` : ''} ${T('Guidance, not legal advice.', '仅供参考，不是法律意见。')}`.trim());
-  const s = w.source || {};
-  out.push(`${T('Source: ', '来源：')}${[s.name, s.url, s.retrieved ? T('retrieved ', '取得于 ') + s.retrieved : ''].filter(Boolean).join(', ')}`);
-  const tr = r.verbatim_only ? null : cov(w, lang);
-  if (tr) out.push(`${T('Translation: ', '译文：')}${tr.by === 'Claude' ? T('Claude (an AI), 2026, CC0 1.0', 'Claude（AI），2026，CC0 1.0') : tr.by}${tr.full ? '' : T(' · partial', ' · 节译') + (L(tr.label, lang) ? ': ' + L(tr.label, lang) : '')}`);
-  out.push(`${T('Generated', '生成于')} ${generated}`, '', '----', '', String(w.text || '').trim(), '');
-  if (w.textHans) out.push('----', '', String(w.textHans).trim(), '');
-  if (r.verbatim_only) { if (r.notice) out.push('----', '', r.notice, ''); return out.join('\n'); }
-  if (tr) {
-    out.push('----', '', tr.full ? T('Translation by Claude (an AI), CC0 1.0', 'Claude（AI）译，CC0 1.0') : T('Partial translation by Claude (an AI), CC0 1.0', 'Claude（AI）节译，CC0 1.0'), '', String(w.trans[lang]).trim(), '');
-  }
-  return out.join('\n');
+  return out.join('\n').replace(/\n{4,}/g, '\n\n\n').replace(/^\n+|\n+$/g, '');
+}
+// outputs.mjs paperTxt(): a house paper as plain text.
+export function paperText(p, lang, date = today()) {
+  const tt = T(lang);
+  const s = p[lang] || p.en;
+  const head = [s.title, s.author, s.date].filter(Boolean).join('\n');
+  const facts = [
+    `${tt('Cold Library · house paper', '冷冻图书馆 · 馆内文献')} · ${p.id} · ${SITE}/s/${p.id.slice(2)}`,
+    s.author ? tt(`Written for this library by ${s.author}.`, `${s.author}${/[A-Za-z0-9.]$/.test(s.author) ? ' ' : ''}为本馆撰写。`) : '',
+    tt(`Generated ${date} from ${SITE}${href('en', 'open-stacks/' + p.slug)}`, `生成于 ${date}，来自 ${SITE}${href('zh', 'open-stacks/' + p.slug)}`),
+  ];
+  return `${head}\n\n${facts.filter(Boolean).join('\n')}\n\n----\n\n${plain(s.body)}\n`;
 }
 
-export function plainSize(w, lang) {
-  const bytes = Buffer.byteLength(plainText(w, lang), 'utf8');
-  if (bytes < 1024) return '1 KB';
-  if (bytes < 1024 * 1024) return Math.round(bytes / 1024) + ' KB';
-  return (bytes / 1024 / 1024).toFixed(1) + ' MB';
-}
+// The file a reader downloads: a work's from outputs.mjs, a house paper's from the mirror above.
+export const plainText = (w, lang) => (w.house ? paperText(w, lang) : txtFile(w, lang));
+export const txtSizeLabel = (w, lang) => fmtSize(txtSize(w, lang));
+export const paperSizeLabel = (p, lang) => fmtSize(Buffer.byteLength(paperText(p, lang), 'utf8'));
+// Kept for old callers: the same label as the colophon shows.
+export const plainSize = (w, lang) => (w.house ? paperSizeLabel(w, lang) : txtSizeLabel(w, lang));

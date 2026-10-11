@@ -60,5 +60,51 @@
     "en": "The prime of life does not come twice; / a day has only one morning.",
     "zh": "盛年不重来，一日难再晨。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "無根蒂",
+      "occ": 1,
+      "at_hans": "无根蒂",
+      "en": "No root, no stem: nothing holds a life in place.",
+      "zh": "根蒂：植物的根和蒂，比喻人生没有依托。"
+    },
+    {
+      "at": "陌上塵",
+      "occ": 1,
+      "at_hans": "陌上尘",
+      "en": "Dust on the road; 陌 is a path between fields.",
+      "zh": "陌：田间小路。"
+    },
+    {
+      "at": "非常身",
+      "occ": 1,
+      "en": "No longer the self we were; 常 is constant, unchanging.",
+      "zh": "不再是原来那个恒常不变的身体。常：恒常。"
+    },
+    {
+      "at": "落地為兄弟",
+      "occ": 1,
+      "at_hans": "落地为兄弟",
+      "en": "Once born into the world, all are brothers: an echo of the Analects, 'within the four seas all are brothers'.",
+      "zh": "人一出生就都是兄弟。化用《论语·颜渊》“四海之内，皆兄弟也”。"
+    },
+    {
+      "at": "斗酒",
+      "occ": 1,
+      "en": "A dou of wine, a jugful; the dou, a measure of capacity, held roughly two litres in Tao's time.",
+      "zh": "斗：容量单位，晋时一斗约合今两升。斗酒，一壶酒。"
+    },
+    {
+      "at": "比鄰",
+      "occ": 1,
+      "at_hans": "比邻",
+      "en": "Near neighbours.",
+      "zh": "比邻：近邻。"
+    }
+  ],
+  "pairs": [
+    "S-001008",
+    "S-001013"
+  ]
 }

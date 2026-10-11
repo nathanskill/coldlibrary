@@ -60,5 +60,45 @@
     "en": "The far shape of his lone sail is lost where the blue hills end, / and all I see is the long river flowing to the edge of the sky.",
     "zh": "孤帆远影碧山尽，唯见长江天际流。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "故人",
+      "occ": 1,
+      "en": "Old friend: Meng Haoran, twelve years older than Li Bai, whose poems are also on this shelf.",
+      "zh": "故人：老朋友，指孟浩然。孟浩然比李白年长十二岁，他的诗也在这个书架上。"
+    },
+    {
+      "at": "西辭",
+      "occ": 1,
+      "at_hans": "西辞",
+      "en": "Takes leave in the west: Yellow Crane Tower lies west of Yangzhou, so he sails east, downriver.",
+      "zh": "辞：告别。黄鹤楼在扬州之西，故说“西辞”。"
+    },
+    {
+      "at": "煙花三月",
+      "occ": 1,
+      "at_hans": "烟花三月",
+      "en": "The third lunar month, late spring, when blossom hangs like haze.",
+      "zh": "烟花：形容柳絮如烟、繁花似锦的春景。三月：农历三月，暮春。"
+    },
+    {
+      "at": "揚州",
+      "occ": 1,
+      "at_hans": "扬州",
+      "en": "Yangzhou, called Guangling in the title, the great trading city of the lower Yangzi.",
+      "zh": "扬州：即题中的广陵，唐代长江下游的繁华都会。"
+    },
+    {
+      "at": "天際",
+      "occ": 1,
+      "at_hans": "天际",
+      "en": "The edge of the sky, the horizon.",
+      "zh": "天际：天边。"
+    }
+  ],
+  "pairs": [
+    "S-001023",
+    "S-001022"
+  ]
 }

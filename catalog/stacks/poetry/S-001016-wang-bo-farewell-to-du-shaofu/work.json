@@ -59,5 +59,51 @@
     "en": "Within the four seas, if you have one who knows you, / the ends of the sky are like next door.",
     "zh": "海内存知己，天涯若比邻。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "城闕輔三秦",
+      "occ": 1,
+      "at_hans": "城阙辅三秦",
+      "en": "城闕: the walls and towers of the capital, Chang'an. 三秦: the land around it, divided into three kingdoms after the fall of Qin. 輔: to guard, to flank.",
+      "zh": "城阙：城墙和宫阙，指长安。三秦：长安周围的关中地区，项羽灭秦后分为三国，故称。辅：护卫。"
+    },
+    {
+      "at": "五津",
+      "occ": 1,
+      "en": "The Five Fords, five crossings on the Min River in Shu (Sichuan), where Du was going.",
+      "zh": "五津：岷江上的五个渡口，代指杜少府要去的蜀州。"
+    },
+    {
+      "at": "宦遊人",
+      "occ": 1,
+      "at_hans": "宦游人",
+      "en": "A man who travels for office, posted far from home.",
+      "zh": "宦游人：为做官而远离家乡的人。"
+    },
+    {
+      "at": "天涯若比隣",
+      "occ": 1,
+      "at_hans": "天涯若比邻",
+      "en": "比隣: next-door neighbours. The couplet recalls Cao Zhi: for a man whose heart is set on the four seas, ten thousand li are as close as neighbours.",
+      "zh": "比邻：近邻。化用曹植《赠白马王彪》“丈夫志四海，万里犹比邻”。"
+    },
+    {
+      "at": "岐路",
+      "occ": 1,
+      "en": "The fork in the road, where travellers parted.",
+      "zh": "岔路口，古人多在此分手。"
+    },
+    {
+      "at": "霑巾",
+      "occ": 1,
+      "at_hans": "沾巾",
+      "en": "To wet one's kerchief with tears.",
+      "zh": "沾湿手巾，指流泪。"
+    }
+  ],
+  "pairs": [
+    "S-001036",
+    "S-001027"
+  ]
 }

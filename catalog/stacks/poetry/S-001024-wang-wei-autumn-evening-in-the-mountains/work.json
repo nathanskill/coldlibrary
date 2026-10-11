@@ -61,5 +61,39 @@
     "en": "The bright moon shines between the pines, / the clear spring flows over the stones.",
     "zh": "明月松间照，清泉石上流。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "晚來秋",
+      "occ": 1,
+      "at_hans": "晚来秋",
+      "en": "晚來: towards evening. The air turns autumnal as night comes on.",
+      "zh": "晚来：傍晚。"
+    },
+    {
+      "at": "竹喧歸浣女",
+      "occ": 1,
+      "at_hans": "竹喧归浣女",
+      "en": "The bamboo rustles with voices as the washerwomen go home; 浣 is to wash clothes.",
+      "zh": "竹林里喧笑声响起，是洗衣的姑娘们回来了。浣：洗。"
+    },
+    {
+      "at": "隨意春芳歇",
+      "occ": 1,
+      "at_hans": "随意春芳歇",
+      "en": "隨意: let it be as it will. 歇: to fade, to end.",
+      "zh": "随意：任凭。春芳：春天的花草。歇：消散。"
+    },
+    {
+      "at": "王孫自可留",
+      "occ": 1,
+      "at_hans": "王孙自可留",
+      "en": "Reverses a line of the Songs of Chu that calls the prince home because the mountains are no place to stay. Here they are worth staying in; 王孫 is the poet himself.",
+      "zh": "反用《楚辞·招隐士》“王孙兮归来，山中兮不可以久留”。王孙，原指贵族子弟，这里是作者自指。"
+    }
+  ],
+  "pairs": [
+    "S-001026",
+    "S-004007"
+  ]
 }

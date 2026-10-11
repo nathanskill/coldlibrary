@@ -10,7 +10,7 @@ import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, 
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { layout, SITE, href, resetGlyphs, takeGlyphs } from './src/lib.mjs';
-import { loadStacks, frontMatter } from './src/stacks.mjs';
+import { loadStacks } from './src/stacks.mjs';
 import { PAGES, itemPage } from './src/pages.mjs';
 import { workPages } from './src/stacks/work.mjs';
 import { stackPages } from './src/stacks/lists.mjs';
@@ -35,17 +35,6 @@ function copyDir(src, dst) {
 const projects = readdirSync(join(root, 'catalog/projects')).filter((f) => f.endsWith('.json')).sort()
   .map((f) => JSON.parse(readFileSync(join(root, 'catalog/projects', f), 'utf8')));
 
-// Legacy shape of the house papers (catalog/open-stacks/*.md), still read by pages.mjs until it is migrated.
-const stackFiles = readdirSync(join(root, 'catalog/open-stacks')).filter((f) => f.endsWith('.en.md')).sort();
-const stacks = stackFiles.map((f) => {
-  const base = f.replace(/\.en\.md$/, '');
-  const en = frontMatter(readFileSync(join(root, 'catalog/open-stacks', f), 'utf8'));
-  const zhPath = join(root, 'catalog/open-stacks', base + '.zh.md');
-  const zh = existsSync(zhPath) ? frontMatter(readFileSync(zhPath, 'utf8')) : en;
-  const excerpt = (b) => b.trim().split(/\n{2,}/)[0].replace(/[*#>]/g, '').slice(0, 180);
-  return { accession: en.meta.accession, slug: base.replace(/^S-\d+-/, ''), en: { ...en.meta, body: en.body, excerpt: excerpt(en.body) }, zh: { ...zh.meta, body: zh.body, excerpt: excerpt(zh.body) } };
-});
-
 const items = readdirSync(join(root, 'catalog/items')).filter((f) => f.endsWith('.json')).sort()
   .map((f) => JSON.parse(readFileSync(join(root, 'catalog/items', f), 'utf8')));
 for (const i of items) if (JSON.stringify(i).includes('"answer"')) throw new Error(`${i.id}: answers must never be published`);
@@ -59,7 +48,7 @@ const tests = existsSync(testDir) ? readdirSync(testDir).filter((f) => f.endsWit
 const open = loadStacks(root);
 // The catalogue checker runs on every build, as a warning: content edits never block a deploy.
 try { const r = checkStacks(root); const n = (r && (r.errors || r.problems) || []).length; const wn = (r && r.warnings || []).length; console.log(`stacks-check: ${n} problem(s), ${wn} warning(s)`); } catch (e) { console.warn('stacks-check could not run: ' + e.message); }
-const ctx = { root, projects, stacks, items, log, tests, open };
+const ctx = { root, projects, items, log, tests, open };
 
 const all = [...PAGES, ...items.map(itemPage), ...stackPages(ctx), ...workPages(ctx)];
 const seen = new Set();

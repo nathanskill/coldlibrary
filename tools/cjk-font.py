@@ -1,57 +1,62 @@
 #!/usr/bin/env python3
-"""Cold Serif SC: Noto Serif SC (SIL OFL 1.1) cut into small WOFF2 files per page (design spec v5 §3.6).
+"""Cold Serif SC: Noto Serif SC (SIL OFL 1.1) cut into small WOFF2 files per page (design spec v5 §3.5, §3.6).
 
-node site/build.mjs writes site/cjk-manifest.json: for every font key (a work ID, "page:<slug>", a block that
-loads later such as "today-<id>" or "grid:<slug>"), the characters it sets in the serif, in four buckets:
-base (both scripts, or the only one), hant, hans (only in the traditional / simplified text) and w600 (<strong>).
-This tool reads it and writes, under site/public/assets/fonts/cjk/:
+Re-run, from the repository root, in this order:
+  node site/build.mjs            1. writes site/cjk-manifest.json: per font key, the characters set in the serif
+  python3 tools/cjk-font.py      2. cuts site/public/assets/fonts/cjk/ from it (sources: .cache/fonts/, below)
+  node site/build.mjs            3. links the new files; the coverage gate then prints no "[fonts]" warning
+Step 1 must run WITHOUT CL_NO_MANIFEST (that variable is for parallel builds that must not touch the manifest).
+Check only, write nothing:  python3 tools/cjk-font.py --check      Plan only:  python3 tools/cjk-font.py --dry-run
 
-  common.<hash>.woff2 + .css   the ~120 characters on the most pages (frozen in tools/cjk-common.txt), one
-                               file every page shares and caches; every other 400 file leaves these out
-  k/<key>.<part>.<hash>.woff2  per key, up to four files: base, hant, hans (400) and w600 (600), and one
-  k/<key>.<hash>.css           stylesheet per key. Hidden 繁 or 简 text (display:none) downloads nothing.
-  core/<n>.<hash>.woff2        a shared core, only when every key's own files would not fit --budget-mb (15 MB):
-                               the characters the biggest keys share most, taken out of the keys that use the
-                               most of it until the total fits. Their CSS lists the core files next to their
-                               own, smaller files, so a long read downloads the core once and every later long
-                               page finds it cached. Every page still links exactly one key CSS (+ common), and
-                               no two files a page links share a code point. (One set of shared slices for all
-                               long keys, the first idea, made a long page download 2.5-3.5x its own subset:
-                               about 950 KB for the Dao De Jing instead of about 360 KB with the core.)
-  map.json                     key → mode, CSS and the preloadable base file (read by site/src/fonts.mjs)
-  coverage.json                which characters each file covers (the build's coverage gate)
-  punct-serif-400.woff2        "CL Punct Serif" (spec §3.5): kept when it already covers its unicode-range
-  OFL.txt                      the licence
+Sources (never committed; .cache/ is git-ignored). Noto Serif CJK 2.003 (release Serif2.003), region subset SC,
+notofonts/noto-cjk commit 9b0f1436e455d902de067a2501422e5dc71ad16b:
+  .cache/fonts/NotoSerifSC-Regular.otf   sha256 e8f396decc1f0963a016a989c3d8852e863d1350996f573860a80767c83a1cd3
+  .cache/fonts/NotoSerifSC-SemiBold.otf  sha256 517d9736136b3b4e9aea742a7e1acda1922aea91a4425bd8db79281934055bf5
+  .cache/fonts/LICENSE-OFL.txt           sha256 6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2
+  URLs: https://github.com/notofonts/noto-cjk/raw/9b0f1436e455d902de067a2501422e5dc71ad16b/Serif/SubsetOTF/SC/<file>
+        and …/Serif/LICENSE. --fetch downloads and checks all three; --regular/--semibold read copies elsewhere.
+Requires python3 with fontTools and brotli (pip3 install --user fonttools brotli). Takes 2-4 minutes from cold,
+seconds when nothing changed (every cut is cached by recipe in .cache/cjk-build/).
 
-Outlines are scaled to 500 units per em with absolute rounding (≤ 1/1000 em error, verified for every glyph),
-which saves about 16% against 1000. Files are content-hashed and cached in .cache/cjk-build/, so a re-run only
-cuts what changed and gives identical files the same names. Files that are no longer used, the retired
-frequency slices (serif-sc-*.woff2) and /assets/cjk.css are moved to .cache/cjk-stale/, never deleted.
+Writes, under site/public/assets/fonts/cjk/ (everything there is committed; the total stays under --budget-mb):
+  common.<h>.woff2 + .css    the 120 characters on the most pages (tools/cjk-common.txt, frozen; change it only with
+                             --refresh-common). Linked on every page that sets Cold Serif SC; no other file has them.
+  k/<key>.<part>.<h>.woff2   per font key: base (both scripts, or the only one), hant / hans (one script only, so the
+                             hidden script downloads nothing) and w600 (the characters inside <strong>, weight 600)
+  k/<key>.<h>.css            one stylesheet per key: the key's own faces plus the shared core slices it uses
+  core/<n>.<h>.woff2         shared core slices, made only when per-key files alone would not fit the budget
+  punct-serif-400.woff2      "CL Punct Serif" (spec §3.5); kept as it is while it covers its unicode-range
+  map.json, coverage.json    read by site/src/fonts.mjs: links, preloads and the build's coverage gate
+  OFL.txt                    the licence
+A page links common.css and its key's CSS (a block a script shows later, such as today-<id> on the lobby or
+grid:<slug> on a shelf, inserts that key's CSS). No two faces a page can load share a code point: common, each key
+part and each core slice are disjoint, a key's own files leave out the slices it links, and a later block's files
+leave out what its page already covers. Files no longer used move to .cache/cjk-stale/; nothing is deleted.
 
-Sources (not committed; Noto Serif CJK 2.003, release Serif2.003, commit 9b0f143 of notofonts/noto-cjk):
-  https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/SC/NotoSerifSC-Regular.otf
-  https://github.com/notofonts/noto-cjk/raw/main/Serif/SubsetOTF/SC/NotoSerifSC-SemiBold.otf
-  (pinned: https://github.com/notofonts/noto-cjk/raw/9b0f1436e455d902de067a2501422e5dc71ad16b/Serif/SubsetOTF/SC/…)
-  SHA-256 below. --fetch downloads them (and the licence) into .cache/fonts/.
+Planning. Each key first gets its own files. When they do not fit the budget, the characters shared by the most
+large keys form a core, cut into slices of a few hundred characters (by frequency, and within a frequency band by
+which shelf uses them), and each large key links only the slices that pay off for it: the links that save the most
+storage for the least extra download on a cold first visit are taken first. A link that would push a key over its
+budget (works 256 KB, list pages 160 KB) is taken only if the storage budget cannot be met otherwise. Small keys
+(cold first visit at most 96 KB on their own), the lobby, its today-<id> blocks and any page with a later block
+never link the core, so a short poem stays at common + its own files.
 
-Usage:
-  node site/build.mjs                       # writes site/cjk-manifest.json
-  python3 tools/cjk-font.py [--regular R.otf --semibold S.otf | --fetch] [--refresh-common] [--dry-run]
-  node site/build.mjs                       # links the new files; warns about any character left uncovered
-Requires: pip3 install --user fonttools brotli
+Outlines. Hints are dropped and charstrings desubroutinised. With --grid 2 (default) every outline point is moved
+to the nearest even coordinate of the 1000-unit em (at most 1 unit = 0.001 em, 0.03 px at 26 px), which makes the
+files about 10 % smaller while the fonts stay standard 1000-unit CFF. Every glyph is drawn back and compared with
+the source: identical except zero-length or collinear line segments merged; anything else stops the tool.
+(An earlier draft rescaled to 500 units per em; fontTools wrote those CID-keyed CFF files without a FontMatrix, so
+the CFF data said 1000 units while head said 500. That is gone: --grid 1 keeps the exact source outlines.)
 """
-import argparse, hashlib, io, json, os, re, shutil, sys, time, urllib.request
+import argparse, hashlib, io, json, math, os, random, re, sys, time, urllib.request
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
 
 import fontTools
 from fontTools import subset
-from fontTools.misc.roundTools import otRound
 from fontTools.pens.recordingPen import RecordingPen
 from fontTools.pens.t2CharStringPen import T2CharStringPen
-from fontTools.pens.transformPen import TransformPen
 from fontTools.ttLib import TTFont
-from fontTools.ttLib.scaleUpem import scale_upem
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / 'site/public/assets/fonts/cjk'
@@ -65,24 +70,35 @@ FONT_CACHE = ROOT / '.cache/fonts'
 HREF = '/assets/fonts/cjk/'
 
 FAMILY = 'Cold Serif SC'
-TOOL = 'cjk-font 2'  # part of every cache recipe: bump it when an option below changes the output
+TOOL = 'cjk-font 3'  # part of every cache recipe: bump it when an option below changes the output
 COMMIT = '9b0f1436e455d902de067a2501422e5dc71ad16b'
 RAW = 'https://github.com/notofonts/noto-cjk/raw/' + COMMIT + '/Serif/'
 SOURCES = {
     '400': {'file': 'NotoSerifSC-Regular.otf', 'sha256': 'e8f396decc1f0963a016a989c3d8852e863d1350996f573860a80767c83a1cd3'},
     '600': {'file': 'NotoSerifSC-SemiBold.otf', 'sha256': '517d9736136b3b4e9aea742a7e1acda1922aea91a4425bd8db79281934055bf5'},
 }
+LICENSE_FILE = 'LICENSE-OFL.txt'
 LICENSE_SHA = '6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2'
 PUNCT_FILE = 'punct-serif-400.woff2'
+SPACE = '　'  # the ideographic space needs no glyph from us
 
-# The lobby and the per-pick blocks it swaps in stay off the shared core: a small block must never pull the core in.
-OWN_ALWAYS = ('today-', 'page:lobby')
-FEATURES = ['ccmp', 'locl', 'kern', 'palt', 'halt', 'chws', 'vert', 'vrt2', 'vhal', 'vpal', 'vkrn', 'vchw']
-PRELOAD_MAX = 40 * 1024     # fonts.mjs preloads a key's base file only when it is at most this big
-W600_WARN = 16 * 1024       # spec §3.5: a page's 600 file over 16KB is an editorial problem (too much bold)
-CORE_SIZES = range(400, 2401, 100)  # core sizes tried when the budget needs a core
-CORE_SLICE = 400                    # characters per core file
-SEED_THRESHOLD = 600                # keys above this many characters seed the first guess at the core
+# Ideograph subsets keep only what horizontal text uses. The punctuation face keeps the spacing and vertical features
+# (text-spacing-trim uses halt/chws). --vertical keeps the vertical tables in every file (vertical text is phase 2).
+FEATURES = ['ccmp', 'locl']
+FEATURES_VERTICAL = ['vert', 'vrt2']
+PUNCT_FEATURES = ['ccmp', 'locl', 'kern', 'palt', 'halt', 'chws', 'vert', 'vrt2', 'vhal', 'vpal', 'vkrn', 'vchw']
+VERTICAL_TABLES = ['vhea', 'vmtx', 'VORG']
+
+OWN_ONLY = ('today-', 'page:lobby')  # the lobby and its per-pick blocks never pull in a core slice
+PROTECT_KB = 96          # keys whose cold first visit on their own files is at most this never link the core
+WORK_CAP_KB = 256        # spec §3.6: longest works, per visible script
+LIST_CAP_KB = 160        # spec §3.6: shelf, index and author pages
+SHORT_KB = 64            # spec §3.6: short poem, common file included
+W600_WARN = 16 * 1024    # spec §3.5: a page's 600 file over 16 KB is an editorial problem (too much bold)
+CORE_SIZES = (400, 800, 1200, 1600, 2000, 2400, 3200)  # core sizes tried (characters)
+SLICE_SIZES = (200, 300, 400)                          # characters per core slice
+MAX_SLICES = 8           # at most this many core files exist, so a long page downloads at most 8 of them
+BLOCK = 4096             # file-system block, only for the "on disk" figure in the report
 
 
 def rel(p):
@@ -101,10 +117,14 @@ def sha256(data):
     return hashlib.sha256(data).hexdigest()
 
 
+def kb(b):
+    return f'{b / 1024:.0f} KB'
+
+
 # ---------------------------------------------------------------- sources
 def fetch_sources():
     FONT_CACHE.mkdir(parents=True, exist_ok=True)
-    for w, s in SOURCES.items():
+    for s in SOURCES.values():
         dst = FONT_CACHE / s['file']
         if dst.exists() and sha256(dst.read_bytes()) == s['sha256']:
             continue
@@ -115,16 +135,18 @@ def fetch_sources():
         if sha256(data) != s['sha256']:
             sys.exit(f'{s["file"]}: SHA-256 {sha256(data)} is not the pinned {s["sha256"]}')
         dst.write_bytes(data)
-    lic = FONT_CACHE / 'LICENSE-OFL.txt'
-    if not lic.exists():
+    lic = FONT_CACHE / LICENSE_FILE
+    if not lic.exists() or sha256(lic.read_bytes()) != LICENSE_SHA:
         with urllib.request.urlopen(RAW + 'LICENSE', timeout=60) as r:
-            lic.write_bytes(r.read())
+            data = r.read()
+        if sha256(data) != LICENSE_SHA:
+            log(f'  note: the downloaded licence text has SHA-256 {sha256(data)}, not the pinned one')
+        lic.write_bytes(data)
     return FONT_CACHE / SOURCES['400']['file'], FONT_CACHE / SOURCES['600']['file'], lic
 
 
 def check_source(path, weight):
-    data = Path(path).read_bytes()
-    got = sha256(data)
+    got = sha256(Path(path).read_bytes())
     if got != SOURCES[weight]['sha256']:
         sys.exit(f'{path}: SHA-256 {got} is not the pinned {SOURCES[weight]["sha256"]} ({SOURCES[weight]["file"]}).\n'
                  'Use the pinned file (--fetch), or update SOURCES and TOOL together on purpose.')
@@ -132,21 +154,30 @@ def check_source(path, weight):
 
 
 # ---------------------------------------------------------------- characters
-def punct_set():
-    """The code points of the "CL Punct Serif" face, read from its @font-face in 00-fonts.css."""
-    css = FONTS_CSS.read_text(encoding='utf-8')
-    m = re.search(r'font-family:\s*"CL Punct Serif"[^}]*?unicode-range:\s*([^;}]+)', css)
+def css_ranges(text):
     out = set()
-    for part in (m.group(1).split(',') if m else []):
+    for part in text.split(','):
         part = part.strip().upper().replace('U+', '')
+        if not part:
+            continue
         a, _, b = part.partition('-')
         for cp in range(int(a, 16), int(b or a, 16) + 1):
             out.add(chr(cp))
     return out
 
 
+def punct_set():
+    """The code points of the "CL Punct Serif" face, read from its @font-face in 00-fonts.css. Those characters are
+    drawn by that face inside Chinese runs, so no Cold Serif SC file carries them."""
+    css = FONTS_CSS.read_text(encoding='utf-8')
+    m = re.search(r'font-family:\s*"CL Punct Serif"[^}]*?unicode-range:\s*([^;}]+)', css)
+    if not m:
+        sys.exit(f'{rel(FONTS_CSS)} has no "CL Punct Serif" @font-face with a unicode-range')
+    return css_ranges(m.group(1))
+
+
 class Key:
-    __slots__ = ('name', 'base', 'hant', 'hans', 'w600', 'with_')
+    __slots__ = ('name', 'base', 'hant', 'hans', 'w600', 'children', 'parents', 'ex400', 'ex600')
 
     def __init__(self, name, v, cmap400, cmap600, missing):
         self.name = name
@@ -158,17 +189,19 @@ class Key:
             missing |= lack
             s -= lack
         self.base, self.hant, self.hans, self.w600 = base, hant - base, hans - base, w600
-        self.with_ = sorted(v.get('with', []) or [])
+        self.children = sorted(v.get('with', []) or [])
+        self.parents = []
+        self.ex400 = self.ex600 = frozenset()
 
     @property
     def all400(self):
         return self.base | self.hant | self.hans
 
-    def views(self, common):
-        """What one visit renders: the base plus one script (the other is display:none)."""
+    def views(self):
+        """What one visit renders: the base plus one script (the other script is display:none)."""
         if self.hant or self.hans:
-            return [('hant', (self.base | self.hant) - common), ('hans', (self.base | self.hans) - common)]
-        return [('', self.base - common)]
+            return [('hant', self.base | self.hant), ('hans', self.base | self.hans)]
+        return [('', set(self.base))]
 
 
 def load_manifest(cmap400, cmap600):
@@ -179,9 +212,25 @@ def load_manifest(cmap400, cmap600):
     keys = {}
     for name in sorted(raw):
         k = Key(name, raw[name], cmap400, cmap600, missing)
-        if k.all400 or k.w600:
+        if k.all400 or k.w600 or k.children:
             keys[name] = k
+    for k in keys.values():
+        for c in k.children:
+            if c in keys:
+                keys[c].parents.append(k.name)
     return keys, missing
+
+
+def set_exclusions(keys, common, punct):
+    """What each key's own files leave out: the common set, the punctuation face, the ideographic space, and for a
+    block a script shows later (today-<id>, grid:<slug>) whatever every page that shows it already covers."""
+    free = frozenset(common) | frozenset(punct) | {SPACE}
+    for k in keys.values():
+        ex4, ex6 = set(free), set(punct) | {SPACE}
+        if k.parents:
+            ex4 |= set.intersection(*[keys[p].all400 for p in k.parents])
+            ex6 |= set.intersection(*[keys[p].w600 for p in k.parents])
+        k.ex400, k.ex600 = frozenset(ex4), frozenset(ex6)
 
 
 def read_common():
@@ -192,13 +241,13 @@ def read_common():
 
 
 def refresh_common(keys, size, punct, cmap400):
-    """The characters on the most keys (not counting the lobby's per-pick keys, which repeat work pages)."""
+    """The characters on the most keys (not counting the lobby's per-pick blocks, which repeat work pages)."""
     count = {}
     for k in keys.values():
         if k.name.startswith('today-'):
             continue
         for c in k.all400:
-            if c not in punct and c != '　':
+            if c not in punct and c != SPACE:
                 count[c] = count.get(c, 0) + 1
     ranked = sorted((c for c in count if ord(c) in cmap400), key=lambda c: (-count[c], ord(c)))[:size]
     chars = ''.join(sorted(ranked))
@@ -211,118 +260,183 @@ def refresh_common(keys, size, punct, cmap400):
     return chars
 
 
-# ---------------------------------------------------------------- fonts
-def inter_options():
-    o = subset.Options()
-    o.layout_features = FEATURES
-    o.name_IDs = [0, 1, 2, 3, 4, 5, 6]
-    o.notdef_outline = True
-    o.hinting = False
-    o.desubroutinize = True
-    return o
+# ---------------------------------------------------------------- outlines
+def snap_value(v, grid):
+    return int(math.floor(v / grid + 0.5)) * grid
 
 
-def final_options():
-    o = inter_options()
-    o.flavor = 'woff2'
-    return o
+def canon(ops):
+    """Contours as segment lists, for comparing outlines: zero-length lines dropped, consecutive collinear lines
+    merged (going back along a line only removes a zero-area spike), the implicit closing line dropped."""
+    contours, cur, start, pt = [], None, None, None
+    for op, args in ops:
+        if op == 'moveTo':
+            if cur is not None:
+                contours.append((start, cur))
+            cur, start = [], tuple(args[0])
+            pt = start
+        elif op == 'lineTo':
+            q = tuple(args[0])
+            if q == pt:
+                continue
+            if cur and cur[-1][0] == 'L':
+                a = cur[-1][1]
+                if (pt[0] - a[0]) * (q[1] - pt[1]) - (pt[1] - a[1]) * (q[0] - pt[0]) == 0:
+                    cur.pop()
+                    if q != a:
+                        cur.append(('L', a, q))
+                    pt = q
+                    continue
+            cur.append(('L', pt, q))
+            pt = q
+        elif op == 'curveTo':
+            pts = tuple(tuple(p) for p in args)
+            cur.append(('C', pt) + pts)
+            pt = pts[-1]
+    if cur is not None:
+        contours.append((start, cur))
+    out = []
+    for start, segs in contours:
+        if segs and segs[-1][0] == 'L' and segs[-1][2] == start:
+            segs = segs[:-1]
+        if segs:
+            out.append(segs)
+    return out
 
 
-def rescale(font, upem):
-    """scale_upem() rounds every relative CFF delta, so errors pile up along a contour (up to 17 units on 雪).
-    Re-encode each charstring from its absolute outline instead, then check every point."""
-    factor = upem / font['head'].unitsPerEm
-    order = font.getGlyphOrder()
+def snap_outlines(font, grid):
+    """Move every point to the grid and re-encode each charstring from its absolute outline (so rounding never piles
+    up along a contour). Returns {glyph: (source ops, snapped ops)} for the check below."""
     gs = font.getGlyphSet()
-    outlines = {}
-    for g in order:
-        p = RecordingPen()
-        gs[g].draw(p)
-        outlines[g] = p.value
-    vorg = dict(font['VORG'].VOriginRecords) if 'VORG' in font else None
-    scale_upem(font, upem)
-    if vorg is not None:  # scale_upem leaves the per-glyph vertical origins alone
-        font['VORG'].VOriginRecords = {g: otRound(v * factor) for g, v in vorg.items()}
     cs = font['CFF '].cff.topDictIndex[0].CharStrings
     hmtx = font['hmtx']
-    for g in order:
+    record = {}
+    for g in font.getGlyphOrder():
+        p = RecordingPen()
+        gs[g].draw(p)
+        snapped = [(op, [(snap_value(x, grid), snap_value(y, grid)) for (x, y) in args]) for op, args in p.value]
         old, _ = cs.getItemAndSelector(g)
         priv = old.private
         adv = hmtx[g][0]
         dflt, nom = getattr(priv, 'defaultWidthX', 0), getattr(priv, 'nominalWidthX', 0)
         pen = T2CharStringPen(None if adv == dflt else adv - nom, None)
-        tp = TransformPen(pen, (factor, 0, 0, factor, 0, 0))
-        for op, args in outlines[g]:
-            getattr(tp, op)(*args)
+        for op, args in snapped:
+            getattr(pen, op)(*args)
         cs[g] = pen.getCharString(private=priv, globalSubrs=old.globalSubrs)
-    return factor, outlines
+        record[g] = (p.value, snapped)
+    return record
 
 
-def verify_scaled(data, factor, outlines):
-    """Read the scaled font back: every point it draws must be within half a unit of the exact scaled source point,
-    in order. The charstring optimiser may drop points that rounding made redundant (a zero-length segment, or a
-    point inside a straight run); nothing may be added, and each glyph's bounds must stay within a unit."""
-    from fontTools.pens.boundsPen import ControlBoundsPen
+def verify_snapped(data, record, grid, cmap):
+    """Draw every glyph of the snapped font back: it must equal the snapped source outline (up to merged collinear or
+    zero-length lines), and every source point must be within grid/2 of where it went."""
     f = TTFont(io.BytesIO(data))
     gs = f.getGlyphSet()
-    worst, dropped, eps = 0.0, 0, 1e-6
-    for g, ops in outlines.items():
+    worst, merged = 0, 0
+    for g, (src, snapped) in record.items():
         p = RecordingPen()
         gs[g].draw(p)
-        a = [(x * factor, y * factor) for _, args in ops for (x, y) in args]
-        b = [pt for _, args in p.value for pt in args]
-        i = 0
-        for (x, y) in b:
-            while i < len(a) and not (abs(a[i][0] - x) <= 0.5 + eps and abs(a[i][1] - y) <= 0.5 + eps):
-                i += 1
-                dropped += 1
-            if i == len(a):
-                sys.exit(f'scaled outline of {g} draws a point ({x}, {y}) the source does not have')
-            worst = max(worst, abs(a[i][0] - x), abs(a[i][1] - y))
-            i += 1
-        dropped += len(a) - i
-        if a:
-            xs, ys = [q[0] for q in a], [q[1] for q in a]
-            bp = ControlBoundsPen(gs)
-            gs[g].draw(bp)
-            if bp.bounds and max(abs(bp.bounds[0] - min(xs)), abs(bp.bounds[1] - min(ys)), abs(bp.bounds[2] - max(xs)), abs(bp.bounds[3] - max(ys))) > 1:
-                sys.exit(f'scaled bounds of {g} moved by more than a unit')
-    return worst, dropped
+        got = [(op, [(int(x), int(y)) for (x, y) in args]) for op, args in p.value]
+        if got != snapped:
+            if canon(got) != canon(snapped):
+                sys.exit(f'snapped outline of {g} differs from the source beyond merged collinear lines; use --grid 1')
+            merged += 1
+        for (op, a), (_, b) in zip(src, snapped):
+            for (x0, y0), (x1, y1) in zip(a, b):
+                worst = max(worst, abs(x1 - x0), abs(y1 - y0))
+    if worst > grid / 2:
+        sys.exit(f'a point moved {worst} units on a {grid}-unit grid')
+    # a few glyphs for the log: points and bounds before -> after
+    rev = {v: k for k, v in cmap.items()}
+    samples = []
+    for ch in '雪永道德經鬱':
+        g = cmap.get(ord(ch))
+        if g in record:
+            src, _ = record[g]
+            p = RecordingPen()
+            gs[g].draw(p)
+            def stats(ops):
+                pts = [pt for _, args in ops for pt in args]
+                xs, ys = [q[0] for q in pts], [q[1] for q in pts]
+                return len(pts), (min(xs), min(ys), max(xs), max(ys)) if pts else ()
+            (n0, b0), (n1, b1) = stats(src), stats(p.value)
+            samples.append(f'{ch} {n0}→{n1} points, bounds {b0}→{tuple(int(v) for v in b1)}')
+    return worst, merged, samples
 
 
-def intermediate(path, chars, upem):
-    """The source cut down to every character any key needs, then scaled: per-file cuts start from this."""
+def cut_options(vertical, punct=False):
+    o = subset.Options()
+    o.layout_features = PUNCT_FEATURES if punct else FEATURES + (FEATURES_VERTICAL if vertical else [])
+    o.name_IDs = [0, 1, 2, 3, 4, 5, 6]  # copyright, family, style, unique ID, full name, version, PostScript name
+    o.notdef_outline = punct
+    o.hinting = False
+    o.desubroutinize = True
+    if not (vertical or punct):
+        o.drop_tables += VERTICAL_TABLES + ['BASE']
+    return o
+
+
+def intermediate(path, chars, grid, label):
+    """The source cut down to every character any file needs, hints dropped, outlines snapped: cuts start from this."""
     t0 = time.time()
     f = TTFont(path, recalcTimestamp=False)
-    s = subset.Subsetter(inter_options())
+    o = subset.Options()
+    o.layout_features = sorted(set(PUNCT_FEATURES) | set(FEATURES) | set(FEATURES_VERTICAL))
+    o.name_IDs = [0, 1, 2, 3, 4, 5, 6]
+    o.notdef_outline = True
+    o.hinting = False
+    o.desubroutinize = True
+    s = subset.Subsetter(o)
     s.populate(unicodes=sorted(ord(c) for c in chars))
     s.subset(f)
     buf = io.BytesIO()
     f.save(buf)
-    f = TTFont(io.BytesIO(buf.getvalue()), recalcTimestamp=False)
-    worst, dropped = 0.0, 0
-    if upem and upem != f['head'].unitsPerEm:
-        factor, outlines = rescale(f, upem)
+    data = buf.getvalue()
+    note = 'exact outlines'
+    if grid > 1:
+        f = TTFont(io.BytesIO(data), recalcTimestamp=False)
+        cmap = f.getBestCmap()
+        record = snap_outlines(f, grid)
         buf = io.BytesIO()
         f.save(buf)
-        worst, dropped = verify_scaled(buf.getvalue(), factor, outlines)
-    log(f'  intermediate {Path(path).name}: {len(chars)} characters, {len(buf.getvalue()) / 1024:.0f} KB, {upem} upem, '
-        f'every point within {worst:.2f} unit ({dropped} redundant points dropped), {time.time() - t0:.0f}s')
-    return buf.getvalue()
+        data = buf.getvalue()
+        worst, merged, samples = verify_snapped(data, record, grid, cmap)
+        note = (f'outlines on a {grid}-unit grid: {len(record)} glyphs drawn back, every point within {worst} unit '
+                f'(0.001 em) of the source, {merged} with collinear or zero-length lines merged')
+        if samples:
+            note += '\n    ' + '; '.join(samples)
+    f = TTFont(io.BytesIO(data), lazy=True)
+    head_upem = f['head'].unitsPerEm
+    log(f'  {label}: {len(chars)} characters, {len(data) / 1024:.0f} KB, {head_upem} units per em, {note} '
+        f'({time.time() - t0:.0f}s)')
+    return data
+
+
+def glyph_weights(data):
+    """Bytes of each character's charstring: the size model's input."""
+    f = TTFont(io.BytesIO(data))
+    cs = f['CFF '].cff.topDictIndex[0].CharStrings
+    out = {}
+    for cp, g in f.getBestCmap().items():
+        c = cs[g]
+        c.compile()
+        out[chr(cp)] = len(c.bytecode)
+    return out
 
 
 _INTER = {}
+_VERTICAL = False
 
 
-def _init(inter):
-    global _INTER
-    _INTER = inter
+def _init(inter, vertical):
+    global _INTER, _VERTICAL
+    _INTER, _VERTICAL = inter, vertical
 
 
 def _cut(job):
     weight, chars = job
     f = TTFont(io.BytesIO(_INTER[weight]), recalcTimestamp=False)
-    s = subset.Subsetter(final_options())
+    s = subset.Subsetter(cut_options(_VERTICAL))
     s.populate(unicodes=[ord(c) for c in chars])
     s.subset(f)
     f.flavor = 'woff2'
@@ -332,153 +446,257 @@ def _cut(job):
 
 
 class Cutter:
-    """Content-addressed WOFF2 cache: recipe (tool, fontTools, source, upem, weight, characters) → file."""
+    """Content-addressed WOFF2 cache: recipe (tool, fontTools, source, grid, options, weight, characters) → file."""
 
-    def __init__(self, sources, upem, jobs):
-        self.sources, self.upem, self.jobs = sources, upem, jobs
+    def __init__(self, sources, grid, vertical, jobs):
+        self.sources, self.grid, self.vertical, self.jobs = sources, grid, vertical, jobs
         self.index_path = CACHE / 'index.json'
-        self.index = json.loads(self.index_path.read_text()) if self.index_path.exists() else {}
+        try:
+            self.index = json.loads(self.index_path.read_text()) if self.index_path.exists() else {}
+        except ValueError:
+            self.index = {}
         (CACHE / 'files').mkdir(parents=True, exist_ok=True)
         self.inter = None
         self.union = None
 
     def recipe(self, weight, chars):
-        r = '|'.join([TOOL, fontTools.version, self.sources[weight]['sha'], str(self.upem), weight, chars])
+        r = '|'.join([TOOL, fontTools.version, self.sources[weight]['sha'], f'grid{self.grid}',
+                      'vertical' if self.vertical else 'horizontal', weight, chars])
         return sha256(r.encode('utf-8'))
 
     def have(self, weight, chars):
         e = self.index.get(self.recipe(weight, chars))
         return e if e and (CACHE / 'files' / (e['hash'] + '.woff2')).exists() else None
 
+    def ensure_inter(self):
+        if self.inter is None:
+            self.inter = {w: intermediate(self.sources[w]['path'], self.union[w], self.grid, f'intermediate {w}')
+                          for w in ('400', '600') if self.union[w]}
+        return self.inter
+
     def cut(self, specs):
         """specs: [(weight, chars)] → {(weight, chars): {'hash', 'bytes'}}, cutting only what is not cached."""
         todo = sorted({s for s in specs if not self.have(*s)}, key=lambda s: -len(s[1]))
         if todo:
-            if self.inter is None:
-                self.inter = {w: intermediate(self.sources[w]['path'], self.union[w], self.upem)
-                              for w in ('400', '600') if self.union[w]}
+            inter = self.ensure_inter()
             t0 = time.time()
             log(f'  cutting {len(todo)} files ({sum(len(c) for _, c in todo)} glyphs) with {self.jobs} processes')
-            with ProcessPoolExecutor(max_workers=self.jobs, initializer=_init, initargs=(self.inter,)) as ex:
+            with ProcessPoolExecutor(max_workers=self.jobs, initializer=_init, initargs=(inter, self.vertical)) as ex:
                 for (w, chars), data in zip(todo, ex.map(_cut, todo, chunksize=1)):
                     h = sha256(data)[:10]
                     (CACHE / 'files' / (h + '.woff2')).write_bytes(data)
                     self.index[self.recipe(w, chars)] = {'hash': h, 'bytes': len(data), 'n': len(chars), 'w': w,
-                                                         'src': self.sources[w]['sha'][:12], 'upem': self.upem}
-            self.index_path.write_text(json.dumps(self.index, indent=0, sort_keys=True))
+                                                         'grid': self.grid}
+            tmp = self.index_path.with_suffix('.tmp')
+            tmp.write_text(json.dumps(self.index, indent=0, sort_keys=True))
+            os.replace(tmp, self.index_path)
             log(f'  cut in {time.time() - t0:.0f}s')
         return {s: self.have(*s) for s in specs}
-
-    def calibrate(self, pool):
-        """Bytes per glyph (G) and per file (O), from two cuts of a sample spread evenly over the characters in use:
-        1 glyph and 600 glyphs. Both depend only on the manifest, so the plan is the same on every run."""
-        step = max(1, len(pool) // 600)
-        sample = ''.join(pool[::step][:600])
-        got = self.cut([('400', sample[:1]), ('400', sample)])
-        O = got[('400', sample[:1])]['bytes']
-        G = (got[('400', sample)]['bytes'] - O) / max(1, len(sample) - 1)
-        return max(50.0, G), float(O)
 
     def bytes_of(self, h):
         return (CACHE / 'files' / (h + '.woff2')).read_bytes()
 
 
+# ---------------------------------------------------------------- size model
+class Model:
+    """WOFF2 bytes of a subset ≈ S·(a + b·ln(n+1)) + c, where S is the summed charstring bytes of its n glyphs
+    (brotli does better on bigger files, hence the log term). Fitted on cuts of fixed samples, within a few %."""
+
+    def __init__(self, weights, coef):
+        self.w, self.coef = weights, coef
+
+    def __call__(self, chars):
+        n, S = 0, 0
+        for c in chars:
+            if c in self.w:
+                n += 1
+                S += self.w[c]
+        if not n:
+            return 0.0
+        a, b, c0 = self.coef
+        return S * (a + b * math.log(n + 1)) + c0
+
+
+def lstsq(rows, y):
+    """Least squares with relative weights (minimises the relative error), by normal equations."""
+    k = len(rows[0])
+    M = [[0.0] * k for _ in range(k)]
+    v = [0.0] * k
+    for r, t in zip(rows, y):
+        wt = 1.0 / (t * t)
+        for i in range(k):
+            v[i] += wt * r[i] * t
+            for j in range(k):
+                M[i][j] += wt * r[i] * r[j]
+    for i in range(k):
+        p = max(range(i, k), key=lambda r: abs(M[r][i]))
+        M[i], M[p], v[i], v[p] = M[p], M[i], v[p], v[i]
+        for r in range(k):
+            if r != i:
+                f = M[r][i] / M[i][i]
+                for j in range(k):
+                    M[r][j] -= f * M[i][j]
+                v[r] -= f * v[i]
+    return [v[i] / M[i][i] for i in range(k)]
+
+
+def fit_model(cutter, weights, pool):
+    rng = random.Random(20261011)
+    pool = sorted(c for c in pool if c in weights)
+    specs = []
+    for n in (1, 3, 10, 30, 100, 300, 1000, 1800):
+        for _ in range(3 if n < 300 else 2):
+            if n <= len(pool):
+                specs.append(('400', ''.join(sorted(rng.sample(pool, n)))))
+    got = cutter.cut(specs)
+    rows, y = [], []
+    for s in specs:
+        S = sum(weights[c] for c in s[1])
+        rows.append([S, S * math.log(len(s[1]) + 1), 1.0])
+        y.append(got[s]['bytes'])
+    coef = lstsq(rows, y)
+    err = max(abs(sum(a * b for a, b in zip(coef, r)) - t) / t for r, t in zip(rows, y))
+    return Model(weights, coef), err
+
+
 # ---------------------------------------------------------------- planning
-def safe_names(names):
-    out, seen = {}, {}
-    for n in names:
-        s = re.sub(r'[^A-Za-z0-9_-]+', '-', n).strip('-') or 'key'
-        seen.setdefault(s, []).append(n)
-    for s, ns in seen.items():
-        for n in ns:
-            out[n] = s if len(ns) == 1 else s + '-' + sha256(n.encode())[:6]
-    return out
-
-
-def own_parts(k, common, core=frozenset()):
-    """The files one key needs: (part, weight, chars) for base, hant, hans (400) and w600."""
+def own_parts(k, linked=frozenset()):
+    """The files one key needs: [(part, weight, chars)] for base, hant, hans (400) and w600."""
     out = []
-    for part, chars, w in (('base', k.base - common - core, '400'), ('hant', k.hant - common - core, '400'),
-                           ('hans', k.hans - common - core, '400'), ('w600', k.w600, '600')):
-        if chars:
-            out.append((part, w, ''.join(sorted(chars))))
+    for part, chars in (('base', k.base), ('hant', k.hant), ('hans', k.hans)):
+        cs = chars - k.ex400 - linked
+        if cs:
+            out.append((part, '400', ''.join(sorted(cs))))
+    cs = k.w600 - k.ex600
+    if cs:
+        out.append(('w600', '600', ''.join(sorted(cs))))
     return out
 
 
-def files_bytes(parts, G, O):
-    return sum(len(c) * G + O for _, _, c in parts)
-
-
-def core_slices(chars_ranked):
-    """The core in frequency order, cut into slices of at most CORE_SLICE characters (each sorted)."""
-    n = -(-len(chars_ranked) // CORE_SLICE) if chars_ranked else 0
-    step = -(-len(chars_ranked) // n) if n else 0
-    return [''.join(sorted(chars_ranked[i:i + step])) for i in range(0, len(chars_ranked), step)] if n else []
-
-
-def first_visit(k, common, slices, G, O, common_bytes, in_core):
-    """Bytes a cold first visit downloads for one key, for its worst visible script (the other is display:none)."""
-    core = set().union(*map(set, slices)) if (in_core and slices) else set()
+def cold(k, parts, slices, linked, size, common, common_bytes):
+    """Bytes a cold first visit downloads for one key, for its worst visible script (the other is display:none):
+    common if the page uses it, the key's own files for that script, and every linked slice the page touches."""
+    sizes = {part: size(chars) for part, _, chars in parts}
     worst = 0
-    for view, cs in k.views(common):
-        script = k.hant if view == 'hant' else k.hans if view == 'hans' else set()
-        total = common_bytes if ((k.base | script) & common) else 0
-        for part in (k.base, script):
-            rest = part - common - core
-            if rest:
-                total += len(rest) * G + O
-        if k.w600:
-            total += len(k.w600) * G + O
-        if core:
-            total += sum(len(sl) * G + O for sl in slices if cs & set(sl))
-        worst = max(worst, total)
+    for view, vis in k.views():
+        t = common_bytes if vis & common else 0
+        t += sizes.get('base', 0) + (sizes.get(view, 0) if view else 0) + sizes.get('w600', 0)
+        t += sum(size_slice for i, size_slice in linked if slices[i] & vis)
+        worst = max(worst, t)
     return worst
 
 
-def make_plan(keys, common, budget, G, O, sizes=None):
-    """Every key gets its own files. If they do not fit the storage budget, a shared core (the characters the
-    biggest keys share most) is taken out of the keys that use the most of it, until the total fits. Those keys'
-    CSS lists the core slices next to their own (now smaller) files, so a page still links one key CSS, and the
-    core is downloaded once and cached across every page that uses it. Core size: the one that costs cold first
-    visits least in total (each core key downloads the core characters it does not use)."""
-    names = sorted(keys)
-    common_bytes = len(common) * G + O
-    own = {n: own_parts(keys[n], common) for n in names}
-    base_store = common_bytes + sum(files_bytes(own[n], G, O) for n in names)
-    plan = {'core': [], 'group': [], 'own': own, 'store': base_store, 'penalty': 0, 'ncore': 0}
-    if base_store <= budget:
+def cap_of(name):
+    return LIST_CAP_KB * 1024 if name.startswith(('page:', 'grid:')) else WORK_CAP_KB * 1024
+
+
+def make_slices(keys, cand, N, L):
+    """The N characters the most candidate keys share (each used by two keys at least), in slices of L: frequency
+    bands of 2L characters, each sorted by the average position (in key order, so by shelf) of the keys using them."""
+    pos = {n: i for i, n in enumerate(sorted(cand))}
+    df, psum = {}, {}
+    for n in cand:
+        k = keys[n]
+        for c in k.all400 - k.ex400:
+            df[c] = df.get(c, 0) + 1
+            psum[c] = psum.get(c, 0) + pos[n]
+    ranked = sorted((c for c in df if df[c] >= 2), key=lambda c: (-df[c], ord(c)))[:N]
+    out = []
+    for b in range(0, len(ranked), 2 * L):
+        band = sorted(ranked[b:b + 2 * L], key=lambda c: (psum[c] / df[c], ord(c)))
+        out += [frozenset(band[i:i + L]) for i in range(0, len(band), L)]
+    return out
+
+
+def greedy(keys, cand, slices, size, common, common_bytes, base_store, target):
+    """Link (key, slice) pairs, cheapest extra download per byte of storage saved first, until the store fits.
+    Pass 1 keeps every key within its budget if it was within it alone; pass 2 (only if still over) does not."""
+    ssize = [size(s) for s in slices]
+    links = {n: [] for n in cand}
+    parts = {n: own_parts(keys[n]) for n in cand}
+    stor = {n: sum(size(c) for _, _, c in parts[n]) for n in cand}
+    ck = {n: cold(keys[n], parts[n], slices, [], size, common, common_bytes) for n in cand}
+    own_cold = dict(ck)
+    store = base_store + sum(ssize)
+    used = [0] * len(slices)
+
+    def trial(n, i):
+        ls = links[n] + [i]
+        linked = frozenset().union(*[slices[j] for j in ls])
+        p = own_parts(keys[n], linked)
+        st = sum(size(c) for _, _, c in p)
+        c = cold(keys[n], p, slices, [(j, ssize[j]) for j in ls], size, common, common_bytes)
+        return stor[n] - st, c - ck[n], p, st, c
+
+    for capped in (True, False):
+        if store <= target:
+            break
+        heap = []
+        import heapq
+        for n in cand:
+            for i in range(len(slices)):
+                if i in links[n] or not (slices[i] & (keys[n].all400 - keys[n].ex400)):
+                    continue
+                sv, pen, *_ = trial(n, i)
+                if sv > 0:
+                    heapq.heappush(heap, (pen / sv, n, i))
+        while store > target and heap:
+            r, n, i = heapq.heappop(heap)
+            if i in links[n]:
+                continue
+            sv, pen, p, st, c = trial(n, i)
+            if sv <= 0:
+                continue
+            if abs(pen / sv - r) > 1e-12:
+                heapq.heappush(heap, (pen / sv, n, i))
+                continue
+            if capped and c > cap_of(n) and own_cold[n] <= cap_of(n):
+                continue
+            links[n].append(i)
+            parts[n], stor[n], ck[n] = p, st, c
+            store -= sv
+            used[i] += 1
+    # a slice nobody links is not shipped
+    for i, u in enumerate(used):
+        if not u:
+            store -= ssize[i]
+    penalty = sum(ck[n] - own_cold[n] for n in cand)
+    return links, store, penalty, used
+
+
+def make_plan(keys, common, size, target):
+    """{'slices': [chars], 'links': {key: [slice index]}, 'store': estimate, 'penalty': extra cold bytes}."""
+    common_bytes = size(common)
+    own = {n: own_parts(k) for n, k in keys.items()}
+    base_store = common_bytes + sum(size(c) for parts in own.values() for _, _, c in parts)
+    plan = {'slices': [], 'links': {}, 'store': base_store, 'own_store': base_store, 'penalty': 0, 'N': 0, 'L': 0}
+    if base_store <= target:
         return plan
-    eligible = [keys[n] for n in names if not n.startswith(OWN_ALWAYS)]
+    own_cold = {n: cold(k, own[n], [], [], size, common, common_bytes) for n, k in keys.items()}
+    protected = {n for n, k in keys.items() if n.startswith(OWN_ONLY) or k.children or k.parents
+                 or own_cold[n] <= PROTECT_KB * 1024}
+    cand = sorted(n for n in keys if n not in protected)
     best = None
     for N in CORE_SIZES:
-        group = [k for k in eligible if len(k.all400 - common) > SEED_THRESHOLD] or sorted(eligible, key=lambda k: -len(k.all400))[:20]
-        ok = False
-        for _ in range(4):
-            df = {}
-            for k in group:
-                for c in k.all400 - common:
-                    df[c] = df.get(c, 0) + 1
-            ranked = sorted(df, key=lambda c: (-df[c], ord(c)))[:N]
-            core = frozenset(ranked)
-            slices = core_slices(ranked)
-            store = base_store + sum(len(sl) * G + O for sl in slices)
-            order = sorted(eligible, key=lambda k: (-len(k.all400 & core), k.name))
-            group = []
-            for k in order:
-                if store <= budget:
-                    break
-                store += files_bytes(own_parts(k, common, core), G, O) - files_bytes(own[k.name], G, O)
-                group.append(k)
-            ok = store <= budget
-        penalty = sum(first_visit(k, common, slices, G, O, common_bytes, True) - first_visit(k, common, [], G, O, common_bytes, False) for k in group)
-        cand = (not ok, penalty if ok else store, N, ranked, slices, group, store)
-        if best is None or cand[:3] < best[:3]:
-            best = cand
-    _, penalty, N, ranked, slices, group, store = best
-    core = frozenset(ranked)
-    for k in group:
-        own[k.name] = own_parts(k, common, core)
-    plan.update(core=slices, group=sorted(k.name for k in group), store=store, penalty=penalty, ncore=N)
+        for L in SLICE_SIZES:
+            if -(-N // L) > MAX_SLICES:
+                continue
+            slices = make_slices(keys, cand, N, L)
+            if not slices:
+                continue
+            store0 = base_store - sum(size(c) for n in cand for _, _, c in own[n])
+            store0 += sum(size(c) for n in cand for _, _, c in own[n])  # (own files of candidates, before links)
+            links, store, penalty, used = greedy(keys, cand, slices, size, common, common_bytes, base_store, target)
+            score = (store > target, penalty if store <= target else store, N, L)
+            if best is None or score < best[0]:
+                best = (score, N, L, slices, links, store, penalty, used)
+    if best is None:
+        return plan
+    _, N, L, slices, links, store, penalty, used = best
+    keep = [i for i, u in enumerate(used) if u]
+    renum = {old: new for new, old in enumerate(keep)}
+    plan.update(slices=[slices[i] for i in keep], N=N, L=L, store=store, penalty=penalty,
+                links={n: sorted(renum[i] for i in ls) for n, ls in links.items() if ls})
     return plan
 
 
@@ -496,22 +714,34 @@ def ranges(chars):
 
 
 def face(href, weight, chars):
+    # 400 also serves 500 (strong and b are 500 in the base styles; font-synthesis is off for Chinese), 600 serves bold
     wr = '400 500' if weight == '400' else '600 700'
     return (f'@font-face{{font-family:"{FAMILY}";font-style:normal;font-weight:{wr};font-display:swap;'
             f'src:url({href}) format("woff2");unicode-range:{ranges(chars)}}}')
 
 
 def css_doc(label, faces):
-    label = re.sub(r'[^A-Za-z0-9:/._ -]', '', label)
+    label = re.sub(r'[^A-Za-z0-9:/._ ,()-]', '', label)
     return (f'/* {FAMILY} = Noto Serif SC 2.003 (SIL OFL 1.1, {HREF}OFL.txt), cut by tools/cjk-font.py. {label} */\n'
             + '\n'.join(faces) + '\n')
 
 
-def stash(path):
-    """Move a file out of the site into .cache/cjk-stale/, keeping its relative path. Never deletes: an existing
+def safe_names(names):
+    out, seen = {}, {}
+    for n in names:
+        s = re.sub(r'[^A-Za-z0-9_-]+', '-', n).strip('-') or 'key'
+        seen.setdefault(s, []).append(n)
+    for s, ns in seen.items():
+        for n in ns:
+            out[n] = s if len(ns) == 1 else s + '-' + sha256(n.encode())[:6]
+    return out
+
+
+def stash(path, root):
+    """Move a file out of the site into .cache/cjk-stale/, keeping its path below root. Never deletes: an existing
     stale file is only replaced by identical bytes; otherwise the new copy gets a numbered name."""
     try:
-        r = path.relative_to(OUT)
+        r = path.relative_to(root)
     except ValueError:
         r = Path(path.name)
     dst = STALE / r
@@ -545,25 +775,287 @@ def json_lines(obj):
     return '{\n' + ',\n'.join(parts) + '\n}\n'
 
 
+def cut_punct(path, chars):
+    f = TTFont(path, recalcTimestamp=False)
+    s = subset.Subsetter(cut_options(True, punct=True))
+    s.populate(unicodes=sorted(ord(c) for c in chars))
+    s.subset(f)
+    f.flavor = 'woff2'
+    buf = io.BytesIO()
+    f.save(buf)
+    return buf.getvalue()
+
+
+def build_files(keys, plan, common, cutter, punct_bytes, lic_bytes, missing, punct, grid):
+    """Every file under fonts/cjk/ as {relative path: bytes}, plus map.json and coverage.json."""
+    files = {}
+    specs = [('400', ''.join(sorted(common)))] if common else []
+    slices = [''.join(sorted(s)) for s in plan['slices']]
+    specs += [('400', s) for s in slices]
+    parts = {}
+    for n, k in keys.items():
+        linked = frozenset().union(*[plan['slices'][i] for i in plan['links'].get(n, [])])
+        parts[n] = own_parts(k, linked)
+        specs += [(w, c) for _, w, c in parts[n]]
+    got = cutter.cut(specs)
+
+    def put(tmpl, weight, chars):
+        e = got[(weight, chars)]
+        r = tmpl.format(h=e['hash'])
+        files[r] = cutter.bytes_of(e['hash'])
+        return HREF + r, e['bytes']
+
+    out_map = {'version': 3, 'family': FAMILY, 'source': 'Noto Serif SC 2.003', 'grid': grid}
+    cover = {'version': 3, 'family': FAMILY, 'missing': ''.join(sorted(missing)), 'punct': ''.join(sorted(punct)),
+             'space': SPACE, 'common': ''.join(sorted(common))}
+    if common:
+        href, b = put('common.{h}.woff2', '400', ''.join(sorted(common)))
+        doc = css_doc('common', [face(href, '400', common)])
+        r = f'common.{sha256(doc.encode())[:10]}.css'
+        files[r] = doc.encode()
+        out_map['common'] = {'css': HREF + r, 'href': href, 'bytes': b}
+    core_faces, out_map['core'], cover['core'] = [], [], []
+    for i, chars in enumerate(slices):
+        href, b = put(f'core/{i:02d}.{{h}}.woff2', '400', chars)
+        core_faces.append(face(href, '400', chars))
+        out_map['core'].append({'href': href, 'bytes': b, 'n': len(chars)})
+        cover['core'].append(chars)
+    out_map['keys'], cover['keys'] = {}, {}
+    names = safe_names(sorted(keys))
+    for n in sorted(keys):
+        safe = names[n]
+        faces, entry, cv = [], {}, {}
+        for part, w, chars in parts[n]:
+            href, b = put(f'k/{safe}.{part}.{{h}}.woff2', w, chars)
+            faces.append(face(href, w, chars))
+            entry[part] = {'href': href, 'bytes': b}
+            cv[part] = chars
+        ls = plan['links'].get(n, [])
+        if ls:
+            faces += [core_faces[i] for i in ls]
+            entry['core'] = cv['core'] = ls
+        if faces:
+            label = n + (f' (+ core {",".join(str(i) for i in ls)})' if ls else '')
+            doc = css_doc(label, faces)
+            r = f'k/{safe}.{sha256(doc.encode())[:10]}.css'
+            files[r] = doc.encode()
+            entry['css'] = HREF + r
+        if keys[n].children:
+            entry['with'] = [c for c in keys[n].children if c in keys]
+        out_map['keys'][n] = entry
+        cover['keys'][n] = cv
+    files[PUNCT_FILE] = punct_bytes
+    if lic_bytes is not None:
+        files['OFL.txt'] = lic_bytes
+    out_map['woff2_bytes'] = sum(len(b) for p, b in files.items() if p.endswith('.woff2'))
+    files['coverage.json'] = json_lines(cover).encode()
+    files['map.json'] = b''  # placeholder so the total below counts it; filled in by finish_map
+    return files, out_map, parts
+
+
+def finish_map(files, out_map):
+    """map.json carries the total bytes of the folder it describes, itself included."""
+    others = sum(len(b) for p, b in files.items() if p != 'map.json')
+    for _ in range(3):
+        doc = json_lines(dict(out_map, total_bytes=others + len(files['map.json'])))
+        files['map.json'] = doc.encode()
+    return out_map
+
+
+# ---------------------------------------------------------------- report
+def visit_bytes(k, entry, out_map, common):
+    """Real bytes a cold first visit downloads, per visible script; and the same with the core slices cached."""
+    cb = out_map.get('common', {}).get('bytes', 0)
+    core = out_map.get('core', [])
+    out, warm = {}, {}
+    for view, vis in k.views():
+        t = cb if vis & common else 0
+        for part in ('base', view, 'w600'):
+            if part and part in entry:
+                t += entry[part]['bytes']
+        w = t
+        for i in entry.get('core', []):
+            pass
+        out[view or 'only'], warm[view or 'only'] = t, w
+    return out, warm
+
+
+def report_data(keys, out_map, cover, common, files):
+    core = out_map.get('core', [])
+    core_sets = [set(s) for s in cover.get('core', [])]
+    cb = out_map.get('common', {}).get('bytes', 0)
+
+    def visit(n, warm=False):
+        k, e = keys[n], out_map['keys'][n]
+        res = {}
+        for view, vis in k.views():
+            t = cb if vis & common else 0
+            for part in ('base', view, 'w600'):
+                if part and part in e:
+                    t += e[part]['bytes']
+            if not warm:
+                t += sum(core[i]['bytes'] for i in e.get('core', []) if core_sets[i] & vis)
+            res[view or 'only'] = t
+        return res
+
+    def later(n):
+        """A block shown later (today-<id>, grid:<slug>): its own files only, for the view it shows."""
+        k, e = keys[n], out_map['keys'][n]
+        return {view or 'only': sum(e[p]['bytes'] for p in ('base', view, 'w600') if p and p in e) for view, _ in k.views()}
+
+    visits = {n: visit(n) for n in keys}
+    worst = {n: max(v.values()) for n, v in visits.items()}
+    linked = [n for n in keys if out_map['keys'][n].get('core')]
+    lobby = None
+    if 'page:lobby' in keys:
+        todays = [n for n in keys if n.startswith('today-')]
+        add = {n: max(later(n).values()) for n in todays}
+        big = max(todays, key=lambda n: add[n], default=None)
+        lobby = {'lobby': worst['page:lobby'], 'largest_today': big, 'largest_today_bytes': add.get(big, 0),
+                 'with_largest_today': worst['page:lobby'] + add.get(big, 0)}
+    grids = {n: {'page': p, 'page_bytes': worst[p], 'grid_extra': max(later(n).values()),
+                 'total': worst[p] + max(later(n).values())}
+             for n in keys if n.startswith('grid:') for p in keys[n].parents[:1]}
+    samples = {}
+    for n in ('S-001001', 'S-002001', 'S-002002', 'S-002005', 'S-003001', 'S-005001', 'page:lobby', 'page:open-stacks',
+              'page:open-stacks/poetry', 'page:open-stacks/claude', 'page:', 'page:about'):
+        if n in keys:
+            samples[n] = {'core': out_map['keys'][n].get('core', []), 'visit': visits[n], 'warm': visit(n, True)}
+    small_over = sorted(((worst[n], n) for n in keys if worst[n] > SHORT_KB * 1024 and not out_map['keys'][n].get('core')
+                         and n.startswith('S-') and worst[n] <= PROTECT_KB * 1024), reverse=True)
+    works_over = sorted(((worst[n], n) for n in keys if n.startswith('S-') and worst[n] > WORK_CAP_KB * 1024), reverse=True)
+    lists_over = sorted(((worst[n], n) for n in keys if n.startswith('page:') and worst[n] > LIST_CAP_KB * 1024), reverse=True)
+    total = sum(len(b) for b in files.values())
+    blocks = sum(-(-len(b) // BLOCK) * BLOCK for b in files.values())
+    return {
+        'keys': len(keys), 'files': len(files), 'total_bytes': total, 'on_disk_bytes': blocks,
+        'woff2_bytes': out_map['woff2_bytes'], 'woff2_files': sum(1 for p in files if p.endswith('.woff2')),
+        'css_bytes': sum(len(b) for p, b in files.items() if p.endswith('.css')),
+        'json_bytes': sum(len(b) for p, b in files.items() if p.endswith('.json')),
+        'common_chars': len(common), 'common_bytes': cb,
+        'core_slices': len(core), 'core_chars': sum(c['n'] for c in core), 'core_bytes': sum(c['bytes'] for c in core),
+        'core_keys': len(linked), 'missing': cover['missing'],
+        'samples': samples, 'lobby': lobby, 'grids': grids,
+        'largest': [{'key': n, 'bytes': b, 'core': bool(out_map['keys'][n].get('core'))}
+                    for b, n in sorted(((worst[n], n) for n in keys), reverse=True)[:12]],
+        'small_over_64KB': [[n, b] for b, n in small_over], 'works_over_256KB': [[n, b] for b, n in works_over],
+        'lists_over_160KB': [[n, b] for b, n in lists_over],
+        'w600_over_16KB': {n: e['w600']['bytes'] for n, e in out_map['keys'].items() if 'w600' in e and e['w600']['bytes'] > W600_WARN},
+        'worst': worst,
+    }
+
+
+def print_report(r):
+    log(f'\n{FAMILY}: {r["keys"]} font keys, {r["files"]} files, {r["total_bytes"] / 1e6:.2f} MB '
+        f'({r["woff2_files"]} WOFF2 {r["woff2_bytes"] / 1e6:.2f} MB, CSS {r["css_bytes"] / 1e6:.2f} MB, JSON {r["json_bytes"] / 1e6:.2f} MB); '
+        f'{r["on_disk_bytes"] / 1e6:.2f} MB in 4 KB blocks (what du shows)')
+    log(f'  common: {r["common_chars"]} characters, {kb(r["common_bytes"])}; core: {r["core_slices"]} slices, '
+        f'{r["core_chars"]} characters, {kb(r["core_bytes"])}, linked by {r["core_keys"]} keys')
+    log('  cold first visit, common file included (per visible script; "cached" = with the core slices already cached):')
+    for n, s in r['samples'].items():
+        warm = ('   cached: ' + '  '.join(f'{v} {kb(b)}' for v, b in s['warm'].items())) if s['core'] else ''
+        log(f'    {n:28} ' + '  '.join(f'{v} {kb(b)}' for v, b in s['visit'].items()) + (f'  (core {len(s["core"])})' if s['core'] else '') + warm)
+    if r['lobby']:
+        l = r['lobby']
+        log(f'    lobby + its largest today block ({l["largest_today"]}, {kb(l["largest_today_bytes"])}): {kb(l["with_largest_today"])}')
+    for n, g in sorted(r['grids'].items()):
+        log(f'    {g["page"]:28} {kb(g["page_bytes"])}; its grid view adds {kb(g["grid_extra"])} → {kb(g["total"])}')
+    if r['small_over_64KB']:
+        log(f'  over 64 KB without the core ({len(r["small_over_64KB"])}): ' + ', '.join(f'{n} {kb(b)}' for n, b in r['small_over_64KB']))
+    if r['works_over_256KB']:
+        log(f'  works over 256 KB cold ({len(r["works_over_256KB"])}): ' + ', '.join(f'{n} {kb(b)}' for n, b in r['works_over_256KB']))
+    if r['lists_over_160KB']:
+        log(f'  list pages over 160 KB: ' + ', '.join(f'{n} {kb(b)}' for n, b in r['lists_over_160KB']))
+    for n, b in r['w600_over_16KB'].items():
+        log(f'  WARNING: {n} sets {kb(b)} of bold Chinese (budget 16 KB); the fix is editorial (less bold)')
+    if r['missing']:
+        log(f'  not in Noto Serif SC, set in the system serif: {r["missing"]}')
+
+
+# ---------------------------------------------------------------- check
+def check(keys, missing, common, punct):
+    """Verify the committed folder against the manifest: files exist and match their ranges, no two faces a page can
+    load overlap, every character is covered. Writes nothing."""
+    problems = []
+    try:
+        mp = json.loads((OUT / 'map.json').read_text(encoding='utf-8'))
+        cv = json.loads((OUT / 'coverage.json').read_text(encoding='utf-8'))
+    except (OSError, ValueError) as e:
+        return [f'map.json / coverage.json unreadable: {e}'], None, None
+    if mp.get('version') != 3 or cv.get('version') != 3:
+        return ['map.json / coverage.json are not version 3: run python3 tools/cjk-font.py'], None, None
+    face_re = re.compile(r'@font-face\{[^}]*font-weight:([0-9 ]+);[^}]*src:url\(([^)]+)\)[^}]*unicode-range:([^;}]+)\}')
+    cmaps = {}
+
+    def faces_of(href):
+        p = OUT / href[len(HREF):]
+        if not p.exists():
+            problems.append(f'missing file {href}')
+            return []
+        out = []
+        for w, src, rng in face_re.findall(p.read_text(encoding='utf-8')):
+            chars = css_ranges(rng)
+            fp = OUT / src[len(HREF):]
+            if not fp.exists():
+                problems.append(f'{href}: missing {src}')
+                continue
+            if src not in cmaps:
+                cmaps[src] = {chr(c) for c in TTFont(fp, lazy=True).getBestCmap()}
+            if chars - cmaps[src]:
+                problems.append(f'{src}: unicode-range lists {len(chars - cmaps[src])} characters the file lacks')
+            out.append((w.strip(), src, chars))
+        return out
+
+    common_faces = faces_of(mp['common']['css']) if 'common' in mp else []
+    free = set(punct) | {SPACE}
+    for n, k in keys.items():
+        e = mp['keys'].get(n)
+        if e is None:
+            problems.append(f'{n}: in the manifest but not in map.json')
+            continue
+        faces = common_faces + (faces_of(e['css']) if 'css' in e else [])
+        for p in k.parents:
+            pe = mp['keys'].get(p, {})
+            faces = faces + (faces_of(pe['css']) if 'css' in pe else [])
+        seen = {}
+        for w, src, chars in faces:
+            for c in chars:
+                o = seen.setdefault((w, c), src)
+                if o != src:
+                    problems.append(f'{n}: U+{ord(c):04X} is in two files a page loads ({o}, {src})')
+                    break
+        cov4 = {c for (w, c) in seen if w.startswith('400')} | free
+        cov6 = {c for (w, c) in seen if w.startswith('600')} | free
+        lack = (k.all400 - cov4) | (k.w600 - cov6)
+        if lack:
+            problems.append(f'{n}: {len(lack)} characters not covered: {"".join(sorted(lack))[:40]}')
+    return problems, mp, cv
+
+
+# ---------------------------------------------------------------- main
 def main():
-    ap = argparse.ArgumentParser(description='Cut Noto Serif SC into per-page WOFF2 subsets (spec §3.6).')
+    ap = argparse.ArgumentParser(description='Cut Noto Serif SC into per-page WOFF2 subsets (spec §3.6).',
+                                 formatter_class=argparse.RawDescriptionHelpFormatter,
+                                 epilog='Run order: node site/build.mjs && python3 tools/cjk-font.py && node site/build.mjs')
     ap.add_argument('--regular', help='NotoSerifSC-Regular.otf (default: .cache/fonts/)')
     ap.add_argument('--semibold', help='NotoSerifSC-SemiBold.otf (default: .cache/fonts/)')
-    ap.add_argument('--fetch', action='store_true', help='download the pinned sources into .cache/fonts/')
-    ap.add_argument('--license', help='the OFL text to copy to OFL.txt (default: keep the one there)')
+    ap.add_argument('--fetch', action='store_true', help='download the pinned sources and licence into .cache/fonts/')
+    ap.add_argument('--license', help='the OFL text to copy to OFL.txt (default: .cache/fonts/LICENSE-OFL.txt, else keep)')
     ap.add_argument('--refresh-common', action='store_true', help='recompute tools/cjk-common.txt from the manifest')
     ap.add_argument('--common-size', type=int, default=120)
-    ap.add_argument('--budget-mb', type=float, default=15.0, help='total committed CJK WOFF2 (a shared core is used only to fit it)')
-    ap.add_argument('--upem', type=int, default=500)
+    ap.add_argument('--budget-mb', type=float, default=15.0, help='all files under fonts/cjk/, in MB of 1,000,000 bytes')
+    ap.add_argument('--grid', type=int, default=2, choices=(1, 2), help='outline grid in font units (1 = exact)')
+    ap.add_argument('--vertical', action='store_true', help='keep the vertical tables and features (vertical text)')
     ap.add_argument('--jobs', type=int, default=max(1, (os.cpu_count() or 2) - 1))
     ap.add_argument('--dry-run', action='store_true', help='plan and estimate only; write nothing in the site')
+    ap.add_argument('--check', action='store_true', help='verify the committed files against the manifest; write nothing')
     ap.add_argument('--report', help='also write the report as JSON to this path')
     ap.add_argument('--manifest', help='read this manifest instead of site/cjk-manifest.json (for trials)')
     ap.add_argument('--out', help='write the subsets here instead of site/public/assets/fonts/cjk (for trials)')
     ap.add_argument('--common-file', help='use this common-set file instead of tools/cjk-common.txt (for trials)')
     a = ap.parse_args()
     t_start = time.time()
-    global OUT, MANIFEST, COMMON_TXT, STALE, OLD_CSS
+    global OUT, MANIFEST, COMMON_TXT, STALE, OLD_CSS, HREF
     if a.manifest:
         MANIFEST = Path(a.manifest).resolve()
     if a.common_file:
@@ -582,242 +1074,125 @@ def main():
         for p in (reg, semi):
             if not p.exists():
                 sys.exit(f'{p} not found. Pass --regular/--semibold, or --fetch to download the pinned files.')
+        if (FONT_CACHE / LICENSE_FILE).exists():
+            lic_src = FONT_CACHE / LICENSE_FILE
     if a.license:
         lic_src = Path(a.license)
     sources = {'400': {'path': str(reg), 'sha': check_source(reg, '400')},
                '600': {'path': str(semi), 'sha': check_source(semi, '600')}}
     cmap400 = TTFont(reg, lazy=True).getBestCmap()
     cmap600 = TTFont(semi, lazy=True).getBestCmap()
-    punct = punct_set()
+    punct = {c for c in punct_set() if ord(c) in cmap400}
 
     keys, missing = load_manifest(cmap400, cmap600)
-    log(f'manifest: {len(keys)} keys set Chinese in the serif; not in Noto Serif SC: {"".join(sorted(missing)) or "none"}')
+    log(f'manifest: {len(keys)} font keys set Chinese in the serif; not in Noto Serif SC: {"".join(sorted(missing)) or "none"}')
     common = None if a.refresh_common else read_common()
     if common is None:
-        if a.dry_run:
+        if a.dry_run or a.check:
             common = ''
         else:
             common = refresh_common(keys, a.common_size, punct, cmap400)
             log(f'wrote {rel(COMMON_TXT)}: {len(common)} characters')
-    common = frozenset(c for c in common if ord(c) in cmap400)
+    common = frozenset(c for c in common if ord(c) in cmap400 and c not in punct and c != SPACE)
+    set_exclusions(keys, common, punct)
 
-    cutter = Cutter(sources, a.upem, a.jobs)
-    union400 = set(common) | {c for c in punct if ord(c) in cmap400}
+    if a.check:
+        problems, mp, cv = check(keys, missing, common, punct)
+        if mp:
+            files = {str(p.relative_to(OUT)): p.read_bytes() for p in OUT.rglob('*') if p.is_file() and p.name != '.DS_Store'}
+            mp.setdefault('woff2_bytes', sum(len(b) for f, b in files.items() if f.endswith('.woff2')))
+            for n in keys:
+                mp['keys'].setdefault(n, {})
+            r = report_data(keys, mp, cv, common, files)
+            print_report(r)
+            if r['total_bytes'] > a.budget_mb * 1e6:
+                problems.append(f'{r["total_bytes"] / 1e6:.2f} MB is over the {a.budget_mb} MB budget')
+        for p in problems[:60]:
+            log(f'  PROBLEM: {p}')
+        if len(problems) > 60:
+            log(f'  … and {len(problems) - 60} more')
+        log('check: ' + ('ok' if not problems else f'{len(problems)} problem(s)'))
+        return 1 if problems else 0
+
+    cutter = Cutter(sources, a.grid, a.vertical, a.jobs)
+    union400 = set(common)
     union600 = set()
     for k in keys.values():
-        union400 |= k.all400
-        union600 |= k.w600
+        union400 |= k.all400 - punct - {SPACE}
+        union600 |= k.w600 - punct - {SPACE}
     cutter.union = {'400': ''.join(sorted(union400)), '600': ''.join(sorted(union600))}
-    G, O = cutter.calibrate(sorted(union400 - common) or sorted(union400))
-    log(f'size model: about {G:.0f} bytes per glyph and {O:.0f} bytes per file')
-
-    budget = int(a.budget_mb * 1_000_000)
-    target = budget * 0.96
-    for attempt in range(4):
-        plan = make_plan(keys, common, target, G, O)
-        log(f'plan: {len(keys) - len(plan["group"])} keys with their own files only, {len(plan["group"])} also on a shared core of '
-            f'{plan["ncore"]} characters ({len(plan["core"])} slices); estimate {plan["store"] / 1e6:.2f} MB')
-        if a.dry_run:
-            return 0
-        specs = [('400', ''.join(sorted(common)))] if common else []
-        for parts in plan['own'].values():
-            specs += [(w, c) for _, w, c in parts]
-        specs += [('400', c) for c in plan['core']]
-        got = cutter.cut(specs)
-        woff = sum(got[s]['bytes'] for s in set(specs))
-        text = text_estimate(keys, plan, common)
-        if woff + text <= budget:
-            break
-        target *= budget / (woff + text) * 0.99
-        log(f'  {woff / 1e6:.2f} MB of WOFF2 + about {text / 1e6:.2f} MB of CSS and JSON is over the {a.budget_mb} MB budget: planning again')
-
-    # ---- the site files
-    files = {}  # relative path → bytes
-
-    def put(rel_tmpl, weight, chars):
-        e = got[(weight, chars)]
-        r = rel_tmpl.format(h=e['hash'])
-        files[r] = cutter.bytes_of(e['hash'])
-        return HREF + r, e['bytes']
-
-    out_map = {'version': 2, 'family': FAMILY, 'source': 'Noto Serif SC 2.003', 'upem': a.upem}
-    cover = {'version': 2, 'family': FAMILY, 'missing': ''.join(sorted(missing)), 'common': ''.join(sorted(common))}
-    common_bytes = 0
-    if common:
-        c_href, common_bytes = put('common.{h}.woff2', '400', ''.join(sorted(common)))
-        doc = css_doc('common', [face(c_href, '400', common)])
-        r = f'common.{sha256(doc.encode())[:10]}.css'
-        files[r] = doc.encode()
-        out_map['common'] = {'css': HREF + r, 'woff2': c_href, 'bytes': common_bytes}
-    core_faces, core_bytes, core_import = [], [], ''
-    for i, chars in enumerate(plan['core']):
-        href, b = put(f'core/{i:02d}.{{h}}.woff2', '400', chars)
-        core_faces.append(face(href, '400', chars))
-        core_bytes.append(b)
-    if plan['core']:
-        doc = css_doc(f'shared core, {plan["ncore"]} characters', core_faces)
-        r = f'core.{sha256(doc.encode())[:10]}.css'
-        files[r] = doc.encode()
-        # A core key's CSS imports the core, so a block a script inserts later needs one href; pages also link the
-        # core CSS directly (fonts.mjs), so the import finds it already loading and costs no extra round trip.
-        core_import = f'@import url({HREF + r});'
-        out_map['core'] = {'css': HREF + r, 'files': [HREF + k for k in sorted(files) if k.startswith('core/')], 'bytes': sum(core_bytes), 'characters': plan['ncore']}
-        cover['core'] = ''.join(sorted(''.join(plan['core'])))
-    group = set(plan['group'])
-    out_map['keys'], cover['keys'], per_file = {}, {}, {}
-    names = safe_names(sorted(keys))
-    for name in sorted(keys):
-        safe = names[name]
-        faces, entry, cv = [], {'mode': 'core' if name in group else 'own'}, {}
-        for part, w, chars in plan['own'][name]:
-            href, b = put(f'k/{safe}.{part}.{{h}}.woff2', w, chars)
-            faces.append(face(href, w, chars))
-            per_file[(name, part)] = b
-            cv[part] = chars
-            if part == 'base':
-                entry['base'] = {'href': href, 'bytes': b}
-        if name in group:
-            faces = [core_import] + faces
-            cv['core'] = True
-        if faces:
-            doc = css_doc(name + (' (with the shared core)' if name in group else ''), faces)
-            r = f'k/{safe}.{sha256(doc.encode())[:10]}.css'
-            files[r] = doc.encode()
-            entry['css'] = HREF + r
-        out_map['keys'][name] = entry
-        cover['keys'][name] = cv
-    out_map['bytes'] = sum(len(b) for p, b in files.items() if p.endswith('.woff2'))
+    inter = cutter.ensure_inter()
+    weights = glyph_weights(inter['400'])
+    if '600' in inter:
+        for c, v in glyph_weights(inter['600']).items():
+            weights.setdefault(c, v)
+    model, err = fit_model(cutter, weights, sorted(union400 - common))
+    log(f'  size model: bytes = S·({model.coef[0]:.3f} {model.coef[1]:+.4f}·ln(n+1)) + {model.coef[2]:.0f}, '
+        f'S = summed charstring bytes; within {err * 100:.1f}% on {sum(1 for _ in range(1))} calibration set')
 
     # Punctuation face (spec §3.5): keep the shipped file while it covers its unicode-range.
     punct_path = OUT / PUNCT_FILE
-    need = {c for c in punct if ord(c) in cmap400}
-    if not punct_path.exists() or not need <= {chr(c) for c in TTFont(punct_path).getBestCmap()}:
-        files[PUNCT_FILE] = _cut_direct(reg, need)
-        log(f'  wrote {PUNCT_FILE} ({len(need)} characters)')
+    if punct_path.exists() and punct <= {chr(c) for c in TTFont(punct_path, lazy=True).getBestCmap()}:
+        punct_bytes = punct_path.read_bytes()
     else:
-        files[PUNCT_FILE] = punct_path.read_bytes()
-    out_map['bytes'] += len(files[PUNCT_FILE])
+        punct_bytes = cut_punct(reg, punct)
+        log(f'  cut {PUNCT_FILE} ({len(punct)} characters). Its name is not hashed and /assets/fonts/ is cached '
+            'immutably, so browsers that cached the old file keep it.')
+    lic_bytes = Path(lic_src).read_bytes() if lic_src else ((OUT / 'OFL.txt').read_bytes() if (OUT / 'OFL.txt').exists() else None)
+    if lic_bytes is None:
+        log('  WARNING: no licence text for OFL.txt; pass --license or --fetch')
+    elif sha256(lic_bytes) != LICENSE_SHA:
+        log('  note: OFL.txt is not the pinned Noto CJK licence text')
+
+    budget = int(a.budget_mb * 1_000_000)
+    target = budget * 0.93
+    for attempt in range(5):
+        plan = make_plan(keys, common, model, target)
+        nlinked = len(plan['links'])
+        log(f'plan: own files {plan["own_store"] / 1e6:.2f} MB (estimate) for a WOFF2 target of {target / 1e6:.2f} MB; '
+            + (f'core of {sum(len(s) for s in plan["slices"])} characters in {len(plan["slices"])} slices '
+               f'(tried up to {plan["N"]} in slices of {plan["L"]}), linked by {nlinked} keys, '
+               f'about {plan["penalty"] / 1e6:.2f} MB of extra cold downloads in all; estimate {plan["store"] / 1e6:.2f} MB'
+               if plan['slices'] else 'no core needed'))
+        if a.dry_run:
+            return 0
+        files, out_map, parts = build_files(keys, plan, common, cutter, punct_bytes, lic_bytes, missing, punct, a.grid)
+        finish_map(files, out_map)
+        total = sum(len(b) for b in files.values())
+        if total <= budget:
+            break
+        target -= (total - budget) * 1.05 + 20_000
+        log(f'  {total / 1e6:.2f} MB is over the {a.budget_mb} MB budget: planning again for {target / 1e6:.2f} MB of WOFF2')
+    else:
+        log(f'  WARNING: {total / 1e6:.2f} MB is still over the {a.budget_mb} MB budget')
 
     OUT.mkdir(parents=True, exist_ok=True)
-    old_cov = OUT / 'coverage.json'
-    if old_cov.exists() and '"version"' not in old_cov.read_text(encoding='utf-8')[:200]:
-        log(f'  moved the v1 coverage.json → {rel(stash(old_cov))}')
     for r, data in sorted(files.items()):
         write_if_changed(OUT / r, data)
-    write_if_changed(OUT / 'map.json', json_lines(out_map))
-    write_if_changed(OUT / 'coverage.json', json_lines(cover))
-    if lic_src:
-        data = Path(lic_src).read_bytes()
-        if sha256(data) != LICENSE_SHA:
-            log(f'  note: {lic_src} is not the pinned Noto CJK licence text')
-        write_if_changed(OUT / 'OFL.txt', data)
-    elif not (OUT / 'OFL.txt').exists():
-        log('  WARNING: OFL.txt is missing; pass --license or --fetch')
-
-    keep = set(files) | {'map.json', 'coverage.json', 'OFL.txt'}
+    keep = set(files)
     moved = 0
     for p in sorted(OUT.rglob('*')):
         if p.is_file() and str(p.relative_to(OUT)) not in keep and p.name != '.DS_Store':
-            stash(p)
+            stash(p, OUT)
             moved += 1
     if OLD_CSS.exists():
-        stash(OLD_CSS)
+        stash(OLD_CSS, OLD_CSS.parent)
         moved += 1
+    for d in sorted((p for p in OUT.rglob('*') if p.is_dir()), key=lambda p: -len(p.parts)):
+        try:
+            d.rmdir()  # only succeeds for an empty folder
+        except OSError:
+            pass
     if moved:
         log(f'  moved {moved} files that are no longer used to {rel(STALE)}/')
 
-    total = sum(p.stat().st_size for p in OUT.rglob('*') if p.is_file())
-    report = build_report(keys, plan, common, common_bytes, core_bytes, per_file, missing, out_map['bytes'], total)
-    print_report(report)
+    cover = json.loads(files['coverage.json'])
+    r = report_data(keys, out_map, cover, common, files)
+    print_report(r)
     if a.report:
-        Path(a.report).write_text(json.dumps(report, ensure_ascii=False, indent=1))
+        Path(a.report).write_text(json.dumps({k: v for k, v in r.items() if k != 'worst'}, ensure_ascii=False, indent=1))
     log(f'done in {time.time() - t_start:.0f}s')
     return 0
-
-
-def text_estimate(keys, plan, common):
-    """CSS and JSON bytes: each code point costs about 7 bytes in a unicode-range and 3 in coverage.json, plus
-    per-face and per-key overhead (measured on the 2026-10-11 catalogue: within 10%)."""
-    cps = sum(len(c) for parts in plan['own'].values() for _, _, c in parts) + sum(len(c) for c in plan['core']) + len(common)
-    faces = sum(len(parts) for parts in plan['own'].values()) + len(plan['core']) + 1
-    return cps * 10 + faces * 260 + len(keys) * 450
-
-
-def _cut_direct(path, chars):
-    f = TTFont(path, recalcTimestamp=False)
-    s = subset.Subsetter(final_options())
-    s.populate(unicodes=sorted(ord(c) for c in chars))
-    s.subset(f)
-    f.flavor = 'woff2'
-    buf = io.BytesIO()
-    f.save(buf)
-    return buf.getvalue()
-
-
-# ---------------------------------------------------------------- report
-def build_report(keys, plan, common, common_bytes, core_bytes, per_file, missing, woff2_bytes, all_bytes):
-    group = set(plan['group'])
-    slices = [set(s) for s in plan['core']]
-
-    def visit(name, warm_core=False):
-        """Real bytes a first visit downloads, per visible script (the other script is display:none)."""
-        k = keys[name]
-        out = {}
-        for view, cs in k.views(common):
-            script = k.hant if view == 'hant' else k.hans if view == 'hans' else set()
-            total = common_bytes if ((k.base | script) & common) else 0
-            total += per_file.get((name, 'base'), 0) + (per_file.get((name, view), 0) if view else 0) + per_file.get((name, 'w600'), 0)
-            if name in group and not warm_core:
-                total += sum(b for sl, b in zip(slices, core_bytes) if cs & sl)
-            out[view or 'only'] = total
-        return out
-
-    visits = {n: visit(n) for n in keys}
-    worst = {n: max(v.values()) for n, v in visits.items()}
-    own_w = sorted(worst[n] for n in keys if n not in group)
-    core_w = sorted(worst[n] for n in group)
-    lobby = None
-    if 'page:lobby' in keys:
-        todays = [n for n in keys if n.startswith('today-')]
-        extra = lambda n: worst[n] - (common_bytes if keys[n].all400 & common else 0)
-        biggest = max(todays, key=extra, default=None)
-        lobby = {'lobby': worst['page:lobby'], 'largest_today': biggest,
-                 'with_largest_today': worst['page:lobby'] + (extra(biggest) if biggest else 0) + (0 if keys['page:lobby'].all400 & common else common_bytes)}
-    samples = {}
-    for n in ('S-001001', 'S-002001', 'S-005001', 'page:lobby', 'page:open-stacks', 'page:open-stacks/poetry', 'grid:open-stacks/poetry'):
-        if n in keys:
-            samples[n] = {'mode': 'core' if n in group else 'own', 'visit': visits[n]}
-            if n in group:
-                samples[n]['warm'] = visit(n, warm_core=True)
-    return {
-        'keys': len(keys), 'own_keys': len(own_w), 'core_keys': len(core_w), 'core_chars': plan['ncore'],
-        'core_bytes': sum(core_bytes), 'common_chars': len(common), 'common_bytes': common_bytes,
-        'woff2_bytes': woff2_bytes, 'all_bytes': all_bytes, 'missing': ''.join(sorted(missing)),
-        'own_first_visit_median': own_w[len(own_w) // 2] if own_w else 0, 'own_first_visit_max': own_w[-1] if own_w else 0,
-        'core_first_visit_median': core_w[len(core_w) // 2] if core_w else 0, 'core_first_visit_max': core_w[-1] if core_w else 0,
-        'samples': samples, 'lobby': lobby,
-        'largest': sorted(({'key': n, 'mode': 'core' if n in group else 'own', 'bytes': worst[n]} for n in keys), key=lambda x: -x['bytes'])[:10],
-        'w600_over_16KB': {n: b for (n, part), b in per_file.items() if part == 'w600' and b > W600_WARN},
-        'core_group': plan['group'],
-    }
-
-
-def print_report(r):
-    kb = lambda b: f'{b / 1024:.0f} KB'
-    log(f'\n{FAMILY}: {r["keys"]} keys; {r["own_keys"]} with their own files only, {r["core_keys"]} with the shared core')
-    log(f'  common: {r["common_chars"]} characters, {kb(r["common_bytes"])}; core: {r["core_chars"]} characters, {kb(r["core_bytes"])}')
-    log(f'  committed WOFF2: {r["woff2_bytes"] / 1e6:.2f} MB (all files under fonts/cjk: {r["all_bytes"] / 1e6:.2f} MB)')
-    log(f'  cold first visit, common included, worst script: own keys median {kb(r["own_first_visit_median"])}, max {kb(r["own_first_visit_max"])}; '
-        f'core keys median {kb(r["core_first_visit_median"])}, max {kb(r["core_first_visit_max"])}')
-    for n, s in r['samples'].items():
-        warm = ('   core cached: ' + '  '.join(f'{v} {kb(b)}' for v, b in s['warm'].items())) if 'warm' in s else ''
-        log(f'  {n:26} {s["mode"]:4}  ' + '  '.join(f'{v} {kb(b)}' for v, b in s['visit'].items()) + warm)
-    if r['lobby']:
-        log(f'  lobby with its largest today block ({r["lobby"]["largest_today"]}): {kb(r["lobby"]["with_largest_today"])}')
-    for n, b in r['w600_over_16KB'].items():
-        log(f'  WARNING: {n} sets {kb(b)} of bold Chinese (budget 16 KB); the fix is editorial (less bold)')
-    if r['missing']:
-        log(f'  not in Noto Serif SC, set in the system serif: {r["missing"]}')
 
 
 if __name__ == '__main__':

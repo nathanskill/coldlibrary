@@ -1,16 +1,24 @@
 /* Cold Library — the reading view. Deferred; every control already works without it.
    It remembers choices, adds Esc and a focus trap to the bottom sheets, follows the current section,
-   draws progress, copies code and credit lines, prints, and moves along the shelf with ← and →. */
+   draws progress, copies code and credit lines, prints the glosses as a list, and moves along the shelf
+   with ← and →. Copy it shows comes from the page (data-* templates), so there is no second copy of the words here. */
 (function () {
   'use strict';
   var doc = document, work = doc.querySelector('article.work');
   if (!work) return;
   var ZH = (doc.body.getAttribute('data-lang') || 'en') === 'zh';
   function T(en, zh) { return ZH ? zh : en; }
-  function store(k, v) { try { if (v == null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) { /* storage blocked: choices last for this page only */ } }
+  function store(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* storage blocked: the choice lasts for this page */ } }
   function $$(sel, el) { return Array.prototype.slice.call((el || work).querySelectorAll(sel)); }
+  function shown(el) { return !!(el && (el.offsetWidth || el.offsetHeight || el.getClientRects().length)); }
   var group = work.getAttribute('data-group'), pl = work.getAttribute('data-pl');
   var raf = window.requestAnimationFrame || function (f) { return setTimeout(f, 16); };
+  // A label that acts as a button (sheet Close, "Read side by side"): reachable and pressable from the keyboard.
+  function pressable(l) {
+    l.tabIndex = 0;
+    l.setAttribute('role', 'button');
+    l.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); l.click(); } });
+  }
 
   /* ---------- remember choices; the radios themselves are the state ---------- */
   work.addEventListener('change', function (e) {
@@ -22,39 +30,40 @@
     else if (t.classList && t.classList.contains('sheet-cb')) sheet(t);
     if (t.name === 'view' || t.name === 'rs' || t.id === 'wrap-lines') { measureCode(); schedule(); }
   });
-  // "Read side by side →" on a partial translation switches the view, then follows the anchor.
-  $$('a[data-view]').forEach(function (a) {
-    a.addEventListener('click', function () {
-      var r = doc.getElementById('v-' + a.getAttribute('data-view'));
-      if (r && !r.checked) { r.checked = true; r.dispatchEvent(new Event('change', { bubbles: true })); }
+  // "Read side by side →" on a partial translation is a label for the radio; then it goes to the translated part.
+  $$('label[data-goto]').forEach(function (l) {
+    pressable(l);
+    l.addEventListener('click', function () {
+      var to = doc.getElementById(l.getAttribute('data-goto'));
+      if (to) setTimeout(function () { to.scrollIntoView(); }, 0);
     });
   });
 
   /* ---------- bottom sheets: Esc closes, focus stays inside, choosing a section closes ---------- */
   var openCb = null;
   function sheetEl(cb) { return cb.id === 'sheet-toc' ? work.querySelector('.rail > .toc') : work.querySelector('.toolbar'); }
-  function focusables(el) { return $$('a[href], input:not([disabled]), button:not([disabled]), [tabindex="0"]', el).filter(function (x) { return x.offsetWidth || x.offsetHeight || x.getClientRects().length; }); }
+  function focusables(el) { return $$('a[href], input:not([disabled]), button:not([disabled]), summary, [tabindex="0"]', el).filter(shown); }
   function sheet(cb) {
-    if (cb.checked) {
+    var el = sheetEl(cb);
+    if (cb.checked && el) {
       $$('.sheet-cb').forEach(function (o) { if (o !== cb) o.checked = false; });
       openCb = cb;
-      var f = focusables(sheetEl(cb));
-      var cur = sheetEl(cb).querySelector('[aria-current="location"]') || sheetEl(cb).querySelector('input:checked');
-      (cur || f[0] || cb).focus();
+      var aa = cb.id === 'sheet-tools' && el.querySelector('details.aa');
+      if (aa) aa.open = true;
+      var cur = el.querySelector('[aria-current="location"]') || el.querySelector('input:checked');
+      var first = cur && shown(cur) ? cur : focusables(el)[0];
+      if (first) first.focus();
     } else if (openCb === cb) { openCb = null; cb.focus(); }
   }
   function closeSheet() { if (!openCb) return false; var cb = openCb; cb.checked = false; openCb = null; cb.focus(); return true; }
-  $$('.sheet-head .close').forEach(function (l) {
-    l.tabIndex = 0;
-    l.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); l.click(); } });
-  });
+  $$('label.close').forEach(pressable);
   $$('.toc a').forEach(function (a) { a.addEventListener('click', function () { var cb = doc.getElementById('sheet-toc'); if (cb && cb.checked) { cb.checked = false; openCb = null; } }); });
 
   doc.addEventListener('keydown', function (e) {
     if (e.key === 'Escape') {
       if (closeSheet()) { e.preventDefault(); return; }
-      var aa = doc.getElementById('aa-open');
-      if (aa && aa.checked) { aa.checked = false; aa.focus(); e.preventDefault(); }
+      var aa = work.querySelector('details.aa[open]');
+      if (aa) { aa.open = false; aa.querySelector('summary').focus(); e.preventDefault(); }
       return;
     }
     if (e.key === 'Tab' && openCb) {
@@ -68,7 +77,7 @@
     // ← and → follow the shelf, unless a field is focused, text is selected or a sheet is open
     if ((e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') || e.altKey || e.ctrlKey || e.metaKey || e.shiftKey || e.defaultPrevented || openCb) return;
     var a = doc.activeElement;
-    if (a && (/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName) || a.isContentEditable || (a.closest && a.closest('pre, .sideways, [role="radiogroup"]')))) return;
+    if (a && (/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName) || a.isContentEditable || (a.closest && a.closest('pre, .sideways, [role="radiogroup"], details[open]')))) return;
     var sel = window.getSelection && window.getSelection();
     if (sel && String(sel).length) return;
     var link = work.querySelector('.neigh a[rel="' + (e.key === 'ArrowLeft' ? 'prev' : 'next') + '"]');
@@ -78,10 +87,10 @@
   /* ---------- current section and progress ---------- */
   var parts = $$('.read .part');
   var prog = work.querySelector('[data-progress]');
-  var where = prog && prog.querySelector('[data-where]'), left = prog && prog.querySelector('[data-left]');
-  var noun = prog ? prog.getAttribute('data-noun') : '', count = prog ? +prog.getAttribute('data-count') : 0;
-  var links = {};
-  $$('.toc a[href^="#"]').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
+  var where = prog && prog.querySelector('.pw'), left = prog && prog.querySelector('.pleft');
+  var fmtWhere = prog && prog.getAttribute('data-where'), fmtLeft = prog && prog.getAttribute('data-left'), lastLeft = prog && prog.getAttribute('data-done');
+  var links = {}, count = 0;
+  $$('.toc a[href^="#"]').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; count++; });
   var mins = parts.map(function (p) { return parseFloat(p.getAttribute('data-min')) || 0; });
   var total = mins.reduce(function (a, b) { return a + b; }, 0);
   var namedIndex = [], k = 0;
@@ -108,11 +117,11 @@
       for (var q = idx; q >= 0; q--) if (links[parts[q].id]) { id = parts[q].id; break; }
       Object.keys(links).forEach(function (key) { if (key === id) links[key].setAttribute('aria-current', 'location'); else links[key].removeAttribute('aria-current'); });
     }
-    if (left) {
+    if (left && fmtLeft) {
       var m = Math.max(0, Math.round(total - done));
-      left.textContent = m < 1 ? T('Less than a minute left', '不到 1 分钟') : T(m + ' min left', '还剩 ' + m + ' 分钟');
+      left.textContent = m < 1 && lastLeft ? lastLeft : fmtLeft.replace('{m}', String(Math.max(1, m)));
     }
-    if (where && count) where.textContent = T(noun + ' ' + namedIndex[idx] + ' of ' + count, '第 ' + namedIndex[idx] + ' ' + noun + '，共 ' + count + ' ' + noun);
+    if (where && fmtWhere && count) where.textContent = fmtWhere.replace('{i}', String(namedIndex[idx])).replace('{n}', String(count));
   }
   if (parts.length) {
     if ('IntersectionObserver' in window) {
@@ -139,7 +148,7 @@
       var ta = doc.createElement('textarea');
       ta.value = text; ta.setAttribute('readonly', ''); ta.className = 'vh';
       doc.body.appendChild(ta); ta.select();
-      try { if (doc.execCommand('copy')) done(); } catch (e) { /* nothing to do */ }
+      try { if (doc.execCommand('copy')) done(); } catch (e) { /* nothing more to try */ }
       doc.body.removeChild(ta);
     }
     if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done, fallback); else fallback();
@@ -149,37 +158,57 @@
     if (!b) return;
     if (b.hasAttribute('data-print')) { window.print(); return; }
     if (b.hasAttribute('data-credit')) { copy(b.getAttribute('data-credit'), b); return; }
-    var pre = b.closest('.code-wrap') && b.closest('.code-wrap').querySelector('pre');
+    var wrap = b.closest('.code-wrap'), pre = wrap && wrap.querySelector('pre');
     if (pre) copy(pre.textContent.replace(/\n$/, ''), b);
   });
 
   /* ---------- code: a right-edge fade while a block overflows ---------- */
+  function edge(pre) { pre.parentNode.classList.toggle('at-end', pre.scrollLeft + pre.clientWidth >= pre.scrollWidth - 1); }
   function measureCode() {
-    $$('.code-box').forEach(function (box) {
-      var pre = box.querySelector('pre');
-      if (!pre || !pre.getClientRects().length) return;
-      box.classList.toggle('overflows', pre.scrollWidth > pre.clientWidth + 1);
-      box.classList.toggle('at-end', pre.scrollLeft + pre.clientWidth >= pre.scrollWidth - 1);
+    $$('.code-box > pre').forEach(function (pre) {
+      if (!pre.getClientRects().length) return;
+      pre.parentNode.classList.toggle('overflows', pre.scrollWidth > pre.clientWidth + 1);
+      edge(pre);
     });
   }
-  $$('.code-box pre').forEach(function (pre) { pre.addEventListener('scroll', function () { pre.parentNode.classList.toggle('at-end', pre.scrollLeft + pre.clientWidth >= pre.scrollWidth - 1); }, { passive: true }); });
+  $$('.code-box > pre').forEach(function (pre) { pre.addEventListener('scroll', function () { edge(pre); }, { passive: true }); });
   measureCode();
   window.addEventListener('resize', measureCode);
 
-  /* ---------- a gloss and its note, paired by id (any number) ---------- */
+  /* ---------- a glossed phrase and its note light up together (paired by aria-describedby) ---------- */
   function pairOn(e, on) {
     var g = e.target.closest && e.target.closest('.gl');
-    if (!g) return;
+    if (!g || (e.relatedTarget && g.contains(e.relatedTarget))) return;
     var n = doc.getElementById(g.getAttribute('aria-describedby'));
     if (n) n.classList.toggle('on', on);
   }
   work.addEventListener('mouseover', function (e) { pairOn(e, true); });
   work.addEventListener('mouseout', function (e) { pairOn(e, false); });
-  work.addEventListener('focusin', function (e) { pairOn(e, true); });
-  work.addEventListener('focusout', function (e) { pairOn(e, false); });
 
-  /* ---------- print: the full record prints open ---------- */
-  var wasClosed = [];
-  window.addEventListener('beforeprint', function () { wasClosed = $$('details.full-record:not([open])'); wasClosed.forEach(function (d) { d.open = true; }); });
-  window.addEventListener('afterprint', function () { wasClosed.forEach(function (d) { d.open = false; }); wasClosed = []; });
+  /* ---------- print: the glosses as a numbered list after the text, the full record open ---------- */
+  var printed = null, wasClosed = [];
+  window.addEventListener('beforeprint', function () {
+    wasClosed = $$('details.full-record:not([open])');
+    wasClosed.forEach(function (d) { d.open = true; });
+    var read = work.querySelector('.read');
+    var notes = $$('.read .gn').filter(shown);
+    if (!read || !notes.length) return;
+    printed = doc.createElement('ol');
+    printed.className = 'gl-print';
+    printed.setAttribute('aria-hidden', 'true');
+    notes.forEach(function (n) {
+      var li = doc.createElement('li'), num = n.querySelector('.gnum');
+      li.value = parseInt(num ? num.textContent : '', 10) || 1;
+      li.lang = n.lang;
+      Array.prototype.forEach.call(n.childNodes, function (c) { if (c !== num && !(c.nodeType === 1 && !shown(c))) li.appendChild(c.cloneNode(true)); });
+      printed.appendChild(li);
+    });
+    read.parentNode.insertBefore(printed, read.nextSibling);
+  });
+  window.addEventListener('afterprint', function () {
+    wasClosed.forEach(function (d) { d.open = false; });
+    wasClosed = [];
+    if (printed && printed.parentNode) printed.parentNode.removeChild(printed);
+    printed = null;
+  });
 })();

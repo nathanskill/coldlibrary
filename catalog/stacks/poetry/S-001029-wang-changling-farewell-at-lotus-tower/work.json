@@ -60,5 +60,44 @@
     "en": "If friends and family in Luoyang ask after me, / tell them: a heart of ice in a jade pot.",
     "zh": "洛阳亲友如相问，一片冰心在玉壶。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "夜入吳",
+      "occ": 1,
+      "at_hans": "夜入吴",
+      "en": "Wu, the old name for the lower Yangzi region. The Lotus Tower stood at Runzhou, present-day Zhenjiang.",
+      "zh": "吴：今江苏南部一带，古属吴地。芙蓉楼在润州（今江苏镇江）。"
+    },
+    {
+      "at": "平明",
+      "occ": 1,
+      "en": "Dawn, first light.",
+      "zh": "平明：天刚亮。"
+    },
+    {
+      "at": "楚山孤",
+      "occ": 1,
+      "en": "The hills of Chu. The land here had belonged to Wu and later to Chu, so the two names alternate.",
+      "zh": "楚山：楚地的山。镇江一带春秋属吴，战国属楚，故吴、楚可以互称。"
+    },
+    {
+      "at": "洛陽親友",
+      "occ": 1,
+      "at_hans": "洛阳亲友",
+      "en": "Xin Jian was going north to Luoyang, where the poet had friends and family.",
+      "zh": "辛渐此行北上洛阳，作者的亲友在那里。"
+    },
+    {
+      "at": "冰心在玉壺",
+      "occ": 1,
+      "at_hans": "冰心在玉壶",
+      "en": "A heart as pure as ice in a jade pot: the image goes back to Bao Zhao, 'straight as a red silk string, clear as ice in a jade pot'.",
+      "zh": "比喻心地纯洁。语出鲍照《代白头吟》“直如朱丝绳，清如玉壶冰”。"
+    }
+  ],
+  "pairs": [
+    "S-001027",
+    "S-001016"
+  ]
 }

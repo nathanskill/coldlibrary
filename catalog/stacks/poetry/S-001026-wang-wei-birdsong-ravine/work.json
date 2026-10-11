@@ -60,5 +60,38 @@
     "en": "The moon comes out and startles the mountain birds, / which call now and then in the spring ravine.",
     "zh": "月出惊山鸟，时鸣春涧中。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "人閑",
+      "occ": 1,
+      "at_hans": "人闲",
+      "en": "閑: at leisure, quiet; no one is about.",
+      "zh": "闲：安静，悠闲。"
+    },
+    {
+      "at": "桂花落",
+      "occ": 1,
+      "en": "Osmanthus. Some varieties flower in spring; some readers take 桂 here to mean any fragrant blossom.",
+      "zh": "桂花：桂有春季开花的品种；一说泛指芳香的花。"
+    },
+    {
+      "at": "時鳴",
+      "occ": 1,
+      "at_hans": "时鸣",
+      "en": "Now and then they call.",
+      "zh": "时：时而，偶尔。"
+    },
+    {
+      "at": "春澗",
+      "occ": 1,
+      "at_hans": "春涧",
+      "en": "A stream running in a ravine. The poem is one of five Wang Wei wrote on the scenery at his friend Huangfu Yue's Cloud Valley retreat.",
+      "zh": "涧：山间流水的沟。本诗是王维《皇甫岳云溪杂题五首》之一。"
+    }
+  ],
+  "pairs": [
+    "S-001024",
+    "S-001045"
+  ]
 }

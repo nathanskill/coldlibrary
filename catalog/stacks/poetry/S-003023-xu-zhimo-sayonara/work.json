@@ -60,5 +60,31 @@
     "en": "Above all, the tenderness of that bowed head, like a water lily too shy for the cool breeze.",
     "zh": "最是那一低头的温柔，像一朵水莲花不胜凉风的娇羞，"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003021",
+    "S-004029"
+  ],
+  "gloss": [
+    {
+      "at": "不勝涼風",
+      "occ": 1,
+      "at_hans": "不胜凉风",
+      "en": "不勝 (bùshèng): unable to bear; the lily bows as if the cool breeze were too much for it.",
+      "zh": "不胜：禁不起，承受不住。"
+    },
+    {
+      "at": "珍重",
+      "occ": 1,
+      "en": "珍重: 'treasure yourself', the parting wish to take good care.",
+      "zh": "珍重：保重，临别时的叮咛。"
+    },
+    {
+      "at": "沙揚娜拉",
+      "occ": 1,
+      "at_hans": "沙扬娜拉",
+      "en": "Sayōnara (さようなら), the Japanese goodbye, comes from sayō naraba, 'if that is how it must be'.",
+      "zh": "沙扬娜拉：日语“再见”（さようなら）的音译，原意是“既然如此”。"
+    }
+  ]
 }

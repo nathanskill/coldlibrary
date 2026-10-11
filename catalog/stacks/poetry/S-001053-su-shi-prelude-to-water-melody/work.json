@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
-    "zh": "据维基文库，删去其所注异文。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -61,5 +61,52 @@
     "en": "I only wish that we may both live long / and share, a thousand li apart, the beauty of the moon.",
     "zh": "但愿人长久，千里共婵娟。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "丙辰",
+      "occ": 1,
+      "en": "The year Bingchen, 1076, when Su Shi was prefect of Mizhou and had not seen his brother for several years.",
+      "zh": "丙辰：宋神宗熙宁九年（1076），苏轼时任密州知州，与弟弟已多年未见。"
+    },
+    {
+      "at": "子由",
+      "occ": 1,
+      "en": "Ziyou, the courtesy name of Su Shi's younger brother, Su Zhe (1039–1112).",
+      "zh": "子由：苏轼的弟弟苏辙（1039–1112）的字。"
+    },
+    {
+      "at": "乘風歸去",
+      "occ": 1,
+      "at_hans": "乘风归去",
+      "en": "To ride the wind and go back, as though he had come down from heaven.",
+      "zh": "乘风回到天上去，好像自己本是天上的人。"
+    },
+    {
+      "at": "瓊樓玉宇",
+      "occ": 1,
+      "at_hans": "琼楼玉宇",
+      "en": "Towers of jade and halls of fine stone: the palaces of the moon.",
+      "zh": "琼楼玉宇：美玉砌成的楼宇，指月中宫殿。"
+    },
+    {
+      "at": "綺戶",
+      "occ": 1,
+      "at_hans": "绮户",
+      "en": "Carved and patterned windows.",
+      "zh": "绮户：雕饰华丽的门窗。"
+    },
+    {
+      "at": "嬋娟",
+      "occ": 1,
+      "at_hans": "婵娟",
+      "en": "Lovely, graceful; here, the moon itself.",
+      "zh": "婵娟：美好的样子，这里指明月。"
+    }
+  ],
+  "pairs": [
+    "S-001054",
+    "S-001033",
+    "S-001018"
+  ]
 }

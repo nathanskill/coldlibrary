@@ -61,5 +61,37 @@
     "en": "The mountain is empty; a pine cone falls. / The one who lives there, I think, is not yet asleep.",
     "zh": "山空松子落，幽人应未眠。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "屬秋夜",
+      "occ": 1,
+      "at_hans": "属秋夜",
+      "en": "屬: it happens to be, just at.",
+      "zh": "属（zhǔ）：适逢，正值。"
+    },
+    {
+      "at": "詠涼天",
+      "occ": 1,
+      "at_hans": "咏凉天",
+      "en": "Chanting poems in the cool air.",
+      "zh": "咏：吟诵。凉天：秋夜清凉的天气。"
+    },
+    {
+      "at": "松子落",
+      "occ": 1,
+      "en": "Qiu the Twenty-second, Qiu Dan, had left office and was studying the Way on Linping Mountain near Hangzhou; pine seeds were said to be the food of immortals.",
+      "zh": "丘二十二即丘丹，曾任员外郎，当时在临平山隐居学道。传说松子是仙人的食物。"
+    },
+    {
+      "at": "幽人",
+      "occ": 1,
+      "en": "A recluse: Qiu himself.",
+      "zh": "幽人：隐居的人，指丘丹。"
+    }
+  ],
+  "pairs": [
+    "S-001026",
+    "S-001050"
+  ]
 }

@@ -60,5 +60,65 @@
     "en": "When his back had mingled with the people coming and going and I could no longer find it, I went back in and sat down, and my tears came again.",
     "zh": "等他的背影混入来来往往的人里，再找不着了，我便进来坐下，我的眼泪又来了。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003014",
+    "S-001064",
+    "S-003008"
+  ],
+  "gloss": [
+    {
+      "at": "父親的差使也交卸了",
+      "occ": 1,
+      "at_hans": "父亲的差使也交卸了",
+      "en": "His father, Zhu Hongjun, had been head of the tobacco and wine tax office at Xuzhou; he lost the post in 1917, the winter of this story.",
+      "zh": "朱自清的父亲朱鸿钧原任徐州烟酒公卖局局长，1917 年卸职，就是文中的那年冬天。"
+    },
+    {
+      "at": "奔喪",
+      "occ": 1,
+      "at_hans": "奔丧",
+      "en": "奔喪: to hurry home for the funeral of a close relative.",
+      "zh": "奔丧：从外地赶回料理长辈的丧事。"
+    },
+    {
+      "at": "典質",
+      "occ": 1,
+      "at_hans": "典质",
+      "en": "典質: to pawn; things were pledged at a pawnshop for cash.",
+      "zh": "典质：把东西押给当铺换钱。"
+    },
+    {
+      "at": "賦閒",
+      "occ": 1,
+      "at_hans": "赋闲",
+      "en": "賦閒: to be without a post. The phrase goes back to Pan Yue's 'Rhapsody on Living at Leisure' (閒居賦), written after he left office.",
+      "zh": "赋闲：没有职业。语出晋代潘岳辞官后所作的《闲居赋》。"
+    },
+    {
+      "at": "浦口",
+      "occ": 1,
+      "en": "Pukou, on the north bank of the Yangzi opposite Nanjing, was the end of the railway to Tianjin; travellers crossed the river by ferry.",
+      "zh": "浦口：在南京对岸的长江北岸，是津浦铁路的南端终点，旅客须摆渡过江。"
+    },
+    {
+      "at": "茶房",
+      "occ": 1,
+      "en": "茶房: an attendant at an inn or on a train or boat, who brought tea and ran errands.",
+      "zh": "茶房：旧时旅馆、车船上供应茶水、照料杂事的人。"
+    },
+    {
+      "at": "馬褂",
+      "occ": 1,
+      "at_hans": "马褂",
+      "en": "馬褂: a short jacket worn over the long gown, the respectable dress of the time.",
+      "zh": "马褂：穿在长袍外面的对襟短褂，当时是比较正式的穿着。"
+    },
+    {
+      "at": "大去之期",
+      "occ": 1,
+      "en": "大去: an old euphemism for dying. His father lived until 1945.",
+      "zh": "大去：婉指去世。他的父亲后来活到 1945 年。"
+    }
+  ]
 }

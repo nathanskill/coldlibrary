@@ -64,5 +64,51 @@
     "en": "Evening is coming and it looks like snow: / could you manage a cup, or not?",
     "zh": "晚来天欲雪，能饮一杯无？"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "綠螘",
+      "occ": 1,
+      "at_hans": "绿蚁",
+      "en": "螘 is an old form of 蟻, ant. The 'green ants' are the flecks of froth on new, unstrained rice wine.",
+      "zh": "螘：同“蚁”。绿蚁，新酿未滤的米酒面上浮起的淡绿色泡沫，细小如蚁。"
+    },
+    {
+      "at": "新醅酒",
+      "occ": 1,
+      "en": "醅: wine not yet strained of its lees.",
+      "zh": "醅（pēi）：没有过滤的酒。"
+    },
+    {
+      "at": "紅泥小火爐",
+      "occ": 1,
+      "at_hans": "红泥小火炉",
+      "en": "A small stove of red clay, for warming the wine.",
+      "zh": "用红泥烧制的小火炉，用来温酒。"
+    },
+    {
+      "at": "飲一杯無",
+      "occ": 1,
+      "at_hans": "饮一杯无",
+      "en": "無 at the end makes it a question, like 否: 'or not?'",
+      "zh": "无：句末语气词，相当于“否”“吗”。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "綠螘新醅酒",
+      "en": "Green against red, the wine against the stove: before the cold is even mentioned, the poem lets you see the warmth.",
+      "zh": "绿对红，酒对炉：寒冷还没提起，诗先让人看见了暖。"
+    },
+    {
+      "at": "晚來天欲雪",
+      "en": "欲, 'about to', is the hinge. The snow has not started; the invitation goes out in the moment just before, while there is still time to come.",
+      "zh": "“欲”字是关键。雪还没下，邀请赶在下雪之前送出，趁还来得及。"
+    }
+  ],
+  "pairs": [
+    "S-001047",
+    "S-001040",
+    "S-005006"
+  ]
 }

@@ -61,5 +61,73 @@
     "en": "I truly love this good story. While the fragments are still there, I want to bring it back, finish it, keep it.",
     "zh": "我真爱这一篇好的故事，趁碎影还在，我要追回他，完成他，留下他。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002022",
+    "S-003013"
+  ],
+  "gloss": [
+    {
+      "at": "石油",
+      "occ": 1,
+      "en": "石油: kerosene for the lamp. 老牌, an old and trusted brand, would not have blackened the glass so soon.",
+      "zh": "石油：这里指点灯用的煤油。老牌，指信誉好的老牌子。"
+    },
+    {
+      "at": "𪮆着",
+      "occ": 1,
+      "at_hans": "捏着",
+      "en": "𪮆: an old form of 捏, to hold between the fingers.",
+      "zh": "原文“𪮆”字，同“捏”。"
+    },
+    {
+      "at": "初學記",
+      "occ": 1,
+      "at_hans": "初学记",
+      "en": "Chuxue ji ('Notes for Beginning Learners'): an encyclopedia compiled under Xu Jian about 727 for the sons of the Tang emperor Xuanzong, with passages of earlier writing arranged by topic.",
+      "zh": "《初学记》：唐代徐坚等奉唐玄宗之命编的类书，约成于 727 年，供皇子作文时检索典故。"
+    },
+    {
+      "at": "山陰道",
+      "occ": 1,
+      "at_hans": "山阴道",
+      "en": "Shanyin is the old name of Shaoxing. In the Shishuo xinyu, Wang Xianzhi says that on the Shanyin road the hills and rivers light each other up so that one cannot take it all in.",
+      "zh": "山阴：绍兴的古称。《世说新语·言语》记王献之语：“从山阴道上行，山川自相映发，使人应接不暇。”"
+    },
+    {
+      "at": "烏桕",
+      "occ": 1,
+      "at_hans": "乌桕",
+      "en": "烏桕: the Chinese tallow tree, common by the waterways of Zhejiang. Its leaves turn red in autumn, and its seeds gave wax for candles.",
+      "zh": "乌桕：江浙水乡常见的树，秋叶变红，种子外的蜡可以制烛。"
+    },
+    {
+      "at": "伽藍",
+      "occ": 1,
+      "at_hans": "伽蓝",
+      "en": "伽藍 (qiélán): a Buddhist monastery, from the Sanskrit saṃghārāma.",
+      "zh": "伽蓝（qié lán）：佛寺，梵语“僧伽蓝摩”的略称。"
+    },
+    {
+      "at": "簑笠",
+      "occ": 1,
+      "at_hans": "蓑笠",
+      "en": "簑笠: a rain cape of straw or palm fibre and a broad bamboo hat, the rain gear of farmers and boatmen.",
+      "zh": "蓑笠：蓑衣和斗笠，农夫、船家的雨具。"
+    },
+    {
+      "at": "一丈紅",
+      "occ": 1,
+      "at_hans": "一丈红",
+      "en": "一丈紅: the hollyhock, named for its tall flowering stems; a zhang is about three metres.",
+      "zh": "一丈红：蜀葵，因花茎高挺得名。一丈约合三米多。"
+    },
+    {
+      "at": "雲錦",
+      "occ": 1,
+      "at_hans": "云锦",
+      "en": "雲錦: clouds like figured brocade; it is also the name of the fine silk brocade of Nanjing.",
+      "zh": "云锦：像锦缎一样的彩云；南京出产的名贵丝织品也叫云锦。"
+    }
+  ]
 }

@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes, and without the variant reading it marks.",
-    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解及所注异文。"
+    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes, and without the variant reading it marks. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解及所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -63,5 +63,60 @@
     "en": "The one I am thinking of / is on the far side of the water.",
     "zh": "所谓伊人，在水一方。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "蒹葭",
+      "occ": 1,
+      "en": "Two kinds of reed: 蒹, a reed that has not yet flowered, and 葭, young common reed.",
+      "zh": "蒹：没有长穗的荻。葭：初生的芦苇。"
+    },
+    {
+      "at": "伊人",
+      "occ": 1,
+      "en": "'That person': the one the singer longs for, never named.",
+      "zh": "那个人，指所思念的人。"
+    },
+    {
+      "at": "溯洄",
+      "occ": 1,
+      "en": "To go upstream along the winding bank. 溯游, two lines on, is to go downstream with the current.",
+      "zh": "溯洄：逆着弯曲的河道往上游走。下文“溯游”：顺流而下。"
+    },
+    {
+      "at": "未晞",
+      "occ": 1,
+      "en": "Not yet dry; 晞 is to dry in the sun.",
+      "zh": "晞：晒干。未晞，还没有干。"
+    },
+    {
+      "at": "道阻且躋",
+      "occ": 1,
+      "at_hans": "道阻且跻",
+      "en": "躋: rising steeply. In the third stanza 右 means bending, winding.",
+      "zh": "跻：升高，路陡。末章“右”：迂回弯曲。"
+    },
+    {
+      "at": "水中坻",
+      "occ": 1,
+      "en": "坻: a small islet. The other stanzas place the person at 湄, where water meets grass, at 涘, the bank, and on 沚, a sandbar.",
+      "zh": "坻（chí）：水中的小高地。另几处：湄，水草交接处；涘（sì），水边；沚，水中的小沙洲。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "所謂伊人",
+      "en": "所謂 means 'the one I spoke of', as if the person had already been mentioned. The poem begins partway through a longing.",
+      "zh": "“所谓”，就是“我说的那个”，好像此人早已提起过。诗一开头，思念已经走到半路了。"
+    },
+    {
+      "at": "宛在水中央",
+      "en": "This is the only line in the stanza with five characters instead of four, and the extra beat falls exactly where the person is: 中央, the middle of the water. The other two stanzas do the same with 坻 and 沚.",
+      "zh": "这是全章唯一一句五言，其余都是四言；多出的那一拍正落在人所在的地方：水中央。另两章的“坻”“沚”也是这样。"
+    }
+  ],
+  "pairs": [
+    "S-001007",
+    "S-003027"
+  ]
 }

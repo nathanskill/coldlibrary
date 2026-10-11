@@ -61,5 +61,45 @@
     "en": "Outside the walls of Gusu, from Cold Mountain Temple, / the midnight bell reaches the traveller's boat.",
     "zh": "姑苏城外寒山寺，夜半钟声到客船。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "霜滿天",
+      "occ": 1,
+      "at_hans": "霜满天",
+      "en": "Frost fills the sky: the bitter cold of the night. The ancients thought frost fell from the sky.",
+      "zh": "霜满天：形容夜寒彻骨。古人以为霜从天降。"
+    },
+    {
+      "at": "江楓",
+      "occ": 1,
+      "at_hans": "江枫",
+      "en": "Maples by the water. Maple Bridge crosses the canal west of Suzhou.",
+      "zh": "江枫：江边的枫树。枫桥在今苏州城西。"
+    },
+    {
+      "at": "姑蘇",
+      "occ": 1,
+      "at_hans": "姑苏",
+      "en": "Gusu, an old name for Suzhou, after Gusu Hill nearby.",
+      "zh": "姑苏：苏州的别称，因城西南有姑苏山而得名。"
+    },
+    {
+      "at": "寒山寺",
+      "occ": 1,
+      "en": "Cold Mountain Temple, near Maple Bridge, said to be named after the Tang poet-monk Hanshan.",
+      "zh": "寒山寺：在苏州城西枫桥附近，相传因唐代诗僧寒山曾住此而得名。"
+    },
+    {
+      "at": "夜半鐘聲",
+      "occ": 1,
+      "at_hans": "夜半钟声",
+      "en": "Ouyang Xiu doubted that temple bells were rung at midnight; later writers showed that some Tang temples did ring them.",
+      "zh": "欧阳修曾怀疑半夜不是打钟的时候，后人考证唐代确有寺院半夜鸣钟。"
+    }
+  ],
+  "pairs": [
+    "S-001021",
+    "S-004033"
+  ]
 }

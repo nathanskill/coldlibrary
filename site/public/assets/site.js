@@ -56,7 +56,7 @@
     }
     arts.forEach(function (a) {
       var b = a.querySelector('[data-today-next]');
-      if (!b) return;
+      if (!b || arts.length < 2) return;
       b.hidden = false;
       b.addEventListener('click', function () { show((cur + 1) % arts.length, true); });
     });
@@ -178,7 +178,7 @@
       say(T('Question ' + (i + 1) + ': ', '第 ' + (i + 1) + ' 题：') + data.questions[i], 'q');
       var f = el('form', 'w-form'); var inp = el('input'); inp.type = 'text'; inp.maxLength = 80; inp.autocomplete = 'off'; inp.setAttribute('aria-label', data.questions[i]);
       if (kept[i]) inp.value = kept[i];
-      var b = el('button', 'btn small', T('Answer', '回答')); b.type = 'submit';
+      var b = el('button', opts.draft ? 'btn small secondary' : 'btn small', T('Answer', '回答')); b.type = 'submit';
       f.appendChild(inp); f.appendChild(b); screen.appendChild(f);
       if (engaged) inp.focus({ preventScroll: true });
       f.addEventListener('submit', function (e) {
@@ -263,6 +263,8 @@
       var m = v.match(/^([EMSG])-?0*(\d{1,6})$/);
       if (!m) { say(T('A catalogue number looks like S-001001, G-009001, E-000001 or M-000001.', '馆藏号的样子是 S-001001、G-009001、E-000001 或 M-000001。')); return; }
       var id = m[1] + '-' + ('000000' + m[2]).slice(-6), base = ZH ? '/zh/' : '/';
+      var papers = {}; try { papers = JSON.parse(f.getAttribute('data-papers') || '{}') || {}; } catch (err) { papers = {}; }
+      if (papers[id]) { location.href = base + papers[id]; return; }
       say(T('Looking…', '正在查……'));
       if (m[1] === 'E' || m[1] === 'M') {
         getJSON('/items/index.json').then(function (ix) {
@@ -285,7 +287,10 @@
   var starter = $('[data-starter]');
   if (starter) starter.addEventListener('submit', function () {
     var title = $('[data-starter-title]', starter).value.trim(), kind = (starter.querySelector('input[name="kind"]:checked') || {}).value || 'exhibit';
-    store('cl-draft', JSON.stringify({ kind: kind === 'plaque' ? 'self' : 'exhibit', title: title }));
+    var d = {}; try { d = JSON.parse(store('cl-draft') || '{}') || {}; } catch (e) { d = {}; }
+    d.kind = kind === 'plaque' ? (d.kind === 'other' ? 'other' : 'self') : 'exhibit';
+    if (title) d.title = title;
+    store('cl-draft', JSON.stringify(d));
   });
 
   /* ---------- printing a door card or a slip: only the target and its ancestors print ---------- */
@@ -313,6 +318,9 @@
   var desk = $('[data-desk]');
   if (desk) frontDesk(desk);
   function frontDesk(form) {
+    // Fields by name through form.elements: on the form itself, names like "title" collide with built-in properties.
+    var fl = {};
+    ['title', 'subtitle', 'story', 'letter', 'pointer', 'badge', 'email', 'adult', 'rules', 'third'].forEach(function (n) { fl[n] = form.elements.namedItem(n); });
     var steps = $$('.step', form), cur = 0, subId = null, email = '';
     var qbox = $('[data-questions]', form), msg = $('[data-desk-msg]', form), draftState = $('[data-draft-state]', form), clearBtn = $('[data-clear-draft]', form);
     var countEl = $('[data-step-count]', form), bar = $$('.stepbar li', form);
@@ -327,7 +335,10 @@
       if (countEl) countEl.textContent = T('Step ' + (cur + 1) + ' of ' + steps.length + ' · ', '第 ' + (cur + 1) + ' 步，共 ' + steps.length + ' 步 · ') + (steps[cur].getAttribute('data-name') || '');
       if (cur === 4) prepareTry();
       if (!moved) return;
-      var first = steps[cur].querySelector('input:not([type=radio]):not([type=checkbox]), textarea'); if (first && cur > 0) first.focus({ preventScroll: true });
+      // Keep focus inside the step just shown: its first field, the chosen kind, or the step itself.
+      var first = cur === 0 ? form.querySelector('input[name="kind"]:checked') : steps[cur].querySelector('input:not([type=radio]):not([type=checkbox]), textarea');
+      if (!first) { steps[cur].setAttribute('tabindex', '-1'); first = steps[cur]; }
+      first.focus({ preventScroll: true });
       form.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'nearest' });
     }
     function kind() { var r = form.querySelector('input[name="kind"]:checked'); return r ? r.value : 'exhibit'; }
@@ -340,10 +351,10 @@
       $('[data-add-q]', form).hidden = $$('.qrow', qbox).length >= 3;
     }
     function questions() { return $$('.qrow', qbox).map(function (r) { return { q: $('input[name="q"]', r).value.trim(), a: $('input[name="a"]', r).value.trim() }; }).filter(function (x) { return x.q && norm(x.a); }); }
-    function hasWarden() { return form.letter.value.trim() && questions().length > 0; }
+    function hasWarden() { return fl.letter.value.trim() && questions().length > 0; }
     // draft: autosaved here, never sent until the last step; answers are never saved
     function save() {
-      var d = { kind: kind(), title: form.title.value, subtitle: form.subtitle.value, story: form.story.value, letter: form.letter.value, pointer: form.pointer.value, badge: form.badge.value, qs: $$('.qrow', qbox).map(function (r) { return { q: $('input[name="q"]', r).value }; }) };
+      var d = { kind: kind(), title: fl.title.value, subtitle: fl.subtitle.value, story: fl.story.value, letter: fl.letter.value, pointer: fl.pointer.value, badge: fl.badge.value, qs: $$('.qrow', qbox).map(function (r) { return { q: $('input[name="q"]', r).value }; }) };
       draftState.textContent = store('cl-draft', JSON.stringify(d)) !== null ? T('Draft saved on this device.', '草稿存在这台设备上。') : T('This browser does not keep drafts. Finish in one sitting.', '这个浏览器不保存草稿，请一次写完。');
       clearBtn.hidden = false;
       preview();
@@ -353,7 +364,7 @@
       try {
         var d = JSON.parse(raw);
         var k = form.querySelector('input[name="kind"][value="' + (d.kind || 'exhibit') + '"]'); if (k) k.checked = true;
-        ['title', 'subtitle', 'story', 'letter', 'pointer', 'badge'].forEach(function (f) { if (d[f]) form[f].value = d[f]; });
+        ['title', 'subtitle', 'story', 'letter', 'pointer', 'badge'].forEach(function (f) { if (d[f] && fl[f]) fl[f].value = d[f]; });
         (d.qs && d.qs.length ? d.qs : [{}]).forEach(function (q) { addQ(q.q); });
         draftState.textContent = T('Draft restored from this device. Answers are never saved.', '已从这台设备恢复草稿。答案从不保存。'); clearBtn.hidden = false;
       } catch (e) { addQ(); }
@@ -361,11 +372,11 @@
     function preview() {
       var k = kind();
       $('[data-pv-kind]').textContent = k === 'exhibit' ? T('Perpetual Exhibit', '永续展位') : T('Perpetual Plaque', '永续铭牌');
-      $('[data-pv-title]').textContent = form.title.value.trim() || T('Your title', '你的标题');
-      $('[data-pv-line]').textContent = form.subtitle.value.trim() || T('Your one line', '你的一句话');
-      $('[data-pv-meta]').textContent = hasWarden() ? T('Behind the warden: a letter', '守馆人身后：一封信') + (form.pointer.value.trim() ? T(' · a place to go', ' · 一个要去的地方') : '') + (form.badge.value.trim() ? T(' · a badge', ' · 一枚徽章') : '') : T('No warden yet', '还没有守馆人');
+      $('[data-pv-title]').textContent = fl.title.value.trim() || T('Your title', '你的标题');
+      $('[data-pv-line]').textContent = fl.subtitle.value.trim() || T('Your one line', '你的一句话');
+      $('[data-pv-meta]').textContent = hasWarden() ? T('Behind the warden: a letter', '守馆人身后：一封信') + (fl.pointer.value.trim() ? T(' · a place to go', ' · 一个要去的地方') : '') + (fl.badge.value.trim() ? T(' · a badge', ' · 一枚徽章') : '') : T('No warden yet', '还没有守馆人');
       $('[data-third]', form).hidden = k !== 'other';
-      $$('[data-chip]', form).forEach(function (x) { var on = x.getAttribute('data-chip') === form.badge.value.trim(); x.classList.toggle('on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+      $$('[data-chip]', form).forEach(function (x) { var on = x.getAttribute('data-chip') === fl.badge.value.trim(); x.classList.toggle('on', on); x.setAttribute('aria-pressed', on ? 'true' : 'false'); });
     }
     // The preview is a disclosure on narrow screens and always open beside the form on wide ones.
     var pvd = $('[data-preview]');
@@ -382,17 +393,17 @@
     form.addEventListener('input', save); form.addEventListener('change', save);
     clearBtn.addEventListener('click', function () { store('cl-draft', null); location.reload(); });
     $$('[data-next]', form).forEach(function (b) { b.addEventListener('click', function () {
-      if (cur === 1 && (!form.title.value.trim() || !form.subtitle.value.trim())) { (form.title.value.trim() ? form.subtitle : form.title).focus(); return; }
+      if (cur === 1 && (!fl.title.value.trim() || !fl.subtitle.value.trim())) { (fl.title.value.trim() ? fl.subtitle : fl.title).focus(); return; }
       show(cur + 1, true);
     }); });
     $$('[data-prev]', form).forEach(function (b) { b.addEventListener('click', function () { show(cur - 1, true); }); });
     $$('[data-skip]', form).forEach(function (b) { b.addEventListener('click', function () { show(cur + (cur === 3 ? 2 : 1), true); }); });
     $('[data-add-q]', form).addEventListener('click', function () { addQ(); });
     var ip = 0; $('[data-inspire]', form).addEventListener('click', function () { $('[data-inspire-out]', form).textContent = INSPIRE[ip++ % INSPIRE.length]; });
-    $$('[data-chip]', form).forEach(function (c) { c.addEventListener('click', function () { form.badge.value = c.getAttribute('data-chip'); save(); }); });
+    $$('[data-chip]', form).forEach(function (c) { c.addEventListener('click', function () { fl.badge.value = c.getAttribute('data-chip'); save(); }); });
     function payload(token) {
-      var badge = form.badge.value.trim();
-      return { letter: { en: form.letter.value, zh: form.letter.value }, pointer: form.pointer.value.trim() ? { en: form.pointer.value.trim(), zh: form.pointer.value.trim() } : null, badge: badge ? { en: badge, zh: badge } : null, badge_code: badge ? 'B-' + hex(crypto.getRandomValues(new Uint8Array(3))).toUpperCase() : null, lamp_token: token };
+      var badge = fl.badge.value.trim();
+      return { letter: { en: fl.letter.value, zh: fl.letter.value }, pointer: fl.pointer.value.trim() ? { en: fl.pointer.value.trim(), zh: fl.pointer.value.trim() } : null, badge: badge ? { en: badge, zh: badge } : null, badge_code: badge ? 'B-' + hex(crypto.getRandomValues(new Uint8Array(3))).toUpperCase() : null, lamp_token: token };
     }
     // Step 5: lock the draft here and let the owner run their own warden.
     function prepareTry() {
@@ -414,31 +425,39 @@
       e.preventDefault();
       // The try-as-visitor warden lives inside this form; only the desk's own button hands anything in.
       if (e.target !== form) return;
-      if (!form.email.value.trim() || !form.adult.checked || !form.rules.checked || (kind() === 'other' && !form.third.checked)) { msg.textContent = T('Please fill in the email and tick the boxes.', '请填好邮箱，并勾选上面的方框。'); return; }
+      // Enter in a field before the last step means "Next", never "hand it in".
+      if (cur < steps.length - 1) { var nx = steps[cur].querySelector('[data-next]'); if (nx) nx.click(); return; }
+      if (!fl.email.value.trim() || !fl.adult.checked || !fl.rules.checked || (kind() === 'other' && !fl.third.checked)) { msg.textContent = T('Please fill in the email and tick the boxes.', '请填好邮箱，并勾选上面的方框。'); return; }
       var b = $('[data-desk-submit]', form); b.disabled = true; b.setAttribute('aria-busy', 'true');
       msg.textContent = hasWarden() ? T('Locking in your browser…', '正在你的浏览器里上锁……') : T('Sending…', '正在发送……');
       var token = hex(crypto.getRandomValues(new Uint8Array(16)));
-      var item = { title: form.title.value.trim(), subtitle: form.subtitle.value.trim(), story: form.story.value.trim(), links: [] };
+      var item = { title: fl.title.value.trim(), subtitle: fl.subtitle.value.trim(), story: fl.story.value.trim(), links: [] };
       var work = hasWarden()
         ? lock(questions().map(function (x) { return x.a; }), payload(token)).then(function (sealedItem) { return sha256hex(token).then(function (h) { item.questions = questions().map(function (x) { return x.q; }); item.kdf = sealedItem.kdf; item.locked = sealedItem.locked; item.lamp_hash = h; }); })
         : Promise.resolve();
       function idle() { b.disabled = false; b.removeAttribute('aria-busy'); }
       work.then(function () {
-        email = form.email.value.trim();
-        return postJSON('/api/items/submit', { email: email, locale: LANG, kind: kind() === 'exhibit' ? 'exhibit' : 'plaque', whose: kind() === 'other' ? 'other' : (kind() === 'self' ? 'self' : null), item: item, adult: true, consent: true, third_party_consent: kind() === 'other' ? form.third.checked : undefined });
+        email = fl.email.value.trim();
+        return postJSON('/api/items/submit', { email: email, locale: LANG, kind: kind() === 'exhibit' ? 'exhibit' : 'plaque', whose: kind() === 'other' ? 'other' : (kind() === 'self' ? 'self' : null), item: item, adult: true, consent: true, third_party_consent: kind() === 'other' ? fl.third.checked : undefined });
       }).then(function (r) {
         b.removeAttribute('aria-busy');
         if (r.ok && r.data.id) { subId = r.data.id; msg.textContent = T('A code is on its way to ' + email + '.', '验证码正在发往 ' + email + '。'); $('[data-code-row]', form).hidden = false; $('[data-code]', form).focus(); }
         else { idle(); msg.textContent = (r.data && r.data.message) || T('Something went wrong. Please try again in a minute.', '出了点问题，请过一分钟再试。'); }
       }).catch(function () { idle(); msg.textContent = T('This browser cannot lock the layer. Please try a current browser.', '这个浏览器没法上锁，请换一个新一点的浏览器。'); });
     });
+    var sendBtn = $('[data-desk-submit]', form); if (sendBtn) sendBtn.disabled = false;
+    $('[data-code]', form).addEventListener('keydown', function (e) { if (e.key === 'Enter') { e.preventDefault(); $('[data-confirm]', form).click(); } });
     $('[data-confirm]', form).addEventListener('click', function () {
+      var cb = this;
+      if (cb.disabled || !subId) return;
+      cb.disabled = true; cb.setAttribute('aria-busy', 'true');
       msg.textContent = T('Checking…', '正在核对……');
       postJSON('/api/items/confirm', { id: subId, email: email, code: $('[data-code]', form).value.replace(/\D/g, ''), locale: LANG }).then(function (r) {
+        cb.disabled = false; cb.removeAttribute('aria-busy');
         if (!r.ok) { msg.textContent = (r.data && r.data.message) || T('That code did not match.', '验证码不对。'); return; }
         store('cl-draft', null);
         form.classList.add('finished');
-        $('[data-slip-text]', form).textContent = T('Application ' + subId + ' is on the librarian’s desk. ' + today() + ' · ', subId + ' 号申请已经放在馆员桌上。' + today() + ' · ') + form.title.value.trim();
+        $('[data-slip-text]', form).textContent = T('Application ' + subId + ' is on the librarian’s desk. ' + today() + ' · ', subId + ' 号申请已经放在馆员桌上。' + today() + ' · ') + fl.title.value.trim();
         $('[data-done]', form).hidden = false; $('[data-done]', form).scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
       });
     });

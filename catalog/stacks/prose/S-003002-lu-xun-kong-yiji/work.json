@@ -60,5 +60,92 @@
     "en": "That was how Kong Yiji made people happy, but without him, they got along just as well.",
     "zh": "孔乙己是这样的使人快活，可是没有他，别人也便这么过。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002032",
+    "S-002021",
+    "S-003010"
+  ],
+  "gloss": [
+    {
+      "at": "魯鎭",
+      "occ": 1,
+      "at_hans": "鲁镇",
+      "en": "Luzhen (Lu Town): the market town of several of Lu Xun's stories, drawn from the country around Shaoxing. Lu was his mother's surname, and he took it for his pen name too.",
+      "zh": "鲁镇：鲁迅好几篇小说里的市镇，取材于绍兴一带。“鲁”是他母亲的姓，他的笔名也取了这个字。"
+    },
+    {
+      "at": "茴香豆",
+      "occ": 1,
+      "en": "Aniseed beans: dried broad beans simmered with star anise or fennel and salt, still the snack sold with Shaoxing wine.",
+      "zh": "茴香豆：用茴香、盐等煮成的蚕豆，至今仍是绍兴人下酒的小吃。"
+    },
+    {
+      "at": "短衣幫",
+      "occ": 1,
+      "at_hans": "短衣帮",
+      "en": "The short-jacket crowd: labourers, who wore short jackets for work. A long gown marked a man of learning or leisure, which is why Kong Yiji keeps his, however ragged.",
+      "zh": "短衣帮：做工的人，干活穿短衣。长衫是读书人或有闲者的标志，所以孔乙己的长衫再破也不肯脱。"
+    },
+    {
+      "at": "咸亨酒店",
+      "occ": 1,
+      "en": "Xianheng, 'all things prosper', is a phrase from the Book of Changes. A tavern of this name stood near Lu Xun's family house in Shaoxing in the 1890s.",
+      "zh": "咸亨：语出《周易·坤卦》“品物咸亨”，意为万物皆得亨通。十九世纪九十年代，绍兴鲁迅家附近确有一家咸亨酒店。"
+    },
+    {
+      "at": "黃酒",
+      "occ": 1,
+      "at_hans": "黄酒",
+      "en": "Yellow wine: wine brewed from glutinous rice, the best known from Shaoxing, and drunk warm.",
+      "zh": "黄酒：用糯米等酿成的酒，以绍兴所产最有名，多温热了喝。"
+    },
+    {
+      "at": "上大人孔乙己",
+      "occ": 1,
+      "en": "The opening of a traditional copybook that children traced over in red: 上大人，孔乙己，化三千，七十士… The characters were chosen for their few strokes; the lines are usually read as praise of Confucius and his three thousand pupils, and meant little to a child.",
+      "zh": "描红纸是儿童习字时照着描写的红字纸，开头是“上大人，孔乙己，化三千，七十士……”。这些字笔画简单，一般解作称颂孔子教化三千弟子，孩子们读来半懂不懂。"
+    },
+    {
+      "at": "君子固窮",
+      "occ": 1,
+      "at_hans": "君子固穷",
+      "en": "From the Analects (15.2): 'A gentleman holds firm in hardship; a small man in hardship loses all restraint.'",
+      "zh": "语出《论语·卫灵公》：“君子固穷，小人穷斯滥矣。”"
+    },
+    {
+      "at": "進學",
+      "occ": 1,
+      "at_hans": "进学",
+      "en": "進學: to pass the county examination and enter the official school as a licentiate (秀才), the first rung of the examination ladder.",
+      "zh": "进学：童生考中秀才，进入府、州、县学，是科举的第一步。"
+    },
+    {
+      "at": "回字有四樣寫法",
+      "occ": 1,
+      "at_hans": "回字有四样写法",
+      "en": "The four forms usually given are 回, 囘, 囬 and 𡇈.",
+      "zh": "通常举出的四种写法是：回、囘、囬、𡇈。"
+    },
+    {
+      "at": "多乎哉？不多也",
+      "occ": 1,
+      "en": "Kong Yiji is quoting the Analects (9.6), where Confucius says a gentleman does not need many skills: 'Many? Not many.' He turns it to the beans.",
+      "zh": "语出《论语·子罕》：“君子多乎哉？不多也。”孔子说君子不必多能，孔乙己借来说豆子。"
+    },
+    {
+      "at": "丁舉人",
+      "occ": 1,
+      "at_hans": "丁举人",
+      "en": "舉人: a provincial graduate, who had passed the second tier of the civil examinations and could be appointed to office; in a small town, a man of power.",
+      "zh": "举人：乡试考中的人，有做官的资格，在小镇上是有权势的人物。"
+    },
+    {
+      "at": "年關",
+      "occ": 1,
+      "at_hans": "年关",
+      "en": "Debts were settled three times a year in the old calendar: before the Dragon Boat Festival, before Mid-Autumn, and at the year's end, the 'year's pass'. The tavern keeper takes down his board at each.",
+      "zh": "旧时一年分三节结账：端午、中秋和年底，年底这一关叫“年关”。掌柜每到这时便取下粉板。"
+    }
+  ]
 }

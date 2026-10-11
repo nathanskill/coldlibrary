@@ -63,5 +63,58 @@
     "en": "I ask it how it can be so clear: / because fresh water keeps flowing in from the source.",
     "zh": "问渠那得清如许，为有源头活水来。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "半畝方塘",
+      "occ": 1,
+      "at_hans": "半亩方塘",
+      "en": "A square pond of half a mu, that is, a small one; the mu is a measure of land.",
+      "zh": "半亩：形容池塘不大。亩，土地面积单位。"
+    },
+    {
+      "at": "一鑑開",
+      "occ": 1,
+      "at_hans": "一鉴开",
+      "en": "Opens like a mirror; 鑑 is an old word for a mirror.",
+      "zh": "鉴：镜子。一鉴开，像一面镜子打开。"
+    },
+    {
+      "at": "問渠那得清如許",
+      "occ": 1,
+      "at_hans": "问渠那得清如许",
+      "en": "渠: it, the pond. 那 is 哪, how. 如許: so, like this.",
+      "zh": "渠：它，指方塘。那：同“哪”。如许：如此，这样。"
+    },
+    {
+      "at": "艨艟巨艦",
+      "occ": 1,
+      "at_hans": "艨艟巨舰",
+      "en": "Great warships.",
+      "zh": "艨艟（méng chōng）：古代的战船。"
+    },
+    {
+      "at": "推移力",
+      "occ": 1,
+      "en": "The strength spent pushing and hauling.",
+      "zh": "推移：推挪移动。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "天光雲影共徘徊",
+      "en": "The pond is so still that the sky walks about in it: the clouds pace, 徘徊, as a person would. The water itself does nothing, which is why it shows everything.",
+      "zh": "池塘静到天空在里面走动：云影“徘徊”，像人一样。水本身什么也不做，所以什么都映得出。"
+    },
+    {
+      "at": "此日中流自在行",
+      "en": "The second poem ends without effort: 自在, at ease. Everything difficult has been folded into one word just before it, 向來, 'all this time until now'.",
+      "zh": "第二首在毫不费力中收尾：自在。所有的难处，都收进了前面的一个词里：向来。"
+    }
+  ],
+  "pairs": [
+    "S-001064",
+    "S-004018",
+    "S-005011"
+  ]
 }

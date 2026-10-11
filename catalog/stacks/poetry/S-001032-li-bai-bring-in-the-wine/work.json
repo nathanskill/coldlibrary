@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out, and the 將 it supplies in brackets in the sixth line is printed without them.",
-    "zh": "据维基文库，删去其所注异文；第六行原以括号补出的“将”字径直排入。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out, and the 將 it supplies in brackets in 將進酒，杯莫停 is printed without them. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文；“将进酒，杯莫停”句中原以括号补出的“将”字径直排入。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,51 @@
     "en": "Have you not seen / the Yellow River's waters coming down from heaven, / rushing to the sea, never to return?",
     "zh": "君不见，黄河之水天上来，奔流到海不复回！"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "岑夫子",
+      "occ": 1,
+      "en": "Cen Xun, a friend of Li Bai; 夫子 is a respectful 'master'.",
+      "zh": "岑夫子：岑勋，李白的朋友。夫子，尊称。"
+    },
+    {
+      "at": "丹丘生",
+      "occ": 1,
+      "en": "Yuan Danqiu, a Daoist and Li Bai's close friend.",
+      "zh": "丹丘生：元丹丘，道士，李白的好友。"
+    },
+    {
+      "at": "將進酒",
+      "occ": 1,
+      "at_hans": "将进酒",
+      "en": "將, read qiāng: please. 'Please, drink.' It is also the title, an old yuefu tune.",
+      "zh": "将（qiāng）：请。将进酒，请喝酒。也是乐府旧题。"
+    },
+    {
+      "at": "饌玉",
+      "occ": 1,
+      "at_hans": "馔玉",
+      "en": "Food as fine as jade: rich banquets.",
+      "zh": "馔玉：珍美如玉的饮食。"
+    },
+    {
+      "at": "陳王",
+      "occ": 1,
+      "at_hans": "陈王",
+      "en": "Cao Zhi, Prince of Chen, whose poem describes a feast at Pingle Lodge in Luoyang with wine at ten thousand cash a dou.",
+      "zh": "陈王：曹植，封陈王。其《名都篇》有“归来宴平乐，美酒斗十千”。平乐：平乐观，在洛阳。"
+    },
+    {
+      "at": "五花馬",
+      "occ": 1,
+      "at_hans": "五花马",
+      "en": "A dappled horse; some say a horse with its mane clipped into five tufts. Either way, a prized mount.",
+      "zh": "五花马：毛色斑驳的名马；一说马鬃剪成五瓣。"
+    }
+  ],
+  "pairs": [
+    "S-001031",
+    "S-001033"
+  ]
 }

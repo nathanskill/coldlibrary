@@ -89,8 +89,11 @@ function gate(key, g) {
 const css = (href) => `<link rel="stylesheet" href="${href}">\n`;
 const preload = (href) => `<link rel="preload" href="${href}" as="font" type="font/woff2" crossorigin>\n`;
 
+const DUMP = process.env.CL_FONT_DUMP ? {} : null;
+if (DUMP) process.on('exit', () => writeFileSync(process.env.CL_FONT_DUMP, JSON.stringify(DUMP)));
 export function fontHead(key, glyphs, lang) {
   const g = glyphs || {};
+  if (DUMP) { (DUMP[key] ||= {})[lang] = { base: g.base, hant: g.hant, hans: g.hans, w600: g.w600, extra: g.extra }; }
   const extras = Object.entries(g.extra || {}).filter(([, x]) => has(x));
   if (extras.length) {
     const s = related.get(key) || new Set();

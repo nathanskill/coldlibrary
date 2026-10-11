@@ -60,5 +60,51 @@
     "en": "As if overnight a spring wind had come, / and on a thousand trees, ten thousand trees, the pear blossom opened.",
     "zh": "忽如一夜春风来，千树万树梨花开。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "白草",
+      "occ": 1,
+      "en": "A pale grass of the north-western steppe that turns white when it dries in autumn.",
+      "zh": "白草：西北边地的一种牧草，秋天干枯后变成白色。"
+    },
+    {
+      "at": "角弓不得控",
+      "occ": 1,
+      "en": "A bow strengthened with horn; 控 is to draw. The cold has made it too stiff.",
+      "zh": "角弓：两端用兽角装饰的硬弓。控：拉开。"
+    },
+    {
+      "at": "都護",
+      "occ": 1,
+      "at_hans": "都护",
+      "en": "The protector-general, governor of a frontier protectorate.",
+      "zh": "都护：唐代镇守边疆的长官。"
+    },
+    {
+      "at": "瀚海闌干",
+      "occ": 1,
+      "at_hans": "瀚海阑干",
+      "en": "瀚海: the great desert. 闌干: criss-crossing, spread everywhere.",
+      "zh": "瀚海：大沙漠。阑干：纵横交错的样子。"
+    },
+    {
+      "at": "轅門",
+      "occ": 1,
+      "at_hans": "辕门",
+      "en": "The gate of an army camp, once made of two carts with their shafts (轅) raised to face each other.",
+      "zh": "辕门：军营的门。古代扎营以车为屏障，出入处以两车车辕相向竖立为门。"
+    },
+    {
+      "at": "輪臺",
+      "occ": 1,
+      "at_hans": "轮台",
+      "en": "Luntai, a Tang garrison town in present-day Xinjiang, where Cen Shen was serving.",
+      "zh": "轮台：唐代庭州属县，在今新疆境内，岑参当时在此任职。"
+    }
+  ],
+  "pairs": [
+    "S-001056",
+    "S-001036"
+  ]
 }

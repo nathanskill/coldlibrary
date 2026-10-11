@@ -60,5 +60,44 @@
     "en": "At the edge of the woods the clearing sky is bright; / in the city the evening cold grows deeper.",
     "zh": "林表明霁色，城中增暮寒。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "終南",
+      "occ": 1,
+      "at_hans": "终南",
+      "en": "The Zhongnan Mountains, south of Chang'an.",
+      "zh": "终南：终南山，在长安城南。"
+    },
+    {
+      "at": "陰嶺",
+      "occ": 1,
+      "at_hans": "阴岭",
+      "en": "The north face of the ridges, the side seen from the city, where the snow lingers.",
+      "zh": "阴岭：山的北面。从长安望去，见到的正是终南山的北坡，积雪不化。"
+    },
+    {
+      "at": "林表",
+      "occ": 1,
+      "en": "The tops of the trees, the edge of the woods.",
+      "zh": "林表：林梢，树林的上方。"
+    },
+    {
+      "at": "霽色",
+      "occ": 1,
+      "at_hans": "霁色",
+      "en": "The light of the sky clearing after snow.",
+      "zh": "霁色：雨雪停后天空放晴的光色。"
+    },
+    {
+      "at": "增暮寒",
+      "occ": 1,
+      "en": "Zu Yong wrote this for the civil examination, which required twelve lines. He handed in four, and when asked why, said the meaning was complete.",
+      "zh": "据《唐诗纪事》，此诗是祖咏应试之作，按规定应写六韵十二句，他只写四句便交卷，问其故，答曰“意尽”。"
+    }
+  ],
+  "pairs": [
+    "S-001047",
+    "S-001043"
+  ]
 }

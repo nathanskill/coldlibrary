@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
-    "zh": "据维基文库，删去其所注异文。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,45 @@
     "en": "The yellow crane, once gone, never came back; / for a thousand years the white clouds have drifted, empty.",
     "zh": "黄鹤一去不复返，白云千载空悠悠。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "昔人",
+      "occ": 1,
+      "en": "In legend an immortal, named in different sources as Fei Yi or Zi'an, rode off from here on a yellow crane. The tower stood above the Yangzi at Wuchang, in present-day Wuhan.",
+      "zh": "传说仙人（一说费祎，一说子安）曾在此乘黄鹤而去。黄鹤楼故址在今湖北武汉武昌，下临长江。"
+    },
+    {
+      "at": "歷歷",
+      "occ": 1,
+      "at_hans": "历历",
+      "en": "Clear and distinct, one by one.",
+      "zh": "历历：清楚可数。"
+    },
+    {
+      "at": "漢陽",
+      "occ": 1,
+      "at_hans": "汉阳",
+      "en": "Hanyang, across the river from the tower.",
+      "zh": "汉阳：地名，在今武汉，与黄鹤楼隔江相望。"
+    },
+    {
+      "at": "鸚鵡洲",
+      "occ": 1,
+      "at_hans": "鹦鹉洲",
+      "en": "Parrot Island, a sandbar in the Yangzi; the Tang island was later washed away.",
+      "zh": "鹦鹉洲：长江中的沙洲，唐时的鹦鹉洲后被江水冲没。"
+    },
+    {
+      "at": "鄉關",
+      "occ": 1,
+      "at_hans": "乡关",
+      "en": "Home, one's native place.",
+      "zh": "乡关：故乡。"
+    }
+  ],
+  "pairs": [
+    "S-001034",
+    "S-001019"
+  ]
 }

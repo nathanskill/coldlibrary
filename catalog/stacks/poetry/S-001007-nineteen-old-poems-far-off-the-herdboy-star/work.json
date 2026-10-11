@@ -60,5 +60,51 @@
     "en": "Brimming, one stretch of water between them; / gazing, gazing, and no word spoken.",
     "zh": "盈盈一水间，脉脉不得语。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "牽牛星",
+      "occ": 1,
+      "at_hans": "牵牛星",
+      "en": "The Herdboy star, Altair. In the legend the Herdboy and the Weaving Girl are lovers kept apart by the River of Heaven, the Milky Way.",
+      "zh": "牵牛星，即牛郎星（天鹰座α星）。传说牛郎与织女相爱，被银河隔开。"
+    },
+    {
+      "at": "河漢女",
+      "occ": 1,
+      "at_hans": "河汉女",
+      "en": "The girl by the River of Heaven: the Weaving Girl star, Vega.",
+      "zh": "银河边的女子，指织女星（天琴座α星）。"
+    },
+    {
+      "at": "擢素手",
+      "occ": 1,
+      "en": "擢: to raise, draw out; 素, white.",
+      "zh": "擢（zhuó）：伸出，举起。素：白。"
+    },
+    {
+      "at": "札札弄機杼",
+      "occ": 1,
+      "at_hans": "札札弄机杼",
+      "en": "札札 is the click-clack of the loom; 杼 is the shuttle.",
+      "zh": "札札：织机的声音。杼（zhù）：织布的梭子。"
+    },
+    {
+      "at": "不成章",
+      "occ": 1,
+      "en": "She cannot finish a pattern; 章 is the woven design.",
+      "zh": "织不成花纹。章：布帛上的经纬纹理。"
+    },
+    {
+      "at": "脈脈",
+      "occ": 1,
+      "at_hans": "脉脉",
+      "en": "Gazing in silence, full of feeling.",
+      "zh": "脉脉（mò）：含情相视的样子。"
+    }
+  ],
+  "pairs": [
+    "S-001006",
+    "S-001060"
+  ]
 }

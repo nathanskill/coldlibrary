@@ -61,5 +61,46 @@
     "en": "The sea sun is born from the last of the night; / the river spring comes into the old year.",
     "zh": "海日生残夜，江春入旧年。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "風正一帆懸",
+      "occ": 1,
+      "at_hans": "风正一帆悬",
+      "en": "風正: the wind is fair and steady, so the sail hangs straight and full.",
+      "zh": "风正：顺风，风势平和。悬：高挂。"
+    },
+    {
+      "at": "海日生殘夜",
+      "occ": 1,
+      "at_hans": "海日生残夜",
+      "en": "海日: the sun rising over the sea. Beigu Hill is at Zhenjiang, where the Yangzi is nearing the sea.",
+      "zh": "海日：海上的旭日。北固山在今江苏镇江，长江至此已近入海处。"
+    },
+    {
+      "at": "江春入舊年",
+      "occ": 1,
+      "at_hans": "江春入旧年",
+      "en": "Spring reaches the river before the old year is out: the solar term Beginning of Spring can fall before the lunar New Year.",
+      "zh": "江上的春天在旧年未尽时就到了。立春有时在农历新年之前。"
+    },
+    {
+      "at": "鄉書",
+      "occ": 1,
+      "at_hans": "乡书",
+      "en": "A letter home.",
+      "zh": "乡书：家书。"
+    },
+    {
+      "at": "歸雁洛陽邊",
+      "occ": 1,
+      "at_hans": "归雁洛阳边",
+      "en": "Geese were said to carry letters. Luoyang was the poet's home.",
+      "zh": "古有鸿雁传书之说。洛阳，作者的家乡。"
+    }
+  ],
+  "pairs": [
+    "S-001044",
+    "S-001039"
+  ]
 }

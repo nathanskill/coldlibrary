@@ -23,7 +23,7 @@ a.id:hover { color: var(--ink); text-decoration-color: currentColor; }
 .btn.secondary { background: transparent; color: var(--ink); border-color: var(--line-2); }
 .btn.secondary:hover { border-color: var(--ink-2); color: var(--ink); background: transparent; }
 .btn.small { min-height: 36px; padding: 0 var(--s3); font-size: var(--t5); }
-.btn.lamp { background: var(--lamp); border-color: var(--lamp); color: #FFF8F2; }
+.btn.lamp { background: var(--lamp); border-color: var(--lamp); color: var(--lamp-ink); }
 .btn[disabled], .btn[aria-disabled="true"] { opacity: .45; cursor: not-allowed; }
 .btn[aria-busy="true"] { cursor: progress; }
 .go { color: var(--ink); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 0.22em;

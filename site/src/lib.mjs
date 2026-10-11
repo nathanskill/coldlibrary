@@ -1,4 +1,7 @@
 // Shared helpers and the page frame for the Cold Library static site (visual system v5, 2026-10-11).
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+
 export const SITE = 'https://coldlibrary.com';
 export const REPO = 'https://github.com/nathanskill/coldlibrary';
 export const FOUNDED = '2026-10-04';
@@ -111,7 +114,7 @@ export function header(lang, slug) {
   const theme = (cls) => `<button class="tool icon theme-toggle ${cls}" type="button" data-toggle-theme aria-label="${T('Switch light or dark', '切换浅色或深色')}">${ICON_THEME}</button>`;
   return `<header class="site-head">
   <div class="wrap head-row">
-    <a class="brand" href="${href(lang, '')}" aria-label="${T('Cold Library, lobby', '冷冻图书馆，大厅')}">${LOGO}<span class="brand-name">${T('Cold Library', '冷冻图书馆')}</span></a>
+    <a class="brand" href="${href(lang, '')}" aria-label="${T('Cold Library, lobby', '冷冻图书馆，大厅')}">${LOGO}<span>${T('Cold Library', '冷冻图书馆')}</span></a>
     <nav class="nav" aria-label="${T('Main', '主导航')}">${NAV.map(link).join('')}</nav>
     <span class="spacer"></span>
     <div class="tools">
@@ -120,7 +123,7 @@ export function header(lang, slug) {
       ${theme('')}
       <a class="head-cta" href="${href(lang, 'accession')}">${T('Hang your own', '挂上你自己的')}${ARROW}</a>
       <details class="menu"><summary aria-label="${T('Menu', '菜单')}">${T('Menu', '菜单')}</summary><div class="menu-panel">
-        <div class="menu-top">${langLink('in-menu')}${theme('in-menu')}</div>
+        <div class="menu-top">${langLink('')}${theme('')}</div>
         ${NAV.map(link).join('')}<div class="sep-line"></div>${MORE.map(link).join('')}
       </div></details>
     </div>
@@ -224,10 +227,31 @@ export function ph({ lang, crumbs = '', h1, sub = '', lede = '', facts = '', act
   return `<header class="ph${cls ? ' ' + cls : ''}"><div class="wrap grid"><div class="c-main">${text}</div></div></header>`;
 }
 
-// A generated photograph. Portrait source for phones when one exists.
+// A generated photograph. Portrait source for phones when one exists. Widths and the intrinsic size come from the files.
+const IMG_DIR = new URL('../public/assets/img/', import.meta.url);
+const sizeCache = new Map();
+export function jpegSize(file) {
+  if (sizeCache.has(file)) return sizeCache.get(file);
+  let out = null;
+  try {
+    const b = readFileSync(file);
+    for (let i = 2; i < b.length - 9;) {
+      if (b[i] !== 0xff) { i++; continue; }
+      const m = b[i + 1];
+      if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) { out = { width: b.readUInt16BE(i + 7), height: b.readUInt16BE(i + 5) }; break; }
+      i += 2 + b.readUInt16BE(i + 2);
+    }
+  } catch { out = null; }
+  sizeCache.set(file, out);
+  return out;
+}
+const imgSize = (name) => jpegSize(fileURLToPath(new URL(name + '.jpg', IMG_DIR)));
 export function picture({ name, alt, portrait = null, sizes = '100vw', cls = '', eager = false, imgCls = '' }) {
-  const p = portrait ? `<source media="(max-width: 599px)" srcset="/assets/img/${portrait}-sm.jpg 720w, /assets/img/${portrait}.jpg 1024w" sizes="100vw">` : '';
-  return `<picture${cls ? ` class="${cls}"` : ''}>${p}<img${imgCls ? ` class="${imgCls}"` : ''} src="/assets/img/${name}.jpg" srcset="/assets/img/${name}-sm.jpg 820w, /assets/img/${name}.jpg 1536w" sizes="${sizes}" alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></picture>`;
+  const big = imgSize(name), small = imgSize(name + '-sm');
+  const srcset = (n, a, b) => `/assets/img/${n}-sm.jpg ${(b && b.width) || 820}w, /assets/img/${n}.jpg ${(a && a.width) || 1536}w`;
+  const p = portrait ? `<source media="(max-width: 599px)" srcset="${srcset(portrait, imgSize(portrait), imgSize(portrait + '-sm'))}" sizes="100vw">` : '';
+  const wh = big ? ` width="${big.width}" height="${big.height}"` : '';
+  return `<picture${cls ? ` class="${cls}"` : ''}>${p}<img${imgCls ? ` class="${imgCls}"` : ''} src="/assets/img/${name}.jpg" srcset="${srcset(name, big, small)}" sizes="${sizes}"${wh} alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></picture>`;
 }
 
 // Minimal markdown for house copy: headings, paragraphs, blockquotes, emphasis, links.
@@ -238,18 +262,4 @@ export function md(src) {
     if (b.startsWith('> ')) return `<blockquote>${inline(b.replace(/^> ?/gm, ''))}</blockquote>`;
     return `<p>${inline(b).replace(/\n/g, '<br>')}</p>`;
   }).join('\n');
-}
-
-// ---------- legacy (visual system v3) — kept only until pages.mjs is migrated; do not use in new code ----------
-export function statusBar() { return ''; }
-export function plate() { return ''; }
-export function pageHero({ lang, slug, title, lede, image, alt, caption_en = '', caption_zh = '' }) {
-  return ph({ lang, h1: title, lede, photo: image ? { name: image, alt, caption: t(lang)(caption_en, caption_zh) } : null });
-}
-export function sectionHead(label, title, intro = '') {
-  return `<header class="sec-head">${label ? `<p class="meta">${label}</p>` : ''}<h2>${title}</h2>${intro ? `<p class="sec-intro">${intro}</p>` : ''}</header>`;
-}
-export function card({ acc, title, fields = [], body = '', stamp = '', stampClass = '' }) {
-  const rows = fields.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
-  return `<article class="card">${acc ? `<p class="id">${esc(acc)}</p>` : ''}<h3>${title}</h3>${rows ? `<dl class="tomb">${rows}</dl>` : ''}${body ? `<div>${body}</div>` : ''}${stamp ? `<span class="stamp ${stampClass}">${stamp}</span>` : ''}</article>`;
 }

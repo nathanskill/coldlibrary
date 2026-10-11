@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,51 @@
     "en": "Joy and grief, parting and meeting, have no feeling for us: / let the rain drip on the steps until the dawn.",
     "zh": "悲欢离合总无情，一任阶前点滴到天明。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "歌樓",
+      "occ": 1,
+      "at_hans": "歌楼",
+      "en": "A house where singing girls performed.",
+      "zh": "歌楼：歌女表演的楼阁，指寻欢作乐的地方。"
+    },
+    {
+      "at": "羅帳",
+      "occ": 1,
+      "at_hans": "罗帐",
+      "en": "Bed curtains of thin silk.",
+      "zh": "罗帐：用轻软的丝织品做的床帐。"
+    },
+    {
+      "at": "斷雁",
+      "occ": 1,
+      "at_hans": "断雁",
+      "en": "A goose that has lost its flock.",
+      "zh": "断雁：失群的孤雁。"
+    },
+    {
+      "at": "僧廬",
+      "occ": 1,
+      "at_hans": "僧庐",
+      "en": "A monk's dwelling, a temple.",
+      "zh": "僧庐：僧人的屋舍。"
+    },
+    {
+      "at": "星星",
+      "occ": 1,
+      "en": "Flecked with white, like stars: greying hair.",
+      "zh": "星星：形容鬓发花白，像星星点点。"
+    },
+    {
+      "at": "一任",
+      "occ": 1,
+      "en": "To let it be, to leave it to.",
+      "zh": "一任：任凭。"
+    }
+  ],
+  "pairs": [
+    "S-001070",
+    "S-001065"
+  ]
 }

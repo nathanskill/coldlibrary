@@ -61,5 +61,58 @@
     "en": "I knew a way to make amends: give him a kite, approve of his flying it, urge him to fly it, fly it with him.",
     "zh": "我也知道补过的方法的：送他风筝，赞成他放，劝他放，我和他一同放。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004107",
+    "S-001054",
+    "S-001039"
+  ],
+  "gloss": [
+    {
+      "at": "春二月",
+      "occ": 1,
+      "en": "The second month of the old lunar calendar, about March, when the spring winds come.",
+      "zh": "春二月：农历二月，约当公历三月。"
+    },
+    {
+      "at": "風輪",
+      "occ": 1,
+      "at_hans": "风轮",
+      "en": "風輪: a little wind-wheel of bamboo and paper fixed to a kite, which spins and hums in the wind.",
+      "zh": "风轮：装在风筝上的小轮子，用竹片和纸做成，迎风转动，沙沙作响。"
+    },
+    {
+      "at": "瓦片風箏",
+      "occ": 1,
+      "at_hans": "瓦片风筝",
+      "en": "The tile kite: the simplest kind, a flat oblong of paper on a bamboo frame, shaped like a roof tile, with no wind-wheel.",
+      "zh": "瓦片风筝：最简单的一种，长方形，像一片瓦，没有风轮。"
+    },
+    {
+      "at": "山桃",
+      "occ": 1,
+      "en": "山桃: the wild mountain peach, among the first trees to flower in spring.",
+      "zh": "山桃：野生的桃树，开花比一般桃树早。"
+    },
+    {
+      "at": "小兄弟",
+      "occ": 1,
+      "en": "The younger brother is usually identified as Zhou Jianren (1888–1984), the youngest of the three Zhou brothers.",
+      "zh": "小兄弟：一般认为指鲁迅的三弟周建人（1888–1984）。"
+    },
+    {
+      "at": "肅殺",
+      "occ": 1,
+      "at_hans": "肃杀",
+      "en": "肅殺: the harsh, withering air of late autumn and winter, an old literary phrase.",
+      "zh": "肃杀：形容秋冬天气严寒、草木凋零。"
+    },
+    {
+      "at": "胡塗",
+      "occ": 1,
+      "at_hans": "胡涂",
+      "en": "胡塗: the same as 糊塗, muddled, foolish.",
+      "zh": "胡涂：同“糊涂”。"
+    }
+  ]
 }

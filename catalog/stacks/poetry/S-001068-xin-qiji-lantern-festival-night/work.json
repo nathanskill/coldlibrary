@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,52 @@
     "en": "In the crowd I looked for that one a thousand times; / then suddenly I turned my head, / and that one was there, / where the lamplight was thin.",
     "zh": "众里寻他千百度；蓦然回首，那人却在，灯火阑珊处。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "花千樹",
+      "occ": 1,
+      "at_hans": "花千树",
+      "en": "A thousand trees in flower: the lanterns of the Lantern Festival, the fifteenth night of the first month, hung on every tree.",
+      "zh": "花千树：形容元宵节（正月十五）灯火之多，像千树花开。"
+    },
+    {
+      "at": "星如雨",
+      "occ": 1,
+      "en": "Fireworks falling like a rain of stars.",
+      "zh": "星如雨：指焰火纷纷，乱落如雨。"
+    },
+    {
+      "at": "玉壺",
+      "occ": 1,
+      "at_hans": "玉壶",
+      "en": "Jade pot: the moon, or a lantern of white jade.",
+      "zh": "玉壶：比喻明月；一说指白玉制成的灯。"
+    },
+    {
+      "at": "魚龍舞",
+      "occ": 1,
+      "at_hans": "鱼龙舞",
+      "en": "Lanterns shaped like fish and dragons, danced through the streets.",
+      "zh": "鱼龙舞：舞动鱼形、龙形的彩灯。"
+    },
+    {
+      "at": "蛾兒雪柳黃金縷",
+      "occ": 1,
+      "at_hans": "蛾儿雪柳黄金缕",
+      "en": "Moth-shaped pins, snow willows and gold threads: the ornaments women wore in their hair on festival night.",
+      "zh": "蛾儿、雪柳、黄金缕：都是古代妇女元宵节戴在头上的装饰品。"
+    },
+    {
+      "at": "闌珊",
+      "occ": 1,
+      "at_hans": "阑珊",
+      "en": "Thin, fading, few: where the lamps give out.",
+      "zh": "阑珊：稀疏，零落。"
+    }
+  ],
+  "pairs": [
+    "S-003041",
+    "S-001070"
+  ]
 }

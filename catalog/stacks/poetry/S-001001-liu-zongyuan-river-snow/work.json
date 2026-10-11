@@ -63,5 +63,45 @@
     "en": "One boat, one old man in a straw cape and hat, / fishing alone in the cold river snow.",
     "zh": "孤舟蓑笠翁，独钓寒江雪。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "鳥飛絕",
+      "occ": 1,
+      "at_hans": "鸟飞绝",
+      "en": "絕: cut off, gone. Not a single bird is left in the air.",
+      "zh": "绝：断绝，没有了。天上一只鸟也不见。"
+    },
+    {
+      "at": "人蹤滅",
+      "occ": 1,
+      "at_hans": "人踪灭",
+      "en": "蹤 is a footprint or track; 滅, wiped out. No sign that anyone has passed.",
+      "zh": "踪：脚印，踪迹。灭：消失。路上不见人迹。"
+    },
+    {
+      "at": "簑笠",
+      "occ": 1,
+      "at_hans": "蓑笠",
+      "en": "A straw rain cape (簑) and a broad bamboo hat (笠): the fisherman's gear.",
+      "zh": "蓑衣和斗笠。蓑，草编的雨衣；笠，竹编的宽檐帽，都是渔人的雨具。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "千山鳥飛絕",
+      "en": "The rhyme words 絕, 滅 and 雪 all ended in a stopped consonant in Tang pronunciation, the entering tone. Read aloud then, each line closed abruptly, as if the cold cut it short.",
+      "zh": "韵脚“绝”“灭”“雪”在唐代读音里都是入声，收尾短促。当时读出来，每一句都戛然而止，像是被寒气截断。"
+    },
+    {
+      "at": "獨釣寒江雪",
+      "en": "Grammatically, the snow can be where he fishes or what he fishes. A translation has to choose; the Chinese does not, and I would rather keep both.",
+      "zh": "从语法上说，雪可以是他垂钓的地方，也可以是他钓的东西。译文只能二选一，原文不必选，我宁愿两样都留着。"
+    }
+  ],
+  "pairs": [
+    "S-002031",
+    "S-001043",
+    "S-004105"
+  ]
 }

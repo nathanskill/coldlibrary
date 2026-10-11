@@ -60,5 +60,50 @@
     "en": "Holding an oil-paper umbrella, alone I wander down a long, long and lonely rainy lane",
     "zh": "撑着油纸伞，独自彷徨在悠长，悠长又寂寥的雨巷"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-001002",
+    "S-001071",
+    "S-001057"
+  ],
+  "gloss": [
+    {
+      "at": "油紙傘",
+      "occ": 1,
+      "at_hans": "油纸伞",
+      "en": "An umbrella of bamboo ribs and paper made waterproof with tung oil, common in the towns of the south.",
+      "zh": "油纸伞：竹骨架、糊上桐油纸的伞，江南常见。"
+    },
+    {
+      "at": "寂寥的雨巷",
+      "occ": 1,
+      "en": "Dai Wangshu grew up in Hangzhou, a city of narrow lanes between high walls; he wrote the poem in 1927 while staying with his friend Shi Zhecun at Songjiang, near Shanghai.",
+      "zh": "戴望舒在杭州长大，那里多高墙夹着的窄巷。这首诗写于 1927 年，当时他避居上海附近松江的朋友施蛰存家中。"
+    },
+    {
+      "at": "丁香",
+      "occ": 1,
+      "en": "丁香: lilac. Its tight clusters of buds, 丁香結, stood for knotted sorrow in classical poetry, as in Li Jing's line 'the lilac vainly knots its sorrow in the rain'.",
+      "zh": "丁香：丁香花蕾丛生如结，古诗词称“丁香结”，用来比喻愁思郁结，如南唐李璟“丁香空结雨中愁”。"
+    },
+    {
+      "at": "彳亍",
+      "occ": 1,
+      "en": "彳亍 (chìchù): to walk slowly, stopping and starting; the two characters are the left and right halves of 行, to walk.",
+      "zh": "彳亍（chì chù）：慢步走，走走停停。两字合起来正是“行”字。"
+    },
+    {
+      "at": "太息",
+      "occ": 1,
+      "en": "太息: to sigh deeply, an old literary word, as in Qu Yuan's 'Long I sigh and wipe away my tears'.",
+      "zh": "太息：叹息，旧诗文用语，如屈原《离骚》“长太息以掩涕兮”。"
+    },
+    {
+      "at": "頹圯",
+      "occ": 1,
+      "at_hans": "颓圯",
+      "en": "頹圯: crumbling. The 圯 printed here stands for 圮 (pǐ, ruined), a common confusion of two similar characters.",
+      "zh": "颓圯：坍塌。“圯”在这里当作“圮”（pǐ，倒塌），两字形近，常被混用。"
+    }
+  ]
 }

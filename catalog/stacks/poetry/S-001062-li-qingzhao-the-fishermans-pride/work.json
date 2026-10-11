@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
-    "zh": "据维基文库，删去其所注异文。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -61,5 +61,51 @@
     "en": "Ninety thousand li on the wind, the great roc is rising. / Wind, do not stop: / blow my little boat away to the Three Islands.",
     "zh": "九万里风鹏正举。风休住，蓬舟吹取三山去。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "星河欲轉",
+      "occ": 1,
+      "at_hans": "星河欲转",
+      "en": "The Milky Way is turning, as it does towards dawn.",
+      "zh": "星河：银河。欲转：银河转动，表示天快亮了。"
+    },
+    {
+      "at": "帝所",
+      "occ": 1,
+      "en": "The dwelling of the Lord of Heaven.",
+      "zh": "帝所：天帝居住的地方。"
+    },
+    {
+      "at": "路長嗟日暮",
+      "occ": 1,
+      "at_hans": "路长嗟日暮",
+      "en": "The road is long, the day is late: an echo of the Li Sao, 'the road is long and far' and 'the sun is hastening to set'.",
+      "zh": "化用屈原《离骚》“路曼曼其修远兮”“日忽忽其将暮”。"
+    },
+    {
+      "at": "驚人句",
+      "occ": 1,
+      "at_hans": "惊人句",
+      "en": "Startling lines: Du Fu had sworn not to rest until his words startled people.",
+      "zh": "惊人句：杜甫有“语不惊人死不休”。"
+    },
+    {
+      "at": "九萬里風鵬正舉",
+      "occ": 1,
+      "at_hans": "九万里风鹏正举",
+      "en": "From Zhuangzi: the great roc rises on the whirlwind ninety thousand li.",
+      "zh": "语出《庄子·逍遥游》：大鹏“抟扶摇而上者九万里”。"
+    },
+    {
+      "at": "三山",
+      "occ": 1,
+      "en": "The three islands of the immortals in the eastern sea: Penglai, Fangzhang and Yingzhou.",
+      "zh": "三山：传说中海上的三座仙山：蓬莱、方丈、瀛洲。"
+    }
+  ],
+  "pairs": [
+    "S-002002",
+    "S-001061"
+  ]
 }

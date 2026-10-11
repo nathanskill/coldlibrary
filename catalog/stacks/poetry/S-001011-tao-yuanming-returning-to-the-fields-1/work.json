@@ -60,5 +60,52 @@
     "en": "Long I was kept inside a cage, / and now I have come back to what is natural.",
     "zh": "久在樊笼里，复得返自然。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "適俗韻",
+      "occ": 1,
+      "at_hans": "适俗韵",
+      "en": "A temperament suited to the common world.",
+      "zh": "适应世俗的气质、情趣。"
+    },
+    {
+      "at": "塵網",
+      "occ": 1,
+      "at_hans": "尘网",
+      "en": "The dusty net: official life and the world's affairs.",
+      "zh": "尘网：尘世的罗网，指官场。"
+    },
+    {
+      "at": "三十年",
+      "occ": 1,
+      "en": "Tao held office on and off for about thirteen years; many editors take 三十 as a slip for 十三, others as a round number.",
+      "zh": "陶渊明前后出仕约十三年，前人或以为“三十”当作“十三”，或视为约数。"
+    },
+    {
+      "at": "守拙",
+      "occ": 1,
+      "en": "Keeping to his clumsiness: refusing the cleverness that getting on in office requires.",
+      "zh": "守拙：坚守愚拙的本性，不学官场的机巧。"
+    },
+    {
+      "at": "墟里煙",
+      "occ": 1,
+      "at_hans": "墟里烟",
+      "en": "Smoke over the village; 墟里 means a village.",
+      "zh": "墟里：村落。"
+    },
+    {
+      "at": "樊籠",
+      "occ": 1,
+      "at_hans": "樊笼",
+      "en": "A cage: office again.",
+      "zh": "樊笼：关鸟兽的笼子，比喻官场。"
+    }
+  ],
+  "pairs": [
+    "S-001012",
+    "S-002025",
+    "S-004026"
+  ]
 }

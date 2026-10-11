@@ -60,5 +60,39 @@
     "en": "To see a thousand li further, / climb one more storey of the tower.",
     "zh": "欲穷千里目，更上一层楼。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "依山盡",
+      "occ": 1,
+      "at_hans": "依山尽",
+      "en": "Sinks behind the mountains; 盡, used up, gone.",
+      "zh": "依：依傍。尽：消失。太阳傍着山落下去。"
+    },
+    {
+      "at": "黃河入海流",
+      "occ": 1,
+      "at_hans": "黄河入海流",
+      "en": "Stork Tower stood at Puzhou (present-day Yongji in Shanxi), above the Yellow River; the sea itself is far beyond sight.",
+      "zh": "鹳雀楼故址在蒲州（今山西永济），下临黄河；大海远在视线之外。"
+    },
+    {
+      "at": "欲窮千里目",
+      "occ": 1,
+      "at_hans": "欲穷千里目",
+      "en": "窮: to reach the end of. To see as far as a thousand li.",
+      "zh": "穷：尽，使达到极点。千里目：看到千里之远。"
+    },
+    {
+      "at": "更上一層樓",
+      "occ": 1,
+      "at_hans": "更上一层楼",
+      "en": "更: further, once more. Shen Kuo recorded that the tower had three storeys, with the Zhongtiao Mountains in front and the great river below.",
+      "zh": "更：再。沈括《梦溪笔谈》记鹳雀楼“三层，前瞻中条，下瞰大河”。"
+    }
+  ],
+  "pairs": [
+    "S-001023",
+    "S-002026"
+  ]
 }

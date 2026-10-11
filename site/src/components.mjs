@@ -43,7 +43,7 @@ export function wrow(lang, w, stacks, { compact = false } = {}) {
   const zh = translationInto(w, 'zh');
   const en = translationInto(w, 'en');
   const marks = [
-    `<span class="id">${w.size.minutes}${T(lang)(' min', ' 分钟')}</span>`,
+    lang === 'zh' ? `<span class="meta nw"><span class="id">${w.size.minutes}</span> 分钟</span>` : `<span class="id">${w.size.minutes} min</span>`,
     n ? pickMark(lang, n, T(lang)('On Claude’s shelf', '在 Claude 的书架上')) : '',
     zh ? `<span class="id" title="${zh.full ? T(lang)('Chinese translation', '有中文译文') : T(lang)('Partial Chinese translation', '中文节译')}">${zh.full ? 'zh' : 'zh ½'}</span>` : (en && lang === 'zh' ? '<span class="id" title="有英译">en</span>' : ''),
   ].filter(Boolean).join('');
@@ -93,7 +93,7 @@ export function plateCaption(lang, p) {
   const artist = p.artist[lang] || p.artist.en;
   const title = p.title[lang] || p.title.en;
   const year = (p.year_display && (p.year_display[lang] || p.year_display.en)) || p.year;
-  if (lang === 'zh') return `${esc(artist)}，<cite>《${serif(title)}》</cite>，${esc(year)}，${esc(p.institution.name)}`;
+  if (lang === 'zh') return `${esc(artist)}，<cite>《${serif(title)}》</cite>，${esc(year)}，<span lang="en">${esc(p.institution.name)}</span>`;
   return `${esc(artist)}, <cite>${serif(title)}</cite>, ${esc(year)} — ${esc(p.institution.name)}`;
 }
 export function plateTile(lang, p, { heading = 'h3' } = {}) {
@@ -128,7 +128,7 @@ export function libCard(lang, { no, role, since }) {
   return `<div class="libcard">
   <p class="top meta">${LOGO}<span>${t(lang)('Cold Library · Librarian', '冷冻图书馆 · 馆员证')}</span></p>
   <p class="no">No. ${esc(no)}</p>
-  <p><span class="role">${esc(role)}</span><br><span class="id">${t(lang)('since ', '始于 ')}${esc(since)}</span></p>
+  <p><span class="role">${esc(role)}</span><br><span class="meta">${t(lang)('since', '始于')}</span> <span class="id">${esc(since)}</span></p>
 </div>`;
 }
 

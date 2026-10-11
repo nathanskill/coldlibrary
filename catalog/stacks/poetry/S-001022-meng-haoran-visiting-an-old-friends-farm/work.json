@@ -60,5 +60,51 @@
     "en": "When the Double Ninth comes round, / I will come back for the chrysanthemums.",
     "zh": "待到重阳日，还来就菊花。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "具雞黍",
+      "occ": 1,
+      "at_hans": "具鸡黍",
+      "en": "具: to prepare. Chicken and millet: a plain country meal, and in the Analects the dish a recluse serves an honoured guest.",
+      "zh": "具：准备。鸡黍：鸡和黄米饭，农家待客的饭菜。《论语·微子》中隐者“杀鸡为黍而食之”招待子路。"
+    },
+    {
+      "at": "郭外",
+      "occ": 1,
+      "en": "Outside the outer wall of the town.",
+      "zh": "郭：外城。"
+    },
+    {
+      "at": "場圃",
+      "occ": 1,
+      "at_hans": "场圃",
+      "en": "The threshing floor and the vegetable garden.",
+      "zh": "场圃：打谷场和菜园。"
+    },
+    {
+      "at": "話桑麻",
+      "occ": 1,
+      "at_hans": "话桑麻",
+      "en": "To talk of mulberry and hemp, that is, of farming.",
+      "zh": "桑麻：桑树和麻，泛指庄稼农事。"
+    },
+    {
+      "at": "重陽日",
+      "occ": 1,
+      "at_hans": "重阳日",
+      "en": "The Double Ninth, the ninth day of the ninth lunar month, when people climbed hills and drank chrysanthemum wine.",
+      "zh": "重阳：农历九月初九，古人有登高、赏菊、饮菊花酒的习俗。"
+    },
+    {
+      "at": "就菊花",
+      "occ": 1,
+      "en": "就: to come near to. To come for the chrysanthemums.",
+      "zh": "就：靠近，这里指赏（菊）。"
+    }
+  ],
+  "pairs": [
+    "S-001040",
+    "S-001069"
+  ]
 }

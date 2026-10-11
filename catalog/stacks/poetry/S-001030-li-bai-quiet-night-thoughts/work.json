@@ -60,5 +60,38 @@
     "en": "I raise my head and look at the bright moon, / lower my head and think of home.",
     "zh": "举头望明月，低头思故乡。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "牀",
+      "occ": 1,
+      "at_hans": "床",
+      "en": "牀 usually means a bed; some scholars argue it means a folding seat or the railing round a well, since the moonlight falls outdoors.",
+      "zh": "床：通常指卧床；也有学者认为指坐具（胡床）或井栏。"
+    },
+    {
+      "at": "疑是",
+      "occ": 1,
+      "en": "疑: to take one thing for another, to wonder whether.",
+      "zh": "疑：好像，以为。"
+    },
+    {
+      "at": "舉頭望明月",
+      "occ": 1,
+      "at_hans": "举头望明月",
+      "en": "Song-dynasty editions read 床前看月光 and 舉頭望山月. The familiar wording, with 明月 twice, is the Ming and Qing text used in Three Hundred Tang Poems.",
+      "zh": "宋本作“床前看月光”“举头望山月”；今天熟悉的两个“明月”是明清以来的通行本，《唐诗三百首》即用此本。"
+    },
+    {
+      "at": "故鄉",
+      "occ": 1,
+      "at_hans": "故乡",
+      "en": "Home: Li Bai grew up in Shu (Sichuan) and left it in his twenties, never to return.",
+      "zh": "故乡：李白青少年时生活在蜀中，二十多岁出蜀后再未回去。"
+    }
+  ],
+  "pairs": [
+    "S-001039",
+    "S-001018"
+  ]
 }

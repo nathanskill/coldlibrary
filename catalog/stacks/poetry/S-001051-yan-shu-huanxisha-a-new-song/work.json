@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,38 @@
     "en": "Nothing to be done: the flowers fall. / As if I knew them, the swallows come back.",
     "zh": "无可奈何花落去，似曾相识燕归来。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "新詞",
+      "occ": 1,
+      "at_hans": "新词",
+      "en": "A new song lyric, a ci, written to be sung to a tune at a feast.",
+      "zh": "新词：新填的词，在宴席上配乐演唱。"
+    },
+    {
+      "at": "無可奈何花落去",
+      "occ": 1,
+      "at_hans": "无可奈何花落去",
+      "en": "Yan Shu liked this couplet enough to use it again in a regulated poem, Shown to Assistant Zhang and Collator Wang.",
+      "zh": "晏殊很喜欢这一联，又把它用在七律《示张寺丞王校勘》中。"
+    },
+    {
+      "at": "香徑",
+      "occ": 1,
+      "at_hans": "香径",
+      "en": "A path fragrant with fallen petals.",
+      "zh": "香径：落花满地、散发香气的小路。"
+    },
+    {
+      "at": "徘徊",
+      "occ": 1,
+      "en": "To walk back and forth, unable to leave.",
+      "zh": "徘徊：来回走动。"
+    }
+  ],
+  "pairs": [
+    "S-001008",
+    "S-001072"
+  ]
 }

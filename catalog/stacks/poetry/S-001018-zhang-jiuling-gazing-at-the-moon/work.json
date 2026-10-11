@@ -60,5 +60,50 @@
     "en": "Over the sea a bright moon rises; / at the ends of the sky we share this moment.",
     "zh": "海上生明月，天涯共此时。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "情人",
+      "occ": 1,
+      "en": "One full of feeling for someone far away: usually taken as the poet himself, not necessarily a lover; some read it as the person far away.",
+      "zh": "情人：多情的人，指作者自己；一说指远方的亲人。"
+    },
+    {
+      "at": "遙夜",
+      "occ": 1,
+      "at_hans": "遥夜",
+      "en": "The long night.",
+      "zh": "遥夜：长夜。"
+    },
+    {
+      "at": "竟夕",
+      "occ": 1,
+      "en": "All night long.",
+      "zh": "竟夕：整夜。"
+    },
+    {
+      "at": "滅燭憐光滿",
+      "occ": 1,
+      "at_hans": "灭烛怜光满",
+      "en": "He puts out the candle to enjoy the moonlight filling the room; 憐 here means to love, to cherish.",
+      "zh": "熄灭蜡烛，爱这满屋的月光。怜：爱。"
+    },
+    {
+      "at": "露滋",
+      "occ": 1,
+      "en": "The dew growing heavy: he has been out a long time.",
+      "zh": "露水渐多，可见在外站了很久。"
+    },
+    {
+      "at": "盈手贈",
+      "occ": 1,
+      "at_hans": "盈手赠",
+      "en": "To give a handful (of moonlight). Lu Ji had written that moonlight shines on and on, yet cannot fill the hand.",
+      "zh": "满手捧着赠送。化用陆机《拟明月何皎皎》“照之有余辉，揽之不盈手”。"
+    }
+  ],
+  "pairs": [
+    "S-001053",
+    "S-001006"
+  ]
 }

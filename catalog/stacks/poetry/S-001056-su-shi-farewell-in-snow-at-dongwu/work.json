@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; punctuation is added at the source's own phrase breaks.",
-    "zh": "据维基文库，标点依原文断句补加。"
+    "en": "Text as given on Chinese Wikisource; punctuation is added at the source's own phrase breaks. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，标点依原文断句补加。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,51 @@
     "en": "The snow wants to keep you: stay a while, stay, / for once you go / there will be little pure joy here.",
     "zh": "雪意留君君且住，从此去，少清欢。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "對尊前",
+      "occ": 1,
+      "at_hans": "对尊前",
+      "en": "尊 is a wine vessel: facing the wine.",
+      "zh": "尊：同“樽”，酒器。"
+    },
+    {
+      "at": "離亭",
+      "occ": 1,
+      "at_hans": "离亭",
+      "en": "A pavilion by the road where travellers were seen off.",
+      "zh": "离亭：路旁供行人歇息、送别的亭子。"
+    },
+    {
+      "at": "玉花",
+      "occ": 1,
+      "en": "Jade flowers: snowflakes.",
+      "zh": "玉花：雪花。"
+    },
+    {
+      "at": "銀海",
+      "occ": 1,
+      "at_hans": "银海",
+      "en": "A silver sea: the land under snow.",
+      "zh": "银海：白雪覆盖的大地。"
+    },
+    {
+      "at": "超然",
+      "occ": 1,
+      "en": "The Chaoran Terrace, 'Above It All', an old terrace on the city wall at Mizhou that Su Shi restored; his brother Su Zhe named it after a line of the Laozi.",
+      "zh": "超然：超然台。苏轼在密州修葺城北旧台，弟弟苏辙取《老子》“虽有荣观，燕处超然”之意，名之为“超然”。"
+    },
+    {
+      "at": "攜翠袖",
+      "occ": 1,
+      "at_hans": "携翠袖",
+      "en": "Green sleeves: the singing girls at the parting feast.",
+      "zh": "翠袖：代指歌女。"
+    }
+  ],
+  "pairs": [
+    "S-001055",
+    "S-001042"
+  ]
 }

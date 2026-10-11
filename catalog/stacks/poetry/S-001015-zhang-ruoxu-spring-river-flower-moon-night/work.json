@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
-    "zh": "据维基文库，删去其所注异文。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -64,5 +64,66 @@
     "en": "Who on this riverbank first saw the moon? / In what year did the river moon first shine on a person?",
     "zh": "江畔何人初见月，江月何年初照人？"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "灩灩",
+      "occ": 1,
+      "at_hans": "滟滟",
+      "en": "Shimmering: moonlight rippling on the water.",
+      "zh": "滟滟（yàn）：波光闪动的样子。"
+    },
+    {
+      "at": "空裏流霜",
+      "occ": 1,
+      "at_hans": "空里流霜",
+      "en": "The ancients thought frost fell from the sky like snow. Here the 'flowing frost' is the moonlight itself.",
+      "zh": "古人以为霜和雪一样从空中落下，这里以“流霜”比喻月光。"
+    },
+    {
+      "at": "青楓浦",
+      "occ": 1,
+      "at_hans": "青枫浦",
+      "en": "Green Maple Bank, a place name (there is one near Liuyang in Hunan), used here for any place of parting.",
+      "zh": "青枫浦：地名，今湖南浏阳境内有青枫浦，这里泛指离别之地。"
+    },
+    {
+      "at": "擣衣砧",
+      "occ": 1,
+      "at_hans": "捣衣砧",
+      "en": "The stone on which cloth was beaten clean. Women beating clothes in the moonlight is a stock image of wives missing men far away.",
+      "zh": "捣衣砧：捣衣用的垫石。月下捣衣，是古诗中思妇怀远的常见意象。"
+    },
+    {
+      "at": "鴻雁長飛光不度",
+      "occ": 1,
+      "at_hans": "鸿雁长飞光不度",
+      "en": "Wild geese, like the fish of the next line, were said to carry letters. Here they fly on and cannot carry even the light.",
+      "zh": "古有鸿雁传书、鱼传尺素之说。鸿雁长飞，也带不走月光，音信难通。"
+    },
+    {
+      "at": "碣石瀟湘",
+      "occ": 1,
+      "at_hans": "碣石潇湘",
+      "en": "Jieshi on the northern coast and the Xiao and Xiang rivers in the far south: the whole breadth of the land between parted people.",
+      "zh": "碣石在北方海边，潇湘在南方，泛指天南地北。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "春江潮水連海平",
+      "en": "Of the five words in the title, 月 appears fifteen times in the poem's 252 characters and 江 twelve, while 花 and 夜 appear only twice each. The poem is mostly river and moon, turned again and again in a changing light.",
+      "zh": "题目五个字里，“月”在全诗二百五十二字中出现了十五次，“江”十二次，“花”和“夜”各只有两次。这首诗大半是江与月，在变化的光里一再翻转。"
+    },
+    {
+      "at": "白雲一片去悠悠",
+      "en": "Here the poem turns from the river and the moon to two people: a traveller in a boat and a woman in a moonlit tower. From this stanza on, the moonlight is the distance between them.",
+      "zh": "诗在这里从江月转向两个人：扁舟上的游子，明月楼上的思妇。从这一章起，月光就是他们之间的距离。"
+    }
+  ],
+  "pairs": [
+    "S-001033",
+    "S-001053",
+    "S-002023"
+  ]
 }

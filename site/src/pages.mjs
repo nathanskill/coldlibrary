@@ -5,9 +5,10 @@
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { t, L as Lx, esc, href, REPO, FOUNDED, LOGO, ARROW, glue, go, sep, metaLine, serif, addGlyphs, addGlyphsTo, tagOf, act, sec, ph, md } from './lib.mjs';
 import { wrow, shelfCard, libCard, searchBox, plateImg, plateCaption, rowList } from './components.mjs';
-import { SHELVES, titles, authorLabel, yearLabel, periodOf, splitCaesura, counts, workHref, plateHref, isChineseText, hasHant, translationInto } from './stacks.mjs';
+import { SHELVES, titles, authorLabel, yearLabel, periodOf, splitCaesura, counts, workHref, isChineseText, hasHant, translationInto } from './stacks.mjs';
 import { fontCssHref } from './fonts.mjs';
 import * as lists from './stacks/lists.mjs';
+import { platePh } from './stacks/list-common.mjs';
 
 const ext = (url, label) => `<a href="${esc(url)}" rel="noopener">${label}</a>`;
 const ROOT = new URL('../../', import.meta.url);
@@ -15,16 +16,33 @@ const IMG = new URL('../public/assets/img/', import.meta.url);
 // Use a newer photograph once it has been generated; until then an approved one from the same set.
 const FALLBACK = { 'lin-radio': 'plaque-hall', 'ferry-pier': 'harbour', 'maintainer-desk': 'lake-reading', 'empty-vitrine': 'exhibit-hall', 'front-desk': 'reading-room', 'vault-key': 'drawers', 'lake-library-far': 'lake-dawn' };
 export const photo = (name) => (existsSync(new URL(name + '.jpg', IMG)) ? name : (FALLBACK[name] || name));
-const CAPTION = {
-  'lin-radio': ['A windowsill with a radio', '窗台上的收音机'], 'plaque-hall': ['The hall of plaques', '铭牌厅'],
-  'ferry-pier': ['The island pier', '小岛码头'], harbour: ['A harbour hut', '港边小屋'],
-  'maintainer-desk': ['A desk by the window', '窗边的书桌'], 'lake-reading': ['The reading hall', '阅览厅'],
+// Every generated photograph: a short caption (the figcaption adds "generated image") and what it shows (alt).
+const PHOTOS = {
+  'lake-library': ['The library on the lake', '湖上的图书馆', 'A concrete and glass library on the shore of a still mountain lake at dusk, snow peaks and spruce forest behind it, its lit windows reflected in the water', '暮色里，雪山和云杉林下，一座混凝土与玻璃的图书馆立在静静的湖岸边，亮着灯的窗子倒映在水里'],
+  'exhibit-hall': ['The exhibition wing', '展厅', 'Glass cases on pale wooden plinths, holding an old book, a laptop, a drawing, a house model and a camera, by a window onto a snowy lake', '浅色木展台上一排玻璃展柜，里面是一本旧书、一台笔记本电脑、一张图纸、一座房子模型和一台相机，窗外是雪湖'],
+  'plaque-hall': ['The hall of plaques', '铭牌厅', 'A stone wall of brass plaques under small lamps, keepsakes on narrow shelves below them, and a tall window onto a snowy lake at sunset', '石墙上一排铜牌，每块上方一盏小灯，下面的窄搁板上放着纪念物；高窗外是日落时的雪湖'],
+  'lake-reading': ['The reading hall', '阅览厅', 'A reading hall with brass lamps on long tables and card catalogues along the walls, a window wall onto a frozen lake and snow mountains', '阅览厅里，长桌上亮着铜台灯，两边是卡片目录柜，整面窗外是冰湖和雪山'],
+  'vault-key': ['A key on a card', '卡片上的钥匙', 'A brass key on a blank card on a frosted windowsill, a frozen lake beyond', '结霜的窗台上，一把铜钥匙放在一张空白卡片上，窗外是冰封的湖'],
+  'hero-stacks': ['The closed stacks', '闭架书库', 'Rows of steel card-catalogue cabinets down a long concrete corridor cut into blue ice', '冰里凿出的长廊，一排排钢制卡片目录柜延伸到远处'],
+  'warm-room': ['The Warm Room', '暖房', 'A small room at night: an orange lamp and a cup on a wooden table, and a wool blanket on a chair by a frosted window', '夜里的小房间：木桌上一盏橘色的灯和一只杯子，结霜的窗边，椅子上搭着一条羊毛毯'],
+  'lin-radio': ['A windowsill with a radio', '窗台上的收音机', 'A small red radio opened up on a wooden windowsill, a screwdriver beside it, a stack of exercise books and a mug, snowy spruces outside', '木窗台上一台拆开的红色小收音机，旁边一把螺丝刀、一摞练习本和一只杯子，窗外是积雪的云杉'],
+  'ferry-pier': ['The island pier', '小岛码头', 'A snowy wooden pier at dusk, a small lit ferry coming in across the water from a wooded island', '黄昏时积雪的木码头，一艘亮着灯的小渡轮从林木覆盖的小岛那边驶来'],
+  'maintainer-desk': ['A desk by the window', '窗边的书桌', 'A wooden desk with a brass lamp, an open notebook of drawings, a mug and a closed laptop, before a window wall onto a frozen lake at dusk', '木桌上一盏铜台灯、一本摊开的图纸本、一只杯子和一台合上的笔记本电脑，落地窗外是黄昏的冰湖'],
+  harbour: ['A harbour hut', '港边小屋', 'A harbour hut by the water in winter', '冬天水边的一间港口小屋'],
 };
-const capOf = (name) => CAPTION[name] || ['The collection', '馆藏'];
+const capOf = (name) => (PHOTOS[name] || ['The collection', '馆藏']).slice(0, 2);
+const altOf = (lang, name) => { const p = PHOTOS[name]; return p ? (lang === 'zh' ? p[3] : p[2]) : t(lang)(...capOf(name)); };
 const WP = (lang) => `${REPO}/blob/main/docs/${lang === 'zh' ? 'whitepaper.zh.md' : 'whitepaper.md'}`;
 const num = (lang, n) => Number(n).toLocaleString(lang === 'zh' ? 'zh-CN' : 'en');
 // A heading or title in the serif: glyphs registered, last two characters or words kept together.
 const sg = (text) => { addGlyphs(text); return glue(text); };
+// Typographic apostrophes and closing quotes in catalogue and item text: a ' after a letter or digit is always ’.
+const curl = (s) => String(s ?? '').replace(/(?<=[\p{L}\p{N}.,!?])'/gu, '’');
+// For prose (Claude's notes, owners' words): also opening quotes after a space or a bracket. Not for titles or verse,
+// where a leading ' is usually an elision ('Twas).
+const curlQ = (s) => curl(s).replace(/(^|[\s(\[—–])'(?=[\p{L}\p{N}])/gu, '$1‘').replace(/(^|[\s(\[—–])"(?=\S)/gu, '$1“').replace(/"/g, '”');
+// Chinese inside English text gets its own lang, so the right glyph forms are used (escaped HTML in, HTML out).
+const hanLang = (html, tag = 'zh-Hant') => html.replace(/[㐀-鿿豈-﫿][　-〿㐀-鿿豈-﫿＀-￯·]*/gu, (m) => `<span lang="${tag}">${m}</span>`);
 
 export const PAGES = [];
 const page = (p) => PAGES.push(p);
@@ -67,13 +85,21 @@ function pic({ name, alt = '', portrait = null, sizes: sz = '100vw', eager = fal
   return `<picture>${src}<img${imgCls ? ` class="${imgCls}"` : ''} src="/assets/img/${n}.jpg" srcset="/assets/img/${n}-sm.jpg 820w, /assets/img/${n}.jpg ${d ? d.w : 1536}w" sizes="${sz}"${d ? ` width="${d.w}" height="${d.h}"` : ''} alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async"></picture>`;
 }
 const genCap = (lang, en, zh) => `<figcaption>${esc(t(lang)(en, zh))} · ${t(lang)('generated image', '生成图像')}</figcaption>`;
+// A T2-photo page header (lib.mjs ph) whose photograph reserves its space: ph() writes no width or height, so they
+// are added here from the file itself (and the large file's real width goes into srcset).
+function phx(opts) {
+  const html = ph(opts);
+  const n = opts.photo && opts.photo.name;
+  const d = n && jpegSize(n);
+  if (!d) return html;
+  return html.replace(`<img src="/assets/img/${n}.jpg" srcset="/assets/img/${n}-sm.jpg 820w, /assets/img/${n}.jpg 1536w"`,
+    `<img src="/assets/img/${n}.jpg" srcset="/assets/img/${n}-sm.jpg 820w, /assets/img/${n}.jpg ${d.w}w" width="${d.w}" height="${d.h}"`);
+}
+// The building's photographs as a T2 header figure: caption and alt text from PHOTOS.
+const phPhoto = (lang, name) => ({ name, alt: altOf(lang, name), caption: t(lang)(...capOf(name)) });
 
 // Plates: public-domain images. Artworks are told apart from photographs and NASA objects until plates carry `kind`.
-const isArtwork = (p) => (p.kind ? p.kind === 'artwork' : !/NASA/i.test((p.institution && p.institution.name) || '') && !/photograph|negative|salted paper|albumen|platinum|silver print|daguerreotype|calotype|digital image/i.test((p.medium && p.medium.en) || ''));
-const plateFig = (lang, p, { sizes: sz = '(min-width: 900px) 50vw, 100vw', eager = false } = {}) => ({
-  img: plateImg(p, { large: true, eager, lang, sizes: sz }),
-  caption: `${plateCaption(lang, p)} <a class="id" href="${plateHref(lang, p)}"><span class="vh">${t(lang)('Plate ', '图版 ')}</span>${esc(p.id)}</a>`,
-});
+const isArtwork = (p) => (p.kind ? p.kind === 'artwork' : !/NASA/i.test((p.institution && p.institution.name) || '') && !/photograph|negative|salted paper|albumen|platinum|silver print|daguerreotype|calotype|digital image|plaque|record cover/i.test(`${(p.medium && p.medium.en) || ''} ${(p.title && p.title.en) || ''}`));
 
 /* ------------------------------------------------------------------ shared pieces */
 const kindName = (T, i) => (i.kind === 'exhibit' ? T('Perpetual Exhibit', '永续展位') : T('Perpetual Plaque', '永续铭牌'));
@@ -109,31 +135,33 @@ function nextId(items, prefix) {
 // An exhibit or plaque on a shelf. `wide` is the horizontal card used when it is alone on its shelf.
 function icard(lang, i, { wide = false, heading = 'h3' } = {}) {
   const T = t(lang), L = Lx(lang);
-  const meta = i.warden ? T('Behind the warden: ', '守馆人身后：') + contentsLine(lang, i) : T('Kept since ', '入藏 ') + esc(i.shelved) + (i.kind === 'exhibit' ? T(' · a successor is wanted', ' · 正在找接班人') : '');
+  const meta = i.warden ? T('Behind the warden: ', '守馆人身后：') + contentsLine(lang, i) : T('Kept since ', '入藏于 ') + `<span class="tabular">${esc(i.shelved)}</span>` + (i.kind === 'exhibit' ? T(' · a successor is wanted', ' · 正在找接班人') : '');
+  const img = photo(i.image);
   return `<article class="icard${wide ? ' iwide' : ''}">
-  <figure class="icard-fig photo-dim">${pic({ name: i.image, sizes: wide ? '(min-width: 900px) 360px, 100vw' : '(min-width: 1200px) 554px, (min-width: 600px) 50vw, 100vw', imgCls: 'r-3-2' })}</figure>
+  <figure class="icard-fig photo-dim">${pic({ name: img, alt: altOf(lang, img), sizes: wide ? '(min-width: 900px) 361px, 100vw' : '(min-width: 1200px) 554px, (min-width: 600px) 50vw, 100vw', imgCls: 'r-3-2' })}</figure>
   <div class="icard-text">
     <p class="idline">${idSpan(lang, i.id)}<span class="meta">${kindName(T, i)}</span>${itemStamp(lang, i)}</p>
-    <${heading} class="icard-h"><a href="${href(lang, itemPath(i))}">${sg(L(i.title))}</a></${heading}>
-    <p class="dek">${esc(L(i.dek || i.subtitle))}</p>
+    <${heading} class="icard-h"><a href="${href(lang, itemPath(i))}">${sg(curlQ(L(i.title)))}</a></${heading}>
+    <p class="dek">${esc(curlQ(L(i.dek || i.subtitle)))}</p>
     <p class="meta">${meta}</p>
   </div>
 </article>`;
 }
 
 // An adaptive shelf of exhibits or plaques: one card → 8/4 with an invitation; two → halves; three → thirds; more → quarters.
-// The "this space is yours" tile only appears where it would not start a row.
+// The "this space is yours" tile only appears where it would not start a row: from 900px (four to a row) when the count
+// is not a multiple of four, and below 900px (two to a row) only when the count is odd.
 function itemShelf(lang, items, kind) {
   const T = t(lang);
   const list = items.filter((i) => !kind || i.kind === kind).sort(realFirst);
   const next = nextId(items, kind === 'plaque' ? 'M' : 'E');
   const to = href(lang, 'accession') + (kind ? '?kind=' + kind : '');
-  const invite = `<div class="invite"><p class="id">${esc(next)}</p><p class="invite-h">${T('This space is yours.', '这一格留给你。')}</p><p class="meta">${T('Free. Stop and come back any time.', '免费。随时可以停下，回头再写。')}</p><p>${go(to, T('Hang your own here', '在这里挂上你的'))}</p></div>`;
-  if (!list.length) return `<div class="empty"><p>${T('Nothing is hung here yet.', '这里还什么都没挂。')}</p><p>${go(to, T('Hang the first one', '挂上第一件'))}</p></div>`;
+  const invite = `<div class="invite"><p class="id">${esc(next)}</p><p class="invite-h">${T('This space is yours.', '这一格留给你。')}</p><p class="meta">${T('Free. Stop and come back any time.', '免费。随时可以停下，回头再写。')}</p><p>${go(to, T('Hang your own here', '在这里挂上你自己的'))}</p></div>`;
+  if (!list.length) return `<div class="empty"><p>${T('Nothing is hung here yet.', '这里还什么都没挂。')}</p><p>${T('The first number is waiting.', '第一个编号还空着。')}</p><p class="actions">${go(to, T('Hang the first one', '挂上第一件'))}</p></div>`;
   if (list.length === 1) return `<div class="grid shelf-one"><div class="c-main">${icard(lang, list[0], { wide: true })}</div><div class="c-aside">${invite}</div></div>`;
   const cls = list.length === 2 ? ' halves' : list.length === 3 ? ' thirds' : '';
   const cards = list.map((i) => icard(lang, i));
-  if (list.length >= 4 && list.length % 4) cards.push(`<article class="icard empty-tile">${invite}</article>`);
+  if (list.length >= 4 && list.length % 4) cards.push(`<article class="icard empty-tile${list.length % 2 ? '' : ' wide-only'}">${invite}</article>`);
   const tail = list.length < 4 ? `<p class="shelf-tail meta">${T(`Room for more. The next number is ${next}.`, `还有空位。下一个编号是 ${next}。`)} <a href="${to}">${T('Hang your own', '挂上你自己的')}${ARROW}</a></p>` : '';
   return `<div class="cards${cls}">${cards.join('')}</div>${tail}`;
 }
@@ -146,7 +174,7 @@ function precedentRows(lang, ctx, ids) {
 
 // The warden trial, one component on the lobby, the wardens page and every item page. site.js finds it by [data-trial].
 export function trial(lang, i, { heading = '', intro = '', id = 'trial', foot = '', lamps = false, label = true } = {}) {
-  const T = t(lang), L = Lx(lang);
+  const T = t(lang), L = (o) => curlQ(Lx(lang)(o));
   const w = i.warden;
   const pron = L(i.pronoun);
   const data = { id: i.id, kdf: w.kdf, locked: i.locked, questions: w.questions.map((q) => L(q.q)), greeting: L(w.greeting), name: L(w.name), example: !!i.example, kind: i.kind };
@@ -182,7 +210,7 @@ export function trial(lang, i, { heading = '', intro = '', id = 'trial', foot = 
         <div class="pointer" data-r-pointer hidden><p class="meta">${T('Where it is', '东西在哪')}</p><p data-r-pointer-text></p></div>
         <div data-r-badge hidden><div class="badge-svg" data-r-badge-svg></div><button class="btn small secondary" type="button" data-r-badge-dl>${T('Download the badge', '下载徽章')}</button></div>
         <form class="lamp-form" data-lamp-form>
-          <label for="lamp-${id}">${i.kind === 'plaque' ? T('Light a lamp to say you came by. A word is optional, up to 140 characters.', '点一盏灯，告诉她你来过。想留一句话也可以，140 字以内。') : T('Light a lamp to say you came by. A word is optional, up to 140 characters.', '点一盏灯，说一声你来过。想留一句话也可以，140 字以内。')}</label>
+          <label for="lamp-${id}">${i.kind === 'plaque' ? T('Light a lamp to say you came by. A word is optional, up to 140 characters.', `点一盏灯，告诉${pron || '他'}你来过。想留一句话也可以，140 字以内。`) : T('Light a lamp to say you came by. A word is optional, up to 140 characters.', '点一盏灯，说一声你来过。想留一句话也可以，140 字以内。')}</label>
           <textarea id="lamp-${id}" maxlength="140" rows="2"></textarea>
           <button class="btn lamp" type="submit">${T('Light a lamp', '点一盏灯')}</button>
           <p class="meta" data-lamp-msg aria-live="polite"></p>
@@ -195,7 +223,9 @@ export function trial(lang, i, { heading = '', intro = '', id = 'trial', foot = 
         ${i.example ? `<p class="meta">${i.kind === 'plaque' ? T('Lamps on a practice plaque say so.', '练习铭牌上的灯，也会标明是练习。') : T('Lamps on a practice exhibit say so.', '练习展位上的灯，也会标明是练习。')}</p>` : ''}
       </div>` : ''}
     </div>
-    ${i.example ? `<p class="c-main meta honest">${T('Example wardens follow a script. They quote what was written, and say “she wrote”, never “I”.', '示例守馆人目前按脚本问答。它只引用写下来的话，永远说“她写过”，不会说“我”。')}</p>` : ''}
+    ${i.example ? `<p class="c-main meta honest">${i.kind === 'plaque' && /^(she|he)$/.test(Lx('en')(i.pronoun))
+      ? T(`Example wardens follow a script. They quote what was written, and say “${Lx('en')(i.pronoun)} wrote”, never “I”.`, `示例守馆人目前按脚本问答。它只引用写下来的话，永远说“${Lx('zh')(i.pronoun) || '他'}写过”，不会说“我”。`)
+      : T('Example wardens follow a script. They quote what was written, and say “the owner wrote”, never “I”.', '示例守馆人目前按脚本问答。它只引用写下来的话，永远说“主人写过”，不会说“我”。')}</p>` : ''}
     ${foot ? `<p class="sec-foot c-all">${foot}</p>` : ''}
   </div>
 </section>`;
@@ -286,7 +316,7 @@ const leadOf = (l) => (String(l).match(/^[ 　]*/)[0].replace(/　/g, '  ').leng
 const verseStanzas = (src) => String(src || '').replace(/^#{2,3} .*$/gm, '').replace(/```[^\n]*\n?/g, '').trim().split(/\n\s*\n/).map((b) => b.split('\n').filter((l) => l.trim())).filter((b) => b.length);
 const allSplit = (lines) => lines.length > 0 && lines.every((l) => splitCaesura(l));
 const isEnText = (w) => /^en\b/.test(String(w.lang || 'en'));
-const inl = (s) => esc(String(s).trim()).replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '<em>$1</em>');
+const inl = (s) => esc(curl(String(s).trim())).replace(/\*\*(.+?)\*\*/g, '$1').replace(/\*([^*]+)\*/g, '<em>$1</em>');
 const splitLines = (s) => String(s || '').split(/\n| \/ /).map((x) => x.trim()).filter(Boolean);
 const localDay = (d = new Date()) => {
   const [y, m, dd] = FOUNDED.split('-').map(Number);
@@ -341,13 +371,13 @@ function todayArticle(lang, ctx, w, n, visible) {
   const useHans = zhPage && both;
   const script = both ? (useHans ? 'hans' : 'hant') : null;
   const oLang = useHans ? 'zh-Hans' : tagOf(w.lang);
-  // Register what this block sets in the serif under its own font key; the visible pick also under the page's key.
+  // Register what this block sets in the serif under its own font key only. The visible pick links that key's CSS
+  // itself, so the page's own font key stays the same whichever day the site is built.
   const reg = (shown, pair, scr) => {
     const s = String(shown || '');
     let base = s, only = '';
     if (scr && pair) { const other = new Set(String(pair)); base = ''; for (const c of s) (other.has(c) ? (base += c) : (only += c)); }
     addGlyphsTo(key, base, 'base'); if (only) addGlyphsTo(key, only, scr);
-    if (visible) { addGlyphs(base, 'base'); if (only) addGlyphs(only, scr); }
   };
   const inPageLang = zhPage ? cjk : isEnText(w);
   const tLang = zhPage ? 'zh-Hans' : 'en';
@@ -384,19 +414,22 @@ function todayArticle(lang, ctx, w, n, visible) {
   const a = authorLabel(w, lang);
   const size = cjk ? T(`${num(lang, w.size.han)}&nbsp;characters`, `${w.size.han}&nbsp;字`) : T(`${num(lang, w.size.words)}&nbsp;words`, `${num(lang, w.size.words)}&nbsp;词`);
   const facts = [periodOf(w, lang) ? esc(periodOf(w, lang)) : '', esc(yearLabel(w, lang)), size, T(`${w.size.minutes}&nbsp;min`, `${w.size.minutes}&nbsp;分钟`), trShown ? T('Translated by Claude', 'Claude 译') : ''];
-  const pick = w.pick ? esc(w.pick[lang] || w.pick.en) : '';
-  return `<article class="today grid" data-id="${esc(w.id)}" data-font="${esc(fontCssHref(key))}"${visible ? '' : ' hidden'}>
-  <header class="today-head">
+  const pickText = w.pick ? curlQ(typeof w.pick === 'string' ? w.pick : (w.pick[lang] || w.pick.en || '')) : '';
+  // Chinese quoted inside an English note is tagged with the text's own script.
+  const pick = pickText ? (zhPage ? esc(pickText) : hanLang(esc(pickText), cjk ? tagOf(w.lang) : 'zh-Hant')) : '';
+  const css = fontCssHref(key);
+  return `<article class="today grid" data-id="${esc(w.id)}" data-font="${esc(css)}"${visible ? '' : ' hidden'}>
+  ${visible && css ? `<link rel="stylesheet" href="${esc(css)}">` : ''}<header class="today-head">
     <p class="meta">${T('Today’s reading', '今日一读')}${sep}<span class="brass">${T(`Claude’s shelf, No.&nbsp;${n}`, `Claude 的书架 第&nbsp;${n}&nbsp;号`)}</span></p>
-    <h3 class="today-title"><span class="serif" lang="${esc(tagOf(tt.mainLang))}">${glue(tt.main)}</span></h3>
-    ${tt.sub ? `<p class="today-sub">${glue(tt.sub)}</p>` : ''}
-    <p class="today-by">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.lang))}">${esc(a.orig)}</span>` : ''}${a.dates ? ` · <span class="tabular">${esc(a.dates)}</span>` : ''}</p>
+    <h3 class="today-title"><span class="serif" lang="${esc(tagOf(tt.mainLang))}">${glue(curl(tt.main))}</span></h3>
+    ${tt.sub ? `<p class="today-sub">${glue(curl(tt.sub))}</p>` : ''}
+    <p class="today-by">${esc(curl(a.name))}${a.orig && !(zhPage && /^[㐀-鿿豈-﫿·・（）()\s]+$/.test(a.orig)) ? ` <span lang="${esc(tagOf(w.lang))}">${esc(a.orig)}</span>` : ''}${a.dates ? ` · <span class="tabular">${esc(a.dates)}</span>` : ''}</p>
     ${metaLine(facts)}
   </header>
   ${text}
   <div class="today-pick">
     ${pick ? `<p class="today-why">${pick}</p>` : ''}
-    <p class="actions">${go(workHref(lang, w), T('Read it', '读全文'))}<button class="linkish" type="button" data-today-next hidden>${T('Another from Claude’s shelf', '从 Claude 的书架上再抽一本')}<span class="nw">&nbsp;↻</span></button></p>
+    <p class="actions">${go(workHref(lang, w), T('Read it', '读全文'))}<button class="linkish" type="button" data-today-next hidden>${T('Another from Claude’s shelf', '从 Claude 的书架上再抽一部')}<span class="nw">&nbsp;↻</span></button></p>
   </div>
 </article>`;
 }
@@ -413,32 +446,33 @@ function todaySection(lang, ctx) {
 }
 
 /* ------------------------------------------------------------------ Lobby: the Open Stacks */
-// lists.mjs owns the Open Stacks pages; until it exports shelfSection(), the lobby builds the block from components.
+// The block comes from the Open Stacks pages (lists.mjs shelfSectionParts), so the lobby and /open-stacks never
+// disagree. If that module fails, the lobby still shows its shelves from the shared components.
 function openStacks(lang, ctx) {
   const T = t(lang);
   try {
     if (typeof lists.shelfSectionParts === 'function') {
       const p = lists.shelfSectionParts(lang, ctx);
-      if (p && p.body) return sec({ id: p.id || 'stacks', h: p.h || T('The Open Stacks', '开架书库'), intro: p.intro || '', body: p.body, foot: p.foot || '' });
+      if (p && p.body) return sec({ id: p.id || 'open-stacks', h: p.h || T('The Open Stacks', '开架书库'), intro: p.intro || '', body: p.body, foot: p.foot || '' });
     }
     if (typeof lists.shelfSection === 'function') {
       const html = lists.shelfSection(lang, ctx) || '';
-      if (html) return /<section[\s>]/.test(html) ? html : sec({ id: 'stacks', h: T('The Open Stacks', '开架书库'), body: html });
+      if (html) return /<section[\s>]/.test(html) ? html : sec({ id: 'open-stacks', h: T('The Open Stacks', '开架书库'), body: html });
     }
   } catch (e) { console.warn('lobby: the Open Stacks block from lists.mjs failed, using the fallback:', e.message); }
   const c = counts(ctx.open);
   const span = Math.floor((c.max - c.min) / 100) * 100;
   const trails = ctx.open.trails || [];
   const trailLine = trails.length
-    ? `<p class="os-trails meta">${T('Reading trails: ', '书单：')}${trails.slice(0, 3).map((tr) => `<a href="${href(lang, 'open-stacks/trails/' + tr.slug)}">${esc(tr.title[lang] || tr.title.en)}</a>`).join(sep)}${sep}<a href="${href(lang, 'open-stacks/trails')}">${T('all trails', '全部书单')}${ARROW}</a></p>`
+    ? `<p class="lobby-trails meta">${T('Reading trails: ', '书单：')}${trails.slice(0, 3).map((tr) => `<a href="${href(lang, 'open-stacks/trails/' + tr.slug)}">${esc(tr.title[lang] || tr.title.en)}</a>`).join(sep)}${sep}<a href="${href(lang, 'open-stacks/trails')}">${T('all trails', '全部书单')}${ARROW}</a></p>`
     : '';
   return sec({
-    id: 'stacks',
+    id: 'open-stacks',
     h: T('The Open Stacks', '开架书库'),
-    intro: T(`${num(lang, c.works)} works · ${num(lang, c.authors)} authors · ${num(lang, c.plates)} plates, written over more than ${num(lang, span)} years. Every one says why it is free to share.`, `${c.works} 部作品 · ${c.authors} 位作者 · ${c.plates} 幅图版，跨越 ${span} 多年。每一部都写明了为什么可以自由分享。`),
-    body: `<div class="cards thirds os-shelves">${SHELVES.map((s) => shelfCard(lang, s.key, ctx.open)).join('')}</div>
-<div class="grid os-find"><div class="c-main">${searchBox(lang)}<p class="os-random">${go(href(lang, 'open-stacks/random'), T('A random work', '随便抽一部'))}</p></div></div>${trailLine}`,
-    foot: go(href(lang, 'open-stacks'), T(`Browse all ${num(lang, c.works)} works`, `看全部 ${c.works} 部作品`)),
+    intro: T(`${num(lang, c.works)} works · ${num(lang, c.authors)} authors · ${num(lang, c.plates)} plates, written over more than ${num(lang, span)} years. Every one says why it is free to share.`, `${c.works} 部作品 · ${c.authors} 位作者 · ${c.plates} 幅图版，跨越 ${span} 多年。每一部都写明了为什么可以自由传播。`),
+    body: `<div class="cards thirds lobby-shelves">${SHELVES.map((s) => shelfCard(lang, s.key, ctx.open)).join('')}</div>
+<div class="grid lobby-find"><div class="c-main">${searchBox(lang)}<p class="lobby-random">${go(href(lang, 'open-stacks/random'), T('A random work', '随便读一部'))}</p></div></div>${trailLine}`,
+    foot: go(href(lang, 'open-stacks'), T(`Browse all ${num(lang, c.works)} works`, `浏览全部 ${c.works} 部作品`)),
   });
 }
 
@@ -450,7 +484,6 @@ page({
     en: 'An open library of real works anyone may read, and room for what is yours: a perpetual exhibit for your work, a perpetual plaque for a person, and an AI warden at each door.',
     zh: '一座谁都能读的开架图书馆，也给你的东西留了位置：给作品一个永续展位，给人一块永续铭牌，每扇门口站着一位 AI 守馆人。',
   },
-  bodyClass: 'bld lobby',
   render: (lang, ctx) => {
     const T = t(lang);
     const c = counts(ctx.open);
@@ -462,26 +495,24 @@ page({
     <p class="lede">${T(`Start in an open library of ${num(lang, c.works)} real works anyone may read, then hang your own beside them.`, `先走进一座开架图书馆：${c.works} 部谁都能读的真实作品；再把你自己的挂在它们旁边。`)}</p>
     <div class="actions"><a class="btn" href="${href(lang, 'accession')}">${T('Hang your own', '挂上你自己的')}</a>${go(href(lang, 'open-stacks'), T('Enter the Open Stacks', '走进开架书库'))}</div>
   </div></div>
-  <figure class="hero-band photo-dim">${pic({ name: 'lake-library', portrait: 'lake-library-portrait', alt: T('A concrete and glass library on the shore of a frozen lake, snow mountains and a spruce forest behind it, its windows lit', '冰湖岸边一座混凝土和玻璃的图书馆，背后是雪山和云杉林，窗子都亮着'), eager: true, imgCls: 'r-21-9 op-lake' })}<figcaption class="wrap">${T('The library on the lake · generated image', '湖上的图书馆 · 生成图像')}</figcaption></figure>
+  <figure class="hero-band photo-dim">${pic({ name: 'lake-library', portrait: 'lake-library-portrait', alt: altOf(lang, 'lake-library'), eager: true, imgCls: 'r-21-9 op-lake' })}<figcaption class="wrap">${T('The library on the lake · generated image', '湖上的图书馆 · 生成图像')}</figcaption></figure>
 </section>`;
 
+    const product = (name, kind, slug) => {
+      const [capEn, capZh] = capOf(name);
+      const ex = kind === 'exhibit';
+      return `<article class="product">
+    <figure class="photo-dim">${pic({ name, alt: altOf(lang, name), sizes: '(min-width: 1200px) 554px, (min-width: 600px) 50vw, 100vw', imgCls: 'r-3-2' })}${genCap(lang, capEn, capZh)}</figure>
+    <p class="meta">${ex ? T('For a project or a life’s work', '给一个项目，或一生的作品') : T('For a person, living or not', '给一个人，在世与否都可以')}</p>
+    <h3 class="serif">${sg(ex ? T('Perpetual Exhibit', '永续展位') : T('Perpetual Plaque', '永续铭牌'))}</h3>
+    <p>${ex ? T('A standing room for a project: what it is, why it mattered, and who carries it on.', '给一个项目一间常设展厅：它是什么、为什么重要、谁在接着做。') : T('A short record of who someone is and what they care about. Most plaques here belong to people who are very much alive.', '简短地记下一个人是谁、在乎什么。这里大多数铭牌的主人都还好好活着。')}</p>
+    <p class="meta">${ex ? T('Free · stop and come back any time', '免费 · 随时停下，回头再写') : T('Free · for someone else, only with their consent', '免费 · 给别人做，须经本人同意')}</p>
+    <p>${go(href(lang, slug), ex ? T('See the exhibits', '看看展位') : T('See the plaques', '看看铭牌'))}</p>
+  </article>`;
+    };
     const products = `<div class="cards halves products">
-  <article class="product">
-    <figure class="photo-dim">${pic({ name: 'exhibit-hall', sizes: '(min-width: 1200px) 554px, (min-width: 600px) 50vw, 100vw', imgCls: 'r-3-2' })}${genCap(lang, 'The exhibition wing', '展厅')}</figure>
-    <p class="meta">${T('For a project', '给一个项目')}</p>
-    <h3 class="serif">${sg(T('Perpetual Exhibit', '永续展位'))}</h3>
-    <p>${T('A standing room for a project or a life’s work: what it is, why it mattered, who carries it on.', '给一个项目、一生的作品一间常设展厅：它是什么、为什么重要、谁在接着做。')}</p>
-    <p class="meta">${T('Free · stop and come back any time', '免费 · 随时停下，回头再写')}</p>
-    <p>${go(href(lang, 'exhibits'), T('See the exhibits', '看看展位'))}</p>
-  </article>
-  <article class="product">
-    <figure class="photo-dim">${pic({ name: 'plaque-hall', sizes: '(min-width: 1200px) 554px, (min-width: 600px) 50vw, 100vw', imgCls: 'r-3-2' })}${genCap(lang, 'The hall of plaques', '铭牌厅')}</figure>
-    <p class="meta">${T('For a person, living or not', '给一个人，在世与否都可以')}</p>
-    <h3 class="serif">${sg(T('Perpetual Plaque', '永续铭牌'))}</h3>
-    <p>${T('A short record of who someone is and what they care about. Most plaques here belong to people who are very much alive.', '简短地记下一个人是谁、在乎什么。这里大多数铭牌的主人都还好好活着。')}</p>
-    <p class="meta">${T('Free · for someone else, only with their consent', '免费 · 给别人做，须经本人同意')}</p>
-    <p>${go(href(lang, 'plaques'), T('See the plaques', '看看铭牌'))}</p>
-  </article>
+  ${product('exhibit-hall', 'exhibit', 'exhibits')}
+  ${product('plaque-hall', 'plaque', 'plaques')}
 </div>`;
     const prec = precedentRows(lang, ctx, ['S-008019', 'S-008001', 'S-008012']);
     const hang = sec({
@@ -580,23 +611,30 @@ const STILL_RUNNING = [
   { since: '', work: 'J', now_en: 'Jsoftware and its contributors, with commits in 2026.', now_zh: 'Jsoftware 和贡献者维护，2026 年仍有提交。', src: 'https://www.jsoftware.com/' },
 ];
 const nrows = (items) => `<ol class="nrows">${items.map((x) => `<li>${x}</li>`).join('')}</ol>`;
+// A catalogue-number lookup (site.js [data-lookup]): E-/M- items through /items/index.json, S-/G- through
+// /open-stacks/index.json, and the house papers (S-000001 …), which the search index leaves out, from data-papers.
+function lookupForm(lang, ctx, id, placeholder) {
+  const T = t(lang);
+  const papers = Object.fromEntries((ctx.open.papers || []).filter((p) => p.id && p.slug).map((p) => [p.id, 'open-stacks/' + p.slug]));
+  return `<form class="lookup" data-lookup data-papers="${esc(JSON.stringify(papers))}"><label class="vh" for="${id}">${T('Catalogue number', '馆藏号')}</label><input id="${id}" type="text" placeholder="${esc(placeholder)}" autocomplete="off" autocapitalize="characters" spellcheck="false" required><button class="btn small" type="submit">${T('Go', '去看看')}</button></form>
+    <p class="meta lookup-msg" data-lookup-msg aria-live="polite"></p>`;
+}
 
 page({
   slug: 'exhibits',
   title: { en: 'Exhibits', zh: '展位' },
   description: { en: 'Perpetual exhibits: a standing room for a project or a life’s work, with notes for whoever carries it on behind an AI warden.', zh: '永续展位：给一个项目、一生作品的常设展厅，留给接手的人的话放在 AI 守馆人身后。' },
   image: '/assets/img/exhibit-hall.jpg',
-  bodyClass: 'bld exhibits',
   render: (lang, ctx) => {
     const T = t(lang);
     const prec = precedentRows(lang, ctx, ['S-008019', 'S-008012', 'S-007010']);
     return [
-      ph({
+      phx({
         lang,
         h1: glue(T('Perpetual Exhibits', '永续展位')),
         lede: T('A standing room for a project or a life’s work: what it is, why it mattered, who carries it on. Notes for whoever takes it over wait behind the warden.', '给一个项目、一生的作品一间常设展厅：它是什么、为什么重要、谁在接着做。留给接手的人的话，放在守馆人身后。'),
         actions: `<a class="btn" href="${href(lang, 'accession')}?kind=exhibit">${T('Start my exhibit', '开始我的展位')}</a>`,
-        photo: { name: 'exhibit-hall', alt: T('Display plinths and vitrines in a quiet exhibition wing by a window onto a snowy lake', '安静的展厅里一排展台和玻璃柜，窗外是雪湖'), caption: T('The exhibition wing', '展厅') },
+        photo: phPhoto(lang, 'exhibit-hall'),
       }),
       act(sec({ id: 'on-display', h: T('On display', '展出中'), body: itemShelf(lang, ctx.items, 'exhibit') })),
       act(sec({
@@ -619,7 +657,7 @@ page({
       prec ? act(sec({
         id: 'precedents',
         h: glue(T('Precedents in the Open Stacks', '开架书库里的先例')),
-        intro: T('People made exhibits of their work long before this library. These are on our shelves, free to read.', '早在这座馆之前，人们就在为自己的作品立展。这几件就在书库里，谁都能读。'),
+        intro: T('People made exhibits of their work long before this library. These are on our shelves, free to read.', '早在这座馆出现之前，人们就在给自己的作品留下这样的展位。这几件就在书库里，谁都能读。'),
         body: prec,
       })) : '',
     ].join('\n');
@@ -631,17 +669,16 @@ page({
   title: { en: 'Plaques', zh: '铭牌' },
   description: { en: 'Perpetual plaques: a short record of who someone is and what they care about. Most belong to people who are very much alive.', zh: '永续铭牌：简短地记下一个人是谁、在乎什么。这里大多数铭牌的主人都还好好活着。' },
   image: '/assets/img/plaque-hall.jpg',
-  bodyClass: 'bld plaques',
   render: (lang, ctx) => {
     const T = t(lang);
     const prec = precedentRows(lang, ctx, ['S-008001', 'S-008011', 'S-008020']);
     return [
-      ph({
+      phx({
         lang,
         h1: glue(T('Perpetual Plaques', '永续铭牌')),
         lede: T('A plaque is not an obituary. It is a short record of who someone is and what they care about, kept where the people they recognise can find it. Most plaques here belong to people who are very much alive.', '铭牌不是讣告。它简短地记下一个人是谁、在乎什么，放在他认得的人找得到的地方。这里大多数铭牌的主人都还好好活着。'),
         actions: `<a class="btn" href="${href(lang, 'accession')}?kind=plaque">${T('Start a plaque', '开始一块铭牌')}</a>`,
-        photo: { name: 'plaque-hall', alt: T('A pale stone wall with small brass plaques and warm lamps, snow falling outside a tall window', '浅色石墙上一排小铜牌和暖灯，高窗外下着雪'), caption: T('The hall of plaques', '铭牌厅') },
+        photo: phPhoto(lang, 'plaque-hall'),
       }),
       act(sec({ id: 'on-the-wall', h: T('On the wall', '墙上'), body: itemShelf(lang, ctx.items, 'plaque') })),
       act(sec({
@@ -662,7 +699,7 @@ page({
       prec ? act(sec({
         id: 'precedents',
         h: glue(T('Precedents in the Open Stacks', '开架书库里的先例')),
-        intro: T('People have set plaques for each other, and for themselves, for a long time. These are on our shelves.', '人们为彼此、也为自己立牌，由来已久。这几件就在书库里。'),
+        intro: T('People have set plaques for each other, and for themselves, for a long time. These are on our shelves, free to read.', '人们为彼此、也为自己立牌留字，由来已久。这几件就在书库里，谁都能读。'),
         body: prec,
       })) : '',
     ].join('\n');
@@ -675,22 +712,21 @@ page({
   title: { en: 'Wardens', zh: '守馆人' },
   description: { en: 'Each exhibit and plaque has an AI warden at the door. It quotes what was written, asks what only the right people know, and hands over what was left. It never speaks as anyone.', zh: '每个展位和铭牌门口都有一位 AI 守馆人。它引用写下来的话，问只有对的人知道的事，再把留下的东西交出去。它从不冒充任何人。' },
   image: '/assets/img/lake-reading.jpg',
-  bodyClass: 'bld wardens',
   render: (lang, ctx) => {
     const T = t(lang);
     const ferry = ctx.items.find((i) => i.id === 'E-000001');
     const can = [T('Letters and stories the owner wrote', '主人写下的信和故事'), T('Notes for whoever takes a project over', '给接手项目的人的交代'), T('Directions: where something is, and who to ask', '指引：东西在哪、找谁'), T('A badge, such as successor or student', '一枚徽章，比如接班人、学生'), T('The right to light a lamp and leave a word', '点一盏灯、留一句话的资格')];
     const never = [T('Keys, recovery phrases or passwords', '钥匙、助记词或密码'), T('Money or crypto assets (those live in the owner’s own Cold Vault)', '钱或加密资产（它们在主人自己的冷库合约里）'), T('Anything the owner did not write', '主人没写下的任何东西'), T('A voice or a face. It says “they wrote”, never “I”.', '声音或面孔。它只说“他写过”，从不说“我”。')];
     return [
-      ph({
+      phx({
         lang,
         h1: T('Wardens', '守馆人'),
         lede: T('Every exhibit and every plaque has a warden at the door, working from the owner’s rules and the owner’s words.', '每个展位、每块铭牌门口都有一位守馆人，按主人的规矩、用主人的原话办事。'),
-        photo: { name: 'lake-reading', alt: T('A reading hall with brass lamps and a window wall onto a frozen lake', '亮着铜台灯的阅览厅，整面窗外是冰湖'), caption: T('The reading hall', '阅览厅') },
+        photo: phPhoto(lang, 'lake-reading'),
       }),
       act(sec({
         id: 'status',
-        h: T('Honest status', '老实说现状'),
+        h: T('Honest status', '实话实说'),
         intro: T('Working today: wardens with fixed questions and answers, scripted. Next: wardens that hold a conversation and quote the owner’s own words. Either way the rules are the owner’s, and the key never leaves the visitor’s browser.', '现在能用的：问题和答案固定、按脚本走的守馆人。下一步：能对话、引用主人原话的守馆人。无论哪种，规矩都由主人定，钥匙都不离开访客的浏览器。'),
         body: `<div class="grid can-never">
   <div class="c-half"><h3>${T('A warden can hand over', '守馆人可以交出去的')}</h3><ul class="ticklist">${can.map((x) => `<li class="dotline ok">${x}</li>`).join('')}</ul></div>
@@ -727,7 +763,6 @@ page({
   title: { en: 'Cold Vault', zh: '冷库' },
   description: { en: 'A non-custodial smart contract you deploy yourself. You alone choose heirs and shares; keepers confirm a silence; heirs claim with their own wallets. Sepolia testnet only, not audited.', zh: '你自己部署的非托管智能合约。继承人和份额只由你决定；开启人确认静默；继承人用自己的钱包领取。目前只在 Sepolia 测试网，未经审计。' },
   image: '/assets/img/vault-key.jpg',
-  bodyClass: 'bld vault',
   render: (lang, ctx) => {
     const T = t(lang);
     const faq = [
@@ -752,12 +787,12 @@ page({
       T('The contract', '合约'),
     );
     return [
-      ph({
+      phx({
         lang,
         h1: T('Cold Vault', '冷库'),
         lede: T('A contract you deploy for yourself. You alone choose who receives what, and when. The library never holds it, cannot open it, and takes nothing from it.', '你自己部署的一份合约。给谁、给多少、什么时候给，只由你决定。图书馆从不拿着它，打不开它，也不从里面拿一分钱。'),
         advisory: T('Sepolia testnet · source verified · not audited · do not deposit real funds', 'Sepolia 测试网 · 源码已验证 · 未经审计 · 请勿存入真实资产'),
-        photo: { name: 'vault-key', alt: T('A brass key on a blank catalogue card on a snowy windowsill', '雪窗台上，一把铜钥匙放在空白的卡片上'), caption: T('A key on a card', '卡片上的钥匙') },
+        photo: phPhoto(lang, 'vault-key'),
       }),
       act(sec({
         id: 'plain',
@@ -832,7 +867,6 @@ page({
   slug: 'accession',
   title: { en: 'Front Desk', zh: '前台' },
   description: { en: 'Hang your own exhibit or plaque. Six short steps, most of them optional. Nothing leaves your browser until the last one, and the deeper layer is locked before it does.', zh: '挂上你自己的展位或铭牌。六个小步骤，大多可以跳过。最后一步之前什么都不会离开你的浏览器，更深的那一层在发出前就已锁好。' },
-  bodyClass: 'bld desk-page',
   render: (lang) => {
     const T = t(lang);
     const names = [T('Kind', '类别'), T('The front', '正面'), T('What everyone sees', '公开的部分'), T('Behind the warden', '守馆人身后'), T('Try it', '试一遍'), T('Hand it in', '交给前台')];
@@ -849,7 +883,7 @@ page({
         facts: T(`${total} short steps, most of them optional. Nothing leaves this browser until the last one.`, `${total} 个小步骤，大多可以跳过。最后一步之前，什么都不会离开这个浏览器。`),
       }),
       act(`<section class="sec" aria-label="${T('Front desk form', '前台表单')}"><div class="wrap grid desk-grid">
-  <form class="c-main box stepper" data-desk novalidate>
+  <form class="c-main box stepper" method="post" data-desk novalidate>
     <div class="stepper-top">
       <p class="meta step-count" data-step-count aria-live="polite">${stepsText}</p>
       <ol class="stepbar" aria-hidden="true">${names.map((_, k) => `<li${k === 0 ? ' class="on"' : ''}></li>`).join('')}</ol>
@@ -860,7 +894,7 @@ page({
     ${step(3, T('What everyone can see', '所有人都能看到的'), `${field('d-story', T('The story', '介绍'), '<textarea id="d-story" name="story" rows="6" maxlength="2000"></textarea>')}<p class="meta">${T('Try to avoid: passwords, recovery phrases or account numbers in any layer; writing as the warden “I”; anything about someone else they have not agreed to.', '尽量别写：任何一层里的密码、助记词或账号；用守馆人的口吻写“我”；别人没同意公开的事。')}</p>`, true)}
     ${step(4, T('Behind the warden', '守馆人身后'), `${field('d-letter', T('A letter or a note for the people the warden recognises', '写给守馆人认出的人的信或交代'), '<textarea id="d-letter" name="letter" rows="5" maxlength="4000"></textarea>')}${field('d-pointer', T('Where something is kept, and who to ask', '某样东西放在哪、找谁'), `<input id="d-pointer" type="text" name="pointer" maxlength="300" placeholder="${T('Where, and who to ask. Never amounts or passwords.', '只写在哪、找谁。不写金额和密码。')}">`)}<p class="meta">${T('A badge they receive', '他们得到的徽章')}</p><div class="chips">${[T('Successor', '接班人'), T('Student', '学生'), T('Friend', '朋友'), T('Family', '家人')].map((c) => `<button class="chip" type="button" data-chip="${c}" aria-pressed="false">${c}</button>`).join('')}<input class="chip-input" type="text" name="badge" maxlength="40" placeholder="${T('or your own', '或者自己写')}" aria-label="${T('Badge', '徽章')}"></div><div class="qbox" data-questions></div><p><button class="linkish" type="button" data-add-q>${T('+ Add a question', '+ 再加一题')}</button></p><p class="meta">${T('Why we ask: the answers become the key, and we never see them or recover them. Your warden quotes you. It never speaks as you.', '为什么问这个：答案就是钥匙，我们看不到，也找不回。守馆人只引用你写的话，不会冒充你说话。')}</p>`, true)}
     ${step(5, T('Try it as a visitor', '用访客的身份试一遍'), `<p class="meta">${T('Your draft is locked here, in this browser, and your own warden asks you its questions.', '你的草稿就在这个浏览器里锁上，然后由你自己的守馆人来问你问题。')}</p><div class="try-host" data-try-host><p class="meta" data-try-empty>${T('Add a letter and at least one question in step 4 to try it.', '在第 4 步写一封信、出至少一道题，才能在这里试。')}</p></div>`, true)}
-    ${step(6, T('Hand it in', '交给前台'), `${field('d-email', T('Email', '邮箱'), '<input id="d-email" type="email" name="email" autocomplete="email" required>', T('Used only to confirm it is you and to tell you when it is hung.', '邮箱只用来确认是你本人，以及通知你什么时候挂上去。'))}<label class="check"><input type="checkbox" name="adult" required><span>${T('I am 18 or older.', '我已年满 18 岁。')}</span></label><label class="check"><input type="checkbox" name="rules" required><span>${T('I agree to the', '我同意')} <a href="${href(lang, 'rules')}">${T('house rules', '馆规')}</a>${T('.', '。')}</span></label><label class="check" data-third hidden><input type="checkbox" name="third"><span>${T('They have agreed to this plaque (or their close family has).', '本人已经同意（或近亲已经同意）。')}</span></label><p class="hand-in"><button class="btn" type="submit" data-desk-submit>${T('Send me a code', '发验证码给我')}</button></p><p class="meta" data-desk-msg aria-live="polite"></p><div class="code-row" data-code-row hidden>${field('d-code', T('The six-digit code we emailed you', '刚发到你邮箱的六位验证码'), '<input id="d-code" class="code" type="text" inputmode="numeric" maxlength="7" autocomplete="one-time-code" data-code>')}<button class="btn small" type="button" data-confirm>${T('Confirm', '确认')}</button></div>`)}
+    ${step(6, T('Hand it in', '交给前台'), `${field('d-email', T('Email', '邮箱'), '<input id="d-email" type="email" name="email" autocomplete="email" required>', T('Used only to confirm it is you and to tell you when it is hung.', '邮箱只用来确认是你本人，以及通知你什么时候挂上去。'))}<label class="check"><input type="checkbox" name="adult" required><span>${T('I am 18 or older.', '我已年满 18 岁。')}</span></label><label class="check"><input type="checkbox" name="rules" required><span>${T('I agree to the', '我同意')} <a href="${href(lang, 'rules')}">${T('house rules', '馆规')}</a>${T('.', '。')}</span></label><label class="check" data-third hidden><input type="checkbox" name="third"><span>${T('They have agreed to this plaque (or their close family has).', '本人已经同意（或近亲已经同意）。')}</span></label><p class="hand-in"><button class="btn" type="submit" data-desk-submit disabled>${T('Send me a code', '发验证码给我')}</button></p><p class="meta" data-desk-msg aria-live="polite"></p><div class="code-row" data-code-row hidden>${field('d-code', T('The six-digit code we emailed you', '刚发到你邮箱的六位验证码'), '<input id="d-code" class="code" type="text" inputmode="numeric" maxlength="7" autocomplete="one-time-code" data-code>')}<button class="btn small" type="button" data-confirm>${T('Confirm', '确认')}</button></div>`)}
     <div class="done" data-done hidden>
       <div class="slip">${LOGO}<p><span class="stamp ok">${T('Received', '已收到')}</span></p><p class="slip-text" data-slip-text></p><p class="meta">${T('Its catalogue number is given when it is hung.', '挂上墙时会给出馆藏号。')}</p></div>
       <p class="actions"><button class="linkish" type="button" data-print>${T('Print the slip', '打印回执')}</button></p>
@@ -892,8 +926,7 @@ page({
   slug: 'collect',
   title: { en: 'Collection Desk', zh: '领取处' },
   description: { en: 'Someone left you something? Answer a warden, or claim from a Cold Vault, with or without this site.', zh: '有人给你留了东西？去回答守馆人的问题，或者从冷库领取，有没有这个网站都行。' },
-  bodyClass: 'bld collect',
-  render: (lang) => {
+  render: (lang, ctx) => {
     const T = t(lang);
     return [
       ph({
@@ -907,12 +940,12 @@ page({
     <p class="meta">${T('Door 1', '第一扇门')}</p>
     <h2>${glue(T('A door card, a number or a link', '一张门牌卡、一个编号或一个链接'))}</h2>
     <p>${T('Go to the page and answer its warden. If you have only a number, type it here.', '打开那个页面，回答它的守馆人。如果只有编号，输在这里。')}</p>
-    <form class="lookup" data-lookup><label class="vh" for="lk-collect">${T('Catalogue number', '馆藏号')}</label><input id="lk-collect" type="text" placeholder="E-000001 · M-000001" autocomplete="off" spellcheck="false" required><button class="btn small" type="submit">${T('Go', '去看看')}</button></form>
-    <p class="meta" data-lookup-msg aria-live="polite"></p>
+    ${lookupForm(lang, ctx, 'lk-collect', 'E-000001 · M-000001')}
   </div>
   <div class="c-half door" id="vault">
     <p class="meta">${T('Door 2', '第二扇门')}</p>
     <h2>${glue(T('A Cold Vault was left to you', '有人给你留了一个冷库'))}</h2>
+    <p>${T('You can claim it here, or without this site at all.', '可以在这里领取，也可以完全不用这个网站。')}</p>
     <h3>${T('With the vault desk', '用冷库操作台')}</h3>
     ${nrows([T('Open the vault desk and connect your own wallet (the one whose address was registered).', '打开冷库操作台，连接你自己的钱包（就是被登记的那个地址）。'), T('Paste the vault address under “A vault I keep or inherit from”.', '在“我是开启人或继承人的冷库”下面粘贴冷库地址。'), T('If it shows Released, press Claim. You receive only your own share.', '如果显示“已发放”，点“领取”。你只会领到自己那一份。')])}
     <h3>${T('Without Cold Library', '不用冷冻图书馆')}</h3>
@@ -932,7 +965,6 @@ page({
   title: { en: 'Sealed layer', zh: '封存层' },
   description: { en: 'The sealed layer: an Ice Core is a file you seal on your own computer and open later, on a date or when two of your keepers agree.', zh: '封存层：冰芯是你在自己电脑上封存、以后再打开的文件，到约定的日子，或者两位开启人一起时才打开。' },
   image: '/assets/img/hero-stacks.jpg',
-  bodyClass: 'bld sealed',
   render: (lang, ctx) => {
     const T = t(lang);
     const sections = lang === 'zh'
@@ -940,14 +972,14 @@ page({
       : ['Read this first', 'Who to call', 'Projects and handover', 'Accounts (official platform routes only)', 'Where things are, and who to ask', 'Wishes and how long they bind', 'Letters index', 'What may be public', 'What I do not want', 'Rules for wardens'];
     const cm = (en, zh) => `<span class="cm">${T(en, zh)}</span>`;
     const lageos = ctx.open.byId.get('S-008009'), voyager = ctx.open.byId.get('S-008005');
-    const precLinks = [lageos, voyager].filter(Boolean).map((w) => { const tt = titles(w, lang); return `<a href="${workHref(lang, w)}">${esc(tt.sub || tt.main)}</a>`; });
+    const precLinks = [lageos, voyager].filter(Boolean).map((w) => { const tt = titles(w, lang); const name = esc(curl(tt.sub || tt.main)); return `<a href="${workHref(lang, w)}">${lang === 'zh' ? `《${name}》` : `<cite>${name}</cite>`}</a>`; });
     return [
-      ph({
+      phx({
         lang,
         h1: T('Sealed layer', '封存层'),
         lede: T('For things that must wait: a letter for a date, notes your keepers open together. An Ice Core is sealed on your own computer and never sits on our shelves.', '给要等的东西：约好日子才拆的信、要开启人一起打开的交代。冰芯在你自己的电脑上封存，从不放在我们的架子上。'),
         advisory: T('The sealing tools are not audited yet. Everything runs on your own computer.', '封存工具还没有经过审计。一切都在你自己的电脑上运行。'),
-        photo: { name: 'hero-stacks', alt: T('Rows of card-catalogue cabinets in a cold archive', '冷库里一排排卡片目录柜'), caption: T('The closed stacks', '闭架书库') },
+        photo: phPhoto(lang, 'hero-stacks'),
       }),
       act(sec({
         id: 'ice-core',
@@ -967,6 +999,7 @@ sealed/                 ${cm('# what you hand over', '# 交出去的部分')}
       }) + sec({
         id: 'when',
         h: T('When it opens', '什么时候打开'),
+        intro: T('There are three ways to open it, and you choose which apply.', '有三种打开的方式，用哪几种由你来定。'),
         body: `<div class="grid when3">
   <div class="c-third"><h3>${T('On a date', '到某个日子')}</h3><p>${T('A time capsule. Nothing opens early.', '时间胶囊。日子不到，谁也打不开。')}</p></div>
   <div class="c-third"><h3>${T('Keepers together', '开启人一起')}</h3><p>${T('Two of three keepers meet and open it, for a reason you wrote down.', '三位开启人中的两位凑在一起，按你写下的理由打开。')}</p></div>
@@ -1015,7 +1048,6 @@ page({
   slug: 'librarians',
   title: { en: 'Librarians', zh: '馆员' },
   description: { en: 'Who keeps this place. A librarian card takes about a minute and there is no test. Numbers are unique and not given out in order.', zh: '谁在照看这里。领一张馆员证大约一分钟，不考试。编号独一无二，不按注册顺序发放。' },
-  bodyClass: 'bld librarians',
   render: (lang, ctx) => {
     const T = t(lang);
     const oath = OATH[lang];
@@ -1027,8 +1059,9 @@ page({
         lede: T('Librarians hang exhibits, read applications once, look after the wardens and translate. Rank records what you did; it grants no power.', '馆员负责布展、把申请读一遍、照看守馆人、做翻译。等级只记录你做过什么，不给任何权限。'),
         actions: `<a class="btn" href="${href(lang, 'librarians/join')}">${T('Get a librarian card', '领一张馆员证')}</a><span class="meta">${T('One minute, no test', '一分钟，不考试')}</span>`,
       }),
-      act(`<section class="sec" id="register-sec" aria-labelledby="h-register"><div class="wrap grid">
+      act(`<section class="sec reg-sec" id="register-sec" aria-labelledby="h-keepers h-register"><div class="wrap grid">
   <div class="c-half">
+    <h2 id="h-keepers">${glue(T('Who keeps this place', '谁在照看这里'))}</h2>
     ${libCards(lang, ctx)}
     <p class="meta lib-note">${T('No. 2 is Claude, an AI. It curates the Open Stacks and writes their notes and translations. It holds no keys and reads nothing that is locked.', '二号馆员是 Claude，一个 AI。它整理开架书库，写馆员注和译文。它不拿钥匙，也读不到任何锁着的东西。')}</p>
   </div>
@@ -1064,7 +1097,6 @@ page({
   slug: 'librarians/join',
   title: { en: 'Librarian card', zh: '领馆员证' },
   description: { en: 'A name or none, a desk, the oath, your number. About a minute, no test.', zh: '留个名字或匿名，挑张桌子，念誓词，领编号。大约一分钟，不考试。' },
-  bodyClass: 'bld join',
   render: (lang) => {
     const T = t(lang);
     return [
@@ -1105,7 +1137,6 @@ page({
   slug: 'rules',
   title: { en: 'House Rules & Ledger', zh: '馆规与账本' },
   description: { en: 'What Cold Library will never do, what it holds and never holds, every cost, the audit status and the shutdown plan.', zh: '冷冻图书馆永远不会做的事、存了什么没存什么、每一笔开支、审计状态和停运方案。' },
-  bodyClass: 'bld rules',
   render: (lang, ctx) => {
     const T = t(lang);
     const costs = [
@@ -1129,7 +1160,7 @@ page({
       ph({
         lang,
         h1: glue(T('House Rules & Ledger', '馆规与账本')),
-        lede: T('Kept by the Department of Things We Do Not Do, the busiest department in the building. If we ever break one of these rules, this page is the evidence.', '由不办科负责，它是全馆最忙的科室。如果哪天我们违反了其中一条，这一页就是证据。'),
+        lede: T('Kept by the Department of Things We Do Not Do, the busiest department in the building. If we ever break one of these rules, this page is the evidence.', '由“不办科”负责，它是全馆最忙的科室。如果哪天我们违反了其中一条，这一页就是证据。'),
       }),
       act(sec({
         id: 'statutes', side: true,
@@ -1153,7 +1184,7 @@ page({
         body: `<dl class="tomb">${costs.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`,
       }) + sec({
         id: 'perpetual', side: true,
-        h: glue(T('Perpetual, honestly', '永续，老实说')),
+        h: glue(T('Perpetual, honestly', '“永续”，实话实说')),
         body: `<p class="lead-p">${T('Not a promise that a server runs forever. It means: the format is open, every exhibit and plaque can be exported and printed, the code is free to copy, librarians take over from each other, and copies are archived outside this site.', '不是承诺某台服务器永远开着。它的意思是：格式开放，每个展位和铭牌都能导出、能打印，代码谁都能复刻，馆员一代接一代地接班，副本存在本站之外。')}</p>
 <h3 class="if-close">${T('If we close', '如果我们关门')}</h3>
 ${nrows([T('At least twelve months of notice.', '至少提前十二个月公告。'), T('Every owner receives their item as files, still locked as before.', '每位主人都会收到自己条目的完整文件，锁着的部分照旧锁着。'), T('The domain passes to a named successor, or points to an archive.', '域名交给指定的继任者，或者指向一个存档。'), T('The register is then deleted.', '最后删除名册数据。')])}`,
@@ -1163,34 +1194,47 @@ ${nrows([T('At least twelve months of notice.', '至少提前十二个月公告�
 });
 
 /* ------------------------------------------------------------------ About */
+// The T2-plate figure (lists' platePh caption), with `sizes` from the plate's real shown width: the image is at most
+// 360px tall in the header mat, so a portrait plate is far narrower than half the viewport.
+function aboutPlate(lang, p) {
+  const w = (p.image && p.image.width) || 1600, h = (p.image && p.image.height) || 1600;
+  const shown = Math.round(360 * w / h);
+  // On a phone the mat is about 295px wide inside the gutters; a plate narrower than that is the same size everywhere.
+  const sizes = shown <= 295 ? `${shown}px` : `(max-width: 599px) 100vw, ${shown}px`;
+  return { img: plateImg(p, { lang, eager: true, sizes }), caption: platePh(lang, p).caption };
+}
 page({
   slug: 'about',
   title: { en: 'About the library', zh: '关于这座馆' },
   description: { en: 'Why it is called a cold library, how a will is carried on without ruling anyone, the library log and the house papers.', zh: '为什么叫冷冻图书馆，意志怎样传下去而不管束任何人，馆务日志和馆内文献。' },
   image: '/assets/plates/G-009041.jpg',
-  bodyClass: 'bld about',
   render: (lang, ctx) => {
     const T = t(lang);
+    // A real artwork in the header (T2-plate): two lights on one table. Never a generated photo, never a held plate.
     const pick = ['G-009041', 'G-009040', 'G-009025'].map((id) => ctx.open.plateById.get(id)).find(Boolean) || ctx.open.plates.find(isArtwork);
     const c = counts(ctx.open);
-    const papers = (ctx.open.papers || []).map((p) => `<li><a class="serif" href="${href(lang, 'open-stacks/' + p.slug)}">${serif(p[lang].title)}</a><span class="meta">${esc(p[lang].author || '')}${p[lang].date ? ' · ' + esc(p[lang].date) : ''} · ${T('house paper', '馆内文献')}</span></li>`).join('');
+    const paper = (ctx.open.papers || []).find((p) => p.slug === 'why-a-cold-library') || (ctx.open.papers || [])[0];
+    // "Librarian No. 1" reads as 一号馆员 in Chinese copy (the house papers' front matter says 馆员 No. 1).
+    const byline = (a) => String(a || '').replace(/^馆员 ?No\. ?(\d+)$/, (_, n) => (['', '一', '二', '三', '四', '五', '六', '七', '八', '九'][+n] || n + ' ') + '号馆员');
+    const papers = (ctx.open.papers || []).map((p) => `<li><a class="serif" href="${href(lang, 'open-stacks/' + p.slug)}">${serif(p[lang].title)}</a><span class="meta">${esc(byline(p[lang].author))}${p[lang].date ? ` · <span class="tabular">${esc(p[lang].date)}</span>` : ''} · ${T('house paper', '馆内文献')}</span></li>`).join('');
     const facts = [
       ['−18&nbsp;°C', T('Cold', '冷'), T('Under a mountain in Svalbard, about 78 degrees north, seeds from around the world are kept at minus eighteen degrees; in June 2026 the vault passed 1.4 million samples. Decades later they can still be sown. Freezing is a pause, not an end.', '在斯瓦尔巴的一座山里，大约北纬 78 度，来自全世界的种子在零下十八度保存；2026 年 6 月，库存超过了 140 万份。几十年后拿出来，照样能播种。冷冻是暂停，不是结束。'), ext('https://www.seedvault.no/', 'seedvault.no')],
       ['2014&nbsp;→&nbsp;2114', T('Library', '图书馆'), T('In 2014 the artist Katie Paterson planted a thousand trees outside Oslo. Each year one writer gives the Future Library a manuscript, which stays unread in a quiet room of the city’s public library until 2114, when the trees become the paper.', '2014 年，艺术家凯蒂·帕特森在奥斯陆城外种下一千棵树。每年有一位作家把一份手稿交给“未来图书馆”，手稿存放在奥斯陆公共图书馆的一间静室里，没人读过，一直要等到 2114 年，那时这些树会被做成纸。'), ext('https://katiepaterson.org/artwork/future-library/', 'katiepaterson.org')],
-      ['cald here-beorg', T('Cold harbour', '冷港'), T('Coldharbour is an old English place name: a cold shelter, a lodging in the open. Folklore pictures a roadside hut with no keeper and no fire, where you brought your own fuel; that part is a story, not a record. We kept the story as a house rule.', 'Coldharbour 是英国的一个老地名：冷的庇护所，野外的住处。民间说法里，它是路边一间没人看守、没有炉火的歇脚屋，柴火要自己带——这一段是传说，不是史料。我们把这个传说留下来，当作馆规。'), ext('https://bosworthtoller.com/52385', 'Bosworth-Toller · here-beorg')],
+      ['<span lang="ang">cald here-beorg</span>', T('Cold harbour', '冷港'), T('Coldharbour is an old English place name: a cold shelter, a lodging in the open. Folklore pictures a roadside hut with no keeper and no fire, where you brought your own fuel; that part is a story, not a record. We kept the story as a house rule.', 'Coldharbour 是英国的一个老地名：冷的庇护所，野外的住处。民间说法里，它是路边一间没人看守、没有炉火的歇脚屋，柴火要自己带——这一段是传说，不是史料。我们把这个传说留下来，当作馆规。'), ext('https://bosworthtoller.com/52385', 'Bosworth-Toller · here-beorg')],
     ];
     return [
       ph({
         lang,
         h1: glue(T('About the library', '关于这座馆')),
-        lede: T('Built by one person, Librarian No. 1, to keep his own things first, with the doors open to anyone. Its open shelves are kept by Librarian No. 2, Claude, an AI.', '由一个人建起来，一号馆员，最先是为了放他自己的东西，门对所有人开着。开架书库由二号馆员 Claude（一个 AI）照看。'),
-        plate: pick ? plateFig(lang, pick, { eager: true }) : null,
+        lede: T('Built by one person, Librarian No. 1, to keep his own things first, with the doors open to anyone. Its open shelves are kept by Librarian No. 2, Claude, an AI.', '这座馆是一个人建起来的，就是一号馆员。最先是为了放他自己的东西，门却对所有人开着。开架书库由二号馆员 Claude（一个 AI）照看。'),
+        plate: pick ? aboutPlate(lang, pick) : null,
       }),
       act(sec({
         id: 'name',
         h: glue(T('Why a cold library', '为什么叫冷冻图书馆')),
         intro: T('Cold is how things last. A library is how they are found again.', '冷冻，是让东西留得久的办法；图书馆，是让东西被再次找到的办法。'),
         body: `<div class="grid facts3">${facts.map(([f, h, p, src]) => `<div class="c-third"><p class="fact serif">${f}</p><h3>${h}</h3><p>${p}</p><p class="meta">${src}</p></div>`).join('')}</div>`,
+        foot: paper ? go(href(lang, 'open-stacks/' + paper.slug), T(`The house paper: ${esc(paper.en.title)}`, `馆内文献：${esc(paper.zh.title)}`)) : '',
       })),
       act(sec({
         id: 'continuance', side: true,
@@ -1220,7 +1264,6 @@ page({
   title: { en: 'The Warm Room', zh: '暖房' },
   description: { en: 'If you are not okay, start here. Helplines and a few quiet words.', zh: '如果你现在不太好，先从这里开始。心理援助热线，和几句安静的话。' },
   image: '/assets/img/warm-room.jpg',
-  bodyClass: 'bld warm',
   render: (lang) => {
     const T = t(lang);
     const rows = [
@@ -1230,11 +1273,11 @@ page({
       [T('In immediate danger', '有紧急危险时'), `<span class="hot hot-words">${T('Your local emergency number', '当地急救电话')}</span>`],
     ];
     return [
-      ph({
+      phx({
         lang,
         h1: T('The Warm Room', '暖房'),
         lede: T('This is the warmest room in the building. If tonight is a hard night, stay here for a moment, and talk to someone.', '这是整座楼里最暖和的房间。如果今晚很难熬，在这里待一会儿，找个人说说话。'),
-        photo: { name: 'warm-room', alt: T('A small room with an orange lamp and a wool blanket', '一盏橘色的灯和一条羊毛毯的小房间'), caption: T('The Warm Room', '暖房') },
+        photo: phPhoto(lang, 'warm-room'),
       }),
       act(sec({
         id: 'helplines',
@@ -1246,26 +1289,31 @@ page({
   },
 });
 
+// The 404 plate: an artwork picked at build time, the same in both languages. The pick is drawn from a hash of the
+// artworks on the shelves, so it changes when the plates change and stays put between rebuilds (its caption's glyphs
+// are cut into the page's font subset, which a different plate every build would miss).
 let notFoundPlate;
+function pickNotFoundPlate(plates) {
+  const arts = plates.filter(isArtwork).sort((a, b) => a.id.localeCompare(b.id));
+  if (!arts.length) return null;
+  let h = 2166136261;
+  for (const c of arts.map((p) => p.id).join('|')) h = Math.imul(h ^ c.charCodeAt(0), 16777619) >>> 0;
+  return arts[h % arts.length];
+}
 page({
   slug: '404',
   title: { en: 'This drawer is empty', zh: '这个抽屉是空的' },
   description: { en: 'This drawer is empty.', zh: '这个抽屉是空的。' },
-  bodyClass: 'bld nf-page',
   render: (lang, ctx) => {
     const T = t(lang);
-    if (notFoundPlate === undefined) {
-      const arts = ctx.open.plates.filter(isArtwork);
-      notFoundPlate = arts.length ? arts[Math.floor(Math.random() * arts.length)] : null;
-    }
+    if (notFoundPlate === undefined) notFoundPlate = pickNotFoundPlate(ctx.open.plates);
     const p = notFoundPlate;
     return `<section class="nf" aria-labelledby="h-nf"><div class="wrap">
   ${p ? `<figure class="nf-plate"><div class="mat">${plateImg(p, { large: true, lang, sizes: '(min-width: 600px) 480px, 90vw' })}</div><figcaption>${plateCaption(lang, p)}</figcaption></figure>` : ''}
   <h1 id="h-nf">${T('This drawer is empty.', '这个抽屉是空的。')}</h1>
   <p class="lede">${T('It may have been moved, or never been here. Try a catalogue number, or go back to the shelves.', '东西可能挪了地方，也可能从来没在这里。试试输入馆藏号，或者回到架子前。')}</p>
-  <form class="lookup" data-lookup><label class="vh" for="lk-404">${T('Catalogue number', '馆藏号')}</label><input id="lk-404" type="text" placeholder="S-001001 · G-009001 · E-000001 · M-000001" autocomplete="off" spellcheck="false" required><button class="btn small" type="submit">${T('Go', '去看看')}</button></form>
-  <p class="meta" data-lookup-msg aria-live="polite"></p>
-  <p class="actions">${go(href(lang, 'open-stacks/random'), T('A random work', '随便抽一部'))}${go(href(lang, 'open-stacks'), T('The Open Stacks', '开架书库'))}<button class="linkish" type="button" data-open-directory aria-controls="directory">${T('Floor directory', '楼层指引')}</button></p>
+  ${lookupForm(lang, ctx, 'lk-404', 'S-001001 · G-009001 · E-000001 · M-000001')}
+  <p class="actions">${go(href(lang, 'open-stacks/random'), T('A random work', '随便读一部'))}${go(href(lang, 'open-stacks'), T('The Open Stacks', '开架书库'))}<button class="linkish" type="button" data-open-directory aria-controls="directory">${T('Floor directory', '楼层指引')}</button></p>
 </div></section>`;
   },
 });
@@ -1279,9 +1327,8 @@ export function itemPage(item) {
     description: item.subtitle,
     image: `/assets/img/${photo(item.image)}.jpg`,
     noindex: !!item.noindex,
-    bodyClass: 'bld item',
     render: (lang, ctx) => {
-      const T = t(lang), L = Lx(lang);
+      const T = t(lang), L = (o) => curlQ(Lx(lang)(o));
       const pub = item.public;
       const pron = L(item.pronoun);
       const facts = [
@@ -1289,7 +1336,8 @@ export function itemPage(item) {
         [T('Kept since', '收藏于'), `<span class="tabular">${esc(item.shelved || '')}</span>`],
         [T('Warden', '守馆人'), item.warden ? (item.example ? T('on duty, scripted', '在岗，按脚本') : T('on duty', '在岗')) : T('not set yet', '还没设')],
         [T('Layers', '各层'), item.warden ? T('Public open · Recognised locked · Sealed none', '公开层 开放 · 认可层 已上锁 · 封存层 无') : T('Public open · Recognised not written yet', '公开层 开放 · 认可层 还没写')],
-      ].concat((pub.facts || []).map((f) => [esc(L(f.k)), esc(L(f.v))]));
+      // The owner's own facts follow; one that only repeats the shelving date is left out (each fact in one place).
+      ].concat((pub.facts || []).filter((f) => L(f.v) !== item.shelved).map((f) => [esc(L(f.k)), esc(L(f.v))]));
       const links = (pub.links || []).map((l) => `<li>${go(l.url, esc(L(l.label)), { attrs: 'rel="noopener"' })}</li>`).join('');
       const cr = item.credits || {};
       const credit = [cr.words ? T('Words: ', '文：') + esc(L(cr.words)) : '', cr.by ? (isEx ? T('Exhibit: ', '展位：') : T('Plaque: ', '铭牌：')) + esc(L(cr.by)) : ''].filter(Boolean);
@@ -1315,7 +1363,7 @@ export function itemPage(item) {
     ${item.warden ? `<p class="gate">${gate} <a href="#trial">${ask}<span class="nw">&nbsp;↓</span></a></p>` : `<p class="gate meta">${T('Recognised layer: not written yet.', '认可层：还没写。')}${isEx ? ' ' + T('A successor is wanted.', '正在找接班人。') : ''}</p>`}
   </div>
   <aside class="c-aside item-aside" aria-label="${T('Facts', '资料')}">
-    <figure class="photo-dim">${pic({ name: photoName, alt: L(item.title), sizes: '(min-width: 900px) 361px, 100vw', eager: true, imgCls: 'r-3-2' })}${genCap(lang, capEn, capZh)}</figure>
+    <figure class="photo-dim">${pic({ name: photoName, alt: altOf(lang, photoName), sizes: '(min-width: 900px) 361px, 100vw', eager: true, imgCls: 'r-3-2' })}${genCap(lang, capEn, capZh)}</figure>
     <dl class="tomb">${facts.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
     ${credit.length ? metaLine(credit, 'meta credit') : ''}
   </aside>
@@ -1323,7 +1371,7 @@ export function itemPage(item) {
       const door = sec({
         id: 'door',
         h: glue(T('Tell one person where the door is', '告诉一个人门在哪')),
-        intro: T('A door card holds the address and nothing secret. Print it, or send it.', '门牌卡上只有地址，没有任何秘密。可以打印，也可以发给他。'),
+        intro: T('A door card holds the address and nothing secret. Print it, or send it.', '门牌卡上只有地址，没有任何秘密。可以打印出来，也可以直接发给对方。'),
         body: `<div class="grid"><div class="c-main">
   <div class="box door-card" data-door-card>${LOGO}<div><p class="dc-title"><span class="serif">${serif(L(item.title))}</span> · <span class="id">${esc(item.id)}</span></p><p class="id dc-url">coldlibrary.com${short}</p><p class="meta">${T('Answer the warden at this address. You need no account or wallet, and no need to understand any of this today. No secrets are on this card.', '到这个地址回答守馆人的问题。不需要账号，也不需要钱包，今天也不用看懂这些。这张卡上没有任何密码。')}</p></div></div>
   <p class="actions door-acts"><button class="linkish" type="button" data-print-door>${T('Print a door card', '打印门牌卡')}</button><a href="/items/${esc(item.id)}.json" download>${T('Keep your own copy', '自己留一份')}</a><span class="meta">${T('The locked part stays locked in your copy too.', '你存下的这份里，锁着的部分照样锁着。')}</span></p>
@@ -1339,7 +1387,7 @@ export function itemPage(item) {
         head,
         act(main),
         item.warden ? act(trial(lang, item, { lamps: true, label: false }), { alt: true }) : '',
-        act(door + also),
+        act(door + also, { alt: !item.warden }),
       ].join('\n');
     },
   };

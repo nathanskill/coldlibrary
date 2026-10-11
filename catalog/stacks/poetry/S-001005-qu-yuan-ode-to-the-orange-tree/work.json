@@ -60,5 +60,50 @@
     "en": "Bound by its nature not to move, / it grows in the southern country.",
     "zh": "受命不迁，生南国兮。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "后皇",
+      "occ": 1,
+      "en": "后 is the earth (后土) and 皇 is heaven (皇天): the tree is a gift of heaven and earth.",
+      "zh": "后：后土，指地。皇：皇天，指天。"
+    },
+    {
+      "at": "橘徠服兮",
+      "occ": 1,
+      "at_hans": "橘徕服兮",
+      "en": "徠 is 來, came; 服, to be suited to, at home in this soil. 兮 is a sung syllable, like 'ah'.",
+      "zh": "徕：同“来”。服：适应（这里的水土）。兮：语气词，相当于“啊”。"
+    },
+    {
+      "at": "受命不遷",
+      "occ": 1,
+      "at_hans": "受命不迁",
+      "en": "Bound by its nature not to be moved. An old saying holds that an orange planted north of the Huai turns into the bitter trifoliate orange.",
+      "zh": "禀受天命，不可迁移。古人说橘生淮南则为橘，生于淮北则为枳。"
+    },
+    {
+      "at": "曾枝剡棘",
+      "occ": 1,
+      "en": "曾 is 層, layered; 剡, sharp.",
+      "zh": "曾：同“层”。剡（yǎn）：锐利。"
+    },
+    {
+      "at": "蘇世獨立",
+      "occ": 1,
+      "at_hans": "苏世独立",
+      "en": "蘇: awake. Clear-headed in a muddled world, and standing alone.",
+      "zh": "苏：醒觉。在浑浊的世上保持清醒，独立不移。"
+    },
+    {
+      "at": "伯夷",
+      "occ": 1,
+      "en": "Bo Yi, a prince of the late Shang who, with his brother Shu Qi, refused to eat the grain of the conquering Zhou and starved on Mount Shouyang: the model of integrity.",
+      "zh": "商末孤竹君之子，与弟叔齐耻食周粟，饿死于首阳山，是守节的典范。"
+    }
+  ],
+  "pairs": [
+    "S-001066",
+    "S-002029"
+  ]
 }

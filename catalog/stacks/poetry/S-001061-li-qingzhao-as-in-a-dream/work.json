@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -61,5 +61,51 @@
     "en": "Row hard, row hard, / and up from the shoal flew a startle of gulls and egrets.",
     "zh": "争渡，争渡，惊起一滩鸥鹭。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "常記",
+      "occ": 1,
+      "at_hans": "常记",
+      "en": "I often remember; some read 常 as 嘗, 'once'.",
+      "zh": "常记：时常记起。一说“常”通“尝”，曾经。"
+    },
+    {
+      "at": "溪亭",
+      "occ": 1,
+      "en": "A pavilion by a stream.",
+      "zh": "溪亭：溪边的亭子。"
+    },
+    {
+      "at": "興盡",
+      "occ": 1,
+      "at_hans": "兴尽",
+      "en": "When the fun was spent.",
+      "zh": "兴尽：尽了兴致。"
+    },
+    {
+      "at": "藕花",
+      "occ": 1,
+      "en": "Lotus flowers.",
+      "zh": "藕花：荷花。"
+    },
+    {
+      "at": "爭渡",
+      "occ": 1,
+      "at_hans": "争渡",
+      "en": "爭 is 怎, 'how': how to get through? Others read it as racing to row across. Both readings are old.",
+      "zh": "争渡：怎么渡过去，“争”通“怎”；一说是奋力划船抢渡。"
+    },
+    {
+      "at": "鷗鷺",
+      "occ": 1,
+      "at_hans": "鸥鹭",
+      "en": "Gulls and egrets.",
+      "zh": "鸥鹭：鸥鸟和白鹭，泛指水鸟。"
+    }
+  ],
+  "pairs": [
+    "S-001062",
+    "S-001063"
+  ]
 }

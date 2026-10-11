@@ -60,5 +60,46 @@
     "en": "It follows the wind, slipping in by night, / and soaks all things, fine and without a sound.",
     "zh": "随风潜入夜，润物细无声。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "乃發生",
+      "occ": 1,
+      "at_hans": "乃发生",
+      "en": "Then it comes; 發生 here means to bring things to life, to make them sprout.",
+      "zh": "乃：就。发生：使植物萌发生长。"
+    },
+    {
+      "at": "潛入夜",
+      "occ": 1,
+      "at_hans": "潜入夜",
+      "en": "Steals into the night.",
+      "zh": "潜：暗暗地，悄悄地。"
+    },
+    {
+      "at": "野徑",
+      "occ": 1,
+      "at_hans": "野径",
+      "en": "Country paths.",
+      "zh": "野径：田野间的小路。"
+    },
+    {
+      "at": "紅溼處",
+      "occ": 1,
+      "at_hans": "红湿处",
+      "en": "Where it is red and wet: the rain-soaked flowers.",
+      "zh": "红湿处：被雨水打湿的花丛。"
+    },
+    {
+      "at": "錦官城",
+      "occ": 1,
+      "at_hans": "锦官城",
+      "en": "Brocade City, a name for Chengdu, once the seat of the official in charge of brocade weaving. Du Fu wrote the poem there in 761.",
+      "zh": "锦官城：成都的别称。古时成都设有掌管织锦的官署，故称。此诗 761 年作于成都。"
+    }
+  ],
+  "pairs": [
+    "S-001065",
+    "S-001071"
+  ]
 }

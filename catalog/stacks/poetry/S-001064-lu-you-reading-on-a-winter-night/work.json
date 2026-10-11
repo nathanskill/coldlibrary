@@ -64,5 +64,50 @@
     "en": "What you get from paper always feels shallow in the end; / to truly know a thing, you have to do it.",
     "zh": "纸上得来终觉浅，绝知此事要躬行。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "無遺力",
+      "occ": 1,
+      "at_hans": "无遗力",
+      "en": "Holding nothing back, using every bit of strength.",
+      "zh": "无遗力：用尽全力，毫无保留。"
+    },
+    {
+      "at": "工夫",
+      "occ": 1,
+      "en": "Effort: the work put in over time.",
+      "zh": "工夫：下的功夫，花的时间和精力。"
+    },
+    {
+      "at": "絕知",
+      "occ": 1,
+      "at_hans": "绝知",
+      "en": "絕: utterly, thoroughly. To know it through and through.",
+      "zh": "绝知：彻底了解。"
+    },
+    {
+      "at": "躬行",
+      "occ": 1,
+      "en": "To do it oneself, in person.",
+      "zh": "躬行：亲身实践。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "少壯工夫老始成",
+      "en": "In seven characters the half-line goes from 少壯, youth, to 老, age: a working life told in the time it takes to say it.",
+      "zh": "这半句七个字，从“少壮”走到“老”：一生的功夫，一句话的工夫就说完了。"
+    },
+    {
+      "at": "紙上得來終覺淺",
+      "en": "終覺淺, 'in the end feels shallow', not 'is false'. Lu You does not dismiss reading; he says it is not enough on its own.",
+      "zh": "“终觉浅”，是终究觉得浅，不是说它错。陆游并没有否定读书，只说光读还不够。"
+    }
+  ],
+  "pairs": [
+    "S-001067",
+    "S-001008",
+    "S-002032"
+  ]
 }

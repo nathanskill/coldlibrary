@@ -61,5 +61,66 @@
     "en": "On the boundless wilderness, under the frozen vault of heaven, what glitters as it whirls and rises is the spirit of the rain ...",
     "zh": "在无边的旷野上，在凛冽的天宇下，闪闪地旋转升腾着的是雨的精魂……"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003024",
+    "S-002031",
+    "S-001001"
+  ],
+  "gloss": [
+    {
+      "at": "江南的雪",
+      "occ": 1,
+      "en": "江南: the lands south of the lower Yangzi, Lu Xun's home region around Shaoxing, where snow is moist and soon melts.",
+      "zh": "江南：长江下游以南一带，鲁迅的故乡绍兴就在这里；那里的雪湿润，不久就化。"
+    },
+    {
+      "at": "寶珠山茶",
+      "occ": 1,
+      "at_hans": "宝珠山茶",
+      "en": "Baozhu ('jewel') camellia: a camellia with round, many-petalled red flowers that blooms in winter.",
+      "zh": "宝珠山茶：山茶的一个品种，花重瓣，红色，圆如宝珠，冬天开花。"
+    },
+    {
+      "at": "磬口的蠟梅花",
+      "occ": 1,
+      "at_hans": "磬口的蜡梅花",
+      "en": "Wintersweet flowers yellow and fragrant on bare branches in deep winter. The 'chime-mouth' kind has cupped flowers that curve inward like the rim of a bowl-shaped temple chime.",
+      "zh": "蜡梅：冬季在秃枝上开黄色香花的灌木。磬口蜡梅是名贵品种，花半开，花瓣向内抱合，像磬的口。"
+    },
+    {
+      "at": "紫芽薑",
+      "occ": 1,
+      "at_hans": "紫芽姜",
+      "en": "Young ginger, whose new shoots are tinged purple-red.",
+      "zh": "紫芽姜：嫩姜，芽尖带紫红色。"
+    },
+    {
+      "at": "雪羅漢",
+      "occ": 1,
+      "at_hans": "雪罗汉",
+      "en": "羅漢: an arhat, a saint of Buddhism; rows of arhat statues sit in Chinese temples. In the south a snowman was called a snow arhat.",
+      "zh": "罗汉：佛教中修行得道的圣者，寺庙里常塑有成排的罗汉像。江南一带把雪人叫作雪罗汉。"
+    },
+    {
+      "at": "壺盧",
+      "occ": 1,
+      "at_hans": "壶卢",
+      "en": "壺盧: the same as 葫蘆, the bottle gourd.",
+      "zh": "壶卢：同“葫芦”。"
+    },
+    {
+      "at": "龍眼核",
+      "occ": 1,
+      "at_hans": "龙眼核",
+      "en": "The longan, a southern fruit like the lychee, has a round, glossy black seed.",
+      "zh": "龙眼：南方水果，核圆而乌亮。"
+    },
+    {
+      "at": "朔方",
+      "occ": 1,
+      "en": "朔方: the north, an old literary word; here Beijing, where Lu Xun was writing.",
+      "zh": "朔方：北方。这里指鲁迅写作时所在的北京。"
+    }
+  ]
 }

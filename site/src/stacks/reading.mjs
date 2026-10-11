@@ -3,26 +3,36 @@
 // and returns the reading layers. Page assembly (header, toolbar, frames, end matter) lives in work.mjs.
 //
 // Markup contract (40-reading.css reads it; the checked radio is the only view state):
-//   .o            original text; .o-hant / .o-hans are the two scripts of a Chinese text (the hidden one is display:none)
-//   .tr           the paired translation
-//   .keep         original text in an untranslated part of a partial translation (still shown in the tr view)
-//   .layer-o      verse as written (orig view)      .layer-p  verse rows aligned line by line (par and tr views)
-//   .layer-t2     a translation shown on its own (a second language, or a partial translation with no segment map)
-//   .blk          a paragraph with notes; notes (.gn glosses, .mn marginalia) come first and float into the margin
+//   .o / .tr      the original / the paired translation; .o-hant / .o-hans are the two scripts of a Chinese text
+//   .keep         original text in a part a partial translation leaves out (shown in every view)
+//   .nt           "Not yet translated", above such a part
+//   .layer-o      verse as written (orig view)          .layer-p   verse rows aligned line by line (par and tr views)
+//   .layer-t2     a second translation, shown on its own (tr2 view)
+//   .blk          a paragraph (or a group) with notes; the notes come first and float into the margin
 //   .stanza       a verse stanza as written; a note sits just before the line it belongs to
-//   .vrows        one stanza of layer P: a grid of (original, translation, notes) rows
+//   .vrows / .vr  one stanza of layer P / one row of it (original and translation side by side); a .w<n> class
+//                 gives a Chinese original's first column its width in em; each note sits just before its row
+//   .gl / .gk     a glossed phrase / its last character, which draws the number (CSS ::after, so it is never copied)
+//   .gn / .mn     a gloss (注释, the page language) / a marginal note by Claude
+// The text exists once per layer; a hidden script or layer is display:none, so find-in-page never meets duplicates.
 import { esc, addGlyphs } from '../lib.mjs';
-import { splitCaesura } from '../stacks.mjs';
+import { splitCaesura, anchorText } from '../stacks.mjs';
 
 const HAN = /[㐀-鿿豈-﫿]/;
 const HAN_G = /[㐀-鿿豈-﫿]/g;
 const CJK_G = /[　-〿㐀-䶿一-鿿豈-﫿＀-￯]|[\u{20000}-\u{2ebef}]/gu;
 const HAN_RUN = /[㐀-鿿豈-﫿　-〿＀-￯“”‘’—…·]+/g;
 export const hasHan = (s) => HAN.test(String(s || ''));
+// Han runs inside non-Chinese copy get their own lang, so they take Chinese glyph forms (spec §3.5.2).
+// Input is escaped text; tag is the script of the work (zh-Hant for a traditional text).
+const HAN_RUN_T = /(?:[　-〿＀-￯]*(?:[㐀-鿿豈-﫿]|[\u{20000}-\u{2ebef}])[　-〿＀-￯]*)+/gu;
+export const hanRuns = (escaped, tag = 'zh-Hans') => String(escaped).replace(HAN_RUN_T, (m) => `<span lang="${tag}">${m}</span>`);
 const charSet = (s) => new Set(String(s || '').match(CJK_G) || []);
+const tagOfPage = (l) => (l === 'zh' ? 'zh-Hans' : 'en');
 
 // ---------------------------------------------------------------- parsing
-// Section anchors follow stacks.mjs blocks()/toc() exactly, so ids agree with every other module.
+// Blocks follow stacks.mjs blocks()/toc() exactly (the checker numbers paragraphs and sections with them):
+// section ids count every ## and ### heading, and "p:12-18" counts every block that is not a heading or code.
 const anchor = (s, n) => {
   const a = s.toLowerCase().normalize('NFKD').replace(/[^\w㐀-鿿]+/g, '-').replace(/^-+|-+$/g, '');
   return (a && a.length < 60 ? a : 'part') + '-' + n;
@@ -36,13 +46,13 @@ function classify(lines) {
 }
 
 // Blocks: { t: 'h', level, text, id } | { t: 'p' | 'q', lines } | { t: 'code', info, text } | { t: 'hr' }.
-// Paragraph-like blocks (p, q, code) carry pn, their 1-based number in the text (used by "p:12-18" segments).
+// p, q and hr carry pn, their 1-based paragraph number (used by "p:12-18" segments).
 export function parse(src) {
   const out = [];
   let h = 0, pn = 0;
-  const parts = String(src || '').replace(/\r\n/g, '\n').replace(/\n{3,}/g, '\n\n').split(/\n```([^\n]*)\n([\s\S]*?)\n```\n?/);
+  const parts = ('\n' + String(src || '').replace(/\r\n?/g, '\n')).split(/\n```([^\n]*)\n([\s\S]*?)\n```\n?/);
   for (let i = 0; i < parts.length; i += 3) {
-    for (const chunk of parts[i].split(/\n\s*\n/)) {
+    for (const chunk of parts[i].replace(/\n{3,}/g, '\n\n').split(/\n\s*\n/)) {
       const lines = chunk.split('\n').filter((l) => l.trim() !== '');
       if (!lines.length) continue;
       const m = lines[0].match(/^(#{2,3})\s+(.+)$/);
@@ -53,7 +63,7 @@ export function parse(src) {
     }
     if (i + 2 < parts.length) out.push({ t: 'code', info: parts[i + 1].trim().toLowerCase(), text: parts[i + 2] });
   }
-  for (const b of out) if (b.t === 'p' || b.t === 'q' || b.t === 'code') b.pn = ++pn;
+  for (const b of out) if (b.t !== 'h' && b.t !== 'code') b.pn = ++pn;
   return out;
 }
 
@@ -68,6 +78,22 @@ export function sectionsOf(blocks) {
   return out;
 }
 
+// Pair the sections of an original with those of a full translation: the untitled opening with the untitled
+// opening, then headed section with headed section. Returns one translation section (or null) per original section.
+function pairSections(oSecs, tSecs, warn) {
+  const oh = oSecs.filter((s) => s.h), th = tSecs.filter((s) => s.h);
+  const t0 = tSecs.length && !tSecs[0].h ? tSecs[0] : null;
+  if (oh.length === th.length) {
+    let k = 0;
+    const out = oSecs.map((s) => (s.h ? th[k++] : t0));
+    // A translation that opens with text the original lacks: keep it with the first section.
+    if (t0 && oSecs[0].h) out[0] = { h: out[0].h, blocks: [...t0.blocks, ...out[0].blocks] };
+    return out;
+  }
+  warn(`the translation has ${th.length} ## sections for the original's ${oh.length}; sections are paired in order`);
+  return oSecs.map((s, i) => tSecs[i] || null);
+}
+
 // The simplified copy of a Hant text mirrors it block for block (tools/stacks-hans.py); attach each block's twin.
 function attachHans(ob, hb) {
   if (!hb || hb.length !== ob.length) return false;
@@ -80,6 +106,7 @@ function attachHans(ob, hb) {
 }
 
 const joinLines = (lines) => lines.map((l) => l.trim()).reduce((a, l) => (!a ? l : a + (HAN.test(a.slice(-1)) || /^[，。、；：？！」』）]/.test(l) ? '' : ' ') + l), '');
+const joinBreaks = (lines) => lines.map((l) => l.trim()).join('\n');
 const weight = (s) => { const t = String(s || ''); const han = (t.match(HAN_G) || []).length; return han * 2.6 + t.replace(HAN_G, '').length; };
 export const minutesOf = (s) => {
   const t = String(s || '');
@@ -92,36 +119,82 @@ const isStanza = (b) => b.t === 'p' || b.t === 'q';
 
 // ---------------------------------------------------------------- inline text
 // Light Markdown inside a line: **strong**, *em*, _em_. Chinese inside <strong> is registered for the 600 subset.
+const STRONG = /\*\*(.+?)\*\*/g;
+const EM_STAR = /(^|[^*\w])\*([^*\s][^*]*?)\*(?![*\w])/g;
+const EM_LOW = /(^|[^\w])_([^_\s][^_]*?)_(?![\w])/g;
 function rich(s) {
   return esc(s)
-    .replace(/\*\*(.+?)\*\*/g, (_, x) => { if (HAN.test(x)) addGlyphs(x, 'w600'); return `<strong>${x}</strong>`; })
-    .replace(/(^|[^*\w])\*([^*\s][^*]*?)\*(?![*\w])/g, '$1<em>$2</em>')
-    .replace(/(^|[^\w])_([^_\s][^_]*?)_(?![\w])/g, '$1<em>$2</em>');
+    .replace(STRONG, (_, x) => { if (HAN.test(x)) addGlyphs(x, 'w600'); return `<strong>${x}</strong>`; })
+    .replace(EM_STAR, '$1<em>$2</em>')
+    .replace(EM_LOW, '$1<em>$2</em>');
 }
-// A line with gloss anchors: private-use placeholders survive escaping and become the marker spans.
+// Emphasis runs in raw text, as rich() reads them: [start, end, marker length].
+function emphasisRuns(raw) {
+  const runs = [];
+  for (const m of raw.matchAll(STRONG)) runs.push([m.index, m.index + m[0].length, 2]);
+  for (const re of [EM_STAR, EM_LOW]) for (const m of raw.matchAll(re)) { const a = m.index + m[1].length; runs.push([a, a + m[2].length + 2, 1]); }
+  return runs;
+}
+// The text as the checker reads it (anchorText: emphasis markers removed), with a map back to the raw text.
+function plainMap(raw) {
+  const plain = anchorText(raw);
+  const map = new Array(plain.length + 1);
+  let j = 0;
+  for (let i = 0; i < raw.length && j < plain.length; i++) if (raw[i] === plain[j]) map[j++] = i;
+  map[plain.length] = raw.length;
+  return { plain, map };
+}
+// A gloss mark on raw text [s, e), widened so it never cuts an emphasis run in half. The last visible character
+// (k … kEnd) carries the number, so phrase and number never part at a line end and a long phrase can still wrap.
+function markOf(raw, s, e, n) {
+  const runs = emphasisRuns(raw);
+  for (let again = true; again;) {
+    again = false;
+    for (const [a, b, k] of runs) {
+      if (s < b && e > a && !(s >= a + k && e <= b - k) && !(s <= a && e >= b)) { s = Math.min(s, a); e = Math.max(e, b); again = true; }
+    }
+  }
+  const markers = new Set();
+  for (const [a, b, k] of runs) if (a >= s && b <= e) for (let i = 0; i < k; i++) { markers.add(a + i); markers.add(b - 1 - i); }
+  let k = e - 1;
+  while (k > s && markers.has(k)) k--;
+  if (k > s && /[\uDC00-\uDFFF]/.test(raw[k]) && /[\uD800-\uDBFF]/.test(raw[k - 1])) k--;
+  const kEnd = k + (raw.codePointAt(k) > 0xffff ? 2 : 1);
+  return { start: s, end: e, k, kEnd, n };
+}
+// A line with gloss marks: private-use placeholders survive escaping and emphasis, then become the spans.
 function marked(text, marks, prefix) {
   if (!marks || !marks.length) return rich(text);
   let s = '', pos = 0;
   for (const m of [...marks].sort((a, b) => a.start - b.start)) {
     if (m.start < pos || m.end > text.length) continue;
-    s += text.slice(pos, m.start) + '\uE000' + m.n + '\uE001' + text.slice(m.start, m.end) + '\uE002';
+    s += text.slice(pos, m.start) + '\uE000' + m.n + '\uE001' + text.slice(m.start, m.k) + '\uE003' + m.n + '\uE004' + text.slice(m.k, m.kEnd) + '\uE005' + text.slice(m.kEnd, m.end) + '\uE002';
     pos = m.end;
   }
   s += text.slice(pos);
-  return rich(s).replace(/\uE000(\d+)\uE001/g, (_, n) => `<span class="gl" data-n="${n}" tabindex="0" aria-describedby="${prefix}${n}"><span class="gt">`).replace(/\uE002/g, '</span></span>');
+  return rich(s)
+    .replace(/\uE000(\d+)\uE001/g, (_, n) => `<span class="gl" aria-describedby="${prefix}${n}">`)
+    .replace(/\uE003(\d+)\uE004/g, (_, n) => `<span class="gk" data-n="${n}">`)
+    .replace(/[\uE002\uE005]/g, '</span>');
 }
 const indentOf = (l) => Math.min((String(l).match(/^[ 　]*/)[0].replace(/　/g, '  ').length) >> 1, 4);
 const cls = (...xs) => xs.filter(Boolean).join(' ');
+// First-column widths of side-by-side Chinese verse, in em (40-reading.css has a .w<n> rule for each).
+export const WIDTHS = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 18, 20, 24];
 
 // ---------------------------------------------------------------- notes: glosses and marginalia
-// Units are the places a note can attach to: a verse line ("bi:li") or a paragraph ("bi").
-function unitsOf(ob, verse) {
+// Units are where a note can attach: a verse line ("bi:li"), a paragraph ("bi") or a code block ("c<bi>").
+// Headings count occurrences, as the checker does (it searches the whole text), but take no notes.
+function unitsOf(ob, verse, multiLine) {
   const units = [];
+  const unit = (key, raw, hans, extra = {}) => ({ key, raw, ...plainMap(raw), hans: hans == null ? null : { raw: hans, ...plainMap(hans) }, ...extra });
   ob.forEach((b, bi) => {
-    if (b.t === 'code') { units.push({ key: 'c' + bi, text: b.text, hans: null, code: true }); return; }
+    if (b.t === 'h') { units.push(unit('h' + bi, b.text, null, { heading: true })); return; }
+    if (b.t === 'code') { units.push(unit('c' + bi, b.text, null, { code: true })); return; }
     if (!isStanza(b)) return;
-    if (verse) b.lines.forEach((l, li) => units.push({ key: bi + ':' + li, text: l.trim(), hans: b.hans ? b.hans.lines[li].trim() : null }));
-    else units.push({ key: String(bi), text: joinLines(b.lines), hans: b.hans ? joinLines(b.hans.lines) : null });
+    const hb = b.hans;
+    if (verse) b.lines.forEach((l, li) => units.push(unit(bi + ':' + li, l.trim(), hb ? hb.lines[li].trim() : null)));
+    else { const j = multiLine(b) ? joinBreaks : joinLines; units.push(unit(String(bi), j(b.lines), hb ? j(hb.lines) : null)); }
   });
   return units;
 }
@@ -129,56 +202,80 @@ function locate(units, at, occ) {
   let seen = 0;
   for (const u of units) {
     let from = 0, i, local = 0;
-    while ((i = u.text.indexOf(at, from)) !== -1) {
+    while ((i = u.plain.indexOf(at, from)) !== -1) {
       seen++; local++;
-      if (seen === occ) return { u, start: i, end: i + at.length, local };
+      if (seen === occ) return { u, ps: i, pe: i + at.length, local };
       from = i + 1;
     }
   }
   return null;
 }
 function nthIndex(s, sub, n) { let i = -1; for (let k = 0; k < n; k++) { i = s.indexOf(sub, i + 1); if (i === -1) return -1; } return i; }
+const rawRange = (t, ps, pe) => [t.map[ps], t.map[pe - 1] + 1];
 
 // Glosses (any work) and marginalia (picks only, at most 3), each placed at the line or paragraph it anchors to.
 // Gloss numbers follow the order of the text.
-export function placeNotes(w, ob, verse, warn = () => {}) {
-  const units = unitsOf(ob, verse);
+export function placeNotes(w, ob, verse, multiLine, warn = () => {}) {
+  const units = unitsOf(ob, verse, multiLine);
   const byKey = new Map(units.map((u) => [u.key, u]));
-  const marks = new Map(), hmarks = new Map(), notes = new Map();
-  const push = (m, k, v) => { if (!m.has(k)) m.set(k, []); m.get(k).push(v); };
+  const notes = new Map();
   const found = [];
+  const find = (x, kind) => {
+    const occ = x.occ || 1;
+    const hit = locate(units, x.at, occ);
+    if (!hit) { warn(`${kind} anchor "${x.at}" (occurrence ${occ}) not found in the text`); return null; }
+    if (hit.u.heading) { warn(`${kind} anchor "${x.at}" falls in a heading; not shown`); return null; }
+    return hit;
+  };
   for (const g of Array.isArray(w.gloss) ? w.gloss : []) {
     if (!g || !g.at) continue;
-    const hit = locate(units, g.at, g.occ || 1);
-    if (!hit) { warn(`gloss "${g.at}" (occurrence ${g.occ || 1}) not found in the text`); continue; }
-    let h = null;
-    if (hit.u.code) { found.push({ type: 'gn', g, key: hit.u.key, start: -1, end: -1, h: null, order: units.indexOf(hit.u), inCode: true }); continue; }
-    if (hit.u.hans != null) {
-      if (hit.u.hans.length === hit.u.text.length) h = { start: hit.start, end: hit.end };
-      else { const a = g.at_hans || g.at; const i = nthIndex(hit.u.hans, a, hit.local); if (i >= 0) h = { start: i, end: i + a.length }; }
+    const hit = find(g, 'gloss');
+    if (!hit) continue;
+    const u = hit.u;
+    const [s, e] = rawRange(u, hit.ps, hit.pe);
+    const f = { type: 'gn', g, key: u.key, order: units.indexOf(u), start: s, end: e, code: !!u.code, hansAt: null };
+    if (u.hans) {
+      const H = u.hans;
+      let hp = null;
+      if (H.plain.length === u.plain.length) hp = [hit.ps, hit.pe];
+      else { const a = g.at_hans || g.at; const i = nthIndex(H.plain, a, hit.local); if (i >= 0) hp = [i, i + a.length]; }
+      if (hp) { f.hrange = rawRange(H, hp[0], hp[1]); f.hansAt = H.plain.slice(hp[0], hp[1]); }
+      else warn(`gloss "${g.at}": the simplified spelling is not in text.zh-Hans.md; add at_hans`);
     }
-    found.push({ type: 'gn', g, key: hit.u.key, start: hit.start, end: hit.end, h, order: units.indexOf(hit.u) });
+    found.push(f);
   }
   const mlist = Array.isArray(w.marginalia) ? w.marginalia : [];
   if (mlist.length && !w.pick) warn('marginalia on a work that is not on Claude’s shelf; not shown');
-  if (mlist.length > 3) warn('more than 3 marginal notes; only the first 3 are shown');
+  if (w.pick && mlist.length > 3) warn('more than 3 marginal notes; only the first 3 are shown');
   for (const m of w.pick ? mlist.slice(0, 3) : []) {
     if (!m || !m.at) continue;
-    const hit = locate(units, m.at, m.occ || 1);
-    if (!hit) { warn(`marginal note anchor "${m.at}" not found in the text`); continue; }
-    found.push({ type: 'mn', m, key: hit.u.key, start: hit.start, end: hit.end, order: units.indexOf(hit.u) });
+    const hit = find(m, 'marginal note');
+    if (hit) found.push({ type: 'mn', m, key: hit.u.key, order: units.indexOf(hit.u), start: rawRange(hit.u, hit.ps, hit.pe)[0] });
   }
   found.sort((a, b) => a.order - b.order || a.start - b.start);
-  let n = 0;
+  const marks = new Map(), hmarks = new Map();
+  const push = (map, k, v) => { if (!map.has(k)) map.set(k, []); map.get(k).push(v); };
+  let n = 0, lastEnd = new Map();
   for (const f of found) {
     if (f.type === 'gn') {
       f.n = ++n;
-      if (!f.inCode) push(marks, f.key, { start: f.start, end: f.end, n: f.n });
-      if (f.h) push(hmarks, f.key, { start: f.h.start, end: f.h.end, n: f.n });
+      if (!f.code) {
+        if (f.start < (lastEnd.get(f.key) || 0)) warn(`gloss "${f.g.at}" overlaps the gloss before it; its phrase is not marked`);
+        else {
+          lastEnd.set(f.key, f.end);
+          const u = byKey.get(f.key);
+          push(marks, f.key, markOf(u.raw, f.start, f.end, f.n));
+          if (f.hrange) push(hmarks, f.key, markOf(u.hans.raw, f.hrange[0], f.hrange[1], f.n));
+        }
+      }
     }
     push(notes, f.key, f);
   }
-  return { byKey, marks, hmarks, notes, count: found.length, glosses: found.filter((f) => f.type === 'gn'), margins: found.filter((f) => f.type === 'mn').length };
+  return { byKey, marks, hmarks, notes, count: found.length, glosses: found.filter((f) => f.type === 'gn').length, margins: found.filter((f) => f.type === 'mn').length };
+}
+// Marks that fall in [from, to) of a line, rebased to that half (half-line rows).
+function marksIn(raw, marks, from, to) {
+  return (marks || []).filter((m) => m.start >= from && m.start < to).map((m) => markOf(raw.slice(from, to), m.start - from, Math.min(m.end, to) - from, m.n));
 }
 
 // ---------------------------------------------------------------- verse pairing
@@ -281,10 +378,12 @@ export function renderReading(w, opts) {
   const warns = [];
   const warn = (m) => warns.push(m);
   const verse = w.form === 'verse';
+  const textTag = opts.textTag;
   const ob = parse(w.text);
   const hasHans = !!w.textHans && attachHans(ob, parse(w.textHans));
   if (w.textHans && !hasHans) warn('text.zh-Hans.md does not mirror text.md block for block; the script toggle is off');
-  const N = placeNotes(w, ob, verse, warn);
+  const multiLine = (b) => (b.t === 'q' || opts.aph) && b.lines.length > 1 && (opts.aph || b.lines.every((l) => l.trim().length < 60));
+  const N = placeNotes(w, ob, verse, multiLine, warn);
   const HANS = ' lang="zh-Hans"';
   const bi0 = new Map(ob.map((b, i) => [b, i]));
   const P = opts.P;
@@ -302,39 +401,38 @@ export function renderReading(w, opts) {
   }
   for (const tx of [P, opts.T2]) if (tx && hasHan(tx.text)) addGlyphs(tx.text.replace(/```[\s\S]*?```/g, ''), 'base');
 
-  // ---- notes
+  // ---- notes. Glosses are in the page language (sans); marginalia are in Claude's hand (serif), signed once per layer.
   const signed = { o: false, p: false };
+  const own = (x) => (x[lang] ? lang : x.en ? 'en' : 'zh');
+  const hanTag = /-Hant$/.test(textTag) ? 'zh-Hant' : 'zh-Hans';
+  const body = (s, l) => (l === 'zh' ? esc(s) : hanRuns(esc(s), hanTag));
   const gAnchor = (f) => {
-    const u = N.byKey.get(f.key);
-    const hansAt = f.g.at_hans || (f.h && u && u.hans ? u.hans.slice(f.h.start, f.h.end) : f.g.at);
-    if (!hasHans || hansAt === f.g.at) return `<span class="ga">${esc(f.g.at)}</span>`;
-    return `<span class="ga o-hant">${esc(f.g.at)}</span><span class="ga o-hans"${HANS}>${esc(hansAt)}</span>`;
+    if (!hasHans || f.hansAt == null || f.hansAt === f.g.at) return `<span class="ga" lang="${textTag}">${esc(f.g.at)}</span>`;
+    return `<span class="ga o-hant" lang="${textTag}">${esc(f.g.at)}</span><span class="ga o-hans"${HANS}>${esc(f.hansAt)}</span>`;
   };
   const noteHTML = (f, prefix, layer) => {
     if (f.type === 'gn') {
-      const body = f.g[lang] || f.g.en || f.g.zh || '';
-      return `<aside class="gn" id="${prefix}${f.n}" role="note" data-n="${f.n}"><b class="gnum">${f.n}</b> ${gAnchor(f)} ${esc(body)}</aside>`;
+      const l = own(f.g);
+      return `<aside class="gn" id="${prefix}${f.n}" role="note" lang="${tagOfPage(l)}"><b class="gnum">${f.n}</b> ${gAnchor(f)} ${body(f.g[l] || '', l)}</aside>`;
     }
-    const own = f.m[lang];
-    const text = own || f.m.en || f.m.zh || '';
-    const tLang = (own ? lang : f.m.en ? 'en' : 'zh') === 'zh' ? 'zh-Hans' : 'en';
-    if (tLang === 'zh-Hans') addGlyphs(text, 'base');
+    const l = own(f.m);
+    const text = f.m[l] || '';
+    addGlyphs(text, 'base'); // marginalia are set in the serif, Han quoted in English ones included
     const sig = signed[layer] ? '' : `<span class="mn-sig meta">— Claude</span>`;
     signed[layer] = true;
-    return `<aside class="mn" role="note" aria-label="${T('Claude, in the margin', 'Claude 的页边批注')}"><span class="mn-t" lang="${tLang}">${esc(text)}</span>${sig}</aside>`;
+    return `<aside class="mn" role="note" aria-label="${T('Claude, in the margin', 'Claude 的页边批注')}" lang="${tagOfPage(l)}">${body(text, l)}${sig}</aside>`;
   };
   const notesFor = (keys, prefix, layer) => keys.flatMap((k) => N.notes.get(k) || []).map((f) => noteHTML(f, prefix, layer)).join('');
 
   // ---- blocks of the original
   const K = (keep) => (keep ? 'keep' : '');
-  const multiLine = (b) => (b.t === 'q' || opts.aph) && b.lines.length > 1 && (opts.aph || b.lines.every((l) => l.trim().length < 60));
-  const paraHTML = (b, bi, keep, prefix, extra = '') => {
+  const lines2 = (b, lines, marks, prefix) => (multiLine(b) ? marked(joinBreaks(lines), marks, prefix).replace(/\n/g, '<br>') : marked(joinLines(lines), marks, prefix));
+  const paraHTML = (b, bi, keep, prefix) => {
     const k = String(bi);
     const tag = b.t === 'q' ? 'blockquote' : 'p';
     const kind = b.t === 'q' ? 'q' : opts.aph ? 'aph' : '';
-    const body = (lines, marks) => (multiLine(b) ? lines.map((l) => rich(l.trim())).join('<br>') : marked(joinLines(lines), marks, prefix));
-    const hant = `<${tag} class="${cls('o', hasHans && 'o-hant', K(keep), kind, extra)}">${body(b.lines, N.marks.get(k))}</${tag}>`;
-    const hans = hasHans ? `<${tag} class="${cls('o o-hans', K(keep), kind, extra)}"${HANS}>${body(b.hans.lines, N.hmarks.get(k))}</${tag}>` : '';
+    const hant = `<${tag} class="${cls('o', hasHans && 'o-hant', K(keep), kind)}">${lines2(b, b.lines, N.marks.get(k), prefix)}</${tag}>`;
+    const hans = hasHans ? `<${tag} class="${cls('o o-hans', K(keep), kind)}"${HANS}>${lines2(b, b.hans.lines, N.hmarks.get(k), prefix)}</${tag}>` : '';
     return hant + hans;
   };
   const isPreface = (b) => verse && cjk && b.t === 'p' && b.lines.length === 1 && b.lines[0].trim().length > 34;
@@ -347,11 +445,11 @@ export function renderReading(w, opts) {
     const lines = b.text.replace(/\n+$/, '').split('\n').map((l) => `<span class="${isCm(l) ? 'cl cm' : 'cl'}">${esc(l).replace(HAN_RUN, (m) => `<span class="han">${m}</span>`)}</span>`).join('\n');
     return `<div class="${cls('code-wrap wide', extra)}"${attrs}><p class="code-tools needs-js"><button class="linkish" type="button" data-copy>${T('Copy', '复制')}</button><span class="copy-status" aria-live="polite"></span></p><div class="code-box"><pre class="code"${b.info ? ` data-lang="${esc(b.info)}"` : ''} tabindex="0" aria-label="${T('Code', '代码')}"><code>${lines}</code></pre></div></div>`;
   };
-  const oBlockHTML = (b, bi, keep) => {
+  const oBlockHTML = (b, bi, keep, prefix = 'gl-') => {
     if (b.t === 'code') return codeHTML(b, cls('o', K(keep)));
     if (b.t === 'hr') return `<hr class="${cls('break o', K(keep))}">`;
     if (b.t === 'h') return `<h3 class="${cls('read-h3 o', hasHans && 'o-hant', K(keep))}">${rich(b.text)}</h3>${hasHans ? `<h3 class="${cls('read-h3 o o-hans', K(keep))}"${HANS}>${rich(b.hans.text)}</h3>` : ''}`;
-    return paraHTML(b, bi, keep, 'gl');
+    return paraHTML(b, bi, keep, prefix);
   };
   const trBlockHTML = (b) => {
     if (b.t === 'code') return codeHTML(b, 'tr', PL);
@@ -361,12 +459,12 @@ export function renderReading(w, opts) {
     return `<${tag} class="${cls('tr', b.t === 'q' ? 'q' : opts.aph && 'aph')}"${PL}>${multiLine(b) ? b.lines.map((l) => rich(l.trim())).join('<br>') : rich(joinLines(b.lines))}</${tag}>`;
   };
 
-  // ---- prose beads
+  // ---- prose beads: one original block (or a group) with its translation, notes first
   const beadHTML = (bead, keep = false) => {
     const keys = bead.o.filter(isStanza).map((b) => String(bi0.get(b)));
-    const notes = notesFor(keys, 'gl', 'p');
+    const notes = notesFor(keys, 'gl-', 'p');
     // notes anchored in code follow the block in the text column (code reaches across the margin)
-    const cn = notesFor(bead.o.filter((b) => b.t === 'code').map((b) => 'c' + bi0.get(b)), 'gl', 'p');
+    const cn = notesFor(bead.o.filter((b) => b.t === 'code').map((b) => 'c' + bi0.get(b)), 'gl-', 'p');
     const codeNotes = cn ? `<div class="code-notes">${cn}</div>` : '';
     if (bead.t && bead.o.length === 1 && bead.t.length === 1 && bead.o[0].t === 'code' && bead.t[0].t === 'code' && bead.o[0].text === bead.t[0].text) return codeHTML(bead.o[0]) + codeNotes;
     const one = bead.o.length === 1 && (!bead.t || bead.t.length <= 1);
@@ -377,77 +475,92 @@ export function renderReading(w, opts) {
     return `<div class="${cls('blk', notes && 'has-n', !one && 'grp')}">${notes}${html}</div>${codeNotes}`;
   };
 
-  // ---- verse
+  // ---- verse, layer O: the stanza as written, each note just before its line
   const stanzaO = (b, keep = false) => {
     const bi = bi0.get(b);
     if (isPreface(b)) {
       const k = bi + ':0';
-      const nts = notesFor([k], 'go', 'o');
-      const ps = `<p class="${cls('o preface', hasHans && 'o-hant', K(keep))}">${marked(b.lines[0].trim(), N.marks.get(k), 'go')}</p>` + (hasHans ? `<p class="${cls('o o-hans preface', K(keep))}"${HANS}>${marked(b.hans.lines[0].trim(), N.hmarks.get(k), 'go')}</p>` : '');
+      const nts = notesFor([k], 'glo-', 'o');
+      const ps = `<p class="${cls('o preface', hasHans && 'o-hant', K(keep))}">${marked(b.lines[0].trim(), N.marks.get(k), 'glo-')}</p>` + (hasHans ? `<p class="${cls('o o-hans preface', K(keep))}"${HANS}>${marked(b.hans.lines[0].trim(), N.hmarks.get(k), 'glo-')}</p>` : '');
       return nts ? `<div class="blk has-n">${nts}${ps}</div>` : ps;
     }
     let anyN = false;
     const lines = b.lines.map((l, li) => {
       const k = bi + ':' + li;
-      const nts = notesFor([k], 'go', 'o');
+      const nts = notesFor([k], 'glo-', 'o');
       if (nts) anyN = true;
-      return nts + lineSpan(l, cls('o', hasHans && 'o-hant', K(keep)), N.marks.get(k), 'go') + (hasHans ? lineSpan(b.hans.lines[li], cls('o o-hans', K(keep)), N.hmarks.get(k), 'go', HANS) : '');
+      return nts + lineSpan(l, cls('o', hasHans && 'o-hant', K(keep)), N.marks.get(k), 'glo-') + (hasHans ? lineSpan(b.hans.lines[li], cls('o o-hans', K(keep)), N.hmarks.get(k), 'glo-', HANS) : '');
     }).join('');
     return `<div class="${cls('stanza', anyN && 'has-n', K(keep))}">${lines}</div>`;
   };
+  // ---- verse, layer P: one row (.vr) per line or half-line, original and translation side by side. Every row of
+  // a stanza shares the first column's width: for Chinese it is computed here in em (each character is 1em), so
+  // rows line up without one grid per stanza, and each note can sit just before its row and float into the margin.
   const modes = [];
+  const notesP = (fs) => fs.map((f) => noteHTML(f, 'gl-', 'p')).join('');
+  const widthCls = (cells) => {
+    if (!cjk) return '';
+    const em = Math.max(1, ...cells.map((s) => [...anchorText(s)].reduce((a, c) => a + (/[　-〿㐀-鿿豈-﫿＀-￯]|[\u{20000}-\u{2ebef}]/u.test(c) ? 1 : 0.6), 0)));
+    return 'w' + (WIDTHS.find((x) => x >= Math.ceil(em - 0.05)) || WIDTHS[WIDTHS.length - 1]);
+  };
   const rowsHTML = (pair) => {
     const o = pair.o, t = pair.t;
     if (!o) {
-      const cell = (arr, c, attrs, hans) => `<div class="${c}"${attrs}>${arr.map((b) => `<span class="st">${(hans ? b.hans.lines : b.lines).map((l) => { const lead = indentOf(l); return `<span class="${cls('line', lead && 'i' + lead)}">${rich(l.trim())}</span>`; }).join('')}</span>`).join('')}</div>`;
+      // the section's stanzas pair as one block: original and translation side by side, each as written
+      const cell = (arr, c, attrs, src) => `<div class="${c}"${attrs}>${arr.map((b) => `<span class="st">${src(b).map((l, li) => lineSpan(l, '', src === tLines ? null : (src === hLines ? N.hmarks : N.marks).get(bi0.get(b) + ':' + li), 'gl-')).join('')}</span>`).join('')}</div>`;
+      const oLines = (b) => b.lines, hLines = (b) => b.hans.lines, tLines = (b) => b.lines;
       const keys = pair.all.flatMap((b) => b.lines.map((_, li) => bi0.get(b) + ':' + li));
       modes.push('stanza');
-      return `<div class="vrows st-mode">${cell(pair.all, cls('o', hasHans && 'o-hant'), '')}${hasHans ? cell(pair.all, 'o o-hans', HANS, true) : ''}${cell(pair.tall, 'tr', PL)}${notesFor(keys, 'gl', 'p')}</div>`;
+      const nts = notesP(keys.flatMap((k) => N.notes.get(k) || []));
+      return `<div class="${cls('vrows', nts && 'has-n', widthCls(pair.all.flatMap((b) => b.lines)))}">${nts}<div class="vr st">${cell(pair.all, cls('o', hasHans && 'o-hant'), '', oLines)}${hasHans ? cell(pair.all, 'o o-hans', HANS, hLines) : ''}${cell(pair.tall, 'tr', PL, tLines)}</div></div>`;
     }
     const bi = bi0.get(o);
     const mode = rowMode(o, t, cjk, isPreface(o));
     modes.push(mode);
     if (mode === 'prose') {
       const k = bi + ':0';
-      const nts = notesFor([k], 'gl', 'p');
-      const ps = `<p class="${cls('o preface', hasHans && 'o-hant')}">${marked(o.lines[0].trim(), N.marks.get(k), 'gl')}</p>` + (hasHans ? `<p class="o o-hans preface"${HANS}>${marked(o.hans.lines[0].trim(), N.hmarks.get(k), 'gl')}</p>` : '') + `<p class="tr"${PL}>${rich(joinLines(t.lines))}</p>`;
+      const nts = notesFor([k], 'gl-', 'p');
+      const ps = `<p class="${cls('o preface', hasHans && 'o-hant')}">${marked(o.lines[0].trim(), N.marks.get(k), 'gl-')}</p>` + (hasHans ? `<p class="o o-hans preface"${HANS}>${marked(o.hans.lines[0].trim(), N.hmarks.get(k), 'gl-')}</p>` : '') + `<p class="tr"${PL}>${rich(joinLines(t.lines))}</p>`;
       return nts ? `<div class="blk has-n">${nts}${ps}</div>` : ps;
     }
-    let html = '';
+    let html = '', cells = [];
+    const row = (inner) => `<div class="vr">${inner}</div>`;
     if (mode === 'line') {
       o.lines.forEach((l, li) => {
         const k = bi + ':' + li;
-        html += lineSpan(l, cls('o', hasHans && 'o-hant'), N.marks.get(k), 'gl') + (hasHans ? lineSpan(o.hans.lines[li], 'o o-hans', N.hmarks.get(k), 'gl', HANS) : '') + lineSpan(t.lines[li], 'tr', null, '', PL) + notesFor([k], 'gl', 'p');
+        cells.push(l.trim());
+        html += notesP(N.notes.get(k) || []) + row(lineSpan(l, cls('o', hasHans && 'o-hant'), N.marks.get(k), 'gl-') + (hasHans ? lineSpan(o.hans.lines[li], 'o o-hans', N.hmarks.get(k), 'gl-', HANS) : '') + lineSpan(t.lines[li], 'tr', null, '', PL));
       });
     } else if (mode === 'half') {
       o.lines.forEach((l, li) => {
         const k = bi + ':' + li;
-        const s = l.trim(), hs = o.hans ? o.hans.lines[li].trim() : '';
+        const s = l.trim(), hs = hasHans ? o.hans.lines[li].trim() : '';
         const [a, b] = splitCaesura(s), cut = a.length;
         const [ha, hb] = hasHans ? splitCaesura(hs) : ['', ''];
         const hcut = ha.length;
-        const part = (marks, from, to) => (marks || []).filter((m) => m.start >= from && m.start < to).map((m) => ({ start: m.start - from, end: Math.min(m.end, to) - from, n: m.n }));
         const fs = N.notes.get(k) || [];
-        const half = (txt, htxt, from, to, hfrom, hto, tl, nts) => `<span class="${cls('o', hasHans && 'o-hant', 'line')}">${marked(txt, part(N.marks.get(k), from, to), 'gl')}</span>`
-          + (hasHans ? `<span class="o o-hans line"${HANS}>${marked(htxt, part(N.hmarks.get(k), hfrom, hto), 'gl')}</span>` : '')
-          + lineSpan(tl || '', 'tr', null, '', PL) + nts.map((f) => noteHTML(f, 'gl', 'p')).join('');
-        html += half(a, ha, 0, cut, 0, hcut, t.lines[2 * li], fs.filter((f) => f.type === 'mn' || f.start < cut))
-          + half(b, hb, cut, s.length, hcut, hs.length, t.lines[2 * li + 1], fs.filter((f) => f.type === 'gn' && f.start >= cut));
+        cells.push(a, b);
+        const half = (txt, htxt, from, to, hfrom, hto, tl, nts) => notesP(nts) + row(`<span class="${cls('o', hasHans && 'o-hant', 'line')}">${marked(txt, marksIn(s, N.marks.get(k), from, to), 'gl-')}</span>`
+          + (hasHans ? `<span class="o o-hans line"${HANS}>${marked(htxt, marksIn(hs, N.hmarks.get(k), hfrom, hto), 'gl-')}</span>` : '')
+          + lineSpan(tl || '', 'tr', null, '', PL));
+        html += half(a, ha, 0, cut, 0, hcut, t.lines[2 * li], fs.filter((f) => f.start < cut))
+          + half(b, hb, cut, s.length, hcut, hs.length, t.lines[2 * li + 1], fs.filter((f) => f.start >= cut));
       });
     } else {
       const keys = o.lines.map((_, li) => bi + ':' + li);
-      const cell = (lines, c, attrs, marksOf) => `<div class="${c}"${attrs}>${lines.map((l, li) => lineSpan(l, '', marksOf ? marksOf.get(bi + ':' + li) : null, 'gl')).join('')}</div>`;
-      html = cell(o.lines, cls('o', hasHans && 'o-hant'), '', N.marks) + (hasHans ? cell(o.hans.lines, 'o o-hans', HANS, N.hmarks) : '') + cell(t.lines, 'tr', PL, null) + notesFor(keys, 'gl', 'p');
+      cells = o.lines.map((l) => l.trim());
+      const cell = (lines, c, attrs, marksOf) => `<div class="${c}"${attrs}>${lines.map((l, li) => lineSpan(l, '', marksOf ? marksOf.get(bi + ':' + li) : null, 'gl-')).join('')}</div>`;
+      html = notesP(keys.flatMap((k) => N.notes.get(k) || [])) + `<div class="vr st">${cell(o.lines, cls('o', hasHans && 'o-hant'), '', N.marks) + (hasHans ? cell(o.hans.lines, 'o o-hans', HANS, N.hmarks) : '') + cell(t.lines, 'tr', PL, null)}</div>`;
     }
-    return `<div class="${cls('vrows', mode === 'stanza' && 'st-mode')}">${html}</div>`;
+    return `<div class="${cls('vrows', /class="(gn|mn)"/.test(html) && 'has-n', widthCls(cells))}">${html}</div>`;
   };
-  // A run of verse with its translation: layer O as written, layer P aligned.
-  const verseRun = (blocks, tb) => {
-    const layerO = blocks.map((b) => (isStanza(b) ? stanzaO(b) : oBlockHTML(b, bi0.get(b), false))).join('');
+  // A run of verse with its translation: layer O as written, layer P aligned. Verse a translation leaves out
+  // is shown as written in every view (keep).
+  const verseRun = (blocks, tb, keep = false) => {
     const pairs = tb ? pairVerse(blocks, tb, cjk) : null;
+    const layerO = blocks.map((b) => (isStanza(b) ? stanzaO(b, keep && !pairs) : oBlockHTML(b, bi0.get(b), keep && !pairs, 'glo-'))).join('');
     if (!pairs) return layerO;
-    const layerP = pairs.map(rowsHTML).join('');
-    return `<div class="layer-o">${layerO}</div><div class="${cls('layer-p', /class="(gn|mn)"/.test(layerP) && 'has-n')}">${layerP}</div>`;
+    return `<div class="layer-o">${layerO}</div><div class="layer-p">${pairs.map(rowsHTML).join('')}</div>`;
   };
 
   // ---------------------------------------------------------------- sections
@@ -456,7 +569,7 @@ export function renderReading(w, opts) {
   const full = P && (!P.info || P.info.full !== false);
   const seg = P && !full ? mapSegments(P.info, ob, oSecs, tParsed, warn) : null;
   const paired = !!P && (full || !!seg);
-  const tSecs = full ? sectionsOf(tParsed) : null;
+  const tPair = full ? pairSections(oSecs, sectionsOf(tParsed), warn) : null;
   const ntNote = () => `<p class="nt meta">${P && P.lang === 'zh' ? T('Not yet translated into Chinese', '本节暂无中文译文') : T('Not yet translated', '本节暂无译文')}</p>`;
   let anchored = false;
   const trAnchor = () => (anchored ? '' : ((anchored = true), '<span class="tr-anchor" id="translated"></span>'));
@@ -491,18 +604,13 @@ export function renderReading(w, opts) {
         if (verse) add(verseRun(r.blocks, tb), min);
         else for (const bead of align(r.blocks, tb)) add(beadHTML(bead), minutesOf(bead.o.map(blockText).join('\n')));
       }
-    } else if (verse) {
-      const tsec = full ? (tSecs.length === oSecs.length ? tSecs[si] : si === 0 ? { h: null, blocks: tParsed.filter((b) => !(b.t === 'h' && b.level === 2)) } : null) : null;
-      entry.tHead = tsec && tsec.h ? tsec.h.text : null;
-      entry.translated = !!tsec;
-      add(verseRun(B, tsec ? tsec.blocks : null), minutesOf(B.map(blockText).join('\n')));
     } else {
-      const tsec = full ? tSecs[si] || null : null;
+      const tsec = tPair ? tPair[si] : null;
+      const keep = paired && !tsec;
       entry.tHead = tsec && tsec.h ? tsec.h.text : null;
       entry.translated = !!tsec;
-      const beads = tsec ? align(B, tsec.blocks) : B.map((b) => ({ o: [b], t: null }));
-      if (full && si === oSecs.length - 1 && tSecs.length > oSecs.length) for (const extra of tSecs.slice(oSecs.length)) beads.push({ o: [], t: extra.blocks });
-      for (const bead of beads) add(beadHTML(bead), minutesOf(bead.o.map(blockText).join('\n')));
+      if (verse) add(verseRun(B, tsec ? tsec.blocks : null, keep), minutesOf(B.map(blockText).join('\n')));
+      else for (const bead of tsec ? align(B, tsec.blocks) : B.map((b) => ({ o: [b], t: null }))) add(beadHTML(bead, keep), minutesOf(bead.o.map(blockText).join('\n')));
     }
     return entry;
   });
@@ -511,7 +619,7 @@ export function renderReading(w, opts) {
   // Every ## section is a <section class="part">. Long works with no headings are cut into unnamed parts
   // (about 3–5 minutes each) so progress and content-visibility have something to count.
   const h2HTML = (s) => {
-    const keep = K(!s.tHead);
+    const keep = K(paired && !s.tHead);
     const o = `<span class="${cls('o', hasHans && 'o-hant', keep)}">${rich(s.h.text)}</span>${hasHans ? `<span class="${cls('o o-hans', keep)}"${HANS}>${rich(s.h.hans.text)}</span>` : ''}`;
     const tr = s.tHead ? `<span class="tr"${PL}>${rich(s.tHead)}</span>` : '';
     return `<h2 class="read-h">${o}${tr}<a class="pl" href="#${s.id}" aria-label="${T('Link to this section', '链接到这一节')}">#</a></h2>`;
@@ -533,9 +641,9 @@ export function renderReading(w, opts) {
     const inner = (s.h ? h2HTML(s) : '') + s.items.map((it) => it.html).join('');
     if (!opts.parts && !s.h) return inner;
     const id = s.id || 'text-part-' + ++chunk;
-    return `<section class="${cls('part', opts.cv && 'cv', !s.h && 'unnamed')}" id="${id}" data-min="${min.toFixed(1)}">${inner}</section>`;
+    return `<section class="${cls('part', opts.cv && 'cv')}" id="${id}" data-min="${min.toFixed(1)}">${inner}</section>`;
   }).join('\n');
-  const toc = secs.filter((s) => s.h).map((s) => ({ id: s.id, text: s.h.text, hans: s.h.hans ? s.h.hans.text : null, tr: s.tHead, translated: s.translated, min: s.items.reduce((a, it) => a + it.min, 0) }));
+  const toc = secs.filter((s) => s.h).map((s) => ({ id: s.id, text: s.h.text, hans: hasHans && s.h.hans ? s.h.hans.text : null, tr: s.tHead, translated: s.translated, min: s.items.reduce((a, it) => a + it.min, 0) }));
 
   // ---------------------------------------------------------------- a translation on its own (layer t2)
   let t2 = '';
@@ -553,14 +661,10 @@ export function renderReading(w, opts) {
     t2 = `<div class="layer-t2" lang="${tx.tag}">${intro}${body}</div>`;
   }
 
-  // Glosses as a numbered list for print (hidden on screen).
-  const glossPrint = N.glosses.length ? `<ol class="gl-print" aria-hidden="true">${N.glosses.map((f) => `<li value="${f.n}"><span class="ga">${esc(f.g.at)}</span> ${esc(f.g[lang] || f.g.en || '')}</li>`).join('')}</ol>` : '';
-
   const vmode = !modes.length ? null : modes.every((m) => m === 'line' || m === 'prose') ? 'line' : modes.every((m) => m !== 'stanza') ? 'half' : modes.some((m) => m !== 'stanza') ? 'mixed' : 'stanza';
   return {
     html: html + t2, toc, parts: opts.parts ? parts.length : 0,
-    hasHans, notes: N.count, glossCount: N.glosses.length, margins: N.margins, glossPrint,
-    verseMode: vmode, paired, partial: !!seg, unmapped: !!P && !full && !seg,
-    hasLayerP: html.includes('class="layer-p'), warns,
+    hasHans, notes: N.count, glossCount: N.glosses, margins: N.margins,
+    verseMode: vmode, paired, partial: !!seg, unmapped: !!P && !full && !seg, warns,
   };
 }

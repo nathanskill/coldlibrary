@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes.",
-    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解。"
+    "en": "The received Mao text as given on Chinese Wikisource, without the Mao preface, chapter count and notes. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库所载毛诗本，删去《毛诗序》、章句说明与注解。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,48 @@
     "en": "Yu, yu, the deer are calling, grazing on the wild sedge. / I have good guests with me: play the zither, blow the reed-pipes.",
     "zh": "呦呦鹿鸣，食野之苹。我有嘉宾，鼓瑟吹笙。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "呦呦",
+      "occ": 1,
+      "en": "The call of a deer.",
+      "zh": "鹿的叫声。"
+    },
+    {
+      "at": "食野之苹",
+      "occ": 1,
+      "en": "苹 is a wild plant, traditionally glossed as a kind of mugwort; nothing to do with the apple, which shares the character in modern simplified Chinese.",
+      "zh": "苹：藾蒿，一种野草，与“苹果”无关。"
+    },
+    {
+      "at": "鼓瑟吹笙",
+      "occ": 1,
+      "en": "瑟 is a large plucked zither; 笙, a mouth organ of bamboo pipes. The 簧 of the next line is the reed inside the 笙.",
+      "zh": "瑟：弹拨乐器，似琴而大。笙：竹管排成的吹奏乐器。下句“簧”是笙管里的簧片。"
+    },
+    {
+      "at": "承筐是將",
+      "occ": 1,
+      "at_hans": "承筐是将",
+      "en": "承筐: holding up baskets of gifts. 將: to present them.",
+      "zh": "承筐：捧着盛礼品的竹筐。将：奉献。"
+    },
+    {
+      "at": "示我周行",
+      "occ": 1,
+      "en": "周行: the great road, hence the right way.",
+      "zh": "周行（háng）：大路，引申为正道。"
+    },
+    {
+      "at": "式燕以敖",
+      "occ": 1,
+      "en": "式 is a particle; 燕 is 宴, to feast; 敖 is 遨, to be at ease.",
+      "zh": "式：语助词。燕：同“宴”。敖：同“遨”，逍遥。"
+    }
+  ],
+  "pairs": [
+    "S-001032",
+    "S-001022"
+  ]
 }

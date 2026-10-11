@@ -61,5 +61,31 @@
     "en": "You may remember, better still, forget the light we gave each other as we passed.",
     "zh": "你记得也好，最好你忘掉，在这交会时互放的光亮！"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-001060",
+    "S-003021",
+    "S-004004"
+  ],
+  "gloss": [
+    {
+      "at": "我是天空裏的一片雲",
+      "occ": 1,
+      "at_hans": "我是天空里的一片云",
+      "en": "This poem was later sung by an old blind man in the last act of Bian Kungang (1928), a play Xu Zhimo wrote with Lu Xiaoman.",
+      "zh": "这首诗后来被用作徐志摩与陆小曼合写的剧本《卞昆冈》（1928）第五幕中老瞎子的唱词。"
+    },
+    {
+      "at": "波心",
+      "occ": 1,
+      "en": "波心: the middle of the water, an old poetic word, as in Jiang Kui's 'the heart of the waves rocks, the cold moon makes no sound'.",
+      "zh": "波心：水的中心，旧诗词常用，如姜夔《扬州慢》“波心荡、冷月无声”。"
+    },
+    {
+      "at": "你我相逢在黑夜的海上",
+      "occ": 1,
+      "en": "The image recalls Longfellow's 'Ships that pass in the night, and speak each other in passing', lines that became an English saying.",
+      "zh": "这一意象让人想起美国诗人朗费罗的诗句“夜里驶过的船，擦肩时互相致意”（Ships that pass in the night），这句诗在英语里已成了俗语。"
+    }
+  ]
 }

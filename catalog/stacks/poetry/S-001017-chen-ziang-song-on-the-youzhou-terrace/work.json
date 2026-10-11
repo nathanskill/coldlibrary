@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems).",
-    "zh": "据维基文库（《唐诗三百首》本）。"
+    "en": "Text as given on Chinese Wikisource (from Three Hundred Tang Poems). Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库（《唐诗三百首》本）。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -59,5 +59,43 @@
     "en": "Before me, I cannot see the ancients; / after me, I cannot see those still to come.",
     "zh": "前不见古人，后不见来者。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "古人",
+      "occ": 1,
+      "en": "The ancients: often read as the wise rulers of the past who valued talent, such as King Zhao of Yan, said to have built a terrace in this region to welcome able men.",
+      "zh": "古人：常被解作古代礼贤下士的贤君，如相传在这一带筑黄金台招贤的燕昭王。"
+    },
+    {
+      "at": "來者",
+      "occ": 1,
+      "at_hans": "来者",
+      "en": "Those still to come: the worthy rulers of later ages.",
+      "zh": "来者：后世的贤君。"
+    },
+    {
+      "at": "悠悠",
+      "occ": 1,
+      "en": "Vast and endless, in space and in time.",
+      "zh": "悠悠：无穷无尽，指时间久远、空间广大。"
+    },
+    {
+      "at": "愴然",
+      "occ": 1,
+      "at_hans": "怆然",
+      "en": "Stricken, grieved.",
+      "zh": "怆然：悲伤的样子。"
+    },
+    {
+      "at": "涕下",
+      "occ": 1,
+      "en": "涕 in classical Chinese means tears.",
+      "zh": "涕：眼泪（古义）。"
+    }
+  ],
+  "pairs": [
+    "S-002022",
+    "S-001033"
+  ]
 }

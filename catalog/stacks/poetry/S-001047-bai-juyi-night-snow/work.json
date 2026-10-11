@@ -60,5 +60,38 @@
     "en": "Deep in the night I know the snow is heavy: / now and then I hear the bamboo snap.",
     "zh": "夜深知雪重，时闻折竹声。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "已訝",
+      "occ": 1,
+      "at_hans": "已讶",
+      "en": "訝: to be surprised, puzzled.",
+      "zh": "讶：惊讶。"
+    },
+    {
+      "at": "衾枕",
+      "occ": 1,
+      "en": "Quilt and pillow.",
+      "zh": "衾（qīn）：被子。"
+    },
+    {
+      "at": "窗戶明",
+      "occ": 1,
+      "at_hans": "窗户明",
+      "en": "The window bright with the glow of snow outside.",
+      "zh": "雪光映照，窗户透亮。"
+    },
+    {
+      "at": "折竹聲",
+      "occ": 1,
+      "at_hans": "折竹声",
+      "en": "The sound of bamboo snapping under the weight of snow.",
+      "zh": "积雪压断竹子的声音。"
+    }
+  ],
+  "pairs": [
+    "S-001046",
+    "S-001001"
+  ]
 }

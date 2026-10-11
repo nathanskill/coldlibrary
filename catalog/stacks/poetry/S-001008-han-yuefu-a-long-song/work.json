@@ -60,5 +60,52 @@
     "en": "A hundred rivers flow east to the sea: / when will any of them come back west?",
     "zh": "百川东到海，何时复西归？"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "園中葵",
+      "occ": 1,
+      "at_hans": "园中葵",
+      "en": "葵 is the mallow, a common vegetable in ancient China, not the sunflower of modern Chinese.",
+      "zh": "葵：冬葵，古代常见的蔬菜，不是向日葵。"
+    },
+    {
+      "at": "待日晞",
+      "occ": 1,
+      "en": "晞: to dry in the sun.",
+      "zh": "晞：（被太阳）晒干。"
+    },
+    {
+      "at": "陽春布德澤",
+      "occ": 1,
+      "at_hans": "阳春布德泽",
+      "en": "Spring spreads its bounty like a kind ruler; 德澤 is the favour a ruler bestows.",
+      "zh": "阳春：温暖的春天。布：施予。德泽：恩泽。"
+    },
+    {
+      "at": "焜黃",
+      "occ": 1,
+      "at_hans": "焜黄",
+      "en": "Withered yellow, the colour of fading leaves.",
+      "zh": "焜（kūn）黄：草木衰败后的枯黄色。"
+    },
+    {
+      "at": "百川東到海",
+      "occ": 1,
+      "at_hans": "百川东到海",
+      "en": "China's great rivers run east to the sea and none runs back: an old figure for time.",
+      "zh": "中国的大河都向东流入大海，不再西归，比喻光阴一去不返。"
+    },
+    {
+      "at": "老大徒傷悲",
+      "occ": 1,
+      "at_hans": "老大徒伤悲",
+      "en": "老大: grown old. 徒: in vain.",
+      "zh": "老大：年老。徒：白白地。"
+    }
+  ],
+  "pairs": [
+    "S-001014",
+    "S-001064"
+  ]
 }

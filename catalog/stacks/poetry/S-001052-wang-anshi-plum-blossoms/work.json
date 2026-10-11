@@ -60,5 +60,30 @@
     "en": "From far away I know it isn't snow, / because a hidden fragrance comes.",
     "zh": "遥知不是雪，为有暗香来。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "凌寒",
+      "occ": 1,
+      "en": "Braving the cold.",
+      "zh": "凌寒：冒着严寒。"
+    },
+    {
+      "at": "遙知",
+      "occ": 1,
+      "at_hans": "遥知",
+      "en": "From a distance one can tell.",
+      "zh": "遥：远远地。"
+    },
+    {
+      "at": "暗香",
+      "occ": 1,
+      "en": "A faint, hidden fragrance; the phrase recalls Lin Bu's famous plum couplet, 'a hidden fragrance drifts in the moonlit dusk'.",
+      "zh": "暗香：清幽的香气。林逋《山园小梅》有“暗香浮动月黄昏”。"
+    }
+  ],
+  "pairs": [
+    "S-001066",
+    "S-001047"
+  ]
 }

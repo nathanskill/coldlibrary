@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; punctuation is added at the source's own phrase breaks.",
-    "zh": "据维基文库，标点依原文断句补加。"
+    "en": "Text as given on Chinese Wikisource; punctuation is added at the source's own phrase breaks. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，标点依原文断句补加。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -61,5 +61,38 @@
     "en": "Seven or eight stars beyond the sky, / two or three drops of rain before the hill.",
     "zh": "七八个星天外，两三点雨山前。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "別枝",
+      "occ": 1,
+      "at_hans": "别枝",
+      "en": "A branch slanting off on its own; some read it as the magpie leaving its branch.",
+      "zh": "别枝：斜伸出的枝丫；一说离开枝头。"
+    },
+    {
+      "at": "說豐年",
+      "occ": 1,
+      "at_hans": "说丰年",
+      "en": "Talk of a good harvest, by the farmers or, as some read it, by the frogs themselves.",
+      "zh": "说丰年：谈论着丰收的年景；一说是青蛙在“说”。"
+    },
+    {
+      "at": "茅店社林",
+      "occ": 1,
+      "en": "茅店: an inn with a thatched roof. 社林: the grove at the village shrine to the earth god.",
+      "zh": "茅店：茅草盖的乡村客店。社林：土地庙旁的树林。社，土地神庙。"
+    },
+    {
+      "at": "溪橋",
+      "occ": 1,
+      "at_hans": "溪桥",
+      "en": "The bridge over the stream. The Yellow Sand Road of the title crossed Huangsha Ridge west of Shangrao in Jiangxi, near where Xin Qiji lived in retirement.",
+      "zh": "溪桥：溪上的桥。黄沙：黄沙岭，在今江西上饶西，辛弃疾闲居带湖时常经此地。"
+    }
+  ],
+  "pairs": [
+    "S-001070",
+    "S-001022"
+  ]
 }

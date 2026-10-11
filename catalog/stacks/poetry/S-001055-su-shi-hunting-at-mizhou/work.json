@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,44 @@
     "en": "Warm with wine, my heart and nerve are bold; / a little frost at my temples: what of it?",
     "zh": "酒酣胸胆尚开张，鬓微霜，又何妨。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "老夫",
+      "occ": 1,
+      "en": "Su Shi, about forty at the time, calls himself an old man.",
+      "zh": "老夫：作者自称，苏轼作此词时约四十岁。"
+    },
+    {
+      "at": "左牽黃",
+      "occ": 1,
+      "at_hans": "左牵黄",
+      "en": "黃 is a yellow hunting dog; 蒼, in the next line, a grey falcon.",
+      "zh": "黄：黄犬。下句“苍”：苍鹰。"
+    },
+    {
+      "at": "孫郎",
+      "occ": 1,
+      "at_hans": "孙郎",
+      "en": "Sun Quan, ruler of Wu in the Three Kingdoms, who once shot a tiger from horseback.",
+      "zh": "孙郎：三国时吴主孙权，曾亲自骑马射虎。"
+    },
+    {
+      "at": "持節雲中",
+      "occ": 1,
+      "at_hans": "持节云中",
+      "en": "Wei Shang, governor of Yunzhong under Emperor Wen of Han, was dismissed for a small error; Feng Tang spoke for him and was sent with the imperial tally to restore him. Su Shi hopes to be called back to service in the same way.",
+      "zh": "汉文帝时云中太守魏尚因小过被削职，冯唐进谏，文帝派冯唐持节赦免魏尚、恢复其职。苏轼以魏尚自比，盼望朝廷重用。"
+    },
+    {
+      "at": "天狼",
+      "occ": 1,
+      "en": "Sirius, the Wolf Star, an omen of invasion; here the Xi Xia state on the north-western frontier.",
+      "zh": "天狼：天狼星，古人认为主侵掠，这里喻指西北边境的西夏。"
+    }
+  ],
+  "pairs": [
+    "S-001056",
+    "S-001010"
+  ]
 }

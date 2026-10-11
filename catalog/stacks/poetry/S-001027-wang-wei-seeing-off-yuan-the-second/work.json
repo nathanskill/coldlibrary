@@ -61,5 +61,37 @@
     "en": "I urge you, drink one more cup of wine: / west of Yang Pass you will have no old friends.",
     "zh": "劝君更尽一杯酒，西出阳关无故人。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "渭城",
+      "occ": 1,
+      "en": "Weicheng, the old Qin capital Xianyang, on the Wei River north-west of Chang'an, where travellers going west were seen off.",
+      "zh": "渭城：即秦都咸阳故城，在长安西北、渭水北岸，是西行送别之地。"
+    },
+    {
+      "at": "浥",
+      "occ": 1,
+      "en": "To moisten, to damp down (the dust).",
+      "zh": "浥（yì）：湿润。"
+    },
+    {
+      "at": "柳色新",
+      "occ": 1,
+      "en": "Willows were the emblem of parting: 柳 sounds like 留, 'stay', and a willow sprig was broken off for the traveller.",
+      "zh": "柳与“留”谐音，古人有折柳送别的习俗。"
+    },
+    {
+      "at": "陽關",
+      "occ": 1,
+      "at_hans": "阳关",
+      "en": "Yang Pass, south-west of Dunhuang, a gate to the western regions. Anxi, Yuan's destination, was the Protectorate seated at Kucha, far beyond it.",
+      "zh": "阳关：在今甘肃敦煌西南，是通往西域的要道。安西：唐安西都护府，治所在龟兹（今新疆库车）。"
+    }
+  ],
+  "pairs": [
+    "S-001016",
+    "S-001029",
+    "S-001003"
+  ]
 }

@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
-    "zh": "据维基文库，删去其所注异文。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -61,5 +61,51 @@
     "en": "There is no way to be rid of this feeling: / it has only just left my brow / and is back again in my heart.",
     "zh": "此情无计可消除，才下眉头，却上心头。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "玉簟",
+      "occ": 1,
+      "en": "A fine bamboo sleeping mat, cool to lie on.",
+      "zh": "玉簟（diàn）：光滑如玉的竹席。"
+    },
+    {
+      "at": "羅裳",
+      "occ": 1,
+      "at_hans": "罗裳",
+      "en": "A skirt of light silk.",
+      "zh": "罗裳：丝绸裙子。"
+    },
+    {
+      "at": "蘭舟",
+      "occ": 1,
+      "at_hans": "兰舟",
+      "en": "A boat of magnolia wood, a poetic word for a fine boat.",
+      "zh": "兰舟：木兰木做的船，船的美称。"
+    },
+    {
+      "at": "錦書",
+      "occ": 1,
+      "at_hans": "锦书",
+      "en": "A brocade letter: a love letter, after Su Hui, who wove a palindrome poem into brocade for her absent husband.",
+      "zh": "锦书：前秦苏蕙织锦为回文诗寄给丈夫，后以锦书指情书或家书。"
+    },
+    {
+      "at": "雁字",
+      "occ": 1,
+      "en": "Geese in formation look like characters, 一 or 人, written on the sky; geese also carry letters.",
+      "zh": "雁字：雁群飞行时排成“一”字或“人”字。古有鸿雁传书之说。"
+    },
+    {
+      "at": "閒愁",
+      "occ": 1,
+      "at_hans": "闲愁",
+      "en": "Idle sorrow: sorrow with nothing to be done about it.",
+      "zh": "闲愁：无端的愁绪。"
+    }
+  ],
+  "pairs": [
+    "S-001061",
+    "S-001062"
+  ]
 }

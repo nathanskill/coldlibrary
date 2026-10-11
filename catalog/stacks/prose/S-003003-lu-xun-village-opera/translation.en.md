@@ -4,9 +4,7 @@ The first time was in the first year of the Republic, when I had just come to Be
 
 We withdrew to the back, and a man with a very glossy queue led us to one side and showed us a place. This place turned out to be a long bench, but its seat was three-quarters narrower than my thigh, and its legs were two-thirds longer than my shins. At first I had not the courage to climb up on it; then it reminded me of an instrument of torture, and with my flesh creeping I walked out.
 
-I had gone a good distance when I suddenly heard my friend's voice: "What's the matter?" I turned round and found that I had dragged him out too. He said in great surprise, "Why do you keep walking and not answer?"
-
-I said, "I'm sorry, my friend. My ears are still ringing with dong-dong and clang-clang. I didn't hear what you said."
+I had gone a good distance when I suddenly heard my friend's voice: "What's the matter?" I turned round and found that I had dragged him out too. He said in great surprise, "Why do you keep walking and not answer?" I said, "I'm sorry, my friend. My ears are still ringing with dong-dong and clang-clang. I didn't hear what you said."
 
 Afterwards, whenever I thought of it, it struck me as very strange. Either the opera had been very bad, or else I was no longer fit to survive in front of a stage.
 

@@ -60,5 +60,73 @@
     "en": "From my back garden two trees can be seen beyond the wall. One is a date tree, and the other is also a date tree.",
     "zh": "在我的后园，可以看见墙外有两株树，一株是枣树，还有一株也是枣树。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003009",
+    "S-003026",
+    "S-003043"
+  ],
+  "gloss": [
+    {
+      "at": "我的後園",
+      "occ": 1,
+      "at_hans": "我的后园",
+      "en": "The back garden of the house in Xisantiao Lane, Beijing, that Lu Xun moved into in May 1924. His small study at the back of the house, known as the Tiger's Tail, looked out on it.",
+      "zh": "后园：鲁迅 1924 年 5 月迁入的北京西三条胡同住所的后院。屋后的小书房俗称“老虎尾巴”，窗外就是这个园子。"
+    },
+    {
+      "at": "一株是棗樹",
+      "occ": 1,
+      "at_hans": "一株是枣树",
+      "en": "棗: the jujube, or Chinese date, a hardy tree of north China. In autumn its fruit is knocked down with long poles, which is how the boughs got their wounds.",
+      "zh": "枣树：北方常见的耐旱树木。秋天用长竿打枣，枝条因此受伤。"
+    },
+    {
+      "at": "閃閃地䀹着",
+      "occ": 1,
+      "at_hans": "闪闪地䀹着",
+      "en": "䀹: the same as 眨, to blink or wink.",
+      "zh": "䀹：同“眨”。"
+    },
+    {
+      "at": "低亞着",
+      "occ": 1,
+      "at_hans": "低亚着",
+      "en": "低亞: hanging low; 亞 is used in its old sense of bending under weight.",
+      "zh": "低亚：低垂。亚，有低压、下垂的意思。"
+    },
+    {
+      "at": "胡蝶",
+      "occ": 1,
+      "en": "胡蝶: an older way of writing 蝴蝶, butterfly.",
+      "zh": "胡蝶：即“蝴蝶”。"
+    },
+    {
+      "at": "惡鳥",
+      "occ": 1,
+      "at_hans": "恶鸟",
+      "en": "The evil bird of the night is usually taken to be an owl, a bird of ill omen in Chinese folk belief.",
+      "zh": "恶鸟：一般认为指猫头鹰，民间把它看作不祥的鸟。"
+    },
+    {
+      "at": "燈火的帶子",
+      "occ": 1,
+      "at_hans": "灯火的带子",
+      "en": "The flat cotton wick of a kerosene lamp, raised or lowered by turning a small knob.",
+      "zh": "灯火的带子：煤油灯扁平的棉灯芯，旋动灯上的小钮便可调高调低。"
+    },
+    {
+      "at": "猩紅色的栀子",
+      "occ": 1,
+      "at_hans": "猩红色的栀子",
+      "en": "栀子: the gardenia, whose real flowers are white; the scarlet one exists only on the paper shade.",
+      "zh": "栀子：栀子花，真花是白色的，猩红色的只画在灯罩上。"
+    },
+    {
+      "at": "敬奠",
+      "occ": 1,
+      "en": "奠: an offering made in someone's honour, as at a memorial rite; the cigarette smoke stands in for incense.",
+      "zh": "奠：设祭品致敬。这里纸烟的烟代替了香。"
+    }
+  ]
 }

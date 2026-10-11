@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out.",
-    "zh": "据维基文库，删去其所注异文。"
+    "en": "Text as given on Chinese Wikisource; the variant readings it marks are left out. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库，删去其所注异文。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,38 @@
     "en": "A small bridge, flowing water, someone's home.",
     "zh": "小桥、流水、人家。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "昏鴉",
+      "occ": 1,
+      "at_hans": "昏鸦",
+      "en": "Crows at dusk, coming back to roost.",
+      "zh": "昏鸦：黄昏时归巢的乌鸦。"
+    },
+    {
+      "at": "瘦馬",
+      "occ": 1,
+      "at_hans": "瘦马",
+      "en": "A thin, tired horse.",
+      "zh": "瘦马：瘦弱的马。"
+    },
+    {
+      "at": "斷腸人",
+      "occ": 1,
+      "at_hans": "断肠人",
+      "en": "A heartbroken person: the traveller, sick with longing for home.",
+      "zh": "断肠人：形容伤心到极点的人，这里指漂泊天涯的游子。"
+    },
+    {
+      "at": "天涯",
+      "occ": 1,
+      "en": "The edge of the sky: very far from home.",
+      "zh": "天涯：天边，指远离家乡的地方。"
+    }
+  ],
+  "pairs": [
+    "S-001051",
+    "S-001023"
+  ]
 }

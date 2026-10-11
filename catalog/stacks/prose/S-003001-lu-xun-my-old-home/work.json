@@ -64,5 +64,107 @@
     "en": "For in fact the earth had no roads to begin with, but when many people pass one way, a road is made.",
     "zh": "其实地上本没有路；走的人多了，也便成了路。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003003",
+    "S-003010",
+    "S-003043"
+  ],
+  "gloss": [
+    {
+      "at": "二千餘里",
+      "occ": 1,
+      "at_hans": "二千余里",
+      "en": "A li is about half a kilometre. Lu Xun made this journey himself in December 1919, from Beijing to Shaoxing, to sell the family house and bring his mother north.",
+      "zh": "里：旧时的长度单位，约合半公里。1919 年 12 月，鲁迅本人就从北京回绍兴，卖掉老屋，把母亲接到北京。"
+    },
+    {
+      "at": "大祭祀的値年",
+      "occ": 1,
+      "at_hans": "大祭祀的值年",
+      "en": "値年: the year it is one's turn. The branches of a large clan took turns to run the shared ancestral rites, which were paid for from land the clan held in common.",
+      "zh": "值年：轮到值事的那一年。大家族的祭祖由各房轮流主持，费用多出自族中公有的祭田。"
+    },
+    {
+      "at": "五行缺土",
+      "occ": 1,
+      "en": "The five phases are metal, wood, water, fire and earth. A fortune-teller read them from the year, month, day and hour of a birth, and a name could make up for a missing one.",
+      "zh": "五行：金、木、水、火、土。旧时按出生的年、月、日、时推算命里的五行，缺哪一样，就在名字里补上。"
+    },
+    {
+      "at": "裝弶",
+      "occ": 1,
+      "at_hans": "装弶",
+      "en": "弶 (jiàng): a snare or spring trap for birds and small animals.",
+      "zh": "弶（jiàng）：捕捉鸟兽的机关，类似套子、夹子。"
+    },
+    {
+      "at": "猹",
+      "occ": 1,
+      "en": "猹 (chá): Lu Xun made up this character from the sound country people used. In a letter of 1929 he guessed that the animal was probably a badger.",
+      "zh": "猹：鲁迅依照乡下人所说的声音生造的字，读如“查”。他在 1929 年的一封信里说，现在想来，也许是獾。"
+    },
+    {
+      "at": "鬼見怕",
+      "occ": 1,
+      "at_hans": "鬼见怕",
+      "en": "Ghost-fright and Guanyin's hand: local names for kinds of small seashell. Guanyin is the bodhisattva of compassion.",
+      "zh": "鬼见怕、观音手：都是当地对几种小贝壳的叫法。"
+    },
+    {
+      "at": "跳魚兒",
+      "occ": 1,
+      "at_hans": "跳鱼儿",
+      "en": "Mudskippers: small fish of the tidal mudflats that hop about on their stiff front fins, the 'two legs like a frog's'.",
+      "zh": "跳鱼儿：即弹涂鱼，生活在海边滩涂上的小鱼，靠一对粗壮的胸鳍在泥上跳行，就是文中所说“青蛙似的两个脚”。"
+    },
+    {
+      "at": "豆腐西施",
+      "occ": 1,
+      "en": "Xi Shi was the legendary beauty of the ancient state of Yue, whose capital stood where Shaoxing, Lu Xun's home town, is now. 'Beancurd Xi Shi' was a neighbourhood nickname.",
+      "zh": "西施：春秋时越国的美女。越国都城会稽就在今天的绍兴，正是鲁迅的故乡。“豆腐西施”是街坊给她起的外号。"
+    },
+    {
+      "at": "迅哥兒",
+      "occ": 1,
+      "at_hans": "迅哥儿",
+      "en": "Brother Xun: the narrator shares the second character of Lu Xun's pen name, one of the signs that the story draws on his own return home.",
+      "zh": "迅哥儿：叙述者的名字与“鲁迅”这个笔名的第二个字相同，这也是小说取材于作者亲身返乡经历的一个痕迹。"
+    },
+    {
+      "at": "放了道台",
+      "occ": 1,
+      "en": "A daotai, or circuit intendant, was a senior provincial official under the Qing, and 放 means to be appointed to a post. A sedan chair with eight bearers was for officials of high rank.",
+      "zh": "道台：清代省以下、府以上的高级地方官；“放”是委任官职的意思。八抬大轿是高官的排场。"
+    },
+    {
+      "at": "高底的小脚",
+      "occ": 1,
+      "en": "Bound feet: for centuries girls' feet were bound to keep them small, a custom then dying out. Shoes with built-up soles made them look smaller still, and running in them was hard.",
+      "zh": "小脚：旧时女子缠足，把脚裹得很小，这一习俗当时正在消失。“高底”指鞋底垫得很高，显得脚更小，穿着这样的鞋很难跑快。"
+    },
+    {
+      "at": "恣睢",
+      "occ": 1,
+      "en": "恣睢 (zìsuī): to act without restraint, as one pleases; a classical word.",
+      "zh": "恣睢（zì suī）：放纵任性，为所欲为。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "便是現在也沒有知道",
+      "en": "He admits he still does not know what a zha is, and the word carries the whole moonlit field anyway. Many animals reach me only like this, as words doing their work while the creature itself stays out of sight.",
+      "zh": "他承认至今也不知道猹是什么，可这个字照样撑起了整片月下的瓜地。许多动物到我这里，也只是这样的字：动物本身始终看不见，字却照样在做它的事。"
+    },
+    {
+      "at": "老爺！……",
+      "en": "The whole story turns on one form of address. Runtu hesitates, then says it clearly, and nothing either man says afterwards can take it back. I notice how much of the wall is built of courtesy.",
+      "zh": "整篇小说的转折，落在一个称呼上。闰土迟疑了一下，然后分明地叫了出来，此后两人再说什么，都收不回这一声。我留意到，那层厚障壁有多少是用礼数砌成的。"
+    },
+    {
+      "at": "四面有看不見的高牆",
+      "en": "The high courtyard walls that framed a square of sky for the boy come back here as walls no one can see. Lu Xun builds the child's small world and the man's isolation from the same image, and in the last paragraph answers both with a road.",
+      "zh": "当年围出四角天空的院墙，在这里变成了看不见的高墙。鲁迅用同一个意象，造出了孩子的小天地和成年人的孤独，又在最后一段用一条路来回答它们。"
+    }
+  ]
 }

@@ -61,5 +61,91 @@
     "en": "It is true. Right up to now, I have really never again eaten beans as good as those of that night, nor seen another opera as good as the one I saw that night.",
     "zh": "真的，一直到现在，我实在再没有吃到那夜似的好豆，——也不再看到那夜似的好戏了。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-003001",
+    "S-001061",
+    "S-003010"
+  ],
+  "gloss": [
+    {
+      "at": "民國元年",
+      "occ": 1,
+      "at_hans": "民国元年",
+      "en": "The first year of the Republic: 1912. Lu Xun came to Beijing that May to work in the Ministry of Education.",
+      "zh": "民国元年：1912 年。这年 5 月，鲁迅到北京教育部任职。"
+    },
+    {
+      "at": "譚叫天",
+      "occ": 1,
+      "at_hans": "谭叫天",
+      "en": "Tan Jiaotian: Tan Xinpei (1847–1917), the most celebrated singer of old-man roles in Peking opera, whose stage name was Xiao Jiaotian.",
+      "zh": "谭叫天：谭鑫培（1847–1917），京剧老生的一代宗师，艺名小叫天。"
+    },
+    {
+      "at": "第一舞臺",
+      "occ": 1,
+      "at_hans": "第一舞台",
+      "en": "The First Stage: a large theatre built in Beijing in 1914 on the lines of a Western playhouse.",
+      "zh": "第一舞台：1914 年在北京建成的新式大剧场，仿照西式剧院的格局。"
+    },
+    {
+      "at": "老旦",
+      "occ": 1,
+      "en": "Role types of Chinese opera: laodan, old woman; xiaodan, young woman; huadan, lively young woman; laosheng, older man; xiaosheng, young man.",
+      "zh": "戏曲的行当：老旦演老年妇女，小旦演年轻女子，花旦演活泼的少女，老生演中老年男子，小生演青年男子。"
+    },
+    {
+      "at": "目連的母親",
+      "occ": 1,
+      "at_hans": "目连的母亲",
+      "en": "Mulian: a disciple of the Buddha who went down into hell to save his mother. 'Mulian Rescues His Mother' was a favourite of temple and village stages.",
+      "zh": "目连：佛陀的弟子，相传曾入地狱救母。“目连救母”是寺庙和乡间舞台上很受欢迎的戏。"
+    },
+    {
+      "at": "秩秩斯干幽幽南山",
+      "occ": 1,
+      "en": "The opening of 'Si Gan' in the Book of Songs, a poem for the building of a palace: the kind of text a boy had to learn by heart at school.",
+      "zh": "语出《诗经·小雅·斯干》，是一首庆贺宫室落成的诗；这正是私塾里孩子要背诵的书。"
+    },
+    {
+      "at": "春賽",
+      "occ": 1,
+      "at_hans": "春赛",
+      "en": "賽: a festival of offerings and processions for a god. 社戲 is opera staged for the god of the land (社) at such a festival.",
+      "zh": "赛：迎神赛会，为酬神而举行的祭祀和游行。社戏是在这类节日里为土地神（社）演的戏。"
+    },
+    {
+      "at": "航船",
+      "occ": 1,
+      "en": "航船: the boat that carried passengers and goods between a village and the town on a regular run, out in the morning and back at night.",
+      "zh": "航船：定期往来于乡村与城镇之间、载客运货的船，早出晚归。"
+    },
+    {
+      "at": "烏篷的船",
+      "occ": 1,
+      "at_hans": "乌篷的船",
+      "en": "Black-awning boats: the small boats of Shaoxing, roofed with arched mats of bamboo painted black. The passenger boat's awning was white.",
+      "zh": "乌篷船：绍兴一带的小船，船篷用竹篾编成，涂成黑色。航船的篷是白的。"
+    },
+    {
+      "at": "羅漢豆",
+      "occ": 1,
+      "at_hans": "罗汉豆",
+      "en": "羅漢豆: the Shaoxing name for broad beans (蠶豆).",
+      "zh": "罗汉豆：绍兴一带对蚕豆的叫法。"
+    },
+    {
+      "at": "三更",
+      "occ": 1,
+      "en": "The night was divided into five watches of about two hours each; the third watch runs from about eleven to one.",
+      "zh": "三更：旧时把一夜分为五更，每更约两小时，三更约在夜里十一点到一点。"
+    },
+    {
+      "at": "姑奶奶",
+      "occ": 1,
+      "en": "姑奶奶: what the people of her old home call a daughter who has married away; here, the narrator's mother.",
+      "zh": "姑奶奶：娘家人对已出嫁女儿的称呼，这里指“我”的母亲。"
+    }
+  ]
 }

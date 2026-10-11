@@ -60,5 +60,38 @@
     "en": "At the brushwood gate a dog is barking: / someone coming home at night through wind and snow.",
     "zh": "柴门闻犬吠，风雪夜归人。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "蒼山",
+      "occ": 1,
+      "at_hans": "苍山",
+      "en": "Grey-green hills, darkening at dusk.",
+      "zh": "苍山：青黑色的山。"
+    },
+    {
+      "at": "白屋",
+      "occ": 1,
+      "en": "A poor thatched house, unpainted.",
+      "zh": "白屋：用茅草覆盖的简陋房屋，贫寒人家所居。"
+    },
+    {
+      "at": "柴門",
+      "occ": 1,
+      "at_hans": "柴门",
+      "en": "A gate of woven brushwood, a poor family's gate.",
+      "zh": "柴门：用树枝编成的简陋的门。"
+    },
+    {
+      "at": "夜歸人",
+      "occ": 1,
+      "at_hans": "夜归人",
+      "en": "Someone coming home at night: the master of the house, or the traveller himself; readers have long disagreed.",
+      "zh": "夜归的人：一说指芙蓉山主人，一说指投宿的诗人自己。"
+    }
+  ],
+  "pairs": [
+    "S-001001",
+    "S-001047"
+  ]
 }

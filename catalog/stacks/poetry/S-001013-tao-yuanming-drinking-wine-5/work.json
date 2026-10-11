@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,47 @@
     "en": "I pick chrysanthemums by the eastern hedge / and, at ease, see the southern hill.",
     "zh": "采菊东篱下，悠然见南山。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "結廬",
+      "occ": 1,
+      "at_hans": "结庐",
+      "en": "To build a hut.",
+      "zh": "结庐：构筑房舍。"
+    },
+    {
+      "at": "車馬喧",
+      "occ": 1,
+      "at_hans": "车马喧",
+      "en": "The din of carriages and horses: callers, the traffic of official life.",
+      "zh": "车马的喧闹，指世俗的交往应酬。"
+    },
+    {
+      "at": "問君何能爾",
+      "occ": 1,
+      "at_hans": "问君何能尔",
+      "en": "君, 'you', is the poet asking himself; 爾 means 'so, like this'.",
+      "zh": "君：作者自指。尔：如此，这样。"
+    },
+    {
+      "at": "悠然見南山",
+      "occ": 1,
+      "at_hans": "悠然见南山",
+      "en": "南山 is usually taken to be Mount Lu. Some old editions read 望, 'gazed at', for 見; Su Shi argued for 見, 'saw': the hill comes into view by chance while he is picking flowers.",
+      "zh": "南山：一般认为指庐山。旧本或作“望南山”，苏轼力主作“见”：因采菊而偶然见山，境与意会。"
+    },
+    {
+      "at": "欲辯已忘言",
+      "occ": 1,
+      "at_hans": "欲辩已忘言",
+      "en": "An echo of Zhuangzi: words are for catching meaning, and once you have the meaning you can forget the words.",
+      "zh": "化用《庄子·外物》：“言者所以在意，得意而忘言。”"
+    }
+  ],
+  "pairs": [
+    "S-003041",
+    "S-001011",
+    "S-002024"
+  ]
 }

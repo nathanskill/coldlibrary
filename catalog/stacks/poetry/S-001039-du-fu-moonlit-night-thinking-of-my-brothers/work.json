@@ -61,5 +61,50 @@
     "en": "From tonight the dew turns white; / the moon is brighter over home.",
     "zh": "露从今夜白，月是故乡明。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "戍鼓",
+      "occ": 1,
+      "en": "The garrison drums, beaten at nightfall as a curfew.",
+      "zh": "戍鼓：戍楼上的更鼓，鼓响后禁止通行。"
+    },
+    {
+      "at": "斷人行",
+      "occ": 1,
+      "at_hans": "断人行",
+      "en": "No one may travel.",
+      "zh": "断人行：禁止行人往来。"
+    },
+    {
+      "at": "一雁聲",
+      "occ": 1,
+      "at_hans": "一雁声",
+      "en": "A lone goose: geese fly in ordered lines, an old figure for brothers, so a single one calling is a brother separated.",
+      "zh": "孤雁的叫声。雁行有序，古人以“雁行”喻兄弟，孤雁暗指兄弟离散。"
+    },
+    {
+      "at": "露從今夜白",
+      "occ": 1,
+      "at_hans": "露从今夜白",
+      "en": "Tonight is White Dew, the solar term that falls in the eighth lunar month, early in September.",
+      "zh": "这一夜正是白露节气，在农历八月，约当公历九月上旬。"
+    },
+    {
+      "at": "有弟皆分散",
+      "occ": 1,
+      "en": "Du Fu had four younger brothers; when he wrote this at Qinzhou in 759, the An Lushan rebellion had scattered them.",
+      "zh": "杜甫有四个弟弟。759 年他在秦州作此诗时，兄弟们因安史之乱流离各地。"
+    },
+    {
+      "at": "未休兵",
+      "occ": 1,
+      "en": "The fighting has not stopped: the rebellion lasted from 755 to 763.",
+      "zh": "战争还没有停止。安史之乱从 755 年持续到 763 年。"
+    }
+  ],
+  "pairs": [
+    "S-001030",
+    "S-001053"
+  ]
 }

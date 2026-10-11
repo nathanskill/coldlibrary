@@ -60,5 +60,52 @@
     "en": "For every tear you shed, your heart turns a little more to ash. A heart of ash and tears: that is your fruit; creating light: that is your seed.",
     "zh": "你流一滴泪，灰一分心。灰心流泪你的果，创造光明你的因。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-006013",
+    "S-001050",
+    "S-003005"
+  ],
+  "gloss": [
+    {
+      "at": "蠟炬成灰淚始乾",
+      "occ": 1,
+      "at_hans": "蜡炬成灰泪始干",
+      "en": "From one of Li Shangyin's Untitled poems ('Hard it is to meet, and hard to part'). The line before it reads: the spring silkworm spins its silk until its end.",
+      "zh": "出自李商隐《无题》（相见时难别亦难），上句是“春蚕到死丝方尽”。"
+    },
+    {
+      "at": "詩人啊",
+      "occ": 1,
+      "at_hans": "诗人啊",
+      "en": "Wen Yiduo was studying painting in the United States when Red Candle, his first book, came out in 1923.",
+      "zh": "《红烛》1923 年出版时，闻一多正在美国学习绘画。"
+    },
+    {
+      "at": "自然底方法",
+      "occ": 1,
+      "en": "底: like many writers of the early 1920s, Wen Yiduo often writes 底 for the possessive 的.",
+      "zh": "底：二十年代初的白话文常用“底”，相当于“的”。"
+    },
+    {
+      "at": "傷心流淚",
+      "occ": 1,
+      "at_hans": "伤心流泪",
+      "en": "A candle's tears are the drops of melted wax that run down its side, a very old image in Chinese poetry.",
+      "zh": "蜡烛的泪，指燃烧时淌下的烛油，是旧诗里常见的意象。"
+    },
+    {
+      "at": "脂膏",
+      "occ": 1,
+      "en": "脂膏: fat or tallow, what candles were once made of.",
+      "zh": "脂膏：油脂，旧时蜡烛多用它制成。"
+    },
+    {
+      "at": "創造光明你的因",
+      "occ": 1,
+      "at_hans": "创造光明你的因",
+      "en": "因 and 果: cause and fruit, the Buddhist terms for cause and effect.",
+      "zh": "因、果：佛教用语，原因和结果。"
+    }
+  ]
 }

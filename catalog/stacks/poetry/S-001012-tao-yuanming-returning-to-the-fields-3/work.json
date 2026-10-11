@@ -60,5 +60,45 @@
     "en": "I rise at dawn to clear the weeds / and come home with the moon, my hoe on my shoulder.",
     "zh": "晨兴理荒秽，带月荷锄归。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "南山",
+      "occ": 1,
+      "en": "The southern hill, usually taken to be Mount Lu, south of Tao's home near Xunyang.",
+      "zh": "南山：一般认为指庐山。"
+    },
+    {
+      "at": "晨興",
+      "occ": 1,
+      "at_hans": "晨兴",
+      "en": "Rising early.",
+      "zh": "晨兴：早起。"
+    },
+    {
+      "at": "荒穢",
+      "occ": 1,
+      "at_hans": "荒秽",
+      "en": "Weeds choking the field.",
+      "zh": "荒秽：田中的杂草。"
+    },
+    {
+      "at": "荷鋤",
+      "occ": 1,
+      "at_hans": "荷锄",
+      "en": "荷, read hè: to carry on the shoulder.",
+      "zh": "荷（hè）：扛着。"
+    },
+    {
+      "at": "但使願無違",
+      "occ": 1,
+      "at_hans": "但使愿无违",
+      "en": "As long as I do not go against my wish to live this way.",
+      "zh": "只要不违背归隐躬耕的心愿。"
+    }
+  ],
+  "pairs": [
+    "S-001011",
+    "S-001013"
+  ]
 }

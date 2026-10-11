@@ -64,5 +64,65 @@
     "en": "I raise my cup to invite the bright moon, / and with my shadow we make three.",
     "zh": "举杯邀明月，对影成三人。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "無相親",
+      "occ": 1,
+      "at_hans": "无相亲",
+      "en": "No one close by, no companion.",
+      "zh": "相亲：亲近的人。"
+    },
+    {
+      "at": "不解飲",
+      "occ": 1,
+      "at_hans": "不解饮",
+      "en": "解: to know how to.",
+      "zh": "解：懂得，会。"
+    },
+    {
+      "at": "月將影",
+      "occ": 1,
+      "at_hans": "月将影",
+      "en": "將 here means 'and', 'together with'.",
+      "zh": "将：和，与。"
+    },
+    {
+      "at": "及春",
+      "occ": 1,
+      "en": "While it is still spring.",
+      "zh": "及春：趁着春光。"
+    },
+    {
+      "at": "無情遊",
+      "occ": 1,
+      "at_hans": "无情游",
+      "en": "A friendship free of worldly feeling, beyond the attachments that bind people.",
+      "zh": "无情游：忘却世情的交游。"
+    },
+    {
+      "at": "邈雲漢",
+      "occ": 1,
+      "at_hans": "邈云汉",
+      "en": "邈: far off. 雲漢: the Milky Way.",
+      "zh": "邈：遥远。云汉：银河。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "我歌月徘徊",
+      "en": "He sings, and the moon lingers; he dances, and the shadow scatters. Each companion answers in its own way, the moon too slowly and the shadow too wildly, and that mismatch is what makes them company.",
+      "zh": "他唱，月亮徘徊；他舞，影子凌乱。两个同伴各以自己的方式回应，月太慢，影太乱，正是这份不合拍，让它们成了伴。"
+    },
+    {
+      "at": "醒時同交歡",
+      "en": "The party keeps a strange rule: together while sober, scattered once drunk. Most drinking parties run the other way.",
+      "zh": "这场酒会有一条古怪的规矩：醒时同欢，醉后各散。大多数酒会恰好相反。"
+    }
+  ],
+  "pairs": [
+    "S-001033",
+    "S-001025",
+    "S-001035"
+  ]
 }

@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -60,5 +60,53 @@
     "en": "I look back at the place where it was bleak and blowing, / and go home: / no wind, no rain, and no clear sky either.",
     "zh": "回首向来萧瑟处，归去、也无风雨也无晴。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "穿林打葉聲",
+      "occ": 1,
+      "at_hans": "穿林打叶声",
+      "en": "The sound of rain coming through the woods and beating on the leaves.",
+      "zh": "雨点穿过树林、打在叶子上的声音。"
+    },
+    {
+      "at": "吟嘯",
+      "occ": 1,
+      "at_hans": "吟啸",
+      "en": "Chanting and whistling.",
+      "zh": "吟啸：吟咏长啸。"
+    },
+    {
+      "at": "芒鞵",
+      "occ": 1,
+      "at_hans": "芒鞋",
+      "en": "Straw sandals; 芒 is a coarse grass.",
+      "zh": "芒鞋：草鞋。"
+    },
+    {
+      "at": "一蓑煙雨",
+      "occ": 1,
+      "at_hans": "一蓑烟雨",
+      "en": "A straw rain cape in misty rain: the fisherman's life, an old image of a free one.",
+      "zh": "披着蓑衣在风雨中过活，喻隐逸自在的生活。"
+    },
+    {
+      "at": "料峭",
+      "occ": 1,
+      "en": "Chilly; said of the sharp wind of early spring.",
+      "zh": "料峭：形容春天的寒冷。"
+    },
+    {
+      "at": "蕭瑟",
+      "occ": 1,
+      "at_hans": "萧瑟",
+      "en": "The bleak, blowing rain of a moment ago.",
+      "zh": "萧瑟：风雨吹打的声音。"
+    }
+  ],
+  "pairs": [
+    "S-001058",
+    "S-002023",
+    "S-001054"
+  ]
 }

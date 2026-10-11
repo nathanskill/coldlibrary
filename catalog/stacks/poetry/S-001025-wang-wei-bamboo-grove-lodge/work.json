@@ -60,5 +60,31 @@
     "en": "Deep in the wood, no one knows I am here; / the bright moon comes to shine on me.",
     "zh": "深林人不知，明月来相照。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "幽篁",
+      "occ": 1,
+      "en": "A dark, deep bamboo grove. The Bamboo Grove Lodge was one of the scenes on Wang Wei's Wangchuan estate, in the hills south-east of Chang'an.",
+      "zh": "幽篁：幽深的竹林。竹里馆是王维辋川别业的一景。"
+    },
+    {
+      "at": "彈琴",
+      "occ": 1,
+      "at_hans": "弹琴",
+      "en": "The qin, a seven-stringed zither, the instrument of scholars.",
+      "zh": "琴：七弦琴，古代文人的乐器。"
+    },
+    {
+      "at": "長嘯",
+      "occ": 1,
+      "at_hans": "长啸",
+      "en": "A long, clear whistling or chanting, a practice of recluses.",
+      "zh": "长啸：撮口发出悠长清越的声音，古代隐士常以此抒怀。"
+    }
+  ],
+  "pairs": [
+    "S-001035",
+    "S-001031"
+  ]
 }

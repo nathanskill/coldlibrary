@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Text as given on Chinese Wikisource.",
-    "zh": "据维基文库。"
+    "en": "Text as given on Chinese Wikisource. Lines broken at the punctuation for reading; text unchanged.",
+    "zh": "据维基文库。按标点分行，文字未改。"
   },
   "source": {
     "name": "Wikisource",
@@ -63,5 +63,58 @@
     "en": "People today never saw the moon of old, / but this moon once shone on the people of old.",
     "zh": "今人不见古时月，今月曾经照古人。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "丹闕",
+      "occ": 1,
+      "at_hans": "丹阙",
+      "en": "Red palace gates: the vermilion towers of a palace.",
+      "zh": "丹阙：朱红色的宫门，指宫殿。"
+    },
+    {
+      "at": "綠烟",
+      "occ": 1,
+      "at_hans": "绿烟",
+      "en": "Green mist: the dark haze that hides the moon.",
+      "zh": "绿烟：遮蔽月光的青黑色云雾。"
+    },
+    {
+      "at": "寧知",
+      "occ": 1,
+      "at_hans": "宁知",
+      "en": "寧: how could (one know).",
+      "zh": "宁：岂，怎么。"
+    },
+    {
+      "at": "白兔擣藥",
+      "occ": 1,
+      "at_hans": "白兔捣药",
+      "en": "In legend a white hare in the moon pounds the elixir of immortality.",
+      "zh": "传说月中有白兔捣制长生不老之药。"
+    },
+    {
+      "at": "姮娥",
+      "occ": 1,
+      "en": "Chang'e, who took the elixir of immortality given to her husband Hou Yi and rose to the moon, where she lives alone.",
+      "zh": "姮娥：即嫦娥，相传偷食后羿的不死药，飞升月宫独居。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "青天有月來幾時",
+      "en": "The poem opens with a question no one can answer, and the poet puts down his cup to ask it. More than three centuries later Su Shi's Mid-Autumn lyric, also on this shelf, opens the same way: 明月幾時有，把酒問青天.",
+      "zh": "开头是一个没人答得出的问题，诗人为此放下了酒杯。三百多年后，苏轼的中秋词（也在这个书架上）也这样开头：明月几时有？把酒问青天。"
+    },
+    {
+      "at": "古人今人若流水",
+      "en": "Over three lines 今 and 古 cross and recross: 今人, 古時月, 今月, 古人, and then 古人今人 side by side. The words keep changing places, as the line says people do.",
+      "zh": "三句之间，“今”与“古”交错往复：今人、古时月、今月、古人，然后“古人今人”并排而立。字也在换位，正如诗里说的人。"
+    }
+  ],
+  "pairs": [
+    "S-001015",
+    "S-001053",
+    "S-001031"
+  ]
 }

@@ -60,5 +60,31 @@
     "en": "We look at each other and never tire, / only I and Jingting Mountain.",
     "zh": "相看两不厌，只有敬亭山。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "獨去閑",
+      "occ": 1,
+      "at_hans": "独去闲",
+      "en": "閑: unhurried, at ease.",
+      "zh": "闲：悠闲，形容云飘来飘去的样子。"
+    },
+    {
+      "at": "兩不厭",
+      "occ": 1,
+      "at_hans": "两不厌",
+      "en": "Neither tires of the other: the poet and the mountain.",
+      "zh": "两：指诗人和敬亭山。厌：满足，厌倦。"
+    },
+    {
+      "at": "敬亭山",
+      "occ": 1,
+      "en": "Jingting Mountain, north of Xuancheng in present-day Anhui, a place Li Bai returned to many times.",
+      "zh": "敬亭山：在今安徽宣城北，李白曾多次游历。"
+    }
+  ],
+  "pairs": [
+    "S-001025",
+    "S-001031"
+  ]
 }
