@@ -82,8 +82,12 @@ for (const p of all) {
     const body = p.render(lang, ctx);
     const glyphs = takeGlyphs();
     const fontKey = p.fontKey || 'page:' + (p.slug || 'lobby');
-    const m = manifest[fontKey] || (manifest[fontKey] = { base: '', hant: '', hans: '', w600: '' });
-    for (const k of Object.keys(m)) m[k] = [...new Set(m[k] + glyphs[k])].join('');
+    const merge = (key, g) => {
+      const m = manifest[key] || (manifest[key] = { base: '', hant: '', hans: '', w600: '' });
+      for (const k of Object.keys(m)) m[k] = [...new Set(m[k] + (g[k] || ''))].join('');
+    };
+    merge(fontKey, glyphs);
+    for (const [k, g] of Object.entries(glyphs.extra || {})) merge(k, g);
     const html = layout({
       lang,
       slug: p.slug === '404' ? '' : p.slug,

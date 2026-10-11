@@ -24,14 +24,23 @@ export function dayNumber(today = new Date()) {
 // ---------- glyphs: the Chinese serif is sliced per page, so templates register what they set in serif ----------
 const HAN = /[　-〿㐀-䶿一-鿿豈-﫿＀-￯]|[\u{20000}-\u{2ebef}]/gu;
 let glyphs = null;
-export function resetGlyphs() { glyphs = { base: new Set(), hant: new Set(), hans: new Set(), w600: new Set() }; }
+const emptyBuckets = () => ({ base: new Set(), hant: new Set(), hans: new Set(), w600: new Set() });
+export function resetGlyphs() { glyphs = { ...emptyBuckets(), extra: new Map() }; }
 export function addGlyphs(text, bucket = 'base') {
   if (!glyphs) resetGlyphs();
   for (const c of String(text ?? '').match(HAN) || []) glyphs[bucket].add(c);
 }
+// Register glyphs under a separate font key, e.g. one lobby "today's reading" block per pick ("today-S-001001").
+// The page itself does not load that key; the page's script loads fontCssHref(key) (fonts.mjs) when it shows the block.
+export function addGlyphsTo(key, text, bucket = 'base') {
+  if (!glyphs) resetGlyphs();
+  if (!glyphs.extra.has(key)) glyphs.extra.set(key, emptyBuckets());
+  for (const c of String(text ?? '').match(HAN) || []) glyphs.extra.get(key)[bucket].add(c);
+}
+const flat = (g) => ({ base: [...g.base].join(''), hant: [...g.hant].join(''), hans: [...g.hans].join(''), w600: [...g.w600].join('') });
 export function takeGlyphs() {
-  const g = glyphs || { base: new Set(), hant: new Set(), hans: new Set(), w600: new Set() };
-  return { base: [...g.base].join(''), hant: [...g.hant].join(''), hans: [...g.hans].join(''), w600: [...g.w600].join('') };
+  const g = glyphs || { ...emptyBuckets(), extra: new Map() };
+  return { ...flat(g), extra: Object.fromEntries([...g.extra].map(([k, v]) => [k, flat(v)])) };
 }
 // Escape text that will be set in the serif and register its Chinese characters.
 export function serif(text, bucket = 'base') { addGlyphs(text, bucket); return esc(text); }

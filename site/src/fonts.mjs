@@ -9,6 +9,9 @@ export function fontHead(key, glyphs) {
   return any ? '<link rel="stylesheet" href="/assets/cjk.css">\n' : '';
 }
 
+// The CSS that declares the faces for one key (used by scripts that reveal text later, e.g. today's reading).
+export function fontCssHref() { return '/assets/cjk.css'; }
+
 export function writeManifest(manifest, root) {
   const sorted = Object.fromEntries(Object.keys(manifest).sort().map((k) => [k, Object.fromEntries(Object.entries(manifest[k]).map(([b, s]) => [b, [...s].sort().join('')]))]));
   writeFileSync(join(root, 'site/cjk-manifest.json'), JSON.stringify(sorted, null, 0).replace(/},"/g, '},\n"') + '\n');
