@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -54,7 +64,7 @@
     "moon",
     "night",
     "friendship",
-    "shadows"
+    "light"
   ],
   "excerpt": {
     "orig": "庭下如積水空明，水中藻荇交橫，蓋竹柏影也。",

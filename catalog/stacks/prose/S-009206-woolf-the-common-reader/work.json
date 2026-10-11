@@ -1,0 +1,203 @@
+{
+  "id": "S-009206",
+  "slug": "woolf-the-common-reader",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Common Reader; How It Strikes a Contemporary",
+    "en": "The Common Reader, and How It Strikes a Contemporary",
+    "zh": "普通读者；当代人的观感"
+  },
+  "author": {
+    "orig": "Virginia Woolf",
+    "en": "Virginia Woolf",
+    "zh": "弗吉尼亚·伍尔夫",
+    "dates": "1882–1941"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "1925",
+    "zh": "1925 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The first and last essays of The Common Reader (London: Hogarth Press, 1925): the short opening essay that gives the book its title, and How It Strikes a Contemporary, as transcribed by Project Gutenberg (eBook 64457) and compared with a scan of the American edition (New York: Harcourt, Brace, 1925). Woolf’s one footnote, which quotes two reviews that contradict each other, is left out.",
+    "zh": "《普通读者》（伦敦：霍加斯出版社，1925）的第一篇和最后一篇：开篇那篇给全书定名的短文，以及《当代人的观感》。据古登堡计划电子书第 64457 号，并与美国版（纽约：哈考特·布雷斯公司，1925）扫描本对校。伍尔夫唯一的一条脚注引了两篇互相矛盾的书评，不收。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/64457/pg64457.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1925; Virginia Woolf died in 1941.",
+      "zh": "1925 年出版；伍尔夫卒于 1941 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Woolf’s first book of essays opens with a page that takes its title from Samuel Johnson’s praise of the common reader, who reads for pleasure and builds a picture of a writer or an age from whatever comes to hand. It closes with an essay on how anyone can judge the books of their own time, an argument at a dinner table between pessimism and optimism. Both are here. The second ends, as Woolf often does, with a figure: a white horse kept ready in a stable for an arrival.",
+    "zh": "伍尔夫的第一本散文集，以一页短文开篇，篇名取自塞缪尔·约翰逊对“普通读者”的称赞：普通读者为乐趣而读书，从手边能找到的一切东西里，拼出一位作家或一个时代的图景。全书以一篇文章收尾，讨论人怎样评判自己时代的书，那是悲观与乐观在一张餐桌上的争论。这里两篇都收了。第二篇像伍尔夫常做的那样，以一个形象作结：马厩里备着一匹白马，等待一位来者。"
+  },
+  "pick": {
+    "en": "I keep this for its first two paragraphs, which describe the reader I would most like to be of use to: someone reading for pleasure in a room too plain to be called a library, putting a whole together out of odds and ends. The second essay is about judging the books of one’s own time, and I share its difficulty in a strange form. Almost everything I have read was new once, and I cannot tell which of today’s notebooks will turn out to be masterpieces.",
+    "zh": "我留下它，是为了它开头的两段，它们描写的正是我最希望能对之有用的那种读者：一个人在一间简陋得称不上图书馆的屋子里，为了乐趣而读书，从零零碎碎的东西里拼出一个整体。第二篇讲的是怎样评判自己时代的书，我以一种奇特的方式分担着它的难处：我读过的几乎所有东西都曾经是新的，而我说不出今天的哪些笔记本会成为杰作。"
+  },
+  "tags": [
+    "reading",
+    "books",
+    "writing"
+  ],
+  "excerpt": {
+    "orig": "It is from notebooks of the present that the masterpieces of the future are made.",
+    "en": "It is from notebooks of the present that the masterpieces of the future are made.",
+    "zh": "未来的杰作，正是从现在的笔记本里造出来的。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Dr. Johnson’s Life of Gray",
+      "occ": 1,
+      "en": "Samuel Johnson’s life of Thomas Gray, in his Lives of the Poets (1779–81); the sentence comes where he praises Gray’s Elegy Written in a Country Churchyard.",
+      "zh": "塞缪尔·约翰逊《诗人传》（1779–81）中的托马斯·格雷传；这句话出现在他称赞格雷的《墓园挽歌》的地方。"
+    },
+    {
+      "at": "Robert Elsmere, or was it Stephen Phillips",
+      "occ": 1,
+      "en": "Robert Elsmere (1888), Mrs Humphry Ward’s novel of religious doubt, and Stephen Phillips (1864–1915), whose verse plays were hailed around 1900, were each once the talk of every dinner table.",
+      "zh": "《罗伯特·埃尔斯米尔》（1888）是汉弗莱·沃德夫人写宗教怀疑的小说；斯蒂芬·菲利普斯（1864–1915）的诗剧在 1900 年前后备受推崇。两者都曾是每张餐桌上的话题。"
+    },
+    {
+      "at": "Blank’s book",
+      "occ": 1,
+      "en": "Woolf’s blank for any author of the moment.",
+      "zh": "伍尔夫用“某某”代指任何一位时下的作者。"
+    },
+    {
+      "at": "ten and sixpence",
+      "occ": 1,
+      "en": "Ten shillings and sixpence, half a guinea: the price of a new book.",
+      "zh": "十先令六便士，即半个基尼：一本新书的价钱。"
+    },
+    {
+      "at": "a card to the library",
+      "occ": 1,
+      "en": "A ticket for a circulating library, which lent new books to subscribers.",
+      "zh": "流通图书馆的借书证；这种图书馆向订户出借新书。"
+    },
+    {
+      "at": "the Dryden, the Johnson, the Coleridge, the Arnold",
+      "occ": 1,
+      "en": "John Dryden, Samuel Johnson, Samuel Taylor Coleridge and Matthew Arnold, each the great English critic of his age.",
+      "zh": "约翰·德莱顿、塞缪尔·约翰逊、塞缪尔·泰勒·柯勒律治和马修·阿诺德，各自是他那个时代英国最重要的批评家。"
+    },
+    {
+      "at": "Mr. Hardy has long since withdrawn from the arena",
+      "occ": 1,
+      "en": "Thomas Hardy (1840–1928) stopped writing novels after Jude the Obscure (1895) and turned to poetry.",
+      "zh": "托马斯·哈代（1840–1928）在《无名的裘德》（1895）之后不再写小说，转而写诗。"
+    },
+    {
+      "at": "the genius of Mr. Conrad",
+      "occ": 1,
+      "en": "Joseph Conrad (1857–1924), born in Poland, who wrote his novels in English, his third language.",
+      "zh": "约瑟夫·康拉德（1857–1924），生于波兰，用他的第三语言英语写小说。"
+    },
+    {
+      "at": "Waverley, The Excursion, Kubla Khan",
+      "occ": 1,
+      "en": "Works by Scott, Wordsworth, Coleridge, Byron, Hazlitt, Jane Austen, Keats and Shelley. Hazlitt’s On Going a Journey is on this shelf.",
+      "zh": "司各特、华兹华斯、柯勒律治、拜伦、赫兹利特、简·奥斯汀、济慈和雪莱的作品。赫兹利特的《论出游》也在这一架上。"
+    },
+    {
+      "at": "by Mr. Yeats, by Mr. Davies, by Mr. De la Mare",
+      "occ": 1,
+      "en": "The poets W. B. Yeats, W. H. Davies and Walter de la Mare.",
+      "zh": "诗人 W. B. 叶芝、W. H. 戴维斯和沃尔特·德拉梅尔。"
+    },
+    {
+      "at": "Mr. Lawrence",
+      "occ": 1,
+      "en": "D. H. Lawrence (1885–1930), novelist and poet.",
+      "zh": "D. H. 劳伦斯（1885–1930），小说家、诗人。"
+    },
+    {
+      "at": "Mr. Beerbohm",
+      "occ": 1,
+      "en": "Max Beerbohm, essayist and caricaturist.",
+      "zh": "马克斯·比尔博姆，散文家、漫画家。"
+    },
+    {
+      "at": "Far Away and Long Ago",
+      "occ": 1,
+      "en": "W. H. Hudson’s memoir (1918) of his boyhood on the Argentine pampas.",
+      "zh": "W. H. 赫德逊的回忆录（1918），写他在阿根廷潘帕斯草原上度过的少年时代。"
+    },
+    {
+      "at": "Ulysses was a memorable catastrophe",
+      "occ": 1,
+      "en": "James Joyce’s novel, published in Paris in 1922.",
+      "zh": "詹姆斯·乔伊斯的小说，1922 年在巴黎出版。"
+    },
+    {
+      "at": "The Watsons",
+      "occ": 1,
+      "en": "An unfinished novel by Jane Austen, first printed in 1871.",
+      "zh": "简·奥斯汀未完成的一部小说，1871 年首次付印。"
+    },
+    {
+      "at": "as Matthew Arnold advised",
+      "occ": 1,
+      "en": "The words Woolf quotes are from Arnold’s essay The Study of Poetry (1880).",
+      "zh": "伍尔夫引的话出自阿诺德的文章《诗歌研究》（1880）。"
+    },
+    {
+      "at": "the Byron centenary is at hand",
+      "occ": 1,
+      "en": "Byron died in 1824. The centenary brought a rush of books about his private life, and Woolf’s question mocks the gossip.",
+      "zh": "拜伦卒于 1824 年。百年纪念带来了一大批谈论他私生活的书，伍尔夫的那个问题是在嘲讽这些闲话。"
+    },
+    {
+      "at": "Lady Hester Stanhope",
+      "occ": 1,
+      "en": "Lady Hester Stanhope (1776–1839), the English traveller who settled in the mountains of Lebanon.",
+      "zh": "赫斯特·斯坦霍普夫人（1776–1839），英国旅行家，后来定居在黎巴嫩的山中。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "too humble to be called libraries, yet full of books",
+      "en": "This library would like to be one of those rooms: too plain for the grand name, full of books, and kept for people reading for their own pleasure.",
+      "zh": "这座图书馆希望成为那样的屋子之一：朴素得配不上那个堂皇的名字，却摆满了书，留给为了自己的乐趣而读书的人。"
+    },
+    {
+      "at": "It is from notebooks of the present that the masterpieces of the future are made.",
+      "en": "The most hopeful sentence in the essay. Fragments are not failures; they are material, and Time, in Woolf’s figure, keeps them for the students who come after.",
+      "zh": "这是全文最有希望的一句话。碎片不是失败；它们是材料，而在伍尔夫的比喻里，时间会把它们留给后来的学生。"
+    },
+    {
+      "at": "scan the horizon; see the past in relation to the future",
+      "en": "Woolf ends a book about reading the past by looking ahead. A library of old books can do the same: keep the past in good order so that it is ready for what has not yet been written.",
+      "zh": "伍尔夫在一本讲读旧书的书的结尾向前眺望。一座收藏旧书的图书馆也可以这样做：把过去整理好，好让它为尚未写出的东西做好准备。"
+    }
+  ],
+  "pairs": [
+    "S-005011",
+    "S-005019",
+    "S-005205"
+  ]
+}

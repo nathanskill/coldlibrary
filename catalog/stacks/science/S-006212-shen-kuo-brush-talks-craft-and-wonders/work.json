@@ -1,0 +1,218 @@
+{
+  "id": "S-006212",
+  "slug": "shen-kuo-brush-talks-craft-and-wonders",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "夢溪筆談（又選）",
+    "en": "Brush Talks from Dream Brook: A Builder, a Fallen Star, Lightning and Stone Bamboo",
+    "zh": "梦溪笔谈（又选）"
+  },
+  "author": {
+    "orig": "沈括",
+    "en": "Shen Kuo",
+    "zh": "沈括",
+    "dates": "1031–1095"
+  },
+  "year": 1088,
+  "year_display": {
+    "en": "c. 1088",
+    "zh": "约 1088 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Five entries from books 18, 20 and 21, as given on Chinese Wikisource, with the book headings added for orientation; none of them appears in the library’s other selections from the Brush Talks (S-002041, S-002042, S-006005). In the entry on the Timberwork Classic a variant note (一作「造」), a pronunciation note and Shen’s small-print note naming the twelve litter bearers are left out. Compared with the edition in the Kanseki Repository and with Project Gutenberg eBook 27292. Two readings follow the Kanseki text: 人火得水而滅 for the online 災, which makes no sense, and 鎔 for 镕, a simplified form.",
+    "zh": "选卷十八、卷二十、卷二十一中的五则，据维基文库，所加卷名标题只为便于检索；这五则都不在本馆其他几种《梦溪笔谈》选本（S-002041、S-002042、S-006005）之中。《木经》一则删去异文小注“一作‘造’”、注音小注，以及沈括记述十二名抬辇人名称的小字原注。与京都大学汉籍资料库（Kanseki Repository）所收版本和古登堡计划电子书第 27292 号对校。两处依校本：“人火得水而灭”，维基文库作“灾”，文意不通；“鎔”字，维基文库误用了简体字形“镕”。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/夢溪筆談",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Song dynasty prose; the author died in 1095.",
+      "zh": "宋代散文，作者卒于 1095 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Five more of Shen Kuo’s notes: a builders’ manual of proportions and the master carpenter Yu Hao’s cure for a swaying pagoda; a meteorite that fell in a garden in 1064 and was kept in a temple box; a lightning strike that melted silver and steel and left lacquer and a scabbard untouched; and bamboo turned to stone far underground where no bamboo grows, which Shen explains by a change of climate. He records exactly, says when he cannot explain, and once, on the lightning, admits that the world is larger than our understanding.",
+    "zh": "沈括的另外五则笔记：一部讲建筑比例的匠人手册，以及大匠喻皓治好木塔晃动的办法；1064 年落在园子里、被寺院装匣收藏的一块陨石；一次雷击熔化了银器和钢刀，却没有烧焦漆器和刀鞘；还有在从不长竹子的地方、深埋地下的石化竹笋，沈括用古今气候的变化来解释。他记录得准确，解释不了时就直说，讲到雷火那一则，还承认世界比我们的理解更大。"
+  },
+  "pick": null,
+  "tags": [
+    "discovery",
+    "craft",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "無乃曠古以前，地卑氣濕而宜竹耶？",
+    "en": "Could it be that in a remote antiquity the ground lay low and the air was damp and suited to bamboo?",
+    "zh": "无乃旷古以前，地卑气湿而宜竹耶？"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "謂之《木經》，或云喻皓所撰",
+      "occ": 1,
+      "en": "The Timberwork Classic, a lost manual attributed to Yu Hao, the most famous master builder of the tenth century.",
+      "zh": "《木经》，已失传的建筑手册，相传为十世纪最有名的建筑工匠喻皓所作。",
+      "at_hans": "谓之《木经》，或云喻皓所撰"
+    },
+    {
+      "at": "凡屋有三分",
+      "occ": 1,
+      "en": "Every building has three parts: roof, body and base, each with its own rules of proportion.",
+      "zh": "房屋分为三部分：屋顶、屋身、台基，各有比例规定。"
+    },
+    {
+      "at": "則配極幾何，以為榱等",
+      "occ": 1,
+      "en": "極 is the ridge; its height is matched to the beam, and the rafters are graded accordingly.",
+      "zh": "极，屋脊；屋脊的高度与梁的长度相配，椽子的规格据此而定。榱，椽子。",
+      "at_hans": "则配极几何，以为榱等"
+    },
+    {
+      "at": "承拱榱桷",
+      "occ": 1,
+      "en": "Brackets, round rafters and square rafters.",
+      "zh": "斗拱和椽子。榱、桷都是椽子，圆的叫榱，方的叫桷。"
+    },
+    {
+      "at": "宮中則以御輦為法",
+      "occ": 1,
+      "en": "In the palace the slope of a stair is judged by how the bearers of the imperial litter must hold its poles.",
+      "zh": "宫中以抬御辇的人持竿的姿势来衡量台阶的坡度。",
+      "at_hans": "宫中则以御辇为法"
+    },
+    {
+      "at": "錢氏據兩浙時",
+      "occ": 1,
+      "en": "The Qian family ruled the kingdom of Wuyue, east and west of the Zhe river, from 907 to 978.",
+      "zh": "钱氏建立的吴越国，据有浙东、浙西，907–978 年。",
+      "at_hans": "钱氏据两浙时"
+    },
+    {
+      "at": "梵天寺",
+      "occ": 1,
+      "en": "A temple in Hangzhou founded in 963; two stone sutra pillars from it still stand.",
+      "zh": "杭州的一座寺院，始建于 963 年，至今尚存两座石经幢。"
+    },
+    {
+      "at": "六幕相聯如胠篋",
+      "occ": 1,
+      "en": "The six faces, top, bottom and four sides, joined like a closed chest; 胠篋 is a box, from the Zhuangzi.",
+      "zh": "上下四方六个面相连，就像一只箱子。胠箧，箱子，语出《庄子》。",
+      "at_hans": "六幕相联如胠箧"
+    },
+    {
+      "at": "治平元年",
+      "occ": 1,
+      "en": "The first year of Zhiping: 1064.",
+      "zh": "宋英宗治平元年，即 1064 年。"
+    },
+    {
+      "at": "日禺時",
+      "occ": 1,
+      "en": "The hour before noon, roughly nine to eleven in the morning.",
+      "zh": "禺中，将近中午的时候，约上午九时至十一时。",
+      "at_hans": "日禺时"
+    },
+    {
+      "at": "送潤州金山寺",
+      "occ": 1,
+      "en": "The Jinshan temple on an island in the Yangzi at Runzhou, present-day Zhenjiang.",
+      "zh": "润州（今江苏镇江）长江中金山上的寺院。",
+      "at_hans": "送润州金山寺"
+    },
+    {
+      "at": "王無咎為之傳甚詳",
+      "occ": 1,
+      "en": "Wang Wujiu (1024–1069), a scholar and student of Wang Anshi; his account is lost.",
+      "zh": "王无咎（1024–1069），学者，王安石的门生；他的记述已经失传。",
+      "at_hans": "王无咎为之传甚详"
+    },
+    {
+      "at": "內侍李舜舉",
+      "occ": 1,
+      "en": "A palace eunuch, later a commander on the north-western frontier, where Shen Kuo also served.",
+      "zh": "宦官，后来在西北边境领兵，沈括也曾在那里任职。",
+      "at_hans": "内侍李舜举"
+    },
+    {
+      "at": "其漆器銀釦者",
+      "occ": 1,
+      "en": "Lacquerware with rims bound in silver.",
+      "zh": "用银镶口的漆器。扣，用金属镶边。",
+      "at_hans": "其漆器银扣者"
+    },
+    {
+      "at": "就刀室中鎔為汁",
+      "occ": 1,
+      "en": "Melted to liquid inside the scabbard. 刀室 is the sheath. Lightning heats metal by electric current, which a dry sheath or lacquer does not carry.",
+      "zh": "在刀鞘里熔化成了汁水。刀室，刀鞘。闪电产生的电流使金属发热，而干燥的刀鞘和漆器并不导电。",
+      "at_hans": "就刀室中镕为汁"
+    },
+    {
+      "at": "龍火得水而熾，人火得水而滅",
+      "occ": 1,
+      "en": "A saying in Buddhist texts: lightning, the dragon’s fire, flares in rain; ordinary fire is put out by water.",
+      "zh": "佛书中的说法：雷电之火遇雨更旺，人间之火遇水则灭。",
+      "at_hans": "龙火得水而炽，人火得水而灭"
+    },
+    {
+      "at": "延州永寧關",
+      "occ": 1,
+      "en": "A pass on the Yellow River in present-day northern Shaanxi, a dry loess country where Shen Kuo was military commissioner.",
+      "zh": "在今陕西北部黄河边，是干旱的黄土地区，沈括曾在这里任鄜延路经略使。",
+      "at_hans": "延州永宁关"
+    },
+    {
+      "at": "適有中人過",
+      "occ": 1,
+      "en": "A palace envoy, a eunuch, happened to pass.",
+      "zh": "恰好有宦官经过。中人，宦官。",
+      "at_hans": "适有中人过"
+    },
+    {
+      "at": "無乃曠古以前，地卑氣濕而宜竹耶",
+      "occ": 1,
+      "en": "One of the earliest arguments that fossils record a former climate. Modern scholars think the stalks were probably fossil horsetails.",
+      "zh": "这是最早用化石推论古代气候的论述之一。今人认为这些“竹笋”很可能是古代木贼类植物的化石。",
+      "at_hans": "无乃旷古以前，地卑气湿而宜竹耶"
+    },
+    {
+      "at": "婺州金華山有松石",
+      "occ": 1,
+      "en": "Petrified pine at Mount Jinhua in present-day Zhejiang.",
+      "zh": "婺州金华山（在今浙江）有松树化成的石头。",
+      "at_hans": "婺州金华山有松石"
+    }
+  ],
+  "pairs": [
+    "S-006005",
+    "S-002041",
+    "S-006210"
+  ]
+}

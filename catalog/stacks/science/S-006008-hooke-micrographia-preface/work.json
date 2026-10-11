@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -50,11 +60,8 @@
   },
   "pick": null,
   "tags": [
-    "microscope",
-    "observation",
-    "instruments",
-    "method",
-    "royal-society"
+    "discovery",
+    "thinking"
   ],
   "excerpt": {
     "orig": "a sincere Hand, and a faithful Eye, to examine, and to record, the things themselves as they appear.",

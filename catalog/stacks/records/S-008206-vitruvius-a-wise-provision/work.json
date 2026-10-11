@@ -1,0 +1,112 @@
+{
+  "id": "S-008206",
+  "slug": "vitruvius-a-wise-provision",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "De architectura, liber VII, praefatio",
+    "en": "A Wise Provision of the Ancients: The Preface to Book VII of On Architecture",
+    "zh": "古人明智的安排：《建筑十书》第七书序"
+  },
+  "author": {
+    "orig": "Marcus Vitruvius Pollio",
+    "en": "Vitruvius",
+    "zh": "维特鲁威",
+    "dates": "c. 80–c. 15 BCE"
+  },
+  "year": -25,
+  "year_display": {
+    "en": "c. 30–15 BCE",
+    "zh": "约公元前 30—前 15 年"
+  },
+  "translator": {
+    "name": "Morris Hicky Morgan",
+    "dates": "1859–1910",
+    "year": 1914
+  },
+  "orig_lang": "la",
+  "edition": {
+    "en": "The introduction to Book VII in Morris Hicky Morgan's translation, The Ten Books on Architecture (Harvard University Press, 1914, published four years after his death), via Project Gutenberg; checked word for word against the transcription of the 1914 printing on English Wikisource. Sections 8–9, on the critic Zoilus and the stories of his death, and the rest of section 11 with sections 12–17, Vitruvius's list of earlier writers and builders, are omitted and marked with section breaks; Morgan's section numbers are kept.",
+    "zh": "据古登堡计划所收莫里斯·希基·摩根英译《建筑十书》（哈佛大学出版社，1914 年，译者身后四年出版）第七书引言，并与英文维基文库据 1914 年印本所作的录文逐字核对。第 8—9 节（批评家佐伊洛斯及其死亡的几种传说）与第 11 节后半至第 17 节（维特鲁威开列的前代著作家和建筑师名单）从略，以分隔符标出；保留摩根本的节号。"
+  },
+  "source": {
+    "name": "Project Gutenberg #20239",
+    "url": "https://www.gutenberg.org/cache/epub/20239/pg20239.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Vitruvius wrote in the first century BCE. Morgan's translation was published in 1914; he died in 1910.",
+      "zh": "维特鲁威写作于公元前一世纪。摩根的译本出版于 1914 年，译者卒于 1910 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Vitruvius opens the seventh book of his treatise on architecture by thanking everyone who ever wrote things down, since without them nothing would be known of Troy, of the early philosophers, or of the kings. Then he tells how Aristophanes of Byzantium, a reader at the library of Alexandria, caught a group of poets reciting other men's work by fetching the books from the shelves. It is on this shelf as an ancient statement of what writing forward is for, and of the debt owed to sources. Notice his image for using one's predecessors: drawing water from springs.",
+    "zh": "维特鲁威在他的建筑论著第七书开头，感谢所有把东西写下来的人，因为没有他们，人们对特洛伊、对早期哲学家、对历代国王都将一无所知。接着他讲了一个故事：亚历山大里亚图书馆的读书人、拜占庭的阿里斯托芬，从书架上取出书卷，当场揭穿了几位朗诵别人作品的诗人。它在这个书架上，因为它是古人对“写给后来者”的意义、对前人之债所作的一篇陈述。请留意他形容借鉴前人的比喻：从泉源里汲水。"
+  },
+  "pick": null,
+  "tags": [
+    "books",
+    "messages-forward",
+    "writing",
+    "craft",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "It was a wise and useful provision of the ancients to transmit their thoughts to posterity by recording them in treatises, so that they should not be lost.",
+    "en": "It was a wise and useful provision of the ancients to transmit their thoughts to posterity by recording them in treatises, so that they should not be lost.",
+    "zh": "古人有一项明智而有益的安排：把自己的思想记录在著作里，传给后世，使它们不致失传。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the house of Attalus",
+      "occ": 1,
+      "en": "The Attalid kings of Pergamon in Asia Minor, whose library was the great rival of Alexandria's in the second century BCE.",
+      "zh": "小亚细亚帕加马的阿塔罗斯王朝，其图书馆在公元前二世纪是亚历山大里亚图书馆的主要对手。"
+    },
+    {
+      "at": "Aristophanes",
+      "occ": 1,
+      "en": "Aristophanes of Byzantium (c. 257–c. 180 BCE), grammarian and editor of Homer, who did become head of the library at Alexandria. Vitruvius's chronology of the kings is loose.",
+      "zh": "拜占庭的阿里斯托芬（约前 257—约前 180），语法学家、荷马史诗的校订者，后来确实做了亚历山大里亚图书馆的馆长。维特鲁威对几位国王年代的叙述并不严格。"
+    },
+    {
+      "at": "Caesar",
+      "occ": 1,
+      "en": "Augustus, to whom Vitruvius dedicated the treatise.",
+      "zh": "指奥古斯都，维特鲁威把这部著作题献给他。"
+    },
+    {
+      "at": "polished finishings",
+      "occ": 1,
+      "en": "Book VII goes on to floors, stucco, wall painting and pigments.",
+      "zh": "第七书接下来讲地面、灰泥、壁画和颜料。"
+    }
+  ],
+  "pairs": [
+    "S-008015",
+    "S-008014",
+    "S-005019"
+  ]
+}

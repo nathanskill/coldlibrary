@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude"
@@ -54,7 +64,7 @@
     "moon",
     "longing",
     "autumn",
-    "geese"
+    "birds"
   ],
   "excerpt": {
     "orig": "此情無計可消除，才下眉頭，卻上心頭。",

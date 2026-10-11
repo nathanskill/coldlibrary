@@ -1,0 +1,190 @@
+{
+  "id": "S-008204",
+  "slug": "ouyang-xiu-collected-antiquities",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "集古錄目序",
+    "en": "Things Gather Where They Are Loved: Preface to the Record of Collected Antiquities",
+    "zh": "集古录目序"
+  },
+  "author": {
+    "orig": "歐陽修",
+    "en": "Ouyang Xiu",
+    "zh": "欧阳修",
+    "dates": "1007–1072"
+  },
+  "year": 1062,
+  "year_display": {
+    "en": "1062",
+    "zh": "1062 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (集古錄目序), collated with the Sibu congkan edition of Ouyang Xiu's collected works (Wikisource, 歐陽文忠公文集, 集古錄跋尾序); one misprint (伕 for 夫) is corrected from the latter.",
+    "zh": "据维基文库所录《集古录目序》，并与《四部丛刊》本《欧阳文忠公文集》（维基文库“集古录跋尾序”）对校；据后者改正一处误字（“伕”作“夫”）。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 集古錄目序",
+    "url": "https://zh.wikisource.org/wiki/集古錄目序",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in 1062; the author died in 1072.",
+      "zh": "作于 1062 年，作者卒于 1072 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Ouyang Xiu spent many years gathering rubbings of inscriptions on bronze and stone, about a thousand scrolls in all, and his notes on them began Chinese epigraphy as a field of study. This preface gives his reasons: copies by hand lose the truth, so he kept rubbings from the stones themselves, and since every collection is scattered in the end, he made a catalogue to hand on to later scholars. Notice how calmly he answers the man who mocks him: everything gathered disperses, and that is no reason not to gather.",
+    "zh": "欧阳修用了许多年搜集金石铭刻的拓本，总共约一千卷；他为这些拓本写的跋尾，开创了中国的金石学。这篇序交代了他的理由：辗转传抄会失真，所以他保存直接从石上拓下的本子；而任何收藏最终都会散失，所以他另编目录，“以传后学”。请留意他回答讥笑者时有多么平静：凡是聚集的都会散去，但这不是不去聚集的理由。"
+  },
+  "pick": null,
+  "tags": [
+    "inscriptions",
+    "books",
+    "memory",
+    "messages-forward",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "以謂傳寫失真，故因其石本，軸而藏之。",
+    "en": "Believing that copies made by hand lose the truth, I kept the rubbings taken from the stones themselves, mounted them on rollers and stored them.",
+    "zh": "以谓传写失真，故因其石本，轴而藏之。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "有力之彊",
+      "occ": 1,
+      "en": "彊 is the same as 強: the strong, those with power and means.",
+      "zh": "彊，同“强”。有力量的强者。"
+    },
+    {
+      "at": "經十餘譯",
+      "occ": 1,
+      "at_hans": "经十余译",
+      "en": "Passing through more than ten interpreters, that is, through many countries on the way.",
+      "zh": "经过十几道翻译，即途经许多国家。"
+    },
+    {
+      "at": "𦝫絙",
+      "occ": 1,
+      "en": "𦝫, the waist; 絙, a rope: with ropes tied round their waists.",
+      "zh": "𦝫，同“腰”；絙，粗绳。腰上系着绳子。"
+    },
+    {
+      "at": "篝火餱糧",
+      "occ": 1,
+      "at_hans": "篝火糇粮",
+      "en": "篝火, fire carried in a cage, a lantern; 餱糧, dried provisions.",
+      "zh": "篝火，放在笼中的火，即灯笼；餱粮，干粮。"
+    },
+    {
+      "at": "湯盤",
+      "occ": 1,
+      "at_hans": "汤盘",
+      "en": "The bath basin of King Tang of Shang, whose inscription is quoted in the Great Learning: 'If you can renew yourself one day, renew yourself every day.'",
+      "zh": "商汤的浴盘，《大学》引其铭文：“苟日新，日日新，又日新。”"
+    },
+    {
+      "at": "孔鼎",
+      "occ": 1,
+      "en": "A bronze tripod of the Kong family whose inscription is quoted in early texts: usually taken to be that of Zheng Kaofu, an ancestor of Confucius (Zuo zhuan), or that of Kong Kui (Book of Rites).",
+      "zh": "孔氏的铜鼎，铭文见于先秦典籍：一般认为指孔子先祖正考父的鼎（见《左传》），也有人认为指孔悝的鼎（见《礼记·祭统》）。"
+    },
+    {
+      "at": "岐陽之鼓",
+      "occ": 1,
+      "at_hans": "岐阳之鼓",
+      "en": "The Stone Drums found near Qishan, carved with poems about hunting; they are among the oldest stone inscriptions in China.",
+      "zh": "岐山之南发现的石鼓，刻有记述田猎的诗，是中国现存最早的石刻文字之一。"
+    },
+    {
+      "at": "岱山、鄒嶧、會稽之刻石",
+      "occ": 1,
+      "at_hans": "岱山、邹峄、会稽之刻石",
+      "en": "The stones the First Emperor of Qin had carved on Mount Tai, Mount Yi near Zou, and Mount Kuaiji, praising his reign.",
+      "zh": "秦始皇在泰山、邹县峄山、会稽山所立的颂德刻石。"
+    },
+    {
+      "at": "古文、籀、篆、分、隸",
+      "occ": 1,
+      "at_hans": "古文、籀、篆、分、隶",
+      "en": "Five scripts: the ancient script, the large seal (籀), the small seal, bafen (八分) and clerical script.",
+      "zh": "五种书体：古文、籀文（大篆）、小篆、八分、隶书。"
+    },
+    {
+      "at": "周穆王",
+      "occ": 1,
+      "en": "King Mu of Zhou, of the tenth century BCE; the oldest item in the collection was a stone inscription attributed to him.",
+      "zh": "周穆王，公元前十世纪的周王；《集古录》中最古的一件，是传为他所刻的石刻。"
+    },
+    {
+      "at": "因其石本",
+      "occ": 1,
+      "en": "石本, rubbings taken directly from the stones, as against copies made by hand.",
+      "zh": "石本，直接从石刻上拓下的本子，相对于手抄本而言。"
+    },
+    {
+      "at": "軸而藏之",
+      "occ": 1,
+      "at_hans": "轴而藏之",
+      "en": "Mounted on rollers as hand scrolls and stored.",
+      "zh": "装裱成卷轴收藏。"
+    },
+    {
+      "at": "別爲錄目",
+      "occ": 1,
+      "at_hans": "别为录目",
+      "en": "The separate catalogue was eventually compiled in ten volumes by his son Ouyang Fei in 1069.",
+      "zh": "这部目录后来由他的儿子欧阳棐于 1069 年编成十卷。"
+    },
+    {
+      "at": "可與史傳正其闕謬者",
+      "occ": 1,
+      "at_hans": "可与史传正其阙谬者",
+      "en": "Ouyang Xiu's colophons on the rubbings often use inscriptions to correct dates, names and offices in the standard histories.",
+      "zh": "欧阳修为拓本写的跋尾，常用碑文订正史书中的年代、人名和官职。"
+    },
+    {
+      "at": "區區",
+      "occ": 1,
+      "at_hans": "区区",
+      "en": "Taking such trouble over something small.",
+      "zh": "形容费心于小事。"
+    },
+    {
+      "at": "以此而易彼",
+      "occ": 1,
+      "en": "To exchange this, the inscriptions, for that, the ivory, gold and jade others hoard.",
+      "zh": "拿这个（金石拓本）去换那个（象犀金玉）。"
+    }
+  ],
+  "pairs": [
+    "S-008205",
+    "S-008021",
+    "S-008013"
+  ]
+}

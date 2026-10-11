@@ -1,0 +1,93 @@
+{
+  "id": "S-007202",
+  "slug": "pep-1-what-is-a-pep",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "PEP 1 – PEP Purpose and Guidelines (What is a PEP?; PEP Audience; PEP Types)",
+    "en": "PEP 1: What Is a PEP?",
+    "zh": "PEP 1：什么是 PEP？"
+  },
+  "author": {
+    "orig": "Barry Warsaw, Jeremy Hylton, David Goodger, Alyssa Coghlan",
+    "en": "Barry Warsaw, Jeremy Hylton, David Goodger and Alyssa Coghlan",
+    "zh": "巴里·华沙、杰里米·希尔顿、戴维·古杰、艾丽莎·科格伦",
+    "dates": "PEP created 2000"
+  },
+  "year": 2000,
+  "year_display": {
+    "en": "13 June 2000, revised since",
+    "zh": "2000 年 6 月 13 日，此后屡有修订"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The first three sections of PEP 1 from its reStructuredText source in the python/peps repository, checked against the rendered page on peps.python.org; inline markup other than bold is removed.",
+    "zh": "PEP 1 的前三节，据 python/peps 代码库中的 reStructuredText 源文件，并与 peps.python.org 上渲染出的页面核对；除粗体外，去掉了行内标记。"
+  },
+  "source": {
+    "name": "Python Enhancement Proposals, PEP 1",
+    "url": "https://peps.python.org/pep-0001/",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "dedicated",
+    "basis": {
+      "en": "Dedicated by its authors: 'This document is placed in the public domain or under the CC0-1.0-Universal license, whichever is more permissive.'",
+      "zh": "作者声明：“本文档置于公有领域，或采用 CC0-1.0-Universal 许可，以二者中更宽松者为准。”"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "PEP 1 is the proposal that defines what a Python Enhancement Proposal is, and so the rules by which a programming language used by millions decides to change. These are its opening sections. It is on this shelf for two sentences: the author must document dissenting opinions as well as consensus, and the revision history of every proposal is kept as the historical record, so that later readers can see not only what was decided but how.",
+    "zh": "PEP 1 是定义“Python 增强提案”本身的那份提案，也就是一门有数百万人使用的编程语言决定如何改变自己的规则。这里是它的开头几节。它在这个书架上，是为了两句话：作者既要记录共识，也要记录不同意见；每份提案的修订历史都作为历史记录保存下来，让后来的读者不仅看到决定了什么，还能看到是怎样决定的。"
+  },
+  "pick": null,
+  "tags": [
+    "code",
+    "memory",
+    "messages-forward"
+  ],
+  "excerpt": {
+    "orig": "Because the PEPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.",
+    "en": "Because the PEPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.",
+    "zh": "由于 PEP 以文本文件的形式保存在一个有版本管理的代码库里，它们的修订历史就是这项特性提案的历史记录。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Steering Council",
+      "occ": 1,
+      "en": "The five-person body elected by Python's core developers since 2019, after Guido van Rossum stepped down as 'Benevolent Dictator for Life'.",
+      "zh": "自 2019 年起由 Python 核心开发者选出的五人委员会；此前吉多·范罗苏姆卸下了“终身仁慈独裁者”的角色。"
+    },
+    {
+      "at": "CPython",
+      "occ": 1,
+      "en": "The reference implementation of Python, written in C.",
+      "zh": "用 C 语言写成的 Python 参考实现。"
+    }
+  ],
+  "pairs": [
+    "S-007201",
+    "S-007012",
+    "S-007018"
+  ]
+}

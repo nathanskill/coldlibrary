@@ -1,0 +1,189 @@
+{
+  "id": "S-006202",
+  "slug": "white-selborne-the-great-frosts",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Natural History of Selborne, Letters LXI–LXIII to Daines Barrington",
+    "en": "The Natural History of Selborne: The Great Frosts",
+    "zh": "塞尔伯恩自然史：几次大霜冻"
+  },
+  "author": {
+    "orig": "Gilbert White",
+    "en": "Gilbert White",
+    "zh": "吉尔伯特·怀特",
+    "dates": "1720–1793"
+  },
+  "year": 1789,
+  "year_display": {
+    "en": "1789",
+    "zh": "1789 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Three letters to Daines Barrington, LXI, LXII and LXIII, from The Natural History and Antiquities of Selborne (London: B. White and Son, 1789); the fourth letter White announces, on hot summers, is not included. The text is Project Gutenberg eBook 1408, from a later edition, brought back to the wording of the first by comparison with a scan of the 1789 volume: fourteen readings are restored, among them “for the small time it lasted”, “behoves” and “an exemption from din”. Spelling otherwise follows the Gutenberg text. White’s four footnotes are given as glosses.",
+    "zh": "选《塞尔伯恩的自然史与古迹》（伦敦：B. 怀特父子，1789）中致戴恩斯·巴林顿的三封信，即第六十一、六十二、六十三封；怀特预告的第四封，谈炎热的夏天，不收。文本用古登堡计划电子书第 1408 号，它据的是后来的版本；这里对照 1789 年原书扫描本改回初版的文字，恢复了十四处异文，例如“for the small time it lasted”“behoves”“an exemption from din”。其余拼写依古登堡本。怀特的四条脚注改作注释。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1408/pg1408.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1789; Gilbert White died in 1793.",
+      "zh": "1789 年出版；怀特卒于 1793 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Gilbert White, a clergyman in the Hampshire village of Selborne, spent decades watching its birds, plants and weather and writing them up in letters to two naturalist friends. These three letters record the hard frosts of 1768, 1776 and 1784: evergreens burnt by thawing and freezing snow, a silent London deep in snow, larks in the streets, thermometers compared between his house and the hill above it, and ice crystals glittering in the sunlit air. His method is that of a careful diary: dates, readings and what he saw.",
+    "zh": "吉尔伯特·怀特是汉普郡塞尔伯恩村的一位牧师，几十年间观察村里的鸟、植物和天气，写在给两位博物学家朋友的信里。这三封信记录了 1768、1776 和 1784 年的严寒：被时化时冻的积雪烧焦的常绿植物，深埋雪中、寂静无声的伦敦，落到街上的云雀，在他家和上方山坡之间对照的温度计，还有在阳光照耀的空气中闪烁的冰晶。他的方法就是一本仔细的日记：日期、读数，以及他看到的东西。"
+  },
+  "pick": null,
+  "tags": [
+    "winter",
+    "snow",
+    "nature"
+  ],
+  "excerpt": {
+    "orig": "for snow is the most kindly mantle that infant vegetation can be wrapped in",
+    "en": "for snow is the most kindly mantle that infant vegetation can be wrapped in",
+    "zh": "因为雪是幼小的植物所能裹上的最温和的斗篷"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the four following letters",
+      "occ": 1,
+      "en": "White’s letters to Daines Barrington (1727–1800), lawyer and naturalist, make up the second half of his book.",
+      "zh": "怀特写给律师兼博物学家戴恩斯·巴林顿（1727–1800）的信，构成了他这本书的后半部分。"
+    },
+    {
+      "at": "laurustines, bays, laurels, and arbutuses",
+      "occ": 1,
+      "en": "Laurustinus (a Mediterranean viburnum), bay, cherry laurel and the strawberry tree: evergreens from warmer countries.",
+      "zh": "地中海荚蒾、月桂、桂樱和草莓树：都是来自较温暖国度的常绿植物。"
+    },
+    {
+      "at": "pease-haum",
+      "occ": 1,
+      "en": "Pea haulm: the dried stalks of peas.",
+      "zh": "豌豆秸，晒干的豌豆茎秆。"
+    },
+    {
+      "at": "Dr. Fothergill",
+      "occ": 1,
+      "en": "John Fothergill (1712–1780), Quaker physician, who grew North American plants in his great garden at Upton.",
+      "zh": "约翰·福瑟吉尔（1712–1780），贵格会医生，在他位于厄普顿的大花园里栽种北美植物。"
+    },
+    {
+      "at": "for a purpose that has been explained already",
+      "occ": 1,
+      "en": "White’s note points to an earlier letter, to Thomas Pennant, where the great tit hangs upside down under the eaves to pull out the flies hidden in the thatch.",
+      "zh": "怀特原注指向前面致托马斯·彭南特的一封信：大山雀在檐下倒挂着，把藏在草顶里的苍蝇拉出来。"
+    },
+    {
+      "at": "Benjamin Martin’s thermometer",
+      "occ": 1,
+      "en": "Benjamin Martin (1704–1782), London maker of instruments. The temperatures are in degrees Fahrenheit: 32 is freezing, and 17½ is about −8 °C.",
+      "zh": "本杰明·马丁（1704–1782），伦敦的仪器制造者。文中温度都是华氏度：32 度是冰点，17 度半约合零下 8 摄氏度。"
+    },
+    {
+      "at": "friendly meteor",
+      "occ": 1,
+      "en": "In White’s time a meteor was any event of the atmosphere, snow and rain as well as shooting stars.",
+      "zh": "在怀特的时代，meteor 指一切大气现象，雪和雨都算，不只是流星。"
+    },
+    {
+      "at": "glutted and chilled with water",
+      "occ": 1,
+      "en": "White’s note: the autumn before the frost of January 1768 was very wet, with six and a half inches of rain at Lyndon in September, and the long frost of 1739–40 also set in after a rainy season.",
+      "zh": "怀特原注：1768 年 1 月霜冻之前的秋天非常潮湿，九月里林登下了六英寸半的雨；1739–40 年那场漫长的霜冻，也是在一个多雨的季节之后到来的。"
+    },
+    {
+      "at": "the Queen’s birth-day",
+      "occ": 1,
+      "en": "The court celebration of Queen Charlotte’s birthday, held each year in January.",
+      "zh": "宫廷为夏洛特王后举行的生日庆典，每年一月举行。"
+    },
+    {
+      "at": "ne plus ultra",
+      "occ": 1,
+      "en": "Latin, “no further”.",
+      "zh": "拉丁文，“不能再往前了”。"
+    },
+    {
+      "at": "ipsa silentia terrent",
+      "occ": 1,
+      "en": "“The very silence terrifies”: Virgil, Aeneid, Book II, as Aeneas goes back through burning Troy.",
+      "zh": "拉丁文，“连寂静本身都令人恐惧”：维吉尔《埃涅阿斯纪》卷二，埃涅阿斯穿过燃烧的特洛伊往回走时。"
+    },
+    {
+      "at": "At South Lambeth",
+      "occ": 1,
+      "en": "Then a village south of the Thames, now part of London, where White’s brother Thomas lived.",
+      "zh": "南兰贝斯，当时是泰晤士河南岸的一个村庄，今属伦敦；怀特的弟弟托马斯住在那里。"
+    },
+    {
+      "at": "the quicksilver sunk exactly to zero",
+      "occ": 1,
+      "en": "0 °F is about −18 °C. White’s note adds that this was the greatest cold he could hear of with certainty anywhere, though a village in Kent reported two degrees below zero.",
+      "zh": "华氏零度约合零下 18 摄氏度。怀特原注补充说，这是他确知的各地最低的温度，虽然肯特郡有个村子报告说降到了零下两度。"
+    },
+    {
+      "at": "at Lyndon in the county of Rutland",
+      "occ": 1,
+      "en": "Where Thomas Barker, White’s brother-in-law, kept a weather diary for more than sixty years.",
+      "zh": "怀特的姐夫托马斯·巴克住在那里，他记了六十多年的天气日记。"
+    },
+    {
+      "at": "one made by Martin and one by Dollond",
+      "occ": 1,
+      "en": "Dollond was the family firm of London opticians that made telescopes and instruments.",
+      "zh": "多隆德是伦敦一家制造望远镜和仪器的光学家族作坊。"
+    },
+    {
+      "at": "such an exalted and near situation as Newton",
+      "occ": 1,
+      "en": "Newton Valence, the next village, on the hill above Selborne; White’s friend there is left unnamed.",
+      "zh": "纽顿瓦朗斯，邻近的村子，在塞尔伯恩上方的山坡上；怀特在那里的朋友没有写出名字。"
+    },
+    {
+      "at": "icy spiculae",
+      "occ": 1,
+      "en": "Tiny needles of ice glittering in sunlit air, now called diamond dust.",
+      "zh": "在阳光照耀的空气中闪闪发光的细小冰针，今天叫作“钻石尘”。"
+    },
+    {
+      "at": "even my Portugal laurels",
+      "occ": 1,
+      "en": "White’s note: Philip Miller’s Gardener’s Dictionary says the Portugal laurels came through the frost of 1739–40 untouched, so either Miller was mistaken or the frost of 1784 was the worse of the two.",
+      "zh": "怀特原注：菲利普·米勒的《园丁辞典》断言，葡萄牙桂樱在 1739–40 年的霜冻中安然无损；所以要么米勒弄错了，要么 1784 年的霜冻更为严重。"
+    },
+    {
+      "at": "before old November ended",
+      "occ": 1,
+      "en": "By the Old Style calendar, which England gave up in 1752, 10 December was still 29 November.",
+      "zh": "按照英格兰在 1752 年废止的旧历，12 月 10 日仍是 11 月 29 日。"
+    }
+  ],
+  "pairs": [
+    "S-006201",
+    "S-004105",
+    "S-006011"
+  ]
+}

@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude"
@@ -50,7 +60,6 @@
   },
   "pick": null,
   "tags": [
-    "distance",
     "longing",
     "time",
     "farewell"

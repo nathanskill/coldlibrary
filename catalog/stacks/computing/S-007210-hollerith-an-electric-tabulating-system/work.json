@@ -1,0 +1,129 @@
+{
+  "id": "S-007210",
+  "slug": "hollerith-an-electric-tabulating-system",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "An Electric Tabulating System",
+    "en": "An Electric Tabulating System",
+    "zh": "电动制表系统"
+  },
+  "author": {
+    "orig": "Herman Hollerith",
+    "en": "Herman Hollerith",
+    "zh": "赫尔曼·何乐礼",
+    "dates": "1860–1929"
+  },
+  "year": 1889,
+  "year_display": {
+    "en": "April 1889",
+    "zh": "1889 年 4 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Excerpts from the article in The School of Mines Quarterly (Columbia College), vol. 10, no. 3, April 1889, pages 238–255, transcribed from the Internet Archive scan of that volume and checked against its page images and against a second scan of another copy (schoolminesquar57chemgoog). Left out are Hollerith's estimates of census costs, the list of questions on the 1880 schedules with the further tables he wanted from them, a letter from Francis A. Walker, and the cards he had designed for army and New York City health records; the gaps are marked with section breaks. The eight figures are not reproduced, though the text still refers to them. Spacing before punctuation is normalised, three evident misprints are corrected (a missing full stop, 'as show' for 'as shown', 'Each districts' for 'Each district'), and 'centre groups of ages' is kept as printed. The census categories of 1889, including its racial terms, are kept as printed: they are the record of what the machine was built to count.",
+    "zh": "节选自《矿业学院季刊》（哥伦比亚学院）第 10 卷第 3 期（1889 年 4 月）第 238—255 页，据互联网档案馆该卷扫描本录文，并与其页面图像以及另一部藏本的扫描（schoolminesquar57chemgoog）核对。略去的部分有：何乐礼对普查费用的估算，1880 年普查表上的问题清单及他希望据此编制的更多统计表，弗朗西斯·A. 沃克的一封来信，以及他为陆军和纽约市卫生记录设计的卡片；删节处以分隔符标出。原文的八幅插图未收录，但正文仍提到它们。标点前的空格已规范化，改正三处明显的排印错误（脱漏的句号，as show 作 as shown，Each districts 作 Each district），“centre groups of ages”照原文保留。1889 年普查使用的分类（包括当时的种族称谓）照原文保留：它们正是这台机器当年被造出来要统计的东西。"
+  },
+  "source": {
+    "name": "Internet Archive, The School of Mines Quarterly, vol. 10 (1888–89)",
+    "url": "https://archive.org/details/schoolminesquar10chemgoog",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in April 1889; Hollerith died in 1929.",
+      "zh": "1889 年 4 月发表，何乐礼卒于 1929 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Herman Hollerith published this paper in April 1889, a year before the United States census of 1890, which was tabulated on his machines. Each person's answers became holes in a card; when the press came down, spring-loaded pins passed through the holes into cups of mercury and closed circuits that moved counters on by one or opened a lid of the sorting box. In 1911 the company he had founded in 1896 was merged with others into the firm that was renamed IBM in 1924. Notice how much of the paper is about checking: the corner cut from every card, the needle run through a stack to find a stray, and the point that a wrongly punched card can put a total out by one and no more.",
+    "zh": "赫尔曼·何乐礼在 1889 年 4 月发表了这篇文章，一年之后，美国 1890 年的人口普查就用他的机器制表。每个人的答案变成卡片上的孔；压机压下时，弹簧针穿过孔伸进水银杯，接通电路，使计数器走一格，或使分类箱的某个盖子弹开。他在 1896 年创办的公司，1911 年与其他几家公司合并，组成的新公司在 1924 年改名为 IBM。请留意，文中有多少篇幅在讲核对：每张卡片切去的一角，穿过一摞卡片查找错放者的针，还有这样一个论点：一张打错的卡片，只会让总数差一，不会更多。"
+  },
+  "pick": null,
+  "tags": [
+    "machines",
+    "mathematics",
+    "craft"
+  ],
+  "excerpt": {
+    "orig": "In order to accomplish this the records must be put in such shape that a machine could read them.",
+    "en": "In order to accomplish this the records must be put in such shape that a machine could read them.",
+    "zh": "为此，记录必须做成机器能够读取的形式。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the last census",
+      "occ": 1,
+      "en": "The United States census of 1880, which Hollerith calls the tenth; the eleventh was taken in June 1890.",
+      "zh": "指美国 1880 年的人口普查，何乐礼称之为第十次普查；第十一次普查于 1890 年 6 月举行。"
+    },
+    {
+      "at": "enumerator's district",
+      "occ": 1,
+      "en": "The area assigned to one census taker, who called at every household in it.",
+      "zh": "分配给一名普查调查员的区域，他要走访其中的每一户。"
+    },
+    {
+      "at": "ticket-punch",
+      "occ": 1,
+      "en": "A conductor's hand punch, of the kind used to clip railway tickets.",
+      "zh": "列车员用来给车票打孔的那种手持打孔钳。"
+    },
+    {
+      "at": "manilla stock",
+      "occ": 1,
+      "en": "Card made from Manila hemp fibre, light and strong.",
+      "zh": "用马尼拉麻纤维制成的纸板，轻而结实。"
+    },
+    {
+      "at": "binding-post",
+      "occ": 1,
+      "en": "A screw terminal to which a wire is clamped.",
+      "zh": "接线柱：用来夹紧导线的螺丝端子。"
+    },
+    {
+      "at": "armature",
+      "occ": 1,
+      "en": "The iron piece that an electromagnet pulls towards itself when current flows.",
+      "zh": "衔铁：电流通过时被电磁铁吸过去的铁片。"
+    },
+    {
+      "at": "centre groups of ages",
+      "occ": 1,
+      "en": "So printed; probably a misprint for 'certain groups of ages'.",
+      "zh": "原文如此，可能是 certain groups of ages（若干年龄组）的误植。"
+    },
+    {
+      "at": "small relays",
+      "occ": 1,
+      "en": "Switches worked by an electromagnet, so that one circuit can close another. Wired in a chain, as in his Fig. 8, they close the counter's circuit only when every condition holds, which is what would later be called an AND gate.",
+      "zh": "继电器：由电磁铁操纵的开关，使一个电路能接通另一个电路。像他的图 8 那样串接起来，只有在每个条件都满足时才接通计数器的电路，这就是后来所说的“与门”。"
+    }
+  ],
+  "pairs": [
+    "S-007001",
+    "S-007002",
+    "S-007209"
+  ]
+}

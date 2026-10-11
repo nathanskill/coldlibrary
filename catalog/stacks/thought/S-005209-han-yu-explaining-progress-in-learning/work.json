@@ -1,0 +1,219 @@
+{
+  "id": "S-005209",
+  "slug": "han-yu-explaining-progress-in-learning",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "進學解",
+    "en": "An Explanation of Progress in Learning",
+    "zh": "进学解"
+  },
+  "author": {
+    "orig": "韓愈",
+    "en": "Han Yu",
+    "zh": "韩愈",
+    "dates": "768–824"
+  },
+  "year": 813,
+  "year_display": {
+    "en": "813",
+    "zh": "813 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from the Quan Tang wen, book 558), with its interlinear variant notes (一作…) removed; compared with the Dongya tang edition of Han Yu’s collected works (book 12) in the Kanseki Repository, from which 忘己量 is read for the online 忘已量.",
+    "zh": "据维基文库（录自《全唐文》卷五百五十八），删去文中“一作某”的异文小注；与京都大学汉籍资料库（Kanseki Repository）所收东雅堂本《昌黎先生集》卷十二对校，维基文库“忘已量”据校本作“忘己量”。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/進學解",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Tang dynasty prose, written in 813; the author died in 824.",
+      "zh": "唐代散文，作于 813 年，作者卒于 824 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Han Yu was a professor at the National Academy for the third time, passed over and poor, when he wrote this little play: a teacher urges diligence, a student laughs and lists the teacher’s labours and their reward, and the teacher answers by comparing a good state to a carpenter and a physician who find a use for every timber and every root. It is a complaint dressed as a lesson, and the lesson is still the better half. Several of its phrases became proverbs, among them burning the lamp oil to carry on after the sun.",
+    "zh": "韩愈第三次出任国子博士，仕途不顺，家境清贫，写下了这篇小小的戏剧：先生勉励学生勤学，学生笑着列举先生的种种辛劳和所得的回报，先生则回答说，好的朝廷就像工匠和医师，每根木料、每味药材都派得上用场。这是一篇装扮成教诲的牢骚，而其中的教诲仍是更好的那一半。文中好几句话后来成了成语，比如“焚膏油以继晷”。"
+  },
+  "pick": null,
+  "tags": [
+    "learning",
+    "teachers",
+    "writing"
+  ],
+  "excerpt": {
+    "orig": "業精於勤，荒於嬉；行成於思，毀於隨。",
+    "en": "Learning is perfected by diligence and wasted by play; conduct is formed by thought and spoiled by drifting.",
+    "zh": "业精于勤，荒于嬉；行成于思，毁于随。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "國子先生",
+      "occ": 1,
+      "en": "The Master of the National Academy: Han Yu himself, then a professor there.",
+      "zh": "国子先生，韩愈自称，他当时任国子博士。",
+      "at_hans": "国子先生"
+    },
+    {
+      "at": "業精於勤，荒於嬉；行成於思，毀於隨",
+      "occ": 1,
+      "en": "隨 is following along without thought, drifting with others.",
+      "zh": "随，随波逐流，不加思考地跟着别人。",
+      "at_hans": "业精于勤，荒于嬉；行成于思，毁于随"
+    },
+    {
+      "at": "治具畢張",
+      "occ": 1,
+      "en": "All the instruments of government, laws and institutions, are fully set out.",
+      "zh": "治理国家的各种法令制度都已建立。治具，治国的工具。",
+      "at_hans": "治具毕张"
+    },
+    {
+      "at": "登崇畯良",
+      "occ": 1,
+      "en": "Raising up the able and good. 畯 is read as 俊.",
+      "zh": "提拔优秀的人才。畯，同“俊”。"
+    },
+    {
+      "at": "爬羅剔抉，刮垢磨光",
+      "occ": 1,
+      "en": "Raking and netting, picking and choosing; scraping off the dirt and polishing to a shine: the court’s care in finding talent.",
+      "zh": "广泛搜罗，精心挑选；刮去污垢，磨出光泽。比喻朝廷选拔、造就人才。",
+      "at_hans": "爬罗剔抉，刮垢磨光"
+    },
+    {
+      "at": "焚膏油以繼晷",
+      "occ": 1,
+      "en": "Burning lamp oil to continue the sun; 晷 is the sun’s shadow on a dial, daylight.",
+      "zh": "点燃油灯来接续白天。晷，日影，指白昼。",
+      "at_hans": "焚膏油以继晷"
+    },
+    {
+      "at": "恆兀兀以窮年",
+      "occ": 1,
+      "en": "Always toiling, to the end of every year. 兀兀 is the look of unremitting effort.",
+      "zh": "一年到头勤勤恳恳。兀兀，勤勉不止的样子。",
+      "at_hans": "恒兀兀以穷年"
+    },
+    {
+      "at": "攘斥佛老",
+      "occ": 1,
+      "en": "Han Yu was the Tang’s leading opponent of Buddhism and Daoism; in 819 his memorial against honouring a relic of the Buddha cost him his post.",
+      "zh": "韩愈是唐代反对佛教、道教最力的人；819 年他上《谏迎佛骨表》，因此被贬。"
+    },
+    {
+      "at": "補苴罅漏，張皇幽眇",
+      "occ": 1,
+      "en": "Patching the cracks and leaks; bringing out what is dark and subtle.",
+      "zh": "弥补缺漏，阐发精微。苴，鞋垫，引申为填补；罅，裂缝；张皇，张大、发扬。",
+      "at_hans": "补苴罅漏，张皇幽眇"
+    },
+    {
+      "at": "回狂瀾於既倒",
+      "occ": 1,
+      "en": "Turning back the wild wave after it has already broken: became the idiom 力挽狂瀾.",
+      "zh": "把已经倒下的狂澜挽回来。后来演为成语“力挽狂澜”。",
+      "at_hans": "回狂澜于既倒"
+    },
+    {
+      "at": "含英咀華",
+      "occ": 1,
+      "en": "Holding the blossoms in the mouth and chewing the flowers: savouring the best of literature.",
+      "zh": "细细品味文章的精华。英、华，都指花。",
+      "at_hans": "含英咀华"
+    },
+    {
+      "at": "上規姚姒",
+      "occ": 1,
+      "en": "Above, taking as models the documents of Yao’s descendant Shun and of the Si clan of Yu: the oldest parts of the Book of Documents.",
+      "zh": "向上取法虞、夏的典籍。姚，舜的姓；姒，禹的姓。",
+      "at_hans": "上规姚姒"
+    },
+    {
+      "at": "佶屈聱牙",
+      "occ": 1,
+      "en": "Knotted and grating on the teeth: hard to read aloud.",
+      "zh": "文句艰涩拗口。"
+    },
+    {
+      "at": "子雲相如，同工異曲",
+      "occ": 1,
+      "en": "Yang Xiong and Sima Xiangru, the great Han rhapsodists: equal in skill, different in tune.",
+      "zh": "扬雄（字子云）和司马相如，汉代辞赋大家，技巧同样高明而风格各异。成语“异曲同工”出此。",
+      "at_hans": "子云相如，同工异曲"
+    },
+    {
+      "at": "跋前躓後",
+      "occ": 1,
+      "en": "From the Book of Songs: an old wolf that steps on its dewlap going forward and trips on its tail going back.",
+      "zh": "语出《诗经·豳风·狼跋》：老狼往前走踩着自己颈下的垂肉，往后退又被尾巴绊倒。比喻进退两难。",
+      "at_hans": "跋前踬后"
+    },
+    {
+      "at": "暫為御史，遂竄南夷",
+      "occ": 1,
+      "en": "In 803 Han Yu was a censor for a few months and was then banished to Yangshan in the far south for a memorial on famine relief.",
+      "zh": "803 年，韩愈任监察御史仅几个月，就因上书论天旱人饥，被贬为阳山县令。",
+      "at_hans": "暂为御史，遂窜南夷"
+    },
+    {
+      "at": "頭童齒豁",
+      "occ": 1,
+      "en": "Head bald as a hill without trees, teeth with gaps.",
+      "zh": "头顶秃了，牙齿缺了。童，山无草木叫童，这里指秃顶。",
+      "at_hans": "头童齿豁"
+    },
+    {
+      "at": "欂櫨侏儒，椳闑扂楔",
+      "occ": 1,
+      "en": "Brackets, short posts on the beams, door pivots, the post in the middle of a gateway, door bolts and the side posts of a door.",
+      "zh": "欂栌，柱上的斗拱；侏儒，梁上的短柱；椳，门枢；闑，门中间竖的短木；扂，门闩；楔，门两旁的木柱。",
+      "at_hans": "欂栌侏儒，椳闑扂楔"
+    },
+    {
+      "at": "玉劄丹砂，赤箭青芝，牛溲馬勃，敗鼓之皮",
+      "occ": 1,
+      "en": "Medicines precious and lowly: burnet root and cinnabar, gastrodia and green fungus, plantain and puffball, and the hide of a worn-out drum.",
+      "zh": "贵贱各种药材：玉札（地榆）、丹砂、赤箭（天麻）、青芝，牛溲（车前草）、马勃（一种菌类），以及破鼓皮。",
+      "at_hans": "玉劄丹砂，赤箭青芝，牛溲马勃，败鼓之皮"
+    },
+    {
+      "at": "訾醫師以昌陽引年，欲進其豨苓也",
+      "occ": 1,
+      "en": "Calamus was thought to lengthen life; hog-tuber is a cheap diuretic. The point is that the unworthy want the worthy replaced by the commonplace.",
+      "zh": "昌阳，即菖蒲，据说久服可以延年；豨苓，即猪苓，一种普通的利尿药。意思是非难良医，反而推荐平庸之物。",
+      "at_hans": "訾医师以昌阳引年，欲进其豨苓也"
+    }
+  ],
+  "pairs": [
+    "S-002021",
+    "S-002006",
+    "S-005207"
+  ]
+}

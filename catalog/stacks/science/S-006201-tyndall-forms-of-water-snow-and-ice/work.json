@@ -1,0 +1,165 @@
+{
+  "id": "S-006201",
+  "slug": "tyndall-forms-of-water-snow-and-ice",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Forms of Water in Clouds and Rivers, Ice and Glaciers (§§ 9–11, 32, 67)",
+    "en": "The Forms of Water: Snow-Stars, Ice-Flowers and a Winter on the Mer de Glace",
+    "zh": "水的形态：雪星、冰花与冰海冰川的冬天"
+  },
+  "author": {
+    "orig": "John Tyndall",
+    "en": "John Tyndall",
+    "zh": "约翰·丁达尔",
+    "dates": "1820–1893"
+  },
+  "year": 1872,
+  "year_display": {
+    "en": "1872",
+    "zh": "1872 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Sections 9, 10, 11, 32 and 67 of The Forms of Water in Clouds and Rivers, Ice and Glaciers, the first volume of the International Scientific Series (London: Henry S. King; New York: D. Appleton, 1872). The text is Project Gutenberg eBook 63803, taken from a later Appleton printing, compared with a scan of a London printing by Henry S. King, from which two slips are corrected (“a second portion”, “a little way below”). Tyndall’s paragraph numbers are kept; his drawings of snow crystals and ice flowers, and the frontispiece he mentions, are not reproduced.",
+    "zh": "《云、河、冰与冰川中水的形态》第 9、10、11、32 和 67 节，这本书是“国际科学丛书”的第一卷（伦敦：亨利·S. 金；纽约：D. 阿普尔顿，1872）。文本用古登堡计划电子书第 63803 号，它据的是后来的阿普尔顿印本；这里与亨利·S. 金在伦敦的印本扫描本对校，据以改正两处笔误（“a second portion”“a little way below”）。丁达尔的段落编号保留；他画的雪晶和冰花图，以及他提到的卷首插图，不收。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/63803/pg63803.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1872; John Tyndall died in 1893.",
+      "zh": "1872 年出版；丁达尔卒于 1893 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The book grew out of Tyndall’s Christmas lectures for young people at the Royal Institution in 1871, and he writes it as a series of rambles with a young companion always at his side. These sections explain why snow falls as six-rayed stars, show the six-petalled flowers that a sunbeam melts inside lake ice, follow Tyndall onto the Mer de Glace in the snows of Christmas 1859 to measure how fast a glacier moves in winter, and end with his goodbye to the reader.",
+    "zh": "这本书源于丁达尔 1871 年在皇家研究院为青少年所作的圣诞讲座，他把它写成一连串的漫游，一个年轻的同伴始终在他身边。这几节解释雪为什么落成六条光芒的星星，展示一束阳光在湖冰内部融出的六瓣花朵，跟着丁达尔在 1859 年圣诞节的大雪中走上冰海冰川，测量冰川在冬天移动得有多快，最后是他向读者的告别。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "winter",
+    "discovery"
+  ],
+  "excerpt": {
+    "orig": "Without imagination we might have critical power, but not creative power in science.",
+    "en": "Without imagination we might have critical power, but not creative power in science.",
+    "zh": "没有想象力，我们在科学中也许会有批判的能力，却不会有创造的能力。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Iceland spar",
+      "occ": 1,
+      "en": "A clear crystal of calcite, the mineral of chalk, famous for splitting a ray of light in two.",
+      "zh": "冰洲石，方解石（白垩的矿物成分）的透明晶体，以能把一束光分成两束而著称。"
+    },
+    {
+      "at": "Dr. Scoresby",
+      "occ": 1,
+      "en": "William Scoresby (1789–1857), Arctic whaler and scientist, who drew snow crystals in An Account of the Arctic Regions (1820).",
+      "zh": "威廉·斯科斯比（1789–1857），北极捕鲸人和科学家，在《北极地区记述》（1820）中画过雪晶。"
+    },
+    {
+      "at": "Mr. Glaisher",
+      "occ": 1,
+      "en": "James Glaisher (1809–1903), meteorologist at the Royal Observatory, Greenwich, who drew snow crystals in the hard winter of 1855. The drawings are not reproduced here.",
+      "zh": "詹姆斯·格莱舍（1809–1903），格林尼治皇家天文台的气象学家，在 1855 年的严冬画过雪晶。这里不收那些图。"
+    },
+    {
+      "at": "scientific use",
+      "occ": 1,
+      "en": "Tyndall’s phrase, from his lecture On the Scientific Use of the Imagination (1870).",
+      "zh": "丁达尔自己的说法，出自他的讲演《论想象力的科学用途》（1870）。"
+    },
+    {
+      "at": "The dark heat of the sun.",
+      "occ": 1,
+      "en": "Infrared radiation, which carries heat but no visible light; Tyndall measured how strongly different substances absorb it.",
+      "zh": "即红外辐射，它带着热，却没有可见的光；丁达尔测量过各种物质吸收它的强弱。"
+    },
+    {
+      "at": "the electric lamp",
+      "occ": 1,
+      "en": "The electric arc lamp, which Tyndall used to throw strong beams in his lectures.",
+      "zh": "电弧灯，丁达尔在讲演中用它投射强光束。"
+    },
+    {
+      "at": "snow near Chamouni",
+      "occ": 1,
+      "en": "Chamonix, at the foot of Mont Blanc. The Mer de Glace, the “sea of ice”, is the great glacier in the mountains above it.",
+      "zh": "霞慕尼，在勃朗峰脚下。冰海冰川（Mer de Glace，意为“冰的海”）是它上方山中的大冰川。"
+    },
+    {
+      "at": "the Montanvert was attained",
+      "occ": 1,
+      "en": "The Montenvers, a shoulder above the Mer de Glace with an inn for summer visitors.",
+      "zh": "蒙唐维尔，冰海冰川上方的一处山肩，有一座接待夏季游客的客栈。"
+    },
+    {
+      "at": "cloud-banner",
+      "occ": 1,
+      "en": "The banner cloud that streams from a sharp summit; Tyndall explains it in a section not given here.",
+      "zh": "旗云，从尖峭的山顶上飘出的云；丁达尔在这里未收的一节中解释过它。"
+    },
+    {
+      "at": "the Grande Jorasse",
+      "occ": 1,
+      "en": "The Grandes Jorasses and the Aiguilles de Charmoz, peaks around the glacier, as is the Aiguille du Dru.",
+      "zh": "大若拉斯峰和夏尔莫针峰，都是冰川周围的山峰，德吕针峰也是。"
+    },
+    {
+      "at": "picked up by the theodolite",
+      "occ": 1,
+      "en": "A theodolite is a surveyor’s telescope for measuring angles. Stakes set in a straight line across the ice show, a day later, how far each part of the glacier has moved.",
+      "zh": "经纬仪是测量角度的测量望远镜。横跨冰面插成一条直线的标杆，过一天就能显示出冰川各部分移动了多远。"
+    },
+    {
+      "at": "Nous avons fini",
+      "occ": 1,
+      "en": "French: “We have finished.”",
+      "zh": "法语：“我们完成了。”"
+    },
+    {
+      "at": "shot by glissade",
+      "occ": 1,
+      "en": "A glissade is a controlled slide down a snow slope, standing on the feet.",
+      "zh": "glissade，站着沿雪坡有控制地滑下去。"
+    },
+    {
+      "at": "the vault of the Arveiron",
+      "occ": 1,
+      "en": "The ice cave at the snout of the glacier, out of which the river Arveiron flows.",
+      "zh": "冰川末端的冰窟，阿韦龙河就从那里流出来。"
+    },
+    {
+      "at": "Here, my friend, our labours close.",
+      "occ": 1,
+      "en": "The last section of the book. Tyndall has written throughout to a single young companion climbing beside him.",
+      "zh": "这是全书的最后一节。丁达尔通篇都是写给一位在他身边攀登的年轻同伴的。"
+    }
+  ],
+  "pairs": [
+    "S-006013",
+    "S-006015",
+    "S-004105"
+  ]
+}

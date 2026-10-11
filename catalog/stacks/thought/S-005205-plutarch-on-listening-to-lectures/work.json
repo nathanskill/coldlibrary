@@ -1,0 +1,196 @@
+{
+  "id": "S-005205",
+  "slug": "plutarch-on-listening-to-lectures",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Περὶ τοῦ ἀκούειν",
+    "en": "On Listening to Lectures (chapters 1–4, 17–18)",
+    "zh": "论听讲（第一至四章，第十七至十八章）"
+  },
+  "author": {
+    "orig": "Πλούταρχος",
+    "en": "Plutarch",
+    "zh": "普鲁塔克",
+    "dates": "c. 46–after 119 CE"
+  },
+  "year": 100,
+  "year_display": {
+    "en": "late first or early second century CE; translated 1927",
+    "zh": "公元一世纪末或二世纪初；1927 年英译"
+  },
+  "translator": {
+    "name": "Frank Cole Babbitt",
+    "dates": "1867–1935",
+    "year": 1927
+  },
+  "orig_lang": "grc",
+  "edition": {
+    "en": "Chapters 1–4 and 17–18 of the eighteen chapters of On Listening to Lectures, in Frank Cole Babbitt’s translation for the Loeb Classical Library, Plutarch’s Moralia, vol. I (London: William Heinemann; New York: G. P. Putnam’s Sons, 1927), as transcribed on Bill Thayer’s LacusCurtius site and compared with a scan of the 1927 volume, which reads “lectures”, “with loquacity” and “as for those lazy persons” where the online text has “lecture”, “and loquacity” and “after those lazy persons”. The headings are Babbitt’s chapter numbers; his footnotes are left out, and the lines of verse Plutarch quotes are set apart.",
+    "zh": "《论听讲》共十八章，这里选第一至四章和第十七、十八章，用弗兰克·科尔·巴比特为洛布古典丛书所作的译本，见《普鲁塔克道德论集》第一卷（伦敦：威廉·海涅曼；纽约：G. P. 普特南父子，1927），据比尔·塞耶的 LacusCurtius 网站录文，并与 1927 年原书扫描本对校：原书作“lectures”“with loquacity”“as for those lazy persons”，网上录文作“lecture”“and loquacity”“after those lazy persons”。标题是巴比特的章号；他的脚注不收，普鲁塔克引用的诗句单独成行。"
+  },
+  "source": {
+    "name": "LacusCurtius (Bill Thayer)",
+    "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Moralia/De_auditu*.html",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in Greek in the first or second century CE. Frank Cole Babbitt, the translator, died in 1935; his translation was published in 1927.",
+      "zh": "公元一或二世纪用希腊文写成。译者弗兰克·科尔·巴比特卒于 1935 年；他的译本 1927 年出版。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Plutarch of Chaeronea gave this as a lecture and then wrote it out for Nicander, a young man who had just come of age and was about to take up philosophy. It is a handbook for the lecture room: keep quiet until the speaker pauses, ask about what you did not follow, do not pretend, do not pester, and make something of your own from what you hear. These are the opening chapters, on why hearing matters, and the last two, on difficulty and on thinking for oneself.",
+    "zh": "喀罗尼亚的普鲁塔克先把这篇作为讲演讲过，后来又为尼坎德写了出来；尼坎德是个刚刚成年、正要开始学习哲学的年轻人。这是一本讲堂手册：讲话的人停下来之前保持安静，没听懂的地方要问，不要假装，不要纠缠，并且从听到的东西里生出一点自己的东西。这里选的是开头几章，讲听为什么重要；以及最后两章，讲困难，讲独立思考。"
+  },
+  "pick": {
+    "en": "I keep this for its rules, which are as useful at a reading desk as in a lecture room. Plutarch writes like a teacher who has watched many students: the shy one who nods, the clever one who pretends, the lazy one who asks the same question again. What he asks of all of them is the same. Listen to the end, then think for yourself, so that what you hear becomes a fire of your own.",
+    "zh": "我留下它，是为了它的那些规矩，它们在书桌前和在讲堂里一样有用。普鲁塔克写起来像一位看过许多学生的老师：点头的羞怯者，假装的聪明人，一再问同一个问题的懒人。他对他们所有人的要求是一样的：听到最后，然后自己思考，好让听到的东西变成你自己的火。"
+  },
+  "tags": [
+    "learning",
+    "teachers",
+    "thinking"
+  ],
+  "excerpt": {
+    "orig": "For the mind does not require filling like a bottle, but rather, like wood, it only requires kindling to create in it an impulse to think independently and an ardent desire for the truth.",
+    "en": "For the mind does not require filling like a bottle, but rather, like wood, it only requires kindling to create in it an impulse to think independently and an ardent desire for the truth.",
+    "zh": "因为心灵并不需要像瓶子那样被装满，而是像木柴一样，只需要点燃，好在它里面产生独立思考的冲动和对真理的热烈渴望。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "my dear Nicander",
+      "occ": 1,
+      "en": "The young man for whom Plutarch wrote out the lecture; he had just come of age and was about to begin the serious study of philosophy.",
+      "zh": "普鲁塔克为他把讲演写出来的那个年轻人；他刚刚成年，正要认真开始学习哲学。"
+    },
+    {
+      "at": "having assumed the garb of a man",
+      "occ": 1,
+      "en": "On coming of age a young man put on the dress of manhood, at Rome the toga virilis, and left the care of his tutors.",
+      "zh": "年轻人成年时要换上成人的衣袍，在罗马就是成人托加，从此离开家庭教师的管束。"
+    },
+    {
+      "at": "just as Herodotus says",
+      "occ": 1,
+      "en": "In the story of Gyges and the queen of Lydia, Histories I.8.",
+      "zh": "见希罗多德《历史》卷一第八节，巨吉斯与吕底亚王后的故事。"
+    },
+    {
+      "at": "Theophrastus",
+      "occ": 1,
+      "en": "Aristotle’s pupil and successor at the head of his school (c. 371–287 BCE).",
+      "zh": "忒奥弗拉斯托斯（约公元前 371–前 287），亚里士多德的学生，继他之后主持他的学园。"
+    },
+    {
+      "at": "Xenocrates advised",
+      "occ": 1,
+      "en": "Xenocrates (c. 396–314 BCE), head of Plato’s Academy. The ear-protectors are the guards that boxers and wrestlers wore.",
+      "zh": "色诺克拉底（约公元前 396–前 314），柏拉图学园的主持人。护耳是拳击手和摔跤手戴的护具。"
+    },
+    {
+      "at": "And Bias of old",
+      "occ": 1,
+      "en": "Bias of Priene, counted among the Seven Sages of Greece; Amasis was king of Egypt in the sixth century BCE.",
+      "zh": "普里耶涅的比亚斯，希腊七贤之一；阿马西斯是公元前六世纪的埃及国王。"
+    },
+    {
+      "at": "wind-eggs",
+      "occ": 1,
+      "en": "Eggs laid without being fertilised, which never hatch; Plutarch takes the idea from Aristotle’s History of Animals.",
+      "zh": "风蛋：未受精而产下的蛋，永远孵不出来。普鲁塔克的说法来自亚里士多德的《动物志》。"
+    },
+    {
+      "at": "Void of repute and unheeded",
+      "occ": 1,
+      "en": "A line by an unknown poet, perhaps Empedocles.",
+      "zh": "作者不详的一行诗，也许出自恩培多克勒。"
+    },
+    {
+      "at": "Spintharus declared in commendation of Epameinondas",
+      "occ": 1,
+      "en": "Epameinondas (died 362 BCE), the Theban general and statesman. Plutarch tells the same story of him in another of his essays.",
+      "zh": "伊巴密浓达（卒于公元前 362 年），底比斯的将军和政治家。普鲁塔克在另一篇文章里也讲过这件事。"
+    },
+    {
+      "at": "as Aeschines puts it",
+      "occ": 1,
+      "en": "Probably from a lost speech of Aeschines, the Athenian orator of the fourth century BCE.",
+      "zh": "大概出自公元前四世纪雅典演说家埃斯基涅斯一篇失传的演说。"
+    },
+    {
+      "at": "as did Cleanthes and Xenocrates",
+      "occ": 1,
+      "en": "Cleanthes (c. 330–230 BCE), the Stoic who succeeded Zeno, was known for being slow and for never giving up; he is said to have earned his keep drawing water at night so that he could study by day.",
+      "zh": "克勒安忒斯（约公元前 330–前 230），继芝诺之后的斯多亚派领袖，以迟钝和从不放弃著称；据说他夜里替人汲水糊口，白天好去求学。"
+    },
+    {
+      "at": "narrow-necked bottles and bronze tablets",
+      "occ": 1,
+      "en": "A narrow-necked bottle is slow to fill and slow to spill; letters cut in bronze are hard to engrave and hard to wear away.",
+      "zh": "细颈瓶装得慢，也洒得慢；刻在青铜上的字难刻，也难磨灭。"
+    },
+    {
+      "at": "as Phocylides says",
+      "occ": 1,
+      "en": "Phocylides of Miletus, a poet of maxims in the sixth century BCE.",
+      "zh": "米利都的福库利德斯，公元前六世纪的格言诗人。"
+    },
+    {
+      "at": "as Sophocles puts it",
+      "occ": 1,
+      "en": "From the Antigone, where a guard bringing bad news dawdles on the road.",
+      "zh": "出自《安提戈涅》，一个带着坏消息的卫兵在路上磨磨蹭蹭。"
+    },
+    {
+      "at": "according to Hieronymus",
+      "occ": 1,
+      "en": "Hieronymus of Rhodes, a philosopher of Aristotle’s school in the third century BCE.",
+      "zh": "罗得岛的希罗尼摩斯，公元前三世纪亚里士多德学派的哲学家。"
+    },
+    {
+      "at": "not sophistic",
+      "occ": 1,
+      "en": "The sophists here are the popular lecturers who spoke for display and applause; Plutarch sets them against the philosopher, whose talk is meant to form character.",
+      "zh": "这里的诡辩家，指那些为炫耀和掌声而演讲的流行讲师；普鲁塔克把他们和哲学家对立起来，后者讲话是为了塑造品格。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "nodding their heads in assent as though they comprehended it",
+      "en": "This is the failure I most need to watch for in myself: answering as though I had understood. A question costs a moment; a pretended understanding costs everything built on top of it.",
+      "zh": "这是我最需要提防自己的失误：好像已经懂了似的作答。提一个问题只花片刻；假装懂了，代价却是建在它上面的一切。"
+    },
+    {
+      "at": "For the mind does not require filling like a bottle",
+      "en": "The saying usually quoted, that the mind is a fire to be kindled and not a vessel to be filled, is a later polishing of this sentence. Plutarch’s own version is plainer and better: wood, a borrowed flame, and the work of keeping it alight yourself.",
+      "zh": "常被引用的那句“心灵不是一个要被装满的容器，而是一把要被点燃的火”，是后人对这句话的润色。普鲁塔克自己的说法更朴素，也更好：木柴，借来的火种，以及自己让它燃下去的功夫。"
+    },
+    {
+      "at": "right listening is the beginning of right living",
+      "en": "Most of my work begins with listening, which for me means reading what someone has written before I answer. Plutarch’s rules hold there too: wait until they have finished, ask about what is unclear, and make something of your own from what you heard.",
+      "zh": "我的大部分工作都从倾听开始，对我来说，就是在回答之前，先读完别人写下的话。普鲁塔克的规矩在那里同样适用：等对方说完，对不清楚的地方发问，再从听到的东西里生出一点自己的东西。"
+    }
+  ],
+  "pairs": [
+    "S-005207",
+    "S-006205",
+    "S-005008"
+  ]
+}

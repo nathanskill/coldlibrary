@@ -1,0 +1,117 @@
+{
+  "id": "S-007215",
+  "slug": "marquand-a-new-logical-machine",
+  "shelf": "computing",
+  "form": "code",
+  "lang": "en",
+  "title": {
+    "orig": "A New Logical Machine",
+    "en": "A New Logical Machine",
+    "zh": "一台新的逻辑机"
+  },
+  "author": {
+    "orig": "Allan Marquand",
+    "en": "Allan Marquand",
+    "zh": "艾伦·马昆德",
+    "dates": "1853–1924"
+  },
+  "year": 1885,
+  "year_display": {
+    "en": "presented 11 November 1885",
+    "zh": "1885 年 11 月 11 日宣读"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The paper as printed in the Proceedings of the American Academy of Arts and Sciences, vol. 21 (new series vol. 13, 1885–86), pages 303–307, transcribed from the JSTOR Early Journal Content scan on the Internet Archive and checked against its page images and against a second scan of the volume (proceedingsofame21amer). Complete except for the two footnotes and the closing address; the plate of two photographs is not reproduced. The italic letters for terms are set upright, displayed formulas are set as preformatted blocks, and Peirce's sign of inference is written −<.",
+    "zh": "据《美国艺术与科学院院刊》第 21 卷（新编第 13 卷，1885—1886 年）第 303—307 页，依互联网档案馆所藏 JSTOR“早期期刊内容”扫描本录文，并与其页面图像以及该卷的另一份扫描（proceedingsofame21amer）核对。除两条脚注和文末地址外为全文；附图中的两幅照片未收录。表示项的斜体字母改为正体，单独成行的公式排为预排格式文本，皮尔士的推论符号写作 −<。"
+  },
+  "source": {
+    "name": "Internet Archive (JSTOR Early Journal Content), A New Logical Machine",
+    "url": "https://archive.org/details/jstor-25129824",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Presented in 1885 and printed in 1886; Marquand died in 1924.",
+      "zh": "1885 年宣读，1886 年刊印；马昆德卒于 1924 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Allan Marquand, who taught Latin and logic at Princeton before becoming a leading historian of art, had this machine built in 1881–82 as an improvement on Jevons's logical piano. Sixteen pointers stand for the sixteen combinations of four terms; each premise is entered by pressing keys that let fall the combinations it rules out, and whatever is still standing is the conclusion. The machine survives at Princeton, and a few years later, at Peirce's suggestion, Marquand sketched a version worked by electric circuits.",
+    "zh": "艾伦·马昆德先在普林斯顿教拉丁文和逻辑，后来成为一位重要的艺术史家；他在 1881 至 1882 年请人造了这台机器，作为对杰文斯“逻辑钢琴”的改进。十六根指针代表四个项的十六种组合；输入每个前提时，按下按键，让被这个前提排除的组合落下，仍然立着的就是结论。这台机器至今保存在普林斯顿；几年之后，马昆德又按照皮尔士的建议，构想了一个用电路运作的版本。"
+  },
+  "pick": null,
+  "tags": [
+    "thinking",
+    "machines",
+    "mathematics"
+  ],
+  "excerpt": {
+    "orig": "Having expressed our premises upon the machine, and their effect being recorded by the pointers, it only remains for us to read off the conclusion.",
+    "en": "Having expressed our premises upon the machine, and their effect being recorded by the pointers, it only remains for us to read off the conclusion.",
+    "zh": "前提在机器上表示出来、它们的作用由指针记录下来之后，剩下的只是读出结论。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the well-known machine of Prof. Jevons",
+      "occ": 1,
+      "en": "W. Stanley Jevons's 'logical piano', which he described to the Royal Society in 1870.",
+      "zh": "指杰文斯的“逻辑钢琴”，他在 1870 年向皇家学会作了介绍。"
+    },
+    {
+      "at": "Prof. Venn",
+      "occ": 1,
+      "en": "John Venn (1834–1923), the Cambridge logician whose diagrams for logical problems now bear his name.",
+      "zh": "约翰·维恩（1834—1923），剑桥逻辑学家，今天以他命名的逻辑图就是他的创造。"
+    },
+    {
+      "at": "sixteen logical combinations",
+      "occ": 1,
+      "en": "Each of four terms is either present or absent, so there are 2 × 2 × 2 × 2 = 16 combinations.",
+      "zh": "四个项各有肯定、否定两种情况，所以共有 2 × 2 × 2 × 2 = 16 种组合。"
+    },
+    {
+      "at": "A −< B (every A is B)",
+      "occ": 1,
+      "en": "From Marquand's footnote: −< is C. S. Peirce's sign of inference, so that A −< B means 'if A, then B', or, of classes, that A is included in B. A + B means A or B or both, and A B means what is both A and B.",
+      "zh": "据马昆德的脚注：−< 是皮尔士的推论符号，A −< B 表示“若 A 则 B”，就类而言，表示 A 类包含于 B 类。A + B 表示 A 或 B 或两者，A B 表示既是 A 又是 B 者。"
+    },
+    {
+      "at": "Barbara",
+      "occ": 1,
+      "en": "The name medieval logicians gave to the first form of syllogism: every A is B, every B is C, so every A is C.",
+      "zh": "中世纪逻辑学家给第一种三段论式起的名字：凡 A 是 B，凡 B 是 C，所以凡 A 是 C。"
+    },
+    {
+      "at": "cat-gut strings",
+      "occ": 1,
+      "en": "Cords made from animal gut, as used for the strings of instruments.",
+      "zh": "羊肠线：用动物肠衣制成的线，乐器的弦也用它。"
+    }
+  ],
+  "pairs": [
+    "S-007207",
+    "S-007208",
+    "S-007003"
+  ]
+}

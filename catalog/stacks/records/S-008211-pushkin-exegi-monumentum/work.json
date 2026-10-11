@@ -1,0 +1,125 @@
+{
+  "id": "S-008211",
+  "slug": "pushkin-exegi-monumentum",
+  "shelf": "records",
+  "form": "verse",
+  "lang": "ru",
+  "title": {
+    "orig": "Я памятник себе воздвиг нерукотворный",
+    "en": "I Have Raised Myself a Monument Not Made by Hands",
+    "zh": "我为自己立了一座非人工的纪念碑"
+  },
+  "author": {
+    "orig": "Александр Сергеевич Пушкин",
+    "en": "Alexander Pushkin",
+    "zh": "亚历山大·普希金",
+    "dates": "1799–1837"
+  },
+  "year": 1836,
+  "year_display": {
+    "en": "21 August 1836",
+    "zh": "1836 年 8 月 21 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The text of the academic Complete Works (Moscow and Leningrad, 1937–59; volume 3, 1948) as given on Russian Wikisource, keeping its old spellings заростет, Тунгуз and жестокой; checked against the 1959 Collected Works text on the same page and against a pre-reform printing on Russian Wikisource. Pushkin left the poem unpublished. Zhukovsky printed a censored version in 1841; the text as Pushkin wrote it was published by Pyotr Bartenev in 1881.",
+    "zh": "据俄文维基文库所录科学院版《普希金全集》（莫斯科—列宁格勒，1937—1959；第 3 卷，1948 年）文本，保留其中 заростет、Тунгуз、жестокой 等旧拼法；并与同页所录 1959 年版《普希金文集》以及俄文维基文库所收旧正字法印本核对。普希金生前没有发表这首诗。1841 年茹科夫斯基刊印了经过审查删改的文本；普希金原来的文字由彼得·巴尔捷涅夫于 1881 年发表。"
+  },
+  "source": {
+    "name": "Wikisource (ru), Я памятник себе воздвиг нерукотворный (Пушкин)",
+    "url": "https://ru.wikisource.org/wiki/Я_памятник_себе_воздвиг_нерукотворный_(Пушкин)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in 1836; Pushkin died in 1837. His own text was first published in 1881.",
+      "zh": "作于 1836 年，普希金卒于 1837 年。他本人的文本首次发表于 1881 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Pushkin wrote this in August 1836 as a reply across eighteen centuries to Horace's ode on this shelf, whose first words he took as his epigraph, and to Derzhavin's Russian version of it. He claims a monument not made by hands, higher than the new column in Palace Square, and lists, in the words of his day, the peoples of the empire who will one day read him. Notice how the last stanza turns: having claimed lasting fame, he tells his Muse to take praise and slander alike, and not to argue with fools.",
+    "zh": "普希金在 1836 年 8 月写下这首诗，隔着十八个世纪回应本书架上贺拉斯的那首颂诗（他把颂诗的开头几个字用作题词），也回应杰尔查文的俄文仿作。他宣称自己立了一座“非人工的纪念碑”，比冬宫广场上新立的石柱还高，并用他那个时代的说法，列举了帝国境内将来会读他的诗的各族人民。请留意最后一节的转折：宣告了不朽的声名之后，他嘱咐自己的缪斯，对赞美和诽谤一样淡然，也不要和愚人争辩。"
+  },
+  "pick": null,
+  "tags": [
+    "messages-forward",
+    "inscriptions",
+    "writing",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "Нет, весь я не умру — душа в заветной лире / Мой прах переживет и тленья убежит.",
+    "en": "No, I shall not wholly die: my soul in the treasured lyre will outlive my dust and escape decay.",
+    "zh": "不，我不会完全死去——灵魂在珍爱的诗琴里，将比我的骨灰活得更久，逃脱腐朽。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Exegi monumentum",
+      "occ": 1,
+      "en": "'I have raised a monument': the opening of Horace, Odes III.30 (S-008019 on this shelf).",
+      "zh": "“我立起了一座纪念碑”：贺拉斯《颂诗》第三卷第三十首的开头（本书架 S-008019）。"
+    },
+    {
+      "at": "нерукотворный",
+      "occ": 1,
+      "en": "Not made by hands: a word with a religious ring in Russian, used of the icon of Christ 'not made by hands'.",
+      "zh": "“非人工的”：这个词在俄语里带有宗教色彩，用于“非人手所作”的基督圣像。"
+    },
+    {
+      "at": "Александрийского столпа",
+      "occ": 1,
+      "en": "The Alexander Column in Palace Square, St Petersburg, raised in 1834 to Alexander I. Zhukovsky's censored printing of 1841 changed it to 'the column of Napoleon'.",
+      "zh": "圣彼得堡冬宫广场上的亚历山大柱，1834 年为纪念亚历山大一世而立。茹科夫斯基 1841 年经审查的刊本把它改成了“拿破仑的石柱”。"
+    },
+    {
+      "at": "пиит",
+      "occ": 1,
+      "en": "An old, high-style word for poet.",
+      "zh": "“诗人”的古雅说法。"
+    },
+    {
+      "at": "язык",
+      "occ": 1,
+      "en": "Tongue, and in older Russian also a people or nation.",
+      "zh": "语言；在古俄语里也指民族。"
+    },
+    {
+      "at": "ныне дикой",
+      "occ": 1,
+      "en": "'Wild until now': Pushkin's 1836 phrase for the Tungus (Evenki) peoples of Siberia, kept here as he wrote it.",
+      "zh": "“至今未驯化的”：这是普希金 1836 年对西伯利亚通古斯人（埃文基人）的说法，这里照原文保留。"
+    },
+    {
+      "at": "милость к падшим",
+      "occ": 1,
+      "en": "Mercy to the fallen: usually read as a reference to the Decembrists, exiled after the rising of 1825.",
+      "zh": "为倒下的人呼吁宽恕：一般认为指 1825 年起义后被流放的十二月党人。"
+    }
+  ],
+  "pairs": [
+    "S-008019",
+    "S-008210",
+    "S-004002"
+  ]
+}

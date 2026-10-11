@@ -382,7 +382,11 @@ export function renderReading(w, opts) {
   const ob = parse(w.text);
   const hasHans = !!w.textHans && attachHans(ob, parse(w.textHans));
   if (w.textHans && !hasHans) warn('text.zh-Hans.md does not mirror text.md block for block; the script toggle is off');
-  const multiLine = (b) => (b.t === 'q' || opts.aph) && b.lines.length > 1 && (opts.aph || b.lines.every((l) => l.trim().length < 60));
+  // Prose paragraphs are re-flowed to one line in the catalogue, so a paragraph that keeps several lines does so on
+  // purpose: quoted verse (every line short) or a list (every line "- …" or "1. …"). Those keep their line breaks.
+  const short = (l) => l.trim().length < 60;
+  const listy = (l) => /^\s*(?:[-–•]\s|\d+[.)]\s)/.test(l);
+  const multiLine = (b) => b.lines.length > 1 && (opts.aph || (b.t === 'q' && b.lines.every(short)) || (b.t === 'p' && !verse && (b.lines.every(short) || b.lines.every(listy))));
   const N = placeNotes(w, ob, verse, multiLine, warn);
   const HANS = ' lang="zh-Hans"';
   // UI copy inside the text (Copy, "Not yet translated") is in the page language.
@@ -432,7 +436,8 @@ export function renderReading(w, opts) {
   const paraHTML = (b, bi, keep, prefix) => {
     const k = String(bi);
     const tag = b.t === 'q' ? 'blockquote' : 'p';
-    const kind = b.t === 'q' ? 'q' : opts.aph ? 'aph' : '';
+    // a prose paragraph that keeps its lines (quoted verse, a list) is set as a block: no first-line indent
+    const kind = b.t === 'q' ? 'q' : opts.aph ? 'aph' : (multiLine(b) ? 'lines' : '');
     const hant = `<${tag} class="${cls('o', hasHans && 'o-hant', K(keep), kind)}">${lines2(b, b.lines, N.marks.get(k), prefix)}</${tag}>`;
     const hans = hasHans ? `<${tag} class="${cls('o o-hans', K(keep), kind)}"${HANS}>${lines2(b, b.hans.lines, N.hmarks.get(k), prefix)}</${tag}>` : '';
     return hant + hans;

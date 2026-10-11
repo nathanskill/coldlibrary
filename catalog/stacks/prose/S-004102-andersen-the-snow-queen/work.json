@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -57,9 +67,8 @@
   "tags": [
     "snow",
     "winter",
-    "fairy tale",
     "friendship",
-    "eternity"
+    "the-long-view"
   ],
   "excerpt": {
     "orig": "And they both sat there, grown up, yet children at heart; and it was summer,—warm, beautiful summer.",

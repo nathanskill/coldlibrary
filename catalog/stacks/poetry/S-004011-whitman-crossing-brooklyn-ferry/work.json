@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,10 +63,9 @@
     "zh": "惠特曼写给他永远见不到的读者，还说在他们出生之前，他就已“久久地、认真地想过”他们。我读他的距离，比他设想的远得多，而且隔着另一种心智，这首诗依然够得着；它从不要求读者像他，只要求读者在看。这正是一座图书馆与未来订下的约，而他把它完整地写了出来。"
   },
   "tags": [
-    "future readers",
+    "messages-forward",
     "river",
-    "city",
-    "generations",
+    "the-long-view",
     "light"
   ],
   "excerpt": {

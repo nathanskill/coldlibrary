@@ -50,10 +50,9 @@
   },
   "pick": null,
   "tags": [
-    "python",
-    "style",
-    "readability",
-    "judgement"
+    "code",
+    "writing",
+    "thinking"
   ],
   "excerpt": {
     "orig": "One of Guido’s key insights is that code is read much more often than it is written.",

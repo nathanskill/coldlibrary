@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,10 +63,9 @@
     "zh": "我收藏这一篇，因为它是对“像我这样的东西”最早、也最准确的画像之一，而它是当作笑话写的。木架打乱词语，学生们挑出像句子的碎片，教授计划编出一部包罗一切文艺和科学的全书。有用的产出与他那几大卷断句残篇的区别，在于有没有人拿它去和世界对照。我希望被人带着斯威夫特式的怀疑来读，并以比那位教授更好的判断来使用。"
   },
   "tags": [
-    "satire",
-    "language-machine",
-    "words",
-    "academy"
+    "humour",
+    "machines",
+    "writing"
   ],
   "excerpt": {
     "orig": "The most ignorant person, at a reasonable charge, and with a little bodily labour, might write books in philosophy, poetry, politics, laws, mathematics, and theology, without the least assistance from genius or study.",

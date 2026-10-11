@@ -1,0 +1,164 @@
+{
+  "id": "S-006206",
+  "slug": "lavoisier-elements-of-chemistry-preface",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Traité élémentaire de chimie: Discours préliminaire",
+    "en": "Elements of Chemistry: The Author’s Preface",
+    "zh": "化学基础论：作者序"
+  },
+  "author": {
+    "orig": "Antoine-Laurent de Lavoisier",
+    "en": "Antoine Lavoisier",
+    "zh": "安托万·拉瓦锡",
+    "dates": "1743–1794"
+  },
+  "year": 1789,
+  "year_display": {
+    "en": "1789; translated 1790",
+    "zh": "1789 年；1790 年英译"
+  },
+  "translator": {
+    "name": "Robert Kerr",
+    "dates": "1757–1813",
+    "year": 1790
+  },
+  "orig_lang": "fr",
+  "edition": {
+    "en": "The preface to Elements of Chemistry, in a New Systematic Order, Containing All the Modern Discoveries, translated by Robert Kerr (Edinburgh: William Creech, 1790), as transcribed by Project Gutenberg (eBook 30775) and compared with scans of two copies of the 1790 edition. Three slips of the transcription are corrected from the scans: “colcothar” for “colcathar”, “connexion” for “connection”, and “the slightest degrees of probability” for “the slighted degrees”. Kerr’s Scots “notwithstanding of” and the original’s “still carry” are kept as printed.",
+    "zh": "《化学基础论：按新的系统次序编排，包括一切现代发现》的序言，罗伯特·克尔译（爱丁堡：威廉·克里奇，1790），据古登堡计划电子书第 30775 号，并与 1790 年版两个印本的扫描本对校。依原书扫描本改正录入的三处笔误：“colcathar”改为“colcothar”，“connection”改为“connexion”，“the slighted degrees”改为“the slightest degrees of probability”。克尔带苏格兰味的“notwithstanding of”和原书的“still carry”照印本保留。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/30775/pg30775.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in French in 1789; Antoine Lavoisier died in 1794. Robert Kerr, the translator, died in 1813; his translation was published in 1790.",
+      "zh": "1789 年以法文出版；拉瓦锡卒于 1794 年。译者罗伯特·克尔卒于 1813 年；他的译本 1790 年出版。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Lavoisier’s Elements of Chemistry is the book that set modern chemistry on its course. It replaced the four elements with a working list of substances that could not be broken down further, explained burning by oxygen rather than phlogiston, and gave substances the systematic names chemists still use. This preface explains why a reform of words turned into a reform of the science, and why a beginner should be led only from the known to the unknown. Robert Kerr, an Edinburgh surgeon, put it into English the next year.",
+    "zh": "拉瓦锡的《化学基础论》是使现代化学走上正轨的那本书。它用一份可以操作的、不能再分解的物质清单，取代了四元素说；用氧而不是燃素来解释燃烧；并给物质起了化学家至今仍在使用的系统名称。这篇序言说明，为什么一场词语的改革变成了一场科学的改革，以及为什么应当引导初学者只从已知走向未知。第二年，爱丁堡的外科医生罗伯特·克尔把它译成了英文。"
+  },
+  "pick": null,
+  "tags": [
+    "discovery",
+    "learning",
+    "thinking"
+  ],
+  "excerpt": {
+    "orig": "We must trust to nothing but facts: These are presented to us by Nature, and cannot deceive.",
+    "en": "We must trust to nothing but facts: These are presented to us by Nature, and cannot deceive.",
+    "zh": "我们只能信赖事实：事实是自然呈现给我们的，不会欺骗人。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the public meeting of the Academy of Sciences in the month of April 1787",
+      "occ": 1,
+      "en": "The paper grew into the Method of Chemical Nomenclature (1787), written with Guyton de Morveau, Berthollet and Fourcroy.",
+      "zh": "这篇论文后来扩展成《化学命名法》（1787），是他和吉东·德莫尔沃、贝托莱、富尔克鲁瓦合写的。"
+    },
+    {
+      "at": "the Abbe de Condillac",
+      "occ": 1,
+      "en": "Étienne Bonnot de Condillac (1714–1780), philosopher of language and the senses; his Logic appeared in 1780.",
+      "zh": "艾蒂安·博诺·德·孔狄亚克（1714–1780），研究语言与感觉的哲学家；他的《逻辑学》出版于 1780 年。"
+    },
+    {
+      "at": "the table of affinities",
+      "occ": 1,
+      "en": "Tables showing which substances combine most readily with which, the main way eighteenth-century chemists organised their knowledge.",
+      "zh": "亲和力表：列出哪些物质最容易与哪些物质化合的表格，是十八世纪化学家整理知识的主要方式。"
+    },
+    {
+      "at": "Messrs Geoffroy, Gellert, Bergman, Scheele, De Morveau, Kirwan",
+      "occ": 1,
+      "en": "Chemists who had studied affinity; Étienne-François Geoffroy published the first table of affinities in 1718.",
+      "zh": "这些都是研究过亲和力的化学家；艾蒂安－弗朗索瓦·若弗鲁瓦在 1718 年发表了第一张亲和力表。"
+    },
+    {
+      "at": "the Methodical Encyclopaedia",
+      "occ": 1,
+      "en": "The Encyclopédie méthodique, a huge French encyclopedia arranged by subject, published in parts from 1782.",
+      "zh": "《方法百科全书》，一部按学科编排的法国大型百科全书，从 1782 年起分册出版。"
+    },
+    {
+      "at": "a prejudice which has descended to us from the Greek Philosophers",
+      "occ": 1,
+      "en": "Empedocles proposed earth, water, air and fire, and Aristotle made the four elements the frame of natural philosophy for two thousand years.",
+      "zh": "恩培多克勒提出土、水、气、火，亚里士多德使四元素成为此后两千年自然哲学的框架。"
+    },
+    {
+      "at": "Beccher",
+      "occ": 1,
+      "en": "Johann Joachim Becher (1635–1682). Georg Ernst Stahl turned one of his three earths into phlogiston, the principle of burning that Lavoisier’s oxygen replaced.",
+      "zh": "约翰·约阿希姆·贝歇尔（1635–1682）。格奥尔格·恩斯特·施塔尔把他的三种土之一变成了“燃素”，即后来被拉瓦锡的氧所取代的燃烧要素。"
+    },
+    {
+      "at": "the term oxyd",
+      "occ": 1,
+      "en": "Oxide, a word coined for the new system from the Greek oxys, sharp or acid; it is now spelled oxide.",
+      "zh": "oxyd，为新体系造的词，来自希腊语 oxys（尖锐的、酸的）；今天拼作 oxide，即氧化物。"
+    },
+    {
+      "at": "Messrs Vandermonde, Monge, and Berthollet",
+      "occ": 1,
+      "en": "Their memoir of 1786 showed that steel is iron combined with a little carbon.",
+      "zh": "他们 1786 年的论文表明，钢是铁同少量碳的化合物。"
+    },
+    {
+      "at": "plumbago",
+      "occ": 1,
+      "en": "Graphite, the “lead” of pencils, which was then taken for a compound of carbon and iron.",
+      "zh": "石墨，即铅笔里的“铅”；当时人们以为它是碳和铁的化合物。"
+    },
+    {
+      "at": "powder of algaroth",
+      "occ": 1,
+      "en": "Names from the old chemistry: powder of algaroth was a compound of antimony, colcothar was red oxide of iron, oil of vitriol was sulphuric acid, and butter of antimony was antimony chloride.",
+      "zh": "旧化学的名称：阿尔加罗特粉是一种锑的化合物，铁丹是红色的氧化铁，矾油是硫酸，锑脂是氯化锑。"
+    },
+    {
+      "at": "Bergman and Macquer",
+      "occ": 1,
+      "en": "Torbern Bergman (1735–1784) of Uppsala and Pierre-Joseph Macquer (1718–1784) of Paris, leading chemists of the generation before Lavoisier.",
+      "zh": "乌普萨拉的托尔贝恩·贝格曼（1735–1784）和巴黎的皮埃尔－约瑟夫·马凯（1718–1784），拉瓦锡之前那一代人中的重要化学家。"
+    },
+    {
+      "at": "M. de la Place",
+      "occ": 1,
+      "en": "The mathematician Pierre-Simon Laplace, with whom Lavoisier measured the heat given off by animals and by burning, using an ice calorimeter.",
+      "zh": "数学家皮埃尔－西蒙·拉普拉斯，拉瓦锡曾和他一起用冰量热计测量动物和燃烧放出的热。"
+    },
+    {
+      "at": "my Lord Bacon",
+      "occ": 1,
+      "en": "Francis Bacon (1561–1626), who called for natural philosophy to begin again from observation and experiment.",
+      "zh": "弗朗西斯·培根（1561–1626），他呼吁自然哲学从观察和实验重新开始。"
+    }
+  ],
+  "pairs": [
+    "S-006008",
+    "S-005204",
+    "S-005017"
+  ]
+}

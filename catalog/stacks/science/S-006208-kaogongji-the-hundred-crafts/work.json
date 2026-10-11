@@ -1,0 +1,213 @@
+{
+  "id": "S-006208",
+  "slug": "kaogongji-the-hundred-crafts",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "周禮·冬官考工記（總敘）",
+    "en": "The Record of the Crafts: The Opening Section",
+    "zh": "周礼·考工记（总叙）"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous (Warring States)",
+    "zh": "佚名（战国）",
+    "dates": "compiled c. 5th–3rd century BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "Warring States period, c. 5th–3rd century BCE",
+    "zh": "战国时期，约公元前 5 至前 3 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The opening section of the Kaogong ji, which was set in the Rites of Zhou in the Han dynasty to fill the place of the lost Office of Winter, as given on Chinese Wikisource, from “The state has six occupations” to the wheel heights that close the section. Compared with the plain text of the Rites of Zhou in the Kanseki Repository and with Project Gutenberg eBook 25263. The six lists of crafts, set out line by line in the source, are joined into one paragraph.",
+    "zh": "《考工记》开头的总叙部分，从“国有六职”到总叙末尾讲车轮高度的一段，据维基文库。《考工记》在汉代被补入《周礼》，以代替亡佚的《冬官》。与京都大学汉籍资料库（Kanseki Repository）所收《周礼》正文和古登堡计划电子书第 25263 号对校。原书分行列出的六类工种名称，这里合为一段。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/周禮/冬官考工記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "An anonymous text of the Warring States period, more than two thousand years old.",
+      "zh": "战国时期的佚名文本，已有两千多年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The oldest Chinese treatise on technology opens by giving craft its place: one of six callings of a state, invented by sages, handed on by the skilled. Its central sentence is a theory of quality that still reads as true: good work needs the right season, the right ground, good material and skill, all four. The section ends with the carriage, the object that gathers the most crafts, examined from the wheel up.",
+    "zh": "中国最古老的技术著作，开篇先给手艺一个位置：一国六职之一，由圣人创造，由巧者传承。它的核心一句是一种至今仍站得住的质量观：好器物要天时、地气、材美、工巧，四者缺一不可。总叙以车结尾，因为车是汇聚工种最多的器物，而考察车要从车轮看起。"
+  },
+  "pick": null,
+  "tags": [
+    "craft",
+    "discovery",
+    "nature"
+  ],
+  "excerpt": {
+    "orig": "天有時，地有氣，材有美，工有巧。合此四者，然後可以為良。",
+    "en": "Heaven has its seasons, the earth its virtues, materials their excellence, and the craftsman his skill. Only when these four come together can good work be made.",
+    "zh": "天有时，地有气，材有美，工有巧。合此四者，然后可以为良。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "國有六職",
+      "occ": 1,
+      "en": "The six callings listed next: rulers, officials, craftsmen, merchants, farmers and women’s textile work.",
+      "zh": "六职：下文所列的王公、士大夫、百工、商旅、农夫、妇功。",
+      "at_hans": "国有六职"
+    },
+    {
+      "at": "審曲面勢",
+      "occ": 1,
+      "en": "To study the curve, the face and the set of a material: its shape, its surfaces and the way its grain and strength lie.",
+      "zh": "审视材料的曲直、形态和性能。曲，曲直；面，形态；势，性质、态势。",
+      "at_hans": "审曲面势"
+    },
+    {
+      "at": "以飭五材",
+      "occ": 1,
+      "en": "To work the five materials: metal, wood, skin, jade and clay. 飭 means to put in order, to work.",
+      "zh": "加工五种材料。饬，整治；五材，金、木、皮、玉、土。",
+      "at_hans": "以饬五材"
+    },
+    {
+      "at": "婦功",
+      "occ": 1,
+      "en": "Women’s work: spinning, weaving and sewing.",
+      "zh": "妇女的纺织缝纫之事。",
+      "at_hans": "妇功"
+    },
+    {
+      "at": "粵無鎛，燕無函，秦無廬，胡無弓車",
+      "occ": 1,
+      "en": "鎛 is a hoe, 函 armour, 廬 the shafts of halberds and spears; the Hu are the horse peoples of the north.",
+      "zh": "镈，锄类农具；函，铠甲；庐，戈矛等兵器的长柄；胡，北方游牧部族。",
+      "at_hans": "粤无镈，燕无函，秦无庐，胡无弓车"
+    },
+    {
+      "at": "夫人而能為鎛也",
+      "occ": 1,
+      "en": "Everyone can make a hoe: the craft is so common there that no one needs to specialise in it.",
+      "zh": "人人都能做锄头，所以不必设专门的工匠。夫人，人人。",
+      "at_hans": "夫人而能为镈也"
+    },
+    {
+      "at": "知者創物。巧者述之守之",
+      "occ": 1,
+      "en": "The wise invent; the skilful transmit and preserve. 述 is to hand on.",
+      "zh": "智者创造器物，巧者传承、守护它。述，传承。",
+      "at_hans": "知者创物。巧者述之守之"
+    },
+    {
+      "at": "爍金以為刃，凝土以為器",
+      "occ": 1,
+      "en": "Melting metal into blades and firing clay into vessels.",
+      "zh": "熔化金属做成刀刃，凝固泥土做成陶器。烁，熔化。",
+      "at_hans": "烁金以为刃，凝土以为器"
+    },
+    {
+      "at": "橘逾淮而北為枳",
+      "occ": 1,
+      "en": "The orange grown north of the Huai river becomes the bitter trifoliate orange: a proverb for the power of the ground.",
+      "zh": "橘树移到淮河以北就变成枳。后来成为说明环境影响的常用比喻。",
+      "at_hans": "橘逾淮而北为枳"
+    },
+    {
+      "at": "鴝鵒不逾濟，貉逾汶則死",
+      "occ": 1,
+      "en": "The crested mynah is not found north of the Ji river; the raccoon dog dies if taken across the Wen. Both rivers are in Shandong.",
+      "zh": "八哥不越过济水，貉越过汶水就会死。济水、汶水都在今山东境内。",
+      "at_hans": "鸲鹆不逾济，貉逾汶则死"
+    },
+    {
+      "at": "鄭之刀，宋之斤，魯之削",
+      "occ": 1,
+      "en": "The knives of Zheng, the axes of Song, the curved writing-knives of Lu used to scrape bamboo slips.",
+      "zh": "郑国的刀，宋国的斧，鲁国的削。斤，斧；削，一种曲刀，用来刮削竹简。",
+      "at_hans": "郑之刀，宋之斤，鲁之削"
+    },
+    {
+      "at": "妢胡之笴",
+      "occ": 1,
+      "en": "The arrow-shafts of Fenhu, a northern people or place.",
+      "zh": "妢胡出产的箭杆。妢胡，北方部族或地名；笴，箭杆。"
+    },
+    {
+      "at": "石有時以泐",
+      "occ": 1,
+      "en": "Stone has its season for splitting, as frost cracks rock along its grain.",
+      "zh": "石头有时会顺着纹理裂开。泐，石头依纹理裂开。",
+      "at_hans": "石有时以泐"
+    },
+    {
+      "at": "有虞氏上陶",
+      "occ": 1,
+      "en": "The house of Yu, the legendary Shun, valued pottery most. 上 means to esteem.",
+      "zh": "有虞氏（传说中的舜）最崇尚陶器。上，同“尚”。"
+    },
+    {
+      "at": "車有六等之數",
+      "occ": 1,
+      "en": "The six levels: carriage floor, dagger-axe, man, staff, halberd and spear, each four feet above the last.",
+      "zh": "六等：车轸、戈、人、殳、戟、矛，每一等比前一等高四尺。",
+      "at_hans": "车有六等之数"
+    },
+    {
+      "at": "殳長尋有四尺",
+      "occ": 1,
+      "en": "A shu is a bladeless staff; a 尋 (fathom) was eight feet and a 常 sixteen. A Zhou foot was much shorter than a modern one, a little over twenty centimetres.",
+      "zh": "殳，有棱无刃的长兵器。一寻八尺，一常十六尺。周代一尺远比今尺短，只有二十厘米左右。",
+      "at_hans": "殳长寻有四尺"
+    },
+    {
+      "at": "欲其樸屬而微至",
+      "occ": 1,
+      "en": "One wants it close-knit and touching the ground at very little: a true wheel meets the ground at a single small point.",
+      "zh": "要求它结构紧密而着地很少。朴属，紧密结合；微至，车轮与地面接触的地方极小。",
+      "at_hans": "欲其朴属而微至"
+    },
+    {
+      "at": "終古登阤",
+      "occ": 1,
+      "en": "Forever climbing a slope.",
+      "zh": "永远像在爬坡。终古，永远；阤，山坡。",
+      "at_hans": "终古登阤"
+    },
+    {
+      "at": "軹崇三尺有三寸也；加軫與轐焉",
+      "occ": 1,
+      "en": "軹 is the hub-end, 軫 the frame of the carriage floor, 轐 the block that joins the axle to the body.",
+      "zh": "轵，车毂末端；轸，车厢底部的框架；轐，车厢与车轴之间的垫木。",
+      "at_hans": "轵崇三尺有三寸也；加轸与轐焉"
+    }
+  ],
+  "pairs": [
+    "S-006007",
+    "S-002043",
+    "S-006211"
+  ]
+}

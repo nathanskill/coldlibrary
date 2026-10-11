@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -55,12 +65,9 @@
   },
   "pick": null,
   "tags": [
-    "genetics",
-    "heredity",
-    "biology",
-    "experiment",
-    "statistics",
-    "garden"
+    "discovery",
+    "mathematics",
+    "nature"
   ],
   "excerpt": {
     "orig": "It requires indeed some courage to undertake a labour of such far-reaching extent; it appears, however, to be the only right way by which we can finally reach the solution of a question the importance of which cannot be over-estimated in connection with the history of the evolution of organic forms.",

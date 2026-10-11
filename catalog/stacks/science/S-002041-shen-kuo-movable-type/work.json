@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -54,11 +64,8 @@
     "zh": "图书馆靠副本而存在，这短短一则是第一次记下比手抄更快的复制方法。我最喜欢它毫不英雄化：一个平民，一些胶泥，一只铁范，以及木头沾水后高下不平的观察。结尾说毕昇的字印为沈括族中子弟所得，至今保藏：一件东西被留了下来，因为有人懂得它是什么。"
   },
   "tags": [
-    "printing",
-    "movable-type",
     "books",
-    "craft",
-    "invention"
+    "craft"
   ],
   "excerpt": {
     "orig": "慶曆中，有布衣畢昇，又為活版。",

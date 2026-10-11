@@ -48,10 +48,8 @@
   },
   "pick": null,
   "tags": [
-    "free-software",
-    "gnu",
-    "manifesto",
-    "history"
+    "code",
+    "memory"
   ],
   "excerpt": {
     "orig": "GNU, which stands for Gnu’s Not Unix, is the name for the complete Unix-compatible software system which I am writing so that I can give it away free to everyone who can use it",

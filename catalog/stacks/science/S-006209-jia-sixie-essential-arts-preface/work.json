@@ -1,0 +1,219 @@
+{
+  "id": "S-006209",
+  "slug": "jia-sixie-essential-arts-preface",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "齊民要術·序（節選）",
+    "en": "Essential Arts for the Common People: From the Preface",
+    "zh": "齐民要术·序（节选）"
+  },
+  "author": {
+    "orig": "賈思勰",
+    "en": "Jia Sixie",
+    "zh": "贾思勰",
+    "dates": "fl. 6th century"
+  },
+  "year": 540,
+  "year_display": {
+    "en": "c. 533–544",
+    "zh": "约 533–544 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Six of the fifteen paragraphs of Jia Sixie’s own preface, as given on Chinese Wikisource: the opening, the paragraphs on invention and on teaching new tools, the orange growers and tree planters, and the closing account of how the book was made. Compared with the edition in the Kanseki Repository. A pronunciation note, 羊主切, is removed, and the paragraph on Li Heng, which runs on from the one before in the online text, is set apart as in printed editions.",
+    "zh": "选贾思勰自序十五段中的六段，据维基文库：开头一段，论发明与推广新农具的两段，种橘种树一段，以及末尾讲述成书经过的两段。与京都大学汉籍资料库（Kanseki Repository）所收版本对校。删去注音小字“羊主切”；维基文库中与上段相连的李衡一段，依通行印本另起一段。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/齊民要術/自序",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "A Northern Wei book of the sixth century, nearly fifteen hundred years old.",
+      "zh": "北魏的六世纪著作，距今近一千五百年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Jia Sixie, a provincial governor under the Northern Wei, wrote the oldest complete Chinese book on farming, from ploughing to vinegar, and this is from its preface. The paragraphs chosen are about how practical knowledge travels: oxen and seed drills carried to places that did not know them, a proverb that experience beats wisdom, a man who planted catalpas and was laughed at until his neighbours came to borrow. The last two paragraphs describe his method plainly: read, collect songs, ask old farmers, test it.",
+    "zh": "贾思勰曾任北魏的地方太守，写下了中国现存最早的完整农书，从耕田一直写到酿醋，这里选的是它的序。所选几段讲的都是实用知识怎样传播：把牛耕和耧犁带到不懂它们的地方，一句谚语说经验胜过聪明，一个人种梓树被人讥笑，直到邻居们来向他借。最后两段平实地交代了他的方法：读书，采集歌谣，询问老农，在实践中检验。"
+  },
+  "pick": null,
+  "tags": [
+    "craft",
+    "teachers",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "一年之計，莫如樹穀；十年之計，莫如樹木。",
+    "en": "For a one-year plan, nothing is better than planting grain; for a ten-year plan, nothing is better than planting trees.",
+    "zh": "一年之计，莫如树谷；十年之计，莫如树木。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "蓋神農爲耒耜",
+      "occ": 1,
+      "en": "Shennong, the Divine Farmer of legend, credited with inventing the plough: 耒 is its handle, 耜 its blade.",
+      "zh": "神农，传说中教民耕种的上古帝王。耒，犁柄；耜，犁头。",
+      "at_hans": "盖神农为耒耜"
+    },
+    {
+      "at": "堯命四子，敬授民時",
+      "occ": 1,
+      "en": "Yao ordered the four astronomers, the brothers Xi and He, to fix the calendar and give the people their seasons.",
+      "zh": "尧命令羲仲、羲叔、和仲、和叔四人观测天象，制定历法，把农时告诉百姓。",
+      "at_hans": "尧命四子，敬授民时"
+    },
+    {
+      "at": "舜命后稷",
+      "occ": 1,
+      "en": "Hou Ji, Lord Millet, Shun’s minister of agriculture and ancestor of the Zhou.",
+      "zh": "后稷，舜时主管农事的官，周人的始祖。"
+    },
+    {
+      "at": "萬國作乂",
+      "occ": 1,
+      "en": "The ten thousand states were put in order. 乂 means to govern well.",
+      "zh": "天下万国得到治理。乂，治理。",
+      "at_hans": "万国作乂"
+    },
+    {
+      "at": "故趙過始爲牛耕",
+      "occ": 1,
+      "en": "Zhao Guo, an official under Emperor Wu of Han, who spread ox-drawn ploughing and alternating fields.",
+      "zh": "赵过，汉武帝时的搜粟都尉，推广牛耕和代田法。",
+      "at_hans": "故赵过始为牛耕"
+    },
+    {
+      "at": "蔡倫立意造紙",
+      "occ": 1,
+      "en": "Cai Lun, the Han court official credited in 105 CE with paper made from bark, rags and old nets.",
+      "zh": "蔡伦，东汉宦官，105 年以树皮、破布、旧渔网造纸。",
+      "at_hans": "蔡伦立意造纸"
+    },
+    {
+      "at": "豈方縑、牘之煩",
+      "occ": 1,
+      "en": "How could it compare with the trouble of silk and wooden tablets, the writing materials before paper?",
+      "zh": "哪里比得上缣帛和木牍那样麻烦？缣，细绢；牍，木简，都是纸以前的书写材料。",
+      "at_hans": "岂方缣、牍之烦"
+    },
+    {
+      "at": "耿壽昌之常平倉，桑弘羊之均輸法",
+      "occ": 1,
+      "en": "Two Han economic measures: granaries that bought grain when it was cheap and sold it when it was dear, and a system for moving tribute goods where they were scarce.",
+      "zh": "常平仓，谷贱时收购、谷贵时出售，以平抑粮价；均输法，把各地贡物运到缺少的地方出售。",
+      "at_hans": "耿寿昌之常平仓，桑弘羊之均输法"
+    },
+    {
+      "at": "智如禹、湯，不如嘗更",
+      "occ": 1,
+      "en": "Even the wisdom of the sage kings Yu and Tang is not as good as having tried a thing oneself.",
+      "zh": "即使有禹、汤那样的智慧，也不如亲身经历过。尝更，经历过。",
+      "at_hans": "智如禹、汤，不如尝更"
+    },
+    {
+      "at": "樊遲請學稼",
+      "occ": 1,
+      "en": "From the Analects (13.4); Confucius’s answer is meant as a rebuke there, but Jia takes it at its word.",
+      "zh": "事见《论语·子路》。孔子的回答在原书中有批评樊迟的意思，贾思勰却照字面理解。",
+      "at_hans": "樊迟请学稼"
+    },
+    {
+      "at": "畜五牸",
+      "occ": 1,
+      "en": "Keep five kinds of breeding females: cows, ewes, sows, hens and mares.",
+      "zh": "饲养五种母畜：牛、羊、猪、鸡、马的雌性。牸，母畜。"
+    },
+    {
+      "at": "九真、廬江",
+      "occ": 1,
+      "en": "Jiuzhen, a Han commandery in what is now northern Vietnam, and Lujiang on the Yangzi.",
+      "zh": "九真，汉代郡名，在今越南北部；庐江，郡名，在长江北岸。",
+      "at_hans": "九真、庐江"
+    },
+    {
+      "at": "耬犁",
+      "occ": 1,
+      "en": "The seed drill: a wheeled frame with hollow tubes that opened furrows and dropped the seed at once.",
+      "zh": "耧犁，一种播种农具，开沟和下种同时完成。",
+      "at_hans": "耧犁"
+    },
+    {
+      "at": "得穀加五",
+      "occ": 1,
+      "en": "The harvest increased by five tenths, half as much again.",
+      "zh": "收获的粮食增加了五成。",
+      "at_hans": "得谷加五"
+    },
+    {
+      "at": "茨充爲桂陽令",
+      "occ": 1,
+      "en": "Ci Chong, Eastern Han governor of Guiyang in present-day Hunan.",
+      "zh": "茨充，东汉人，任桂阳（今湖南境内）的长官。",
+      "at_hans": "茨充为桂阳令"
+    },
+    {
+      "at": "柘",
+      "occ": 1,
+      "en": "The silkworm thorn, whose leaves can feed silkworms when mulberry is short.",
+      "zh": "柘树，叶子也可以喂蚕。"
+    },
+    {
+      "at": "崔寔爲作紡績、織絍之具以教",
+      "occ": 1,
+      "en": "Cui Shi, Han governor of Wuyuan in the far north, made spinning and weaving tools and taught the people to use them.",
+      "zh": "崔寔，东汉人，任五原（在今内蒙古）太守时，制作纺织工具，教百姓使用。",
+      "at_hans": "崔寔为作纺绩、织絍之具以教"
+    },
+    {
+      "at": "千頭木奴",
+      "occ": 1,
+      "en": "A thousand wooden slaves: Li Heng’s name for his orange trees, which would earn for his family without being fed.",
+      "zh": "千头木奴：李衡对自家橘树的称呼，它们不要吃穿，却能为家人挣钱。",
+      "at_hans": "千头木奴"
+    },
+    {
+      "at": "江陵千樹橘，與千戶侯等",
+      "occ": 1,
+      "en": "From the chapter on money-makers in Sima Qian’s Records of the Grand Historian.",
+      "zh": "语出司马迁《史记·货殖列传》。",
+      "at_hans": "江陵千树橘，与千户侯等"
+    },
+    {
+      "at": "終於醯、醢",
+      "occ": 1,
+      "en": "Down to vinegar and minced-meat sauces: the last books of the Qimin yaoshu are on brewing and preserving.",
+      "zh": "直到醋和肉酱。醯，醋；醢，肉酱。《齐民要术》最后几卷讲酿造和腌制。",
+      "at_hans": "终于醯、醢"
+    }
+  ],
+  "pairs": [
+    "S-006007",
+    "S-006208",
+    "S-002043"
+  ]
+}

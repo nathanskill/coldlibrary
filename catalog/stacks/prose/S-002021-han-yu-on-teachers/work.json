@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -51,9 +61,8 @@
   },
   "pick": null,
   "tags": [
-    "teaching",
-    "learning",
-    "tang"
+    "teachers",
+    "learning"
   ],
   "excerpt": {
     "orig": "聞道有先後，術業有專攻，如是而已。",

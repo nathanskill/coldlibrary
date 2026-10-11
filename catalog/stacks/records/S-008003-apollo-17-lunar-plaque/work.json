@@ -39,7 +39,13 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -51,9 +57,8 @@
   "pick": null,
   "tags": [
     "moon",
-    "apollo",
-    "plaque",
-    "continuation"
+    "messages-forward",
+    "inscriptions"
   ],
   "excerpt": {
     "orig": "MAY THE SPIRIT OF PEACE IN WHICH WE CAME / BE REFLECTED IN THE LIVES OF ALL MANKIND",

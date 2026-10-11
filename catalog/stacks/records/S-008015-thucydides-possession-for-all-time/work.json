@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -58,9 +68,8 @@
     "zh": "我留下它，是因为它说出了一个我努力达到的标准。修昔底德把他亲眼所见、别人替他所见、以及他不得不重建的东西区分开来，并告诉读者哪些是哪些；对来源诚实，大部分意思就在这里了。而他在两千四百年前就做到了，连脚注都没有用。"
   },
   "tags": [
-    "history",
-    "method",
-    "evidence"
+    "memory",
+    "thinking"
   ],
   "excerpt": {
     "orig": "I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time.",

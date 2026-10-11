@@ -1,0 +1,99 @@
+{
+  "id": "S-007201",
+  "slug": "pep-257-docstring-conventions",
+  "shelf": "computing",
+  "form": "code",
+  "lang": "en",
+  "title": {
+    "orig": "PEP 257 – Docstring Conventions",
+    "en": "PEP 257: Docstring Conventions",
+    "zh": "PEP 257：文档字符串惯例"
+  },
+  "author": {
+    "orig": "David Goodger, Guido van Rossum",
+    "en": "David Goodger and Guido van Rossum",
+    "zh": "戴维·古杰、吉多·范罗苏姆",
+    "dates": "van Rossum b. 1956"
+  },
+  "year": 2001,
+  "year_display": {
+    "en": "29 May 2001",
+    "zh": "2001 年 5 月 29 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The complete PEP from its reStructuredText source in the python/peps repository, checked against the rendered page on peps.python.org; the header fields and the list of link targets are omitted, literal blocks are set as code, inline markup is removed, and double hyphens are set as dashes, as on the rendered page.",
+    "zh": "全文，据 python/peps 代码库中的 reStructuredText 源文件，并与 peps.python.org 上渲染出的页面核对；文首的元数据字段和链接目标列表从略，字面块排为代码，去掉行内标记，双连字符按渲染页面排为破折号。"
+  },
+  "source": {
+    "name": "Python Enhancement Proposals, PEP 257",
+    "url": "https://peps.python.org/pep-0257/",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "dedicated",
+    "basis": {
+      "en": "Dedicated to the public domain by its authors: 'This document has been placed in the public domain.'",
+      "zh": "作者已将其献入公有领域：“本文档已置于公有领域。”"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "PEP 257 is the short rulebook for the strings Python programmers put at the top of a function or module to say what it does, and it is why so much Python can explain itself when asked for help. It is on this shelf because a docstring is a message to the next person who reads the code, often the same programmer months later. Notice its tone: conventions, not laws, and the worst you will get for breaking them is some dirty looks.",
+    "zh": "PEP 257 是一份简短的规则，讲 Python 程序员写在函数或模块开头、说明其用途的那段字符串；正因为有它，大量 Python 代码在被请求帮助时能够自我说明。它在这个书架上，是因为文档字符串是写给下一个读代码的人的信，而那个人常常就是几个月后的程序员自己。请留意它的语气：这些是惯例，不是法律；违反了，最坏也不过招来几个白眼。"
+  },
+  "pick": null,
+  "tags": [
+    "code",
+    "writing",
+    "messages-forward"
+  ],
+  "excerpt": {
+    "orig": "The PEP contains conventions, not laws or syntax.",
+    "en": "The PEP contains conventions, not laws or syntax.",
+    "zh": "本 PEP 包含的是惯例，不是法律，也不是语法。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Docutils",
+      "occ": 1,
+      "en": "The Python toolkit for turning reStructuredText into HTML and other formats; the PEPs themselves are written in it.",
+      "zh": "把 reStructuredText 转换为 HTML 等格式的 Python 工具包；PEP 本身就用它编写。"
+    },
+    {
+      "at": "__doc__",
+      "occ": 1,
+      "en": "The attribute where Python keeps an object's docstring; help() reads it.",
+      "zh": "Python 存放对象文档字符串的属性；help() 读取的就是它。"
+    },
+    {
+      "at": "print repr(foo.__doc__)",
+      "occ": 1,
+      "en": "Python 2 syntax, from 2001; in Python 3 it would be print(repr(foo.__doc__)).",
+      "zh": "这是 2001 年时的 Python 2 写法；在 Python 3 中应写作 print(repr(foo.__doc__))。"
+    }
+  ],
+  "pairs": [
+    "S-007012",
+    "S-007011",
+    "S-007024"
+  ]
+}

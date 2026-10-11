@@ -40,7 +40,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -52,11 +62,8 @@
   },
   "pick": null,
   "tags": [
-    "binary",
-    "yijing",
-    "fuxi",
-    "china-and-europe",
-    "notation"
+    "mathematics",
+    "translation"
   ],
   "excerpt": {
     "orig": "Les nombres étant réduits aux plus simples principes, comme 0 et 1, il paroit partout un ordre merveilleux.",

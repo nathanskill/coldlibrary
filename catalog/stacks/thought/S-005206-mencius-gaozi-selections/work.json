@@ -1,0 +1,199 @@
+{
+  "id": "S-005206",
+  "slug": "mencius-gaozi-selections",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "孟子·告子上（選）",
+    "en": "Mencius: Gaozi I (selections)",
+    "zh": "孟子·告子上（选）"
+  },
+  "author": {
+    "orig": "孟子",
+    "en": "Mencius (Meng Ke)",
+    "zh": "孟子（孟轲）",
+    "dates": "c. 372–289 BCE"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "c. 4th century BCE",
+    "zh": "约公元前 4 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Seven of the twenty passages of Gaozi I (book 6, part 1 of the Mencius), as given and numbered on Chinese Wikisource: 8, 9, 11, 13, 15, 19 and 20. Compared with the plain text of the Mencius in the Kanseki Repository and with Project Gutenberg eBook 24178; the online 茍 is corrected to 苟 four times.",
+    "zh": "选《孟子·告子上》二十章中的七章，即维基文库编号的第八、九、十一、十三、十五、十九、二十章。与京都大学汉籍资料库（Kanseki Repository）所收《孟子》正文和古登堡计划电子书第 24178 号对校；维基文库误作“茍”的四处改为“苟”。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/孟子/告子上",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "A Warring States text; Mencius died about 289 BCE.",
+      "zh": "战国文献，孟子约卒于公元前 289 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In this book Mencius argues that people are born with a good heart, and these seven passages are the ones about tending it: a mountain stripped of trees that would regrow if left alone, one day of sun against ten of frost, a chess pupil thinking about a swan. They are chosen for what they say about learning, which Mencius defines as going after the heart that has strayed. The last passage gives the craftsman’s standard: the full draw of the bow, the compass and the square.",
+    "zh": "孟子在这一篇里主张人生来就有善心，这里选的七章，讲的都是怎样养护它：一座被砍光的山，放着不管本会重新长出树来；晒一天，冻十天；学棋的人心里想着天鹅。选它们，是为了其中关于学习的话，孟子说学问之道无他，求其放心而已。最后一章给出了匠人的标准：拉满的弓，圆规和曲尺。"
+  },
+  "pick": null,
+  "tags": [
+    "learning",
+    "how-to-live",
+    "nature"
+  ],
+  "excerpt": {
+    "orig": "故苟得其養，無物不長；苟失其養，無物不消。",
+    "en": "So, given its nourishment, there is nothing that will not grow; deprived of its nourishment, there is nothing that will not wither.",
+    "zh": "故苟得其养，无物不长；苟失其养，无物不消。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "牛山之木",
+      "occ": 1,
+      "en": "Ox Mountain stood south-east of Linzi, the capital of Qi, the “great city” of the next sentence.",
+      "zh": "牛山在齐国都城临淄的东南，下句所说的“大国”即指临淄。"
+    },
+    {
+      "at": "萌蘗",
+      "occ": 1,
+      "en": "New shoots and the sprouts that come up from a cut stump.",
+      "zh": "新芽和从树桩上长出的嫩枝。"
+    },
+    {
+      "at": "濯濯",
+      "occ": 1,
+      "en": "Bare and shining, stripped of growth.",
+      "zh": "光秃秃的样子。"
+    },
+    {
+      "at": "平旦之氣",
+      "occ": 1,
+      "en": "The clear air of early dawn, before the day’s business begins: Mencius’s image for the heart when it has rested.",
+      "zh": "黎明时清明的气息，孟子用来比喻休息之后、尚未被白天的事务扰乱的心。",
+      "at_hans": "平旦之气"
+    },
+    {
+      "at": "有梏亡之矣",
+      "occ": 1,
+      "en": "Fetter it and destroy it. 梏 is a wooden handcuff.",
+      "zh": "把它束缚、消灭掉。梏，木制的手铐，引申为束缚。"
+    },
+    {
+      "at": "夜氣",
+      "occ": 1,
+      "en": "The night air: the good disposition that grows back in the stillness of night.",
+      "zh": "夜间滋生的清明之气，即在夜的宁静中重新生长出来的善心。",
+      "at_hans": "夜气"
+    },
+    {
+      "at": "操則存，舍則亡",
+      "occ": 1,
+      "en": "A saying attributed to Confucius and not found in the Analects.",
+      "zh": "孔子的话，不见于《论语》。",
+      "at_hans": "操则存，舍则亡"
+    },
+    {
+      "at": "無或乎王之不智也",
+      "occ": 1,
+      "en": "Do not wonder at the king’s lack of wisdom. 或 is read as 惑, to be puzzled.",
+      "zh": "不要奇怪君王的不明智。或，同“惑”。",
+      "at_hans": "无或乎王之不智也"
+    },
+    {
+      "at": "一日暴之，十日寒之",
+      "occ": 1,
+      "en": "One day of sun, ten days of cold. 暴 is read as 曝, to expose to the sun; the phrase became the idiom 一暴十寒 for effort without persistence.",
+      "zh": "暴，同“曝”，晒。后来成为成语“一暴十寒”，比喻做事没有恒心。"
+    },
+    {
+      "at": "弈秋",
+      "occ": 1,
+      "en": "Qiu the chess-player: the earliest named master of weiqi in Chinese records.",
+      "zh": "名叫秋的棋手，因善弈而称弈秋，是古书记载中最早的围棋名手。"
+    },
+    {
+      "at": "思援弓繳而射之",
+      "occ": 1,
+      "en": "Thinks of drawing his bow and shooting at it with a 繳, an arrow tied to a silk cord for bringing down birds.",
+      "zh": "想拿起弓箭去射它。缴，系在箭上的生丝绳，用来射鸟。",
+      "at_hans": "思援弓缴而射之"
+    },
+    {
+      "at": "求其放心而已矣",
+      "occ": 1,
+      "en": "To seek the heart that has been let go, as one goes after a stray chicken or dog.",
+      "zh": "把放失的本心找回来罢了。放心，放失之心。"
+    },
+    {
+      "at": "拱把之桐、梓",
+      "occ": 1,
+      "en": "Paulownia and catalpa saplings as thick as can be held in two hands, or in one.",
+      "zh": "两手合围或一手握住那么粗的桐树、梓树。拱，两手合围；把，一手握住。"
+    },
+    {
+      "at": "鈞是人也",
+      "occ": 1,
+      "en": "We are all equally human. 鈞 is read as 均.",
+      "zh": "同样是人。钧，同“均”。",
+      "at_hans": "钧是人也"
+    },
+    {
+      "at": "從其大體為大人",
+      "occ": 1,
+      "en": "The greater part is the heart that thinks; the lesser parts are the senses.",
+      "zh": "大体，指能思考的心；小体，指耳目等感官。",
+      "at_hans": "从其大体为大人"
+    },
+    {
+      "at": "心之官則思",
+      "occ": 1,
+      "en": "The function of the organ of the heart is to think; in early Chinese the heart, 心, is the seat of thought.",
+      "zh": "心这个器官的职能是思考。古人以心为思维器官。",
+      "at_hans": "心之官则思"
+    },
+    {
+      "at": "不如荑稗",
+      "occ": 1,
+      "en": "Worse than wild millet and barnyard grass, weeds whose seeds can still be eaten.",
+      "zh": "还不如荑米和稗子。荑、稗都是似谷的杂草，结的籽也可以吃。"
+    },
+    {
+      "at": "羿之教人射，必志於彀",
+      "occ": 1,
+      "en": "Yi was the legendary archer; 彀 is drawing the bow to its full extent.",
+      "zh": "羿，传说中善射的人；彀，把弓拉满。",
+      "at_hans": "羿之教人射，必志于彀"
+    }
+  ],
+  "pairs": [
+    "S-002006",
+    "S-002005",
+    "S-005208"
+  ]
+}

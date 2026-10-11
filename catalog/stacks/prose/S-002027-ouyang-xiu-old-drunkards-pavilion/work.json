@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -52,9 +62,8 @@
   "pick": null,
   "tags": [
     "mountains",
-    "pavilion",
     "wine",
-    "seasons"
+    "time"
   ],
   "excerpt": {
     "orig": "醉翁之意不在酒，在乎山水之間也。",

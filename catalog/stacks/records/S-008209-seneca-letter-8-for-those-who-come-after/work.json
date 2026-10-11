@@ -1,0 +1,120 @@
+{
+  "id": "S-008209",
+  "slug": "seneca-letter-8-for-those-who-come-after",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "la",
+  "title": {
+    "orig": "Epistulae morales ad Lucilium, VIII",
+    "en": "The Business of Those Who Come After: Seneca's Eighth Letter to Lucilius",
+    "zh": "为后来的人做事：塞涅卡致卢基里乌斯第八封信"
+  },
+  "author": {
+    "orig": "Lucius Annaeus Seneca",
+    "en": "Seneca",
+    "zh": "塞涅卡",
+    "dates": "c. 4 BCE–65 CE"
+  },
+  "year": 63,
+  "year_display": {
+    "en": "c. 62–64 CE",
+    "zh": "约 62—64 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The complete letter as given on Latin Wikisource (Epistulae morales ad Lucilium, Liber I), which follows The Latin Library's text; checked against Karl Rudolf Fickert's edition (Leipzig, 1842, volume 1) on the Internet Archive. Section numbers are omitted, the quoted lines of verse are set as quotations, and a missing space is restored.",
+    "zh": "全信，据拉丁文维基文库《致卢基里乌斯的道德书信》第一卷（其文本取自 The Latin Library），并与互联网档案馆所藏卡尔·鲁道夫·菲克特校本（莱比锡，1842 年，第 1 卷）核对。节号从略，所引诗句以引文格式排出，并补上一处漏掉的空格。"
+  },
+  "source": {
+    "name": "Wikisource (la), Epistulae morales ad Lucilium/Liber I",
+    "url": "https://la.wikisource.org/wiki/Epistulae_morales_ad_Lucilium/Liber_I",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written about 62–64 CE; Seneca died in 65.",
+      "zh": "约作于 62—64 年，塞涅卡卒于 65 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Seneca wrote his letters to his friend Lucilius in retirement, and here he answers the charge that withdrawing from public life is idleness: he has shut his door in order to write for posterity, as one would write down a remedy that has worked. The second half turns to the small gift that closes each early letter, a saying of Epicurus, and asks why a good sentence should be thought to belong to anyone. Notice the phrase posterorum negotium ago: he calls it business, not leisure.",
+    "zh": "塞涅卡给朋友卢基里乌斯写这些信时已经退隐。在这封信里，他回答别人的指责——退出公共生活就是懒散：他关上门，是为了给后世写作，就像把一个有效的药方记下来一样。后半封信转到早期每封信末尾附送的那句格言，这次是伊壁鸠鲁的一句话，并且问：一句好话，为什么要认为它只属于某一个人？请留意 posterorum negotium ago 这个说法：他称之为“事务”，而不是闲暇。"
+  },
+  "pick": null,
+  "tags": [
+    "messages-forward",
+    "writing",
+    "how-to-live",
+    "letters",
+    "solitude"
+  ],
+  "excerpt": {
+    "orig": "Secessi non tantum ab hominibus sed a rebus, et in primis a meis rebus: posterorum negotium ago.",
+    "en": "I have withdrawn not only from people but from affairs, and above all from my own affairs: I am doing the business of those who come after.",
+    "zh": "我不仅从人群中退了出来，也从事务中退了出来，首先是从我自己的事务中退了出来：我在做的，是后来者的事。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "in actu mori",
+      "occ": 1,
+      "en": "To die in action: the Stoic ideal of staying at one's post to the end.",
+      "zh": "死在行动之中：斯多葛派坚守岗位直到最后的理想。"
+    },
+    {
+      "at": "viscata beneficia",
+      "occ": 1,
+      "en": "Favours smeared with birdlime, the sticky paste used to trap small birds.",
+      "zh": "涂了粘鸟胶的恩惠。粘鸟胶是用来捕小鸟的黏胶。"
+    },
+    {
+      "at": "ad vadimonium",
+      "occ": 1,
+      "en": "To a court appearance, to stand surety that someone will appear.",
+      "zh": "到法庭去，为某人按期出庭作保。"
+    },
+    {
+      "at": "togatas nostras",
+      "occ": 1,
+      "en": "Fabulae togatae: Roman comedies set in Italy, whose characters wore the toga.",
+      "zh": "“穿长袍的戏”，即以意大利为背景、人物穿托加袍的罗马喜剧。"
+    },
+    {
+      "at": "Publilii",
+      "occ": 1,
+      "en": "Publilius Syrus, a freed slave who wrote mimes in the first century BCE; his one-line maxims circulated widely.",
+      "zh": "普布利利乌斯·叙鲁斯，公元前一世纪的被释奴隶，写滑稽剧；他的单行格言流传很广。"
+    },
+    {
+      "at": "excalceatis sed coturnatis",
+      "occ": 1,
+      "en": "The barefoot performers of mime as against tragic actors in the high boot, the cothurnus.",
+      "zh": "赤脚的滑稽剧演员，与穿高底靴（cothurnus）的悲剧演员相对。"
+    }
+  ],
+  "pairs": [
+    "S-008208",
+    "S-005003",
+    "S-005001"
+  ]
+}

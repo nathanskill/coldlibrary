@@ -1,0 +1,95 @@
+{
+  "id": "S-008214",
+  "slug": "bacon-ships-through-the-seas-of-time",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Of the Proficience and Advancement of Learning, Book I (the closing argument)",
+    "en": "As Ships Through the Vast Seas of Time: From The Advancement of Learning",
+    "zh": "像船一样驶过时间的大海：《学术的进展》选段"
+  },
+  "author": {
+    "orig": "Francis Bacon",
+    "en": "Francis Bacon",
+    "zh": "弗朗西斯·培根",
+    "dates": "1561–1626"
+  },
+  "year": 1605,
+  "year_display": {
+    "en": "1605",
+    "zh": "1605 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The last argument of Book I, as transcribed by Project Gutenberg from the Cassell edition of 1893; checked against three other printings on the Internet Archive (1851, 1861, and F. G. Selby's edition of 1905), which agree in correcting one phrase: 'during which time infinite palaces' for 'during which the infinite palaces'. The passage stops where Bacon turns to the immortality of the soul.",
+    "zh": "第一卷最后一段论证，据古登堡计划据 1893 年卡塞尔版所作的录文；并与互联网档案馆所藏另外三种印本（1851 年、1861 年，以及 F. G. 塞尔比 1905 年校注本）核对，三本一致，据以改正一处：“during which the infinite palaces”作“during which time infinite palaces”。选段止于培根转而谈论灵魂不朽之处。"
+  },
+  "source": {
+    "name": "Project Gutenberg #5500",
+    "url": "https://www.gutenberg.org/cache/epub/5500/pg5500.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "First published in 1605; Bacon died in 1626.",
+      "zh": "1605 年首次出版，培根卒于 1626 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Bacon wrote The Advancement of Learning for James I as a survey of what was known and what remained to be found out, and he ends its first book by arguing that knowledge is the one human work that outlasts its makers. Homer's verses have outlived every palace, and no portrait of Caesar is true, but books keep the image of a mind and keep it working, casting seeds into other minds. It is on this shelf for its last sentence, which makes letters into ships that carry the cargo of one age to another.",
+    "zh": "培根为詹姆斯一世写了《学术的进展》，概览已知的学问和尚待发现的东西；第一卷最后，他论证知识是人类唯一比创造者活得更久的作品。荷马的诗句比任何宫殿都长久，恺撒没有一幅真实的画像，可是书保存了一个心灵的形象，并让它继续工作，把种子撒进别的心灵。它在这个书架上，是为了最后一句：文字像船，把一个时代的货物运往另一个时代。"
+  },
+  "pick": null,
+  "tags": [
+    "books",
+    "messages-forward",
+    "the-long-view",
+    "learning",
+    "writing"
+  ],
+  "excerpt": {
+    "orig": "How much more are letters to be magnified, which as ships pass through the vast seas of time, and make ages so distant to participate of the wisdom, illuminations, and inventions, the one of the other?",
+    "en": "How much more are letters to be magnified, which as ships pass through the vast seas of time, and make ages so distant to participate of the wisdom, illuminations, and inventions, the one of the other?",
+    "zh": "文字就更应该被推崇了：它们像船一样，驶过时间的茫茫大海，使相隔如此遥远的时代，能够彼此分享智慧、启示和发明。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "leese",
+      "occ": 1,
+      "en": "An old form of 'lose'.",
+      "zh": "“lose”（失去）的古体。"
+    },
+    {
+      "at": "consociateth",
+      "occ": 1,
+      "en": "Joins together in fellowship.",
+      "zh": "使结成伙伴、联合起来。"
+    }
+  ],
+  "pairs": [
+    "S-005005",
+    "S-005007",
+    "S-008206"
+  ]
+}

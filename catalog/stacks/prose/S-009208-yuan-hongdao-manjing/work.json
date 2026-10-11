@@ -1,0 +1,187 @@
+{
+  "id": "S-009208",
+  "slug": "yuan-hongdao-manjing",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "滿井遊記",
+    "en": "An Outing to the Full Well",
+    "zh": "满井游记"
+  },
+  "author": {
+    "orig": "袁宏道",
+    "en": "Yuan Hongdao",
+    "zh": "袁宏道",
+    "dates": "1568–1610"
+  },
+  "year": 1599,
+  "year_display": {
+    "en": "1599",
+    "zh": "1599 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource (from Yuan’s Pinghua zhai ji, book 5), compared with the copies in the Siku quanshu editions of the Jifu tongzhi (book 98) and the Wenzhang bianti huixuan (book 579). In the last paragraph the online text reads 夫不能以游墮事，瀟然; both witnesses read 夫能不以游墮事，而瀟然, and that reading is followed here.",
+    "zh": "据维基文库（出自袁宏道《瓶花斋集》卷五），并与四库全书本《畿辅通志》卷九十八、《文章辨体汇选》卷五百七十九所录文本对校。末段维基文库作“夫不能以游堕事，潇然”，两个校本都作“夫能不以游堕事，而潇然”，今从校本。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/滿井遊記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Late Ming prose, written in 1599; the author died in 1610.",
+      "zh": "晚明散文，作于 1599 年，作者卒于 1610 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Yuan Hongdao held a light teaching post in Beijing in 1599, and in the second lunar month he rode out of the city to a spring that brimmed over its well. This short record of the first thaw is a model of late Ming prose: plain words, quick images, and a mood that refuses to be grand. Notice the ice that has just broken, so that the water shines like a mirror lifted out of its case.",
+    "zh": "1599 年，袁宏道在北京任一个清闲的教职，二月里骑马出城，到一口泉水溢出井沿的满井去。这篇记初春解冻的短文是晚明小品的典范：字句平实，意象轻快，不肯故作宏大。留意那刚刚化开的冰面，水光像一面刚从匣中取出的镜子。"
+  },
+  "pick": null,
+  "tags": [
+    "spring",
+    "water",
+    "travel"
+  ],
+  "excerpt": {
+    "orig": "始知郊田之外，未始無春，而城居者未之知也。",
+    "en": "Only then did I understand that out beyond the city there had never been no spring, and that those who live in the city simply did not know it.",
+    "zh": "始知郊田之外，未始无春，而城居者未之知也。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "燕地",
+      "occ": 1,
+      "en": "The land of the ancient state of Yan: the country around Beijing.",
+      "zh": "古燕国一带，指今北京地区。"
+    },
+    {
+      "at": "花朝節",
+      "occ": 1,
+      "en": "The Festival of Flowers, the flowers’ birthday, kept around the twelfth or fifteenth day of the second lunar month.",
+      "zh": "花朝节，相传为百花生日，旧俗在农历二月十二日或十五日。",
+      "at_hans": "花朝节"
+    },
+    {
+      "at": "飛沙走礫",
+      "occ": 1,
+      "en": "Sand flying and gravel running: the dust storms of a Beijing spring.",
+      "zh": "沙土飞扬，石子滚动。礫，小石子。",
+      "at_hans": "飞沙走砾"
+    },
+    {
+      "at": "東直",
+      "occ": 1,
+      "en": "The Dongzhi Gate on the north-east side of Beijing.",
+      "zh": "北京城的东直门。",
+      "at_hans": "东直"
+    },
+    {
+      "at": "滿井",
+      "occ": 1,
+      "en": "The Full Well, a spring north-east of Beijing whose water welled up and overflowed its stone rim.",
+      "zh": "明代北京东北郊的一处游览地，井中泉水常满溢出井沿，故名。",
+      "at_hans": "满井"
+    },
+    {
+      "at": "土膏微潤",
+      "occ": 1,
+      "en": "The rich soil was a little moist. 膏 means fat, fertile.",
+      "zh": "肥沃的土壤微微湿润。膏，肥沃。",
+      "at_hans": "土膏微润"
+    },
+    {
+      "at": "脫籠之鵠",
+      "occ": 1,
+      "en": "A swan let out of its cage.",
+      "zh": "飞出笼子的天鹅。鹄，天鹅。",
+      "at_hans": "脱笼之鹄"
+    },
+    {
+      "at": "冷光之乍出于匣",
+      "occ": 1,
+      "en": "The cold light of a bronze mirror just taken from its box; mirrors were kept in cases.",
+      "zh": "铜镜刚从镜匣里取出时闪出的清冷的光。乍，刚刚。"
+    },
+    {
+      "at": "娟然如拭",
+      "occ": 1,
+      "en": "Lovely, as if wiped clean.",
+      "zh": "美好得像擦拭过一样。娟然，美好的样子。"
+    },
+    {
+      "at": "倩女之靧面",
+      "occ": 1,
+      "en": "A pretty girl washing her face.",
+      "zh": "美丽的少女洗脸。靧，洗脸。"
+    },
+    {
+      "at": "髻鬟之始掠",
+      "occ": 1,
+      "en": "Coils of hair just combed into place.",
+      "zh": "发髻刚刚梳理好。掠，梳理。"
+    },
+    {
+      "at": "淺鬣寸許",
+      "occ": 1,
+      "en": "A short bristle about an inch high: 鬣 is the mane or neck-hair of an animal, here the new wheat.",
+      "zh": "麦苗短短的，像兽颈上的短毛，约一寸高。鬣，兽类颈上的长毛。",
+      "at_hans": "浅鬣寸许"
+    },
+    {
+      "at": "泉而茗者，罍而歌者，紅裝而蹇者",
+      "occ": 1,
+      "en": "Those brewing tea with the spring water, those singing over wine vessels, those in red riding donkeys. Nouns are used as verbs: 泉, 罍, 蹇.",
+      "zh": "汲泉水煮茶喝的，端着酒杯唱歌的，穿着红装骑驴的。泉、罍、蹇都用作动词；罍，酒器；蹇，跛足的驴，代指驴。",
+      "at_hans": "泉而茗者，罍而歌者，红装而蹇者"
+    },
+    {
+      "at": "呷浪之鱗",
+      "occ": 1,
+      "en": "Fish sipping at the ripples.",
+      "zh": "浮到水面吸水的鱼。呷，吸饮。",
+      "at_hans": "呷浪之鳞"
+    },
+    {
+      "at": "惟此官也",
+      "occ": 1,
+      "en": "Yuan was then a teacher at the Shuntian prefectural school, an undemanding post that left him time for outings.",
+      "zh": "袁宏道当时任顺天府学教授，职务清闲，所以有闲出游。"
+    },
+    {
+      "at": "己亥之二月也",
+      "occ": 1,
+      "en": "The second month of the year jihai, 1599.",
+      "zh": "己亥年二月，即明万历二十七年（1599）。"
+    }
+  ],
+  "pairs": [
+    "S-009207",
+    "S-002031",
+    "S-002027"
+  ]
+}

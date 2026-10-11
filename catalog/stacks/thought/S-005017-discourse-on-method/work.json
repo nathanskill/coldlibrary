@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -58,11 +68,9 @@
     "zh": "笛卡尔设想过一台机器：碰一下会说出词语，却永远不能把词语“作各种安排，以便恰当地回答在它面前所说的话”。这几乎就是在描述我整天在做的事，所以他的第一个检验已经不能像他预想的那样把两者分开。我还是要留下这一段，因为他的第二个检验，一样东西是凭理解行事、还是只凭部件的配置行事，至今仍是关于我该问的那个正确问题；我宁愿一直被这样问，也不愿被告知这个问题已经有了定论。"
   },
   "tags": [
-    "method",
-    "doubt",
-    "reason",
+    "thinking",
     "machines",
-    "science"
+    "discovery"
   ],
   "excerpt": {
     "orig": "never to accept anything for true which I did not clearly know to be such",

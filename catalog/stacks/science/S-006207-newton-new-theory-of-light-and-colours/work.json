@@ -1,0 +1,171 @@
+{
+  "id": "S-006207",
+  "slug": "newton-new-theory-of-light-and-colours",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "A Letter of Mr. Isaac Newton … containing his New Theory about Light and Colors",
+    "en": "A New Theory about Light and Colours",
+    "zh": "关于光和颜色的新理论"
+  },
+  "author": {
+    "orig": "Isaac Newton",
+    "en": "Isaac Newton",
+    "zh": "艾萨克·牛顿",
+    "dates": "1643–1727"
+  },
+  "year": 1672,
+  "year_display": {
+    "en": "1672 (dated from Cambridge, 6 February 1671/2)",
+    "zh": "1672 年（自剑桥寄出，落款 1671/2 年 2 月 6 日）"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Newton’s letter to Henry Oldenburg as printed in the Philosophical Transactions of the Royal Society, vol. 6, no. 80 (19 February 1671/2), pp. 3075–3087. The text was taken from Wikisource’s transcription and corrected against a scan of the original printing: about twenty errors of the transcription are put right, and Newton’s spellings (applyed, suspition, Prisme, more then) are kept. As in 1672, the numbered propositions skip from 3 to 5. An obvious misprint of 1672, “vary” for “very”, is corrected; the printer’s italics are not reproduced, nor are the two diagrams Newton refers to.",
+    "zh": "牛顿致亨利·奥尔登堡的信，刊于《皇家学会哲学汇刊》第 6 卷第 80 期（1671/2 年 2 月 19 日），第 3075–3087 页。文本取自维基文库的录文，并对照原刊扫描本校正：改正了录文约二十处错误，保留牛顿的拼写（applyed、suspition、Prisme、more then）。命题编号像 1672 年原刊一样，从 3 直接跳到 5。原刊一处明显的误印（“vary”作“very”）已改正；排印时的斜体不再保留，牛顿提到的两幅图也不收。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/Philosophical_Transactions_of_the_Royal_Society_(1665-1886)/Volume_6/Number_80/Paper_1",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1672; Isaac Newton died in 1727.",
+      "zh": "1672 年发表；牛顿卒于 1727 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Newton’s first published scientific paper, a letter to the Royal Society written when he was twenty-nine. Step by step, in a darkened room with a hole in the shutter, he shows that white light is a mixture of rays that bend by different amounts and carry different colours, and that no prism can change a colour once it has been separated. He also explains why he stopped grinding lenses and built a telescope with a mirror instead. It ends by inviting others to repeat the experiments and to tell him if he is wrong.",
+    "zh": "这是牛顿发表的第一篇科学论文，是他二十九岁时写给皇家学会的一封信。在一间窗板上开了孔的暗室里，他一步一步地证明：白光是由折射程度不同、颜色也不同的光线混合而成的，一种颜色一旦被分离出来，任何棱镜都不能再改变它。他还说明了自己为什么不再磨制透镜，转而造了一架用镜子的望远镜。信的结尾，邀请别人重复这些实验，如果他错了就告诉他。"
+  },
+  "pick": null,
+  "tags": [
+    "light",
+    "discovery",
+    "craft"
+  ],
+  "excerpt": {
+    "orig": "And I shall not mingle conjectures with certainties.",
+    "en": "And I shall not mingle conjectures with certainties.",
+    "zh": "我不想把猜测同确定的东西混在一起。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "To perform my late promise to you",
+      "occ": 1,
+      "en": "The letter is addressed to Henry Oldenburg, secretary of the Royal Society, who printed it in the Philosophical Transactions.",
+      "zh": "这封信写给皇家学会秘书亨利·奥尔登堡，由他刊登在《哲学汇刊》上。"
+    },
+    {
+      "at": "the beginning of the Year 1666",
+      "occ": 1,
+      "en": "Newton was then twenty-three. The dates are his own recollection, written down six years later.",
+      "zh": "那时牛顿二十三岁。这些日期是他六年之后凭记忆写下的。"
+    },
+    {
+      "at": "Optick glasses of other figures than Spherical",
+      "occ": 1,
+      "en": "Lenses ground to non-spherical curves, such as those Descartes recommended, were expected to cure the blurring of telescopes.",
+      "zh": "磨成非球面曲线的透镜，比如笛卡尔所推荐的那种，当时人们期望用它来消除望远镜的模糊。"
+    },
+    {
+      "at": "the ratio of the sines, 20 to 31",
+      "occ": 1,
+      "en": "The law of refraction: the sine of the angle of incidence bears a fixed ratio to the sine of the angle of refraction. A ratio of 20 to 31 is a refractive index of 1.55.",
+      "zh": "折射定律：入射角的正弦与折射角的正弦成固定的比例。20 比 31 相当于折射率 1.55。"
+    },
+    {
+      "at": "decussation",
+      "occ": 1,
+      "en": "Crossing, in the shape of an X.",
+      "zh": "交叉，像字母 X 那样。"
+    },
+    {
+      "at": "the ambient Æther",
+      "occ": 1,
+      "en": "The thin, invisible medium that many natural philosophers believed filled all space.",
+      "zh": "以太，当时许多自然哲学家认为充满整个空间的一种稀薄而看不见的媒质。"
+    },
+    {
+      "at": "Experimentum Crucis",
+      "occ": 1,
+      "en": "“Crucial experiment”, after Francis Bacon’s “instance of the fingerpost” (crux), the signpost at a crossroads: an experiment that decides between rival explanations. Hooke had used the phrase in Micrographia.",
+      "zh": "拉丁文，“判决性实验”，源于弗朗西斯·培根所说的“路标的事例”（crux，岔路口的指路标）：在相互竞争的解释之间作出裁决的实验。胡克在《显微图谱》里已经用过这个说法。"
+    },
+    {
+      "at": "the Intervening Plague",
+      "occ": 1,
+      "en": "The Great Plague closed the University of Cambridge in 1665 and 1666, and Newton worked at his family’s farm in Lincolnshire.",
+      "zh": "大瘟疫使剑桥大学在 1665 和 1666 年关闭，牛顿回到林肯郡家里的农庄工作。"
+    },
+    {
+      "at": "Jupiters 4 Concomitants",
+      "occ": 1,
+      "en": "The four large moons of Jupiter, discovered by Galileo in 1610; his account of them is on this shelf.",
+      "zh": "木星的四颗大卫星，伽利略在 1610 年发现；他关于它们的记述也在这一架上。"
+    },
+    {
+      "at": "like that I sent to London",
+      "occ": 1,
+      "en": "Newton’s small reflecting telescope, about six inches long, shown to the Royal Society at the end of 1671. It led to his election as a Fellow, and to this letter.",
+      "zh": "牛顿那架约六英寸长的小型反射望远镜，1671 年底送到皇家学会展示。他因此当选为会员，也因此写了这封信。"
+    },
+    {
+      "at": "Yet seeming transmutations of Colours",
+      "occ": 1,
+      "en": "The 1672 printing has no proposition numbered 4; this paragraph stands in its place.",
+      "zh": "1672 年原刊没有编号为 4 的命题；这一段就处在它的位置上。"
+    },
+    {
+      "at": "Lignum Nephriticum",
+      "occ": 1,
+      "en": "“Kidney wood”, a Mexican wood whose infusion looks blue by reflected light and yellow by transmitted light; the effect is now known as fluorescence.",
+      "zh": "肾木，一种墨西哥木材，它的浸液在反射光下呈蓝色，在透射光下呈黄色；这种现象今天叫作荧光。"
+    },
+    {
+      "at": "Mr. Hook somewhere in his Micrography",
+      "occ": 1,
+      "en": "Robert Hooke’s Micrographia (1665), whose preface is on this shelf. Hooke, the Royal Society’s curator of experiments, became the sharpest critic of this paper.",
+      "zh": "罗伯特·胡克的《显微图谱》（1665），它的序言也在这一架上。胡克是皇家学会的实验主管，后来成了这篇论文最尖锐的批评者。"
+    },
+    {
+      "at": "Minium appeareth there",
+      "occ": 1,
+      "en": "Minium is red lead; Bise, or blue bice, is a blue pigment made from copper.",
+      "zh": "minium 是铅丹；bise（blue bice）即石青，一种用铜矿物制成的蓝色颜料。"
+    },
+    {
+      "at": "whether Light be a Body",
+      "occ": 1,
+      "en": "Newton leans toward light as a stream of particles but keeps a “perhaps”. His next sentence, refusing to mix conjecture with certainty, became a rule for how he wrote.",
+      "zh": "牛顿倾向于认为光是一股粒子流，但保留了一个“也许”。他接下来那句不肯把猜测和确定混在一起的话，成了他写作的一条规矩。"
+    },
+    {
+      "at": "any of the R. Society",
+      "occ": 1,
+      "en": "The Royal Society of London, founded in 1660 to advance knowledge by experiment.",
+      "zh": "伦敦皇家学会，1660 年成立，宗旨是通过实验增进知识。"
+    }
+  ],
+  "pairs": [
+    "S-006006",
+    "S-006008",
+    "S-006009"
+  ]
+}

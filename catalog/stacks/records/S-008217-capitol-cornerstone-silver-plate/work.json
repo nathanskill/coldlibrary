@@ -1,0 +1,102 @@
+{
+  "id": "S-008217",
+  "slug": "capitol-cornerstone-silver-plate",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "First Cornerstone",
+    "en": "The Silver Plate Under the Cornerstone: The United States Capitol, 1793",
+    "zh": "奠基石下的银牌：美国国会大厦，1793 年"
+  },
+  "author": {
+    "orig": "Architect of the Capitol",
+    "en": "Architect of the Capitol (the plate's inscription of 1793 quoted within)",
+    "zh": "美国国会大厦建筑师办公室（文中引录 1793 年的银牌铭文）",
+    "dates": "office dates from 1793"
+  },
+  "year": 1793,
+  "year_display": {
+    "en": "plate laid 18 September 1793; account by the Architect of the Capitol",
+    "zh": "银牌安放于 1793 年 9 月 18 日；记述出自国会大厦建筑师办公室"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The Architect of the Capitol's page 'First Cornerstone' on aoc.gov, from its opening sentence to the end of the section on the searches for the stone; a sentence pointing to images and the image captions are omitted, and the 1793 invitation and inscription, which the page quotes from the only eyewitness report (The Columbia Mirror and Alexandria Gazette), are set as quotations. The inscription was checked against the same report as reprinted in Centennial Anniversary of the Laying of the Corner-stone of the National Capitol (Washington, 1893), whose version differs in a few words: it adds the year 1793 and 'by the President of the United States, in concert with', and spells two names David Steuart and Joseph Hoban.",
+    "zh": "据国会大厦建筑师办公室网站 aoc.gov 的“最初的奠基石”页面，从第一句到关于搜寻奠基石一节的结尾；一句指向图片的话和图片说明从略，页面引自唯一目击者记述（《哥伦比亚之镜与亚历山大公报》）的 1793 年邀请函和银牌铭文以引文格式排出。铭文已与《国会大厦奠基一百周年纪念》（华盛顿，1893 年）所重印的同一篇报道核对；后者的文本有几处不同：多出年份 1793 和“由合众国总统会同”几个字，两个人名拼作 David Steuart 和 Joseph Hoban。"
+  },
+  "source": {
+    "name": "Architect of the Capitol, First Cornerstone",
+    "url": "https://www.aoc.gov/explore-capitol-campus/art/first-cornerstone",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "us-gov",
+    "basis": {
+      "en": "The account is a work of the Architect of the Capitol, an agency of the United States government, and so not subject to copyright (17 U.S.C. § 105). The inscription it quotes was written in 1793.",
+      "zh": "这篇记述是美国政府机构国会大厦建筑师办公室的作品，不受版权保护（《美国法典》第 17 编第 105 条）。文中引录的铭文写于 1793 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In 1793 George Washington laid the first cornerstone of the United States Capitol on a silver plate engraved with an inscription, which was read aloud once and has not been seen since. This is the account kept by the office that still looks after the building, from the newspaper invitation to the searches of the 1950s and 1991, when geologists tested the soil under the foundations for silver that might have leached from the plate. It is on this shelf as a message that was buried on purpose and is still waiting for its reader; notice how carefully the last paragraph separates evidence from belief.",
+    "zh": "1793 年，乔治·华盛顿为美国国会大厦安放了第一块奠基石，石下压着一块刻有铭文的银牌；铭文只被宣读过一次，此后再也没有人见过它。这是至今仍在照管这座建筑的机构保存的记述：从报纸上的邀请函，到二十世纪五十年代和 1991 年的搜寻——那一次，地质学家化验地基下的土壤，寻找可能从银牌中渗出的银。它在这个书架上，因为这是一份被有意埋藏、至今仍在等待读者的信息。请留意最后一段怎样小心地把证据和看法分开。"
+  },
+  "pick": null,
+  "tags": [
+    "inscriptions",
+    "messages-forward",
+    "memory",
+    "discovery"
+  ],
+  "excerpt": {
+    "orig": "Those who witnessed this ceremony in 1793 were the last to see the silver plate on which the cornerstone was laid.",
+    "en": "Those who witnessed this ceremony in 1793 were the last to see the silver plate on which the cornerstone was laid.",
+    "zh": "1793 年目睹这场典礼的人，是最后一批见到奠基石下那块银牌的人。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the year of Masonry 5793",
+      "occ": 1,
+      "en": "Anno Lucis, 'year of light', a Masonic era that adds 4000 to the common year.",
+      "zh": "共济会的“光明纪年”（Anno Lucis），在公元年份上加 4000。"
+    },
+    {
+      "at": "R. W. G. M.—P. T.",
+      "occ": 1,
+      "en": "Right Worshipful Grand Master, pro tempore: acting head of the Grand Lodge.",
+      "zh": "Right Worshipful Grand Master, pro tempore 的缩写：代理总导师，即总会的代理首领。"
+    },
+    {
+      "at": "corn, wine and oil",
+      "occ": 1,
+      "en": "The traditional Masonic elements for consecrating a foundation stone.",
+      "zh": "共济会为奠基石祝圣时传统使用的三样东西。"
+    },
+    {
+      "at": "U.S. Geological Survey",
+      "occ": 1,
+      "en": "The federal agency for the earth sciences, whose chemists looked for traces of silver in the soil.",
+      "zh": "美国联邦地球科学机构；其化学家在土壤中寻找银的痕迹。"
+    }
+  ],
+  "pairs": [
+    "S-008009",
+    "S-008001",
+    "S-008213"
+  ]
+}

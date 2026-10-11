@@ -1,0 +1,128 @@
+{
+  "id": "S-005202",
+  "slug": "spinoza-ethics-the-free-man",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Ethica ordine geometrico demonstrata",
+    "en": "Ethics: The Free Man (Part IV, Propositions 67–73; Part V, Proposition 42)",
+    "zh": "伦理学：自由的人（第四部分命题六十七至七十三；第五部分命题四十二）"
+  },
+  "author": {
+    "orig": "Benedictus de Spinoza",
+    "en": "Baruch Spinoza",
+    "zh": "斯宾诺莎",
+    "dates": "1632–1677"
+  },
+  "year": 1677,
+  "year_display": {
+    "en": "1677, published after his death; translated 1884, revised 1887",
+    "zh": "1677 年，身后出版；1884 年英译，1887 年修订"
+  },
+  "translator": {
+    "name": "R. H. M. Elwes",
+    "dates": "1853–1892",
+    "year": 1884
+  },
+  "orig_lang": "la",
+  "edition": {
+    "en": "The propositions on the free man that close Part IV, and the last proposition of the book, in R. H. M. Elwes’s translation, The Chief Works of Benedict de Spinoza, vol. II (London: George Bell and Sons, 1884; revised edition 1887), as transcribed by Project Gutenberg (eBook 3800) and compared with a scan of the 1898 reprint of the revised edition. Elwes prints the note to Proposition LXXII under the heading Proof and leaves out the proof itself; his text is kept as he printed it. Two slips of the transcription are corrected (“signifieded”, “self--preservation”), and its “fraudulently” is kept where the 1898 reprint misprints “fraudently”. The appendix to Part IV is not included.",
+    "zh": "选第四部分末尾论自由人的几个命题和全书最后一个命题，用 R. H. M. 埃尔维斯的英译本，见《斯宾诺莎主要著作集》第二卷（伦敦：乔治·贝尔父子出版社，1884；修订版 1887），据古登堡计划电子书第 3800 号，并与修订版 1898 年重印本的扫描本对校。埃尔维斯把命题七十二的附释印在“证明”的标题下，略去了证明本身；这里照他印的样子保留。改正录入的两处笔误（“signifieded”“self--preservation”）；1898 年重印本误作“fraudently”，这里保留录入本的“fraudulently”。第四部分的附录不收。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/3800/pg3800.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in Latin and published in 1677, the year Spinoza died. R. H. M. Elwes, the translator, died in 1892; his translation was published in 1884 and revised in 1887.",
+      "zh": "用拉丁文写成，1677 年出版，斯宾诺莎卒于同年。译者 R. H. M. 埃尔维斯卒于 1892 年；他的译本 1884 年出版，1887 年修订。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Spinoza earned his living grinding lenses in the Netherlands and set out his Ethics in the manner of geometry, with definitions, axioms, propositions and proofs; it was printed only after his death. These pages describe the free man, who is led by reason rather than by fear, thinks of life rather than death, keeps faith and prefers friendship to favours, and they end with the last sentence of the book. The cross-references can be skipped on a first reading; the statements and notes carry the argument.",
+    "zh": "斯宾诺莎在荷兰以磨镜片为生，他把《伦理学》写成几何学的样式：界说、公理、命题、证明；这本书直到他死后才付印。这几页描写自由的人：他受理性而不是恐惧的引导，想的是生而不是死，守信，看重友谊胜过恩惠；最后以全书的最后一句话作结。初读时可以跳过那些引证；命题本身和附释承载着论证。"
+  },
+  "pick": null,
+  "tags": [
+    "how-to-live",
+    "thinking",
+    "friendship"
+  ],
+  "excerpt": {
+    "orig": "But all things excellent are as difficult as they are rare.",
+    "en": "But all things excellent are as difficult as they are rare.",
+    "zh": "然而，一切卓越的事物，其艰难正如其稀少。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Q.E.D.",
+      "occ": 1,
+      "en": "Quod erat demonstrandum, “which was to be shown”: the words that close a proof in Euclid’s manner.",
+      "zh": "拉丁文 quod erat demonstrandum 的缩写，意为“这就是所要证明的”：欧几里得式证明的结束语。译文作“证讫”。"
+    },
+    {
+      "at": "(IV. lxiii.)",
+      "occ": 1,
+      "en": "References give part and proposition: IV. lxiii. is Part IV, Proposition 63. With them a reader can trace every step back to the definitions.",
+      "zh": "引证标明部分和命题：IV. lxiii. 指第四部分命题六十三。凭这些引证，读者可以把每一步一直追溯到界说。"
+    },
+    {
+      "at": "Moses in the history of the first man",
+      "occ": 1,
+      "en": "The story of Adam in Genesis 2–3, which Spinoza reads as a parable of freedom lost and recovered.",
+      "zh": "指《创世记》第二、三章亚当的故事，斯宾诺莎把它读作一个关于自由失而复得的寓言。"
+    },
+    {
+      "at": "the patriarchs",
+      "occ": 1,
+      "en": "Abraham, Isaac and Jacob, the forefathers in Genesis.",
+      "zh": "指《创世记》中的先祖亚伯拉罕、以撒和雅各。"
+    },
+    {
+      "at": "courage (animositas)",
+      "occ": 1,
+      "en": "In III. lix. note Spinoza divides strength of character into animositas, the desire to preserve one’s own being by the dictate of reason alone, and generositas, the desire by reason alone to help others and join them in friendship.",
+      "zh": "斯宾诺莎在 III. lix. 附释中把刚毅分为两种：animositas（勇气），即唯独依照理性的命令保存自身存在的欲望；generositas（仁厚），即唯独依照理性帮助别人、与别人结为友谊的欲望。"
+    },
+    {
+      "at": "Proof.—If it be asked",
+      "occ": 1,
+      "en": "In Spinoza’s Latin this paragraph is the Note to the proposition. The proof itself, which Elwes leaves out, argues that if deceit were dictated by reason it would be a virtue, and men would be best advised to agree only in words, which is absurd.",
+      "zh": "在斯宾诺莎的拉丁原文里，这一段是这个命题的附释。埃尔维斯略去的证明本身是这样论证的：如果欺诈出于理性的命令，欺诈就成了德性，人们最好只在口头上一致，而这是荒谬的。"
+    },
+    {
+      "at": "the third kind of knowledge",
+      "occ": 1,
+      "en": "Intuition, which Spinoza ranks above opinion and reasoning: knowledge that proceeds from an adequate idea of some of God’s attributes to an adequate knowledge of the essence of things (II. xl. note ii.).",
+      "zh": "直观知识。斯宾诺莎把它置于意见和推理之上：由神的某些属性的正确观念出发，进而正确地认识事物本质的知识（II. xl. 附释二）。"
+    },
+    {
+      "at": "PROP. XLII.",
+      "occ": 1,
+      "en": "The last proposition of the Ethics; the note after it ends the book.",
+      "zh": "这是《伦理学》的最后一个命题；它后面的附释就是全书的结尾。"
+    }
+  ],
+  "pairs": [
+    "S-005001",
+    "S-005017",
+    "S-005203"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "id": "S-008219",
+  "slug": "gu-yanwu-writing-of-use-to-the-future",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "日知錄·文須有益於天下、著書之難",
+    "en": "Of Use to the Future: Two Notes from Gu Yanwu's Record of Daily Knowledge",
+    "zh": "日知录·文须有益于天下、著书之难"
+  },
+  "author": {
+    "orig": "顧炎武",
+    "en": "Gu Yanwu",
+    "zh": "顾炎武",
+    "dates": "1613–1682"
+  },
+  "year": 1695,
+  "year_display": {
+    "en": "begun 1639; printed in full 1695",
+    "zh": "始撰于 1639 年，1695 年刊行全本"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Two entries from chapter 19 of the Record of Daily Knowledge, as given on Chinese Wikisource (日知錄/卷19); collated with the Siku quanshu text and with Huang Rucheng's Collected Commentaries (日知錄集釋, 1834), both on Wikisource, from which a mispunctuation is corrected (未及就，後世) and a rare variant character is written 彙.",
+    "zh": "《日知录》卷十九中的两条，据维基文库（日知录/卷19）；并与维基文库所收《四库全书》本及黄汝成《日知录集释》（1834 年）对校，据以改正一处断句（未及就，后世），并把一个罕见的异体字写作“彙”。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 日知錄/卷19",
+    "url": "https://zh.wikisource.org/wiki/日知錄/卷19",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written between 1639 and 1682 and first printed in full in 1695; the author died in 1682.",
+      "zh": "写于 1639—1682 年，1695 年首次刊行全本；作者卒于 1682 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Gu Yanwu filled his Record of Daily Knowledge with short notes for more than forty years, revising them as he learned more, and left it unfinished. These two give his test for whether a piece of writing should exist at all: it should be of use to the world and to the future, and a book is worth writing only if it does what the ancients left undone and what later ages cannot do without. Notice his last example, a philosopher who finished his commentary late in life and still would not teach it, waiting until his learning had advanced.",
+    "zh": "顾炎武用了四十多年，把读书所得一条条记进《日知录》，学问有了长进就随时改定，到去世时仍未完成。这两条说的是他衡量一篇文字是否值得存在的标准：要有益于天下、有益于将来；一部书，只有做了古人没来得及做、后世又不可缺少的事，才值得写。请留意他举的最后一个例子：一位哲学家晚年写成了《易传》，却仍不肯传授给学生，要等自己的学问再有长进。"
+  },
+  "pick": null,
+  "tags": [
+    "writing",
+    "books",
+    "messages-forward",
+    "learning",
+    "thinking"
+  ],
+  "excerpt": {
+    "orig": "若此者，有益於天下，有益於將來，多一篇，多一篇之益矣。",
+    "en": "Writing of this kind is of use to the world and of use to the future: one more piece of it is one more piece of benefit.",
+    "zh": "若此者，有益于天下，有益于将来，多一篇，多一篇之益矣。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "明道",
+      "occ": 1,
+      "en": "To make the Way clear: to explain the principles of right conduct and government.",
+      "zh": "阐明大道，即阐明立身治国的道理。"
+    },
+    {
+      "at": "察民隱",
+      "occ": 1,
+      "at_hans": "察民隐",
+      "en": "To look into the hidden hardships of the common people.",
+      "zh": "体察百姓隐藏的疾苦。"
+    },
+    {
+      "at": "怪力亂神",
+      "occ": 1,
+      "at_hans": "怪力乱神",
+      "en": "From the Analects (7.21): the Master did not speak of prodigies, force, disorder or spirits.",
+      "zh": "语出《论语·述而》：“子不语怪、力、乱、神。”"
+    },
+    {
+      "at": "剿襲",
+      "occ": 1,
+      "at_hans": "剿袭",
+      "en": "To copy another's words and pass them off as one's own.",
+      "zh": "抄袭别人的言论当作自己的。"
+    },
+    {
+      "at": "老、莊、管、商、申、韓",
+      "occ": 1,
+      "at_hans": "老、庄、管、商、申、韩",
+      "en": "Laozi, Zhuangzi, Guanzi, Lord Shang (Shang Yang), Shen Buhai and Han Fei, each the name of a book as well as a thinker.",
+      "zh": "老子、庄子、管子、商鞅、申不害、韩非，既是人名，也是书名。"
+    },
+    {
+      "at": "《呂氏春秋》、《淮南子》",
+      "occ": 1,
+      "at_hans": "《吕氏春秋》、《淮南子》",
+      "en": "Compilations made by scholars gathered by Lü Buwei (third century BCE) and by Liu An, king of Huainan (second century BCE).",
+      "zh": "分别由吕不韦（前三世纪）和淮南王刘安（前二世纪）召集门客编成的书。"
+    },
+    {
+      "at": "司馬溫公《資治通鑒》",
+      "occ": 1,
+      "at_hans": "司马温公《资治通鉴》",
+      "en": "Sima Guang (1019–1086), Lord Wen, compiled the Comprehensive Mirror for Aid in Government, a history of 1,362 years, over nineteen years.",
+      "zh": "司马光（1019—1086），封温国公，用十九年编成记述 1362 年史事的《资治通鉴》。"
+    },
+    {
+      "at": "馬貴與《文獻通考》",
+      "occ": 1,
+      "at_hans": "马贵与《文献通考》",
+      "en": "Ma Duanlin (1245–1322), styled Guiyu, author of the Comprehensive Examination of Documents, a history of institutions published in 1317.",
+      "zh": "马端临（1245—1322），字贵与，著《文献通考》，一部典章制度史，1317 年刊行。"
+    },
+    {
+      "at": "伊川先生",
+      "occ": 1,
+      "en": "Cheng Yi (1033–1107), the Song philosopher, whose commentary on the Book of Changes became a standard work.",
+      "zh": "程颐（1033—1107），宋代理学家，所著《周易程氏传》成为经典注本。"
+    },
+    {
+      "at": "忘身之老也",
+      "occ": 1,
+      "en": "Quoting Confucius as recorded in the Book of Rites, chapter 表記.",
+      "zh": "引孔子语，见《礼记·表记》。"
+    },
+    {
+      "at": "庶乎其傳也與",
+      "occ": 1,
+      "at_hans": "庶乎其传也与",
+      "en": "Perhaps, then, it may be handed down.",
+      "zh": "这样或许就能流传下去吧。"
+    }
+  ],
+  "pairs": [
+    "S-008203",
+    "S-008017",
+    "S-008202"
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "id": "S-006203",
+  "slug": "darwin-beagle-galapagos",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Journal of Researches, Chapter XVII: Galapagos Archipelago (from)",
+    "en": "The Voyage of the Beagle: The Galapagos Islands",
+    "zh": "小猎犬号航海记：加拉帕戈斯群岛"
+  },
+  "author": {
+    "orig": "Charles Darwin",
+    "en": "Charles Darwin",
+    "zh": "查尔斯·达尔文",
+    "dates": "1809–1882"
+  },
+  "year": 1845,
+  "year_display": {
+    "en": "1845, the revised second edition; first published 1839",
+    "zh": "1845 年修订第二版；初版 1839 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Three passages from chapter XVII of the second edition of Darwin’s Journal of Researches into the Natural History and Geology of the Countries Visited during the Voyage of H.M.S. Beagle round the World (London: John Murray, 1845), the version now known as The Voyage of the Beagle: the opening of his account of the natural history of the islands, the passage on the differences between one island and the next, and the passage on the tameness of the birds. The text is Project Gutenberg eBook 944, compared with scans of the 1845 edition and the 1860 reprint and corrected to 1845 where they differ, for example “fifty or sixty”, “these islands”, “representative species” and “woods”. The headings are taken from Darwin’s own summary at the head of the chapter; his footnotes are left out.",
+    "zh": "选达尔文《英国皇家军舰小猎犬号环球航行所访各国的自然史与地质学研究日志》第二版（伦敦：约翰·默里，1845）第十七章中的三段，这个版本就是今天所说的《小猎犬号航海记》：他对这些岛屿自然史的记述的开头，论一岛与另一岛之间差异的一段，以及论鸟类驯顺的一段。文本用古登堡计划电子书第 944 号，并与 1845 年版和 1860 年重印本的扫描本对校，两者不同之处依 1845 年版改正，例如“fifty or sixty”“these islands”“representative species”“woods”。小标题取自达尔文在本章开头所列的提要；他的脚注不收。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/944/pg944.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "This edition was published in 1845; Charles Darwin died in 1882.",
+      "zh": "这一版 1845 年出版；达尔文卒于 1882 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Darwin spent five weeks in the Galapagos in September and October 1835. Revising his journal ten years later, by then privately sure that species change, he wrote these pages carefully: islands within sight of one another, alike in rock and climate, each with its own tortoises, mockingbirds and finches. He does not yet say what he thinks it means. The last passage, on birds that have not learned to fear people, is one of the plainest records of animals meeting humans for the first time.",
+    "zh": "1835 年九月到十月，达尔文在加拉帕戈斯群岛待了五个星期。十年后修订日记时，他私下已经确信物种会变，于是小心地写下了这几页：彼此望得见、岩石和气候都相同的岛屿，却各有各的陆龟、嘲鸫和雀。他还没有说出他认为这意味着什么。最后一段写还没有学会怕人的鸟，是动物初次遇见人类的最朴素的记录之一。"
+  },
+  "pick": null,
+  "tags": [
+    "discovery",
+    "birds",
+    "travel"
+  ],
+  "excerpt": {
+    "orig": "Hence, both in space and time, we seem to be brought somewhat near to that great fact—that mystery of mysteries—the first appearance of new beings on this earth.",
+    "en": "Hence, both in space and time, we seem to be brought somewhat near to that great fact—that mystery of mysteries—the first appearance of new beings on this earth.",
+    "zh": "因此，无论在空间上还是在时间上，我们似乎都被带得离那个伟大的事实——那个谜中之谜——新的生物在这个地球上的最初出现，稍稍近了一些。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "that mystery of mysteries",
+      "occ": 1,
+      "en": "The astronomer John Herschel’s phrase, in an 1836 letter, for the replacement of extinct species by new ones. Darwin used it again on the first page of On the Origin of Species.",
+      "zh": "天文学家约翰·赫歇尔在 1836 年的一封信里用这个说法，指灭绝物种被新物种取代这件事。达尔文后来在《物种起源》的第一页又用了它。"
+    },
+    {
+      "at": "the Vice-Governor, Mr. Lawson",
+      "occ": 1,
+      "en": "Nicholas Lawson, acting governor of the small settlement on Charles Island for Ecuador.",
+      "zh": "尼古拉斯·劳森，替厄瓜多尔代管查尔斯岛上那个小定居点的代理总督。"
+    },
+    {
+      "at": "Hood Island",
+      "occ": 1,
+      "en": "Darwin uses the English names of the islands: Charles is now Floreana, Hood is Española, James is Santiago, Albemarle is Isabela and Chatham is San Cristóbal.",
+      "zh": "达尔文用的是岛屿的英文名：查尔斯岛今称弗洛雷安纳岛，胡德岛今称埃斯帕尼奥拉岛，詹姆斯岛今称圣地亚哥岛，阿尔伯马尔岛今称伊莎贝拉岛，查塔姆岛今称圣克里斯托瓦尔岛。"
+    },
+    {
+      "at": "Captain Porter",
+      "occ": 1,
+      "en": "David Porter, captain of the American frigate Essex, which cruised among the islands in 1813.",
+      "zh": "戴维·波特，美国护卫舰“埃塞克斯号”的舰长，这艘船 1813 年曾在群岛间巡航。"
+    },
+    {
+      "at": "M. Bibron",
+      "occ": 1,
+      "en": "Gabriel Bibron (1805–1848), French zoologist at the Paris museum, an authority on reptiles.",
+      "zh": "加布里埃尔·比布龙（1805–1848），巴黎博物馆的法国动物学家，爬行动物专家。"
+    },
+    {
+      "at": "the marine Amblyrhynchus",
+      "occ": 1,
+      "en": "The marine iguana, the only lizard that feeds in the sea.",
+      "zh": "海鬣蜥，唯一在海里觅食的蜥蜴。"
+    },
+    {
+      "at": "of the mocking-thrushes",
+      "occ": 1,
+      "en": "Mockingbirds. As Darwin says, they and not the finches first made him notice the differences from island to island.",
+      "zh": "嘲鸫。正如达尔文在这里所说，最先使他注意到岛与岛之间差异的是嘲鸫，而不是雀。"
+    },
+    {
+      "at": "the sub-group Geospiza",
+      "occ": 1,
+      "en": "Ground finches. With Cactornis, the cactus finches, and Camarhynchus, the tree finches, they make up the birds now called Darwin’s finches.",
+      "zh": "地雀。它们和仙人掌雀（Cactornis）、树雀（Camarhynchus）一起，构成了今天所说的“达尔文雀”。"
+    },
+    {
+      "at": "Mr. Waterhouse",
+      "occ": 1,
+      "en": "George Robert Waterhouse, the naturalist who described Darwin’s insects and mammals.",
+      "zh": "乔治·罗伯特·沃特豪斯，为达尔文的昆虫和哺乳动物标本作描述的博物学家。"
+    },
+    {
+      "at": "Cowley (in the year 1684)",
+      "occ": 1,
+      "en": "Ambrose Cowley and William Dampier were both with the buccaneers who visited the islands in 1684.",
+      "zh": "安布罗斯·考利和威廉·丹皮尔都在 1684 年到过群岛的那批海盗船上。"
+    },
+    {
+      "at": "bucaniers",
+      "occ": 1,
+      "en": "Buccaneers: privateers and pirates who raided Spanish shipping in the Pacific and used the islands for water and tortoises.",
+      "zh": "海盗：在太平洋上劫掠西班牙船只的私掠者和海盗，他们在这些岛上取水、捕龟。"
+    },
+    {
+      "at": "Pernety, Lesson",
+      "occ": 1,
+      "en": "Antoine-Joseph Pernety sailed to the Falklands with Bougainville in 1763–64; René Lesson was naturalist on the French ship Coquille in the 1820s.",
+      "zh": "安托万－约瑟夫·佩尔内蒂 1763–64 年随布干维尔航行到福克兰群岛；勒内·莱松是 19 世纪 20 年代法国“科基耶号”上的博物学家。"
+    },
+    {
+      "at": "the little Opetiorhynchus",
+      "occ": 1,
+      "en": "A small dark bird of the Falklands shore, now Cinclodes antarcticus, the blackish cinclodes or tussac-bird.",
+      "zh": "福克兰群岛海岸上一种深色的小鸟，今学名 Cinclodes antarcticus，英文俗称 blackish cinclodes 或 tussac-bird。"
+    },
+    {
+      "at": "the Polyborus",
+      "occ": 1,
+      "en": "The caracara, a falcon that lives largely by scavenging.",
+      "zh": "卡拉卡拉鹰，一种主要靠食腐为生的隼。"
+    },
+    {
+      "at": "at Bourbon in 1571-72",
+      "occ": 1,
+      "en": "Bourbon is the island now called Réunion. Darwin dates Du Bois’s voyage to 1669 elsewhere in the book, so 1671–72 is probably meant.",
+      "zh": "波旁岛即今天的留尼汪岛。达尔文在书中别处把杜布瓦的航行定在 1669 年，所以这里大概应是 1671–72 年。"
+    },
+    {
+      "at": "Tristan d'Acunha",
+      "occ": 1,
+      "en": "Tristan da Cunha, a remote volcanic island in the South Atlantic.",
+      "zh": "特里斯坦－达库尼亚，南大西洋上一座偏远的火山岛。"
+    },
+    {
+      "at": "in the course of successive generations it becomes hereditary",
+      "occ": 1,
+      "en": "Darwin here imagines a habit learned in life becoming inherited. Biologists now explain the tameness of island birds by natural selection over many generations, the mechanism he himself set out fourteen years later in On the Origin of Species.",
+      "zh": "达尔文在这里设想的是后天学会的习惯变成遗传。今天的生物学家用许多世代中的自然选择来解释岛屿鸟类的驯顺，而这一机制，正是他十四年后在《物种起源》中提出的。"
+    }
+  ],
+  "pairs": [
+    "S-006012",
+    "S-006011",
+    "S-006202"
+  ]
+}

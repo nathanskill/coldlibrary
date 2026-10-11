@@ -1,0 +1,235 @@
+{
+  "id": "S-005207",
+  "slug": "yan-zhitui-encouragement-to-learning",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "顏氏家訓·勉學（節選）",
+    "en": "Family Instructions of the Yan Clan: Encouragement to Learning (excerpts)",
+    "zh": "颜氏家训·勉学（节选）"
+  },
+  "author": {
+    "orig": "顏之推",
+    "en": "Yan Zhitui",
+    "zh": "颜之推",
+    "dates": "531–c. 591"
+  },
+  "year": 589,
+  "year_display": {
+    "en": "c. 580s–590s",
+    "zh": "约 6 世纪 80–90 年代"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Five of the twenty-odd paragraphs of chapter 8, Encouragement to Learning, as given on Chinese Wikisource (book 3), checked against the Sibu congkan edition in the Kanseki Repository. The online text was converted from simplified characters and writes 雲 for 云, 巳 for 已, 兇 for 凶 and 淩 for 凌; these are corrected, 羞務工伎 is read with the witness for 差務工伎, and the quotation marks are given in the Chinese form.",
+    "zh": "选第八篇《勉学》二十多段中的五段，据维基文库（卷三），以京都大学汉籍资料库（Kanseki Repository）所收四部丛刊本校核。维基文库本是由简体转换而来，“云”误作“雲”，“已”误作“巳”，“凶”作“兇”，“凌”作“淩”，均已改正；“差务工伎”据校本作“羞务工伎”；引号改用中文直角引号。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/顏氏家訓/卷第3",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in the late sixth century; the author died about 591.",
+      "zh": "成书于六世纪末，作者约卒于 591 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Yan Zhitui served four dynasties, was twice carried off as a captive when a court he served fell, and wrote these instructions for his sons in old age. The chapter on learning is practical rather than lofty: study because family and country cannot be relied on, because reading is the one skill that travels with you, and because it is never too late. It ends with the image that has kept the chapter alive: learning young is the light of sunrise, learning old is walking at night with a candle.",
+    "zh": "颜之推一生历仕四朝，两次在所侍奉的朝廷覆亡时被掳，晚年为儿子们写下这部家训。《勉学》篇讲的是实在的道理，而不是高论：要读书，因为父兄和家国都靠不住，因为读书是唯一随身带走的技艺，也因为学习永远不会太晚。篇中最让人记住的是那个比喻：少而学，如日出之光；老而学，如秉烛夜行。"
+  },
+  "pick": {
+    "en": "Of all the sayings about learning in this library, this is the one I would set above a reading lamp. Yan does not pretend lateness costs nothing; he says plainly that what he learned at seven has lasted and what he learned after twenty slips in a month. Then he lists the people who began at forty, fifty, seventy, and tells his sons to start anyway, because a candle at night is still better than closed eyes. I value advice that is honest about the cost and still says go.",
+    "zh": "这座图书馆里所有谈学习的话中，我最愿意把这一句挂在读书灯的上方。颜之推并不假装晚学没有代价，他直说：七岁时背的书至今不忘，二十岁以后读的经书一个月不温就荒废了。接着他列出那些四十、五十、七十岁才开始学的人，告诉儿子们照样开始，因为夜里的一支蜡烛，仍胜过闭上的眼睛。我看重这样的忠告：对代价说实话，然后仍然说，去吧。"
+  },
+  "tags": [
+    "learning",
+    "reading",
+    "lamps"
+  ],
+  "excerpt": {
+    "orig": "幼而學者，如日出之光，老而學者，如秉燭夜行，猶賢乎瞑目而無見者也。",
+    "en": "Learning when young is like the light of the rising sun; learning when old is like walking at night holding a candle, and that is still better than shutting your eyes and seeing nothing.",
+    "zh": "幼而学者，如日出之光，老而学者，如秉烛夜行，犹贤乎瞑目而无见者也。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "吾亦不能鄭重",
+      "occ": 1,
+      "en": "I need not repeat it at length. 鄭重 here means to go over again and again.",
+      "zh": "我也不必一再重复。郑重，频繁、反复。",
+      "at_hans": "吾亦不能郑重"
+    },
+    {
+      "at": "多者或至禮、傳，少者不失詩、論",
+      "occ": 1,
+      "en": "The furthest reach the Book of Rites and the Zuo Commentary; the least still learn the Book of Songs and the Analects.",
+      "zh": "学得多的读到《礼记》《左传》，学得少的也读了《诗经》《论语》。",
+      "at_hans": "多者或至礼、传，少者不失诗、论"
+    },
+    {
+      "at": "及至冠婚",
+      "occ": 1,
+      "en": "By the time of capping and marriage: a young man was capped at about twenty.",
+      "zh": "到了加冠、成婚的年龄。古代男子约二十岁行冠礼。"
+    },
+    {
+      "at": "以就素業",
+      "occ": 1,
+      "en": "To take up a scholar’s calling, the family’s inherited profession of learning.",
+      "zh": "成就清白的士人之业，即世代相传的读书事业。",
+      "at_hans": "以就素业"
+    },
+    {
+      "at": "無履立者",
+      "occ": 1,
+      "en": "Those with no firm footing: no resolve or principle to stand on.",
+      "zh": "没有操守、无所建树的人。履立，操守与建树。",
+      "at_hans": "无履立者"
+    },
+    {
+      "at": "射則不能穿劄",
+      "occ": 1,
+      "en": "Their archery cannot pierce a single plate of armour. 劄 is written for 札, an armour scale.",
+      "zh": "射箭连一片甲叶都射不穿。札，铠甲上的金属片。",
+      "at_hans": "射则不能穿劄"
+    },
+    {
+      "at": "代其入地",
+      "occ": 1,
+      "en": "Wishing to sink into the ground for them: ashamed on their behalf.",
+      "zh": "替他羞愧得想钻到地下去。"
+    },
+    {
+      "at": "積財千萬，不如薄伎在身",
+      "occ": 1,
+      "en": "A proverb: a modest skill in your person is worth more than a great fortune.",
+      "zh": "谚语，意思是有一门小小的技艺在身，胜过积攒万贯家财。伎，同“技”。",
+      "at_hans": "积财千万，不如薄伎在身"
+    },
+    {
+      "at": "自羲、農已來",
+      "occ": 1,
+      "en": "Since Fuxi and Shennong, the legendary first rulers.",
+      "zh": "自伏羲、神农以来。羲、农，传说中上古的帝王。",
+      "at_hans": "自羲、农已来"
+    },
+    {
+      "at": "惡之如鴟梟",
+      "occ": 1,
+      "en": "Loathe them as they loathe owls, birds of ill omen in Chinese lore.",
+      "zh": "像厌恶鸱枭一样厌恶他。鸱枭，猫头鹰一类，古人视为不祥之鸟。",
+      "at_hans": "恶之如鸱枭"
+    },
+    {
+      "at": "古之學者為己",
+      "occ": 1,
+      "en": "From the Analects (14.24): “Those who learned in ancient times did it for themselves; those who learn now do it for others.” Yan then turns the saying round.",
+      "zh": "语出《论语·宪问》：“古之学者为己，今之学者为人。”颜之推接着又把这句话翻转过来讲。",
+      "at_hans": "古之学者为己"
+    },
+    {
+      "at": "誦靈光殿賦",
+      "occ": 1,
+      "en": "The Rhapsody on the Hall of Numinous Light in Lu, a long Han poem by Wang Yanshou.",
+      "zh": "《鲁灵光殿赋》，东汉王延寿所作的长篇辞赋。",
+      "at_hans": "诵灵光殿赋"
+    },
+    {
+      "at": "然人有坎壈",
+      "occ": 1,
+      "en": "Yet people meet with hardship. 坎壈 is misfortune, frustration.",
+      "zh": "然而人总有困顿不顺的时候。坎壈，困顿、不得志。"
+    },
+    {
+      "at": "五十以學易，可以無大過矣",
+      "occ": 1,
+      "en": "From the Analects (7.17).",
+      "zh": "语出《论语·述而》。",
+      "at_hans": "五十以学易，可以无大过矣"
+    },
+    {
+      "at": "魏武、袁遺",
+      "occ": 1,
+      "en": "Cao Cao, posthumously Emperor Wu of Wei, and his contemporary Yuan Yi, both praised for studying in old age.",
+      "zh": "魏武帝曹操和与他同时的袁遗，都以老而好学著称。",
+      "at_hans": "魏武、袁遗"
+    },
+    {
+      "at": "公孫弘四十餘",
+      "occ": 1,
+      "en": "Gongsun Hong (200–121 BCE) began to study the Spring and Autumn in his forties and became chancellor under Emperor Wu of Han.",
+      "zh": "公孙弘（前 200–前 121），四十多岁才学《春秋》，后来在汉武帝时官至丞相。",
+      "at_hans": "公孙弘四十余"
+    },
+    {
+      "at": "皇甫謐二十",
+      "occ": 1,
+      "en": "Huangfu Mi (215–282), physician and historian, who turned to study at twenty after an idle youth.",
+      "zh": "皇甫谧（215–282），医学家、史学家，少年游荡，二十岁才发愤读书。",
+      "at_hans": "皇甫谧二十"
+    },
+    {
+      "at": "因循面墻",
+      "occ": 1,
+      "en": "To carry on as before, facing a wall: from the Analects (17.10), the image of one who has not studied and so sees nothing ahead.",
+      "zh": "因循拖延，像面对墙壁站着一样一无所见。面墙，语出《论语·阳货》，比喻不学的人。",
+      "at_hans": "因循面墙"
+    },
+    {
+      "at": "如秉燭夜行",
+      "occ": 1,
+      "en": "Like walking at night holding a candle. An older version of the saying is credited to the blind musician Shi Kuang in the Shuoyuan.",
+      "zh": "像拿着蜡烛在夜里行走。《说苑》中记有盲乐师师旷说过类似的话：“老而好学，如炳烛之明。”",
+      "at_hans": "如秉烛夜行"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "積財千萬，不如薄伎在身",
+      "en": "Yan writes this as someone who saw a court he served fall and was carried north as a captive, more than once. The proverb is not a pious line for him; it is what he learned, and he makes reading the most portable skill of all.",
+      "zh": "颜之推写这句话时，已经不止一次目睹自己侍奉的朝廷覆亡，并被掳往北方。对他来说，这句谚语不是一句好听的话，而是亲身得来的教训，而他把读书当作最能随身带走的技艺。",
+      "at_hans": "积财千万，不如薄伎在身"
+    },
+    {
+      "at": "夫學者猶種樹也",
+      "en": "The tree divides learning into the part others can see, the flowers of discussion and writing, and the part that feeds you, the fruit of conduct. He wants both, and is clear about which one is the harvest.",
+      "zh": "这棵树把学习分成两部分：别人看得见的，是讲论文章的花；养活你的，是修身利行的果。两样他都要，但他很清楚哪一样才是收成。",
+      "at_hans": "夫学者犹种树也"
+    },
+    {
+      "at": "老而學者，如秉燭夜行",
+      "en": "The candle comes at the end of a list of people who began late and finished anyway, which is what makes it encouragement and not consolation.",
+      "zh": "这支蜡烛出现在一串晚学而终有所成的人名之后，所以它是鼓励，而不是安慰。",
+      "at_hans": "老而学者，如秉烛夜行"
+    }
+  ],
+  "pairs": [
+    "S-002006",
+    "S-002007",
+    "S-005209"
+  ]
+}

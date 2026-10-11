@@ -1,0 +1,134 @@
+{
+  "id": "S-005201",
+  "slug": "plato-apology-the-oracle",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Ἀπολογία Σωκράτους",
+    "en": "Apology: The Oracle, and the Examined Life (20c–23c, 37e–38b)",
+    "zh": "申辩篇：神谕，与经过考察的生活（20c–23c，37e–38b）"
+  },
+  "author": {
+    "orig": "Πλάτων",
+    "en": "Plato",
+    "zh": "柏拉图",
+    "dates": "c. 428–348 BCE"
+  },
+  "year": -390,
+  "year_display": {
+    "en": "written after 399 BCE; translated 1871, revised 1892",
+    "zh": "作于公元前 399 年之后；1871 年英译，1892 年修订"
+  },
+  "translator": {
+    "name": "Benjamin Jowett",
+    "dates": "1817–1893",
+    "year": 1892
+  },
+  "orig_lang": "grc",
+  "edition": {
+    "en": "Two passages from Benjamin Jowett’s translation in the third edition of The Dialogues of Plato (Oxford, 1892), as transcribed by Project Gutenberg (eBook 1656) and compared with a scan of that edition: Socrates’ account of the oracle at Delphi (20c–23c) and his answer to the proposal that he simply stop talking (37e–38b). The section headings are the standard Stephanus page numbers; Jowett’s introduction is not included.",
+    "zh": "选本杰明·乔伊特译文中的两段，据《柏拉图对话集》第三版（牛津，1892），以古登堡计划电子书第 1656 号为底本，并与该版扫描本对校：苏格拉底讲述德尔斐神谕的一段（20c–23c），以及他回答“为什么不干脆闭嘴”的一段（37e–38b）。分节标题是通行的斯特方页码；乔伊特的导言不收。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1656/pg1656.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in the fourth century BCE. Benjamin Jowett, the translator, died in 1893; this revision of his translation was published in 1892.",
+      "zh": "作于公元前四世纪。译者本杰明·乔伊特卒于 1893 年；这一修订译本 1892 年出版。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In 399 BCE Socrates was tried at Athens for impiety and for corrupting the young, and this is Plato’s version of his defence. The first passage tells how one answer from the oracle at Delphi sent him questioning politicians, poets and craftsmen, and why he concluded that his only advantage was knowing that he did not know. The second gives the sentence the speech is remembered for: the unexamined life is not worth living. The library’s Phaedrus, on writing, is its companion.",
+    "zh": "公元前 399 年，苏格拉底在雅典以不敬神和败坏青年的罪名受审，这是柏拉图所记的他的申辩。第一段讲德尔斐神谕的一句回答，怎样使他去盘问政治家、诗人和工匠，以及他为什么断定自己唯一的长处，就是知道自己无知。第二段是这篇演说最为人记住的那句话：未经考察的生活是不值得过的。本馆的《斐德若篇》论书写一段，可与它对读。"
+  },
+  "pick": null,
+  "tags": [
+    "thinking",
+    "how-to-live",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "the unexamined life is not worth living",
+    "en": "the unexamined life is not worth living",
+    "zh": "未经考察的生活是不值得过的"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the God of Delphi",
+      "occ": 1,
+      "en": "Apollo, whose oracle at Delphi answered questions through the Pythia, his priestess.",
+      "zh": "阿波罗。他在德尔斐的神谕通过女祭司皮提亚回答人们的问题。"
+    },
+    {
+      "at": "You must have known Chaerephon",
+      "occ": 1,
+      "en": "Socrates’ old friend, a democrat who went into exile under the Thirty Tyrants in 404 BCE and returned with the people the next year.",
+      "zh": "凯瑞丰，苏格拉底的老朋友，民主派；公元前 404 年三十僭主当政时流亡，次年随民众回城。"
+    },
+    {
+      "at": "the Pythian prophetess",
+      "occ": 1,
+      "en": "The Pythia, the priestess through whom Apollo’s answers were given.",
+      "zh": "皮提亚，传达阿波罗神谕的女祭司。"
+    },
+    {
+      "at": "by the dog I swear",
+      "occ": 1,
+      "en": "A favourite oath of Socrates, perhaps a way of swearing without naming a god.",
+      "zh": "苏格拉底常用的誓语，也许是一种不直呼神名的起誓方式。"
+    },
+    {
+      "at": "“Herculean” labours",
+      "occ": 1,
+      "en": "The twelve labours imposed on Heracles; Socrates’ tasks were set by a god too.",
+      "zh": "指赫拉克勒斯被迫完成的十二件苦差；苏格拉底的差事同样是神交给他的。"
+    },
+    {
+      "at": "dithyrambic",
+      "occ": 1,
+      "en": "The dithyramb was a choral hymn to Dionysus.",
+      "zh": "酒神颂，献给狄俄尼索斯的合唱颂歌。"
+    },
+    {
+      "at": "perhaps I could afford a mina",
+      "occ": 1,
+      "en": "A mina was a hundred drachmas, several months’ wages for a craftsman; thirty minae was a substantial fine.",
+      "zh": "一个米那等于一百德拉克马，约是一个工匠几个月的工钱；三十米那是一笔不小的罚金。"
+    },
+    {
+      "at": "Plato, Crito, Critobulus, and Apollodorus",
+      "occ": 1,
+      "en": "Plato names himself only three times in all his dialogues: twice in the Apology and once in the Phaedo. Crito and his son Critobulus were wealthy friends.",
+      "zh": "柏拉图在全部对话录中只提到自己三次：《申辩篇》两次，《斐多篇》一次。克里同和他的儿子克里托布卢斯是富有的朋友。"
+    }
+  ],
+  "pairs": [
+    "S-005008",
+    "S-002005",
+    "S-005017"
+  ]
+}

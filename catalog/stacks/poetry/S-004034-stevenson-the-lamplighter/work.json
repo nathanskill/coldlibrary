@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,7 +63,7 @@
     "lamps",
     "childhood",
     "craft",
-    "evening"
+    "night"
   ],
   "excerpt": {
     "orig": "O Leerie, I’ll go round at night and light the lamps with you!",

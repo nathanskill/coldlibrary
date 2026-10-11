@@ -1,0 +1,123 @@
+{
+  "id": "S-009203",
+  "slug": "chesterton-a-piece-of-chalk",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "A Piece of Chalk",
+    "en": "A Piece of Chalk",
+    "zh": "一块白垩"
+  },
+  "author": {
+    "orig": "Gilbert Keith Chesterton",
+    "en": "G. K. Chesterton",
+    "zh": "G. K. 切斯特顿",
+    "dates": "1874–1936"
+  },
+  "year": 1905,
+  "year_display": {
+    "en": "1905; collected in Tremendous Trifles, 1909",
+    "zh": "1905 年；1909 年收入《了不起的小事》"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The second essay in Tremendous Trifles (London: Methuen, 1909), first printed in the Daily News in 1905. The text is Project Gutenberg eBook 8092, corrected against a scan of the 1909 Methuen edition, which reads “pocket”, “silver satin” and “mere miles” where the online text has “pockets”, “silver linen” and “more miles”, spells “realized” and “civilization”, and divides the essay with rows of stars, given here as * * *.",
+    "zh": "《了不起的小事》（伦敦：梅休因出版社，1909）中的第二篇，1905 年首次刊于《每日新闻报》。文本取自古登堡计划电子书第 8092 号，并依 1909 年梅休因版扫描本校正：初版作“pocket”“silver satin”“mere miles”，网络文本作“pockets”“silver linen”“more miles”；初版拼作“realized”“civilization”，并用一排星号分节，这里作 * * *。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/8092/pg8092.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "First published in 1905 and collected in 1909; G. K. Chesterton died in 1936.",
+      "zh": "1905 年首次发表，1909 年结集；切斯特顿卒于 1936 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Chesterton goes up on the Sussex downs with coloured chalks and brown paper, finds he has forgotten the white, and then remembers what the hill under him is made of. On the way he argues that white is a colour and not an absence, and that the old poets drank in nature even when they did not describe it. It answers, without meaning to, Huxley’s lecture On a Piece of Chalk on the science shelf, which reads the same rock as the floor of an ancient sea.",
+    "zh": "切斯特顿带着彩色粉笔和牛皮纸走上苏塞克斯的丘陵，发现忘了带白色的那支，随即想起了自己身下这座山是用什么做成的。一路上他论证：白色是一种颜色，而不是一种缺席；老诗人们即使不描写大自然，也把它吸收了进去。它无意中回应了科学架上赫胥黎的讲演《论一块白垩》，后者把同一种岩石读作古海洋的海底。"
+  },
+  "pick": null,
+  "tags": [
+    "light",
+    "nature",
+    "humour"
+  ],
+  "excerpt": {
+    "orig": "When, so to speak, your pencil grows red-hot, it draws roses; when it grows white-hot, it draws stars.",
+    "en": "When, so to speak, your pencil grows red-hot, it draws roses; when it grows white-hot, it draws stars.",
+    "zh": "可以说，当你的铅笔烧得通红时，它画出玫瑰；当它烧得发白时，它画出星星。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "a Sussex village",
+      "occ": 1,
+      "en": "Sussex, in south-east England, is crossed by the South Downs, a range of chalk hills.",
+      "zh": "苏塞克斯在英格兰东南部，南唐斯白垩丘陵横贯其境。"
+    },
+    {
+      "at": "the infant of the sword",
+      "occ": 1,
+      "en": "The knife as the small first form from which the sword grew.",
+      "zh": "小刀是剑的雏形，剑由它发展而来。"
+    },
+    {
+      "at": "the great downs",
+      "occ": 1,
+      "en": "Downs are open, rolling hills of chalk grassland.",
+      "zh": "downs，开阔起伏、长满草的白垩丘陵。"
+    },
+    {
+      "at": "the old poets who lived before Wordsworth",
+      "occ": 1,
+      "en": "William Wordsworth (1770–1850), whose poems made landscape itself a central subject of English poetry.",
+      "zh": "威廉·华兹华斯（1770–1850），他的诗使自然风景本身成为英诗的中心题材。"
+    },
+    {
+      "at": "like Joan of Arc",
+      "occ": 1,
+      "en": "Joan of Arc (c. 1412–1431), the French peasant girl who led an army; for Chesterton a type of fierce, positive purity.",
+      "zh": "圣女贞德（约 1412–1431），率军作战的法国农家少女；在切斯特顿笔下，她代表一种炽烈、积极的纯洁。"
+    },
+    {
+      "at": "arum lilies",
+      "occ": 1,
+      "en": "Calla lilies, with large white flowers.",
+      "zh": "马蹄莲，开大朵白花。"
+    },
+    {
+      "at": "Chichester",
+      "occ": 1,
+      "en": "The cathedral city of West Sussex, below the downs.",
+      "zh": "奇切斯特，西苏塞克斯的主教座堂城市，在丘陵脚下。"
+    },
+    {
+      "at": "an artist’s colourman",
+      "occ": 1,
+      "en": "A shop that sells paints, chalks and other materials for artists.",
+      "zh": "美术颜料店，出售颜料、粉笔等绘画材料。"
+    }
+  ],
+  "pairs": [
+    "S-006015",
+    "S-004022",
+    "S-009202"
+  ]
+}

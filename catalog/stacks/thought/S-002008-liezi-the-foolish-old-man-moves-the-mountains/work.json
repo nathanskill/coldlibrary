@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -51,10 +61,9 @@
   },
   "pick": null,
   "tags": [
-    "perseverance",
-    "generations",
-    "mountains",
-    "fable"
+    "will",
+    "the-long-view",
+    "mountains"
   ],
   "excerpt": {
     "orig": "子子孫孫無窮匱也，而山不加增，何苦而不平？",

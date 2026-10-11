@@ -1,0 +1,171 @@
+{
+  "id": "S-009204",
+  "slug": "lamb-old-china",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Old China",
+    "en": "Old China",
+    "zh": "古瓷"
+  },
+  "author": {
+    "orig": "Charles Lamb",
+    "en": "Charles Lamb",
+    "zh": "查尔斯·兰姆",
+    "dates": "1775–1834"
+  },
+  "year": 1823,
+  "year_display": {
+    "en": "1823; collected in The Last Essays of Elia, 1833",
+    "zh": "1823 年；1833 年收入《伊利亚随笔续集》"
+  },
+  "translator": null,
+  "edition": {
+    "en": "First printed in the London Magazine in March 1823, under the name Elia, and collected in The Last Essays of Elia (London: Edward Moxon, 1833). The text is E. V. Lucas’s, from The Works of Charles and Mary Lamb, vol. II, as transcribed by Project Gutenberg (eBook 10343), compared with a scan of the 1833 Moxon volume, which reads “came” for “come” in “When you come home” and “woman” for “women” in “a law of civility to women”. The name Lamb left as a blank, “R——”, is printed as in both.",
+    "zh": "1823 年 3 月以“伊利亚”的笔名首次刊于《伦敦杂志》，1833 年收入《伊利亚随笔续集》（伦敦：爱德华·莫克森）。文本用 E. V. 卢卡斯所编《查尔斯与玛丽·兰姆作品集》第二卷，据古登堡计划电子书第 10343 号，并与 1833 年莫克森版扫描本对校：该版“When you come home”一句作“came”，“a law of civility to women”一句作“woman”。兰姆留空的名字“R——”，照两本原样印出。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/10343/pg10343.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "First published in 1823 and collected in 1833; Charles Lamb died in 1834.",
+      "zh": "1823 年首次发表，1833 年结集；兰姆卒于 1834 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Lamb wrote these essays as Elia, and Bridget Elia, his “cousin”, is his sister Mary, with whom he kept house for most of his life. The essay starts with the blue figures floating on a teacup and turns into Bridget’s long remembrance of the years when they had little money: the folio carried home late on a Saturday night, the cheap seats at the play, the strawberries they could hardly afford. It is about thrift as a pleasure two people share, and about what a life together is made of.",
+    "zh": "兰姆以“伊利亚”的名义写这些随笔，书中他的“表姐”布丽奇特·伊利亚，就是他的姐姐玛丽，他一生大部分时间都和她一起过日子。文章从漂浮在茶杯上的那些蓝色人物写起，转入布丽奇特长长的回忆，回忆他们没有什么钱的那些年月：星期六深夜扛回家的那部对开本，戏院里的廉价座位，几乎买不起的草莓。它写的是节俭作为两个人共享的一种乐趣，也写一段共同的生活是由什么构成的。"
+  },
+  "pick": null,
+  "tags": [
+    "home",
+    "memory",
+    "how-to-live"
+  ],
+  "excerpt": {
+    "orig": "A thing was worth buying then, when we felt the money that we paid for it.",
+    "en": "A thing was worth buying then, when we felt the money that we paid for it.",
+    "zh": "那时候，一样东西是值得买的，因为我们感觉到了为它付出的钱。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "that world before perspective",
+      "occ": 1,
+      "en": "Painting on Chinese porcelain does not use the single vanishing point of European painting, so figures float at any size and any distance.",
+      "zh": "中国瓷器上的绘画不用欧洲绘画那种单一灭点的透视法，所以人物可以以任何大小、在任何距离上飘浮。"
+    },
+    {
+      "at": "a young and courtly Mandarin",
+      "occ": 1,
+      "en": "A Chinese official; English writers used the word for any robed figure on porcelain.",
+      "zh": "mandarin，中国的官员；英国作家用这个词泛称瓷器上任何穿长袍的人物。"
+    },
+    {
+      "at": "dancing the hays",
+      "occ": 1,
+      "en": "The hay was an English country dance in which the dancers weave in and out of one another.",
+      "zh": "hay，一种英国乡村舞蹈，舞者彼此穿插交织。"
+    },
+    {
+      "at": "fine Cathay",
+      "occ": 1,
+      "en": "Cathay, the old European name for China.",
+      "zh": "契丹（Cathay），欧洲人对中国的旧称。"
+    },
+    {
+      "at": "our Hyson",
+      "occ": 1,
+      "en": "A green tea from China.",
+      "zh": "熙春茶，一种产自中国的绿茶。"
+    },
+    {
+      "at": "speciosa miracula",
+      "occ": 1,
+      "en": "“Splendid marvels”: Horace’s phrase in the Art of Poetry for the wonders in Homer’s tales.",
+      "zh": "拉丁文，“绚丽的奇观”，贺拉斯在《诗艺》中用来指荷马故事里的奇事。"
+    },
+    {
+      "at": "my cousin",
+      "occ": 1,
+      "en": "Bridget Elia is Lamb’s name in these essays for his sister, Mary Lamb (1764–1847).",
+      "zh": "布丽奇特·伊利亚，是兰姆在这些随笔里给他的姐姐玛丽·兰姆（1764–1847）起的名字。"
+    },
+    {
+      "at": "folio Beaumont and Fletcher",
+      "occ": 1,
+      "en": "The plays of Francis Beaumont and John Fletcher, collected in a large seventeenth-century folio volume.",
+      "zh": "弗朗西斯·博蒙特和约翰·弗莱彻的剧作，收在一部十七世纪的大开本对开本里。"
+    },
+    {
+      "at": "your old corbeau",
+      "occ": 1,
+      "en": "Corbeau, French for crow, was the drapers’ name for a very dark cloth; Lamb’s joke on the worn suit.",
+      "zh": "corbeau 是法语的“乌鸦”，布商用它称呼一种极深的布料颜色；这是兰姆拿那套旧衣服开的玩笑。"
+    },
+    {
+      "at": "that print after Lionardo",
+      "occ": 1,
+      "en": "An engraving after a painting by Leonardo da Vinci; Mary Lamb wrote a poem about it.",
+      "zh": "一幅仿列奥纳多·达·芬奇画作的版画；玛丽·兰姆为它写过一首诗。"
+    },
+    {
+      "at": "Piscator his Trout Hall",
+      "occ": 1,
+      "en": "In Izaak Walton’s The Compleat Angler (1653), Piscator the fisherman walks the banks of the River Lea and stops at country alehouses such as Trout Hall.",
+      "zh": "在艾萨克·沃尔顿的《垂钓大全》（1653）里，钓鱼人皮斯卡托沿着利河岸边行走，在鳟鱼馆之类的乡村酒馆歇脚。"
+    },
+    {
+      "at": "the battle of Hexham",
+      "occ": 1,
+      "en": "The Battle of Hexham and The Surrender of Calais were plays by George Colman the Younger; The Children in the Wood was by Thomas Morton.",
+      "zh": "《赫克瑟姆之战》和《加来的投降》是小乔治·科尔曼的剧作；《林中的孩子》是托马斯·莫顿写的。"
+    },
+    {
+      "at": "Bannister and Mrs. Bland",
+      "occ": 1,
+      "en": "Jack Bannister, a comic actor, and Maria Theresa Bland (1769–1838), a singer, favourites of the London stage around 1800.",
+      "zh": "喜剧演员杰克·班尼斯特和歌手玛丽亚·特蕾莎·布兰德（1769–1838），大约 1800 年前后伦敦舞台上受人喜爱的演员。"
+    },
+    {
+      "at": "Rosalind in Arden",
+      "occ": 1,
+      "en": "The heroines of Shakespeare’s As You Like It and Twelfth Night.",
+      "zh": "莎士比亚《皆大欢喜》和《第十二夜》的女主人公。"
+    },
+    {
+      "at": "hearty cheerful Mr. Cotton",
+      "occ": 1,
+      "en": "Charles Cotton (1630–1687), poet and friend of Izaak Walton; “lusty brimmers” is from his poem The New Year.",
+      "zh": "查尔斯·科顿（1630–1687），诗人，艾萨克·沃尔顿的朋友；“满满的大杯”出自他的诗《新年》。"
+    },
+    {
+      "at": "the great Jew R——",
+      "occ": 1,
+      "en": "Nathan Mayer Rothschild (1777–1836), the London financier.",
+      "zh": "内森·迈耶·罗斯柴尔德（1777–1836），伦敦的金融家。"
+    }
+  ],
+  "pairs": [
+    "S-009201",
+    "S-004103",
+    "S-004104"
+  ]
+}

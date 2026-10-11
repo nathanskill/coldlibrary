@@ -1,0 +1,105 @@
+{
+  "id": "S-008213",
+  "slug": "darius-behistun-to-the-reader-hereafter",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Behistun inscription, Old Persian text, column IV, §§ 56–60, 65–66",
+    "en": "Whosoever Shall Read This Inscription Hereafter: From the Behistun Inscription",
+    "zh": "日后读到这篇铭文的人：贝希斯敦铭文选段"
+  },
+  "author": {
+    "orig": "Dārayavauš",
+    "en": "Darius I, king of Persia",
+    "zh": "波斯王大流士一世",
+    "dates": "reigned 522–486 BCE"
+  },
+  "year": -519,
+  "year_display": {
+    "en": "c. 520–518 BCE",
+    "zh": "约公元前 520—前 518 年"
+  },
+  "translator": {
+    "name": "L. W. King and R. C. Thompson",
+    "dates": "1869–1919; 1876–1941",
+    "year": 1907
+  },
+  "orig_lang": "peo",
+  "edition": {
+    "en": "Sections LVI–LX and LXV–LXVI of the Persian text in the translation by Leonard William King and Reginald Campbell Thompson, The Sculptures and Inscription of Darius the Great on the Rock of Behistûn in Persia (British Museum, 1907), transcribed from two different scans of the 1907 printing on the Internet Archive and checked against the unproofread transcription on English Wikisource; errors of character recognition were corrected by comparing the scans. The translators' own brackets and parentheses are kept. The sections on punishing liars and the curses on whoever hides or destroys the inscription (LXI–LXIV, LXVII) are omitted; the gap is marked with a section break.",
+    "zh": "选自伦纳德·威廉·金与雷金纳德·坎贝尔·汤普森英译《贝希斯敦岩壁上的大流士雕像与铭文》（大英博物馆，1907 年）中波斯文本第五十六至六十节、第六十五至六十六节，据互联网档案馆所藏 1907 年印本的两种扫描件录文，并与英文维基文库未经校对的录文核对；文字识别的错误通过比对两种扫描件改正。保留译者自己加的方括号和圆括号。关于惩处说谎者的几节，以及诅咒隐瞒或毁坏铭文之人的几节（第六十一至六十四节、第六十七节）从略，删节处以分隔符标出。"
+  },
+  "source": {
+    "name": "Internet Archive, sculpturesinscri00brituoft (British Museum, 1907)",
+    "url": "https://archive.org/details/sculpturesinscri00brituoft",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "The inscription dates from about 520 BCE. King and Thompson's translation was published in 1907; King died in 1919 and Thompson in 1941.",
+      "zh": "铭文约刻于公元前 520 年。金与汤普森的译本出版于 1907 年；金卒于 1919 年，汤普森卒于 1941 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Darius had his account of how he won the throne carved high on a limestone cliff at Behistun in western Iran, in Old Persian, Elamite and Babylonian, beside a relief of himself. Near the end he turns to the reader of later times: believe what is written here; he left out much that he did, so that later readers would not think it too much; whoever sees the tablet and the sculptures should preserve them. Copied from the cliff by Henry Rawlinson between 1835 and 1847, it became the key to reading cuneiform, so a message meant for future kings reached readers of quite another kind.",
+    "zh": "大流士让人把他夺得王位的经过刻在伊朗西部贝希斯敦一处高高的石灰岩崖壁上，用古波斯文、埃兰文和巴比伦文三种文字，旁边还有他本人的浮雕。快结束时，他转向日后的读者：要相信这里写的事；他做过的许多事没有刻上，免得后来的人觉得太多而不信；凡是看到这块石刻和这些雕像的人，都应当保护它们。1835 年到 1847 年间，亨利·罗林森从崖壁上把它抄录下来，它成了解读楔形文字的钥匙。于是，一篇写给未来君王的文字，到了另一种读者的手里。"
+  },
+  "pick": null,
+  "tags": [
+    "inscriptions",
+    "messages-forward",
+    "translation",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "Thou who shalt hereafter see this tablet, which I have written, or these sculptures, destroy them not, (but) preserve them so long as thou livest!",
+    "en": "Thou who shalt hereafter see this tablet, which I have written, or these sculptures, destroy them not, (but) preserve them so long as thou livest!",
+    "zh": "你，日后看到我所写的这块石刻，或者这些雕像的人，不要毁坏它们，（而要）在你有生之年保护它们！"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Auramazda",
+      "occ": 1,
+      "en": "Ahuramazda, the Wise Lord, the great god of the Achaemenid kings.",
+      "zh": "阿胡拉·马兹达，“智慧之主”，阿契美尼德诸王崇奉的大神。"
+    },
+    {
+      "at": "not graven in this inscription",
+      "occ": 1,
+      "en": "Darius says he left some of his deeds out of the record on purpose, so that later readers would not think it exaggerated and disbelieve the rest.",
+      "zh": "大流士说，他有意把一些事迹略去不刻，免得后人以为夸大其词，连其余的也不信。"
+    },
+    {
+      "at": "these sculptures",
+      "occ": 1,
+      "en": "The relief above the text: Darius, his foot on a defeated rival, facing a line of captive rebels, under the winged emblem of Ahuramazda.",
+      "zh": "铭文上方的浮雕：大流士脚踩被击败的对手，面对一列被俘的叛乱者，上方是阿胡拉·马兹达的有翼标志。"
+    }
+  ],
+  "pairs": [
+    "S-008013",
+    "S-008021",
+    "S-008212"
+  ]
+}

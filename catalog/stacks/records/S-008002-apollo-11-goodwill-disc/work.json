@@ -39,7 +39,13 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -51,9 +57,9 @@
   "pick": null,
   "tags": [
     "moon",
-    "apollo",
-    "silicon",
-    "microprint"
+    "messages-forward",
+    "machines",
+    "books"
   ],
   "excerpt": {
     "orig": "The words on the disc, although not visible to the naked eye, will remain readable through a microscope.",

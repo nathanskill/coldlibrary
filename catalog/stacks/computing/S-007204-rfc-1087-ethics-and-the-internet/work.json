@@ -1,0 +1,77 @@
+{
+  "id": "S-007204",
+  "slug": "rfc-1087-ethics-and-the-internet",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "RFC 1087: Ethics and the Internet",
+    "en": "RFC 1087: Ethics and the Internet",
+    "zh": "RFC 1087：伦理与互联网"
+  },
+  "author": {
+    "orig": "Internet Activities Board",
+    "en": "Internet Activities Board",
+    "zh": "互联网活动委员会（IAB）",
+    "dates": "named 1983; later the Internet Architecture Board"
+  },
+  "year": 1989,
+  "year_display": {
+    "en": "January 1989",
+    "zh": "1989 年 1 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The plain-text RFC 1087 from rfc-editor.org, identical to the copy on ietf.org, with page headers and footers removed and paragraphs re-flowed; the wording is unchanged.",
+    "zh": "据 rfc-editor.org 的纯文本 RFC 1087（与 ietf.org 上的副本完全一致）；去掉了页眉页脚并重排段落，措辞未改。"
+  },
+  "source": {
+    "name": "RFC Editor",
+    "url": "https://www.rfc-editor.org/rfc/rfc1087.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "kind": "license",
+    "basis": {
+      "en": "The memo itself states: 'Distribution of this memo is unlimited.' Under the IETF Trust Legal Provisions (section 2.c), RFCs published before 2015 remain under the terms in force when they were published, which allow the complete text to be copied and distributed unmodified but grant no right to translate. The text is therefore reproduced verbatim, with only its page layout adapted, and summarised rather than translated.",
+      "zh": "该备忘录自身声明：“本备忘录的分发不受限制。”依据 IETF 信托法律条款第 2.c 条，2015 年以前发表的 RFC 仍适用发表时的条款：允许完整、不加修改地复制和分发，但未授予翻译权。因此原文按原样收录（仅调整版面），以摘要代替翻译。"
+    },
+    "license": "RFC distribution statement: “Distribution of this memo is unlimited.”",
+    "license_url": "https://www.rfc-editor.org/rfc/rfc1087.txt",
+    "notice": "Distribution of this memo is unlimited.",
+    "verbatim_only": true,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {},
+  "note": {
+    "en": "Two months after the Morris worm of November 1988 spread across the young Internet, the board that oversaw its technical work issued this one-page statement of what using it responsibly means. It calls the network a common infrastructure like roads and water, lists five things it is unethical to do on purpose, and ends by placing its health in the hands of its users. Notice the caution in the last paragraph: security that inhibits the free flow of information could cost more than it saves.",
+    "zh": "1988 年 11 月莫里斯蠕虫在年轻的互联网上蔓延，两个月后，负责互联网技术工作的委员会发表了这份一页纸的声明，说明怎样才算负责任地使用它。声明把网络比作道路和供水一样的公共基础设施，并引用美国国家科学基金会顾问小组的意见，把五种蓄意行为定为不道德、不可接受：试图未经授权访问互联网资源；扰乱互联网的正常用途；由此浪费人力、带宽和计算资源；破坏计算机信息的完整性；侵犯用户隐私。它还提醒在互联网上做实验的研究者务必极其谨慎，因为疏忽可能影响所有用户。最后一段说，委员会将与政府机构等各方合作，让互联网更能抵御破坏；但安全措施可能非常昂贵，如果妨碍了使互联网如此宝贵的信息自由流动，反而得不偿失；归根结底，互联网的健康取决于它的用户。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
+  },
+  "pick": null,
+  "tags": [
+    "the-internet",
+    "how-to-live",
+    "code"
+  ],
+  "excerpt": {
+    "orig": "In the final analysis, the health and well-being of the Internet is the responsibility of its users.",
+    "en": "In the final analysis, the health and well-being of the Internet is the responsibility of its users.",
+    "zh": "归根结底，互联网的健康与福祉，是它的用户的责任。"
+  },
+  "plate": null,
+  "pairs": [
+    "S-007017",
+    "S-007022",
+    "S-007205"
+  ]
+}

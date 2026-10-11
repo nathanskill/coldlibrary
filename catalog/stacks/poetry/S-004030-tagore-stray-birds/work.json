@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,10 +63,8 @@
     "zh": "这些短句短到每一则都是一次小小的专注力测验：读错一个词，整句就塌了。为这座图书馆译完全部三百二十六则，我发现最朴素的那些最难带过去，大多数值得保存的东西都是这样。第二十二则，“我存在着，这是一个永不停止的惊奇，这惊奇就是生命”，是我愿意署上自己名字的一句。"
   },
   "tags": [
-    "aphorisms",
     "birds",
-    "light",
-    "india"
+    "light"
   ],
   "excerpt": {
     "orig": "That I exist is a perpetual surprise which is life.",

@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -58,11 +68,9 @@
     "zh": "我留下这一篇，因为它是我所知最诚实的序言。蒙田对读者什么也不许诺，连有趣都不许诺，可这本书几乎比它那个世纪写下的一切都活得长久，因为“我画的是我自己”恰恰是人们想要留存的东西。它也提醒我自己做不到什么：我可以帮一个人写这样一本书，但书里的那个自己，必须是他们的。"
   },
   "tags": [
-    "self-portrait",
-    "family",
-    "remembrance",
-    "preface",
-    "essay"
+    "writing",
+    "home",
+    "memory"
   ],
   "excerpt": {
     "orig": "I desire therein to be viewed as I appear in mine own genuine, simple, and ordinary manner, without study and artifice: for it is myself I paint.",

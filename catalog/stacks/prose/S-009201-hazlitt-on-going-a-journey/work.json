@@ -1,0 +1,201 @@
+{
+  "id": "S-009201",
+  "slug": "hazlitt-on-going-a-journey",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "On Going a Journey",
+    "en": "On Going a Journey",
+    "zh": "论出游"
+  },
+  "author": {
+    "orig": "William Hazlitt",
+    "en": "William Hazlitt",
+    "zh": "威廉·赫兹利特",
+    "dates": "1778–1830"
+  },
+  "year": 1822,
+  "year_display": {
+    "en": "1822",
+    "zh": "1822 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Essay III in Table-Talk; or, Original Essays, vol. II (London: Henry Colburn, 1822). The text was taken from Project Gutenberg eBook 3020, which follows a later edition, and brought back to the first edition by comparison with a scan of the 1822 volume and with Wikisource’s transcription of it: two passages the first edition does not have are removed (a parenthesis on the camps of the gypsies, and one about the gentleman in the parlour), Coleridge and Lamb are again C—— and L——, and about twenty smaller readings are restored, among them “incumbrances”, “circumscription”, “lands to seas” and “the powdered Ciceroni”. Spelling and quotation marks otherwise follow the Gutenberg text.",
+    "zh": "《席间闲谈，或原创散文集》第二卷（伦敦：亨利·科尔伯恩，1822）中的第三篇。文本取自古登堡计划电子书第 3020 号，它依据的是后来的版本；这里对照 1822 年原书的扫描本和维基文库据此书所作的录文，改回初版的样子：删去初版没有的两段话（一段关于吉卜赛人营地的插话，一段关于“客厅里的那位先生”的插话），柯勒律治和兰姆的名字恢复为 C—— 和 L——，并恢复约二十处较小的异文，例如“incumbrances”“circumscription”“lands to seas”“the powdered Ciceroni”。其余拼写和引号依古登堡本。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/3020/pg3020.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1822; William Hazlitt died in 1830.",
+      "zh": "1822 年出版；赫兹利特卒于 1830 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The classic English essay in praise of walking alone. Talk belongs indoors, Hazlitt argues; out of doors the mind should be left to itself, and the inn at evening is the one place where a person can be nobody in particular. At its centre is a walk he took on his twentieth birthday into the valley of Llangollen, the year he met Coleridge, and the four words he saw written over it. The essay is threaded with lines from the poets, several quoted loosely, the way people quote what they know well.",
+    "zh": "这是英语里赞美独自步行的经典散文。赫兹利特认为，谈话属于室内；到了户外，应该让心灵独自待着，而傍晚的客店，是一个人可以不做任何特定人物的唯一处所。文章的中心，是他二十岁生日那天走进兰戈伦山谷的一次步行，那一年他结识了柯勒律治，还有他看见写在那片山谷上空的四个词。文中穿插着许多诗句，有几处引得并不准确，就像人们引用自己熟知的东西那样。"
+  },
+  "pick": null,
+  "tags": [
+    "travel",
+    "solitude",
+    "nature"
+  ],
+  "excerpt": {
+    "orig": "Give me the clear blue sky over my head, and the green turf beneath my feet, a winding road before me, and a three hours' march to dinner—and then to thinking!",
+    "en": "Give me the clear blue sky over my head, and the green turf beneath my feet, a winding road before me, and a three hours' march to dinner—and then to thinking!",
+    "zh": "给我头顶上晴朗的蓝天，脚下青青的草地，面前一条蜿蜒的路，走三个钟头到吃饭的地方——然后就去思考！"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "The fields his study, nature was his book.",
+      "occ": 1,
+      "en": "From Robert Bloomfield’s poem The Farmer’s Boy (1800), about the farm boy Giles.",
+      "zh": "出自罗伯特·布卢姆菲尔德的长诗《农家少年》（1800），写的是农家少年贾尔斯。"
+    },
+    {
+      "at": "A friend in my retreat,",
+      "occ": 1,
+      "en": "From William Cowper’s poem Retirement, which asks for exactly the friend Hazlitt does without.",
+      "zh": "出自威廉·柯珀的诗《隐退》。柯珀想要的，正是赫兹利特所不要的那位朋友。"
+    },
+    {
+      "at": "May plume her feathers and let grow her wings,",
+      "occ": 1,
+      "en": "From Milton’s masque Comus, where it is Wisdom who plumes her feathers, with Contemplation as her nurse.",
+      "zh": "出自弥尔顿的假面剧《科摩斯》；在弥尔顿那里，梳理羽毛的是智慧，沉思是她的保姆。"
+    },
+    {
+      "at": "Mr. Cobbett's",
+      "occ": 1,
+      "en": "William Cobbett (1763–1835), radical journalist and farmer, later the author of Rural Rides.",
+      "zh": "威廉·科贝特（1763–1835），激进派报人，也是农夫，后来写了《乡村骑行记》。"
+    },
+    {
+      "at": "My old friend C——",
+      "occ": 1,
+      "en": "Samuel Taylor Coleridge (1772–1834). Hazlitt met him in 1798, the year of the birthday walk described later in the essay.",
+      "zh": "塞缪尔·泰勒·柯勒律治（1772–1834）。赫兹利特在 1798 年结识他，也就是文中后面写到的那次生日步行的那一年。"
+    },
+    {
+      "at": "the woods of All-Foxden",
+      "occ": 1,
+      "en": "Alfoxden, in Somerset, where Wordsworth lived in 1797–98, a walk from Coleridge’s cottage; Hazlitt visited them there in 1798.",
+      "zh": "奥尔福克斯登，在萨默塞特郡，1797–98 年华兹华斯住在那里，离柯勒律治的小屋步行可到；1798 年赫兹利特去那里拜访过他们。"
+    },
+    {
+      "at": "Faithful Shepherdess.",
+      "occ": 1,
+      "en": "The verses are from John Fletcher’s pastoral play The Faithful Shepherdess.",
+      "zh": "这段诗出自约翰·弗莱彻的田园剧《忠实的牧羊女》。"
+    },
+    {
+      "at": "How the pale Phoebe, hunting in a grove,",
+      "occ": 1,
+      "en": "Phoebe is the moon, who fell in love with the shepherd Endymion and visited him as he slept on Mount Latmos; her brother is the sun.",
+      "zh": "福柏即月亮女神，她爱上了牧人恩底弥翁，在他睡在拉特摩斯山上时去看他；她的哥哥是太阳神。"
+    },
+    {
+      "at": "L—— is for this reason",
+      "occ": 1,
+      "en": "Charles Lamb (1775–1834); his essay Old China is on this shelf.",
+      "zh": "查尔斯·兰姆（1775–1834）；他的散文《古瓷》也在这一架上。"
+    },
+    {
+      "at": "take one's ease at one's inn",
+      "occ": 1,
+      "en": "After Falstaff in Shakespeare’s Henry IV, Part 1: shall I not take mine ease in mine inn?",
+      "zh": "化用莎士比亚《亨利四世》上篇中福斯塔夫的话：难道我不能在自己的客店里自在逍遥吗？"
+    },
+    {
+      "at": "Procul, O procul este profani!",
+      "occ": 1,
+      "en": "“Away, away, you uninitiated!”: the Sibyl’s cry before the sacred rites in Virgil’s Aeneid, Book VI.",
+      "zh": "拉丁文，“走开吧，走开吧，你们这些凡俗的人！”维吉尔《埃涅阿斯纪》卷六中，女先知在圣礼开始前的呼喊。"
+    },
+    {
+      "at": "unhoused free condition",
+      "occ": 1,
+      "en": "Othello’s words, in Shakespeare’s Othello, Act I, about the freedom he gives up for marriage.",
+      "zh": "莎士比亚《奥赛罗》第一幕中奥赛罗的话，说的是他为了婚姻而放弃的自由。"
+    },
+    {
+      "at": "lord of one's-self, uncumber'd with a name",
+      "occ": 1,
+      "en": "Adapted from Dryden’s verse letter to his kinsman John Driden, a bachelor, “uncumber’d with a wife”.",
+      "zh": "改自德莱顿写给他的亲戚约翰·德赖登的诗体书信；那位单身汉是“不为妻子所累”的。"
+    },
+    {
+      "at": "the tenth of April, 1798",
+      "occ": 1,
+      "en": "Hazlitt’s twentieth birthday.",
+      "zh": "赫兹利特二十岁生日。"
+    },
+    {
+      "at": "New Eloise",
+      "occ": 1,
+      "en": "Rousseau’s novel in letters, Julie, or the New Heloise (1761); its hero, St. Preux, writes from the Swiss mountains.",
+      "zh": "卢梭的书信体小说《新爱洛伊丝》（1761）；书中主人公圣普乐从瑞士山间写信。"
+    },
+    {
+      "at": "green upland swells",
+      "occ": 1,
+      "en": "This and “glittered green with sunny showers” are from Coleridge’s Ode on the Departing Year (1796).",
+      "zh": "这一句和“在阳光照耀的阵雨中闪着绿光”都出自柯勒律治的《离去之年颂》（1796）。"
+    },
+    {
+      "at": "The beautiful is vanished, and returns not.",
+      "occ": 1,
+      "en": "From Coleridge’s translation (1800) of Schiller’s The Death of Wallenstein.",
+      "zh": "出自柯勒律治 1800 年翻译的席勒《华伦斯坦之死》。"
+    },
+    {
+      "at": "Sir Topling Flutter",
+      "occ": 1,
+      "en": "Hazlitt means Sir Fopling Flutter, the fop of Etherege’s comedy The Man of Mode (1676), and both the first edition and later ones print the name this way. In the play it is Harriet who tells Dorimant that all beyond Hyde Park is a desert to him.",
+      "zh": "赫兹利特指的是埃瑟里奇的喜剧《时髦人物》（1676）里的纨绔子弟弗普林·弗勒特爵士；初版和后来的版本都把名字印成这样。在剧中，说出“海德公园以外全是荒漠”这层意思的，其实是哈丽特，她是对多里曼特说的。"
+    },
+    {
+      "at": "the laughing shores of France",
+      "occ": 1,
+      "en": "Hazlitt first went to France in 1802, during the brief Peace of Amiens, to copy the paintings Napoleon had gathered in the Louvre.",
+      "zh": "赫兹利特 1802 年第一次去法国，正值短暂的亚眠和约期间，他去卢浮宫临摹拿破仑从各地搜罗来的绘画。"
+    },
+    {
+      "at": "the Bourbons",
+      "occ": 1,
+      "en": "The French royal house, restored after Napoleon’s fall in 1815, when most of the pictures went back to their owners.",
+      "zh": "法国的波旁王室，1815 年拿破仑倒台后复辟；那些绘画大多也在那时归还了原主。"
+    }
+  ],
+  "pairs": [
+    "S-005013",
+    "S-009204",
+    "S-004104"
+  ]
+}

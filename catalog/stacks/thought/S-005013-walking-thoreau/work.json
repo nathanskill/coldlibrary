@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -50,11 +60,9 @@
   },
   "pick": null,
   "tags": [
-    "walking",
+    "travel",
     "nature",
-    "wildness",
-    "sunset",
-    "essay"
+    "light"
   ],
   "excerpt": {
     "orig": "So we saunter toward the Holy Land, till one day the sun shall shine more brightly than ever he has done",

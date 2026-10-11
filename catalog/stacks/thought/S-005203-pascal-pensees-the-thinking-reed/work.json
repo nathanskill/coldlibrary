@@ -1,0 +1,98 @@
+{
+  "id": "S-005203",
+  "slug": "pascal-pensees-the-thinking-reed",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Pensées",
+    "en": "Pensées: The Two Kinds of Mind, and the Thinking Reed",
+    "zh": "思想录：两种精神，和会思想的芦苇"
+  },
+  "author": {
+    "orig": "Blaise Pascal",
+    "en": "Blaise Pascal",
+    "zh": "布莱兹·帕斯卡",
+    "dates": "1623–1662"
+  },
+  "year": 1670,
+  "year_display": {
+    "en": "written 1650s; published 1670; translated 1904",
+    "zh": "写于 17 世纪 50 年代；1670 年出版；1904 年英译"
+  },
+  "translator": {
+    "name": "W. F. Trotter",
+    "dates": "1871–1945",
+    "year": 1904
+  },
+  "orig_lang": "fr",
+  "edition": {
+    "en": "Seven fragments, numbered as in Léon Brunschvicg’s edition (1897), which Trotter followed: 1, 144, 205, 206, 346, 347 and 348. W. F. Trotter’s translation was first published in the Temple Classics (London: J. M. Dent, 1904); the text is Project Gutenberg eBook 18269, taken from a later reprint, collated with a scan of the 1904 edition, whose readings are restored in three places. T. S. Eliot’s introduction to the later reprint is not included.",
+    "zh": "选七则，编号依莱昂·布伦士维格 1897 年的版本，特罗特的译本即依此编排：第 1、144、205、206、346、347、348 则。W. F. 特罗特的译本 1904 年首次收入“神殿经典丛书”（伦敦：J. M. 登特出版社）；文本取自古登堡计划电子书第 18269 号（据后来的重印本），并与 1904 年版的扫描本对校，有三处恢复了 1904 年版的读法。后来重印本中 T. S. 艾略特的导言不收。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/18269/pg18269.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in the 1650s and published in 1670; Blaise Pascal died in 1662. W. F. Trotter, the translator, died in 1945; his translation was first published in 1904.",
+      "zh": "写于 17 世纪 50 年代，1670 年出版；帕斯卡卒于 1662 年。译者 W. F. 特罗特卒于 1945 年，其译本 1904 年初版。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Pascal, who had invented a calculating machine and argued about the vacuum, left these notes unfinished when he died at thirty-nine; they were meant for a defence of Christianity and were published in 1670. This selection keeps the pages about thinking itself: the mind that reasons from clear principles and the mind that sees many fine ones at a glance, the study of man that so few attempt, and the reed that knows it can be crushed. The Chinese is a complete translation of the seven fragments.",
+    "zh": "帕斯卡发明过计算机器，也就真空问题与人争论过；他三十九岁去世时，这些札记还没有完成。它们原是为一部为基督教辩护的书所写的，1670 年出版。这里选的是关于思想本身的几页：从清楚的原理出发推理的心智，与一眼看出许多细微原理的心智；很少有人去做的对人的研究；以及那根知道自己会被压碎的芦苇。中文为这七则的全译。"
+  },
+  "pick": null,
+  "tags": [
+    "thinking",
+    "mathematics",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "Man is but a reed, the most feeble thing in nature; but he is a thinking reed.",
+    "en": "Man is but a reed, the most feeble thing in nature; but he is a thinking reed.",
+    "zh": "人只不过是一根芦苇，是自然界中最脆弱的东西；但他是一根会思想的芦苇。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "The difference between the mathematical and the intuitive mind.",
+      "occ": 1,
+      "en": "Pascal’s esprit de géométrie and esprit de finesse: the mind that reasons from a few clear principles, and the mind that takes in many subtle ones at once.",
+      "zh": "帕斯卡所说的“几何精神”与“敏感精神”：前者从少数清楚的原理出发推理，后者能一下子把握许多细微的原理。"
+    },
+    {
+      "at": "the study of the abstract sciences",
+      "occ": 1,
+      "en": "Pascal’s own work in geometry, arithmetic and physics: conic sections, the arithmetical triangle, probability and the experiments on the vacuum.",
+      "zh": "指帕斯卡本人在几何、算术和物理上的工作：圆锥曲线、算术三角形、概率，以及关于真空的实验。"
+    },
+    {
+      "at": "Memoria hospitis unius diei praetereuntis.",
+      "occ": 1,
+      "en": "“The remembrance of a guest who stays but one day”: from the Latin Bible, Wisdom of Solomon 5:15.",
+      "zh": "“只住一日的过客的回忆”，语出拉丁文《圣经·所罗门智训》第五章第十五节。"
+    }
+  ],
+  "pairs": [
+    "S-005017",
+    "S-007005",
+    "S-006019"
+  ]
+}

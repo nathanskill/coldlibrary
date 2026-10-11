@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -60,9 +70,8 @@
   "tags": [
     "writing",
     "memory",
-    "dialogue",
-    "books",
-    "teaching"
+    "teachers",
+    "books"
   ],
   "excerpt": {
     "orig": "the creations of the painter have the attitude of life, and yet if you ask them a question they preserve a solemn silence.",

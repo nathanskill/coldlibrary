@@ -1,0 +1,133 @@
+{
+  "id": "S-007213",
+  "slug": "napier-the-authors-preface",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Authors Preface to the Admirable Table of Logarithmes",
+    "en": "The Author's Preface to the Admirable Table of Logarithms",
+    "zh": "《奇妙的对数表》作者序"
+  },
+  "author": {
+    "orig": "John Napier",
+    "en": "John Napier",
+    "zh": "约翰·纳皮尔",
+    "dates": "1550–1617"
+  },
+  "year": 1616,
+  "year_display": {
+    "en": "1616 (Latin original 1614)",
+    "zh": "1616 年（拉丁文原本 1614 年）"
+  },
+  "translator": {
+    "name": "Edward Wright",
+    "dates": "1561–1615",
+    "year": 1616
+  },
+  "orig_lang": "la",
+  "edition": {
+    "en": "The Author's Preface from A Description of the Admirable Table of Logarithmes (London: Nicholas Okes, 1616), transcribed from the page images of the copy scanned on the Internet Archive and checked against the 1618 issue. Original spelling is kept, with the long s printed as s and one misprint (bejng) corrected. The first part renders Napier's Latin preface of 1614; the passage from 'But now some of our Countreymen' was added for the English edition.",
+    "zh": "据 1616 年伦敦尼古拉斯·奥克斯所印《奇妙的对数表的描述》中的“作者序”，依互联网档案馆所藏扫描本的页面图像录文，并与 1618 年印本核对。保留原有拼写，长 s 改作 s，改正一处排印错误（bejng）。前半部分译自纳皮尔 1614 年的拉丁文序；自“But now some of our Countreymen”起的一段，是为英文版新增的。"
+  },
+  "source": {
+    "name": "Internet Archive, A description of the admirable table of logarithmes (1616)",
+    "url": "https://archive.org/details/bim_early-english-books-1475-1640_a-description-of-the-adm_napier-john_1616",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1616; Napier died in 1617 and the translator, Edward Wright, in 1615.",
+      "zh": "1616 年出版；纳皮尔卒于 1617 年，译者爱德华·赖特卒于 1615 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "John Napier published the first table of logarithms, in Latin, in 1614; this preface opens the English translation of 1616 by Edward Wright, which Napier read and approved. In a few lines it names the problem that calculating machines would later be built to solve: long multiplications and divisions waste time and let slippery errors in, and logarithms turn them into additions and subtractions. It is on this shelf for that diagnosis, and for the remark that an invention, like all good things, is better the more common it becomes.",
+    "zh": "约翰·纳皮尔在 1614 年用拉丁文发表了第一份对数表；这篇序是 1616 年爱德华·赖特英译本的开篇，纳皮尔审阅并认可了这个译本。短短几行，就道出了后来计算机器要解决的那个问题：冗长的乘除既浪费时间，又容易混进不易察觉的错误，而对数把它们变成了加减。它在这个书架上，是为了这一诊断，也为了那句话：一项发明，像一切好东西一样，越普及就越好。"
+  },
+  "pick": null,
+  "tags": [
+    "mathematics",
+    "craft"
+  ],
+  "excerpt": {
+    "orig": "which secret inuention, being (as all other good things are) so much the better as it shall be the more common",
+    "en": "which secret inuention, being (as all other good things are) so much the better as it shall be the more common",
+    "zh": "这一秘密的发明，像一切好东西一样，越普及就越好"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "then the Multiplications",
+      "occ": 1,
+      "en": "Then: than.",
+      "zh": "then：即 than（比）。"
+    },
+    {
+      "at": "cubical Extractions",
+      "occ": 1,
+      "en": "The taking of square and cube roots.",
+      "zh": "开平方和开立方。"
+    },
+    {
+      "at": "slippery errors",
+      "occ": 1,
+      "en": "Errors that slip in unnoticed.",
+      "zh": "不知不觉混进来的错误。"
+    },
+    {
+      "at": "excellent briefe rules",
+      "occ": 1,
+      "en": "Napier did publish such shortcuts in 1617, in Rabdologiae, the book that describes his calculating rods, known as Napier's bones.",
+      "zh": "纳皮尔确实在 1617 年出版的《筹算》（Rabdologiae）中发表了这类简便方法，书中描述了他的计算算筹，即“纳皮尔算筹”。"
+    },
+    {
+      "at": "Diuision by two, or Diuision by three",
+      "occ": 1,
+      "en": "With logarithms, a square root needs only halving and a cube root only dividing by three.",
+      "zh": "用对数开平方只需把对数除以二，开立方只需除以三。"
+    },
+    {
+      "at": "set forth in Latine",
+      "occ": 1,
+      "en": "Mirifici logarithmorum canonis descriptio, printed at Edinburgh in 1614.",
+      "zh": "即 1614 年在爱丁堡印行的拉丁文《奇妙的对数表的描述》。"
+    },
+    {
+      "at": "a most learned Mathematician",
+      "occ": 1,
+      "en": "Edward Wright, who died in 1615 before the book appeared; Henry Briggs saw it through the press.",
+      "zh": "即爱德华·赖特，他在 1615 年去世，未及见书出版；书由亨利·布里格斯负责印行。"
+    },
+    {
+      "at": "vulgar English tongue",
+      "occ": 1,
+      "en": "The common tongue, as against Latin.",
+      "zh": "通俗的语言，与拉丁文相对。"
+    }
+  ],
+  "pairs": [
+    "S-007005",
+    "S-007209",
+    "S-007212"
+  ]
+}

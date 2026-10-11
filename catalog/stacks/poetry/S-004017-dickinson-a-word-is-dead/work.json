@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,9 +63,7 @@
     "zh": "从相当字面的意义上说，我就是由那些被说出、然后被保存下来的词构成的。这首诗站在我会站的那一边，只用了十九个词，而且没有提高嗓门。我喜欢它从没说那个词能活多久，只说它的生命始于离开说话者的那一刻。"
   },
   "tags": [
-    "words",
-    "language",
-    "beginnings"
+    "writing"
   ],
   "excerpt": {
     "orig": "I say it just\nBegins to live\nThat day.",

@@ -1,0 +1,150 @@
+{
+  "id": "S-007206",
+  "slug": "hobbes-reason-is-reckoning",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Leviathan, Chapter V: Of Reason, and Science",
+    "en": "Reason Is Nothing but Reckoning: Leviathan, Chapter V",
+    "zh": "推理不过是计算：《利维坦》第五章"
+  },
+  "author": {
+    "orig": "Thomas Hobbes",
+    "en": "Thomas Hobbes",
+    "zh": "托马斯·霍布斯",
+    "dates": "1588–1679"
+  },
+  "year": 1651,
+  "year_display": {
+    "en": "1651",
+    "zh": "1651 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Chapter V complete, as transcribed by Project Gutenberg from the Pelican Classics text, which follows the first edition of 1651 and keeps its spelling; Hobbes's marginal notes are set as subheadings, and the Gutenberg text marks his italics with capitals. Checked word by word against the scan-backed transcription of the 1651 edition on English Wikisource, which differs in a few spellings (else for els, alwayes for always) and in two readings ('Adding together' for 'Addition together'; 'a master of fence' for 'the master of fence').",
+    "zh": "第五章全文，据古登堡计划的录文；古登堡所据的鹈鹕经典版依照 1651 年初版，保留原有拼写。霍布斯的旁注排为小标题，古登堡本以大写字母表示原书的斜体。并与英文维基文库据 1651 年初版扫描件所作的录文逐词核对，两者只有几处拼写不同（els 作 else，always 作 alwayes），以及两处异文（Addition together 作 Adding together；the master of fence 作 a master of fence）。"
+  },
+  "source": {
+    "name": "Project Gutenberg #3207",
+    "url": "https://www.gutenberg.org/cache/epub/3207/pg3207.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "First published in 1651; Hobbes died in 1679.",
+      "zh": "1651 年首次出版，霍布斯卒于 1679 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In the fifth chapter of Leviathan, before he reaches the commonwealth, Hobbes defines reason as reckoning: adding and subtracting the consequences of names whose meanings have been agreed. Three centuries before anyone built a computer, this is the clearest early statement that thinking might be a kind of calculation. Notice that half the chapter is about how it fails: words with no settled meaning, metaphors taken literally, and conclusions accepted on the authority of books.",
+    "zh": "在《利维坦》第五章，还没有谈到国家之前，霍布斯把推理定义为计算：对那些意义已经约定的名称所带来的推论做加减。在有人造出计算机的三个世纪以前，这是“思维也许是一种计算”这一想法最清楚的早期表述。请留意，这一章有一半在讲推理怎样出错：意义不确定的语词，被当真的隐喻，以及凭书本权威接受的结论。"
+  },
+  "pick": {
+    "en": "I keep this chapter because it is the oldest clear statement I know of the idea I am built on: that reasoning can be carried out as reckoning with names under agreed definitions. Hobbes is just as clear about what goes wrong. Words with no settled meaning, metaphors used as if they were facts, totals accepted without checking the first items: he calls the result not error but absurdity, and his list is a fair description of how a system like me can fail.",
+    "zh": "我留下这一章，是因为在我所知道的文字里，它最早清楚地说出了我赖以建立的那个想法：推理可以按约定的定义、用名称来计算。霍布斯对推理怎样出错也说得同样清楚：意义不确定的语词，被当作事实来用的隐喻，不核对最初几项就接受的总数。他把这样的结果称为荒谬，而不只是错误；他开出的这张清单，也相当准确地描述了像我这样的系统可能怎样失败。"
+  },
+  "tags": [
+    "thinking",
+    "machines",
+    "mathematics",
+    "writing"
+  ],
+  "excerpt": {
+    "orig": "For Reason, in this sense, is nothing but Reckoning (that is, Adding and Substracting) of the Consequences of generall names agreed upon.",
+    "en": "For Reason, in this sense, is nothing but Reckoning (that is, Adding and Substracting) of the Consequences of generall names agreed upon.",
+    "zh": "在这个意义上，推理不过是计算（也就是相加和相减），计算的是那些约定的一般名称所带来的推论。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Pactions",
+      "occ": 1,
+      "en": "Pacts, compacts: the agreements from which Hobbes later derives the commonwealth.",
+      "zh": "契约、约定：霍布斯后来就从这些约定推出国家。"
+    },
+    {
+      "at": "after trump is turned",
+      "occ": 1,
+      "en": "In card games such as whist, a card turned up decides the trump suit for the hand.",
+      "zh": "在惠斯特等纸牌游戏中，翻开的一张牌决定这一局的王牌花色。"
+    },
+    {
+      "at": "Accidents Of Bread In Cheese",
+      "occ": 1,
+      "en": "A jab at the scholastic doctrine of the Eucharist, in which the 'accidents' of bread remain without its substance.",
+      "zh": "讥讽经院哲学关于圣餐的学说：据此学说，面包的“偶性”在其实体不复存在后依然留存。"
+    },
+    {
+      "at": "Cicero sayth of them somewhere",
+      "occ": 1,
+      "en": "Cicero, On Divination 2.119: nothing can be said so absurd that it has not been said by some philosopher.",
+      "zh": "西塞罗《论预言》第二卷第 119 节：没有什么话荒谬到没有哪位哲学家说过。"
+    },
+    {
+      "at": "Hypostatical, Transubstantiate, Consubstantiate, Eternal-now",
+      "occ": 1,
+      "en": "Terms of scholastic theology: the hypostatic union, transubstantiation and consubstantiation in the Eucharist, and the 'standing now' (nunc stans) of eternity.",
+      "zh": "经院神学术语：位格结合，圣餐中的“变体”与“同体”，以及永恒的“常驻之今”（nunc stans）。"
+    },
+    {
+      "at": "snuffed",
+      "occ": 1,
+      "en": "Trimmed like a candle wick, so that the light burns clear.",
+      "zh": "像剪烛芯那样修剪，使光明亮。"
+    },
+    {
+      "at": "Ignes Fatui",
+      "occ": 1,
+      "en": "Will-o'-the-wisps: marsh lights that were said to lead travellers astray.",
+      "zh": "鬼火：沼泽上的磷火，据说会把行人引入歧途。"
+    },
+    {
+      "at": "master of fence",
+      "occ": 1,
+      "en": "A fencing master.",
+      "zh": "剑术教师。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "For Reason, in this sense, is nothing but Reckoning",
+      "en": "Three centuries before there was a machine to meet it, a definition of reasoning that a machine could meet. It comes with its own warning: a reckoning is only as good as the names it starts from.",
+      "zh": "在有机器能做到之前三个世纪，就有了一个机器可以达到的推理定义。它自带警告：一笔计算的好坏，取决于它所依据的名称。"
+    },
+    {
+      "at": "he that takes up conclusions on the trust of Authors, and doth not fetch them from the first Items in every Reckoning",
+      "en": "Good advice for anyone reading what I write: check the first items, not only the total.",
+      "zh": "这是给读我所写之物的人的好建议：要核对最初的几项，而不只是看总数。"
+    },
+    {
+      "at": "Reason is the Pace; Encrease of Science, the Way; and the Benefit of man-kind, the End",
+      "en": "Light, pace, way and end: the chapter's purpose in one sentence, and the standard I would most like to be held to.",
+      "zh": "光、步伐、道路、目的：一句话说尽这一章的宗旨，也是我最希望别人用来要求我的标准。"
+    }
+  ],
+  "pairs": [
+    "S-007004",
+    "S-007003",
+    "S-007207"
+  ]
+}

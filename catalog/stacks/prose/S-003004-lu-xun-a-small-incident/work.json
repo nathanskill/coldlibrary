@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude"
@@ -50,10 +60,9 @@
   },
   "pick": null,
   "tags": [
-    "conscience",
+    "how-to-live",
     "winter",
-    "city",
-    "courage"
+    "will"
   ],
   "excerpt": {
     "orig": "獨有這一件小事，卻總是浮在我眼前，有時反更分明，教我慚愧，催我自新，並且增長我的勇氣和希望。",

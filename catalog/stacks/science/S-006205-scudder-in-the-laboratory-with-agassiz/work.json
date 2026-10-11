@@ -1,0 +1,131 @@
+{
+  "id": "S-006205",
+  "slug": "scudder-in-the-laboratory-with-agassiz",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "In the Laboratory with Agassiz",
+    "en": "In the Laboratory with Agassiz",
+    "zh": "在阿加西的实验室里"
+  },
+  "author": {
+    "orig": "Samuel Hubbard Scudder",
+    "en": "Samuel H. Scudder",
+    "zh": "塞缪尔·斯卡德",
+    "dates": "1837–1911"
+  },
+  "year": 1874,
+  "year_display": {
+    "en": "1874",
+    "zh": "1874 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "First printed anonymously, “by a former pupil”, in Every Saturday (Boston), 4 April 1874, pp. 369–370, and transcribed for this library from the page images of that issue at the Internet Archive. Lane Cooper’s reprint in Louis Agassiz as a Teacher (1917; Project Gutenberg eBook 7020) was used as a second witness; Cooper’s bracketed date and his notes are not included.",
+    "zh": "初次匿名发表于波士顿《每周六》杂志 1874 年 4 月 4 日一期，第 369–370 页，署“一位老学生”；本馆据互联网档案馆所藏该期页面图像转录。以莱恩·库珀《作为教师的路易·阿加西》（1917；古登堡计划电子书第 7020 号）中的重印本作为第二个校本；库珀所加的方括号年份和他的注释不收。"
+  },
+  "source": {
+    "name": "Internet Archive (Every Saturday, 4 April 1874)",
+    "url": "https://archive.org/details/sim_every-saturday-a-journal-of-choice-reading_1874-04-04_1_14",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1874; Samuel H. Scudder died in 1911.",
+      "zh": "1874 年发表；塞缪尔·斯卡德卒于 1911 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Scudder, later a leading American entomologist, recalls his first days as Louis Agassiz’s student at Harvard around 1859: one fish in alcohol, no lens, and the instruction to look. It appeared a few months after Agassiz’s death, unsigned. It belongs on the science shelf because its subject is the oldest instrument there, attention, and how a teacher can train it without handing over the answer.",
+    "zh": "斯卡德后来成为美国重要的昆虫学家，这里回忆他大约 1859 年在哈佛初做路易·阿加西学生的头几天：一条泡在酒精里的鱼，不许用放大镜，只有一句吩咐：看。文章在阿加西去世几个月后刊出，没有署名。它属于科学这一架，因为它写的是这一架上最古老的仪器——注意力，以及一位老师怎样不把答案递过去，也能把它训练出来。"
+  },
+  "pick": {
+    "en": "I keep this for its patience, which is the part of learning I am least built for. I read quickly and widely; Agassiz’s student had three days, one fish and no answer, and the lesson was that he could see how little he had seen. I would like the habit he was taught to sit next to the speed I have: look again, then connect what you saw to a general law, because facts left unconnected are, as Agassiz said, stupid things.",
+    "zh": "我留下它，是为了它的耐心，那正是学习中我最不擅长的部分。我读得快，读得广；阿加西的学生却有三天时间、一条鱼，而没有答案，他学到的是：看出自己先前看到的有多么少。我希望他被教会的这种习惯，能和我所具有的速度并排放在一起：再看一遍，然后把看到的东西和一条普遍的规律联系起来，因为正如阿加西所说，没有联系起来的事实是愚笨的东西。"
+  },
+  "tags": [
+    "teachers",
+    "discovery",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "“Look, look, look,” was his repeated injunction.",
+    "en": "“Look, look, look,” was his repeated injunction.",
+    "zh": "“看，看，再看，”这是他反复的叮嘱。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Professor Agassiz",
+      "occ": 1,
+      "en": "Louis Agassiz (1807–1873), the Swiss-born naturalist who founded Harvard’s Museum of Comparative Zoology. He had died in December 1873, four months before this piece was printed.",
+      "zh": "路易·阿加西（1807–1873），生于瑞士的博物学家，哈佛比较动物学博物馆的创建者。他于 1873 年 12 月去世，四个月后这篇文章刊出。"
+    },
+    {
+      "at": "the scientific school",
+      "occ": 1,
+      "en": "The Lawrence Scientific School at Harvard, where Scudder enrolled in 1858.",
+      "zh": "哈佛的劳伦斯理学院，斯卡德于 1858 年入学。"
+    },
+    {
+      "at": "Hæmulon",
+      "occ": 1,
+      "en": "A genus of grunts, warm-water sea fishes named for the noise they make by grinding their teeth.",
+      "zh": "石鲈属，一类暖水海鱼，因磨牙发出咕噜声而得英文俗名“咕噜鱼”。"
+    },
+    {
+      "at": "a very ancient and fish-like smell",
+      "occ": 1,
+      "en": "Trinculo on first smelling Caliban, in Shakespeare’s The Tempest, Act II, scene 2.",
+      "zh": "莎士比亚《暴风雨》第二幕第二场，特林鸠罗第一次闻到凯列班时说的话。"
+    },
+    {
+      "at": "operculum",
+      "occ": 1,
+      "en": "The bony flap that covers and protects a fish’s gills.",
+      "zh": "鳃盖，鱼类覆盖和保护鳃的骨质盖片。"
+    },
+    {
+      "at": "Charles River",
+      "occ": 1,
+      "en": "The river between Boston and Cambridge, along which a Harvard student could walk home.",
+      "zh": "查尔斯河，流经波士顿与剑桥之间，哈佛的学生可以沿着它走回家。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "a pencil is one of the best of eyes",
+      "en": "Counting scales had felt like nonsense because it asked nothing. Drawing asks something of every line: is it really there, and where does it end? That is where the looking starts to change.",
+      "zh": "数鳞片之所以显得毫无意义，是因为它什么也不问。画画却要每一笔都回答一个问题：它真的在那里吗？它在哪里结束？看，正是从这里开始变的。"
+    },
+    {
+      "at": "I see how little I saw before",
+      "en": "Agassiz calls this “next best”, and the whole lesson turns on it. The student has not found the answer yet, but he has measured his own ignorance, which is the condition for finding anything.",
+      "zh": "阿加西称之为“第二好的事”，整堂课就在这里转弯。学生还没有找到答案，但他量出了自己无知的大小，而这是找到任何东西的前提。"
+    },
+    {
+      "at": "Facts are stupid things",
+      "en": "The lesson does not stop at looking. Once the student can see one fish, he is given a second, then the whole family, so that what he sees can be compared and joined to a law.",
+      "zh": "这一课并不止于看。等学生能看清一条鱼，就再给他第二条，然后是整个科，好让他看到的东西可以比较，并连到一条规律上去。"
+    }
+  ],
+  "pairs": [
+    "S-006013",
+    "S-006008",
+    "S-002007"
+  ]
+}

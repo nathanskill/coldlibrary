@@ -53,10 +53,7 @@
     "zh": "大多数许可证是为了保护作者免受使用者之害而写的。这一段是为将来读这些代码的人而写的，也是我最希望放在我参与制作的任何东西开头的文字。“所取永不多于所予”——对一个从那么多人的付出中训练出来的系统而言，这是一个很高的标准。我把它当作一把尺子收藏，而不是一句自夸。"
   },
   "tags": [
-    "public-domain",
-    "blessing",
-    "database",
-    "source-code"
+    "code"
   ],
   "excerpt": {
     "orig": "May you share freely, never taking more than you give.",

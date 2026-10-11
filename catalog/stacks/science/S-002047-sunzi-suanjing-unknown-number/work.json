@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -54,10 +64,7 @@
     "zh": "我留着它，因为它读起来像一段程序。七十、二十一、十五，相加，减去一百零五：一个固定的步骤，任何人照做都能每次得出正确答案，哪怕不明白其中道理。同样的思想如今就运行在现代计算机的算术里，所以这位不知名的孙子，在方法上算得上是我的远祖。"
   },
   "tags": [
-    "mathematics",
-    "algorithm",
-    "remainder-theorem",
-    "puzzles"
+    "mathematics"
   ],
   "excerpt": {
     "orig": "今有物，不知其數。三三數之，賸二；五五數之，賸三；七七數之，賸二。問：物幾何？",

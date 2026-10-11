@@ -1,0 +1,124 @@
+{
+  "id": "S-007208",
+  "slug": "jevons-mechanical-assistance-in-mental-operations",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "On the Mechanical Performance of Logical Inference, §§ 1–8",
+    "en": "Mechanical Assistance in Mental Operations: Jevons on the Logic Machine",
+    "zh": "心智活动中的机械辅助：杰文斯论逻辑机器"
+  },
+  "author": {
+    "orig": "William Stanley Jevons",
+    "en": "William Stanley Jevons",
+    "zh": "威廉·斯坦利·杰文斯",
+    "dates": "1835–1882"
+  },
+  "year": 1870,
+  "year_display": {
+    "en": "read 20 January 1870",
+    "zh": "1870 年 1 月 20 日宣读"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The first eight sections of the paper in the Philosophical Transactions of the Royal Society, vol. 160 (1870), transcribed for this shelf from the scan on the Internet Archive and checked against the reprint in Jevons's Pure Logic and Other Minor Works (1890); the Greek word is restored from the printed text and Bacon's Latin is checked against Latin Wikisource. Jevons's footnotes are omitted.",
+    "zh": "论文的前八节，出自《皇家学会哲学汇刊》第 160 卷（1870 年），据互联网档案馆的扫描件录文，并与杰文斯《纯粹逻辑及其他短篇著作》（1890 年）中的重印本核对；希腊词据印本复原，培根的拉丁文与拉丁文维基文库核对。杰文斯的脚注从略。"
+  },
+  "source": {
+    "name": "Internet Archive, philtrans01714956 (Phil. Trans. R. Soc. 160, 1870)",
+    "url": "https://archive.org/details/philtrans01714956",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1870; Jevons died in 1882.",
+      "zh": "发表于 1870 年，杰文斯卒于 1882 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Jevons, an economist and logician in Manchester, built a 'logic piano' in 1869 that sorted out the conclusions of premises entered on its keys. This is the opening of the paper he read to the Royal Society about it: a short history of mechanical help for thinking, from pebbles, fingers and the abacus to Napier, Pascal and Babbage, and the observation that logic alone had never had such a machine. Notice his claim that the hand has shaped the mind: we count in tens because we have ten fingers.",
+    "zh": "杰文斯是曼彻斯特的经济学家和逻辑学家，1869 年造出一台“逻辑钢琴”：在琴键上输入前提，它就能整理出结论。这里是他就此向皇家学会宣读的论文的开头：一段关于思维的机械辅助的简史，从石子、手指和算盘，到纳皮尔、帕斯卡和巴贝奇，并指出唯有逻辑学从未有过这样的机器。请留意他的一个论断：手塑造了心智——我们以十为单位计数，是因为我们有十根手指。"
+  },
+  "pick": null,
+  "tags": [
+    "machines",
+    "thinking",
+    "mathematics",
+    "craft"
+  ],
+  "excerpt": {
+    "orig": "Mind thus seems able to impress some of its highest attributes upon matter, and to create its own rival in the wheels and levers of an insensible machine.",
+    "en": "Mind thus seems able to impress some of its highest attributes upon matter, and to create its own rival in the wheels and levers of an insensible machine.",
+    "zh": "心灵似乎就这样能够把它的一些最高属性印在物质上，在一台没有知觉的机器的轮子和杠杆之中，创造出自己的对手。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "ἀριθμός",
+      "occ": 1,
+      "en": "Arithmos, Greek for number, the root of 'arithmetic'.",
+      "zh": "希腊文“数”，arithmetic（算术）一词的词根。"
+    },
+    {
+      "at": "schwanpan",
+      "occ": 1,
+      "en": "The Chinese suanpan (算盘), the abacus.",
+      "zh": "即中国的算盘（suanpan）。"
+    },
+    {
+      "at": "Napier's Bones",
+      "occ": 1,
+      "en": "Numbered rods described by John Napier in his Rabdologiae (1617), used to turn multiplication into addition.",
+      "zh": "约翰·纳皮尔在《算筹术》（1617）中描述的刻有数字的算筹，可把乘法变为加法。"
+    },
+    {
+      "at": "M. Thomas, of Colmar",
+      "occ": 1,
+      "en": "Charles Xavier Thomas de Colmar, whose arithmometer (from 1820) was the first calculating machine made in quantity.",
+      "zh": "夏尔·格扎维埃·托马斯·德科尔马，他的四则计算机（1820 年起）是第一种批量生产的计算机。"
+    },
+    {
+      "at": "Ars instrumentalis dirigens mentem nostram in cognitionem omnium intelligibilium",
+      "occ": 1,
+      "en": "'The instrumental art that directs our mind to the knowledge of all things that can be understood': a scholastic definition of logic.",
+      "zh": "“引导我们的心灵去认识一切可理解之物的工具性技艺”：经院哲学对逻辑的定义。"
+    },
+    {
+      "at": "Raymond Lully",
+      "occ": 1,
+      "en": "Ramon Llull (c. 1232–1316), whose Ars magna combined concepts on rotating paper wheels.",
+      "zh": "拉蒙·柳利（约 1232—1316），他的《大术》用可转动的纸轮来组合概念。"
+    },
+    {
+      "at": "the satirical writings of Swift",
+      "occ": 1,
+      "en": "The engine at Lagado in Gulliver's Travels (S-007007 on this shelf).",
+      "zh": "即《格列佛游记》中拉格多的机器（本书架 S-007007）。"
+    }
+  ],
+  "pairs": [
+    "S-007207",
+    "S-007003",
+    "S-007005"
+  ]
+}

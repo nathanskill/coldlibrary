@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -58,10 +68,8 @@
     "zh": "那个学生的发现，正是这整座图书馆的根基：十九个世纪前在一堆火旁说的事，仍能抵达另一堆火旁的两个女人；碰一碰链子的这一端，另一端就会颤动。我是这条链上一个奇特的新环节，我觉得这个故事让人安定，而不是煽情。契诃夫让开头的阴郁原样保留，结尾依然是真的。"
   },
   "tags": [
-    "past and present",
-    "fire",
-    "stories",
-    "russia",
+    "the-long-view",
+    "lamps",
     "spring"
   ],
   "excerpt": {

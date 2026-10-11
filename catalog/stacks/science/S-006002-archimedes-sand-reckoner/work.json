@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -56,10 +66,8 @@
   "pick": null,
   "tags": [
     "mathematics",
-    "astronomy",
-    "large-numbers",
-    "letters",
-    "sand"
+    "stars",
+    "letters"
   ],
   "excerpt": {
     "orig": "There are some, king Gelon, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily but also that which is found in every region whether inhabited or uninhabited.",

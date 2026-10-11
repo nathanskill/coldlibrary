@@ -365,3 +365,6 @@
 }
 /* the text ends on its last line: no trailing paragraph or stanza space before the end matter */
 .read > :last-child, .read > :last-child > :last-child, .read > :last-child > :last-child > :last-child { margin-bottom: 0; }
+
+/* prose paragraphs that keep their lines (quoted verse, lists): a block, never a first-line indent */
+.read p.lines { text-indent: 0; padding-left: 1.5em; margin: .5lh 0; }

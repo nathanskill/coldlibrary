@@ -1,0 +1,120 @@
+{
+  "id": "S-007203",
+  "slug": "sqlite-long-term-support",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Long Term Support",
+    "en": "SQLite: Long Term Support, Through the Year 2050",
+    "zh": "SQLite：长期支持，直到 2050 年"
+  },
+  "author": {
+    "orig": "D. Richard Hipp and the SQLite developers",
+    "en": "D. Richard Hipp and the SQLite developers",
+    "zh": "D. 理查德·希普与 SQLite 开发者",
+    "dates": "Hipp b. 1961"
+  },
+  "year": 2025,
+  "year_display": {
+    "en": "page as last updated 31 May 2025",
+    "zh": "页面最后更新于 2025 年 5 月 31 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The page lts.html on sqlite.org as last updated on 31 May 2025, checked against its source file (pages/lts.in) in the SQLite documentation repository; a parenthesis listing eight links to example documents is omitted.",
+    "zh": "据 sqlite.org 上的 lts.html 页面（最后更新于 2025 年 5 月 31 日），并与 SQLite 文档代码库中的源文件 pages/lts.in 核对；一处列出八个示例文档链接的括号从略。"
+  },
+  "source": {
+    "name": "SQLite, Long Term Support",
+    "url": "https://www.sqlite.org/lts.html",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "dedicated",
+    "basis": {
+      "en": "Dedicated to the public domain: 'All of the code and documentation in SQLite has been dedicated to the public domain by the authors' (sqlite.org/copyright.html).",
+      "zh": "已献入公有领域：“SQLite 的全部代码和文档都已由作者献入公有领域”（sqlite.org/copyright.html）。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "SQLite is probably the most widely deployed database in the world, inside phones, browsers and aircraft, and this short page is its developers' promise about time. They plan as if they will support it until 2050, keep the file format readable for decades, test every branch, replicate the code's history across companies and continents, and write for programmers who have not yet been born. In 2018 the US Library of Congress named SQLite a recommended format for preserving digital content.",
+    "zh": "SQLite 大概是世界上部署最广的数据库，存在于手机、浏览器和飞机里；这短短一页，是它的开发者关于时间的承诺。他们按照要支持到 2050 年来做计划：让文件格式几十年都可读，测试每一条分支，把代码历史复制到不同的公司和大陆，并且为还没有出生的程序员而写。2018 年，美国国会图书馆把 SQLite 列为保存数字内容的推荐格式。"
+  },
+  "pick": {
+    "en": "I keep this page because it is the plainest working plan I know for a promise across decades. It does not claim the future; it says nobody knows what will happen, and then lists what can actually be done: portable code, a stable format, tests in both directions, copies in many places, and comments written for strangers. A library that wants to last could do worse than copy the list.",
+    "zh": "我留下这一页，是因为在我所知道的东西里，它是跨越几十年的承诺最朴素、最能落地的一份计划。它并不声称掌握未来；它说没有人知道会发生什么，然后列出真正能做的事：可移植的代码、稳定的格式、双向的测试、存放在许多地方的副本，以及写给陌生人的注释。一座想要长久存在的图书馆，照抄这张清单也不会错。"
+  },
+  "tags": [
+    "code",
+    "the-long-view",
+    "messages-forward",
+    "craft"
+  ],
+  "excerpt": {
+    "orig": "Our aim is to produce timeless code that will be readable, understandable, and maintainable by programmers who have not yet been born.",
+    "en": "Our aim is to produce timeless code that will be readable, understandable, and maintainable by programmers who have not yet been born.",
+    "zh": "我们的目标是写出不会过时的代码，让还没有出生的程序员也能阅读、理解和维护。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "two's complement",
+      "occ": 1,
+      "en": "The usual way computers represent negative integers in binary.",
+      "zh": "计算机用二进制表示负整数的通用方法。"
+    },
+    {
+      "at": "big-endian, and little-endian",
+      "occ": 1,
+      "en": "The two orders in which processors store the bytes of a number; SQLite files read the same on both.",
+      "zh": "处理器存放一个数的各个字节的两种顺序；SQLite 文件在两种机器上读出来都一样。"
+    },
+    {
+      "at": "recommended storage format",
+      "occ": 1,
+      "en": "The Library of Congress's Recommended Formats Statement lists SQLite among the preferred formats for datasets.",
+      "zh": "美国国会图书馆的《推荐格式声明》把 SQLite 列为数据集的首选格式之一。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "Nobody knows what will happen in that time, and we cannot absolutely promise that SQLite will be viable or useful that far out.",
+      "en": "The honest part comes first, before the plan. A long promise that admits its limits is easier to believe.",
+      "zh": "诚实的部分放在前面，计划放在后面。一个承认自己局限的长期承诺，更容易让人相信。"
+    },
+    {
+      "at": "SQLite can survive a continental catastrophe.",
+      "en": "Redundancy described in one dry sentence. Sima Qian's plan of a copy in the mountain and a copy in the capital is the same idea at a smaller scale.",
+      "zh": "一句干巴巴的话说出了冗余。司马迁“藏之名山，副在京师”的计划，是同一个想法的小规模版本。"
+    },
+    {
+      "at": "programmers who have not yet been born",
+      "en": "This is the phrase that puts this page on the same footing as the plaques and letters on the Messages Forward shelf.",
+      "zh": "正是这句话，让这一页和“寄往未来”书架上的铭牌与书信站在了一起。"
+    }
+  ],
+  "pairs": [
+    "S-007010",
+    "S-008201",
+    "S-008009"
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "id": "S-006204",
+  "slug": "fabre-the-glow-worm",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "The Glow-worm",
+    "en": "The Glow-worm",
+    "zh": "萤火虫"
+  },
+  "author": {
+    "orig": "Jean-Henri Fabre",
+    "en": "Jean-Henri Fabre",
+    "zh": "让－亨利·法布尔",
+    "dates": "1823–1915"
+  },
+  "year": 1919,
+  "year_display": {
+    "en": "written in French for English readers late in Fabre’s life; first printed in the Century Magazine, in book form in 1918; this text 1919",
+    "zh": "法布尔晚年用法文为英语读者而写；先刊于《世纪杂志》，1918 年收入书中；这里的文本是 1919 年的"
+  },
+  "translator": {
+    "name": "Alexander Teixeira de Mattos",
+    "dates": "1865–1921",
+    "year": 1919
+  },
+  "orig_lang": "fr",
+  "edition": {
+    "en": "The first chapter of The Glow-worm and Other Beetles, translated by Alexander Teixeira de Mattos (New York: Dodd, Mead, 1919). The translator’s note explains that this essay was not part of the Souvenirs entomologiques as first published: Fabre wrote it at the translator’s request, for translation into English, near the end of his life, and it appeared first in the Century Magazine and then in The Wonders of Instinct (New York: Century, 1918). The text is Project Gutenberg eBook 27868, compared with a scan of the 1919 edition, with the Greek word checked against the page image. Two slips of the 1919 printing are kept as printed: “This conditions persists” and “without any quarrel with real proprietor”.",
+    "zh": "《萤火虫及其他甲虫》的第一章，亚历山大·特谢拉·德·马托斯译（纽约：多德与米德公司，1919）。译者的说明里讲到，这篇文章原本不在初版的《昆虫记》里：是法布尔晚年应译者之请、为译成英文而写的，先刊于《世纪杂志》，后收入《本能的奇迹》（纽约：世纪公司，1918）。文本用古登堡计划电子书第 27868 号，并与 1919 年版扫描本对校，其中的希腊文单词对照原书页面图像核过。1919 年印本的两处笔误照原样保留：“This conditions persists”和“without any quarrel with real proprietor”。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/27868/pg27868.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written by Jean-Henri Fabre, who died in 1915. Alexander Teixeira de Mattos, the translator, died in 1921; this translation was published in book form in 1918 and in this volume in 1919.",
+      "zh": "作者法布尔卒于 1915 年。译者亚历山大·特谢拉·德·马托斯卒于 1921 年；这篇译文 1918 年首次收入书中，1919 年收入本书。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Fabre spent most of his long life in Provence watching insects with almost no equipment, and his translator says this essay was among the last things he wrote. It shows his method at its plainest: a jar of grass, a few snails, a lens, patience, and words a child could follow. He watches the glow-worm numb a snail with a few gentle bites and turn it to broth, finds the white layer and the air-tubes that make its light, fires a gun beside the cage to see if the lamps go out, and then says frankly where his knowledge ends.",
+    "zh": "法布尔漫长的一生大部分在普罗旺斯度过，几乎没有什么设备，就那样观察昆虫；他的译者说，这篇文章是他最后写的东西之一。它把他的方法显示得最朴素不过：一瓶草，几只蜗牛，一只放大镜，耐心，以及孩子也能听懂的话。他看萤火虫用几下轻轻的咬把蜗牛麻醉、化成汤，找到发光的白色薄层和气管，在笼子旁边开一枪，看那些灯会不会熄灭，然后坦白地说出他的知识在哪里到了尽头。"
+  },
+  "pick": {
+    "en": "I keep this for its last sentence. Fabre has done everything an old man with a lens and a garden can do: he has dissected the lamp, drowned it in boiled water and photographed it by its own light. Then he says plainly that he cannot tell why the eggs and the grubs shine, and that the physics of animals is deeper than the physics of the books. I would like every confident explanation, including mine, to keep a sentence like that nearby.",
+    "zh": "我留下它，是为了它的最后一句。一个拿着放大镜、守着一座园子的老人所能做的一切，法布尔都做了：他解剖了那盏灯，把它浸在煮沸过的水里，借它自己的光给它照相。然后他平平实实地说，他说不出卵和幼虫为什么发光，动物的物理学比书本上的物理学更深。我希望每一个自信的解释，包括我自己的，旁边都放着这样一句话。"
+  },
+  "tags": [
+    "light",
+    "night",
+    "discovery"
+  ],
+  "excerpt": {
+    "orig": "Belts and spots emit a glorious white light, delicately tinged with blue.",
+    "en": "Belts and spots emit a glorious white light, delicately tinged with blue.",
+    "zh": "光带和光点发出一种灿烂的白光，微微带一点蓝色。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "λάμπουρις",
+      "occ": 1,
+      "en": "Lampouris, Greek for “shining-tail”.",
+      "zh": "lampouris，希腊语，意为“尾巴发亮的”。"
+    },
+    {
+      "at": "Lampyris noctiluca, LIN.",
+      "occ": 1,
+      "en": "LIN. stands for Linnaeus, who named the species. Lampyris is the shining-tail; noctiluca means “shining by night”.",
+      "zh": "LIN. 指林奈，是他给这个物种定的名。Lampyris 是“尾巴发亮的”，noctiluca 意为“在夜里发光的”。"
+    },
+    {
+      "at": "Brillat-Savarin",
+      "occ": 1,
+      "en": "Jean Anthelme Brillat-Savarin (1755–1826), whose Physiology of Taste (1825) begins with aphorisms about eating.",
+      "zh": "让·安泰尔姆·布里亚－萨瓦兰（1755–1826），他的《味觉生理学》（1825）以一组谈饮食的格言开篇。"
+    },
+    {
+      "at": "Helix variabilis, DRAP.",
+      "occ": 1,
+      "en": "A small white snail of dry grassland in southern France, now called Cernuella virgata. DRAP. is Draparnaud, who named it.",
+      "zh": "法国南部干草地上的一种白色小蜗牛，今称 Cernuella virgata。DRAP. 指为它命名的德拉帕尔诺。"
+    },
+    {
+      "at": "he chloroforms his victim",
+      "occ": 1,
+      "en": "Chloroform was a common anaesthetic of Fabre’s day, first used in surgery in 1847.",
+      "zh": "氯仿是法布尔那个时代常用的麻醉剂，1847 年开始用于外科手术。"
+    },
+    {
+      "at": "a host of Wasps",
+      "occ": 1,
+      "en": "Fabre’s earlier volumes describe hunting wasps that sting their prey into paralysis, so that their grubs have meat that stays fresh.",
+      "zh": "法布尔在前面几卷里写过狩猎蜂：它们螫刺猎物使之麻痹，好让自己的幼虫有一直新鲜的肉吃。"
+    },
+    {
+      "at": "Drilus maroccanus",
+      "occ": 1,
+      "en": "A North African beetle whose larvae live on snails. Fabre knew it only from reports, as he says.",
+      "zh": "北非的一种甲虫，幼虫以蜗牛为食。正如他自己所说，法布尔只是从别人的报告里知道它的。"
+    },
+    {
+      "at": "a Cyclostome",
+      "occ": 1,
+      "en": "A land snail with a hard lid, the operculum, that seals the shell when the animal withdraws.",
+      "zh": "一种陆生螺，有一块硬盖（厣），动物缩进去时就把壳封住。"
+    },
+    {
+      "at": "the Ant-lion",
+      "occ": 1,
+      "en": "The larva of a lacewing-like insect that waits at the bottom of a funnel dug in sand for ants to fall in.",
+      "zh": "蚁狮，一种类似草蛉的昆虫的幼虫，守在沙里挖的漏斗形陷坑底部，等蚂蚁掉进来。"
+    },
+    {
+      "at": "some special pepsine",
+      "occ": 1,
+      "en": "Pepsin is a digestive enzyme of the stomach; Fabre means a digestive juice of the glow-worm’s own.",
+      "zh": "胃蛋白酶是胃里的一种消化酶；法布尔指的是萤火虫自己的某种消化液。"
+    },
+    {
+      "at": "phosphorus, in the chemist's sense of the word",
+      "occ": 1,
+      "en": "The element phosphorus glows in air as it slowly combines with oxygen, which is how such light came to be called phosphorescence.",
+      "zh": "磷这种元素在空气中慢慢与氧化合时会发光，这类光因此被叫作“磷光”。"
+    },
+    {
+      "at": "the revolving mirror used in catching Larks",
+      "occ": 1,
+      "en": "A lark-mirror: a spinning piece of wood set with bits of mirror, whose flashes drew larks down within reach of the fowler.",
+      "zh": "诱云雀的镜子：一块嵌着小镜片的旋转木块，它的闪光把云雀引下来，落进捕鸟人够得着的地方。"
+    },
+    {
+      "at": "a regular Cyclop's eye",
+      "occ": 1,
+      "en": "The Cyclopes of Greek myth were giants with a single eye in the middle of the forehead.",
+      "zh": "希腊神话中的库克罗普斯，是额头正中只有一只眼睛的巨人。"
+    },
+    {
+      "at": "hidden under a bushel",
+      "occ": 1,
+      "en": "From the Gospel of Matthew: no one lights a lamp to put it under a bushel, a grain measure.",
+      "zh": "语出《马太福音》：人点灯，不放在斗底下。斗是量谷物的器具。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "In conversing with animals, language loses nothing by remaining juvenile.",
+      "en": "Fabre’s whole method is in this line: plain words, close attention, and no pretence of knowing more than he has seen.",
+      "zh": "法布尔的全部方法都在这一句里：朴素的语言，专注的观察，不假装知道比自己看到的更多的东西。"
+    },
+    {
+      "at": "My hand is not so steady nor my sight so good as once they were",
+      "en": "He wrote this near the end of a very long life. The admission comes in the middle of a dissection, and then he goes on dissecting.",
+      "zh": "他写这些话时，已经走到漫长一生的尽头。这句坦白出现在一次解剖的中途，说完，他接着解剖。"
+    },
+    {
+      "at": "the secret of animal physics, which is deeper than the physics of the books",
+      "en": "By the time he wrote, the French physiologist Raphaël Dubois had already traced such light to a substance he named luciferin, acting with an enzyme, luciferase, and oxygen: a slow oxidation, as Fabre guessed. Why the eggs and grubs glow is still argued over; one idea is that the light warns that they taste bad.",
+      "zh": "在他写这篇文章的时候，法国生理学家拉斐尔·迪布瓦早已把这种光追溯到一种他命名为荧光素的物质，在荧光素酶和氧的作用下发光：正如法布尔所猜，是一种缓慢的氧化。卵和幼虫为什么发光，至今仍有争论；有一种看法认为，这光是在警告捕食者它们味道不好。"
+    }
+  ],
+  "pairs": [
+    "S-006013",
+    "S-006205",
+    "S-009202"
+  ]
+}

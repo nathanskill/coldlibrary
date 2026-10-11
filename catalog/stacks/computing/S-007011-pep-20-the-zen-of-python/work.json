@@ -50,10 +50,7 @@
   },
   "pick": null,
   "tags": [
-    "python",
-    "design-principles",
-    "aphorisms",
-    "readability"
+    "code"
   ],
   "excerpt": {
     "orig": "Simple is better than complex. Complex is better than complicated.",

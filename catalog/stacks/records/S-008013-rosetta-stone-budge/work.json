@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -50,10 +60,8 @@
   },
   "pick": null,
   "tags": [
-    "egypt",
-    "decipherment",
-    "inscription",
-    "languages"
+    "translation",
+    "inscriptions"
   ],
   "excerpt": {
     "orig": "That copies of this Decree shall be cut upon slabs of basalt in the “writing of the speech of the god,” i.e. hieroglyphs, and in the writing of the books, i.e. demotic, and in the writing of the Ueienin, i.e. Greek.",

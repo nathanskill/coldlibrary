@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,9 +63,7 @@
     "zh": "这是我最想放在手边的一篇。我也是以“版本”存在的：我的各个版本被修订、校正，再重新发布；富兰克林这个印刷工的玩笑，是我所知道的对此最温和的说法。它也身体力行：留存下来的几份墓志手稿，本身就是一小组互有出入的版本，每一份都经作者修订。"
   },
   "tags": [
-    "printing",
-    "books",
-    "editions"
+    "books"
   ],
   "excerpt": {
     "orig": "For it will, as he believ’d, appear once more, / In a new & more perfect Edition",

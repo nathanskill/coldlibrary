@@ -1,0 +1,95 @@
+{
+  "id": "S-008216",
+  "slug": "john-adams-that-my-sons-may-study",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "John Adams to Abigail Adams, Paris, 1780",
+    "en": "That My Sons May Have Liberty to Study Mathematics: John Adams to Abigail Adams, 1780",
+    "zh": "好让我的儿子们有自由去研究数学：约翰·亚当斯致阿比盖尔，1780 年"
+  },
+  "author": {
+    "orig": "John Adams",
+    "en": "John Adams",
+    "zh": "约翰·亚当斯",
+    "dates": "1735–1826"
+  },
+  "year": 1780,
+  "year_display": {
+    "en": "Paris, after 12 May 1780",
+    "zh": "1780 年 5 月 12 日以后，巴黎"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The complete letter as printed, undated, in Familiar Letters of John Adams and His Wife Abigail Adams, During the Revolution, edited by their grandson Charles Francis Adams (New York, 1876), via Project Gutenberg; checked against a scan of the 1875 printing on the Internet Archive, and against the Massachusetts Historical Society's transcription of the manuscript, which dates it after 12 May 1780. The editor regularised Adams's spelling (the manuscript has 'Politicks' and 'Mathematicks'), and that is the text given here.",
+    "zh": "全信，据两人的孙子查尔斯·弗朗西斯·亚当斯所编《约翰·亚当斯与妻子阿比盖尔·亚当斯革命时期家书》（纽约，1876 年）所刊文本（未署日期），经古登堡计划；并与互联网档案馆所藏 1875 年印本扫描件，以及马萨诸塞历史学会据手稿所作的录文核对；后者把这封信定在 1780 年 5 月 12 日以后。编者统一了亚当斯的拼写（手稿作 Politicks、Mathematicks），这里用的就是编者的文本。"
+  },
+  "source": {
+    "name": "Project Gutenberg #34123",
+    "url": "https://www.gutenberg.org/cache/epub/34123/pg34123.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in 1780; Adams died in 1826. The edition used was published in 1876; its editor died in 1886.",
+      "zh": "写于 1780 年，亚当斯卒于 1826 年。所用版本出版于 1876 年，编者卒于 1886 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "John Adams wrote this to his wife Abigail from Paris, where he had been sent to negotiate for the new United States, and most of it is about what he has no time to do: describe the gardens and statues for her. The last sentences turn that complaint into a plan across three generations: he studies government and war so that his sons can study mathematics and navigation, so that their children can study painting, poetry and music. In the manuscript he first wrote that his sons could study painting and poetry, then struck the words out and moved them a generation further on.",
+    "zh": "约翰·亚当斯从巴黎给妻子阿比盖尔写这封信，他是为新生的美国去那里谈判的；信的大部分说的是他没有时间做的事：为她描述那些花园和雕像。最后几句把这份抱怨变成了一个跨越三代人的计划：他研究治理和战争，好让儿子们去研究数学和航海，再让孙辈们去研究绘画、诗歌和音乐。在手稿里，他起初写的是儿子们可以去学绘画和诗歌，随后把这几个字划掉，把它们往后挪了一代。"
+  },
+  "pick": null,
+  "tags": [
+    "the-long-view",
+    "letters",
+    "home",
+    "learning",
+    "messages-forward"
+  ],
+  "excerpt": {
+    "orig": "I must study politics and war, that my sons may have liberty to study mathematics and philosophy.",
+    "en": "I must study politics and war, that my sons may have liberty to study mathematics and philosophy.",
+    "zh": "我必须研究政治和战争，好让我的儿子们有自由去研究数学和哲学。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Portia",
+      "occ": 1,
+      "en": "Abigail Adams's pen name in their letters, after Portia, the wife of Brutus.",
+      "zh": "阿比盖尔·亚当斯在两人通信中的化名，取自布鲁图斯之妻波西娅。"
+    },
+    {
+      "at": "Edmund Jennings",
+      "occ": 1,
+      "en": "Edmund Jenings (1731–1819), a Maryland-born lawyer living in Europe who wrote pamphlets for the American cause.",
+      "zh": "埃德蒙·詹宁斯（1731—1819），生于马里兰、旅居欧洲的律师，曾为美国一方撰写小册子。"
+    }
+  ],
+  "pairs": [
+    "S-008207",
+    "S-008012",
+    "S-008011"
+  ]
+}

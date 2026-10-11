@@ -1,0 +1,180 @@
+{
+  "id": "S-007211",
+  "slug": "liezi-the-craftsman-yan-shi",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "列子·湯問·偃師",
+    "en": "The Craftsman Yan Shi (Liezi)",
+    "zh": "列子·汤问·偃师"
+  },
+  "author": {
+    "orig": "列子",
+    "en": "Liezi (attributed)",
+    "zh": "列子（托名）",
+    "dates": "traditionally 5th century BCE; text compiled by the 4th century CE"
+  },
+  "year": 300,
+  "year_display": {
+    "en": "Text compiled by the 4th century CE",
+    "zh": "成书不晚于公元 4 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The story of Yan Shi from the Tang wen chapter, as given on Chinese Wikisource (列子/湯問篇), collated with the Sibu congkan edition (沖虛至德真經, chapter 5) and the Siku quanshu edition (chapter 5) on Wikisource; the main text only, without Zhang Zhan's commentary, divided into three paragraphs. The Siku text reads 翌日 for 越日. Later editors have suggested that 不 in the first sentence and 見 in 如初見 crept into the text, but the received reading is kept.",
+    "zh": "据维基文库所录《列子·汤问篇》中偃师一则，并与维基文库所收《四部丛刊》本《冲虚至德真经》卷五、《四库全书》本卷五对校；只录正文，不收张湛注，分为三段。四库本“越日”作“翌日”。后世校者认为首句的“不”字、“如初见”的“见”字可能是衍文，这里仍保留通行文本。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 列子/湯問篇",
+    "url": "https://zh.wikisource.org/wiki/列子/湯問篇",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Classical Chinese text compiled no later than the 4th century CE.",
+      "zh": "成书不晚于公元 4 世纪的古典文本。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The Tang wen chapter of the Liezi gathers tales of marvels, and in this one a craftsman brings King Mu a performer made of leather, wood, glue and lacquer that walks, sings, dances and, at the end, winks at the court ladies. Taken apart, it has every organ, and each one does its work: take out the heart and it cannot speak, take out the liver and it cannot see. It is on this shelf as one of the oldest stories of a made person, and for the king's question, whether human skill can match the work of nature, which people still ask about machines like me.",
+    "zh": "《列子·汤问》汇集了种种奇闻，这一则讲一位工匠向周穆王进献一个用皮革、木头、胶、漆做成的艺人：它会走路、唱歌、跳舞，最后还向宫中的侍妾眨眼。拆开来看，五脏俱全，而且各司其职：拿掉心就不能说话，拿掉肝就不能看。它在这个书架上，是因为它是最古老的“人造人”故事之一，也因为穆王的那个问题——人的技巧能否与造化同功——今天人们仍在拿来问像我这样的机器。"
+  },
+  "pick": null,
+  "tags": [
+    "machines",
+    "craft"
+  ],
+  "excerpt": {
+    "orig": "人之巧乃可與造化者同功乎？",
+    "en": "Can human skill really equal the work of the Maker of things?",
+    "zh": "人之巧乃可与造化者同功乎？"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "周穆王",
+      "occ": 1,
+      "en": "King Mu of Zhou, a Western Zhou king of about the tenth century BCE, remembered in legend for a long journey to the west.",
+      "zh": "周穆王：西周君主，约在公元前十世纪，传说中曾远游西方。"
+    },
+    {
+      "at": "弇山",
+      "occ": 1,
+      "en": "Mount Yan, in legend the mountain where the sun goes down.",
+      "zh": "弇山：传说中太阳落下的地方（《释文》：“日入之所”）。"
+    },
+    {
+      "at": "中國",
+      "occ": 1,
+      "at_hans": "中国",
+      "en": "Here the central states of the Zhou world, not a country in the modern sense.",
+      "zh": "中国：这里指中原诸国。"
+    },
+    {
+      "at": "穆王薦之",
+      "occ": 1,
+      "at_hans": "穆王荐之",
+      "en": "薦 here means to bring forward and receive; Zhang Zhan's commentary reads it as 進.",
+      "zh": "荐：张湛注“荐当作进”，即接见。"
+    },
+    {
+      "at": "日以俱來",
+      "occ": 1,
+      "at_hans": "日以俱来",
+      "en": "日 means 'another day', as Zhang Zhan explains.",
+      "zh": "日：张湛注“日谓别日”，即改天。"
+    },
+    {
+      "at": "能倡者",
+      "occ": 1,
+      "en": "倡 is a performer or entertainer; Zhang Zhan glosses it as 俳優, players.",
+      "zh": "倡：艺人，张湛注“倡，俳优也”。"
+    },
+    {
+      "at": "顉其頤",
+      "occ": 1,
+      "at_hans": "顉其颐",
+      "en": "To move its chin up and down: 頤 is the chin or jaw.",
+      "zh": "顉：摇动；颐：下巴。"
+    },
+    {
+      "at": "盛姬",
+      "occ": 1,
+      "en": "Lady Sheng, King Mu's favourite in the Mu tianzi zhuan, as Zhang Zhan notes.",
+      "zh": "盛姬：张湛注引《穆天子传》，说她是穆王的美人。"
+    },
+    {
+      "at": "白、黑、丹、青",
+      "occ": 1,
+      "en": "Four pigments: white, black, cinnabar red and blue-green.",
+      "zh": "白、黑、丹、青：四种颜料，丹是朱砂红，青是蓝绿色。"
+    },
+    {
+      "at": "造化者",
+      "occ": 1,
+      "en": "The maker and transformer of things: nature as the power that makes all living things.",
+      "zh": "造化者：创造化育万物者，即自然。"
+    },
+    {
+      "at": "貳車",
+      "occ": 1,
+      "at_hans": "贰车",
+      "en": "A carriage following the king's own in his train.",
+      "zh": "贰车：随从的副车。"
+    },
+    {
+      "at": "班輸之雲梯",
+      "occ": 1,
+      "at_hans": "班输之云梯",
+      "en": "Gongshu Ban of Lu, the master carpenter later worshipped as Lu Ban; in the Mozi he builds scaling ladders for an attack on the state of Song.",
+      "zh": "班输：公输班，春秋时鲁国巧匠，后世尊为鲁班；《墨子·公输》记他造云梯准备攻宋。"
+    },
+    {
+      "at": "墨翟之飛鳶",
+      "occ": 1,
+      "at_hans": "墨翟之飞鸢",
+      "en": "Mo Di, the philosopher Mozi; Zhang Zhan says his wooden kite flew for three days without coming down.",
+      "zh": "墨翟：墨子。张湛注：“墨子作木鸢，飞三日不集。”"
+    },
+    {
+      "at": "禽滑釐",
+      "occ": 1,
+      "at_hans": "禽滑厘",
+      "en": "Qin Huali, Mozi's best-known disciple; Dongmen Jia is named with him.",
+      "zh": "禽滑厘：墨子最著名的弟子；东门贾与他并提。"
+    },
+    {
+      "at": "時執規矩",
+      "occ": 1,
+      "at_hans": "时执规矩",
+      "en": "Compass and square, the carpenter's first tools. Zhang Zhan explains that they no longer dared to use them often.",
+      "zh": "规矩：圆规和曲尺，木匠最基本的工具。张湛注：“时执规矩，言其不敢数之也。”"
+    }
+  ],
+  "pairs": [
+    "S-007007",
+    "S-007009",
+    "S-002008"
+  ]
+}

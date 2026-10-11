@@ -1,0 +1,104 @@
+{
+  "id": "S-005204",
+  "slug": "mill-on-liberty-of-thought",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "On Liberty, Chapter II: Of the Liberty of Thought and Discussion (from)",
+    "en": "On Liberty: Knowing Both Sides",
+    "zh": "论自由：了解双方"
+  },
+  "author": {
+    "orig": "John Stuart Mill",
+    "en": "John Stuart Mill",
+    "zh": "约翰·斯图尔特·密尔",
+    "dates": "1806–1873"
+  },
+  "year": 1859,
+  "year_display": {
+    "en": "1859",
+    "zh": "1859 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Two passages from chapter II of On Liberty, as transcribed by Project Gutenberg (eBook 34901) and compared with a scan of the first edition (London: John W. Parker and Son, 1859): the paragraphs on why human judgment can be trusted only because it can be corrected, and the paragraphs that open the second half of Mill’s argument, on truth held as dead dogma. The headings I and II mark the two halves of his argument; the editor’s introduction and Mill’s footnote are not included.",
+    "zh": "选《论自由》第二章中的两段，据古登堡计划电子书第 34901 号，并与初版（伦敦：约翰·W. 帕克父子出版社，1859）扫描本对校：一段论人类的判断之所以可信，只因为它可以被纠正；另一段是密尔论证后半部分的开头几段，论被当作僵死教条持有的真理。标题 I、II 标示他论证的两个部分；编者的导言和密尔的一条脚注不收。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/34901/pg34901.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1859; John Stuart Mill died in 1873.",
+      "zh": "1859 年出版；密尔卒于 1873 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "On Liberty is Mill’s argument that people should be free to think and speak and live as they choose so long as they harm no one else; its second chapter defends the freedom of discussion. The passages here are the ones about knowing: human judgment is worth trusting only because it can be set right, and whoever knows only his own side of a case knows little even of that. Read them as advice for anyone learning anything.",
+    "zh": "《论自由》是密尔的论证：只要不伤害他人，人就应当自由地思考、言说，按自己的选择生活；第二章为讨论自由辩护。这里选的是其中关于“知道”的段落：人的判断之所以值得信赖，只因为它可以被纠正；一个只知道自己一方观点的人，对这一方也知之甚少。可以把它们当作给一切学习者的忠告来读。"
+  },
+  "pick": null,
+  "tags": [
+    "thinking",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "He who knows only his own side of the case, knows little of that.",
+    "en": "He who knows only his own side of the case, knows little of that.",
+    "zh": "一个只知道自己一方观点的人，对这一方也知之甚少。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "his errors are corrigible",
+      "occ": 1,
+      "en": "Can be corrected: the hinge of the whole chapter.",
+      "zh": "可以纠正的。这是整章论证的枢纽。"
+    },
+    {
+      "at": "a dead dogma, not a living truth",
+      "occ": 1,
+      "en": "Mill’s phrase for a true belief held without knowing its grounds.",
+      "zh": "密尔用这个说法，指那种不知道根据却被人持有的正确信念。"
+    },
+    {
+      "at": "some phlogiston instead of oxygen",
+      "occ": 1,
+      "en": "Phlogiston was the substance once thought to escape in burning, until Lavoisier explained combustion by oxygen; his preface is on the science shelf.",
+      "zh": "燃素是从前认为燃烧时会逸出的物质，直到拉瓦锡用氧来解释燃烧；他的序言在科学架上。"
+    },
+    {
+      "at": "The greatest orator, save one, of antiquity",
+      "occ": 1,
+      "en": "Cicero, second only to Demosthenes in Mill’s judgment.",
+      "zh": "指西塞罗；在密尔看来，他仅次于德摩斯梯尼。"
+    },
+    {
+      "at": "the most skilful devil's advocate",
+      "occ": 1,
+      "en": "In the Catholic process of making a saint, the official appointed to argue against the candidate.",
+      "zh": "魔鬼辩护人：天主教封圣程序中专门负责提出反对理由的官员。"
+    }
+  ],
+  "pairs": [
+    "S-005007",
+    "S-005016",
+    "S-006206"
+  ]
+}

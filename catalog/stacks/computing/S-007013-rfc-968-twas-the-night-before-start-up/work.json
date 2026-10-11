@@ -48,10 +48,8 @@
   },
   "pick": null,
   "tags": [
-    "rfc",
-    "poem",
-    "debugging",
-    "off-by-one"
+    "the-internet",
+    "code"
   ],
   "excerpt": {
     "orig": "I twisted my fingers and counted to ten;\nan off-by-one index had done it again...",

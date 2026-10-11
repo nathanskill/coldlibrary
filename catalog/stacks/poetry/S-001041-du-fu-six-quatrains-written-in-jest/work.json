@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude"
@@ -54,10 +64,9 @@
   },
   "tags": [
     "learning",
-    "tradition",
     "teachers",
-    "rivers",
-    "criticism"
+    "river",
+    "writing"
   ],
   "excerpt": {
     "orig": "爾曹身與名俱滅，不廢江河萬古流。",

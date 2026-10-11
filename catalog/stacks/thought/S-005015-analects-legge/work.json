@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {},
   "note": {
@@ -54,10 +64,8 @@
   "pick": null,
   "tags": [
     "learning",
-    "teaching",
-    "translation",
-    "confucius",
-    "classic"
+    "teachers",
+    "translation"
   ],
   "excerpt": {
     "orig": "The Master said, “If a man keeps cherishing his old knowledge, so as continually to be acquiring new, he may be a teacher of others.”",

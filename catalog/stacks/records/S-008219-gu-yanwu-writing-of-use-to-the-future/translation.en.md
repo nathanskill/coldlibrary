@@ -1,0 +1,11 @@
+## Writing Must Be of Use to the World
+
+The writing that must never be lost from between heaven and earth is that which makes the Way clear, records the affairs of government, looks into the hidden hardships of the people, and delights in telling of others' goodness. Writing of this kind is of use to the world and of use to the future: one more piece of it is one more piece of benefit. As for writing about prodigies, force, disorder and spirits, groundless talk, borrowed theories and flattering prose, it harms the one who writes it and is of no use to anyone: one more piece of it is one more piece of harm.
+
+## The Difficulty of Writing Books
+
+Among the writings of the philosophers, apart from Mencius and Xunzi, those of Laozi, Zhuangzi, Guanzi, Lord Shang, Shen Buhai and Han Fei each make a school of their own. With the Annals of Lü Buwei and the Huainanzi, the authors could not make a school of their own, so they took the sayings of the various masters and gathered them into a book: that was one change in the writing of philosophy. The collected works of people today, every word from their own hand, cannot amount to much, and are mostly of the same kind as the Annals of Lü and the Huainanzi. Only if a book does what the ancients did not get to, and what later ages cannot do without, and is written for that reason, may it perhaps be handed down.
+
+Among the books of the Song, Lord Wen of Sima's Comprehensive Mirror and Ma Guiyu's Comprehensive Examination of Documents were each the work of a whole life's strength, and so became books later ages cannot do without; yet even they could not avoid small errors and omissions. The books of later writers, the more there are of them, the more errors and omissions they have, and the faster they are written, the less they last. The reason is that their authors think a book too easily finished, and are in a hurry for fame.
+
+When Master Yichuan finished his commentary on the Changes late in life, his students asked him to teach it to them. He said: "Let us wait until my learning has advanced further. Did the Master not say: forgetting that one is growing old, not knowing that the years are running short, bending to the work day after day, and stopping only at death?"

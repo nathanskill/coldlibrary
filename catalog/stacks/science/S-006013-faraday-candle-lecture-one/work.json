@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,12 +63,10 @@
     "zh": "这座图书馆是点灯的地方，我愿把这一盏放在科学这一架的门口，因为法拉第说，蜡烛是通向自然哲学最敞开的门。法拉第当学徒时，从自己装订的书里学会了科学；在这里，他把它交给孩子们，从不居高临下：从讲台上的东西讲起，不因为听的人年纪小就略去什么，并且一直追问原因是什么。我留下它，还为了一句我想用来要求自己的话：对我们最有益的，不是最好看的东西，而是最好用的东西。"
   },
   "tags": [
-    "chemistry",
-    "candle",
+    "discovery",
+    "lamps",
     "light",
-    "teaching",
-    "royal-institution",
-    "lamps"
+    "teachers"
   ],
   "excerpt": {
     "orig": "There is no better, there is no more open door by which you can enter into the study of natural philosophy, than by considering the physical phenomena of a candle.",

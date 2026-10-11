@@ -1,0 +1,111 @@
+{
+  "id": "S-008212",
+  "slug": "hammurabi-for-all-future-time",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Codex Hammurabi, epilogue (extracts)",
+    "en": "For All Future Time: From the Epilogue to the Laws of Hammurabi",
+    "zh": "为了未来的所有时代：《汉谟拉比法典》结语选段"
+  },
+  "author": {
+    "orig": "Hammurabi",
+    "en": "Hammurabi, king of Babylon",
+    "zh": "巴比伦王汉谟拉比",
+    "dates": "reigned c. 1792–1750 BCE"
+  },
+  "year": -1754,
+  "year_display": {
+    "en": "c. 1754 BCE",
+    "zh": "约公元前 1754 年"
+  },
+  "translator": {
+    "name": "Robert Francis Harper",
+    "dates": "1864–1914",
+    "year": 1904
+  },
+  "orig_lang": "akk",
+  "edition": {
+    "en": "From the epilogue in Robert Francis Harper's translation, The Code of Hammurabi, King of Babylon (University of Chicago Press, 1904), as transcribed on English Wikisource; checked against the scan of the 1904 printing on the Internet Archive, from which one word is corrected (statues for statutes). The opening paragraph of the epilogue, a short damaged passage and the long series of curses at the end are omitted; the gap is marked with a section break.",
+    "zh": "选自罗伯特·弗朗西斯·哈珀英译《巴比伦王汉谟拉比法典》（芝加哥大学出版社，1904 年）的结语，据英文维基文库的录文；并与互联网档案馆所藏 1904 年印本扫描件核对，据扫描件改正一词（statutes 作 statues）。结语的第一段、一小段残缺文字，以及末尾长长的一串诅咒从略，删节处以分隔符标出。"
+  },
+  "source": {
+    "name": "Wikisource (en), The Code of Hammurabi (Harper translation)",
+    "url": "https://en.wikisource.org/wiki/The_Code_of_Hammurabi_(Harper_translation)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "The laws were inscribed in the eighteenth century BCE. Harper's translation was published in 1904; he died in 1914.",
+      "zh": "法典刻于公元前十八世纪。哈珀的译本出版于 1904 年，译者卒于 1914 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The laws of Hammurabi were carved on a basalt stele more than two metres tall, now in the Louvre, which was found at Susa in 1901, where it had been carried off as booty centuries after it was made. The epilogue addresses two readers who had not yet been born: any wronged person who comes to stand before the stone and read it, and any future king who will rule the land. It is on this shelf for that first reader, invited to find their own case in the inscription and set their heart at ease.",
+    "zh": "汉谟拉比的法律刻在一块两米多高的玄武岩石碑上，如今藏于卢浮宫。石碑于 1901 年在苏萨出土，它是在刻成几百年之后被当作战利品运到那里的。结语写给两种当时还没有出生的读者：任何蒙冤而来到石碑前诵读它的人，以及将来统治这片土地的任何君王。它在这个书架上，是为了那第一位读者：他被邀请在铭文中找到自己的案情，从而心安。"
+  },
+  "pick": null,
+  "tags": [
+    "inscriptions",
+    "messages-forward",
+    "how-to-live",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "Let any oppressed man, who has a cause, come before my image as king of righteousness! Let him read the inscription on my monument!",
+    "en": "Let any oppressed man, who has a cause, come before my image as king of righteousness! Let him read the inscription on my monument!",
+    "zh": "任何受压迫、有冤情的人，都可以来到我这位公正之王的像前！让他读我石碑上的铭文！"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Sumer and Akkad",
+      "occ": 1,
+      "en": "The south and north of Mesopotamia, the old name for the whole land.",
+      "zh": "美索不达米亚的南部和北部，古时用来称呼整个地区。"
+    },
+    {
+      "at": "Esagila",
+      "occ": 1,
+      "en": "The great temple of Marduk in Babylon, where a copy of the stele seems to have stood.",
+      "zh": "巴比伦的马尔杜克大神庙；石碑的一个副本似乎曾立在那里。"
+    },
+    {
+      "at": "Shamash",
+      "occ": 1,
+      "en": "The sun god and god of justice, shown at the top of the stele handing Hammurabi the rod and ring of kingship.",
+      "zh": "太阳神和正义之神。石碑顶部的浮雕刻着他把象征王权的杖和环交给汉谟拉比。"
+    },
+    {
+      "at": "Black-Head people",
+      "occ": 1,
+      "en": "A Sumerian and Akkadian name for the people of Mesopotamia.",
+      "zh": "苏美尔语和阿卡德语中对美索不达米亚人民的称呼。"
+    }
+  ],
+  "pairs": [
+    "S-008013",
+    "S-008021",
+    "S-008001"
+  ]
+}

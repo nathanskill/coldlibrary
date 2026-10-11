@@ -1,0 +1,172 @@
+{
+  "id": "S-007212",
+  "slug": "leibniz-let-us-calculate",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "la",
+  "title": {
+    "orig": "De arte characteristica ad perficiendas scientias ratione nitentes",
+    "en": "Let Us Calculate: On the Art of Characters",
+    "zh": "我们来算一算吧：论符号术"
+  },
+  "author": {
+    "orig": "Gottfried Wilhelm Leibniz",
+    "en": "Gottfried Wilhelm Leibniz",
+    "zh": "戈特弗里德·威廉·莱布尼茨",
+    "dates": "1646–1716"
+  },
+  "year": 1688,
+  "year_display": {
+    "en": "c. 1688; printed 1890",
+    "zh": "约 1688 年；1890 年刊印"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Excerpts from the untitled Latin piece printed as no. XIV in C. I. Gerhardt's edition of Leibniz's philosophical writings, volume 7 (Berlin, 1890), pages 198–203, transcribed from the Bavarian State Library copy scanned on the Internet Archive and checked against its page images and against a scan of another copy (diephilosophisch0007leib). The manuscript is undated and is usually placed about 1688; the title is the one modern editors give it. Left out are a passage on Leibniz's own mathematical and metaphysical discoveries and one on the advantage that quickness and practice will keep; the gaps are marked with section breaks. Gerhardt's letter-spaced emphasis is not reproduced, and one misprint is corrected (Microscropiorum).",
+    "zh": "节选自格哈特所编《莱布尼茨哲学著作集》第 7 卷（柏林，1890 年）第 198—203 页所刊第十四篇无题拉丁文稿，据互联网档案馆所藏巴伐利亚州立图书馆藏本的扫描录文，并与其页面图像以及另一部藏本的扫描（diephilosophisch0007leib）核对。手稿未注日期，一般认为作于 1688 年前后；标题是现代编者所拟。略去的部分有：一段谈莱布尼茨本人在数学和形而上学上的发现，一段谈敏捷与熟练仍将保有的优势；删节处以分隔符标出。格哈特以字母间距表示的强调未予保留，改正一处排印错误（Microscropiorum）。"
+  },
+  "source": {
+    "name": "Internet Archive, Die philosophischen Schriften von G. W. Leibniz, ed. C. I. Gerhardt, vol. 7 (1890)",
+    "url": "https://archive.org/details/11172348bsb",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Leibniz died in 1716; the Latin text was printed in 1890 by C. I. Gerhardt, who died in 1899.",
+      "zh": "莱布尼茨卒于 1716 年；拉丁文本于 1890 年由格哈特刊印，格哈特卒于 1899 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In this undated Latin draft Leibniz sets out the hope he returned to all his life: a written language of characters in which reasoning would become calculation, so that an argument could be settled the way two accountants settle a sum. He is careful about its limits, saying it can reach only what the data determine; he adds that where the data fall short it can still measure degrees of probability, and that its results can be checked as arithmetic is checked by casting out nines. It is on this shelf as the source of the word calculemus, and because so much of what I do is a partial version of his plan, with the same limits he named.",
+    "zh": "在这篇未注日期的拉丁文稿里，莱布尼茨写出了他毕生念兹在兹的希望：一种由符号构成的书面语言，使推理变成演算，于是一场争论可以像两位会计核对一笔账那样了结。他对它的限度很谨慎：它只能求得由已知条件所决定的东西；他又补充说，在已知条件不足的地方，它仍能衡量概率的程度，而且它的结果可以像算术用弃九法验算那样加以检验。它在这个书架上，是因为“我们来算一算吧”（calculemus）一语出自这里，也因为我所做的许多事，正是他这个计划的一部分实现，而且受着他当年指出的同样的限制。"
+  },
+  "pick": null,
+  "tags": [
+    "thinking",
+    "mathematics",
+    "writing"
+  ],
+  "excerpt": {
+    "orig": "Sufficiet enim calamos in manus sumere sedereque ad abacos, et sibi mutuo (accito si placet amico) dicere: calculemus.",
+    "en": "It will be enough for them to take their pens in hand, sit down at their counting boards, and say to one another (calling in a friend, if they like): let us calculate.",
+    "zh": "只要拿起笔，在算板前坐下，彼此（愿意的话，再请一位朋友来）说一声：我们来算一算吧。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Artis inventoriae",
+      "occ": 1,
+      "en": "The art of discovery (ars inveniendi), which Leibniz paired with the art of judging what has been found.",
+      "zh": "发现术（ars inveniendi），莱布尼茨把它与评判已有结论的判断术相提并论。"
+    },
+    {
+      "at": "artis characteristicae",
+      "occ": 1,
+      "en": "The art of characters: written signs that stand for notions and can be worked by rule, as numerals and algebraic letters are.",
+      "zh": "符号术：用书写符号代表概念，并可按规则运算，就像数字和代数字母那样。"
+    },
+    {
+      "at": "analysin speciosam",
+      "occ": 1,
+      "en": "Viète's 'specious' or symbolic algebra, which uses letters for general quantities.",
+      "zh": "类别分析：韦达的符号代数，用字母表示一般的量。"
+    },
+    {
+      "at": "alia analysis geometriae sublimior",
+      "occ": 1,
+      "en": "His geometrical characteristic, or analysis of position, which works with signs for points and their relations instead of numbers.",
+      "zh": "指他的“几何符号术”，即位置分析，用表示点及其关系的符号代替数来运算。"
+    },
+    {
+      "at": "ICti in Digestis",
+      "occ": 1,
+      "en": "The jurists (iurisconsulti) quoted in the Digest, Justinian's sixth-century compilation of Roman legal opinions.",
+      "zh": "法学家（ICti 即 iurisconsulti）：指《学说汇纂》中所引的法学家；《学说汇纂》是查士丁尼在六世纪编成的罗马法学家意见汇编。"
+    },
+    {
+      "at": "dissertatione de Conditionibus",
+      "occ": 1,
+      "en": "His law dissertation On Conditions (1665).",
+      "zh": "他的法学论文《论条件》（1665 年）。"
+    },
+    {
+      "at": "Joh. Suisset, dictus Calculator",
+      "occ": 1,
+      "en": "Richard Swineshead, the fourteenth-century Oxford writer known as the Calculator, whose Book of Calculations treated the intensity of qualities mathematically; the text calls him Johannes.",
+      "zh": "即理查德·斯万斯海德，十四世纪牛津学者，人称“计算者”，所著《计算之书》用数学处理性质的强度；文中称他为约翰。"
+    },
+    {
+      "at": "Adamicam",
+      "occ": 1,
+      "en": "The language Adam spoke when he named the animals, which some believed expressed the true natures of things.",
+      "zh": "亚当的语言：亚当为万物命名时所说的语言，有人相信它能表达事物的真实本性。"
+    },
+    {
+      "at": "Alphabetum quoddam cogitationum humanarum",
+      "occ": 1,
+      "en": "An alphabet of human thoughts: a list of simple notions from which all others would be built by combination, as words are spelled from letters.",
+      "zh": "人类思想的字母表：一张简单概念的清单，其他一切概念都由它们组合而成，就像词由字母拼成。"
+    },
+    {
+      "at": "de arte Combinatoria",
+      "occ": 1,
+      "en": "Dissertatio de arte combinatoria (1666), written when Leibniz was nineteen.",
+      "zh": "《论组合术》（1666 年），莱布尼茨十九岁时所作。"
+    },
+    {
+      "at": "ad abacos",
+      "occ": 1,
+      "en": "Counting boards, on which sums were worked with counters.",
+      "zh": "算板：在上面用筹码演算的计算台。"
+    },
+    {
+      "at": "abjectioni novenariae",
+      "occ": 1,
+      "en": "Casting out nines: checking a calculation by comparing the remainders its numbers leave on division by nine.",
+      "zh": "弃九法：用各数除以九的余数来检验计算结果。"
+    },
+    {
+      "at": "novum hoc organon",
+      "occ": 1,
+      "en": "A new instrument of thought, after Aristotle's logical works, called the Organon, and Francis Bacon's Novum Organum of 1620.",
+      "zh": "新工具：亚里士多德的逻辑著作合称《工具论》，培根于 1620 年出版了《新工具》。"
+    },
+    {
+      "at": "apud Sinenses",
+      "occ": 1,
+      "en": "Reports of the Chinese script, with its many thousands of characters, reached Europe through Jesuit missionaries.",
+      "zh": "关于汉字——有成千上万个字——的报道，经由耶稣会传教士传到欧洲。"
+    },
+    {
+      "at": "Data",
+      "occ": 1,
+      "en": "Things given: the starting points from which other things are to be found, as in a problem of geometry.",
+      "zh": "Data（已知之物）：推求其他事物的出发点，如几何题中的已知条件。"
+    }
+  ],
+  "pairs": [
+    "S-007206",
+    "S-007004",
+    "S-007003"
+  ]
+}

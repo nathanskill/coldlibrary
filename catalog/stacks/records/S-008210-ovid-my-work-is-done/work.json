@@ -1,0 +1,101 @@
+{
+  "id": "S-008210",
+  "slug": "ovid-my-work-is-done",
+  "shelf": "records",
+  "form": "verse",
+  "lang": "la",
+  "title": {
+    "orig": "Metamorphoses XV, 871–879",
+    "en": "And Now My Work Is Done: The Last Lines of the Metamorphoses",
+    "zh": "如今我已完成：《变形记》的最后几行"
+  },
+  "author": {
+    "orig": "Publius Ovidius Naso",
+    "en": "Ovid",
+    "zh": "奥维德",
+    "dates": "43 BCE–c. 17 CE"
+  },
+  "year": 8,
+  "year_display": {
+    "en": "c. 8 CE",
+    "zh": "约公元 8 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Book XV, lines 871–879, as given on Latin Wikisource; checked against Hugo Magnus's edition (Gotha, 1892) in the Perseus Digital Library, which differs only in writing siquid for si quid.",
+    "zh": "第十五卷第 871—879 行，据拉丁文维基文库；并与珀尔修斯数字图书馆所收雨果·马格努斯校本（哥达，1892 年）核对，两本只有 si quid 写作 siquid 的差别。"
+  },
+  "source": {
+    "name": "Wikisource (la), Metamorphoses (Ovidius)/Liber XV",
+    "url": "https://la.wikisource.org/wiki/Metamorphoses_(Ovidius)/Liber_XV",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Completed about 8 CE; Ovid died about 17 CE.",
+      "zh": "约完成于公元 8 年，奥维德约卒于公元 17 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Ovid ends fifteen books of transformations with nine lines claiming that this one thing will not change: the poem will outlast fire, iron and time, and he will be read wherever Rome's power reaches. It is the younger sister of Horace's ode on this shelf, written a generation later and finished about the time Ovid was sent into exile. The claim has held better than he could have known: the poem is read in languages and places Rome never reached.",
+    "zh": "奥维德用十五卷写尽万物的变形，最后用九行诗宣告只有一样东西不会改变：这部诗将比烈火、刀剑和时间更长久，凡是罗马权力所及之处，都会有人读他。它是本书架上贺拉斯那首颂诗的妹妹，晚了一代人，大约在奥维德被放逐的时候完成。这番宣告比他所能想到的更为灵验：如今读这部诗的，有许多是罗马从未到过的地方、从未听过的语言。"
+  },
+  "pick": null,
+  "tags": [
+    "messages-forward",
+    "writing",
+    "the-long-view",
+    "time"
+  ],
+  "excerpt": {
+    "orig": "Iamque opus exegi, quod nec Iovis ira nec ignis / nec poterit ferrum nec edax abolere vetustas.",
+    "en": "And now I have finished a work that neither Jupiter's anger nor fire nor iron nor gnawing age will be able to destroy.",
+    "zh": "如今我已完成一部作品，无论朱庇特的怒火、烈火，还是刀剑、吞噬一切的岁月，都不能将它毁灭。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Iovis ira",
+      "occ": 1,
+      "en": "The anger of Jupiter: often read as a veiled reference to Augustus, who banished Ovid to the Black Sea in 8 CE.",
+      "zh": "朱庇特的怒火：常被解读为暗指奥古斯都；公元 8 年，奥古斯都把奥维德放逐到黑海之滨。"
+    },
+    {
+      "at": "edax",
+      "occ": 1,
+      "en": "Gnawing, devouring: the same word Ovid uses earlier in Book XV, tempus edax rerum, 'time, the devourer of things'.",
+      "zh": "吞噬的。奥维德在第十五卷前面说过 tempus edax rerum：“时间，万物的吞噬者”。"
+    },
+    {
+      "at": "vatum",
+      "occ": 1,
+      "en": "Vates: poet and prophet at once, the word Augustan poets preferred for themselves.",
+      "zh": "vates：既是诗人，也是先知；奥古斯都时代的诗人喜欢这样自称。"
+    }
+  ],
+  "pairs": [
+    "S-008019",
+    "S-004002",
+    "S-008211"
+  ]
+}

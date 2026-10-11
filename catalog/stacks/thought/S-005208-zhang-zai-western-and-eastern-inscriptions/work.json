@@ -1,0 +1,202 @@
+{
+  "id": "S-005208",
+  "slug": "zhang-zai-western-and-eastern-inscriptions",
+  "shelf": "thought",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "西銘·東銘",
+    "en": "The Western and Eastern Inscriptions",
+    "zh": "西铭·东铭"
+  },
+  "author": {
+    "orig": "張載",
+    "en": "Zhang Zai",
+    "zh": "张载",
+    "dates": "1020–1077"
+  },
+  "year": 1075,
+  "year_display": {
+    "en": "c. 1070–1077",
+    "zh": "约 1070–1077 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Both inscriptions as given on Chinese Wikisource, compared with the Siku quanshu edition of the Zhangzi quanshu (books 1 and 3) in the Kanseki Repository. Where Wikisource writes 懮 the witness and the usual texts have 憂, and 錫類 (from the Zuozhuan’s 永錫爾類) is read for 賜類; the punctuation of the last sentence of the Western Inscription is corrected.",
+    "zh": "两篇铭文据维基文库，并与京都大学汉籍资料库（Kanseki Repository）所收四库全书本《张子全书》卷一、卷三对校。维基文库作“懮”处，校本及通行本作“忧”，从之；“赐类”据《左传》“永锡尔类”及校本作“锡类”；《西铭》末句的标点也已改正。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/西銘",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Northern Song prose; the author died in 1077.",
+      "zh": "北宋散文，作者卒于 1077 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Zhang Zai hung these two short texts on the west and east windows of his study, under the names Correcting Obstinacy and Curing Folly; his friend Cheng Yi renamed them, and the Western Inscription became one of the most quoted pages of Song thought. It takes the language of a family and stretches it to cover everything: Heaven and Earth as parents, all people as siblings, all things as companions. The Eastern Inscription is its plain companion, about owning the words and acts that come from you.",
+    "zh": "张载把这两篇短文分别挂在书房的西窗和东窗上，原题《订顽》《砭愚》；后来程颐为它们改了名字，《西铭》成为宋代思想中被引用最多的篇章之一。它用一个家庭的语言去覆盖一切：天地是父母，百姓是同胞，万物是同伴。《东铭》是它朴素的姊妹篇，讲的是要认下出自自己的言语和行为。"
+  },
+  "pick": null,
+  "tags": [
+    "how-to-live",
+    "home",
+    "the-long-view"
+  ],
+  "excerpt": {
+    "orig": "民，吾同胞；物，吾與也。",
+    "en": "All people are my brothers and sisters; all things are my companions.",
+    "zh": "民，吾同胞；物，吾与也。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "乾稱父，坤稱母",
+      "occ": 1,
+      "en": "Qian and Kun are the first two hexagrams of the Book of Changes, standing for Heaven and Earth.",
+      "zh": "乾、坤是《周易》的头两卦，分别代表天和地。",
+      "at_hans": "乾称父，坤称母"
+    },
+    {
+      "at": "予茲藐焉",
+      "occ": 1,
+      "en": "I, so small a thing.",
+      "zh": "我如此渺小。藐，微小。",
+      "at_hans": "予兹藐焉"
+    },
+    {
+      "at": "混然中處",
+      "occ": 1,
+      "en": "Placed in the middle of them, mingled with them into one.",
+      "zh": "混合无间地处在天地之中。",
+      "at_hans": "混然中处"
+    },
+    {
+      "at": "天地之塞，吾其體；天地之帥，吾其性",
+      "occ": 1,
+      "en": "The words come from Mencius: the vital energy that “fills” Heaven and Earth, and the will that “commands” that energy.",
+      "zh": "语出《孟子》：浩然之气“塞于天地之间”，“志，气之帅也”。塞，充塞；帅，统率。",
+      "at_hans": "天地之塞，吾其体；天地之帅，吾其性"
+    },
+    {
+      "at": "吾與也",
+      "occ": 1,
+      "en": "與: a companion, one of my kind.",
+      "zh": "与：同伴，同类。",
+      "at_hans": "吾与也"
+    },
+    {
+      "at": "宗子之家相",
+      "occ": 1,
+      "en": "The eldest son of the main line, and the steward who manages his household.",
+      "zh": "宗子，嫡长子；家相，管家。"
+    },
+    {
+      "at": "疲癃、殘疾、煢獨、鰥寡",
+      "occ": 1,
+      "en": "The infirm, the crippled and sick, those without brothers or children, the widowed and the wifeless.",
+      "zh": "疲癃，衰老多病；残疾，伤残有病；茕独，无兄弟、无子女的人；鳏寡，丧妻、丧夫的人。",
+      "at_hans": "疲癃、残疾、茕独、鳏寡"
+    },
+    {
+      "at": "顛連而無告者",
+      "occ": 1,
+      "en": "Those in hardship with no one to appeal to.",
+      "zh": "困苦而无处诉说的人。颠连，困顿。",
+      "at_hans": "颠连而无告者"
+    },
+    {
+      "at": "不愧屋漏",
+      "occ": 1,
+      "en": "From the Book of Songs: not to be ashamed even in the north-west corner of the room, the most hidden place in a house.",
+      "zh": "语出《诗经·大雅·抑》：在屋子西北角最隐蔽处也不做愧心之事。屋漏，室内西北角。"
+    },
+    {
+      "at": "崇伯子之顧養",
+      "occ": 1,
+      "en": "Yu the Great, son of Gun, lord of Chong, who according to Mencius disliked fine wine; here he cares for his parents by it.",
+      "zh": "崇伯，鲧；崇伯子，即大禹。《孟子》说禹“恶旨酒”；顾养，照顾奉养父母。",
+      "at_hans": "崇伯子之顾养"
+    },
+    {
+      "at": "潁封人之錫類",
+      "occ": 1,
+      "en": "Ying Kaoshu, border warden of Ying in the Zuozhuan, whose devotion to his mother moved his lord to filial feeling; the Zuozhuan applies to him the line “you will long bestow it on your kind”.",
+      "zh": "颍封人，即《左传》中的颍考叔，他的孝心感动了郑庄公。《左传》引《诗》“孝子不匮，永锡尔类”赞他。锡，赐予。",
+      "at_hans": "颍封人之锡类"
+    },
+    {
+      "at": "厎豫",
+      "occ": 1,
+      "en": "To bring about contentment: Mencius says Shun laboured until his difficult father was content.",
+      "zh": "使父亲欢悦。《孟子》说舜“尽事亲之道而瞽瞍厎豫”。"
+    },
+    {
+      "at": "申生其恭也",
+      "occ": 1,
+      "en": "Shensheng, heir of the state of Jin, who would not flee when falsely accused and so died obedient.",
+      "zh": "申生，春秋时晋献公的太子，被诬陷后不肯出逃，顺从而死。"
+    },
+    {
+      "at": "參乎",
+      "occ": 1,
+      "en": "Zeng Shen, Confucius’s disciple, who on his deathbed showed that he was returning his body undamaged to his parents.",
+      "zh": "曾参，孔子弟子。他临终时让弟子看自己的手足，表示把父母给的身体完整地归还。",
+      "at_hans": "参乎"
+    },
+    {
+      "at": "伯奇也",
+      "occ": 1,
+      "en": "Boqi, son of Yin Jifu, who obeyed even when driven out of his home on a stepmother’s slander.",
+      "zh": "伯奇，周代尹吉甫的儿子，被后母谗害逐出家门，仍顺从父命。"
+    },
+    {
+      "at": "庸玉汝於成也",
+      "occ": 1,
+      "en": "Will polish you like jade into what you are to become. 庸 means “by this”.",
+      "zh": "用来像琢玉一样磨炼你，使你有所成就。庸，用。",
+      "at_hans": "庸玉汝于成也"
+    },
+    {
+      "at": "戲言出于思也",
+      "occ": 1,
+      "en": "The Eastern Inscription begins here; its first title was Curing Folly.",
+      "zh": "《东铭》由此开始，原题《砭愚》。",
+      "at_hans": "戏言出于思也"
+    },
+    {
+      "at": "四支",
+      "occ": 1,
+      "en": "The four limbs, that is, one’s bodily actions.",
+      "zh": "四肢，代指行为举止。"
+    }
+  ],
+  "pairs": [
+    "S-002007",
+    "S-002005",
+    "S-005206"
+  ]
+}

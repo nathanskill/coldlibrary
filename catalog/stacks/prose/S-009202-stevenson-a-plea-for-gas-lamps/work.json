@@ -1,0 +1,153 @@
+{
+  "id": "S-009202",
+  "slug": "stevenson-a-plea-for-gas-lamps",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "A Plea for Gas Lamps",
+    "en": "A Plea for Gas Lamps",
+    "zh": "为煤气灯一辩"
+  },
+  "author": {
+    "orig": "Robert Louis Stevenson",
+    "en": "Robert Louis Stevenson",
+    "zh": "罗伯特·路易斯·史蒂文森",
+    "dates": "1850–1894"
+  },
+  "year": 1878,
+  "year_display": {
+    "en": "1878; collected in Virginibus Puerisque, 1881",
+    "zh": "1878 年；1881 年收入《致少男少女》"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The last essay of Virginibus Puerisque, and Other Papers, in the 1897 Chatto & Windus edition as transcribed by Project Gutenberg (eBook 386), collated with the first edition (London: C. Kegan Paul, 1881), which reads “advanced with another stride” where the later edition has “by another stride” and prints “back-shop” and “wild fire” as two words. The capitals of the opening word, a printer’s convention, are set in ordinary case; Stevenson’s footnotes belong to other essays in the book.",
+    "zh": "《致少男少女及其他》的最后一篇，据古登堡计划电子书第 386 号所录 1897 年查托与温达斯版，并与初版（伦敦：C. 基根·保罗出版社，1881）对校：初版作“advanced with another stride”，后来的版本作“by another stride”；初版“back-shop”“wild fire”分写。开篇首词的全大写是排印惯例，改为常规大小写；书中史蒂文森的脚注属于其他篇目。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/386/pg386.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "First published in 1878 and collected in 1881; Robert Louis Stevenson died in 1894.",
+      "zh": "1878 年首次发表，1881 年结集；史蒂文森卒于 1894 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Stevenson wrote this in 1878, when the first electric arc lamps were going up in Paris and London and the lamplighter’s evening round was coming to an end. It is a mock-heroic history of street light, from the stable lantern to the gas lamp, and a plea against the glare that was about to replace it. Read it beside his poem The Lamplighter on the poetry shelf; the man with the ladder appears in both.",
+    "zh": "史蒂文森写这篇文章是在 1878 年，那时巴黎和伦敦的街头刚刚立起第一批电弧灯，点灯人傍晚的巡行正走向尽头。这是一部仿英雄体的街灯简史，从马厩灯笼写到煤气灯，也是对即将取代它的那种强光的抗辩。可以和诗歌架上他的《点灯人》对照着读：那个扛梯子的人在两篇里都出现了。"
+  },
+  "pick": null,
+  "tags": [
+    "lamps",
+    "night",
+    "light"
+  ],
+  "excerpt": {
+    "orig": "The city-folk had stars of their own; biddable, domesticated stars.",
+    "en": "The city-folk had stars of their own; biddable, domesticated stars.",
+    "zh": "城里人有了自己的星星，驯服的、家养的星星。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "burgess-warren",
+      "occ": 1,
+      "en": "The town as a rabbit warren of burgesses, its citizens.",
+      "zh": "把城镇比作市民们的兔子窝。burgess，市民。"
+    },
+    {
+      "at": "a cresset",
+      "occ": 1,
+      "en": "An iron basket of burning pitch or wood, set on a pole or a wall as a beacon.",
+      "zh": "火篮：装着燃烧的松脂或木柴的铁篮，架在杆上或墙上当作照明。"
+    },
+    {
+      "at": "stable lanthorns two stories in height",
+      "occ": 1,
+      "en": "Lanthorn is the old spelling of lantern, from the thin plates of horn that once served as its panes.",
+      "zh": "lanthorn 是 lantern（灯笼）的旧拼法，因为早先灯笼用薄角片代替玻璃。"
+    },
+    {
+      "at": "this vagabond Pharos",
+      "occ": 1,
+      "en": "The Pharos was the great lighthouse of ancient Alexandria; here, the lantern carried through the streets.",
+      "zh": "法罗斯是古代亚历山大港的大灯塔；这里指拎着在街上走的灯笼。"
+    },
+    {
+      "at": "sorrily wading in the kennels",
+      "occ": 1,
+      "en": "A kennel is a street gutter.",
+      "zh": "kennel 在这里指街边的阴沟。"
+    },
+    {
+      "at": "The work of Prometheus",
+      "occ": 1,
+      "en": "In Greek myth Prometheus stole fire from the gods and gave it to mankind.",
+      "zh": "希腊神话中，普罗米修斯从众神那里盗火给人类。"
+    },
+    {
+      "at": "the little bull’s-eye",
+      "occ": 1,
+      "en": "A small lantern with a thick, convex glass lens, the lamplighter’s torch.",
+      "zh": "牛眼灯：装有厚凸透镜的小灯笼，点灯人用来点火的工具。"
+    },
+    {
+      "at": "from the Alexandra to the Crystal Palace",
+      "occ": 1,
+      "en": "The two great exhibition halls on the heights at the northern and southern edges of Victorian London.",
+      "zh": "亚历山德拉宫和水晶宫，维多利亚时代伦敦南北两端高地上的两座大型展览馆。"
+    },
+    {
+      "at": "Fiat Lux",
+      "occ": 1,
+      "en": "“Let there be light”: Genesis 1:3 in the Latin Bible.",
+      "zh": "“要有光”，拉丁文《圣经·创世记》第一章第三节。"
+    },
+    {
+      "at": "exercised about Thirlmere",
+      "occ": 1,
+      "en": "In the late 1870s Manchester’s plan to turn Thirlmere in the Lake District into a reservoir was opposed by artists and writers, Ruskin among them.",
+      "zh": "19 世纪 70 年代末，曼彻斯特计划把湖区的瑟尔米尔湖改成水库，遭到许多艺术家和作家反对，罗斯金也在其中。"
+    },
+    {
+      "at": "in the place before the Opera portico",
+      "occ": 1,
+      "en": "In 1878 the avenue and square before the Paris Opéra were lit by Yablochkov electric candles, among the first electric street lamps.",
+      "zh": "1878 年，巴黎歌剧院前的大道和广场装上了亚布洛奇科夫电烛，这是最早的电力街灯之一。"
+    },
+    {
+      "at": "the levin brand",
+      "occ": 1,
+      "en": "The lightning bolt; levin is an old word for lightning.",
+      "zh": "闪电的火把。levin 是古词，意为闪电。"
+    },
+    {
+      "at": "the light of the Terror that Flieth",
+      "occ": 1,
+      "en": "From Psalm 91: “the terror by night” and “the arrow that flieth by day”.",
+      "zh": "语出《圣经·诗篇》第九十一篇：“黑夜的惊骇”“白日飞的箭”。"
+    }
+  ],
+  "pairs": [
+    "S-004034",
+    "S-006013",
+    "S-006204"
+  ]
+}

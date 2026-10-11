@@ -1,0 +1,141 @@
+{
+  "id": "S-009205",
+  "slug": "hearn-yuki-onna",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Yuki-Onna",
+    "en": "Yuki-Onna: The Woman of the Snow",
+    "zh": "雪女"
+  },
+  "author": {
+    "orig": "Lafcadio Hearn (Koizumi Yakumo)",
+    "en": "Lafcadio Hearn",
+    "zh": "小泉八云（拉夫卡迪奥·赫恩）",
+    "dates": "1850–1904"
+  },
+  "year": 1904,
+  "year_display": {
+    "en": "1904",
+    "zh": "1904 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "From Kwaidan: Stories and Studies of Strange Things (Boston and New York: Houghton, Mifflin, 1904), as transcribed by Project Gutenberg (eBook 1210), checked against a scan of the 1904 edition: the transcriber’s bracketed notes, a picture caption and an added “a” (“a situation as servant”) are removed. Hearn’s two short footnotes, on the two-mat hut and on the name O-Yuki, are given as glosses.",
+    "zh": "出自《怪谈：奇异事物的故事与研究》（波士顿与纽约：霍顿·米夫林出版社，1904），据古登堡计划电子书第 1210 号，并以 1904 年版扫描本校核：删去录入者加的括号注释、一处插图说明和多出来的一个“a”（“a situation as servant”）。赫恩关于两叠小屋和“阿雪”这个名字的两条简短脚注，改作注释。"
+  },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/1210/pg1210.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1904; Lafcadio Hearn died in 1904.",
+      "zh": "1904 年出版；小泉八云卒于 1904 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": ["AU", "EU", "UK", "CN", "US"],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Hearn, born in Greece to an Irish father, settled in Japan, took the name Koizumi Yakumo and spent his last years retelling Japanese tales in English; he says this one was told to him by a farmer of Chōfu, near Tokyo. It is a winter story of a promise made in a snowstorm and kept for years, until it is broken by lamplight over the sewing. It belongs beside Andersen’s Snow Queen, and like it, it is told plainly enough for a child.",
+    "zh": "赫恩生于希腊，父亲是爱尔兰人，后来定居日本，改名小泉八云，晚年用英语重述日本的故事；他说这一篇是东京附近调布的一位农民讲给他听的。这是一个冬天的故事：一个在暴风雪中许下的诺言，守了许多年，直到在做针线的灯光下被打破。它可以和安徒生的《冰雪女王》放在一起，也像那篇一样，讲得简单到孩子也能听懂。"
+  },
+  "pick": null,
+  "tags": [
+    "snow",
+    "winter",
+    "love"
+  ],
+  "excerpt": {
+    "orig": "Then she melted into a bright white mist that spired to the roof-beams, and shuddered away through the smoke-hole.",
+    "en": "Then she melted into a bright white mist that spired to the roof-beams, and shuddered away through the smoke-hole.",
+    "zh": "接着她化成一团明亮的白雾，盘旋着升到屋梁，颤抖着从烟孔里飘散了。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Musashi Province",
+      "occ": 1,
+      "en": "The old province that took in most of present-day Tokyo and parts of Saitama and Kanagawa.",
+      "zh": "武藏国，旧时的令制国，大致包括今天的东京都以及埼玉、神奈川两县的一部分。"
+    },
+    {
+      "at": "a two-mat hut",
+      "occ": 1,
+      "en": "Hearn’s note: a hut with a floor of about six feet square, two tatami mats.",
+      "zh": "赫恩原注：地面约六英尺见方的小屋，即两张榻榻米大小。"
+    },
+    {
+      "at": "straw rain-coats",
+      "occ": 1,
+      "en": "Mino, cloaks of straw or sedge worn by farmers and woodcutters against rain and snow.",
+      "zh": "蓑衣，用稻草或莎草编成，农夫和樵夫用来遮雨挡雪。"
+    },
+    {
+      "at": "like a junk at sea",
+      "occ": 1,
+      "en": "A junk is a flat-bottomed Chinese or Japanese sailing ship.",
+      "zh": "junk，中国或日本的平底帆船。"
+    },
+    {
+      "at": "yuki-akari",
+      "occ": 1,
+      "en": "Snow-light: the faint glow that snow gives off in the dark.",
+      "zh": "雪明かり，雪光：黑暗中积雪发出的微光。"
+    },
+    {
+      "at": "going to Yedo",
+      "occ": 1,
+      "en": "Yedo, or Edo, the old name of Tokyo.",
+      "zh": "江户，东京的旧称。"
+    },
+    {
+      "at": "her name was O-Yuki",
+      "occ": 1,
+      "en": "Hearn’s note: the name, which means Snow, is not uncommon. O is an honorific prefix.",
+      "zh": "赫恩原注：这个名字意为“雪”，并不少见。“阿”（お）是表示亲切或尊敬的前缀。"
+    },
+    {
+      "at": "Ki ga aréba, mé mo kuchi hodo ni mono wo iu",
+      "occ": 1,
+      "en": "Hearn translates the proverb in the next words.",
+      "zh": "日语谚语“気があれば目も口ほどに物を言う”，赫恩随即把它译了出来。"
+    },
+    {
+      "at": "the light of a paper lamp",
+      "occ": 1,
+      "en": "An andon: a lamp with a paper shade around an oil wick, the usual light of a Japanese house.",
+      "zh": "行灯，用纸糊灯罩围住油灯芯，是日本旧式人家常用的灯。"
+    },
+    {
+      "at": "the Woman of the Snow",
+      "occ": 1,
+      "en": "Yuki-onna, a spirit of snowstorms in the folklore of northern and mountain Japan.",
+      "zh": "雪女，日本北部和山区民间传说中暴风雪的精灵。"
+    },
+    {
+      "at": "the smoke-hole",
+      "occ": 1,
+      "en": "The opening in the roof of a farmhouse through which the smoke of the hearth escaped.",
+      "zh": "农舍屋顶上排出炉烟的孔。"
+    }
+  ],
+  "pairs": [
+    "S-004102",
+    "S-002031",
+    "S-001042"
+  ]
+}

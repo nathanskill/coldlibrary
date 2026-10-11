@@ -1,0 +1,147 @@
+{
+  "id": "S-007214",
+  "slug": "ludgate-a-proposed-analytical-machine",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "On a Proposed Analytical Machine",
+    "en": "On a Proposed Analytical Machine",
+    "zh": "论一台拟议中的分析机"
+  },
+  "author": {
+    "orig": "Percy E. Ludgate",
+    "en": "Percy Ludgate",
+    "zh": "珀西·拉德盖特",
+    "dates": "1883–1922"
+  },
+  "year": 1909,
+  "year_display": {
+    "en": "April 1909",
+    "zh": "1909 年 4 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Excerpts from the paper in The Scientific Proceedings of the Royal Dublin Society, new series, vol. 12, no. 9 (published 28 April 1909), pages 77–91, transcribed from the Internet Archive scan of that volume and checked against its page images and against an independent online transcription (fano.co.uk, as kept in the computer science collection of Trinity College Dublin). Left out are the tables of index numbers, the worked example of a multiplication, and the sections on carrying tens and on division; the gap is marked with a section break. The footnotes are omitted and one misprint is corrected (expotential).",
+    "zh": "节选自《皇家都柏林学会科学会刊》新编第 12 卷第 9 期（1909 年 4 月 28 日出版）第 77—91 页，据互联网档案馆该卷扫描本录文，并与其页面图像以及一份独立的网上录文（fano.co.uk，收藏于都柏林三一学院计算机科学藏品）核对。略去的部分有：指标数表、一次乘法的演算实例，以及关于进位和除法的几节；删节处以分隔符标出。脚注从略，改正一处排印错误（expotential）。"
+  },
+  "source": {
+    "name": "Internet Archive, The Scientific Proceedings of the Royal Dublin Society, n.s. vol. 12 (1909–10)",
+    "url": "https://archive.org/details/scientificprocee12190910roya",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1909; Ludgate died in 1922.",
+      "zh": "1909 年发表，拉德盖特卒于 1922 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Percy Ludgate, a clerk for a corn merchant in Dublin, worked on this design at night and published it in 1909; by his own account he had made his first design before he knew of Babbage's Analytical Engine. His machine was to take both its instructions and its numbers from punched paper, hold 192 numbers of twenty figures, multiply directly instead of by repeated addition, change course when a result changed sign, and record a run of keystrokes as a program it could repeat. It was never built and his drawings have not been found; the paper is on this shelf as a second, independent arrival at the idea of a general-purpose calculating machine.",
+    "zh": "珀西·拉德盖特是都柏林一家谷物商行的职员，他在夜里做这项设计，于 1909 年发表；据他自己说，他完成第一个设计时，还不知道巴贝奇的分析机。他的机器要从穿孔纸上读取指令和数字，能存放 192 个二十位数，直接做乘法而不是重复做加法，在结果变号时改变进程，还能把一串按键操作记录下来，作为可以重复执行的程序。这台机器从未造出，他的图纸也一直没有找到；这篇论文之所以在这个书架上，是因为它是第二次、而且独立地走到了通用计算机器这一构想。"
+  },
+  "pick": null,
+  "tags": [
+    "machines",
+    "mathematics",
+    "code"
+  ],
+  "excerpt": {
+    "orig": "I purpose to give in this paper a short account of the result of about six years’ work, undertaken by me with the object of designing machinery capable of performing calculations, however intricate or laborious, without the immediate guidance of the human intellect.",
+    "en": "I purpose to give in this paper a short account of the result of about six years’ work, undertaken by me with the object of designing machinery capable of performing calculations, however intricate or laborious, without the immediate guidance of the human intellect.",
+    "zh": "本文打算简要介绍我大约六年工作的成果。这项工作的目的，是设计一种机器，无论计算多么繁复艰巨，都能不经人类智力的直接指引而完成。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "C. V. Boys",
+      "occ": 1,
+      "en": "Charles Vernon Boys (1855–1944), the English physicist, known for delicate experimental instruments.",
+      "zh": "查尔斯·弗农·博伊斯（1855—1944），英国物理学家，以精巧的实验仪器著称。"
+    },
+    {
+      "at": "two Difference Engines",
+      "occ": 1,
+      "en": "Babbage's machines for computing mathematical tables by the method of differences.",
+      "zh": "巴贝奇用差分法计算数学用表的机器。"
+    },
+    {
+      "at": "about eighty years ago",
+      "occ": 1,
+      "en": "Babbage began designing the Analytical Engine in 1834.",
+      "zh": "巴贝奇在 1834 年开始设计分析机。"
+    },
+    {
+      "at": "Countess of Lovelace’s translation",
+      "occ": 1,
+      "en": "Ada Lovelace's translation (1843) of L. F. Menabrea's article on the Analytical Engine, with her own long notes.",
+      "zh": "艾达·洛夫莱斯 1843 年翻译的梅纳布雷亚论分析机的文章，附有她自己写的长篇注释。"
+    },
+    {
+      "at": "Jacquard loom",
+      "occ": 1,
+      "en": "The loom introduced by Joseph-Marie Jacquard in 1804, in which a chain of punched cards chose the threads to be raised for each pass of the shuttle.",
+      "zh": "约瑟夫-马里·雅卡尔 1804 年推出的提花织机：一串穿孔卡片决定每次投梭时提起哪些经线。"
+    },
+    {
+      "at": "formula-paper",
+      "occ": 1,
+      "en": "Ludgate's program: a single perforated roll that both chose the operations and named the numbers to work on.",
+      "zh": "公式纸：拉德盖特的程序，一卷穿孔纸，既选择运算，又指定参加运算的数。"
+    },
+    {
+      "at": "separate shuttle",
+      "occ": 1,
+      "en": "Ludgate's store for one number, held as a row of rods pushed out to different lengths.",
+      "zh": "梭子：拉德盖特存放一个数的部件，数由一排伸出不同长度的杆表示。"
+    },
+    {
+      "at": "mill",
+      "occ": 1,
+      "en": "Babbage's word for the part of the engine that does the arithmetic, which Ludgate borrows.",
+      "zh": "运算器（mill）：巴贝奇对机器中执行算术部分的称呼，拉德盖特沿用了它。"
+    },
+    {
+      "at": "number-paper",
+      "occ": 1,
+      "en": "Punched paper for data, as the formula-paper is for instructions.",
+      "zh": "数字纸：记录数据的穿孔纸，正如公式纸记录的是指令。"
+    },
+    {
+      "at": "“feel” for particular events",
+      "occ": 1,
+      "en": "What would now be called conditional branching: the machine tests a result and changes course when the test succeeds.",
+      "zh": "即今天所说的条件分支：机器检验一个结果，条件满足时就改变进程。"
+    },
+    {
+      "at": "exponential theorem",
+      "occ": 1,
+      "en": "The power series for the exponential function, by which a power such as aⁿ can be computed.",
+      "zh": "指数函数的幂级数，可以用来计算 aⁿ 这样的幂。"
+    }
+  ],
+  "pairs": [
+    "S-007001",
+    "S-007002",
+    "S-007210"
+  ]
+}

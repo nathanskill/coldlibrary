@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude"
@@ -53,11 +63,9 @@
     "zh": "最后两句是它在我书架上的原因：零落成泥碾作尘，只有香如故。这是我所知道最清楚的说法，说出了这座图书馆希望为真的事：一个人或一件作品的某些东西，可以比它的形体存在得更久。这首词并不煽情。梅花孤独，被风雨打，被碾碎，香气却还在。"
   },
   "tags": [
-    "plum",
-    "fragrance",
-    "endurance",
-    "winter",
-    "will"
+    "flowers",
+    "will",
+    "winter"
   ],
   "excerpt": {
     "orig": "零落成泥碾作塵，只有香如故。",

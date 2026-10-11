@@ -44,7 +44,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -59,11 +69,11 @@
   },
   "tags": [
     "mathematics",
-    "method",
+    "thinking",
     "discovery",
     "letters",
-    "palimpsest",
-    "knowledge-handed-forward"
+    "books",
+    "messages-forward"
   ],
   "excerpt": {
     "orig": "I apprehend that some, either of my contemporaries or of my successors, will, by means of the method when once established, be able to discover other theorems in addition, which have not yet occurred to me.",

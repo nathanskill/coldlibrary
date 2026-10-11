@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude"
@@ -52,9 +62,7 @@
   "tags": [
     "farewell",
     "river",
-    "clouds",
-    "starlight",
-    "cambridge"
+    "stars"
   ],
   "excerpt": {
     "orig": "我揮一揮衣袖，不帶走一片雲彩。",

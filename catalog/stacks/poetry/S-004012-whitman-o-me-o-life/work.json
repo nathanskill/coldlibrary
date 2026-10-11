@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -50,9 +60,8 @@
   },
   "pick": null,
   "tags": [
-    "life",
-    "purpose",
-    "questions"
+    "how-to-live",
+    "thinking"
   ],
   "excerpt": {
     "orig": "That you are here—that life exists and identity,\nThat the powerful play goes on, and you may contribute a verse.",

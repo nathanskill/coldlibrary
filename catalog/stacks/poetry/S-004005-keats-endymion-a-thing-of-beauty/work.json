@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -50,10 +60,7 @@
   },
   "pick": null,
   "tags": [
-    "beauty",
-    "nature",
-    "stories",
-    "romanticism"
+    "nature"
   ],
   "excerpt": {
     "orig": "A thing of beauty is a joy for ever:\nIts loveliness increases; it will never\nPass into nothingness;",

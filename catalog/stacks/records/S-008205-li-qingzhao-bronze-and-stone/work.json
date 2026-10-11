@@ -1,0 +1,222 @@
+{
+  "id": "S-008205",
+  "slug": "li-qingzhao-bronze-and-stone",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "金石錄後序（節選）",
+    "en": "Tea in the Hall of Returning: From the Afterword to the Record of Bronze and Stone",
+    "zh": "金石录后序（节选）"
+  },
+  "author": {
+    "orig": "李清照",
+    "en": "Li Qingzhao",
+    "zh": "李清照",
+    "dates": "1084–c. 1155"
+  },
+  "year": 1134,
+  "year_display": {
+    "en": "dated 1132 in the text; usually placed in 1134",
+    "zh": "文末署绍兴二年（1132），今人多认为作于绍兴四年（1134）"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The opening and closing paragraphs of the afterword, as given on Chinese Wikisource (金石錄後序), collated with the Sibu congkan and Siku quanshu texts of the Record of Bronze and Stone (both on Wikisource). Eight readings are corrected where those two agree against the Wikisource page (失者, 時作, 力傳寫, 二十萬錢, 葉, 卷帙, 反取憀慄, 刓缺). The long middle, on the war years and the loss of the collection, is omitted and marked with a section break.",
+    "zh": "节选后序的开头和结尾，据维基文库所录《金石录后序》，并与维基文库所收《四部丛刊》本、《四库全书》本《金石录》对校。凡这两本一致而与维基文库单行本不同之处，从两本改正，共八处（失者、时作、力传写、二十万钱、叶、卷帙、反取憀栗、刓缺）。中间记述战乱流离、收藏散失的长段从略，以分隔符标出。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 金石錄後序 (李清照)",
+    "url": "https://zh.wikisource.org/wiki/金石錄後序_(李清照)",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in the 1130s; the author died about 1155.",
+      "zh": "作于 12 世纪 30 年代，作者约卒于 1155 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Li Qingzhao, the great writer of song lyrics, wrote this afterword for the catalogue of inscriptions that she and her husband Zhao Mingcheng had built over thirty years. These are its first and last pages: the young couple pawning clothes to buy rubbings, the tea game in the Hall of Returning, the library with its register and keys, and the closing reflection that every gathering disperses. The long middle, on war and loss, is left out here. What she leaves to later collectors is not an inventory but a warning, written without bitterness.",
+    "zh": "李清照写这篇后序，是为她与丈夫赵明诚三十年间编成的金石目录作跋。这里选的是开头和结尾：年轻夫妇典衣买碑，归来堂里赌书饮茶，书库里有簿册和钥匙，最后是“有聚必有散”的感悟。中间记战乱与失散的长段从略。她留给后世收藏者的不是一份清单，而是一个鉴戒，写得并无怨愤。"
+  },
+  "pick": null,
+  "tags": [
+    "books",
+    "inscriptions",
+    "memory",
+    "love",
+    "messages-forward"
+  ],
+  "excerpt": {
+    "orig": "然有有必有無，有聚必有散，乃理之常。",
+    "en": "Yet where there is having there must be lack, and where there is gathering there must be scattering: that is the constant way of things.",
+    "zh": "然有有必有无，有聚必有散，乃理之常。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "趙侯德父",
+      "occ": 1,
+      "at_hans": "赵侯德父",
+      "en": "Zhao Mingcheng (1081–1129), styled Defu, her husband, the compiler of the Record of Bronze and Stone (金石錄).",
+      "zh": "赵明诚（1081—1129），字德父（一作德甫），她的丈夫，《金石录》的编者。"
+    },
+    {
+      "at": "五季",
+      "occ": 1,
+      "en": "The Five Dynasties, 907–960.",
+      "zh": "五代（907—960）。"
+    },
+    {
+      "at": "甗、鬲、盤、匜、尊、敦",
+      "occ": 1,
+      "at_hans": "甗、鬲、盘、匜、尊、敦",
+      "en": "Kinds of bronze vessels: a steamer, a cauldron, a basin, a ewer, a wine vessel and a grain bowl.",
+      "zh": "都是青铜器名：甗是蒸器，鬲是煮器，盘、匜是盥洗器，尊是酒器，敦是盛黍稷的器皿。"
+    },
+    {
+      "at": "款識",
+      "occ": 1,
+      "at_hans": "款识",
+      "en": "Inscriptions cast or cut into bronzes.",
+      "zh": "铸刻在青铜器上的铭文。"
+    },
+    {
+      "at": "王播、元載之禍",
+      "occ": 1,
+      "at_hans": "王播、元载之祸",
+      "en": "Tang ministers who hoarded: Yuan Zai (d. 777), from whose house eight hundred bushels of pepper were confiscated, and Wang Bo, usually corrected to Wang Ya, whose great collection of calligraphy and painting was destroyed when he fell in 835.",
+      "zh": "唐代聚敛的大臣：元载（？—777）被抄家时搜出胡椒八百石；王播，一般认为当作王涯，王涯所藏书画极多，835 年获罪后尽被毁弃。"
+    },
+    {
+      "at": "長輿、元凱之病",
+      "occ": 1,
+      "at_hans": "长舆、元凯之病",
+      "en": "He Qiao, styled Changyu, notorious for his love of money, and Du Yu, styled Yuankai, who said of himself that he had a passion for the Zuo Commentary.",
+      "zh": "和峤字长舆，以吝啬爱钱著称；杜预字元凯，自称有《左传》癖。"
+    },
+    {
+      "at": "建中辛巳",
+      "occ": 1,
+      "en": "1101, the first year of the Jianzhong Jingguo era.",
+      "zh": "1101 年，即建中靖国元年。"
+    },
+    {
+      "at": "先君",
+      "occ": 1,
+      "en": "Her father, Li Gefei, a writer and official.",
+      "zh": "她的父亲李格非，文学家、官员。"
+    },
+    {
+      "at": "丞相",
+      "occ": 1,
+      "en": "Her father-in-law, Zhao Tingzhi, who later became chief minister.",
+      "zh": "她的公公赵挺之，后来官至宰相。"
+    },
+    {
+      "at": "相國寺",
+      "occ": 1,
+      "at_hans": "相国寺",
+      "en": "The Xiangguo Temple in Kaifeng, whose fairs sold books, rubbings and antiques.",
+      "zh": "汴京（开封）大相国寺，寺中集市出售书籍、碑帖和古玩。"
+    },
+    {
+      "at": "葛天氏之民",
+      "occ": 1,
+      "en": "People of Getian, a legendary ruler of high antiquity: Tao Yuanming's phrase for a simple and contented life.",
+      "zh": "葛天氏是传说中的上古帝王；陶渊明用“葛天氏之民”形容淳朴自足的生活。"
+    },
+    {
+      "at": "魯壁、汲塚",
+      "occ": 1,
+      "at_hans": "鲁壁、汲冢",
+      "en": "Texts found in the wall of Confucius's house in the Han, and the bamboo books dug from a tomb in Ji commandery late in the third century: proverbial finds of lost books.",
+      "zh": "汉代在孔子旧宅墙壁中发现的古文经书，以及三世纪后期在汲郡古墓中发现的竹书，都是失传之书重见天日的典故。"
+    },
+    {
+      "at": "徐熙",
+      "occ": 1,
+      "en": "Xu Xi, painter of flowers and birds in the tenth century.",
+      "zh": "徐熙，十世纪的花鸟画家。"
+    },
+    {
+      "at": "鉛槧",
+      "occ": 1,
+      "at_hans": "铅椠",
+      "en": "Lead for marking and wooden tablets for writing: the tools of collation, hence editing and copying.",
+      "zh": "铅粉笔和木简，古人校书写字的工具，借指校勘著述。"
+    },
+    {
+      "at": "歸來堂",
+      "occ": 1,
+      "at_hans": "归来堂",
+      "en": "The Hall of Returning in their home at Qingzhou, named after Tao Yuanming's 'Home Again'.",
+      "zh": "他们青州家中的书斋，取陶渊明《归去来兮辞》之意命名。"
+    },
+    {
+      "at": "簿甲乙",
+      "occ": 1,
+      "en": "Registered under numbers, 甲, 乙 and so on: a catalogue.",
+      "zh": "按甲、乙等编号登记，即编目。"
+    },
+    {
+      "at": "少陸機作賦之二年",
+      "occ": 1,
+      "at_hans": "少陆机作赋之二年",
+      "en": "Two years short of the age at which Lu Ji wrote his rhapsody, which Du Fu put at twenty: eighteen.",
+      "zh": "杜甫说陆机二十岁作《文赋》，少两年即十八岁。"
+    },
+    {
+      "at": "過蘧瑗知非之兩歲",
+      "occ": 1,
+      "at_hans": "过蘧瑗知非之两岁",
+      "en": "Two years past the age at which Qu Boyu knew his faults, fifty in the Huainanzi: fifty-two.",
+      "zh": "《淮南子》说蘧伯玉“年五十而知四十九年非”，过两年即五十二岁。"
+    },
+    {
+      "at": "人亡弓，人得之",
+      "occ": 1,
+      "en": "A king of Chu lost his bow and would not look for it: 'A man of Chu lost it, a man of Chu will find it.' Confucius said he should have left out 'of Chu'.",
+      "zh": "楚王丢了弓，不肯去找，说“楚人遗弓，楚人得之”；孔子说，去掉“楚”字就好了。"
+    },
+    {
+      "at": "玄黓歲，壯月",
+      "occ": 1,
+      "at_hans": "玄黓岁，壮月",
+      "en": "玄黓, the stem ren in the old names of years; 壯月, the eighth month.",
+      "zh": "玄黓，岁阳名，即壬年；壮月，八月。"
+    },
+    {
+      "at": "易安室",
+      "occ": 1,
+      "en": "Yi'an, 'at ease', was her studio name; she is often called Li Yi'an.",
+      "zh": "易安是她的号，人称李易安。"
+    }
+  ],
+  "pairs": [
+    "S-008204",
+    "S-001061",
+    "S-001063"
+  ]
+}

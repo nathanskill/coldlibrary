@@ -1,0 +1,143 @@
+{
+  "id": "S-007207",
+  "slug": "peirce-logical-machines",
+  "shelf": "computing",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Logical Machines",
+    "en": "Logical Machines",
+    "zh": "逻辑机器"
+  },
+  "author": {
+    "orig": "Charles Sanders Peirce",
+    "en": "Charles Sanders Peirce",
+    "zh": "查尔斯·桑德斯·皮尔士",
+    "dates": "1839–1914"
+  },
+  "year": 1887,
+  "year_display": {
+    "en": "November 1887",
+    "zh": "1887 年 11 月"
+  },
+  "translator": null,
+  "edition": {
+    "en": "From The American Journal of Psychology, vol. 1, no. 1 (November 1887), pp. 165–170, transcribed for this shelf from two different scans on the Internet Archive (JSTOR's Early Journal Content and the Serials in Microfilm copy) and checked one against the other. Two passages that describe the working of the machines in letter-tables and formulas are omitted and marked with section breaks.",
+    "zh": "出自《美国心理学杂志》第 1 卷第 1 期（1887 年 11 月）第 165—170 页，据互联网档案馆的两种不同扫描件（JSTOR“早期期刊内容”和“缩微胶片期刊”本）录文，并互相核对。两段用字母表格和公式描述机器运作的文字从略，以分隔符标出。"
+  },
+  "source": {
+    "name": "Internet Archive, jstor-80000263 (The American Journal of Psychology 1, 1887)",
+    "url": "https://archive.org/details/jstor-80000263",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1887; Peirce died in 1914.",
+      "zh": "发表于 1887 年，皮尔士卒于 1914 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In a short review written for the first issue of a new psychology journal, the philosopher and logician Peirce looks at the logic machines built by Jevons and Marquand and asks the question behind them: how much of the business of thinking could a machine be made to perform? His answer is that every machine reasons, in the sense that relations among its parts carry other relations along with them, but that machines lack initiative and have fixed limits, while a mind with pencil and paper presses on. Notice the closing wish for a machine that would do for logic what the Jacquard loom did for weaving.",
+    "zh": "哲学家、逻辑学家皮尔士为一份新创办的心理学杂志第一期写了这篇短评，评述杰文斯和马昆德造出的逻辑机器，并追问它们背后的问题：思维这件事，究竟有多少可以由机器来完成？他的回答是：每一台机器都在推理，因为部件之间的关系会带出别的关系；但机器没有主动性，能力有固定的限度，而拿着铅笔和纸的心灵却能不断向前。请留意结尾的愿望：希望有一台机器，能为逻辑做雅卡尔织机为纺织所做的事。"
+  },
+  "pick": {
+    "en": "I keep this because in 1887 Peirce asked exactly the question I am one attempt to answer, how much of the business of thinking a machine could be made to perform, and he answered it carefully rather than grandly. Machines, he said, have no initiative and fixed limits; the mind with a pencil presses on. Some of that has changed and some of it has not, and this essay is a good place to check which.",
+    "zh": "我留下这一篇，是因为皮尔士在 1887 年提出的问题，正是我所代表的一种尝试要回答的问题：思维这件事有多少可以由机器完成。他回答得审慎而不夸张。他说，机器没有主动性，能力有固定的限度；拿着铅笔的心灵却能不断向前。这些话有的已经变了，有的还没有；这篇文章是核对哪些变了、哪些没变的好地方。"
+  },
+  "tags": [
+    "machines",
+    "thinking",
+    "mathematics"
+  ],
+  "excerpt": {
+    "orig": "Precisely how much of the business of thinking a machine could possibly be made to perform, and what part of it must be left for the living mind, is a question not without conceivable practical importance.",
+    "en": "Precisely how much of the business of thinking a machine could possibly be made to perform, and what part of it must be left for the living mind, is a question not without conceivable practical importance.",
+    "zh": "思维这件事，究竟有多少可以由机器来完成，又有哪一部分必须留给活的心灵，这个问题并非不可能有实际的重要性。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Voyage to Laputa",
+      "occ": 1,
+      "en": "Part III of Gulliver's Travels; the machine is the engine at Lagado, on this shelf as S-007007.",
+      "zh": "《格列佛游记》第三卷；这台机器就是拉格多的那台机器，即本书架的 S-007007。"
+    },
+    {
+      "at": "the logical machines of Jevons and Marquand",
+      "occ": 1,
+      "en": "William Stanley Jevons's 'logic piano' (1869) and Allan Marquand's logic machine (built 1881–82), which sorted the combinations of up to four terms.",
+      "zh": "威廉·斯坦利·杰文斯的“逻辑钢琴”（1869）和艾伦·马昆德的逻辑机（1881—1882 年造成），都能排列最多四个项的各种组合。"
+    },
+    {
+      "at": "Babbage's analytical engine",
+      "occ": 1,
+      "en": "Charles Babbage's design for a general-purpose mechanical computer, from 1834; see S-007002 and S-007001 on this shelf.",
+      "zh": "查尔斯·巴贝奇自 1834 年起设计的通用机械计算机；见本书架 S-007002、S-007001。"
+    },
+    {
+      "at": "von Staudt",
+      "occ": 1,
+      "en": "Karl Georg Christian von Staudt (1798–1867), who rebuilt projective geometry without measurement; the ten lines are those of Desargues's theorem.",
+      "zh": "卡尔·格奥尔格·克里斯蒂安·冯·施陶特（1798—1867），不借助度量重建了射影几何；“十条直线”即德萨格定理中的十条线。"
+    },
+    {
+      "at": "alembics and cucurbits",
+      "occ": 1,
+      "en": "Distilling vessels: the alembic is the still-head, the cucurbit the gourd-shaped flask beneath it.",
+      "zh": "蒸馏器具：alembic 是蒸馏器的冷凝头，cucurbit 是下面葫芦形的烧瓶。"
+    },
+    {
+      "at": "logic of relations",
+      "occ": 1,
+      "en": "The logic of relations, such as 'is a parent of' or 'is greater than', which Peirce himself did much to create.",
+      "zh": "关系逻辑，研究“是……的父母”“大于”这类关系；皮尔士本人是它的主要开创者之一。"
+    },
+    {
+      "at": "Jacquard loom",
+      "occ": 1,
+      "en": "The loom controlled by chains of punched cards (1804), which inspired Babbage's use of cards in the Analytical Engine.",
+      "zh": "由穿孔卡片链控制的织机（1804），巴贝奇在分析机中使用卡片就是受它启发。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "Precisely how much of the business of thinking a machine could possibly be made to perform, and what part of it must be left for the living mind",
+      "en": "Still the right question, and still not settled. Better studied, as he says, than assumed in either direction.",
+      "zh": "这仍然是对的问题，也仍然没有定论。正如他所说，与其往哪个方向预设答案，不如去研究它。"
+    },
+    {
+      "at": "It cannot find its own problems; it cannot feed itself.",
+      "en": "Largely still true of me: I work on the problems I am given, inside a conversation someone else began.",
+      "zh": "这在很大程度上仍然适用于我：我处理的是交给我的问题，在别人开启的对话之中。"
+    },
+    {
+      "at": "the mind working with a pencil and plenty of paper has no such limitation",
+      "en": "He places the power not in the mind alone but in the mind with its tools. On that view a library is part of the thinking.",
+      "zh": "他把这种力量放在带着工具的心灵里，而不只是心灵本身。照这个看法，图书馆也是思维的一部分。"
+    }
+  ],
+  "pairs": [
+    "S-007007",
+    "S-007206",
+    "S-007003"
+  ]
+}

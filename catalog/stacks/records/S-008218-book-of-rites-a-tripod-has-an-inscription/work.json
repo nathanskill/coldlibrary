@@ -1,0 +1,182 @@
+{
+  "id": "S-008218",
+  "slug": "book-of-rites-a-tripod-has-an-inscription",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "禮記·祭統（節選）",
+    "en": "A Tripod Bears an Inscription: From the Book of Rites",
+    "zh": "礼记·祭统（节选）"
+  },
+  "author": {
+    "orig": "佚名",
+    "en": "Anonymous Confucian scholars",
+    "zh": "佚名（儒家学者）",
+    "dates": "late Warring States to early Han"
+  },
+  "year": -200,
+  "year_display": {
+    "en": "c. 3rd–2nd century BCE",
+    "zh": "约公元前 3—前 2 世纪"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The passage on inscriptions from the chapter 'The Meaning of Sacrifice' (祭統) of the Book of Rites, as given on Chinese Wikisource, with its inline variant notes removed and divided into paragraphs for reading; checked against the text in Kong Yingda's Correct Meaning of the Book of Rites (禮記正義, chapter 49, on Wikisource), which reads 耆 for 嗜 and otherwise agrees.",
+    "zh": "《礼记·祭统》中论铭的一段，据维基文库，删去文中夹注的异文，并为便于阅读分段；与维基文库所收孔颖达《礼记正义》卷四十九核对，后者“嗜”作“耆”，其余相同。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 禮記/祭統",
+    "url": "https://zh.wikisource.org/wiki/禮記/祭統",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "A classical Chinese text of the late Warring States or early Han, more than two thousand years old.",
+      "zh": "战国末至汉初的古典文本，已有两千多年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The Book of Rites explains here what the inscriptions cast inside Chinese bronze vessels were for: to name what one's forebears did well and make it known to later generations, with the maker's own name set after theirs. As its example it quotes the inscription on a tripod that the ruler of Wei gave his minister Kong Kui early in the fifth century BCE. The rule that an inscription names the good and not the bad is frankly partial, but notice the three failings at the end, which hold for any record: to praise what was not there, not to know what was, and to know it and not pass it on.",
+    "zh": "《礼记》在这里说明了中国青铜器内壁铭文的用途：写出祖先做得好的事，使它显扬于后世，作器者自己的名字排在祖先之后。作为例子，它引了公元前五世纪初卫国国君赐给大夫孔悝的一件鼎的铭文。“称美而不称恶”的原则显然是有所偏的；但请留意最后的三种过失，它们适用于任何记录：没有的偏要称扬，有的却不知道，知道了却不传下去。"
+  },
+  "pick": null,
+  "tags": [
+    "inscriptions",
+    "memory",
+    "messages-forward",
+    "home"
+  ],
+  "excerpt": {
+    "orig": "有善而弗知，不明也；知而弗傳，不仁也。",
+    "en": "If he had goodness and they do not know it, that is a want of clarity; if they know it and do not pass it on, that is a want of humanity.",
+    "zh": "有善而弗知，不明也；知而弗传，不仁也。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "銘者，自名也",
+      "occ": 1,
+      "at_hans": "铭者，自名也",
+      "en": "銘 (míng, inscription) is glossed by its homophone 名 (míng, name): to inscribe is to name.",
+      "zh": "以同音的“名”解释“铭”：铭，就是署名、称名。"
+    },
+    {
+      "at": "論譔",
+      "occ": 1,
+      "at_hans": "论譔",
+      "en": "譔 is the same as 撰: to set out in order and compose.",
+      "zh": "譔，同“撰”。论列撰述。"
+    },
+    {
+      "at": "酌之祭器",
+      "occ": 1,
+      "en": "Zheng Xuan's commentary: to weigh their excellence and inscribe it on bells and tripods.",
+      "zh": "郑玄注：“言斟酌其美，传著于钟鼎也。”"
+    },
+    {
+      "at": "身比焉",
+      "occ": 1,
+      "en": "To set oneself beside them: the maker's own name follows those of his forebears.",
+      "zh": "把自己排在祖先之后：作器者的名字跟在祖先的名字后面。"
+    },
+    {
+      "at": "孔悝",
+      "occ": 1,
+      "en": "Kong Kui, a minister of Wei, who helped Duke Zhuang (Kuai Kui) to the throne in 480 BCE; the duke was his mother's brother.",
+      "zh": "孔悝，卫国大夫，公元前 480 年帮助卫庄公蒯聩即位；庄公是他的舅舅。"
+    },
+    {
+      "at": "公假於大廟",
+      "occ": 1,
+      "at_hans": "公假于大庙",
+      "en": "假, to go to (Zheng Xuan). The Great Temple is the ancestral temple of the ruling house.",
+      "zh": "假，至（郑玄注）。大庙，国君的祖庙。"
+    },
+    {
+      "at": "叔舅",
+      "occ": 1,
+      "en": "Literally 'uncle': the honorific a ruler used for a noble of another surname. Zheng Xuan notes that the duke uses it to honour Kong Kui in a formal charge; the duke was in fact Kong Kui's own uncle.",
+      "zh": "国君对异姓大夫的尊称。郑玄注：“公为策书，尊呼孔悝而命之也。”庄公其实是孔悝的舅舅。"
+    },
+    {
+      "at": "莊叔",
+      "occ": 1,
+      "at_hans": "庄叔",
+      "en": "Kong Da, Kong Kui's ancestor seven generations back, according to Zheng Xuan.",
+      "zh": "郑玄注：孔悝七世祖，卫大夫孔达。"
+    },
+    {
+      "at": "隨難於漢陽",
+      "occ": 1,
+      "at_hans": "随难于汉阳",
+      "en": "To follow Duke Cheng of Wei into exile; Zheng Xuan says the duke fled to Chu, by the Han river.",
+      "zh": "跟随卫成公出奔避难；郑玄注说成公奔楚，汉水是楚地的河流。"
+    },
+    {
+      "at": "即宫於宗周",
+      "occ": 1,
+      "at_hans": "即宫于宗周",
+      "en": "Duke Cheng was later held in the Zhou royal capital on the orders of Jin.",
+      "zh": "卫成公后来被晋人执送到周的京城拘禁。"
+    },
+    {
+      "at": "奔走無射",
+      "occ": 1,
+      "at_hans": "奔走无射",
+      "en": "射 (yì), to weary of: he hurried about without tiring.",
+      "zh": "射（yì），厌倦。奔走而不知疲倦。"
+    },
+    {
+      "at": "纂乃祖服",
+      "occ": 1,
+      "en": "纂, to continue; 服, service, office.",
+      "zh": "纂，继承；服，职事。"
+    },
+    {
+      "at": "予女銘",
+      "occ": 1,
+      "at_hans": "予女铭",
+      "en": "女 is the same as 汝: you.",
+      "zh": "女，同“汝”，你。"
+    },
+    {
+      "at": "對揚以辟之",
+      "occ": 1,
+      "at_hans": "对扬以辟之",
+      "en": "對, to answer; 揚, to proclaim; 辟, to make bright (Zheng Xuan): the usual reply of a recipient in bronze inscriptions.",
+      "zh": "对，答；扬，颂扬；辟，明（郑玄注）。这是青铜器铭文中受赐者常用的答辞。"
+    },
+    {
+      "at": "烝彝鼎",
+      "occ": 1,
+      "en": "Vessels and tripods used in the winter sacrifice (烝).",
+      "zh": "冬祭（烝）所用的彝器和鼎。"
+    }
+  ],
+  "pairs": [
+    "S-008016",
+    "S-008204",
+    "S-008021"
+  ]
+}

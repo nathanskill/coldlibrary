@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -52,8 +62,7 @@
   "pick": null,
   "tags": [
     "learning",
-    "persistence",
-    "xunzi"
+    "will"
   ],
   "excerpt": {
     "orig": "不積跬步，無以至千里；不積小流，無以成江海。",

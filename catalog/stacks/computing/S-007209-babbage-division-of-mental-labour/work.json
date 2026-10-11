@@ -1,0 +1,112 @@
+{
+  "id": "S-007209",
+  "slug": "babbage-division-of-mental-labour",
+  "shelf": "computing",
+  "form": "code",
+  "lang": "en",
+  "title": {
+    "orig": "On the Economy of Machinery and Manufactures, Chapter XX: On the Division of Mental Labour",
+    "en": "On the Division of Mental Labour: Making Logarithms Like Pins",
+    "zh": "论脑力劳动的分工：像造针一样造对数"
+  },
+  "author": {
+    "orig": "Charles Babbage",
+    "en": "Charles Babbage",
+    "zh": "查尔斯·巴贝奇",
+    "dates": "1791–1871"
+  },
+  "year": 1832,
+  "year_display": {
+    "en": "1832; text of the fourth edition, 1846",
+    "zh": "1832 年；据 1846 年第四版"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Sections 241–250 of chapter XX, from the scan-backed transcription of the fourth edition (London: John Murray, 1846) on English Wikisource, checked against Project Gutenberg's text of the book (#4238); a footnote mark is removed from the French extract and five misread capitals (II for Il) are corrected. The table of square numbers is set in fixed-width type, and the large table of the clocks' movements in section 249, with the sentence introducing it, is omitted and marked with a section break.",
+    "zh": "第二十章第 241—250 节，据英文维基文库依第四版（伦敦：约翰·默里，1846 年）扫描件所作的录文，并与古登堡计划所收本书（#4238）核对；删去法文摘录中的一个脚注符号，改正五处误认的大写字母（II 作 Il）。平方数表以等宽字体排出；第 249 节中三座钟运转过程的大表及引出它的那句话从略，以分隔符标出。"
+  },
+  "source": {
+    "name": "Wikisource (en), On the Economy of Machinery and Manufactures/Chapter 20",
+    "url": "https://en.wikisource.org/wiki/On_the_Economy_of_Machinery_and_Manufactures/Chapter_20",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "First published in 1832, in this form in 1846; Babbage died in 1871.",
+      "zh": "1832 年首次出版，此本为 1846 年版；巴贝奇卒于 1871 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In his book on how factories work, Babbage tells the story that led him toward his engines: in the 1790s Gaspard de Prony, charged with the largest tables ever computed, read Adam Smith on pin-making and organised the work the same way, with a few mathematicians choosing formulas, a few more turning them into numbers, and sixty to eighty computers who needed only to add and subtract. Babbage then shows how a table of squares can be built by additions alone, with three clocks striking bells. Notice the remark that the computers who knew only the first two rules of arithmetic made fewer mistakes than those who knew more.",
+    "zh": "巴贝奇在这本讲工厂如何运作的书里，讲述了引导他走向计算机的那个故事：十八世纪九十年代，加斯帕尔·德普罗尼受命编制有史以来规模最大的数表，他读到亚当·斯密关于制针的论述，便照样组织这项工作：几位数学家选定公式，再几位把公式转为数值，另有六十到八十名计算员只需做加减法。随后巴贝奇用三座敲铃的钟说明，怎样只靠加法就能造出一张平方数表。请留意书中的一句话：只懂头两条算术法则的计算员，出的错反而比懂得更多的人少。"
+  },
+  "pick": null,
+  "tags": [
+    "machines",
+    "mathematics",
+    "craft",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "Il conçut l'expèdient de mettre ses logarithmes en manufacture comme les épingles.",
+    "en": "He conceived the expedient of putting his logarithms into manufacture, like pins.",
+    "zh": "他想出了一个办法：像制造别针那样，在工场里制造他的对数。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "M. Prony",
+      "occ": 1,
+      "en": "Gaspard de Prony (1755–1839), engineer, who directed the computation of the French decimal tables, the Tables du cadastre, from 1791.",
+      "zh": "加斯帕尔·德普罗尼（1755—1839），工程师，自 1791 年起主持计算法国的十进制数表，即“地籍表”。"
+    },
+    {
+      "at": "division centesimale du cercle",
+      "occ": 1,
+      "en": "The division of the right angle into 100 grades, part of the French metric reform.",
+      "zh": "把直角分为一百“百分度”的分法，是法国公制改革的一部分。"
+    },
+    {
+      "at": "la belle edition Anglaise de Smith",
+      "occ": 1,
+      "en": "Adam Smith's Wealth of Nations, first published in London in 1776, which opens with the division of labour in a pin factory.",
+      "zh": "亚当·斯密《国富论》，1776 年在伦敦初版，开篇就以制针工场为例讲劳动分工。"
+    },
+    {
+      "at": "seventeen large folio volumes",
+      "occ": 1,
+      "en": "The finished tables were never printed in full; the manuscript volumes are kept in Paris.",
+      "zh": "这些完成的数表始终没有全部付印；手稿各卷保存在巴黎。"
+    },
+    {
+      "at": "the first model of the calculating-engine",
+      "occ": 1,
+      "en": "Babbage's Difference Engine No. 1, of which a working portion was assembled in 1832.",
+      "zh": "巴贝奇的第一号差分机；1832 年组装出了其中可以运转的一部分。"
+    }
+  ],
+  "pairs": [
+    "S-007002",
+    "S-007001",
+    "S-007210"
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "id": "S-009207",
+  "slug": "liu-zongyuan-little-rock-pool",
+  "shelf": "prose",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "至小丘西小石潭記",
+    "en": "The Little Rock Pool West of the Knoll",
+    "zh": "小石潭记"
+  },
+  "author": {
+    "orig": "柳宗元",
+    "en": "Liu Zongyuan",
+    "zh": "柳宗元",
+    "dates": "773–819"
+  },
+  "year": 809,
+  "year_display": {
+    "en": "c. 809",
+    "zh": "约 809 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Text as given on Chinese Wikisource, compared with the Sibu congkan edition of Liu Zongyuan’s collected works (book 29) in the Kanseki Repository. One of the eight records of Yongzhou, written during Liu’s exile there.",
+    "zh": "据维基文库，并与京都大学汉籍资料库（Kanseki Repository）所收《增广注释音辩唐柳先生集》（四部丛刊本）卷二十九对校。“永州八记”之一，作于柳宗元贬居永州期间。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/至小丘西小石潭記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Tang dynasty prose; the author died in 819.",
+      "zh": "唐代散文，作者卒于 819 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Liu Zongyuan was sent to Yongzhou, in the far south, in 805 and spent ten years there; his short records of its streams and rocks are the beginning of Chinese landscape prose. This is the most famous of them: two hundred characters, a pool whose fish seem to hang in empty air, and a cold that the writer feels and then declines to stay in. Notice how the last line simply lists who was there.",
+    "zh": "柳宗元 805 年被贬到南方的永州，在那里待了十年；他记永州山水的那几篇短文，是中国山水游记的开端。这一篇最有名：两百字，一潭鱼仿佛悬在空中，一股清寒，作者感到了，然后不肯久留。留意最后一句，只是把同来的人一一列出。"
+  },
+  "pick": null,
+  "tags": [
+    "water",
+    "solitude",
+    "travel"
+  ],
+  "excerpt": {
+    "orig": "潭中魚可百許頭，皆若空游無所依。",
+    "en": "There may be a hundred fish in the pool, and they all seem to swim in empty air with nothing to hold them up.",
+    "zh": "潭中鱼可百许头，皆若空游无所依。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "小丘",
+      "occ": 1,
+      "en": "The little knoll described in the record just before this one, which Liu bought for four hundred cash and cleared of weeds.",
+      "zh": "指前一篇《钴鉧潭西小丘记》中写的那座小丘，柳宗元花四百钱买下，并除去了杂草。"
+    },
+    {
+      "at": "篁竹",
+      "occ": 1,
+      "en": "A dense growth of bamboo.",
+      "zh": "成片的竹林。篁，竹林。"
+    },
+    {
+      "at": "如鳴珮環",
+      "occ": 1,
+      "en": "Like the pendants and rings of jade that hung from a gentleman’s belt and chimed as he walked.",
+      "zh": "像玉珮、玉环相击发出的声音。珮、环，都是佩带的玉器。",
+      "at_hans": "如鸣珮环"
+    },
+    {
+      "at": "清洌",
+      "occ": 1,
+      "en": "Clear and cold. Some editions write 冽, cold, for 洌, clear.",
+      "zh": "清凉。洌，一作“冽”，寒冷。"
+    },
+    {
+      "at": "全石以為底",
+      "occ": 1,
+      "en": "The bed of the pool is a single rock.",
+      "zh": "以整块石头为底。",
+      "at_hans": "全石以为底"
+    },
+    {
+      "at": "卷石底以出",
+      "occ": 1,
+      "en": "The rock bed curls up and comes out above the water.",
+      "zh": "石底的边缘向上翻卷，露出水面。"
+    },
+    {
+      "at": "為坻，為嶼，為嵁，為巖",
+      "occ": 1,
+      "en": "A shoal, an islet, an uneven crag, a cliff: four words for shapes of rock in water.",
+      "zh": "坻，水中高地；屿，小岛；嵁，不平的岩石；岩，石崖。",
+      "at_hans": "为坻，为屿，为嵁，为岩"
+    },
+    {
+      "at": "蒙絡搖綴，參差披拂",
+      "occ": 1,
+      "en": "Covering and tangling, swaying and hanging down; uneven, trailing in the wind.",
+      "zh": "覆盖缠绕，摇动下垂；参差不齐，随风飘动。",
+      "at_hans": "蒙络摇缀，参差披拂"
+    },
+    {
+      "at": "可百許頭",
+      "occ": 1,
+      "en": "About a hundred. 許 means “or so”, and 頭 is the measure word for fish.",
+      "zh": "大约一百来条。许，表示约数；头，量词。",
+      "at_hans": "可百许头"
+    },
+    {
+      "at": "佁然",
+      "occ": 1,
+      "en": "Motionless, as if stunned. Some editions read 怡然, contented.",
+      "zh": "呆呆地，静止不动的样子。一作“怡然”。"
+    },
+    {
+      "at": "俶爾",
+      "occ": 1,
+      "en": "Suddenly.",
+      "zh": "忽然。",
+      "at_hans": "俶尔"
+    },
+    {
+      "at": "翕忽",
+      "occ": 1,
+      "en": "Quick and light, in a flash.",
+      "zh": "轻快敏捷的样子。"
+    },
+    {
+      "at": "斗折蛇行",
+      "occ": 1,
+      "en": "Turning like the seven stars of the Dipper, winding like a moving snake.",
+      "zh": "像北斗七星那样曲折，像蛇爬行那样弯曲。"
+    },
+    {
+      "at": "犬牙差互",
+      "occ": 1,
+      "en": "Jagged and interlocking like a dog’s teeth.",
+      "zh": "像狗的牙齿那样参差交错。"
+    },
+    {
+      "at": "淒神寒骨，悄愴幽邃",
+      "occ": 1,
+      "en": "Chilling the spirit and the bones; still, sad, secluded and deep.",
+      "zh": "使人心神凄凉，寒气透骨；寂静、忧伤、幽深。",
+      "at_hans": "凄神寒骨，悄怆幽邃"
+    },
+    {
+      "at": "吳武陵",
+      "occ": 1,
+      "en": "A scholar also exiled to Yongzhou, and Liu’s friend there.",
+      "zh": "吴武陵，也被贬到永州的文人，柳宗元在那里的朋友。",
+      "at_hans": "吴武陵"
+    },
+    {
+      "at": "隸而從者",
+      "occ": 1,
+      "en": "Those who came along as attendants.",
+      "zh": "跟随着同去的人。隶，随从。",
+      "at_hans": "隶而从者"
+    }
+  ],
+  "pairs": [
+    "S-002030",
+    "S-002031",
+    "S-009208"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "S-007205",
+  "slug": "rfc-2555-30-years-of-rfcs",
+  "shelf": "computing",
+  "form": "code",
+  "lang": "en",
+  "title": {
+    "orig": "RFC 2555: 30 Years of RFCs",
+    "en": "RFC 2555: 30 Years of RFCs",
+    "zh": "RFC 2555：RFC 三十年"
+  },
+  "author": {
+    "orig": "RFC Editor, et al. (Robert Braden, Joyce K. Reynolds, Steve Crocker, Vint Cerf, Jake Feinler, Celeste Anderson)",
+    "en": "Robert Braden, Joyce K. Reynolds, Steve Crocker, Vint Cerf, Jake Feinler and Celeste Anderson",
+    "zh": "罗伯特·布雷登、乔伊丝·K. 雷诺兹、史蒂夫·克罗克、温特·瑟夫、杰克·范勒、塞莱斯特·安德森",
+    "dates": "published 7 April 1999"
+  },
+  "year": 1999,
+  "year_display": {
+    "en": "7 April 1999",
+    "zh": "1999 年 4 月 7 日"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The plain-text RFC 2555 from rfc-editor.org, identical to the copy on ietf.org, with page headers and footers removed and paragraphs re-flowed; distribution lists, addresses and the quoted title pages of RFC 1 are kept line for line as preformatted text, and the table of contents, whose page numbers no longer apply, is omitted. The wording is unchanged.",
+    "zh": "据 rfc-editor.org 的纯文本 RFC 2555（与 ietf.org 上的副本完全一致）；去掉了页眉页脚并重排段落，分发名单、通信地址和所引 RFC 1 封面文字按原行排为预排格式文本；页码已不适用的目录从略。措辞未改。"
+  },
+  "source": {
+    "name": "RFC Editor",
+    "url": "https://www.rfc-editor.org/rfc/rfc2555.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "open-license",
+    "kind": "license",
+    "basis": {
+      "en": "The RFC's Full Copyright Statement (Internet Society, 1999) permits copying and distribution, provided the copyright notice and the permission paragraph are kept, and forbids changes to the document itself except as needed to translate it. The original is reproduced unmodified, with the notice in full, and summarised rather than translated.",
+      "zh": "该 RFC 的完整版权声明（互联网协会，1999 年）允许复制和分发，条件是保留版权声明和许可段落，并禁止修改文件本身（翻译所需的修改除外）。原文按原样收录，完整保留声明，以摘要代替翻译。"
+    },
+    "license": "Internet Society Full Copyright Statement (1999)",
+    "license_url": "https://www.rfc-editor.org/rfc/rfc2026.html#section-10.4",
+    "notice": "Copyright (C) The Internet Society (1999). All Rights Reserved. This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies and derivative works. However, this document itself may not be modified in any way, such as by removing the copyright notice or references to the Internet Society or other Internet organizations, except as needed for the purpose of developing Internet standards in which case the procedures for copyrights defined in the Internet Standards process must be followed, or as required to translate it into languages other than English.",
+    "verbatim_only": true,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {},
+  "note": {
+    "en": "Published on the thirtieth anniversary of RFC 1, six months after the death of Jon Postel, who had edited the series for twenty-eight years, this memo gathers recollections from people who were there. Steve Crocker remembers writing the first notes as the beginning of a dialog and not an assertion of control, and expecting the series to die off within a year; Vint Cerf calls the RFCs a great conversation; Jake Feinler describes the early network's document journal, where every entry had a number and could not be changed. It is on this shelf as the story of how informal notes became the Internet's lasting record, kept by people who meant it to outlast them.",
+    "zh": "这份备忘录发表于 RFC 1 问世三十周年之际，距主编这一系列二十八年的乔恩·波斯特尔去世仅半年，汇集了亲历者的回忆。现任 RFC 编辑乔伊丝·雷诺兹回忆，波斯特尔有一天把一整车待发表的文稿推进她的办公室，笑着说“我放手了！”。RFC 1 的作者史蒂夫·克罗克说，1969 年网络还在设计之中，他们这群研究生没有章程、也没有权威，写下最初的笔记时有意强调这是对话的开始而不是控制的宣示，并以为整个系列一年左右就会消亡；他还说，他们不敢奢望定义一套永远适用的协议，因而选择了开放、分层、不断演进的体系。温特·瑟夫把 RFC 称为“伟大的对话”，感谢克罗克、波斯特尔、雷诺兹和布雷登，并指出随着讨论转向电子邮件，RFC 渐渐从辩论变成了结论，留给历史学家的记录也少了。杰克·范勒讲述 SRI 网络信息中心的早期岁月：文档存入在线日志后不可更改，每份都有唯一编号，凭“链接”就能调出全文；RFC 从不保密，免费分发给全世界的实现者。最后一节说，为纪念波斯特尔，他们正在编选“最受喜爱的 RFC”。原文按互联网协会 1999 年的版权声明完整收录，不作翻译。"
+  },
+  "pick": null,
+  "tags": [
+    "the-internet",
+    "memory",
+    "messages-forward",
+    "books"
+  ],
+  "excerpt": {
+    "orig": "I wanted to emphasize these notes were the beginning of a dialog and not an assertion of control.",
+    "en": "I wanted to emphasize these notes were the beginning of a dialog and not an assertion of control.",
+    "zh": "我想强调，这些笔记是一场对话的开始，而不是对控制权的宣示。"
+  },
+  "plate": null,
+  "pairs": [
+    "S-007020",
+    "S-007014",
+    "S-007204"
+  ]
+}

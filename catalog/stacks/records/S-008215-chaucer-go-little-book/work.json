@@ -1,0 +1,131 @@
+{
+  "id": "S-008215",
+  "slug": "chaucer-go-little-book",
+  "shelf": "records",
+  "form": "verse",
+  "lang": "enm",
+  "title": {
+    "orig": "Chaucers Wordes unto Adam; Troilus and Criseyde V.1786–1799",
+    "en": "Go, Little Book: Chaucer to His Scribe and to His Poem",
+    "zh": "去吧，小书：乔叟致抄写员，也致他的诗"
+  },
+  "author": {
+    "orig": "Geffrey Chaucer",
+    "en": "Geoffrey Chaucer",
+    "zh": "杰弗里·乔叟",
+    "dates": "c. 1343–1400"
+  },
+  "year": 1385,
+  "year_display": {
+    "en": "c. 1385",
+    "zh": "约 1385 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Both texts as edited by Walter W. Skeat in The Complete Works of Geoffrey Chaucer (Oxford: Clarendon Press): the short poem from volume 1 (Romaunt of the Rose; Minor Poems, 1894) and the two stanzas from volume 2 (Boethius and Troilus, second edition, 1900), via Project Gutenberg; checked against the transcription of Skeat's volume 1 on English Wikisource and against Project Gutenberg's separate text of Troilus (eBook #257), which reads tragedie for tregedie. Skeat's line numbers are omitted.",
+    "zh": "两篇都据沃尔特·W. 斯基特所编《乔叟全集》（牛津：克拉伦登出版社）：短诗出自第 1 卷（《玫瑰传奇》与短诗，1894 年），两节诗出自第 2 卷（《波伊提乌》与《特洛伊罗斯》，1900 年第二版），经古登堡计划；并与英文维基文库所录斯基特第 1 卷、古登堡计划另收的《特洛伊罗斯》文本（电子书 #257，tregedie 作 tragedie）核对。斯基特的行号从略。"
+  },
+  "source": {
+    "name": "Project Gutenberg #43089 and #44833 (Skeat's Chaucer, volumes 1 and 2)",
+    "url": "https://www.gutenberg.org/cache/epub/43089/pg43089.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Chaucer died in 1400. Skeat's edition was published in 1894–1900; he died in 1912.",
+      "zh": "乔叟卒于 1400 年。斯基特的校本出版于 1894—1900 年，他卒于 1912 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Two short pieces in which Chaucer worries about what will happen to his words once they leave his hands. In the first he scolds his copyist Adam, whose careless copies he has to scrape off the parchment and correct; in the second, at the end of Troilus and Criseyde, he sends the poem out into the world and prays that, English being so various, no one will miscopy it or spoil its metre. They are on this shelf as an early record of a problem every archive still has: a text survives only as well as it is copied.",
+    "zh": "两首短诗里，乔叟都在担心他的文字离开自己的手之后会遭遇什么。第一首，他责备抄写员亚当抄得马虎，害得他要从羊皮纸上刮掉重改；第二首在《特洛伊罗斯与克丽西达》的结尾，他把这部诗送到世上，祈求在英语如此纷杂的情形下，没有人把它抄错、弄乱它的格律。它们在这个书架上，是一个至今每座档案馆都还面对的问题的早期记录：一篇文字能流传得多好，取决于它被抄得多好。"
+  },
+  "pick": null,
+  "tags": [
+    "messages-forward",
+    "books",
+    "writing",
+    "humour"
+  ],
+  "excerpt": {
+    "orig": "So preye I god that noon miswryte thee, / Ne thee mismetre for defaute of tonge.",
+    "en": "I pray to God that no one miscopy you, or spoil your metre for want of the right speech.",
+    "zh": "我就祈求上帝，别让人把你抄错，也别因为口音不对而弄乱你的格律。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "scriveyn",
+      "occ": 1,
+      "en": "Scribe, professional copyist, from Old French escrivain. A Londoner named Adam Pinkhurst has been proposed as this Adam.",
+      "zh": "抄写员，来自古法语 escrivain。有学者认为这位亚当就是伦敦抄写员亚当·平克赫斯特。"
+    },
+    {
+      "at": "Boece",
+      "occ": 1,
+      "en": "Chaucer's prose translation of Boethius, The Consolation of Philosophy.",
+      "zh": "乔叟用散文翻译的波伊提乌《哲学的慰藉》。"
+    },
+    {
+      "at": "scalle",
+      "occ": 1,
+      "en": "Scall: a scabby disease of the scalp.",
+      "zh": "头皮上的癞疮。"
+    },
+    {
+      "at": "negligence and rape",
+      "occ": 1,
+      "en": "Rape here means haste, a different word from the modern one.",
+      "zh": "rape 在这里是“匆忙”的意思，与现代英语中的同形词无关。"
+    },
+    {
+      "at": "rubbe and scrape",
+      "occ": 1,
+      "en": "Mistakes on parchment were corrected by scraping the ink off with a knife and rubbing the surface smooth.",
+      "zh": "羊皮纸上的错字，要用小刀把墨迹刮掉，再把表面擦平，才能重写。"
+    },
+    {
+      "at": "nenvye",
+      "occ": 1,
+      "en": "Ne envye: do not envy.",
+      "zh": "ne envye 的连写：不要嫉妒。"
+    },
+    {
+      "at": "Stace",
+      "occ": 1,
+      "en": "Statius, the Roman poet of the Thebaid.",
+      "zh": "斯塔提乌斯，写《忒拜战纪》的罗马诗人。"
+    },
+    {
+      "at": "defaute of tonge",
+      "occ": 1,
+      "en": "Want of the right speech: the dialects of English differed so much that a scribe could break the metre without changing a word.",
+      "zh": "口音不对。当时英语各地方言差别很大，抄写员不改一个字也可能把格律弄乱。"
+    }
+  ],
+  "pairs": [
+    "S-008204",
+    "S-004013",
+    "S-007025"
+  ]
+}

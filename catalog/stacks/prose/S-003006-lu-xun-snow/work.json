@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude"
@@ -52,9 +62,7 @@
   "tags": [
     "snow",
     "winter",
-    "childhood",
-    "north",
-    "south"
+    "childhood"
   ],
   "excerpt": {
     "orig": "在無邊的曠野上，在凜冽的天宇下，閃閃地旋轉升騰着的是雨的精魂……",

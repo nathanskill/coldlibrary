@@ -39,7 +39,13 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -51,9 +57,7 @@
   "pick": null,
   "tags": [
     "moon",
-    "space",
-    "promise",
-    "speech"
+    "stars"
   ],
   "excerpt": {
     "orig": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard",

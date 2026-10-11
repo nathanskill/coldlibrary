@@ -1,0 +1,218 @@
+{
+  "id": "S-006211",
+  "slug": "song-yingxing-vermilion-and-ink",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "天工開物·丹青第十六",
+    "en": "The Works of Heaven: Vermilion and Ink",
+    "zh": "天工开物·丹青第十六"
+  },
+  "author": {
+    "orig": "宋應星",
+    "en": "Song Yingxing",
+    "zh": "宋应星",
+    "dates": "1587–c. 1666"
+  },
+  "year": 1637,
+  "year_display": {
+    "en": "1637",
+    "zh": "1637 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Chapter 16 of the Tiangong kaiwu, complete: the author’s short preface and the sections on vermilion and on ink, as given on Chinese Wikisource. Compared with Project Gutenberg eBook 25273 and with the passages quoted in the Gujin tushu jicheng (the section on vermilion in the Kunyu dian, book 21, and the section on ink in the Zixue dian, book 150). Song’s own small notes are kept in round brackets; the illustrations are not reproduced, and two enumeration commas are normalised.",
+    "zh": "《天工开物》第十六卷全文，即作者的小序以及“朱”“墨”两节，据维基文库。与古登堡计划电子书第 25273 号，以及《古今图书集成》所引的段落（坤舆典第二十一卷的朱砂部分、字学典第一百五十卷的墨部分）对校。宋应星的原注保留在圆括号中；插图不收；两处顿号统一为通行写法。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/天工開物/丹青第十六",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Published in 1637; the author died about 1666.",
+      "zh": "1637 年刊行，作者约卒于 1666 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "The chapter of Song Yingxing’s encyclopedia of crafts on the two colours of the scholar’s desk: vermilion, made by subliming mercury from cinnabar and combining it again with sulphur, and ink, made from the soot of lamps and pine. Song writes like an engineer, with quantities, temperatures timed in sticks of incense, and one man tending two hundred lamps. It belongs in a library because his preface says plainly why: letters have lasted a thousand years by black set down on white.",
+    "zh": "宋应星这部手工艺百科中讲书桌上两种颜色的一卷：朱，是从朱砂中升炼出水银，再与硫黄化合而成；墨，是用灯烟和松烟制成。宋应星像工程师一样写作，有用量，有用几炷香来计算的火候，还有一个人照管两百盏灯。它属于一座图书馆，因为他的小序把理由说得很明白：文明千载不坠，靠的是写在白纸上的黑字。"
+  },
+  "pick": null,
+  "tags": [
+    "craft",
+    "writing",
+    "lamps"
+  ],
+  "excerpt": {
+    "orig": "斯文千古之不墜也，注玄尚白，其功孰與京哉！",
+    "en": "That letters have not fallen away in a thousand ages is owed to setting down black on white; what work can be compared with it?",
+    "zh": "斯文千古之不坠也，注玄尚白，其功孰与京哉！"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "注玄尚白",
+      "occ": 1,
+      "en": "Putting black (ink) on white (paper). 玄 is black; 尚 here means to set upon.",
+      "zh": "把黑色加在白色上，指用墨在纸上书写。玄，黑色。"
+    },
+    {
+      "at": "其功孰與京哉",
+      "occ": 1,
+      "en": "What achievement can match it? 京 means great, to rival.",
+      "zh": "它的功劳有什么能相比呢？京，大，引申为相比。",
+      "at_hans": "其功孰与京哉"
+    },
+    {
+      "at": "離火紅而至黑孕其中",
+      "occ": 1,
+      "en": "Li is the trigram of fire; in its red flame the blackest soot is conceived.",
+      "zh": "离，八卦之一，代表火。红色的火焰中孕育出最黑的烟灰。",
+      "at_hans": "离火红而至黑孕其中"
+    },
+    {
+      "at": "五章遙降",
+      "occ": 1,
+      "en": "When decrees in five colours come down from the emperor, whose rescripts were written in vermilion.",
+      "zh": "五彩的诏书从朝廷颁降下来。古代皇帝用朱笔批示。",
+      "at_hans": "五章遥降"
+    },
+    {
+      "at": "依坎附離",
+      "occ": 1,
+      "en": "Relying on Kan and Li, the trigrams of water and fire, the two agents of both pigments.",
+      "zh": "依靠坎、离，即水和火。坎为水，离为火。",
+      "at_hans": "依坎附离"
+    },
+    {
+      "at": "辰錦（今名麻陽）",
+      "occ": 1,
+      "en": "Chenzhou and Jinzhou in western Hunan, still a source of cinnabar; Song’s own note gives the county name of his day.",
+      "zh": "辰州、锦州，在今湖南西部，至今仍出产朱砂；括号里是宋应星的原注。",
+      "at_hans": "辰锦（今名麻阳）"
+    },
+    {
+      "at": "光明、箭鏃、鏡面等砂",
+      "occ": 1,
+      "en": "Trade names for fine crystalline cinnabar: bright, arrowhead and mirror-face.",
+      "zh": "光明砂、箭镞砂、镜面砂，都是优质晶体朱砂的商品名称。",
+      "at_hans": "光明、箭镞、镜面等砂"
+    },
+    {
+      "at": "升煉",
+      "occ": 1,
+      "en": "Sublimation: heating cinnabar, mercury sulphide, so that mercury vapour rises and is collected.",
+      "zh": "升炼，即加热朱砂（硫化汞），使水银蒸气上升后收集起来。",
+      "at_hans": "升炼"
+    },
+    {
+      "at": "朱砂床",
+      "occ": 1,
+      "en": "The cinnabar bed: the white rock, often quartz or calcite, in which the ore lies.",
+      "zh": "朱砂床，指朱砂所依附的白色岩石，多为石英或方解石。"
+    },
+    {
+      "at": "鹽泥",
+      "occ": 1,
+      "en": "A mixture of salt and clay used to seal vessels against heat.",
+      "zh": "用盐和泥调和而成的封口材料，耐高温。",
+      "at_hans": "盐泥"
+    },
+    {
+      "at": "五個時辰",
+      "occ": 1,
+      "en": "Five double-hours: about ten hours.",
+      "zh": "五个时辰，约十小时。",
+      "at_hans": "五个时辰"
+    },
+    {
+      "at": "石亭脂",
+      "occ": 1,
+      "en": "Native or refined sulphur. Heated with mercury it forms red mercury sulphide again: vermilion.",
+      "zh": "硫黄。与水银一同加热，重新化合成红色的硫化汞，即银朱。"
+    },
+    {
+      "at": "打火三炷香久",
+      "occ": 1,
+      "en": "Firing for as long as three sticks of incense take to burn, the usual clock of a workshop.",
+      "zh": "烧火三炷香的时间。香是旧时作坊常用的计时工具。"
+    },
+    {
+      "at": "汞海、草汞之說",
+      "occ": 1,
+      "en": "Stories that mercury could be drawn from seas of it, or from plants: Song dismisses them as hearsay.",
+      "zh": "所谓有水银之海、可以从草木中提取水银的说法，宋应星斥为道听途说。",
+      "at_hans": "汞海、草汞之说"
+    },
+    {
+      "at": "國朝推重徽郡人",
+      "occ": 1,
+      "en": "Huizhou in Anhui, home of the most famous inkmakers of the Ming.",
+      "zh": "徽州，在今安徽，是明代最著名的制墨之地。",
+      "at_hans": "国朝推重徽郡人"
+    },
+    {
+      "at": "紫草汁浸染燈心",
+      "occ": 1,
+      "en": "Lamp wicks soaked in gromwell, whose purple-red root dye gives the soot a reddish sheen.",
+      "zh": "用紫草的汁液浸染灯芯。紫草根可作紫红色染料，使烟墨带红光。",
+      "at_hans": "紫草汁浸染灯心"
+    },
+    {
+      "at": "一人供事燈盞二百副",
+      "occ": 1,
+      "en": "One man tends two hundred lamps, scraping the soot from the cover above each flame before it overburns.",
+      "zh": "一个人照管两百盏灯，要在烟灰烧老之前把它从每盏灯上方的覆盖物上刮下来。",
+      "at_hans": "一人供事灯盏二百副"
+    },
+    {
+      "at": "鞠篾為圓屋如舟中雨篷式",
+      "occ": 1,
+      "en": "Bending bamboo strips into a round tunnel like the rain-awning of a boat: the long kiln in which the soot settles by distance and fineness.",
+      "zh": "把竹篾弯成像船篷那样的圆屋。这是一条长窑，烟灰按远近和粗细沉积。",
+      "at_hans": "鞠篾为圆屋如舟中雨篷式"
+    },
+    {
+      "at": "堊工",
+      "occ": 1,
+      "en": "Plasterers and whitewashers, who also used soot for black finishes.",
+      "zh": "粉刷工匠。垩，白土，也指用以涂饰的工匠。",
+      "at_hans": "垩工"
+    },
+    {
+      "at": "《墨經》、《墨譜》",
+      "occ": 1,
+      "en": "Song dynasty treatises on inkmaking, the Classic of Ink by Chao Guanzhi and the Ink Register by Li Xiaomei.",
+      "zh": "宋代的制墨专书：晁贯之的《墨经》和李孝美的《墨谱》。",
+      "at_hans": "《墨经》、《墨谱》"
+    }
+  ],
+  "pairs": [
+    "S-006007",
+    "S-002043",
+    "S-006212"
+  ]
+}

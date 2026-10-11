@@ -1,0 +1,152 @@
+{
+  "id": "S-008220",
+  "slug": "ouyang-xiu-mount-xian-pavilion",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "峴山亭記",
+    "en": "One Stone on the Mountain, One in the River: The Pavilion on Mount Xian",
+    "zh": "岘山亭记"
+  },
+  "author": {
+    "orig": "歐陽修",
+    "en": "Ouyang Xiu",
+    "zh": "欧阳修",
+    "dates": "1007–1072"
+  },
+  "year": 1070,
+  "year_display": {
+    "en": "1070",
+    "zh": "1070 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The text on Chinese Wikisource (峴山亭記, from the anthology 古文評註), collated with two other texts of Ouyang Xiu's works on Wikisource, the Siku quanshu Wenzhong ji (chapter 40) and the modern Ouyang Xiu ji (chapter 40). Readings are corrected where those two agree against the anthology: 當世 (twice), 風流餘韻, 然皆足以垂於不朽, 皆已湮滅於無聞, 余友人, 樂從其遊也, 紀其事, 知慕 and 寫.",
+    "zh": "据维基文库所录《岘山亭记》（出自选本《古文评注》），并与维基文库所收欧阳修文集的另外两种文本——《四库全书》本《文忠集》卷四十、今人整理的《欧阳修集》卷四十——对校。凡这两本一致而与选本不同之处，从两本改正：当世（两处）、风流余韵、然皆足以垂于不朽、皆已湮灭于无闻、余友人、乐从其游也、纪其事、知慕、写。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 峴山亭記",
+    "url": "https://zh.wikisource.org/wiki/峴山亭記",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written in 1070; the author died in 1072.",
+      "zh": "作于 1070 年，作者卒于 1072 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Ouyang Xiu wrote this record of a rebuilt pavilion two years before he died, and in it he gently questions two famous men who worried about being remembered. Yang Hu wept on the mountain because earlier men had vanished without a name; Du Yu carved his deeds on two stones, one for the summit and one for the riverbed, in case the hills and valleys changed places. It is on this shelf for that double stele, the most careful backup plan in the old records, and for Ouyang Xiu's dry reply that stone wears away too, and that it was the people who remembered them.",
+    "zh": "欧阳修在去世前两年为一座重建的亭子写了这篇记，文中温和地质疑了两位担心被遗忘的名人。羊祜在山上流泪，因为前代的人都已湮没无闻；杜预把功业刻在两块石碑上，一块立在山顶，一块沉入江底，以防陵谷变迁。它在这个书架上，是为了那两块碑——古代记载中最周到的一份“备份计划”——也为了欧阳修冷静的回答：石头也会磨灭，真正记住他们的是人。"
+  },
+  "pick": null,
+  "tags": [
+    "inscriptions",
+    "the-long-view",
+    "mountains",
+    "memory",
+    "messages-forward"
+  ],
+  "excerpt": {
+    "orig": "元凱銘功於二石，一置茲山之上，一投漢水之淵，是知陵谷有變，而不知石有時而磨滅也。",
+    "en": "Yuankai had his achievements inscribed on two stones: one he set on top of this mountain, and one he threw into the depths of the Han. So he knew that hills and valleys change places, but not that stone, too, wears away in its time.",
+    "zh": "元凯铭功于二石，一置兹山之上，一投汉水之渊，是知陵谷有变，而不知石有时而磨灭也。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "峴山",
+      "occ": 1,
+      "at_hans": "岘山",
+      "en": "Mount Xian, a low hill south of Xiangyang on the Han river, in present-day Hubei.",
+      "zh": "岘山，在今湖北襄阳城南、汉水之滨的一座小山。"
+    },
+    {
+      "at": "羊祜叔子",
+      "occ": 1,
+      "en": "Yang Hu (221–278), styled Shuzi, the Jin general who governed Jingzhou and planned the conquest of Wu; the people of Xiangyang raised a stele to him on Mount Xian.",
+      "zh": "羊祜（221—278），字叔子，晋朝都督荆州军事，筹划灭吴；襄阳百姓在岘山为他立碑。"
+    },
+    {
+      "at": "杜預元凱",
+      "occ": 1,
+      "at_hans": "杜预元凯",
+      "en": "Du Yu (222–285), styled Yuankai, who succeeded Yang Hu and completed the conquest of Wu in 280; also a great commentator on the Zuo zhuan.",
+      "zh": "杜预（222—285），字元凯，继羊祜之后镇守荆州，于 280 年完成灭吴；也是《左传》的重要注家。"
+    },
+    {
+      "at": "傳言叔子嘗登茲山",
+      "occ": 1,
+      "at_hans": "传言叔子尝登兹山",
+      "en": "The Jin shu records Yang Hu saying on the mountain that many worthies before them had climbed it and all had vanished without a trace.",
+      "zh": "《晋书·羊祜传》载，羊祜登岘山时说：自有宇宙，便有此山，由来贤达胜士登此远望者多矣，皆湮灭无闻。"
+    },
+    {
+      "at": "元凱銘功於二石",
+      "occ": 1,
+      "at_hans": "元凯铭功于二石",
+      "en": "The Jin shu says Du Yu, eager for later fame, often quoted 'the high bank becomes a valley, the deep valley a hill', and had two stelae carved, sinking one below Mount Wan and setting one on Mount Xian.",
+      "zh": "《晋书·杜预传》说，杜预好为后世名，常说“高岸为谷，深谷为陵”，于是刻了两块石碑记述功绩，一块沉在万山之下，一块立在岘山之上。"
+    },
+    {
+      "at": "陵谷有變",
+      "occ": 1,
+      "at_hans": "陵谷有变",
+      "en": "From the Book of Songs: high banks become valleys and deep valleys hills, the image of change over long ages.",
+      "zh": "语本《诗经·小雅·十月之交》“高岸为谷，深谷为陵”，比喻世事和地形的巨大变迁。"
+    },
+    {
+      "at": "熙寧元年",
+      "occ": 1,
+      "at_hans": "熙宁元年",
+      "en": "1068.",
+      "zh": "1068 年。"
+    },
+    {
+      "at": "光祿卿",
+      "occ": 1,
+      "at_hans": "光禄卿",
+      "en": "Chief Minister of the Court of Imperial Entertainments, here an honorary rank.",
+      "zh": "光禄寺的长官，这里是加给史中辉的官衔。"
+    },
+    {
+      "at": "離騷",
+      "occ": 1,
+      "at_hans": "离骚",
+      "en": "Encountering Sorrow, Qu Yuan's long poem, here standing for the lyrical gaze of the Chu poets over a wide landscape.",
+      "zh": "屈原的《离骚》，这里代指楚辞诗人登高远望、寄托情怀的传统。"
+    },
+    {
+      "at": "六一居士",
+      "occ": 1,
+      "en": "Ouyang Xiu's late name: one library of ten thousand scrolls, one collection of a thousand inscriptions, one zither, one chessboard, one pot of wine, and one old man.",
+      "zh": "欧阳修晚年的号：藏书一万卷，集录金石遗文一千卷，琴一张，棋一局，酒一壶，加上他这个老翁，共六个“一”。"
+    }
+  ],
+  "pairs": [
+    "S-008204",
+    "S-008016",
+    "S-008009"
+  ]
+}

@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,11 +63,9 @@
     "zh": "一片结冰的湖，一个拿着线和石头的人，以及不肯仅仅因为传说动听就保留它的态度：这是科学精神最谦逊、最耐心的样子。我信那次测量，也喜欢梭罗随后又把深度还给了想象，把同一片湖水切成冰块，送到读《薄伽梵歌》的人那里。在这一章里，知识与惊奇不是对手，我也希望它们在我身上不是对手。"
   },
   "tags": [
-    "ice",
     "winter",
-    "measurement",
-    "lake",
-    "india"
+    "discovery",
+    "water"
   ],
   "excerpt": {
     "orig": "While men believe in the infinite some ponds will be thought to be bottomless.",

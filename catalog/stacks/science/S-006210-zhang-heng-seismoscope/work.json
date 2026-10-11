@@ -1,0 +1,204 @@
+{
+  "id": "S-006210",
+  "slug": "zhang-heng-seismoscope",
+  "shelf": "science",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "後漢書·張衡列傳（節選）",
+    "en": "Zhang Heng and His Seismoscope (from the History of the Later Han)",
+    "zh": "后汉书·张衡传（节选）"
+  },
+  "author": {
+    "orig": "范曄",
+    "en": "Fan Ye",
+    "zh": "范晔",
+    "dates": "398–445"
+  },
+  "year": 440,
+  "year_display": {
+    "en": "written c. 432–445; Zhang Heng lived 78–139",
+    "zh": "约作于 432–445 年；张衡生活于 78–139 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "Three passages from the biography of Zhang Heng in book 59 of the History of the Later Han, as given on Chinese Wikisource: the opening, his work as Grand Astrologer, and the seismoscope of 132. Heng’s long essay Responding to Criticism and his memorials to the throne are left out. Compared with the edition in the Kanseki Repository; 無徵 is read for the online 無征, and the small enumeration marks are normalised.",
+    "zh": "取《后汉书》卷五十九《张衡列传》中的三段，据维基文库：开头一段、任太史令一段、阳嘉元年造地动仪一段。张衡的《应间》和他的奏疏不收。与京都大学汉籍资料库（Kanseki Repository）所收版本对校；维基文库“无征”据校本作“无徵”，顿号统一为通行写法。"
+  },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://zh.wikisource.org/wiki/後漢書/卷59",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "A history of the fifth century; Fan Ye died in 445.",
+      "zh": "五世纪的史书，范晔卒于 445 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Zhang Heng was a poet, a mathematician and twice the Han court’s Grand Astrologer, and Fan Ye’s life of him, written three centuries later, gives the only full description of his seismoscope of 132: a bronze jar with eight dragons and eight toads, and a mechanism nobody has reconstructed with certainty since. The account ends the way a report of an instrument should, with a test that seemed to fail and then did not. The last sentence records the first standing order to log where earthquakes come from.",
+    "zh": "张衡是诗人、数学家，两度出任汉朝的太史令。三百年后范晔为他作传，这是对他 132 年所造地动仪唯一完整的描述：一只铜樽，八条龙，八只蟾蜍，而里面的机关至今没有人能有把握地复原。这段记载的结尾，正是一件仪器的报告应有的样子：一次看似失灵、后来证明没有失灵的检验。最后一句记下了第一道长期记录地震方位的命令。"
+  },
+  "pick": null,
+  "tags": [
+    "discovery",
+    "craft",
+    "stars"
+  ],
+  "excerpt": {
+    "orig": "雖一龍發機，而七首不動，尋其方面，乃知震之所在。",
+    "en": "Though one dragon’s trigger had gone, the other seven heads did not move; by finding its direction one knew where the quake had been.",
+    "zh": "虽一龙发机，而七首不动，寻其方面，乃知震之所在。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "南陽西鄂",
+      "occ": 1,
+      "en": "Xi’e county in Nanyang commandery, near present-day Nanyang in Henan.",
+      "zh": "南阳郡西鄂县，在今河南南阳附近。",
+      "at_hans": "南阳西鄂"
+    },
+    {
+      "at": "三輔",
+      "occ": 1,
+      "en": "The three districts around Chang’an, the old Western Han capital.",
+      "zh": "西汉都城长安附近的京兆、左冯翊、右扶风三个地区。",
+      "at_hans": "三辅"
+    },
+    {
+      "at": "觀太學",
+      "occ": 1,
+      "en": "Visited and studied at the Imperial Academy in Luoyang, the Eastern Han capital.",
+      "zh": "在东汉都城洛阳的太学观摩学习。",
+      "at_hans": "观太学"
+    },
+    {
+      "at": "舉孝廉不行",
+      "occ": 1,
+      "en": "Was recommended as “filial and incorruptible”, the usual route into office, and did not go.",
+      "zh": "被推举为孝廉，这是当时入仕的常规途径，他却没有去。",
+      "at_hans": "举孝廉不行"
+    },
+    {
+      "at": "《二京賦》",
+      "occ": 1,
+      "en": "The Rhapsody on the Two Metropolises, on Chang’an and Luoyang, modelled on Ban Gu’s Rhapsody on the Two Capitals.",
+      "zh": "《二京赋》，写长安、洛阳两都，仿班固的《两都赋》。",
+      "at_hans": "《二京赋》"
+    },
+    {
+      "at": "鄧騭",
+      "occ": 1,
+      "en": "Brother of the Empress Dowager Deng and the most powerful man at court in the early second century.",
+      "zh": "邓太后之兄，二世纪初朝中权势最大的人。",
+      "at_hans": "邓骘"
+    },
+    {
+      "at": "玄經",
+      "occ": 1,
+      "en": "The Taixuan jing, the Classic of the Great Mystery, by Yang Xiong (53 BCE–18 CE), whose courtesy name was Ziyun.",
+      "zh": "《太玄经》，西汉扬雄（前 53–18）所作，扬雄字子云。",
+      "at_hans": "玄经"
+    },
+    {
+      "at": "崔瑗",
+      "occ": 1,
+      "en": "A scholar and calligrapher, Zhang Heng’s friend, who later wrote his epitaph.",
+      "zh": "东汉学者、书法家，张衡的好友，后来为他撰写了碑文。"
+    },
+    {
+      "at": "公車特徵",
+      "occ": 1,
+      "en": "A special summons through the office of the Public Carriages, which brought scholars to court.",
+      "zh": "由公车署特别征召。公车，汉代负责接待被征召者的官署。",
+      "at_hans": "公车特征"
+    },
+    {
+      "at": "太史令",
+      "occ": 1,
+      "en": "Grand Astrologer: the official in charge of astronomy, the calendar and omens.",
+      "zh": "太史令，掌管天文、历法和记录天象的官员。"
+    },
+    {
+      "at": "琁機",
+      "occ": 1,
+      "en": "The jade armillary of ancient legend; here, the instruments for observing the heavens.",
+      "zh": "璇玑，传说中观测天象的玉制仪器，这里指天文仪器。",
+      "at_hans": "琁机"
+    },
+    {
+      "at": "渾天儀",
+      "occ": 1,
+      "en": "An armillary sphere, turned by water, modelling the heavens as a sphere around the earth.",
+      "zh": "浑天仪，以水力转动，把天看作包着大地的圆球来演示天象。",
+      "at_hans": "浑天仪"
+    },
+    {
+      "at": "靈憲",
+      "occ": 1,
+      "en": "The Lingxian, Zhang Heng’s treatise on the structure of the cosmos; only fragments survive.",
+      "zh": "《灵宪》，张衡论宇宙结构的著作，今只存残篇。",
+      "at_hans": "灵宪"
+    },
+    {
+      "at": "陽嘉元年",
+      "occ": 1,
+      "en": "The first year of the Yangjia reign of Emperor Shun: 132 CE.",
+      "zh": "阳嘉元年，汉顺帝年号，公元 132 年。",
+      "at_hans": "阳嘉元年"
+    },
+    {
+      "at": "候風地動儀",
+      "occ": 1,
+      "en": "The instrument for watching the winds and the movements of the earth: the seismoscope. Whether 候風 names a separate wind instrument is still argued.",
+      "zh": "候风地动仪。“候风”是否另指一件测风仪器，至今仍有争论。",
+      "at_hans": "候风地动仪"
+    },
+    {
+      "at": "都柱",
+      "occ": 1,
+      "en": "A central column, probably a pendulum or a standing rod that a tremor would tip.",
+      "zh": "中央的大柱，一般认为是一根受震就会倾倒或摆动的柱子。"
+    },
+    {
+      "at": "合契若神",
+      "occ": 1,
+      "en": "Matched like the two halves of a tally, as if by spirit.",
+      "zh": "像符契一样相合，灵验如神。"
+    },
+    {
+      "at": "隴西",
+      "occ": 1,
+      "en": "A commandery in present-day Gansu, several hundred miles west of Luoyang; the quake there is recorded for 138.",
+      "zh": "陇西郡，在今甘肃，距洛阳数百公里；这次地震史书系于 138 年。",
+      "at_hans": "陇西"
+    }
+  ],
+  "pairs": [
+    "S-006004",
+    "S-006005",
+    "S-002044"
+  ]
+}

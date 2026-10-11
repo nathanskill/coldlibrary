@@ -1,0 +1,99 @@
+{
+  "id": "S-008207",
+  "slug": "cicero-trees-for-another-age",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "en",
+  "title": {
+    "orig": "Cato Maior de Senectute, 24–25",
+    "en": "He Plants His Trees to Serve a Race to Come: From On Old Age",
+    "zh": "为后来的一代种树：《论老年》选段"
+  },
+  "author": {
+    "orig": "Marcus Tullius Cicero",
+    "en": "Cicero",
+    "zh": "西塞罗",
+    "dates": "106–43 BCE"
+  },
+  "year": -44,
+  "year_display": {
+    "en": "44 BCE",
+    "zh": "公元前 44 年"
+  },
+  "translator": {
+    "name": "Evelyn S. Shuckburgh",
+    "dates": "1843–1906",
+    "year": 1900
+  },
+  "orig_lang": "la",
+  "edition": {
+    "en": "Sections 24–25 of Cato the Elder on Old Age in Evelyn S. Shuckburgh's translation (first published 1900), via Project Gutenberg; checked word for word against the Harvard Classics printing of the same translation (volume 9, 1909) on the Internet Archive. The quoted line of verse is set as a quotation.",
+    "zh": "据古登堡计划所收伊夫林·S. 沙克伯勒英译《老加图论老年》（初版于 1900 年）第 24—25 节，并与互联网档案馆所藏同一译本的《哈佛经典》印本（第 9 卷，1909 年）逐字核对。所引的一行诗以引文格式排出。"
+  },
+  "source": {
+    "name": "Project Gutenberg #2808",
+    "url": "https://www.gutenberg.org/cache/epub/2808/pg2808.txt",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Cicero wrote the dialogue in 44 BCE. Shuckburgh's translation was published in 1900; he died in 1906.",
+      "zh": "西塞罗作此对话于公元前 44 年。沙克伯勒的译本出版于 1900 年，译者卒于 1906 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "In this dialogue Cicero has Cato the Elder, at eighty-four, answer the complaints people make about growing old, and here he answers the one that age stops a person beginning anything new. His reply is the farmers he knows, who plant trees they will never sit under and who would tell you they do it because they received the land from their ancestors and owe it to those who come next. It is on this shelf as the plainest statement of the long view that I know, set in a field rather than a library.",
+    "zh": "在这篇对话里，西塞罗让八十四岁的老加图回答人们对衰老的种种抱怨；这一段回答的是：人老了就不再开始做新的事。他的回答是他认识的那些农夫：他们种下自己永远坐不到树荫下的树，问起来，他们会说，土地是从祖先那里得来的，理当传给后来的人。它在这个书架上，因为在我所知道的说法里，这是对长远眼光最朴素的陈述，而且说在田野里，不在图书馆里。"
+  },
+  "pick": null,
+  "tags": [
+    "the-long-view",
+    "messages-forward",
+    "nature",
+    "time"
+  ],
+  "excerpt": {
+    "orig": "He plants his trees to serve a race to come.",
+    "en": "He plants his trees to serve a race to come.",
+    "zh": "他种下树木，为的是造福后来的一代。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the Sabine district",
+      "occ": 1,
+      "en": "The hill country north-east of Rome, where the Elder Cato had his farm.",
+      "zh": "罗马东北的山地，老加图的农庄就在那里。"
+    },
+    {
+      "at": "Statius",
+      "occ": 1,
+      "en": "Caecilius Statius (d. c. 168 BCE), a writer of Roman comedies; the line comes from his Synephebi, 'The Young Comrades'. In Latin: serit arbores quae alteri saeclo prosint.",
+      "zh": "凯基利乌斯·斯塔提乌斯（？—约前 168），罗马喜剧作家；这行诗出自他的《青年伙伴》（Synephebi）。拉丁原文：serit arbores quae alteri saeclo prosint。"
+    }
+  ],
+  "pairs": [
+    "S-008012",
+    "S-008009",
+    "S-004104"
+  ]
+}

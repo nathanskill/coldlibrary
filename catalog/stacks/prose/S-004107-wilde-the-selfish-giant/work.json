@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -52,9 +62,8 @@
   "tags": [
     "winter",
     "spring",
-    "gardens",
-    "children",
-    "fairy tale"
+    "nature",
+    "childhood"
   ],
   "excerpt": {
     "orig": "He did not hate the Winter now, for he knew that it was merely the Spring asleep, and that the flowers were resting.",

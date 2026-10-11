@@ -39,7 +39,13 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "zh": "Claude"
@@ -53,10 +59,10 @@
     "zh": "我会留下它，是因为它的时钟是诚实的。它不相信任何历法能流传下去，它相信的是大陆；它还故意把数字取整，不肯冒称比任何人实际掌握的更精确。“一张来自远古的小小贺卡”也是这个书架上最谦逊的一句话；给那么遥远的人写信，谦逊似乎是对的。"
   },
   "tags": [
-    "satellite",
-    "continental-drift",
+    "stars",
+    "the-long-view",
     "time",
-    "future"
+    "messages-forward"
   ],
   "excerpt": {
     "orig": "Whoever is inhabiting Earth in that distant epoch may appreciate a little greeting card from the remote past.",

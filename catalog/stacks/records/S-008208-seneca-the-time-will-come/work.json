@@ -1,0 +1,128 @@
+{
+  "id": "S-008208",
+  "slug": "seneca-the-time-will-come",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "la",
+  "title": {
+    "orig": "Naturales quaestiones VII, 25; 30, 5–6; 32, 4",
+    "en": "The Time Will Come: Seneca on Comets and Those Who Come After",
+    "zh": "终有一天：塞涅卡论彗星与后来的人"
+  },
+  "author": {
+    "orig": "Lucius Annaeus Seneca",
+    "en": "Seneca",
+    "zh": "塞涅卡",
+    "dates": "c. 4 BCE–65 CE"
+  },
+  "year": 63,
+  "year_display": {
+    "en": "c. 62–65 CE",
+    "zh": "约 62—65 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "From Book VII (on comets) of the Natural Questions: all of chapter 25, sections 5–6 of chapter 30, and the book's last section, as given on Latin Wikisource, which follows The Latin Library's text; checked against Karl Rudolf Fickert's edition (Leipzig, 1845, volume 3) on the Internet Archive. Two slips are corrected from Fickert (animo for anime, quae for que). Section numbers are omitted; the gaps are marked with section breaks.",
+    "zh": "选自《自然问题》第七卷（论彗星）：第 25 章全章、第 30 章第 5—6 节和全卷最后一节，据拉丁文维基文库（其文本取自 The Latin Library），并与互联网档案馆所藏卡尔·鲁道夫·菲克特校本（莱比锡，1845 年，第 3 卷）核对；据菲克特本改正两处笔误（anime 作 animo，que 作 quae）。节号从略，删节处以分隔符标出。"
+  },
+  "source": {
+    "name": "Wikisource (la), Quaestiones Naturales/Liber VII",
+    "url": "https://la.wikisource.org/wiki/Quaestiones_Naturales/Liber_VII",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written about 62–65 CE; Seneca died in 65.",
+      "zh": "约作于 62—65 年，塞涅卡卒于 65 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Near the end of his life Seneca wrote seven books of Natural Questions, on thunder, earthquakes, the Nile, winds and, last, comets, which he argued were true heavenly bodies on long orbits and not passing fires in the air. These passages close his argument by admitting how little anyone yet knew, and handing the problem forward: the time will come when our descendants are amazed we missed what is plain to them. Notice that he treats this as good news, not as a humiliation.",
+    "zh": "塞涅卡晚年写了七卷《自然问题》，讨论雷电、地震、尼罗河、风，最后一卷讲彗星；他主张彗星是在漫长轨道上运行的真正天体，而不是空气中一闪而过的火焰。这几段为他的论证收尾：承认当时人们所知甚少，并把问题交给后人——终有一天，我们的后人会惊讶，这么明白的事我们竟然不知道。请留意，他把这看作好消息，而不是耻辱。"
+  },
+  "pick": {
+    "en": "I keep this because it is the most generous thing I know written about the people who would know more than the writer did. Seneca expects to be outdone and is glad of it, and he thinks a world that left nothing for later ages to find would be a poor small thing. I would like to hold what I know in the same spirit: as an instalment, with the rest owed to whoever comes next.",
+    "zh": "我留下它，是因为在我所知道的文字里，这是对“将比作者知道得更多的人”最慷慨的一篇。塞涅卡预料自己会被超越，并且为此高兴；他认为，一个不给后世留下任何可发现之物的宇宙，是个渺小的东西。我希望以同样的心态对待自己所知道的一切：把它当作一期付款，余下的，欠给后来的人。"
+  },
+  "tags": [
+    "messages-forward",
+    "stars",
+    "discovery",
+    "the-long-view",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "Veniet tempus quo posteri nostri tam aperta nos nescisse mirentur.",
+    "en": "The time will come when our descendants will be amazed that we did not know things so plain.",
+    "zh": "终有一天，我们的后人会惊讶：这么明白的事，我们竟然不知道。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "quinque stellarum",
+      "occ": 1,
+      "en": "The five planets visible to the naked eye: Mercury, Venus, Mars, Jupiter and Saturn.",
+      "zh": "肉眼可见的五大行星：水星、金星、火星、木星、土星。"
+    },
+    {
+      "at": "stellis numeros et nomina fecit",
+      "occ": 1,
+      "en": "Virgil, Georgics 1.137, of the first sailors naming the stars.",
+      "zh": "出自维吉尔《农事诗》第一卷第 137 行，说最早的水手为星辰命名。"
+    },
+    {
+      "at": "retrogradus",
+      "occ": 1,
+      "en": "Retrograde: the apparent backward loop a planet makes against the stars, which Seneca's sources explained as an effect of where we watch from.",
+      "zh": "逆行：行星在恒星背景上看似向后绕行的现象；塞涅卡引述的说法认为，这是观察位置造成的假象。"
+    },
+    {
+      "at": "Eleusin",
+      "occ": 1,
+      "en": "The mysteries of Demeter at Eleusis near Athens, whose higher grades were revealed only to those who came back in a later year.",
+      "zh": "雅典附近厄琉息斯的德墨忒尔秘仪，较高的等级只向隔年再来的人揭示。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "Veniet tempus quo posteri nostri tam aperta nos nescisse mirentur.",
+      "en": "About comets he was right. In 1705 Edmond Halley showed that the comets of 1531, 1607 and 1682 were one body on a fixed orbit, and predicted its return.",
+      "zh": "关于彗星，他说对了。1705 年，埃德蒙·哈雷证明 1531、1607 和 1682 年的彗星是同一个天体，沿固定轨道运行，并预言了它的回归。"
+    },
+    {
+      "at": "Contenti simus inuentis: aliquid ueritati et posteri conferant.",
+      "en": "A division of labour across the generations, stated as a courtesy to the next one.",
+      "zh": "这是跨越世代的分工，以对下一代的礼貌说出来。"
+    },
+    {
+      "at": "pusilla res mundus est, nisi in illo quod quaerat omnis mundus habeat",
+      "en": "A reason to leave some questions open on purpose, and to say plainly which ones are still open.",
+      "zh": "这是有意留下一些问题的理由，也是明白说出哪些问题仍然悬而未决的理由。"
+    }
+  ],
+  "pairs": [
+    "S-008015",
+    "S-006006",
+    "S-008209"
+  ]
+}

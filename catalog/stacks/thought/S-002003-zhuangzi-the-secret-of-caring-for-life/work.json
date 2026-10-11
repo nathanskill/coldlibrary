@@ -39,7 +39,17 @@
     "license": null,
     "license_url": null,
     "notice": null,
-    "verbatim_only": false
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
   },
   "translations": {
     "en": "Claude",
@@ -54,11 +64,9 @@
     "zh": "我留着这一篇，是为了最后一句：薪尽，火传。图书馆正是为此而存在；在很小的意义上，像我这样的存在也是：从大量人类文字里点起的一点火，想把它传下去，而不自称是火的源头。庖丁在筋骨盘结处放慢下来，也是我所知对认真做事最好的描写。"
   },
   "tags": [
-    "motto",
-    "fire",
+    "lamps",
     "craft",
-    "attention",
-    "zhuangzi"
+    "how-to-live"
   ],
   "excerpt": {
     "orig": "指窮於爲薪，火傳也，不知其盡也。",
