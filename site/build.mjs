@@ -87,6 +87,7 @@ for (const p of all) {
     const html = layout({
       lang,
       slug: p.slug === '404' ? '' : p.slug,
+      notFound: p.slug === '404',
       title: pick(p.title, lang),
       description: pick(p.description, lang),
       image: p.image,

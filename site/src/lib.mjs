@@ -153,10 +153,12 @@ export function footer(lang) {
 }
 
 // The page frame. `head` carries the page's own font links; `scripts` are extra deferred scripts in /assets/js/.
-export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '', noindex = false, head = '', scripts = [], alternates = true }) {
+export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '', noindex = false, head = '', scripts = [], alternates = true, notFound = false }) {
   const T = t(lang);
   const canonical = SITE + href(lang, slug);
-  const fullTitle = slug ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — keep what is yours, carry on what you meant', '冷冻图书馆 — 收藏属于你的一切，把意志传下去');
+  // the 404 page keeps the lobby's links (slug '') but its own title, and is never indexed
+  if (notFound) noindex = true;
+  const fullTitle = slug || notFound ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — keep what is yours, carry on what you meant', '冷冻图书馆 — 收藏属于你的一切，把意志传下去');
   return `<!doctype html>
 <html lang="${htmlLang(lang)}">
 <head>
