@@ -16,7 +16,7 @@ export function authorNames(lang, a) {
   return { name: page, other: a.orig && a.orig !== page ? a.orig : '', otherLang: '' };
 }
 // Dates only when every work agrees (an "Anonymous" heading spans centuries).
-const datesOf = (rec) => { const d = [...new Set(rec.works.map((w) => w.author.dates).filter(Boolean))]; return d.length === 1 ? d[0] : ''; };
+const datesOf = (rec, lang = 'en') => { const d = [...new Set(rec.works.map((w) => (lang === 'zh' && w.author.dates_zh) || w.author.dates).filter(Boolean))]; return d.length === 1 ? d[0] : ''; };
 const authorHref = (lang, rec) => osHref(lang, 'authors/' + rec.slug);
 const portraitOf = (stacks, rec) => {
   const name = rec.author.en || '';
@@ -69,7 +69,7 @@ function renderIndex(lang, stacks) {
       const n = authorNames(lang, rec.author);
       const shelves = [...new Set(rec.works.map((w) => w.shelf))].map((k) => { const s = shelfOf(k); return `<a href="${shelfHref(lang, k)}">${esc(T(s.en, s.zh))}</a>`; }).join(', ');
       const url = rec.works.length >= 2 ? authorHref(lang, rec) : workHref(lang, rec.works[0]);
-      const dates = datesOf(rec);
+      const dates = datesOf(rec, lang);
       return `<li class="os-arow">
   <span class="os-an"><a href="${url}">${esc(n.name)}</a>${n.other ? ` <span class="os-ao"${n.otherLang ? ` lang="${n.otherLang}"` : ` lang="${esc(tagOf(rec.works[0].lang))}"`}>${esc(n.other)}</span>` : ''}</span>
   <span class="os-ad">${esc(dates)}</span>
@@ -86,7 +86,7 @@ function renderAuthor(lang, stacks, rec) {
   const T = t(lang);
   const n = authorNames(lang, rec.author);
   const works = [...rec.works].sort((a, b) => a.year - b.year || a.id.localeCompare(b.id));
-  const dates = datesOf(rec);
+  const dates = datesOf(rec, lang);
   const shelves = [...new Set(works.map((w) => w.shelf))];
   const head = ph({
     lang,

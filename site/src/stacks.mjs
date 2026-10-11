@@ -146,7 +146,7 @@ export function authorLabel(w, lang) {
   const han = (x) => /^[\u3400-\u9fff\uf900-\ufaff·・]+$/.test(String(x || ''));
   const scriptOnly = han(page) && han(a.orig) && [...page].length === [...a.orig].length;
   const extra = a.orig && page !== a.orig && !String(page).includes(a.orig) && !scriptOnly;
-  return { name: page, orig: extra ? a.orig : '', dates: a.dates };
+  return { name: page, orig: extra ? a.orig : '', dates: (lang === 'zh' && a.dates_zh) || a.dates };
 }
 
 // A year for lists and rows: "1789", "23 BCE" / "前 23 年". Full dates belong on the work page.

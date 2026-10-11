@@ -13,7 +13,8 @@
     "orig": "Barry Warsaw, Jeremy Hylton, David Goodger, Alyssa Coghlan",
     "en": "Barry Warsaw, Jeremy Hylton, David Goodger and Alyssa Coghlan",
     "zh": "巴里·华沙、杰里米·希尔顿、戴维·古杰、艾丽莎·科格伦",
-    "dates": "PEP created 2000"
+    "dates": "PEP created 2000",
+    "dates_zh": "PEP 创建于 2000 年"
   },
   "year": 2000,
   "year_display": {

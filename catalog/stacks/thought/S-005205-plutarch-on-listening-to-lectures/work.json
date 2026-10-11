@@ -13,7 +13,8 @@
     "orig": "Πλούταρχος",
     "en": "Plutarch",
     "zh": "普鲁塔克",
-    "dates": "c. 46–after 119 CE"
+    "dates": "c. 46–after 119 CE",
+    "dates_zh": "约 46–119 年以后"
   },
   "year": 100,
   "year_display": {
@@ -47,7 +48,13 @@
     "notice": null,
     "verbatim_only": false,
     "checked": {
-      "where": ["AU", "EU", "UK", "CN", "US"],
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
       "date": "2026-10-11"
     }
   },

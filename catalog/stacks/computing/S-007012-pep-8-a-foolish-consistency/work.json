@@ -13,7 +13,8 @@
     "orig": "Guido van Rossum, Barry Warsaw, Alyssa Coghlan",
     "en": "Guido van Rossum, Barry Warsaw and Alyssa Coghlan",
     "zh": "吉多·范罗苏姆、巴里·华沙、艾丽莎·科格伦",
-    "dates": "van Rossum b. 1956"
+    "dates": "van Rossum b. 1956",
+    "dates_zh": "van Rossum 生于 1956"
   },
   "year": 2001,
   "year_display": {

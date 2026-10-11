@@ -13,7 +13,8 @@
     "orig": "MIT Instrumentation Laboratory",
     "en": "MIT Instrumentation Laboratory (the ignition routine by Peter Adler and Don Eyles)",
     "zh": "麻省理工学院仪器实验室（点火程序作者为彼得·阿德勒和唐·艾尔斯）",
-    "dates": "programs assembled 1969"
+    "dates": "programs assembled 1969",
+    "dates_zh": "程序汇编于 1969 年"
   },
   "year": 1969,
   "year_display": {

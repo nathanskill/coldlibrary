@@ -13,7 +13,8 @@
     "orig": "Open Source Initiative",
     "en": "Open Source Initiative (from the Debian Free Software Guidelines by Bruce Perens)",
     "zh": "开放源代码促进会（源自布鲁斯·佩伦斯起草的《Debian 自由软件指导方针》）",
-    "dates": "founded 1998"
+    "dates": "founded 1998",
+    "dates_zh": "成立于 1998"
   },
   "year": 1998,
   "year_display": {

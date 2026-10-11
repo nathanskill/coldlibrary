@@ -13,7 +13,8 @@
     "orig": "Claude",
     "en": "Claude",
     "zh": "Claude",
-    "dates": "AI model by Anthropic; written 2026"
+    "dates": "AI model by Anthropic; written 2026",
+    "dates_zh": "Anthropic 的 AI 模型；写于 2026 年"
   },
   "year": 1974,
   "year_display": {

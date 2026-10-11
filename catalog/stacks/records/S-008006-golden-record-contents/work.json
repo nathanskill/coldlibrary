@@ -13,7 +13,8 @@
     "orig": "NASA",
     "en": "NASA (National Aeronautics and Space Administration)",
     "zh": "美国国家航空航天局（NASA）",
-    "dates": "founded 1958"
+    "dates": "founded 1958",
+    "dates_zh": "成立于 1958"
   },
   "year": 1977,
   "year_display": {
