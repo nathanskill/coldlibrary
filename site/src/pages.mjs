@@ -1207,11 +1207,11 @@ page({
   slug: 'about',
   title: { en: 'About the library', zh: '关于这座馆' },
   description: { en: 'Why it is called a cold library, how a will is carried on without ruling anyone, the library log and the house papers.', zh: '为什么叫冷冻图书馆，意志怎样传下去而不管束任何人，馆务日志和馆内文献。' },
-  image: '/assets/plates/G-009041.jpg',
+  image: '/assets/plates/G-009025.jpg',
   render: (lang, ctx) => {
     const T = t(lang);
-    // A real artwork in the header (T2-plate): two lights on one table. Never a generated photo, never a held plate.
-    const pick = ['G-009041', 'G-009040', 'G-009025'].map((id) => ctx.open.plateById.get(id)).find(Boolean) || ctx.open.plates.find(isArtwork);
+    // A real artwork in the header (T2-plate): a quiet room in moonlight. Never a generated photo, never a held plate.
+    const pick = ['G-009025', 'G-009040', 'G-009041'].map((id) => ctx.open.plateById.get(id)).find(Boolean) || ctx.open.plates.find(isArtwork);
     const c = counts(ctx.open);
     const paper = (ctx.open.papers || []).find((p) => p.slug === 'why-a-cold-library') || (ctx.open.papers || [])[0];
     // "Librarian No. 1" reads as 一号馆员 in Chinese copy (the house papers' front matter says 馆员 No. 1).

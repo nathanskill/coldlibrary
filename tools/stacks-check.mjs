@@ -7,7 +7,7 @@
 import { readFileSync, readdirSync, existsSync, statSync, openSync, readSync, closeSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
-import { RESERVED, measure, blocks, toc } from '../site/src/stacks.mjs';
+import { RESERVED, measure, blocks, toc, rightsKind } from '../site/src/stacks.mjs';
 
 const SHELVES = ['poetry', 'prose', 'thought', 'science', 'computing', 'records'];
 const FORMS = ['verse', 'prose', 'code', 'aphorisms'];
@@ -169,7 +169,8 @@ export function checkStacks(root) {
         const c = r.checked;
         if (!c || !Array.isArray(c.where) || !c.where.length || c.where.some((x) => !WHERE.includes(x))) err(where, 'rights', `rights.checked.where must list some of ${WHERE.join(', ')}`);
         if (!c || !isDate(c.date)) err(where, 'rights', 'rights.checked.date must be YYYY-MM-DD');
-      } else warn(where, 'no rights.checked yet (the jurisdiction sentence is left out)');
+      } else if (['age', 'us-gov'].includes(rightsKind(w))) warn(where, 'no rights.checked yet (the jurisdiction sentence is left out)');
+      // a dedication or a licence holds everywhere it is granted; only age and US-government claims depend on the country
       if (w.translator && (!w.translator.name || !w.translator.dates || typeof w.translator.year !== 'number')) err(where, 'fields', 'translator needs name, dates and year');
       if (w.translator && w.translator.year >= 1931 && r.status === 'public-domain' && !/government|gov|dedicat|CC0/i.test((r.basis && r.basis.en) || '')) err(where, 'rights', 'a public-domain translation must have been published before 1931');
       if (w.translator && !w.orig_lang) err(where, 'orig_lang', 'orig_lang (the language of the original, BCP 47) is required when translator is set');

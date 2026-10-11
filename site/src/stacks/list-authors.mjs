@@ -6,6 +6,23 @@ import { wrow, rowList } from '../components.mjs';
 import { osHref, crumbs, count, num, yearRange, platePh, initialOf } from './list-common.mjs';
 
 const isHan = (s) => /^[\s㐀-鿿豈-﫿（）·・]+$/u.test(String(s || ''));
+// Library order: Western names file under the surname (Lovelace, Ada); Chinese names are already surname-first in
+// pinyin; single names, organisations and anonymous works stay as written.
+const KEEP = { 'Marcus Aurelius': 'Marcus Aurelius', 'Leonardo da Vinci': 'Leonardo da Vinci', 'Alfred, Lord Tennyson': 'Tennyson, Alfred' };
+const ORG = /\b(Board|Office|Society|Group|NASA|Administration|Department|Project|Committee|Foundation|Initiative|Developers|Team|Authors|Institute|Laboratory|Bureau|Council|Agency|Architect|Capitol|Anonymous|Unknown|Various|IETF|IAB|ISOC)\b/i;
+export function sortName(a) {
+  const en = String(a.en || a.orig || '').trim();
+  if (/[\u3400-\u9fff]/.test(String(a.orig || ''))) return en;          // pinyin, surname first already
+  if (KEEP[en]) return KEEP[en];
+  const plain = en.replace(/\s*\([^)]*\)/g, '').trim();                   // "O. Henry (William Sydney Porter)"
+  const first = plain.split(/,\s*|\s+and\s+/)[0].trim();                  // the first of several authors; drop "king of …"
+  if (ORG.test(first)) return plain;
+  const of = first.match(/^(\S+) of \S+/);                                // "Archimedes of Syracuse"
+  if (of) return of[1];
+  const words = first.split(/\s+/);
+  if (words.length < 2 || /^[IVX]+$/.test(words[words.length - 1])) return first;   // "Plato", "Darius I"
+  return words[words.length - 1] + ', ' + words.slice(0, -1).join(' ');
+}
 // The name in the page language, then the original (or, for a Chinese name on the Chinese site, its pinyin).
 export function authorNames(lang, a) {
   const page = a[lang] || a.en;
@@ -47,9 +64,9 @@ export function authorPages(ctx) {
 function renderIndex(lang, stacks) {
   const T = t(lang);
   const groups = new Map();
-  for (const rec of stacks.authors) { const k = initialOf(rec.author); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(rec); }
+  for (const rec of stacks.authors) { const k = initialOf({ en: sortName(rec.author) }); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(rec); }
   const coll = new Intl.Collator('en', { sensitivity: 'base' });
-  for (const list of groups.values()) list.sort((a, b) => coll.compare(a.author.en || '', b.author.en || ''));
+  for (const list of groups.values()) list.sort((a, b) => coll.compare(sortName(a.author), sortName(b.author)));
   const letters = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ', ...(groups.has('#') ? ['#'] : [])];
   const strip = `<nav class="os-az" aria-label="${T('Authors by letter', '按字母查找作者')}"><div class="wrap"><p class="os-letters">${letters.map((ch) => (groups.has(ch)
     ? `<a href="#letter-${ch === '#' ? 'other' : ch.toLowerCase()}"><span>${ch}</span></a>`
