@@ -60,5 +60,9 @@
     "en": "Season of mists and mellow fruitfulness,\nClose bosom-friend of the maturing sun;",
     "zh": "雾气与醇熟丰饶的季节，\n你是那催熟万物的太阳的知心密友；"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004005",
+    "S-001024"
+  ]
 }

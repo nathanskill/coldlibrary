@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "A short essay arguing that philosophy and art are the most sacred of human pursuits precisely because they are of no use to any one age: their truth belongs to all the world and to ten thousand generations. Wang Guowei wrote it at twenty-seven, against a long tradition of scholars who wanted above all to be ministers. Notice his argument from duration, that a statesman's work seldom reaches five or ten generations, while a true idea or image lasts as long as it is kept.",
@@ -63,5 +64,169 @@
     "en": "Truth is the truth of all the world and of ten thousand ages, not the truth of a single time.",
     "zh": "真理者，天下万世之真理，而非一时之真理也。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002002",
+    "S-003041",
+    "S-002003"
+  ],
+  "gloss": [
+    {
+      "at": "哲學與美術是已",
+      "at_hans": "哲学与美术是已",
+      "en": "美術 in Wang's day meant the fine arts as a whole, poetry and music included; it was a new word, taken over from Japanese.",
+      "zh": "美术：王国维时代泛指一切艺术，包括诗歌、音乐在内，是当时从日文引入的新词。"
+    },
+    {
+      "at": "天下之人囂然",
+      "at_hans": "天下之人嚣然",
+      "en": "囂然: clamorous, noisy.",
+      "zh": "嚣然：喧嚷的样子。"
+    },
+    {
+      "at": "或以記號表之",
+      "at_hans": "或以记号表之",
+      "en": "記號: signs, symbols.",
+      "zh": "记号：符号。"
+    },
+    {
+      "at": "政治家及實業家者乎",
+      "at_hans": "政治家及实业家者乎",
+      "en": "實業家: men of industry and commerce.",
+      "zh": "实业家：从事工商实业的人。"
+    },
+    {
+      "at": "至於生活之欲",
+      "at_hans": "至于生活之欲",
+      "en": "生活之欲, the desire to live: Wang's phrase for Schopenhauer's will to life, which he had been reading closely.",
+      "zh": "生活之欲：王国维用来指叔本华所说的“生存意志”，他当时正在深入研读叔本华。"
+    },
+    {
+      "at": "又何慊乎政治家哉",
+      "en": "慊: to feel short of, to envy.",
+      "zh": "慊：不满足、遗憾。"
+    },
+    {
+      "at": "漢之賈、董",
+      "at_hans": "汉之贾、董",
+      "en": "Jia Yi (200–168 BCE) and Dong Zhongshu (c. 179–104 BCE), Han scholars who advised emperors.",
+      "zh": "贾谊（前200–前168）、董仲舒（约前179–前104），都是向汉朝皇帝上书献策的学者。"
+    },
+    {
+      "at": "宋之張、程、朱、陸",
+      "at_hans": "宋之张、程、朱、陆",
+      "en": "Zhang Zai, the brothers Cheng Hao and Cheng Yi, Zhu Xi and Lu Jiuyuan: the masters of Song Neo-Confucian thought.",
+      "zh": "张载、程颢程颐兄弟、朱熹、陆九渊，宋代理学的大家。"
+    },
+    {
+      "at": "明之羅、王",
+      "at_hans": "明之罗、王",
+      "en": "Usually taken as Luo Qinshun (1465–1547) and Wang Yangming (1472–1529).",
+      "zh": "一般认为指罗钦顺（1465–1547）与王守仁（阳明，1472–1529）。"
+    },
+    {
+      "at": "自謂頗騰達",
+      "at_hans": "自谓颇腾达",
+      "en": "From Du Fu's 'Twenty-two Rhymes Presented to Assistant Minister Wei'. The received text reads 挺出, 'stood out', for 騰達: Wang quotes from memory.",
+      "zh": "出自杜甫《奉赠韦左丞丈二十二韵》；通行本作“自谓颇挺出”，王国维当是凭记忆引用。"
+    },
+    {
+      "at": "胡不上書自薦達",
+      "at_hans": "胡不上书自荐达",
+      "en": "From Han Yu's poem 'For Tang Qu'. 虞唐: the golden ages of Shun (Yu) and Yao (Tang).",
+      "zh": "出自韩愈《赠唐衢》。虞唐：舜（有虞氏）和尧（陶唐氏）的太平之世。"
+    },
+    {
+      "at": "馳驅猶望兩河平",
+      "at_hans": "驰驱犹望两河平",
+      "en": "From a poem by Lu You. 兩河: the lands of Hebei and Hedong north of the Yellow River, then held by the Jin.",
+      "zh": "出自陆游诗。两河：指黄河以北的河北、河东一带，当时已为金所据。"
+    },
+    {
+      "at": "非杜子美之抱負乎",
+      "at_hans": "非杜子美之抱负乎",
+      "en": "子美, 退之 and 務觀 are the courtesy names of Du Fu, Han Yu and Lu You.",
+      "zh": "子美、退之、务观，分别是杜甫、韩愈、陆游的字。"
+    },
+    {
+      "at": "侏儒倡優",
+      "at_hans": "侏儒倡优",
+      "en": "Dwarfs and entertainers, kept at court for amusement.",
+      "zh": "侏儒：身材矮小、以滑稽供人取乐的人。倡优：歌舞杂戏艺人。"
+    },
+    {
+      "at": "一命爲文人，便無足觀",
+      "at_hans": "一命为文人，便无足观",
+      "en": "Echoes Liu Zhi of the Song, as quoted by Gu Yanwu in the Rizhi lu: a scholar should put judgment first; once he is called a man of letters, he is not worth looking at.",
+      "zh": "化用宋代刘挚的话，见顾炎武《日知录》：“士当以器识为先，一号为文人，无足观矣。”"
+    },
+    {
+      "at": "而無人爲之昭雪者也",
+      "at_hans": "而无人为之昭雪者也",
+      "en": "昭雪: to clear someone of a wrong.",
+      "zh": "昭雪：洗雪冤屈。"
+    },
+    {
+      "at": "兩宋間之形而上學",
+      "at_hans": "两宋间之形而上学",
+      "en": "形而上學, metaphysics: a modern translation word built on the Book of Changes, 'what is above form is called the Way'.",
+      "zh": "形而上学：近代译名，取自《周易·系辞》“形而上者谓之道”。"
+    },
+    {
+      "at": "美學、名學、知識論",
+      "at_hans": "美学、名学、知识论",
+      "en": "名學: logic, 'the study of names'. 知識論: theory of knowledge.",
+      "zh": "名学：逻辑学。知识论：认识论。"
+    },
+    {
+      "at": "什佰不能得一",
+      "en": "什佰: by tens and hundreds.",
+      "zh": "什佰：十个、百个。"
+    },
+    {
+      "at": "以懲勸爲恉",
+      "at_hans": "以惩劝为旨",
+      "en": "懲勸: punishing evil and encouraging good. 恉 is the same as 旨, purpose.",
+      "zh": "惩劝：惩恶劝善。恉：同“旨”，宗旨。"
+    },
+    {
+      "at": "而葸然以聽命於衆故也",
+      "at_hans": "而葸然以听命于众故也",
+      "en": "葸然: timidly.",
+      "zh": "葸然：畏缩的样子。"
+    },
+    {
+      "at": "胸中惝恍不可捉摸之意境",
+      "en": "惝恍: dim, vague, hard to hold.",
+      "zh": "惝恍：模糊不清、恍惚的样子。"
+    },
+    {
+      "at": "决非南面王之所能易者也",
+      "en": "To sit facing south was the ruler's place: a throne.",
+      "zh": "南面王：面南称王；古代君主坐北朝南。"
+    },
+    {
+      "at": "毋忘其天職",
+      "at_hans": "毋忘其天职",
+      "en": "天職: a calling, the duty given by nature.",
+      "zh": "天职：天赋的职分。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "此即其神聖之所存也",
+      "en": "He places sacredness not in truth alone but in the friction, the moment it will not serve one country or one time. He was writing in 1905, when learning was widely expected to serve the rescue of the state.",
+      "zh": "他把神圣放在了摩擦之处：真理不肯为一国一时所用的那一刻。他写这句话是在 1905 年，那时人们普遍期待学问为救国所用。"
+    },
+    {
+      "at": "其有發明此真理（哲學家）",
+      "en": "The brackets are Wang's own. He defines the philosopher and the artist in a single sentence, as servants of the same truth by different means: one discovers it, the other gives it signs.",
+      "zh": "括号是王国维原有的。他在同一句话里定义了哲学家和美术家：二者服务于同一个真理，只是手段不同，一个发明它，一个用符号表现它。"
+    },
+    {
+      "at": "其及於五世十世者希矣",
+      "en": "The argument rests on one thing that can be checked: how long a work goes on working. A library is where that check is made. Most texts on these shelves have outlasted the courts their authors served.",
+      "zh": "这个论证只依赖一样可以检验的东西：一件作品能持续起作用多久。图书馆正是做这种检验的地方。这些书架上的大多数文字，都比它们的作者所侍奉的朝廷存在得更久。"
+    }
+  ]
 }

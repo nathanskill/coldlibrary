@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Zhou Dunyi's short essay of 1063 on the lotus, which rises from the mud unstained. In a hundred and nineteen characters it sets three flowers against three ways of living. Notice the last turn: he asks who shares his love of the lotus, and does not answer.",
@@ -59,5 +60,110 @@
     "en": "I alone love the lotus: it rises out of the mud and is not stained by it; it is washed by clear ripples and is not showy.",
     "zh": "予独爱莲之出淤泥而不染，濯清涟而不妖"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "甚蕃",
+      "occ": 1,
+      "en": "蕃 means many: very many.",
+      "zh": "蕃，多。非常多。"
+    },
+    {
+      "at": "陶淵明獨愛菊",
+      "occ": 1,
+      "at_hans": "陶渊明独爱菊",
+      "en": "Tao Yuanming (365–427), whose best-known line is 'Picking chrysanthemums by the eastern hedge, at ease I see the southern hills.'",
+      "zh": "陶渊明（365—427）有名句“采菊东篱下，悠然见南山”。"
+    },
+    {
+      "at": "李唐",
+      "occ": 1,
+      "en": "The Tang dynasty, whose ruling house was named Li.",
+      "zh": "唐朝皇帝姓李，故称李唐。"
+    },
+    {
+      "at": "盛愛牡丹",
+      "occ": 1,
+      "at_hans": "盛爱牡丹",
+      "en": "In Tang Chang'an the peony was a craze; Bai Juyi wrote that one clump of dark blossoms cost as much as ten households paid in tax.",
+      "zh": "唐代长安盛行赏牡丹。白居易《买花》说：“一丛深色花，十户中人赋。”"
+    },
+    {
+      "at": "濯清漣",
+      "occ": 1,
+      "at_hans": "濯清涟",
+      "en": "濯 is to wash, 漣 the ripples of clear water.",
+      "zh": "濯，洗；涟，水的波纹，指清水。"
+    },
+    {
+      "at": "不妖",
+      "occ": 1,
+      "en": "Not seductive or showy.",
+      "zh": "不显得妖艳。"
+    },
+    {
+      "at": "中通外直",
+      "occ": 1,
+      "en": "The lotus stem is hollow inside and straight outside.",
+      "zh": "莲茎中间是空的，外形是直的。"
+    },
+    {
+      "at": "不蔓不枝",
+      "occ": 1,
+      "en": "蔓 and 枝 are used as verbs: it puts out no runners and no branches.",
+      "zh": "蔓、枝，都用作动词。不生藤蔓，不长枝节。"
+    },
+    {
+      "at": "香遠益清",
+      "occ": 1,
+      "at_hans": "香远益清",
+      "en": "益 means the more: the further the scent travels, the purer it grows.",
+      "zh": "益，更加。香气越远越清幽。"
+    },
+    {
+      "at": "亭亭淨植",
+      "occ": 1,
+      "at_hans": "亭亭净植",
+      "en": "亭亭 is tall and upright; 植 means to stand.",
+      "zh": "亭亭，耸立的样子；植，立。"
+    },
+    {
+      "at": "褻玩",
+      "occ": 1,
+      "at_hans": "亵玩",
+      "en": "To handle with careless familiarity.",
+      "zh": "亲近而不庄重地玩弄。"
+    },
+    {
+      "at": "隱逸者",
+      "occ": 1,
+      "at_hans": "隐逸者",
+      "en": "A recluse who has withdrawn from office and the world.",
+      "zh": "隐居避世的人。"
+    },
+    {
+      "at": "君子",
+      "occ": 1,
+      "en": "The Confucian gentleman: a person of cultivated virtue rather than of rank.",
+      "zh": "儒家所说品德高尚的人。"
+    },
+    {
+      "at": "鮮有聞",
+      "occ": 1,
+      "at_hans": "鲜有闻",
+      "en": "鮮 (read xiǎn) means seldom.",
+      "zh": "鲜（xiǎn），少。很少听说。"
+    },
+    {
+      "at": "宜乎眾矣",
+      "occ": 1,
+      "at_hans": "宜乎众矣",
+      "en": "宜 means naturally, of course.",
+      "zh": "宜，当然。"
+    }
+  ],
+  "pairs": [
+    "S-002028",
+    "S-002025"
+  ]
 }

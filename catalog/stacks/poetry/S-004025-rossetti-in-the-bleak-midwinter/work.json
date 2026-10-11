@@ -60,5 +60,9 @@
     "en": "Snow had fallen, snow on snow,\nSnow on snow,",
     "zh": "雪落下了，雪落在雪上，\n雪落在雪上，"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004103",
+    "S-004032"
+  ]
 }

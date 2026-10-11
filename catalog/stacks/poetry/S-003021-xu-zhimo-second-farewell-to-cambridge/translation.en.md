@@ -8,7 +8,7 @@ are brides in the setting sun;
 their bright reflections in the shimmering water
 ripple in my heart.
 
-The green floating-hearts on the soft mud
+The green floating-hearts that grow from the soft mud
 sway sleekly under the water:
 in the gentle waves of the Cam
 I would gladly be a water weed.

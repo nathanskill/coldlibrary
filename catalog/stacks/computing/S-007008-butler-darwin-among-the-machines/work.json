@@ -60,5 +60,10 @@
     "en": "It appears to us that we are ourselves creating our own successors",
     "zh": "在我们看来，正是我们自己在创造自己的继承者。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007007",
+    "S-006012",
+    "S-007001"
+  ]
 }

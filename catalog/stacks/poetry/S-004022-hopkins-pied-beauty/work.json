@@ -60,5 +60,9 @@
     "en": "All things counter, original, spare, strange;",
     "zh": "一切相反的、新奇的、稀少的、古怪的事物；"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004023",
+    "S-004024"
+  ]
 }

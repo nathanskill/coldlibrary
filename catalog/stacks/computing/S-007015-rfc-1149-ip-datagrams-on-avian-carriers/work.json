@@ -58,5 +58,10 @@
     "en": "Avian carriers can provide high delay, low throughput, and low altitude service.",
     "zh": "鸟类载体能够提供高延迟、低吞吐、低空飞行的服务。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007019",
+    "S-007016",
+    "S-007013"
+  ]
 }

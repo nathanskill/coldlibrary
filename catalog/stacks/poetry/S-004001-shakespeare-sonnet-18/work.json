@@ -61,5 +61,9 @@
     "en": "So long as men can breathe, or eyes can see,\nSo long lives this, and this gives life to thee.",
     "zh": "只要人还能呼吸，眼睛还能看见，\n这诗就活着，并且赋予你生命。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004002",
+    "S-004004"
+  ]
 }

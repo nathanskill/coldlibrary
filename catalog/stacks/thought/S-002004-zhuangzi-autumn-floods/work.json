@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "From the seventeenth chapter of the Zhuangzi, one of the outer chapters usually attributed to his followers. This excerpt gives the opening dialogue between the Lord of the River and the god of the Northern Sea, and the three short stories that close the chapter: the tortoise in the mud, the owl and its rat, and the happiness of fish. Notice that the debate on the bridge over the Hao ends not with a proof but with a place: I know it from here.",
@@ -60,5 +61,183 @@
     "en": "You cannot talk about the sea to a frog in a well: it is confined to its hole.",
     "zh": "井蛙不可以语于海者，拘于墟也。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002002",
+    "S-002003",
+    "S-002001"
+  ],
+  "gloss": [
+    {
+      "at": "秋水時至",
+      "at_hans": "秋水时至",
+      "en": "The autumn floods: the high water that comes with the rains around the eighth lunar month.",
+      "zh": "秋水：秋季的雨水，农历八月前后河水暴涨。"
+    },
+    {
+      "at": "涇流",
+      "at_hans": "泾流",
+      "en": "涇 is read as 徑: the straight, through-running current. In early texts 河 alone always means the Yellow River.",
+      "zh": "泾：通“径”，直流的水波。先秦文献中单称“河”专指黄河。"
+    },
+    {
+      "at": "兩涘渚涯之間",
+      "at_hans": "两涘渚涯之间",
+      "en": "涘: a riverbank. 渚: an islet. 涯: a shore.",
+      "zh": "涘：河岸。渚：水中小洲。涯：岸边。"
+    },
+    {
+      "at": "河伯",
+      "en": "The Lord of the River, god of the Yellow River.",
+      "zh": "河伯：黄河之神。"
+    },
+    {
+      "at": "望洋向若",
+      "en": "望洋: to gaze up and out, wide-eyed; it gave the idiom 望洋興嘆, to sigh before the ocean. 若: Ruo, god of the Northern Sea.",
+      "zh": "望洋：仰视的样子，后成成语“望洋兴叹”。若：北海之神。"
+    },
+    {
+      "at": "伯夷之義",
+      "at_hans": "伯夷之义",
+      "en": "Boyi: a prince of the late Shang who would not eat the grain of the Zhou conquerors and starved; the model of integrity.",
+      "zh": "伯夷：商末孤竹君之子，不食周粟而饿死，被视为义的典范。"
+    },
+    {
+      "at": "大方之家",
+      "en": "Those who know the great method: people of broad understanding.",
+      "zh": "大方之家：懂得大道理的人。"
+    },
+    {
+      "at": "拘於墟",
+      "at_hans": "拘于墟",
+      "en": "墟 is read as 虛: a dwelling place. The frog is bound by where it lives.",
+      "zh": "墟：通“虚”，居处。"
+    },
+    {
+      "at": "篤於時",
+      "at_hans": "笃于时",
+      "en": "篤: held fast, confined.",
+      "zh": "笃：固，局限于。"
+    },
+    {
+      "at": "乃知爾醜",
+      "at_hans": "乃知尔丑",
+      "en": "醜 here is smallness, unworthiness, not ugliness.",
+      "zh": "丑：鄙陋、浅薄，不是相貌丑。"
+    },
+    {
+      "at": "尾閭",
+      "at_hans": "尾闾",
+      "en": "Weilü: a legendary place at the bottom of the sea where its water drains away.",
+      "zh": "尾闾：传说中海底泄水的地方。"
+    },
+    {
+      "at": "礨空",
+      "en": "A little hollow, like a pit in a stone or an ant hole.",
+      "zh": "礨空：小孔穴，一说蚁穴。"
+    },
+    {
+      "at": "稊米",
+      "en": "A grain of a millet-like grass, a byword for something tiny.",
+      "zh": "稊米：一种形似小米的草籽，比喻极小。"
+    },
+    {
+      "at": "人卒九州",
+      "en": "卒: all, everywhere. 九州: the nine provinces into which the ancient world was divided.",
+      "zh": "卒：尽、众。九州：古代将天下分为九州。"
+    },
+    {
+      "at": "豪末",
+      "en": "豪 is read as 毫: the tip of a fine hair.",
+      "zh": "豪：通“毫”。豪末，毛的尖端。"
+    },
+    {
+      "at": "五帝之所連",
+      "at_hans": "五帝之所连",
+      "en": "The Five Emperors were said to hand on rule by abdication; 連 is that chain of succession.",
+      "zh": "五帝相传以禅让相续；连，接续。"
+    },
+    {
+      "at": "三王之所爭",
+      "at_hans": "三王之所争",
+      "en": "The Three Kings: the founders of the Xia, Shang and Zhou, who won rule by war.",
+      "zh": "三王：夏禹、商汤、周文王武王，以征伐得天下。"
+    },
+    {
+      "at": "任士之所勞",
+      "at_hans": "任士之所劳",
+      "en": "任士: the capable, those who take the world's work upon themselves.",
+      "zh": "任士：以天下为己任的能人。"
+    },
+    {
+      "at": "釣於濮水",
+      "at_hans": "钓于濮水",
+      "en": "The Pu, a river of the ancient north plain, in present-day Henan and Shandong.",
+      "zh": "濮水：古水名，在今河南、山东一带。"
+    },
+    {
+      "at": "願以境內累矣",
+      "at_hans": "愿以境内累矣",
+      "en": "累: to burden. A courteous way of offering the highest office.",
+      "zh": "累：劳累，委婉地表示要委以国政。"
+    },
+    {
+      "at": "王巾笥而藏之",
+      "en": "巾: to wrap in cloth. 笥: a bamboo box.",
+      "zh": "巾：用锦缎包裹。笥：竹箱。"
+    },
+    {
+      "at": "曳尾於塗中",
+      "at_hans": "曳尾于涂中",
+      "en": "曳: to drag. 塗: mud.",
+      "zh": "曳：拖。涂：泥。"
+    },
+    {
+      "at": "惠子相梁",
+      "en": "Huizi: Hui Shi, a logician, Zhuangzi's friend and favourite opponent. Liang is the state of Wei, named after its capital Daliang.",
+      "zh": "惠子：惠施，名家学者，庄子的好友和论敌。梁：即魏国，因建都大梁而称梁。"
+    },
+    {
+      "at": "廋於國中",
+      "at_hans": "廋于国中",
+      "en": "廋: to search.",
+      "zh": "廋：搜索。"
+    },
+    {
+      "at": "鵷鶵",
+      "at_hans": "鹓鶵",
+      "en": "A mythical bird of the phoenix kind.",
+      "zh": "鹓鶵：传说中凤凰一类的鸟。"
+    },
+    {
+      "at": "非練實不食",
+      "at_hans": "非练实不食",
+      "en": "練實: usually taken as bamboo seed; others read 練 as 楝, the chinaberry.",
+      "zh": "练实：竹实；一说“练”通“楝”，楝树的果实。"
+    },
+    {
+      "at": "鴟得腐鼠",
+      "at_hans": "鸱得腐鼠",
+      "en": "鴟: an owl or kite.",
+      "zh": "鸱：猫头鹰一类的鸟。"
+    },
+    {
+      "at": "遊於濠梁之上",
+      "at_hans": "游于濠梁之上",
+      "en": "The bridge (some say the weir) over the river Hao, near present-day Fengyang in Anhui.",
+      "zh": "濠梁：濠水上的桥，一说堤堰；濠水在今安徽凤阳一带。"
+    },
+    {
+      "at": "鯈魚出游從容",
+      "at_hans": "鯈鱼出游从容",
+      "en": "鯈: a minnow, the white chub.",
+      "zh": "鯈：白鲦鱼。"
+    },
+    {
+      "at": "子非魚，安知魚之樂",
+      "at_hans": "子非鱼，安知鱼之乐",
+      "en": "安 can mean 'how' or 'from where'. Zhuangzi's last reply takes it in the second sense.",
+      "zh": "“安”既可解为“怎么”，也可解为“从哪里”；庄子最后的回答正取后一种意思。"
+    }
+  ]
 }

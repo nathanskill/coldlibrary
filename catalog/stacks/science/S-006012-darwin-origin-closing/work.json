@@ -60,5 +60,10 @@
     "en": "There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.",
     "zh": "这种生命观是壮丽的：生命及其若干能力，最初被注入到少数几个类型或一个类型之中；而当这颗行星按照固定的引力法则不停运转的时候，最美丽、最奇妙的无穷无尽的类型，从如此简单的开端演化而来，并且仍在演化之中。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-006011",
+    "S-006015",
+    "S-006014"
+  ]
 }

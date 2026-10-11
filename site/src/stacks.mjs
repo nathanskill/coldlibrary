@@ -209,8 +209,15 @@ export function openingLines(w, lang, max = 9) {
     for (const raw of body.split('\n')) {
       const l = raw.trim();
       if (!l) { if (out.length && out[out.length - 1] !== '') out.push(''); continue; }
-      const half = isChineseText(w) && l.length > 8 ? splitCaesura(l) : null;
-      if (half) out.push(...half); else out.push(l);
+      if (isChineseText(w) && l.length > 8) {
+        // A couplet-per-line source line ("蒹葭蒼蒼，白露為霜。所謂伊人，在水一方。"): sentences first, then the caesura.
+        for (const sentence of l.match(/[^。？！；]+[。？！；]?/g) || [l]) {
+          const half = sentence.length > 8 ? splitCaesura(sentence) : null;
+          if (half) out.push(...half);
+          else if (sentence.length > 9 && /，/.test(sentence)) out.push(...sentence.split(/(?<=，)/));
+          else out.push(sentence);
+        }
+      } else out.push(l);
       if (out.length >= max) break;
     }
     return { kind: 'verse', lines: out.filter((x, i) => !(x === '' && i === 0)).slice(0, max) };
@@ -220,6 +227,9 @@ export function openingLines(w, lang, max = 9) {
   const cut = isChineseText(w) ? flat.slice(0, 140) : flat.split(/\s+/).slice(0, 50).join(' ');
   return { kind: 'prose', lines: [cut + (cut.length < flat.length ? '…' : '')] };
 }
+
+// Glosses and marginalia anchor on the text as read: emphasis markers removed. Shared by the renderer and the checker.
+export const anchorText = (src) => String(src ?? '').replace(/\*\*?/g, '');
 
 // Related works: Claude's pairs first, then the same author, the same tags, the same era.
 export function related(w, stacks, limit = 8) {
@@ -303,7 +313,7 @@ export function searchIndex(stacks) {
       i: w.id, s: w.slug, h: w.shelf, y: w.year, l: w.lang, e2: eraOf(w), r: rightsKind(w),
       t: [w.title.orig, w.title.en, w.title.zh].filter((x, k, a) => x && a.indexOf(x) === k).join(' / '),
       a: [w.author.orig, w.author.en, w.author.zh].filter((x, k, a) => x && a.indexOf(x) === k).join(' / '),
-      e: (w.excerpt && (w.excerpt.orig || '')).slice(0, 120), ez: (w.excerpt && (w.excerpt.zh || '')).slice(0, 120),
+      e: (w.excerpt && (w.excerpt.orig || '')).slice(0, 120), ez: isChineseText(w) && w.excerpt && w.excerpt.zh !== w.excerpt.orig ? (w.excerpt.zh || '').slice(0, 120) : '',
       p: w.pick ? 1 : 0, g: w.tags || [], tz: translationInto(w, 'zh') ? (translationInto(w, 'zh').full ? 2 : 1) : 0,
     })),
     plates: stacks.plates.map((p) => ({ i: p.id, s: p.slug, t: [p.title.orig, p.title.en, p.title.zh].filter(Boolean).join(' / '), a: [p.artist.orig, p.artist.en].filter(Boolean).join(' / '), y: p.year })),

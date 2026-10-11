@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Ouyang Xiu's account of a pavilion in the hills above Chuzhou, written in 1046, with its famous line that the old drunkard's heart is not in the wine but in the mountains and water. Almost every sentence ends with the particle ye, which gives the essay its rocking rhythm. This edition names the stream the Yielding Spring, where many later editions have the Brewing Spring.",
@@ -60,5 +61,170 @@
     "en": "The Old Drunkard's heart is not in the wine but in the mountains and the water.",
     "zh": "醉翁之意不在酒，在乎山水之间也。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "環滁",
+      "occ": 1,
+      "at_hans": "环滁",
+      "en": "滁 is Chuzhou, in today's Anhui, where Ouyang Xiu was sent as governor after his demotion in 1045.",
+      "zh": "滁，滁州，今属安徽。欧阳修 1045 年被贬为滁州知州。"
+    },
+    {
+      "at": "琅琊",
+      "occ": 1,
+      "en": "Langya Mountain, a few miles southwest of the town.",
+      "zh": "琅琊山，在滁州城西南。"
+    },
+    {
+      "at": "讓泉",
+      "occ": 1,
+      "at_hans": "让泉",
+      "en": "This text calls the spring 讓泉, the Yielding Spring; many later editions read 釀泉, the 'wine-making spring', as in the third paragraph.",
+      "zh": "此本作“让泉”；后来许多版本作“酿泉”，与第三段“酿泉为酒”相应。"
+    },
+    {
+      "at": "翼然",
+      "occ": 1,
+      "en": "Like a bird with wings spread: the upturned corners of the roof.",
+      "zh": "像鸟张开翅膀一样，形容亭角翘起。"
+    },
+    {
+      "at": "智僊",
+      "occ": 1,
+      "at_hans": "智仙",
+      "en": "Zhixian, a monk of the Langya temple; 僊 is an old form of 仙.",
+      "zh": "智仙，琅琊寺的僧人。僊，同“仙”。"
+    },
+    {
+      "at": "自號曰醉翁",
+      "occ": 1,
+      "at_hans": "自号曰醉翁",
+      "en": "He called himself the Old Drunkard; Ouyang Xiu was not yet forty.",
+      "zh": "自称醉翁。当时欧阳修还不到四十岁。"
+    },
+    {
+      "at": "醉翁之意不在酒",
+      "occ": 1,
+      "en": "The Old Drunkard's mind is not on the wine: now a common saying for having another purpose in view.",
+      "zh": "后来成为成语，比喻本意不在此而在别处。"
+    },
+    {
+      "at": "寓之酒",
+      "occ": 1,
+      "en": "寓 means to lodge: the joy is lodged in the wine.",
+      "zh": "寓，寄托。把乐趣寄托在酒上。"
+    },
+    {
+      "at": "林霏",
+      "occ": 1,
+      "en": "The mist among the trees.",
+      "zh": "树林中的雾气。"
+    },
+    {
+      "at": "野芳發而幽香",
+      "occ": 1,
+      "at_hans": "野芳发而幽香",
+      "en": "芳 here is flowers: wild flowers open and give a quiet scent. This is spring.",
+      "zh": "芳，花。野花开放，散发清幽的香气。写春。"
+    },
+    {
+      "at": "佳木秀而繁陰",
+      "occ": 1,
+      "at_hans": "佳木秀而繁阴",
+      "en": "秀 is to flourish: fine trees grow lush and cast a deep shade. This is summer.",
+      "zh": "秀，繁茂。好树枝叶茂盛，形成浓荫。写夏。"
+    },
+    {
+      "at": "風霜高潔",
+      "occ": 1,
+      "at_hans": "风霜高洁",
+      "en": "The sky high, the air clear, the frost white. This is autumn.",
+      "zh": "天高气爽，霜色洁白。写秋。"
+    },
+    {
+      "at": "水落而石出",
+      "occ": 1,
+      "en": "The water falls and the stones show. This is winter; the phrase now also means the truth coming out.",
+      "zh": "溪水回落，石头露出。写冬。后成为成语“水落石出”。"
+    },
+    {
+      "at": "傴僂提攜",
+      "occ": 1,
+      "at_hans": "伛偻提携",
+      "en": "The bent-backed old and the small children led by the hand.",
+      "zh": "伛偻，弯腰曲背，指老人；提携，被搀扶领着走，指孩子。"
+    },
+    {
+      "at": "酒洌",
+      "occ": 1,
+      "en": "洌 is clear and pure.",
+      "zh": "洌，清澈，清醇。"
+    },
+    {
+      "at": "山肴野蔌",
+      "occ": 1,
+      "en": "Game from the hills and wild greens; 蔌 is vegetables.",
+      "zh": "山中的野味和野菜。蔌，菜蔬。"
+    },
+    {
+      "at": "非絲非竹",
+      "occ": 1,
+      "at_hans": "非丝非竹",
+      "en": "Not strings, not pipes: the pleasure owes nothing to music.",
+      "zh": "丝，弦乐器；竹，管乐器。不在于音乐。"
+    },
+    {
+      "at": "射者中",
+      "occ": 1,
+      "en": "射 is usually taken as touhu, pitch-pot: throwing arrows into a jar, a drinking game.",
+      "zh": "射，一般认为指投壶，宴饮时把箭投入壶中的游戏。"
+    },
+    {
+      "at": "弈者勝",
+      "occ": 1,
+      "at_hans": "弈者胜",
+      "en": "弈 is the board game weiqi, known in the West as go.",
+      "zh": "弈，下围棋。"
+    },
+    {
+      "at": "觥籌交錯",
+      "occ": 1,
+      "at_hans": "觥筹交错",
+      "en": "觥 are drinking horns and 籌 the tally sticks for counting drinks and forfeits, all mixed together.",
+      "zh": "觥，酒杯；筹，行酒令时计数的签子。形容宴饮尽欢。"
+    },
+    {
+      "at": "頹然",
+      "occ": 1,
+      "at_hans": "颓然",
+      "en": "Slumped, a little the worse for drink.",
+      "zh": "醉醺醺、东倒西歪的样子。"
+    },
+    {
+      "at": "鳴聲上下",
+      "occ": 1,
+      "at_hans": "鸣声上下",
+      "en": "Birdsong high and low in the trees.",
+      "zh": "鸟儿在树林高处低处鸣叫。"
+    },
+    {
+      "at": "樂其樂",
+      "occ": 1,
+      "at_hans": "乐其乐",
+      "en": "The first 樂 is a verb: he takes their joy as his joy.",
+      "zh": "前一个“乐”是动词，以……为乐。以他们的快乐为快乐。"
+    },
+    {
+      "at": "廬陵",
+      "occ": 1,
+      "at_hans": "庐陵",
+      "en": "Luling, today's Ji'an in Jiangxi, Ouyang Xiu's ancestral home.",
+      "zh": "庐陵，今江西吉安，欧阳修的籍贯。"
+    }
+  ],
+  "pairs": [
+    "S-002026",
+    "S-002022"
+  ]
 }

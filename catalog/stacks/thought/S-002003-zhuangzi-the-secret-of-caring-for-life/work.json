@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "The third chapter of the Zhuangzi, shelved complete: the limit of a life set against the limitlessness of knowing, Cook Ding and his nineteen-year-old knife, and the death of a teacher met with calm. Its last sentence is this library's motto. Notice that the cook's skill is described as a kind of attention: he slows down exactly where the work is hardest.",
@@ -64,5 +65,196 @@
     "en": "What feeds the flame is spent as fuel, but the fire passes on, and no one knows where it ends.",
     "zh": "指穷于为薪，火传也，不知其尽也。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002002",
+    "S-002004",
+    "S-002001"
+  ],
+  "gloss": [
+    {
+      "at": "吾生也有涯",
+      "en": "涯: a shore, and so a limit.",
+      "zh": "涯：水边，引申为边际、极限。"
+    },
+    {
+      "at": "緣督以爲經",
+      "at_hans": "缘督以为经",
+      "en": "督 is the central channel along the spine, and so the empty middle way; 經 is a constant rule.",
+      "zh": "督：督脉，人背脊中央的经脉，引申为虚空的中道。经：常法。"
+    },
+    {
+      "at": "可以盡年",
+      "at_hans": "可以尽年",
+      "en": "To live out the years heaven gives.",
+      "zh": "尽年：享尽天赋的寿命。"
+    },
+    {
+      "at": "庖丁",
+      "en": "A cook named Ding; or simply 'the cook', 丁 being a man who works for others.",
+      "zh": "庖丁：名叫丁的厨师；一说“丁”指从事劳役的人。"
+    },
+    {
+      "at": "文惠君",
+      "en": "Usually identified with King Hui of Liang, the king who appears at the opening of the Mencius.",
+      "zh": "一般认为即梁惠王，也就是《孟子》开篇的那位国君。"
+    },
+    {
+      "at": "膝之所踦",
+      "en": "踦: to press with the knee.",
+      "zh": "踦：用膝盖抵住。"
+    },
+    {
+      "at": "砉然嚮然",
+      "at_hans": "砉然向然",
+      "en": "The sounds of skin and flesh parting from bone.",
+      "zh": "砉、向（响）：皮骨相离的声音。"
+    },
+    {
+      "at": "奏刀騞然",
+      "at_hans": "奏刀𬴃然",
+      "en": "奏: to push the blade in. 騞: the swish it makes.",
+      "zh": "奏：进刀。𬴃然：进刀的声音。"
+    },
+    {
+      "at": "桑林之舞",
+      "en": "The Mulberry Grove: a dance said to date from Tang, founder of the Shang dynasty.",
+      "zh": "桑林：相传为商汤时的乐舞。"
+    },
+    {
+      "at": "經首之會",
+      "at_hans": "经首之会",
+      "en": "Jingshou: a movement of the Xianchi music ascribed to the sage-king Yao. 會: the rhythm, where the notes meet.",
+      "zh": "经首：相传为尧时乐曲《咸池》中的一章。会：节奏。"
+    },
+    {
+      "at": "官知止而神欲行",
+      "en": "官: the sense organs.",
+      "zh": "官：感官。"
+    },
+    {
+      "at": "批大郤",
+      "en": "批: to strike into. 郤 is read as 隙: the gap between muscles.",
+      "zh": "批：劈开。郤：通“隙”，筋肉间的空隙。"
+    },
+    {
+      "at": "導大窾",
+      "at_hans": "导大窾",
+      "en": "窾: a hollow, the openings at the joints.",
+      "zh": "窾：空处，骨节间的空隙。"
+    },
+    {
+      "at": "技經肯綮之未嘗",
+      "at_hans": "技经肯綮之未尝",
+      "en": "技 is read as 枝, the branching vessels. 肯 is flesh on the bone and 綮 the knot of sinew; to 'hit the 肯綮' became the idiom for reaching the crux.",
+      "zh": "技：通“枝”，枝脉。肯：附在骨上的肉；綮：筋肉聚结处。后世“中肯綮”指切中要害。"
+    },
+    {
+      "at": "大軱",
+      "en": "A big bone.",
+      "zh": "軱：大骨头。"
+    },
+    {
+      "at": "族庖",
+      "en": "族: the crowd. An ordinary cook.",
+      "zh": "族：众。族庖即一般的厨师。"
+    },
+    {
+      "at": "新發於硎",
+      "at_hans": "新发于硎",
+      "en": "硎: a whetstone.",
+      "zh": "硎：磨刀石。"
+    },
+    {
+      "at": "恢恢乎",
+      "en": "Wide and roomy.",
+      "zh": "恢恢：宽绰的样子。"
+    },
+    {
+      "at": "每至於族",
+      "at_hans": "每至于族",
+      "en": "族 here is a knotted place, where sinew and bone gather thick.",
+      "zh": "族：这里指筋骨交错聚结的地方。"
+    },
+    {
+      "at": "謋然已解",
+      "en": "謋: the soft sound of the carcass coming apart.",
+      "zh": "謋：骨肉分离的声音。"
+    },
+    {
+      "at": "善刀而藏之",
+      "en": "善 is read as 繕 or 拭: to wipe the blade clean.",
+      "zh": "善：通“缮”，拭擦。"
+    },
+    {
+      "at": "右師",
+      "at_hans": "右师",
+      "en": "Commander of the Right, a high office. He had lost a foot, perhaps to the punishment of amputation.",
+      "zh": "右师：官名。此人只有一只脚，可能受过刖刑。"
+    },
+    {
+      "at": "惡乎介也",
+      "at_hans": "恶乎介也",
+      "en": "介: single, one-footed.",
+      "zh": "介：独，只有一只脚。"
+    },
+    {
+      "at": "澤雉",
+      "at_hans": "泽雉",
+      "en": "The marsh pheasant.",
+      "zh": "泽雉：生活在草泽里的野鸡。"
+    },
+    {
+      "at": "不蘄畜乎樊中",
+      "at_hans": "不蕲畜乎樊中",
+      "en": "蘄: to wish. 樊: a cage.",
+      "zh": "蕲：求。樊：笼子。"
+    },
+    {
+      "at": "神雖王",
+      "at_hans": "神虽王",
+      "en": "王 is read wang: flourishing.",
+      "zh": "王（wàng）：旺盛。"
+    },
+    {
+      "at": "秦失弔之",
+      "at_hans": "秦失吊之",
+      "en": "Qin Shi (失 sometimes written 佚) was Laozi's friend. 弔: to pay a mourning call.",
+      "zh": "秦失：老聃的朋友，“失”一作“佚”。吊：吊唁。"
+    },
+    {
+      "at": "遁天倍情",
+      "en": "遁: to flee. 倍 is read as 背: to turn one's back on.",
+      "zh": "遁：逃避。倍：通“背”，违背。"
+    },
+    {
+      "at": "帝之縣解",
+      "at_hans": "帝之县解",
+      "en": "縣 is read as 懸, to hang: to be cut down from hanging upside down, set free by heaven.",
+      "zh": "县：通“悬”。帝之县解：天帝解除了倒悬之苦。"
+    },
+    {
+      "at": "指窮於爲薪",
+      "at_hans": "指穷于为薪",
+      "en": "指 is read as 脂, fat: the tallow or firewood that feeds a light.",
+      "zh": "指：一说通“脂”，油脂；这里指用来照明的柴薪。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "臣以神遇而不以目視",
+      "en": "The cook does not say his eyes grew sharper. He says he stopped relying on them. The mastery described here is a change in what is doing the noticing.",
+      "zh": "庖丁没有说他的眼力变好了，而是说他不再依赖眼睛。这里写的精通，是“由什么来察觉”发生了变化。"
+    },
+    {
+      "at": "動刀甚微",
+      "en": "The story is famous for ease and speed, yet its most careful words go to slowing down. The hardest place gets the smallest movement.",
+      "zh": "这个故事以从容神速闻名，最细致的笔墨却用在放慢上：最难的地方，用最小的动作。"
+    },
+    {
+      "at": "火傳也",
+      "en": "This answers the chapter's first sentence. A life has a limit and knowing has none; the two fit together only if the knowing is carried by many lives in turn.",
+      "zh": "这一句回应了开篇：生有涯，知无涯。两者要合得拢，只能靠许多生命一棒接一棒地把知传下去。"
+    }
+  ]
 }

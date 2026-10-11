@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "A mathematical manual by an unknown Master Sun, written some time between the third and fifth centuries CE. This selection gives its preface on what calculation is for, and two of its most famous problems: the unknown number, the earliest known instance of what is now called the Chinese remainder theorem, and the pheasants and rabbits in one cage. The methods are written as steps for counting rods; in the second, forty-seven less thirty-five leaves twelve rabbits, and thirty-five less twelve leaves twenty-three pheasants.",
@@ -63,5 +64,187 @@
     "en": "Suppose there are some things whose number is not known. Counted in threes, two are left over; counted in fives, three are left over; counted in sevens, two are left over. How many things are there?",
     "zh": "今有物，不知其数。三三数之，剩二；五五数之，剩三；七七数之，剩二。问：物几何？"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "孫子曰",
+      "occ": 1,
+      "at_hans": "孙子曰",
+      "en": "Master Sun: not the strategist of The Art of War. Nothing is known of this author.",
+      "zh": "这位孙子并非著《孙子兵法》的孙武，生平无可考。"
+    },
+    {
+      "at": "經緯",
+      "occ": 1,
+      "at_hans": "经纬",
+      "en": "The warp and weft: the threads that run through and hold together.",
+      "zh": "织物的纵线与横线，比喻条理、纲纪。"
+    },
+    {
+      "at": "五常",
+      "occ": 1,
+      "en": "The five constant virtues of Confucian teaching: humaneness, rightness, ritual, wisdom and good faith.",
+      "zh": "儒家所说的仁、义、礼、智、信。"
+    },
+    {
+      "at": "三光",
+      "occ": 1,
+      "en": "The three lights: sun, moon and stars.",
+      "zh": "日、月、星。"
+    },
+    {
+      "at": "五行",
+      "occ": 1,
+      "en": "The five phases: wood, fire, earth, metal and water.",
+      "zh": "金、木、水、火、土。"
+    },
+    {
+      "at": "六藝",
+      "occ": 1,
+      "at_hans": "六艺",
+      "en": "The six arts of a gentleman's education, of which calculation is the last.",
+      "zh": "礼、乐、射、御、书、数，算数是其中之一。"
+    },
+    {
+      "at": "二氣",
+      "occ": 1,
+      "at_hans": "二气",
+      "en": "The two breaths, yin and yang.",
+      "zh": "阴阳二气。"
+    },
+    {
+      "at": "步遠近",
+      "occ": 1,
+      "at_hans": "步远近",
+      "en": "步 is to reckon, as astronomers reckon the paths of sun and moon.",
+      "zh": "步，推算，如推算日月运行。"
+    },
+    {
+      "at": "神祇",
+      "occ": 1,
+      "en": "The spirits of heaven (神) and of earth (祇).",
+      "zh": "天神称神，地神称祇。"
+    },
+    {
+      "at": "權衡",
+      "occ": 1,
+      "at_hans": "权衡",
+      "en": "The weight and the beam of a steelyard: weighing.",
+      "zh": "秤锤和秤杆，指称量轻重的器具。"
+    },
+    {
+      "at": "毫釐",
+      "occ": 1,
+      "at_hans": "毫厘",
+      "en": "Tiny units of length: ten 毫 make one 釐.",
+      "zh": "很小的长度单位，十毫为一厘。"
+    },
+    {
+      "at": "泰絫",
+      "occ": 1,
+      "en": "泰 is probably a miscopying of 黍, a millet grain; ten grains made one 絫. These were the smallest units of weight.",
+      "zh": "泰，疑为“黍”字之误。十黍为一絫，是最小的重量单位。"
+    },
+    {
+      "at": "八極",
+      "occ": 1,
+      "at_hans": "八极",
+      "en": "The eight farthest points of the world, in every direction.",
+      "zh": "八方极远的地方。"
+    },
+    {
+      "at": "窶",
+      "occ": 1,
+      "at_hans": "窭",
+      "en": "Poor, without enough to live on.",
+      "zh": "贫穷，困窘。"
+    },
+    {
+      "at": "幼沖",
+      "occ": 1,
+      "at_hans": "幼冲",
+      "en": "Very young.",
+      "zh": "年幼。"
+    },
+    {
+      "at": "皓首",
+      "occ": 1,
+      "en": "White-haired: old.",
+      "zh": "白头，指年老。"
+    },
+    {
+      "at": "量能揆己",
+      "occ": 1,
+      "en": "To measure one's abilities and take stock of oneself.",
+      "zh": "衡量自己的能力，揣度自己的情况。揆，度量。"
+    },
+    {
+      "at": "賸",
+      "occ": 1,
+      "at_hans": "剩",
+      "en": "An old form of 剩, left over.",
+      "zh": "同“剩”，剩余。"
+    },
+    {
+      "at": "置一百四十",
+      "occ": 1,
+      "en": "置 is to set down a number in rods on the counting board. 140 is twice 70, because two are left over.",
+      "zh": "置，在算筹上摆出数目。一百四十是七十的二倍，因为剩二。"
+    },
+    {
+      "at": "凡三三數之，賸一，則置七十",
+      "occ": 1,
+      "at_hans": "凡三三数之，剩一，则置七十",
+      "en": "70 is a multiple of 5 and 7 that leaves 1 when divided by 3; likewise 21 for 5 and 15 for 7. This is the method now called the Chinese remainder theorem.",
+      "zh": "七十能被五、七整除，被三除余一；二十一、十五同理。这就是今天所说的“中国剩余定理”。"
+    },
+    {
+      "at": "一百五",
+      "occ": 1,
+      "en": "105 = 3 × 5 × 7: taking it away changes none of the remainders.",
+      "zh": "一百零五等于三、五、七的乘积，减去它不改变任何一个余数。"
+    },
+    {
+      "at": "雉、兔同籠",
+      "occ": 1,
+      "at_hans": "雉、兔同笼",
+      "en": "Pheasants and rabbits in one cage: the problem is still set to Chinese schoolchildren, usually as chickens and rabbits.",
+      "zh": "这道题至今仍是中国小学生的题目，通常叫“鸡兔同笼”。"
+    },
+    {
+      "at": "半其足",
+      "occ": 1,
+      "en": "Halve the feet: as if each pheasant stood on one foot and each rabbit on two. Then feet minus heads is the number of rabbits.",
+      "zh": "脚数减半，相当于让每只鸡单脚站立、每只兔两脚站立。此时脚数减头数，就是兔数。"
+    },
+    {
+      "at": "以少減多，再命之",
+      "occ": 1,
+      "at_hans": "以少减多，再命之",
+      "en": "Subtract the smaller from the larger, then again the other way: 47 − 35 = 12 rabbits, then 35 − 12 = 23 pheasants, done digit by digit on the rods.",
+      "zh": "用少的减多的，再反过来减一次：四十七减三十五得兔十二，三十五减十二得鸡二十三，在算筹上逐位相减。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "斂之，不盈掌握",
+      "en": "Spread out it cannot be exhausted; gathered in it does not fill the palm. That fits a bundle of counting rods, and it fits any good procedure: small enough to hold, endless in what it reaches. The phrase was missing from the online text and is restored here from the Siku edition. It would have been a loss.",
+      "zh": "散开来无穷无尽，收拢了不满一握。这既是一束算筹，也是任何好的算法：小得能握在手里，所及却没有尽头。这一句网上的录文脱去了，这里据四库本补回。少了它会可惜。"
+    },
+    {
+      "at": "術曰：三三數之",
+      "en": "Where do seventy, twenty-one and fifteen come from? Each is a multiple of two of the divisors that leaves one under the third. The book never says so. A general way of finding such numbers had to wait for Qin Jiushao's 'great extension' method of 1247.",
+      "zh": "七十、二十一、十五是从哪里来的？每一个都是其中两个除数的倍数，而被第三个除数除时余一。书中从未说明。求这类数的一般方法，要等到 1247 年秦九韶的“大衍求一术”。"
+    },
+    {
+      "at": "上置三十五頭",
+      "en": "Halving the feet is the whole trick. It changes how the problem is represented until the answer can simply be read off: one subtraction gives the rabbits. Much of programming is the same move.",
+      "zh": "把脚数减半，就是全部的诀窍。它改变了问题的表示方式，直到答案可以直接读出：一次减法就得到兔数。编程里很多工作，也是同一个动作。"
+    }
+  ],
+  "pairs": [
+    "S-007006",
+    "S-002045",
+    "S-007004"
+  ]
 }

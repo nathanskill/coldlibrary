@@ -61,5 +61,94 @@
     "en": "Highest is to establish virtue; next, to establish deeds; next, to establish words.",
     "zh": "大上有立德，其次有立功，其次有立言。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "二十四年",
+      "occ": 1,
+      "en": "The twenty-fourth year of Duke Xiang of Lu, 549 BCE. The Zuo Zhuan dates events by the reign years of the rulers of Lu.",
+      "zh": "鲁襄公二十四年，即公元前 549 年。《左传》按鲁国国君在位的年数纪年。"
+    },
+    {
+      "at": "穆叔",
+      "occ": 1,
+      "en": "Shusun Bao, a minister of Lu; Mu is his posthumous name. In his reply he calls himself Bao (豹), by his personal name, as courtesy required.",
+      "zh": "叔孙豹，鲁国大夫，“穆”是谥号。答话中他自称“豹”，以名自称，表示谦敬。"
+    },
+    {
+      "at": "如晉",
+      "occ": 1,
+      "at_hans": "如晋",
+      "en": "如: to go to. Jin was then the leading state of the alliance of the central states.",
+      "zh": "如：往，到……去。晋是当时诸侯盟会的盟主国。"
+    },
+    {
+      "at": "范宣子",
+      "occ": 1,
+      "en": "Shi Gai, chief minister of Jin, of the Fan lineage; Xuan is his posthumous name. Below he calls himself Gai (匄), by his personal name.",
+      "zh": "士匄，晋国执政的正卿，属范氏，“宣”是谥号。下文的“匄”是他以名自称。"
+    },
+    {
+      "at": "逆之",
+      "occ": 1,
+      "en": "逆: to go out and meet, to receive a guest.",
+      "zh": "逆：迎接。"
+    },
+    {
+      "at": "陶唐氏",
+      "occ": 1,
+      "en": "The clan of the sage king Yao; 虞 is the age of Shun, who came after him. Fan Xuanzi traces his line back to Yao and then names the clan it bore under each dynasty: Xia, Shang and Zhou.",
+      "zh": "唐尧的氏号；虞指虞舜的时代。范宣子把自家世系上溯到尧，再一一列举它在夏、商、周各代的氏号。"
+    },
+    {
+      "at": "御龍氏",
+      "occ": 1,
+      "at_hans": "御龙氏",
+      "en": "'Dragon-tamers'. The Zuo Zhuan tells elsewhere (Duke Zhao, year 29) how Liu Lei, a descendant of Yao, learned to rear dragons and served the Xia king Kongjia, who gave him this clan name.",
+      "zh": "据《左传·昭公二十九年》，陶唐氏的后人刘累学会驯养龙，事奉夏王孔甲，被赐氏为御龙氏。"
+    },
+    {
+      "at": "晉主夏盟",
+      "occ": 1,
+      "at_hans": "晋主夏盟",
+      "en": "夏 here means the Xia, the central states of the Zhou world. Jin presided over their covenant, and the family took the name Fan from its fief in Jin.",
+      "zh": "夏：诸夏，指中原各诸侯国。晋国主持诸侯的盟会；范氏得名于这一家在晋国的封邑范。"
+    },
+    {
+      "at": "世祿",
+      "occ": 1,
+      "at_hans": "世禄",
+      "en": "Hereditary emolument: office and income passed down a family. This is what Mushu sets against 'not decaying'.",
+      "zh": "世代承袭的官位与俸禄。穆叔正是拿它与“不朽”相对照。"
+    },
+    {
+      "at": "臧文仲",
+      "occ": 1,
+      "en": "Zang Sunchen (d. 617 BCE), a minister of Lu remembered for his sayings, which were still being quoted generations after his death.",
+      "zh": "臧孙辰（？—前 617），鲁国大夫，以言论著称，去世多年后他的话仍被人援引。"
+    },
+    {
+      "at": "大上",
+      "occ": 1,
+      "en": "大 is read as 太: 太上, highest of all.",
+      "zh": "大，通“太”。太上，最上。"
+    },
+    {
+      "at": "保姓受氏",
+      "occ": 1,
+      "en": "To keep one's surname and receive a lineage name. The surname (姓) marked a family's ancient descent; the lineage name (氏) came from a fief or an office.",
+      "zh": "保住姓，承受氏。古时姓表示族源，氏多由封地或官职而来。"
+    },
+    {
+      "at": "宗祊",
+      "occ": 1,
+      "en": "The ancestral temple; 祊 is a sacrifice offered at the temple gate, and stands for the temple itself.",
+      "zh": "宗庙。祊，在宗庙门内举行的祭祀，借指宗庙。"
+    }
+  ],
+  "pairs": [
+    "S-008017",
+    "S-008019",
+    "S-008014"
+  ]
 }

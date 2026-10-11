@@ -21,6 +21,7 @@
     "zh": "1703 年"
   },
   "translator": null,
+  "orig_lang": "fr",
   "edition": {
     "en": "Text as established by C. I. Gerhardt, Leibnizens mathematische Schriften, vol. 7 (1863), pp. 223–227, as transcribed on French Wikisource; the table of numbers and the worked examples, which are images there, are omitted; four obvious transcription slips are corrected (tout, Fohy, on, and the figure 2 in the trigram table).",
     "zh": "据法文维基文库所录格哈特编《莱布尼茨数学著作集》第七卷（1863 年）第 223–227 页；原有的数表和算例在该处为图片，此处从略；改正了四处明显的转录笔误（tout、Fohy、on，以及八卦表中的数字 2）。"
@@ -62,5 +63,48 @@
     "en": "When numbers are reduced to the simplest principles, such as 0 and 1, a marvellous order appears everywhere.",
     "zh": "当数被化归到最简单的原理，如 0 和 1 时，处处都会显现出一种奇妙的秩序。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Fohy",
+      "occ": 2,
+      "en": "Fuxi (伏羲), the legendary first sovereign of China, traditionally credited with drawing the eight trigrams.",
+      "zh": "伏羲，传说中中国最早的帝王，相传画了八卦。"
+    },
+    {
+      "at": "Cova",
+      "occ": 1,
+      "en": "Gua (卦), a trigram or hexagram of the Book of Changes, in the spelling of the Jesuit letters.",
+      "zh": "卦，《周易》的三画卦或六画卦；这是耶稣会士书信中的拼写。"
+    },
+    {
+      "at": "R. P. Bouvet",
+      "occ": 1,
+      "en": "The Reverend Father Joachim Bouvet (1656–1730), a French Jesuit at the court of the Kangxi emperor, and a devoted student of the Yijing.",
+      "zh": "白晋神父（1656—1730），法国耶稣会士，供职于康熙宫廷，潜心研究《易经》。"
+    },
+    {
+      "at": "la grande figure de ce Prince Philosophe qui va à 64",
+      "occ": 1,
+      "en": "The square and circular diagram of the sixty-four hexagrams in the order of the Song scholar Shao Yong (1011–1077). Read with solid lines as 1 and broken lines as 0, the hexagrams run in order from 0 to 63.",
+      "zh": "即按宋代邵雍所排次序的伏羲六十四卦方圆图。以阳爻为 1、阴爻为 0 来读，诸卦恰好依次排成 0 到 63。"
+    },
+    {
+      "at": "Gerbert",
+      "occ": 1,
+      "en": "Gerbert of Aurillac (c. 946–1003), Pope Sylvester II from 999, who helped bring Hindu–Arabic numerals into Latin Europe.",
+      "zh": "欧里亚克的热尔贝（约 946—1003），999 年起为教宗西尔维斯特二世，曾推动印度—阿拉伯数码传入拉丁欧洲。"
+    },
+    {
+      "at": "Caractéristique",
+      "occ": 1,
+      "en": "Leibniz's planned characteristica universalis: a written language in which reasoning could be carried out as calculation.",
+      "zh": "莱布尼茨设想的“普遍文字”（characteristica universalis）：一种能把推理化为计算的书写语言。"
+    }
+  ],
+  "pairs": [
+    "S-007003",
+    "S-007005",
+    "S-007006"
+  ]
 }

@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Ninety-odd characters written by Su Shi in exile in Huangzhou in 1083, about getting out of bed for the moonlight and walking with a friend. Notice how the courtyard first becomes water and the shadows become water plants, and only then are they named: bamboo and cypress. The last line is a quiet case for idleness as a form of attention.",
@@ -60,5 +61,92 @@
     "en": "The courtyard was like a pool of clear, empty water, and in the water the stems of water plants crossed one another: the shadows of the bamboo and the cypress.",
     "zh": "庭下如积水空明，水中藻荇交横，盖竹柏影也。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "元豐六年",
+      "occ": 1,
+      "at_hans": "元丰六年",
+      "en": "1083, the fourth year of Su Shi's exile at Huangzhou. Yuanfeng was a reign title of Emperor Shenzong of the Song.",
+      "zh": "公元 1083 年，苏轼贬居黄州的第四年。元丰，宋神宗的年号。"
+    },
+    {
+      "at": "月色入戶",
+      "occ": 1,
+      "at_hans": "月色入户",
+      "en": "戶 is a door: the moonlight came in at the door.",
+      "zh": "户，门。月光照进门来。"
+    },
+    {
+      "at": "念無與為樂者",
+      "occ": 1,
+      "at_hans": "念无与为乐者",
+      "en": "念 is to think: there was no one to share the pleasure with.",
+      "zh": "念，想到。没有可以一起游乐的人。"
+    },
+    {
+      "at": "承天寺",
+      "occ": 1,
+      "en": "A temple near Huangzhou, today's Huanggang in Hubei.",
+      "zh": "寺名，在黄州（今湖北黄冈）。"
+    },
+    {
+      "at": "張懷民",
+      "occ": 1,
+      "at_hans": "张怀民",
+      "en": "Zhang Mengde, courtesy name Huaimin, also sent to Huangzhou in 1083, who lodged at the temple.",
+      "zh": "张梦得，字怀民，元丰六年也被贬到黄州，寄居承天寺。"
+    },
+    {
+      "at": "中庭",
+      "occ": 1,
+      "en": "The courtyard.",
+      "zh": "庭院之中。"
+    },
+    {
+      "at": "積水空明",
+      "occ": 1,
+      "at_hans": "积水空明",
+      "en": "Like pooled water, clear and full of light: the moonlight on the ground.",
+      "zh": "像积水一样清澈透明，形容月光。"
+    },
+    {
+      "at": "藻荇",
+      "occ": 1,
+      "en": "Water weeds; 荇 is the floating-heart, a small water plant.",
+      "zh": "藻、荇都是水生植物。荇，荇菜。"
+    },
+    {
+      "at": "蓋竹柏影也",
+      "occ": 1,
+      "at_hans": "盖竹柏影也",
+      "en": "蓋 here means 'it turns out': these were the shadows of bamboo and cypress.",
+      "zh": "盖，原来是。原来是竹子和柏树的影子。"
+    },
+    {
+      "at": "閑人",
+      "occ": 1,
+      "at_hans": "闲人",
+      "en": "Idle people: both men held posts with no duties, and both had the leisure to notice the moon.",
+      "zh": "清闲的人。两人都是有职无权的贬官，也都有赏月的闲情。"
+    },
+    {
+      "at": "團練副使",
+      "occ": 1,
+      "at_hans": "团练副使",
+      "en": "Deputy Commissioner of the Militia, an empty title given to Su Shi in exile; he was forbidden to sign official papers.",
+      "zh": "苏轼贬黄州时的官衔，是有名无实的闲职，且“不得签书公事”。"
+    },
+    {
+      "at": "蘇某",
+      "occ": 1,
+      "at_hans": "苏某",
+      "en": "Su So-and-so: a modest way for the author to sign his own name.",
+      "zh": "作者自称，谦称自己的名字。"
+    }
+  ],
+  "pairs": [
+    "S-002023",
+    "S-002031"
+  ]
 }

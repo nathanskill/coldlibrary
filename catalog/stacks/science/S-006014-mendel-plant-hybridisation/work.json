@@ -25,6 +25,7 @@
     "dates": "1843–1917; Bateson 1861–1926",
     "year": 1902
   },
+  "orig_lang": "de",
   "edition": {
     "en": "The translation made for the Royal Horticultural Society by C. T. Druery and published in its Journal in 1901, as reprinted with corrections by William Bateson in Mendel's Principles of Heredity: A Defence (Cambridge University Press, 1902), as transcribed by Project Gutenberg (eBook 69362). The Introductory Remarks, and the Concluding Remarks up to the end of Mendel's discussion of permanent and temporary unions of cell elements; the account of Gärtner's transformation experiments that follows, with its tables, is omitted. Bateson's footnotes and bracketed glosses are omitted.",
     "zh": "此译本由德鲁里为英国皇家园艺学会译出，1901 年刊于该会会刊，1902 年经贝特森校订，收入《孟德尔的遗传原理：一个辩护》（剑桥大学出版社），以古腾堡计划电子书第 69362 号为底本。收“引言”，以及“结语”中至孟德尔讨论细胞要素永久结合与暂时结合为止的部分；其后关于格特纳转化实验的论述及表格从略。略去贝特森的脚注和方括号注释。"
@@ -66,5 +67,36 @@
     "en": "It requires indeed some courage to undertake a labour of such far-reaching extent; it appears, however, to be the only right way by which we can finally reach the solution of a question the importance of which cannot be over-estimated in connection with the history of the evolution of organic forms.",
     "zh": "要着手一项范围如此之广的工作，确实需要一些勇气；然而，这似乎是唯一正确的道路，能让我们最终解决一个问题——就生物类型的进化史而言，这个问题的重要性无论怎样估计都不会过高。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Kölreuter",
+      "occ": 1,
+      "en": "Joseph Gottlieb Kölreuter (1733–1806), German botanist, the first to make systematic experimental hybrids of plants, in tobacco.",
+      "zh": "约瑟夫·戈特利布·克尔罗伊特（1733—1806），德国植物学家，最早系统地用实验方法培育植物杂种（在烟草上）。"
+    },
+    {
+      "at": "Gärtner especially",
+      "occ": 1,
+      "en": "Carl Friedrich von Gärtner (1772–1850), whose book of 1849 reported some ten thousand crosses among hundreds of species.",
+      "zh": "卡尔·弗里德里希·冯·格特纳（1772—1850），他 1849 年的著作报告了在数百个物种之间所作的约一万次杂交。"
+    },
+    {
+      "at": "cubic ratio",
+      "occ": 1,
+      "en": "Read: as powers of three. With n differing characters there are 3ⁿ distinct forms among 4ⁿ combinations; the 2187 and 16,384 below are 3⁷ and 4⁷.",
+      "zh": "应理解为“按 3 的乘方”。有 n 对相异性状时，4ⁿ 个组合中有 3ⁿ 种不同的类型；下文的 2187 和 16384 就是 3⁷ 和 4⁷。"
+    },
+    {
+      "at": "out of each sixty-four plants of the first generation fifty-four exactly resembled it",
+      "occ": 1,
+      "en": "With three dominant characters all from one parent, 27 of every 64 offspring show all three and 27 show exactly two, which makes 54.",
+      "zh": "三个显性性状都来自同一亲本时，每 64 株中有 27 株三个显性性状俱全，另有 27 株恰好具有其中两个，合计 54 株。"
+    }
+  ],
+  "pairs": [
+    "S-006012",
+    "S-006011",
+    "S-006017"
+  ]
 }

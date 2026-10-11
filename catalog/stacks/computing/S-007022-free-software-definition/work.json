@@ -58,5 +58,10 @@
     "en": "“Free software” means software that respects users' freedom and community.",
     "zh": "“自由软件”是指尊重用户自由和社群的软件。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007021",
+    "S-007023",
+    "S-007010"
+  ]
 }

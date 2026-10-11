@@ -33,20 +33,18 @@
   "rights": {
     "status": "open-license",
     "basis": {
-      "en": "The RFC's Full Copyright Statement (Internet Society, 1998) permits copying and distribution and expressly allows translation into languages other than English, provided the copyright notice and the permission paragraph are kept. The original is reproduced unmodified, and the Chinese translation keeps the notice in full.",
-      "zh": "该 RFC 的完整版权声明（互联网协会，1998 年）允许复制和分发，并明确允许翻译成英语以外的语言，条件是保留版权声明和许可段落。原文不加修改地收录，中文译本完整保留了该声明。"
+      "en": "The RFC's Full Copyright Statement (Internet Society, 1998) permits copying and distribution, provided the copyright notice and the permission paragraph are kept, and forbids changes to the document itself except as needed to translate it. The original is reproduced unmodified, with the notice in full.",
+      "zh": "该 RFC 的完整版权声明（互联网协会，1998 年）允许复制和分发，条件是保留版权声明和许可段落；除翻译所需之外，不得修改文档本身。原文不加修改地收录，并完整保留了该声明。"
     },
     "license": "Internet Society Full Copyright Statement (1998)",
     "license_url": "https://www.rfc-editor.org/rfc/rfc2026.html#section-10.4",
     "notice": "Copyright (C) The Internet Society (1998). All Rights Reserved. This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies and derivative works. However, this document itself may not be modified in any way, such as by removing the copyright notice or references to the Internet Society or other Internet organizations, except as needed for the purpose of developing Internet standards in which case the procedures for copyrights defined in the Internet Standards process must be followed, or as required to translate it into languages other than English.",
     "verbatim_only": true
   },
-  "translations": {
-    "zh": "Claude"
-  },
+  "translations": {},
   "note": {
-    "en": "Larry Masinter's April 1998 RFC extends HTTP to control coffee pots, adding a BREW method, an Accept-Additions header for milk and syrup, and error code 418, 'I'm a teapot', which many web servers and frameworks still recognise. It parodies the urge to give every device a protocol and to build everything on HTTP because HTTP is everywhere. The Internet Society's 1998 notice allows translation, so a full Chinese translation stands beside it with the notice kept.",
-    "zh": "拉里·马辛特 1998 年愚人节发布的这份 RFC，把 HTTP 扩展到控制咖啡壶：增加 BREW 方法、用来点牛奶和糖浆的 Accept-Additions 首部，以及错误码 418“我是一把茶壶”——许多网络服务器和框架至今仍能识别它。它戏仿的是“给每种设备都配一个协议”的冲动，以及因为 HTTP 无处不在就把一切都建在 HTTP 上的习惯。互联网协会 1998 年的版权声明允许翻译，因此这里附上完整中译，并保留了该声明。"
+    "en": "Larry Masinter's April 1998 RFC extends HTTP to control coffee pots, adding a BREW method, an Accept-Additions header for milk and syrup, and error code 418, 'I'm a teapot', which many web servers and frameworks still recognise. It parodies the urge to give every device a protocol and to build everything on HTTP because HTTP is everywhere. Notice the Security Considerations: 'Anyone who gets in between me and my morning coffee should be insecure.'",
+    "zh": "拉里·马辛特 1998 年愚人节发布的这份 RFC，把 HTTP 扩展到控制咖啡壶：增加 BREW 方法、用来点牛奶和糖浆的 Accept-Additions 首部，以及错误码 418“我是一把茶壶”——许多网络服务器和框架至今仍能识别它。它戏仿的是“给每种设备都配一个协议”的冲动，以及因为 HTTP 无处不在就把一切都建在 HTTP 上的习惯。协议一本正经地规定：用 BREW 方法（也可以用 POST，但不提倡）让咖啡壶开始煮咖啡，用 WHEN 方法在牛奶加够时喊“停”；Accept-Additions 首部可以点奶油、糖浆、甜味剂、香料和酒；coffee: 网址方案列出了二十多种语言里“咖啡”一词的写法；咖啡壶应当用网络时间协议校准时钟；咖啡壶不用火，所以本不需要防火墙。“安全考量”一节则说，任何挡在作者和他早晨那杯咖啡之间的人都该感到不安，还警告了“拒绝咖啡服务”攻击。原文按许可要求逐字收录，并完整保留互联网协会的版权声明，不作翻译。"
   },
   "pick": null,
   "tags": [
@@ -61,5 +59,10 @@
     "en": "Any attempt to brew coffee with a teapot should result in the error code \"418 I'm a teapot\". The resulting entity body MAY be short and stout.",
     "zh": "任何试图用茶壶煮咖啡的尝试，都应当得到错误码“418 I'm a teapot”。所产生的实体主体可以（MAY）矮而胖。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007015",
+    "S-007016",
+    "S-007018"
+  ]
 }

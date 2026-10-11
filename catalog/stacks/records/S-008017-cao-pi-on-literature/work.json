@@ -61,5 +61,187 @@
     "en": "For writing is the great work of ordering a state, a splendid undertaking that does not decay.",
     "zh": "盖文章经国之大业，不朽之盛事。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "文人相輕",
+      "occ": 1,
+      "at_hans": "文人相轻",
+      "en": "The opening phrase became a proverb for the way writers look down on one another.",
+      "zh": "这句开篇语后来成为成语，指文人之间互相轻视。"
+    },
+    {
+      "at": "傅毅",
+      "occ": 1,
+      "en": "Fu Yi (d. c. 90), styled Wuzhong, a writer of the Eastern Han who served alongside Ban Gu as an archivist of the Orchid Terrace.",
+      "zh": "傅毅（？—约 90），字武仲，东汉文学家，曾与班固同在兰台校书。"
+    },
+    {
+      "at": "班固",
+      "occ": 1,
+      "en": "Ban Gu (32–92), historian and rhapsodist of the Eastern Han, author of the History of the Former Han.",
+      "zh": "班固（32—92），东汉史学家、辞赋家，著《汉书》。"
+    },
+    {
+      "at": "伯仲之間",
+      "occ": 1,
+      "at_hans": "伯仲之间",
+      "en": "Between the eldest and the second brother: so close that there is little to choose between them.",
+      "zh": "伯、仲是兄弟排行中的老大、老二。比喻不相上下。"
+    },
+    {
+      "at": "與弟超書",
+      "occ": 1,
+      "at_hans": "与弟超书",
+      "en": "Ban Chao (32–102), Ban Gu's younger brother, the general who restored Han power in the Western Regions.",
+      "zh": "班超（32—102），班固之弟，东汉名将，长期经营西域。"
+    },
+    {
+      "at": "蘭臺令史",
+      "occ": 1,
+      "at_hans": "兰台令史",
+      "en": "An officer of the Orchid Terrace, the Han palace library and archive, in charge of documents and the collation of books.",
+      "zh": "兰台是汉代宫中藏书和档案之所；兰台令史掌管文书、校订典籍。"
+    },
+    {
+      "at": "家有敝帚，享之千金",
+      "occ": 1,
+      "en": "The source of the idiom 敝帚自珍, to treasure one's own worn-out broom.",
+      "zh": "后来凝成成语“敝帚自珍”。"
+    },
+    {
+      "at": "斯七子者",
+      "occ": 1,
+      "en": "This passage is the origin of the name 'Seven Masters of the Jian'an era' (建安七子) for the writers gathered around the Cao family.",
+      "zh": "“建安七子”这一名称即源于此。"
+    },
+    {
+      "at": "驥騄",
+      "occ": 1,
+      "at_hans": "骥騄",
+      "en": "Two names for thoroughbred horses; 騄 recalls Lu'er (騄耳), one of the eight steeds of King Mu of Zhou.",
+      "zh": "都是良马。騄，即騄耳，相传为周穆王八骏之一。"
+    },
+    {
+      "at": "齊氣",
+      "occ": 1,
+      "at_hans": "齐气",
+      "en": "The manner of Qi. Xu Gan came from Beihai, in the old land of Qi, whose writing was thought slow and leisurely.",
+      "zh": "齐地的习气。徐幹是北海人，属古齐地；当时人认为齐地文风舒缓。"
+    },
+    {
+      "at": "登樓",
+      "occ": 1,
+      "at_hans": "登楼",
+      "en": "Wang Can's 'Rhapsody on Climbing the Tower', written while he was a refugee in Jingzhou, the best known of the works named here.",
+      "zh": "王粲的《登楼赋》，作于避乱荆州之时，是这里所举作品中最有名的一篇。"
+    },
+    {
+      "at": "張、蔡",
+      "occ": 1,
+      "at_hans": "张、蔡",
+      "en": "Zhang Heng (78–139) and Cai Yong (133–192), the great rhapsodists of the Eastern Han.",
+      "zh": "张衡（78—139）和蔡邕（133—192），东汉著名的辞赋家。"
+    },
+    {
+      "at": "章表書記",
+      "occ": 1,
+      "at_hans": "章表书记",
+      "en": "Four kinds of official prose: 章 and 表, memorials to the throne; 書, letters; 記, notes and dispatches. Chen Lin and Ruan Yu drafted such documents for Cao Cao.",
+      "zh": "四种文体：章、表是呈给皇帝的奏章，书是书信，记是公文笺记。陈琳、阮瑀曾为曹操掌管这类文书。"
+    },
+    {
+      "at": "孔融",
+      "occ": 1,
+      "en": "Kong Rong (153–208), a descendant of Confucius famous for his wit; Cao Cao had him put to death in 208.",
+      "zh": "孔融（153—208），孔子后裔，以才辩著称，208 年被曹操所杀。"
+    },
+    {
+      "at": "揚、班",
+      "occ": 1,
+      "at_hans": "扬、班",
+      "en": "Yang Xiong (53 BCE–18 CE) and Ban Gu, masters of Han rhapsody and prose.",
+      "zh": "扬雄（前 53—18）和班固，汉代辞赋与文章的大家。"
+    },
+    {
+      "at": "銘誄",
+      "occ": 1,
+      "at_hans": "铭诔",
+      "en": "Inscriptions cut on vessels or stones, and dirges that recount the life of the dead: both should keep to the facts.",
+      "zh": "铭，刻在器物或碑石上的文字；诔，哀悼死者、叙述其生平的文章。二者都应当崇尚真实。"
+    },
+    {
+      "at": "文以氣為主",
+      "occ": 1,
+      "at_hans": "文以气为主",
+      "en": "氣 (qi): the vital breath or temperament a writer is born with. This sentence began the long tradition of judging writing by its qi.",
+      "zh": "气：作者天赋的气质与才性。这一说法开了后世以“气”论文的传统。"
+    },
+    {
+      "at": "節奏同檢",
+      "occ": 1,
+      "at_hans": "节奏同检",
+      "en": "檢: a rule or measure. The rhythm keeps to the same measure.",
+      "zh": "检：法度。节奏遵循同样的法度。"
+    },
+    {
+      "at": "經國之大業",
+      "occ": 1,
+      "at_hans": "经国之大业",
+      "en": "經國: to govern and set the state in order.",
+      "zh": "经国：治理国家。"
+    },
+    {
+      "at": "西伯幽而演易",
+      "occ": 1,
+      "en": "The Lord of the West, later honoured as King Wen of Zhou, was imprisoned at Youli by the last Shang king; tradition says he worked out the sixty-four hexagrams of the Changes there.",
+      "zh": "西伯即周文王。相传他被商纣王囚禁在羑里时，推演出《周易》的六十四卦。"
+    },
+    {
+      "at": "周旦顯而制禮",
+      "occ": 1,
+      "at_hans": "周旦显而制礼",
+      "en": "Ji Dan, the Duke of Zhou, regent for the young King Cheng, is credited with setting down the rites of Zhou.",
+      "zh": "周公姬旦，辅佐年幼的成王摄政，相传制礼作乐。"
+    },
+    {
+      "at": "隱約",
+      "occ": 1,
+      "at_hans": "隐约",
+      "en": "In hardship and obscurity.",
+      "zh": "处境困厄，不得志。"
+    },
+    {
+      "at": "賤尺璧而重寸陰",
+      "occ": 1,
+      "at_hans": "贱尺璧而重寸阴",
+      "en": "After a saying in the Huainanzi: the sage does not prize a jade disc a foot across, but values an inch of the sundial's shadow, for time is hard to gain and easy to lose.",
+      "zh": "语出《淮南子·原道训》：“圣人不贵尺之璧，而重寸之阴，时难得而易失也。”"
+    },
+    {
+      "at": "遷化",
+      "occ": 1,
+      "at_hans": "迁化",
+      "en": "To change along with all things: a way of saying to die.",
+      "zh": "随万物一同变化，指死亡。"
+    },
+    {
+      "at": "唯幹著論",
+      "occ": 1,
+      "at_hans": "唯幹著论",
+      "en": "Xu Gan's treatise is the Zhong lun (Balanced Discourses), which survives.",
+      "zh": "徐幹著有《中论》，今存。"
+    },
+    {
+      "at": "一家言",
+      "occ": 1,
+      "en": "A school or teaching of one's own, the phrase Sima Qian used of his own history.",
+      "zh": "自成体系的学说。语本司马迁《报任安书》“成一家之言”。"
+    }
+  ],
+  "pairs": [
+    "S-008016",
+    "S-008019",
+    "S-003042"
+  ]
 }

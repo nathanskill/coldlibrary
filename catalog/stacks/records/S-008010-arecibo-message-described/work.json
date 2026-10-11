@@ -60,5 +60,10 @@
     "en": "Arranged as 73 rows of 23, the ones and zeros become a picture.",
     "zh": "排成 73 行、每行 23 位，这些 1 和 0 就成了一幅图。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-008004",
+    "S-008007",
+    "S-008009"
+  ]
 }

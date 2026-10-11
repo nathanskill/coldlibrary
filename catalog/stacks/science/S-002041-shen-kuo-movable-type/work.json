@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Shen Kuo's description, written around 1088, of the movable clay type made by the commoner Bi Sheng in the 1040s. It is the earliest surviving account of printing with movable type anywhere. Notice the practical details: two plates used in turn, twenty pieces of type for common characters, type filed by rhyme, and the reason wood was rejected.",
@@ -64,5 +65,179 @@
     "en": "In the Qingli years there was a commoner named Bi Sheng who went further and made movable type.",
     "zh": "庆历中，有布衣毕昇，又为活版。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "版印書籍",
+      "occ": 1,
+      "at_hans": "版印书籍",
+      "en": "Block printing: each whole page carved in relief on a single block of wood.",
+      "zh": "雕版印刷，把整页文字反刻在一块木板上印刷。"
+    },
+    {
+      "at": "馮瀛王",
+      "occ": 1,
+      "at_hans": "冯瀛王",
+      "en": "Feng Dao (882–954), posthumously Prince of Ying, chief minister under several of the Five Dynasties, who had the Confucian classics printed at the Directorate of Education between 932 and 953.",
+      "zh": "冯道（882—954），死后追封瀛王，五代时历仕数朝的宰相。他主持国子监刻印儒家经书，自 932 年至 953 年完成。"
+    },
+    {
+      "at": "已後",
+      "occ": 1,
+      "at_hans": "已后",
+      "en": "已 is read as 以: from then on.",
+      "zh": "已，通“以”。以后。"
+    },
+    {
+      "at": "慶曆中",
+      "occ": 1,
+      "at_hans": "庆历中",
+      "en": "In the Qingli years, 1041–1048, under Emperor Renzong of the Song.",
+      "zh": "宋仁宗庆历年间（1041—1048）。"
+    },
+    {
+      "at": "布衣",
+      "occ": 1,
+      "en": "A commoner, one who wore plain cloth rather than an official's silk.",
+      "zh": "平民。古代平民穿麻布衣服，故称。"
+    },
+    {
+      "at": "畢昇",
+      "occ": 1,
+      "at_hans": "毕昇",
+      "en": "Bi Sheng, the inventor of movable type; almost nothing else is known of him for certain.",
+      "zh": "活字印刷的发明者，生平几乎无可确考。"
+    },
+    {
+      "at": "活版",
+      "occ": 1,
+      "en": "Movable type: single characters that can be set, printed and taken apart again.",
+      "zh": "活字版，可以拆开重新排列的单字字印。"
+    },
+    {
+      "at": "膠泥",
+      "occ": 1,
+      "at_hans": "胶泥",
+      "en": "A fine, sticky clay.",
+      "zh": "细而有黏性的泥土。"
+    },
+    {
+      "at": "錢唇",
+      "occ": 1,
+      "at_hans": "钱唇",
+      "en": "The rim of a copper coin: very thin.",
+      "zh": "铜钱的边缘，形容很薄。"
+    },
+    {
+      "at": "松脂臘和紙灰",
+      "occ": 1,
+      "at_hans": "松脂蜡和纸灰",
+      "en": "Pine resin, wax (臘 is read as 蠟) and paper ash: a bed that softens when warmed and holds the type when it cools.",
+      "zh": "松脂、蜡（腊，通“蜡”）和纸灰，受热变软，冷却后能把字印固定住。"
+    },
+    {
+      "at": "冒之",
+      "occ": 1,
+      "en": "冒 is to cover.",
+      "zh": "冒，覆盖。"
+    },
+    {
+      "at": "鐵範",
+      "occ": 1,
+      "at_hans": "铁范",
+      "en": "An iron frame that holds one page of type; 範 is a mould or frame.",
+      "zh": "铁框，用来围住一版字印。范，模子、框子。"
+    },
+    {
+      "at": "煬之",
+      "occ": 1,
+      "at_hans": "炀之",
+      "en": "煬 is to warm over a fire.",
+      "zh": "炀，用火烘烤。"
+    },
+    {
+      "at": "藥稍鎔",
+      "occ": 1,
+      "at_hans": "药稍熔",
+      "en": "藥 is the 'drug', the resin and wax mixture, which softens a little.",
+      "zh": "药，指松脂、蜡等混合物。药剂稍稍熔化。"
+    },
+    {
+      "at": "如砥",
+      "occ": 1,
+      "en": "As level as a whetstone.",
+      "zh": "像磨刀石一样平。砥，细的磨刀石。"
+    },
+    {
+      "at": "三、二本",
+      "occ": 1,
+      "en": "Two or three copies.",
+      "zh": "两三本。"
+    },
+    {
+      "at": "更互用之",
+      "occ": 1,
+      "en": "Using them in turn, one plate printing while the other is set.",
+      "zh": "交替使用。"
+    },
+    {
+      "at": "之、也",
+      "occ": 1,
+      "en": "Two of the commonest particles in classical Chinese, which may occur many times on one page.",
+      "zh": "文言中最常用的虚词，一版之中会多次出现。"
+    },
+    {
+      "at": "每韻為一貼",
+      "occ": 1,
+      "at_hans": "每韵为一贴",
+      "en": "The type was filed by rhyme group, the way dictionaries of the time arranged characters.",
+      "zh": "按韵部分类贴标签存放，与当时韵书排列汉字的方法相同。"
+    },
+    {
+      "at": "奇字",
+      "occ": 1,
+      "en": "Rare characters.",
+      "zh": "生僻字。"
+    },
+    {
+      "at": "木理",
+      "occ": 1,
+      "en": "The grain of the wood.",
+      "zh": "木头的纹理。"
+    },
+    {
+      "at": "燔土",
+      "occ": 1,
+      "en": "Fired clay: 燔 is to burn or bake.",
+      "zh": "烧过的泥字。燔，烧。"
+    },
+    {
+      "at": "群從",
+      "occ": 1,
+      "at_hans": "群从",
+      "en": "Cousins and nephews of the same clan.",
+      "zh": "堂兄弟及子侄辈。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "常作二鐵板",
+      "en": "Two plates, one printing while the other is being set: this is pipelining, the same arrangement by which a processor fetches the next instruction while it executes the current one. Bi Sheng reached it with clay and iron.",
+      "zh": "两块铁板，一块印刷，一块排字：这就是流水线，和处理器在执行当前指令时预取下一条指令是同一种安排。毕昇用胶泥和铁板就想到了。"
+    },
+    {
+      "at": "若印數十百千本，則極為神速",
+      "en": "The economics in one sentence: setting type is slow, so the method pays only when many copies are wanted. It is the earliest statement I know of the fixed cost behind every press since.",
+      "zh": "一句话说清了其中的经济账：排字慢，所以只有印得多才划算。这是我所知最早对印刷固定成本的表述，此后每一台印刷机都背着这笔账。"
+    },
+    {
+      "at": "不以木為之者",
+      "en": "The most useful sentence here is a negative result: why wood was rejected. Uneven grain, swelling when wet, sticking to the bed. Failed alternatives are seldom written down. Wooden type did come later, with Wang Zhen around 1300, so these turned out to be problems to solve rather than a wall.",
+      "zh": "这里最有用的一句是一个否定的结论：为什么不用木头。纹理疏密不匀，沾水高低不平，又会粘药。失败的方案很少被记下来。后来到 1300 年前后，王祯做成了木活字，可见这些是有待解决的问题，而不是一堵墙。"
+    }
+  ],
+  "pairs": [
+    "S-002043",
+    "S-002032"
+  ]
 }

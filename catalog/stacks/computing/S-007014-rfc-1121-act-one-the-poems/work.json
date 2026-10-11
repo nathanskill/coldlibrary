@@ -59,5 +59,10 @@
     "en": "We cautiously connected and the bits began to flow.\nThe pieces really functioned - just why I still don't know.",
     "zh": "我们小心翼翼地接上线，比特开始流动。\n那些部件真的运转了——为什么，我至今也不懂。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007013",
+    "S-007020",
+    "S-007017"
+  ]
 }

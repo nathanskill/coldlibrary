@@ -45,8 +45,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "The second chapter of Walden, in which Thoreau explains why he went to live in a cabin by Walden Pond from the Fourth of July, 1845. It moves from a joke about imaginary real-estate dealing to some of the most quoted sentences in American prose, on time, news and attention. The Chinese translation covers the final section, from “I went to the woods” to the end.",
-    "zh": "《瓦尔登湖》第二章。梭罗在这里解释，他为什么从 1845 年 7 月 4 日起住进瓦尔登湖畔的小屋。这一章从一个关于想象中买卖田产的玩笑写起，一直写到美国散文里关于时间、新闻和专注最常被引用的句子。中文译文覆盖最后一节，从“我到林中去”到章末。"
+    "en": "The second chapter of Walden, in which Thoreau explains why he went to live in a cabin by Walden Pond from the Fourth of July, 1845. It moves from a joke about imaginary real-estate dealing to some of the most quoted sentences in American prose, on time, news and attention, and the famous lines read best after the jokes that come before them. The Chinese translation by Claude covers the whole chapter.",
+    "zh": "《瓦尔登湖》第二章。梭罗在这里解释，他为什么从 1845 年 7 月 4 日起住进瓦尔登湖畔的小屋。这一章从一个关于想象中买卖田产的玩笑写起，一直写到美国散文里关于时间、新闻和专注最常被引用的句子；那些名句接在前面的玩笑之后读，才最有味道。中文译文由 Claude 译出，全章译完。"
   },
   "pick": null,
   "tags": [
@@ -61,5 +61,10 @@
     "en": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach,",
     "zh": "我到林中去，因为我希望从容地生活，只去面对生活中最本质的事实，看看我能不能学到生活要教给我的东西，"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004105",
+    "S-005013",
+    "S-004026"
+  ]
 }

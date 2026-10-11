@@ -59,5 +59,9 @@
     "en": "Hope is the thing with feathers\nThat perches in the soul,",
     "zh": "希望是长着羽毛的东西，\n它栖息在灵魂里，"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004032",
+    "S-003043"
+  ]
 }

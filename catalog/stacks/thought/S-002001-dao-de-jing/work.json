@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Eighty-one short chapters, the root text of Daoist thought and one of the most translated books in the world. It is shelved here complete, with a new English translation of every chapter that follows this edition's readings. Notice how often it praises what is empty, low and soft: the hole at the hub of a wheel, the valley, water.",
@@ -61,5 +62,889 @@
     "en": "The highest good is like water. Water is good at helping the ten thousand things and does not compete with them. It settles in the places everyone else disdains, and so it comes close to the Way.",
     "zh": "上善若水。水善利万物而不争，处众人之所恶，故几于道。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002002",
+    "S-002004",
+    "S-002005"
+  ],
+  "gloss": [
+    {
+      "at": "以觀其徼",
+      "at_hans": "以观其徼",
+      "en": "徼: an edge or boundary, the outer limit where a thing can be seen to end.",
+      "zh": "徼：边际、边界，指事物显现出来的界限。"
+    },
+    {
+      "at": "同謂之玄",
+      "at_hans": "同谓之玄",
+      "en": "玄: dark, the deep colour of the far sky; here whatever is too deep to see into.",
+      "zh": "玄：黑中带赤的颜色，如远天之色，引申为幽深难测。"
+    },
+    {
+      "at": "斯惡已",
+      "at_hans": "斯恶已",
+      "en": "惡 here is ugliness, the opposite of 美 beauty, not moral evil.",
+      "zh": "此处“恶”指丑，与“美”相对，不是道德上的恶。"
+    },
+    {
+      "at": "處無為之事",
+      "at_hans": "处无为之事",
+      "en": "無為, not-doing: acting without forcing or self-assertion. It is the book's central practice.",
+      "zh": "无为：不妄为、不强作，顺其自然而不刻意干预，是全书的核心主张。"
+    },
+    {
+      "at": "虛其心",
+      "at_hans": "虚其心",
+      "en": "To empty their hearts: to free them of scheming and craving, not of thought.",
+      "zh": "使其心虚静：去掉机心与贪欲，并非使人不思考。"
+    },
+    {
+      "at": "道沖",
+      "at_hans": "道冲",
+      "en": "沖: empty, like a hollow vessel (read as 盅, a cup).",
+      "zh": "冲：通“盅”，器物中空的样子。"
+    },
+    {
+      "at": "象帝之先",
+      "en": "帝 is the high god of early Chinese religion; the Way seems to come before even him.",
+      "zh": "帝：上古信仰中的天帝；意谓道似乎在天帝之前就已存在。"
+    },
+    {
+      "at": "芻狗",
+      "at_hans": "刍狗",
+      "en": "Straw dogs: figures plaited from grass for a sacrifice, honoured during the rite and thrown away after it.",
+      "zh": "用草扎成的狗，祭祀时用，祭后即弃；比喻任其自然，无所偏爱。"
+    },
+    {
+      "at": "橐籥",
+      "en": "A bellows: 橐 is the leather bag, 籥 the pipe that carries the air.",
+      "zh": "风箱：橐是鼓风的皮囊，籥是送风的管子。"
+    },
+    {
+      "at": "谷神不死",
+      "en": "The spirit of the valley: the empty, inexhaustible power of the Way, pictured as a valley.",
+      "zh": "谷神：山谷般虚空而神妙的力量，比喻道。"
+    },
+    {
+      "at": "是謂玄牝",
+      "at_hans": "是谓玄牝",
+      "en": "玄牝, the dark female: the mysterious mother from whom all things are born. 牝 is a female animal.",
+      "zh": "玄牝：玄妙的母性，比喻化生万物的根源；牝，雌性。"
+    },
+    {
+      "at": "外其身",
+      "en": "To hold oneself outside: to set one's own interest aside.",
+      "zh": "把自身置之度外，不以私利为念。"
+    },
+    {
+      "at": "幾於道",
+      "at_hans": "几于道",
+      "en": "幾: near to, almost.",
+      "zh": "几：接近、差不多。"
+    },
+    {
+      "at": "揣而梲之",
+      "at_hans": "揣而棁之",
+      "en": "To hammer a blade and sharpen it; 梲 is read as 銳, sharp.",
+      "zh": "捶打使之尖锐；“棁”读作“锐”。"
+    },
+    {
+      "at": "載營魄",
+      "at_hans": "载营魄",
+      "en": "營魄: the two souls, 營 the spirit (hun) and 魄 the body-soul (po); 載 is a particle opening the line.",
+      "zh": "营魄：即魂魄，营指魂，魄指依附形体的精气；载，句首语气词。"
+    },
+    {
+      "at": "天門開闔",
+      "at_hans": "天门开阖",
+      "en": "The gates of heaven: usually read as the senses, the openings through which one meets the world.",
+      "zh": "天门：多解为耳目口鼻等感官，人与外界交接的门户。"
+    },
+    {
+      "at": "共一轂",
+      "at_hans": "共一毂",
+      "en": "轂: the hub of a wheel, where the spokes meet; its hollow centre takes the axle.",
+      "zh": "毂：车轮中心的圆木，周围插辐条，中间的空孔穿车轴。"
+    },
+    {
+      "at": "埏埴",
+      "en": "To knead clay for pottery.",
+      "zh": "揉和黏土以制陶器。"
+    },
+    {
+      "at": "五色令人目盲",
+      "en": "The five colours (blue-green, red, yellow, white, black), like the five notes and five flavours, stand for the whole range of the senses' pleasures.",
+      "zh": "五色指青、赤、黄、白、黑；与五音、五味一样，泛指一切感官享受。"
+    },
+    {
+      "at": "口爽",
+      "en": "爽 here means to go wrong: the palate is spoiled.",
+      "zh": "爽：差失，指味觉败坏。"
+    },
+    {
+      "at": "寵為下",
+      "at_hans": "宠为下",
+      "en": "Favour is the lower thing: to be favoured is to stand beneath the one who grants it.",
+      "zh": "得宠本是卑下的事，因为受宠就要仰承施宠的人。"
+    },
+    {
+      "at": "名曰夷",
+      "en": "夷 even, 希 faint, 微 minute: three names for what the senses cannot catch.",
+      "zh": "夷、希、微：无色、无声、无形，三者都是感官无法捕捉的。"
+    },
+    {
+      "at": "是謂惚恍",
+      "at_hans": "是谓惚恍",
+      "en": "惚恍: elusive and evasive, something glimpsed and never fixed.",
+      "zh": "惚恍：若有若无、闪烁不定的样子。"
+    },
+    {
+      "at": "是謂道紀",
+      "at_hans": "是谓道纪",
+      "en": "紀: the main cord of a net, by which the whole is held; the guiding thread.",
+      "zh": "纪：丝缕的头绪、网的总绳，引申为纲纪。"
+    },
+    {
+      "at": "豫兮若冬涉川",
+      "en": "豫 and 猶 (next clause) were said to be wary animals; together they make the word 猶豫, hesitation.",
+      "zh": "豫、犹（下句）相传都是多疑的野兽，合成“犹豫”一词。"
+    },
+    {
+      "at": "敦兮其若樸",
+      "at_hans": "敦兮其若朴",
+      "en": "樸: uncarved wood, the raw block. It is the book's image for the simple, unshaped nature.",
+      "zh": "朴：未经加工的原木，书中用来比喻质朴本真。"
+    },
+    {
+      "at": "夫物芸芸",
+      "en": "芸芸: luxuriant, teeming, as plants grow.",
+      "zh": "芸芸：草木繁盛的样子，形容万物众多。"
+    },
+    {
+      "at": "是曰復命",
+      "at_hans": "是曰复命",
+      "en": "復命: returning to one's destiny, to what one was given to be.",
+      "zh": "复命：复归于本性、天命。"
+    },
+    {
+      "at": "太上",
+      "en": "The highest: the best kind of ruler.",
+      "zh": "最上等的（统治者）。"
+    },
+    {
+      "at": "六親不和",
+      "at_hans": "六亲不和",
+      "en": "The six relations: father and son, elder and younger brother, husband and wife.",
+      "zh": "六亲：父子、兄弟、夫妇。"
+    },
+    {
+      "at": "見素抱樸",
+      "at_hans": "见素抱朴",
+      "en": "素 is undyed silk and 樸 uncarved wood: the plain material before any ornament.",
+      "zh": "素是未染色的生丝，朴是未雕琢的原木，都是未加文饰的本色。"
+    },
+    {
+      "at": "唯之與阿",
+      "at_hans": "唯之与阿",
+      "en": "唯 is a respectful 'yes', 阿 a careless 'ah': the difference between courtesy and offhandedness.",
+      "zh": "唯是恭敬的应答，阿是怠慢的应答。"
+    },
+    {
+      "at": "如享太牢",
+      "en": "太牢: the great sacrifice of ox, sheep and pig; here, a lavish feast.",
+      "zh": "太牢：牛、羊、猪三牲俱全的祭品，这里指丰盛的筵席。"
+    },
+    {
+      "at": "而貴食母",
+      "at_hans": "而贵食母",
+      "en": "食母, the nourishing mother: the Way, which feeds all things.",
+      "zh": "食母：养育万物的母亲，比喻道。"
+    },
+    {
+      "at": "孔德之容",
+      "en": "孔: great. 容: bearing, outward form.",
+      "zh": "孔：大。容：样态、动静。"
+    },
+    {
+      "at": "以閱眾甫",
+      "at_hans": "以阅众甫",
+      "en": "甫 is read as 始: the beginnings of all things. 閱: to look over, to see.",
+      "zh": "甫：通“父”，开始；众甫即万物的起始。阅：观察。"
+    },
+    {
+      "at": "聖人抱一",
+      "at_hans": "圣人抱一",
+      "en": "Holding to the One: keeping to the Way, undivided.",
+      "zh": "抱一：持守“一”，即持守道。"
+    },
+    {
+      "at": "不自伐",
+      "en": "伐: to boast of one's merit.",
+      "zh": "伐：夸耀自己的功劳。"
+    },
+    {
+      "at": "希言自然",
+      "en": "Sparing speech, above all sparing commands. 希 is the word chapter 14 uses for what cannot be heard.",
+      "zh": "希言：少说话，尤指少发号施令。“希”也见于第十四章，指听而不闻。"
+    },
+    {
+      "at": "飄風不終朝",
+      "at_hans": "飘风不终朝",
+      "en": "飄風: a whirlwind, a sudden gale.",
+      "zh": "飘风：旋风、暴风。"
+    },
+    {
+      "at": "企者不立",
+      "en": "企: to stand on tiptoe.",
+      "zh": "企：踮起脚跟。"
+    },
+    {
+      "at": "餘食贅行",
+      "at_hans": "余食赘行",
+      "en": "Leftover food and useless growths; 行 is read as 形, the body.",
+      "zh": "剩饭和赘瘤；“行”通“形”。"
+    },
+    {
+      "at": "字之曰道",
+      "en": "A person had a given name (名) and a courtesy name (字); the Way is given only a courtesy name, as if its true name were not known.",
+      "zh": "古人有名有字；这里只给它取个“字”叫道，表示不知其真名。"
+    },
+    {
+      "at": "王亦大",
+      "en": "Some early editions read 人 (people) for 王 (the king) here.",
+      "zh": "一些版本此处作“人亦大”。"
+    },
+    {
+      "at": "輜重",
+      "at_hans": "辎重",
+      "en": "Baggage carts: the heavy covered wagons that carried supplies.",
+      "zh": "辎重：载运粮草衣物的车辆。"
+    },
+    {
+      "at": "萬乘之主",
+      "at_hans": "万乘之主",
+      "en": "Lord of ten thousand chariots: the ruler of a great state, whose power was counted in war chariots.",
+      "zh": "拥有万辆兵车的国君，指大国之君。"
+    },
+    {
+      "at": "不用籌策",
+      "at_hans": "不用筹策",
+      "en": "籌策: counting rods, the slips of bamboo used for reckoning.",
+      "zh": "筹策：古代计数用的竹签。"
+    },
+    {
+      "at": "無關楗",
+      "at_hans": "无关楗",
+      "en": "關楗: the bar and bolt of a door.",
+      "zh": "关楗：门闩，关是横闩，楗是竖闩。"
+    },
+    {
+      "at": "是謂襲明",
+      "at_hans": "是谓袭明",
+      "en": "襲明: following the light, a clarity kept within.",
+      "zh": "袭明：承袭、内藏的明智。"
+    },
+    {
+      "at": "為天下谿",
+      "at_hans": "为天下溪",
+      "en": "谿: a ravine, the low channel where mountain water gathers.",
+      "zh": "溪：山间溪涧，汇聚流水的低处。"
+    },
+    {
+      "at": "大制不割",
+      "en": "制 is first the cutting of cloth to measure: the best shaping does not cut the whole apart.",
+      "zh": "制本义是裁剪：最好的裁制不割裂整体。"
+    },
+    {
+      "at": "天下神器",
+      "en": "A sacred vessel: something that belongs to the spirits and cannot be handled at will.",
+      "zh": "神器：神圣之物，不可随意把弄。"
+    },
+    {
+      "at": "或歔或吹",
+      "en": "歔 is to breathe out gently, to warm with the breath; 吹 is to blow hard, to cool.",
+      "zh": "歔是缓缓呵气使暖，吹是急吹使凉。"
+    },
+    {
+      "at": "其事好還",
+      "at_hans": "其事好还",
+      "en": "Such things tend to come back: violence recoils on those who use it.",
+      "zh": "用兵之事容易得到报应。"
+    },
+    {
+      "at": "善者果而已",
+      "en": "果: to achieve the aim, and then stop.",
+      "zh": "果：达到目的，适可而止。"
+    },
+    {
+      "at": "居則貴左",
+      "at_hans": "居则贵左",
+      "en": "In ritual the left was the side of honour in peace and good fortune, the right in war and mourning.",
+      "zh": "古礼以左为吉、右为凶：平时尚左，用兵与丧事尚右。"
+    },
+    {
+      "at": "偏將軍",
+      "at_hans": "偏将军",
+      "en": "The lieutenant general, second in command.",
+      "zh": "偏将军：副将。"
+    },
+    {
+      "at": "萬物將自賓",
+      "at_hans": "万物将自宾",
+      "en": "自賓: to come as guests of one's own accord, to submit willingly.",
+      "zh": "自宾：自动归服，如宾客来归。"
+    },
+    {
+      "at": "以降甘露",
+      "en": "Sweet dew: taken in ancient China as a sign of peace and good rule.",
+      "zh": "甘露：甜美的露水，古人视为太平的祥瑞。"
+    },
+    {
+      "at": "死而不亡者壽",
+      "at_hans": "死而不亡者寿",
+      "en": "Some read 亡 as 忘: to die and not be forgotten.",
+      "zh": "“亡”或读作“忘”：身死而不被遗忘。"
+    },
+    {
+      "at": "大道氾兮",
+      "at_hans": "大道泛兮",
+      "en": "氾: overflowing, spreading everywhere like a flood.",
+      "zh": "泛：广泛流溢的样子。"
+    },
+    {
+      "at": "執大象",
+      "at_hans": "执大象",
+      "en": "The great image: the Way itself, which has no shape (chapter 41).",
+      "zh": "大象：指无形的道（参见第四十一章“大象无形”）。"
+    },
+    {
+      "at": "安平太",
+      "en": "Peace, safety, ease; 太 is read as 泰.",
+      "zh": "安宁、平和、康泰；太通“泰”。"
+    },
+    {
+      "at": "將欲歙之",
+      "at_hans": "将欲歙之",
+      "en": "歙: to draw in, to contract.",
+      "zh": "歙：收敛、合拢。"
+    },
+    {
+      "at": "是謂微明",
+      "at_hans": "是谓微明",
+      "en": "微明: a subtle light, a small sign that shows what is coming.",
+      "zh": "微明：幽微的征兆中透出的明白道理。"
+    },
+    {
+      "at": "國之利器",
+      "at_hans": "国之利器",
+      "en": "The sharp tools of the state: its instruments of power, such as weapons and punishments.",
+      "zh": "利器：锐利的器具，指国家的权柄、兵刑。"
+    },
+    {
+      "at": "鎮之以無名之樸",
+      "at_hans": "镇之以无名之朴",
+      "en": "The nameless uncarved wood: the Way before it is cut into names.",
+      "zh": "无名之朴：尚未被命名、分割的质朴，指道。"
+    },
+    {
+      "at": "攘臂而扔之",
+      "en": "攘臂: to bare the arm by pushing up the sleeve. 扔 here means to pull, not to throw.",
+      "zh": "攘臂：捋起袖子伸出胳膊。扔：牵引、强拉，不是“扔掉”。"
+    },
+    {
+      "at": "前識者",
+      "at_hans": "前识者",
+      "en": "前識: foreknowledge, claiming to know before the event.",
+      "zh": "前识：先知先觉，预先的智识。"
+    },
+    {
+      "at": "天下貞",
+      "at_hans": "天下贞",
+      "en": "貞: correct, the standard. Some texts read 正.",
+      "zh": "贞：正，指首领、准则；一本作“正”。"
+    },
+    {
+      "at": "不穀",
+      "at_hans": "不谷",
+      "en": "不穀, 'not good': a humble title used by kings, like 孤 'orphan' and 寡 'the lacking one'.",
+      "zh": "不穀：不善，王侯的谦称，与“孤”“寡”同类；穀，善。"
+    },
+    {
+      "at": "致數輿無輿",
+      "at_hans": "致数舆无舆",
+      "en": "Count up a carriage part by part and there is no carriage. Some read 輿 as 譽: seek too much praise and you have none.",
+      "zh": "一件件数车的部件，就没有车了。一说“舆”通“誉”：追求过多的荣誉，反而没有荣誉。"
+    },
+    {
+      "at": "琭琭如玉",
+      "en": "琭琭: the gleam of polished jade. 珞珞: hard and rough, like stone.",
+      "zh": "琭琭：玉的光润貌。珞珞：石的坚硬粗糙貌。"
+    },
+    {
+      "at": "反者道之動",
+      "at_hans": "反者道之动",
+      "en": "反 is both 'opposite' and 'return' (返).",
+      "zh": "反：既是相反，也是返回（通“返”）。"
+    },
+    {
+      "at": "故建言有之",
+      "en": "建言: established sayings, an older store of maxims that Laozi quotes.",
+      "zh": "建言：古代立言者的格言，老子在此引用。"
+    },
+    {
+      "at": "夷道若纇",
+      "at_hans": "夷道若颣",
+      "en": "纇: a knot in silk thread; rough, uneven.",
+      "zh": "纇：丝线上的疙瘩，引申为不平。"
+    },
+    {
+      "at": "大器晚成",
+      "en": "The great vessel is finished late. Some excavated manuscripts read 免成 or 曼成: the great vessel is never finished.",
+      "zh": "大器最后完成。一些出土简帛本作“免成”或“曼成”，意谓大器无所谓完成。"
+    },
+    {
+      "at": "負陰而抱陽",
+      "at_hans": "负阴而抱阳",
+      "en": "Yin is the shaded north side of a hill, yang the sunlit south: things have yin at their backs and face yang.",
+      "zh": "阴是山北背阳处，阳是山南向阳处；万物背阴而向阳。"
+    },
+    {
+      "at": "沖氣以為和",
+      "at_hans": "冲气以为和",
+      "en": "沖氣: the blending breath, in which yin and yang meet and mix.",
+      "zh": "冲气：阴阳二气相互激荡交融。"
+    },
+    {
+      "at": "強梁者",
+      "at_hans": "强梁者",
+      "en": "強梁: the violent and overbearing (a 梁 is the strongest beam in a house).",
+      "zh": "强梁：强横凶暴的人。"
+    },
+    {
+      "at": "教父",
+      "en": "父 here is origin, root: the first principle of the teaching.",
+      "zh": "父：本、始；教父即施教的根本。"
+    },
+    {
+      "at": "無有入無閒",
+      "at_hans": "无有入无间",
+      "en": "What has no substance enters where there is no gap.",
+      "zh": "无形之物，能进入没有缝隙的地方。"
+    },
+    {
+      "at": "得與亡孰病",
+      "at_hans": "得与亡孰病",
+      "en": "亡: loss. 病: to do harm.",
+      "zh": "亡：失去。病：有害。"
+    },
+    {
+      "at": "大辯若訥",
+      "at_hans": "大辩若讷",
+      "en": "訥: slow of speech, tongue-tied.",
+      "zh": "讷：说话迟钝。"
+    },
+    {
+      "at": "靜勝躁",
+      "at_hans": "静胜躁",
+      "en": "Some editions read 躁勝寒，靜勝熱: movement overcomes cold, stillness overcomes heat.",
+      "zh": "一些版本作“躁胜寒，静胜热”。"
+    },
+    {
+      "at": "卻走馬以糞",
+      "at_hans": "却走马以粪",
+      "en": "The swift horses are sent back to manure and till the fields; 糞 is to fertilise.",
+      "zh": "把战马退回去耕田施肥；粪，施肥。"
+    },
+    {
+      "at": "戎馬生於郊",
+      "at_hans": "戎马生于郊",
+      "en": "Even mares bear their foals on the battlefields at the borders.",
+      "zh": "战马在郊野的战场上产驹。"
+    },
+    {
+      "at": "不窺牖",
+      "at_hans": "不窥牖",
+      "en": "牖: a window.",
+      "zh": "牖：窗户。"
+    },
+    {
+      "at": "為道日損",
+      "at_hans": "为道日损",
+      "en": "損: to lessen, to let go of preconceptions and desires.",
+      "zh": "损：减少，指减去成见与欲望。"
+    },
+    {
+      "at": "德善",
+      "en": "德 is read as 得: and so goodness is gained. The same in 德信 below.",
+      "zh": "德通“得”：于是得到了善。下文“德信”同。"
+    },
+    {
+      "at": "歙歙焉",
+      "en": "歙歙: drawing in, restrained, holding oneself back.",
+      "zh": "歙歙：收敛、不张扬的样子。"
+    },
+    {
+      "at": "聖人皆孩之",
+      "at_hans": "圣人皆孩之",
+      "en": "孩: to treat as small children.",
+      "zh": "孩：像对待孩子一样对待。"
+    },
+    {
+      "at": "出生入死",
+      "en": "Coming forth into the world is life; going back into the earth is death.",
+      "zh": "出世为生，入地为死。"
+    },
+    {
+      "at": "十有三",
+      "en": "Three in ten; 有 is read as 又.",
+      "zh": "十分之三；有，通“又”。"
+    },
+    {
+      "at": "陸行不遇兕虎",
+      "at_hans": "陆行不遇兕虎",
+      "en": "兕: a wild ox or rhinoceros-like beast.",
+      "zh": "兕：古代一种类似犀牛的野兽。"
+    },
+    {
+      "at": "亭之毒之",
+      "en": "亭 and 毒 are read as 成 and 熟: to shape them and ripen them.",
+      "zh": "亭、毒，即成、熟：使之成形、成熟。"
+    },
+    {
+      "at": "塞其兌",
+      "at_hans": "塞其兑",
+      "en": "兌: an opening, one of the senses (or the mouth).",
+      "zh": "兑：孔窍，指耳目口鼻。"
+    },
+    {
+      "at": "是為習常",
+      "at_hans": "是为习常",
+      "en": "習 is read as 襲: to follow the constant.",
+      "zh": "习：通“袭”，承袭常道。"
+    },
+    {
+      "at": "使我介然有知",
+      "en": "介然: in the slightest degree, a little.",
+      "zh": "介然：微小的样子。"
+    },
+    {
+      "at": "朝甚除",
+      "en": "The court is swept clean; 除 is to put in order.",
+      "zh": "朝廷宫殿十分整洁；除，修治。"
+    },
+    {
+      "at": "是為夸盜",
+      "at_hans": "是为夸盗",
+      "en": "夸盜: boastful robbers. Han Feizi quotes the line as 盜竽, the leader of robbers.",
+      "zh": "夸盗：强盗头子；《韩非子·解老》引作“盗竽”。"
+    },
+    {
+      "at": "祭祀不輟",
+      "at_hans": "祭祀不辍",
+      "en": "輟: to stop, to break off.",
+      "zh": "辍：停止、中断。"
+    },
+    {
+      "at": "比於赤子",
+      "at_hans": "比于赤子",
+      "en": "赤子: a newborn child, named for its red skin.",
+      "zh": "赤子：初生的婴儿，因肤色红而得名。"
+    },
+    {
+      "at": "蜂蠆虺蛇",
+      "at_hans": "蜂虿虺蛇",
+      "en": "Wasps, scorpions, vipers and snakes.",
+      "zh": "蜂、蝎、毒蛇之类的毒虫。"
+    },
+    {
+      "at": "而全作",
+      "en": "全 is written 朘 in other texts: a baby boy's penis. 作: stirs, rises.",
+      "zh": "“全”在别本作“朘”，指男婴的生殖器；作，勃起。"
+    },
+    {
+      "at": "不嗄",
+      "en": "嗄: hoarse.",
+      "zh": "嗄：嗓音嘶哑。"
+    },
+    {
+      "at": "益生曰祥",
+      "en": "祥 here is an ill omen: to force life to increase invites harm.",
+      "zh": "祥：这里指妖祥、不祥；贪求增益生命反而招灾。"
+    },
+    {
+      "at": "是謂玄同",
+      "at_hans": "是谓玄同",
+      "en": "玄同: the dark sameness, being at one with all things and set apart from none.",
+      "zh": "玄同：与万物玄妙地混同为一。"
+    },
+    {
+      "at": "以奇用兵",
+      "en": "奇: the unexpected, surprise, as against 正, the straight and regular.",
+      "zh": "奇：出其不意的奇谋，与“正”相对。"
+    },
+    {
+      "at": "天下多忌諱",
+      "at_hans": "天下多忌讳",
+      "en": "忌諱: prohibitions and taboos.",
+      "zh": "忌讳：禁忌。"
+    },
+    {
+      "at": "其政悶悶",
+      "at_hans": "其政闷闷",
+      "en": "悶悶: muddled and slow, a government that does not pry.",
+      "zh": "闷闷：宽厚而不精明苛察的样子。"
+    },
+    {
+      "at": "其民缺缺",
+      "en": "缺缺: sly and discontented.",
+      "zh": "缺缺：狡黠、不满的样子。"
+    },
+    {
+      "at": "廉而不劌",
+      "at_hans": "廉而不刿",
+      "en": "廉: an edge, a corner. 劌: to cut, to wound.",
+      "zh": "廉：棱角。刿：割伤。"
+    },
+    {
+      "at": "莫若嗇",
+      "at_hans": "莫若啬",
+      "en": "嗇: restraint, thrift, first said of a farmer's care in storing grain.",
+      "zh": "啬：爱惜、节俭，原指农夫收藏谷物。"
+    },
+    {
+      "at": "深根固柢",
+      "en": "柢: the taproot.",
+      "zh": "柢：树木的主根。"
+    },
+    {
+      "at": "長生久視",
+      "at_hans": "长生久视",
+      "en": "久視: to see for a long time, that is, to live long.",
+      "zh": "久视：长久地看，即长久存活。"
+    },
+    {
+      "at": "若烹小鮮",
+      "at_hans": "若烹小鲜",
+      "en": "Like cooking a small fish: turn it too often and it falls apart.",
+      "zh": "小鲜：小鱼。煎小鱼不可常常翻动，否则就碎了。"
+    },
+    {
+      "at": "以道蒞天下",
+      "at_hans": "以道莅天下",
+      "en": "蒞: to come to and oversee.",
+      "zh": "莅：临，治理。"
+    },
+    {
+      "at": "大國者下流",
+      "at_hans": "大国者下流",
+      "en": "下流: the lower reaches of a river, where all waters gather.",
+      "zh": "下流：江河的下游，众水汇聚之处。"
+    },
+    {
+      "at": "萬物之奧",
+      "at_hans": "万物之奥",
+      "en": "奧: the inner southwest corner of a house, where the household gods were kept; a hidden shelter.",
+      "zh": "奥：室内西南角，古代祭神的深隐之处，引申为庇荫。"
+    },
+    {
+      "at": "拱璧",
+      "en": "A jade disc so large it is held in both hands.",
+      "zh": "拱璧：需双手捧着的大璧。"
+    },
+    {
+      "at": "置三公",
+      "en": "三公: the three highest ministers of state.",
+      "zh": "三公：辅佐天子的三位最高官员。"
+    },
+    {
+      "at": "報怨以德",
+      "at_hans": "报怨以德",
+      "en": "Repay resentment with virtue. In Analects 14.34 Confucius answers this saying: repay resentment with uprightness.",
+      "zh": "以德报怨。《论语·宪问》中孔子对此另有回答：“以直报怨，以德报德。”"
+    },
+    {
+      "at": "其脆易泮",
+      "en": "泮: to melt and break apart, as ice does.",
+      "zh": "泮：融解、分离，如冰消散。"
+    },
+    {
+      "at": "生於毫末",
+      "at_hans": "生于毫末",
+      "en": "毫末: the tip of a fine hair, a tiny shoot.",
+      "zh": "毫末：毫毛的末梢，极言其细小。"
+    },
+    {
+      "at": "起於累土",
+      "at_hans": "起于累土",
+      "en": "累土: a heap of earth, piled up little by little.",
+      "zh": "累土：一点点堆积起来的泥土。"
+    },
+    {
+      "at": "將以愚之",
+      "at_hans": "将以愚之",
+      "en": "愚 here is plainness and simplicity, not stupidity.",
+      "zh": "愚：这里指淳朴质实，不是愚蠢。"
+    },
+    {
+      "at": "亦稽式",
+      "en": "稽式: a pattern, a model to follow.",
+      "zh": "稽式：法则、法式。"
+    },
+    {
+      "at": "為百谷王",
+      "at_hans": "为百谷王",
+      "en": "King of the hundred valleys: the place to which all streams go.",
+      "zh": "百谷王：百川所归往的地方。"
+    },
+    {
+      "at": "似不肖",
+      "en": "肖: to resemble. Not resembling anything in particular.",
+      "zh": "肖：像。不肖，即不像任何具体的东西。"
+    },
+    {
+      "at": "我有三寶",
+      "at_hans": "我有三宝",
+      "en": "The three treasures: kindness, frugality, and not daring to be first.",
+      "zh": "三宝：慈、俭、不敢为天下先。"
+    },
+    {
+      "at": "能成器長",
+      "at_hans": "能成器长",
+      "en": "器長: chief of all vessels, that is, leader of all things or of the officials.",
+      "zh": "器长：万物之长；器，指万物或百官。"
+    },
+    {
+      "at": "善為士者不武",
+      "at_hans": "善为士者不武",
+      "en": "士 here is a commander or warrior.",
+      "zh": "士：这里指将帅、武士。"
+    },
+    {
+      "at": "配天古之極",
+      "at_hans": "配天古之极",
+      "en": "Matched with heaven: the highest standard since ancient times.",
+      "zh": "配天：与天道相合；古之极，自古以来的最高准则。"
+    },
+    {
+      "at": "吾不敢為主而為客",
+      "at_hans": "吾不敢为主而为客",
+      "en": "Host and guest: the side that attacks and the side that waits and answers.",
+      "zh": "主指主动进攻的一方，客指被动应战的一方。"
+    },
+    {
+      "at": "攘無臂",
+      "at_hans": "攘无臂",
+      "en": "To push up the sleeve with no arm to bare: readiness that never turns into a blow.",
+      "zh": "要捋袖奋臂，却像没有臂膀可举。"
+    },
+    {
+      "at": "則我者貴",
+      "at_hans": "则我者贵",
+      "en": "則: to take as a model. 貴: rare and precious.",
+      "zh": "则：效法。贵：难得。"
+    },
+    {
+      "at": "被褐懷玉",
+      "at_hans": "被褐怀玉",
+      "en": "褐: coarse woollen cloth, the clothing of the poor.",
+      "zh": "褐：粗毛布衣，贫者所穿。"
+    },
+    {
+      "at": "夫唯病病",
+      "en": "病病: to treat a fault as a fault.",
+      "zh": "病病：把毛病当作毛病。"
+    },
+    {
+      "at": "無狎其所居",
+      "at_hans": "无狎其所居",
+      "en": "狎 is read as 狹: do not crowd or press them in their homes.",
+      "zh": "狎：通“狭”，逼迫、侵扰。"
+    },
+    {
+      "at": "繟然而善謀",
+      "at_hans": "𦈎然而善谋",
+      "en": "繟然: unhurried, slack, at ease.",
+      "zh": "繟然：宽缓从容的样子。"
+    },
+    {
+      "at": "天網恢恢",
+      "at_hans": "天网恢恢",
+      "en": "The net of heaven; 恢恢 is vast and wide.",
+      "zh": "天网：天道如网；恢恢，宽广。"
+    },
+    {
+      "at": "常有司殺者殺",
+      "at_hans": "常有司杀者杀",
+      "en": "The appointed executioner: usually read as heaven, the natural order itself.",
+      "zh": "司杀者：专管杀人的，多解为天道。"
+    },
+    {
+      "at": "代大匠斲",
+      "en": "斲: to hew wood with an axe. 大匠: the master carpenter.",
+      "zh": "斲：用斧砍削。大匠：技艺高超的木匠。"
+    },
+    {
+      "at": "以其上食稅之多",
+      "at_hans": "以其上食税之多",
+      "en": "食稅: to eat up taxes, to live on what is levied.",
+      "zh": "食税：吞食赋税。"
+    },
+    {
+      "at": "以其求生之厚",
+      "en": "Wang Bi reads this too of those above: they seek too rich a life for themselves.",
+      "zh": "王弼解为在上者奉养自己太过丰厚；也可解为百姓求生心切。"
+    },
+    {
+      "at": "木強則兵",
+      "at_hans": "木强则兵",
+      "en": "兵 here is to be cut down, as by weapons; some texts read 折, to break.",
+      "zh": "兵：被砍伐；一本作“折”。"
+    },
+    {
+      "at": "其猶張弓與",
+      "at_hans": "其犹张弓与",
+      "en": "張弓: drawing (or stringing) a bow, adjusting the string high and low.",
+      "zh": "张弓：拉弓或上弦，弦高则压、弦低则抬。"
+    },
+    {
+      "at": "社稷主",
+      "en": "社 is the god of the soil and 稷 the god of grain; the lord of their altars is the ruler of the state.",
+      "zh": "社是土神，稷是谷神；社稷主即一国之君。"
+    },
+    {
+      "at": "執左契",
+      "at_hans": "执左契",
+      "en": "A contract was cut on wood or bamboo and split in two; the creditor kept the left half and could claim payment with it.",
+      "zh": "古代契约刻于竹木，剖为左右两半，债权人持左契，可凭以索债。"
+    },
+    {
+      "at": "無德司徹",
+      "at_hans": "无德司彻",
+      "en": "徹: the Zhou dynasty tax on fields.",
+      "zh": "彻：周代的田税。"
+    },
+    {
+      "at": "什伯之器",
+      "en": "Tools that do the work of ten or a hundred people; some read it as the gear of squads of ten and a hundred, that is, weapons.",
+      "zh": "什伯之器：十倍百倍于人力的器械；一说指军中什伍所用的兵器。"
+    },
+    {
+      "at": "復結繩而用之",
+      "at_hans": "复结绳而用之",
+      "en": "Knotted cords were used for keeping records before writing.",
+      "zh": "结绳：文字出现以前，用绳子打结来记事。"
+    },
+    {
+      "at": "知者不博",
+      "en": "博: broadly learned, knowing a little of everything.",
+      "zh": "博：广博，什么都知道一点。"
+    },
+    {
+      "at": "聖人不積",
+      "at_hans": "圣人不积",
+      "en": "積: to hoard, to store up for oneself.",
+      "zh": "积：积藏，为自己储存。"
+    }
+  ]
 }

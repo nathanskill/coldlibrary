@@ -60,5 +60,10 @@
     "en": "May the spirit of peace in which we came be reflected in the lives of all mankind",
     "zh": "愿我们来时怀着的和平之心，映照在全人类的生活之中"
   },
-  "plate": "G-008006"
+  "plate": "G-008006",
+  "pairs": [
+    "S-008001",
+    "S-008008",
+    "S-008009"
+  ]
 }

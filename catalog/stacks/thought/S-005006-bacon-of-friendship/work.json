@@ -60,5 +60,10 @@
     "en": "If a man have a true friend, he may rest almost secure that the care of those things will continue after him. So that a man hath, as it were, two lives in his desires.",
     "zh": "一个人若有一位真正的朋友，几乎可以放心：在他身后，这些事仍会有人照料下去。所以，就他的心愿而言，他仿佛有两次生命。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-001040",
+    "S-001046",
+    "S-005005"
+  ]
 }

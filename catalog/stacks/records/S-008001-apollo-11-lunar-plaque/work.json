@@ -60,5 +60,10 @@
     "en": "We came in peace for all mankind",
     "zh": "我们为全人类，和平而来"
   },
-  "plate": "G-008008"
+  "plate": "G-008008",
+  "pairs": [
+    "S-008003",
+    "S-008002",
+    "S-008008"
+  ]
 }

@@ -21,6 +21,7 @@
     "zh": "约 1351 年起草，晚年续有修改"
   },
   "translator": null,
+  "orig_lang": "la",
   "edition": {
     "en": "Latin text as given on Latin Wikisource, which does not name its edition: the two opening paragraphs and paragraphs 11–12.",
     "zh": "据拉丁文维基文库所录拉丁原文（该页未注明所据版本）：开头两段及第 11–12 段。"
@@ -61,5 +62,30 @@
     "en": "I was, though, one of your own flock: a little mortal man",
     "zh": "不过，我是你们当中的一员：一个渺小的凡人"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "ut de se ait Augustus Cesar",
+      "occ": 1,
+      "en": "Suetonius reports that Augustus wrote of himself as born of an old and wealthy equestrian family.",
+      "zh": "据苏维托尼乌斯记载，奥古斯都自称出身于一个古老而富有的骑士家族。"
+    },
+    {
+      "at": "sacris literis",
+      "occ": 1,
+      "en": "Holy Scripture and the writings of the Church Fathers.",
+      "zh": "圣典，指《圣经》和教父们的著作。"
+    },
+    {
+      "at": "mirorque eam curam Augustum Cesarem suscepisse",
+      "occ": 1,
+      "en": "Suetonius says Augustus wrote out even his more serious private conversations, including those with his wife Livia, and spoke them from notes.",
+      "zh": "据苏维托尼乌斯记载，奥古斯都连较重要的私人谈话，包括与妻子莉维娅的谈话，也要先写下来，照着稿子说。"
+    }
+  ],
+  "pairs": [
+    "S-008005",
+    "S-008011",
+    "S-005009"
+  ]
 }

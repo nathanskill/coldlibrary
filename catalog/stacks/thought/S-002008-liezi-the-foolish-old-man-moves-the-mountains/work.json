@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "A fable from the Tang wen chapter of the Liezi, a Daoist book compiled by the fourth century CE. An old man sets out to move two mountains with baskets, and answers the clever neighbour who mocks him by counting generations. It is on this shelf because it is the plainest statement in Chinese of a work that outlasts the one who begins it.",
@@ -60,5 +61,143 @@
     "en": "Sons and grandsons, generation after generation, will never come to an end. But the mountains will not grow any higher. Why should we worry that they cannot be levelled?",
     "zh": "子子孙孙无穷匮也，而山不加增，何苦而不平？"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002003",
+    "S-002002",
+    "S-002006"
+  ],
+  "gloss": [
+    {
+      "at": "太行、王屋二山",
+      "en": "Taihang and Wangwu are real ranges, on the borders of present-day Shanxi, Henan and Hebei.",
+      "zh": "太行山、王屋山：真实的山脉，在今山西、河南、河北交界一带。"
+    },
+    {
+      "at": "高萬仞",
+      "at_hans": "高万仞",
+      "en": "仞: seven or eight Chinese feet; ten thousand of them is a way of saying immeasurably high.",
+      "zh": "仞：七尺或八尺为一仞；万仞极言其高。"
+    },
+    {
+      "at": "本在冀州之南",
+      "en": "Jizhou: one of the nine ancient provinces, roughly present-day Hebei and Shanxi.",
+      "zh": "冀州：古九州之一，约当今河北、山西一带。"
+    },
+    {
+      "at": "河陽之北",
+      "at_hans": "河阳之北",
+      "en": "河陽: the north bank of the Yellow River; the sunny 陽 side of a river is its north bank.",
+      "zh": "河阳：黄河北岸；山南水北为阳。"
+    },
+    {
+      "at": "懲山北之塞",
+      "at_hans": "惩山北之塞",
+      "en": "懲: to be troubled by, to suffer from.",
+      "zh": "惩：苦于。"
+    },
+    {
+      "at": "指通豫南",
+      "en": "豫: Yuzhou, another of the nine provinces, around present-day Henan.",
+      "zh": "豫：豫州，古九州之一，约当今河南一带。"
+    },
+    {
+      "at": "達于漢陰",
+      "at_hans": "达于汉阴",
+      "en": "漢陰: the south bank of the Han river; the shaded 陰 side of a river is its south bank.",
+      "zh": "汉阴：汉水南岸；山北水南为阴。"
+    },
+    {
+      "at": "雜然相許",
+      "at_hans": "杂然相许",
+      "en": "雜然: all together, everyone at once.",
+      "zh": "杂然：纷纷。"
+    },
+    {
+      "at": "曾不能損魁父之丘",
+      "at_hans": "曾不能损魁父之丘",
+      "en": "曾: not even. 魁父: the name of a small hill.",
+      "zh": "曾：连……都。魁父：古代一座小山的名字。"
+    },
+    {
+      "at": "隱土之北",
+      "at_hans": "隐土之北",
+      "en": "Yintu: a place of legend in the far northeast.",
+      "zh": "隐土：传说中的地名，在东北极远处。"
+    },
+    {
+      "at": "荷擔者三夫",
+      "at_hans": "荷担者三夫",
+      "en": "荷: to carry on the shoulder. 夫: a grown man.",
+      "zh": "荷：扛、挑。夫：成年男子。"
+    },
+    {
+      "at": "箕畚",
+      "en": "Baskets and scoops woven of bamboo or willow, for carrying earth.",
+      "zh": "箕畚：用竹、柳编成的盛土器具。"
+    },
+    {
+      "at": "孀妻有遺男",
+      "at_hans": "孀妻有遗男",
+      "en": "孀妻: a widow. 遺男: the son her husband left behind; some read a son born after his death.",
+      "zh": "孀妻：寡妇。遗男：遗孤，一说遗腹子。"
+    },
+    {
+      "at": "始齔",
+      "at_hans": "始龀",
+      "en": "齔: to lose the milk teeth, at about seven or eight.",
+      "zh": "龀：儿童换牙，约七八岁。"
+    },
+    {
+      "at": "寒暑易節",
+      "at_hans": "寒暑易节",
+      "en": "Winter and summer change places: a whole year goes by.",
+      "zh": "寒暑易节：冬夏换季，指过了一年。"
+    },
+    {
+      "at": "河曲智叟",
+      "en": "河曲: a bend of the Yellow River. 叟: an old man.",
+      "zh": "河曲：黄河弯曲处。叟：老人。"
+    },
+    {
+      "at": "甚矣，汝之不惠",
+      "en": "惠 is read as 慧: clever.",
+      "zh": "惠：通“慧”，聪明。"
+    },
+    {
+      "at": "汝心之固，固不可徹",
+      "at_hans": "汝心之固，固不可彻",
+      "en": "固: stubborn, set hard. 徹: to get through.",
+      "zh": "固：顽固。彻：通达、开窍。"
+    },
+    {
+      "at": "亡以應",
+      "at_hans": "亡以应",
+      "en": "亡 is read as 無: he had nothing to answer with.",
+      "zh": "亡：通“无”。"
+    },
+    {
+      "at": "操蛇之神",
+      "en": "The god who holds snakes: a mountain spirit. In the Classic of Mountains and Seas such gods hold a snake in each hand.",
+      "zh": "操蛇之神：山神；《山海经》记载有手中握蛇的山神。"
+    },
+    {
+      "at": "命夸蛾氏二子負二山",
+      "at_hans": "命夸蛾氏二子负二山",
+      "en": "Kua'e (also written 夸娥): a family of giants of legend.",
+      "zh": "夸蛾氏：又作夸娥氏，传说中的大力神。"
+    },
+    {
+      "at": "一厝朔東，一厝雍南",
+      "at_hans": "一厝朔东，一厝雍南",
+      "en": "厝 is read as 措: to set down. 朔: Shuofang, in the far north. 雍: Yongzhou, in the northwest.",
+      "zh": "厝：通“措”，放置。朔：朔方，在北方。雍：雍州，在西北。"
+    },
+    {
+      "at": "無隴斷焉",
+      "at_hans": "无陇断焉",
+      "en": "隴 is read as 壟, a ridge; 斷, a height that cuts the way: no barrier of high ground.",
+      "zh": "陇断：山冈阻隔；陇，通“垄”，高地。"
+    }
+  ]
 }

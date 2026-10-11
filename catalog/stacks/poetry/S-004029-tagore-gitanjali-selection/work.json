@@ -61,5 +61,8 @@
     "en": "Thy centuries follow each other perfecting a small wild flower.",
     "zh": "你的世纪一个接着一个，只为使一朵小小的野花臻于完美。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004030"
+  ]
 }

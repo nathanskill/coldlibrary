@@ -60,5 +60,10 @@
     "en": "A bug that disappears or alters its behavior when one attempts to probe or isolate it.",
     "zh": "一种当你试图探查或隔离它时就会消失或改变行为的 bug。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007024",
+    "S-007016",
+    "S-007007"
+  ]
 }

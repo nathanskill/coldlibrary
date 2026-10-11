@@ -62,5 +62,21 @@
     "en": "I say it just\nBegins to live\nThat day.",
     "zh": "我说它\n正是从那一天\n开始活。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "Some say.",
+      "en": "The crowd and the single voice get three lines each, and each half ends on a short indented line: “Some say”, then “That day”. The argument is won by placement, not by volume.",
+      "zh": "众人和独自一人的声音各得三行，每一半都收在一个缩进的短行上：先是“Some say”（有人这么说），然后是“That day”（那一天）。这场争论靠位置取胜，而不是靠嗓门。"
+    },
+    {
+      "at": "I say it just",
+      "en": "They were first printed in 1894, as part of a letter, eight years after her death. Every reader since has been a small proof of her side of the argument.",
+      "zh": "这几行第一次印出来是在 1894 年，作为一封信的一部分，那时她已去世八年。从那以后的每一位读者，都是她这一方论点的一个小小证据。"
+    }
+  ],
+  "pairs": [
+    "S-005008",
+    "S-004018"
+  ]
 }

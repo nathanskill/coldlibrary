@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Written in 1046 by Fan Zhongyan at the request of Teng Zijing, who had rebuilt the tower above Lake Dongting. Two weathers on the lake bring two moods, and then the essay sets both aside for a steadier ideal. Its line about worrying before the world and rejoicing after it is one of the most quoted sentences in Chinese.",
@@ -60,5 +61,171 @@
     "en": "Be the first to worry about the world's worries, and the last to enjoy the world's joys.",
     "zh": "先天下之忧而忧，后天下之乐而乐"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "慶曆四年",
+      "occ": 1,
+      "at_hans": "庆历四年",
+      "en": "1044. Qingli was a reign title of Emperor Renzong of the Song.",
+      "zh": "公元 1044 年。庆历，宋仁宗的年号。"
+    },
+    {
+      "at": "滕子京",
+      "occ": 1,
+      "en": "Teng Zongliang (d. 1047), courtesy name Zijing, Fan Zhongyan's friend since they passed the examinations in the same year (1015); he had been demoted over charges that he misspent public funds.",
+      "zh": "滕宗谅（？—1047），字子京，与范仲淹同年（1015）考中进士，是他的老朋友。因被指滥用公款而遭贬。"
+    },
+    {
+      "at": "謫守巴陵郡",
+      "occ": 1,
+      "at_hans": "谪守巴陵郡",
+      "en": "Demoted to govern Baling, the old name for Yuezhou, today's Yueyang in Hunan.",
+      "zh": "被贬为巴陵郡的长官。巴陵郡是岳州的旧称，即今湖南岳阳。"
+    },
+    {
+      "at": "越明年",
+      "occ": 1,
+      "en": "In the following year, 1045.",
+      "zh": "到了第二年，即 1045 年。"
+    },
+    {
+      "at": "百廢具興",
+      "occ": 1,
+      "at_hans": "百废具兴",
+      "en": "具 is read as 俱: everything that had lapsed was taken up again.",
+      "zh": "具，通“俱”，全都。各种荒废的事都兴办起来。"
+    },
+    {
+      "at": "唐賢今人詩賦",
+      "occ": 1,
+      "at_hans": "唐贤今人诗赋",
+      "en": "Poems on the tower by Tang masters such as Du Fu and Meng Haoran, and by writers of the Song.",
+      "zh": "唐代名家（如杜甫、孟浩然）和当代人写岳阳楼、洞庭湖的诗赋。"
+    },
+    {
+      "at": "屬予",
+      "occ": 1,
+      "at_hans": "属予",
+      "en": "屬 (read zhǔ) is 囑: he asked me to.",
+      "zh": "属（zhǔ），通“嘱”，嘱托。"
+    },
+    {
+      "at": "洞庭",
+      "occ": 1,
+      "en": "Dongting Lake, one of the great lakes of China and far larger in the Song than today; it meets the Yangzi at Yueyang.",
+      "zh": "洞庭湖，中国的大湖之一，宋代的湖面远比今天辽阔，在岳阳与长江相通。"
+    },
+    {
+      "at": "浩浩湯湯",
+      "occ": 1,
+      "at_hans": "浩浩汤汤",
+      "en": "湯湯 is read shāngshāng: wide and surging waters.",
+      "zh": "汤汤（shāng shāng），水势浩大的样子。"
+    },
+    {
+      "at": "巫峽",
+      "occ": 1,
+      "at_hans": "巫峡",
+      "en": "The Wu Gorge, one of the Three Gorges of the Yangzi, upstream to the west and north.",
+      "zh": "长江三峡之一，在洞庭湖西北上游。"
+    },
+    {
+      "at": "瀟湘",
+      "occ": 1,
+      "at_hans": "潇湘",
+      "en": "The Xiao and Xiang rivers of Hunan, which flow north into the lake.",
+      "zh": "潇水和湘水，在湖南境内，北流注入洞庭湖。"
+    },
+    {
+      "at": "遷客騷人",
+      "occ": 1,
+      "at_hans": "迁客骚人",
+      "en": "Banished officials and melancholy poets; 騷人 recalls Qu Yuan's 'Encountering Sorrow' (Li Sao).",
+      "zh": "迁客，被贬谪的官员；骚人，诗人，因屈原作《离骚》而得名。"
+    },
+    {
+      "at": "霪雨霏霏",
+      "occ": 1,
+      "en": "Long, unbroken rain falling thick and fine.",
+      "zh": "连绵的雨纷纷下个不停。"
+    },
+    {
+      "at": "去國懷鄉",
+      "occ": 1,
+      "at_hans": "去国怀乡",
+      "en": "國 here is the capital: to have left the court and to long for home.",
+      "zh": "国，指国都。离开京城，怀念家乡。"
+    },
+    {
+      "at": "春和景明",
+      "occ": 1,
+      "en": "景 is sunlight: the spring is mild and the light bright.",
+      "zh": "景，日光。春风和煦，阳光明媚。"
+    },
+    {
+      "at": "錦鱗",
+      "occ": 1,
+      "at_hans": "锦鳞",
+      "en": "Brocade scales: fine fish.",
+      "zh": "鳞片如锦的鱼，泛指美丽的鱼。"
+    },
+    {
+      "at": "岸芷汀蘭",
+      "occ": 1,
+      "at_hans": "岸芷汀兰",
+      "en": "Angelica (芷) on the shore and orchids on the islets (汀), both fragrant plants of the Chu poets.",
+      "zh": "岸上的白芷、小洲（汀）上的兰草，都是楚辞中常见的香草。"
+    },
+    {
+      "at": "靜影沉璧",
+      "occ": 1,
+      "at_hans": "静影沉璧",
+      "en": "The moon's still reflection lies in the water like a 璧, a flat ring of jade.",
+      "zh": "静静的月影像沉在水中的玉璧。璧，平圆形中有孔的玉器。"
+    },
+    {
+      "at": "寵辱偕忘",
+      "occ": 1,
+      "at_hans": "宠辱偕忘",
+      "en": "偕 means together: honour and disgrace both forgotten.",
+      "zh": "偕，一同。荣耀和屈辱一并忘掉。"
+    },
+    {
+      "at": "廟堂",
+      "occ": 1,
+      "at_hans": "庙堂",
+      "en": "The ancestral temple and the hall of state: the court.",
+      "zh": "宗庙和明堂，指朝廷。"
+    },
+    {
+      "at": "江湖",
+      "occ": 1,
+      "en": "Rivers and lakes: anywhere far from court, out of office.",
+      "zh": "指远离朝廷的民间，或贬官在外。"
+    },
+    {
+      "at": "先天下之憂而憂",
+      "occ": 1,
+      "at_hans": "先天下之忧而忧",
+      "en": "The ideal Fan Zhongyan himself was known for; it echoes Mencius on sharing the people's joys and sorrows.",
+      "zh": "范仲淹以此自励，后成为士大夫的名言。意思可上溯到《孟子》“乐民之乐”“忧民之忧”。"
+    },
+    {
+      "at": "微斯人",
+      "occ": 1,
+      "en": "微 means 'were it not for': without such people.",
+      "zh": "微，如果没有。"
+    },
+    {
+      "at": "時六年九月十五日",
+      "occ": 1,
+      "at_hans": "时六年九月十五日",
+      "en": "The fifteenth day of the ninth month of Qingli 6, in 1046. Fan was then governor of Dengzhou in Henan; tradition says he wrote from a painting of the lake that Teng sent him.",
+      "zh": "庆历六年九月十五日，即 1046 年。范仲淹当时在邓州（今河南）任知州，相传他是根据滕子京寄来的洞庭湖图写成此文的。"
+    }
+  ],
+  "pairs": [
+    "S-002027"
+  ]
 }

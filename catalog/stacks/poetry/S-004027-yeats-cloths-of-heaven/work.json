@@ -60,5 +60,8 @@
     "en": "I have spread my dreams under your feet;\nTread softly because you tread on my dreams.",
     "zh": "我已把我的梦铺在你的脚下；\n轻一点踩吧，因为你踩着的是我的梦。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004028"
+  ]
 }

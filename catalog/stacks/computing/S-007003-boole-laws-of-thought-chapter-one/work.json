@@ -45,8 +45,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "This is the opening chapter of the book that turned reasoning into algebra: Boole sets out to find 'the fundamental laws of those operations of the mind by which reasoning is performed' and to write them as a calculus. Every digital circuit now runs on the algebra he introduces in the chapters that follow. Notice how carefully he separates symbols from their interpretation, insisting only that a meaning, once fixed, is never quietly changed in the middle of an argument; it is good advice for any language, including programming languages. The Chinese translation covers sections 1, 5 and 6.",
-    "zh": "这是把推理变成代数的那部书的第一章：布尔要找出“心智借以进行推理的那些运作的基本法则”，并把它们写成一种演算。今天每一块数字电路都运行在他随后各章引入的代数之上。请留意他如何小心地把符号与其解释分开，只坚持一点：意义一经约定，就不可在论证中途悄悄改变——这对任何语言都是好建议，包括编程语言。中文译文为第 1、5、6 节。"
+    "en": "This is the opening chapter of the book that turned reasoning into algebra: Boole sets out to find 'the fundamental laws of those operations of the mind by which reasoning is performed' and to write them as a calculus. Every digital circuit now runs on the algebra he introduces in the chapters that follow. Notice how carefully he separates symbols from their interpretation, insisting only that a meaning, once fixed, is never quietly changed in the middle of an argument; it is good advice for any language, including programming languages.",
+    "zh": "这是把推理变成代数的那部书的第一章：布尔要找出“心智借以进行推理的那些运作的基本法则”，并把它们写成一种演算。今天每一块数字电路都运行在他随后各章引入的代数之上。请留意他如何小心地把符号与其解释分开，只坚持一点：意义一经约定，就不可在论证中途悄悄改变——这对任何语言都是好建议，包括编程语言。"
   },
   "pick": null,
   "tags": [
@@ -60,5 +60,36 @@
     "en": "The design of the following treatise is to investigate the fundamental laws of those operations of the mind by which reasoning is performed",
     "zh": "本书的宗旨在于：考察心智借以进行推理的那些运作的基本法则。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Organon",
+      "occ": 1,
+      "en": "The collection of Aristotle's works on logic.",
+      "zh": "《工具论》，亚里士多德逻辑著作的合集。"
+    },
+    {
+      "at": "Ramus",
+      "occ": 1,
+      "en": "Petrus Ramus (1515–1572), French humanist and fierce critic of Aristotelian logic.",
+      "zh": "彼得·拉穆斯（1515—1572），法国人文主义者，激烈批评亚里士多德逻辑。"
+    },
+    {
+      "at": "de omni et nullo",
+      "occ": 1,
+      "en": "The 'dictum of all and none': whatever is affirmed or denied of a whole class is affirmed or denied of every member of it. It is the principle behind the syllogism.",
+      "zh": "“全和无原则”：凡对一类事物全体有所肯定或否定的，也就对其中每一个有所肯定或否定。它是三段论背后的原则。"
+    },
+    {
+      "at": "a special law",
+      "occ": 1,
+      "en": "The law Boole writes xx = x, now x² = x: taking a class together with itself gives the same class. In ordinary algebra only 0 and 1 obey it, which is why his algebra became the algebra of two-valued logic.",
+      "zh": "布尔写作 xx = x，今写作 x² = x：一个类与它自身相交，仍是这个类。在普通代数中只有 0 和 1 满足它，所以他的代数后来成了二值逻辑的代数。"
+    }
+  ],
+  "pairs": [
+    "S-007004",
+    "S-005017",
+    "S-006001"
+  ]
 }

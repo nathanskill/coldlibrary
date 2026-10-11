@@ -25,6 +25,7 @@
     "dates": "1861–1940",
     "year": 1897
   },
+  "orig_lang": "grc",
   "edition": {
     "en": "The Works of Archimedes, ed. and trans. T. L. Heath (Cambridge University Press, 1897), pp. 221–223 and 232. Heath translated only the opening and the conclusion literally and paraphrased the arithmetic between them in modern notation; this text keeps the two literal parts. Heath's Greek glosses and footnotes are omitted.",
     "zh": "据希思编译《阿基米德著作集》（剑桥大学出版社，1897 年）第 221–223 页与第 232 页。希思只把开篇和结尾逐字译出，中间的算术用现代记号意译；本文只收这两段逐字译文，略去希思所注的希腊原词和脚注。"
@@ -65,5 +66,10 @@
     "en": "There are some, king Gelon, who think that the number of the sand is infinite in multitude; and I mean by the sand not only that which exists about Syracuse and the rest of Sicily but also that which is found in every region whether inhabited or uninhabited.",
     "zh": "革隆王啊，有人认为沙的数目多到无穷；我所说的沙，不只是叙拉古和西西里其余地方的沙，还包括每一处地方的沙，无论有人居住还是无人居住。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-006003",
+    "S-006017",
+    "S-002046"
+  ]
 }

@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Su Shi's rhapsody of an autumn night on the Yangzi in 1082, written during his exile in Huangzhou. A guest's flute turns the evening sad, and Su answers with the water and the moon, which change and do not change. The text follows Su Shi's own handwritten scroll and ends with the note he added for the friend he sent it to, asking him to keep it hidden.",
@@ -61,5 +62,204 @@
     "en": "Only the cool breeze on the river and the bright moon over the mountains, which the ear takes in as sound and the eye meets as colour: no one forbids us to take them, and using them never wears them out. They are the inexhaustible treasury of the maker of things.",
     "zh": "惟江上之清风，与山间之明月，耳得之而为声，目遇之而成色，取之无禁，用之不竭，是造物者之无尽藏也"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "壬戌",
+      "occ": 1,
+      "en": "The year renxu: 1082, the fifth year of Yuanfeng. Su Shi had been living in exile at Huangzhou since 1080.",
+      "zh": "壬戌年，即宋神宗元丰五年（1082）。苏轼自 1080 年起贬居黄州。"
+    },
+    {
+      "at": "既望",
+      "occ": 1,
+      "en": "The day after 望, the full moon on the fifteenth: the sixteenth of the month.",
+      "zh": "望，农历十五；既望，十六日。"
+    },
+    {
+      "at": "赤壁",
+      "occ": 1,
+      "en": "The Red Cliff outside Huangzhou (today's Huanggang, Hubei). The battle of 208 was probably fought further upstream; Su Shi borrows the name and its memories.",
+      "zh": "指黄州城外的赤鼻矶（今湖北黄冈）。公元 208 年的赤壁之战一般认为发生在上游别处，苏轼借这个地名寄托怀古之情。"
+    },
+    {
+      "at": "屬客",
+      "occ": 1,
+      "at_hans": "属客",
+      "en": "屬 (read zhǔ): to urge a cup on someone.",
+      "zh": "属（zhǔ），劝人饮酒。"
+    },
+    {
+      "at": "《明月》之詩，歌《窈窕》之章",
+      "occ": 1,
+      "at_hans": "《明月》之诗，歌《窈窕》之章",
+      "en": "Probably the ode 'The Moon Rises' in the Book of Songs, whose first stanza joins the moon's brightness to a lovely woman's grace.",
+      "zh": "一般认为指《诗经·陈风·月出》，首章写月光皎洁与美人的窈窕身姿。"
+    },
+    {
+      "at": "斗、牛",
+      "occ": 1,
+      "en": "Two of the twenty-eight lunar lodges, the Dipper and the Ox, in what Western astronomy calls Sagittarius and Capricorn.",
+      "zh": "二十八宿中的斗宿和牛宿，约在今人马座与摩羯座一带。"
+    },
+    {
+      "at": "白露橫江",
+      "occ": 1,
+      "at_hans": "白露横江",
+      "en": "A white mist lying across the river.",
+      "zh": "白茫茫的水汽横贯江面。"
+    },
+    {
+      "at": "一葦",
+      "occ": 1,
+      "at_hans": "一苇",
+      "en": "A single reed: the little boat. The image is from the Book of Songs: 'Who says the river is wide? A single reed will cross it.'",
+      "zh": "比喻小船。语出《诗经·卫风·河广》：“谁谓河广？一苇杭之。”"
+    },
+    {
+      "at": "馮虛御風",
+      "occ": 1,
+      "at_hans": "冯虚御风",
+      "en": "馮 is read as 憑: riding on the empty air and driving the wind, as Liezi does in the Zhuangzi.",
+      "zh": "冯，通“凭”。凌空驾风而行，如《庄子》中的列子御风。"
+    },
+    {
+      "at": "羽化而登僊",
+      "occ": 1,
+      "at_hans": "羽化而登仙",
+      "en": "To grow wings and rise to join the immortals; 僊 is an old form of 仙.",
+      "zh": "生出羽翼，飞升成仙。僊，同“仙”。"
+    },
+    {
+      "at": "桂棹兮蘭槳",
+      "occ": 1,
+      "at_hans": "桂棹兮兰桨",
+      "en": "Oars of cassia wood, sweeps of magnolia: the song echoes the Chu ci, 'cassia oars and magnolia sweeps' in 'The Lord of the Xiang'.",
+      "zh": "桂木做的棹，木兰做的桨。化用《楚辞·九歌·湘君》“桂棹兮兰枻”。"
+    },
+    {
+      "at": "美人",
+      "occ": 1,
+      "en": "In the Chu ci tradition, the fair one longed for is often the ruler, or an ideal out of reach.",
+      "zh": "楚辞传统中，“美人”常喻君王或可望而不可即的理想。"
+    },
+    {
+      "at": "洞簫",
+      "occ": 1,
+      "at_hans": "洞箫",
+      "en": "An end-blown bamboo flute.",
+      "zh": "竖吹的竹制管乐器。"
+    },
+    {
+      "at": "嫠婦",
+      "occ": 1,
+      "at_hans": "嫠妇",
+      "en": "A widow.",
+      "zh": "寡妇。"
+    },
+    {
+      "at": "月明星稀，烏鵲南飛",
+      "occ": 1,
+      "at_hans": "月明星稀，乌鹊南飞",
+      "en": "Lines from Cao Cao's 'Short Song', written, in the story, on the eve of the battle.",
+      "zh": "出自曹操《短歌行》，传说作于赤壁之战前夕。"
+    },
+    {
+      "at": "曹孟德",
+      "occ": 1,
+      "en": "Cao Cao (155–220), courtesy name Mengde, the northern warlord defeated at Red Cliff in 208.",
+      "zh": "曹操（155—220），字孟德，208 年兵败赤壁。"
+    },
+    {
+      "at": "西望夏口，東望武昌",
+      "occ": 1,
+      "at_hans": "西望夏口，东望武昌",
+      "en": "Xiakou lay at the mouth of the Han River, in today's Wuhan; the Song town of Wuchang is today's Ezhou, across the Yangzi from Huangzhou.",
+      "zh": "夏口在汉水入江处，今属武汉；宋代的武昌在今湖北鄂州，与黄州隔江相望。"
+    },
+    {
+      "at": "周郎",
+      "occ": 1,
+      "en": "Zhou Yu (175–210), the young commander of Wu who defeated Cao Cao.",
+      "zh": "周瑜（175—210），东吴年轻的统帅，率军大破曹操。"
+    },
+    {
+      "at": "舳艫",
+      "occ": 1,
+      "at_hans": "舳舻",
+      "en": "Stern and bow: ships so many they touched end to end.",
+      "zh": "舳，船尾；舻，船头。形容战船首尾相接。"
+    },
+    {
+      "at": "橫槊賦詩",
+      "occ": 1,
+      "at_hans": "横槊赋诗",
+      "en": "To compose poems with a spear laid across one's knees: the classic picture of Cao Cao as poet and soldier at once.",
+      "zh": "横持长矛吟诗，是后人心目中曹操既能作战又能作诗的形象。"
+    },
+    {
+      "at": "匏罇",
+      "occ": 1,
+      "at_hans": "匏樽",
+      "en": "A wine vessel made from a gourd: plain country ware.",
+      "zh": "用葫芦做的酒器，乡野之物。"
+    },
+    {
+      "at": "蜉蝣",
+      "occ": 1,
+      "en": "The mayfly, which lives for about a day.",
+      "zh": "一种朝生暮死的小虫。"
+    },
+    {
+      "at": "逝者如斯",
+      "occ": 1,
+      "en": "From the Analects, book 9: standing by a river, Confucius said, 'It passes away like this, never stopping day or night.'",
+      "zh": "语出《论语·子罕》：孔子在河边说：“逝者如斯夫，不舍昼夜。”"
+    },
+    {
+      "at": "盈虛者如彼",
+      "occ": 1,
+      "at_hans": "盈虚者如彼",
+      "en": "That which waxes and wanes: the moon.",
+      "zh": "时圆时缺的，指月亮。"
+    },
+    {
+      "at": "造物者之無盡藏",
+      "occ": 1,
+      "at_hans": "造物者之无尽藏",
+      "en": "The inexhaustible treasury of the maker of things. 無盡藏 is a Buddhist term for a store that giving never empties.",
+      "zh": "造物者，指大自然。无尽藏，佛家语，指取之不尽的宝藏。"
+    },
+    {
+      "at": "共食",
+      "occ": 1,
+      "en": "To enjoy together. Some editions read 共適, to delight in together.",
+      "zh": "共同享用。有的版本作“共适”。"
+    },
+    {
+      "at": "欽之",
+      "occ": 1,
+      "at_hans": "钦之",
+      "en": "Fu Yaoyu (1024–1091), courtesy name Qinzhi, the friend for whom Su copied out this scroll; the handwritten scroll survives in the National Palace Museum, Taipei.",
+      "zh": "傅尧俞（1024—1091），字钦之。苏轼为他抄写了这卷赋，墨迹今藏台北故宫博物院。"
+    },
+    {
+      "at": "多難畏事",
+      "occ": 1,
+      "at_hans": "多难畏事",
+      "en": "In 1079 Su Shi had been arrested over his poems, and narrowly escaped with his life before being sent to Huangzhou.",
+      "zh": "1079 年苏轼因诗文获罪下狱（乌台诗案），几乎丧命，后贬黄州。"
+    },
+    {
+      "at": "後赤壁賦",
+      "occ": 1,
+      "at_hans": "后赤壁赋",
+      "en": "The second Red Cliff rhapsody, written in the tenth month of the same year after another night excursion.",
+      "zh": "同年十月再游赤壁后所作。"
+    }
+  ],
+  "pairs": [
+    "S-002030",
+    "S-002022"
+  ]
 }

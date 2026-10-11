@@ -61,5 +61,9 @@
     "en": "They flash upon that inward eye\nWhich is the bliss of solitude,",
     "zh": "它们便在那内在的眼前闪现，\n那是独处时的至福，"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004026",
+    "S-001013"
+  ]
 }

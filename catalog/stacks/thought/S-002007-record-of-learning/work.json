@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "A chapter of the Book of Rites, probably written in the late Warring States or early Han, and often called the earliest surviving essay devoted entirely to education. It is shelved complete. Notice its picture of a good answer: like a bell, it rings lightly when struck lightly and fully when struck hard, and it waits for the sound to settle.",
@@ -59,5 +60,184 @@
     "en": "Jade that is not carved does not become a vessel; a person who does not learn does not know the Way.",
     "zh": "玉不琢，不成器。人不学，不知道。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002006",
+    "S-002005",
+    "S-002021"
+  ],
+  "gloss": [
+    {
+      "at": "發慮憲",
+      "at_hans": "发虑宪",
+      "en": "慮: to think and plan. 憲: law, the standard.",
+      "zh": "虑：思虑谋划。宪：法度。"
+    },
+    {
+      "at": "足以謏聞",
+      "at_hans": "足以𫍲闻",
+      "en": "謏聞: a small reputation; 謏 is small.",
+      "zh": "謏闻：小有名声；謏，小。"
+    },
+    {
+      "at": "兑命",
+      "en": "The Charge to Yue (兑 read as 說): a chapter of the Book of Documents, King Wuding of Shang's charge to his minister Fu Yue.",
+      "zh": "《兑命》：即《说命》，《尚书》中的一篇，记商王武丁对大臣傅说的命辞。"
+    },
+    {
+      "at": "學學半",
+      "at_hans": "学学半",
+      "en": "The first 學 is read xiao, as 斆, to teach: teaching is half of learning.",
+      "zh": "前一个“学”读 xiào，通“斆”，教的意思：教人是学习的一半。"
+    },
+    {
+      "at": "家有塾",
+      "en": "塾: a schoolroom beside the gate of a lane. By the old commentary a 黨 was 500 households and a 術 (read as 遂) 12,500; 庠 and 序 were the schools at those levels.",
+      "zh": "塾：设在里巷门旁的学舍。据旧注，五百家为党，一万二千五百家为遂（“术”通“遂”）；庠、序是相应各级的学校。"
+    },
+    {
+      "at": "離經辨志",
+      "at_hans": "离经辨志",
+      "en": "離經: to parse a text by marking off its sentences. 辨志: to discern what each student is aiming at.",
+      "zh": "离经：给经文断句、分析章句。辨志：辨明志向。"
+    },
+    {
+      "at": "強立而不反",
+      "at_hans": "强立而不反",
+      "en": "強立: to stand firm on one's own. 不反: not to turn back on what one was taught.",
+      "zh": "强立：坚定自立。不反：不违背师训。"
+    },
+    {
+      "at": "蛾子時術之",
+      "at_hans": "蛾子时术之",
+      "en": "蛾 is read as 蟻, ant, and 術 as 述, to follow a practice: the young ant keeps carrying earth until there is a hill.",
+      "zh": "蛾：通“蚁”。术：通“述”，学习。小蚂蚁时时学着衔土，终成土堆。"
+    },
+    {
+      "at": "皮弁祭菜",
+      "en": "皮弁: a cap of white deerskin worn at court. 祭菜: an offering of greens such as cress and water plants to the former sages and teachers.",
+      "zh": "皮弁：白鹿皮做的礼帽。祭菜：用芹、藻等菜蔬祭祀先圣先师。"
+    },
+    {
+      "at": "宵雅肄三",
+      "en": "宵 is read as 小: the Lesser Odes. 肄: to practise. The three are the opening odes of that section, on rulers and ministers.",
+      "zh": "宵：通“小”，指《小雅》。肄：练习。三：指《小雅》开头的《鹿鸣》《四牡》《皇皇者华》三篇。"
+    },
+    {
+      "at": "入學鼓篋",
+      "at_hans": "入学鼓箧",
+      "en": "篋: a box for books. A drum called the students together, who then opened their boxes.",
+      "zh": "箧：书箱。击鼓召集学生，然后打开书箱。"
+    },
+    {
+      "at": "夏、楚二物",
+      "en": "夏 (read jia, as 榎) and 楚: rods of catalpa and thorn, kept for discipline.",
+      "zh": "夏（jiǎ）：通“榎”，楸木。楚：荆条。两种都是教鞭。"
+    },
+    {
+      "at": "未卜禘不視學",
+      "at_hans": "未卜禘不视学",
+      "en": "禘: the great summer sacrifice to the royal ancestors, whose date was fixed by divination.",
+      "zh": "禘：夏季祭祀祖先的大祭，日期由占卜决定。"
+    },
+    {
+      "at": "不學操縵",
+      "at_hans": "不学操缦",
+      "en": "操縵: practising on the strings, the first exercises of a player.",
+      "zh": "操缦：调弦练指，弹奏的基本练习。"
+    },
+    {
+      "at": "不學博依",
+      "at_hans": "不学博依",
+      "en": "依: comparison, the stock of images a poet draws on.",
+      "zh": "博依：广泛的比喻；依，譬喻。"
+    },
+    {
+      "at": "呻其佔畢",
+      "at_hans": "呻其占毕",
+      "en": "呻: to drone aloud. 佔 (read as 笘) and 畢 are both bamboo writing slips: the book in hand.",
+      "zh": "呻：吟诵。佔毕：竹简，即手中的书本。"
+    },
+    {
+      "at": "言及于數",
+      "at_hans": "言及于数",
+      "en": "數: lists of names and numbers, the rote details.",
+      "zh": "数：名物度数，琐碎的条目。"
+    },
+    {
+      "at": "其求之也佛",
+      "en": "佛 is read as 拂: contrary, against the grain.",
+      "zh": "佛：通“拂”，违背。"
+    },
+    {
+      "at": "教之不刑",
+      "en": "刑 is read as 成: teaching does not succeed.",
+      "zh": "刑：通“成”，成功。"
+    },
+    {
+      "at": "扞格而不勝",
+      "at_hans": "扞格而不胜",
+      "en": "扞格: hard and resistant; the fault has set and will not yield.",
+      "zh": "扞格：坚硬抵触，格格不入。"
+    },
+    {
+      "at": "道而弗牽",
+      "at_hans": "道而弗牵",
+      "en": "道 is read as 導: to lead.",
+      "zh": "道：通“导”，引导。"
+    },
+    {
+      "at": "三王、四代唯其師",
+      "at_hans": "三王、四代唯其师",
+      "en": "The Three Kings: of Xia, Shang and Zhou. The Four Dynasties add Yu, the age of Shun.",
+      "zh": "三王：夏、商、周三代的君王。四代：虞、夏、商、周。"
+    },
+    {
+      "at": "當其爲尸",
+      "at_hans": "当其为尸",
+      "en": "尸: the person who stood for the ancestor at a sacrifice, before whom even the ruler bowed.",
+      "zh": "尸：祭祀时代表受祭祖先的人，君主也要向他行礼。"
+    },
+    {
+      "at": "無北面",
+      "at_hans": "无北面",
+      "en": "The ruler sat facing south and his ministers faced north; a teacher lecturing the Son of Heaven did not.",
+      "zh": "古代君主面南，臣子面北；老师给天子讲学不必面北。"
+    },
+    {
+      "at": "相説以解",
+      "at_hans": "相说以解",
+      "en": "説 is read as 脫: the pieces come away of themselves.",
+      "zh": "说：通“脱”，脱落、分解。"
+    },
+    {
+      "at": "待其從容",
+      "at_hans": "待其从容",
+      "en": "從容 may be read as 舂容: the full striking of a bell and the ringing that follows.",
+      "zh": "从容：一说通“舂容”，撞钟之后钟声回荡。"
+    },
+    {
+      "at": "良冶之子，必學爲裘",
+      "at_hans": "良冶之子，必学为裘",
+      "en": "A smith mends metal by joining pieces, so his son learns to piece furs together; a bowmaker bends wood, so his son learns to bend willow into baskets. One learns from what is near.",
+      "zh": "冶工以金属补缀器物，其子由此学会缝缀皮裘；弓匠矫揉木材，其子学会弯柳编箕。这是由近及远地学习。"
+    },
+    {
+      "at": "比物醜類",
+      "at_hans": "比物丑类",
+      "en": "醜: to compare, to class with like things.",
+      "zh": "丑：比，类比。"
+    },
+    {
+      "at": "師，無當於五服",
+      "at_hans": "师，无当于五服",
+      "en": "五服: the five grades of mourning dress, worn according to how closely one was related; here, one's kin.",
+      "zh": "五服：按亲疏而定的五种丧服，代指亲属。"
+    },
+    {
+      "at": "或源也，或委也",
+      "en": "委: the end where waters gather.",
+      "zh": "源：源头。委：水的归聚之处。"
+    }
+  ]
 }

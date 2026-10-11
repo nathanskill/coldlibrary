@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Eight propositions and explanations on shadows and mirrors from the Mohist Canon, written by the later followers of Mozi in the fourth or third century BCE. They describe the inverted image formed through a small opening, two shadows cast by two lights, and the images in flat, hollow and rounded mirrors. The received text is badly corrupted; the English follows the usual scholarly readings, such as taking 人 as 入, enter, and several sentences remain uncertain.",
@@ -61,5 +62,162 @@
     "en": "The image is inverted. Where the rays cross there is a point, and the image lengthens from it. The explanation lies in the point.",
     "zh": "景到，在午有端与景长，说在端。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "經：",
+      "occ": 1,
+      "at_hans": "经：",
+      "en": "The Canon (經) states each thesis in a few words and names its ground, 'the explanation lies in…'. The two parts were handed down in separate chapters of the Mozi and are paired here.",
+      "zh": "“经”用极简的话提出论题，并以“说在……”点出根据。经与说在《墨子》中分篇流传，这里一一对应排列。"
+    },
+    {
+      "at": "景不徙",
+      "occ": 1,
+      "en": "景 is the old way of writing 影, a shadow or an image; 徙 is to move.",
+      "zh": "景，古“影”字，影子或像。徙，移动。"
+    },
+    {
+      "at": "改爲",
+      "occ": 1,
+      "at_hans": "改为",
+      "en": "Being made anew at each moment.",
+      "zh": "改换重新生成。"
+    },
+    {
+      "at": "說：",
+      "occ": 1,
+      "at_hans": "说：",
+      "en": "The Explanation (說) opens by repeating the key word of its canon, then gives the reasoning.",
+      "zh": "“说”先重复经文的关键字，再加以解释。"
+    },
+    {
+      "at": "盡古息",
+      "occ": 1,
+      "at_hans": "尽古息",
+      "en": "A much-disputed phrase. One reading: the shadow is ended and renewed for ever; another: where no light comes, the shadow stays for ever.",
+      "zh": "这三个字历来众说不一。一说影子永远在消失与重生；一说光不到处，影子便永远停在那里。"
+    },
+    {
+      "at": "說在重",
+      "occ": 1,
+      "at_hans": "说在重",
+      "en": "重 (read chóng): doubled, that is, two light sources.",
+      "zh": "重（chóng），重复，指有两个光源。"
+    },
+    {
+      "at": "光夾",
+      "occ": 1,
+      "at_hans": "光夹",
+      "en": "Two lights on either side hold the object between them.",
+      "zh": "两个光源从两边夹照物体。"
+    },
+    {
+      "at": "景到",
+      "occ": 1,
+      "en": "到 is read as 倒: the image is upside down.",
+      "zh": "到，通“倒”。像是倒立的。"
+    },
+    {
+      "at": "午",
+      "occ": 1,
+      "en": "The crossing point: 午 means crosswise, where the rays from top and bottom cross.",
+      "zh": "午，交叉。指上下光线交叉之处。"
+    },
+    {
+      "at": "端",
+      "occ": 1,
+      "en": "A point, the smallest part of a thing in Mohist geometry; here, the pinhole.",
+      "zh": "端，墨家几何中最小的单位，即点。这里指小孔。"
+    },
+    {
+      "at": "煦若射",
+      "occ": 1,
+      "en": "The light shines straight as an arrow flies: the earliest known statement that light travels in straight lines.",
+      "zh": "光线像射箭一样直行。这是现存最早关于光沿直线传播的表述。"
+    },
+    {
+      "at": "下者之人也高",
+      "occ": 1,
+      "en": "Most scholars read 人 as 入, to enter: light from below passes through the hole and goes high.",
+      "zh": "多数学者读“人”为“入”。下面的光线穿入小孔后射向高处。"
+    },
+    {
+      "at": "景庫",
+      "occ": 1,
+      "at_hans": "景库",
+      "en": "庫 is a closed, dark chamber: what is now called a camera obscura.",
+      "zh": "库，封闭的暗室，即今天所说的“暗箱”。"
+    },
+    {
+      "at": "摶",
+      "occ": 1,
+      "at_hans": "抟",
+      "en": "Usually read as 轉, to turn: the light is turned back, reflected.",
+      "zh": "一般读作“转”，指光被反射回来。"
+    },
+    {
+      "at": "杝𦈢",
+      "occ": 1,
+      "en": "杝 is slanting, 𦈢 is read as 正, upright: whether the post leans or stands straight.",
+      "zh": "杝，倾斜；𦈢，读作“正”。指木杆倾斜还是正立。"
+    },
+    {
+      "at": "臨鑑而立",
+      "occ": 1,
+      "at_hans": "临鉴而立",
+      "en": "鑑 is a mirror, in this age a polished bronze disc.",
+      "zh": "鉴，镜子，当时是打磨光亮的铜镜。"
+    },
+    {
+      "at": "寡區",
+      "occ": 1,
+      "at_hans": "寡区",
+      "en": "The small area of the mirror's surface.",
+      "zh": "镜面范围狭小。"
+    },
+    {
+      "at": "正鑒",
+      "occ": 1,
+      "at_hans": "正鉴",
+      "en": "A flat mirror.",
+      "zh": "平面镜。"
+    },
+    {
+      "at": "俱用北",
+      "occ": 1,
+      "en": "北 here means 背, back: the image and the viewer face each other.",
+      "zh": "北，通“背”。像与人相对，背向相反。"
+    },
+    {
+      "at": "鑑位",
+      "occ": 1,
+      "at_hans": "鉴位",
+      "en": "位 is usually read as 窪, hollow: a concave mirror.",
+      "zh": "位，一般读作“洼”。指凹面镜。"
+    },
+    {
+      "at": "中之外內",
+      "occ": 1,
+      "at_hans": "中之外内",
+      "en": "中 is the centre of the mirror's curve; the text does not separate the focus from the centre of curvature.",
+      "zh": "中，镜面的中心点。原文没有区分焦点与球心。"
+    },
+    {
+      "at": "鑑團",
+      "occ": 1,
+      "at_hans": "鉴团",
+      "en": "團 is round: a convex mirror.",
+      "zh": "团，圆凸。指凸面镜。"
+    },
+    {
+      "at": "亓",
+      "occ": 1,
+      "en": "An old form of 其.",
+      "zh": "古“其”字。"
+    }
+  ],
+  "pairs": [
+    "S-006005"
+  ]
 }

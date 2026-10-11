@@ -63,5 +63,27 @@
     "en": "The stylus is in the correct position to play the record from the beginning.",
     "zh": "唱针停在正确的位置上，可以从头开始播放。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "the time period associated with a fundamental transition of the hydrogen atom",
+      "en": "Every number on the cover is counted in this one unit, so a reader who decodes the hydrogen drawing in the lower right can read all the others. The page explains it last; in logic it comes first.",
+      "zh": "封套上的每一个数都以这一个单位计量，所以读懂右下角那幅氢原子图的人，就能读懂其余所有的图。这一页把它放在最后才解释；按逻辑，它排在最前。"
+    },
+    {
+      "at": "A circle was used in this picture",
+      "en": "A circle shows an error at a glance: get the proportions wrong and it turns into an ellipse. The test needs no instructions of its own, which is what makes it a good test.",
+      "zh": "圆能让错误一目了然：比例弄错了，它就变成椭圆。这个检验本身不需要任何说明，这正是它好的地方。"
+    },
+    {
+      "at": "This should be a check on the epoch of launch, which is also described by the pulsar map on the record cover.",
+      "en": "Two independent clocks, the uranium and the pulsars, are given so that each can check the other. It is the same habit as the test picture: when writing to a stranger, give two ways to be sure.",
+      "zh": "铀和脉冲星，两只彼此独立的时钟，可以互相核对。这和那幅测试图出于同一种习惯：给陌生人写信时，给出两种确认的办法。"
+    }
+  ],
+  "pairs": [
+    "S-008004",
+    "S-008006",
+    "S-008010"
+  ]
 }

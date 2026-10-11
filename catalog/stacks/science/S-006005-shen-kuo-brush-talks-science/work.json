@@ -42,11 +42,12 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
-    "en": "Shen Kuo was a Song official, engineer and astronomer who in retirement wrote down what he had seen and tested. These six notes include the earliest known statement that a magnetised needle points not quite south, an explanation of the moon's phases with a powdered ball, a rainbow watched from both sides of a stream in Khitan country, fossil shells read as an old shoreline, and the prediction that rock oil would one day come into wide use. Notice how the note on the inverted image turns, without warning, into a remark about people.",
-    "zh": "沈括是宋代的官员、工程家和天文学家，晚年把一生所见、所试的事一条条写下来。这六条里有已知最早指出磁针“常微偏东，不全南”的记载，有用涂了粉的弹丸解释月相，有在契丹境内隔着溪涧从两边看过的一道彩虹，有把山崖里的螺蚌壳读作昔日的海岸，还有“此物后必大行于世”的石油预言。请留意讲小孔成像的那一条，怎样不动声色地转到了人身上。"
+    "en": "Shen Kuo was a Song official, engineer and astronomer who in retirement wrote down what he had seen and tested. These six notes include the earliest known statement that a magnetised needle points not quite south, an explanation of the moon's phases with a powdered ball, a rainbow watched from both sides of a stream in Khitan country, fossil shells read as an old shoreline, and the prediction that rock oil would one day come into wide use; his entry on Bi Sheng's movable type (活板) has its own shelf mark, S-002041. Notice how the note on the inverted image turns, without warning, into a remark about people.",
+    "zh": "沈括是宋代的官员、工程家和天文学家，晚年把一生所见、所试的事一条条写下来。这六条里有已知最早指出磁针“常微偏东，不全南”的记载，有用涂了粉的弹丸解释月相，有在契丹境内隔着溪涧从两边看过的一道彩虹，有把山崖里的螺蚌壳读作昔日的海岸，还有“此物后必大行于世”的石油预言；记毕昇活字的“活板”一条另有书架号 S-002041。请留意讲小孔成像的那一条，怎样不动声色地转到了人身上。"
   },
   "pick": null,
   "tags": [
@@ -62,5 +63,204 @@
     "en": "If one does not try to remove what stands in the way, and still hopes to see things the right way up, that is hard indeed.",
     "zh": "不求去碍，而欲见不颠倒，难矣哉！"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "陽燧",
+      "occ": 1,
+      "at_hans": "阳燧",
+      "en": "A concave mirror of polished bronze, used to light fires from the sun.",
+      "zh": "铜制的凹面镜，可对日取火。"
+    },
+    {
+      "at": "格術",
+      "occ": 1,
+      "at_hans": "格术",
+      "en": "The 'art of crossing': the mathematicians' name for reasoning about rays that cross at a point.",
+      "zh": "算家称光线交叉成像的道理为“格术”。格，阻隔、交叉。"
+    },
+    {
+      "at": "搖艣",
+      "occ": 1,
+      "at_hans": "摇橹",
+      "en": "Sculling with a single oar over the stern. The oarlock (臬) is a pivot, so the blade moves opposite to the handle.",
+      "zh": "摇橹。橹臬是支点，所以橹叶的方向总与手柄相反。"
+    },
+    {
+      "at": "鳶",
+      "occ": 1,
+      "at_hans": "鸢",
+      "en": "A kite: the bird of prey, not the toy.",
+      "zh": "鸢，老鹰一类的猛禽。"
+    },
+    {
+      "at": "窻隙",
+      "occ": 1,
+      "at_hans": "窗隙",
+      "en": "窻 is an old form of 窗: a crack in a window, which acts as a pinhole.",
+      "zh": "窻，同“窗”。窗缝，起到小孔的作用。"
+    },
+    {
+      "at": "腰鼓",
+      "occ": 1,
+      "en": "An hourglass-shaped drum, narrow at the waist: Shen Kuo's picture of rays narrowing to a point and widening again.",
+      "zh": "两头粗、中间细的鼓。沈括用它比喻光线收束到一点再散开。"
+    },
+    {
+      "at": "麻菽",
+      "occ": 1,
+      "en": "A hemp seed or a bean.",
+      "zh": "麻籽或豆粒。"
+    },
+    {
+      "at": "以己為物",
+      "occ": 1,
+      "at_hans": "以己为物",
+      "en": "To take the self for the other, and the other for the self: the inverted image turned into a remark about judgement.",
+      "zh": "把自己当作外物，把外物当作自己。由成像之理转说人的见识。"
+    },
+    {
+      "at": "酉陽雜俎",
+      "occ": 1,
+      "at_hans": "酉阳杂俎",
+      "en": "A Tang miscellany of marvels by Duan Chengshi (d. 863).",
+      "zh": "唐代段成式（？—863）所撰的笔记，多记奇闻异事。"
+    },
+    {
+      "at": "又問予",
+      "occ": 1,
+      "at_hans": "又问予",
+      "en": "The questioner is Shen Kuo's superior, from the time when Shen was helping to revise the armillary sphere; this entry continues their conversation from the one before it.",
+      "zh": "发问的是沈括的上官。当时沈括参与详定浑天仪，此条接续上一条两人的问答。"
+    },
+    {
+      "at": "有形而無質",
+      "occ": 1,
+      "at_hans": "有形而无质",
+      "en": "They have form but no solid substance: in Song cosmology the sun and moon were made of qi.",
+      "zh": "有形状而没有实体。宋人认为日月由气构成。"
+    },
+    {
+      "at": "熙寧中",
+      "occ": 1,
+      "at_hans": "熙宁中",
+      "en": "In the Xining years (1068–1077). Shen Kuo's embassy to the Liao court was in 1075.",
+      "zh": "熙宁年间（1068—1077）。沈括于 1075 年出使辽国。"
+    },
+    {
+      "at": "契丹",
+      "occ": 1,
+      "en": "The Khitan Liao empire, to the north of the Song.",
+      "zh": "契丹人建立的辽国，在宋朝北方。"
+    },
+    {
+      "at": "卓帳",
+      "occ": 1,
+      "at_hans": "卓帐",
+      "en": "To pitch a tent; 卓 is to set upright.",
+      "zh": "搭起帐篷。卓，竖立。"
+    },
+    {
+      "at": "笄",
+      "occ": 1,
+      "en": "A hairpin, used as a verb: both ends of the rainbow were stuck down into the stream.",
+      "zh": "笄，簪子，这里用作动词，指彩虹两端像簪子一样插入涧中。"
+    },
+    {
+      "at": "綃縠",
+      "occ": 1,
+      "at_hans": "绡縠",
+      "en": "Fine silk gauze.",
+      "zh": "轻薄的丝织品。"
+    },
+    {
+      "at": "孫彥先",
+      "occ": 1,
+      "at_hans": "孙彦先",
+      "en": "Sun Sigong, courtesy name Yanxian, a Song mathematician and astronomer.",
+      "zh": "孙思恭，字彦先，北宋数学家、天文学家。"
+    },
+    {
+      "at": "鄜、延",
+      "occ": 1,
+      "en": "Fuzhou and Yanzhou in northern Shaanxi, around today's Fu county and Yan'an, where Shen Kuo served on the frontier.",
+      "zh": "鄜州和延州，在今陕西富县、延安一带。沈括曾在此守边。"
+    },
+    {
+      "at": "石油",
+      "occ": 1,
+      "en": "Rock oil: Shen Kuo's name for it is the word still used for petroleum in Chinese.",
+      "zh": "“石油”这个名称由沈括提出，至今仍用来称呼石油。"
+    },
+    {
+      "at": "高奴縣出脂水",
+      "occ": 1,
+      "at_hans": "高奴县出脂水",
+      "en": "An old record that Gaonu county, near Yan'an, had a stream of fatty water that would burn; it goes back to the Han history.",
+      "zh": "旧说高奴县（在今延安附近）有可燃的“脂水”，见于《汉书·地理志》的记载。"
+    },
+    {
+      "at": "松墨",
+      "occ": 1,
+      "en": "Ink made from pine soot, the standard Chinese ink.",
+      "zh": "用松树烧出的烟灰制成的墨，是传统的墨。"
+    },
+    {
+      "at": "童",
+      "occ": 1,
+      "en": "Bare, stripped of trees, like a shaven head.",
+      "zh": "山上没有草木，光秃秃的。"
+    },
+    {
+      "at": "石炭",
+      "occ": 1,
+      "en": "Coal.",
+      "zh": "煤。"
+    },
+    {
+      "at": "洛陽塵",
+      "occ": 1,
+      "at_hans": "洛阳尘",
+      "en": "The dust of Luoyang was proverbial; the poet Lu Ji wrote that in the capital's dust a white robe turns black.",
+      "zh": "洛阳尘土之多是有名的。陆机诗有“京洛多风尘，素衣化为缁”。"
+    },
+    {
+      "at": "堯殛鯀於羽山",
+      "occ": 1,
+      "at_hans": "尧殛鲧于羽山",
+      "en": "In legend Gun, father of Yu the Great, failed to tame the flood and was banished, or by some accounts put to death, at Mount Yu.",
+      "zh": "传说鲧（大禹之父）治水失败，被尧放逐（一说诛杀）于羽山。"
+    },
+    {
+      "at": "方家",
+      "occ": 1,
+      "en": "Masters of techniques: diviners and geomancers, who first used the compass.",
+      "zh": "方术之士，如占卜、看风水的人，他们最早使用指南针。"
+    },
+    {
+      "at": "微偏東",
+      "occ": 1,
+      "at_hans": "微偏东",
+      "en": "Magnetic declination, the difference between magnetic and true south: this is its earliest known record.",
+      "zh": "即磁偏角，磁针所指与正南方向的偏差。这是已知最早的记载。"
+    },
+    {
+      "at": "獨繭縷",
+      "occ": 1,
+      "at_hans": "独茧缕",
+      "en": "A single silk filament drawn from one cocoon, with almost no twist to resist the needle.",
+      "zh": "从一个蚕茧抽出的单根丝，几乎没有扭力，不妨碍磁针转动。"
+    },
+    {
+      "at": "柏之指西",
+      "occ": 1,
+      "en": "An old belief that cypress trees lean towards the west.",
+      "zh": "古人相信柏树的枝干偏向西方。"
+    }
+  ],
+  "pairs": [
+    "S-002041",
+    "S-002042",
+    "S-002044"
+  ]
 }

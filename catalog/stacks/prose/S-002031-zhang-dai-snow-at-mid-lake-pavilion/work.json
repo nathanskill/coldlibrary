@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Zhang Dai's recollection of a snowy night on West Lake in the winter of 1632–33, written after the fall of the Ming and printed long after his death. The whole lake is reduced to a stroke, a dot, a mustard seed and two or three grains. It belongs in a library that keeps snow and lamps: a small stove, warm wine, and strangers who turn out to be kindred.",
@@ -61,5 +62,125 @@
     "en": "The only shadows on the lake were a single stroke, the long causeway; a single dot, the mid-lake pavilion; my boat, a mustard seed; and the people in it, two or three grains.",
     "zh": "湖上影子，惟长堤一痕，湖心亭一点，与余舟一芥，舟中人两三粒而已。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "崇禎五年十二月",
+      "occ": 1,
+      "at_hans": "崇祯五年十二月",
+      "en": "The twelfth lunar month of Chongzhen 5, in the winter of 1632–33. Chongzhen was the last reign of the Ming.",
+      "zh": "崇祯五年十二月，约当公元 1633 年初。崇祯，明朝最后一个年号。"
+    },
+    {
+      "at": "西湖",
+      "occ": 1,
+      "en": "The West Lake at Hangzhou.",
+      "zh": "杭州西湖。"
+    },
+    {
+      "at": "俱絕",
+      "occ": 1,
+      "at_hans": "俱绝",
+      "en": "All gone, completely stilled.",
+      "zh": "全都消失了。"
+    },
+    {
+      "at": "更定",
+      "occ": 1,
+      "en": "After the first watch of the night had been drummed, about eight in the evening.",
+      "zh": "初更以后，约晚上八点。"
+    },
+    {
+      "at": "拏",
+      "occ": 1,
+      "en": "To pole or row a boat.",
+      "zh": "撑（船），划（船）。"
+    },
+    {
+      "at": "毳衣",
+      "occ": 1,
+      "en": "A coat of soft fur.",
+      "zh": "细毛皮做的衣服。"
+    },
+    {
+      "at": "湖心亭",
+      "occ": 1,
+      "en": "A pavilion on a small island in the middle of the West Lake, first built in 1552.",
+      "zh": "西湖中小岛上的亭子，始建于明嘉靖三十一年（1552）。"
+    },
+    {
+      "at": "霧凇沆碭",
+      "occ": 1,
+      "at_hans": "雾凇沆砀",
+      "en": "霧凇 is hoarfrost, 沆碭 a white vapour spread everywhere.",
+      "zh": "雾凇，雾气凝成的冰花；沆砀，白气弥漫的样子。"
+    },
+    {
+      "at": "長堤一痕",
+      "occ": 1,
+      "at_hans": "长堤一痕",
+      "en": "The long causeway across the lake, usually taken to be the Su Causeway, shows as a single stroke.",
+      "zh": "长堤，一般认为指苏堤。一痕，一道淡淡的痕迹。"
+    },
+    {
+      "at": "一芥",
+      "occ": 1,
+      "en": "A mustard seed: the smallest of things.",
+      "zh": "芥，小草或芥子，比喻极小。"
+    },
+    {
+      "at": "氈",
+      "occ": 1,
+      "at_hans": "毡",
+      "en": "A rug of felt.",
+      "zh": "毡子。"
+    },
+    {
+      "at": "焉得",
+      "occ": 1,
+      "en": "How could there be.",
+      "zh": "哪里能，怎么会。"
+    },
+    {
+      "at": "三大白",
+      "occ": 1,
+      "en": "白 is a large wine cup: three big cups.",
+      "zh": "白，酒杯。三大杯。"
+    },
+    {
+      "at": "金陵",
+      "occ": 1,
+      "en": "Nanjing.",
+      "zh": "今江苏南京。"
+    },
+    {
+      "at": "客此",
+      "occ": 1,
+      "en": "Staying here as visitors.",
+      "zh": "客居在这里。"
+    },
+    {
+      "at": "舟子",
+      "occ": 1,
+      "en": "The boatman.",
+      "zh": "船夫。"
+    },
+    {
+      "at": "相公",
+      "occ": 1,
+      "en": "A polite term for a gentleman: 'the master', 'sir'.",
+      "zh": "旧时对士人的敬称。"
+    },
+    {
+      "at": "癡",
+      "occ": 1,
+      "at_hans": "痴",
+      "en": "Mad, besotted: in late Ming taste an obsession was a mark of a person worth knowing. Zhang Dai wrote that one cannot befriend someone without a passion.",
+      "zh": "痴迷。晚明文人以“痴”“癖”为真性情，张岱说过“人无癖不可与交”。"
+    }
+  ],
+  "pairs": [
+    "S-001001",
+    "S-002030"
+  ]
 }

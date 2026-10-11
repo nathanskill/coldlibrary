@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Shen Kuo explains why the strange peaks of the Yandang Mountains cannot be seen from outside their valleys: they were not pushed up, but left standing when running water carried away the earth around them. It is among the earliest clear statements anywhere of erosion as a force that shapes a landscape. Notice how he checks the idea against the pillars of earth that stand in the great ravines of Chenggao and the west.",
@@ -60,5 +61,159 @@
     "en": "Looking for the reason, it must be that the great waters in the valleys rushed against them and washed away all the sand and earth, leaving only the great rocks standing tall.",
     "zh": "原其理，当是为谷中大水冲激，沙土尽去，唯巨石岿然挺立耳。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "溫州",
+      "occ": 1,
+      "at_hans": "温州",
+      "en": "Wenzhou, on the coast of southern Zhejiang.",
+      "zh": "今浙江温州。"
+    },
+    {
+      "at": "圖牒",
+      "occ": 1,
+      "at_hans": "图牒",
+      "en": "Maps and registers: the geographical records kept by the state.",
+      "zh": "地图和簿册，指官方的地理记载。"
+    },
+    {
+      "at": "祥符中",
+      "occ": 1,
+      "en": "The Dazhong Xiangfu years, 1008–1016, under Emperor Zhenzong of the Song.",
+      "zh": "宋真宗大中祥符年间（1008—1016）。"
+    },
+    {
+      "at": "玉清宮",
+      "occ": 1,
+      "at_hans": "玉清宫",
+      "en": "The Yuqing Zhaoying Palace, a vast Daoist palace at the capital Kaifeng, built 1009–1014 and burned down in 1029.",
+      "zh": "玉清昭应宫，在都城开封的巨大道观，1009—1014 年修建，1029 年焚毁。"
+    },
+    {
+      "at": "西域書",
+      "occ": 1,
+      "at_hans": "西域书",
+      "en": "A Buddhist book brought from the Western Regions, the lands beyond China's northwest.",
+      "zh": "从西域传来的佛教典籍。"
+    },
+    {
+      "at": "阿羅漢諾矩羅",
+      "occ": 1,
+      "at_hans": "阿罗汉诺矩罗",
+      "en": "The arhat Nakula, one of the Sixteen Arhats who, in Buddhist tradition, stay in the world to guard the teaching.",
+      "zh": "诺矩罗，佛教十六罗汉之一。阿罗汉，修行圆满的圣者。"
+    },
+    {
+      "at": "震旦",
+      "occ": 1,
+      "en": "An Indian name for China, from Sanskrit.",
+      "zh": "古印度对中国的称呼，源自梵语。"
+    },
+    {
+      "at": "龍湫",
+      "occ": 1,
+      "at_hans": "龙湫",
+      "en": "A dragon's pool: a deep pool under a waterfall.",
+      "zh": "湫，水潭。龙湫，瀑布下的深潭。"
+    },
+    {
+      "at": "貫休",
+      "occ": 1,
+      "at_hans": "贯休",
+      "en": "Guanxiu (832–912), a monk, poet and painter, best known for his strange, powerful portraits of the arhats.",
+      "zh": "贯休（832—912），唐末五代诗僧、画家，以所画罗汉像著称。"
+    },
+    {
+      "at": "雁蕩經行雲漠漠，龍湫宴坐雨濛濛",
+      "occ": 1,
+      "at_hans": "雁荡经行云漠漠，龙湫宴坐雨蒙蒙",
+      "en": "經行 is walking meditation and 宴坐 sitting meditation: the arhat walks in the clouds of Yandang and sits in the rain by the Dragon Pool.",
+      "zh": "经行，佛教徒往返散步以修行；宴坐，静坐。"
+    },
+    {
+      "at": "大池",
+      "occ": 1,
+      "en": "The summit lake, said to be where wild geese rested on their autumn flight south: hence the name Yandang, Wild Goose Marsh.",
+      "zh": "山顶的湖，相传秋雁南飞时在此栖息，雁荡之名由此而来。"
+    },
+    {
+      "at": "謝靈運為永嘉守",
+      "occ": 1,
+      "at_hans": "谢灵运为永嘉守",
+      "en": "Xie Lingyun (385–433), the first great poet of Chinese landscape, governor of Yongjia (today's Wenzhou) in 422–423.",
+      "zh": "谢灵运（385—433），山水诗的开创者，422—423 年任永嘉（今温州）太守。"
+    },
+    {
+      "at": "峭拔嶮怪",
+      "occ": 1,
+      "at_hans": "峭拔险怪",
+      "en": "Sheer, soaring, perilous and strange.",
+      "zh": "陡峭挺拔，险峻奇怪。"
+    },
+    {
+      "at": "干霄",
+      "occ": 1,
+      "en": "干 is to touch: reaching up to the sky.",
+      "zh": "干，冲犯，触及。高入云霄。"
+    },
+    {
+      "at": "原其理",
+      "occ": 1,
+      "en": "原 is to trace back: looking for the cause.",
+      "zh": "原，推究。推究其中的道理。"
+    },
+    {
+      "at": "巋然",
+      "occ": 1,
+      "at_hans": "岿然",
+      "en": "Standing tall and alone.",
+      "zh": "高大独立的样子。"
+    },
+    {
+      "at": "大小龍湫",
+      "occ": 1,
+      "at_hans": "大小龙湫",
+      "en": "The Greater and Lesser Dragon Pool falls; the greater drops nearly two hundred metres.",
+      "zh": "大龙湫、小龙湫两处瀑布，大龙湫落差近二百米。"
+    },
+    {
+      "at": "植土龕巖",
+      "occ": 1,
+      "at_hans": "植土龛岩",
+      "en": "Upright pillars of earth, and hollows like niches in the banks.",
+      "zh": "直立的土柱，和像佛龛一样凹进去的土崖。"
+    },
+    {
+      "at": "成臯",
+      "occ": 1,
+      "at_hans": "成皋",
+      "en": "Chenggao, near Xingyang in Henan, on the edge of the loess country.",
+      "zh": "成皋，在今河南荥阳一带，地处黄土地区边缘。"
+    },
+    {
+      "at": "陝西",
+      "occ": 1,
+      "at_hans": "陕西",
+      "en": "In the Song, the lands west of Shanzhou: the loess plateau of today's Shaanxi and Gansu, where streams cut deep gullies.",
+      "zh": "宋代指陕州以西地区，即今陕西、甘肃一带的黄土高原，多深沟大壑。"
+    },
+    {
+      "at": "具體而微",
+      "occ": 1,
+      "at_hans": "具体而微",
+      "en": "Complete in every part, but small: a phrase from Mencius.",
+      "zh": "各部分都具备而规模较小。语出《孟子·公孙丑上》。"
+    },
+    {
+      "at": "林莽",
+      "occ": 1,
+      "en": "Dense forest and undergrowth.",
+      "zh": "茂密的树林和草丛。"
+    }
+  ],
+  "pairs": [
+    "S-006005",
+    "S-002041"
+  ]
 }

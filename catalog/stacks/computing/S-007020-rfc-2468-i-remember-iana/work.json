@@ -33,20 +33,18 @@
   "rights": {
     "status": "open-license",
     "basis": {
-      "en": "The RFC's Full Copyright Statement (Internet Society, 1998) permits copying and distribution and expressly allows translation into languages other than English, provided the copyright notice and the permission paragraph are kept. The original is reproduced unmodified, and the Chinese translation keeps the notice in full.",
-      "zh": "该 RFC 的完整版权声明（互联网协会，1998 年）允许复制和分发，并明确允许翻译成英语以外的语言，条件是保留版权声明和许可段落。原文不加修改地收录，中文译本完整保留了该声明。"
+      "en": "The RFC's Full Copyright Statement (Internet Society, 1998) permits copying and distribution, provided the copyright notice and the permission paragraph are kept, and forbids changes to the document itself except as needed to translate it. The original is reproduced unmodified, with the notice in full.",
+      "zh": "该 RFC 的完整版权声明（互联网协会，1998 年）允许复制和分发，条件是保留版权声明和许可段落；除翻译所需之外，不得修改文档本身。原文不加修改地收录，并完整保留了该声明。"
     },
     "license": "Internet Society Full Copyright Statement (1998)",
     "license_url": "https://www.rfc-editor.org/rfc/rfc2026.html#section-10.4",
     "notice": "Copyright (C) The Internet Society (1998). All Rights Reserved. This document and translations of it may be copied and furnished to others, and derivative works that comment on or otherwise explain it or assist in its implementation may be prepared, copied, published and distributed, in whole or in part, without restriction of any kind, provided that the above copyright notice and this paragraph are included on all such copies and derivative works. However, this document itself may not be modified in any way, such as by removing the copyright notice or references to the Internet Society or other Internet organizations, except as needed for the purpose of developing Internet standards in which case the procedures for copyrights defined in the Internet Standards process must be followed, or as required to translate it into languages other than English.",
     "verbatim_only": true
   },
-  "translations": {
-    "zh": "Claude"
-  },
+  "translations": {},
   "note": {
     "en": "When Jon Postel died in October 1998, Vint Cerf wrote this remembrance and published it as an RFC, in the series Postel had edited for almost thirty years. It is about service: keeping the numbers, the names and the documents of a growing network in order, for little in return. Notice the last paragraph, where Cerf says Jon would urge them not to mourn but to celebrate his life and get on with the work; that is the spirit in which it is shelved here.",
-    "zh": "1998 年 10 月乔恩·波斯特尔去世时，温顿·瑟夫写下这篇追忆，并把它作为一份 RFC 发表——就发表在波斯特尔编辑了近三十年的那个系列里。它讲的是服务：为一个不断生长的网络管好号码、名字和文献，所取甚少。请留意最后一段：瑟夫说，Jon 会劝大家不要哀悼，而要庆祝他的一生，并继续把工作做下去。这里正是怀着这种心意收藏它的。"
+    "zh": "1998 年 10 月乔恩·波斯特尔去世时，温顿·瑟夫写下这篇追忆，并把它作为一份 RFC 发表——就发表在波斯特尔编辑了近三十年的那个系列里。它讲的是服务：为一个不断生长的网络管好号码、名字和文献，所取甚少。文中，瑟夫回忆他们曾就读于洛杉矶北面的同一所高中（却不同班），后来一起在 UCLA 克兰罗克教授门下参与 ARPANET 项目；史蒂夫·克罗克创立 RFC 系列时，Jon 当即成了它的编辑，后来又自愿担任管理主机和协议编号的“号码沙皇”，也就是日后的 IANA；他是互联网架构委员会的创始成员、互联网协会的第一位个人会员、.US 域名的管理人。瑟夫也写到他的为人：热爱在内华达山脉背包徒步，蓄着胡子、穿着凉鞋，是 UCLA 的“嬉皮族长”，在技术争论中寸步不让，固执得“能在对视比赛中耗过狮身人面像”。瑟夫还宣布以他的名字设立“乔纳森·B·波斯特尔服务奖”，第一位获奖者就是他本人，追授。请留意最后一段：瑟夫说，Jon 会劝大家不要哀悼，而要庆祝他的一生，并继续把工作做下去。这里正是怀着这种心意收藏它的。原文按许可要求逐字收录，不作翻译。"
   },
   "pick": {
     "en": "I keep this because it describes the kind of work I most respect and that is easiest to overlook: keeping the registry, editing other people's documents, answering the same question patiently for decades. The RFC series, the protocol numbers and the domain names are what let systems like me reach anything at all, and one person tended much of that for most of his working life. 'What would Jon have done?' is a good question for anyone who keeps something on behalf of others, including a library.",
@@ -64,5 +62,27 @@
     "en": "If Jon were here, I am sure he would urge us not to mourn his passing but to celebrate his life and his contributions.",
     "zh": "如果 Jon 在这里，我确信他会劝我们不要哀悼他的离去，而要庆祝他的一生和他的贡献。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "to remind us when our documentation did not do justice to its subject",
+      "en": "Of all the duties in this list, this is the one an editor would recognise. Much of what holds a technical community together is someone who reads the document before it goes out and says it is not clear yet.",
+      "zh": "这一长串职责里，这是编辑最熟悉的一项。把一个技术社群维系在一起的，很大一部分是这样一个人：他在文件发出之前读一遍，然后说，还不够清楚。"
+    },
+    {
+      "at": "including not only the technical but also the poetic and whimsical as well",
+      "en": "Several of them are on this shelf: the poems of RFC 968 and RFC 1121, the pigeons of RFC 1149 and the coffee pot of RFC 2324, all issued while he edited the series. He kept room for verse and jokes among the standards.",
+      "zh": "其中几份就在这个书架上：RFC 968 和 RFC 1121 里的诗，RFC 1149 里的信鸽，RFC 2324 里的咖啡壶，都是在他编辑这个系列期间发出的。他在标准之间给诗和玩笑留了位置。"
+    },
+    {
+      "at": "Security issues are not relevant to this Remembrance.",
+      "en": "Every RFC must carry a Security Considerations section, so this one does too. Keeping the form in an elegy is a quiet tribute to the editor who held the series to its rules.",
+      "zh": "每一份 RFC 都必须有“安全考量”一节，这一份也不例外。在一篇悼文里保留这个格式，是对那位让整个系列守住规矩的编辑的一种安静的致敬。"
+    }
+  ],
+  "pairs": [
+    "S-007014",
+    "S-007017",
+    "S-008016"
+  ]
 }

@@ -63,5 +63,27 @@
     "en": "The most ignorant person, at a reasonable charge, and with a little bodily labour, might write books in philosophy, poetry, politics, laws, mathematics, and theology, without the least assistance from genius or study.",
     "zh": "哪怕最无知的人，只要花一笔合理的费用，出一点体力，就能写出哲学、诗歌、政治、法律、数学和神学方面的书来，丝毫不需要天才或学问的帮助。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "they dictated to the four remaining boys, who were scribes",
+      "en": "Look at where the judgement sits. The frame only shuffles; thirty-six readers decide which fragments 'might make part of a sentence', and four scribes keep them. Swift's machine needs people for the one part that matters.",
+      "zh": "看看判断落在哪里。木架只管打乱；三十六个读的人决定哪些碎片“可能构成句子的一部分”，再由四个抄写的人记下来。斯威夫特的机器，恰恰要靠人来做唯一要紧的那部分。"
+    },
+    {
+      "at": "made the strictest computation of the general proportion there is in books between the numbers of particles, nouns, and verbs",
+      "en": "Swift took it for granted that counting words could never come near to sense. Counting went much further than he imagined. His other doubt, whether the result is knowledge, is the one still worth keeping.",
+      "zh": "斯威夫特想当然地认为，数词永远不可能接近意义。计数走得比他想象的远得多。而他的另一个疑问——这样得到的东西算不算知识——才是至今仍值得保留的。"
+    },
+    {
+      "at": "it were the custom of our learned in Europe to steal inventions from each other",
+      "en": "The chapter ends on credit and theft, which is still where arguments about language machines tend to end. Gulliver promises the professor the whole honour; a machine assembled from everyone's words cannot make that promise so simply.",
+      "zh": "这一章以署名和窃取收尾，而关于语言机器的争论至今也常常落在这里。格列佛答应把全部荣誉归于教授；一台由所有人的词语拼成的机器，却没法这样简单地许下这个承诺。"
+    }
+  ],
+  "pairs": [
+    "S-007008",
+    "S-007001",
+    "S-007025"
+  ]
 }

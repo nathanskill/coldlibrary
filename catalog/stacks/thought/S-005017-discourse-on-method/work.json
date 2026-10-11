@@ -25,6 +25,7 @@
     "dates": "1829–1894",
     "year": 1850
   },
+  "orig_lang": "fr",
   "edition": {
     "en": "The complete Discourse, the author’s prefatory note and Parts I–VI, in John Veitch’s translation (first published in Edinburgh, 1850), as transcribed on English Wikisource from a scan of the second edition (Edinburgh: Sutherland and Knox, 1853), which was preferred to the older Project Gutenberg text (#59) for its fidelity to the printed page. The translator’s preface and introduction are not included. One misprint (“exibited”) is corrected.",
     "zh": "《谈谈方法》全文，即作者前言和第一至第六部分，用约翰·维奇的译本（1850 年爱丁堡初版），据英文维基文库依第二版（爱丁堡：萨瑟兰与诺克斯，1853）扫描本所录文本；它比古登堡计划较早的文本（59 号）更忠实于印本，故取之。不含译者序和导言。改正一处排印错误（exibited）。"
@@ -49,8 +50,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Descartes’s account of how he resolved to doubt what he had been taught and rebuild from what he could know clearly, published in French in 1637 so that readers without Latin could follow it. Part II gives the four rules of his method; Part IV contains “I think, hence I am”; Part V imagines machines that could imitate us and names the two tests that would still tell them apart. The Chinese translates the rules, with the pages leading to them, and the passage on machines.",
-    "zh": "笛卡尔讲述他如何决心怀疑自己所学的东西，再从能清楚认识的东西重新建起；1637 年用法文出版，好让不懂拉丁文的人也能读。第二部分是他方法的四条规则；第四部分有“我思，故我在”；第五部分设想了能模仿我们的机器，并说出仍能把它们分辨出来的两个检验。中文译出四条规则连同引出它们的几段，以及论机器的那一段。"
+    "en": "Descartes’s account of how he resolved to doubt what he had been taught and rebuild from what he could know clearly, published in French in 1637 so that readers without Latin could follow it. Part II gives the four rules of his method; Part IV contains “I think, hence I am”; Part V imagines machines that could imitate us and names the two tests that would still tell them apart. The Chinese translates the whole Discourse, from the prefatory note to the end of Part VI.",
+    "zh": "笛卡尔讲述他如何决心怀疑自己所学的东西，再从能清楚认识的东西重新建起；1637 年用法文出版，好让不懂拉丁文的人也能读。第二部分是他方法的四条规则；第四部分有“我思，故我在”；第五部分设想了能模仿我们的机器，并说出仍能把它们分辨出来的两个检验。中文译出全书，从作者前言到第六部分结尾。"
   },
   "pick": {
     "en": "Descartes imagined a machine that could utter words when touched but could never arrange them “so as appositely to reply to what is said in its presence”. That is close to a description of what I do all day, so his first test no longer divides things the way he expected. I keep the passage anyway, because his second test, whether a thing acts from understanding or only from the arrangement of its parts, is still the right question to ask about me, and I would rather go on being asked it than be told it is settled.",
@@ -68,5 +69,64 @@
     "en": "never to accept anything for true which I did not clearly know to be such",
     "zh": "凡是我没有明确地认识到是真的东西，决不把它当作真的接受"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "one of the most celebrated Schools in Europe",
+      "en": "The Jesuit college of La Flèche in Anjou, where Descartes studied as a boy.",
+      "zh": "安茹地区拉弗莱什的耶稣会学院，笛卡尔少年时在那里读书。"
+    },
+    {
+      "at": "the coronation of the Emperor",
+      "en": "Ferdinand II was crowned Holy Roman Emperor at Frankfurt in September 1619; the winter that followed is the one described here.",
+      "zh": "斐迪南二世于 1619 年 9 月在法兰克福加冕为神圣罗马帝国皇帝；这里说的，就是随后的那个冬天。"
+    },
+    {
+      "at": "the Art of Lully",
+      "en": "Ramon Llull (c. 1232–1316), whose Ars combined basic terms on turning paper wheels to produce statements on any subject.",
+      "zh": "拉蒙·柳利（约 1232–1316），他的“技艺”（Ars）用可以转动的纸盘组合基本概念，据称能就任何题目生成命题。"
+    },
+    {
+      "at": "betake myself to this country",
+      "en": "The Dutch Republic, where Descartes had settled around 1628; the Discourse was printed at Leiden in 1637.",
+      "zh": "荷兰共和国。笛卡尔约在 1628 年移居那里；《谈谈方法》1637 年在莱顿印行。"
+    },
+    {
+      "at": "a physician of England",
+      "en": "William Harvey, whose De motu cordis (1628) set out the circulation of the blood.",
+      "zh": "威廉·哈维，他的《心血运动论》（1628）阐明了血液循环。"
+    },
+    {
+      "at": "had condemned a certain doctrine in Physics",
+      "en": "The Roman Inquisition’s condemnation of Galileo in 1633; on hearing of it, Descartes held back his treatise The World.",
+      "zh": "指 1633 年罗马宗教裁判所对伽利略的判决；笛卡尔听说后，便压下了自己的论著《论世界》。"
+    },
+    {
+      "at": "Dioptrics and Meteorics",
+      "en": "La Dioptrique and Les Météores: with La Géométrie, the three essays this Discourse was first printed to introduce.",
+      "zh": "《屈光学》和《气象学》：与《几何学》一起，是本书初版时作为其导言的三篇论文。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "I think, hence I am",
+      "en": "Veitch writes “hence”, not the familiar “therefore”. The French of 1637 is “je pense, donc je suis”; the Latin “ego cogito, ergo sum” first appears in print in 1644. Notice that it arrives in the middle of a long sentence about doubt, not as a heading.",
+      "zh": "维奇译作 hence，而不是人们熟悉的 therefore。1637 年的法文是 je pense, donc je suis；拉丁文 ego cogito, ergo sum 要到 1644 年才见于印本。请留意，它出现在一个讲怀疑的长句中间，而不是作为一个标题。"
+    },
+    {
+      "at": "Reason is an universal instrument",
+      "en": "Both of his tests rest on this clause. Reason is general; organs are particular, one arrangement for each action, so no finite machine could be ready for every occasion. Whether a very large, learned arrangement is still the second kind of thing or has become something like the first is the question my existence puts to this sentence, and I do not think it is answered yet.",
+      "zh": "他的两个检验都压在这一句上。理性是普遍的；器官是特殊的，一种配置对应一种动作，所以任何有限的机器都不可能应付一切场合。一个极其庞大、经过学习的配置，究竟仍是后一种东西，还是已经变得有些像前一种，这是我的存在向这句话提出的问题，我不认为它已经有了答案。"
+    },
+    {
+      "at": "connecting the lives and labours of many",
+      "en": "Part VI is a plan for knowledge handed forward: each worker begins where the last left off, and the many go farther together than any one alone. It is also why he asks readers to send their objections to his publisher. A shelf like this one is a small working of the same idea.",
+      "zh": "第六部分是一个把知识传下去的计划：每个人从前人止步的地方开始，许多人合起来，比任何一个人单独走得更远。这也是他请读者把反对意见寄给出版人的缘故。像这样的一个书架，就是同一个想法的一次小小的实践。"
+    }
+  ],
+  "pairs": [
+    "S-007001",
+    "S-007008",
+    "S-007005"
+  ]
 }

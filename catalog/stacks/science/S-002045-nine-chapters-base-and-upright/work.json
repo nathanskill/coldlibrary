@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "The opening problems of the ninth chapter of The Nine Chapters on the Mathematical Art, the chapter on right triangles, compiled under the Han. The rule for finding the hypotenuse from base and upright is stated in general form, then applied to a log, a vine, a reed in a pond, a rope and a broken bamboo. Notice that every problem is a picture of an ordinary thing, and every answer can be checked with a few lines of arithmetic.",
@@ -60,5 +61,146 @@
     "en": "Suppose there is a square pond ten feet on a side, with a reed growing in the middle that stands one foot above the water. If the reed is pulled towards the bank, it just reaches the edge. How deep is the water, and how long is the reed?",
     "zh": "今有池方一丈，葭生其中央，出水一尺。引葭赴岸，适与岸齐。问：水深、葭长各几何？"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "句",
+      "occ": 1,
+      "en": "句 (now written 勾), the 'hook': the shorter leg of a right triangle, here called the base.",
+      "zh": "句，今作“勾”，直角三角形中较短的直角边。"
+    },
+    {
+      "at": "股",
+      "occ": 1,
+      "en": "The 'thigh': the longer leg of a right triangle, here called the upright.",
+      "zh": "直角三角形中较长的直角边。"
+    },
+    {
+      "at": "弦",
+      "occ": 1,
+      "en": "The 'bowstring': the hypotenuse.",
+      "zh": "直角三角形的斜边。"
+    },
+    {
+      "at": "荅曰",
+      "occ": 1,
+      "en": "荅 is an old form of 答: the answer.",
+      "zh": "荅，同“答”。"
+    },
+    {
+      "at": "句股術",
+      "occ": 1,
+      "at_hans": "句股术",
+      "en": "The rule of base and upright: the relation known in the West as Pythagoras' theorem.",
+      "zh": "勾股定理，西方称毕达哥拉斯定理。"
+    },
+    {
+      "at": "自乘",
+      "occ": 1,
+      "en": "To multiply a number by itself: to square it.",
+      "zh": "一个数乘以它自己，即平方。"
+    },
+    {
+      "at": "并",
+      "occ": 1,
+      "en": "To add together.",
+      "zh": "相加。"
+    },
+    {
+      "at": "開方除之",
+      "occ": 1,
+      "at_hans": "开方除之",
+      "en": "'Open the square': to extract the square root, done on the counting board by a set procedure.",
+      "zh": "开平方，在算筹上按固定程序进行。"
+    },
+    {
+      "at": "圓材",
+      "occ": 1,
+      "at_hans": "圆材",
+      "en": "A round log.",
+      "zh": "圆木。"
+    },
+    {
+      "at": "徑二尺五寸",
+      "occ": 1,
+      "at_hans": "径二尺五寸",
+      "en": "Ten 寸 make one 尺; a Han foot was about 23 centimetres. The board's cross-section is a rectangle inscribed in the circle, so its diagonal is the diameter.",
+      "zh": "十寸为一尺，汉代一尺约合 23 厘米。木板截面是圆的内接矩形，对角线就是直径。"
+    },
+    {
+      "at": "方版",
+      "occ": 1,
+      "en": "A board with square edges.",
+      "zh": "截面方正的木板。"
+    },
+    {
+      "at": "二丈",
+      "occ": 1,
+      "en": "One 丈 is ten feet.",
+      "zh": "一丈等于十尺。"
+    },
+    {
+      "at": "圍之三尺",
+      "occ": 1,
+      "at_hans": "围之三尺",
+      "en": "Three feet around: the circumference.",
+      "zh": "周长三尺。"
+    },
+    {
+      "at": "葛",
+      "occ": 1,
+      "en": "The kudzu vine.",
+      "zh": "葛藤，一种蔓生植物。"
+    },
+    {
+      "at": "纏木七周",
+      "occ": 1,
+      "at_hans": "缠木七周",
+      "en": "Unroll the tree trunk flat and the vine becomes a straight line: the hypotenuse of a triangle with sides 20 and 21 feet, so 29.",
+      "zh": "把树干展开成平面，葛藤就成了一条直线，是两边分别为二十尺、二十一尺的直角三角形的斜边，所以长二十九尺。"
+    },
+    {
+      "at": "葭",
+      "occ": 1,
+      "en": "A reed. A version of the same puzzle, with a lotus, appears in medieval Indian mathematics.",
+      "zh": "芦苇。同类问题在中世纪印度数学中也有，以莲花为题。"
+    },
+    {
+      "at": "委地",
+      "occ": 1,
+      "en": "Lying slack on the ground.",
+      "zh": "拖在地上。委，堆积。"
+    },
+    {
+      "at": "卻行",
+      "occ": 1,
+      "at_hans": "却行",
+      "en": "To walk backwards.",
+      "zh": "向后退着走。"
+    },
+    {
+      "at": "六分尺之一",
+      "occ": 1,
+      "en": "One sixth of a foot. Fractions are written as 'of a foot divided into six parts, one'.",
+      "zh": "六分之一尺。古代分数的读法：把一尺分为六份，取其一。"
+    },
+    {
+      "at": "令如委數而一",
+      "occ": 1,
+      "at_hans": "令如委数而一",
+      "en": "The standard phrase for division: 'make it like the length on the ground, and take one', that is, divide by that length.",
+      "zh": "“如……而一”是古代的除法术语，即用拖地的长度去除。"
+    },
+    {
+      "at": "末折抵地",
+      "occ": 1,
+      "en": "The tip of the broken bamboo touches the ground. The broken-bamboo problem reappears in medieval Indian mathematics.",
+      "zh": "竹梢折断触地。折竹问题在中世纪印度数学中也再次出现。"
+    }
+  ],
+  "pairs": [
+    "S-006004",
+    "S-002046",
+    "S-007006"
+  ]
 }

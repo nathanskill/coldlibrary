@@ -25,6 +25,7 @@
     "dates": "1630–1687; 1834–1913",
     "year": 1877
   },
+  "orig_lang": "fr",
   "edition": {
     "en": "Book I, chapter VIII, complete, from Essays of Michel de Montaigne, translated by Charles Cotton, edited by William Carew Hazlitt (1877), Project Gutenberg eBook #3600. Montaigne’s Latin quotations are kept, each followed by the edition’s English rendering in parentheses (in square brackets in the source); the editors’ own notes are omitted.",
     "zh": "第一卷第八章全文，据古登堡计划电子书 3600《蒙田随笔集》（查尔斯·科顿译，威廉·卡鲁·哈兹利特编，1877）。保留蒙田引用的拉丁文，其后以圆括号附该版的英译（原书为方括号）；略去编者自己的注释。"
@@ -64,5 +65,10 @@
     "en": "I have begun to commit them to writing, hoping in time to make it ashamed of itself.",
     "zh": "我已开始把它们一一写下来，希望日后能让它对自己感到羞愧。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-005009",
+    "S-005003",
+    "S-005011"
+  ]
 }

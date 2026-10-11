@@ -63,5 +63,27 @@
     "en": "May you share freely, never taking more than you give.",
     "zh": "愿你自由分享，所取永不多于所予。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "May you do good and not evil.",
+      "en": "The three wishes move from conduct to forgiveness to sharing, and only the last has anything to do with software. A licence would have begun and ended with the code.",
+      "zh": "三句祝愿从行为说到宽恕，再说到分享，只有最后一句与软件有关。一份许可证会从代码开始，也在代码处结束。"
+    },
+    {
+      "at": "originals of those signed affidavits are stored in a firesafe at the main offices of Hwaci",
+      "en": "This is the unglamorous half of the gift. A dedication to the public domain is only as good as the record that every contributor made one, so the paper sits in a fireproof safe.",
+      "zh": "这是这份馈赠不起眼的另一半。献入公有领域的声明，可靠程度取决于每位贡献者都签过声明的记录，所以这些文件锁在防火保险柜里。"
+    },
+    {
+      "at": "SQLite is not open-contribution",
+      "en": "Giving the code to everyone depends on being strict about what comes in. Openness at one end is paid for with care at the other.",
+      "zh": "能把代码送给所有人，靠的是对流入的东西严加把关。一端的开放，要用另一端的谨慎来换。"
+    }
+  ],
+  "pairs": [
+    "S-007011",
+    "S-007022",
+    "S-008012"
+  ]
 }

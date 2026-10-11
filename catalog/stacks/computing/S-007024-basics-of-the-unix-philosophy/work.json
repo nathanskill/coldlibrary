@@ -58,5 +58,10 @@
     "en": "This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface.",
     "zh": "这就是 Unix 哲学：写只做一件事并把它做好的程序。写能彼此协作的程序。写处理文本流的程序，因为那是一种通用接口。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007011",
+    "S-007025",
+    "S-007017"
+  ]
 }

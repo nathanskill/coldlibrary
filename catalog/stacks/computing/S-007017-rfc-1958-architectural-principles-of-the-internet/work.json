@@ -59,5 +59,10 @@
     "en": "The principle of constant change is perhaps the only principle of the Internet that should survive indefinitely.",
     "zh": "不断变化的原则，也许是互联网唯一应当无限期存续的原则。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007016",
+    "S-007018",
+    "S-007024"
+  ]
 }

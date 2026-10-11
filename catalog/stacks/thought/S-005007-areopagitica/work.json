@@ -61,5 +61,10 @@
     "en": "a good book is the precious life-blood of a master spirit, embalmed and treasured up on purpose to a life beyond life.",
     "zh": "一本好书，是一位大师精神的宝贵血液，被精心保存、珍藏起来，为的是一种超越生命的生命。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-005004",
+    "S-005019",
+    "S-005008"
+  ]
 }

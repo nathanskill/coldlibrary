@@ -60,5 +60,10 @@
     "en": "Simple is better than complex. Complex is better than complicated.",
     "zh": "简单胜于复杂。复杂胜于凌乱。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007012",
+    "S-007024",
+    "S-007016"
+  ]
 }

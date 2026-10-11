@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "From the thirteenth chapter of The Works of Heaven, on paper: Song Yingxing's opening reflection on what carries knowledge from one age to the next, his note on materials, and his step-by-step account of making bamboo paper in Fujian. The excerpt leaves out the last paragraph of that section and the section on bark paper. Notice the recycled sheets that northerners called paper of the returning soul.",
@@ -61,5 +62,188 @@
     "en": "Kill the green, and the white appears; ten thousand scrolls and a hundred schools of thought are founded on this.",
     "zh": "杀其青而白乃见，万卷百家，基从此起。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "宋子曰",
+      "occ": 1,
+      "en": "Master Song: Song Yingxing (1587–c. 1666), the author, speaking of himself, as each chapter of his book begins.",
+      "zh": "宋子，作者宋应星（1587—约 1666）自称。《天工开物》每卷都以“宋子曰”开头。"
+    },
+    {
+      "at": "華達夷",
+      "occ": 1,
+      "at_hans": "华达夷",
+      "en": "From the Chinese heartland (華) out to the peoples beyond it (夷).",
+      "zh": "从中原传到四方各族。华，中原；夷，四方的民族。"
+    },
+    {
+      "at": "含生",
+      "occ": 1,
+      "en": "Those who have life: living people.",
+      "zh": "有生命的人，指众人。"
+    },
+    {
+      "at": "呫呫",
+      "occ": 1,
+      "en": "Chattering, talking on and on.",
+      "zh": "絮絮叨叨、说个不停的样子。"
+    },
+    {
+      "at": "氷釋",
+      "occ": 1,
+      "at_hans": "冰释",
+      "en": "氷 is an old form of 冰: doubts melting away like ice.",
+      "zh": "氷，同“冰”。疑惑像冰一样消融。"
+    },
+    {
+      "at": "楮先生",
+      "occ": 1,
+      "en": "Master Paper: a joking name from Han Yu's mock biography of the writing brush, whose friends include Mr Paper of Kuaiji.",
+      "zh": "纸的戏称，出自韩愈《毛颖传》，文中毛笔的朋友有“会稽楮先生”。"
+    },
+    {
+      "at": "殺其青",
+      "occ": 1,
+      "at_hans": "杀其青",
+      "en": "To 'kill the green': to strip off the green outer skin of the bamboo.",
+      "zh": "杀青，去掉竹子的青皮。"
+    },
+    {
+      "at": "擅名",
+      "occ": 1,
+      "en": "To take the credit alone. Tradition named Cai Lun of the Eastern Han the inventor of paper in 105; archaeology has since found paper older than that, as Song Yingxing suspected.",
+      "zh": "独占名声。旧说东汉蔡伦于 105 年造纸；后来考古发现了更早的纸，正合宋应星的怀疑。"
+    },
+    {
+      "at": "楮樹（一名榖樹）",
+      "occ": 1,
+      "at_hans": "楮树（一名榖树）",
+      "en": "The paper mulberry, Broussonetia papyrifera, whose inner bark makes strong paper.",
+      "zh": "构树，学名 Broussonetia papyrifera，树皮纤维可造坚韧的皮纸。"
+    },
+    {
+      "at": "桑穰",
+      "occ": 1,
+      "en": "The inner bark of the mulberry.",
+      "zh": "桑树的内皮。"
+    },
+    {
+      "at": "芙蓉膜",
+      "occ": 1,
+      "en": "The bark of the cotton rose, Hibiscus mutabilis.",
+      "zh": "木芙蓉的韧皮。"
+    },
+    {
+      "at": "柬啓",
+      "occ": 1,
+      "at_hans": "柬启",
+      "en": "Letters, invitations and visiting cards.",
+      "zh": "书信、请柬和名帖。"
+    },
+    {
+      "at": "火紙",
+      "occ": 1,
+      "at_hans": "火纸",
+      "en": "Coarse paper made to be burned as an offering at festivals and rites.",
+      "zh": "供祭祀焚烧用的粗纸。"
+    },
+    {
+      "at": "汗青",
+      "occ": 1,
+      "en": "'Sweating the green': fresh bamboo slips were heated so that they sweated out their sap before being written on; the word came to mean history itself.",
+      "zh": "古人把新竹简用火烤出水分（如出汗）再书写，叫汗青，后来借指史册。"
+    },
+    {
+      "at": "後人遂疑削竹片以紀事",
+      "occ": 1,
+      "at_hans": "后人遂疑削竹片以纪事",
+      "en": "Here Song Yingxing is mistaken. Books written on bamboo slips and bound with cords are well attested, and thousands of slips have since been excavated.",
+      "zh": "这里宋应星说错了。古代确实用竹简书写、以绳编连，后世已出土大量简牍。"
+    },
+    {
+      "at": "韋編",
+      "occ": 1,
+      "at_hans": "韦编",
+      "en": "The binding of a bamboo-slip book. Confucius is said to have read the Book of Changes so often that its bindings broke three times.",
+      "zh": "编连竹简的皮绳或绳子。相传孔子读《易》，“韦编三绝”。"
+    },
+    {
+      "at": "秦火",
+      "occ": 1,
+      "en": "The burning of the books ordered by the First Emperor of Qin in 213 BCE.",
+      "zh": "秦始皇于公元前 213 年焚书。"
+    },
+    {
+      "at": "貝樹",
+      "occ": 1,
+      "at_hans": "贝树",
+      "en": "The talipot or palmyra palm. Song is mistaken again: Indian sutras really were written on its dried and treated leaves.",
+      "zh": "贝多罗树，即棕榈类的贝叶棕。这里宋应星又说错了：印度佛经确实写在经过处理的贝叶上。"
+    },
+    {
+      "at": "閩省",
+      "occ": 1,
+      "at_hans": "闽省",
+      "en": "Fujian province.",
+      "zh": "福建省。"
+    },
+    {
+      "at": "芒種",
+      "occ": 1,
+      "at_hans": "芒种",
+      "en": "Grain in Ear, the solar term that begins in early June.",
+      "zh": "二十四节气之一，在公历六月初。"
+    },
+    {
+      "at": "楻桶",
+      "occ": 1,
+      "en": "A large wooden tub set over the boiling pan.",
+      "zh": "蒸煮用的大木桶。"
+    },
+    {
+      "at": "牢盆",
+      "occ": 1,
+      "en": "The great iron pans used for boiling sea water down to salt.",
+      "zh": "煮海水制盐用的大盆。"
+    },
+    {
+      "at": "十餘石",
+      "occ": 1,
+      "at_hans": "十余石",
+      "en": "A 石 (dan) was a measure of capacity of about a hundred litres.",
+      "zh": "石（dàn），容量单位，约合一百升。"
+    },
+    {
+      "at": "水碓",
+      "occ": 1,
+      "en": "A trip-hammer driven by a waterwheel, used for pounding grain and pulp.",
+      "zh": "利用水力带动的舂捣工具。"
+    },
+    {
+      "at": "紙藥",
+      "occ": 1,
+      "at_hans": "纸药",
+      "en": "'Paper medicine': a slippery plant juice that keeps the fibres floating evenly and stops wet sheets sticking together.",
+      "zh": "从植物中取得的黏液，能使纤维在水中均匀悬浮，湿纸叠放也不粘连。"
+    },
+    {
+      "at": "大四連",
+      "occ": 1,
+      "at_hans": "大四连",
+      "en": "Great Fourfold, a large-format paper.",
+      "zh": "一种大幅的纸。"
+    },
+    {
+      "at": "還魂紙",
+      "occ": 1,
+      "at_hans": "还魂纸",
+      "en": "'Paper of the returning soul': recycled paper.",
+      "zh": "用废纸再造的纸。"
+    }
+  ],
+  "pairs": [
+    "S-002041",
+    "S-006007"
+  ]
 }

@@ -60,5 +60,18 @@
     "en": "That copies of this Decree shall be cut upon slabs of basalt in the \"writing of the speech of the god,\" i.e. hieroglyphs, and in the writing of the books, i.e. demotic, and in the writing of the Ueienin, i.e. Greek.",
     "zh": "这份敕令的抄本要刻在玄武岩石板上，用“神的言语的文字”即圣书体，用“书本的文字”即世俗体，并用“伊奥尼亚人的文字”即希腊文。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Ueienin",
+      "occ": 1,
+      "en": "Budge's transcription of the Egyptian name for the Greeks; it means, literally, the Ionians.",
+      "zh": "巴奇对埃及语中希腊人称谓的转写，字面意思是“伊奥尼亚人”。"
+    }
+  ],
+  "pairs": [
+    "S-008021",
+    "S-008014",
+    "S-008006"
+  ]
 }

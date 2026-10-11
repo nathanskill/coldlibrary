@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Tao Yuanming's account of a fisherman who finds a hidden valley whose people have lived apart since the Qin, followed by the poem it was written to introduce. It gave Chinese its phrase for a good place beyond reach. Notice that no one can find the way back, and that the story closes on a quiet line: after that no one asked the way to the ford.",
@@ -60,5 +61,197 @@
     "en": "Where the grove ended, at the source of the stream, he found a hill, and in the hill a small opening from which there seemed to come a glimmer of light.",
     "zh": "林尽水源，便得一山，山有小口，仿佛若有光。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "太元",
+      "occ": 1,
+      "en": "The Taiyuan reign (376–396) of Emperor Xiaowu of the Eastern Jin.",
+      "zh": "东晋孝武帝的年号（376—396）。"
+    },
+    {
+      "at": "武陵",
+      "occ": 1,
+      "en": "Wuling commandery, around today's Changde in Hunan.",
+      "zh": "郡名，治所在今湖南常德一带。"
+    },
+    {
+      "at": "緣溪行",
+      "occ": 1,
+      "at_hans": "缘溪行",
+      "en": "緣 means along: he followed the stream.",
+      "zh": "缘，沿着。沿着溪水前行。"
+    },
+    {
+      "at": "落英繽紛",
+      "occ": 1,
+      "at_hans": "落英缤纷",
+      "en": "英 is a flower: fallen petals lay thick and bright.",
+      "zh": "英，花。落花繁多交杂。"
+    },
+    {
+      "at": "髣髴",
+      "occ": 1,
+      "at_hans": "仿佛",
+      "en": "An old spelling of 仿佛: dimly, as if.",
+      "zh": "同“仿佛”，隐隐约约，好像。"
+    },
+    {
+      "at": "儼然",
+      "occ": 1,
+      "at_hans": "俨然",
+      "en": "In neat, orderly rows.",
+      "zh": "整齐的样子。"
+    },
+    {
+      "at": "阡陌",
+      "occ": 1,
+      "en": "Paths between the fields, running north to south (阡) and east to west (陌).",
+      "zh": "田间小路，南北向为阡，东西向为陌。"
+    },
+    {
+      "at": "黃髮垂髫",
+      "occ": 1,
+      "at_hans": "黄发垂髫",
+      "en": "Yellowed hair and hanging tufts: the old and the very young.",
+      "zh": "黄发，老人头发由白转黄，指老人；垂髫，孩童垂下的短发，指孩子。"
+    },
+    {
+      "at": "便要還家",
+      "occ": 1,
+      "at_hans": "便要还家",
+      "en": "要 is read as 邀, to invite.",
+      "zh": "要，通“邀”，邀请。"
+    },
+    {
+      "at": "先世避秦時亂",
+      "occ": 1,
+      "at_hans": "先世避秦时乱",
+      "en": "Their ancestors fled the troubles of the Qin, which fell in 207 BCE, nearly six hundred years before the Taiyuan era.",
+      "zh": "祖先躲避秦朝时的战乱。秦亡于公元前 207 年，距太元年间将近六百年。"
+    },
+    {
+      "at": "絶境",
+      "occ": 1,
+      "at_hans": "绝境",
+      "en": "A place cut off from the world.",
+      "zh": "与世隔绝的地方。"
+    },
+    {
+      "at": "無論魏晉",
+      "occ": 1,
+      "at_hans": "无论魏晋",
+      "en": "Let alone the Wei (220–265) and the Jin, the dynasties that followed the Han.",
+      "zh": "更不必说魏（220—265）和晋了。无论，不要说。"
+    },
+    {
+      "at": "不足爲外人道也",
+      "occ": 1,
+      "at_hans": "不足为外人道也",
+      "en": "不足 is 'not worth', 道 is 'to tell': it is not worth telling to people outside.",
+      "zh": "不值得对外面的人说。不足，不值得；道，说。"
+    },
+    {
+      "at": "便扶向路",
+      "occ": 1,
+      "en": "扶 means along, 向 means earlier: he went back along the way he had come.",
+      "zh": "扶，沿着；向，先前的。沿着来时的路回去。"
+    },
+    {
+      "at": "誌之",
+      "occ": 1,
+      "at_hans": "志之",
+      "en": "To mark the way.",
+      "zh": "做记号。"
+    },
+    {
+      "at": "詣太守",
+      "occ": 1,
+      "at_hans": "诣太守",
+      "en": "詣 is to call on a superior; the 太守 was the governor of the commandery.",
+      "zh": "诣，拜见；太守，郡的长官。"
+    },
+    {
+      "at": "劉子驥",
+      "occ": 1,
+      "at_hans": "刘子骥",
+      "en": "Liu Linzhi, courtesy name Ziji, a recluse of the Jin. The Jin history says he once went deep into the mountains gathering herbs, found a strange place, and could never find it again.",
+      "zh": "刘驎之，字子骥，东晋隐士。《晋书》说他曾入山采药，见到奇异之处，后来再去寻找，已不知所在。"
+    },
+    {
+      "at": "問津",
+      "occ": 1,
+      "at_hans": "问津",
+      "en": "To ask the way to the ford. The phrase comes from the Analects, where Confucius sends a disciple to ask two recluses the way.",
+      "zh": "津，渡口。问津，打听渡口，语出《论语·微子》孔子使子路问津于隐者。后泛指探问、寻访。"
+    },
+    {
+      "at": "嬴氏",
+      "occ": 1,
+      "en": "The house of Ying, the ruling family of the Qin.",
+      "zh": "秦王族姓嬴，指秦朝统治者。"
+    },
+    {
+      "at": "黃綺之商山",
+      "occ": 1,
+      "at_hans": "黄绮之商山",
+      "en": "Xia Huanggong and Qi Liji, two of the Four Greybeards who hid from the Qin on Mount Shang.",
+      "zh": "夏黄公和绮里季，是避秦隐居商山的“商山四皓”中的两位。"
+    },
+    {
+      "at": "伊人",
+      "occ": 1,
+      "en": "These people: the villagers' ancestors.",
+      "zh": "这些人，指桃花源中人的祖先。"
+    },
+    {
+      "at": "靡王稅",
+      "occ": 1,
+      "at_hans": "靡王税",
+      "en": "靡 means none: no tax was paid to any king.",
+      "zh": "靡，没有。不用向君王缴税。"
+    },
+    {
+      "at": "俎豆",
+      "occ": 1,
+      "en": "Ritual vessels for offerings of meat and grain; here, the rites themselves.",
+      "zh": "祭祀时盛放祭品的礼器，借指祭祀礼仪。"
+    },
+    {
+      "at": "紀曆誌",
+      "occ": 1,
+      "at_hans": "纪历志",
+      "en": "Calendars and almanacs that record the days.",
+      "zh": "记载岁时节令的历书。"
+    },
+    {
+      "at": "奇蹤隱五百",
+      "occ": 1,
+      "at_hans": "奇踪隐五百",
+      "en": "Hidden for five hundred years: a round number for the centuries since the Qin.",
+      "zh": "隐藏了五百年，是从秦到晋的约数。"
+    },
+    {
+      "at": "淳薄既異源",
+      "occ": 1,
+      "at_hans": "淳薄既异源",
+      "en": "淳 is the plain goodness of the village, 薄 the shallowness of the world outside; they spring from different sources.",
+      "zh": "淳，指桃花源的淳朴；薄，指世俗的浮薄。二者本源不同。"
+    },
+    {
+      "at": "游方士",
+      "occ": 1,
+      "en": "Those who wander within the bounds of the world, a phrase from the Zhuangzi.",
+      "zh": "在世俗之内奔走的人，语本《庄子》“游方之内”。"
+    },
+    {
+      "at": "吾契",
+      "occ": 1,
+      "en": "Those who share my mind; kindred spirits.",
+      "zh": "与我志趣相投的人。契，投合。"
+    }
+  ],
+  "pairs": [
+    "S-002025"
+  ]
 }

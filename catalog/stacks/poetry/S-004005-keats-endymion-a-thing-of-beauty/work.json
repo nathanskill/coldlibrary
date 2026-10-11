@@ -60,5 +60,9 @@
     "en": "A thing of beauty is a joy for ever:\nIts loveliness increases; it will never\nPass into nothingness;",
     "zh": "美的事物是永恒的喜悦：\n它的可爱与日俱增；它永远不会\n消逝成虚无；"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004007",
+    "S-004006"
+  ]
 }

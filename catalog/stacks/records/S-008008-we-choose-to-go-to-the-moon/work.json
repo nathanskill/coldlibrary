@@ -60,5 +60,10 @@
     "en": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard",
     "zh": "我们选择在这个十年里登上月球，并去做其他的事；不是因为它们容易，而是因为它们艰难"
   },
-  "plate": "G-008001"
+  "plate": "G-008001",
+  "pairs": [
+    "S-008001",
+    "S-008003",
+    "S-008005"
+  ]
 }

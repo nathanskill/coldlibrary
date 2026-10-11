@@ -59,5 +59,9 @@
     "en": "Her message is committed\nTo hands I cannot see;",
     "zh": "她的讯息已经托付\n给我看不见的手；"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004016",
+    "S-008020"
+  ]
 }

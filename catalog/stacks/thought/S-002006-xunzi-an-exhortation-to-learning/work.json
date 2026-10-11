@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "The first chapter of the Xunzi, a long argument that people are made by what they learn, as wood is made straight by the carpenter's line. It is shelved complete. Notice the earthworm, with no claws and no strong bones, that still reaches the deep springs because its mind is on one thing.",
@@ -59,5 +60,185 @@
     "en": "Without piling up single steps, there is no way to reach a thousand miles. Without piling up little streams, there is no way to make a river or a sea.",
     "zh": "不积跬步，无以至千里；不积小流，无以成江海。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002007",
+    "S-002005",
+    "S-002021"
+  ],
+  "gloss": [
+    {
+      "at": "靑，取之於藍而靑於藍",
+      "at_hans": "青，取之于蓝而青于蓝",
+      "en": "藍: the indigo plant, from which blue dye is drawn. The line gave the idiom 青出於藍: the pupil who surpasses the teacher.",
+      "zh": "蓝：蓼蓝，可提炼靛青。后成成语“青出于蓝”，比喻学生胜过老师。"
+    },
+    {
+      "at": "輮以爲輪",
+      "at_hans": "𫐓以为轮",
+      "en": "輮 is read as 煣: to bend wood over fire or steam.",
+      "zh": "𫐓：通“煣”，用火烤使木材弯曲。"
+    },
+    {
+      "at": "金就礪則利",
+      "at_hans": "金就砺则利",
+      "en": "礪: a whetstone.",
+      "zh": "砺：磨刀石。"
+    },
+    {
+      "at": "日參省乎己",
+      "at_hans": "日参省乎己",
+      "en": "參: some read it as 三, several times a day; others as 驗, to examine.",
+      "zh": "参：一说通“叁”，多次；一说检验。"
+    },
+    {
+      "at": "于、越、夷、貉",
+      "en": "于 is read as 干 (Gan), a small state later absorbed by Wu. Yue lay to the southeast, the Yi to the east, the Mo to the north.",
+      "zh": "于：通“干”，古国名，后为吴所灭。越在东南，夷在东方，貉在北方。"
+    },
+    {
+      "at": "嗟爾君子",
+      "at_hans": "嗟尔君子",
+      "en": "From the Book of Songs (Lesser Odes, 'Xiao Ming'). 靖共: quietly diligent. 介: to grant. 景福: great blessing.",
+      "zh": "出自《诗经·小雅·小明》。靖共：恭谨。介：给予。景福：大福。"
+    },
+    {
+      "at": "吾嘗跂而望矣",
+      "at_hans": "吾尝跂而望矣",
+      "en": "跂: to stand on tiptoe.",
+      "zh": "跂：踮起脚跟。"
+    },
+    {
+      "at": "蒙鳩",
+      "at_hans": "蒙鸠",
+      "en": "The meng dove: usually taken to be the wren or tailorbird, known for its hanging woven nest.",
+      "zh": "蒙鸠：一说即鹪鹩，善于编织悬挂的鸟巢。"
+    },
+    {
+      "at": "葦苕",
+      "at_hans": "苇苕",
+      "en": "The flowering tassel of a reed.",
+      "zh": "苇苕：芦苇的花穗。"
+    },
+    {
+      "at": "射干",
+      "en": "Shegan (射 is read ye): the blackberry lily, a hillside plant, which Xunzi calls a tree.",
+      "zh": "射（yè）干：一种草本植物，生于山地；荀子称之为“木”。"
+    },
+    {
+      "at": "百仞之淵",
+      "at_hans": "百仞之渊",
+      "en": "仞: an old measure of seven or eight Chinese feet.",
+      "zh": "仞：古代长度单位，七尺或八尺为一仞。"
+    },
+    {
+      "at": "蘭槐之根是爲芷",
+      "at_hans": "兰槐之根是为芷",
+      "en": "蘭槐: a fragrant herb; its root is 芷, angelica, carried in scent pouches.",
+      "zh": "兰槐：一种香草，它的根叫白芷，可做香料佩戴。"
+    },
+    {
+      "at": "其漸之滫",
+      "at_hans": "其渐之滫",
+      "en": "漸: to steep. 滫: foul water, slops.",
+      "zh": "渐：浸泡。滫：臭水、泔水。"
+    },
+    {
+      "at": "强自取柱",
+      "en": "Some read 柱 as 祝, to break: what is too hard brings about its own breaking.",
+      "zh": "柱：一说通“祝”，折断；意谓过于坚硬反而自取折断。"
+    },
+    {
+      "at": "醯酸而蜹聚焉",
+      "en": "醯: vinegar. 蜹: a gnat.",
+      "zh": "醯：醋。蜹：蚊类小虫。"
+    },
+    {
+      "at": "不積跬步",
+      "at_hans": "不积跬步",
+      "en": "跬: half a pace. One lift of a foot was a 跬, two made a 步.",
+      "zh": "跬：半步。古人以抬一次脚为跬，两次为步。"
+    },
+    {
+      "at": "騏驥一躍",
+      "at_hans": "骐骥一跃",
+      "en": "騏驥: a fine horse. 駑馬: a worn-out nag. 駕: a day's journey in harness.",
+      "zh": "骐骥：骏马。驽马：劣马。驾：马拉车走一天的路程。"
+    },
+    {
+      "at": "鍥而舍之",
+      "at_hans": "锲而舍之",
+      "en": "鍥: to carve, to cut. 鏤 below: to engrave.",
+      "zh": "锲：刻。下文“镂”：雕刻。"
+    },
+    {
+      "at": "蟹六跪而二螯",
+      "en": "跪: a crab's leg. A crab in fact has eight, and some texts read 八跪. 螯: the pincers.",
+      "zh": "跪：蟹腿。螃蟹实有八条腿，一本作“八跪”。螯：蟹钳。"
+    },
+    {
+      "at": "無冥冥之志者",
+      "at_hans": "无冥冥之志者",
+      "en": "冥冥 and 惛惛 (in the next clause): deep, silent, wholly absorbed.",
+      "zh": "冥冥、惛惛（下句）：都指专心致志、深沉不露的样子。"
+    },
+    {
+      "at": "梧鼠五技而窮",
+      "at_hans": "梧鼠五技而穷",
+      "en": "梧鼠, read as 鼫鼠, was said to have five skills and master none: it could fly but not over a roof, climb but not to the treetop, swim but not across a gully, dig but not hide itself, run but not outrun a man.",
+      "zh": "梧鼠：即鼫鼠。相传它有五种本领：能飞不能过屋，能爬不能到树顶，能游不能渡山谷，能挖洞不能藏身，能跑不能跑在人前。"
+    },
+    {
+      "at": "尸鳩在桑",
+      "at_hans": "尸鸠在桑",
+      "en": "From the Book of Songs (Odes of Cao, 'Shi Jiu'). The cuckoo was said to feed its seven young evenly, from the top down in the morning and from the bottom up at evening.",
+      "zh": "出自《诗经·曹风·鸤鸠》。相传布谷鸟喂养七只雏鸟，早上从上往下喂，晚上从下往上喂，平均如一。"
+    },
+    {
+      "at": "瓠巴鼓瑟",
+      "en": "Hu Ba: a zither player of legend, whose music made fish leap and birds dance.",
+      "zh": "瓠巴：传说中善于弹瑟的人，据说他奏乐时鸟舞鱼跃。"
+    },
+    {
+      "at": "伯牙鼓琴而六馬仰秣",
+      "at_hans": "伯牙鼓琴而六马仰秣",
+      "en": "Bo Ya: the great qin player whose friend Zhong Ziqi alone understood his music. 秣: fodder.",
+      "zh": "伯牙：古代善弹琴的人，与钟子期为知音。秣：草料。"
+    },
+    {
+      "at": "端而言，蝡而動",
+      "at_hans": "端而言，蝡而动",
+      "en": "端 is read as 喘, a breath: the slightest word. 蝡: to wriggle: the smallest movement.",
+      "zh": "端：通“喘”，指微言。蝡：微动。"
+    },
+    {
+      "at": "以爲禽犢",
+      "at_hans": "以为禽犊",
+      "en": "Birds and calves were customary gifts: learning made into a present to win favour.",
+      "zh": "禽犊：禽鸟和小牛，古人用作馈赠的礼物；比喻把学问当作取悦他人的礼品。"
+    },
+    {
+      "at": "若挈裘領，詘五指而頓之",
+      "at_hans": "若挈裘领，诎五指而顿之",
+      "en": "挈: to lift. 詘 is read as 屈, to bend. 頓: to give a shake.",
+      "zh": "挈：提起。诎：通“屈”，弯曲。顿：抖动。"
+    },
+    {
+      "at": "以錐飡壺也",
+      "at_hans": "以锥餐壶也",
+      "en": "飡 is the same as 餐: to eat out of a pot with an awl.",
+      "zh": "飡：同“餐”。用锥子到壶里取食。"
+    },
+    {
+      "at": "匪交匪舒",
+      "en": "From the Book of Songs (Lesser Odes, 'Cai Shu'). 交 is read as 絞, impatient; 舒, slack.",
+      "zh": "出自《诗经·小雅·采菽》。交：通“绞”，急躁。舒：怠慢。"
+    },
+    {
+      "at": "地見其光",
+      "at_hans": "地见其光",
+      "en": "光 is read as 廣: broad.",
+      "zh": "光：通“广”，广大。"
+    }
+  ]
 }

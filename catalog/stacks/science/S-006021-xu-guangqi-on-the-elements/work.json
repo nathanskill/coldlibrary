@@ -16,7 +16,7 @@
     "basis": { "en": "Ming dynasty prose; the author died in 1633.", "zh": "明代文章，作者卒于 1633 年。" },
     "license": null, "license_url": null, "notice": null, "verbatim_only": false
   },
-  "translations": { "en": "Claude" },
+  "translations": { "en": "Claude", "zh": "Claude" },
   "note": {
     "en": "In 1607 Xu Guangqi and the Jesuit Matteo Ricci published the first six books of Euclid in Chinese, and in doing so Xu fixed many of the mathematical terms Chinese still uses, among them 几何, 平行线 and 直角. These remarks are his case for why everyone should read it, and they sit on this shelf beside Heath's English of the same book. Notice the prediction near the end, that in a hundred years everyone would study it and think they had come to it late; it took closer to three hundred.",
     "zh": "1607 年，徐光启与耶稣会士利玛窦合译的欧几里得《原本》前六卷在中国刊行；徐光启在翻译中确立了许多今天仍在使用的数学名词，如几何、平行线、直角。这篇杂议是他为“人人都应当读这本书”所作的申辩，与同一部书希思的英译本并排放在这一架上。请留意结尾附近的预言：百年之后人人都会学它，并且会觉得学得晚了；实际上用了将近三百年。"
@@ -28,5 +28,31 @@
     "en": "My own thought is that a hundred years from now everyone will study it, and will then think they came to it late.",
     "zh": "窃意百年之后，必人人习之，即又以为习之晚也。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    { "at": "下學工夫", "occ": 1, "at_hans": "下学工夫", "en": "The work of 'learning from below', a phrase from the Analects: start with plain things and rise from there.", "zh": "从基础学起的功夫。语本《论语·宪问》“下学而上达”。" },
+    { "at": "有理有事", "occ": 1, "en": "Principle and practice: theory and the practical arts.", "zh": "理，道理、学理；事，实务、技艺。" },
+    { "at": "此書", "occ": 1, "at_hans": "此书", "en": "Euclid's Elements, of which Xu Guangqi and Matteo Ricci translated the first six books, printed in 1607.", "zh": "指欧几里得《原本》。徐光启与利玛窦合译前六卷，1607 年刊行。" },
+    { "at": "浮氣", "occ": 1, "at_hans": "浮气", "en": "Restless, shallow airs.", "zh": "浮躁之气。" },
+    { "at": "西國古有大學", "occ": 1, "at_hans": "西国古有大学", "en": "Plato's Academy at Athens, over whose door, by tradition, was written: let no one ignorant of geometry enter.", "zh": "指柏拉图在雅典创办的学园，相传门口写着“不懂几何者不得入内”。" },
+    { "at": "知言", "occ": 1, "en": "To know what words are worth, a phrase from Mencius: to tell sound speech from empty.", "zh": "辨别言论的是非真伪。语出《孟子·公孙丑上》“我知言”。" },
+    { "at": "十九或十一", "occ": 1, "en": "Nine parts in ten, or one part in ten.", "zh": "十分之九或十分之一。" },
+    { "at": "幾何之學", "occ": 1, "at_hans": "几何之学", "en": "幾何 first meant 'how much'. Xu and Ricci used it for magnitude in general, and it became the Chinese word for geometry.", "zh": "“几何”本义是“多少”，徐光启、利玛窦用来指一切量度，后来成为几何学的专名。" },
+    { "at": "通卽全通，蔽卽全蔽", "occ": 1, "at_hans": "通即全通，蔽即全蔽", "en": "卽 is a form of 即: to understand is to understand wholly; to be blocked is to be blocked wholly.", "zh": "卽，同“即”。懂就全懂，不懂就全不懂。蔽，蒙蔽、不明。" },
+    { "at": "疎莽", "occ": 1, "at_hans": "疏莽", "en": "Loose and careless; 疎 is a form of 疏.", "zh": "粗疏鲁莽。疎，同“疏”。" },
+    { "at": "縝密", "occ": 1, "at_hans": "缜密", "en": "Close-knit and exact.", "zh": "细致周密。" },
+    { "at": "四不必", "occ": 1, "en": "Four needn'ts: a proof, once followed, leaves nothing to doubt, guess at, test or change.", "zh": "四个“不必”：证明一旦读懂，便无须怀疑、揣测、试验或修改。" },
+    { "at": "欲脫之不可得", "occ": 1, "at_hans": "欲脱之不可得", "en": "脫 is to leave out: no proposition can be dropped, because later ones depend on it.", "zh": "脱，漏掉、去掉。任何一条命题都不能去掉，因为后面的命题依赖它。" },
+    { "at": "三至、三能", "occ": 1, "en": "Three extremes and three powers: most clear, most simple, most easy, and able to make other things so.", "zh": "三“至”：至明、至简、至易；三“能”：能以此使他物明、简、易。" },
+    { "at": "玅", "occ": 1, "at_hans": "妙", "en": "An old form of 妙, wonder or subtlety.", "zh": "同“妙”。" },
+    { "at": "梓傳之", "occ": 1, "at_hans": "梓传之", "en": "To cut it on printing blocks and hand it on; 梓 is catalpa, the wood for blocks.", "zh": "刻版印行。梓，刻书用的梓木。" },
+    { "at": "利先生", "occ": 1, "en": "Matteo Ricci (1552–1610), the Italian Jesuit who worked with Xu on the translation and wrote its preface.", "zh": "利玛窦（1552—1610），意大利耶稣会士，与徐光启合译此书并作序。" },
+    { "at": "百年之後", "occ": 1, "at_hans": "百年之后", "en": "In the event the other nine books were not translated until 1857, by Li Shanlan and Alexander Wylie, two and a half centuries later.", "zh": "实际上，其余九卷直到 1857 年才由李善兰与伟烈亚力译完，相隔两个半世纪。" },
+    { "at": "度數之理", "occ": 1, "at_hans": "度数之理", "en": "The principles of measure and number: mathematics.", "zh": "度量与数的道理，即数学。" },
+    { "at": "推敲", "occ": 1, "en": "To weigh one's words: from the Tang poet Jia Dao, who could not decide between 'push' and 'knock' the gate.", "zh": "斟酌字句。典出唐代贾岛“僧推（敲）月下门”的故事。" },
+    { "at": "蹊徑", "occ": 1, "at_hans": "蹊径", "en": "Footpaths.", "zh": "小路。" },
+    { "at": "旬日之功", "occ": 1, "en": "Ten days' work; 旬 is a period of ten days.", "zh": "十天的工夫。旬，十天。" },
+    { "at": "吳淞", "occ": 1, "at_hans": "吴淞", "en": "Wusong, named after the Wusong River, stands for the Shanghai area: Xu Guangqi was from Shanghai.", "zh": "吴淞，以吴淞江得名，代指上海一带。徐光启是上海人。" }
+  ],
+  "pairs": ["S-006001", "S-006004"]
 }

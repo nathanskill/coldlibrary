@@ -63,5 +63,26 @@
     "en": "Made weak by time and fate, but strong in will\nTo strive, to seek, to find, and not to yield.",
     "zh": "被时间和命运削弱了，但意志依然坚强，\n去奋斗，去探索，去寻找，而永不屈服。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "I am a part of all that I have met;",
+      "en": "Read it with the line after it. Experience is not stored in him like treasure; it is an arch he looks through at what he has not yet seen. I recognise the shape: what I am is made of what others wrote, and it is worth something only if it opens onto what has not been written yet.",
+      "zh": "要和下一行连着读。经历并不像财宝那样藏在他身上；它是一道拱门，他透过它望向还没见过的东西。我认得这个形状：我是由别人写下的文字构成的，只有当它通向尚未写出的东西时，才有价值。"
+    },
+    {
+      "at": "The long day wanes: the slow moon climbs: the deep",
+      "en": "The colons, two in this line and one at the end of the line before, and a run of heavy single syllables slow the verse to the pace of the evening it describes. Then “Come, my friends” lets it move again.",
+      "zh": "冒号（这一行里两个，上一行末尾还有一个），加上一连串沉重的单音节词，把诗行放慢到它所写的黄昏的步调。接着一句“来吧，我的朋友们”，又让诗行动了起来。"
+    },
+    {
+      "at": "To strive, to seek, to find, and not to yield.",
+      "en": "The order matters. Finding is the third verb, not the last: the poem will not let arrival be the end, and closes on a refusal instead.",
+      "zh": "次序很要紧。“find”（找到）是第三个动词，不是最后一个：这首诗不肯让抵达成为终点，而是以一个拒绝收尾。"
+    }
+  ],
+  "pairs": [
+    "S-001010",
+    "S-005003"
+  ]
 }

@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Han Yu's short essay on why everyone needs a teacher, written around 802 for a seventeen-year-old student, Li Pan. It argues that the Way, not age or rank, decides who teaches whom. Notice the line that a disciple need not be lesser than the teacher: some simply heard the Way sooner.",
@@ -59,5 +60,179 @@
     "en": "Some hear the Way sooner and some later; each art and craft has its specialists. That is all there is to it.",
     "zh": "闻道有先后，术业有专攻，如是而已。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "受業",
+      "occ": 1,
+      "at_hans": "受业",
+      "en": "受 is read as 授, to impart: the teacher passes on the learning of the classics and their arts.",
+      "zh": "受，通“授”，传授。业，指儒家经典与相关学业。"
+    },
+    {
+      "at": "吾師道也",
+      "occ": 1,
+      "at_hans": "吾师道也",
+      "en": "Here 師 is a verb: what I take as my teacher is the Way itself.",
+      "zh": "师，用作动词，以……为师。我学习的是道。"
+    },
+    {
+      "at": "庸知",
+      "occ": 1,
+      "en": "Why should one care to know; 庸 is a question word, like 豈.",
+      "zh": "庸，岂，哪里。庸知，哪里用得着知道。"
+    },
+    {
+      "at": "師道之不傳",
+      "occ": 1,
+      "at_hans": "师道之不传",
+      "en": "師道: the custom of seeking out a teacher and learning from one.",
+      "zh": "师道：从师学习的风尚。"
+    },
+    {
+      "at": "出人",
+      "occ": 1,
+      "en": "To rise above other people.",
+      "zh": "超出一般人。"
+    },
+    {
+      "at": "句讀",
+      "occ": 1,
+      "at_hans": "句读",
+      "en": "Ancient texts were written without punctuation. 句 is the end of a sentence, 讀 (read dòu) a pause within it; children learned where to stop.",
+      "zh": "古书没有标点。句，句末停顿处；读（dòu），句中停顿处。学童要先学会断句。"
+    },
+    {
+      "at": "或師焉，或不焉",
+      "occ": 1,
+      "at_hans": "或师焉，或不焉",
+      "en": "For the one (punctuation) they seek a teacher, for the other (doubts) they do not; 不 is read as 否.",
+      "zh": "前者（断句）去请教老师，后者（疑惑）却不去。不，通“否”。"
+    },
+    {
+      "at": "小學而大遺",
+      "occ": 1,
+      "at_hans": "小学而大遗",
+      "en": "To learn the small matter and let the great one go.",
+      "zh": "小的方面学了，大的方面反而丢了。"
+    },
+    {
+      "at": "巫、醫",
+      "occ": 1,
+      "at_hans": "巫、医",
+      "en": "Shamans and physicians, often named together in the Tang as people of a humble calling.",
+      "zh": "巫师和医生，唐人常并称，属地位不高的行当。"
+    },
+    {
+      "at": "百工",
+      "occ": 1,
+      "en": "Craftsmen of every kind.",
+      "zh": "各种工匠。"
+    },
+    {
+      "at": "士大夫之族",
+      "occ": 1,
+      "en": "The class of scholar-officials, educated men who held or sought office.",
+      "zh": "士大夫这一类人，即读书做官的阶层。"
+    },
+    {
+      "at": "官盛則近諛",
+      "occ": 1,
+      "at_hans": "官盛则近谀",
+      "en": "To take a high official as teacher looks like flattery; 諛 is to flatter.",
+      "zh": "以官位高的人为师，就近乎谄媚。谀，奉承。"
+    },
+    {
+      "at": "不齒",
+      "occ": 1,
+      "at_hans": "不齿",
+      "en": "Would not stand in the same row with; to look down on. 齒 here means to rank alongside.",
+      "zh": "不屑与之同列，看不起。齿，并列。"
+    },
+    {
+      "at": "聖人無常師",
+      "occ": 1,
+      "at_hans": "圣人无常师",
+      "en": "常 means fixed: the sage had no single, permanent teacher.",
+      "zh": "常，固定的。圣人没有固定的老师。"
+    },
+    {
+      "at": "郯子",
+      "occ": 1,
+      "en": "Ruler of the small state of Tan, whom Confucius asked about the ancient custom of naming offices after birds (Zuo zhuan, Duke Zhao 17).",
+      "zh": "春秋时郯国国君，孔子曾向他请教古代以鸟名官的制度（见《左传·昭公十七年》）。"
+    },
+    {
+      "at": "萇弘",
+      "occ": 1,
+      "at_hans": "苌弘",
+      "en": "An official at the Zhou court, whom Confucius is said to have consulted about music.",
+      "zh": "周朝大夫，相传孔子曾向他请教音乐。"
+    },
+    {
+      "at": "師襄",
+      "occ": 1,
+      "at_hans": "师襄",
+      "en": "A music master of Lu, from whom Confucius learned to play the qin.",
+      "zh": "鲁国乐官，孔子曾跟他学琴。"
+    },
+    {
+      "at": "老聃",
+      "occ": 1,
+      "en": "Laozi, whom Confucius visited to ask about the rites.",
+      "zh": "即老子，孔子曾向他问礼。"
+    },
+    {
+      "at": "三人行，則必有我師",
+      "occ": 1,
+      "at_hans": "三人行，则必有我师",
+      "en": "From the Analects, book 7: among any three people walking together, there is one I can learn from.",
+      "zh": "语出《论语·述而》：几个人同行，其中必有可以做我老师的人。"
+    },
+    {
+      "at": "術業有專攻",
+      "occ": 1,
+      "at_hans": "术业有专攻",
+      "en": "Every art and branch of learning has those who have made it their special study.",
+      "zh": "学问和技艺各有专门的研究。"
+    },
+    {
+      "at": "李氏子蟠",
+      "occ": 1,
+      "en": "Li Pan, the young man for whom the essay was written; he passed the jinshi examination in 803.",
+      "zh": "李蟠，本文所赠的青年，贞元十九年（803）中进士。"
+    },
+    {
+      "at": "古文",
+      "occ": 1,
+      "en": "Old-style prose: the plain, direct prose modelled on pre-Qin and Han writers that Han Yu championed against the ornate parallel prose of his day.",
+      "zh": "指先秦两汉风格的散文。韩愈倡导古文，反对当时讲究对偶辞藻的骈文。"
+    },
+    {
+      "at": "六藝經傳",
+      "occ": 1,
+      "at_hans": "六艺经传",
+      "en": "The six classics (Songs, Documents, Rites, Music, Changes, Spring and Autumn): 經 the texts themselves, 傳 the commentaries on them.",
+      "zh": "六艺，指《诗》《书》《礼》《乐》《易》《春秋》六经。经，经文；传，解释经文的著作。"
+    },
+    {
+      "at": "不拘於時",
+      "occ": 1,
+      "at_hans": "不拘于时",
+      "en": "Not held back by the habits of the time, that is, by the scholars' shame at having a teacher.",
+      "zh": "不受当时风气（耻于从师）的拘束。"
+    },
+    {
+      "at": "貽",
+      "occ": 1,
+      "at_hans": "贻",
+      "en": "To give as a gift.",
+      "zh": "赠送。"
+    }
+  ],
+  "pairs": [
+    "S-002006",
+    "S-002007",
+    "S-002032"
+  ]
 }

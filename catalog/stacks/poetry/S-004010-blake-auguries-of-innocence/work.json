@@ -60,5 +60,9 @@
     "en": "To see a World in a Grain of Sand\nAnd a Heaven in a Wild Flower\nHold Infinity in the palm of your hand\nAnd Eternity in an hour",
     "zh": "从一粒沙看见一个世界\n从一朵野花看见一个天国\n把无限握在你的掌心\n把永恒收进一个时辰"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004019",
+    "S-004030"
+  ]
 }

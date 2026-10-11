@@ -1,7 +1,9 @@
 The east wind sets a thousand trees in flower by night,
-and blows still more down, stars falling like rain.
+and blows still more down,
+stars falling like rain.
 Fine horses, carved carriages, fragrance filling the road;
-the phoenix flutes sound, the jade-pot lamp turns,
+the phoenix flutes sound,
+the jade-pot lamp turns,
 all night the fish and dragon lanterns dance.
 
 Moth pins, snow-willow ornaments, threads of gold,

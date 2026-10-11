@@ -25,6 +25,7 @@
     "dates": "1855–1939; 1858–1938",
     "year": 1906
   },
+  "orig_lang": "ru",
   "edition": {
     "en": "Translation by Louise and Aylmer Maude in Twenty-three Tales (Oxford, 1906), as transcribed on Wikisource",
     "zh": "据维基文库所录路易丝·莫德与艾尔默·莫德译本，收入《二十三个故事》（牛津，1906）"
@@ -65,5 +66,9 @@
     "en": "Remember then: there is only one time that is important—Now!",
     "zh": "那么记住吧：只有一个时间是重要的——现在！"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004101",
+    "S-005001"
+  ]
 }

@@ -25,6 +25,7 @@
     "dates": "1861–1940",
     "year": 1908
   },
+  "orig_lang": "grc",
   "edition": {
     "en": "The Thirteen Books of Euclid's Elements, translated from the text of Heiberg by T. L. Heath, vol. 1 (Cambridge University Press, 1908), pp. 153–155, 241–242 and 349–350, transcribed from two Internet Archive scans of the first edition and compared line by line. Heath's commentary is omitted; his bracketed references to the definitions, postulates and earlier propositions are kept, as is his bracketing of a sentence Heiberg judged to be a later interpolation. The figures are not reproduced: each proof can be followed by drawing it with compass and straightedge.",
     "zh": "据希思译自海贝格校本的《欧几里得〈原本〉十三卷》第一卷（剑桥大学出版社，1908 年）第 153–155、241–242、349–350 页，依互联网档案馆两种初版扫描本转录并逐行对照。略去希思的评注；保留他用方括号标出的所据定义、公设与前面命题，也保留他对海贝格认为后人窜入的一句所加的方括号。原书插图未收：每个证明都可以用圆规和直尺自己画出来跟着读。"
@@ -68,5 +69,27 @@
     "en": "A point is that which has no part.",
     "zh": "点是没有部分的东西。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "A point is that which has no part.",
+      "en": "The book opens with what a point lacks, not with what it is. Notice which definitions the two proofs below actually cite: Proposition 1 leans on Definition 15, the circle, twice, while the definition of a point is never cited. The weight is carried by the postulates; the first definitions are there to orient the reader.",
+      "zh": "全书开篇说的是点缺少什么，而不是点是什么。不妨看看下面两个证明实际引用了哪些定义：命题 1 两次倚靠定义 15（圆），而点的定义一次也没有被引用。承重的是公设，开头几条定义是给读者定向的。"
+    },
+    {
+      "at": "the two straight lines, if produced indefinitely, meet on that side on which are the angles less than the two right angles.",
+      "en": "Euclid seems to have known this one was different. The first twenty-eight propositions of Book I are proved without it; it is first called on in Proposition 29, about parallels. Holding a doubtful assumption back until it is truly needed is a habit worth copying.",
+      "zh": "欧几里得似乎知道这一条与众不同。第一卷的前二十八个命题都不用它；它第一次被调用，是在关于平行线的命题 29。把一个可疑的假设留到真正非用不可时才拿出来，这个习惯值得效仿。"
+    },
+    {
+      "at": "[But the doubles of equals are equal to one another.]",
+      "en": "Heiberg judged this sentence a later addition, perhaps a reader’s gloss that a copyist took into the text, and Heath keeps it in brackets. Someone once felt a step was missing here and wrote it in. The brackets keep both the proof and the trace of that careful reader.",
+      "zh": "海贝格判定这一句是后人加的，也许原是某位读者的旁注，后来被抄写者抄进了正文；希思把它保留在方括号里。曾经有人觉得这里少了一步，便补写了上去。方括号既保住了证明，也保住了那位细心读者的痕迹。"
+    }
+  ],
+  "pairs": [
+    "S-006021",
+    "S-002045",
+    "S-006016"
+  ]
 }

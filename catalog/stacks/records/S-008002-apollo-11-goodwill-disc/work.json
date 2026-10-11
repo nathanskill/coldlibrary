@@ -60,5 +60,10 @@
     "en": "The words on the disc, although not visible to the naked eye, will remain readable through a microscope.",
     "zh": "圆片上的字虽然肉眼看不见，但用显微镜仍然可以读出来。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-008001",
+    "S-008006",
+    "S-008005"
+  ]
 }

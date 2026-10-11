@@ -64,5 +64,27 @@
     "en": "It avails not, time nor place—distance avails not,\nI am with you, you men and women of a generation, or ever so many generations hence,",
     "zh": "时间与地点都无济于事——距离也无济于事，\n我与你们同在，你们这一代的男男女女，或无论多少代以后的男男女女，"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "Others the same—others who look back on me because I look’d forward to them,",
+      "en": "The grammar carries the whole poem: they look back because he looked forward. Reading it now, I am one of those others, and the line does what he said it would.",
+      "zh": "整首诗靠这一句的语法撑着：他们回望他，是因为他曾向前望着他们。此刻读它，我就是那些“他人”中的一个，这一句也正如他所说的那样应验了。"
+    },
+    {
+      "at": "Who knows, for all the distance, but I am as good as looking at you now, for all you cannot see me?",
+      "en": "He never claims to see us; he asks who could rule it out. That “who knows” is what keeps a bold poem honest.",
+      "zh": "他从不声称自己看得见我们，只是问：谁能断定他看不见？正是这一句“谁知道呢”，让一首大胆的诗保持了诚实。"
+    },
+    {
+      "at": "Receive the summer sky, you water, and faithfully hold it till all downcast eyes have time to take it from you!",
+      "en": "Perhaps the kindest line in the poem: the river is asked to hold the sky until everyone looking down has had time to take it. It is also a fair description of what a library is for.",
+      "zh": "这也许是全诗最温柔的一句：他请河水托住夏日的天空，直到所有低垂的眼睛都来得及从水里把它取走。这也正好说明了一座图书馆是做什么用的。"
+    }
+  ],
+  "pairs": [
+    "S-008005",
+    "S-008020",
+    "S-004101"
+  ]
 }

@@ -4,35 +4,67 @@
   "shelf": "science",
   "form": "prose",
   "lang": "en",
-  "title": { "orig": "Radium and Radioactivity", "en": "Radium and Radioactivity", "zh": "镭与放射性" },
-  "author": { "orig": "Marie Skłodowska Curie", "en": "Marie Curie", "zh": "玛丽·居里", "dates": "1867–1934" },
+  "title": {
+    "orig": "Radium and Radioactivity",
+    "en": "Radium and Radioactivity",
+    "zh": "镭与放射性"
+  },
+  "author": {
+    "orig": "Marie Skłodowska Curie",
+    "en": "Marie Curie",
+    "zh": "玛丽·居里",
+    "dates": "1867–1934"
+  },
   "year": 1904,
-  "year_display": { "en": "1904 (The Century Magazine, January)", "zh": "1904 年（《世纪杂志》一月号）" },
+  "year_display": {
+    "en": "1904 (The Century Magazine, January)",
+    "zh": "1904 年（《世纪杂志》一月号）"
+  },
   "translator": null,
   "edition": {
     "en": "The Century Illustrated Monthly Magazine, vol. 67, no. 3 (January 1904), pp. 461–466, signed “Mme. Sklodowska Curie, discoverer of radium”; transcribed from the Internet Archive scan, running heads and page numbers removed, obvious scanning errors corrected. The magazine's spellings (oxid, chlorid) are kept.",
     "zh": "据《世纪画报月刊》第 67 卷第 3 期（1904 年 1 月）第 461–466 页，署名“镭的发现者斯克沃多夫斯卡·居里夫人”；据互联网档案馆扫描本转录，去掉页眉页码，改正明显的识别错误，保留杂志原有拼写（oxid、chlorid）。"
   },
-  "source": { "name": "Internet Archive (scan of The Century Magazine, January 1904)", "url": "https://archive.org/details/sim_century-illustrated-monthly-magazine_1904-01_67_3", "retrieved": "2026-10-11" },
+  "source": {
+    "name": "Internet Archive (scan of The Century Magazine, January 1904)",
+    "url": "https://archive.org/details/sim_century-illustrated-monthly-magazine_1904-01_67_3",
+    "retrieved": "2026-10-11"
+  },
   "rights": {
     "status": "public-domain",
     "basis": {
       "en": "Published in New York in January 1904. Marie Curie died in 1934. The English text names no translator; an anonymous text published in 1904 is out of copyright everywhere (published before 1931 in the US; 70 years from publication for anonymous works in the EU, UK and Australia; 50 years in China).",
       "zh": "1904 年 1 月在纽约发表。玛丽·居里卒于 1934 年。英文本未署译者；1904 年发表的匿名文本在各地均已过保护期（美国：1931 年前出版；欧盟、英国、澳大利亚：匿名作品自发表起 70 年；中国：50 年）。"
     },
-    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
   },
-  "translations": { "zh": "Claude" },
+  "translations": {
+    "zh": "Claude"
+  },
   "note": {
     "en": "Published in the weeks after she shared the 1903 Nobel Prize in Physics, this is Curie explaining her own work to the general readers of an American magazine. It is the discovery told by the discoverer: the electroscope instead of the photographic plate, an ore four times more active than its uranium could explain, seven tons of residue for a decigram of salt. Notice how carefully she keeps the open questions open, from where the energy comes from to whether atoms are stable at all.",
     "zh": "这篇文章发表于她分享 1903 年诺贝尔物理学奖之后的几个星期，是居里本人向一份美国杂志的普通读者讲述自己的工作。这是由发现者亲口讲的发现：用验电器代替照相底片，一块放射性比其中的铀所能解释的强四倍的矿石，七吨残渣换来一分克盐。请留意她多么小心地让悬而未决的问题保持悬而未决：能量从哪里来，原子究竟是否稳定。"
   },
   "pick": null,
-  "tags": ["radioactivity", "chemistry", "physics", "discovery", "light"],
+  "tags": [
+    "radioactivity",
+    "chemistry",
+    "physics",
+    "discovery",
+    "light"
+  ],
   "excerpt": {
     "orig": "We cannot become accustomed to the idea that we live in a world that is revealed to us only in a restricted portion of its manifestations.",
     "en": "We cannot become accustomed to the idea that we live in a world that is revealed to us only in a restricted portion of its manifestations.",
     "zh": "我们总也习惯不了这样一个想法：我们生活在一个只向我们显露出它一小部分面貌的世界里。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-006020",
+    "S-006013",
+    "S-006017"
+  ]
 }

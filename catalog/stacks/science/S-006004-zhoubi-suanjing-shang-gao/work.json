@@ -19,7 +19,7 @@
     "basis": { "en": "Classical Chinese text of the Han dynasty, about two thousand years old.", "zh": "汉代典籍，距今约两千年。" },
     "license": null, "license_url": null, "notice": null, "verbatim_only": false
   },
-  "translations": { "en": "Claude" },
+  "translations": { "en": "Claude", "zh": "Claude" },
   "note": {
     "en": "One of the oldest Chinese books of mathematics and astronomy opens with a conversation about where number comes from, and within a few lines reaches the three-four-five triangle, the gougu relation that Euclid proves as I.47 on the same shelf. Here it is shown rather than proved, with a bent carpenter's square and a ring of squares on a board. The second dialogue is about learning itself: a student fails twice, is sent home to think, and is told that understanding means carrying one case across to many.",
     "zh": "这部中国最古老的数学与天文著作之一，以一场关于“数从何而来”的对话开篇，没几行就讲到勾三股四弦五，也就是同一架上欧几里得在卷一命题四十七中证明的那个关系。这里它不是被证明，而是被演示出来的：折一把矩尺，在一块板上把方环绕起来。第二段对话谈的是学习本身：学生两次想不出来，被打发回家去想，老师告诉他，懂就是能把一类事推到万事。"
@@ -31,5 +31,33 @@
     "en": "So bend a carpenter's square, making the base three across and the upright four long; then the diagonal between the corners is five.",
     "zh": "故折矩，以为句广三，股修四，径隅五。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    { "at": "周公", "occ": 1, "en": "The Duke of Zhou, regent in the early Western Zhou (11th century BCE) and in later tradition the model statesman. The dialogue is set in his time but written much later.", "zh": "周公旦，西周初年的摄政者，后世奉为圣贤。对话托于周初，实际成书要晚得多。" },
+    { "at": "商高", "occ": 1, "en": "Shang Gao, a Zhou official otherwise unknown.", "zh": "周代的大夫，生平不详。" },
+    { "at": "大夫", "occ": 1, "en": "A rank of official; here a polite 'sir'.", "zh": "官职名，这里是敬称。" },
+    { "at": "包犧", "occ": 1, "at_hans": "包牺", "en": "Fu Xi, the legendary first sovereign.", "zh": "即伏羲，传说中的上古帝王。" },
+    { "at": "周天歷度", "occ": 1, "at_hans": "周天历度", "en": "The degrees of the circuit of heaven. Chinese astronomers divided the circle into 365¼ degrees, one for each day of the year.", "zh": "周天的度数。中国古代把周天分为三百六十五又四分之一度，与一年的日数相应。" },
+    { "at": "階", "occ": 1, "at_hans": "阶", "en": "Steps or a stair.", "zh": "台阶。" },
+    { "at": "矩", "occ": 1, "en": "The carpenter's square: an L-shaped tool with two arms at right angles.", "zh": "木工用的曲尺，两边成直角。" },
+    { "at": "九九八十一", "occ": 1, "en": "The multiplication table, named after its first line.", "zh": "乘法口诀，以首句为名。" },
+    { "at": "句廣三，股修四，徑隅五", "occ": 1, "at_hans": "句广三，股修四，径隅五", "en": "廣 is width, 修 is length, and 徑隅 the line running between the corners: the right triangle with sides three, four and five.", "zh": "广，宽；修，长；径隅，两角之间的连线。即勾三、股四、弦五的直角三角形。" },
+    { "at": "外半其一矩", "occ": 1, "en": "One of the most disputed lines in Chinese mathematics; it is usually read as describing a diagram of four copies of the triangle set around the square on the hypotenuse.", "zh": "这是中国数学史上争议最多的句子之一，一般认为描述的是在弦方外围摆上四个同样的直角三角形的图。" },
+    { "at": "積矩", "occ": 1, "at_hans": "积矩", "en": "'Piling up the squares': building areas from right-angled pieces.", "zh": "积累矩形以求面积的方法。" },
+    { "at": "禹", "occ": 1, "en": "Yu the Great, who in legend tamed the great flood, and so had to survey heights, depths and distances.", "zh": "大禹，传说中治理洪水的人，治水须测量高低远近。" },
+    { "at": "偃矩以望高", "occ": 1, "en": "偃 is to tilt up, 覆 to turn over, 臥 to lay flat: six ways of holding one tool for six kinds of measurement.", "zh": "偃，仰；覆，倒；卧，平放。同一把矩尺，六种用法。" },
+    { "at": "天圓地方", "occ": 1, "at_hans": "天圆地方", "en": "Heaven is round and earth is square: the old cosmology, here tied to the circle and the square of geometry.", "zh": "古代的宇宙观，这里与几何中的圆和方联系在一起。" },
+    { "at": "笠以寫天", "occ": 1, "at_hans": "笠以写天", "en": "寫 is to depict: in the 'canopy heaven' theory of this book, the sky is like a bamboo hat held over the earth.", "zh": "写，描绘。按本书的盖天说，天像一顶斗笠罩在地上。" },
+    { "at": "榮方", "occ": 1, "at_hans": "荣方", "en": "Rong Fang, a student, known only from this book.", "zh": "学生名，仅见于此书。" },
+    { "at": "陳子", "occ": 1, "at_hans": "陈子", "en": "Master Chen, a teacher of astronomy, known only from this book.", "zh": "讲授天文算术的老师，仅见于此书。" },
+    { "at": "四極", "occ": 1, "at_hans": "四极", "en": "The four extremes: the farthest points in each direction.", "zh": "四方的极远之处。" },
+    { "at": "列星之宿", "occ": 1, "en": "The lodges of the stars: the twenty-eight lunar mansions.", "zh": "众星所在的星宿，即二十八宿。" },
+    { "at": "廣袤", "occ": 1, "at_hans": "广袤", "en": "Extent from east to west (廣) and from north to south (袤).", "zh": "东西为广，南北为袤。" },
+    { "at": "望遠起高", "occ": 1, "at_hans": "望远起高", "en": "Sighting the distant and working out the high: measurement with the gnomon and similar triangles.", "zh": "测望远处、推算高度，即用表杆和相似三角形测量。" },
+    { "at": "通類", "occ": 1, "at_hans": "通类", "en": "To reach from one kind of case to others: reasoning by analogy.", "zh": "触类旁通，由一类推及其他各类。" },
+    { "at": "智類單", "occ": 1, "at_hans": "智类单", "en": "單 is thin: his grasp of kinds is too narrow to carry him across.", "zh": "单，单薄。类推的能力还很浅。" },
+    { "at": "入神", "occ": 1, "en": "To enter into the spirit of a craft: to master it so well that it seems effortless.", "zh": "达到神妙的境界，即精通到出神入化。" },
+    { "at": "復坐", "occ": 1, "at_hans": "复坐", "en": "'Sit down again': the next passage, not included here, is Chen Zi's long explanation of measuring the sun with a gnomon.", "zh": "“再坐下来”。接下去是陈子讲解立竿测日的长篇，此处未收。" }
+  ],
+  "pairs": ["S-006001", "S-002045", "S-002046"]
 }

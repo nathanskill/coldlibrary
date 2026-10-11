@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Tao Yuanming's song of going home in 405, after a little more than eighty days as magistrate of Pengze, with his own preface explaining why he left. It is shelved with the prose, keeping its line breaks. Notice the clouds that drift out of the hills without intent, and the birds that, tired of flying, know to come home.",
@@ -60,5 +61,196 @@
     "en": "The clouds drift out of the hills without intent; the birds, tired of flying, know to come home.",
     "zh": "云无心以出岫，鸟倦飞而知还。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "缾",
+      "occ": 1,
+      "at_hans": "瓶",
+      "en": "An old form of 瓶: an earthenware jar for storing grain.",
+      "zh": "同“瓶”，储粮的陶器。"
+    },
+    {
+      "at": "生生所資",
+      "occ": 1,
+      "at_hans": "生生所资",
+      "en": "What is needed to keep life going.",
+      "zh": "维持生活所需的东西。"
+    },
+    {
+      "at": "長吏",
+      "occ": 1,
+      "at_hans": "长吏",
+      "en": "A county official of some standing.",
+      "zh": "职位较高的县级官吏。"
+    },
+    {
+      "at": "會有四方之事",
+      "occ": 1,
+      "at_hans": "会有四方之事",
+      "en": "Just then there were missions to the four quarters: the years 404–405 were full of campaigns and envoys after a usurpation was put down.",
+      "zh": "恰逢有出使四方的事。当时（404—405）刚平定桓玄之乱，四方多事。"
+    },
+    {
+      "at": "家叔",
+      "occ": 1,
+      "en": "Probably his uncle Tao Kui, then an official at court.",
+      "zh": "一般认为指他的叔父陶夔，时在朝中为官。"
+    },
+    {
+      "at": "彭澤",
+      "occ": 1,
+      "at_hans": "彭泽",
+      "en": "Pengze county, on the Yangzi near Poyang Lake in today's Jiangxi; Tao was its magistrate.",
+      "zh": "县名，在今江西，濒临长江、鄱阳湖。陶渊明任彭泽县令。"
+    },
+    {
+      "at": "公田之利",
+      "occ": 1,
+      "en": "The yield of the public fields went to the magistrate as salary. The Song history says Tao wanted them all sown with glutinous millet for wine.",
+      "zh": "公田的收入归县令作俸禄。《宋书》说他想把公田全种上酿酒用的秫。"
+    },
+    {
+      "at": "歸歟之情",
+      "occ": 1,
+      "at_hans": "归欤之情",
+      "en": "The wish to go home. Confucius, far from home in Chen, cried 'Let us go back' (Analects, book 5).",
+      "zh": "思归的心情。语本《论语·公冶长》：孔子在陈国时思归，叹道“归与”。"
+    },
+    {
+      "at": "口腹自役",
+      "occ": 1,
+      "en": "To make oneself a servant to one's mouth and belly.",
+      "zh": "为了口腹之需而役使自己。"
+    },
+    {
+      "at": "一稔",
+      "occ": 1,
+      "en": "One harvest: a year.",
+      "zh": "稔，庄稼成熟。一稔，一年。"
+    },
+    {
+      "at": "程氏妹",
+      "occ": 1,
+      "en": "His younger sister, married into the Cheng family.",
+      "zh": "嫁到程家的妹妹。"
+    },
+    {
+      "at": "乙巳歲十一月",
+      "occ": 1,
+      "at_hans": "乙巳岁十一月",
+      "en": "The eleventh month of the year yisi: the end of 405.",
+      "zh": "乙巳年十一月，即公元 405 年年末。"
+    },
+    {
+      "at": "歸去來兮",
+      "occ": 2,
+      "at_hans": "归去来兮",
+      "en": "來 and 兮 are both particles that carry the voice: 'Go home, go home.'",
+      "zh": "来、兮都是语气助词。意即：回去吧。"
+    },
+    {
+      "at": "心為形役",
+      "occ": 1,
+      "at_hans": "心为形役",
+      "en": "The heart made the servant of the body and its needs.",
+      "zh": "心志被形体所役使，指为生计而违心做官。"
+    },
+    {
+      "at": "悟已往之不諫",
+      "occ": 1,
+      "at_hans": "悟已往之不谏",
+      "en": "From the madman of Chu in the Analects, book 18: 'What is past cannot be mended; what is to come can still be overtaken.' 諫 here is to set right.",
+      "zh": "化用《论语·微子》楚狂接舆之歌：“往者不可谏，来者犹可追。”谏，挽回。"
+    },
+    {
+      "at": "衡宇",
+      "occ": 1,
+      "en": "A house whose gate is a single crossbeam: a humble cottage.",
+      "zh": "以横木为门的房屋，指简陋的居所。"
+    },
+    {
+      "at": "三徑",
+      "occ": 1,
+      "at_hans": "三径",
+      "en": "The three paths. Jiang Xu of the Han, retiring home, cleared three paths through his bamboo for his only two visitors; the phrase came to mean a recluse's garden.",
+      "zh": "汉代蒋诩隐居，在竹林中开了三条小路，只与两位朋友往来。后以“三径”指隐士的家园。"
+    },
+    {
+      "at": "寄傲",
+      "occ": 1,
+      "en": "To give rein to a proud, unbending spirit.",
+      "zh": "寄托傲然自得的情怀。"
+    },
+    {
+      "at": "容膝",
+      "occ": 1,
+      "en": "A room just big enough to fit one's knees.",
+      "zh": "仅能容下双膝，形容居室狭小。"
+    },
+    {
+      "at": "扶老",
+      "occ": 1,
+      "en": "A walking stick; literally 'support for the old'.",
+      "zh": "手杖的别名。"
+    },
+    {
+      "at": "岫",
+      "occ": 1,
+      "en": "A cave or a fold in the hills, where clouds were thought to rise.",
+      "zh": "山洞，或山峦。古人以为云从山穴中出。"
+    },
+    {
+      "at": "盤桓",
+      "occ": 1,
+      "at_hans": "盘桓",
+      "en": "To linger, unwilling to leave.",
+      "zh": "徘徊，流连不去。"
+    },
+    {
+      "at": "駕言",
+      "occ": 1,
+      "at_hans": "驾言",
+      "en": "To harness the carriage and go out; 言 is a particle, as in the Book of Songs.",
+      "zh": "驾车出游。言，语助词，用法同《诗经》“驾言出游”。"
+    },
+    {
+      "at": "巾車",
+      "occ": 1,
+      "at_hans": "巾车",
+      "en": "A cart with a cloth canopy.",
+      "zh": "有篷帷的小车。"
+    },
+    {
+      "at": "帝鄉",
+      "occ": 1,
+      "at_hans": "帝乡",
+      "en": "The land of the gods, where immortals ride white clouds (Zhuangzi).",
+      "zh": "天帝所居之处，仙境。语本《庄子·天地》“乘彼白云，至于帝乡”。"
+    },
+    {
+      "at": "植杖而耘耔",
+      "occ": 1,
+      "en": "To plant one's staff in the ground and weed (耘) and earth up the roots (耔), like the old farmer in the Analects, book 18.",
+      "zh": "把手杖插在地上，除草（耘）培土（耔）。化用《论语·微子》荷蓧丈人“植其杖而芸”。"
+    },
+    {
+      "at": "舒嘯",
+      "occ": 1,
+      "at_hans": "舒啸",
+      "en": "A long, open whistle: a way of letting out feeling much loved by men of the Wei and Jin.",
+      "zh": "放声长啸，魏晋士人抒发情怀的方式。"
+    },
+    {
+      "at": "乘化以歸盡",
+      "occ": 1,
+      "at_hans": "乘化以归尽",
+      "en": "To ride the great transformation of things until it carries one to the end.",
+      "zh": "顺随自然的变化，直到生命的尽头。"
+    }
+  ],
+  "pairs": [
+    "S-002024",
+    "S-002028"
+  ]
 }

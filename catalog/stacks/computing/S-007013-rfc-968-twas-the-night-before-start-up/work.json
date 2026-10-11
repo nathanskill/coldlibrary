@@ -58,5 +58,10 @@
     "en": "I twisted my fingers and counted to ten;\nan off-by-one index had done it again...",
     "zh": "我绞着手指数到了十；\n又是一个差一的下标惹的祸……"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007014",
+    "S-007015",
+    "S-007025"
+  ]
 }

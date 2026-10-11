@@ -60,5 +60,9 @@
     "en": "Some blessed Hope, whereof he knew\nAnd I was unaware.",
     "zh": "某种神圣的希望，他知道，\n而我却不知道。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004015",
+    "S-003043"
+  ]
 }

@@ -60,5 +60,10 @@
     "en": "One of Guido’s key insights is that code is read much more often than it is written.",
     "zh": "Guido 的一个关键洞见是：代码被阅读的次数远多于被编写的次数。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007011",
+    "S-005012",
+    "S-007024"
+  ]
 }

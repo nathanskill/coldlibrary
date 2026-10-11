@@ -25,6 +25,7 @@
     "dates": "1863–1928",
     "year": 1920
   },
+  "orig_lang": "grc",
   "edition": {
     "en": "All the fragments in John Burnet’s Early Greek Philosophy, third edition (London, 1920), chapter III, numbered as in Bywater’s edition of 1877, as transcribed on English Wikisource. The references to Ritter and Preller and Burnet’s footnotes are omitted; numbers missing from the sequence are missing in Burnet. The work has no surviving title, so none is given in the original.",
     "zh": "约翰·伯内特《早期希腊哲学》第三版（伦敦，1920）第三章所收全部残篇，按拜沃特 1877 年版编号，据英文维基文库转录。略去里特与普雷勒的出处编号和伯内特的脚注；序号中缺的数字，伯内特书中本来就缺。原书没有留下书名，所以原文标题不另拟。"
@@ -65,5 +66,10 @@
     "en": "You cannot step twice into the same rivers; for fresh waters are ever flowing in upon you.",
     "zh": "你不能两次踏进同一条河流；因为新的水不断地向你流来。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002001",
+    "S-002004",
+    "S-004003"
+  ]
 }

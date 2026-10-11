@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "The Nine Chapters on the Mathematical Art, compiled in Han China, is a book of problems, answers and 'arts' (shu), that is, methods. These are its arts of fractions: reducing, joining, subtracting, comparing, levelling and dividing. The art of reducing fractions is a complete algorithm for the greatest common divisor by repeated subtraction, the same idea as Euclid's, written down independently on the other side of the world. Liu Hui's commentary, omitted here, adds the reason it works: every number subtracted is a multiple of the common measure.",
@@ -61,5 +62,178 @@
     "en": "If both can be halved, halve them. If not, set down the denominator and the numerator side by side; take the lesser from the greater, and go on subtracting each from the other in turn, to find the number in which they become equal.",
     "zh": "可半者半之；不可半者，副置分母、子之数，以少减多，更相减损，求其等也。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "十八分之十二",
+      "occ": 1,
+      "en": "'Of eighteen parts, twelve': the way fractions are still read in Chinese, denominator first.",
+      "zh": "“十八分之十二”，即把整体分成十八份取其十二。今天的汉语仍这样读分数，先说分母。"
+    },
+    {
+      "at": "約之得幾何",
+      "occ": 1,
+      "at_hans": "约之得几何",
+      "en": "約 is to reduce a fraction to lowest terms.",
+      "zh": "约，约分。"
+    },
+    {
+      "at": "荅曰",
+      "occ": 1,
+      "at_hans": "答曰",
+      "en": "荅 is an old form of 答: the answer.",
+      "zh": "荅，同“答”。"
+    },
+    {
+      "at": "可半者半之",
+      "occ": 1,
+      "en": "If both numbers are even, halve them first: a shortcut before the general method.",
+      "zh": "分子分母都是偶数的，先折半，这是一般方法之前的捷径。"
+    },
+    {
+      "at": "副置",
+      "occ": 1,
+      "en": "To set the numbers down side by side on the counting board.",
+      "zh": "在算筹盘上把两个数并列摆出。副，在旁。"
+    },
+    {
+      "at": "更相減損",
+      "occ": 1,
+      "at_hans": "更相减损",
+      "en": "Subtract each from the other in turn until the two are equal: the subtractive form of what is now called Euclid's algorithm.",
+      "zh": "两数反复交替相减，直到相等。即今天所说辗转相除法（欧几里得算法）的相减形式。"
+    },
+    {
+      "at": "以等數約之",
+      "occ": 1,
+      "at_hans": "以等数约之",
+      "en": "等數, the 'equal number' reached at the end, is the greatest common divisor.",
+      "zh": "等数，相减到最后相等的数，即最大公约数。"
+    },
+    {
+      "at": "合之得幾何",
+      "occ": 1,
+      "at_hans": "合之得几何",
+      "en": "合 is to put together: to add.",
+      "zh": "合，相加。"
+    },
+    {
+      "at": "母互乘子",
+      "occ": 1,
+      "en": "Each denominator multiplies the numerators of the other fractions: cross-multiplication, which brings all to a common denominator.",
+      "zh": "各分母交叉去乘其他分数的分子，相当于通分。"
+    },
+    {
+      "at": "并以為實",
+      "occ": 1,
+      "at_hans": "并以为实",
+      "en": "并 is to add; 實, 'the substance', is the dividend.",
+      "zh": "并，相加。实，被除数。"
+    },
+    {
+      "at": "母相乘為法",
+      "occ": 1,
+      "at_hans": "母相乘为法",
+      "en": "法, 'the standard', is the divisor: here the product of the denominators.",
+      "zh": "法，除数。这里是各分母的乘积。"
+    },
+    {
+      "at": "實如法而一",
+      "occ": 1,
+      "at_hans": "实如法而一",
+      "en": "'The dividend, as many times as the divisor, gives one': the standard phrase for division.",
+      "zh": "“实如法而一”，即用法去除实，古代除法的固定说法。"
+    },
+    {
+      "at": "以法命之",
+      "occ": 1,
+      "en": "To name the remainder as parts of the divisor: to write it as a fraction.",
+      "zh": "以除数作分母，把余数写成分数。"
+    },
+    {
+      "at": "直相從之",
+      "occ": 1,
+      "at_hans": "直相从之",
+      "en": "Simply add them: with a common denominator, only the numerators are added.",
+      "zh": "直接相加。分母相同，只需把分子相加。"
+    },
+    {
+      "at": "孰多",
+      "occ": 1,
+      "en": "Which is more: these are comparison problems.",
+      "zh": "哪个多。这是比较大小的题目。"
+    },
+    {
+      "at": "課分術",
+      "occ": 1,
+      "at_hans": "课分术",
+      "en": "課 is to test or compare: the art of comparing fractions.",
+      "zh": "课，考核、比较。比较分数大小的方法。"
+    },
+    {
+      "at": "減多益少",
+      "occ": 1,
+      "at_hans": "减多益少",
+      "en": "Take from the more and add to the less until all are level: finding the average.",
+      "zh": "减多补少，使各数相等，即求平均数。"
+    },
+    {
+      "at": "平分術",
+      "occ": 1,
+      "at_hans": "平分术",
+      "en": "The art of levelling fractions: the arithmetic mean, reached by moving parts from larger terms to smaller.",
+      "zh": "求几个分数的平均数，并求出各数应减应补的量。"
+    },
+    {
+      "at": "平實",
+      "occ": 1,
+      "at_hans": "平实",
+      "en": "The 'level dividend': the sum of the cross-multiplied numerators.",
+      "zh": "各分子交乘之积的总和。"
+    },
+    {
+      "at": "列實",
+      "occ": 1,
+      "at_hans": "列实",
+      "en": "The dividend for each term separately, multiplied by the number of terms.",
+      "zh": "每一项各自的被除数，再乘以项数。"
+    },
+    {
+      "at": "錢",
+      "occ": 1,
+      "at_hans": "钱",
+      "en": "A copper coin, the everyday unit of money.",
+      "zh": "铜钱，日常的货币单位。"
+    },
+    {
+      "at": "三分人之一",
+      "occ": 1,
+      "en": "A third of a person: the arithmetic does not mind, and the problem uses it to show division by a mixed number.",
+      "zh": "三分之一个人。算术并不在乎，题目借此演示用带分数作除数。"
+    },
+    {
+      "at": "經分術",
+      "occ": 1,
+      "at_hans": "经分术",
+      "en": "The art of dividing with fractions. 經 is often read as 徑, directly: dividing straight through.",
+      "zh": "分数除法。一说“经”通“径”，即直接相分。"
+    },
+    {
+      "at": "有分者通之",
+      "occ": 1,
+      "en": "通 is to bring through: turn a mixed number into an improper fraction.",
+      "zh": "通，通分化整为分，即把带分数化为假分数。"
+    },
+    {
+      "at": "重有分者同而通之",
+      "occ": 1,
+      "en": "Where both dividend and divisor have fractions, first give them a common denominator, then bring them through.",
+      "zh": "被除数与除数都有分数的，先使分母相同，再化为分数。"
+    }
+  ],
+  "pairs": [
+    "S-002047",
+    "S-002045",
+    "S-002046"
+  ]
 }

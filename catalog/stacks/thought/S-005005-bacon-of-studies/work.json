@@ -60,5 +60,10 @@
     "en": "Some books are to be tasted, others to be swallowed, and some few to be chewed and digested",
     "zh": "有的书只须浅尝，有的书可以整个吞下，少数的书则要细细咀嚼、慢慢消化"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002006",
+    "S-005011",
+    "S-005019"
+  ]
 }

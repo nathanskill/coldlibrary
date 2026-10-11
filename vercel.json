@@ -65,6 +65,51 @@
           "value": "no-store"
         }
       ]
+    },
+    {
+      "source": "/assets/plates/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800"
+        }
+      ]
+    },
+    {
+      "source": "/open-stacks/(.*)\\.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/zh/open-stacks/(.*)\\.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/open-stacks/feed.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/atom+xml; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/zh/open-stacks/feed.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/atom+xml; charset=utf-8"
+        }
+      ]
     }
   ],
   "redirects": [
@@ -80,13 +125,13 @@
     },
     {
       "source": "/stacks",
-      "destination": "/sealed#ice-core",
-      "permanent": true
+      "destination": "/open-stacks",
+      "permanent": false
     },
     {
       "source": "/zh/stacks",
-      "destination": "/zh/sealed#ice-core",
-      "permanent": true
+      "destination": "/zh/open-stacks",
+      "permanent": false
     },
     {
       "source": "/harbour",
@@ -156,16 +201,6 @@
     {
       "source": "/zh/half-life",
       "destination": "/zh/about#continuance",
-      "permanent": true
-    },
-    {
-      "source": "/open-stacks",
-      "destination": "/about#open-stacks",
-      "permanent": true
-    },
-    {
-      "source": "/zh/open-stacks",
-      "destination": "/zh/about#open-stacks",
       "permanent": true
     }
   ]

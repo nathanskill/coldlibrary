@@ -60,5 +60,10 @@
     "en": "We are attempting to survive our time so we may live into yours.",
     "zh": "我们正努力度过我们的时代，好让我们能活进你们的时代。"
   },
-  "plate": "G-008002"
+  "plate": "G-008002",
+  "pairs": [
+    "S-008006",
+    "S-008007",
+    "S-008020"
+  ]
 }

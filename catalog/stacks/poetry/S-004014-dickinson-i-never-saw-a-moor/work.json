@@ -60,5 +60,8 @@
     "en": "Yet certain am I of the spot\nAs if the chart were given.",
     "zh": "却确知那个地方，\n仿佛手里有一张海图。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004021"
+  ]
 }

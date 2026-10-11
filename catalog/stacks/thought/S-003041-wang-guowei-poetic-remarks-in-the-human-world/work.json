@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Wang Guowei's short notes on ci poetry brought one word, 境界 (jingjie: a world, a realm, the scene a poem opens), into the centre of Chinese criticism, and readers still talk about poems in his terms. This selection keeps the central entries, among them the famous three stages through which any great work or learning must pass, each named with a borrowed line of love poetry. Notice entry 47, where a twelfth-century poet's question to the moon is praised for guessing that it circles the earth.",
@@ -63,5 +64,166 @@
     "en": "Everyone, past or present, who has achieved a great work or great learning must have passed through three stages.",
     "zh": "古今之成大事业、大学问者，必经过三种之境界。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-001068",
+    "S-001013",
+    "S-003042"
+  ],
+  "gloss": [
+    {
+      "at": "詞以境界爲最上",
+      "at_hans": "词以境界为最上",
+      "en": "境界: first a boundary or territory, in Buddhist texts the field of perception; Wang uses it for the true scene and feeling a poem makes present.",
+      "zh": "境界：本指疆界，佛经中指感知的对象；王国维用来指作品所呈现的真切的景与情。"
+    },
+    {
+      "at": "五代、北宋之詞",
+      "at_hans": "五代、北宋之词",
+      "en": "The Five Dynasties (907–960) and the Northern Song (960–1127): the first great age of ci.",
+      "zh": "五代（907–960）与北宋（960–1127），词的第一个鼎盛期。"
+    },
+    {
+      "at": "淚眼問花花不語",
+      "at_hans": "泪眼问花花不语",
+      "en": "From Ouyang Xiu's ci to the tune Die Lian Hua; some attribute it to Feng Yansi.",
+      "zh": "出自欧阳修《蝶恋花》（一说冯延巳作）。"
+    },
+    {
+      "at": "可堪孤館閉春寒",
+      "at_hans": "可堪孤馆闭春寒",
+      "en": "From Qin Guan's ci to the tune Ta Suo Xing, written at an inn in Chenzhou during his exile.",
+      "zh": "出自秦观《踏莎行·郴州旅舍》，作于贬谪途中。"
+    },
+    {
+      "at": "采菊東籬下",
+      "at_hans": "采菊东篱下",
+      "en": "From Tao Yuanming's 'Drinking Wine', no. 5, which is on the poetry shelf.",
+      "zh": "出自陶渊明《饮酒》其五，本馆诗词架有收。"
+    },
+    {
+      "at": "寒波澹澹起",
+      "en": "From Yuan Haowen's poem 'Farewell at Yingting'.",
+      "zh": "出自元好问《颍亭留别》。"
+    },
+    {
+      "at": "紅杏枝頭春意閙",
+      "at_hans": "红杏枝头春意闹",
+      "en": "From Song Qi's ci to the tune Yu Lou Chun; the line won him the nickname 'the Red Apricot Minister'. 閙 is the same as 鬧.",
+      "zh": "出自宋祁《玉楼春》，宋祁因此被称为“红杏尚书”。閙：同“闹”。"
+    },
+    {
+      "at": "雲破月來花弄影",
+      "at_hans": "云破月来花弄影",
+      "en": "From Zhang Xian's ci to the tune Tian Xian Zi.",
+      "zh": "出自张先《天仙子》。"
+    },
+    {
+      "at": "赤子之心",
+      "en": "The heart of a newborn child. The phrase is from Mencius 4B.12: the great person is one who has not lost the heart of a child.",
+      "zh": "赤子：初生的婴儿。语出《孟子·离娄下》：“大人者，不失其赤子之心者也。”"
+    },
+    {
+      "at": "是後主爲人君所短處",
+      "at_hans": "是后主为人君所短处",
+      "en": "The Last Ruler: Li Yu (937–978) of the Southern Tang, who wrote his finest ci as a captive of the Song.",
+      "zh": "后主：南唐后主李煜（937–978），亡国被俘入宋后写下了他最好的词。"
+    },
+    {
+      "at": "昨夜西風凋碧樹",
+      "at_hans": "昨夜西风凋碧树",
+      "en": "From Yan Shu's ci to the tune Die Lian Hua.",
+      "zh": "出自晏殊《蝶恋花》。"
+    },
+    {
+      "at": "衣帶漸寬終不悔",
+      "at_hans": "衣带渐宽终不悔",
+      "en": "From Liu Yong's ci to the tune Feng Qi Wu. In Wang's time it was often credited to Ouyang Xiu, which is why he names 'Yan, Ou' below.",
+      "zh": "出自柳永《凤栖梧》（即《蝶恋花》）；当时多归于欧阳修名下，所以下文说“晏、欧诸公”。"
+    },
+    {
+      "at": "衆裏尋他千百度",
+      "at_hans": "众里寻他千百度",
+      "en": "From Xin Qiji's ci to the tune Qing Yu An, on the night of the Lantern Festival; it is on the poetry shelf.",
+      "zh": "出自辛弃疾《青玉案·元夕》，本馆诗词架有收。"
+    },
+    {
+      "at": "此弟一境也",
+      "en": "弟 is the old way of writing 第, the ordinal.",
+      "zh": "弟：同“第”。"
+    },
+    {
+      "at": "稼軒中秋飲酒達旦",
+      "at_hans": "稼轩中秋饮酒达旦",
+      "en": "Jiaxuan: the studio name of Xin Qiji (1140–1207).",
+      "zh": "稼轩：辛弃疾（1140–1207）的号。"
+    },
+    {
+      "at": "用《天問》體",
+      "at_hans": "用《天问》体",
+      "en": "The Heavenly Questions: a poem in the Songs of Chu ascribed to Qu Yuan, made of more than 170 questions about the cosmos and history.",
+      "zh": "《天问》：《楚辞》篇名，相传为屈原作，一连提出一百七十多个关于天地、历史的问题。"
+    },
+    {
+      "at": "月輪遶地之理",
+      "at_hans": "月轮绕地之理",
+      "en": "遶 is the same as 繞, to circle. Xin's lines imagine the moon, as it sets here, rising to light another world.",
+      "zh": "遶：同“绕”。辛词设想月亮在这里西沉时，正在另一个人间升起。"
+    },
+    {
+      "at": "古詩敝而有律絕",
+      "at_hans": "古诗敝而有律绝",
+      "en": "律絕: regulated verse and the quatrain, the strict forms perfected in the Tang.",
+      "zh": "律绝：律诗和绝句，唐代定型的近体诗。"
+    },
+    {
+      "at": "染指遂多",
+      "en": "To dip a finger in: from the Zuo zhuan, where a prince of Zheng dipped his finger in a cauldron of turtle soup; later, to take a share of something.",
+      "zh": "染指：典出《左传·宣公四年》，郑国公子宋把手指伸进鼎里蘸汤尝味；后指插手、分取。"
+    },
+    {
+      "at": "詩之《三百篇》、《十九首》",
+      "at_hans": "诗之《三百篇》、《十九首》",
+      "en": "The Three Hundred: the Book of Songs. The Nineteen: the Nineteen Old Poems of the Han.",
+      "zh": "《三百篇》：即《诗经》。《十九首》：汉代的《古诗十九首》。"
+    },
+    {
+      "at": "自《花庵》、《草堂》",
+      "en": "Hua'an: Huang Sheng's Southern Song anthology Hua'an Ci Xuan. Caotang: Caotang Shiyu, a popular Song anthology.",
+      "zh": "《花庵》：南宋黄昇编《花庵词选》。《草堂》：宋人所编《草堂诗余》。"
+    },
+    {
+      "at": "美成能入而不能出",
+      "en": "Meicheng: the courtesy name of Zhou Bangyan (1056–1121), the master craftsman of Northern Song ci.",
+      "zh": "美成：北宋词人周邦彦（1056–1121）的字。"
+    },
+    {
+      "at": "白石以降",
+      "en": "Baishi: the studio name of Jiang Kui (c. 1155–1221), Southern Song poet and composer.",
+      "zh": "白石：南宋词人、音乐家姜夔（约1155–1221）的号。"
+    },
+    {
+      "at": "以奴僕命風月",
+      "at_hans": "以奴仆命风月",
+      "en": "命: to command, to order about.",
+      "zh": "命：役使、驱遣。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "以物觀物",
+      "en": "His examples of the world without a self are not empty of a person: someone is picking chrysanthemums, someone watches the white birds come down. What is missing is a self that colours what it sees, not the one who sees.",
+      "zh": "他举的“无我之境”并非没有人：有人在采菊，有人在看白鸟落下。没有的是那个给万物涂上自己颜色的“我”，而不是观看的人。"
+    },
+    {
+      "at": "恐晏、歐諸公所不許也",
+      "en": "He builds one of the most quoted passages in modern Chinese criticism out of three love poems, and in the next breath admits their authors would not recognise it. The method and its limit arrive together.",
+      "zh": "他用三句情词搭起了现代中国文学批评中被引用最多的段落之一，紧接着又承认原作者恐怕不会认可。方法和方法的边界，是一起给出的。"
+    },
+    {
+      "at": "詞人想像",
+      "en": "Xin Qiji's lines do not state that the moon circles the earth; they only imagine it going on to light another world. Wang is generous here, and what he is praising is a question asked precisely enough to land near a truth.",
+      "zh": "辛弃疾的词并没有说月亮绕地而行，只是想象它离开这里后去照亮另一个人间。王国维在这里说得慷慨；他称赞的，是一个问得足够精确、因而落在真理附近的问题。"
+    }
+  ]
 }

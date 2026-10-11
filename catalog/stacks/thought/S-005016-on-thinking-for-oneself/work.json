@@ -25,6 +25,7 @@
     "dates": "1860–1928",
     "year": 1891
   },
+  "orig_lang": "de",
   "edition": {
     "en": "The complete essay from Parerga und Paralipomena, in T. Bailey Saunders’s The Art of Literature (London, 1891), Project Gutenberg eBook #10714, where the next essay’s heading is missing, so the end was checked against the HTML edition. Footnotes are omitted. Two slips in the transcription of the Goethe couplet are corrected against Faust, Part One (Project Gutenberg #2229). Six scanning errors in the e-text (such as “number and trash” for “lumber and trash” and “reflect action” for “reflex action”) are corrected against a scan of the 1891 printing.",
     "zh": "《附录与补遗》中这篇文章的全文，用 T. 贝利·桑德斯译《文学的艺术》（伦敦，1891），据古登堡计划电子书 10714；该版缺了下一篇的标题，结尾处已对照其 HTML 版核定。略去脚注。所引歌德诗句的两处转录错误，已据《浮士德》第一部（古登堡计划 2229）改正。电子本中六处扫描错误（如把 lumber and trash 误作 number and trash，把 reflex action 误作 reflect action），已据 1891 年印本的扫描件改正。"
@@ -65,5 +66,10 @@
     "en": "A library may be very large; but if it is in disorder, it is not so useful as one that is small but well arranged.",
     "zh": "一座图书馆可以很大，但如果它杂乱无章，就不如一座虽小却整理得井井有条的图书馆有用。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-005012",
+    "S-005019",
+    "S-005005"
+  ]
 }

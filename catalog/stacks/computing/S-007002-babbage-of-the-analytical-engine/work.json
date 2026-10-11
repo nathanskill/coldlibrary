@@ -60,5 +60,10 @@
     "en": "Thus the Analytical Engine will possess a library of its own.",
     "zh": "这样，分析机将拥有一座自己的图书馆。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007001",
+    "S-007009",
+    "S-007005"
+  ]
 }

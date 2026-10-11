@@ -25,6 +25,7 @@
     "dates": "1812–1888",
     "year": 1872
   },
+  "orig_lang": "da",
   "edition": {
     "en": "Translation by Mrs. H. B. Paull (Susannah Mary Paull) in Hans Andersen’s Fairy Tales (London: Frederick Warne), from the scan-backed transcription on Wikisource; translator’s footnote omitted",
     "zh": "据维基文库依扫描本校录的保罗夫人（苏珊娜·玛丽·保罗）译本，收入《安徒生童话》（伦敦：弗雷德里克·沃恩）；略去译者注"
@@ -49,8 +50,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "One of Andersen’s longest tales, in seven stories. A splinter of a demon’s mirror freezes a boy’s heart, and a girl walks barefoot to the far north to fetch him back. The Chinese translation covers the Seventh Story only, in the Snow Queen’s palace, where Kay tries to spell “Eternity” in ice and cannot, until he is found.",
-    "zh": "安徒生最长的童话之一，由七个故事组成。魔鬼镜子的一粒碎片冻住了一个男孩的心，一个女孩赤着脚一路走到极北去把他找回来。这里的中文译文只译了第七个故事：在冰雪女王的宫殿里，加伊想用冰块拼出“永恒”这个词却拼不出，直到有人找到了他。"
+    "en": "One of Andersen’s longest tales, in seven stories. A splinter of a demon’s mirror freezes a boy’s heart, and a girl walks barefoot to the far north to fetch him back. Notice what does the rescuing: not a stronger spell but tears, a hymn and a girl who will not stop, while Kay sits alone in the palace trying to spell “Eternity” in ice. The Chinese translation by Claude is complete, all seven stories.",
+    "zh": "安徒生最长的童话之一，由七个故事组成。魔鬼镜子的一粒碎片冻住了一个男孩的心，一个女孩赤着脚一路走到极北去把他找回来。请留意救人的是什么：不是更强的魔法，而是眼泪、一首赞美诗和一个不肯停下的女孩；而加伊独自坐在冰宫里，想用冰块拼出“永恒”这个词。中文译文由 Claude 译出，七个故事全部译完。"
   },
   "pick": null,
   "tags": [
@@ -65,5 +66,9 @@
     "en": "And they both sat there, grown up, yet children at heart; and it was summer,—warm, beautiful summer.",
     "zh": "他们俩就这样坐在那里，已经长大成人，却仍然有一颗孩子的心；那是夏天——温暖的、美丽的夏天。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004107",
+    "S-004025"
+  ]
 }

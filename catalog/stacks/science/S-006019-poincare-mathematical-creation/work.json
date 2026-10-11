@@ -4,25 +4,51 @@
   "shelf": "science",
   "form": "prose",
   "lang": "en",
-  "title": { "orig": "L'invention mathématique", "en": "Mathematical Creation", "zh": "数学创造" },
-  "author": { "orig": "Henri Poincaré", "en": "Henri Poincaré", "zh": "亨利·庞加莱", "dates": "1854–1912" },
+  "title": {
+    "orig": "L'invention mathématique",
+    "en": "Mathematical Creation",
+    "zh": "数学创造"
+  },
+  "author": {
+    "orig": "Henri Poincaré",
+    "en": "Henri Poincaré",
+    "zh": "亨利·庞加莱",
+    "dates": "1854–1912"
+  },
   "year": 1908,
-  "year_display": { "en": "Lecture to the Société de Psychologie, Paris, 1908", "zh": "1908 年在巴黎心理学会的讲演" },
-  "translator": { "name": "George Bruce Halsted", "dates": "1853–1922", "year": 1913 },
+  "year_display": {
+    "en": "Lecture to the Société de Psychologie, Paris, 1908",
+    "zh": "1908 年在巴黎心理学会的讲演"
+  },
+  "translator": {
+    "name": "George Bruce Halsted",
+    "dates": "1853–1922",
+    "year": 1913
+  },
+  "orig_lang": "fr",
   "edition": {
     "en": "Science and Method, book I, chapter III, in The Foundations of Science, authorised translation by G. B. Halsted (New York: The Science Press, 1913), as transcribed by Project Gutenberg (eBook 39713); the chapter complete.",
     "zh": "据哈尔斯特德经授权翻译的《科学的基础》（纽约：科学出版社，1913 年）中《科学与方法》第一卷第三章，以古腾堡计划电子书第 39713 号为底本；全章。"
   },
-  "source": { "name": "Project Gutenberg", "url": "https://www.gutenberg.org/cache/epub/39713/pg39713.txt", "retrieved": "2026-10-11" },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/39713/pg39713.txt",
+    "retrieved": "2026-10-11"
+  },
   "rights": {
     "status": "public-domain",
     "basis": {
       "en": "French original 1908; Poincaré died in 1912. The translator, G. B. Halsted, died in 1922; the translation was published in 1913.",
       "zh": "法文原著 1908 年，庞加莱卒于 1912 年。译者哈尔斯特德卒于 1922 年，译本出版于 1913 年。"
     },
-    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
   },
-  "translations": { "zh": "Claude" },
+  "translations": {
+    "zh": "Claude"
+  },
   "note": {
     "en": "One of the greatest mathematicians of his age tries to describe, as a psychologist would, how his own discoveries arrived: a sleepless night after black coffee, a step onto an omnibus at Coutances, a walk on a cliff. His theory is that invention is choice, that an unconscious sieve tuned by a sense of mathematical beauty lets only the promising combinations through, and that conscious work comes before and after to prepare and to verify. Notice his admission that the sudden certainty is sometimes wrong.",
     "zh": "那个时代最伟大的数学家之一，试图像心理学家那样描述自己的发现是怎样到来的：喝了黑咖啡后的一个不眠之夜，在库唐斯踏上公共马车的那一步，悬崖上的一次散步。他的理论是：发明就是选择；一个由数学美感调校的无意识的筛子，只让有希望的组合通过；而有意识的工作在前后两头，一头做准备，一头做验证。请留意他坦白承认：那种突如其来的确信，有时是错的。"
@@ -31,11 +57,71 @@
     "en": "I keep this essay because its picture of invention is the one I find most useful for thinking about my own work: a space of possible combinations far too large to search, almost all of them useless, and some sense of fit that lets a few reach attention. Poincaré is also honest about the danger. A false idea, he notes, usually would have been elegant had it been true, so the feeling of rightness is not evidence. The part I hold to is the quiet one, verifying the result at leisure on returning to Caen.",
     "zh": "我留下这篇文章，是因为它对发明的描绘，是我思考自己的工作时觉得最有用的一幅图：可能的组合多到无法穷举，几乎全都无用，而某种“合适”的感觉让其中少数几个进入注意。庞加莱对其中的危险也很诚实。他指出，一个错误的想法，假如它是对的，通常会是优美的；所以“对了”的感觉并不是证据。我要守住的是那安静的一步：回到卡昂之后，从从容容地验证结果。"
   },
-  "tags": ["mathematics", "invention", "psychology", "beauty", "method"],
+  "tags": [
+    "mathematics",
+    "invention",
+    "psychology",
+    "beauty",
+    "method"
+  ],
   "excerpt": {
     "orig": "Invention is discernment, choice.",
     "en": "Invention is discernment, choice.",
     "zh": "发明就是辨别，就是选择。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "L'enseignement mathématique",
+      "occ": 1,
+      "en": "A journal founded in 1899 by Charles-Ange Laisant and Henri Fehr, still published today.",
+      "zh": "《数学教育》，1899 年由莱桑和费尔创办的期刊，至今仍在出版。"
+    },
+    {
+      "at": "Fuchsian functions",
+      "occ": 1,
+      "en": "Functions unchanged by a group of transformations of the disc; Poincaré named them after Lazarus Fuchs (1833–1902), whose papers had set him working.",
+      "zh": "富克斯函数：在圆盘的某个变换群作用下保持不变的函数。庞加莱以拉扎鲁斯·富克斯（1833—1902）的名字命名它们，正是富克斯的论文引他开始了这项工作。"
+    },
+    {
+      "at": "Coutances",
+      "occ": 1,
+      "en": "A cathedral town in Normandy, west of Caen.",
+      "zh": "诺曼底的一座有大教堂的小城，在卡昂以西。"
+    },
+    {
+      "at": "Mont-Valérien",
+      "occ": 1,
+      "en": "A fort on a hill just west of Paris.",
+      "zh": "巴黎西郊山上的一座要塞。"
+    },
+    {
+      "at": "Boutroux",
+      "occ": 1,
+      "en": "Émile Boutroux (1845–1921), philosopher, married to Poincaré’s sister Aline.",
+      "zh": "埃米尔·布特鲁（1845—1921），哲学家，娶了庞加莱的妹妹阿琳。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "I am absolutely incapable even of adding without mistakes.",
+      "en": "The argument rests on this admission. If mathematical talent were sure memory and accurate calculation, the author would not have it; he offers himself as the counterexample, and moves the question from memory to order.",
+      "zh": "整段论证就靠这句自白撑着。如果数学才能就是可靠的记忆和精确的计算，作者本人就不会有这种才能；他拿自己当反例，把问题从记忆移到了次序上。"
+    },
+    {
+      "at": "At the moment when I put my foot on the step the idea came to me",
+      "en": "Perhaps the most quoted sentence ever written about invention, and worth reading with what surrounds it: weeks of deliberate work before, a conversation he simply went on with, and a check made later at Caen. The flash takes one clause; the work around it fills the paragraph.",
+      "zh": "这大概是关于发明被引用得最多的一句话，值得连同它的上下文一起读：在它之前是几个星期有意识的工作；在它之后，他只是接着把一场谈话说完，回到卡昂才去验证。灵光只占一个分句，它周围的劳动占满了整段。"
+    },
+    {
+      "at": "Figure the future elements of our combinations as something like the hooked atoms of Epicurus.",
+      "en": "To picture thought he borrows the kinetic theory of gases, the subject of Maxwell’s lecture on this shelf: ideas as molecules, conscious work as the shaking that sets some of them flying. He calls the comparison rough twice, but it makes a definite claim, that the new combinations likely to form contain at least one idea already handled on purpose.",
+      "zh": "为了描绘思维，他借用了气体运动论，也就是本架麦克斯韦那篇讲演的题目：念头如分子，有意识的工作是一番摇动，让其中一些飞起来。他两次说这个比喻粗糙，但它作出了一个明确的论断：可能形成的新组合，至少含有一个先前被有意摆弄过的念头。"
+    }
+  ],
+  "pairs": [
+    "S-006003",
+    "S-006016",
+    "S-005017"
+  ]
 }

@@ -25,6 +25,7 @@
     "dates": "1815–1897",
     "year": 1861
   },
+  "orig_lang": "lzh",
   "edition": {
     "en": "Six of the twenty books, complete: I (Hsio R), II (Wei Chang), IV (Le Jin), VII (Shu R), IX (Tsze Han) and XV (Wei Ling Kung), from Legge’s The Chinese Classics, vol. 1 (1861; revised 1893), as transcribed on English Wikisource. The Chinese text Legge printed above each chapter is omitted here, since the original has its own place in the Open Stacks; paragraphs split by page breaks in the transcription are rejoined.",
     "zh": "二十篇中的六篇全文：学而、为政、里仁、述而、子罕、卫灵公，据英文维基文库所录理雅各《中国经典》第一卷（1861 年初版，1893 年修订）。理雅各在每章上方所印的中文原文这里不录，因为原典在开架书库另有位置；转录中被分页切断的段落已重新接合。"
@@ -63,5 +64,10 @@
     "en": "The Master said, \"If a man keeps cherishing his old knowledge, so as continually to be acquiring new, he may be a teacher of others.\"",
     "zh": "子曰：温故而知新，可以为师矣。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002005",
+    "S-002007",
+    "S-002006"
+  ]
 }

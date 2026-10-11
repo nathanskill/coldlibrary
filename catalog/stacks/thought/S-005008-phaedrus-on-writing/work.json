@@ -25,6 +25,7 @@
     "dates": "1817–1893",
     "year": 1871
   },
+  "orig_lang": "grc",
   "edition": {
     "en": "The closing section of the dialogue, from “But there is something yet to be said of propriety and impropriety of writing” to the end, in Benjamin Jowett’s translation (first published 1871, revised in his lifetime), from Project Gutenberg eBook #1636. Jowett’s introduction is not included.",
     "zh": "对话的最后一部分，从“不过，关于写作的得体与不得体，还有些话要说”到结尾，用本杰明·乔伊特的译本（1871 年初版，生前修订），据古登堡计划电子书 1636。不含乔伊特的导言。"
@@ -68,5 +69,27 @@
     "en": "the creations of the painter have the attitude of life, and yet if you ask them a question they preserve a solemn silence.",
     "zh": "画家的作品摆出活生生的姿态，可你若问它们一个问题，它们就保持庄严的沉默。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "writing is unfortunately like painting",
+      "en": "Plato makes this complaint in writing, and in a form that imitates live talk: two voices questioning each other. The dialogue is his partial answer to Socrates, a text built to keep the argument moving after the speakers have gone.",
+      "zh": "柏拉图恰恰是用文字写下这番抱怨的，而且用的是模仿当面交谈的体裁：两个声音互相发问。对话体本身就是他对苏格拉底的半个回答，一种在说话的人离去之后，仍让论辩继续向前的文字。"
+    },
+    {
+      "at": "memorials to be treasured against the forgetfulness of old age",
+      "en": "Socrates does not forbid writing. He allows it as a store against forgetting, kept for oneself and for “any other old man who is treading the same path”. As a description of what a library is for, that is hard to improve.",
+      "zh": "苏格拉底并没有禁止写作。他准许它作为对抗遗忘的储藏，留给自己，也留给“走在同一条路上的另一位老人”。要说图书馆是做什么用的，很难说得比这更好。"
+    },
+    {
+      "at": "Isocrates is still young, Phaedrus",
+      "en": "The conversation is set when Isocrates was young, but Plato wrote it decades later, when Isocrates ran a rival school in Athens. The prophecy is a verdict written after the fact, and readers still disagree whether it is a compliment or a reminder of what he did not become.",
+      "zh": "这场谈话设定在伊索克拉底年轻的时候，但柏拉图写下它是在几十年后，那时伊索克拉底已在雅典开办了一所与他竞争的学校。所以这则预言其实是事后写下的评语，读者至今仍在争论：它是恭维，还是在提醒他没有成为的那个人。"
+    }
+  ],
+  "pairs": [
+    "S-004017",
+    "S-008015",
+    "S-002041"
+  ]
 }

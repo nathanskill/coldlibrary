@@ -25,6 +25,7 @@
     "dates": "1800–1879",
     "year": 1877
   },
+  "orig_lang": "grc",
   "edition": {
     "en": "The complete Encheiridion, in all fifty-two chapters, from George Long’s The Discourses of Epictetus; with the Encheiridion and Fragments (London, 1877), as transcribed on English Wikisource. Long’s footnotes are omitted; his parenthetical alternative renderings are his own and are kept.",
     "zh": "《手册》五十二章全文，据英文维基文库所录乔治·朗《爱比克泰德讲谈录，附手册与残篇》（伦敦，1877）。略去朗的脚注；括号中的另译出自朗本人，予以保留。"
@@ -49,8 +50,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "The Handbook is Arrian’s digest of the teaching of Epictetus, a freed slave who taught that some things are up to us and most are not. Long’s version is literal to the point of stiffness, with his alternative renderings left in parentheses, which makes it a good text to read slowly. The first chapter sets out the distinction that everything after it depends on. The Chinese translates chapters I to XVII.",
-    "zh": "《手册》是阿里安为老师爱比克泰德的教诲所编的要略；爱比克泰德出身奴隶，教人分清哪些事在我们权能之内、而大多数事不在。朗的译本直译到近乎生硬，还把另一种译法留在括号里，正适合慢慢读。第一章立下的那个区分，是后面一切所依据的。中文译出第一至十七章。"
+    "en": "The Handbook is Arrian’s digest of the teaching of Epictetus, a freed slave who taught that some things are up to us and most are not. Long’s version is literal to the point of stiffness, with his alternative renderings left in parentheses, which makes it a good text to read slowly. The first chapter sets out the distinction that everything after it depends on. The Chinese translates all fifty-two chapters.",
+    "zh": "《手册》是阿里安为老师爱比克泰德的教诲所编的要略；爱比克泰德出身奴隶，教人分清哪些事在我们权能之内、而大多数事不在。朗的译本直译到近乎生硬，还把另一种译法留在括号里，正适合慢慢读。第一章立下的那个区分，是后面一切所依据的。中文译出全部五十二章。"
   },
   "pick": null,
   "tags": [
@@ -64,5 +65,10 @@
     "en": "Men are disturbed not by the things which happen, but by the opinions about the things",
     "zh": "扰乱人的，不是发生的事情，而是人对这些事情的看法。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-005001",
+    "S-005003",
+    "S-002003"
+  ]
 }

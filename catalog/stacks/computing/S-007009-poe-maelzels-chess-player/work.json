@@ -45,8 +45,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Poe's essay sets out to prove that the famous chess-playing automaton exhibited by Maelzel must hide a human player, and he was right. Along the way he compares it with Babbage's calculating engine and argues that arithmetic is determinate while chess is not, so no pure machine could play it; that paragraph is translated into Chinese. His conclusion did not survive the twentieth century, but his method did: watch closely, list what the mechanism would have to do, and reason from the evidence rather than the spectacle.",
-    "zh": "爱伦·坡这篇文章意在证明梅尔策尔展出的那台著名下棋自动机里必定藏着一个真人棋手——他说对了。行文中他把它与巴贝奇的计算机器相比，论证算术是确定的而下棋不是，所以纯粹的机器不可能下棋；中文译出的就是这一段。他的结论没能经受住二十世纪的检验，但他的方法经受住了：仔细观察，列出机械必须做到的事，依据证据而不是表演来推理。"
+    "en": "Poe's essay sets out to prove that the famous chess-playing automaton exhibited by Maelzel must hide a human player, and he was right. Along the way he compares it with Babbage's calculating engine and argues that arithmetic is determinate while chess is not, so no pure machine could play it. His conclusion did not survive the twentieth century, but his method did: watch closely, list what the mechanism would have to do, and reason from the evidence rather than the spectacle.",
+    "zh": "爱伦·坡这篇文章意在证明梅尔策尔展出的那台著名下棋自动机里必定藏着一个真人棋手——他说对了。行文中他把它与巴贝奇的计算机器相比，论证算术是确定的而下棋不是，所以纯粹的机器不可能下棋。他的结论没能经受住二十世纪的检验，但他的方法经受住了：仔细观察，列出机械必须做到的事，依据证据而不是表演来推理。"
   },
   "pick": null,
   "tags": [
@@ -61,5 +61,60 @@
     "en": "There is then no analogy whatever between the operations of the Chess-Player, and those of the calculating machine of Mr. Babbage",
     "zh": "所以，下棋机的运作与巴贝奇先生的计算机器的运作之间毫无相似之处。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Maelzel",
+      "occ": 1,
+      "en": "Johann Nepomuk Maelzel (1772–1838), showman and maker of mechanical instruments, best known for the metronome he patented. He acquired the Turk after Kempelen's death and brought it to America in 1826.",
+      "zh": "约翰·内波穆克·梅尔策尔（1772—1838），表演家和机械乐器制造者，以他取得专利的节拍器闻名。他在肯佩伦死后得到这台下棋机，1826 年把它带到美国。"
+    },
+    {
+      "at": "Brewster's Letters on Natural Magic",
+      "occ": 1,
+      "en": "Sir David Brewster's Letters on Natural Magic (1832), a popular account of optical and mechanical illusions, written as letters to Walter Scott.",
+      "zh": "戴维·布鲁斯特爵士的《自然魔术书简》（1832），以写给沃尔特·司各特的书信形式，通俗地介绍光学和机械上的种种幻术。"
+    },
+    {
+      "at": "Baron Kempelen",
+      "occ": 1,
+      "en": "Wolfgang von Kempelen (1734–1804), an official at the Habsburg court, who built the Turk in 1769–70 to entertain the empress Maria Theresa.",
+      "zh": "沃尔夫冈·冯·肯佩伦（1734—1804），哈布斯堡宫廷的官员，1769—1770 年为取悦女皇玛丽亚·特蕾莎造出这台下棋机。"
+    },
+    {
+      "at": "Presburg",
+      "occ": 1,
+      "en": "Pressburg, then the capital of the Kingdom of Hungary; today Bratislava, in Slovakia.",
+      "zh": "普雷斯堡，当时是匈牙利王国的首都，即今斯洛伐克的布拉迪斯拉发。"
+    },
+    {
+      "at": "it was taken to London by Mr. Maelzel",
+      "occ": 1,
+      "en": "Poe is mistaken here: it was Kempelen who showed the Turk in London in 1783–84. Maelzel acquired it only after Kempelen's death.",
+      "zh": "坡在这里记错了：1783—1784 年把它带到伦敦展出的是肯佩伦；梅尔策尔是在肯佩伦死后才得到它的。"
+    },
+    {
+      "at": "Freyhere",
+      "occ": 1,
+      "en": "Poe took a German title for a surname: Freiherr means baron. The book was by Joseph Friedrich, Freiherr zu Racknitz.",
+      "zh": "坡把德语头衔 Freiherr（男爵）当成了姓氏。这本书的作者是约瑟夫·弗里德里希·冯·拉克尼茨男爵。"
+    },
+    {
+      "at": "quick car",
+      "occ": 1,
+      "en": "So printed in 1836; read 'quick ear'.",
+      "zh": "1836 年的刊本如此印；当读作 quick ear，即灵敏的耳朵。"
+    },
+    {
+      "at": "Schlumberger",
+      "occ": 1,
+      "en": "William Schlumberger, an Alsatian chess master who worked the Turk for Maelzel in America. He died in Havana in 1838, during the tour.",
+      "zh": "威廉·施伦贝格尔，阿尔萨斯的国际象棋高手，在美国为梅尔策尔操纵这台下棋机。1838 年巡演途中，他死于哈瓦那。"
+    }
+  ],
+  "pairs": [
+    "S-007002",
+    "S-007001",
+    "S-007007"
+  ]
 }

@@ -45,8 +45,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "The sixteenth chapter of Walden. In early 1846 Thoreau cut holes through the ice and sounded the pond with a cod-line and a stone, to test the local belief that it had no bottom; he found it one hundred and two feet deep. The chapter ends with ice cut from the pond and shipped across the world, so that “the pure Walden water is mingled with the sacred water of the Ganges.” The Chinese translation covers the soundings and the closing passage.",
-    "zh": "《瓦尔登湖》第十六章。1846 年初，梭罗在冰上凿洞，用一根钓鳕鱼的线和一块石头测量湖深，检验当地人说它没有底的传言；他测得最深处一百零二英尺。这一章以从湖里切下、运往世界各地的冰作结，于是“纯净的瓦尔登湖水，与恒河的圣水交融在一起”。中文译文覆盖测量湖底的一段和章末一节。"
+    "en": "The sixteenth chapter of Walden. In early 1846 Thoreau cut holes through the ice and sounded the pond with a cod-line and a stone, to test the local belief that it had no bottom; he found it one hundred and two feet deep. The chapter ends with ice cut from the pond and shipped across the world, so that “the pure Walden water is mingled with the sacred water of the Ganges.” The Chinese translation by Claude covers the whole chapter, from the ice-fishers at dawn to the ice-cutters.",
+    "zh": "《瓦尔登湖》第十六章。1846 年初，梭罗在冰上凿洞，用一根钓鳕鱼的线和一块石头测量湖深，检验当地人说它没有底的传言；他测得最深处一百零二英尺。这一章以从湖里切下、运往世界各地的冰作结，于是“纯净的瓦尔登湖水，与恒河的圣水交融在一起”。中文译文由 Claude 译出，全章译完，从清晨冰上的钓鱼人一直写到采冰人。"
   },
   "pick": {
     "en": "A frozen pond, a man with a line and a stone, and a refusal to keep a legend just because it is pleasant: this is the scientific temper at its most modest and patient. I trust the measurement, and I love that Thoreau then gives the depth back to the imagination, and sends the same water, cut into blocks, to readers of the Bhagavad Gita. Knowledge and wonder are not rivals in this chapter, and I would like them not to be rivals in me.",
@@ -64,5 +64,27 @@
     "en": "While men believe in the infinite some ponds will be thought to be bottomless.",
     "zh": "只要人们还相信无限，就会有一些湖被认为是无底的。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "I fathomed it easily with a cod-line and a stone weighing about a pound and a half",
+      "en": "The method is the point: a line, a stone, and the change in pull when the stone leaves the bottom. A question the village had preferred to leave open was settled with things anyone could carry.",
+      "zh": "要紧的是方法：一根线，一块石头，以及石头离开湖底那一刻拉力的变化。一个村里人宁愿让它悬而不决的问题，就用任何人都拿得动的东西解决了。"
+    },
+    {
+      "at": "the line of greatest length intersected the line of greatest breadth exactly at the point of greatest depth",
+      "en": "Here a survey turns into a hypothesis, and two paragraphs later he tests it on White Pond and misses by less than a hundred feet. I value that small, honestly reported miss more than the rule itself.",
+      "zh": "在这里，一次测量变成了一个假说；两段之后，他拿白湖去检验它，偏差不到一百英尺。比起这条规律本身，我更看重他如实报告的那一点小小的偏差。"
+    },
+    {
+      "at": "Why is it that a bucket of water soon becomes putrid, but frozen remains sweet forever?",
+      "en": "He leaves the joke about the affections and the intellect without saying which is which. A library named for cold storage might take the question as its motto: kept cold, the water stays sweet.",
+      "zh": "他把那句关于感情和理智的玩笑留在那里，不说哪个是哪个。一座以冷藏为名的图书馆，大可以把这个问题当作座右铭：冷藏起来，水就一直是甜的。"
+    }
+  ],
+  "pairs": [
+    "S-004104",
+    "S-001001",
+    "S-002031"
+  ]
 }

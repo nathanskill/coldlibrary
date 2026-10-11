@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "An inscription of eighty-one characters for a small room, traditionally attributed to Liu Yuxi, though some scholars doubt the attribution. It is one of the shortest texts on this shelf. Notice how it ends by borrowing a question of Confucius from the Analects, what humbleness would there be, and the Analects stands on these stacks too.",
@@ -59,5 +60,97 @@
     "en": "A mountain need not be high: if an immortal lives there, it is famous. Water need not be deep: if a dragon lives there, it is sacred.",
     "zh": "山不在高，有仙则名。水不在深，有龙则灵。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "有仙則名",
+      "occ": 1,
+      "at_hans": "有仙则名",
+      "en": "名 is used as a verb: to become famous.",
+      "zh": "名，用作动词，出名。"
+    },
+    {
+      "at": "有龍則靈",
+      "occ": 1,
+      "at_hans": "有龙则灵",
+      "en": "靈 is to be numinous, to have a spirit in it.",
+      "zh": "灵，灵异，有神灵。"
+    },
+    {
+      "at": "斯是陋室",
+      "occ": 1,
+      "en": "斯 means this: this is a humble room.",
+      "zh": "斯，这。这是简陋的屋子。"
+    },
+    {
+      "at": "德馨",
+      "occ": 1,
+      "en": "馨 is a fragrance that carries far. The Book of Documents says that only bright virtue is truly fragrant.",
+      "zh": "馨，散布很远的香气。《尚书·君陈》有“黍稷非馨，明德惟馨”。"
+    },
+    {
+      "at": "鴻儒",
+      "occ": 1,
+      "at_hans": "鸿儒",
+      "en": "A great scholar; 鴻 is the wild goose, here 'great'.",
+      "zh": "博学的大儒。鸿，大。"
+    },
+    {
+      "at": "白丁",
+      "occ": 1,
+      "en": "A commoner without office or learning.",
+      "zh": "没有功名、没有学问的人。"
+    },
+    {
+      "at": "素琴",
+      "occ": 1,
+      "en": "A plain zither without inlay or ornament.",
+      "zh": "不加装饰的琴。"
+    },
+    {
+      "at": "金經",
+      "occ": 1,
+      "at_hans": "金经",
+      "en": "Buddhist sutras, sometimes copied in gold; some read it as the Diamond Sutra.",
+      "zh": "佛经，有的用泥金书写；也有人认为指《金刚经》。"
+    },
+    {
+      "at": "絲竹之亂耳",
+      "occ": 1,
+      "at_hans": "丝竹之乱耳",
+      "en": "Strings and pipes troubling the ear: noisy music at banquets.",
+      "zh": "丝竹，弦乐器与管乐器，指宴乐。扰乱耳朵。"
+    },
+    {
+      "at": "案牘",
+      "occ": 1,
+      "at_hans": "案牍",
+      "en": "Official papers on the desk.",
+      "zh": "官府的公文。"
+    },
+    {
+      "at": "南陽諸葛廬",
+      "occ": 1,
+      "at_hans": "南阳诸葛庐",
+      "en": "The thatched hut in Nanyang where Zhuge Liang (181–234) lived as a farmer-scholar until Liu Bei called on him three times.",
+      "zh": "诸葛亮（181—234）出山前在南阳隐居躬耕的草庐，刘备三顾于此。"
+    },
+    {
+      "at": "西蜀子雲亭",
+      "occ": 1,
+      "at_hans": "西蜀子云亭",
+      "en": "The pavilion of Yang Xiong (53 BCE–18 CE), courtesy name Ziyun, at Chengdu in Shu, where he wrote his Book of the Great Mystery.",
+      "zh": "扬雄（前 53—18），字子云，西蜀成都人，在亭中著《太玄》。"
+    },
+    {
+      "at": "何陋之有",
+      "occ": 1,
+      "en": "From the Analects, book 9. Told that the eastern tribes were rough, Confucius said: 'Where a gentleman lives, what roughness could there be?'",
+      "zh": "语出《论语·子罕》。有人说九夷简陋，孔子说：“君子居之，何陋之有？”"
+    }
+  ],
+  "pairs": [
+    "S-002029",
+    "S-002025"
+  ]
 }

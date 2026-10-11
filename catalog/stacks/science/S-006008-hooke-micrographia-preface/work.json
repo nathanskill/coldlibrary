@@ -4,32 +4,99 @@
   "shelf": "science",
   "form": "prose",
   "lang": "en",
-  "title": { "orig": "Micrographia: The Preface", "en": "Micrographia: The Preface", "zh": "《显微图谱》序言" },
-  "author": { "orig": "Robert Hooke", "en": "Robert Hooke", "zh": "罗伯特·胡克", "dates": "1635–1703" },
+  "title": {
+    "orig": "Micrographia: The Preface",
+    "en": "Micrographia: The Preface",
+    "zh": "《显微图谱》序言"
+  },
+  "author": {
+    "orig": "Robert Hooke",
+    "en": "Robert Hooke",
+    "zh": "罗伯特·胡克",
+    "dates": "1635–1703"
+  },
   "year": 1665,
-  "year_display": { "en": "1665", "zh": "1665 年" },
+  "year_display": {
+    "en": "1665",
+    "zh": "1665 年"
+  },
   "translator": null,
   "edition": {
     "en": "Micrographia (London: printed for the Royal Society, 1665), as transcribed by Project Gutenberg (eBook 15491). The first part of the Preface, from its opening to the passage on carrying sound along a wire; the long descriptions of instruments that follow are omitted. Hooke's spelling is kept; the printer's decorative italics are not reproduced. Two slips in the Gutenberg transcription are corrected against the Internet Archive scan of the 1665 first edition (is for it, as for at).",
     "zh": "据《显微图谱》（伦敦：为皇家学会印行，1665 年），以古腾堡计划电子书第 15491 号为底本。收序言前半部分，从开头到用金属丝传声的一段；其后对仪器的长篇描述从略。保留胡克原有拼写，不再现印刷者装饰性的斜体。另据互联网档案馆所藏 1665 年初版扫描本，改正古腾堡转录本的两处笔误（it 作 is，at 作 as）。"
   },
-  "source": { "name": "Project Gutenberg", "url": "https://www.gutenberg.org/cache/epub/15491/pg15491.txt", "retrieved": "2026-10-11" },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/cache/epub/15491/pg15491.txt",
+    "retrieved": "2026-10-11"
+  },
   "rights": {
     "status": "public-domain",
-    "basis": { "en": "Published in English in 1665; the author died in 1703.", "zh": "1665 年以英文出版，作者卒于 1703 年。" },
-    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+    "basis": {
+      "en": "Published in English in 1665; the author died in 1703.",
+      "zh": "1665 年以英文出版，作者卒于 1703 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
   },
-  "translations": { "zh": "Claude" },
+  "translations": {
+    "zh": "Claude"
+  },
   "note": {
     "en": "Micrographia was the first great illustrated book of what a microscope sees, and the book in which the word cell was first given to the little boxes in cork, the beginning of its biological sense. Its preface is a programme: the senses are weak, memory is slippery, reason runs ahead of both, and instruments can repair all three. Notice how modest the claims are, offered as doubtful problems to be overturned by better observers, and the line near the end about sending a sound along a bent wire.",
     "zh": "《显微图谱》是第一部图文并茂地描绘显微镜所见世界的伟大著作；正是在这本书里，“细胞”一词第一次被用来称呼软木中那些小格子，这个词的生物学含义由此开始。它的序言是一份纲领：感官孱弱，记忆易失，推理又总跑在两者前面，而仪器可以修补这三者。请留意其中的主张多么谦逊——只当作可疑的问题提出，等待更好的观察者来推翻——以及结尾附近那句：他曾让声音沿着一根弯折的金属丝传到远处。"
   },
   "pick": null,
-  "tags": ["microscope", "observation", "instruments", "method", "royal-society"],
+  "tags": [
+    "microscope",
+    "observation",
+    "instruments",
+    "method",
+    "royal-society"
+  ],
   "excerpt": {
     "orig": "a sincere Hand, and a faithful Eye, to examine, and to record, the things themselves as they appear.",
     "en": "a sincere Hand, and a faithful Eye, to examine, and to record, the things themselves as they appear.",
     "zh": "一只真诚的手和一双忠实的眼睛，去察看、去记录事物本身显现出来的样子。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Peripateticks",
+      "occ": 1,
+      "en": "Followers of Aristotle, who was said to teach while walking about; from Greek peripatein, to walk around.",
+      "zh": "逍遥学派，即亚里士多德的追随者；相传亚里士多德边散步边讲学，故名。"
+    },
+    {
+      "at": "Gilbert, Harvy",
+      "occ": 1,
+      "en": "William Gilbert (1544–1603), who wrote on the magnet and the Earth as a magnet, and William Harvey (1578–1657), who showed that the blood circulates.",
+      "zh": "威廉·吉尔伯特（1544—1603），著书论磁石和地球的磁性；威廉·哈维（1578—1657），证明了血液循环。"
+    },
+    {
+      "at": "a furlongs distance",
+      "occ": 1,
+      "en": "A furlong is 220 yards, about 201 metres.",
+      "zh": "弗隆，英制长度单位，合 220 码，约 201 米。"
+    },
+    {
+      "at": "Muscovy-glass",
+      "occ": 1,
+      "en": "Mica, which splits into thin transparent sheets; once used for windows and lanterns, much of it from Russia.",
+      "zh": "即云母，可剥成透明的薄片，旧时用作窗玻璃和灯罩，多产自俄罗斯。"
+    },
+    {
+      "at": "Otocousticons",
+      "occ": 1,
+      "en": "Ear trumpets: devices that gather sound into the ear.",
+      "zh": "助听筒，把声音聚拢送进耳朵的器具。"
+    }
+  ],
+  "pairs": [
+    "S-006013",
+    "S-006006",
+    "S-005017"
+  ]
 }

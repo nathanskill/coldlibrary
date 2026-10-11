@@ -62,5 +62,27 @@
     "en": "For it will, as he believ'd, appear once more, in a new & more perfect Edition",
     "zh": "因为它——如他所相信的——还会再次出现，成为一个更新、更完善的版本"
   },
-  "plate": "G-008007"
+  "plate": "G-008007",
+  "marginalia": [
+    {
+      "at": "Like the Cover of an old Book,",
+      "en": "Every image comes from his trade: cover, contents, lettering and gilding are the parts a printer and binder handled every day. He describes his own death in the vocabulary of the shop.",
+      "zh": "每一个意象都来自他的行当：封皮、内文、烫字和描金，都是印刷工和装订工每天经手的东西。他用作坊里的词汇描述自己的死。"
+    },
+    {
+      "at": "Corrected and amended",
+      "en": "This is the formula of an eighteenth-century title page announcing a revised edition. Franklin did not invent a phrase for the afterlife; he borrowed one from the printing house.",
+      "zh": "这是十八世纪书籍扉页上宣告修订版的套语。富兰克林没有为来世另造一句话，而是从印刷作坊里借来了一句。"
+    },
+    {
+      "at": "Died 17",
+      "en": "He left the date for someone else to finish. This text was not cut on his grave: his will asked for a plain stone with only his and his wife Deborah's names and the year, and that is the stone in Philadelphia.",
+      "zh": "他把日期留给别人去补完。这篇文字并没有刻在他的墓上：他在遗嘱里要求立一块朴素的石碑，只刻他和妻子德博拉的名字以及年份；费城立着的正是这样一块碑。"
+    }
+  ],
+  "pairs": [
+    "S-008012",
+    "S-008020",
+    "S-008019"
+  ]
 }

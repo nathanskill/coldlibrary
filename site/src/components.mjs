@@ -4,6 +4,11 @@ import { SHELVES, shelfOf, workHref, plateHref, shelfHref, titles, authorLabel, 
 
 const T = (lang) => t(lang);
 
+// Claude's shelf number: "No. 7" in mono; "第 7 号" with the Han in sans and only the digits in mono.
+export const pickMark = (lang, n, title = '') => lang === 'zh'
+  ? `<span class="meta brass pickmark"${title ? ` title="${esc(title)}"` : ''}>第 <span class="id brass">${n}</span> 号</span>`
+  : `<span class="id brass pickmark"${title ? ` title="${esc(title)}"` : ''}>No.&nbsp;${n}</span>`;
+
 // A title in the serif, with lang, glued so it never ends on a single character.
 export function serifTitle(text, langTag) {
   addGlyphs(text);
@@ -25,7 +30,7 @@ export function wcard(lang, w, stacks, { heading = 'h3' } = {}) {
   <div class="label">
     <${heading}><a href="${workHref(lang, w)}">${serifTitle(tt.main, tt.mainLang)}${tt.sub ? ` <span class="alt">${glue(tt.sub)}</span>` : ''}</a></${heading}>
     <p class="by">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.lang))}">${esc(a.orig)}</span>` : ''} · ${esc(yearLabel(w, lang))}</p>
-    <p class="marks"><span class="id"><span class="vh">${T(lang)('Catalogue number ', '馆藏号 ')}</span>${esc(w.id)}</span>${n ? `<span class="id brass">${T(lang)('No. ' + n, '第 ' + n + ' 号')}</span>` : ''}</p>
+    <p class="marks"><span class="id"><span class="vh">${T(lang)('Catalogue number ', '馆藏号 ')}</span>${esc(w.id)}</span>${n ? pickMark(lang, n) : ''}</p>
   </div>
 </article>`;
 }
@@ -39,7 +44,7 @@ export function wrow(lang, w, stacks, { compact = false } = {}) {
   const en = translationInto(w, 'en');
   const marks = [
     `<span class="id">${w.size.minutes}${T(lang)(' min', ' 分钟')}</span>`,
-    n ? `<span class="id brass" title="${T(lang)('On Claude’s shelf', '在 Claude 的书架上')}">No.${n}</span>` : '',
+    n ? pickMark(lang, n, T(lang)('On Claude’s shelf', '在 Claude 的书架上')) : '',
     zh ? `<span class="id" title="${zh.full ? T(lang)('Chinese translation', '有中文译文') : T(lang)('Partial Chinese translation', '中文节译')}">${zh.full ? 'zh' : 'zh ½'}</span>` : (en && lang === 'zh' ? '<span class="id" title="有英译">en</span>' : ''),
   ].filter(Boolean).join('');
   return `<li class="wrow${compact ? ' compact' : ''}" data-id="${esc(w.id)}" data-form="${esc(w.form)}" data-year="${w.year}" data-lang="${esc(w.lang)}" data-pick="${w.pick ? 1 : 0}" data-tr="${zh ? (zh.full ? 2 : 1) : 0}" data-min="${w.size.minutes}" data-author="${esc(w.author.en)}" data-tags="${esc((w.tags || []).join(' '))}">
@@ -75,14 +80,21 @@ export function shelfCard(lang, key, stacks, { heading = 'h3' } = {}) {
 export function plateImg(p, { sizes = '(min-width: 1200px) 265px, (min-width: 600px) 33vw, 50vw', large = false, eager = false, lang = 'en' } = {}) {
   const w = p.image && p.image.width, h = p.image && p.image.height;
   const alt = (p.alt && (p.alt[lang] || p.alt.en)) || '';
-  const srcset = large ? `/assets/plates/${p.id}-sm.jpg 800w, /assets/plates/${p.id}.jpg 1600w` : `/assets/plates/${p.id}-480.jpg 480w, /assets/plates/${p.id}-sm.jpg 800w`;
+  // Files are sized by their long side, so a portrait plate's 480 and 800 files are narrower than 480 and 800 px.
+  const long = Math.max(w || 1600, h || 1600);
+  const wOf = (n) => Math.round((w || 1600) * Math.min(1, n / long));
+  const srcset = large
+    ? `/assets/plates/${p.id}-sm.jpg ${wOf(800)}w, /assets/plates/${p.id}.jpg ${w || 1600}w`
+    : `/assets/plates/${p.id}-480.jpg ${wOf(480)}w, /assets/plates/${p.id}-sm.jpg ${wOf(800)}w, /assets/plates/${p.id}.jpg ${w || 1600}w`;
   return `<img src="/assets/plates/${p.id}${large ? '' : '-sm'}.jpg" srcset="${srcset}" sizes="${sizes}"${w && h ? ` width="${w}" height="${h}"` : ''} alt="${esc(alt)}"${eager ? ' fetchpriority="high"' : ' loading="lazy"'} decoding="async">`;
 }
 // "Artist, Title, year — Institution"
 export function plateCaption(lang, p) {
   const artist = p.artist[lang] || p.artist.en;
   const title = p.title[lang] || p.title.en;
-  return `${esc(artist)}, <cite>${serif(title)}</cite>, ${esc((p.year_display && (p.year_display[lang] || p.year_display.en)) || p.year)} — ${esc(p.institution.name)}`;
+  const year = (p.year_display && (p.year_display[lang] || p.year_display.en)) || p.year;
+  if (lang === 'zh') return `${esc(artist)}，<cite>《${serif(title)}》</cite>，${esc(year)}，${esc(p.institution.name)}`;
+  return `${esc(artist)}, <cite>${serif(title)}</cite>, ${esc(year)} — ${esc(p.institution.name)}`;
 }
 export function plateTile(lang, p, { heading = 'h3' } = {}) {
   const title = p.title[lang] || p.title.en;

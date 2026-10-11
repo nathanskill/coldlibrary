@@ -5,7 +5,8 @@ I raise my cup and ask the blue sky.
 I do not know, in the palaces of heaven,
 what year it is tonight.
 I would like to ride the wind and go back up there,
-but I fear those towers of jade and halls of crystal, so high, so very cold.
+but I fear those towers of jade and halls of crystal,
+so high, so very cold.
 I rise and dance with my clear shadow:
 how could that compare with being among people?
 

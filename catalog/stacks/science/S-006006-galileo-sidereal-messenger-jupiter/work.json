@@ -25,6 +25,7 @@
     "dates": "1842–1927",
     "year": 1880
   },
+  "orig_lang": "la",
   "edition": {
     "en": "The Sidereal Messenger of Galileo Galilei, trans. E. S. Carlos (London: Rivingtons, 1880), as transcribed by Project Gutenberg (eBook 46036): the account of the first observations, 7 to 13 January 1610, and the conclusions Galileo draws from two months of nightly records. The long table of observations between them is omitted, as are Carlos's footnotes. Galileo's small diagrams of each night's arrangement are not reproduced; the sentence after each reference describes it.",
     "zh": "据卡洛斯译《伽利略的星际信使》（伦敦：Rivingtons，1880 年），以古腾堡计划电子书第 46036 号为底本：收 1610 年 1 月 7 日至 13 日最初几夜的观测记述，以及伽利略根据两个月逐夜记录得出的结论。中间冗长的观测记录与卡洛斯的脚注从略。伽利略每夜所画的星位小图未能收入，每处提到图的地方，紧接着的句子都描述了当时的排列。"
@@ -65,5 +66,42 @@
     "en": "I therefore concluded, and decided unhesitatingly, that there are three stars in the heavens moving about Jupiter, as Venus and Mercury round the Sun; which at length was established as clear as daylight by numerous other subsequent observations.",
     "zh": "于是我断定，并毫不犹豫地确认：天上有三颗星在绕着木星运动，就像金星和水星绕着太阳运动一样。后来又经过许多次观测，这一点终于像白昼一样清楚地确立了。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "in the first hour of the following night",
+      "occ": 1,
+      "en": "Hours were then counted in Italy from sunset, so the first hour of the night is the hour after dusk.",
+      "zh": "当时意大利从日落起算钟点，“夜里第一个钟头”就是黄昏后的第一个小时。"
+    },
+    {
+      "at": "2´",
+      "occ": 1,
+      "en": "Two minutes of arc, one thirtieth of a degree. The full Moon is about thirty minutes across.",
+      "zh": "两角分，即一度的三十分之一。满月的视直径约为三十角分。"
+    },
+    {
+      "at": "Medicean planets",
+      "occ": 1,
+      "en": "Galileo named the four moons after the Medici, the ruling family of Florence, and soon became court mathematician to Cosimo II. They are now called the Galilean moons: Io, Europa, Ganymede and Callisto.",
+      "zh": "伽利略以佛罗伦萨的统治家族美第奇的名字为这四颗卫星命名，不久便成了科西莫二世的宫廷数学家。今天它们被称为伽利略卫星：木卫一至木卫四。"
+    },
+    {
+      "at": "orbits of twelve years’ length",
+      "occ": 1,
+      "en": "Jupiter takes about 11.9 years to go round the Sun, and its moons go with it.",
+      "zh": "木星绕太阳一周约需 11.9 年，它的卫星随它一同运行。"
+    },
+    {
+      "at": "a periodic time of half a month",
+      "occ": 1,
+      "en": "The outermost of the four, Callisto, takes about 16.7 days, so an estimate made from two months of nights was close.",
+      "zh": "四颗中最外侧的木卫四，周期约 16.7 天；凭两个月的夜间观测作出的这个估计相当接近。"
+    }
+  ],
+  "pairs": [
+    "S-006008",
+    "S-006002",
+    "S-006009"
+  ]
 }

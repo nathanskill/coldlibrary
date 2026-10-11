@@ -61,5 +61,9 @@
     "en": "But one man loved the pilgrim soul in you,\nAnd loved the sorrows of your changing face;",
     "zh": "但有一个人爱你朝圣者的灵魂，\n爱你变化的脸上的忧伤；"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004027",
+    "S-004004"
+  ]
 }

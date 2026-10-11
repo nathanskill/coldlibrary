@@ -25,6 +25,7 @@
     "dates": "1834–1913",
     "year": 1877
   },
+  "orig_lang": "fr",
   "edition": {
     "en": "The preface to the Essays, from Essays of Michel de Montaigne, edited by William Carew Hazlitt (1877), Project Gutenberg eBook #3600, where it is marked as omitted by Cotton, so the English is the 1877 edition’s own. The source gives two datelines; the second, 1 March 1580, the date of the first edition, is kept. One slip in that e-text (“any imperfections” for “my imperfections”) is corrected against the 1877 printing.",
     "zh": "《随笔集》的序言，据古登堡计划电子书 3600《蒙田随笔集》（哈兹利特编，1877）；该版注明此篇为科顿所略，因此英文出自 1877 年版本身。原文有两行落款，保留第二行，即初版的日期 1580 年 3 月 1 日。该电子本中一处错字（my imperfections 误作 any imperfections）已据 1877 年印本改正。"
@@ -68,5 +69,27 @@
     "en": "I desire therein to be viewed as I appear in mine own genuine, simple, and ordinary manner, without study and artifice: for it is myself I paint.",
     "zh": "我希望人们在这本书里看到的，是我本来的样子，真实、简单、平常，不加雕琢，不施技巧：因为我画的是我自己。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "which they must do shortly",
+      "en": "He wrote this at forty-seven and lived another twelve years, spending much of them on the same book: a third volume in 1588, and handwritten additions crowding the margins of his own copy, which is kept in Bordeaux. The book went on growing after its author had said goodbye in it.",
+      "zh": "他写下这句话时四十七岁，此后又活了十二年，其中许多时间都花在这同一本书上：1588 年增出第三卷，他自用的那一册书页边上也写满了亲笔增补，至今保存在波尔多。作者在书里道了别，书却还在继续生长。"
+    },
+    {
+      "at": "for it is myself I paint",
+      "en": "The verb is paint, not record. A portrait is posed and selected, and the next sentence admits a limit set by “public reverence”. What he promises is likeness rather than completeness, which is the more honest promise.",
+      "zh": "动词是“画”，不是“记录”。肖像总要摆姿势、有取舍，下一句他就承认了“公众的礼数”所设的界限。他许诺的是相像，而不是完整；这个许诺反而更诚实。"
+    },
+    {
+      "at": "so frivolous and vain a subject",
+      "en": "A preface that tells the reader to go away works as a filter. Anyone still reading after “Therefore farewell” has accepted the terms: the subject will be one ordinary person, and that is to be enough.",
+      "zh": "一篇叫读者走开的序言，起的是筛子的作用。读到“那么，再见”之后还在往下读的人，已经接受了他的条件：题材只是一个平常的人，而这就应当足够。"
+    }
+  ],
+  "pairs": [
+    "S-008020",
+    "S-005010",
+    "S-005011"
+  ]
 }

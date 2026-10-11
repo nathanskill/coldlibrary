@@ -60,5 +60,10 @@
     "en": "These aids may, therefore, be small at first; but as the capital increases by the accumulated interest, they will be more ample.",
     "zh": "所以，这些资助起初也许很少；但随着资本靠累积的利息增长，它们会越来越充裕。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-008011",
+    "S-008021",
+    "S-008009"
+  ]
 }

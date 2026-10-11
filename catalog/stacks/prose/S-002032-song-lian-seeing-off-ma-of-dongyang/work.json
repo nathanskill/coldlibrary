@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Song Lian, in old age, writes to a young student about how he himself learned: borrowing books he could not afford, copying them by hand in cold so hard the ink-stone froze, and returning them on the day agreed. It was written in 1378 and has been read by Chinese students ever since. Notice the contrast he draws with the students of the academy, who have every book gathered for them.",
@@ -64,5 +65,216 @@
     "en": "When the weather was bitterly cold, the ink-stone froze hard and my fingers would not bend or straighten, but I did not slacken.",
     "zh": "天大寒，砚冰坚，手指不可屈伸，弗之怠。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "致書",
+      "occ": 1,
+      "at_hans": "致书",
+      "en": "To obtain books, by buying them.",
+      "zh": "得到书，指买书。"
+    },
+    {
+      "at": "計日以還",
+      "occ": 1,
+      "at_hans": "计日以还",
+      "en": "Counting the days, so as to return it when promised.",
+      "zh": "计算着日子，按期归还。"
+    },
+    {
+      "at": "硯冰堅",
+      "occ": 1,
+      "at_hans": "砚冰坚",
+      "en": "The ink in the inkstone froze hard.",
+      "zh": "砚台里的墨汁结成了硬冰。"
+    },
+    {
+      "at": "弗之怠",
+      "occ": 1,
+      "en": "Inverted order for 弗怠之: did not slacken at it.",
+      "zh": "即“弗怠之”，不放松抄书这件事。"
+    },
+    {
+      "at": "逾約",
+      "occ": 1,
+      "at_hans": "逾约",
+      "en": "To go past the agreed date.",
+      "zh": "超过约定的期限。"
+    },
+    {
+      "at": "加冠",
+      "occ": 1,
+      "en": "The capping ceremony at twenty that marked a man's coming of age.",
+      "zh": "古代男子二十岁行冠礼，表示成年。"
+    },
+    {
+      "at": "碩師",
+      "occ": 1,
+      "at_hans": "硕师",
+      "en": "A teacher of great learning.",
+      "zh": "学问渊博的老师。"
+    },
+    {
+      "at": "先達",
+      "occ": 1,
+      "at_hans": "先达",
+      "en": "An accomplished senior scholar. Song Lian studied with masters of the Jinhua school such as Wu Lai and Liu Guan.",
+      "zh": "有道德学问的前辈。宋濂曾师从吴莱、柳贯等金华学者。"
+    },
+    {
+      "at": "執經叩問",
+      "occ": 1,
+      "at_hans": "执经叩问",
+      "en": "Holding a classic in his hands and asking questions of it.",
+      "zh": "捧着经书请教。叩，问。"
+    },
+    {
+      "at": "稍降辭色",
+      "occ": 1,
+      "at_hans": "稍降辞色",
+      "en": "To soften his words or his expression even slightly.",
+      "zh": "稍稍放缓言辞和脸色。"
+    },
+    {
+      "at": "援疑質理",
+      "occ": 1,
+      "at_hans": "援疑质理",
+      "en": "To bring up doubts and ask about the principles behind them.",
+      "zh": "提出疑难，询问道理。"
+    },
+    {
+      "at": "負箧曳屣",
+      "occ": 1,
+      "at_hans": "负箧曳屣",
+      "en": "A book box on his back, dragging his worn-out shoes.",
+      "zh": "背着书箱，拖着鞋子。箧，书箱；屣，鞋。"
+    },
+    {
+      "at": "窮冬",
+      "occ": 1,
+      "at_hans": "穷冬",
+      "en": "The depth of winter.",
+      "zh": "隆冬，深冬。"
+    },
+    {
+      "at": "皸裂",
+      "occ": 1,
+      "at_hans": "皲裂",
+      "en": "Chapped and split by the cold.",
+      "zh": "皮肤因寒冷干燥而开裂。"
+    },
+    {
+      "at": "媵人",
+      "occ": 1,
+      "en": "A servant at the lodging house.",
+      "zh": "仆人。"
+    },
+    {
+      "at": "逆旅",
+      "occ": 1,
+      "en": "An inn; 逆 means to receive guests.",
+      "zh": "旅店。逆，迎接。"
+    },
+    {
+      "at": "日再食",
+      "occ": 1,
+      "en": "Two meals a day.",
+      "zh": "每天供给两顿饭。"
+    },
+    {
+      "at": "容臭",
+      "occ": 1,
+      "en": "A scent bag worn at the belt; 臭 here is read xiù, a smell.",
+      "zh": "香袋。臭（xiù），气味。"
+    },
+    {
+      "at": "縕袍",
+      "occ": 1,
+      "at_hans": "缊袍",
+      "en": "A gown padded with old floss and hemp: poor people's clothing.",
+      "zh": "用乱麻旧絮填充的袍子，穷人的衣服。"
+    },
+    {
+      "at": "耄老",
+      "occ": 1,
+      "en": "Very old. Song Lian was then about sixty-eight.",
+      "zh": "年老。宋濂此时约六十八岁。"
+    },
+    {
+      "at": "綴公卿之後",
+      "occ": 1,
+      "at_hans": "缀公卿之后",
+      "en": "To follow behind the high ministers, as one of them. Song Lian had served the Hongwu emperor as a court scholar.",
+      "zh": "追随在公卿之后，指位列朝臣。宋濂曾任明太祖的翰林学士承旨。"
+    },
+    {
+      "at": "太學",
+      "occ": 1,
+      "at_hans": "太学",
+      "en": "The Imperial Academy at Nanjing, then the capital of the Ming.",
+      "zh": "国子学，当时在明朝都城南京。"
+    },
+    {
+      "at": "廩稍",
+      "occ": 1,
+      "at_hans": "廪稍",
+      "en": "The grain allowance the government paid to students.",
+      "zh": "官府供给的粮食。"
+    },
+    {
+      "at": "裘葛",
+      "occ": 1,
+      "en": "Furs for winter and kudzu-fibre cloth for summer.",
+      "zh": "裘，冬天的皮衣；葛，夏天的葛布衣。"
+    },
+    {
+      "at": "司業、博士",
+      "occ": 1,
+      "at_hans": "司业、博士",
+      "en": "Officers of the Academy: the director of studies and the erudites who taught the classics.",
+      "zh": "司业、博士都是国子学的学官，负责教授经书。"
+    },
+    {
+      "at": "東陽馬生君則",
+      "occ": 1,
+      "at_hans": "东阳马生君则",
+      "en": "A student named Ma Junze from Dongyang, in the same prefecture of Zhejiang as Song Lian's home; nothing more is known of him.",
+      "zh": "东阳（今属浙江，与宋濂家乡同属金华府）的学生马君则，生平不详。"
+    },
+    {
+      "at": "余朝京師",
+      "occ": 1,
+      "at_hans": "余朝京师",
+      "en": "Song Lian had retired in 1377 and came back to the capital in 1378 to pay his respects at court.",
+      "zh": "宋濂 1377 年告老还乡，1378 年到京城朝见皇帝。"
+    },
+    {
+      "at": "贄",
+      "occ": 1,
+      "at_hans": "贽",
+      "en": "A gift brought on a first visit to a senior.",
+      "zh": "初次拜见长辈时所送的礼物。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "以是人多以書假余",
+      "en": "Notice the cause he gives. People did not lend him books because he was poor or gifted; they lent because he brought them back on the day agreed, frozen fingers and all. Lending still runs on exactly that.",
+      "zh": "留意他说的因果：人们借书给他，不是因为他穷，也不是因为他聪明，而是因为他冻着手指也按期归还。借阅至今仍靠这一点运转。"
+    },
+    {
+      "at": "同舍生皆被綺綉",
+      "en": "The other students' finery takes nearly thirty characters: silks, pearl tassels, white jade, swords, scent bags. His own clothes take four. He never says which side the reader should take; the proportion says it.",
+      "zh": "同舍生的华服写了将近三十个字：绮绣、珠缨、白玉、佩刀、香囊；他自己的衣服只有四个字。他没有说读者该站在哪一边，篇幅的比例已经说了。"
+    },
+    {
+      "at": "凡所宜有之書，皆集於此",
+      "en": "This is the sentence that puts the piece in a library. The Academy has already done for these students what Song Lian once did by hand, one borrowed book at a time, and his worry is that a gathered collection makes reading feel optional. Any library should share that worry, this one included.",
+      "zh": "这一句让这篇文章属于图书馆。太学已经替学生们做好了宋濂当年一本本借来手抄的事；他担心的是，书都聚在一处之后，读书反倒显得可有可无。每一座图书馆都该有这份担心，这一座也不例外。"
+    }
+  ],
+  "pairs": [
+    "S-002021",
+    "S-002006"
+  ]
 }

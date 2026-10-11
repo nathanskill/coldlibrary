@@ -59,5 +59,8 @@
     "en": "How dreary to be somebody!\nHow public, like a frog",
     "zh": "做个有名之辈多么无聊！\n多么招摇，像一只青蛙"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004013"
+  ]
 }

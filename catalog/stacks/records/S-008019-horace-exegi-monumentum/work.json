@@ -21,6 +21,7 @@
     "zh": "公元前 23 年"
   },
   "translator": null,
+  "orig_lang": "la",
   "edition": {
     "en": "Latin text as given on Latin Wikisource",
     "zh": "据拉丁文维基文库所录拉丁原文"
@@ -61,5 +62,60 @@
     "en": "I have finished a monument more lasting than bronze",
     "zh": "我已建成一座纪念碑，比青铜更持久"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Libitinam",
+      "occ": 1,
+      "en": "Libitina, the Roman goddess of funerals; undertakers kept their registers at her temple.",
+      "zh": "利比提娜，罗马掌管丧葬的女神；殡葬业者在她的神庙里登记死者。"
+    },
+    {
+      "at": "tacita virgine pontifex",
+      "occ": 1,
+      "en": "The high priest and a Vestal Virgin, silent during the rite, climbing the Capitol to the temple of Jupiter for a state ceremony. Horace means: as long as Rome endures.",
+      "zh": "大祭司与一位在仪式中保持静默的维斯塔贞女，登上卡比托利欧山的朱庇特神庙举行国家祭典。意即只要罗马长存。"
+    },
+    {
+      "at": "Aufidus",
+      "occ": 1,
+      "en": "The Aufidus, today the Ofanto, a swift river of Apulia that flows past Venusia, where Horace was born.",
+      "zh": "奥菲杜斯河，今名奥凡托河，是阿普利亚的一条急流，流经贺拉斯的出生地维努西亚附近。"
+    },
+    {
+      "at": "Daunus",
+      "occ": 1,
+      "en": "Daunus, legendary king of northern Apulia, a dry country: Horace's home ground.",
+      "zh": "道努斯，传说中阿普利亚北部的国王；那一带干旱少水，正是贺拉斯的家乡。"
+    },
+    {
+      "at": "ex humili potens",
+      "occ": 1,
+      "en": "Horace was the son of a freed slave.",
+      "zh": "贺拉斯是一位被释奴隶的儿子。"
+    },
+    {
+      "at": "Aeolium carmen",
+      "occ": 1,
+      "en": "Aeolian song: the lyric of Sappho and Alcaeus of Lesbos, who wrote in the Aeolic dialect of Greek. Horace's claim is to have adapted their metres to Latin.",
+      "zh": "埃奥利亚之歌，指莱斯沃斯岛的萨福和阿尔凯奥斯用希腊语埃奥利亚方言写的抒情诗。贺拉斯自许的功绩，是把他们的格律移入拉丁语。"
+    },
+    {
+      "at": "Delphica",
+      "occ": 1,
+      "en": "Delphic: belonging to Apollo, god of poetry, whose oracle was at Delphi and whose tree was the laurel.",
+      "zh": "德尔斐的，即属于诗神阿波罗的；阿波罗的神谕所在德尔斐，月桂是他的圣树。"
+    },
+    {
+      "at": "Melpomene",
+      "occ": 1,
+      "en": "One of the nine Muses. Later she was the Muse of tragedy, but here she is simply the Muse of Horace's lyric.",
+      "zh": "九位缪斯之一。后来专指悲剧缪斯，这里只是泛指贺拉斯抒情诗的诗神。"
+    }
+  ],
+  "pairs": [
+    "S-004002",
+    "S-008017",
+    "S-004008"
+  ]
 }

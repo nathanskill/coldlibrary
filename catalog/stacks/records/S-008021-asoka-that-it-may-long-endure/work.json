@@ -25,6 +25,7 @@
     "dates": "1848–1920",
     "year": 1920
   },
+  "orig_lang": "pra",
   "edition": {
     "en": "Vincent A. Smith's translations in Asoka, the Buddhist Emperor of India, third edition (Oxford, 1920), via English Wikisource; obvious scanning errors corrected and Smith's commentary omitted.",
     "zh": "文森特·A. 史密斯《佛教君主阿育王》第三版（牛津，1920 年）中的译文，经英文维基文库；明显的扫描错误已更正，史密斯的评注未收。"
@@ -64,5 +65,36 @@
     "en": "This scripture of the Law of Piety, wheresoever pillars of stone or tables of stone exist, must there be recorded so that it may long endure.",
     "zh": "这篇正法的文字，凡有石柱或石板的地方，都必须刻在那里，好让它长久留存。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "His Sacred and Gracious Majesty the King",
+      "occ": 1,
+      "en": "Smith's rendering of Devānaṃpiya Piyadasi, 'Beloved of the Gods, He who looks on with kindness', the title Asoka uses of himself in the edicts.",
+      "zh": "史密斯对 Devānaṃpiya Piyadasi 的译法，意为“众神所爱、慈颜相视者”，是阿育王在敕令中的自称。"
+    },
+    {
+      "at": "Law of Piety",
+      "occ": 1,
+      "en": "Smith's word for dhamma (Sanskrit dharma): the moral teaching Asoka urged on his subjects, of compassion, truthfulness and restraint toward all living beings.",
+      "zh": "史密斯对 dhamma（梵文 dharma，汉译“法”）的译法，指阿育王劝导臣民的道德教诲：慈悲、诚实、善待一切有情。"
+    },
+    {
+      "at": "half-kôs",
+      "occ": 1,
+      "en": "The kos (krośa) is an Indian measure of road distance, usually reckoned at about three kilometres.",
+      "zh": "拘卢舍（krośa），古印度的路程单位，一般约合三公里。"
+    },
+    {
+      "at": "When I had been consecrated twenty-seven years",
+      "occ": 1,
+      "en": "Counted from his coronation; by the usual chronology, about 243 BCE.",
+      "zh": "从阿育王灌顶即位起算；按通常的年代推算，约为公元前 243 年。"
+    }
+  ],
+  "pairs": [
+    "S-008013",
+    "S-008012",
+    "S-008001"
+  ]
 }

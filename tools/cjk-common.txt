@@ -1,0 +1,6 @@
+# Cold Serif SC common set: the 120 characters on the most pages (393 font keys counted).
+# Frozen so common.<hash>.woff2 stays cached across deploys; change it only with tools/cjk-font.py --refresh-common.
+# Every other 400 subset leaves these characters out, so no unicode-range overlaps this file.
+一万三上下不与东两个中为之也书了二于人从以们会何作使光其几出别到前十千去又发只可
+后和在地处复夜大天头好如子家对少就山已年开当得德心意成我所故方无日时明是時月有望
+本来样此水無然生白的相看着知经者而能自花行西见说起过还这远道那都里长问间随雪面风

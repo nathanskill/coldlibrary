@@ -60,5 +60,8 @@
     "en": "Of all who give and receive gifts, such as they are wisest. Everywhere they are wisest. They are the magi.",
     "zh": "在所有送礼物和收礼物的人当中，像他们这样的人是最聪明的。无论在哪里，他们都是最聪明的。他们就是东方三博士。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004025"
+  ]
 }

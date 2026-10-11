@@ -21,6 +21,7 @@
     "zh": "1645 年"
   },
   "translator": null,
+  "orig_lang": "fr",
   "edition": {
     "en": "Text of the 1645 notice in Œuvres de Blaise Pascal, ed. Léon Brunschvicg and Pierre Boutroux, vol. I (Paris, Hachette; first published 1908; the transcribed scan is of the 1923 second edition), as transcribed on French Wikisource; the editors' notes are omitted and Pascal's spelling is kept.",
     "zh": "据法文维基文库所录布伦施维格与布特鲁编《帕斯卡全集》第一卷（巴黎，阿歇特出版社；1908 年初版，所转录的扫描本为 1923 年第二版）中的 1645 年告示；编者注从略，保留帕斯卡原拼写。"
@@ -61,5 +62,10 @@
     "en": "experience would have shown them that a less complicated instrument could not have all the qualities that I have happily given to this little Machine.",
     "zh": "经验就会让他们看到：一件不那么复杂的器具，不可能具备我有幸赋予这台小机器的全部条件。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007004",
+    "S-007002",
+    "S-007024"
+  ]
 }

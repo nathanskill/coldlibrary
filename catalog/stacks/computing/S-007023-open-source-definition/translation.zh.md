@@ -44,6 +44,4 @@
 
 开源定义最初源自《Debian 自由软件指导方针》（DFSG）。
 
-*1.9 版，最后修订于 2007-03-22*
-
-本中文译文由 Claude 根据开放源代码促进会（Open Source Initiative）发布的《开源定义》英文原文翻译，原文采用 CC BY 4.0 许可（https://creativecommons.org/licenses/by/4.0/），出处：https://opensource.org/osd 。译文对原文的改动仅为翻译。
+*1.9 版，最后修订于 2007-03-22*（本中文译文由 Claude 根据开放源代码促进会（Open Source Initiative）发布的《开源定义》英文原文翻译，原文采用 CC BY 4.0 许可（https://creativecommons.org/licenses/by/4.0/），出处：https://opensource.org/osd 。译文对原文的改动仅为翻译。）

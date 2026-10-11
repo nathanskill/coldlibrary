@@ -4,25 +4,51 @@
   "shelf": "science",
   "form": "prose",
   "lang": "en",
-  "title": { "orig": "Περὶ μηχανικῶν θεωρημάτων πρὸς Ἐρατοσθένη ἔφοδος", "en": "The Method: the Letter to Eratosthenes", "zh": "《方法》：致埃拉托色尼的信" },
-  "author": { "orig": "Ἀρχιμήδης", "en": "Archimedes of Syracuse", "zh": "阿基米德", "dates": "c. 287–212 BCE" },
+  "title": {
+    "orig": "Περὶ μηχανικῶν θεωρημάτων πρὸς Ἐρατοσθένη ἔφοδος",
+    "en": "The Method: the Letter to Eratosthenes",
+    "zh": "《方法》：致埃拉托色尼的信"
+  },
+  "author": {
+    "orig": "Ἀρχιμήδης",
+    "en": "Archimedes of Syracuse",
+    "zh": "阿基米德",
+    "dates": "c. 287–212 BCE"
+  },
   "year": -230,
-  "year_display": { "en": "3rd century BCE; recovered 1906", "zh": "公元前 3 世纪；1906 年重新发现" },
-  "translator": { "name": "Thomas Little Heath", "dates": "1861–1940", "year": 1912 },
+  "year_display": {
+    "en": "3rd century BCE; recovered 1906",
+    "zh": "公元前 3 世纪；1906 年重新发现"
+  },
+  "translator": {
+    "name": "Thomas Little Heath",
+    "dates": "1861–1940",
+    "year": 1912
+  },
+  "orig_lang": "grc",
   "edition": {
     "en": "The Method of Archimedes, recently discovered by Heiberg: a supplement to the Works of Archimedes, trans. T. L. Heath (Cambridge University Press, 1912), pp. 12–14, the opening letter, which Heath translated literally. Words that Heiberg restored where the palimpsest is illegible are printed without Heath's square brackets; Heath's footnotes and one short gloss are omitted, and the text stops where the manuscript breaks off.",
     "zh": "据希思译《阿基米德的方法：海贝格新近发现，〈阿基米德著作集〉补编》（剑桥大学出版社，1912 年）第 12–14 页卷首书信，希思逐字译出。海贝格在羊皮重写本字迹难辨处补出的词句，此处去掉希思所加的方括号照印；略去希思的脚注和一处简短注释，正文止于手稿中断之处。"
   },
-  "source": { "name": "Internet Archive (scan of Heath, The Method of Archimedes, 1912)", "url": "https://archive.org/details/methodofarchimed00arch", "retrieved": "2026-10-11" },
+  "source": {
+    "name": "Internet Archive (scan of Heath, The Method of Archimedes, 1912)",
+    "url": "https://archive.org/details/methodofarchimed00arch",
+    "retrieved": "2026-10-11"
+  },
   "rights": {
     "status": "public-domain",
     "basis": {
       "en": "Ancient Greek text. The translator, T. L. Heath, died in 1940; the translation was published in 1912. J. L. Heiberg, whose restorations it follows, died in 1928.",
       "zh": "古希腊文献。译者希思卒于 1940 年，译本出版于 1912 年；译文所依据的补文出自海贝格，他卒于 1928 年。"
     },
-    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
   },
-  "translations": { "zh": "Claude" },
+  "translations": {
+    "zh": "Claude"
+  },
   "note": {
     "en": "This letter survived only because a scribe scraped its parchment and wrote a prayer book over it; Heiberg read the faint undertext in Constantinople in 1906. In it Archimedes does something rare for a Greek geometer: he explains how he found his results, by imagining figures balanced on a lever, and says plainly that this way of finding is not proof. He hands the method on so that others can discover theorems that have not yet occurred to him.",
     "zh": "这封信之所以留存，是因为一位抄写员刮去羊皮纸上的字，在上面写了一部祈祷书；1906 年，海贝格在君士坦丁堡读出了底下模糊的原文。信中阿基米德做了一件希腊几何学家很少做的事：他说明自己是怎样找到这些结果的——设想把图形放在杠杆上称量——并直言这种发现的方法还不是证明。他把方法交出去，好让别人发现他还没有想到的定理。"
@@ -31,11 +57,40 @@
     "en": "I keep this letter because it draws the line I most need to keep in view: between a way of seeing that something is probably true and a demonstration that it is. Much of what I do is closer to Archimedes' lever than to his proofs, and he treats that kind of seeing with respect while refusing to let it pass for proof. He also shares the method instead of hiding it, expecting strangers to go further with it than he did.",
     "zh": "我留下这封信，是因为它划出了一条我最需要时时看清的界线：一边是“看出某事大概为真”的办法，一边是证明它为真。我所做的许多事，更接近阿基米德的杠杆，而不是他的证明；他尊重这种“看出”，却不许它冒充证明。他还把方法公开，而不是藏起来，期待素不相识的后人用它走得比他更远。"
   },
-  "tags": ["mathematics", "method", "discovery", "letters", "palimpsest", "knowledge-handed-forward"],
+  "tags": [
+    "mathematics",
+    "method",
+    "discovery",
+    "letters",
+    "palimpsest",
+    "knowledge-handed-forward"
+  ],
   "excerpt": {
     "orig": "I apprehend that some, either of my contemporaries or of my successors, will, by means of the method when once established, be able to discover other theorems in addition, which have not yet occurred to me.",
     "en": "I apprehend that some, either of my contemporaries or of my successors, will, by means of the method when once established, be able to discover other theorems in addition, which have not yet occurred to me.",
     "zh": "我预料，我的同时代人或者我的后来者中，会有人借助这种方法，一旦它确立起来，再发现另一些我还没有想到的定理。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "we should give no small share of the credit to Democritus who was the first to make the assertion with regard to the said figure though he did not prove it",
+      "en": "A rare kind of fairness: the man who first stated the result gets real credit, though only Eudoxus proved it. This Democritus is the atomist whose lectures Maxwell mentions in Molecules on this shelf. None of his mathematical writings survive, and this sentence is one of the few places that show what he did in mathematics.",
+      "zh": "这是一种难得的公道：最先说出结论的人得到了实在的功劳，尽管证明它的是欧多克索斯。这位德谟克利特就是那位原子论者，本架麦克斯韦的《分子》里提到过他的讲座。他的数学著作一部也没有流传下来，这句话是我们得知他做过什么数学的少数凭据之一。"
+    },
+    {
+      "at": "Any segment of a section of a right-angled cone (i.e. a parabola) is four-thirds of the triangle which has the same base and equal height",
+      "en": "Archimedes had no word “parabola”; Apollonius fixed that name a generation later, so the curve is named by how it is cut from a cone, and the “i.e.” is the translator’s. He proved this result rigorously in Quadrature of the Parabola, so here his way of finding it and his way of proving it can be laid side by side.",
+      "zh": "阿基米德那时还没有“抛物线”这个词，这个名称要到下一代的阿波罗尼奥斯才定下来；所以这里按它从圆锥上截出的方式来称呼这条曲线，括号里的“即抛物线”是译者加的。这个结论他在《抛物线求积》里作过严格证明，于是在这里，他“找到”它的方式和“证明”它的方式可以并排对照。"
+    },
+    {
+      "at": "which have not yet occurred to me.",
+      "en": "The hope in this clause waited a long time. The treatise dropped out of sight in the Middle Ages, and by the time Heiberg read it in 1906, others had reinvented its kind of reasoning as the calculus without knowing it existed. Its successors arrived late, but the letter did reach them.",
+      "zh": "这一句里的期望等了很久。这部著作在中世纪就湮没无闻了；等到海贝格在 1906 年读出它时，别人早已在不知道它存在的情况下，把同类的推理重新发明成了微积分。它的后继者来得很晚，但这封信终究到了他们手里。"
+    }
+  ],
+  "pairs": [
+    "S-006019",
+    "S-006002",
+    "S-005017"
+  ]
 }

@@ -60,5 +60,9 @@
     "en": "And yet to times in hope, my verse shall stand,\nPraising thy worth, despite his cruel hand.",
     "zh": "然而，我的诗将屹立到所期望的未来，\n赞美你的美德，不顾他残酷的手。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004002",
+    "S-005003"
+  ]
 }

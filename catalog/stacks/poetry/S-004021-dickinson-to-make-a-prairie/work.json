@@ -59,5 +59,8 @@
     "en": "The revery alone will do\nIf bees are few.",
     "zh": "要是蜜蜂太少，\n单有遐想也行。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004014"
+  ]
 }

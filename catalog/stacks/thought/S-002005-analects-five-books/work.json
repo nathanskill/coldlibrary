@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Five complete books of the Analects, the sayings of Confucius as remembered by his disciples: Learning, Government, Dwelling in Humaneness, Transmitting, and The Master Seldom. Together they hold many of the lines people still quote, from the pleasure of learning and practising to the pine and cypress that are last to fade. Notice how often he describes himself as a learner rather than a sage.",
@@ -60,5 +61,186 @@
     "en": "To learn something and, in due time, to practise it: is that not a pleasure? To have friends come from far away: is that not a joy?",
     "zh": "学而时习之，不亦说乎？有朋自远方来，不亦乐乎？"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002007",
+    "S-002006",
+    "S-002021"
+  ],
+  "gloss": [
+    {
+      "at": "不亦說乎",
+      "at_hans": "不亦说乎",
+      "en": "說 is read as 悅: glad, pleased.",
+      "zh": "说：通“悦”，愉快。"
+    },
+    {
+      "at": "人不知而不慍",
+      "at_hans": "人不知而不愠",
+      "en": "慍: resentment, anger rising in the chest.",
+      "zh": "愠：怨恨、恼怒。"
+    },
+    {
+      "at": "孝弟",
+      "en": "弟 is read as 悌: respect and affection for one's elder brothers.",
+      "zh": "弟：通“悌”，敬爱兄长。"
+    },
+    {
+      "at": "道千乘之國",
+      "at_hans": "道千乘之国",
+      "en": "道 is read as 導, to lead or govern. A state of a thousand war chariots was a middling one.",
+      "zh": "道：通“导”，治理。千乘之国：拥有千辆兵车的诸侯国，属中等国家。"
+    },
+    {
+      "at": "賢賢易色",
+      "at_hans": "贤贤易色",
+      "en": "To honour worth and think little of looks. Some read it of a husband who values his wife's virtue above her beauty.",
+      "zh": "敬重贤德而看轻美色；一说指对待妻子重品德而不重容貌。"
+    },
+    {
+      "at": "愼終追遠",
+      "at_hans": "慎终追远",
+      "en": "終: a parent's death. 遠: the ancestors long gone.",
+      "zh": "终：父母去世。远：远代祖先。"
+    },
+    {
+      "at": "如切如磋，如琢如磨",
+      "en": "From the Book of Songs (Odes of Wei, 'Qi Ao'): cutting and filing are for bone and horn, carving and polishing for jade.",
+      "zh": "出自《诗经·卫风·淇奥》：切、磋指加工骨角，琢、磨指加工玉石。"
+    },
+    {
+      "at": "譬如北辰",
+      "en": "北辰: the pole star, around which the sky seems to turn. 共 is read as 拱: to face, to encircle.",
+      "zh": "北辰：北极星。共：通“拱”，环绕。"
+    },
+    {
+      "at": "思無邪",
+      "at_hans": "思无邪",
+      "en": "A line from the ode 'Jiong' in the Book of Songs, first said of horses running straight; Confucius gives it a new sense.",
+      "zh": "出自《诗经·鲁颂·駉》，原写马群奔跑不偏斜；孔子借用来指思想纯正。"
+    },
+    {
+      "at": "父母，唯其疾之憂",
+      "at_hans": "父母，唯其疾之忧",
+      "en": "Read two ways: let your parents worry about nothing but your health; or, worry above all about your parents' health. The translation follows the first.",
+      "zh": "有两种读法：使父母只为子女的疾病担忧；或子女要特别为父母的疾病担忧。译文从前一说。"
+    },
+    {
+      "at": "攻乎異端",
+      "at_hans": "攻乎异端",
+      "en": "攻: to work at, or to attack. 異端: other doctrines. Some read the saying as: attack other doctrines and the harm will stop.",
+      "zh": "攻：致力；一说攻击。异端：不正确的学说。一说全句意为“攻击异端，祸害就停止了”。"
+    },
+    {
+      "at": "大車無輗，小車無軏",
+      "at_hans": "大车无𫐐，小车无𫐄",
+      "en": "輗 and 軏: the pegs joining the yoke-bar to the shafts, on an ox cart and on a horse carriage.",
+      "zh": "輗、軏：大车（牛车）和小车（马车）车辕与横木相连接的插销。"
+    },
+    {
+      "at": "無適也，無莫也",
+      "at_hans": "无适也，无莫也",
+      "en": "適: what one insists on; 莫: what one refuses. Nothing he must do, nothing he must not.",
+      "zh": "适：一定要。莫：一定不要。"
+    },
+    {
+      "at": "忠恕",
+      "en": "忠: doing one's utmost for others. 恕: not doing to others what one would not want done to oneself (Analects 15.24).",
+      "zh": "忠：尽己为人。恕：推己及人，即“己所不欲，勿施于人”（《卫灵公》）。"
+    },
+    {
+      "at": "竊比於我老彭",
+      "at_hans": "窃比于我老彭",
+      "en": "Lao Peng: perhaps Pengzu, the long-lived man of legend; or Laozi and Pengzu together.",
+      "zh": "老彭：一说即彭祖，一说指老子和彭祖二人。"
+    },
+    {
+      "at": "自行束脩以上",
+      "at_hans": "自行束修以上",
+      "en": "束脩: a bundle of ten strips of dried meat, the smallest customary gift to a teacher.",
+      "zh": "束脩：十条干肉扎成的一束，是拜师最微薄的见面礼。"
+    },
+    {
+      "at": "不憤不啟；不悱不發",
+      "at_hans": "不愤不启；不悱不发",
+      "en": "憤: straining to understand. 悱: straining to put it into words.",
+      "zh": "愤：心里想弄通而弄不通。悱：口里想说而说不出。"
+    },
+    {
+      "at": "子在齊聞韶",
+      "at_hans": "子在齐闻韶",
+      "en": "Shao: the music ascribed to the sage-king Shun.",
+      "zh": "韶：相传为舜时的乐曲。"
+    },
+    {
+      "at": "怪、力、亂、神",
+      "at_hans": "怪、力、乱、神",
+      "en": "Prodigies, feats of strength, disorder, and spirits.",
+      "zh": "怪异、勇力、悖乱、鬼神。"
+    },
+    {
+      "at": "桓魋",
+      "en": "Huan Tui: minister of war in Song, who tried to kill Confucius by having a tree felled where he was teaching.",
+      "zh": "桓魋：宋国司马，曾想砍倒孔子讲学处的大树来杀害他。"
+    },
+    {
+      "at": "子釣而不綱，弋不射宿",
+      "at_hans": "子钓而不纲，弋不射宿",
+      "en": "綱: a long line strung across a stream with many hooks. 弋: shooting with an arrow on a cord. 宿: birds at roost.",
+      "zh": "纲：横断水流的大绳，上系许多钓钩。弋：用带绳的箭射。宿：归巢栖息的鸟。"
+    },
+    {
+      "at": "子罕言利與命與仁",
+      "at_hans": "子罕言利与命与仁",
+      "en": "Others read 與 as 'approve': the Master seldom spoke of profit, but he gave his assent to fate and to humaneness.",
+      "zh": "一说“与”解为赞许：孔子很少谈利，却赞许命、赞许仁。"
+    },
+    {
+      "at": "子畏於匡",
+      "at_hans": "子畏于匡",
+      "en": "畏: to be in danger, under siege. The people of Kuang mistook Confucius for Yang Hu, who had once wronged them.",
+      "zh": "畏：遭遇危难、被围困。匡人误以为孔子是曾经欺凌过他们的阳虎。"
+    },
+    {
+      "at": "河不出圖",
+      "at_hans": "河不出图",
+      "en": "The phoenix and the River Chart were omens that a sage ruler had come; the chart was said to rise from the Yellow River on the back of a dragon-horse.",
+      "zh": "凤鸟和河图都是圣王出世的祥瑞；相传河图由龙马从黄河中背负而出。"
+    },
+    {
+      "at": "子見齊衰者",
+      "at_hans": "子见齐衰者",
+      "en": "齊衰 (read zi cui): mourning dress of coarse hemp with hemmed edges.",
+      "zh": "齐衰（zī cuī）：用粗麻布制成、缝了边的丧服。"
+    },
+    {
+      "at": "韞櫝而藏諸",
+      "at_hans": "韫椟而藏诸",
+      "en": "韞: to wrap and store away. 櫝: a box. 賈 below is read gu, a merchant (or jia, a price).",
+      "zh": "韫：收藏。椟：木匣。下文“贾”读 gǔ，商人；一说读 jià，价钱。"
+    },
+    {
+      "at": "衣敝縕袍",
+      "at_hans": "衣敝缊袍",
+      "en": "縕袍: a robe padded with old floss or hemp, the dress of the poor. 狐貉: furs of fox and raccoon dog.",
+      "zh": "缊袍：絮着旧丝绵或乱麻的袍子，贫者所穿。狐貉：狐皮、貉皮做的裘衣。"
+    },
+    {
+      "at": "不忮不求，何用不臧",
+      "en": "From the Book of Songs (Odes of Bei, 'Xiong Zhi'). 忮: to envy. 臧: good.",
+      "zh": "出自《诗经·邶风·雄雉》。忮：嫉妒。臧：善。"
+    },
+    {
+      "at": "唐棣之華",
+      "at_hans": "唐棣之华",
+      "en": "A lost ode, not in the Book of Songs as it survives. 唐棣: a flowering tree of the bush-cherry kind.",
+      "zh": "这是一首逸诗，不见于今本《诗经》。唐棣：一种开花的树，属郁李一类。"
+    },
+    {
+      "at": "未可與權",
+      "at_hans": "未可与权",
+      "en": "權: the weight of a steelyard, and so the judgment that weighs each case on its own.",
+      "zh": "权：秤锤，引申为权衡轻重、通权达变。"
+    }
+  ]
 }

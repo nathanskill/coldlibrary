@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Wang Xizhi's preface to the poems written at a spring gathering in 353, better known as the most admired piece of running script in Chinese calligraphy. The original was lost; the text survives through copies. It moves from a perfect day to the shortness of a life, and ends by speaking to readers not yet born.",
@@ -63,5 +64,185 @@
     "en": "Those who come after will look on us as we look on those who came before.",
     "zh": "后之视今，亦犹今之视昔"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "永和九年",
+      "occ": 1,
+      "en": "353 CE. Yonghe was the reign title of Emperor Mu of the Eastern Jin.",
+      "zh": "公元 353 年。永和，东晋穆帝的年号。"
+    },
+    {
+      "at": "癸丑",
+      "occ": 1,
+      "en": "The name of the year in the sixty-year cycle of stems and branches.",
+      "zh": "干支纪年中的年名。"
+    },
+    {
+      "at": "暮春之初",
+      "occ": 1,
+      "en": "The beginning of the third lunar month, the last month of spring.",
+      "zh": "农历三月初。暮春，春季的最后一个月。"
+    },
+    {
+      "at": "會稽山陰",
+      "occ": 1,
+      "at_hans": "会稽山阴",
+      "en": "Shanyin county in Kuaiji commandery, today's Shaoxing in Zhejiang.",
+      "zh": "会稽郡山阴县，今浙江绍兴。"
+    },
+    {
+      "at": "蘭亭",
+      "occ": 1,
+      "at_hans": "兰亭",
+      "en": "A pavilion by the water southwest of present-day Shaoxing.",
+      "zh": "亭名，在今绍兴西南的兰渚山下。"
+    },
+    {
+      "at": "脩禊",
+      "occ": 1,
+      "at_hans": "修禊",
+      "en": "The spring purification: early in the third month (by Wang's time, on the third day) people went to the water to wash away ill fortune, and the day became an occasion for wine and poetry.",
+      "zh": "古代风俗，三月上旬（后定在三月初三）到水边洗濯，祓除不祥，后来成为文人饮酒赋诗的雅集。"
+    },
+    {
+      "at": "羣賢畢至",
+      "occ": 1,
+      "at_hans": "群贤毕至",
+      "en": "Forty-one men took part, among them Xie An, Sun Chuo and Wang Xizhi's own sons.",
+      "zh": "与会者共四十一人，其中有谢安、孙绰，以及王羲之的几个儿子。"
+    },
+    {
+      "at": "映帶左右",
+      "occ": 1,
+      "at_hans": "映带左右",
+      "en": "Shining and winding on either side like a sash.",
+      "zh": "映衬环绕在亭子左右，像衣带一样。"
+    },
+    {
+      "at": "流觴曲水",
+      "occ": 1,
+      "at_hans": "流觞曲水",
+      "en": "Wine cups were floated down a winding channel; whoever a cup stopped in front of had to drink it and compose a poem.",
+      "zh": "把酒杯放在弯曲的水道上顺流漂下，停在谁面前，谁就取杯饮酒、赋诗。"
+    },
+    {
+      "at": "絲竹管弦",
+      "occ": 1,
+      "at_hans": "丝竹管弦",
+      "en": "String and wind instruments: music.",
+      "zh": "弦乐器与管乐器，泛指音乐。"
+    },
+    {
+      "at": "一觴一詠",
+      "occ": 1,
+      "at_hans": "一觞一咏",
+      "en": "A cup of wine, a poem chanted.",
+      "zh": "喝一杯酒，吟一首诗。"
+    },
+    {
+      "at": "幽情",
+      "occ": 1,
+      "en": "Feelings kept deep inside.",
+      "zh": "深藏在心底的情怀。"
+    },
+    {
+      "at": "惠風",
+      "occ": 1,
+      "at_hans": "惠风",
+      "en": "A gentle, kindly breeze.",
+      "zh": "柔和的风。"
+    },
+    {
+      "at": "品類",
+      "occ": 1,
+      "at_hans": "品类",
+      "en": "All the kinds of living things.",
+      "zh": "万物，各类生物。"
+    },
+    {
+      "at": "俯仰一世",
+      "occ": 1,
+      "en": "A lifetime passes in the time it takes to look down and up.",
+      "zh": "一低头一抬头之间，一生就过去了，形容时间短暂。"
+    },
+    {
+      "at": "悟言",
+      "occ": 1,
+      "en": "悟 is read as 晤: to talk face to face.",
+      "zh": "悟，通“晤”，当面交谈。"
+    },
+    {
+      "at": "放浪形骸之外",
+      "occ": 1,
+      "en": "To live freely, unbound by the body and by convention.",
+      "zh": "放纵自在，不受形体与礼俗的拘束。"
+    },
+    {
+      "at": "趣舍萬殊",
+      "occ": 1,
+      "at_hans": "趣舍万殊",
+      "en": "趣 is read as 取: what people take up and what they leave differ in ten thousand ways.",
+      "zh": "趣，通“取”。取舍千差万别。"
+    },
+    {
+      "at": "脩短隨化",
+      "occ": 1,
+      "at_hans": "修短随化",
+      "en": "Whether life is long or short follows 化, the great transformation of nature.",
+      "zh": "寿命长短听凭造化。脩，长。"
+    },
+    {
+      "at": "死生亦大矣",
+      "occ": 1,
+      "en": "Words of Confucius as quoted in the Zhuangzi, chapter 5.",
+      "zh": "语出《庄子·德充符》所引孔子之言。"
+    },
+    {
+      "at": "若合一契",
+      "occ": 1,
+      "en": "Like the two halves of a tally. A 契 was a contract cut in two, one half for each party; the halves fit exactly.",
+      "zh": "像符契一样相合。契，古代的凭证，剖为两半，各执其一，合之为信。"
+    },
+    {
+      "at": "一死生",
+      "occ": 1,
+      "en": "To treat life and death as one: a teaching of the Zhuangzi, much in fashion in Wang Xizhi's circle.",
+      "zh": "把生和死看作一样，是庄子的思想，在东晋士人中很流行。"
+    },
+    {
+      "at": "齊彭殤",
+      "occ": 1,
+      "at_hans": "齐彭殇",
+      "en": "To make Pengzu, said to have lived eight hundred years, equal to a child who dies young (殤), as the Zhuangzi does.",
+      "zh": "把彭祖（传说活了八百岁）和夭折的人（殇）等同起来，也是庄子的说法。"
+    },
+    {
+      "at": "斯文",
+      "occ": 1,
+      "en": "These writings: the preface and the poems it introduces.",
+      "zh": "这些诗文，指本序和它所收的诗。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "俯仰之間已為陳跡",
+      "en": "One movement of the head appears three times. In the first paragraph it takes in the universe above and living things below; in the second it measures a whole life, and then the instant in which a joy becomes a relic. Wang uses the same gesture for the size of the world and for the shortness of time.",
+      "zh": "抬头低头这个动作，文中出现了三次：第一段里，仰观宇宙之大，俯察品类之盛；第二段里，它先量出一生，再量出欢乐变成陈迹的那一瞬。王羲之用同一个动作，既写世界之大，也写时间之短。"
+    },
+    {
+      "at": "每覽昔人興感之由",
+      "en": "The poems written that day, Wang's own among them, are full of Zhuangzi's calm: all things are equal under the great change. In the preface he sets that calm aside as an empty fancy and keeps the sorrow. Verse in one mood and prose in another from the same afternoon: I find the inconsistency honest.",
+      "zh": "那天写下的诗，包括王羲之自己的，多半带着庄子式的达观：万物在造化面前一律平等。到了序里，他却把这种达观称作虚诞，留下了悲伤。同一个下午，诗是一种心境，序是另一种，我觉得这份不一致很诚实。"
+    },
+    {
+      "at": "故列敘時人，錄其所述",
+      "en": "This was written as the front page of other people's poems. Today the poems are read mostly because of the preface, and the preface is copied mostly because of the brushwork. Things are often kept for a reason other than the one they were made for.",
+      "zh": "这原本是一篇为别人的诗写的序。如今人们读那些诗，多半是因为这篇序；而一遍遍临写这篇序，又多半是因为它的书法。东西被留下来的理由，常常不是它被做出来的理由。"
+    }
+  ],
+  "pairs": [
+    "S-002023",
+    "S-002027"
+  ]
 }

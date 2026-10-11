@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "The opening chapter of the Zhuangzi, and its most famous: a fish that becomes a bird, a quail that laughs at it, and a useless tree that no axe will touch. It is shelved complete. Notice how the argument keeps changing scale, from the ninety thousand miles of the Peng to a cup of water poured into a hollow in the floor.",
@@ -60,5 +61,182 @@
     "en": "In the northern darkness there is a fish whose name is Kun. The Kun is so large that no one knows how many thousand miles it measures. It changes and becomes a bird whose name is Peng.",
     "zh": "北冥有鱼，其名为鲲。鲲之大，不知其几千里也，化而为鸟，其名为鹏。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-002004",
+    "S-002008",
+    "S-002001"
+  ],
+  "gloss": [
+    {
+      "at": "北冥",
+      "en": "冥 is read as 溟: the dark, deep sea of the far north.",
+      "zh": "冥：通“溟”，幽深的大海。"
+    },
+    {
+      "at": "其名爲鯤",
+      "at_hans": "其名为鲲",
+      "en": "In the old dictionary Erya, 鯤 means fish roe: Zhuangzi gives the largest fish the name of the smallest thing.",
+      "zh": "《尔雅》释“鲲”为鱼子；庄子却用这个最小之物的名字来称最大的鱼。"
+    },
+    {
+      "at": "齊諧者",
+      "at_hans": "齐谐者",
+      "en": "Qi Xie: the name of a book of marvels, or by another reading, of a man who told them.",
+      "zh": "齐谐：书名，一说人名，记载怪异之事。"
+    },
+    {
+      "at": "摶扶搖",
+      "at_hans": "抟扶摇",
+      "en": "摶: to rise by wheeling round. 扶搖: a whirlwind.",
+      "zh": "抟：盘旋而上。扶摇：自下而上的旋风。"
+    },
+    {
+      "at": "去以六月息者也",
+      "en": "息 can mean rest or wind: it flies six months before it rests, or it leaves on the great wind of the sixth month.",
+      "zh": "息：一解为休息，一飞六个月才停；一解为风，乘六月的大风而去。"
+    },
+    {
+      "at": "野馬也",
+      "at_hans": "野马也",
+      "en": "野馬: heat haze, the shimmering vapour that runs over the fields in spring like wild horses.",
+      "zh": "野马：春日田野间浮动的雾气，奔腾如野马。"
+    },
+    {
+      "at": "坳堂",
+      "en": "A hollow in the floor of a hall.",
+      "zh": "坳堂：堂上低洼的地方。"
+    },
+    {
+      "at": "莫之夭閼者",
+      "at_hans": "莫之夭阏者",
+      "en": "夭閼: to check, to hold back.",
+      "zh": "夭阏：阻拦、遏止。"
+    },
+    {
+      "at": "蜩與鷽鳩",
+      "at_hans": "蜩与鸴鸠",
+      "en": "蜩: a cicada. 鷽鳩: a small dove.",
+      "zh": "蜩：蝉。鸴鸠：一种小斑鸠。"
+    },
+    {
+      "at": "朝菌不知晦朔",
+      "en": "朝菌: a mushroom born at dawn and dead by night. 晦 is the last day of the lunar month, 朔 the first.",
+      "zh": "朝菌：朝生暮死的菌类。晦是农历每月最后一天，朔是第一天。"
+    },
+    {
+      "at": "蟪蛄",
+      "en": "A cicada that lives a single summer and never sees a whole year.",
+      "zh": "蟪蛄：寒蝉，生命不满一年。"
+    },
+    {
+      "at": "彭祖",
+      "en": "Pengzu: a man of legend said to have lived about eight hundred years.",
+      "zh": "彭祖：传说中的长寿者，相传活了八百岁。"
+    },
+    {
+      "at": "湯之問棘",
+      "at_hans": "汤之问棘",
+      "en": "Tang founded the Shang dynasty; Ji was a wise man of his court. Their dialogue is told at length in the Liezi chapter 'Questions of Tang'.",
+      "zh": "汤：商朝开国君主。棘：汤时的贤人。二人的问答在《列子·汤问》中有更详细的记述。"
+    },
+    {
+      "at": "窮髮",
+      "at_hans": "穷发",
+      "en": "The bare-haired lands: the far north where nothing grows (髮, hair, here the grass and trees of the earth).",
+      "zh": "穷发：不毛之地；发，指大地上的草木。"
+    },
+    {
+      "at": "斥鴳",
+      "at_hans": "斥𫛩",
+      "en": "A quail of the marshes; 斥 is a small salt marsh.",
+      "zh": "斥：小泽。鴳：鹌鹑一类的小鸟。"
+    },
+    {
+      "at": "宋榮子",
+      "at_hans": "宋荣子",
+      "en": "Song Rongzi: usually identified with Song Xing, a Warring States thinker who taught that to be insulted is no disgrace.",
+      "zh": "宋荣子：一般认为即宋钘，战国思想家，主张“见侮不辱”。"
+    },
+    {
+      "at": "列子御風",
+      "at_hans": "列子御风",
+      "en": "Liezi: Lie Yukou, a Daoist master said to travel on the wind. The book that bears his name is on this shelf.",
+      "zh": "列子：列御寇，相传能乘风而行。以他命名的《列子》也在本书架上。"
+    },
+    {
+      "at": "御六氣之辯",
+      "at_hans": "御六气之辩",
+      "en": "The six energies: yin, yang, wind, rain, dark and light. 辯 is read as 變, change.",
+      "zh": "六气：阴、阳、风、雨、晦、明。辩：通“变”。"
+    },
+    {
+      "at": "至人无己",
+      "en": "The perfect person, the spirit person, the sage: three names for one who depends on nothing.",
+      "zh": "至人、神人、圣人，都是指无所依待的人。"
+    },
+    {
+      "at": "許由",
+      "at_hans": "许由",
+      "en": "Xu You: a hermit of legend who refused the empire and, it was said, washed out his ears after hearing the offer.",
+      "zh": "许由：传说中的隐士，尧让天下给他，他不受，据说还到颍水边洗耳。"
+    },
+    {
+      "at": "而我猶尸之",
+      "at_hans": "而我犹尸之",
+      "en": "尸: to occupy a place without doing its work, like the 尸, the living stand-in for the dead at a sacrifice.",
+      "zh": "尸：占着位子而不做事；尸本指祭祀时代替死者受祭的人。"
+    },
+    {
+      "at": "尸祝不越樽俎",
+      "en": "尸祝: the priest who presides over the offerings. 樽俎: the wine vessels and meat stands of the rite.",
+      "zh": "尸祝：主持祭祀的人。樽俎：盛酒的器皿和盛肉的礼器。"
+    },
+    {
+      "at": "接輿",
+      "at_hans": "接舆",
+      "en": "Jie Yu: the madman of Chu, who also sings his warning to Confucius in Analects 18.5.",
+      "zh": "接舆：楚国的狂人，《论语·微子》中曾唱歌讽劝孔子。"
+    },
+    {
+      "at": "藐姑射之山",
+      "en": "Mount Gushe (射 is read ye), a mountain of legend; 藐, far off.",
+      "zh": "姑射（yè）山：传说中的神山。藐：遥远。"
+    },
+    {
+      "at": "以爲一世蘄乎亂",
+      "at_hans": "以为一世蕲乎乱",
+      "en": "蘄: to seek. 亂 here means order, as it sometimes does in early texts.",
+      "zh": "蕲：求。乱：治理，古汉语中“乱”有时作“治”讲。"
+    },
+    {
+      "at": "資章甫",
+      "at_hans": "资章甫",
+      "en": "資: to trade in. 章甫: a ceremonial cap of the Shang people, kept up in Song.",
+      "zh": "资：贩运。章甫：殷商时的礼帽，宋国沿用。"
+    },
+    {
+      "at": "不龜手",
+      "at_hans": "不龟手",
+      "en": "龜 is read jun here: to crack and chap with cold.",
+      "zh": "龟（jūn）：皮肤冻裂。"
+    },
+    {
+      "at": "洴澼絖",
+      "en": "To bleach floss silk by beating it in water; 絖 is silk floss.",
+      "zh": "洴澼：在水中漂洗。絖：丝絮。"
+    },
+    {
+      "at": "以爲大樽",
+      "at_hans": "以为大樽",
+      "en": "樽 here is a float of gourds tied at the waist for crossing water.",
+      "zh": "樽：腰舟，系在腰间用来渡水的葫芦。"
+    },
+    {
+      "at": "无何有之鄉",
+      "at_hans": "无何有之乡",
+      "en": "The village of nothing at all: a place where there is nothing, and so nothing to harm.",
+      "zh": "无何有之乡：什么都没有的地方，因而也没有什么能伤害。"
+    }
+  ]
 }

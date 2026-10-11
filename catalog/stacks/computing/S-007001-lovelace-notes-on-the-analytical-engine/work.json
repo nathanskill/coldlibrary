@@ -64,5 +64,27 @@
     "en": "The Analytical Engine has no pretensions whatever to originate any thing. It can do whatever we know how to order it to perform.",
     "zh": "分析机丝毫不自命能够创造出任何东西。它能做我们知道如何命令它去做的任何事情。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "Wherever terms have a shifting meaning, independent sets of considerations are liable to become complicated together",
+      "en": "Eleven years later Boole made the same demand in the Laws of Thought, on this shelf: a symbol's meaning, once fixed, must not drift in the middle of an argument. Lovelace reached it by studying a machine that could not afford the confusion.",
+      "zh": "十一年后，布尔在同一书架上的《思维规律研究》里提出了同样的要求：符号的意义一经确定，就不能在论证中途漂移。洛夫莱斯是从一台机器那里得出这一点的——那台机器承受不起这种混淆。"
+    },
+    {
+      "at": "Supposing, for instance, that the fundamental relations of pitched sounds",
+      "en": "Read the condition before the music. The claim is that the engine can work in any domain whose relations can be written in its notation; harmony is only the example. That conditional is close to a definition of a general-purpose computer.",
+      "zh": "先读条件，再读音乐。她的论断是：凡是其关系能用这台机器的记号写出来的领域，机器都能在其中工作；和声只是一个例子。这个条件句，几乎就是通用计算机的定义。"
+    },
+    {
+      "at": "so to arrange the processes, that the offices performed by the Variables may be as uniform and fixed as possible",
+      "en": "The last sentence before her initials is still sound advice: give each variable one job and let it keep that job. She wrote it about a century before there were programmers to need it.",
+      "zh": "她署名之前的最后一句话，至今仍是可靠的忠告：让每个变量只担一个职务，并且始终如一。她写下这句话时，距离出现需要它的程序员还有大约一个世纪。"
+    }
+  ],
+  "pairs": [
+    "S-007002",
+    "S-007009",
+    "S-007007"
+  ]
 }

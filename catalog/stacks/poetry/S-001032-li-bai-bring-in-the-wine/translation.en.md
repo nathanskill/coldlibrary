@@ -10,8 +10,10 @@ Heaven made me, and my gifts must have their use;
 spend a thousand in gold and it will all come back.
 Cook a sheep, kill an ox, and let us be merry;
 we ought to drink three hundred cups at one sitting.
-Master Cen, my friend Danqiu,
-bring in the wine, and do not put down your cups.
+Master Cen,
+my friend Danqiu,
+bring in the wine,
+and do not put down your cups.
 Let me sing you a song;
 please lend me your ears and listen.
 Bells and drums and jade-fine food are not worth prizing;

@@ -42,7 +42,8 @@
     "verbatim_only": false
   },
   "translations": {
-    "en": "Claude"
+    "en": "Claude",
+    "zh": "Claude"
   },
   "note": {
     "en": "Liu Hui's preface of 263 to his commentary on the Nine Chapters: where the book came from, why he wrote the commentary, and a worked method for measuring the height and size of the sun with two gnomons and a sighting tube. The geometry is sound, but it rests on the assumption of a flat earth, so the distances it gives for the sun are far too small; what lasted was the method of measuring the unreachable from two points. Notice his remark that the branches divide but share one trunk.",
@@ -60,5 +61,200 @@
     "en": "If even the image of the round vault of heaven can be measured, how much more the height of Mount Tai and the breadth of the rivers and seas.",
     "zh": "虽夫圆穹之象犹曰可度，又况泰山之高与江海之广哉。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "庖犧氏",
+      "occ": 1,
+      "at_hans": "庖牺氏",
+      "en": "Fu Xi, the legendary first sovereign, credited with inventing the trigrams, writing and nets.",
+      "zh": "即伏羲，传说中的上古帝王，相传创制八卦。"
+    },
+    {
+      "at": "八卦",
+      "occ": 1,
+      "en": "The eight trigrams of the Book of Changes, each made of three whole or broken lines.",
+      "zh": "《周易》中由三条阳爻或阴爻组成的八种基本图形。"
+    },
+    {
+      "at": "九九之術",
+      "occ": 1,
+      "at_hans": "九九之术",
+      "en": "The 'nine nines': the multiplication table, which in China ran downward from nine times nine.",
+      "zh": "九九乘法口诀。古代从“九九八十一”开始念起，故称九九。"
+    },
+    {
+      "at": "六爻",
+      "occ": 1,
+      "en": "The six lines of a hexagram in the Book of Changes.",
+      "zh": "《周易》每卦的六条爻。"
+    },
+    {
+      "at": "恊律呂",
+      "occ": 1,
+      "at_hans": "协律吕",
+      "en": "恊 is an old form of 協: to bring the twelve pitch pipes into harmony.",
+      "zh": "恊，同“协”。调和十二律。律吕，古代的定音管。"
+    },
+    {
+      "at": "兩儀四象",
+      "occ": 1,
+      "at_hans": "两仪四象",
+      "en": "The two modes (yin and yang) and the four images that grow from them, in the cosmology of the Book of Changes.",
+      "zh": "《周易·系辞》：“太极生两仪，两仪生四象。”两仪指阴阳。"
+    },
+    {
+      "at": "隸首作數",
+      "occ": 1,
+      "at_hans": "隶首作数",
+      "en": "Lishou, said to have been a minister of the Yellow Emperor, was credited with inventing arithmetic.",
+      "zh": "隶首，传说是黄帝的臣子，创造了算数。"
+    },
+    {
+      "at": "九數",
+      "occ": 1,
+      "at_hans": "九数",
+      "en": "The nine arts of reckoning taught to young nobles in the Rites of Zhou; Han commentators list them under names much like the chapter titles of the Nine Chapters.",
+      "zh": "《周礼》中贵族子弟所学的九种算法，汉代注家所列的名目与《九章》的篇名大体相同。"
+    },
+    {
+      "at": "暴秦焚書",
+      "occ": 1,
+      "at_hans": "暴秦焚书",
+      "en": "The burning of the books by the First Emperor of Qin in 213 BCE.",
+      "zh": "公元前 213 年秦始皇焚书。"
+    },
+    {
+      "at": "張蒼",
+      "occ": 1,
+      "at_hans": "张苍",
+      "en": "Zhang Cang (d. 152 BCE), Marquis of Beiping, chancellor under the early Han and a master of calendars and numbers.",
+      "zh": "张苍（？—前 152），封北平侯，西汉初年丞相，精通历法和算术。"
+    },
+    {
+      "at": "耿壽昌",
+      "occ": 1,
+      "at_hans": "耿寿昌",
+      "en": "Geng Shouchang (1st century BCE), a finance official and astronomer under Emperor Xuan of the Han.",
+      "zh": "耿寿昌，西汉宣帝时的财政官员和天文学家。"
+    },
+    {
+      "at": "探賾",
+      "occ": 1,
+      "at_hans": "探赜",
+      "en": "To search out what is hidden and profound, a phrase from the Book of Changes.",
+      "zh": "探求深奥隐微的道理。语出《周易·系辞》“探赜索隐”。"
+    },
+    {
+      "at": "頑魯",
+      "occ": 1,
+      "at_hans": "顽鲁",
+      "en": "Dull and slow: a modest way of speaking of his own ability.",
+      "zh": "愚钝，自谦之词。"
+    },
+    {
+      "at": "枝條雖分而同本幹",
+      "occ": 1,
+      "at_hans": "枝条虽分而同本干",
+      "en": "Liu Hui's picture of mathematics as one tree: many methods, a single trunk.",
+      "zh": "刘徽把数学看作一棵树：方法千枝万叶，根干只有一个。"
+    },
+    {
+      "at": "思過半",
+      "occ": 1,
+      "at_hans": "思过半",
+      "en": "To grasp more than half of it, an expression from the Book of Changes.",
+      "zh": "能领会一大半。语出《周易·系辞》。"
+    },
+    {
+      "at": "六藝",
+      "occ": 1,
+      "at_hans": "六艺",
+      "en": "The six arts of a gentleman's education: rites, music, archery, charioteering, writing and calculation.",
+      "zh": "古代教育的六门功课：礼、乐、射、御、书、数。"
+    },
+    {
+      "at": "國子",
+      "occ": 1,
+      "at_hans": "国子",
+      "en": "The sons of the nobility, taught at the royal court.",
+      "zh": "贵族子弟。"
+    },
+    {
+      "at": "規矩",
+      "occ": 1,
+      "at_hans": "规矩",
+      "en": "The compass and the carpenter's square.",
+      "zh": "圆规和曲尺。"
+    },
+    {
+      "at": "周官‧大司徒",
+      "occ": 1,
+      "en": "The Rites of Zhou, in its account of the duties of the Grand Minister of Education.",
+      "zh": "《周礼·地官·大司徒》。周官，即《周礼》。"
+    },
+    {
+      "at": "八尺之表",
+      "occ": 1,
+      "en": "A gnomon: an upright post eight feet high whose noon shadow is measured.",
+      "zh": "表，测日影用的直立标杆，高八尺。"
+    },
+    {
+      "at": "地中",
+      "occ": 1,
+      "en": "The centre of the earth: the place where the solstice shadow measured exactly a foot and a half.",
+      "zh": "大地的中心，即夏至正午表影恰为一尺五寸的地方。"
+    },
+    {
+      "at": "南戴日下萬五千里",
+      "occ": 1,
+      "at_hans": "南戴日下万五千里",
+      "en": "The point directly beneath the sun at noon. The figure rests on the Han assumption of a flat earth, on which the shadow grows by an inch for every thousand li.",
+      "zh": "“戴日下”指太阳正下方的地点。此数基于汉代大地为平面、“寸差千里”的假设。"
+    },
+    {
+      "at": "重差",
+      "occ": 1,
+      "en": "The method of double differences: measuring a distant object from two sighting posts. Liu Hui's chapter on it later circulated alone as the Sea Island Mathematical Manual.",
+      "zh": "用两根表杆测量远处目标的方法。刘徽所撰《重差》后来单独流传，即《海岛算经》。"
+    },
+    {
+      "at": "洛陽",
+      "occ": 1,
+      "at_hans": "洛阳",
+      "en": "Luoyang, capital of the Wei state, where Liu Hui probably worked.",
+      "zh": "曹魏的都城，刘徽大概在此工作。"
+    },
+    {
+      "at": "以景差為法",
+      "occ": 1,
+      "at_hans": "以景差为法",
+      "en": "法 is the divisor and 實 the dividend: here the difference between the two shadows is the divisor.",
+      "zh": "法，除数；实，被除数。以两表影长之差作除数。"
+    },
+    {
+      "at": "筩",
+      "occ": 1,
+      "en": "A tube, used as a sighting instrument.",
+      "zh": "竹筒，用作窥管。"
+    },
+    {
+      "at": "累矩",
+      "occ": 1,
+      "en": "Stacked set-squares, used to sight down into a depth.",
+      "zh": "叠用多个矩尺测深。"
+    },
+    {
+      "at": "孤離者三望",
+      "occ": 1,
+      "at_hans": "孤离者三望",
+      "en": "An object standing alone and far off needs three sightings; one that must also be reached from the side needs four.",
+      "zh": "孤立的远处目标要测望三次；还须从旁推求的，要测望四次。"
+    }
+  ],
+  "pairs": [
+    "S-002045",
+    "S-006004",
+    "S-007006"
+  ]
 }

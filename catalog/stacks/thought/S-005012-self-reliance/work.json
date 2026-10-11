@@ -45,8 +45,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Emerson’s 1841 essay, the source of “a foolish consistency is the hobgoblin of little minds”. It is a sermon for trusting your own perception against the crowd, written with an aphorist’s compression and, sometimes, an aphorist’s overreach. Read it next to Schopenhauer on thinking for oneself, which makes a harder version of the same case. The Chinese gives the opening and the passages on doing your own work and on consistency.",
-    "zh": "爱默生 1841 年的文章，“愚蠢的一贯性是小心眼的妖怪”一语即出于此。它像一篇布道，劝人面对众人时相信自己的感知，写得有格言家的凝练，有时也有格言家的过头。可以与叔本华《论独立思考》对照着读，后者把同一个道理说得更硬。中文译出开头，以及论做自己的事、论一贯性的几段。"
+    "en": "Emerson’s 1841 essay, the source of “a foolish consistency is the hobgoblin of little minds”. It is a sermon for trusting your own perception against the crowd, written with an aphorist’s compression and, sometimes, an aphorist’s overreach. Read it next to Schopenhauer on thinking for oneself, which makes a harder version of the same case. The Chinese translates the whole essay, with its epigraphs.",
+    "zh": "爱默生 1841 年的文章，“愚蠢的一贯性是小心眼的妖怪”一语即出于此。它像一篇布道，劝人面对众人时相信自己的感知，写得有格言家的凝练，有时也有格言家的过头。可以与叔本华《论独立思考》对照着读，后者把同一个道理说得更硬。中文译出全文，连同题词。"
   },
   "pick": null,
   "tags": [
@@ -60,5 +60,10 @@
     "en": "Trust thyself: every heart vibrates to that iron string.",
     "zh": "相信你自己：每一颗心都随着这根铁弦振动。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-005016",
+    "S-005020",
+    "S-005013"
+  ]
 }

@@ -60,5 +60,9 @@
     "en": "Nothing beside remains. Round the decay\nOf that colossal wreck, boundless and bare\nThe lone and level sands stretch far away.",
     "zh": "此外什么也没有留下。在那巨大残骸的\n废墟四周，无边无际，空空荡荡，\n寂寞而平坦的黄沙伸向远方。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004002",
+    "S-008019"
+  ]
 }

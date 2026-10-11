@@ -45,8 +45,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Thoreau’s essay, printed in The Atlantic Monthly in 1862, begins as a defence of sauntering and widens into a case for wildness as something people need, not merely tolerate. It has his best jokes about the word “saunterer” and his own small poem about a road nobody repairs. The closing pages describe a November sunset over a meadow that, he imagines, will “cheer and reassure the latest child that walked there”. The Chinese gives the opening and the close.",
-    "zh": "梭罗的这篇文章 1862 年刊于《大西洋月刊》，从为“闲逛”辩护开始，渐渐扩展为一种主张：野性是人所需要的，而不只是可以容忍的。文中有他拿“闲逛者”一词开的最好的玩笑，还有他写一条无人修补的路的小诗。结尾几页写十一月草地上的一次落日，他想象那光会“鼓舞、安慰将来最后一个走在那里的孩子”。中文译出开头和结尾。"
+    "en": "Thoreau’s essay, printed in The Atlantic Monthly in 1862, begins as a defence of sauntering and widens into a case for wildness as something people need, not merely tolerate. It has his best jokes about the word “saunterer” and his own small poem about a road nobody repairs. The closing pages describe a November sunset over a meadow that, he imagines, will “cheer and reassure the latest child that walked there”. The Chinese translates the whole essay, the poem included.",
+    "zh": "梭罗的这篇文章 1862 年刊于《大西洋月刊》，从为“闲逛”辩护开始，渐渐扩展为一种主张：野性是人所需要的，而不只是可以容忍的。文中有他拿“闲逛者”一词开的最好的玩笑，还有他写一条无人修补的路的小诗。结尾几页写十一月草地上的一次落日，他想象那光会“鼓舞、安慰将来最后一个走在那里的孩子”。中文译出全文，包括那首诗。"
   },
   "pick": null,
   "tags": [
@@ -61,5 +61,47 @@
     "en": "So we saunter toward the Holy Land, till one day the sun shall shine more brightly than ever he has done",
     "zh": "我们就这样向着圣地闲逛而去，直到有一天，太阳照得比以往任何时候都更明亮"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Peter the Hermit",
+      "en": "A preacher of the First Crusade (1096), said to have stirred crowds across France to march for Jerusalem.",
+      "zh": "第一次十字军东征（1096）的布道者，据说曾在法国各地鼓动民众向耶路撒冷进发。"
+    },
+    {
+      "at": "Ambulator nascitur, non fit",
+      "en": "Latin: “The walker is born, not made”, after the proverb Poeta nascitur, non fit, “the poet is born, not made”.",
+      "zh": "拉丁文：“步行者是天生的，不是造就的。”仿自谚语 Poeta nascitur, non fit（诗人是天生的，不是造就的）。"
+    },
+    {
+      "at": "king of Dahomey",
+      "en": "Dahomey was a West African kingdom, in present-day Benin, much described by nineteenth-century travellers.",
+      "zh": "达荷美是西非的一个王国，在今贝宁境内，19 世纪的游记中常有描述。"
+    },
+    {
+      "at": "Menu",
+      "en": "Manu, the lawgiver of Hindu tradition, to whom the Laws of Manu are ascribed.",
+      "zh": "摩奴，印度传统中的立法者，《摩奴法典》托名于他。"
+    },
+    {
+      "at": "Lethean stream",
+      "en": "Lethe, the river of forgetfulness in the Greek underworld; whoever drank from it forgot their former life.",
+      "zh": "忘川，希腊神话中冥界的遗忘之河，饮其水者忘却前生。"
+    },
+    {
+      "at": "Hesperides",
+      "en": "In Greek myth, the nymphs who kept a garden of golden apples at the western edge of the world.",
+      "zh": "希腊神话中在世界西端看守金苹果园的仙女。"
+    },
+    {
+      "at": "Cadmus",
+      "en": "In Greek legend, the founder of Thebes, said to have brought the alphabet to Greece from Phoenicia.",
+      "zh": "希腊传说中忒拜城的建立者，相传把字母从腓尼基带到了希腊。"
+    }
+  ],
+  "pairs": [
+    "S-004105",
+    "S-005012",
+    "S-005020"
+  ]
 }

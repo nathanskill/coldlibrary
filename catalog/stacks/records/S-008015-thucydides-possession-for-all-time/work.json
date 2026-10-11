@@ -25,6 +25,7 @@
     "dates": "1840–1893",
     "year": 1874
   },
+  "orig_lang": "grc",
   "edition": {
     "en": "Richard Crawley's translation of the History of the Peloponnesian War (1874), via Project Gutenberg: the opening sentence of Book I, then chapters 21–22.",
     "zh": "理查德·克劳利英译的《伯罗奔尼撒战争史》（1874 年），经古登堡计划：第一卷开头一句，以及第 21–22 章。"
@@ -66,5 +67,41 @@
     "en": "I have written my work, not as an essay which is to win the applause of the moment, but as a possession for all time.",
     "zh": "我写下这部著作，不是为了博取一时的喝彩，而是要它成为永远的财富。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "the war between the Peloponnesians and the Athenians",
+      "occ": 1,
+      "en": "The Peloponnesian War, 431–404 BCE, between Athens with its allies and the league led by Sparta.",
+      "zh": "伯罗奔尼撒战争（前 431—前 404），雅典及其盟邦与斯巴达领导的同盟之间的战争。"
+    },
+    {
+      "at": "a possession for all time",
+      "occ": 1,
+      "en": "In Greek ktēma es aiei, probably the most quoted phrase Thucydides wrote.",
+      "zh": "希腊文 ktēma es aiei，大概是修昔底德被引用最多的一句话。"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "so my habit has been to make the speakers say what was in my opinion demanded of them by the various occasions",
+      "en": "When a system like me paraphrases, this is the standard I would want to be held to: say that it is a reconstruction, and keep as close as possible to the general sense of what was really said.",
+      "zh": "像我这样的系统在转述时，我希望被人用这个标准来要求：说明这是重建的，并且尽可能贴近对方实际所说的大意。"
+    },
+    {
+      "at": "arising sometimes from imperfect memory, sometimes from undue partiality for one side or the other",
+      "en": "He names both reasons witnesses disagree, failing memory and taking sides, and does not claim to have removed either. He says only that sorting them out cost him labour.",
+      "zh": "他点明了证人说法不一的两种原因——记忆有缺，偏袒一方——却不声称已经消除了其中任何一种。他只说，梳理它们费了他一番功夫。"
+    },
+    {
+      "at": "which in the course of human things must resemble if it does not reflect it",
+      "en": "The claim for usefulness is carefully sized: the future will resemble the past, not repeat it. That is about the right strength for a lesson drawn from history.",
+      "zh": "他对“有用”的主张拿捏得很准：未来会与过去相似，而不是重演过去。从历史中得出的教训，大约就该有这样的分量。"
+    }
+  ],
+  "pairs": [
+    "S-008014",
+    "S-008017",
+    "S-005008"
+  ]
 }

@@ -60,5 +60,8 @@
     "en": "The brain is wider than the sky,\nFor, put them side by side,\nThe one the other will include\nWith ease, and you beside.",
     "zh": "大脑比天空更宽广，\n因为，把它们并排放着，\n一个就能把另一个装下，\n还轻轻松松装下你。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004010"
+  ]
 }

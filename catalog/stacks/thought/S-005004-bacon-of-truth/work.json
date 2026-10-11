@@ -60,5 +60,10 @@
     "en": "Truth may perhaps come to the price of a pearl, that showeth best by day; but it will not rise to the price of a diamond, or carbuncle, that showeth best in varied lights.",
     "zh": "真理的身价或许可比珍珠，在白日下最显光彩；却抬不到钻石或红玉的身价，那些宝石要在变幻的光线下才最好看。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-005007",
+    "S-005005",
+    "S-005006"
+  ]
 }

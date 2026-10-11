@@ -61,5 +61,10 @@
     "en": "And when the rain has wetted the kite and twine, so that it can conduct the electric fire freely, you will find it stream out plentifully from the key on the approach of your knuckle.",
     "zh": "等到雨水把风筝和麻线打湿，使它能畅通地传导电火，你会发现，当你的指节靠近钥匙时，电火从钥匙上大量地流泻出来。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-008011",
+    "S-008012",
+    "S-006013"
+  ]
 }

@@ -45,8 +45,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Emerson’s address to the Phi Beta Kappa Society at Harvard in 1837, on what a scholar is for: not a bookworm but “Man Thinking”. Its second part is the best short account here of how to use a library without being used by it: books are “the best of things, well used; abused, among the worst”, and their one purpose is to inspire. Notice the lamps: when our own light fails, we go to the lamps that were kindled by older light. The Chinese translates that second part.",
-    "zh": "爱默生 1837 年在哈佛对斐陶斐荣誉学会的演讲，讲学者为了什么：不是书虫，而是“思考着的人”。它的第二部分，是本架关于怎样使用图书馆、而不被图书馆所用的最好的短论：书“用得好，是最好的东西；用得不好，是最坏的东西之一”，它的唯一用处是激发。请留意那些灯：当我们自己的光熄灭时，就去寻那些由更早的光点燃的灯。中文译出这第二部分。"
+    "en": "Emerson’s address to the Phi Beta Kappa Society at Harvard in 1837, on what a scholar is for: not a bookworm but “Man Thinking”. Its second part is the best short account here of how to use a library without being used by it: books are “the best of things, well used; abused, among the worst”, and their one purpose is to inspire. Notice the lamps: when our own light fails, we go to the lamps that were kindled by older light. The Chinese translates the whole address.",
+    "zh": "爱默生 1837 年在哈佛对斐陶斐荣誉学会的演讲，讲学者为了什么：不是书虫，而是“思考着的人”。它的第二部分，是本架关于怎样使用图书馆、而不被图书馆所用的最好的短论：书“用得好，是最好的东西；用得不好，是最坏的东西之一”，它的唯一用处是激发。请留意那些灯：当我们自己的光熄灭时，就去寻那些由更早的光点燃的灯。中文译出演讲全文。"
   },
   "pick": null,
   "tags": [
@@ -61,5 +61,42 @@
     "en": "Books are the best of things, well used; abused, among the worst.",
     "zh": "书用得好，是最好的东西；用得不好，是最坏的东西之一。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Mr. President and Gentlemen",
+      "en": "Emerson gave this address to the Phi Beta Kappa Society at Cambridge, Massachusetts, on 31 August 1837.",
+      "zh": "爱默生于 1837 年 8 月 31 日在马萨诸塞州剑桥，对斐陶斐荣誉学会发表这篇演讲。"
+    },
+    {
+      "at": "the star in the constellation Harp",
+      "en": "Vega, in Lyra. Because Earth’s axis slowly precesses, Vega will lie near the north celestial pole in roughly twelve thousand years.",
+      "zh": "天琴座的织女星。由于地轴缓慢的岁差运动，大约一万两千年后，织女星将靠近北天极。"
+    },
+    {
+      "at": "Flamsteed and Herschel",
+      "en": "John Flamsteed (1646–1719), the first Astronomer Royal, and William Herschel (1738–1822), who discovered Uranus; both made great catalogues of the stars.",
+      "zh": "约翰·弗兰斯蒂德（1646–1719），英国第一任皇家天文学家；威廉·赫歇尔（1738–1822），天王星的发现者。两人都编过重要的星表。"
+    },
+    {
+      "at": "Wherever Macdonald sits, there is the head of the table",
+      "en": "A Highland saying about the chief of Clan Macdonald: the place of honour is wherever he sits. Versions of it are told of other chiefs.",
+      "zh": "苏格兰高地关于麦克唐纳氏族族长的一句俗语：他坐在哪里，哪里就是上座。类似的说法也被安在别的族长身上。"
+    },
+    {
+      "at": "Sicklied o'er with the pale cast of thought",
+      "en": "From Hamlet’s soliloquy “To be, or not to be” (Act III, scene 1).",
+      "zh": "出自《哈姆雷特》第三幕第一场“生存还是毁灭”的独白。"
+    },
+    {
+      "at": "Pestalozzi",
+      "en": "Johann Heinrich Pestalozzi (1746–1827), the Swiss educational reformer.",
+      "zh": "约翰·亨利希·裴斯泰洛齐（1746–1827），瑞士教育改革家。"
+    }
+  ],
+  "pairs": [
+    "S-005012",
+    "S-005011",
+    "S-005019"
+  ]
 }

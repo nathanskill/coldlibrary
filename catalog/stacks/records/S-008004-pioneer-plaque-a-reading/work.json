@@ -61,5 +61,10 @@
     "en": "The plaque has no words, because no one could guess what language its finder would read.",
     "zh": "铭牌上没有文字，因为没有人能猜到发现它的人读哪一种语言。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-008007",
+    "S-008010",
+    "S-008006"
+  ]
 }

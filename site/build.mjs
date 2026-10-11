@@ -16,6 +16,7 @@ import { workPages } from './src/stacks/work.mjs';
 import { stackPages } from './src/stacks/lists.mjs';
 import { fontHead, writeManifest } from './src/fonts.mjs';
 import { emitOutputs } from './src/outputs.mjs';
+import { checkStacks } from '../tools/stacks-check.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, '..');
@@ -56,6 +57,8 @@ const tests = existsSync(testDir) ? readdirSync(testDir).filter((f) => f.endsWit
 
 // The Open Stacks: works, plates, shelves, trails, Claude's shelf, tags, house papers.
 const open = loadStacks(root);
+// The catalogue checker runs on every build, as a warning: content edits never block a deploy.
+try { const r = checkStacks(root); const n = (r && (r.errors || r.problems) || []).length; const wn = (r && r.warnings || []).length; console.log(`stacks-check: ${n} problem(s), ${wn} warning(s)`); } catch (e) { console.warn('stacks-check could not run: ' + e.message); }
 const ctx = { root, projects, stacks, items, log, tests, open };
 
 const all = [...PAGES, ...items.map(itemPage), ...stackPages(ctx), ...workPages(ctx)];
@@ -72,7 +75,7 @@ const cssDir = join(here, 'src/css');
 const cssParts = readdirSync(cssDir).filter((f) => /^\d.*\.css$/.test(f)).sort();
 writeFileSync(join(dist, 'assets/site.css'), cssParts.map((f) => `/* ---- ${f} ---- */\n` + readFileSync(join(cssDir, f), 'utf8')).join('\n'));
 
-const pick = (v, lang) => (typeof v === 'function' ? v(lang) : v && (v[lang] ?? v.en));
+const pick = (v, lang) => (typeof v === 'function' ? v(lang) : typeof v === 'string' ? v : v && (v[lang] ?? v.en));
 const urls = [];
 const manifest = {};
 let pages = 0;

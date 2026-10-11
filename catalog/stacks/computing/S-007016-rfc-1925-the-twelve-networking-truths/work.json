@@ -44,7 +44,7 @@
   "translations": {},
   "note": {
     "en": "Ross Callon's April 1996 RFC collects twelve truths 'underlying all networking' that hold well beyond it: you cannot increase the speed of light, it is easier to move a problem than to solve it, every old idea will be proposed again under a new name. It is a joke that engineers quote seriously. Notice truth twelve, which borrows Saint-Exupéry's definition of perfection; the Jargon File entry for 'elegant' on this shelf quotes the same line.",
-    "zh": "罗斯·卡隆 1996 年愚人节发布的这份 RFC，收集了“一切网络背后的根本真理”十二条，而它们远不止适用于网络：它必须能用；无论多用力，都无法提高光速；挪动问题比解决问题容易，总可以再加一层间接；永远比你想的复杂；每个旧主意都会换个名字再被提出来。这是一个被工程师们认真引用的笑话。请留意第十二条，它借用了圣埃克苏佩里对完美的定义——本架上《黑客词典》的“elegant”词条也引了同一句话。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
+    "zh": "罗斯·卡隆 1996 年愚人节发布的这份 RFC，收集了“一切网络背后的根本真理”十二条，而它们远不止适用于网络：它必须能用；无论多用力推、优先级多高，都无法提高光速（推论：九个月才能生出的孩子，催也催不快）；推力足够大，猪也能飞，但这未必是好主意；有些事不亲手做过就无法真正理解；总可以把几个问题揉成一个复杂而相互牵连的方案，但多半是坏主意；挪动问题比解决问题容易，总可以再加一层间接；总会出点什么事（好、快、便宜，只能三选二）；永远比你想的复杂；无论什么资源，你都需要更多；没有一种尺寸适合所有情况；每个旧主意都会换个名字、换个包装再被提出来，不管它行不行得通；协议设计的完美，不在于无可增添，而在于无可删减。这是一个被工程师们认真引用的笑话。请留意第十二条，它借用了圣埃克苏佩里对完美的定义——本架上《黑客词典》的“elegant”词条也引了同一句话。原文只声明“分发不受限制”，故按原样收录，不作翻译。"
   },
   "pick": null,
   "tags": [
@@ -59,5 +59,10 @@
     "en": "No matter how hard you push and no matter what the priority, you can't increase the speed of light.",
     "zh": "无论你多用力推，无论优先级多高，你都无法提高光速。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007017",
+    "S-007024",
+    "S-007025"
+  ]
 }

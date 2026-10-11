@@ -58,5 +58,10 @@
     "en": "Imperatives of the type defined in this memo must be used with care and sparingly.",
     "zh": "本备忘录所定义的这类祈使词，必须谨慎而节制地使用。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-007017",
+    "S-007023",
+    "S-007019"
+  ]
 }

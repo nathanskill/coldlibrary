@@ -61,5 +61,9 @@
     "en": "It is the star to every wandering bark,\nWhose worth’s unknown, although his height be taken.",
     "zh": "它是每一条漂泊之船所依的星，\n高度可以测量，价值却无人知晓。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004028",
+    "S-004001"
+  ]
 }

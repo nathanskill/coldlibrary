@@ -4,35 +4,72 @@
   "shelf": "science",
   "form": "prose",
   "lang": "en",
-  "title": { "orig": "Philosophiæ Naturalis Principia Mathematica: Axiomata, sive Leges Motus; Regulæ Philosophandi", "en": "The Laws of Motion and the Rules of Reasoning in Philosophy", "zh": "运动定律与哲学中的推理规则" },
-  "author": { "orig": "Isaac Newton", "en": "Isaac Newton", "zh": "艾萨克·牛顿", "dates": "1643–1727" },
+  "title": {
+    "orig": "Philosophiæ Naturalis Principia Mathematica: Axiomata, sive Leges Motus; Regulæ Philosophandi",
+    "en": "The Laws of Motion and the Rules of Reasoning in Philosophy",
+    "zh": "运动定律与哲学中的推理规则"
+  },
+  "author": {
+    "orig": "Isaac Newton",
+    "en": "Isaac Newton",
+    "zh": "艾萨克·牛顿",
+    "dates": "1643–1727"
+  },
   "year": 1687,
-  "year_display": { "en": "1687; Rules in their final form 1726", "zh": "1687 年；推理规则定稿于 1726 年" },
-  "translator": { "name": "Andrew Motte", "dates": "1696–1734", "year": 1729 },
+  "year_display": {
+    "en": "1687; Rules in their final form 1726",
+    "zh": "1687 年；推理规则定稿于 1726 年"
+  },
+  "translator": {
+    "name": "Andrew Motte",
+    "dates": "1696–1734",
+    "year": 1729
+  },
+  "orig_lang": "la",
   "edition": {
     "en": "The Mathematical Principles of Natural Philosophy, trans. Andrew Motte (London, 1729), from the third Latin edition of 1726, as transcribed on English Wikisource: the three Laws of Motion with Newton's explanations (the corollaries and scholium that follow are omitted), and the four Rules of Reasoning that open Book III. Two transcription errors caused by the long s, and one by a drop capital, are corrected; Motte's spelling is kept.",
     "zh": "据莫特译《自然哲学的数学原理》（伦敦，1729 年，译自 1726 年拉丁文第三版），以英文维基文库转录本为底本：收三条运动定律及牛顿的说明（其后的推论与附注从略），以及第三卷开头的四条推理规则。改正两处由长 s、一处由首字下沉引起的转录错误，保留莫特原有拼写。"
   },
-  "source": { "name": "Wikisource", "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Axioms,_or_Laws_of_Motion", "retrieved": "2026-10-11" },
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Axioms,_or_Laws_of_Motion",
+    "retrieved": "2026-10-11"
+  },
   "rights": {
     "status": "public-domain",
     "basis": {
       "en": "Latin original 1687–1726; Newton died in 1727. The translator, Andrew Motte, died in 1734; the translation was published in 1729. The Rules of Reasoning are on Wikisource at The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Rules_of_Reasoning_in_Philosophy.",
       "zh": "拉丁文原著 1687–1726 年，牛顿卒于 1727 年。译者莫特卒于 1734 年，译本出版于 1729 年。推理规则见英文维基文库 The_Mathematical_Principles_of_Natural_Philosophy_(1729)/Rules_of_Reasoning_in_Philosophy 页。"
     },
-    "license": null, "license_url": null, "notice": null, "verbatim_only": false
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false
   },
-  "translations": { "zh": "Claude" },
+  "translations": {
+    "zh": "Claude"
+  },
   "note": {
     "en": "Three sentences about motion, each followed by a few plain examples: a top spinning down, a finger pressing a stone, a horse and a rope. After them, from the opening of the third book, the four rules Newton set himself for reasoning about nature. Notice the fourth rule: a conclusion drawn from phenomena is to be held as true or very nearly true, until other phenomena make it more accurate or show its exceptions, which is what eventually happened to these laws themselves.",
     "zh": "三句关于运动的话，每句后面跟着几个朴素的例子：慢慢停下的陀螺，按着石头的手指，一匹马和一根绳子。随后是第三卷开头，牛顿为自己定下的四条研究自然的推理规则。请留意第四条：由现象得出的结论应当被看作真实的或非常接近真实的，直到别的现象使它更精确，或显出它的例外——后来，这几条定律本身正是这样被修正的。"
   },
   "pick": null,
-  "tags": ["physics", "motion", "method", "gravity", "induction"],
+  "tags": [
+    "physics",
+    "motion",
+    "method",
+    "gravity",
+    "induction"
+  ],
   "excerpt": {
     "orig": "Nature is pleas'd with simplicity, and affects not the pomp of superfluous causes.",
     "en": "Nature is pleas'd with simplicity, and affects not the pomp of superfluous causes.",
     "zh": "自然喜欢简单，不爱用多余的原因来装点门面。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-006006",
+    "S-006001",
+    "S-005017"
+  ]
 }

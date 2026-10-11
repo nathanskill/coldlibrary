@@ -63,5 +63,27 @@
     "en": "Whoever is inhabiting Earth in that distant epoch may appreciate a little greeting card from the remote past.",
     "zh": "在那个遥远的时代住在地球上的无论是谁，也许会喜欢这张来自远古的小小贺卡。"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "The close fit of South America into West Africa one of the first hints",
+      "en": "This is the sentence that lacks its verb, kept as published; read 'was one of the first hints'. The observation is old: mapmakers remarked on the matching coastlines as early as the sixteenth century.",
+      "zh": "这就是那句缺了动词的句子，照原样保留；读作“是最早的线索之一”。这个观察由来已久：早在十六世纪，就有制图家注意到两岸海岸线的吻合。"
+    },
+    {
+      "at": "Many of the other changes in the map of the Earth shown are little more than guesses.",
+      "en": "A plaque built to last for millions of years says plainly that most of its picture of the future is guesswork. Official writing seldom admits the limits of its forecasts so calmly.",
+      "zh": "一块要保存几百万年的铭牌，坦白地说它对未来的描绘大多是猜测。官方文字很少这样坦然地承认自己预测的局限。"
+    },
+    {
+      "at": "Thus, the prime objective of LAGEOS and the method of telling time of the spacecraft's plaque are identical.",
+      "en": "The satellite measures continental drift, and the plaque uses continental drift as its clock. The message and the instrument are one design, so whoever can read the clock already knows what the satellite was for.",
+      "zh": "卫星测量大陆漂移，铭牌就用大陆漂移来计时。信息和仪器是同一个设计，所以能读懂这只时钟的人，也就已经知道这颗卫星是做什么用的。"
+    }
+  ],
+  "pairs": [
+    "S-008004",
+    "S-008010",
+    "S-008012"
+  ]
 }

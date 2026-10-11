@@ -25,6 +25,7 @@
     "dates": "1852–1915",
     "year": 1890
   },
+  "orig_lang": "grc",
   "edition": {
     "en": "G. C. Macaulay's translation (London, 1890), via Project Gutenberg; his footnote markers are removed.",
     "zh": "G. C. 麦考利的英译本（伦敦，1890 年），经古登堡计划；译者的注码已删去。"
@@ -63,5 +64,30 @@
     "en": "to the end that neither the deeds of men may be forgotten by lapse of time",
     "zh": "为了不让人们的业绩随着时间流逝而被遗忘"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "Halicarnassos",
+      "occ": 1,
+      "en": "A Greek city on the coast of Caria in Asia Minor, under Persian rule when Herodotus was born; today Bodrum, in Turkey.",
+      "zh": "小亚细亚卡里亚沿岸的希腊城市，希罗多德出生时处于波斯统治之下；即今土耳其的博德鲁姆。"
+    },
+    {
+      "at": "Inquiry",
+      "occ": 1,
+      "en": "Greek historiē, inquiry or research. Through this book the word came to mean history.",
+      "zh": "希腊文 historiē，意为探究、调查。正是通过这部书，这个词后来有了“历史”的意思。"
+    },
+    {
+      "at": "Barbarians",
+      "occ": 1,
+      "en": "Greek barbaroi: all who did not speak Greek, Persians and Egyptians among them. In Herodotus the word is not an insult.",
+      "zh": "希腊文 barbaroi，泛指一切不说希腊语的人，包括波斯人和埃及人。在希罗多德笔下，这个词并无贬义。"
+    }
+  ],
+  "pairs": [
+    "S-008015",
+    "S-008013",
+    "S-008016"
+  ]
 }

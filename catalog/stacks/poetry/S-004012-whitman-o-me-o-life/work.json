@@ -59,5 +59,8 @@
     "en": "That you are here—that life exists and identity,\nThat the powerful play goes on, and you may contribute a verse.",
     "zh": "你在这里——生命存在，自我存在，\n那场宏大的戏仍在上演，而你可以献上一句诗。"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004011"
+  ]
 }

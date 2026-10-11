@@ -61,5 +61,42 @@
     "en": "The action of this principle is exactly like that of the centrifugal governor of the steam engine, which checks and corrects any irregularities almost before they become evident; and in like manner no unbalanced deficiency in the animal kingdom can ever reach any conspicuous magnitude, because it would make itself felt at the very first step, by rendering existence difficult and extinction almost sure soon to follow.",
     "zh": "这一原理的作用，正像蒸汽机的离心调速器，它几乎在任何不规则显露出来之前，就把它检查并纠正了；同样，动物界中任何不平衡的缺陷都不可能达到显著的程度，因为它在第一步就会让自己被感觉到：它使生存变得困难，灭绝几乎随即而至。"
   },
-  "plate": null
+  "plate": null,
+  "gloss": [
+    {
+      "at": "passenger pigeon",
+      "occ": 1,
+      "en": "A North American pigeon that flew in flocks of millions. Hunted without limit, it became extinct in 1914, when the last one died at the Cincinnati Zoo.",
+      "zh": "北美的一种鸽子，曾以数以百万计的大群飞行；遭到无节制的捕杀，1914 年最后一只死于辛辛那提动物园，从此灭绝。"
+    },
+    {
+      "at": "The hypothesis of Lamarck",
+      "occ": 1,
+      "en": "Jean-Baptiste Lamarck (1744–1829), French naturalist, proposed in 1809 that species change through the inherited effects of use and disuse.",
+      "zh": "让-巴蒂斯特·拉马克（1744—1829），法国博物学家，1809 年提出：器官用与不用所造成的变化会遗传下去，物种由此改变。"
+    },
+    {
+      "at": "centrifugal governor of the steam engine",
+      "occ": 1,
+      "en": "James Watt’s flyball governor: as the engine speeds up, two weighted balls swing outwards and partly close the steam valve, slowing it again.",
+      "zh": "瓦特的离心调速器：发动机转快时，两个重球向外张开，带动蒸汽阀关小，使机器重新慢下来。"
+    },
+    {
+      "at": "Professor Owen",
+      "occ": 1,
+      "en": "Richard Owen (1804–1892), anatomist and palaeontologist, who coined the word dinosaur.",
+      "zh": "理查德·欧文（1804—1892），解剖学家和古生物学家，“恐龙”一词就是他创造的。"
+    },
+    {
+      "at": "Ternate, February, 1858.",
+      "occ": 1,
+      "en": "Ternate is a small volcanic island in the Moluccas, in today’s Indonesia, which Wallace used as a base while collecting in the region.",
+      "zh": "特尔纳特是马鲁古群岛中的一座火山小岛，在今印度尼西亚；华莱士在这一带采集标本时以它为据点。"
+    }
+  ],
+  "pairs": [
+    "S-006012",
+    "S-006015",
+    "S-007008"
+  ]
 }

@@ -61,5 +61,9 @@
     "en": "Bright star, would I were steadfast as thou art!",
     "zh": "明亮的星，但愿我像你一样坚定！"
   },
-  "plate": null
+  "plate": null,
+  "pairs": [
+    "S-004005",
+    "S-004007"
+  ]
 }

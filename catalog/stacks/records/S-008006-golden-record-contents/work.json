@@ -60,5 +60,10 @@
     "en": "To the makers of music – all worlds, all times",
     "zh": "献给音乐的创造者——所有的世界，所有的时代。"
   },
-  "plate": "G-008009"
+  "plate": "G-008009",
+  "pairs": [
+    "S-008007",
+    "S-008005",
+    "S-008002"
+  ]
 }

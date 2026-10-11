@@ -25,6 +25,7 @@
     "dates": "1861–1946",
     "year": 1918
   },
+  "orig_lang": "ru",
   "edition": {
     "en": "Constance Garnett’s translation in The Witch and Other Stories (1918), on Project Gutenberg (eBook 1944)",
     "zh": "据古登堡计划电子书 1944 所录康斯坦斯·加内特译本，收入《女巫及其他故事》（1918）"
@@ -68,5 +69,26 @@
     "en": "“The past,” he thought, “is linked with the present by an unbroken chain of events flowing one out of another.”",
     "zh": "“过去，”他想，“是由一条连绵不断、一件接着一件流出来的事件之链，与现在连在一起的。”"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "something alive droned pitifully with a sound like blowing into an empty bottle",
+      "en": "Chekhov does not name the creature (probably a bittern). The story’s first sound is a hollow one and its last words are “full of lofty meaning”; the whole arc runs from that empty bottle to that fullness.",
+      "zh": "契诃夫没有说出那是什么动物（多半是一只麻鳽）。这篇小说的第一个声音是空的，最后一句却是“充满了崇高的意义”；整篇的弧线，就从那只空瓶子通向这份充满。"
+    },
+    {
+      "at": "The old woman had wept, not because he could tell the story touchingly, but because Peter was near to her",
+      "en": "This is the hinge, and a useful warning for anyone who keeps old texts: the power was not in the telling but in the nearness. A library can offer the story; the nearness has to come from the reader.",
+      "zh": "这是全篇的转折点，也是给所有保管旧文本的人的一个有用的提醒：力量不在讲述，而在亲近。图书馆能提供故事，亲近却得来自读者。"
+    },
+    {
+      "at": "he was only twenty-two",
+      "en": "Chekhov’s quiet aside. The joy is real, and it is also the joy of someone young, healthy and twenty-two; he lets both be true and does not choose for us.",
+      "zh": "契诃夫轻轻插进的一句。那份喜悦是真的，同时也是一个二十二岁、年轻健康的人的喜悦；他让两者都成立，并不替我们选择。"
+    }
+  ],
+  "pairs": [
+    "S-004011",
+    "S-004106"
+  ]
 }

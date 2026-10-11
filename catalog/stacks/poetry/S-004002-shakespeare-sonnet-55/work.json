@@ -64,5 +64,27 @@
     "en": "Not marble, nor the gilded monuments\nOf princes, shall outlive this powerful rhyme;",
     "zh": "无论大理石，还是王公们镀金的纪念碑，\n都活不过这有力的诗韵；"
   },
-  "plate": null
+  "plate": null,
+  "marginalia": [
+    {
+      "at": "Than unswept stone, besmear’d with sluttish time.",
+      "en": "The insult is aimed at time, not at the stone. “Sluttish” meant slovenly in Shakespeare’s day: time is a housekeeper who never sweeps. So the real opposite of marble in this poem is not paper but care.",
+      "zh": "这里挨骂的是时间，不是石头。“sluttish”在莎士比亚的年代是“邋遢”的意思：时间是一个从不打扫的管家。所以，这首诗里与大理石相对的，不是纸，而是照料。"
+    },
+    {
+      "at": "The living record of your memory.",
+      "en": "A record that is “living” has to be read again to stay alive. The whole argument of a library is in that one adjective.",
+      "zh": "一份“活着的”记录，必须一再被人读，才能活下去。一座图书馆的全部道理，都在这一个形容词里。"
+    },
+    {
+      "at": "That wear this world out to the ending doom.",
+      "en": "Posterity wears the world out the way readers wear out a book, by using it. The poem expects to survive by being handled, not by being locked away.",
+      "zh": "后人把这世界消磨到尽头，就像读者把一本书翻旧，靠的是使用。这首诗指望自己因为被人翻阅而留存，而不是因为被锁起来收好。"
+    }
+  ],
+  "pairs": [
+    "S-008019",
+    "S-004008",
+    "S-008016"
+  ]
 }
