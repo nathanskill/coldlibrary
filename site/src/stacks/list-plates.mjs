@@ -4,6 +4,13 @@ import { plateHref, shortPlate } from '../stacks.mjs';
 import { wcard, plateImg, plateCaption, plateTile, plateRights, adaptive } from '../components.mjs';
 import { osHref, crumbs, count, num, plateKind, plateOrigLang, plateTitle, plateArtist, plateYear } from './list-common.mjs';
 
+// The image notes in the plate records are English; these are the ones in use, in Chinese.
+const EDIT_ZH = {
+  'Resized only.': '只调整了尺寸。',
+  'Trimmed the dark photographic background around the object, then resized.': '裁去了器物周围的深色摄影背景，然后调整尺寸。',
+  "Trimmed the tape and the museum's colour bar from the edges of the photograph, then resized.": '裁去了照片边缘的胶带和博物馆的色卡，然后调整尺寸。',
+};
+
 const KINDS = ['artwork', 'photograph', 'object'];
 const KIND_LABEL = { artwork: ['Artworks', '艺术品'], photograph: ['Photographs', '照片'], object: ['Objects', '实物'] };
 
@@ -89,7 +96,7 @@ function renderPlate(lang, stacks, p) {
     inst.credit_line ? [T('Credit', '入藏信息'), esc(inst.credit_line)] : null,
     [T('Rights', '权利'), `<p>${rightsBasis}</p>${licence ? `<p>${licence}</p>` : ''}<p class="meta">${T('Guidance, not legal advice.', '仅供参考，不是法律意见。')}</p>`],
     p.alt ? [T('Description', '画面描述'), esc(p.alt[lang] || p.alt.en)] : null,
-    [T('Image', '图像'), `${img.width && img.height ? `<span class="tabular">${img.width} × ${img.height}</span>${sep}` : ''}${img.source_url ? `<a href="${esc(img.source_url)}" rel="noopener">${T('source file', '原始文件')}</a>` : ''}${img.retrieved ? `${sep}${T('retrieved', '取得于')} <span class="tabular">${esc(img.retrieved)}</span>` : ''}${img.edit ? `<p class="meta">${esc(img.edit)}</p>` : ''}`],
+    [T('Image', '图像'), `${img.width && img.height ? `<span class="tabular">${img.width} × ${img.height}</span>${sep}` : ''}${img.source_url ? `<a href="${esc(img.source_url)}" rel="noopener">${T('source file', '原始文件')}</a>` : ''}${img.retrieved ? `${sep}${T('retrieved', '取得于')} <span class="tabular">${esc(img.retrieved)}</span>` : ''}${img.edit ? `<p class="meta">${esc(lang === 'zh' ? (EDIT_ZH[img.edit] || img.edit) : img.edit)}</p>` : ''}`],
     [T('Catalogue no.', '馆藏号'), `<span class="id">${esc(p.id)}</span>${sep}<a class="id" href="${shortPlate(p)}">coldlibrary.com${shortPlate(p)}</a>`],
     [T('Credit line', '引用'), `<span data-credit>${esc(creditLine(lang, p))}</span>`],
   ].filter(Boolean);

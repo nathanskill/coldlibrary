@@ -907,7 +907,7 @@ page({
     <details class="preview" data-preview open>
       <summary>${T('Preview', '预览')}</summary>
       <article class="icard pv">
-        <div class="mat pv-well r-3-2" aria-hidden="true"></div>
+        <div class="mat pv-well" aria-hidden="true"><span class="meta">${T('A librarian chooses its picture when it is hung', '挂上架子时，由馆员为它配图')}</span></div>
         <p class="idline"><span class="meta" data-pv-kind>${T('Perpetual Exhibit', '永续展位')}</span></p>
         <h3 class="icard-h" data-pv-title>${T('Your title', '你的标题')}</h3>
         <p class="dek" data-pv-line>${T('Your one line', '你的一句话')}</p>

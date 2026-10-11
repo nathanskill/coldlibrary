@@ -558,3 +558,7 @@ a.hot { color: var(--link); }
 @media (max-width: 599px) {
   .products .product > figure img { aspect-ratio: 16 / 9; object-fit: cover; width: 100%; height: auto; }
 }
+
+/* the front-desk preview: the picture well says who fills it */
+.pv-well { aspect-ratio: 16 / 9; display: flex; align-items: center; justify-content: center; padding: var(--s4); text-align: center; }
+.pv-well .meta { max-width: 16em; }

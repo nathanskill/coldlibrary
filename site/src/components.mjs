@@ -29,7 +29,7 @@ export function wcard(lang, w, stacks, { heading = 'h3' } = {}) {
   <div class="page" aria-hidden="true">${lines}</div>
   <div class="label">
     <${heading}><a href="${workHref(lang, w)}">${serifTitle(tt.main, tt.mainLang)}${tt.sub ? ` <span class="alt">${glue(tt.sub)}</span>` : ''}</a></${heading}>
-    <p class="by">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.orig_lang || w.lang))}">${esc(a.orig)}</span>` : ''} · ${esc(yearLabel(w, lang))}</p>
+    <p class="by">${esc(a.name)}${a.orig ? ` <span lang="${esc(tagOf(w.orig_lang || w.lang))}">${esc(a.orig)}</span>` : ''} · ${esc(yearShort(w, lang))}</p>
     <p class="marks"><span class="id"><span class="vh">${T(lang)('Catalogue number ', '馆藏号 ')}</span>${esc(w.id)}</span>${n ? pickMark(lang, n) : ''}</p>
   </div>
 </article>`;

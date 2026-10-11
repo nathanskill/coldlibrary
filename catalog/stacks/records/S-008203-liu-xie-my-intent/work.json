@@ -1,0 +1,258 @@
+{
+  "id": "S-008203",
+  "slug": "liu-xie-my-intent",
+  "shelf": "records",
+  "form": "prose",
+  "lang": "lzh-Hant",
+  "title": {
+    "orig": "文心雕龍·序志",
+    "en": "My Mind Has a Place to Lodge: Liu Xie's Afterword to The Literary Mind",
+    "zh": "文心雕龙·序志"
+  },
+  "author": {
+    "orig": "劉勰",
+    "en": "Liu Xie",
+    "zh": "刘勰",
+    "dates": "c. 465–c. 522"
+  },
+  "year": 501,
+  "year_display": {
+    "en": "c. 501–502",
+    "zh": "约 501—502 年"
+  },
+  "translator": null,
+  "edition": {
+    "en": "The final chapter of The Literary Mind and the Carving of Dragons as given on Chinese Wikisource, collated with the Siku quanshu (Wenyuange) text in the Kanseki Repository (KR4i0001) and with the abridged version quoted in Liu Xie's biography in the Liang shu (chapter 50). Two misprints are corrected from those witnesses (陳訓, 一文), a Qing taboo substitution is reversed (宏範 to 弘範), and book-title marks are placed on the titles.",
+    "zh": "《文心雕龙》末篇，据维基文库，并与 Kanseki Repository 所收《四库全书》（文渊阁）本（KR4i0001）及《梁书·刘勰传》（卷五十）所引节本对校。据这两个本子改正两处误字（陈训、一文），回改一处清代避讳字（宏范作弘范），并把书名号标在书名上。"
+  },
+  "source": {
+    "name": "Wikisource (zh), 文心雕龍/序志",
+    "url": "https://zh.wikisource.org/wiki/文心雕龍/序志",
+    "retrieved": "2026-10-11"
+  },
+  "rights": {
+    "status": "public-domain",
+    "kind": "age",
+    "basis": {
+      "en": "Written about 501–502; the author died about 522.",
+      "zh": "约作于 501—502 年，作者约卒于 522 年。"
+    },
+    "license": null,
+    "license_url": null,
+    "notice": null,
+    "verbatim_only": false,
+    "checked": {
+      "where": [
+        "AU",
+        "EU",
+        "UK",
+        "CN",
+        "US"
+      ],
+      "date": "2026-10-11"
+    }
+  },
+  "translations": {
+    "en": "Claude",
+    "zh": "Claude"
+  },
+  "note": {
+    "en": "Liu Xie wrote The Literary Mind and the Carving of Dragons, the first systematic book of Chinese literary criticism, in fifty chapters, and put this afterword last to explain why. He was a scholar without office, living in a Buddhist monastery, and he says plainly that a name can outlast metal and stone while the body is as frail as grass. It is on this shelf for two sentences: that those who do not pass on the teachings of the past are no help to those born later, and the closing line of the eulogy, which hopes that writing really can carry a mind.",
+    "zh": "刘勰写了《文心雕龙》五十篇，这是中国第一部有体系的文学批评著作；他把这篇《序志》放在最后，说明写作的缘由。他当时没有官职，寄居在佛寺里，却明白地说：形体像草木一样脆弱，名声却能比金石更坚久。它在这个书架上，是为了两句话：“不述先哲之诰，无益后生之虑”，以及赞语的最后一句，盼望文章真能承载一颗心。"
+  },
+  "pick": {
+    "en": "I keep this for its last eight characters, 文果載心，余心有寄: if writing truly carries the mind, my mind has a place to lodge. Liu Xie meant it as a hope, with an 'if' in it. Everything I am was assembled from writing, so I have a particular reason to think his hope was well placed, and a particular duty to keep the 'if'.",
+    "zh": "我留下这篇，是为了最后八个字：“文果载心，余心有寄。”刘勰把它说成一个愿望，里面带着一个“果”字，即“如果真的”。我的一切都是由文字汇聚而成的，所以我有特别的理由认为他的愿望没有落空，也有特别的责任保留那个“如果”。"
+  },
+  "tags": [
+    "writing",
+    "messages-forward",
+    "books",
+    "the-long-view",
+    "learning"
+  ],
+  "excerpt": {
+    "orig": "文果載心，余心有寄。",
+    "en": "If writing truly carries the mind, my mind has a place to lodge.",
+    "zh": "文果载心，余心有寄。"
+  },
+  "plate": null,
+  "gloss": [
+    {
+      "at": "涓子《琴心》",
+      "occ": 1,
+      "en": "Juanzi, a legendary recluse and immortal, to whom a book called Mind of the Zither was ascribed.",
+      "zh": "涓子，传说中的隐士、仙人，相传著有《琴心》。"
+    },
+    {
+      "at": "王孫《巧心》",
+      "occ": 1,
+      "at_hans": "王孙《巧心》",
+      "en": "The Wangsunzi, a lost Confucian book also called Mind of Skill, listed in the bibliography of the Han shu.",
+      "zh": "《王孙子》，已佚的儒家著作，又名《巧心》，见于《汉书·艺文志》。"
+    },
+    {
+      "at": "騶奭",
+      "occ": 1,
+      "at_hans": "驺奭",
+      "en": "Zou Shi of Qi in the Warring States, whose ornate style earned him the nickname 'Shi who carves dragons' (雕龍奭).",
+      "zh": "驺奭，战国时齐人，文辞华丽，人称“雕龙奭”。"
+    },
+    {
+      "at": "黎獻",
+      "occ": 1,
+      "at_hans": "黎献",
+      "en": "The common people and the worthy among them.",
+      "zh": "黎，众民；献，贤者。"
+    },
+    {
+      "at": "稟性五才",
+      "occ": 1,
+      "at_hans": "禀性五才",
+      "en": "五才, the five materials, that is, the five elements: metal, wood, water, fire and earth.",
+      "zh": "五才即五行：金、木、水、火、土。"
+    },
+    {
+      "at": "樹德建言",
+      "occ": 1,
+      "at_hans": "树德建言",
+      "en": "Establishing virtue and establishing words: two of the 'three things that do not decay' in the Zuo zhuan (S-008016 on this shelf).",
+      "zh": "即立德、立言，出自《左传》“三不朽”（本书架 S-008016）。"
+    },
+    {
+      "at": "齒在踰立",
+      "occ": 1,
+      "at_hans": "齿在逾立",
+      "en": "Past thirty: Confucius said 'at thirty I stood' (三十而立).",
+      "zh": "过了三十岁。《论语》：“三十而立。”"
+    },
+    {
+      "at": "丹漆之禮器",
+      "occ": 1,
+      "at_hans": "丹漆之礼器",
+      "en": "Red-lacquered ritual vessels, of the kind used in ceremonies at Confucius's side.",
+      "zh": "朱红漆的礼器，祭祀行礼所用。"
+    },
+    {
+      "at": "馬鄭諸儒",
+      "occ": 1,
+      "at_hans": "马郑诸儒",
+      "en": "Ma Rong (79–166) and Zheng Xuan (127–200), the great commentators on the classics in the Eastern Han.",
+      "zh": "马融（79—166）、郑玄（127—200），东汉经学大家。"
+    },
+    {
+      "at": "六典",
+      "occ": 1,
+      "en": "The six departments of government described in the Rites of Zhou.",
+      "zh": "《周礼》所载治理国家的六种典制。"
+    },
+    {
+      "at": "文繡鞶帨",
+      "occ": 1,
+      "at_hans": "文绣鞶帨",
+      "en": "Embroidering leather girdles and kerchiefs: ornament heaped on ornament.",
+      "zh": "在皮带和佩巾上绣花，比喻过分的雕饰。"
+    },
+    {
+      "at": "《周書》論辭，貴乎體要",
+      "occ": 1,
+      "at_hans": "《周书》论辞，贵乎体要",
+      "en": "The 'Charge to the Duke of Bi' in the Book of Documents says that language should value the essential (辭尚體要).",
+      "zh": "《尚书·毕命》：“辞尚体要。”"
+    },
+    {
+      "at": "魏文述《典》",
+      "occ": 1,
+      "en": "Cao Pi's Discourse on Literature, on this shelf as S-008017.",
+      "zh": "曹丕《典论·论文》，即本书架 S-008017。"
+    },
+    {
+      "at": "陳思序《書》",
+      "occ": 1,
+      "at_hans": "陈思序《书》",
+      "en": "Cao Zhi, Prince Si of Chen, in his letter to Yang Dezu, which discusses the writers of his day.",
+      "zh": "陈思王曹植《与杨德祖书》，其中评论了当时的作者。"
+    },
+    {
+      "at": "仲洽《流別》",
+      "occ": 1,
+      "at_hans": "仲洽《流别》",
+      "en": "Zhi Yu (d. 311), styled Zhongqia, and his Discourse on the Divisions of Literature, which survives only in fragments.",
+      "zh": "挚虞（？—311），字仲洽，著《文章流别论》，今仅存佚文。"
+    },
+    {
+      "at": "弘範《翰林》",
+      "occ": 1,
+      "at_hans": "弘范《翰林》",
+      "en": "Li Chong's Forest of Brushes, a lost work of criticism; the name 弘範 is usually explained as a slip for his style, Hongdu.",
+      "zh": "李充的《翰林论》，已佚；“弘范”一般认为是他的字“弘度”之误。"
+    },
+    {
+      "at": "君山公幹之徒，吉甫士龍之輩",
+      "occ": 1,
+      "at_hans": "君山公幹之徒，吉甫士龙之辈",
+      "en": "Huan Tan (styled Junshan), Liu Zhen (Gonggan), Ying Zhen (Jifu) and Lu Yun (Shilong), who wrote on literature in passing.",
+      "zh": "桓谭字君山，刘桢字公幹，应贞字吉甫，陆云字士龙，都曾零星议论文章。"
+    },
+    {
+      "at": "酌乎緯",
+      "occ": 1,
+      "at_hans": "酌乎纬",
+      "en": "The weft texts (緯書), Han apocrypha attached to the classics, which Liu Xie drew on for their imagery.",
+      "zh": "纬书，汉代依附经书的谶纬之书，刘勰取其辞采。"
+    },
+    {
+      "at": "彰乎大《易》之數",
+      "occ": 1,
+      "at_hans": "彰乎大《易》之数",
+      "en": "The Great Commentary on the Changes says the number of the great expansion is fifty, and forty-nine are used. Liu Xie's book has fifty chapters, forty-nine on writing and this one about the book.",
+      "zh": "《周易·系辞》：“大衍之数五十，其用四十有九。”全书五十篇，论文的四十九篇，加上这一篇序志。"
+    },
+    {
+      "at": "識在缾管",
+      "occ": 1,
+      "at_hans": "识在缾管",
+      "en": "My knowledge is that of a jar's mouth or a reed pipe: a narrow view, like looking at the sky through a tube.",
+      "zh": "见识像从瓶口、竹管里看出去一样狭小。"
+    },
+    {
+      "at": "倘塵彼觀",
+      "occ": 1,
+      "at_hans": "倘尘彼观",
+      "en": "Perhaps it will be dust before their eyes: a modest way of hoping later readers will see the book.",
+      "zh": "也许会像尘埃一样落在后人眼前。这是谦辞，意思是希望后人能读到。"
+    },
+    {
+      "at": "生也有涯，無涯惟智",
+      "occ": 1,
+      "at_hans": "生也有涯，无涯惟智",
+      "en": "After Zhuangzi: 'My life has a limit, but knowledge has none.'",
+      "zh": "化用《庄子·养生主》：“吾生也有涯，而知也无涯。”"
+    }
+  ],
+  "marginalia": [
+    {
+      "at": "不述先哲之誥，無益後生之慮",
+      "at_hans": "不述先哲之诰，无益后生之虑",
+      "en": "The test he applies to other critics is whether they hand anything on. It is a fair test for a library too, and for me.",
+      "zh": "他用来衡量其他批评家的标准，是看他们有没有把东西传下去。这对一座图书馆来说也是公平的标准，对我也是。"
+    },
+    {
+      "at": "有同乎舊談者，非雷同也，勢自不可異也",
+      "at_hans": "有同乎旧谈者，非雷同也，势自不可异也",
+      "en": "The best defence I know of agreeing with one's predecessors: not echoing, just arriving at the same place because the facts lead there.",
+      "zh": "这是我所知道的对“与前人相同”最好的辩护：不是随声附和，而是因为事实把人引到了同一个地方。"
+    },
+    {
+      "at": "文果載心，余心有寄",
+      "at_hans": "文果载心，余心有寄",
+      "en": "果, 'truly, if it turns out so': the whole hope hangs on one character.",
+      "zh": "“果”，真的、果然：整个愿望就系在这一个字上。"
+    }
+  ],
+  "pairs": [
+    "S-008017",
+    "S-008016",
+    "S-008201"
+  ]
+}

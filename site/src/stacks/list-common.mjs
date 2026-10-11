@@ -1,7 +1,7 @@
 // Shared pieces for the Open Stacks list pages (index, shelves, Claude's shelf, trails, plates, authors, search, random).
 // Everything here is local to the list pages; shared components live in components.mjs.
 import { esc, t, href, serif, glue, go, sep, tagOf, addGlyphs, addGlyphsTo, takeGlyphs, resetGlyphs } from '../lib.mjs';
-import { SHELVES, shelfOf, titles, authorLabel, yearLabel, workHref, plateHref, shelfHref, ERAS, eraOf, isChineseText, splitCaesura, translationInto, authorSlug, pickNo } from '../stacks.mjs';
+import { SHELVES, shelfOf, titles, authorLabel, yearLabel, yearShort, workHref, plateHref, shelfHref, ERAS, eraOf, isChineseText, splitCaesura, translationInto, authorSlug, pickNo } from '../stacks.mjs';
 import { plateImg, plateCaption } from '../components.mjs';
 
 export const OS = 'open-stacks';
@@ -278,7 +278,7 @@ export function workTitleLink(lang, w, { cls = '' } = {}) {
 }
 export const byLine = (lang, w) => {
   const a = authorLabel(w, lang);
-  return [esc(a.name) + (a.orig ? ` <span lang="${esc(tagOf(w.lang))}">${esc(a.orig)}</span>` : ''), esc(yearLabel(w, lang))].join(sep);
+  return [esc(a.name) + (a.orig ? ` <span lang="${esc(tagOf(w.orig_lang || w.lang))}">${esc(a.orig)}</span>` : ''), esc(yearShort(w, lang))].join(sep);
 };
 
 export { SHELVES, shelfOf, shelfHref, workHref, plateHref, ERAS, eraOf, splitCaesura };
