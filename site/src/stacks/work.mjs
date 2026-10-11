@@ -6,7 +6,7 @@
 // reading bar with CSS-only bottom sheets. One toolbar row (view · script · Aa) sits before the text; the checked
 // radio is the only view state (40-reading.css), and view-init.js restores a stored choice before the text is parsed.
 import { gzipSync } from 'node:zlib';
-import { esc, t, href, glue, go, sep as SEP0, addGlyphs, tagOf, REPO, SITE, FOUNDED } from '../lib.mjs';
+import { esc, t, href, glue, go, sep as SEP0, addGlyphs, tagOf, describe, REPO, SITE, FOUNDED } from '../lib.mjs';
 import { wcard, serifTitle, plateImg, plateCaption } from '../components.mjs';
 import { titles, authorLabel, yearLabel, periodOf, related, workHref, plateHref, shelfHref, shortWork, shelfOf, pickNo, isClassical, translationInto, measure, toc as tocOf } from '../stacks.mjs';
 import { txtHref, rightsSentence } from '../outputs.mjs';
@@ -61,14 +61,6 @@ const runTagger = (w, stacks) => {
 let currentTagger = null;
 const prose = (s, lang, w) => (lang === 'zh' ? esc(s) : hanRuns(esc(s), currentTagger || (/-Hant$/.test(String(w.lang)) ? 'zh-Hant' : 'zh-Hans')));
 // The first sentences of a note, up to about 160 characters, for the page description.
-function describe(s) {
-  const x = String(s || '').replace(/\s+/g, ' ').trim();
-  if (x.length <= 160) return x;
-  const parts = x.match(/[^.!?。！？]+[.!?。！？]+["”’）)]?\s*/g) || [];
-  let out = '';
-  for (const p of parts) { if ((out + p).length > 160) break; out += p; }
-  return (out || x.slice(0, 157).replace(/\s+\S*$/, '') + '…').trim();
-}
 
 // ---------------------------------------------------------------- the reading model of one work on one page
 const groupOf = (w) => (/^lzh/.test(w.lang) ? 'lzh' : /^zh/.test(w.lang) ? 'zh' : w.lang === 'en' ? 'en' : 'other');

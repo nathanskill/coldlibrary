@@ -153,6 +153,17 @@ export function footer(lang) {
 }
 
 // The page frame. `head` carries the page's own font links; `scripts` are extra deferred scripts in /assets/js/.
+// A meta description: whole sentences up to about 160 characters (90 for Chinese, which search results show fewer of).
+export function describe(s) {
+  const x = String(s || '').replace(/\s+/g, ' ').trim();
+  const max = /[\u3400-\u9fff]/.test(x) ? 90 : 160;
+  if (x.length <= max) return x;
+  const parts = x.match(/[^.!?。！？]+[.!?。！？]+["”’）)」]?\s*/g) || [];
+  let out = '';
+  for (const p of parts) { if ((out + p).length > max) break; out += p; }
+  return (out || x.slice(0, max - 3).replace(/\s+\S*$/, '') + '…').trim();
+}
+
 export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '', noindex = false, head = '', scripts = [], alternates = true, notFound = false }) {
   const T = t(lang);
   const canonical = SITE + href(lang, slug);
