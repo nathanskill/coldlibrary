@@ -48,7 +48,7 @@ Your skill in calculation is enough to know it, if you truly think it over and o
 
 So Rong Fang went home and thought about it. For several days he could not get it. He came to Chen Zi again and said: I have thought about it and cannot get it. May I venture to ask you?
 
-Chen Zi said: You have not thought it through. This is only the art of sighting the distant and raising the high, and if you cannot get it, then your grasp of number does not yet reach from one kind of thing to another.
+Chen Zi said: You have not thought it through. This is only the art of sighting distances and working out heights, and if you cannot get it, then your grasp of number does not yet reach from one kind of thing to another.
 
 That is, your understanding has places it does not reach, and your spirit has places where it runs out.
 
@@ -62,7 +62,7 @@ So those who learn the same method learn from one another, and those in the same
 
 Therefore to be able to join one kind to another is the very substance of a worthy person's refined work and practised understanding.
 
-Those who study the same work and cannot enter into its spirit lack understanding, and their work cannot be refined by practice; so their calculation cannot be refined by practice.
+Those who study the same work and cannot enter into its spirit are unworthy and lack understanding, and their work cannot be refined by practice; so their calculation cannot be refined by practice.
 
 Do you think I am hiding the way from you? Go and think it over again, thoroughly.
 

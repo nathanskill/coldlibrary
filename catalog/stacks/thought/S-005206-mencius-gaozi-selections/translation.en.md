@@ -26,7 +26,7 @@ Mencius said: “Those who follow the greater part of themselves become great me
 
 ## 19
 
-Mencius said: “The five grains are the finest of seeds; but if they do not ripen, they are worth less than wild millet and darnel. Humaneness, too, is simply a matter of bringing it to ripeness.”
+Mencius said: “The five grains are the finest of seeds; but if they do not ripen, they are worth less than wild millet and barnyard grass. Humaneness, too, is simply a matter of bringing it to ripeness.”
 
 ## 20
 

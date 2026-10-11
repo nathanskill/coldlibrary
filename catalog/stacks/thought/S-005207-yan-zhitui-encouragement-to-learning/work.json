@@ -23,8 +23,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Five of the twenty-odd paragraphs of chapter 8, Encouragement to Learning, as given on Chinese Wikisource (book 3), checked against the Sibu congkan edition in the Kanseki Repository. The online text was converted from simplified characters and writes 雲 for 云, 巳 for 已, 兇 for 凶 and 淩 for 凌; these are corrected, 羞務工伎 is read with the witness for 差務工伎, and the quotation marks are given in the Chinese form.",
-    "zh": "选第八篇《勉学》二十多段中的五段，据维基文库（卷三），以京都大学汉籍资料库（Kanseki Repository）所收四部丛刊本校核。维基文库本是由简体转换而来，“云”误作“雲”，“已”误作“巳”，“凶”作“兇”，“凌”作“淩”，均已改正；“差务工伎”据校本作“羞务工伎”；引号改用中文直角引号。"
+    "en": "Five of the twenty-odd paragraphs of chapter 8, Encouragement to Learning, as given on Chinese Wikisource (book 3), checked against the Sibu congkan edition in the Kanseki Repository. The online text was converted from simplified characters and writes 雲 for 云, 巳 for 已, 兇 for 凶, 淩 for 凌 and 劄 for 札; these are corrected, 羞務工伎 is read with the witness for 差務工伎, and the quotation marks are given in the Chinese form. Where the witness, and the Siku quanshu copy with it, differ in wording, as in 射既 for 射則, 便謂為足，安能自苦 for 便自為足，全忘修學 and 授 for 受, Wikisource’s reading is kept.",
+    "zh": "选第八篇《勉学》二十多段中的五段，据维基文库（卷三），以京都大学汉籍资料库（Kanseki Repository）所收四部丛刊本校核。维基文库本是由简体转换而来，“云”误作“雲”，“已”误作“巳”，“凶”作“兇”，“凌”作“淩”，“札”作“劄”，均已改正；“差务工伎”据校本作“羞务工伎”；引号改用中文直角引号。校本（以及四库全书本）另有几处文字不同，如“射则”作“射既”，“便自为足，全忘修学”作“便谓为足，安能自苦”，“受”作“授”，这些地方仍从维基文库。"
   },
   "source": {
     "name": "Wikisource",
@@ -58,8 +58,8 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Yan Zhitui served four dynasties, was twice carried off as a captive when a court he served fell, and wrote these instructions for his sons in old age. The chapter on learning is practical rather than lofty: study because family and country cannot be relied on, because reading is the one skill that travels with you, and because it is never too late. It ends with the image that has kept the chapter alive: learning young is the light of sunrise, learning old is walking at night with a candle.",
-    "zh": "颜之推一生历仕四朝，两次在所侍奉的朝廷覆亡时被掳，晚年为儿子们写下这部家训。《勉学》篇讲的是实在的道理，而不是高论：要读书，因为父兄和家国都靠不住，因为读书是唯一随身带走的技艺，也因为学习永远不会太晚。篇中最让人记住的是那个比喻：少而学，如日出之光；老而学，如秉烛夜行。"
+    "en": "Yan Zhitui served four dynasties, was twice carried off as a captive when a court he served fell, and wrote these instructions for his sons in old age. The chapter on learning is practical rather than lofty: study because family and country cannot be relied on, because reading is the best of the skills that travel with you, and because it is never too late. This selection ends with the image that has kept the chapter alive: learning young is the light of sunrise, learning old is walking at night with a candle.",
+    "zh": "颜之推一生历仕四朝，两次在所侍奉的朝廷覆亡时被掳，晚年为儿子们写下这部家训。《勉学》篇讲的是实在的道理，而不是高论：要读书，因为父兄和家国都靠不住，因为读书是随身技艺中最好的一种，也因为学习永远不会太晚。篇中最让人记住的是那个比喻：少而学，如日出之光；老而学，如秉烛夜行。"
   },
   "pick": {
     "en": "Of all the sayings about learning in this library, this is the one I would set above a reading lamp. Yan does not pretend lateness costs nothing; he says plainly that what he learned at seven has lasted and what he learned after twenty slips in a month. Then he lists the people who began at forty, fifty, seventy, and tells his sons to start anyway, because a candle at night is still better than closed eyes. I value advice that is honest about the cost and still says go.",
@@ -112,11 +112,11 @@
       "at_hans": "无履立者"
     },
     {
-      "at": "射則不能穿劄",
+      "at": "射則不能穿札",
       "occ": 1,
-      "en": "Their archery cannot pierce a single plate of armour. 劄 is written for 札, an armour scale.",
+      "en": "Their archery cannot pierce a single plate of armour. 札 is an armour scale.",
       "zh": "射箭连一片甲叶都射不穿。札，铠甲上的金属片。",
-      "at_hans": "射则不能穿劄"
+      "at_hans": "射则不能穿札"
     },
     {
       "at": "代其入地",
@@ -211,8 +211,8 @@
   "marginalia": [
     {
       "at": "積財千萬，不如薄伎在身",
-      "en": "Yan writes this as someone who saw a court he served fall and was carried north as a captive, more than once. The proverb is not a pious line for him; it is what he learned, and he makes reading the most portable skill of all.",
-      "zh": "颜之推写这句话时，已经不止一次目睹自己侍奉的朝廷覆亡，并被掳往北方。对他来说，这句谚语不是一句好听的话，而是亲身得来的教训，而他把读书当作最能随身带走的技艺。",
+      "en": "Yan writes this as someone who saw courts he served fall more than once, and was carried off as a captive. The proverb is not a pious line for him; it is what he learned, and he counts reading the best of the skills a person carries.",
+      "zh": "颜之推写这句话时，已经不止一次目睹自己侍奉的朝廷覆亡，自己也被掳走。对他来说，这句谚语不是一句好听的话，而是亲身得来的教训，而他把读书算作随身技艺里最好的一种。",
       "at_hans": "积财千万，不如薄伎在身"
     },
     {

@@ -1,7 +1,7 @@
 ## I
 Yu Xin's writing grew finer as he aged:
 his brush soared to the clouds, his thought ranged free.
-People today scoff and pick at the poems he left,
+People today scoff and pick at the rhapsodies he left,
 as if the master of the past should fear those who came after.
 
 ## II

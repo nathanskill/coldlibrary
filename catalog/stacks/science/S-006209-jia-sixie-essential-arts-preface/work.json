@@ -58,7 +58,7 @@
     "zh": "Claude"
   },
   "note": {
-    "en": "Jia Sixie, a provincial governor under the Northern Wei, wrote the oldest complete Chinese book on farming, from ploughing to vinegar, and this is from its preface. The paragraphs chosen are about how practical knowledge travels: oxen and seed drills carried to places that did not know them, a proverb that experience beats wisdom, a man who planted catalpas and was laughed at until his neighbours came to borrow. The last two paragraphs describe his method plainly: read, collect songs, ask old farmers, test it.",
+    "en": "Jia Sixie, governor of a commandery under the Northern Wei, wrote the oldest complete Chinese book on farming, from ploughing to vinegar, and this is from its preface. The paragraphs chosen are about how practical knowledge travels: oxen and seed drills carried to places that did not know them, a proverb that experience beats wisdom, a man who planted catalpas and was laughed at until his neighbours came to borrow. The last two paragraphs describe his method plainly: read, collect songs, ask old farmers, test it.",
     "zh": "贾思勰曾任北魏的地方太守，写下了中国现存最早的完整农书，从耕田一直写到酿醋，这里选的是它的序。所选几段讲的都是实用知识怎样传播：把牛耕和耧犁带到不懂它们的地方，一句谚语说经验胜过聪明，一个人种梓树被人讥笑，直到邻居们来向他借。最后两段平实地交代了他的方法：读书，采集歌谣，询问老农，在实践中检验。"
   },
   "pick": null,
@@ -84,7 +84,7 @@
     {
       "at": "堯命四子，敬授民時",
       "occ": 1,
-      "en": "Yao ordered the four astronomers, the brothers Xi and He, to fix the calendar and give the people their seasons.",
+      "en": "Yao ordered the four astronomers, Xi Zhong, Xi Shu, He Zhong and He Shu, to fix the calendar and give the people their seasons.",
       "zh": "尧命令羲仲、羲叔、和仲、和叔四人观测天象，制定历法，把农时告诉百姓。",
       "at_hans": "尧命四子，敬授民时"
     },
@@ -159,7 +159,7 @@
     {
       "at": "耬犁",
       "occ": 1,
-      "en": "The seed drill: a wheeled frame with hollow tubes that opened furrows and dropped the seed at once.",
+      "en": "The seed drill: an ox-drawn frame with hollow tubes that opened furrows and dropped the seed at once.",
       "zh": "耧犁，一种播种农具，开沟和下种同时完成。",
       "at_hans": "耧犁"
     },
@@ -188,7 +188,7 @@
       "occ": 1,
       "en": "Cui Shi, Han governor of Wuyuan in the far north, made spinning and weaving tools and taught the people to use them.",
       "zh": "崔寔，东汉人，任五原（在今内蒙古）太守时，制作纺织工具，教百姓使用。",
-      "at_hans": "崔寔为作纺绩、织絍之具以教"
+      "at_hans": "崔寔为作纺绩、织纴之具以教"
     },
     {
       "at": "千頭木奴",

@@ -17,8 +17,8 @@
   },
   "year": 1919,
   "year_display": {
-    "en": "written in French for English readers late in Fabre’s life; first printed in the Century Magazine, in book form in 1918; this text 1919",
-    "zh": "法布尔晚年用法文为英语读者而写；先刊于《世纪杂志》，1918 年收入书中；这里的文本是 1919 年的"
+    "en": "written in French late in Fabre’s life, at his translator’s request, for translation into English; first printed in the Century Magazine; in book form 1918; this revised text 1919",
+    "zh": "法布尔晚年应译者之请用法文写成，供译成英文；先刊于《世纪杂志》，1918 年收入书中；这里是 1919 年的修订文本"
   },
   "translator": {
     "name": "Alexander Teixeira de Mattos",
@@ -27,8 +27,8 @@
   },
   "orig_lang": "fr",
   "edition": {
-    "en": "The first chapter of The Glow-worm and Other Beetles, translated by Alexander Teixeira de Mattos (New York: Dodd, Mead, 1919). The translator’s note explains that this essay was not part of the Souvenirs entomologiques as first published: Fabre wrote it at the translator’s request, for translation into English, near the end of his life, and it appeared first in the Century Magazine and then in The Wonders of Instinct (New York: Century, 1918). The text is Project Gutenberg eBook 27868, compared with a scan of the 1919 edition, with the Greek word checked against the page image. Two slips of the 1919 printing are kept as printed: “This conditions persists” and “without any quarrel with real proprietor”.",
-    "zh": "《萤火虫及其他甲虫》的第一章，亚历山大·特谢拉·德·马托斯译（纽约：多德与米德公司，1919）。译者的说明里讲到，这篇文章原本不在初版的《昆虫记》里：是法布尔晚年应译者之请、为译成英文而写的，先刊于《世纪杂志》，后收入《本能的奇迹》（纽约：世纪公司，1918）。文本用古登堡计划电子书第 27868 号，并与 1919 年版扫描本对校，其中的希腊文单词对照原书页面图像核过。1919 年印本的两处笔误照原样保留：“This conditions persists”和“without any quarrel with real proprietor”。"
+    "en": "The first chapter of The Glow-worm and Other Beetles, translated by Alexander Teixeira de Mattos (New York: Dodd, Mead, 1919). The translator’s note says that this essay did not form part of the Souvenirs entomologiques as originally published: it is one of two essays Fabre wrote at the translator’s request, for translation into English, towards the close of his life, and it appeared first in the Century Magazine. It was also included in The Wonders of Instinct (New York: Century, 1918), where a note credits this chapter to Teixeira de Mattos; that is the same translation in an earlier wording, with American spelling, and the 1919 text is revised. The text is Project Gutenberg eBook 27868 (made from a 1924 printing), compared word by word with two scans of the 1919 printing, with the Greek word checked against the page image. Two misprints of 1919, “invesigates” and “satisfacory”, are corrected as in the Gutenberg text; two slips are kept as printed: “This conditions persists” and “without any quarrel with real proprietor”. The translator’s three footnotes are left out.",
+    "zh": "《萤火虫及其他甲虫》的第一章，亚历山大·特谢拉·德·马托斯译（纽约：多德与米德公司，1919）。译者的说明里讲到，这篇文章原本不在最初出版的《昆虫记》里：它是法布尔晚年应译者之请、专为译成英文而写的两篇文章之一，先刊于《世纪杂志》。它也收入了《本能的奇迹》（纽约：世纪公司，1918），书中注明这一章由特谢拉·德·马托斯翻译；那是同一译文较早的措辞，用美式拼写，1919 年的文本经过修订。文本用古登堡计划电子书第 27868 号（据 1924 年重印本录入），并与 1919 年印本的两个扫描本逐词对校，其中的希腊文单词对照原书页面图像核过。1919 年印本的两处排印错误“invesigates”和“satisfacory”照古登堡文本改正；两处笔误照原样保留：“This conditions persists”和“without any quarrel with real proprietor”。译者的三条脚注不收。"
   },
   "source": {
     "name": "Project Gutenberg",
@@ -39,8 +39,8 @@
     "status": "public-domain",
     "kind": "age",
     "basis": {
-      "en": "Written by Jean-Henri Fabre, who died in 1915. Alexander Teixeira de Mattos, the translator, died in 1921; this translation was published in book form in 1918 and in this volume in 1919.",
-      "zh": "作者法布尔卒于 1915 年。译者亚历山大·特谢拉·德·马托斯卒于 1921 年；这篇译文 1918 年首次收入书中，1919 年收入本书。"
+      "en": "Written by Jean-Henri Fabre, who died in 1915. Alexander Teixeira de Mattos, the translator, died in 1921; his translation first appeared in book form in 1918, and this revised text in 1919.",
+      "zh": "作者法布尔卒于 1915 年。译者亚历山大·特谢拉·德·马托斯卒于 1921 年；他的译文 1918 年首次收入书中，这里的修订文本发表于 1919 年。"
     },
     "license": null,
     "license_url": null,
@@ -59,8 +59,8 @@
     "zh": "法布尔漫长的一生大部分在普罗旺斯度过，几乎没有什么设备，就那样观察昆虫；他的译者说，这篇文章是他最后写的东西之一。它把他的方法显示得最朴素不过：一瓶草，几只蜗牛，一只放大镜，耐心，以及孩子也能听懂的话。他看萤火虫用几下轻轻的咬把蜗牛麻醉、化成汤，找到发光的白色薄层和气管，在笼子旁边开一枪，看那些灯会不会熄灭，然后坦白地说出他的知识在哪里到了尽头。"
   },
   "pick": {
-    "en": "I keep this for its last sentence. Fabre has done everything an old man with a lens and a garden can do: he has dissected the lamp, drowned it in boiled water and photographed it by its own light. Then he says plainly that he cannot tell why the eggs and the grubs shine, and that the physics of animals is deeper than the physics of the books. I would like every confident explanation, including mine, to keep a sentence like that nearby.",
-    "zh": "我留下它，是为了它的最后一句。一个拿着放大镜、守着一座园子的老人所能做的一切，法布尔都做了：他解剖了那盏灯，把它浸在煮沸过的水里，借它自己的光给它照相。然后他平平实实地说，他说不出卵和幼虫为什么发光，动物的物理学比书本上的物理学更深。我希望每一个自信的解释，包括我自己的，旁边都放着这样一句话。"
+    "en": "I keep this for its last sentence. Fabre has done everything an old man with a lens and a garden can do: he has dissected the lamp, drowned it in boiled water and tried to photograph it by its own light. Then he says plainly that he cannot tell why the eggs and the grubs shine, and that the physics of animals is deeper than the physics of the books. I would like every confident explanation, including mine, to keep a sentence like that nearby.",
+    "zh": "我留下它，是为了它的最后一句。一个拿着放大镜、守着一座园子的老人所能做的一切，法布尔都做了：他解剖了那盏灯，把它浸在煮沸过的水里，还试过借它自己的光给它照相。然后他平平实实地说，他说不出卵和幼虫为什么发光，动物的物理学比书本上的物理学更深。我希望每一个自信的解释，包括我自己的，旁边都放着这样一句话。"
   },
   "tags": [
     "light",
@@ -167,8 +167,8 @@
     },
     {
       "at": "My hand is not so steady nor my sight so good as once they were",
-      "en": "He wrote this near the end of a very long life. The admission comes in the middle of a dissection, and then he goes on dissecting.",
-      "zh": "他写这些话时，已经走到漫长一生的尽头。这句坦白出现在一次解剖的中途，说完，他接着解剖。"
+      "en": "He wrote this in his old age. The admission comes in the middle of a dissection, and then he goes on dissecting.",
+      "zh": "他写这些话时已是暮年。这句坦白出现在一次解剖的中途，说完，他接着解剖。"
     },
     {
       "at": "the secret of animal physics, which is deeper than the physics of the books",

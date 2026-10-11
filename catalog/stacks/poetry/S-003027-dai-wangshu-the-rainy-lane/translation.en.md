@@ -30,8 +30,8 @@ as in a dream there drifts
 a spray of lilac,
 this girl drifts past me;
 silently she goes further, further,
-to the crumbling fence
-at the end of the lane.
+to the crumbling fence,
+to the end of this rainy lane.
 
 In the sad song of the rain
 her colour fades,

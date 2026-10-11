@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Three letters to Daines Barrington, LXI, LXII and LXIII, from The Natural History and Antiquities of Selborne (London: B. White and Son, 1789); the fourth letter White announces, on hot summers, is not included. The text is Project Gutenberg eBook 1408, from a later edition, brought back to the wording of the first by comparison with a scan of the 1789 volume: fourteen readings are restored, among them “for the small time it lasted”, “behoves” and “an exemption from din”. Spelling otherwise follows the Gutenberg text. White’s four footnotes are given as glosses.",
-    "zh": "选《塞尔伯恩的自然史与古迹》（伦敦：B. 怀特父子，1789）中致戴恩斯·巴林顿的三封信，即第六十一、六十二、六十三封；怀特预告的第四封，谈炎热的夏天，不收。文本用古登堡计划电子书第 1408 号，它据的是后来的版本；这里对照 1789 年原书扫描本改回初版的文字，恢复了十四处异文，例如“for the small time it lasted”“behoves”“an exemption from din”。其余拼写依古登堡本。怀特的四条脚注改作注释。"
+    "en": "Three letters to Daines Barrington, LXI, LXII and LXIII, from The Natural History and Antiquities of Selborne (London: B. White and Son, 1789); the fourth letter White announces, on hot summers, is not included. The text is Project Gutenberg eBook 1408, from a later edition, brought back to the wording of the first by comparison with a scan of the 1789 volume: eighteen readings are restored, among them “for the small time it lasted”, “behoves” and “an exemption from din”. Spelling and punctuation otherwise follow the Gutenberg text. White’s four footnotes are given as glosses.",
+    "zh": "选《塞尔伯恩的自然史与古迹》（伦敦：B. 怀特父子，1789）中致戴恩斯·巴林顿的三封信，即第六十一、六十二、六十三封；怀特预告的第四封，谈炎热的夏天，不收。文本用古登堡计划电子书第 1408 号，它据的是后来的版本；这里对照 1789 年原书扫描本改回初版的文字，恢复了十八处异文，例如“for the small time it lasted”“behoves”“an exemption from din”。其余拼写和标点依古登堡本。怀特的四条脚注改作注释。"
   },
   "source": {
     "name": "Project Gutenberg",
@@ -69,8 +69,8 @@
     {
       "at": "the four following letters",
       "occ": 1,
-      "en": "White’s letters to Daines Barrington (1727–1800), lawyer and naturalist, make up the second half of his book.",
-      "zh": "怀特写给律师兼博物学家戴恩斯·巴林顿（1727–1800）的信，构成了他这本书的后半部分。"
+      "en": "White’s letters to Daines Barrington (1727–1800), lawyer and naturalist, make up the second part of his natural history of Selborne.",
+      "zh": "怀特写给律师兼博物学家戴恩斯·巴林顿（1727–1800）的信，构成了这部自然史的后一部分。"
     },
     {
       "at": "laurustines, bays, laurels, and arbutuses",
@@ -148,7 +148,7 @@
       "at": "at Lyndon in the county of Rutland",
       "occ": 1,
       "en": "Where Thomas Barker, White’s brother-in-law, kept a weather diary for more than sixty years.",
-      "zh": "怀特的姐夫托马斯·巴克住在那里，他记了六十多年的天气日记。"
+      "zh": "怀特的妹夫托马斯·巴克住在那里，他记了六十多年的天气日记。"
     },
     {
       "at": "one made by Martin and one by Dollond",

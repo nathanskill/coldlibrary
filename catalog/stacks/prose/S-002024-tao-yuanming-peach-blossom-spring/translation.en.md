@@ -16,7 +16,7 @@ The traces of their going sank slowly out of sight, the path they took grew wild
 
 Mulberry and bamboo cast their ample shade, beans and millet were sown in their season. In spring the silkworms gave long threads; at the autumn harvest there was no king's tax.
 
-Overgrown paths dimly joined the farms, roosters and dogs called back and forth. Their sacrificial vessels kept the ancient forms, their clothes were made in no new style.
+Overgrown paths dimly crossed and met, roosters and dogs called back and forth. Their sacrificial vessels kept the ancient forms, their clothes were made in no new style.
 
 Children wandered freely, singing; the white-haired went visiting, glad. When grass grew lush they knew the season was mild; when trees grew bare they knew the wind was sharp.
 

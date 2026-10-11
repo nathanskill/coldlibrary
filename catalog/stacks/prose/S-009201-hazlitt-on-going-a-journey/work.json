@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Essay III in Table-Talk; or, Original Essays, vol. II (London: Henry Colburn, 1822). The text was taken from Project Gutenberg eBook 3020, which follows a later edition, and brought back to the first edition by comparison with a scan of the 1822 volume and with Wikisource’s transcription of it: two passages the first edition does not have are removed (a parenthesis on the camps of the gypsies, and one about the gentleman in the parlour), Coleridge and Lamb are again C—— and L——, and about twenty smaller readings are restored, among them “incumbrances”, “circumscription”, “lands to seas” and “the powdered Ciceroni”. Spelling and quotation marks otherwise follow the Gutenberg text.",
-    "zh": "《席间闲谈，或原创散文集》第二卷（伦敦：亨利·科尔伯恩，1822）中的第三篇。文本取自古登堡计划电子书第 3020 号，它依据的是后来的版本；这里对照 1822 年原书的扫描本和维基文库据此书所作的录文，改回初版的样子：删去初版没有的两段话（一段关于吉卜赛人营地的插话，一段关于“客厅里的那位先生”的插话），柯勒律治和兰姆的名字恢复为 C—— 和 L——，并恢复约二十处较小的异文，例如“incumbrances”“circumscription”“lands to seas”“the powdered Ciceroni”。其余拼写和引号依古登堡本。"
+    "en": "Essay III in Table-Talk; or, Original Essays, vol. II (London: Henry Colburn, 1822). The text was taken from Project Gutenberg eBook 3020, which follows a later edition, and brought back to the first edition by comparison with a scan of the 1822 volume: two passages the first edition does not have are removed (a parenthesis on the camps of the gypsies, and one about the gentleman in the parlour), Coleridge and Lamb are again C—— and L——, and about twenty smaller readings are restored, among them “incumbrances”, “circumscription”, “lands to seas” and “the powdered Ciceroni”. Spelling, punctuation, italics and quotation marks otherwise follow the Gutenberg text.",
+    "zh": "《席间闲谈，或原创散文集》第二卷（伦敦：亨利·科尔伯恩，1822）中的第三篇。文本取自古登堡计划电子书第 3020 号，它依据的是后来的版本；这里对照 1822 年原书的扫描本，改回初版的样子：删去初版没有的两段话（一段关于吉卜赛人营地的插话，一段关于“客厅里的那位先生”的插话），柯勒律治和兰姆的名字恢复为 C—— 和 L——，并恢复约二十处较小的异文，例如“incumbrances”“circumscription”“lands to seas”“the powdered Ciceroni”。其余拼写、标点、斜体和引号依古登堡本。"
   },
   "source": {
     "name": "Project Gutenberg",
@@ -135,8 +135,8 @@
     {
       "at": "Procul, O procul este profani!",
       "occ": 1,
-      "en": "“Away, away, you uninitiated!”: the Sibyl’s cry before the sacred rites in Virgil’s Aeneid, Book VI.",
-      "zh": "拉丁文，“走开吧，走开吧，你们这些凡俗的人！”维吉尔《埃涅阿斯纪》卷六中，女先知在圣礼开始前的呼喊。"
+      "en": "“Away, away, you uninitiated”: the Sibyl’s cry before the sacred rites in Virgil’s Aeneid, Book VI.",
+      "zh": "拉丁文，意为“走开吧，走开吧，你们这些凡俗的人”，是维吉尔《埃涅阿斯纪》卷六中女先知在圣礼开始前的呼喊。"
     },
     {
       "at": "unhoused free condition",

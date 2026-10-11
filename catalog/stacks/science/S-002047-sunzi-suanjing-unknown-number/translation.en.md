@@ -10,4 +10,4 @@ Suppose pheasants and rabbits are in the same cage. Above there are thirty-five 
 
 Method: put down thirty-five heads above and ninety-four feet below. Halve the feet to get forty-seven. Subtract the smaller from the larger, twice over: the three above removes three below, the five above removes five below; then the one below removes one above, the two below removes two above, and you have the answer.
 
-Another method: put down the heads above and the feet below. Halve the feet, take the heads away from the feet, then take the feet away from the heads, and you have the answer.
+Another method: put down the heads above and the feet below. Halve the feet, take the heads away from the feet, then take what remains of the feet away from the heads, and you have the answer.

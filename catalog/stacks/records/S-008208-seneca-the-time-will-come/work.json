@@ -23,8 +23,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "From Book VII (on comets) of the Natural Questions: all of chapter 25, sections 5–6 of chapter 30, and the book's last section, as given on Latin Wikisource, which follows The Latin Library's text; checked against Karl Rudolf Fickert's edition (Leipzig, 1845, volume 3) on the Internet Archive. Two slips are corrected from Fickert (animo for anime, quae for que). Section numbers are omitted; the gaps are marked with section breaks.",
-    "zh": "选自《自然问题》第七卷（论彗星）：第 25 章全章、第 30 章第 5—6 节和全卷最后一节，据拉丁文维基文库（其文本取自 The Latin Library），并与互联网档案馆所藏卡尔·鲁道夫·菲克特校本（莱比锡，1845 年，第 3 卷）核对；据菲克特本改正两处笔误（anime 作 animo，que 作 quae）。节号从略，删节处以分隔符标出。"
+    "en": "From Book VII (on comets) of the Natural Questions: all of chapter 25, sections 5–6 of chapter 30, and the book's last section, as given on Latin Wikisource, which follows The Latin Library's text; checked against Karl Rudolf Fickert's edition (Leipzig, 1845, volume 3) on the Internet Archive, which differs in a few readings (for example tenuissimum aerem for tenuissimum animae). Two slips are corrected from Fickert (animo for anime, quae for que). Section numbers are omitted; the gaps are marked with section breaks.",
+    "zh": "选自《自然问题》第七卷（论彗星）：第 25 章全章、第 30 章第 5—6 节和全卷最后一节，据拉丁文维基文库（其文本取自 The Latin Library），并与互联网档案馆所藏卡尔·鲁道夫·菲克特校本（莱比锡，1845 年，第 3 卷）核对，菲克特本有几处异文（如 tenuissimum animae 作 tenuissimum aerem）；据菲克特本改正两处笔误（anime 作 animo，que 作 quae）。节号从略，删节处以分隔符标出。"
   },
   "source": {
     "name": "Wikisource (la), Quaestiones Naturales/Liber VII",

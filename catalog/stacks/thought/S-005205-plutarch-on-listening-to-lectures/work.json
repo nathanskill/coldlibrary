@@ -28,8 +28,8 @@
   },
   "orig_lang": "grc",
   "edition": {
-    "en": "Chapters 1–4 and 17–18 of the eighteen chapters of On Listening to Lectures, in Frank Cole Babbitt’s translation for the Loeb Classical Library, Plutarch’s Moralia, vol. I (London: William Heinemann; New York: G. P. Putnam’s Sons, 1927), as transcribed on Bill Thayer’s LacusCurtius site and compared with a scan of the 1927 volume, which reads “lectures”, “with loquacity” and “as for those lazy persons” where the online text has “lecture”, “and loquacity” and “after those lazy persons”. The headings are Babbitt’s chapter numbers; his footnotes are left out, and the lines of verse Plutarch quotes are set apart.",
-    "zh": "《论听讲》共十八章，这里选第一至四章和第十七、十八章，用弗兰克·科尔·巴比特为洛布古典丛书所作的译本，见《普鲁塔克道德论集》第一卷（伦敦：威廉·海涅曼；纽约：G. P. 普特南父子，1927），据比尔·塞耶的 LacusCurtius 网站录文，并与 1927 年原书扫描本对校：原书作“lectures”“with loquacity”“as for those lazy persons”，网上录文作“lecture”“and loquacity”“after those lazy persons”。标题是巴比特的章号；他的脚注不收，普鲁塔克引用的诗句单独成行。"
+    "en": "Chapters 1–4 and 17–18 of the eighteen chapters of On Listening to Lectures, in Frank Cole Babbitt’s translation for the Loeb Classical Library, Plutarch’s Moralia, vol. I (London: William Heinemann; New York: G. P. Putnam’s Sons, 1927), as transcribed on Bill Thayer’s LacusCurtius site and compared with a scan of the 1927 volume, which reads “lectures”, “take hold of the children”, “fellow-students”, “with loquacity” and “as for those lazy persons” where the online text has “lecture”, “take hold of children”, “fellow students”, “and loquacity” and “after those lazy persons”. The headings are Babbitt’s chapter numbers; his footnotes are left out, and the lines of verse Plutarch quotes are set apart.",
+    "zh": "《论听讲》共十八章，这里选第一至四章和第十七、十八章，用弗兰克·科尔·巴比特为洛布古典丛书所作的译本，见《普鲁塔克道德论集》第一卷（伦敦：威廉·海涅曼；纽约：G. P. 普特南父子，1927），据比尔·塞耶的 LacusCurtius 网站录文，并与 1927 年原书扫描本对校：原书作“lectures”“take hold of the children”“fellow-students”“with loquacity”“as for those lazy persons”，网上录文作“lecture”“take hold of children”“fellow students”“and loquacity”“after those lazy persons”。标题是巴比特的章号；他的脚注不收，普鲁塔克引用的诗句单独成行。"
   },
   "source": {
     "name": "LacusCurtius (Bill Thayer)",
@@ -103,7 +103,7 @@
       "at": "Theophrastus",
       "occ": 1,
       "en": "Aristotle’s pupil and successor at the head of his school (c. 371–287 BCE).",
-      "zh": "忒奥弗拉斯托斯（约公元前 371–前 287），亚里士多德的学生，继他之后主持他的学园。"
+      "zh": "忒奥弗拉斯托斯（约公元前 371–前 287），亚里士多德的学生，继他之后主持吕克昂学园。"
     },
     {
       "at": "Xenocrates advised",
@@ -120,8 +120,8 @@
     {
       "at": "wind-eggs",
       "occ": 1,
-      "en": "Eggs laid without being fertilised, which never hatch; Plutarch takes the idea from Aristotle’s History of Animals.",
-      "zh": "风蛋：未受精而产下的蛋，永远孵不出来。普鲁塔克的说法来自亚里士多德的《动物志》。"
+      "en": "Eggs laid without being fertilised, which never hatch; Aristotle discusses them in his History of Animals (book VI, chapter 2).",
+      "zh": "风蛋：未受精而产下的蛋，永远孵不出来。亚里士多德在《动物志》第六卷第二章讲到过风蛋。"
     },
     {
       "at": "Void of repute and unheeded",

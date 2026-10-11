@@ -23,8 +23,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "Extracts from the afterword that closes the Shiji (chapter 130), as given on Chinese Wikisource; checked against the version in Sima Qian's biography in the Han shu (chapter 62), which differs only in small words. The omitted passage is marked with a section break.",
-    "zh": "节选自《史记》卷一百三十《太史公自序》，据维基文库；并与《汉书·司马迁传》（卷六十二）所录本对校，两本只有虚字等细小差异。删节处以分隔符标出。"
+    "en": "Extracts from the afterword that closes the Shiji (chapter 130), as given on Chinese Wikisource; checked against the Sanjia zhu edition (Wikisource, 史記三家注/卷130) and the version in Sima Qian's biography in the Han shu (chapter 62), which differs only in small words. Wikisource's 補闕 is corrected to the Shiji's own reading 補蓺; the Suoyin commentary notes that 補闕 is the Han shu's. The section break marks a long omission: the dialogue with Hu Sui, the account of the Li Ling affair and the summaries of the 130 chapters.",
+    "zh": "节选自《史记》卷一百三十《太史公自序》，据维基文库；并与维基文库《史记三家注》卷一百三十及《汉书·司马迁传》（卷六十二）所录本对校，《汉书》本只有虚字等细小差异。维基文库本作“补阙”，今依《史记》原文改为“补蓺”；《索隐》说“补阙”是《汉书》的写法。分隔符处删去了较长的一段：与壶遂的问答、李陵之祸的自述和一百三十篇的篇目小序。"
   },
   "source": {
     "name": "Wikisource (zh), 史記/卷130",
@@ -194,6 +194,13 @@
       "at_hans": "五十二万六千五百字",
       "en": "526,500 characters, a count the author gives himself; the earlier chapters list the contents, and this sentence gives the size.",
       "zh": "这是作者自己给出的字数；前面列出篇目，这一句交代全书的规模。"
+    },
+    {
+      "at": "拾遺補蓺",
+      "occ": 1,
+      "at_hans": "拾遗补艺",
+      "en": "蓺 (藝) here means the Six Arts, the classics: to gather up what was left out and supplement them. The Han shu text reads 補闕, 'fill what is lacking'.",
+      "zh": "蓺（艺），指六艺，即六经：拾取遗漏，补充六艺。《汉书》本作“补阙”，补其缺失。"
     },
     {
       "at": "副在京師",

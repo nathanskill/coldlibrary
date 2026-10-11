@@ -17,6 +17,6 @@ It should bear no grudge,
 so why is it always full when people are apart?
 People have sorrow and joy, parting and meeting;
 the moon is dim or bright, full or waning;
-this has never been whole since ancient times.
+since ancient times this has been hard to make whole.
 I only wish that we may both live long
 and share, a thousand li apart, the beauty of the moon.

@@ -1,10 +1,10 @@
-Braving the bitter cold, I travelled more than two thousand li back to the old home I had left over twenty years before.
+I set out against the bitter cold for the old home I had left more than twenty years before, over two thousand li away.
 
 It was the depth of winter. As we drew near, the sky clouded over, and a cold wind whistled into the cabin of the boat. Looking out through a crack in the awning, I saw a few desolate villages lying scattered, near and far, under a sallow sky, without the least sign of life. My heart sank in spite of me.
 
 Ah. Was this really the home I had kept in my memory for twenty years?
 
-The home I remembered was not like this at all. My home was much better. Yet if I tried to recall its beauty and name its good points, I had no image of them, no words for them. Perhaps it had always been like this. So I explained it to myself: home had always been this way. It had not improved, but it was not as dreary as I felt it to be; only my mood had changed, because this time I had not come home in a cheerful frame of mind.
+The home I remembered was not like this at all. My home was much better. Yet if I tried to recall its beauty and name its good points, I had no image of them, no words for them. Perhaps it had always been like this. So I explained it to myself: home had always been this way. It had not improved, but it was not necessarily as dreary as I felt it to be; only my mood had changed, because this time I had not come home in a cheerful frame of mind.
 
 I had come this time solely to bid it farewell. The old house in which our clan had lived together for so many years had been sold to another family, and it had to be handed over before the end of the year. So we had to leave before New Year's Day, saying goodbye forever to the familiar old house and the familiar old place, and move to the strange town where I now earned my living.
 
@@ -12,7 +12,7 @@ Early the next morning I reached the gate of our house. Broken stems of withered
 
 My mother was very pleased, though she was also hiding a good deal of sadness. She told me to sit down, rest and drink some tea, and said nothing about moving for the time being. Hong'er, who had never seen me before, stood at a distance, just staring.
 
-But at last we did talk about the move. I said that I had already rented lodgings in the other town and bought some furniture, and that the rest would have to be bought after we sold all the wooden things here. My mother agreed. She said the luggage was nearly all packed, and about half the furniture that was too awkward to take had already been sold, only she had not been able to collect the money.
+But at last we did talk about the move. I said that I had already rented lodgings in the other town and bought some furniture, and that the rest would have to be bought after we sold all the wooden things here. My mother agreed. She said the luggage was nearly all packed, and some of the furniture that was too awkward to take, a small part of it, had already been sold, only she had not been able to collect the money.
 
 "Rest for a day or two, and go round once to call on our relatives, and then we can leave," my mother said.
 
@@ -20,7 +20,7 @@ But at last we did talk about the move. I said that I had already rented lodging
 
 "And there is Runtu. Every time he comes here he asks after you, and he wants very much to see you once more. I have told him roughly when you would be back, so he may come any time."
 
-At that moment a strange and wonderful picture flashed into my mind: a round golden moon hanging in a deep blue sky, and below it a stretch of sandy ground by the sea, planted as far as the eye could see with jade-green watermelons. In the middle of them stood a boy of eleven or twelve, a silver ring around his neck and a steel pitchfork in his hand, thrusting with all his might at a zha, and the zha twisted its body and slipped away between his legs.
+At that, a strange and wonderful picture flashed into my mind: a round golden moon hanging in a deep blue sky, and beneath it the sandy fields by the sea, all planted with emerald watermelons stretching away beyond sight. Among them was a boy of eleven or twelve, a silver ring at his neck and a steel fork gripped in his hand, stabbing as hard as he could at a zha; but the zha gave a twist and got away instead, straight between his legs.
 
 That boy was Runtu. When I first knew him I was just over ten myself, so it was nearly thirty years ago. My father was still alive then, the family was well off, and I was a young master. That year it was our family's turn to take charge of a great ancestral sacrifice. The duty was said to come round only once in thirty years or more, so it was taken very seriously. In the first month the ancestral portraits were set out, the offerings were many, the ritual vessels were very fine, a great many people came to worship, and the vessels had to be guarded against thieves. We had only one busy-month man. (In our part of the country there are three kinds of hired hands: those who work all year for one family are called year-men; those hired by the day are called day-men; and those who farm their own land but come to work for a particular family only at New Year, at festivals, and when rents are collected are called busy-month men.) He could not manage everything alone, so he told my father he could send for his son Runtu to look after the sacrificial vessels.
 
@@ -118,7 +118,7 @@ He stood still, and a look of both joy and sadness came over his face. His lips 
 
 "Master ...!"
 
-I felt a shiver run through me. I knew then that a lamentable thick wall had grown up between us. I could not say anything either.
+Something like a shudder went through me. I knew then that a sad, thick barrier had come between us. I could not speak either.
 
 He turned his head and said, "Shuisheng, kowtow to the master." And he pulled forward a child who had been hiding behind his back. This was just the Runtu of twenty years before, only paler and thinner, and with no silver ring around his neck. "This is my fifth child. He hasn't seen the world, so he hangs back ..."
 
@@ -164,14 +164,14 @@ Hong'er and I leaned against the cabin window, looking out together at the blurr
 
 My mother and I both felt a little lost, and so we talked about Runtu again. My mother said that Mrs Yang, the Beauty of the Beancurd Shop, had come every day since we began packing, and the day before yesterday she had dug a dozen or so bowls and dishes out of the ash heap. After some discussion she had decided that Runtu had buried them there so that he could carry them home along with the ashes. Mrs Yang, feeling she had done something very clever, took the dog-vexer (a contraption we use for feeding chickens in our part of the country: a wooden tray with a railing over it holding the feed; the chickens can stretch their necks in to peck, but a dog cannot, and can only look at it and fume) and ran off as if she were flying. It was remarkable that she could run so fast on those little bound feet in their high-soled shoes.
 
-The old house was left further and further behind, and the hills and rivers of home were gradually left behind too, but I felt no great regret. I only felt that all around me was an invisible high wall, cutting me off and leaving me alone, and it oppressed me terribly. The image of that little hero with the silver ring in the watermelon field, once so clear to me, had suddenly become blurred, and this made me terribly sad as well.
+The old house grew more and more distant, and the hills and waters of home slipped gradually away from me, yet I felt no particular longing for them. I felt only that I was hemmed in on every side by high walls that no one could see, shutting me off on my own, until I could hardly breathe. The little hero with the silver ring among the watermelons, once so clear in my mind, had suddenly gone blurred, and that too made me very sad.
 
 My mother and Hong'er were both asleep.
 
-I lay there, listening to the water rippling under the bottom of the boat, and knew that I was going my own way. I thought: I am cut off from Runtu so completely now, yet the young ones are still of one mind; isn't Hong'er thinking of Shuisheng at this very moment? I hoped they would not be like us, would not grow apart from each other in their turn ... But I did not want them, for the sake of being of one mind, to live the toilsome, drifting life I have lived; nor did I want them to live the toilsome, numbed life Runtu has lived; nor the toilsome, reckless life that others live. They should have a new life, one that we have never lived.
+Lying there, I listened to the water gurgling under the boat and knew that I was on my own road. I thought: I am cut off from Runtu so completely now, yet the young ones are still of one mind; isn't Hong'er thinking of Shuisheng at this very moment? I hoped they would not be like me, would not grow apart from each other in their turn ... But I did not want them, for the sake of being of one mind, to live the toilsome, drifting life I have lived; nor did I want them to live the toilsome, numbed life Runtu has lived; nor the toilsome, reckless life that others live. They ought to have a new life, a life we ourselves have never lived.
 
-When I thought of hope, I was suddenly afraid. When Runtu asked for the incense burner and candlesticks, I had laughed at him secretly, thinking he was still worshipping idols and could never put them out of his mind. Yet what I called hope, was it not an idol of my own making? Only his wish was close at hand, and mine far off and hazy.
+At the thought of hope I was suddenly afraid. When Runtu had asked for the incense burner and the candlesticks, I had secretly laughed at him for always worshipping idols, never forgetting them for a moment. Was not what I called hope an idol too, one I had made with my own hands? The only difference was that his wishes were near, and mine were vague and far away.
 
-As I dozed, a stretch of jade-green sand by the sea spread out before my eyes, and above it a round golden moon hung in a deep blue sky. I thought: hope cannot be said to exist, nor can it be said not to exist. It is just like the roads across the earth. For in fact the earth had no roads to begin with, but when many people pass one way, a road is made.
+Half asleep, I saw the green sandy fields by the sea open out before me, and over them, in the deep blue sky, a round golden moon. I thought: hope is a thing of which one cannot say that it is, nor that it is not. It is just like the roads over the land. In truth the land had no roads to begin with; where enough people walk, a road comes into being.
 
 (January 1921)

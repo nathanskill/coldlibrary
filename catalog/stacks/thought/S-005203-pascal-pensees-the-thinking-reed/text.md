@@ -36,7 +36,7 @@ Thought constitutes the greatness of man.
 
 Man is but a reed, the most feeble thing in nature; but he is a thinking reed. The entire universe need not arm itself to crush him. A vapour, a drop of water suffices to kill him. But, if the universe were to crush him, man would still be more noble than that which killed him, because he knows that he dies and the advantage which the universe has over him; the universe knows nothing of this.
 
-All our dignity consists, then, in thought. By it we must elevate ourselves, and not by space and time which we cannot fill. Let us endeavour, then, to think well; this is the principle of morality.
+All our dignity consists then in thought. By it we must elevate ourselves, and not by space and time which we cannot fill. Let us endeavour then to think well; this is the principle of morality.
 
 ## 348
 

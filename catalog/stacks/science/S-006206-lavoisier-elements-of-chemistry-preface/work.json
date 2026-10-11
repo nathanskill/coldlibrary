@@ -27,8 +27,8 @@
   },
   "orig_lang": "fr",
   "edition": {
-    "en": "The preface to Elements of Chemistry, in a New Systematic Order, Containing All the Modern Discoveries, translated by Robert Kerr (Edinburgh: William Creech, 1790), as transcribed by Project Gutenberg (eBook 30775) and compared with scans of two copies of the 1790 edition. Three slips of the transcription are corrected from the scans: “colcothar” for “colcathar”, “connexion” for “connection”, and “the slightest degrees of probability” for “the slighted degrees”. Kerr’s Scots “notwithstanding of” and the original’s “still carry” are kept as printed.",
-    "zh": "《化学基础论：按新的系统次序编排，包括一切现代发现》的序言，罗伯特·克尔译（爱丁堡：威廉·克里奇，1790），据古登堡计划电子书第 30775 号，并与 1790 年版两个印本的扫描本对校。依原书扫描本改正录入的三处笔误：“colcathar”改为“colcothar”，“connection”改为“connexion”，“the slighted degrees”改为“the slightest degrees of probability”。克尔带苏格兰味的“notwithstanding of”和原书的“still carry”照印本保留。"
+    "en": "The preface to Elements of Chemistry, in a New Systematic Order, Containing All the Modern Discoveries, translated by Robert Kerr (Edinburgh: William Creech, 1790), as transcribed by Project Gutenberg (eBook 30775) and compared with scans of three copies of the 1790 edition. Three slips of the transcription are corrected from the scans: “colcothar” for “colcathar”, “the slightest degrees of probability” for “the slighted degrees”, and “Abbé” for “Abbe”. The transcription’s correction of one misprint of 1790, “aranged” for “arranged”, is kept; Kerr’s Scots “notwithstanding of” and the original’s “still carry” are kept as printed.",
+    "zh": "《化学基础论：按新的系统次序编排，包括一切现代发现》的序言，罗伯特·克尔译（爱丁堡：威廉·克里奇，1790），据古登堡计划电子书第 30775 号，并与 1790 年版三个印本的扫描本对校。依原书扫描本改正录入的三处笔误：“colcathar”改为“colcothar”，“the slighted degrees”改为“the slightest degrees of probability”，“Abbe”改为“Abbé”。录入本对原书一处误印的改正（“aranged”改为“arranged”）予以保留；克尔带苏格兰味的“notwithstanding of”和原书的“still carry”照印本保留。"
   },
   "source": {
     "name": "Project Gutenberg",
@@ -74,11 +74,11 @@
     {
       "at": "the public meeting of the Academy of Sciences in the month of April 1787",
       "occ": 1,
-      "en": "The paper grew into the Method of Chemical Nomenclature (1787), written with Guyton de Morveau, Berthollet and Fourcroy.",
-      "zh": "这篇论文后来扩展成《化学命名法》（1787），是他和吉东·德莫尔沃、贝托莱、富尔克鲁瓦合写的。"
+      "en": "The memoir was printed later in 1787 as the opening of the Method of Chemical Nomenclature, written with Guyton de Morveau, Berthollet and Fourcroy.",
+      "zh": "这篇论文在 1787 年稍后印作《化学命名法》的开篇；那本书是他和吉东·德莫尔沃、贝托莱、富尔克鲁瓦合写的。"
     },
     {
-      "at": "the Abbe de Condillac",
+      "at": "the Abbé de Condillac",
       "occ": 1,
       "en": "Étienne Bonnot de Condillac (1714–1780), philosopher of language and the senses; his Logic appeared in 1780.",
       "zh": "艾蒂安·博诺·德·孔狄亚克（1714–1780），研究语言与感觉的哲学家；他的《逻辑学》出版于 1780 年。"
@@ -86,8 +86,8 @@
     {
       "at": "the table of affinities",
       "occ": 1,
-      "en": "Tables showing which substances combine most readily with which, the main way eighteenth-century chemists organised their knowledge.",
-      "zh": "亲和力表：列出哪些物质最容易与哪些物质化合的表格，是十八世纪化学家整理知识的主要方式。"
+      "en": "Tables showing which substances combine most readily with which, one of the chief ways eighteenth-century chemists organised their knowledge.",
+      "zh": "亲和力表：列出哪些物质最容易与哪些物质化合的表格，是十八世纪化学家整理知识的主要方式之一。"
     },
     {
       "at": "Messrs Geoffroy, Gellert, Bergman, Scheele, De Morveau, Kirwan",
@@ -140,8 +140,8 @@
     {
       "at": "Bergman and Macquer",
       "occ": 1,
-      "en": "Torbern Bergman (1735–1784) of Uppsala and Pierre-Joseph Macquer (1718–1784) of Paris, leading chemists of the generation before Lavoisier.",
-      "zh": "乌普萨拉的托尔贝恩·贝格曼（1735–1784）和巴黎的皮埃尔－约瑟夫·马凯（1718–1784），拉瓦锡之前那一代人中的重要化学家。"
+      "en": "Torbern Bergman (1735–1784) of Uppsala and Pierre-Joseph Macquer (1718–1784) of Paris, two of the most respected chemists of their day.",
+      "zh": "乌普萨拉的托尔贝恩·贝格曼（1735–1784）和巴黎的皮埃尔－约瑟夫·马凯（1718–1784），当时最受尊重的两位化学家。"
     },
     {
       "at": "M. de la Place",

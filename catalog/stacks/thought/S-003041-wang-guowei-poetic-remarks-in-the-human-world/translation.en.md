@@ -40,7 +40,7 @@ The *Three Hundred Poems* and the *Nineteen Old Poems*, and the ci of the Five D
 
 ## 56
 
-In the work of the great masters, feeling always goes to the heart, scenery always opens the eyes and ears, and the words come out naturally, without any affected or ornamental air. This is because what they see is true and what they know is deep. It is so in all poetry. Measure the writers of past and present by this, and you will not go far wrong.
+In the work of the great masters, feeling always goes to the heart, scenery always opens the eyes and ears, and the words come out naturally, without any affected or ornamental air. This is because what they see is true and what they know is deep. It is so in shi and ci alike. Measure the writers of past and present by this, and you will not go far wrong.
 
 ## 60
 

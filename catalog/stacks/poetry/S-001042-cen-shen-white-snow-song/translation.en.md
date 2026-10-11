@@ -6,7 +6,7 @@ It drifts through the pearl blinds and wets the silk curtains;
 fox furs are not warm, brocade quilts are thin.
 The general's horn bow cannot be drawn;
 the protector-general's iron armour is too cold to put on.
-Across the great desert the ice lies a hundred fathoms deep;
+Across the vast desert the ice lies criss-crossed, a hundred fathoms deep;
 gloomy clouds hang frozen for ten thousand li.
 In the commander's tent we set out wine for the one going home,
 with western fiddles, pipa and Qiang flutes.

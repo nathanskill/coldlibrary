@@ -22,8 +22,8 @@
   },
   "translator": null,
   "edition": {
-    "en": "The second essay in Tremendous Trifles (London: Methuen, 1909), first printed in the Daily News in 1905. The text is Project Gutenberg eBook 8092, corrected against a scan of the 1909 Methuen edition, which reads “pocket”, “silver satin” and “mere miles” where the online text has “pockets”, “silver linen” and “more miles”, spells “realized” and “civilization”, and divides the essay with rows of stars, given here as * * *.",
-    "zh": "《了不起的小事》（伦敦：梅休因出版社，1909）中的第二篇，1905 年首次刊于《每日新闻报》。文本取自古登堡计划电子书第 8092 号，并依 1909 年梅休因版扫描本校正：初版作“pocket”“silver satin”“mere miles”，网络文本作“pockets”“silver linen”“more miles”；初版拼作“realized”“civilization”，并用一排星号分节，这里作 * * *。"
+    "en": "The first essay in Tremendous Trifles (London: Methuen, first published 23 September 1909), first printed in the Daily News in 1905; in the New York edition (Dodd, Mead, October 1909), which Project Gutenberg eBook 8092 follows, it is the second. The text is that eBook corrected throughout against a scan of the third Methuen edition (December 1909), whose wording and punctuation it follows: “pocket”, “silver satin” and “mere miles” where the New York text has “pockets”, “silver linen” and “more miles”; “realized” and “civilization”; “(so to speak)” in brackets; no new paragraph at “Chastity”. The rows of stars are the book’s own section breaks, not omissions, and are given here as * * *.",
+    "zh": "《了不起的小事》（伦敦：梅休因出版社，1909 年 9 月 23 日初版）的第一篇，1905 年首次刊于《每日新闻报》；在古登堡计划电子书第 8092 号所据的纽约版（多德与米德公司，1909 年 10 月）中，它是第二篇。文本取自该电子书，并依梅休因版第三版（1909 年 12 月）扫描本通校，措辞和标点都从梅休因版：作“pocket”“silver satin”“mere miles”，纽约版作“pockets”“silver linen”“more miles”；拼作“realized”“civilization”；“(so to speak)”加括号；“Chastity”处不另起一段。几排星号是原书自己的分节，不是删节，这里作 * * *。"
   },
   "source": {
     "name": "Project Gutenberg",
@@ -60,8 +60,8 @@
     "humour"
   ],
   "excerpt": {
-    "orig": "When, so to speak, your pencil grows red-hot, it draws roses; when it grows white-hot, it draws stars.",
-    "en": "When, so to speak, your pencil grows red-hot, it draws roses; when it grows white-hot, it draws stars.",
+    "orig": "When (so to speak) your pencil grows red-hot, it draws roses; when it grows white-hot, it draws stars.",
+    "en": "When (so to speak) your pencil grows red-hot, it draws roses; when it grows white-hot, it draws stars.",
     "zh": "可以说，当你的铅笔烧得通红时，它画出玫瑰；当它烧得发白时，它画出星星。"
   },
   "plate": null,
