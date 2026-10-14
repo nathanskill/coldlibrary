@@ -1,5 +1,5 @@
 // Build the static site: node site/build.mjs  →  site/dist/
-// Zero dependencies. English at /, Chinese at /zh/.
+// Zero dependencies. Chinese at / (the default since 2026-10-15), English at /en/.
 //
 // Page contract (every module that adds pages exports objects like this):
 //   { slug, title: {en, zh} | (lang) => string, description: {en, zh} | (lang) => string,
@@ -109,9 +109,9 @@ for (const p of all) {
       body,
     });
     let file;
-    if (p.slug === '404') file = lang === 'en' ? '404.html' : 'zh/404.html';
-    else if (p.slug === '') file = lang === 'en' ? 'index.html' : 'zh.html';
-    else file = (lang === 'en' ? '' : 'zh/') + p.slug + '.html';
+    if (p.slug === '404') file = lang === 'zh' ? '404.html' : 'en/404.html';
+    else if (p.slug === '') file = lang === 'zh' ? 'index.html' : 'en.html';
+    else file = (lang === 'zh' ? '' : 'en/') + p.slug + '.html';
     const out = join(dist, file);
     mkdirSync(dirname(out), { recursive: true });
     writeFileSync(out, html);

@@ -525,7 +525,7 @@ page({
 </section>`;
 
     const albums = todayAlbums(lang, ctx);
-    const today = `${todaySection(lang, ctx)}${albums ? `<section class="sec" aria-label="${T('Today’s album', '今日一听')}"><div class="wrap">${albums}</div></section>` : ''}`;
+    const today = `${todaySection(lang, ctx)}${albums ? `<section class="sec today-listen" aria-label="${T('Today’s album', '今日一听')}"><div class="wrap">${albums}</div></section>` : ''}`;
 
     const KEYS = ['literature', 'faith', 'history', 'aesthetics', 'music', 'thought'].filter((k) => ranked(cat, k).length);
     const charts = sec({

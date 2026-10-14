@@ -10,7 +10,7 @@
     var a = d.activeElement;
     if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || !B.classList.contains('stacks') || (a && (a.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)))) return;
     e.preventDefault();
-    if (input) { input.focus(); input.select(); } else location.href = (ZH ? '/zh' : '') + '/open-stacks/search';
+    if (input) { input.focus(); input.select(); } else location.href = (ZH ? '' : '/en') + '/open-stacks/search';
   });
   var page = $('[data-search-page]'), F = window.CLF;
   if (!page || !F || !input) return;

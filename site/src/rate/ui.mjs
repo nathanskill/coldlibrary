@@ -33,13 +33,19 @@ export const scoreCell = (lang, e) => (e.scripture
     : '<span class="c-score"></span>');
 
 // A ranked row: rank, title, maker, year, score.
-export function chartRow(lang, e, rank) {
+// In lists the reader's own language comes first; the original title follows in small type.
+export function listTitle(lang, e) {
   const tt = entryTitle(lang, e);
+  if (!tt.sub) return tt;
+  return { main: tt.sub, tag: lang === 'zh' ? 'zh-Hans' : 'en', sub: tt.main, subTag: tt.tag };
+}
+export function chartRow(lang, e, rank) {
+  const tt = listTitle(lang, e);
   const by = entryBy(lang, e);
   addGlyphs(tt.main);
   return `<li class="crow k-${e.kind}" data-id="${esc(e.id)}">
   <span class="c-rank id">${rank == null ? '' : rank}</span>
-  <span class="c-title"><a href="${entryHref(lang, e)}"><span class="serif" lang="${esc(tt.tag)}">${glue(tt.main)}</span></a>${tt.sub ? `<span class="alt">${esc(tt.sub)}</span>` : ''}</span>
+  <span class="c-title"><a href="${entryHref(lang, e)}"><span class="serif" lang="${esc(tt.tag)}">${glue(tt.main)}</span></a>${tt.sub ? `<span class="alt"${tt.subTag ? ` lang="${esc(tt.subTag)}"` : ''}>${esc(tt.sub)}</span>` : ''}</span>
   <span class="c-by">${esc(by.name)}</span>
   <span class="c-year">${esc(entryYear(lang, e))}</span>
   ${scoreCell(lang, e)}
@@ -57,13 +63,13 @@ export function sleeve(lang, e, { big = false } = {}) {
   return `<div class="sleeve tone-${toneOf(a.id)}${big ? ' big' : ''}" aria-hidden="true"><span class="sl-a">${esc(a.artist.orig)}</span><span class="sl-t serif" lang="${esc(tt.tag)}">${esc(a.title.orig)}</span><span class="sl-y">${esc(a.year)}</span></div>`;
 }
 export function albumCard(lang, e, { heading = 'h3' } = {}) {
-  const tt = entryTitle(lang, e);
+  const tt = listTitle(lang, e);
   const by = entryBy(lang, e);
   const g = e.ref.genres || [];
   return `<article class="acard" data-id="${esc(e.id)}" data-genres="${esc(g.join(' '))}" data-decade="${Math.floor(e.year / 10) * 10}" data-region="${esc(e.ref.region)}" data-score="${e.score ?? ''}" data-year="${e.year}">
   <a class="acard-a" href="${entryHref(lang, e)}" tabindex="-1" aria-hidden="true">${sleeve(lang, e)}</a>
   <${heading}><a href="${entryHref(lang, e)}"><span class="serif" lang="${esc(tt.tag)}">${glue(tt.main)}</span></a></${heading}>
-  ${tt.sub ? `<p class="alt">${esc(tt.sub)}</p>` : ''}
+  ${tt.sub ? `<p class="alt"${tt.subTag ? ` lang="${esc(tt.subTag)}"` : ''}>${esc(tt.sub)}</p>` : ''}
   <p class="by">${esc(by.name)} · ${esc(e.year)}</p>
   <p class="acard-score">${scoreCell(lang, e)}</p>
 </article>`;

@@ -68,7 +68,7 @@ createServer((req, res) => {
   else if (!extname(p)) file = join(dist, p.replace(/\/$/, '') + '.html');
   if (!file.startsWith(dist) || !existsSync(file) || statSync(file).isDirectory()) {
     res.writeHead(404, { 'content-type': types['.html'] });
-    return res.end(readFileSync(join(dist, p.startsWith('/zh') ? 'zh/404.html' : '404.html')));
+    return res.end(readFileSync(join(dist, p.startsWith('/en') ? 'en/404.html' : '404.html')));
   }
   res.writeHead(200, { 'content-type': types[extname(file)] || 'application/octet-stream' });
   res.end(readFileSync(file));

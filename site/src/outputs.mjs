@@ -299,7 +299,7 @@ export function indexData(open, lines = null) {
 
 export function feedXml(open, lang, { limit = 50 } = {}) {
   const tt = T(lang);
-  const pre = lang === 'zh' ? '/zh' : '';
+  const pre = lang === 'en' ? '/en' : '';
   const tagBase = 'tag:coldlibrary.com,2026-10-04:';
   const entries = [...open.works].sort((a, b) => accessioned(b).localeCompare(accessioned(a)) || b.id.localeCompare(a.id)).slice(0, limit);
   const updated = entries.length ? accessioned(entries[0]) : FOUNDED;
@@ -331,7 +331,7 @@ export function feedXml(open, lang, { limit = 50 } = {}) {
   <subtitle>${xml(tt('Real works anyone may read, copy and keep, newest first.', '谁都能读、能抄、能带走的真实作品，最新入藏的在前。'))}</subtitle>
   <link rel="self" type="application/atom+xml" href="${SITE}${pre}/open-stacks/feed.xml"/>
   <link rel="alternate" type="text/html" href="${SITE}${href(lang, 'open-stacks')}"/>
-  <link rel="alternate" type="application/atom+xml" hreflang="${lang === 'zh' ? 'en' : 'zh-CN'}" href="${SITE}${lang === 'zh' ? '' : '/zh'}/open-stacks/feed.xml"/>
+  <link rel="alternate" type="application/atom+xml" hreflang="${lang === 'zh' ? 'en' : 'zh-CN'}" href="${SITE}${lang === 'zh' ? '/en' : ''}/open-stacks/feed.xml"/>
   <updated>${stamp(updated)}</updated>
   <author><name>${xml(tt('Cold Library', '冷冻图书馆'))}</name><uri>${SITE}</uri></author>
   <icon>${SITE}/favicon.svg</icon>
@@ -349,7 +349,7 @@ function stub(id, label, to) {
 // ---------------------------------------------------------------- emit
 
 const put = (file, data) => { mkdirSync(dirname(file), { recursive: true }); writeFileSync(file, data); };
-const pageFile = (dist, lang, slug) => join(dist, (lang === 'zh' ? 'zh/' : '') + slug + '.html');
+const pageFile = (dist, lang, slug) => join(dist, (lang === 'en' ? 'en/' : '') + slug + '.html');
 
 export function emitOutputs(ctx, dist) {
   const open = ctx && ctx.open;
@@ -361,13 +361,13 @@ export function emitOutputs(ctx, dist) {
   // .txt copies, one per work per language; a work that cannot be rendered is reported, never fatal.
   for (const w of open.works) {
     for (const lang of ['en', 'zh']) {
-      try { put(join(dist, lang === 'zh' ? 'zh' : '', 'open-stacks', w.slug + '.txt'), txtFile(w, lang, { date })); txt++; }
+      try { put(join(dist, lang === 'en' ? 'en' : '', 'open-stacks', w.slug + '.txt'), txtFile(w, lang, { date })); txt++; }
       catch (e) { problems.push(`${w.id}: .txt (${lang}) failed: ${e.message}`); }
     }
   }
   // House papers get a .txt and a short URL once their page exists.
   const papers = (open.papers || []).filter((p) => p && p.id && p.slug && existsSync(pageFile(dist, 'en', 'open-stacks/' + p.slug)));
-  for (const p of papers) for (const lang of ['en', 'zh']) { put(join(dist, lang === 'zh' ? 'zh' : '', 'open-stacks', p.slug + '.txt'), paperTxt(p, lang, date)); txt++; }
+  for (const p of papers) for (const lang of ['en', 'zh']) { put(join(dist, lang === 'en' ? 'en' : '', 'open-stacks', p.slug + '.txt'), paperTxt(p, lang, date)); txt++; }
 
   // Search data.
   let index = { json: '{"works":[],"plates":[]}', level: '' }, linesObj = {}, linesLevel = '';
@@ -381,7 +381,7 @@ export function emitOutputs(ctx, dist) {
   } catch (e) { problems.push('lines.json failed: ' + e.message); }
   try { index = indexData(open, linesObj); } catch (e) { problems.push('index.json failed: ' + e.message); }
   const lines = JSON.stringify(linesObj);
-  for (const pre of ['', 'zh']) {
+  for (const pre of ['', 'en']) {
     put(join(dist, pre, 'open-stacks', 'index.json'), index.json);
     put(join(dist, pre, 'open-stacks', 'lines.json'), lines);
   }
@@ -391,7 +391,7 @@ export function emitOutputs(ctx, dist) {
 
   // Feeds.
   for (const lang of ['en', 'zh']) {
-    try { put(join(dist, lang === 'zh' ? 'zh' : '', 'open-stacks', 'feed.xml'), feedXml(open, lang)); }
+    try { put(join(dist, lang === 'en' ? 'en' : '', 'open-stacks', 'feed.xml'), feedXml(open, lang)); }
     catch (e) { problems.push(`feed.xml (${lang}) failed: ${e.message}`); }
   }
 
@@ -426,14 +426,14 @@ export function emitOutputs(ctx, dist) {
 export function check(ctx, dist) {
   const problems = [];
   const open = ctx.open;
-  for (const w of open.works) for (const pre of ['', 'zh']) if (!existsSync(join(dist, pre, 'open-stacks', w.slug + '.txt'))) problems.push(`${w.id}: missing ${pre ? '/zh' : ''}/open-stacks/${w.slug}.txt`);
-  for (const pre of ['', 'zh']) {
+  for (const w of open.works) for (const pre of ['', 'en']) if (!existsSync(join(dist, pre, 'open-stacks', w.slug + '.txt'))) problems.push(`${w.id}: missing ${pre ? '/en' : ''}/open-stacks/${w.slug}.txt`);
+  for (const pre of ['', 'en']) {
     for (const [f, budget] of [['index.json', BUDGET.index], ['lines.json', BUDGET.lines], ['feed.xml', 0]]) {
       const file = join(dist, pre, 'open-stacks', f);
-      if (!existsSync(file)) { problems.push(`missing ${pre ? '/zh' : ''}/open-stacks/${f}`); continue; }
+      if (!existsSync(file)) { problems.push(`missing ${pre ? '/en' : ''}/open-stacks/${f}`); continue; }
       const body = readFileSync(file, 'utf8');
       if (f.endsWith('.json')) { try { JSON.parse(body); } catch (e) { problems.push(`${f} does not parse: ${e.message}`); } }
-      else if ((body.match(/<entry>/g) || []).length !== Math.min(50, open.works.length)) problems.push(`${pre ? '/zh' : ''}/open-stacks/feed.xml has the wrong number of entries`);
+      else if ((body.match(/<entry>/g) || []).length !== Math.min(50, open.works.length)) problems.push(`${pre ? '/en' : ''}/open-stacks/feed.xml has the wrong number of entries`);
       if (budget && gz(body) > budget) problems.push(`${f} is ${kb(gz(body))} gz, over ${kb(budget)}`);
     }
   }

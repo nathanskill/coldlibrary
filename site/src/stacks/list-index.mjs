@@ -165,7 +165,7 @@ function newOnShelves(lang, stacks) {
   return sec({
     id: 'new', h: T('New on the shelves', '新上架'), intro: T(`Last added ${acc(fresh[0])}.`, `最近一次上架：${acc(fresh[0])}。`),
     body: rowList(fresh.map((w) => wrow(lang, w, stacks))),
-    foot: `<a class="go" href="${lang === 'zh' ? '/zh' : ''}/open-stacks/feed.xml">${T('Follow new accessions (Atom feed)', '订阅新入藏（Atom）')}<span class="nw">&nbsp;→</span></a>`,
+    foot: `<a class="go" href="${lang === 'en' ? '/en' : ''}/open-stacks/feed.xml">${T('Follow new accessions (Atom feed)', '订阅新入藏（Atom）')}<span class="nw">&nbsp;→</span></a>`,
   });
 }
 

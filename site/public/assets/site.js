@@ -262,7 +262,7 @@
       function say(s) { if (msg) msg.textContent = s; }
       var m = v.match(/^([EMSG])-?0*(\d{1,6})$/);
       if (!m) { say(T('A catalogue number looks like S-001001, G-009001, E-000001 or M-000001.', '馆藏号的样子是 S-001001、G-009001、E-000001 或 M-000001。')); return; }
-      var id = m[1] + '-' + ('000000' + m[2]).slice(-6), base = ZH ? '/zh/' : '/';
+      var id = m[1] + '-' + ('000000' + m[2]).slice(-6), base = ZH ? '/' : '/en/';
       var papers = {}; try { papers = JSON.parse(f.getAttribute('data-papers') || '{}') || {}; } catch (err) { papers = {}; }
       if (papers[id]) { location.href = base + papers[id]; return; }
       say(T('Looking…', '正在查……'));

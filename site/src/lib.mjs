@@ -10,7 +10,8 @@ export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&a
 export const t = (lang) => (en, zh) => (lang === 'zh' ? zh : en);
 export const L = (lang) => (o) => (o == null ? '' : typeof o === 'string' ? o : o[lang] ?? o.en ?? '');
 export const href = (lang, slug) => {
-  if (lang === 'zh') return slug ? '/zh/' + slug : '/zh';
+  // Chinese is the default (2026-10-15): Chinese at /, English under /en.
+  if (lang === 'en') return slug ? '/en/' + slug : '/en';
   return slug ? '/' + slug : '/';
 };
 export const htmlLang = (lang) => (lang === 'zh' ? 'zh-CN' : 'en');
@@ -145,7 +146,7 @@ export function footer(lang) {
       <div class="foot-brand"><a class="brand" href="${href(lang, '')}">${LOGO}<span>${T('Cold Library', '冷冻图书馆')}</span></a><p>${T('We keep the library, never the keys.', '我们守着图书馆，从不保管钥匙。')}</p></div>
       <div class="foot-col"><h2>${T('Collections', '馆藏')}</h2><ul>${li('charts', 'Charts', '榜单')}${li('open-stacks', 'Open Stacks', '开架书库')}${li('books', 'Catalogue', '书目')}${li('music', 'Record Room', '唱片室')}${li('open-stacks/claude', 'Claude’s shelf', 'Claude 的书架')}${li('open-stacks/plates', 'Plates', '图版')}</ul></div>
       <div class="foot-col"><h2>${T('Memorial', '纪念')}</h2><ul>${li('memorial', 'Memorial hall', '纪念')}${li('exhibits', 'Exhibits', '展位')}${li('plaques', 'Plaques', '铭牌')}${li('wardens', 'Wardens', '守馆人')}${li('accession', 'Front Desk', '前台')}${li('collect', 'Collection Desk', '领取处')}${li('vault', 'Cold Vault', '冷库')}</ul></div>
-      <div class="foot-col"><h2>${T('About', '关于')}</h2><ul>${li('about', 'About the library', '关于这座馆')}${li('rules', 'House rules & ledger', '馆规与账本')}${li('librarians', 'Librarians', '馆员')}<li><button class="linkish" type="button" data-open-directory aria-controls="directory">${T('Floor directory', '楼层指引')}</button></li><li><a href="${lang === 'zh' ? '/zh' : ''}/open-stacks/feed.xml">${T('New accessions (feed)', '新入藏（订阅）')}</a></li><li><a href="${REPO}">${T('Source on GitHub', 'GitHub 源代码')}</a></li></ul></div>
+      <div class="foot-col"><h2>${T('About', '关于')}</h2><ul>${li('about', 'About the library', '关于这座馆')}${li('rules', 'House rules & ledger', '馆规与账本')}${li('librarians', 'Librarians', '馆员')}<li><button class="linkish" type="button" data-open-directory aria-controls="directory">${T('Floor directory', '楼层指引')}</button></li><li><a href="${lang === 'en' ? '/en' : ''}/open-stacks/feed.xml">${T('New accessions (feed)', '新入藏（订阅）')}</a></li><li><a href="${REPO}">${T('Source on GitHub', 'GitHub 源代码')}</a></li></ul></div>
     </div>
     <div class="foot-lines">
       <p>${claims.map((c) => `<span class="nw">${c}</span>`).join(' <span class="sep" aria-hidden="true">·</span> ')}</p>
@@ -184,8 +185,8 @@ export function layout({ lang, slug, title, description, body, image = '/assets/
 ${noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${canonical}">
 ${alternates ? `<link rel="alternate" hreflang="en" href="${SITE + href('en', slug)}">
 <link rel="alternate" hreflang="zh-CN" href="${SITE + href('zh', slug)}">
-<link rel="alternate" hreflang="x-default" href="${SITE + href('en', slug)}">
-` : ''}<link rel="alternate" type="application/atom+xml" title="${T('Cold Library · new accessions', '冷冻图书馆 · 新入藏')}" href="${lang === 'zh' ? '/zh' : ''}/open-stacks/feed.xml">
+<link rel="alternate" hreflang="x-default" href="${SITE + href('zh', slug)}">
+` : ''}<link rel="alternate" type="application/atom+xml" title="${T('Cold Library · new accessions', '冷冻图书馆 · 新入藏')}" href="${lang === 'en' ? '/en' : ''}/open-stacks/feed.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${T('Cold Library', '冷冻图书馆')}">
 <meta property="og:title" content="${esc(fullTitle)}">

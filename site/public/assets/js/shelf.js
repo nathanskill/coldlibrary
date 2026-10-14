@@ -236,7 +236,7 @@
         var msg = $('[data-empty-msg]', empty);
         if (msg) msg.textContent = emptyText(act);
         var sa = $('[data-search-all]', empty);
-        if (sa) { var p = new URLSearchParams(); KEYS.forEach(function (k) { if (S[k]) p.set(k, S[k]); }); if (S.pick) p.set('pick', '1'); if (S.tr) p.set('tr', 'zh'); sa.href = (ZH ? '/zh' : '') + '/open-stacks/search' + (p.toString() ? '?' + p : ''); }
+        if (sa) { var p = new URLSearchParams(); KEYS.forEach(function (k) { if (S[k]) p.set(k, S[k]); }); if (S.pick) p.set('pick', '1'); if (S.tr) p.set('tr', 'zh'); sa.href = (ZH ? '' : '/en') + '/open-stacks/search' + (p.toString() ? '?' + p : ''); }
       }
     }
 
