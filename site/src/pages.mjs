@@ -549,7 +549,7 @@ page({
 
     return [
       act(hero + today, { cls: 'act-hero' }),
-      act(charts, { alt: true }),
+      KEYS.length ? act(charts, { alt: true }) : '',
       act(memorial),
     ].join('\n');
   },
