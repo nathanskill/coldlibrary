@@ -174,7 +174,7 @@ export function layout({ lang, slug, title, description, body, image = '/assets/
   const canonical = SITE + href(lang, slug);
   // the 404 page keeps the lobby's links (slug '') but its own title, and is never indexed
   if (notFound) noindex = true;
-  const fullTitle = slug || notFound ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — rate what lasts, remember who made it', '冷冻图书馆 — 给留得下来的东西打分，也记住做出它们的人');
+  const fullTitle = slug || notFound ? `${title} — ${T('Cold Library', '冷冻图书馆')}` : T('Cold Library — rate what lasts, remember who made it', '冷冻图书馆 Cold Library — Rate what lasts');
   return `<!doctype html>
 <html lang="${htmlLang(lang)}">
 <head>

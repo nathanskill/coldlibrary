@@ -16,12 +16,12 @@ const L = (lang, o) => (o == null ? '' : typeof o === 'string' ? o : o[lang] ?? 
 
 // What each chart is about, in one line.
 const DEK = {
-  literature: ['Poems, stories, novels and plays, from the Book of Songs to now.', '诗、小说、散文和戏剧，从《诗经》到今天。'],
-  faith: ['Scripture, devotion and the books people wrote about believing.', '经典、灵修，以及人们写下的关于信仰的书。'],
-  history: ['How people have told what happened, and what they left for later.', '人们怎样讲述发生过的事，又给后来的人留下了什么。'],
-  thought: ['How to live, how to think, how to pass things on.', '怎样活，怎样想，怎样把东西传下去。'],
-  aesthetics: ['Writing about beauty, art, poetry, gardens and taste.', '关于美、艺术、诗、园林和品味的文字。'],
-  music: ['Albums from every continent, rated from what is documented about them.', '来自各大洲的专辑，依据关于它们的文字记录评分。'],
+  literature: ['Poems, stories, novels and plays, from the Book of Songs to now.', '诗、小说、散文和戏剧。'],
+  faith: ['Scripture, devotion and the books people wrote about believing.', '经典和关于信仰的书。'],
+  history: ['How people have told what happened, and what they left for later.', '史书，从希罗多德到今天。'],
+  thought: ['How to live, how to think, how to pass things on.', '怎么活，怎么想。'],
+  aesthetics: ['Writing about beauty, art, poetry, gardens and taste.', '谈美、谈艺术、谈诗。'],
+  music: ['Albums from every continent, rated from what is documented about them.', '各大洲的专辑。'],
   science: ['First-hand accounts of finding out.', '第一手的发现。'],
   computing: ['From the Analytical Engine to the licences that keep code free.', '从分析机，到让代码保持自由的许可证。'],
 };
@@ -52,7 +52,7 @@ function chartsHub(ctx) {
       const head = ph({
         lang,
         h1: T('Charts', '榜单'),
-        lede: T('Everything the library keeps, ranked within its kind. The number is the librarian’s; the readers’ score sits beside it once five people have rated.', '馆里收的一切，各按其类排序。数字是馆员评分；有 5 人以上打分后，旁边会显示读者评分。'),
+        lede: T('Everything the library keeps, ranked within its kind. The number is the librarian’s; the readers’ score sits beside it once five people have rated.', '按类排名。数字是馆员评分，读者评分满 5 人后显示在旁边。'),
         facts: [T(`${num(lang, scored.length)} scored`, `已评分 ${num(lang, scored.length)}`), T(`${num(lang, cat.albums.length)} albums`, `专辑 ${num(lang, cat.albums.length)} 张`), T(`${num(lang, cat.books.length + ctx.open.works.length)} works and books`, `作品与书 ${num(lang, cat.books.length + ctx.open.works.length)} 部`)].join(sep),
         cls: 'rate-ph',
       });
@@ -125,7 +125,7 @@ function musicIndex(ctx) {
       const head = ph({
         lang,
         h1: T('The Record Room', '唱片室'),
-        lede: T('Albums the library rates, from every continent. We keep the facts and our reasons, never the recordings: no audio, no covers, no lyrics. The sleeves are drawn by the site.', '本馆评分的专辑，来自各大洲。我们只记事实和理由，不收录音：没有音频、封面和歌词。唱片封套是网站自己画的。'),
+        lede: T('Albums the library rates, from every continent. We keep the facts and our reasons, never the recordings: no audio, no covers, no lyrics. The sleeves are drawn by the site.', '各地的好专辑和评分。只收资料和评语，不放音频、封面和歌词，封套是网站自己画的。'),
         facts: all.length ? [T(`${all.length} albums`, `${all.length} 张专辑`), T(`${regions.size} countries and regions`, `${regions.size} 个国家和地区`), `${Math.min(...years)}–${Math.max(...years)}`].join(sep) : '',
         cls: 'rate-ph',
       });
@@ -213,7 +213,7 @@ function booksIndex(ctx) {
       const head = ph({
         lang,
         h1: T('The Catalogue', '书目'),
-        lede: T('Books the library rates without holding their full text. Old ones link to free copies; books still in copyright get a score and a short review, never the text.', '本馆评分、但不收全文的书。古老的会指向免费的全文；仍在版权期内的只有评分和短评，不放正文。'),
+        lede: T('Books the library rates without holding their full text. Old ones link to free copies; books still in copyright get a score and a short review, never the text.', '不收全文、只打分的书。公版书附免费阅读链接，有版权的只写短评。'),
         facts: [T(`${books.length} books`, `${books.length} 本书`), T(`plus ${ctx.open.works.length} works to read in full in the Open Stacks`, `另有 ${ctx.open.works.length} 部作品可在开架书库读全文`)].join(sep),
         cls: 'rate-ph',
       });
@@ -289,7 +289,7 @@ function memorialPage(ctx) {
       const head = ph({
         lang,
         h1: T('Memorial', '纪念'),
-        lede: T('A library also remembers. Hang a perpetual exhibit for a body of work or a perpetual plaque for a person, and light a lamp for the writers and musicians on our shelves.', '图书馆也负责记住。给一份作品挂一个永续展位，给一个人挂一块永续铭牌；也可以为书架上的作家和音乐人点一盏灯。'),
+        lede: T('A library also remembers. Hang a perpetual exhibit for a body of work or a perpetual plaque for a person, and light a lamp for the writers and musicians on our shelves.', '给作品留个展位，给人挂块铭牌，也可以为作家和音乐人点一盏灯。'),
         cls: 'rate-ph',
       });
       const card = (h, p, url, label) => `<article class="mcard"><h2 class="h-small">${h}</h2><p>${p}</p><p>${go(url, label)}</p></article>`;

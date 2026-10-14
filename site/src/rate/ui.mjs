@@ -11,7 +11,7 @@ export const LAMP = '<svg class="lamp-mark" viewBox="0 0 16 16" aria-hidden="tru
 export function scoreStrip(lang, e, { why = true } = {}) {
   const T = t(lang);
   if (e.scripture) {
-    return `<div class="score unscored"><p>${T('Scripture of a living faith: the library collects it and does not score it, and readers cannot rate it.', '这是仍被信众奉为经典的文本：本馆收录，但不评分，也不开放读者打分。')}</p></div>`;
+    return `<div class="score unscored"><p>${T('Scripture of a living faith: the library collects it and does not score it, and readers cannot rate it.', '宗教经典：只收录，不评分。')}</p></div>`;
   }
   if (typeof e.score !== 'number') return '';
   const id = esc(e.id);
@@ -95,6 +95,6 @@ export function lampBlock(lang, kind, person, { label = '' } = {}) {
 // The line that explains the two scores, once per page that lists them.
 export function scoreKey(lang) {
   const T = t(lang);
-  return `<p class="meta score-key">${T('The number is the librarian’s score, out of ten, from Claude, an AI. Readers’ scores appear beside it once five people have rated. Claude has not heard the albums: their scores come from what is documented about them.', '数字是馆员评分（满分 10），由 AI Claude 给出；有 5 人以上打分后，旁边会显示读者评分。Claude 听不到录音，专辑的分数依据的是关于它们的文字记录。')}</p>`;
+  return `<p class="meta score-key">${T('The number is the librarian’s score, out of ten, from Claude, an AI. Readers’ scores appear beside it once five people have rated. Claude has not heard the albums: their scores come from what is documented about them.', '馆员评分满分 10，由 AI 给出；读者评分满 5 人后显示。AI 听不到录音，专辑分数依据文字资料。')}</p>`;
 }
 export { STAR };

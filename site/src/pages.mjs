@@ -511,12 +511,13 @@ page({
     const T = t(lang);
     const cat = ctx.cat;
     const c = counts(ctx.open);
-    const h1 = lang === 'zh' ? '给留得下来的东西打分，<br>也记住做出它们的<span class="nw">人。</span>' : 'Rate what lasts. <br>Remember who <span class="nw">made it.</span>';
+    // The slogan stays in English on both sites; Chinese gets a plain line under it.
+    const h1 = '<span lang="en">Rate what lasts. <br>Remember who <span class="nw">made it.</span></span>';
     const facts = [T(`${num(lang, c.works)} works to read in full`, `${c.works} 部可读全文`), T(`${num(lang, cat.books.length)} books`, `${cat.books.length} 本书`), T(`${num(lang, cat.albums.length)} albums`, `${cat.albums.length} 张专辑`)];
     const hero = `<section class="sec hero" aria-labelledby="h-hero">
   <div class="wrap grid"><div class="c-main">
     <h1 id="h-hero">${h1}</h1>
-    <p class="lede">${T('Literature, faith, history, thought, beauty and music, each rated within its kind by the librarian and by readers.', '文学、信仰、历史、哲思、美和音乐，各按其类，由馆员和读者打分。')}</p>
+    <p class="lede">${T('Literature, faith, history, thought, beauty and music, each rated within its kind by the librarian and by readers.', '书、经典、历史、美学和唱片。馆员打分，你也可以打分。')}</p>
     <div class="home-search">${searchBox(lang, { big: true })}</div>
     ${metaLine(facts)}
     <div class="actions">${go(href(lang, 'charts'), T('The charts', '看榜单'))}${go(href(lang, 'open-stacks'), T('The Open Stacks', '开架书库'))}${go(href(lang, 'music'), T('The Record Room', '唱片室'))}</div>
@@ -531,7 +532,7 @@ page({
     const charts = sec({
       id: 'charts',
       h: glue(T('The charts', '榜单')),
-      intro: T('The top of each chart. The number is the librarian’s score, from Claude, an AI; readers’ scores appear once five people have rated.', '各榜前五。数字是馆员评分，由 AI Claude 给出；满 5 人打分后会显示读者评分。'),
+      intro: T('The top of each chart. The number is the librarian’s score, from Claude, an AI; readers’ scores appear once five people have rated.', '每类前五名。分数由 AI 馆员 Claude 给出，读者评分满 5 人后显示。'),
       body: `<div class="home-charts">${KEYS.map((k) => `<section class="chart-block" aria-labelledby="hc-${k}"><header class="chart-head"><h3 id="hc-${k}"><a href="${href(lang, 'charts/' + k)}">${esc(catName(lang, cat, k))}</a></h3></header>${chartList(lang, ranked(cat, k).slice(0, 5))}</section>`).join('')}</div>`,
       foot: go(href(lang, 'charts'), T('All charts', '全部榜单')),
     });
@@ -539,11 +540,11 @@ page({
     const card = (h, p, url, label) => `<article class="mcard"><h3 class="h-small">${h}</h3><p>${p}</p><p>${go(url, label)}</p></article>`;
     const memorial = sec({
       id: 'memorial',
-      h: glue(T('And a place to remember', '也留一个纪念的地方')),
+      h: glue(T('And a place to remember', '纪念')),
       body: `<div class="home-memorial">
-  ${card(T('Perpetual exhibits', '永续展位'), T('A standing room for a project or a life’s work.', '给一个项目或一生的作品一间常设展厅。'), href(lang, 'exhibits'), T('Exhibits', '展位'))}
-  ${card(T('Perpetual plaques', '永续铭牌'), T('A short record of a person, living or not, with an AI warden at the door.', '简短地记下一个人，在世与否都可以；门口有一位 AI 守馆人。'), href(lang, 'plaques'), T('Plaques', '铭牌'))}
-  ${card(T('Lamps', '点灯'), T('Light a lamp for a writer or a musician on our shelves. One a day, counted, never named.', '为书架上的作家和音乐人点一盏灯。每天一盏，只计数，不留名。'), href(lang, 'memorial'), T('The memorial hall', '纪念'))}
+  ${card(T('Perpetual exhibits', '永续展位'), T('A standing room for a project or a life’s work.', '给一个项目或一生的作品留个位置。'), href(lang, 'exhibits'), T('Exhibits', '展位'))}
+  ${card(T('Perpetual plaques', '永续铭牌'), T('A short record of a person, living or not, with an AI warden at the door.', '记下一个人，在世与否都可以。'), href(lang, 'plaques'), T('Plaques', '铭牌'))}
+  ${card(T('Lamps', '点灯'), T('Light a lamp for a writer or a musician on our shelves. One a day, counted, never named.', '给喜欢的作家和音乐人点一盏灯，每天一盏，不留名。'), href(lang, 'memorial'), T('The memorial hall', '纪念'))}
 </div>`,
     });
 
