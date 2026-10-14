@@ -1,0 +1,51 @@
+{
+  "id": "B-003012",
+  "slug": "liu-xie-wenxin-diaolong",
+  "category": "aesthetics",
+  "title": {
+    "orig": "文心雕龍",
+    "en": "The Literary Mind and the Carving of Dragons",
+    "zh": "文心雕龙"
+  },
+  "author": {
+    "orig": "劉勰",
+    "en": "Liu Xie",
+    "zh": "刘勰",
+    "dates": "c. 465 – c. 522",
+    "dates_zh": "约 465 – 约 522"
+  },
+  "year": 501,
+  "year_display": {
+    "en": "c. 501–502",
+    "zh": "约 501—502 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China (Southern Qi)",
+    "zh": "中国（南齐）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (zh)",
+      "url": "https://zh.wikisource.org/wiki/文心雕龍",
+      "note": {
+        "en": "classical Chinese text in fifty chapters",
+        "zh": "文言原文，五十篇"
+      }
+    }
+  ],
+  "stacks": [
+    "S-008203"
+  ],
+  "wikidata": "Q1153676",
+  "score": {
+    "value": 9.4
+  },
+  "review": {
+    "en": "Fifty chapters in parallel prose that cover the origins of writing, every genre then known, and the workings of the creative mind, from inspiration and style to sound and revision. Nothing in Chinese criticism before it is so complete or so carefully built. It is itself beautifully written, and it remains the summit of classical Chinese literary theory.",
+    "zh": "五十篇骈文，论文章的本原、当时已知的各种文体，以及创作之心的运行，从神思、体性到声律、修改。此前的中国文论没有一部如此完整、结构如此严密。它本身就写得很美，至今仍是中国古典文论的高峰。"
+  },
+  "checked": "2026-10-15"
+}

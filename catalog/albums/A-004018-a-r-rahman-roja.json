@@ -1,0 +1,45 @@
+{
+  "id": "A-004018",
+  "slug": "a-r-rahman-roja",
+  "title": {
+    "orig": "Roja",
+    "en": "Roja",
+    "zh": "罗嘉"
+  },
+  "artist": {
+    "orig": "A. R. Rahman",
+    "en": "A. R. Rahman",
+    "zh": "A·R·拉赫曼",
+    "mbid": "e0bba708-bdd3-478d-84ea-c706413bedab"
+  },
+  "year": 1992,
+  "released": "1992-07-27",
+  "region": "IN",
+  "lang": "ta",
+  "genres": [
+    "soundtrack",
+    "pop"
+  ],
+  "style": {
+    "en": "Tamil film music",
+    "zh": "泰米尔电影音乐"
+  },
+  "label": "Lahari Music",
+  "tracks": 12,
+  "length": "54:21",
+  "mbid": "290038dd-f332-3687-b033-d5e887f44f65",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/290038dd-f332-3687-b033-d5e887f44f65",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Roja_(soundtrack)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Chinna Chinna Aasai",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "A. R. Rahman's first film score, for Mani Ratnam's Roja, won India's National Film Award for best music direction. Rahman brought studio-built electronic textures, digital clarity and new rhythmic ideas into Tamil film song while keeping its melodic core. The songs travelled widely in dubbed versions, and the score marks the start of a career that changed how Indian film music sounds.",
+    "zh": "A·R·拉赫曼的第一部电影配乐，为曼尼·拉特南的《罗嘉》而作，获得印度国家电影奖最佳音乐指导。他把录音室里搭建的电子音色、数字录音的清晰感和新的节奏想法带进泰米尔电影歌曲，又保住了旋律的核心。这些歌随配音版本传遍各地，也开启了一段改变印度电影音乐面貌的生涯。"
+  },
+  "checked": "2026-10-15"
+}

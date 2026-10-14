@@ -1,0 +1,57 @@
+{
+  "id": "B-004018",
+  "slug": "tolstoy-anna-karenina",
+  "category": "literature",
+  "title": {
+    "orig": "Анна Каренина",
+    "en": "Anna Karenina",
+    "zh": "安娜·卡列尼娜"
+  },
+  "author": {
+    "orig": "Лев Толстой",
+    "en": "Leo Tolstoy",
+    "zh": "列夫·托尔斯泰",
+    "dates": "1828–1910",
+    "dates_zh": "1828–1910"
+  },
+  "year": 1878,
+  "year_display": {
+    "en": "1878",
+    "zh": "1878 年"
+  },
+  "lang": "ru",
+  "origin": {
+    "en": "Russia",
+    "zh": "俄国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/leo-tolstoy/anna-karenina/constance-garnett",
+      "note": {
+        "en": "Constance Garnett’s translation (1901)",
+        "zh": "康斯坦斯·加内特英译（1901）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1399",
+      "note": {
+        "en": "Constance Garnett’s translation (1901)",
+        "zh": "康斯坦斯·加内特英译（1901）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q147787",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "Two stories run side by side: a woman who leaves her marriage for love and is shut out by society, and a landowner who searches for a reason to live. Tolstoy renders bodies, rooms, horses and moods with a clarity that hides its own art, and he judges less than his reputation suggests. Few novels hold so much ordinary life.",
+    "zh": "两条线并行：一个女人为爱离开婚姻，被上流社会拒之门外；一个地主苦苦寻找活下去的理由。托尔斯泰写身体、房间、马匹和心绪，清晰得让人看不见技巧，评判也比他的名声所暗示的要少。很少有小说装得下这么多寻常生活。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "B-002017",
+  "slug": "bede-ecclesiastical-history",
+  "category": "history",
+  "title": {
+    "orig": "Historia ecclesiastica gentis Anglorum",
+    "en": "Ecclesiastical History of the English People",
+    "zh": "英吉利教会史"
+  },
+  "author": {
+    "orig": "Beda Venerabilis",
+    "en": "Bede",
+    "zh": "比德",
+    "dates": "c. 673 – 735",
+    "dates_zh": "约 673 – 735"
+  },
+  "year": 731,
+  "year_display": {
+    "en": "c. 731",
+    "zh": "约 731 年"
+  },
+  "lang": "la",
+  "origin": {
+    "en": "England (Northumbria)",
+    "zh": "英格兰（诺森布里亚）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/Ecclesiastical_History_of_the_English_Nation_(Jane)",
+      "note": {
+        "en": "John Stevens's translation, edited by L. C. Jane (1910)",
+        "zh": "史蒂文斯英译，简恩编订本（1910）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q661541",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "A Northumbrian monk tells in five books how Christianity came to the English, from Caesar's landing to his own day. Bede names his informants, quotes letters and sorts reports by reliability, and he also records miracles as fact. His use of years from the birth of Christ did much to spread that way of counting in Western Europe. It is the foundation of early English history.",
+    "zh": "一位诺森布里亚修士用五卷书讲基督教如何来到英格兰人中间，从恺撒登陆写到自己的时代。比德交代消息来源，引录书信，按可靠程度区分传闻，同时也把神迹当作事实记下。他按基督诞生纪年，大大推动了这种纪年在西欧的流行。英格兰早期史由此奠基。"
+  },
+  "checked": "2026-10-15"
+}

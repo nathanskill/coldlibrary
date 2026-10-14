@@ -74,5 +74,12 @@
     "S-007017",
     "S-007022",
     "S-007205"
-  ]
+  ],
+  "score": {
+    "value": 7.3,
+    "note": {
+      "en": "A one-page statement issued after the Morris worm, sensible about the network as a shared resource; of real historical interest, though its ethics stay general.",
+      "zh": "莫里斯蠕虫事件后发表的一页声明，把网络视为共享资源，见识通达；有真实的历史意义，只是主张较笼统。"
+    }
+  }
 }

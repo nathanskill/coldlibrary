@@ -1,0 +1,44 @@
+{
+  "id": "A-004004",
+  "slug": "mariya-takeuchi-variety",
+  "title": {
+    "orig": "Variety",
+    "en": "Variety",
+    "zh": "Variety"
+  },
+  "artist": {
+    "orig": "竹内まりや",
+    "en": "Mariya Takeuchi",
+    "zh": "竹内玛莉亚",
+    "mbid": "02bdc7ec-d102-4698-85e2-789a42d40b9c"
+  },
+  "year": 1984,
+  "released": "1984-04-25",
+  "region": "JP",
+  "lang": "ja",
+  "genres": [
+    "pop"
+  ],
+  "style": {
+    "en": "city pop",
+    "zh": "城市流行"
+  },
+  "label": "MOON RECORDS",
+  "tracks": 11,
+  "length": "41:56",
+  "mbid": "956911dd-1831-457d-a57d-f5feb507baad",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/956911dd-1831-457d-a57d-f5feb507baad",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Variety_(Mariya_Takeuchi_album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Plastic Love",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Mariya Takeuchi's return after a break from recording, written entirely by herself and produced and arranged by Tatsuro Yamashita. The songs range from sixties-style pop to polished adult soul, all cleanly crafted. Plastic Love, a modest single in its day, became an online phenomenon more than thirty years later and led a new generation back to Japanese city pop.",
+    "zh": "竹内玛莉亚暂停录音一段时间后的回归之作，全部歌曲由她自己写，山下达郎制作和编曲。曲风从六十年代式的流行到精致的成人灵魂乐，做工干净。《Plastic Love》当年只是一首不算大热的单曲，三十多年后在网络上走红，把新一代听众带回了日本城市流行。"
+  },
+  "checked": "2026-10-15"
+}

@@ -63,5 +63,12 @@
     "S-007019",
     "S-007016",
     "S-007013"
-  ]
+  ],
+  "score": {
+    "value": 7.7,
+    "note": {
+      "en": "The best known April Fools’ RFC, funny because every clause is written like a real standard; a well-made small joke that later gained real implementations and sequels.",
+      "zh": "最有名的愚人节 RFC，好笑在每一条都写得像真标准；做得很好的小玩笑，后来真有人实现，也有了续篇。"
+    }
+  }
 }

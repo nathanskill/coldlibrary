@@ -73,5 +73,12 @@
   "plate": "G-009044",
   "pairs": [
     "S-004102"
-  ]
+  ],
+  "score": {
+    "value": 8.4,
+    "note": {
+      "en": "A winter that lasts until the children creep back in and the wall comes down, told in Wilde’s cleanest prose; a fine fairy tale, though the closing allegory arrives abruptly.",
+      "zh": "孩子们钻回园子、高墙推倒，冬天才结束；王尔德最干净的文字，出色的童话，只是结尾的宗教寓意来得突然。"
+    }
+  }
 }

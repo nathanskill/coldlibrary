@@ -128,5 +128,12 @@
   "pairs": [
     "S-001007",
     "S-003027"
-  ]
+  ],
+  "score": {
+    "value": 9.2,
+    "note": {
+      "en": "Three near-identical stanzas and a figure always across the water make perhaps the purest lyric in the Book of Songs, and its longing has never dated.",
+      "zh": "三章只换数字，伊人始终隔水；这或许是《诗经》里最纯粹的抒情诗，那份追寻至今不旧。"
+    }
+  }
 }

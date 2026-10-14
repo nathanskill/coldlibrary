@@ -1,0 +1,47 @@
+{
+  "id": "B-005001",
+  "slug": "classic-of-poetry",
+  "category": "literature",
+  "title": {
+    "orig": "詩經",
+    "en": "Classic of Poetry",
+    "zh": "诗经"
+  },
+  "author": null,
+  "year": -600,
+  "year_display": {
+    "en": "c. 11th–6th century BCE",
+    "zh": "约公元前 11 至前 6 世纪"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/詩經",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "stacks": [
+    "S-001002",
+    "S-001003",
+    "S-001004"
+  ],
+  "wikidata": "Q465108",
+  "score": {
+    "value": 9.5
+  },
+  "review": {
+    "en": "The oldest gathering of Chinese poems: 305 songs from village, court and temple, spanning some five centuries of the Zhou. Its plain refrains about reeds, rain, soldiers and lovers taught every later Chinese poet how an image can carry a feeling without naming it. Read a few of the folk songs aloud; the repetition is the music.",
+    "zh": "中国最早的诗歌总集，三百零五篇，来自乡野、朝堂与宗庙，跨越周代约五百年。芦苇、雨雪、征人、恋人，用反复的叠句写出来，物象里自有情意。后来的中国诗人都从这里学会“兴”。挑几首国风读出声来，重章叠句就是它的音乐。"
+  },
+  "checked": "2026-10-15"
+}

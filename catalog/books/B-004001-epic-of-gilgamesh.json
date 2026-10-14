@@ -1,0 +1,51 @@
+{
+  "id": "B-004001",
+  "slug": "epic-of-gilgamesh",
+  "category": "literature",
+  "title": {
+    "orig": "Gilgameš",
+    "en": "Epic of Gilgamesh",
+    "zh": "吉尔伽美什史诗"
+  },
+  "author": null,
+  "year": -1200,
+  "year_display": {
+    "en": "c. 1200 BCE",
+    "zh": "约公元前 1200 年"
+  },
+  "lang": "akk",
+  "origin": {
+    "en": "Mesopotamia",
+    "zh": "美索不达米亚"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/Epic_of_Gilgamesh",
+      "note": {
+        "en": "Early translations by George Smith, Morris Jastrow and others (1872–1920)",
+        "zh": "乔治·史密斯、莫里斯·贾斯特罗等人的早期英译（1872–1920）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/11000",
+      "note": {
+        "en": "Old Babylonian tablets, tr. Morris Jastrow and Albert T. Clay (1920)",
+        "zh": "古巴比伦泥板，贾斯特罗与克莱英译（1920）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q8272",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "A king who has everything loses his one friend and sets out to defeat death, and fails. The oldest great story we have still reads as a plain account of grief: the walls of Uruk are the only immortality on offer. The clay tablets are broken and the text has gaps, which makes the surviving lines feel more urgent, not less.",
+    "zh": "一位什么都不缺的国王失去了唯一的朋友，于是出发去战胜死亡，却没有成功。这部现存最古老的伟大故事，读来仍像一份朴素的哀悼记录：能留下来的不朽，只有乌鲁克的城墙。泥板残缺，文字时有中断，反倒让幸存的诗行更显迫切。"
+  },
+  "checked": "2026-10-15"
+}

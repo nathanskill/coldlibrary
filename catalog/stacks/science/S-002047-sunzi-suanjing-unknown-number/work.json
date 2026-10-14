@@ -254,5 +254,12 @@
     "S-007006",
     "S-002045",
     "S-007004"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "A modest manual holding the earliest known remainder problem and the pheasants and rabbits; its procedures read like programs, and the first is still used in computing.",
+      "zh": "一部朴素的算书，收有已知最早的同余问题和雉兔同笼；算法读来像程序，前者至今仍用于计算机。"
+    }
+  }
 }

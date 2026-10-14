@@ -242,5 +242,12 @@
     "S-002047",
     "S-002045",
     "S-002046"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "A complete algorithm for the greatest common divisor, set down some two thousand years ago as a plain procedure; dry reading, but among the oldest written algorithms we have.",
+      "zh": "两千年前以朴素步骤写下的完整最大公约数算法；读来枯燥，却是现存最古老的成文算法之一。"
+    }
+  }
 }

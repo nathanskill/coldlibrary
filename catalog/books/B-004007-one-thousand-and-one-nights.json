@@ -1,0 +1,51 @@
+{
+  "id": "B-004007",
+  "slug": "one-thousand-and-one-nights",
+  "category": "literature",
+  "title": {
+    "orig": "ألف ليلة وليلة",
+    "en": "One Thousand and One Nights",
+    "zh": "一千零一夜"
+  },
+  "author": null,
+  "year": 1400,
+  "year_display": {
+    "en": "9th–15th c.",
+    "zh": "9–15 世纪"
+  },
+  "lang": "ar",
+  "origin": {
+    "en": "The Arabic-speaking Middle East",
+    "zh": "阿拉伯语中东地区"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/34206",
+      "note": {
+        "en": "Edward William Lane’s translation (1838–1841), volume 1 of 3",
+        "zh": "爱德华·威廉·莱恩英译（1838–1841），三卷之一"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/3435",
+      "note": {
+        "en": "Richard F. Burton’s translation (1885), volume 1 of 10",
+        "zh": "理查德·伯顿英译（1885），十卷之一"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q8258",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "A frame tale in which a woman keeps herself alive by never finishing a story, and inside it tales of merchants, jinn, thieves and caliphs that open into further tales. The collection grew over centuries and its contents vary from manuscript to translation. Uneven as it is, its idea of storytelling as a way of postponing death has never worn out.",
+    "zh": "一个框架故事：女子靠永远讲不完故事来保住性命；故事里又有商人、精灵、盗贼和哈里发，一层套一层。这部集子历经数百年才成形，各个抄本与译本收录的内容也不尽相同。它参差不齐，但“以讲述延缓死亡”这个想法从未过时。"
+  },
+  "checked": "2026-10-15"
+}

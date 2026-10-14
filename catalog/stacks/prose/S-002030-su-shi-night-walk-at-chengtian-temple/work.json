@@ -158,5 +158,12 @@
   "pairs": [
     "S-002023",
     "S-002031"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "Under a hundred characters, a courtyard turned to water by moonlight before the shadows are named; the purest example of how much the short Chinese prose note can hold.",
+      "zh": "不足百字，月光先把庭院化成积水，再说出竹柏之名；最能说明一篇小品文能装下多少东西。"
+    }
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "A-004028",
+  "slug": "king-sunny-ade-juju-music",
+  "title": {
+    "orig": "Juju Music",
+    "en": "Juju Music",
+    "zh": "朱朱音乐"
+  },
+  "artist": {
+    "orig": "King Sunny Adé and His African Beats",
+    "en": "King Sunny Adé and His African Beats",
+    "zh": "桑尼·阿代国王与非洲节拍乐队",
+    "mbid": "e6703368-59e7-4f58-ad6b-34d0d3ba1387"
+  },
+  "year": 1982,
+  "released": "1982",
+  "region": "NG",
+  "lang": "yo",
+  "genres": [
+    "world",
+    "dance"
+  ],
+  "style": {
+    "en": "jùjú",
+    "zh": "朱朱"
+  },
+  "label": "Mango",
+  "tracks": 7,
+  "length": "43:42",
+  "mbid": "f0357e17-33b3-34d9-b926-d1c69366b471",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/f0357e17-33b3-34d9-b926-d1c69366b471",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Juju_Music",
+    "wikipedia_zh": null
+  },
+  "start_with": "Ja Funmi",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "King Sunny Adé's first album for Island Records, made for listeners outside Nigeria and produced by Martin Meissonnier. Yoruba singing, talking drums, layered guitars and pedal steel run in long, unhurried grooves. Its success abroad opened doors for many African musicians in the European and American markets of the 1980s. It is a well-made introduction to jùjú, though shaped for export.",
+    "zh": "桑尼·阿代国王在小岛唱片的第一张专辑，面向尼日利亚以外的听众，由马丁·梅索尼耶制作。约鲁巴语的歌唱、会说话的鼓、层叠的吉他和踏板钢棒吉他，在悠长从容的律动里铺开。它在海外的成功，为八十年代许多非洲音乐人打开了欧美市场的门。这是一张做工扎实的朱朱入门，虽然是为出口而塑造的。"
+  },
+  "checked": "2026-10-15"
+}

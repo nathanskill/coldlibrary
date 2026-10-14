@@ -1,0 +1,49 @@
+{
+  "id": "B-002010",
+  "slug": "zhan-guo-ce",
+  "category": "history",
+  "title": {
+    "orig": "戰國策",
+    "en": "Strategies of the Warring States",
+    "zh": "战国策"
+  },
+  "author": {
+    "orig": "劉向（編）",
+    "en": "Liu Xiang (compiler)",
+    "zh": "刘向（编订）",
+    "dates": "77 – 6 BCE",
+    "dates_zh": "前 77 – 前 6"
+  },
+  "year": -20,
+  "year_display": {
+    "en": "compiled late 1st century BCE",
+    "zh": "公元前 1 世纪后期编订"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/戰國策",
+      "note": {
+        "en": "the classical Chinese text, several editions",
+        "zh": "文言原文，多种版本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q197396",
+  "score": {
+    "value": 8.3
+  },
+  "review": {
+    "en": "Liu Xiang sorted six damaged manuscripts of persuaders' speeches and stratagems into thirty-three books arranged by state. What survives is less a chronicle than a book of argument: advisers selling alliances, fables invented on the spot, the logic of interest laid bare. As a record of events it is often unreliable; as a portrait of how the age reasoned it is unmatched, and its prose has been imitated ever since.",
+    "zh": "刘向把六种残乱的纵横家写本整理成三十三卷，按国分编。它与其说是编年记事，不如说是一部论辩之书：谋士兜售合纵连横，寓言随口编来，利害之理赤裸可见。作为史实常不可靠，作为那个时代如何思考的写照却无可替代，文章也被后世反复模仿。"
+  },
+  "checked": "2026-10-15"
+}

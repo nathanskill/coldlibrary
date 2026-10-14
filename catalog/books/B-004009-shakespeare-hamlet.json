@@ -1,0 +1,57 @@
+{
+  "id": "B-004009",
+  "slug": "shakespeare-hamlet",
+  "category": "literature",
+  "title": {
+    "orig": "The Tragedy of Hamlet, Prince of Denmark",
+    "en": "Hamlet",
+    "zh": "哈姆雷特"
+  },
+  "author": {
+    "orig": "William Shakespeare",
+    "en": "William Shakespeare",
+    "zh": "威廉·莎士比亚",
+    "dates": "1564–1616",
+    "dates_zh": "1564–1616"
+  },
+  "year": 1601,
+  "year_display": {
+    "en": "c. 1600",
+    "zh": "约 1600 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "England",
+    "zh": "英格兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/william-shakespeare/hamlet",
+      "note": {
+        "en": "Modernised text of the play",
+        "zh": "现代拼写本"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1524",
+      "note": {
+        "en": "Plain text of the play",
+        "zh": "剧本文本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q41567",
+  "score": {
+    "value": 9.5
+  },
+  "review": {
+    "en": "A revenge play in which the avenger cannot stop thinking, and the thinking becomes the drama. Shakespeare gives a prince a mind restless enough to doubt a ghost, a mother, himself and the point of acting at all, and lets the play be very funny on its way to its pile of bodies. Four centuries of actors have found something new in it.",
+    "zh": "一出复仇剧，复仇者却停不下思考，思考本身成了戏。莎士比亚给了王子一颗躁动的心灵，怀疑鬼魂、母亲、自己，乃至行动本身的意义；而在走向满台尸体的路上，这出戏还相当好笑。四百年来，每一代演员都在其中找到新的东西。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "B-002019",
+  "slug": "kalhana-rajatarangini",
+  "category": "history",
+  "title": {
+    "orig": "राजतरङ्गिणी",
+    "en": "Rajatarangini (The River of Kings)",
+    "zh": "王河"
+  },
+  "author": {
+    "orig": "कल्हण",
+    "en": "Kalhana",
+    "zh": "迦尔诃纳",
+    "dates": "12th century",
+    "dates_zh": "12 世纪"
+  },
+  "year": 1148,
+  "year_display": {
+    "en": "1148–1149",
+    "zh": "1148–1149 年"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "Kashmir",
+    "zh": "克什米尔"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Internet Archive",
+      "url": "https://archive.org/details/dli.pahar.1527",
+      "note": {
+        "en": "M. A. Stein's translation (1900), volume 1",
+        "zh": "斯坦因英译本（1900），第一卷"
+      }
+    },
+    {
+      "name": "Internet Archive",
+      "url": "https://archive.org/details/dli.pahar.1528",
+      "note": {
+        "en": "M. A. Stein's translation (1900), volume 2",
+        "zh": "斯坦因英译本（1900），第二卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1761336",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "A Sanskrit verse chronicle of the kings of Kashmir in eight books, written in 1148 and 1149. Kalhana asks that a poet relate the past like a judge, free of love or hatred, and says he consulted eleven earlier chronicles. The early books are legend with impossible reigns; the last ones, close to his own time, are detailed, bitter and precise. It is rare in early Indian writing for its sense of chronology.",
+    "zh": "这是一部梵文诗体的克什米尔王统纪，分八卷，写于 1148 至 1149 年。迦尔诃纳主张诗人叙述往事要像法官一样不存爱憎，并说自己参阅过前人十一部史书。前几卷是在位年数不可思议的传说，最后几卷接近他的时代，详尽、尖锐而精确。在早期印度著作中，这样的年代意识十分罕见。"
+  },
+  "checked": "2026-10-15"
+}

@@ -79,5 +79,12 @@
   "pairs": [
     "S-004107",
     "S-004025"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "Andersen’s richest tale: a frozen heart, a girl who will not stop walking, and rescue by tears rather than spells; the 1872 English is dated, the invention is not.",
+      "zh": "安徒生最丰富的童话：冰封的心、不停走路的女孩，救人的是泪水而非咒语；英译已旧，构思不旧。"
+    }
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "id": "B-003015",
+  "slug": "yan-yu-canglang-shihua",
+  "category": "aesthetics",
+  "title": {
+    "orig": "滄浪詩話",
+    "en": "Canglang's Remarks on Poetry",
+    "zh": "沧浪诗话"
+  },
+  "author": {
+    "orig": "嚴羽",
+    "en": "Yan Yu",
+    "zh": "严羽",
+    "dates": "13th century",
+    "dates_zh": "十三世纪"
+  },
+  "year": 1230,
+  "year_display": {
+    "en": "13th century (Southern Song)",
+    "zh": "南宋（十三世纪）"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China (Southern Song)",
+    "zh": "中国（南宋）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (zh)",
+      "url": "https://zh.wikisource.org/wiki/滄浪詩話",
+      "note": {
+        "en": "classical Chinese text in five sections",
+        "zh": "文言原文，五卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q11564548",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "Yan Yu compares poetry to Chan Buddhism: it depends on wondrous awakening, not on learning or argument, and the High Tang poets reached it like antelopes hanging by their horns, leaving no trace. The analogy is loose and the book partisan, but it gave Chinese criticism a lasting vocabulary for the ineffable in verse.",
+    "zh": "严羽以禅喻诗：诗道在于妙悟，不在学问与议论，盛唐诗人如羚羊挂角，无迹可求。这个比喻并不严密，全书也有门户之见，但它为中国诗论留下了一套谈论诗中不可言说之处的长久语汇。"
+  },
+  "checked": "2026-10-15"
+}

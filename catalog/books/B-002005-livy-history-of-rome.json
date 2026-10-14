@@ -1,0 +1,73 @@
+{
+  "id": "B-002005",
+  "slug": "livy-history-of-rome",
+  "category": "history",
+  "title": {
+    "orig": "Ab Urbe Condita",
+    "en": "History of Rome",
+    "zh": "罗马史（建城以来史）"
+  },
+  "author": {
+    "orig": "Titus Livius",
+    "en": "Livy",
+    "zh": "李维",
+    "dates": "59 BCE – 17 CE",
+    "dates_zh": "前 59 – 公元 17"
+  },
+  "year": -27,
+  "year_display": {
+    "en": "c. 27–9 BCE",
+    "zh": "约公元前 27–前 9 年"
+  },
+  "lang": "la",
+  "origin": {
+    "en": "Rome",
+    "zh": "罗马"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/19725",
+      "note": {
+        "en": "Bohn translation by D. Spillan, books 1–8 (1853 printing)",
+        "zh": "博恩古典丛书英译，斯皮兰译第 1–8 卷（1853 年印本）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/10907",
+      "note": {
+        "en": "Bohn translation by Spillan and Cyrus Edmonds, books 9–26",
+        "zh": "博恩丛书英译，第 9–26 卷"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/12582",
+      "note": {
+        "en": "Bohn translation by Cyrus Edmonds, books 27–36 (1850)",
+        "zh": "博恩丛书英译，第 27–36 卷（1850）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/44318",
+      "note": {
+        "en": "Bohn translation by W. A. McDevitte, books 37 to the end (1850)",
+        "zh": "博恩丛书英译，第 37 卷至末（1850）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1155892",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "Livy told Rome's story from its founding legends to his own day in 142 books, of which 35 survive. He is less a critic of sources than a moralist and a storyteller: Lucretia, Horatius at the bridge, Hannibal crossing the Alps. Those scenes shaped how Europe imagined Rome for centuries. Read him for the drama and for what Romans believed about themselves, with Polybius at hand for the hard facts.",
+    "zh": "李维以一百四十二卷写罗马，从建城传说直到他自己的时代，今存三十五卷。他与其说是考订史料的批评家，不如说是道德家和讲故事的人：卢克蕾提娅、桥头的贺拉提乌斯、汉尼拔翻越阿尔卑斯。欧洲几百年里想象罗马，靠的正是这些场面。读他看戏剧，也看罗马人如何看自己。"
+  },
+  "checked": "2026-10-15"
+}

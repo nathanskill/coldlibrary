@@ -1,0 +1,39 @@
+{
+  "id": "B-001026",
+  "slug": "buber-i-and-thou",
+  "category": "faith",
+  "title": {
+    "orig": "Ich und Du",
+    "en": "I and Thou",
+    "zh": "我与你"
+  },
+  "author": {
+    "orig": "Martin Buber",
+    "en": "Martin Buber",
+    "zh": "马丁·布伯",
+    "dates": "1878–1965",
+    "dates_zh": "1878–1965"
+  },
+  "year": 1923,
+  "year_display": {
+    "en": "1923",
+    "zh": "1923 年"
+  },
+  "lang": "de",
+  "origin": {
+    "en": "Germany",
+    "zh": "德国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "stacks": [],
+  "wikidata": "Q1244092",
+  "score": {
+    "value": 8.3
+  },
+  "review": {
+    "en": "A short book in numbered aphoristic sections distinguishing two ways of standing toward the world: I–It, which uses and knows things, and I–Thou, the whole-hearted meeting with another, in which God is the eternal Thou. Its prose is compressed and sometimes oracular, but its central distinction passed into theology, education and therapy. In copyright: information only here.",
+    "zh": "一本以分节格言写成的小书，区分人对待世界的两种态度：“我—它”，即利用和认知事物；“我—你”，即全心全意与他者相遇，而上帝是永恒的“你”。文字凝练，有时近乎神谕，但这一核心区分深入影响了神学、教育和心理治疗。尚在版权期内，这里只收信息。"
+  },
+  "checked": "2026-10-15"
+}

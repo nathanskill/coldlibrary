@@ -1,0 +1,38 @@
+{
+  "id": "B-005023",
+  "slug": "the-chess-master",
+  "category": "literature",
+  "title": {
+    "orig": "棋王",
+    "en": "The Chess Master",
+    "zh": "棋王"
+  },
+  "author": {
+    "orig": "阿城",
+    "en": "Ah Cheng",
+    "zh": "阿城",
+    "dates": "b. 1949",
+    "dates_zh": "1949 年生"
+  },
+  "year": 1984,
+  "year_display": {
+    "en": "1984",
+    "zh": "1984 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q2606320",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "A sent-down youth in the countryside cares about two things, eating and Chinese chess. Ah Cheng's novella is spare, almost classical in its rhythm, and finds in a single game a whole tradition of calm and concentration. It was a founding work of the 1980s root-seeking movement and reads in an hour.",
+    "zh": "下乡知青王一生只在乎两件事：吃饭和下象棋。阿城的中篇写得极简省，节奏近于古文，在一局棋里写出一种从容专注的传统。它是八十年代“寻根文学”的开篇之作，一个小时就能读完，读完却久久难忘。"
+  },
+  "checked": "2026-10-15"
+}

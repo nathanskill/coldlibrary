@@ -61,5 +61,12 @@
     "S-007021",
     "S-007023",
     "S-007010"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "Four freedoms, numbered from zero, that became the working test of free software; precise, carefully maintained, and honest about its own revisions.",
+      "zh": "从零编号的四项自由，成了判定自由软件的实际标准；表述精确，维护认真，对历次修订也交代清楚。"
+    }
+  }
 }

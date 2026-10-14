@@ -1,0 +1,49 @@
+{
+  "id": "B-004021",
+  "slug": "mansfield-the-garden-party",
+  "category": "literature",
+  "title": {
+    "orig": "The Garden Party and Other Stories",
+    "en": "The Garden Party and Other Stories",
+    "zh": "园会"
+  },
+  "author": {
+    "orig": "Katherine Mansfield",
+    "en": "Katherine Mansfield",
+    "zh": "凯瑟琳·曼斯菲尔德",
+    "dates": "1888–1923",
+    "dates_zh": "1888–1923"
+  },
+  "year": 1922,
+  "year_display": {
+    "en": "1922",
+    "zh": "1922 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "Written in Europe by a New Zealand author",
+    "zh": "新西兰作家写于欧洲"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1429",
+      "note": {
+        "en": "The 1922 collection",
+        "zh": "1922 年小说集原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q7735828",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Fifteen stories, several set in the New Zealand of the author’s childhood: a family by the sea, a party next to a death, two elderly sisters freed and lost. Mansfield catches a mood in a few lines and leaves the important thing unsaid. She was dying of tuberculosis when the book appeared, and its lightness has an edge because of it.",
+    "zh": "十五篇小说，好几篇写作者童年时的新西兰：海边的一家人，紧挨着一桩死亡的一场聚会，一对年迈姐妹的解脱与失落。曼斯菲尔德寥寥几笔便抓住一种心绪，又把最要紧的话留着不说。书出版时她已身患肺结核，那份轻盈因此带着锋刃。"
+  },
+  "checked": "2026-10-15"
+}

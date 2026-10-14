@@ -1,0 +1,49 @@
+{
+  "id": "B-001025",
+  "slug": "blue-cliff-record",
+  "category": "faith",
+  "title": {
+    "orig": "碧巖錄",
+    "en": "The Blue Cliff Record",
+    "zh": "碧岩录"
+  },
+  "author": {
+    "orig": "圜悟克勤",
+    "en": "Yuanwu Keqin",
+    "zh": "圜悟克勤",
+    "dates": "1063–1135",
+    "dates_zh": "1063–1135"
+  },
+  "year": 1125,
+  "year_display": {
+    "en": "c. 1125",
+    "zh": "约 1125 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/佛果圜悟禪師碧巖錄",
+      "note": {
+        "en": "the Chinese text",
+        "zh": "中文原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q879228",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "One hundred Chan cases chosen with verses by Xuedou Chongxian, to which Yuanwu Keqin added introductions and running commentary in his lectures. Dense, playful and allusive, it became a core text of koan practice. Yuanwu's student Dahui is said to have burned the blocks for fear it would be studied instead of lived; it was later reprinted and still is in Rinzai Zen.",
+    "zh": "雪窦重显选出一百则公案并作颂，圜悟克勤在讲说中为之加上垂示、着语和评唱，便成此书。文字繁密、机锋活泼、典故丛生，成为参公案的核心典籍。相传圜悟的弟子大慧宗杲怕学人只钻文字，曾焚毁书版；后来重新刊行，日本临济宗至今使用。"
+  },
+  "checked": "2026-10-15"
+}

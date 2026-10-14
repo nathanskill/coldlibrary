@@ -62,5 +62,12 @@
     "S-007014",
     "S-007015",
     "S-007025"
-  ]
+  ],
+  "score": {
+    "value": 6.9,
+    "note": {
+      "en": "A light parody of the Christmas poem by one of TCP/IP’s designers, affectionate and true to every debugging night; charming in the series, slight as verse.",
+      "zh": "TCP/IP 设计者之一戏仿圣诞名诗，亲切地写出每个调试之夜；放在 RFC 系列里很可爱，作为诗分量很轻。"
+    }
+  }
 }

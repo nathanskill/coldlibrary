@@ -1,0 +1,45 @@
+{
+  "id": "A-004025",
+  "slug": "miriam-makeba-miriam-makeba",
+  "title": {
+    "orig": "Miriam Makeba",
+    "en": "Miriam Makeba",
+    "zh": "米丽亚姆·马卡贝"
+  },
+  "artist": {
+    "orig": "Miriam Makeba",
+    "en": "Miriam Makeba",
+    "zh": "米丽亚姆·马卡贝",
+    "mbid": "bc5c2918-4aba-4ef6-a245-100563a4487f"
+  },
+  "year": 1960,
+  "released": "1960",
+  "region": "ZA",
+  "lang": "xh",
+  "genres": [
+    "folk",
+    "world"
+  ],
+  "style": {
+    "en": "South African folk song",
+    "zh": "南非民歌"
+  },
+  "label": "RCA Victor",
+  "tracks": 14,
+  "length": "34:42",
+  "mbid": "64b75de0-e230-3421-8093-20338ccd6316",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/64b75de0-e230-3421-8093-20338ccd6316",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Miriam_Makeba_(album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "The Click Song",
+  "score": {
+    "value": 8.3
+  },
+  "review": {
+    "en": "Miriam Makeba's first American album, made soon after she arrived in the United States with the support of Harry Belafonte. It mixes Xhosa and Zulu songs, including the Click Song and Mbube, with folk material in English, in short and direct arrangements. For many listeners it was the first South African voice they had heard, and it began a long international career.",
+    "zh": "米丽亚姆·马卡贝在美国的第一张专辑，她初到美国，得到哈里·贝拉方特的支持。专辑把科萨语和祖鲁语歌曲，包括《咔嗒歌》和《Mbube》，与英语民歌放在一起，编曲短而直接。对许多听众来说，这是他们听到的第一个南非声音，也是她漫长国际生涯的开端。"
+  },
+  "checked": "2026-10-15"
+}

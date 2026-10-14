@@ -1,0 +1,49 @@
+{
+  "id": "B-001019",
+  "slug": "hafez-divan",
+  "category": "faith",
+  "title": {
+    "orig": "دیوان حافظ",
+    "en": "The Divan of Hafez",
+    "zh": "哈菲兹诗集"
+  },
+  "author": {
+    "orig": "حافظ شیرازی",
+    "en": "Hafez",
+    "zh": "哈菲兹",
+    "dates": "c. 1315–c. 1390",
+    "dates_zh": "约 1315–约 1390"
+  },
+  "year": 1368,
+  "year_display": {
+    "en": "14th century",
+    "zh": "14 世纪"
+  },
+  "lang": "fa",
+  "origin": {
+    "en": "Shiraz, Persia",
+    "zh": "波斯设拉子"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://fa.wikisource.org/wiki/دیوان_حافظ",
+      "note": {
+        "en": "the Persian text",
+        "zh": "波斯文原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q5939273",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "The collected poems of a fourteenth-century poet of Shiraz, mostly ghazals, in which wine, the beloved, the rose and the tavern can be read as earthly or as mystical, and are usually both. Iranian families keep the Divan at home and open it at random for an omen. Goethe's West-Eastern Divan answered it, and translators still find it the hardest of Persian poets.",
+    "zh": "十四世纪设拉子诗人的诗集，以加扎勒抒情诗为主。诗中的酒、恋人、玫瑰和酒馆，既可读作人间之爱，也可读作神秘之爱，往往两者兼有。伊朗人家常备此书，随手翻开一页来占卜。歌德的《西东诗集》是对它的回应，译者至今认为他是最难翻译的波斯诗人。"
+  },
+  "checked": "2026-10-15"
+}

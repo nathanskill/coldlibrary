@@ -63,5 +63,12 @@
     "S-007012",
     "S-007024",
     "S-007016"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "Nineteen aphorisms that shaped the taste of a whole programming community, witty and self-correcting; principles rather than arguments, and occasionally at odds with Python itself.",
+      "zh": "十九条格言塑造了整个编程社群的品味，风趣又会自我修正；是原则而非论证，偶尔也与 Python 本身相抵。"
+    }
+  }
 }

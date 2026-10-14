@@ -1,0 +1,45 @@
+{
+  "id": "A-002014",
+  "slug": "patti-smith-horses",
+  "title": {
+    "orig": "Horses",
+    "en": "Horses",
+    "zh": "Horses"
+  },
+  "artist": {
+    "orig": "Patti Smith",
+    "en": "Patti Smith",
+    "zh": "帕蒂·史密斯",
+    "mbid": "d135874d-9cae-4fef-97e3-36acbd9f5a26"
+  },
+  "year": 1975,
+  "released": "1975-11",
+  "region": "US",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "punk"
+  ],
+  "style": {
+    "en": "art punk",
+    "zh": "艺术朋克"
+  },
+  "label": "Arista",
+  "tracks": 8,
+  "length": "43:06",
+  "mbid": "ff8f533c-3cb3-3877-9209-11f433edaad2",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/ff8f533c-3cb3-3877-9209-11f433edaad2",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Horses_(album)",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/Horses"
+  },
+  "start_with": "Birdland",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "A poet from the New York scene, Smith made her debut with John Cale producing and a Robert Mapplethorpe portrait on the cover. Garage rock serves as a frame for improvised verse, most famously in her rewriting of Gloria. Released in 1975, it helped open the door for punk and for women who led rock bands on their own terms.",
+    "zh": "史密斯来自纽约诗歌圈，这张首专由约翰·凯尔制作，封面是罗伯特·梅普尔索普拍的肖像。车库摇滚成了即兴诗句的框架，最有名的是她重写的《Gloria》。1975 年发行，它为朋克打开了门，也为按自己方式带领乐队的女性打开了门。"
+  },
+  "checked": "2026-10-15"
+}

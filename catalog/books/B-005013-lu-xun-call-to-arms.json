@@ -1,0 +1,53 @@
+{
+  "id": "B-005013",
+  "slug": "lu-xun-call-to-arms",
+  "category": "literature",
+  "title": {
+    "orig": "吶喊",
+    "en": "Call to Arms",
+    "zh": "呐喊"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1923,
+  "year_display": {
+    "en": "1923 (stories of 1918–1922)",
+    "zh": "1923 年（收 1918–1922 年所作小说）"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/吶喊",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "stacks": [
+    "S-003001",
+    "S-003002",
+    "S-003003",
+    "S-003004"
+  ],
+  "wikidata": "Q10919784",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "Lu Xun's first collection, with A Madman's Diary, Kong Yiji and The True Story of Ah Q, stories that more or less began modern Chinese fiction. In a few pages each he catches a village, a tavern or a crowd with uncomfortable precision, and his irony is never far from grief. The Open Stacks hold four of the stories in full.",
+    "zh": "鲁迅的第一部小说集，收《狂人日记》《孔乙己》《阿Q正传》等，中国现代小说可以说从这里开始。几页篇幅就写透一个村镇、一间酒店、一群看客，讽刺里压着悲哀。自序本身也是名篇。开架书库收有其中四篇全文。"
+  },
+  "checked": "2026-10-15"
+}

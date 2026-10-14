@@ -1,0 +1,57 @@
+{
+  "id": "B-004006",
+  "slug": "murasaki-shikibu-tale-of-genji",
+  "category": "literature",
+  "title": {
+    "orig": "源氏物語",
+    "en": "The Tale of Genji",
+    "zh": "源氏物语"
+  },
+  "author": {
+    "orig": "紫式部",
+    "en": "Murasaki Shikibu",
+    "zh": "紫式部",
+    "dates": "c. 973 – c. 1014",
+    "dates_zh": "约 973 – 约 1014"
+  },
+  "year": 1010,
+  "year_display": {
+    "en": "c. 1010",
+    "zh": "约 1010 年"
+  },
+  "lang": "ja",
+  "origin": {
+    "en": "Heian-kyō (Kyoto), Japan",
+    "zh": "日本平安京（京都）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/19264",
+      "note": {
+        "en": "Suematsu Kenchō’s translation of the first 17 chapters (1882), in the anthology Japanese Literature (1900)",
+        "zh": "末松谦澄所译前十七帖（1882），收入《日本文学》选集（1900）"
+      }
+    },
+    {
+      "name": "Wikisource (ja)",
+      "url": "https://ja.wikisource.org/wiki/%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E_(%E5%9C%8B%E6%96%87%E5%A4%A7%E8%A7%80)",
+      "note": {
+        "en": "The original Japanese, Kokubun Taikan edition",
+        "zh": "日文原文，《国文大观》本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q8269",
+  "score": {
+    "value": 9.3
+  },
+  "review": {
+    "en": "Fifty-four chapters following a shining prince, his loves and his decline, then the dimmer lives of those who come after him. Murasaki writes about rank, longing and the way time empties rooms, with a patience for inner life that prose fiction elsewhere would not reach for centuries. The last chapters, set in Uji, are colder and perhaps finer still.",
+    "zh": "五十四帖，先写光源氏的风华、爱恋与衰落，再写他身后那些更黯淡的人生。紫式部写身份、思慕，以及时间如何让房间一点点变空；她对内心的耐心，别处的散文小说要过好几百年才达到。最后的宇治十帖更清冷，也许更好。"
+  },
+  "checked": "2026-10-15"
+}

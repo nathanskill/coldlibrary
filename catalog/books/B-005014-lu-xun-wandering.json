@@ -1,0 +1,47 @@
+{
+  "id": "B-005014",
+  "slug": "lu-xun-wandering",
+  "category": "literature",
+  "title": {
+    "orig": "彷徨",
+    "en": "Wandering",
+    "zh": "彷徨"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1926,
+  "year_display": {
+    "en": "1926 (stories of 1924–1925)",
+    "zh": "1926 年（收 1924–1925 年所作小说）"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/彷徨",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q11070132",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Eleven stories from 1924–25, including The New Year's Sacrifice, In the Tavern and Regret for the Past. Less fierce than Call to Arms and more inward, they follow educated people who see clearly and still cannot change their lives. The craft is tighter than in the first collection, and the sadness quieter and longer lasting.",
+    "zh": "收 1924 至 1925 年的十一篇小说，有《祝福》《在酒楼上》《孤独者》《伤逝》。比《呐喊》少了呼喊，多了内省，写的多是看得清楚、却无力改变自己命运的知识者。技巧更圆熟，悲凉也更持久。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "A-004014",
+  "slug": "chrisye-badai-pasti-berlalu",
+  "title": {
+    "orig": "Badai Pasti Berlalu",
+    "en": "Badai Pasti Berlalu",
+    "zh": "风暴终将过去"
+  },
+  "artist": {
+    "orig": "Chrisye",
+    "en": "Chrisye",
+    "zh": "Chrisye",
+    "mbid": "adfff063-402d-4e97-a34d-c1cb6adaa7a1"
+  },
+  "year": 1977,
+  "released": "1977",
+  "region": "ID",
+  "lang": "id",
+  "genres": [
+    "pop",
+    "soundtrack"
+  ],
+  "style": {
+    "en": "Indonesian pop",
+    "zh": "印尼流行"
+  },
+  "label": "Irama Mas",
+  "tracks": 13,
+  "length": "46:49",
+  "mbid": "5ff8136b-d7ca-39e0-96a5-abc6347b6061",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/5ff8136b-d7ca-39e0-96a5-abc6347b6061",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Badai_Pasti_Berlalu_(album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Badai Pasti Berlalu",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Songs for the 1977 film Badai Pasti Berlalu, written largely by Eros Djarot and sung by Chrisye with Berlian Hutauruk. Its orchestral, progressive-leaning arrangements were unusually ambitious for Indonesian pop of the time, and the album is regularly named among the most important records the country has produced. Several of its songs have been covered and re-recorded for decades since.",
+    "zh": "为 1977 年同名电影所作的歌曲，主要由埃罗斯·贾罗特写作，Chrisye 与贝利安·胡陶鲁克演唱。带有管弦和前卫摇滚色彩的编曲，在当时的印尼流行乐里少见地有野心，这张专辑也常被列为印尼最重要的唱片之一。其中多首歌几十年来不断被翻唱和重录。"
+  },
+  "checked": "2026-10-15"
+}

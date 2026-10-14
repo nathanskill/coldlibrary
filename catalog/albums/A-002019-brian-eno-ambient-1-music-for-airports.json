@@ -1,0 +1,41 @@
+{
+  "id": "A-002019",
+  "slug": "brian-eno-ambient-1-music-for-airports",
+  "title": {
+    "orig": "Ambient 1: Music for Airports",
+    "en": "Ambient 1: Music for Airports",
+    "zh": "Ambient 1: Music for Airports"
+  },
+  "artist": {
+    "orig": "Brian Eno",
+    "en": "Brian Eno",
+    "zh": "布莱恩·伊诺",
+    "mbid": "ff95eb47-41c4-4f7f-a104-cdc30f02e872"
+  },
+  "year": 1978,
+  "released": "1978",
+  "region": "GB",
+  "lang": "zxx",
+  "genres": [
+    "ambient",
+    "electronic"
+  ],
+  "label": "E’G",
+  "tracks": 4,
+  "length": "42:20",
+  "mbid": "5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Ambient_1:_Music_for_Airports",
+    "wikipedia_zh": null
+  },
+  "start_with": "1/1",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Eno's liner notes for this 1978 record named and defined ambient music: sound meant to be ignorable as well as interesting. The four pieces are built from tape loops of different lengths, so piano and voice phrases drift in and out of alignment. As a listening record it is deliberately slight; as an idea it shaped decades of music.",
+    "zh": "伊诺在这张 1978 年唱片的说明里，为“氛围音乐”命名并下了定义：既可以被忽略，也耐人寻味。四首作品由长度不同的磁带循环构成，钢琴和人声片段因此时合时离。作为唱片它刻意轻淡，作为一种观念，它塑造了此后几十年的音乐。"
+  },
+  "checked": "2026-10-15"
+}

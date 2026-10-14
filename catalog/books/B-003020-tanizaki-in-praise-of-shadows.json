@@ -1,0 +1,40 @@
+{
+  "id": "B-003020",
+  "slug": "tanizaki-in-praise-of-shadows",
+  "category": "aesthetics",
+  "title": {
+    "orig": "陰翳礼讃",
+    "en": "In Praise of Shadows",
+    "zh": "阴翳礼赞"
+  },
+  "author": {
+    "orig": "谷崎潤一郎",
+    "en": "Jun'ichirō Tanizaki",
+    "zh": "谷崎润一郎",
+    "dates": "1886 – 1965",
+    "dates_zh": "1886 – 1965"
+  },
+  "year": 1933,
+  "year_display": {
+    "en": "1933",
+    "zh": "1933 年"
+  },
+  "lang": "ja",
+  "origin": {
+    "en": "Japan",
+    "zh": "日本"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q1368382",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "A novelist's long essay on lacquer seen by candlelight, dim alcoves, murky soup and the old Japanese house, set against the glare of electric modern life. It is wry, contrary and sometimes cranky, and it never pretends to be fair, but it changed how architects and designers far from Japan think about darkness and light.",
+    "zh": "一位小说家的长篇随笔，写烛光下的漆器、幽暗的壁龛、浑浊的汤汁和旧式日本房屋，并以此对照电灯照亮的现代生活。文章诙谐、执拗，有时显得古怪，也从不假装公允，却改变了日本以外的建筑师与设计者看待明暗的方式。"
+  },
+  "checked": "2026-10-15"
+}

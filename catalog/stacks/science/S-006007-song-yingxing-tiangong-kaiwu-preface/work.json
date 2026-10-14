@@ -255,5 +255,12 @@
   "pairs": [
     "S-002043",
     "S-002041"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "A brief preface that mocks learning without looking and orders the book from grain to jade; it opens one of the great books of craft and states its creed.",
+      "zh": "短序讥讽不看实物的空谈，又把全书排成先五谷后金玉；它开启一部伟大的工艺之书，也写明了全书的信条。"
+    }
+  }
 }

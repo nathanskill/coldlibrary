@@ -1,0 +1,41 @@
+{
+  "id": "A-002012",
+  "slug": "nick-drake-pink-moon",
+  "title": {
+    "orig": "Pink Moon",
+    "en": "Pink Moon",
+    "zh": "Pink Moon"
+  },
+  "artist": {
+    "orig": "Nick Drake",
+    "en": "Nick Drake",
+    "zh": "尼克·德雷克",
+    "mbid": "99ea432a-e3d8-42cb-9d5e-db316a6a8458"
+  },
+  "year": 1972,
+  "released": "1972-02-25",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "folk",
+    "singer-songwriter"
+  ],
+  "label": "Island",
+  "tracks": 11,
+  "length": "27:47",
+  "mbid": "740ec10a-e887-38a6-a04d-fe2069c9e2a7",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/740ec10a-e887-38a6-a04d-fe2069c9e2a7",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Pink_Moon",
+    "wikipedia_zh": null
+  },
+  "start_with": "Pink Moon",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "Drake's third and last album was recorded in two late-night sessions with only voice and guitar, plus a single piano overdub, and runs under half an hour. It sold very little, and he died in 1974. Later decades rediscovered it, and its plainness became a touchstone for quiet, inward songwriting.",
+    "zh": "德雷克的第三张、也是最后一张专辑，在两个深夜录完，只有人声和吉他，外加一段钢琴叠录，全长不到半小时。它当时几乎没有销量，他在 1974 年去世。后来的年代重新发现了它，这份朴素成了安静内省式写作的试金石。"
+  },
+  "checked": "2026-10-15"
+}

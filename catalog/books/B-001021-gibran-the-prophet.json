@@ -1,0 +1,49 @@
+{
+  "id": "B-001021",
+  "slug": "gibran-the-prophet",
+  "category": "faith",
+  "title": {
+    "orig": "The Prophet",
+    "en": "The Prophet",
+    "zh": "先知"
+  },
+  "author": {
+    "orig": "جبران خليل جبران",
+    "en": "Kahlil Gibran",
+    "zh": "纪伯伦",
+    "dates": "1883–1931",
+    "dates_zh": "1883–1931"
+  },
+  "year": 1923,
+  "year_display": {
+    "en": "1923",
+    "zh": "1923 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/58585",
+      "note": {
+        "en": "the English original (1923)",
+        "zh": "英文原著（1923）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1196302",
+  "score": {
+    "value": 7.6
+  },
+  "review": {
+    "en": "Twenty-six prose poems in which the prophet Almustafa, about to sail home, answers the people of Orphalese on love, marriage, children, work, joy and sorrow, death. Written in English by a Lebanese-American poet and painter, it has sold in vast numbers and is read at weddings and funerals. Its cadence is lovely; its wisdom is broad rather than deep.",
+    "zh": "二十六篇散文诗：先知亚墨斯达法即将乘船返乡，回答奥法利斯城人们关于爱、婚姻、孩子、工作、欢乐与悲伤、死亡的提问。作者是黎巴嫩裔美国诗人和画家，用英文写成。它销量极大，常在婚礼和葬礼上被朗读。节奏优美，智慧宽而不深。冰心 1931 年的中译本流传很广。"
+  },
+  "checked": "2026-10-15"
+}

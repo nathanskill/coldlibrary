@@ -1,0 +1,45 @@
+{
+  "id": "A-004020",
+  "slug": "umm-kulthum-enta-omri",
+  "title": {
+    "orig": "انت عمري",
+    "en": "Enta Omri",
+    "zh": "你是我的生命"
+  },
+  "artist": {
+    "orig": "أم كلثوم",
+    "en": "Umm Kulthum",
+    "zh": "乌姆·库勒苏姆",
+    "mbid": "0a354a70-b879-4697-ad9b-60bfe2bd1d63"
+  },
+  "year": 1964,
+  "released": "1964",
+  "region": "EG",
+  "lang": "ar",
+  "genres": [
+    "traditional",
+    "world"
+  ],
+  "style": {
+    "en": "Arabic tarab",
+    "zh": "阿拉伯塔拉布"
+  },
+  "label": "Sono Cairo",
+  "tracks": 2,
+  "length": "33:39",
+  "mbid": "af7025f2-f308-362c-affc-fcca3657f9ff",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/af7025f2-f308-362c-affc-fcca3657f9ff",
+    "wikipedia_en": null,
+    "wikipedia_zh": null
+  },
+  "start_with": "انت عمري",
+  "score": {
+    "value": 9.3
+  },
+  "review": {
+    "en": "This Sono Cairo LP holds a single song across its two sides: Enta Omri, the first work Mohammed Abdel Wahab composed for Umm Kulthum, with words by Ahmed Shafik Kamel. The meeting of the two biggest names in Egyptian music was a public event, and the song became one of the best known in the Arab world. Its long instrumental introduction and slowly varied refrains show tarab built on patience.",
+    "zh": "这张 Sono Cairo 黑胶两面只收一首歌：《你是我的生命》，穆罕默德·阿卜杜勒·瓦哈卜为乌姆·库勒苏姆谱写的第一首作品，词作者艾哈迈德·沙菲克·卡迈勒。埃及乐坛两位最大的名字相遇，本身就是一件公共大事，这首歌也成为阿拉伯世界最知名的歌曲之一。长长的器乐引子和缓慢变化的复唱，是建立在耐心之上的塔拉布。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "A-004026",
+  "slug": "mulatu-astatke-mulatu-of-ethiopia",
+  "title": {
+    "orig": "Mulatu of Ethiopia",
+    "en": "Mulatu of Ethiopia",
+    "zh": "埃塞俄比亚的穆拉图"
+  },
+  "artist": {
+    "orig": "ሙላቱ አስታጥቄ",
+    "en": "Mulatu Astatke",
+    "zh": "穆拉图·阿斯塔特克",
+    "mbid": "67f0c7ca-14e8-47a3-be0e-bd2f2ffe25bb"
+  },
+  "year": 1972,
+  "released": "1972",
+  "region": "ET",
+  "lang": "zxx",
+  "genres": [
+    "jazz",
+    "world"
+  ],
+  "style": {
+    "en": "Ethio-jazz",
+    "zh": "埃塞俄比亚爵士"
+  },
+  "label": "Worthy Records",
+  "tracks": 7,
+  "length": "27:34",
+  "mbid": "eec0dc49-b8b0-3480-9f37-2e67e4571252",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/eec0dc49-b8b0-3480-9f37-2e67e4571252",
+    "wikipedia_en": null,
+    "wikipedia_zh": null
+  },
+  "start_with": "Mulatu",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "Recorded in New York by the Ethiopian vibraphonist, arranger and composer Mulatu Astatke, this short album sets Ethiopian modal scales over jazz and Latin rhythms, the blend he called Ethio-jazz. It reached few people at first. Through the Éthiopiques reissue series and Jim Jarmusch's film Broken Flowers his music later found a wide audience, and this record became a reference point for the style.",
+    "zh": "埃塞俄比亚颤音琴手、编曲家和作曲家穆拉图·阿斯塔特克在纽约录制的一张短专辑，把埃塞俄比亚的调式音阶放在爵士和拉丁节奏之上，他称之为埃塞俄比亚爵士。起初知道的人很少。后来经由《Éthiopiques》再版系列和贾木许的电影《破碎之花》，他的音乐找到大批听众，这张唱片也成了这种风格的参照点。"
+  },
+  "checked": "2026-10-15"
+}

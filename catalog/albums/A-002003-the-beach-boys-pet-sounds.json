@@ -1,0 +1,45 @@
+{
+  "id": "A-002003",
+  "slug": "the-beach-boys-pet-sounds",
+  "title": {
+    "orig": "Pet Sounds",
+    "en": "Pet Sounds",
+    "zh": "宠物之声"
+  },
+  "artist": {
+    "orig": "The Beach Boys",
+    "en": "The Beach Boys",
+    "zh": "海滩男孩",
+    "mbid": "ebfc1398-8d96-47e3-82c3-f782abcdb13d"
+  },
+  "year": 1966,
+  "released": "1966-05-16",
+  "region": "US",
+  "lang": "en",
+  "genres": [
+    "pop",
+    "rock"
+  ],
+  "style": {
+    "en": "baroque pop",
+    "zh": "巴洛克流行"
+  },
+  "label": "Capitol",
+  "tracks": 13,
+  "length": "35:01",
+  "mbid": "fdd96703-7b21-365e-bdea-38029fbeb84e",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/fdd96703-7b21-365e-bdea-38029fbeb84e",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Pet_Sounds",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E5%AE%A0%E7%89%A9%E4%B9%8B%E5%A3%B0"
+  },
+  "start_with": "God Only Knows",
+  "score": {
+    "value": 9.5
+  },
+  "review": {
+    "en": "Brian Wilson made this record largely without the touring band, arranging for Los Angeles session players and writing most lyrics with Tony Asher. Bicycle bells, French horn, theremin-like tones and layered harmonies serve songs about doubt and growing up. Paul McCartney has named it a spur for Sgt. Pepper; studio pop after it aimed higher.",
+    "zh": "布莱恩·威尔逊在乐队巡演时，几乎独自完成了这张唱片：为洛杉矶的录音乐手写编曲，歌词多与托尼·阿舍合写。自行车铃、圆号和层层和声，托着关于迷惘与成长的歌。麦卡特尼说它推动了《佩珀军士》，此后的录音室流行乐都把目标定得更高。"
+  },
+  "checked": "2026-10-15"
+}

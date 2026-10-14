@@ -1,0 +1,57 @@
+{
+  "id": "B-004011",
+  "slug": "defoe-robinson-crusoe",
+  "category": "literature",
+  "title": {
+    "orig": "Robinson Crusoe",
+    "en": "Robinson Crusoe",
+    "zh": "鲁滨逊漂流记"
+  },
+  "author": {
+    "orig": "Daniel Defoe",
+    "en": "Daniel Defoe",
+    "zh": "丹尼尔·笛福",
+    "dates": "c. 1660–1731",
+    "dates_zh": "约 1660–1731"
+  },
+  "year": 1719,
+  "year_display": {
+    "en": "1719",
+    "zh": "1719 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "England",
+    "zh": "英格兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/daniel-defoe/the-life-and-adventures-of-robinson-crusoe",
+      "note": {
+        "en": "The 1719 novel",
+        "zh": "1719 年小说原文"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/521",
+      "note": {
+        "en": "The 1719 novel",
+        "zh": "1719 年小说原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q483034",
+  "score": {
+    "value": 7.8
+  },
+  "review": {
+    "en": "A castaway counts his tools, builds, farms and keeps accounts with God for twenty-eight years. The plain, list-making prose made fiction feel like a true record and helped start the English novel, and the island became a story retold everywhere. The book’s view of Friday and of colonies is of its time, and long stretches read more as inventory than as life.",
+    "zh": "一个漂流者清点工具，盖房、种地，二十八年里和上帝记着账。平实、爱列清单的文字让虚构读来像真实记录，帮助开启了英语小说，荒岛也成了到处被重讲的故事。书中对“星期五”和殖民的看法属于那个时代，不少段落读来更像清单而非生活。"
+  },
+  "checked": "2026-10-15"
+}

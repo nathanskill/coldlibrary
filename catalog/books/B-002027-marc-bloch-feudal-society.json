@@ -1,0 +1,40 @@
+{
+  "id": "B-002027",
+  "slug": "marc-bloch-feudal-society",
+  "category": "history",
+  "title": {
+    "orig": "La Société féodale",
+    "en": "Feudal Society",
+    "zh": "封建社会"
+  },
+  "author": {
+    "orig": "Marc Bloch",
+    "en": "Marc Bloch",
+    "zh": "马克·布洛赫",
+    "dates": "1886 – 1944",
+    "dates_zh": "1886 – 1944"
+  },
+  "year": 1939,
+  "year_display": {
+    "en": "1939–1940",
+    "zh": "1939–1940 年"
+  },
+  "lang": "fr",
+  "origin": {
+    "en": "France",
+    "zh": "法国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q42189898",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Two volumes on Europe from the ninth to the thirteenth century, treating feudalism not as a legal scheme but as a whole way of living: invasions, ties of kinship and dependence, the sense of time and memory, nobles and kings. Bloch compares regions across Europe and asks what people felt as well as what they owned. It is the summit of the early Annales approach, written shortly before he was shot by the Gestapo in 1944.",
+    "zh": "两卷书写九至十三世纪的欧洲，不把封建制当作法律条文，而当作整体的生活方式：外族入侵、亲属与依附关系、时间感与记忆、贵族与王权。布洛赫比较欧洲各地，既问人们拥有什么，也问他们感受到什么。这是早期年鉴学派的高峰；成书数年后，他于 1944 年被盖世太保枪杀。"
+  },
+  "checked": "2026-10-15"
+}

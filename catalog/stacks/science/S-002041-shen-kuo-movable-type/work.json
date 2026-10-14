@@ -246,5 +246,12 @@
   "pairs": [
     "S-002043",
     "S-002032"
-  ]
+  ],
+  "score": {
+    "value": 8.8,
+    "note": {
+      "en": "Our only source for Bi Sheng’s movable type, and a model technical note, exact about materials, workflow and why wood failed; as a record it is irreplaceable.",
+      "zh": "毕昇活字唯一的原始记载，也是技术笔记的范本：材料、流程、木活字为何不可用，都写得清楚；无可替代。"
+    }
+  }
 }

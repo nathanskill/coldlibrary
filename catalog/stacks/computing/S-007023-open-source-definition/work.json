@@ -63,5 +63,12 @@
     "S-007022",
     "S-007021",
     "S-007010"
-  ]
+  ],
+  "score": {
+    "value": 7.8,
+    "note": {
+      "en": "The yardstick by which open-source licences are still approved, derived from Debian’s guidelines; useful and influential, but procedural, with little of the argument behind it.",
+      "zh": "至今用来审核开源许可证的标尺，脱胎于 Debian 指导方针；实用且影响大，但只是程序性条款，少有论证。"
+    }
+  }
 }

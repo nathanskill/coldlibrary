@@ -118,5 +118,12 @@
   "pairs": [
     "S-001014",
     "S-001064"
-  ]
+  ],
+  "score": {
+    "value": 7.9,
+    "note": {
+      "en": "A well-made Han song whose closing couplet became a proverb; the proverb has outgrown the poem, and the imagery before it is pleasant rather than memorable.",
+      "zh": "工整的汉乐府，末两句成了格言；格言比诗走得更远，前面的景物写得平顺，却不难忘。"
+    }
+  }
 }

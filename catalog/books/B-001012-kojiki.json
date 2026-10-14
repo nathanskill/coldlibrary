@@ -1,0 +1,45 @@
+{
+  "id": "B-001012",
+  "slug": "kojiki",
+  "category": "faith",
+  "title": {
+    "orig": "古事記",
+    "en": "Kojiki",
+    "zh": "古事记"
+  },
+  "author": null,
+  "year": 712,
+  "year_display": {
+    "en": "712",
+    "zh": "712 年"
+  },
+  "lang": "ja",
+  "origin": {
+    "en": "Japan",
+    "zh": "日本"
+  },
+  "tradition": {
+    "en": "Shinto",
+    "zh": "神道"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://ja.wikisource.org/wiki/古事記",
+      "note": {
+        "en": "the original text",
+        "zh": "原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q813031",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The oldest surviving Japanese book, compiled by O no Yasumaro in 712 from the recitations of Hieda no Are: the birth of the islands from Izanagi and Izanami, the sun goddess Amaterasu, and the descent of the imperial line. Shinto holds it among its sacred classics. Written in Chinese characters bent to Japanese, it also preserves the earliest Japanese songs.",
+    "zh": "现存最古老的日本典籍，712 年由太安万侣根据稗田阿礼的诵习编成：伊邪那岐与伊邪那美生成诸岛，天照大神，以及皇统的由来。神道把它奉为神典之一。它用汉字书写日语，也保存了日本最早的一批歌谣。"
+  },
+  "checked": "2026-10-15"
+}

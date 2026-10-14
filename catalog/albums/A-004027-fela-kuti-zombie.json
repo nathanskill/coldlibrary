@@ -1,0 +1,46 @@
+{
+  "id": "A-004027",
+  "slug": "fela-kuti-zombie",
+  "title": {
+    "orig": "Zombie",
+    "en": "Zombie",
+    "zh": "僵尸"
+  },
+  "artist": {
+    "orig": "Fẹla Anikulapo Kuti",
+    "en": "Fela Kuti",
+    "zh": "费拉·库蒂",
+    "mbid": "6514cffa-fbe0-4965-ad88-e998ead8a82a"
+  },
+  "year": 1976,
+  "released": "1976",
+  "region": "NG",
+  "lang": "pcm",
+  "genres": [
+    "funk",
+    "jazz",
+    "world"
+  ],
+  "style": {
+    "en": "Afrobeat",
+    "zh": "非洲节拍"
+  },
+  "label": "Coconut",
+  "tracks": 2,
+  "length": "25:24",
+  "mbid": "517cbfb2-2279-4af9-8ca7-1c4c1a444925",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/517cbfb2-2279-4af9-8ca7-1c4c1a444925",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Zombie_(album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Zombie",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "Fela and Afrika 70 fill each side with one long piece: interlocking guitars, horns and Tony Allen's drumming building slowly toward Fela's call-and-response vocals in pidgin English. The title track mocks soldiers who obey without thinking, and it became one of the most famous songs of Afrobeat across West Africa. It shows the style at full strength, with groove and argument moving as one.",
+    "zh": "费拉与非洲七十乐队每面只放一首长曲：交错的吉他、铜管和托尼·艾伦的鼓慢慢堆高，直到费拉用皮钦英语展开呼应式的演唱。同名曲嘲讽不假思索服从命令的士兵，成了非洲节拍在整个西非最有名的歌之一。这张唱片展示了这种风格最强的状态，律动和论辩合而为一。"
+  },
+  "checked": "2026-10-15"
+}

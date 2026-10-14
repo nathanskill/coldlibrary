@@ -1,0 +1,39 @@
+{
+  "id": "B-001027",
+  "slug": "black-elk-speaks",
+  "category": "faith",
+  "title": {
+    "orig": "Black Elk Speaks",
+    "en": "Black Elk Speaks",
+    "zh": "黑麋鹿如是说"
+  },
+  "author": {
+    "orig": "John G. Neihardt",
+    "en": "John G. Neihardt",
+    "zh": "约翰·内哈特",
+    "dates": "1881–1973",
+    "dates_zh": "1881–1973"
+  },
+  "year": 1932,
+  "year_display": {
+    "en": "1932",
+    "zh": "1932 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "stacks": [],
+  "wikidata": "Q3404825",
+  "score": {
+    "value": 7.9
+  },
+  "review": {
+    "en": "The life and great vision of Black Elk, an Oglala Lakota holy man, as told in 1931 to the poet John Neihardt through Black Elk's son as interpreter, and shaped by Neihardt into a book. It became a central text for readers seeking Native American religion. Scholars have since shown how much the poet framed it, which is part of how it should be read.",
+    "zh": "奥格拉拉拉科塔族圣人黑麋鹿的生平和他的伟大异象。1931 年由他的儿子翻译，讲给诗人内哈特听，再由内哈特写成书。它成为许多人了解美洲原住民宗教的核心读本。后来的学者指出诗人在多大程度上塑造了这部作品，阅读时也应把这一点考虑在内。尚在版权期内，这里只收信息。"
+  },
+  "checked": "2026-10-15"
+}

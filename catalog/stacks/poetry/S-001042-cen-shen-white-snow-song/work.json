@@ -117,5 +117,12 @@
   "pairs": [
     "S-001056",
     "S-001036"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "A snowstorm becomes ten thousand pear trees in blossom, and the farewell ends on hoofprints in the snow; among the finest poems of the Tang frontier.",
+      "zh": "把一场暴雪写成千树万树梨花开，送别结束在雪上的马蹄印；唐代边塞诗中最出色的作品之一。"
+    }
+  }
 }

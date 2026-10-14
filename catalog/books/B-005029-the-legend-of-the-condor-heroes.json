@@ -1,0 +1,37 @@
+{
+  "id": "B-005029",
+  "slug": "the-legend-of-the-condor-heroes",
+  "category": "literature",
+  "title": {
+    "orig": "射鵰英雄傳",
+    "en": "The Legend of the Condor Heroes",
+    "zh": "射雕英雄传"
+  },
+  "author": {
+    "orig": "金庸",
+    "en": "Jin Yong",
+    "zh": "金庸",
+    "dates": "1924–2018"
+  },
+  "year": 1957,
+  "year_display": {
+    "en": "Serialised 1957–59; later revised",
+    "zh": "1957–59 年连载，后经修订"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "Hong Kong",
+    "zh": "香港"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q1197817",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "Guo Jing, a slow, honest boy raised on the Mongolian steppe, grows into a hero amid the wars of the Song, Jin and Mongols. Jin Yong's first great success mixes martial-arts adventure with history, comedy and a memorable heroine in Huang Rong. Judged as wuxia, it is a classic of the form, and the start of a famous trilogy.",
+    "zh": "在蒙古草原长大的郭靖，憨厚老实，在宋、金、蒙古的战乱中成长为大侠。金庸第一部大获成功的作品，把武侠冒险与历史、喜剧糅在一起，黄蓉更是令人难忘。放在武侠小说里看，它是经典，也是“射雕三部曲”的开端。"
+  },
+  "checked": "2026-10-15"
+}

@@ -94,5 +94,13 @@
     "S-007008",
     "S-007001",
     "S-007025"
-  ]
+  ],
+  "score": {
+    "value": 8.7,
+    "note": {
+      "en": "A few pages from one of the great satires, mocking knowledge made by shuffling words; the joke is sharp and economical, and three centuries later it has a new target.",
+      "zh": "伟大讽刺作品中的几页，嘲笑靠拼凑词语造出的学问；笔法尖锐简省，三百年后它又有了新的对象。"
+    }
+  },
+  "category": "literature"
 }

@@ -1,0 +1,48 @@
+{
+  "id": "B-005012",
+  "slug": "six-records-of-a-floating-life",
+  "category": "literature",
+  "title": {
+    "orig": "浮生六記",
+    "en": "Six Records of a Floating Life",
+    "zh": "浮生六记"
+  },
+  "author": {
+    "orig": "沈復",
+    "en": "Shen Fu",
+    "zh": "沈复",
+    "dates": "1763–?",
+    "dates_zh": "1763–？"
+  },
+  "year": 1808,
+  "year_display": {
+    "en": "Written c. 1808; first printed 1878",
+    "zh": "约 1808 年写成；1878 年初刊"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/浮生六記",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q1761416",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "A minor Suzhou clerk remembers his marriage to Chen Yun, their small pleasures with flowers and wine, their quarrels with family and money, and his travels. Only four of the six chapters survive. Its plain candour about a loving marriage was rare in classical Chinese, and Yun has charmed readers since the manuscript was found and printed in the 1870s.",
+    "zh": "苏州一个不得志的文人，回忆与妻子陈芸的日子：插花、品茶、布置小屋，也有家庭的嫌隙与生计的窘迫，还有各地游历。六卷只存四卷。古文里少有人这样坦白地写夫妻之爱，芸娘也因此被一代代读者记住。"
+  },
+  "checked": "2026-10-15"
+}

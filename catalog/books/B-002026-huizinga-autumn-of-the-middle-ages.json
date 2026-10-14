@@ -1,0 +1,49 @@
+{
+  "id": "B-002026",
+  "slug": "huizinga-autumn-of-the-middle-ages",
+  "category": "history",
+  "title": {
+    "orig": "Herfsttij der Middeleeuwen",
+    "en": "The Autumn of the Middle Ages",
+    "zh": "中世纪的秋天"
+  },
+  "author": {
+    "orig": "Johan Huizinga",
+    "en": "Johan Huizinga",
+    "zh": "约翰·赫伊津哈",
+    "dates": "1872 – 1945",
+    "dates_zh": "1872 – 1945"
+  },
+  "year": 1919,
+  "year_display": {
+    "en": "1919",
+    "zh": "1919 年"
+  },
+  "lang": "nl",
+  "origin": {
+    "en": "Netherlands",
+    "zh": "荷兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/16829",
+      "note": {
+        "en": "the Dutch original (1919)",
+        "zh": "荷兰文原著（1919）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q2599259",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Huizinga looked at fourteenth- and fifteenth-century France and the Low Countries and saw not a dawn but an ending: a culture of extreme contrasts, ritual, chivalric fantasy and pictured death, in the age of the Van Eyck brothers. He works from chronicles, sermons and paintings rather than charters. Some of its broad claims are disputed, but it changed what historians think counts as evidence.",
+    "zh": "赫伊津哈看十四、十五世纪的法国与尼德兰，看到的不是黎明而是终结：一个充满极端对比、仪式、骑士幻梦与死亡图像的文化，正是凡·艾克兄弟的时代。他依据的是编年史、布道词和绘画，而非公文档案。书中一些宏论有争议，但它改变了史家对何为证据的看法。"
+  },
+  "checked": "2026-10-15"
+}

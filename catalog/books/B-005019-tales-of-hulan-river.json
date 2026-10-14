@@ -1,0 +1,47 @@
+{
+  "id": "B-005019",
+  "slug": "tales-of-hulan-river",
+  "category": "literature",
+  "title": {
+    "orig": "呼蘭河傳",
+    "en": "Tales of Hulan River",
+    "zh": "呼兰河传"
+  },
+  "author": {
+    "orig": "蕭紅",
+    "en": "Xiao Hong",
+    "zh": "萧红",
+    "dates": "1911–1942"
+  },
+  "year": 1941,
+  "year_display": {
+    "en": "Serialised 1940; book 1941",
+    "zh": "1940 年连载；1941 年出版单行本"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "Hong Kong",
+    "zh": "香港"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/呼蘭河傳",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q10921225",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Xiao Hong finished this book in Hong Kong in 1940, remembering the small northeastern town of her childhood and her grandfather's garden. It has no single plot: seven chapters move from the town's mud pit and festivals to its neighbours and their cruelties, told in a child's clear, unhurried voice. Lyrical and unflinching at once, it is unlike any other Chinese novel.",
+    "zh": "萧红 1940 年在香港写完，回忆东北小城呼兰的童年和祖父的后花园。全书没有贯穿的情节，七章从大泥坑、跳大神、放河灯，写到邻里和他们的冷漠与残忍，用孩子清澈、从容的声音讲出来。抒情又毫不回避，在中国小说里独一无二。"
+  },
+  "checked": "2026-10-15"
+}

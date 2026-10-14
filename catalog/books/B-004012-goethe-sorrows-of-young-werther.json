@@ -1,0 +1,49 @@
+{
+  "id": "B-004012",
+  "slug": "goethe-sorrows-of-young-werther",
+  "category": "literature",
+  "title": {
+    "orig": "Die Leiden des jungen Werthers",
+    "en": "The Sorrows of Young Werther",
+    "zh": "少年维特之烦恼"
+  },
+  "author": {
+    "orig": "Johann Wolfgang von Goethe",
+    "en": "Johann Wolfgang von Goethe",
+    "zh": "约翰·沃尔夫冈·冯·歌德",
+    "dates": "1749–1832",
+    "dates_zh": "1749–1832"
+  },
+  "year": 1774,
+  "year_display": {
+    "en": "1774",
+    "zh": "1774 年"
+  },
+  "lang": "de",
+  "origin": {
+    "en": "Germany",
+    "zh": "德国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2527",
+      "note": {
+        "en": "R. Dillon Boylan’s translation (1854)",
+        "zh": "博伊兰英译（1854）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q151883",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "A young man’s letters about nature, a woman engaged to someone else, and a feeling he will not let go. Goethe wrote it in his twenties, and its success across Europe made it one of the first literary sensations. Its intensity is real and its prose is lovely, though the hero’s self-absorption is now easier to see than to share.",
+    "zh": "一个年轻人的书信，写自然，写一位已与他人订婚的女子，写一份不肯放手的感情。歌德二十多岁时写成此书，它风靡欧洲，成为最早的文学轰动之一。它的炽热是真的，文字也美，只是主人公的自我沉溺，如今更容易看清而不是共鸣。"
+  },
+  "checked": "2026-10-15"
+}

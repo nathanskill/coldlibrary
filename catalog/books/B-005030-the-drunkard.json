@@ -1,0 +1,37 @@
+{
+  "id": "B-005030",
+  "slug": "the-drunkard",
+  "category": "literature",
+  "title": {
+    "orig": "酒徒",
+    "en": "The Drunkard",
+    "zh": "酒徒"
+  },
+  "author": {
+    "orig": "劉以鬯",
+    "en": "Liu Yichang",
+    "zh": "刘以鬯",
+    "dates": "1918–2018"
+  },
+  "year": 1963,
+  "year_display": {
+    "en": "Serialised 1962; book 1963",
+    "zh": "1962 年连载；1963 年出版"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "Hong Kong",
+    "zh": "香港"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q67931275",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "A serious writer in 1960s Hong Kong grinds out martial-arts and sex serials for money and drinks to bear it. Liu Yichang tells it in fragmented first person, often called the first stream-of-consciousness novel in Chinese, with one chapter only a line long. Its portrait of a literary conscience worn down by the market is bitter, funny and still recognisable.",
+    "zh": "六十年代香港，一个有理想的作家为了糊口，替报馆写武侠和色情连载，靠酒撑下去。刘以鬯用破碎的第一人称写成，常被称为中国第一部意识流小说，有一章短到只有一行。文学良知被市场磨损的样子，写得苦涩、好笑，今天读来仍不陌生。"
+  },
+  "checked": "2026-10-15"
+}

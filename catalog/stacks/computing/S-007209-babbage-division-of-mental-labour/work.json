@@ -108,5 +108,12 @@
     "S-007002",
     "S-007001",
     "S-007210"
-  ]
+  ],
+  "score": {
+    "value": 8.2,
+    "note": {
+      "en": "The story of de Prony’s human computers, told by the man it led to the engines, with a clear lesson in building tables by addition; factory economics, still illuminating.",
+      "zh": "巴贝奇讲德普罗尼的“人工计算员”，正是这条路把他引向差分机，又清楚演示只用加法造表；至今仍有启发。"
+    }
+  }
 }

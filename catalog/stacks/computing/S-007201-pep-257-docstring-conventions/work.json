@@ -96,5 +96,12 @@
     "S-007012",
     "S-007011",
     "S-007024"
-  ]
+  ],
+  "score": {
+    "value": 7.0,
+    "note": {
+      "en": "Sensible conventions for the message at the top of a function, mild in tone and widely followed; useful technical prose with little to it beyond its rules.",
+      "zh": "为函数开头那段说明定下的合理惯例，语气温和，遵循者众；实用的技术文字，规则之外别无太多内容。"
+    }
+  }
 }

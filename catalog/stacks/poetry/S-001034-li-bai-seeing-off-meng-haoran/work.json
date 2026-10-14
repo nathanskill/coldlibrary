@@ -110,5 +110,12 @@
   "pairs": [
     "S-001023",
     "S-001022"
-  ]
+  ],
+  "score": {
+    "value": 8.9,
+    "note": {
+      "en": "A farewell that never names a feeling, only watches a sail vanish and then keeps watching the river; the restraint is complete, and it carries everything.",
+      "zh": "送别而不言情，只看一片孤帆消失，又继续望着江水；克制得彻底，情意全在其中。"
+    }
+  }
 }

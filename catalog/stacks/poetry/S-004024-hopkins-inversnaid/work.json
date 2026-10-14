@@ -71,5 +71,12 @@
   "plate": null,
   "pairs": [
     "S-004022"
-  ]
+  ],
+  "score": {
+    "value": 8.3,
+    "note": {
+      "en": "A brown Highland burn rendered in dense, rushing sound, ending in an early plea for wild places; vivid and much loved, but a sketch beside his major sonnets.",
+      "zh": "以密集奔涌的声音写高地溪流，结尾较早地为荒野请命；鲜活可爱，比起他的重要十四行诗仍是速写。"
+    }
+  }
 }

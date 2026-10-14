@@ -1,0 +1,40 @@
+{
+  "id": "B-002030",
+  "slug": "hobsbawm-the-age-of-revolution",
+  "category": "history",
+  "title": {
+    "orig": "The Age of Revolution: Europe 1789–1848",
+    "en": "The Age of Revolution: Europe 1789–1848",
+    "zh": "革命的年代：1789—1848"
+  },
+  "author": {
+    "orig": "Eric Hobsbawm",
+    "en": "Eric Hobsbawm",
+    "zh": "埃里克·霍布斯鲍姆",
+    "dates": "1917 – 2012",
+    "dates_zh": "1917 – 2012"
+  },
+  "year": 1962,
+  "year_display": {
+    "en": "1962",
+    "zh": "1962 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United Kingdom",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q7712866",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Hobsbawm reads sixty years of European history through a 'dual revolution', the French political one and the British industrial one, and follows them into land, labour, science, religion and the arts. The synthesis is confident and lucid, compressing a vast literature into one argument, and it opened his series on the long nineteenth century. Its framework is firm enough that readers should notice where it guides the evidence.",
+    "zh": "霍布斯鲍姆以“双元革命”读解六十年的欧洲史：法国的政治革命与英国的工业革命，并追踪它们如何深入土地、劳动、科学、宗教和艺术。综合论述自信而清晰，把海量文献压缩成一条论证，也开启了他关于“漫长的十九世纪”的系列。框架之坚定，读者也应留意它何处在引导证据。"
+  },
+  "checked": "2026-10-15"
+}

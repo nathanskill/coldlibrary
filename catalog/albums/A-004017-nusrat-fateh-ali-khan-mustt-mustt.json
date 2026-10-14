@@ -1,0 +1,46 @@
+{
+  "id": "A-004017",
+  "slug": "nusrat-fateh-ali-khan-mustt-mustt",
+  "title": {
+    "orig": "Mustt Mustt",
+    "en": "Mustt Mustt",
+    "zh": "Mustt Mustt"
+  },
+  "artist": {
+    "orig": "نصرت فتح علی خان",
+    "en": "Nusrat Fateh Ali Khan",
+    "zh": "努斯拉特·法帖·阿里·汗",
+    "mbid": "5968383c-11c1-4c5b-ada0-504a38cec8e7"
+  },
+  "year": 1990,
+  "released": "1990",
+  "region": "PK",
+  "lang": "ur",
+  "genres": [
+    "world",
+    "traditional",
+    "electronic"
+  ],
+  "style": {
+    "en": "qawwali fusion",
+    "zh": "卡瓦力融合"
+  },
+  "label": "Real World",
+  "tracks": 11,
+  "length": "50:23",
+  "mbid": "eb722fee-1372-3ee2-8797-7cd0044a236e",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/eb722fee-1372-3ee2-8797-7cd0044a236e",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Mustt_Mustt",
+    "wikipedia_zh": null
+  },
+  "start_with": "Mustt Mustt (Lost in His Work)",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "A collaboration between the qawwali singer Nusrat Fateh Ali Khan and the Canadian producer and guitarist Michael Brook, released on Peter Gabriel's Real World label. Qawwali vocal lines are set inside Western rhythm and ambient textures, and a Massive Attack remix of the title track closes the album. Purists find the devotional form thinned out; its reach outside South Asia was considerable.",
+    "zh": "卡瓦力歌手努斯拉特·法帖·阿里·汗与加拿大制作人、吉他手迈克尔·布鲁克的合作，由彼得·加布里埃尔的 Real World 厂牌发行。卡瓦力的人声被放进西方节奏和氛围音色之中，专辑以 Massive Attack 对同名曲的混音收尾。纯粹派觉得宗教歌唱的形式被冲淡了，但它在南亚以外的影响相当大。"
+  },
+  "checked": "2026-10-15"
+}

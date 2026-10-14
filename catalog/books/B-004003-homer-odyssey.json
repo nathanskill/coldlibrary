@@ -1,0 +1,57 @@
+{
+  "id": "B-004003",
+  "slug": "homer-odyssey",
+  "category": "literature",
+  "title": {
+    "orig": "Ὀδύσσεια",
+    "en": "The Odyssey",
+    "zh": "奥德赛"
+  },
+  "author": {
+    "orig": "Ὅμηρος",
+    "en": "Homer",
+    "zh": "荷马",
+    "dates": "c. 8th century BCE",
+    "dates_zh": "约公元前 8 世纪"
+  },
+  "year": -725,
+  "year_display": {
+    "en": "c. 725 BCE",
+    "zh": "约公元前 725 年"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Ancient Greece",
+    "zh": "古希腊"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1727",
+      "note": {
+        "en": "Samuel Butler’s prose translation (1900)",
+        "zh": "塞缪尔·巴特勒散文英译（1900）"
+      }
+    },
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant",
+      "note": {
+        "en": "William Cullen Bryant’s verse translation (1871–1872)",
+        "zh": "威廉·卡伦·布莱恩特诗体英译（1871–1872）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q35160",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "The first great homecoming story, built with surprising cunning: it begins with a son searching, lets the hero tell his own wonders at a stranger’s table, and spends its second half in a single house. Monsters matter less than hospitality, disguise and recognition, and a wife who is every bit as clever as her husband.",
+    "zh": "第一部伟大的归乡故事，结构出奇地精巧：从儿子寻父开始，让英雄在异乡的宴席上亲口讲述奇遇，后半部几乎都发生在同一座宅院里。比起怪物，更要紧的是待客之道、伪装与相认，还有一位和丈夫一样聪明的妻子。"
+  },
+  "checked": "2026-10-15"
+}

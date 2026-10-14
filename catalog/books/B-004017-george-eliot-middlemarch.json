@@ -1,0 +1,57 @@
+{
+  "id": "B-004017",
+  "slug": "george-eliot-middlemarch",
+  "category": "literature",
+  "title": {
+    "orig": "Middlemarch",
+    "en": "Middlemarch",
+    "zh": "米德尔马契"
+  },
+  "author": {
+    "orig": "George Eliot",
+    "en": "George Eliot",
+    "zh": "乔治·艾略特",
+    "dates": "1819–1880",
+    "dates_zh": "1819–1880"
+  },
+  "year": 1871,
+  "year_display": {
+    "en": "1871–1872",
+    "zh": "1871–1872 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "England",
+    "zh": "英格兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/george-eliot/middlemarch",
+      "note": {
+        "en": "The novel (1871–1872)",
+        "zh": "小说原文（1871–1872）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/145",
+      "note": {
+        "en": "The novel (1871–1872)",
+        "zh": "小说原文（1871–1872）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q313129",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "A provincial town around 1830, seen through several marriages and ambitions that go wrong in quiet ways. George Eliot moves between minds with wisdom and without contempt, and keeps asking how much a good life can achieve inside its circumstances. Its sentences can be long, but few novels are so fair to everyone in them.",
+    "zh": "1830 年前后的一座外省小镇，透过几段婚姻和几份悄然落空的抱负来写。乔治·艾略特在人物心灵之间穿行，有智慧而无轻蔑，一再追问：一个好的人生，在它的处境之内能做成多少。句子有时很长，但很少有小说对书中每个人都如此公道。"
+  },
+  "checked": "2026-10-15"
+}

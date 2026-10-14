@@ -73,5 +73,12 @@
   "plate": null,
   "pairs": [
     "S-004010"
-  ]
+  ],
+  "score": {
+    "value": 8.8,
+    "note": {
+      "en": "Three stanzas of homely measurement end in a startling distinction, syllable from sound; one of Dickinson’s boldest thoughts, held in her plainest form.",
+      "zh": "三节家常的度量，结束于一个惊人的区分：音节与声音；狄金森最大胆的思想之一，装在最朴素的形式里。"
+    }
+  }
 }

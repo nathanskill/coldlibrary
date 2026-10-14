@@ -115,5 +115,12 @@
   "pairs": [
     "S-001036",
     "S-001027"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "A farewell that forbids tears, built around a couplet still written to friends far away; the opening couplet’s place names are more formal than felt.",
+      "zh": "一首不许流泪的送别诗，“海内存知己”至今仍写给远方的朋友；首联地名铺排，稍显板正。"
+    }
+  }
 }

@@ -1,0 +1,46 @@
+{
+  "id": "B-001023",
+  "slug": "egyptian-book-of-the-dead",
+  "category": "faith",
+  "title": {
+    "orig": "rw nw prt m hrw",
+    "en": "The Egyptian Book of the Dead",
+    "zh": "亡灵书"
+  },
+  "author": null,
+  "year": -1550,
+  "year_display": {
+    "en": "from c. 1550 BCE",
+    "zh": "约前 1550 年起"
+  },
+  "lang": "egy",
+  "origin": {
+    "en": "Egypt",
+    "zh": "埃及"
+  },
+  "tradition": {
+    "en": "Ancient Egyptian religion",
+    "zh": "古埃及宗教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/7145",
+      "note": {
+        "en": "E. A. Wallis Budge's translation, from the Papyrus of Ani",
+        "zh": "巴奇英译本，据阿尼纸草"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q174361",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Not one book but a body of some two hundred spells, written on papyrus rolls and placed in tombs from the New Kingdom on, to guide the dead through the underworld. Each roll was a selection, often illustrated, as in the Papyrus of Ani. The weighing of the heart against the feather of Maat is its best-known scene. Of great historical worth, uneven as literature.",
+    "zh": "它不是一本书，而是约两百条咒文的汇集，自新王国时期起写在纸草卷上放入墓中，引导死者穿越冥界。每一卷都是一种选编，常配有插图，阿尼纸草即是一例。最著名的场景，是把死者的心与玛阿特的羽毛放在天平上称量。历史价值极高，作为文学则参差不齐。"
+  },
+  "checked": "2026-10-15"
+}

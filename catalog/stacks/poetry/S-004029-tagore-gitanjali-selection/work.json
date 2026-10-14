@@ -71,5 +71,12 @@
   "plate": null,
   "pairs": [
     "S-004030"
-  ]
+  ],
+  "score": {
+    "value": 8.1,
+    "note": {
+      "en": "Tagore’s own English versions, which won him the Nobel Prize, are luminous in places, but their archaic diction loses much of the Bengali songs’ music.",
+      "zh": "泰戈尔自译的英文本，为他赢得诺贝尔奖；不少段落澄澈，但古旧的措辞失去了孟加拉语原歌的音乐。"
+    }
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "B-001013",
+  "slug": "taishang-ganying-pian",
+  "category": "faith",
+  "title": {
+    "orig": "太上感應篇",
+    "en": "Treatise of the Most High on Action and Response",
+    "zh": "太上感应篇"
+  },
+  "author": null,
+  "year": 1150,
+  "year_display": {
+    "en": "Song dynasty",
+    "zh": "宋代"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": {
+    "en": "Daoism",
+    "zh": "道教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/太上感應篇",
+      "note": {
+        "en": "the Chinese text",
+        "zh": "中文原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q10028643",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "A short Daoist moral scripture from the Song dynasty, teaching that good and evil deeds bring their own response, followed by long lists of acts to do and to avoid. It belongs to the Daoist canon and became one of the most widely printed books in late imperial China, distributed free by the devout as an act of merit.",
+    "zh": "宋代的一部道教劝善短经，讲善恶之行各有感应，随后列出应当奉行和应当戒除的种种行为。它收入道藏，在明清两代是印行最多的书之一，信众常把印送此书当作积功德的善举。"
+  },
+  "checked": "2026-10-15"
+}

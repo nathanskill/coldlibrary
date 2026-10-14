@@ -1,0 +1,46 @@
+{
+  "id": "A-004021",
+  "slug": "fairuz-wahdon",
+  "title": {
+    "orig": "وحدن",
+    "en": "Wahdon",
+    "zh": "他们独自"
+  },
+  "artist": {
+    "orig": "فيروز",
+    "en": "Fairuz",
+    "zh": "菲鲁兹",
+    "mbid": "338bbb53-5b96-447a-9444-8906844a0790"
+  },
+  "year": 1979,
+  "released": "1979",
+  "region": "LB",
+  "lang": "ar",
+  "genres": [
+    "pop",
+    "jazz",
+    "world"
+  ],
+  "style": {
+    "en": "Lebanese song",
+    "zh": "黎巴嫩歌曲"
+  },
+  "label": "Zida",
+  "tracks": 5,
+  "length": "31:19",
+  "mbid": "c0723126-7920-4725-a853-5cdc9cdb6f6e",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/c0723126-7920-4725-a853-5cdc9cdb6f6e",
+    "wikipedia_en": null,
+    "wikipedia_zh": null
+  },
+  "start_with": "البوسطة",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "An album of five songs made by Fairuz with her son Ziad Rahbani, who brought jazz harmony, lighter colloquial writing and a smaller, looser band to a voice long tied to the grand Rahbani brothers style. It marked a turn in her work that Ziad would continue for decades. The record was reissued internationally in 2019, a sign of how it has kept its place.",
+    "zh": "菲鲁兹与儿子齐亚德·拉赫巴尼合作的五首歌。齐亚德带来了爵士和声、更轻快的口语化写法和更小更松的乐队，而她的嗓音此前长期与拉赫巴尼兄弟的宏大风格连在一起。这张唱片标志着她作品的一次转向，齐亚德此后把这条路走了几十年。2019 年它在海外再版，可见它一直没有退场。"
+  },
+  "checked": "2026-10-15"
+}

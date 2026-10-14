@@ -1,0 +1,40 @@
+{
+  "id": "B-004026",
+  "slug": "rulfo-pedro-paramo",
+  "category": "literature",
+  "title": {
+    "orig": "Pedro Páramo",
+    "en": "Pedro Páramo",
+    "zh": "佩德罗·巴拉莫"
+  },
+  "author": {
+    "orig": "Juan Rulfo",
+    "en": "Juan Rulfo",
+    "zh": "胡安·鲁尔福",
+    "dates": "1917–1986",
+    "dates_zh": "1917–1986"
+  },
+  "year": 1955,
+  "year_display": {
+    "en": "1955",
+    "zh": "1955 年"
+  },
+  "lang": "es",
+  "origin": {
+    "en": "Mexico",
+    "zh": "墨西哥"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q1427966",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "A son goes to Comala to find his father and discovers a town of murmuring dead. In about a hundred and twenty pages, broken into fragments and shifting voices, Rulfo tells the story of a landowner’s power and the desolation it leaves. Short, difficult at first and haunting afterwards, it opened a path for much Latin American fiction after it.",
+    "zh": "一个儿子来到科马拉寻找父亲，发现这是一座满是亡魂低语的小镇。一百多页，碎片式的段落和不断变换的声音，鲁尔福讲出一个庄园主的权势，以及它留下的荒凉。篇幅短，初读费解，读完挥之不去；此后许多拉丁美洲小说都从它开辟的路上走过。"
+  },
+  "checked": "2026-10-15"
+}

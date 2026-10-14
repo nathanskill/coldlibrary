@@ -71,5 +71,12 @@
   "plate": null,
   "pairs": [
     "S-004011"
-  ]
+  ],
+  "score": {
+    "value": 7.9,
+    "note": {
+      "en": "Seven lines of doubts and a two-line answer that has become a motto; the answer is good, but the complaints before it are Whitman at his most diffuse.",
+      "zh": "七行疑问，两行回答，回答成了座右铭；答得好，但前面的抱怨是惠特曼最散漫的写法。"
+    }
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "A-004003",
+  "slug": "yellow-magic-orchestra-solid-state-survivor",
+  "title": {
+    "orig": "Solid State Survivor",
+    "en": "Solid State Survivor",
+    "zh": "固态生还者"
+  },
+  "artist": {
+    "orig": "Yellow Magic Orchestra",
+    "en": "Yellow Magic Orchestra",
+    "zh": "黄色魔术乐团",
+    "mbid": "ac5af671-1df0-4312-8b7b-e61992ecc883"
+  },
+  "year": 1979,
+  "released": "1979-09-25",
+  "region": "JP",
+  "lang": "en",
+  "genres": [
+    "electronic",
+    "pop"
+  ],
+  "style": {
+    "en": "technopop",
+    "zh": "电子流行"
+  },
+  "label": "ALFA",
+  "tracks": 8,
+  "length": "32:03",
+  "mbid": "0b232453-8666-361f-b1db-2578fc4a9f97",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/0b232453-8666-361f-b1db-2578fc4a9f97",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Solid_State_Survivor",
+    "wikipedia_zh": null
+  },
+  "start_with": "Rydeen",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Haruomi Hosono, Ryuichi Sakamoto and Yukihiro Takahashi's second album packs sequencers, vocoders and pop hooks into eight tracks and thirty-two minutes, including a robotic take on the Beatles' Day Tripper. Technopolis and Rydeen became signature pieces, and Behind the Mask was later recorded by Eric Clapton and Michael Jackson. It is one of the records that taught the world electronic pop could come from Tokyo.",
+    "zh": "细野晴臣、坂本龙一、高桥幸宏的第二张专辑，八首歌、三十二分钟，装进了音序器、声码器和流行旋律，还有一版机械化的披头士《Day Tripper》。《Technopolis》《Rydeen》成了代表作，《Behind the Mask》后来被埃里克·克莱普顿和迈克尔·杰克逊录过。电子流行可以来自东京，世界是从这样的唱片里知道的。"
+  },
+  "checked": "2026-10-15"
+}

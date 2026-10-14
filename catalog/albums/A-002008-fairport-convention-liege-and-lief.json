@@ -1,0 +1,46 @@
+{
+  "id": "A-002008",
+  "slug": "fairport-convention-liege-and-lief",
+  "title": {
+    "orig": "Liege & Lief",
+    "en": "Liege & Lief",
+    "zh": "Liege & Lief"
+  },
+  "artist": {
+    "orig": "Fairport Convention",
+    "en": "Fairport Convention",
+    "zh": "Fairport Convention",
+    "mbid": "cc60d937-e80b-4c66-8aa2-e89cb57c8b08"
+  },
+  "year": 1969,
+  "released": "1969-12",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "folk",
+    "rock",
+    "traditional"
+  ],
+  "style": {
+    "en": "British folk rock",
+    "zh": "英伦民谣摇滚"
+  },
+  "label": "Island",
+  "tracks": 8,
+  "length": "40:19",
+  "mbid": "3a6b89d1-ae82-3710-8e71-765405aa8a78",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/3a6b89d1-ae82-3710-8e71-765405aa8a78",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Liege_%26_Lief",
+    "wikipedia_zh": null
+  },
+  "start_with": "Matty Groves",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Made in 1969 after a road accident killed the band's drummer, this album turned Fairport toward traditional English ballads played with electric guitars and Dave Swarbrick's fiddle. Sandy Denny sings long story songs such as Matty Groves and Tam Lin. It is often credited with founding British folk rock, and its historical weight exceeds its consistency.",
+    "zh": "1969 年，一场车祸夺走乐队鼓手之后，他们转向英格兰传统叙事歌，用电吉他和戴夫·斯沃布里克的小提琴来演。桑迪·丹尼唱《Matty Groves》《Tam Lin》这样的长篇故事歌。它常被视为英伦民谣摇滚的奠基之作，历史分量大于整张的完整度。"
+  },
+  "checked": "2026-10-15"
+}

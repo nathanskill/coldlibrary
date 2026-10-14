@@ -1,0 +1,44 @@
+{
+  "id": "A-004012",
+  "slug": "sanullim-ani-beolsseo",
+  "title": {
+    "orig": "아니벌써",
+    "en": "Ani Beolsseo",
+    "zh": "已经吗"
+  },
+  "artist": {
+    "orig": "산울림",
+    "en": "Sanullim",
+    "zh": "山之回声",
+    "mbid": "c1ceefe2-db42-4d17-b7fc-47c01dc5b0c8"
+  },
+  "year": 1977,
+  "released": "1977-12-15",
+  "region": "KR",
+  "lang": "ko",
+  "genres": [
+    "rock"
+  ],
+  "style": {
+    "en": "garage rock",
+    "zh": "车库摇滚"
+  },
+  "label": "SRB Records",
+  "tracks": 9,
+  "length": "45:18",
+  "mbid": "36813c96-5ab8-4d02-b154-582f12e0239b",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/36813c96-5ab8-4d02-b154-582f12e0239b",
+    "wikipedia_en": null,
+    "wikipedia_zh": null
+  },
+  "start_with": "아니 벌써",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "The debut of Sanullim, the three Kim brothers Chang-wan, Chang-hoon and Chang-ik, made at home outside the music business and released with almost no polish. Fuzz guitars, loose organ and plain Korean words sat closer to garage rock than to anything on Korean radio at the time, and it sold widely. Later Korean rock and indie musicians have long pointed back to it as a beginning.",
+    "zh": "山之回声的出道专辑，由金昌完、金昌勋、金昌翼三兄弟在音乐圈之外自己做出来，几乎不加修饰就发行了。失真吉他、松散的风琴和朴素的韩语歌词，更接近车库摇滚，与当时韩国电台里的声音都不同，却卖得很好。后来的韩国摇滚和独立音乐人，常把这里当作起点。"
+  },
+  "checked": "2026-10-15"
+}

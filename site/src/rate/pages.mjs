@@ -248,7 +248,7 @@ function bookPage(ctx, e) {
         ? `<h2 class="h-small">${T('Read it free', '免费读全文')}</h2><ul class="read-links">${b.read.map((r) => `<li><a href="${esc(r.url)}" rel="noopener">${esc(r.name)}</a> <span class="meta">${esc(L(lang, r.note))}</span></li>`).join('')}</ul>`
         : `<p class="meta">${T('Still in copyright: the library keeps its information, score and review, not its text.', '仍在版权期内：本馆只收书目、评分和短评，不收正文。')}</p>`;
       const sel = stacks.length ? `<h2 class="h-small">${T('In the Open Stacks', '开架书库里有')}</h2><ul class="read-links">${stacks.map((w) => `<li><a href="${workHref(lang, w)}">${esc(w.title[lang] || w.title.en)}</a> <span class="meta">${T('read in full here, with notes', '可在本站读全文，带注释')}</span></li>`).join('')}</ul>` : '';
-      const authorPage = b.author && ctx.open.authors.find((r) => r.slug === personSlug(b.author));
+      const authorPage = b.author && ctx.open.authors.find((r) => r.slug === personSlug(b.author) && r.works.length >= 2);
       return `<article class="book" aria-labelledby="book-title">
   <header class="ph rate-ph"><div class="wrap grid"><div class="c-main">
     ${crumbs(lang, [[T('The Catalogue', '书目'), href(lang, 'books')], [esc(catName(lang, cat, b.category)), href(lang, 'charts/' + b.category)]])}

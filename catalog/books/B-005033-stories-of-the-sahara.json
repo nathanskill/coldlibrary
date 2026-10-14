@@ -1,0 +1,37 @@
+{
+  "id": "B-005033",
+  "slug": "stories-of-the-sahara",
+  "category": "literature",
+  "title": {
+    "orig": "撒哈拉的故事",
+    "en": "Stories of the Sahara",
+    "zh": "撒哈拉的故事"
+  },
+  "author": {
+    "orig": "三毛",
+    "en": "Sanmao",
+    "zh": "三毛",
+    "dates": "1943–1991"
+  },
+  "year": 1976,
+  "year_display": {
+    "en": "1976 (pieces from 1974)",
+    "zh": "1976 年（篇章自 1974 年起发表）"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "Western Sahara (published in Taiwan)",
+    "zh": "西撒哈拉（在台湾出版）"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q7766680",
+  "score": {
+    "value": 7.4
+  },
+  "review": {
+    "en": "Sanmao's accounts of married life with her Spanish husband in the desert of Western Sahara: neighbours, weddings, a home built from scraps, trips across the sand. The tone is breezy, warm and self-dramatising, more charm than depth. It nonetheless opened the wider world to a generation of Chinese readers, and its freedom of spirit still carries.",
+    "zh": "三毛和西班牙丈夫在西撒哈拉沙漠里的婚姻生活：邻居、婚礼、用废料布置起来的家、穿越沙漠的旅行。笔调轻快温暖，带几分自我戏剧化，魅力多于深度。但它为一代华文读者打开了外面的世界，那份自由的气息至今仍在。"
+  },
+  "checked": "2026-10-15"
+}

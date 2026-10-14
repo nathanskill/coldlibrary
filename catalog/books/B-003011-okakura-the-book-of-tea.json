@@ -1,0 +1,49 @@
+{
+  "id": "B-003011",
+  "slug": "okakura-the-book-of-tea",
+  "category": "aesthetics",
+  "title": {
+    "orig": "The Book of Tea",
+    "en": "The Book of Tea",
+    "zh": "茶之书"
+  },
+  "author": {
+    "orig": "岡倉覚三（天心）",
+    "en": "Okakura Kakuzō",
+    "zh": "冈仓天心",
+    "dates": "1863 – 1913",
+    "dates_zh": "1863 – 1913"
+  },
+  "year": 1906,
+  "year_display": {
+    "en": "1906",
+    "zh": "1906 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/769",
+      "note": {
+        "en": "the original English text",
+        "zh": "英文原著"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q7719311",
+  "score": {
+    "value": 8.1
+  },
+  "review": {
+    "en": "Written in English in Boston, this short book uses the tea room and its ritual to explain to Western readers a whole Asian sense of taste: Taoist emptiness, Zen simplicity, the beauty of the imperfect and unfinished. It generalises freely and has a gentle polemical edge, but it remains one of the most graceful introductions to that sensibility.",
+    "zh": "这本小书在波士顿用英文写成，借茶室和茶道向西方读者讲解一整套东亚的趣味：道家的虚，禅的简，残缺与未完成之美。书中概括得相当随意，也带着温和的论战锋芒，但仍是介绍这种感受力最优雅的入门之作之一。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "B-004032",
+  "slug": "murakami-norwegian-wood",
+  "category": "literature",
+  "title": {
+    "orig": "ノルウェイの森",
+    "en": "Norwegian Wood",
+    "zh": "挪威的森林"
+  },
+  "author": {
+    "orig": "村上春樹",
+    "en": "Haruki Murakami",
+    "zh": "村上春树",
+    "dates": "1949–",
+    "dates_zh": "1949–"
+  },
+  "year": 1987,
+  "year_display": {
+    "en": "1987",
+    "zh": "1987 年"
+  },
+  "lang": "ja",
+  "origin": {
+    "en": "Japan",
+    "zh": "日本"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q751348",
+  "score": {
+    "value": 7.8
+  },
+  "review": {
+    "en": "A man in his late thirties hears a Beatles song and remembers his student years in Tokyo around 1969, and two young women he loved. It is Murakami’s most straightforward and most popular novel, tender and easy to read. Its melancholy is affecting, though the women exist mostly for the narrator, and grief sometimes turns into mood.",
+    "zh": "一个三十多岁的男人听到一首披头士的歌，想起 1969 年前后在东京的学生时代，和他爱过的两个女孩。这是村上春树最平实、也最受欢迎的小说，温柔易读。它的感伤动人，但女性人物多半只为叙述者而存在，悲伤有时化成了氛围。"
+  },
+  "checked": "2026-10-15"
+}

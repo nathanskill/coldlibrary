@@ -75,5 +75,12 @@
     "S-007004",
     "S-007002",
     "S-007024"
-  ]
+  ],
+  "score": {
+    "value": 8.0,
+    "note": {
+      "en": "A young inventor’s notice for one of the first calculating machines, candid about more than fifty models and the trade-offs of design; more historical interest than lasting thought.",
+      "zh": "年轻发明家为最早的计算机器之一写的告示，坦言造过五十多个模型和设计上的取舍；历史意义大于思想分量。"
+    }
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "id": "B-003014",
+  "slug": "twenty-four-categories-of-poetry",
+  "category": "aesthetics",
+  "title": {
+    "orig": "二十四詩品",
+    "en": "The Twenty-Four Categories of Poetry",
+    "zh": "二十四诗品"
+  },
+  "author": {
+    "orig": "司空圖（傳）",
+    "en": "Sikong Tu (attributed)",
+    "zh": "司空图（传）",
+    "dates": "837 – 908",
+    "dates_zh": "837 – 908"
+  },
+  "year": 900,
+  "year_display": {
+    "en": "traditionally late 9th century; date and authorship disputed",
+    "zh": "旧题晚唐，作者与年代有争议"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (zh)",
+      "url": "https://zh.wikisource.org/wiki/二十四詩品",
+      "note": {
+        "en": "classical Chinese text",
+        "zh": "文言原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q10880075",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "Twenty-four short poems in four-character lines, each evoking a mood of poetry, the vigorous, the limpid, the desolate, the natural, through images rather than definitions. Whether Sikong Tu wrote them is now doubted. Read as poems about poetry they are subtle and lovely, and they taught later readers to describe style by its atmosphere.",
+    "zh": "二十四首四言短诗，每首以意象而非定义，勾勒一种诗境：雄浑、冲淡、悲慨、自然。是否出自司空图，今天已有疑问。把它当作论诗的诗来读，精微而动人，也教会后来的读者用气象和意境去描述风格。"
+  },
+  "checked": "2026-10-15"
+}

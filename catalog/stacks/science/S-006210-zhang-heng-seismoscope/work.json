@@ -200,5 +200,12 @@
     "S-006004",
     "S-006005",
     "S-002044"
-  ]
+  ],
+  "score": {
+    "value": 8.2,
+    "note": {
+      "en": "The only full description of Zhang Heng’s seismoscope, reported with the test that seemed to fail and did not; good historical prose, though the instrument outshines the writing.",
+      "zh": "张衡地动仪唯一完整的记载，连那次看似失灵、其实应验的检验也写进去；史笔不错，只是仪器比文字更耀眼。"
+    }
+  }
 }

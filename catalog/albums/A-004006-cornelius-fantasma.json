@@ -1,0 +1,46 @@
+{
+  "id": "A-004006",
+  "slug": "cornelius-fantasma",
+  "title": {
+    "orig": "Fantasma",
+    "en": "Fantasma",
+    "zh": "Fantasma"
+  },
+  "artist": {
+    "orig": "Cornelius",
+    "en": "Cornelius",
+    "zh": "Cornelius",
+    "mbid": "df765d93-621c-437f-99fe-fda9e135f89a"
+  },
+  "year": 1997,
+  "released": "1997-08-06",
+  "region": "JP",
+  "lang": "en",
+  "genres": [
+    "pop",
+    "electronic",
+    "indie"
+  ],
+  "style": {
+    "en": "Shibuya-kei",
+    "zh": "涩谷系"
+  },
+  "label": "Trattoria",
+  "tracks": 14,
+  "length": "74:00",
+  "mbid": "7ab5258c-d0d7-39f0-b1bb-383a4053c754",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/7ab5258c-d0d7-39f0-b1bb-383a4053c754",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Fantasma_(Cornelius_album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Star Fruits Surf Rider",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Keigo Oyamada's third album as Cornelius is a seventy-four-minute collage of samples, stereo tricks, guitar noise and sunny pop, made by someone who had absorbed decades of records. Released in America by Matador in 1998, it carried the Shibuya-kei sensibility abroad. Its ideas sprawl, and that sprawl is the point: a record about the joy of listening itself.",
+    "zh": "小山田圭吾以 Cornelius 之名的第三张专辑，七十四分钟里拼贴了采样、立体声把戏、吉他噪音和明亮的流行旋律，出自一个吃透了几十年唱片的人。1998 年由 Matador 在美国发行，把涩谷系的趣味带到海外。它的点子铺得很开，而这正是它的用意：一张关于聆听本身之乐的唱片。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "B-001007",
+  "slug": "dhammapada",
+  "category": "faith",
+  "title": {
+    "orig": "Dhammapada",
+    "en": "Dhammapada",
+    "zh": "法句经"
+  },
+  "author": null,
+  "year": -250,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "pi",
+  "origin": {
+    "en": "India",
+    "zh": "印度"
+  },
+  "tradition": {
+    "en": "Buddhism",
+    "zh": "佛教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2017",
+      "note": {
+        "en": "F. Max Müller's translation (1881)",
+        "zh": "麦克斯·缪勒英译本（1881）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q748878",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "A collection of 423 verses attributed to the Buddha, arranged in twenty-six chapters by theme: the mind, the fool, the wise, anger, happiness. Part of the Pali Canon, it is learned by heart by monks and lay people across Theravada Asia. Its couplets are plain, vivid and easy to remember, which has made it one of the most translated Buddhist texts.",
+    "zh": "相传为佛陀所说的偈颂集，共 423 颂，按主题分为二十六品，如心品、愚品、智者品、忿怒品、乐品。它属于巴利三藏，南传佛教各国的僧人和信众都背诵它。偈句朴素生动、易于记忆，因此成为译本最多的佛典之一。"
+  },
+  "checked": "2026-10-15"
+}

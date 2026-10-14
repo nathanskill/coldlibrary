@@ -1,0 +1,49 @@
+{
+  "id": "B-001016",
+  "slug": "pilgrims-progress",
+  "category": "faith",
+  "title": {
+    "orig": "The Pilgrim's Progress",
+    "en": "The Pilgrim's Progress",
+    "zh": "天路历程"
+  },
+  "author": {
+    "orig": "John Bunyan",
+    "en": "John Bunyan",
+    "zh": "约翰·班扬",
+    "dates": "1628–1688",
+    "dates_zh": "1628–1688"
+  },
+  "year": 1678,
+  "year_display": {
+    "en": "1678",
+    "zh": "1678 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "England",
+    "zh": "英格兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/131",
+      "note": {
+        "en": "the English original",
+        "zh": "英文原著"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q268211",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "An allegory told as a dream, partly written in prison by a Baptist tinker: Christian leaves the City of Destruction with a burden on his back and travels through the Slough of Despond and Vanity Fair to the Celestial City. Its plain English and living characters made it, for two centuries, one of the most read books in English after the Bible.",
+    "zh": "一个梦中的寓言，作者是一位浸信会的补锅匠，部分写于狱中：基督徒背着重担离开毁灭城，经过灰心沼、名利场，走向天城。它朴素的英语和鲜活的人物，使它在两个世纪里成为英语世界仅次于圣经的读物之一。"
+  },
+  "checked": "2026-10-15"
+}

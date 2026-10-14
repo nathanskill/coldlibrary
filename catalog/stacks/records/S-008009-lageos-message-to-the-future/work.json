@@ -92,5 +92,12 @@
     "S-008004",
     "S-008010",
     "S-008012"
-  ]
+  ],
+  "score": {
+    "value": 7.6,
+    "note": {
+      "en": "Sagan’s plaque for our descendants, explained by NASA, tells time by drifting continents and rounds its numbers honestly; a thoughtful design in a plain technical description.",
+      "zh": "萨根为后代设计的铭牌，以大陆漂移计时，数字刻意取整不冒充精确；设计用心，文字只是平实的技术说明。"
+    }
+  }
 }

@@ -210,5 +210,12 @@
     "S-006004",
     "S-002046",
     "S-007006"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "The defining classic of Chinese mathematics, here at its most familiar: the base-and-upright rule stated generally, then applied to logs, vines and a reed in a pond.",
+      "zh": "中国数学的奠基经典，这里是它最为人熟知的部分：先给出勾股通则，再用圆木、葛藤、池中芦苇演算。"
+    }
+  }
 }

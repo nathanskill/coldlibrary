@@ -1,0 +1,57 @@
+{
+  "id": "B-004022",
+  "slug": "woolf-mrs-dalloway",
+  "category": "literature",
+  "title": {
+    "orig": "Mrs Dalloway",
+    "en": "Mrs Dalloway",
+    "zh": "达洛维夫人"
+  },
+  "author": {
+    "orig": "Virginia Woolf",
+    "en": "Virginia Woolf",
+    "zh": "弗吉尼亚·伍尔夫",
+    "dates": "1882–1941",
+    "dates_zh": "1882–1941"
+  },
+  "year": 1925,
+  "year_display": {
+    "en": "1925",
+    "zh": "1925 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "England",
+    "zh": "英格兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/virginia-woolf/mrs-dalloway",
+      "note": {
+        "en": "The 1925 novel",
+        "zh": "1925 年小说原文"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/71865",
+      "note": {
+        "en": "The 1925 novel",
+        "zh": "1925 年小说原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q752584",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "One June day in London: a woman prepares a party, and a former soldier unravels across the city. Woolf passes the narration from mind to mind as Big Ben strikes, and the two lives never meet yet answer each other. It is a short book that holds war, age, love and the pleasure of a fine morning.",
+    "zh": "伦敦六月的一天：一个女人筹备晚会，一个退伍士兵在城市另一端逐渐崩溃。大本钟报时之间，伍尔夫让叙述从一颗心灵传到另一颗；两人从未相遇，却彼此呼应。这本薄书装下了战争、衰老、爱，以及一个晴朗早晨的愉悦。"
+  },
+  "checked": "2026-10-15"
+}

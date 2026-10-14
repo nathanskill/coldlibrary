@@ -1,0 +1,49 @@
+{
+  "id": "B-003006",
+  "slug": "kant-critique-of-judgment",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Kritik der Urteilskraft",
+    "en": "Critique of Judgment",
+    "zh": "判断力批判"
+  },
+  "author": {
+    "orig": "Immanuel Kant",
+    "en": "Immanuel Kant",
+    "zh": "康德",
+    "dates": "1724 – 1804",
+    "dates_zh": "1724 – 1804"
+  },
+  "year": 1790,
+  "year_display": {
+    "en": "1790",
+    "zh": "1790 年"
+  },
+  "lang": "de",
+  "origin": {
+    "en": "Prussia",
+    "zh": "普鲁士"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/48433",
+      "note": {
+        "en": "J. H. Bernard's translation (2nd edition, 1914)",
+        "zh": "伯纳德英译本（第二版，1914）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1056332",
+  "score": {
+    "value": 9.4
+  },
+  "review": {
+    "en": "The book that made aesthetics a full part of philosophy: a judgment of beauty is disinterested, claims everyone's agreement without a concept, and finds purposiveness without a purpose. Its pages on the sublime and on genius are as weighty. The prose is hard going, but nearly every later theory of art begins by agreeing or quarrelling with it.",
+    "zh": "这本书让美学成为哲学的完整部分：审美判断是无利害的，不凭概念却要求人人同意，见出“无目的的合目的性”。论崇高与天才的部分同样厚重。文字难读，但此后几乎每一种艺术理论，都从赞同它或反驳它开始。"
+  },
+  "checked": "2026-10-15"
+}

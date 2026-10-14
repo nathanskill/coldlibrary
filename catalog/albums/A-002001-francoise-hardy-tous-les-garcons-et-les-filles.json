@@ -1,0 +1,44 @@
+{
+  "id": "A-002001",
+  "slug": "francoise-hardy-tous-les-garcons-et-les-filles",
+  "title": {
+    "orig": "Tous les garçons et les filles",
+    "en": "Tous les garçons et les filles",
+    "zh": "Tous les garçons et les filles"
+  },
+  "artist": {
+    "orig": "Françoise Hardy",
+    "en": "Françoise Hardy",
+    "zh": "Françoise Hardy",
+    "mbid": "d2a79d20-1304-47fd-a998-b4fe1ec78373"
+  },
+  "year": 1962,
+  "released": "1962-11",
+  "region": "FR",
+  "lang": "fr",
+  "genres": [
+    "pop"
+  ],
+  "style": {
+    "en": "yé-yé",
+    "zh": "耶耶流行"
+  },
+  "label": "Disques Vogue",
+  "tracks": 12,
+  "length": "28:32",
+  "mbid": "e6c96903-b706-3838-947b-c3d21a760884",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/e6c96903-b706-3838-947b-c3d21a760884",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Tous_les_gar%C3%A7ons_et_les_filles",
+    "wikipedia_zh": null
+  },
+  "start_with": "Tous les garçons et les filles",
+  "score": {
+    "value": 7.8
+  },
+  "review": {
+    "en": "Françoise Hardy's first album arrived at the height of French yé-yé, when most young singers recorded songs handed to them. She wrote most of these herself, and the title song became a major hit in France. The record is short and plainly arranged; its lasting interest is a songwriter's voice emerging inside a teen-pop industry.",
+    "zh": "这张首专出现在法国耶耶流行最盛的时候，那时年轻歌手多半唱别人写好的歌，阿尔迪却自己写了其中大部分。同名曲在法国大热。唱片短小，编曲朴素；它真正留下的，是一个创作者在青春流行工业里长出自己的声音。"
+  },
+  "checked": "2026-10-15"
+}

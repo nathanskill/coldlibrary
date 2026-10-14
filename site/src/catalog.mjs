@@ -91,6 +91,7 @@ export function regionName(lang, code) {
 }
 export function langLabel(lang, code) {
   if (code === 'zxx') return t(lang)('Instrumental', '器乐');
+  if (/^lzh/.test(code)) return t(lang)('Classical Chinese', '文言');
   try { return new Intl.DisplayNames([lang === 'zh' ? 'zh-Hans' : 'en'], { type: 'language' }).of(code) || code; } catch { return code; }
 }
 

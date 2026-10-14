@@ -1,0 +1,49 @@
+{
+  "id": "B-002021",
+  "slug": "kim-busik-samguk-sagi",
+  "category": "history",
+  "title": {
+    "orig": "三國史記",
+    "en": "Samguk sagi (History of the Three Kingdoms)",
+    "zh": "三国史记"
+  },
+  "author": {
+    "orig": "金富軾",
+    "en": "Kim Busik",
+    "zh": "金富轼",
+    "dates": "1075 – 1151",
+    "dates_zh": "1075 – 1151"
+  },
+  "year": 1145,
+  "year_display": {
+    "en": "1145",
+    "zh": "1145 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "Korea (Goryeo)",
+    "zh": "高丽（朝鲜半岛）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/三國史記",
+      "note": {
+        "en": "the original text in classical Chinese, fifty chapters",
+        "zh": "汉文原文，五十卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q485552",
+  "score": {
+    "value": 7.6
+  },
+  "review": {
+    "en": "Compiled for the Goryeo court in 1145, the oldest surviving history of Korea covers Silla, Goguryeo and Baekje in fifty chapters on the Chinese model of annals, tables, treatises and biographies. Kim Busik's Confucian judgments and Silla-centred view are plain, and much is terse. Yet without it most of early Korean history would be lost, and its biographies include some memorable figures.",
+    "zh": "1145 年为高丽朝廷编成，是现存最早的朝鲜半岛史书，以中国式的本纪、年表、杂志、列传五十卷，记新罗、高句丽、百济三国。金富轼的儒家评断和以新罗为中心的立场很明显，记述也多简略。但若没有它，早期朝鲜半岛史大半将湮没，列传中也有几位令人难忘的人物。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "B-004010",
+  "slug": "cervantes-don-quixote",
+  "category": "literature",
+  "title": {
+    "orig": "Don Quijote de la Mancha",
+    "en": "Don Quixote",
+    "zh": "堂吉诃德"
+  },
+  "author": {
+    "orig": "Miguel de Cervantes Saavedra",
+    "en": "Miguel de Cervantes",
+    "zh": "米格尔·德·塞万提斯",
+    "dates": "1547–1616",
+    "dates_zh": "1547–1616"
+  },
+  "year": 1605,
+  "year_display": {
+    "en": "1605, 1615",
+    "zh": "1605、1615 年"
+  },
+  "lang": "es",
+  "origin": {
+    "en": "Spain",
+    "zh": "西班牙"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby",
+      "note": {
+        "en": "John Ormsby’s translation (1885)",
+        "zh": "约翰·奥姆斯比英译（1885）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2000",
+      "note": {
+        "en": "The original Spanish",
+        "zh": "西班牙语原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q480",
+  "score": {
+    "value": 9.5
+  },
+  "review": {
+    "en": "An old man reads too many romances and rides out to be a knight, with a practical farmer at his side. What begins as parody turns into a long conversation between two people who change each other, and in the second part the characters know they are in a book. Much of what novels have done since is already here, done with warmth.",
+    "zh": "一位老人读骑士小说读得太多，便骑马出门做骑士，身边跟着一个讲求实际的农夫。起初是戏仿，后来变成两个人长长的对话，彼此改变；到了第二部，人物甚至知道自己身在书中。此后小说做过的许多事，这里已经做过，而且做得很温暖。"
+  },
+  "checked": "2026-10-15"
+}

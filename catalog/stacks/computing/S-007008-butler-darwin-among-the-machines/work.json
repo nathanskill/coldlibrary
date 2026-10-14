@@ -74,5 +74,12 @@
     "S-007007",
     "S-006012",
     "S-007001"
-  ]
+  ],
+  "score": {
+    "value": 8.2,
+    "note": {
+      "en": "A satirical letter, among the first to imagine machines evolving past their makers; its call to smash them is a joke, the question of what successors we build is not.",
+      "zh": "一封讽刺信，最早设想机器会超越造它的人之一；砸毁机器是玩笑，我们在造怎样的后继者却不是。"
+    }
+  }
 }

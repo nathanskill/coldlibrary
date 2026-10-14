@@ -1,0 +1,49 @@
+{
+  "id": "B-001014",
+  "slug": "augustine-confessions",
+  "category": "faith",
+  "title": {
+    "orig": "Confessiones",
+    "en": "Confessions",
+    "zh": "忏悔录"
+  },
+  "author": {
+    "orig": "Aurelius Augustinus",
+    "en": "Augustine of Hippo",
+    "zh": "奥古斯丁",
+    "dates": "354–430",
+    "dates_zh": "354–430"
+  },
+  "year": 400,
+  "year_display": {
+    "en": "c. 397–400",
+    "zh": "约 397–400 年"
+  },
+  "lang": "la",
+  "origin": {
+    "en": "North Africa",
+    "zh": "北非"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/3296",
+      "note": {
+        "en": "E. B. Pusey's translation (1838)",
+        "zh": "普西英译本（1838）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q372941",
+  "score": {
+    "value": 9.5
+  },
+  "review": {
+    "en": "Thirteen books addressed to God, in which a bishop in North Africa looks back on his childhood, his ambitions, his mother Monica and his conversion in a Milan garden, then turns to memory, time and creation. It is the first great inward autobiography in the West, and its questions about time and the restless heart are still taken up by philosophers and poets.",
+    "zh": "十三卷，通篇向上帝倾诉。一位北非主教回顾童年、野心、母亲莫尼卡，以及在米兰花园里的皈依，随后转向记忆、时间与创造。它是西方第一部伟大的内省自传，书中关于时间和不安之心的追问，至今仍被哲学家和诗人接着思考。"
+  },
+  "checked": "2026-10-15"
+}

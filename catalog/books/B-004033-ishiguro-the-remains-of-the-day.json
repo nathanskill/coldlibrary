@@ -1,0 +1,40 @@
+{
+  "id": "B-004033",
+  "slug": "ishiguro-the-remains-of-the-day",
+  "category": "literature",
+  "title": {
+    "orig": "The Remains of the Day",
+    "en": "The Remains of the Day",
+    "zh": "长日留痕"
+  },
+  "author": {
+    "orig": "Kazuo Ishiguro",
+    "en": "Kazuo Ishiguro",
+    "zh": "石黑一雄",
+    "dates": "1954–",
+    "dates_zh": "1954–"
+  },
+  "year": 1989,
+  "year_display": {
+    "en": "1989",
+    "zh": "1989 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United Kingdom",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q829934",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "An English butler takes a motoring trip in 1956 and looks back on decades of service to a lord whose judgments he never questioned. Everything important happens between the lines of his careful, evasive narration. Ishiguro’s control is nearly perfect, and the book won the Booker Prize; its quietness is its strength and its limit.",
+    "zh": "1956 年，一位英国管家开车出游，回望自己为一位勋爵服务的几十年，从未质疑过主人的判断。真正重要的事都发生在他谨慎而闪躲的叙述的字里行间。石黑一雄的控制近乎完美，此书获得布克奖；安静是它的长处，也是它的边界。"
+  },
+  "checked": "2026-10-15"
+}

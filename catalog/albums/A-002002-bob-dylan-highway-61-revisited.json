@@ -1,0 +1,46 @@
+{
+  "id": "A-002002",
+  "slug": "bob-dylan-highway-61-revisited",
+  "title": {
+    "orig": "Highway 61 Revisited",
+    "en": "Highway 61 Revisited",
+    "zh": "重访61号公路"
+  },
+  "artist": {
+    "orig": "Bob Dylan",
+    "en": "Bob Dylan",
+    "zh": "鲍勃·迪伦",
+    "mbid": "72c536dc-7137-4477-a521-567eeb840fa8"
+  },
+  "year": 1965,
+  "released": "1965-08-30",
+  "region": "US",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "folk",
+    "singer-songwriter"
+  ],
+  "style": {
+    "en": "folk rock",
+    "zh": "民谣摇滚"
+  },
+  "label": "Columbia",
+  "tracks": 9,
+  "length": "51:32",
+  "mbid": "fb48b1dc-412f-36aa-8820-1023c08c46c6",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/fb48b1dc-412f-36aa-8820-1023c08c46c6",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Highway_61_Revisited",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E9%87%8D%E8%AE%BF61%E5%8F%B7%E5%85%AC%E8%B7%AF"
+  },
+  "start_with": "Like a Rolling Stone",
+  "score": {
+    "value": 9.3
+  },
+  "review": {
+    "en": "Dylan's first album made with a full electric band on every track opens with the six-minute single that changed what a pop song could hold, and closes with the long acoustic procession of Desolation Row. Between them, blues forms carry crowded, surreal portraits of American life. It set the terms for literate rock songwriting for decades.",
+    "zh": "这是迪伦第一张全程用电声乐队录制的专辑：开头是那首六分钟的单曲，改变了流行歌能装下多少东西；结尾是长篇原声叙事《Desolation Row》。中间用布鲁斯的骨架，装进拥挤而超现实的美国群像。此后几十年，有文学性的摇滚写作都绕不开它。"
+  },
+  "checked": "2026-10-15"
+}

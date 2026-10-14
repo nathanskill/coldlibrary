@@ -1,0 +1,51 @@
+{
+  "id": "B-002011",
+  "slug": "sima-qian-shiji",
+  "category": "history",
+  "title": {
+    "orig": "史記",
+    "en": "Records of the Grand Historian (Shiji)",
+    "zh": "史记"
+  },
+  "author": {
+    "orig": "司馬遷",
+    "en": "Sima Qian",
+    "zh": "司马迁",
+    "dates": "c. 145 – c. 86 BCE",
+    "dates_zh": "约前 145 – 约前 86"
+  },
+  "year": -91,
+  "year_display": {
+    "en": "completed c. 91 BCE",
+    "zh": "约公元前 91 年成书"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/史記",
+      "note": {
+        "en": "the classical Chinese text, all 130 chapters",
+        "zh": "文言原文，一百三十卷全"
+      }
+    }
+  ],
+  "stacks": [
+    "S-008202"
+  ],
+  "wikidata": "Q272530",
+  "score": {
+    "value": 9.7
+  },
+  "review": {
+    "en": "Begun by his father and finished after his own mutilation, Sima Qian's history runs from the Yellow Emperor to his own emperor in 130 chapters of annals, tables, treatises, hereditary houses and biographies. That form governed Chinese official history for two thousand years. Inside it are assassins, merchants, jesters and failed generals written with sympathy and nerve. Few histories anywhere are at once so large in design and so alive in detail.",
+    "zh": "父亲开了头，自己受刑之后写完：司马迁以本纪、表、书、世家、列传共一百三十篇，从黄帝写到当朝。这一体例统领中国正史两千年。书里有刺客、商人、滑稽之徒和失败的将军，写得既有同情又有胆识。规模如此宏大、细处又如此鲜活的史书，世上少见。"
+  },
+  "checked": "2026-10-15"
+}

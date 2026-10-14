@@ -162,5 +162,12 @@
   "pairs": [
     "S-002029",
     "S-002025"
-  ]
+  ],
+  "score": {
+    "value": 8.3,
+    "note": {
+      "en": "Eighty-one characters of balanced, quotable lines on a humble room; deft and memorable, though its self-praise is a little too pleased with itself.",
+      "zh": "八十一字，对仗工稳，句句可引；灵巧好记，只是自我称许稍显得意。"
+    }
+  }
 }

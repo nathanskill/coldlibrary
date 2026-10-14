@@ -1,0 +1,38 @@
+{
+  "id": "B-005025",
+  "slug": "to-live",
+  "category": "literature",
+  "title": {
+    "orig": "活着",
+    "en": "To Live",
+    "zh": "活着"
+  },
+  "author": {
+    "orig": "余华",
+    "en": "Yu Hua",
+    "zh": "余华",
+    "dates": "b. 1960",
+    "dates_zh": "1960 年生"
+  },
+  "year": 1993,
+  "year_display": {
+    "en": "1993",
+    "zh": "1993 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q151919",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "An old farmer tells a young song collector his life: a gambling youth, then decades of loss across modern Chinese history. Yu Hua strips the telling to plain sentences and lets the events weigh what they weigh. It is short, very sad and widely read; its power lies in Fugui's patience rather than in any commentary.",
+    "zh": "老人福贵向一个收集民歌的年轻人讲起自己的一生：年轻时赌光家产，后来几十年里一次又一次失去。余华把叙述削到最朴素的句子，让事情本身的分量压下来。篇幅不长，非常悲伤，读者极多；力量来自福贵的忍耐，而不是任何议论。"
+  },
+  "checked": "2026-10-15"
+}

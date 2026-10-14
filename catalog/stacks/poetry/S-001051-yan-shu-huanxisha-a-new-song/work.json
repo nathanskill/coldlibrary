@@ -103,5 +103,12 @@
   "pairs": [
     "S-001008",
     "S-001072"
-  ]
+  ],
+  "score": {
+    "value": 8.4,
+    "note": {
+      "en": "Polished and unhurried, built around the famous couplet of falling flowers and returning swallows; the rest is graceful leisure without much weight.",
+      "zh": "圆润从容，全靠“无可奈何花落去，似曾相识燕归来”撑起；其余是优雅的闲情，分量不重。"
+    }
+  }
 }

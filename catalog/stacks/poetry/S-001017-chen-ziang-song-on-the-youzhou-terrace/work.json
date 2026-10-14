@@ -107,5 +107,12 @@
   "pairs": [
     "S-002022",
     "S-001033"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "Four lines without a single image, only time on either side of one person; its bareness was new in Tang poetry and has lost none of its force.",
+      "zh": "四句不写一景，只有前后无尽的时间夹着一个人；这种赤裸在初唐是新声，至今力量不减。"
+    }
+  }
 }

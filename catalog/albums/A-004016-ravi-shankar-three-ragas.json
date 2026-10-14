@@ -1,0 +1,45 @@
+{
+  "id": "A-004016",
+  "slug": "ravi-shankar-three-ragas",
+  "title": {
+    "orig": "Music of India (Three Classical Ragas)",
+    "en": "Three Ragas",
+    "zh": "三首拉格"
+  },
+  "artist": {
+    "orig": "Ravi Shankar",
+    "en": "Ravi Shankar",
+    "zh": "拉维·香卡",
+    "mbid": "697f8b9f-0454-40f2-bba2-58f35668cdbe"
+  },
+  "year": 1956,
+  "released": "1956",
+  "region": "IN",
+  "lang": "zxx",
+  "genres": [
+    "classical",
+    "traditional"
+  ],
+  "style": {
+    "en": "Hindustani classical",
+    "zh": "印度斯坦古典音乐"
+  },
+  "label": "His Master's Voice",
+  "tracks": 3,
+  "length": "54:55",
+  "mbid": "38d3e3d0-05e0-31aa-b8d1-6b2fdb5cb4b2",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/38d3e3d0-05e0-31aa-b8d1-6b2fdb5cb4b2",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Three_Ragas",
+    "wikipedia_zh": null
+  },
+  "start_with": "Raga Jog",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "Ravi Shankar's first long-playing album, with Chatur Lal on tabla, gives three ragas the length the format newly allowed, the last filling a whole side. For many listeners in Europe and America it was a first full encounter with Hindustani classical music, a decade before the sitar entered rock. It remains a clear introduction to how a raga unfolds, from slow exposition to fast rhythmic play.",
+    "zh": "拉维·香卡的第一张密纹唱片，查图尔·拉尔担任塔布拉鼓。黑胶长度第一次允许拉格完整展开，最后一首占满整整一面。对欧美许多听众来说，这是第一次完整接触印度斯坦古典音乐，比西塔琴进入摇滚乐早了十年。如今它仍是了解拉格如何从缓慢铺陈走到快速节奏对答的清楚入门。"
+  },
+  "checked": "2026-10-15"
+}

@@ -126,5 +126,13 @@
     "S-004002",
     "S-008017",
     "S-004008"
-  ]
+  ],
+  "score": {
+    "value": 9.3,
+    "note": {
+      "en": "Sixteen lines whose claim poets have echoed ever since, from Ovid to Pushkin; the pride is earned by a craftsman’s exact account of what he achieved.",
+      "zh": "十六行诗，自奥维德到普希金，后世诗人一再回应；骄傲站得住，因为他精确说出了作为匠人的成就。"
+    }
+  },
+  "category": "literature"
 }

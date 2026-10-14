@@ -1,0 +1,49 @@
+{
+  "id": "B-002003",
+  "slug": "xenophon-anabasis",
+  "category": "history",
+  "title": {
+    "orig": "Κύρου Ἀνάβασις",
+    "en": "Anabasis",
+    "zh": "长征记"
+  },
+  "author": {
+    "orig": "Ξενοφῶν",
+    "en": "Xenophon",
+    "zh": "色诺芬",
+    "dates": "c. 430 – c. 354 BCE",
+    "dates_zh": "约前 430 – 约前 354"
+  },
+  "year": -370,
+  "year_display": {
+    "en": "c. 370 BCE",
+    "zh": "约公元前 370 年"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Greece",
+    "zh": "希腊"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1170",
+      "note": {
+        "en": "H. G. Dakyns's translation (1890)",
+        "zh": "戴金斯英译本（1890）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q73112",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "Ten thousand Greek mercenaries follow Cyrus the Younger into Persia in 401 BCE, win the battle and lose their employer, then have their generals killed by treachery. Xenophon, one of the new leaders, tells how they marched north through mountains and snow to the Black Sea. It is plain, vivid and practical, a soldier's book. He writes of himself in the third person and does not undersell his part.",
+    "zh": "公元前 401 年，一万希腊雇佣兵随小居鲁士深入波斯，仗打赢了，雇主却战死，将领又遭诱杀。新推举的领袖之一色诺芬，记下他们如何翻山踏雪北上，直到望见黑海。文字平实生动，是军人写的书。他用第三人称写自己，对自己的功劳也并不少说。"
+  },
+  "checked": "2026-10-15"
+}

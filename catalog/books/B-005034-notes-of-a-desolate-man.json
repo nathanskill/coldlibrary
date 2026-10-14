@@ -1,0 +1,38 @@
+{
+  "id": "B-005034",
+  "slug": "notes-of-a-desolate-man",
+  "category": "literature",
+  "title": {
+    "orig": "荒人手記",
+    "en": "Notes of a Desolate Man",
+    "zh": "荒人手记"
+  },
+  "author": {
+    "orig": "朱天文",
+    "en": "Chu T'ien-wen",
+    "zh": "朱天文",
+    "dates": "b. 1956",
+    "dates_zh": "1956 年生"
+  },
+  "year": 1994,
+  "year_display": {
+    "en": "1994",
+    "zh": "1994 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "Taiwan",
+    "zh": "台湾"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q17031673",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "A gay man in Taipei, after the death of his closest friend, writes notes on love, desire, cities and mortality. Chu T'ien-wen packs the book with quotations, colours and fragments of theory, a dense and deliberately mannered style. Demanding and sometimes airless, it is also one of the most daring Chinese novels of the 1990s, and won the first China Times novel prize.",
+    "zh": "台北的一位男同志，在挚友死后写下手记，谈爱欲、城市、肉身与死亡。朱天文把引文、色彩和理论碎片密密地织进书里，文体刻意而繁复。读来吃力，有时令人窒息，却是九十年代最大胆的中文小说之一，获首届时报文学百万小说奖。"
+  },
+  "checked": "2026-10-15"
+}

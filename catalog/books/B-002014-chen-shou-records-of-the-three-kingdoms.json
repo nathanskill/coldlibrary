@@ -1,0 +1,49 @@
+{
+  "id": "B-002014",
+  "slug": "chen-shou-records-of-the-three-kingdoms",
+  "category": "history",
+  "title": {
+    "orig": "三國志",
+    "en": "Records of the Three Kingdoms",
+    "zh": "三国志"
+  },
+  "author": {
+    "orig": "陳壽",
+    "en": "Chen Shou",
+    "zh": "陈寿",
+    "dates": "233 – 297",
+    "dates_zh": "233 – 297"
+  },
+  "year": 285,
+  "year_display": {
+    "en": "late 3rd century",
+    "zh": "公元 3 世纪末"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/三國志",
+      "note": {
+        "en": "the classical Chinese text with Pei Songzhi's commentary",
+        "zh": "文言原文，附裴松之注"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q247318",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "Chen Shou, born in Shu and later a Jin official, wrote the history of Wei, Shu and Wu in sixty-five spare chapters of biography, without tables or treatises. His restraint left gaps, which Pei Songzhi filled in the fifth century with a commentary quoting more than two hundred other works. Read together they are a lesson in comparing sources, and the ground on which the later novel was built.",
+    "zh": "陈寿生于蜀，后仕晋，以六十五卷简净的传记写魏、蜀、吴三国，无表无志。他的克制留下空白，五世纪裴松之作注，引书二百余种补之。两者合读，正是一课比勘史料的功夫；后来的小说《三国演义》也建在这片地基上。"
+  },
+  "checked": "2026-10-15"
+}

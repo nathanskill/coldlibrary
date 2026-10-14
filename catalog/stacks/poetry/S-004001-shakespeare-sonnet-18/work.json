@@ -73,5 +73,12 @@
   "pairs": [
     "S-004002",
     "S-004004"
-  ]
+  ],
+  "score": {
+    "value": 8.9,
+    "note": {
+      "en": "Perhaps the best-known sonnet in English, turning a compliment into a claim about writing itself; flawless in movement, though more conventional in thought than Shakespeare’s greatest.",
+      "zh": "或许是最著名的英语十四行诗，把恭维变成对写作本身的宣言；行进无瑕，思想却比他最好的几首更常规。"
+    }
+  }
 }

@@ -78,5 +78,12 @@
     "S-002001",
     "S-002002",
     "S-005018"
-  ]
+  ],
+  "score": {
+    "value": 7.5,
+    "note": {
+      "en": "Scored as a translation: one of the first complete English versions and historically important, but its added parentheses and Victorian rhymes stand between reader and original.",
+      "zh": "按译本评分：最早的英文全译本之一，有历史意义，但添补的括注和维多利亚式押韵隔在读者与原文之间。"
+    }
+  }
 }

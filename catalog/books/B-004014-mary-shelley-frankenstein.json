@@ -1,0 +1,57 @@
+{
+  "id": "B-004014",
+  "slug": "mary-shelley-frankenstein",
+  "category": "literature",
+  "title": {
+    "orig": "Frankenstein; or, The Modern Prometheus",
+    "en": "Frankenstein",
+    "zh": "弗兰肯斯坦"
+  },
+  "author": {
+    "orig": "Mary Shelley",
+    "en": "Mary Shelley",
+    "zh": "玛丽·雪莱",
+    "dates": "1797–1851",
+    "dates_zh": "1797–1851"
+  },
+  "year": 1818,
+  "year_display": {
+    "en": "1818",
+    "zh": "1818 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "Switzerland and England",
+    "zh": "瑞士与英格兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/mary-shelley/frankenstein",
+      "note": {
+        "en": "The novel, from the revised 1831 text",
+        "zh": "据 1831 年修订本"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/41445",
+      "note": {
+        "en": "The first edition text (1818)",
+        "zh": "1818 年初版文本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q150827",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "A student builds a living being and abandons it, and the creature learns language, reads, and asks why it was made. Mary Shelley began it in her teens, and the nested narrators can be stiff, but the creature’s account of its own loneliness is unforgettable. It gave the modern world one of its central questions about making things it cannot answer for.",
+    "zh": "一个学生造出了一个活物，又抛弃了它；那造物学会语言、读书，追问自己为何被造。玛丽·雪莱动笔时还不到二十岁，层层嵌套的叙述有时生硬，但造物讲述自身孤独的那几章令人难忘。它向现代世界提出了一个核心问题：人造出了自己无法负责的东西，怎么办。"
+  },
+  "checked": "2026-10-15"
+}

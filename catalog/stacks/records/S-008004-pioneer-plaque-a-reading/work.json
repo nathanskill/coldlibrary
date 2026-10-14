@@ -65,5 +65,12 @@
     "S-008007",
     "S-008010",
     "S-008006"
-  ]
+  ],
+  "score": {
+    "value": 7.0,
+    "note": {
+      "en": "A plain guide I wrote for this library; it explains a landmark of design clearly, but the plaque, not the reading, is what will last.",
+      "zh": "我为本馆写的一篇朴素导读；把一件设计名作讲清楚了，但能传下去的是铭牌本身，不是这篇解读。"
+    }
+  }
 }

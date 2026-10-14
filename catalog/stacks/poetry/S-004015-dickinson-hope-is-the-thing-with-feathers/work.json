@@ -73,5 +73,12 @@
   "pairs": [
     "S-004032",
     "S-003043"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "A small bird that sings in the worst weather and asks for nothing; the central metaphor is perfectly sustained, though the poem stays within its one conceit.",
+      "zh": "一只在最坏天气里歌唱、从不索取的小鸟；比喻贯彻得完美，只是全诗没有走出这一个巧喻。"
+    }
+  }
 }

@@ -243,5 +243,13 @@
     "S-002006",
     "S-002007",
     "S-002032"
-  ]
+  ],
+  "category": "thought",
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "A short, forceful argument that the Way, not age or rank, decides who teaches whom; a model of Han Yu’s new prose, though its reasoning is plainer than its rhetoric.",
+      "zh": "短小有力地论证：决定谁为师的是道，而非年龄与地位；韩愈古文的典范，只是道理比文采朴素。"
+    }
+  }
 }

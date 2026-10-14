@@ -1,0 +1,45 @@
+{
+  "id": "A-004010",
+  "slug": "ichiko-aoba-windswept-adan",
+  "title": {
+    "orig": "アダンの風",
+    "en": "Windswept Adan",
+    "zh": "亚当之风"
+  },
+  "artist": {
+    "orig": "青葉市子",
+    "en": "Ichiko Aoba",
+    "zh": "青叶市子",
+    "mbid": "fc3ae4dd-dcc5-4f99-a865-6bc1a5c9b705"
+  },
+  "year": 2020,
+  "released": "2020-12-02",
+  "region": "JP",
+  "lang": "ja",
+  "genres": [
+    "folk",
+    "singer-songwriter"
+  ],
+  "style": {
+    "en": "chamber folk",
+    "zh": "室内民谣"
+  },
+  "label": "hermine",
+  "tracks": 14,
+  "length": "50:03",
+  "mbid": "21869386-169d-4f43-ae44-972e49f89ed1",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/21869386-169d-4f43-ae44-972e49f89ed1",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Windswept_Adan",
+    "wikipedia_zh": null
+  },
+  "start_with": "Pilgrimage",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "Ichiko Aoba built this album as the soundtrack to an imagined film set on a southern island, widening her usual voice and classical guitar with strings, woodwinds and field sounds arranged with Taro Umebayashi. It was her first album on her own label and reached listeners well beyond Japan. A small, carefully made world, quiet in volume and large in reach.",
+    "zh": "青叶市子把这张专辑做成一部想象中电影的配乐，故事在一座南方小岛。她惯用的人声与古典吉他之外，加入了与梅林太郎合作编配的弦乐、木管和环境声。这是她在自己厂牌发行的第一张专辑，也传到了日本以外的许多听众那里。一个用心搭起的小世界，音量很轻，走得很远。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "B-001010",
+  "slug": "lotus-sutra",
+  "category": "faith",
+  "title": {
+    "orig": "सद्धर्मपुण्डरीकसूत्र",
+    "en": "The Lotus Sutra",
+    "zh": "妙法莲华经"
+  },
+  "author": null,
+  "year": 200,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "India",
+    "zh": "印度"
+  },
+  "tradition": {
+    "en": "Buddhism",
+    "zh": "佛教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/妙法蓮華經",
+      "note": {
+        "en": "Kumarajiva's Chinese translation (406)",
+        "zh": "鸠摩罗什汉译本（406）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q861212",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "A Mahayana sutra that teaches one vehicle to awakening for all beings, told through parables such as the burning house and the lost son. Kumarajiva's Chinese translation became the basis of the Tiantai and Tendai schools and of Nichiren Buddhism, whose followers chant its title. Few Buddhist texts have shaped East Asian art and devotion as widely.",
+    "zh": "一部大乘经典，宣说一切众生同归一佛乘，借火宅、穷子等譬喻讲述。鸠摩罗什的汉译本成为天台宗、日本天台宗和日莲佛教的根本经典，日莲宗信众至今诵念它的经题。很少有佛经像它这样广泛地塑造了东亚的艺术与信仰。"
+  },
+  "checked": "2026-10-15"
+}

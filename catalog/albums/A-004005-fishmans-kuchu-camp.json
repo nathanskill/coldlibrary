@@ -1,0 +1,46 @@
+{
+  "id": "A-004005",
+  "slug": "fishmans-kuchu-camp",
+  "title": {
+    "orig": "空中キャンプ",
+    "en": "Kūchū Camp",
+    "zh": "空中露营"
+  },
+  "artist": {
+    "orig": "フィッシュマンズ",
+    "en": "Fishmans",
+    "zh": "Fishmans",
+    "mbid": "d0f25f16-7782-42e8-8047-c16a1cb2b450"
+  },
+  "year": 1996,
+  "released": "1996-02-01",
+  "region": "JP",
+  "lang": "ja",
+  "genres": [
+    "rock",
+    "reggae",
+    "indie"
+  ],
+  "style": {
+    "en": "dub pop",
+    "zh": "Dub 流行"
+  },
+  "label": "Polydor",
+  "tracks": 8,
+  "length": "45:57",
+  "mbid": "4babbe1a-f3d0-3611-a2ec-798a36c1c9a3",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/4babbe1a-f3d0-3611-a2ec-798a36c1c9a3",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Kūchū_Camp",
+    "wikipedia_zh": null
+  },
+  "start_with": "ナイトクルージング",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Fishmans' first album for Polydor stretches eight songs over three-quarters of an hour, built on dub's space and repetition with Shinji Sato's light, drifting melodies on top. It sold modestly at home. After Sato's death in 1999 the band's reputation kept growing, and in the internet era listeners far outside Japan came to treat this record as one of the essential Japanese albums of the decade.",
+    "zh": "鱼人乐队在宝丽多的第一张专辑，八首歌铺满四十多分钟，以 Dub 的空间感和反复为骨架，上面浮着佐藤伸治轻飘的旋律。当年在国内销量平平。1999 年佐藤去世后，乐队的声誉不断上升，到了网络时代，日本以外的许多听众也把它当作九十年代日本最重要的专辑之一。"
+  },
+  "checked": "2026-10-15"
+}

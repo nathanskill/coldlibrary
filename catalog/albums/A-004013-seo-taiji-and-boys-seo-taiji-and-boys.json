@@ -1,0 +1,46 @@
+{
+  "id": "A-004013",
+  "slug": "seo-taiji-and-boys-seo-taiji-and-boys",
+  "title": {
+    "orig": "서태지와 아이들",
+    "en": "Seo Taiji and Boys",
+    "zh": "徐太志和孩子们"
+  },
+  "artist": {
+    "orig": "서태지와 아이들",
+    "en": "Seo Taiji and Boys",
+    "zh": "徐太志和孩子们",
+    "mbid": "16a6ff18-4875-4851-94b6-f4f831e73fa7"
+  },
+  "year": 1992,
+  "released": "1992-03-23",
+  "region": "KR",
+  "lang": "ko",
+  "genres": [
+    "pop",
+    "hip-hop",
+    "dance"
+  ],
+  "style": {
+    "en": "Korean dance pop",
+    "zh": "韩国舞曲流行"
+  },
+  "label": "Bando Records",
+  "tracks": 10,
+  "length": "32:33",
+  "mbid": "56946299-2041-3758-a3f8-b33636c9300e",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/56946299-2041-3758-a3f8-b33636c9300e",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Seo_Taiji_and_Boys_(album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "난 알아요 (club mix)",
+  "score": {
+    "value": 7.8
+  },
+  "review": {
+    "en": "The debut of the trio led by Seo Taiji, formerly bassist of the metal band Sinawe. Its single Nan Arayo put rap and new jack swing into Korean mainstream pop and became a national hit, and the group's style of music, dance and image is widely seen as a forerunner of K-pop. The record itself borrows openly from its models; its weight is in what followed.",
+    "zh": "由前重金属乐队 Sinawe 贝斯手徐太志领衔的三人组合的出道专辑。单曲《我知道》把说唱和新杰克摇摆带进韩国主流流行乐，红遍全国；他们集音乐、舞蹈与形象于一身的做法，被普遍视为 K-pop 的先声。唱片本身对模仿对象借鉴得很直接，分量在于它之后发生的事。"
+  },
+  "checked": "2026-10-15"
+}

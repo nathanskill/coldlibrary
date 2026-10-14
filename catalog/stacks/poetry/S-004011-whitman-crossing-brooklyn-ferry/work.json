@@ -95,5 +95,12 @@
     "S-008005",
     "S-008020",
     "S-004101"
-  ]
+  ],
+  "score": {
+    "value": 9.4,
+    "note": {
+      "en": "Long lines that swell and return like the tide carry Whitman across time to people not yet born; few poems address the future so directly or so warmly.",
+      "zh": "长句如潮水般涨落，把惠特曼带过时间，直达尚未出生的人；很少有诗如此直接、温暖地对未来说话。"
+    }
+  }
 }

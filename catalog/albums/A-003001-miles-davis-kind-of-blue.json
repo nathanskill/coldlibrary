@@ -1,0 +1,28 @@
+{
+  "id": "A-003001",
+  "slug": "miles-davis-kind-of-blue",
+  "title": { "orig": "Kind of Blue", "en": "Kind of Blue", "zh": "Kind of Blue" },
+  "artist": { "orig": "Miles Davis", "en": "Miles Davis", "zh": "迈尔斯·戴维斯", "mbid": "561d854a-6a28-4aa7-8c99-323e6ce46c2a" },
+  "year": 1959,
+  "released": "1959-08-17",
+  "region": "US",
+  "lang": "zxx",
+  "genres": ["jazz"],
+  "style": { "en": "modal jazz", "zh": "调式爵士" },
+  "label": "Columbia",
+  "tracks": 5,
+  "length": "45:08",
+  "mbid": "8e8a594f-2175-38c7-a871-abb68ec363e7",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/8e8a594f-2175-38c7-a871-abb68ec363e7",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Kind_of_Blue",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E6%B3%9B%E8%93%9D%E8%B0%83%E8%B0%83"
+  },
+  "start_with": "So What",
+  "score": { "value": 9.6 },
+  "review": {
+    "en": "Two sessions in the spring of 1959 gave a sextet with Coltrane, Adderley and Bill Evans little more than scales and sketches, and asked them to build solos from modes instead of chord changes. The result reads as calm and unhurried, yet it redirected jazz: Coltrane carried the modal idea into his own work, and the record entered the Library of Congress registry in 2002. Few albums in any tradition have been studied, taught and returned to as often.",
+    "zh": "1959年春天的两次录音里，戴维斯只给柯川、阿德利和比尔·艾文斯等人几组音阶和简短草稿，让他们以调式而不是和弦进行来即兴。整张唱片从容安静，却改变了爵士乐的方向：柯川随后把调式思路带进自己的创作，这张专辑也在2002年入选美国国会图书馆国家录音名录。很少有唱片被如此反复地研究、讲授和重听。"
+  },
+  "checked": "2026-10-15"
+}

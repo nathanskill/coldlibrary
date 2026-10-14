@@ -65,5 +65,12 @@
     "S-007011",
     "S-005012",
     "S-007024"
-  ]
+  ],
+  "score": {
+    "value": 7.9,
+    "note": {
+      "en": "The opening of the style guide much of the world’s Python follows, worth shelving for one idea, that code is read more than written; a brief excerpt from a rulebook.",
+      "zh": "大量 Python 代码遵循的风格指南的开篇，值得收藏是因为一个观点：代码读得比写得多；只是规则手册的一小段。"
+    }
+  }
 }

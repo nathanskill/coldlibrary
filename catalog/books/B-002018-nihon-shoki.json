@@ -1,0 +1,57 @@
+{
+  "id": "B-002018",
+  "slug": "nihon-shoki",
+  "category": "history",
+  "title": {
+    "orig": "日本書紀",
+    "en": "Nihon Shoki (The Chronicles of Japan)",
+    "zh": "日本书纪"
+  },
+  "author": {
+    "orig": "舎人親王",
+    "en": "Prince Toneri (chief compiler)",
+    "zh": "舍人亲王（主持编纂）",
+    "dates": "676 – 735",
+    "dates_zh": "676 – 735"
+  },
+  "year": 720,
+  "year_display": {
+    "en": "720",
+    "zh": "720 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "Japan",
+    "zh": "日本"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/Nihongi",
+      "note": {
+        "en": "W. G. Aston's translation (1896)",
+        "zh": "阿斯顿英译本（1896）"
+      }
+    },
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/日本書紀",
+      "note": {
+        "en": "the original text in classical Chinese",
+        "zh": "汉文原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q813935",
+  "score": {
+    "value": 7.9
+  },
+  "review": {
+    "en": "Presented to the throne in 720, this court chronicle in classical Chinese runs from the creation myths to the end of the seventh century, often recording variant versions side by side. It was written to give Japan a history to stand beside the Chinese annals, and its early reigns are legend shaped to that purpose. The later books are far more reliable, and it is indispensable for early Japan.",
+    "zh": "此书于 720 年奏上，用汉文写成，从创世神话一直记到七世纪末，常把几种异说并列。编纂它是为了让日本有一部可与中国史书比肩的国史，早期诸帝的记载多是为此塑造的传说。后几卷可靠得多，研究古代日本离不开它。"
+  },
+  "checked": "2026-10-15"
+}

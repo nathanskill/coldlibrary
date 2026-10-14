@@ -1,0 +1,49 @@
+{
+  "id": "B-001020",
+  "slug": "songs-of-kabir",
+  "category": "faith",
+  "title": {
+    "orig": "Songs of Kabir",
+    "en": "Songs of Kabir",
+    "zh": "卡比尔之歌"
+  },
+  "author": {
+    "orig": "कबीर",
+    "en": "Kabir",
+    "zh": "卡比尔",
+    "dates": "15th century",
+    "dates_zh": "15 世纪"
+  },
+  "year": 1915,
+  "year_display": {
+    "en": "translated 1915",
+    "zh": "1915 年英译"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "India",
+    "zh": "印度"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/6519",
+      "note": {
+        "en": "Rabindranath Tagore's translation (1915)",
+        "zh": "泰戈尔英译本（1915）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q16761554",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "One hundred songs of the fifteenth-century weaver-poet of Benares, put into English prose by Rabindranath Tagore with help from Evelyn Underhill. Kabir mocks temple and mosque alike and finds God within the breath. The selection made him known in the West, though scholars note that many of these songs may come from later singers in his name.",
+    "zh": "十五世纪贝拿勒斯织工诗人卡比尔的一百首歌，由泰戈尔在伊夫林·安德希尔协助下译成英文散文诗。卡比尔对神庙和清真寺一并嘲讽，在呼吸之间寻找神。这部选集让西方认识了他，不过学者指出，其中许多歌可能出自后世托名的歌者。"
+  },
+  "checked": "2026-10-15"
+}

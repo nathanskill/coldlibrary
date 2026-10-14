@@ -78,5 +78,12 @@
     "S-006006",
     "S-006001",
     "S-005017"
-  ]
+  ],
+  "score": {
+    "value": 9.7,
+    "note": {
+      "en": "Three laws that governed physics for over two centuries and four rules of reasoning that still describe how science holds its conclusions; the foundation stone of modern mechanics.",
+      "zh": "三条定律主导物理学两百多年，四条推理规则至今仍是科学对待结论的方式；近代力学的奠基石。"
+    }
+  }
 }

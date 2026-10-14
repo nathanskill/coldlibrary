@@ -226,5 +226,12 @@
   ],
   "pairs": [
     "S-006005"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "Among the oldest writing on optics anywhere, with the pinhole image and three kinds of mirror; the corrupt text makes several sentences guesswork, which costs it clarity, not originality.",
+      "zh": "世上最早的光学文字之一，已有小孔成像与三种镜面；文本残损，几句只能推测，损的是清晰，不是原创。"
+    }
+  }
 }

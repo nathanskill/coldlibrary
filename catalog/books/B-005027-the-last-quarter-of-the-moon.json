@@ -1,0 +1,38 @@
+{
+  "id": "B-005027",
+  "slug": "the-last-quarter-of-the-moon",
+  "category": "literature",
+  "title": {
+    "orig": "额尔古纳河右岸",
+    "en": "The Last Quarter of the Moon",
+    "zh": "额尔古纳河右岸"
+  },
+  "author": {
+    "orig": "迟子建",
+    "en": "Chi Zijian",
+    "zh": "迟子建",
+    "dates": "b. 1964",
+    "dates_zh": "1964 年生"
+  },
+  "year": 2005,
+  "year_display": {
+    "en": "2005",
+    "zh": "2005 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q17160959",
+  "score": {
+    "value": 7.9
+  },
+  "review": {
+    "en": "An old Evenki woman, near the end of her people's reindeer-herding life in the forests of the far northeast, tells the story of her clan across a century. Chi Zijian writes with deep respect for their shamanism and their land, and the nature writing is lovely. The narrative can feel elegiac by programme, but it gives a rare voice to a vanishing world. Mao Dun Prize, 2008.",
+    "zh": "大兴安岭的森林里，鄂温克族最后一位女酋长讲述她的部族近百年的故事：驯鹿、萨满、迁徙。迟子建对他们的信仰和土地怀着深深的敬意，自然描写很美。挽歌的调子有时过于用力，但它为一个正在消失的世界留下了少见的声音。2008 年获茅盾文学奖。"
+  },
+  "checked": "2026-10-15"
+}

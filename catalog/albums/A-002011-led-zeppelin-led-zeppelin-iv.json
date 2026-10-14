@@ -1,0 +1,46 @@
+{
+  "id": "A-002011",
+  "slug": "led-zeppelin-led-zeppelin-iv",
+  "title": {
+    "orig": "Led Zeppelin IV",
+    "en": "Led Zeppelin IV",
+    "zh": "Led Zeppelin IV"
+  },
+  "artist": {
+    "orig": "Led Zeppelin",
+    "en": "Led Zeppelin",
+    "zh": "齐柏林飞艇",
+    "mbid": "678d88b2-87b0-403b-b63d-5da7465aecc3"
+  },
+  "year": 1971,
+  "released": "1971-11-08",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "metal",
+    "blues"
+  ],
+  "style": {
+    "en": "hard rock",
+    "zh": "硬摇滚"
+  },
+  "label": "Atlantic",
+  "tracks": 8,
+  "length": "42:37",
+  "mbid": "2e61da88-39e9-3473-81d2-c964cb394952",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/2e61da88-39e9-3473-81d2-c964cb394952",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/Led_Zeppelin_IV"
+  },
+  "start_with": "When the Levee Breaks",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Issued without a title or band name on the sleeve, the fourth album holds Stairway to Heaven, Black Dog and When the Levee Breaks, whose drum sound was recorded in a stairwell at Headley Grange. Folk, blues and hard rock sit side by side. It is among the best-selling rock albums and a fixed point for the genre.",
+    "zh": "第四张专辑封面上既无标题也无乐队名，里面有《Stairway to Heaven》《Black Dog》，还有在海德利庄园楼梯间录下鼓声的《When the Levee Breaks》。民谣、布鲁斯和硬摇滚并排放着。它是销量最高的摇滚专辑之一，也是这一类型的坐标。"
+  },
+  "checked": "2026-10-15"
+}

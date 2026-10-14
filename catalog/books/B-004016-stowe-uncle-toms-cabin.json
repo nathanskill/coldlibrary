@@ -1,0 +1,57 @@
+{
+  "id": "B-004016",
+  "slug": "stowe-uncle-toms-cabin",
+  "category": "literature",
+  "title": {
+    "orig": "Uncle Tom’s Cabin; or, Life Among the Lowly",
+    "en": "Uncle Tom’s Cabin",
+    "zh": "汤姆叔叔的小屋"
+  },
+  "author": {
+    "orig": "Harriet Beecher Stowe",
+    "en": "Harriet Beecher Stowe",
+    "zh": "哈丽雅特·比彻·斯托",
+    "dates": "1811–1896",
+    "dates_zh": "1811–1896"
+  },
+  "year": 1852,
+  "year_display": {
+    "en": "1852",
+    "zh": "1852 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/harriet-beecher-stowe/uncle-toms-cabin",
+      "note": {
+        "en": "The 1852 novel",
+        "zh": "1852 年小说原文"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/203",
+      "note": {
+        "en": "The 1852 novel",
+        "zh": "1852 年小说原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q2222",
+  "score": {
+    "value": 7.4
+  },
+  "review": {
+    "en": "An anti-slavery novel that became the best-selling American book of its century and changed how many readers saw slavery. Its force is moral and sentimental, built on scenes of families torn apart. Its portraits of Black characters hardened into stereotypes, and James Baldwin attacked its method in a 1949 essay. It is read now above all for what it did.",
+    "zh": "一部反奴隶制小说，成为美国十九世纪最畅销的书，改变了许多读者对奴隶制的看法。它的力量来自道德与感伤，靠一幕幕骨肉分离的场景。书中的黑人形象后来固化为刻板印象，詹姆斯·鲍德温在 1949 年的文章中批评过它的写法。如今读它，主要是为了它做成过的事。"
+  },
+  "checked": "2026-10-15"
+}

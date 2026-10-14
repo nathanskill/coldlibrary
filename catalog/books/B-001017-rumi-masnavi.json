@@ -1,0 +1,49 @@
+{
+  "id": "B-001017",
+  "slug": "rumi-masnavi",
+  "category": "faith",
+  "title": {
+    "orig": "مثنوی معنوی",
+    "en": "The Masnavi",
+    "zh": "玛斯纳维"
+  },
+  "author": {
+    "orig": "جلال‌الدین محمد رومی",
+    "en": "Rumi",
+    "zh": "鲁米",
+    "dates": "1207–1273",
+    "dates_zh": "1207–1273"
+  },
+  "year": 1270,
+  "year_display": {
+    "en": "c. 1258–1273",
+    "zh": "约 1258–1273 年"
+  },
+  "lang": "fa",
+  "origin": {
+    "en": "Konya, Anatolia",
+    "zh": "安纳托利亚科尼亚"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://fa.wikisource.org/wiki/مثنوی_معنوی",
+      "note": {
+        "en": "the Persian text",
+        "zh": "波斯文原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q6579646",
+  "score": {
+    "value": 9.3
+  },
+  "review": {
+    "en": "Six books of rhyming couplets, some twenty-five thousand verses, dictated by Rumi to his disciple in Konya. It opens with the reed flute lamenting its separation from the reed bed and moves through hundreds of stories, jokes and parables toward the soul's return to God. Sufis have read it as a commentary on the Qur'an, and it remains a summit of Persian poetry.",
+    "zh": "六卷双行押韵诗，约两万五千联，由鲁米在科尼亚口授给弟子。开篇是芦笛哀诉与苇丛的分离，随后穿过数百个故事、笑话和寓言，归向灵魂回到真主的主题。苏非派把它当作《古兰经》的注解来读，它也始终是波斯诗歌的高峰。"
+  },
+  "checked": "2026-10-15"
+}

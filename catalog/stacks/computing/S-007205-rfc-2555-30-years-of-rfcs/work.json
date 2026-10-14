@@ -75,5 +75,12 @@
     "S-007020",
     "S-007014",
     "S-007204"
-  ]
+  ],
+  "score": {
+    "value": 7.5,
+    "note": {
+      "en": "Recollections from people who were there when the RFC series began, warm and specific about how informal notes became a lasting record; uneven, as collected memories are.",
+      "zh": "RFC 系列早期亲历者的回忆，温暖具体地讲出随手笔记如何变成长久记录；众人合写的回忆，难免参差。"
+    }
+  }
 }

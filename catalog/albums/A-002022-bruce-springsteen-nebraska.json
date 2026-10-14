@@ -1,0 +1,46 @@
+{
+  "id": "A-002022",
+  "slug": "bruce-springsteen-nebraska",
+  "title": {
+    "orig": "Nebraska",
+    "en": "Nebraska",
+    "zh": "内布拉斯加"
+  },
+  "artist": {
+    "orig": "Bruce Springsteen",
+    "en": "Bruce Springsteen",
+    "zh": "布鲁斯·斯普林斯汀",
+    "mbid": "70248960-cb53-4ea4-943a-edb18f7d336f"
+  },
+  "year": 1982,
+  "released": "1982-09-20",
+  "region": "US",
+  "lang": "en",
+  "genres": [
+    "folk",
+    "rock",
+    "singer-songwriter"
+  ],
+  "style": {
+    "en": "lo-fi folk",
+    "zh": "低保真民谣"
+  },
+  "label": "Columbia",
+  "tracks": 10,
+  "length": "40:09",
+  "mbid": "324aee0c-36ec-35c1-9c93-b67a1d428037",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/324aee0c-36ec-35c1-9c93-b67a1d428037",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Nebraska_(album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Atlantic City",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Springsteen recorded these songs alone at home on a four-track cassette machine as demos; full-band versions were tried and set aside, and the tape itself was released. The stories follow killers, debtors and state troopers in small-town America. Its bare sound and its choice of the demo over the studio influenced later lo-fi and folk songwriters.",
+    "zh": "斯普林斯汀在家里用四轨卡带机独自录下这些歌，本是小样；乐队版试过之后被搁置，最后直接发行了这卷磁带。故事里有杀人犯、欠债的人和州警，背景是美国小镇。它赤裸的声音，以及选小样不选录音室的决定，影响了后来的低保真和民谣创作者。"
+  },
+  "checked": "2026-10-15"
+}

@@ -210,5 +210,12 @@
     "S-006007",
     "S-002043",
     "S-006211"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "The oldest Chinese treatise on technology, whose test of good work, right season, right ground, fine material and skill together, still holds; schematic in places.",
+      "zh": "中国最早的技术专书，天时、地气、材美、工巧四者合一的良工标准至今成立；个别处略显程式化。"
+    }
+  }
 }

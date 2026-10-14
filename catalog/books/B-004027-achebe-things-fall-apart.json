@@ -1,0 +1,40 @@
+{
+  "id": "B-004027",
+  "slug": "achebe-things-fall-apart",
+  "category": "literature",
+  "title": {
+    "orig": "Things Fall Apart",
+    "en": "Things Fall Apart",
+    "zh": "这个世界土崩瓦解了"
+  },
+  "author": {
+    "orig": "Chinua Achebe",
+    "en": "Chinua Achebe",
+    "zh": "钦努阿·阿契贝",
+    "dates": "1930–2013",
+    "dates_zh": "1930–2013"
+  },
+  "year": 1958,
+  "year_display": {
+    "en": "1958",
+    "zh": "1958 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "Nigeria",
+    "zh": "尼日利亚"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q622400",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Okonkwo, a proud man in an Igbo village, lives by strength and fear of weakness, until missionaries and colonial government arrive. Achebe shows the community from inside, with its proverbs, laws and arguments, before showing it break. Written in clear English, it became a founding book of modern African fiction.",
+    "zh": "奥孔克沃是伊博族村庄里一个骄傲的人，靠力量活着，最怕软弱；直到传教士和殖民政府到来。阿契贝先从内部展示这个社会，它的谚语、规矩与争论，然后才写它的瓦解。全书用清晰的英语写成，成为现代非洲小说的奠基之作。"
+  },
+  "checked": "2026-10-15"
+}

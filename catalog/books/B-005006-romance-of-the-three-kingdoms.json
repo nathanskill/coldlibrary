@@ -1,0 +1,48 @@
+{
+  "id": "B-005006",
+  "slug": "romance-of-the-three-kingdoms",
+  "category": "literature",
+  "title": {
+    "orig": "三國演義",
+    "en": "Romance of the Three Kingdoms",
+    "zh": "三国演义"
+  },
+  "author": {
+    "orig": "羅貫中",
+    "en": "Luo Guanzhong",
+    "zh": "罗贯中",
+    "dates": "c. 1330–c. 1400",
+    "dates_zh": "约 1330–约 1400"
+  },
+  "year": 1400,
+  "year_display": {
+    "en": "14th century; earliest surviving edition 1522",
+    "zh": "元末明初成书；现存最早刊本 1522 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/三國演義",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q70806",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "The century of war that followed the fall of the Han, retold from the histories and the storytellers' versions into one long novel. Its strategists, loyal brothers and schemers became the common property of Chinese culture, from opera to proverbs. The characters are drawn in broad strokes, but the scale and momentum of the telling are unmatched.",
+    "zh": "从黄巾起事到三家归晋，近百年的兴亡，取材于《三国志》和说书人的故事，编成一部长篇演义。诸葛亮、关羽、曹操从此成为中国人共有的人物，戏曲、俗语都离不开它。人物写得粗线条，忠奸分明，但叙事的气魄和推进的力量少有能比。"
+  },
+  "checked": "2026-10-15"
+}

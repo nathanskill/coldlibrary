@@ -1,0 +1,57 @@
+{
+  "id": "B-003002",
+  "slug": "horace-ars-poetica",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Ars Poetica",
+    "en": "The Art of Poetry (Ars Poetica)",
+    "zh": "诗艺"
+  },
+  "author": {
+    "orig": "Quintus Horatius Flaccus",
+    "en": "Horace",
+    "zh": "贺拉斯",
+    "dates": "65 – 8 BCE",
+    "dates_zh": "前 65 – 前 8"
+  },
+  "year": -19,
+  "year_display": {
+    "en": "c. 19 BCE",
+    "zh": "约公元前 19 年"
+  },
+  "lang": "la",
+  "origin": {
+    "en": "Rome",
+    "zh": "罗马"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (la)",
+      "url": "https://la.wikisource.org/wiki/Ars_poetica",
+      "note": {
+        "en": "Latin text",
+        "zh": "拉丁文原文"
+      }
+    },
+    {
+      "name": "Wikisource (en)",
+      "url": "https://en.wikisource.org/wiki/The_Satires,_Epistles_%26_Art_of_Poetry_of_Horace/Ars_Poetica",
+      "note": {
+        "en": "John Conington's verse translation (1874 edition)",
+        "zh": "康宁顿诗体英译本（1874 年版）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q677997",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "A verse letter of advice to a family of would-be poets, easy in tone and full of craft: keep a work whole, suit style to subject, revise for years, mix the useful with the pleasing. It is less a theory than a working poet's table talk, and for centuries Europe's schools learned poetry from it.",
+    "zh": "这是一封写给一家有志作诗者的诗体书信，口吻从容，满是手艺上的忠告：作品要统一完整，文体要合乎题材，要多年修改，要寓教于乐。它与其说是理论，不如说是一位行家的席间闲谈，欧洲的学校却凭它教了好几个世纪的诗。"
+  },
+  "checked": "2026-10-15"
+}

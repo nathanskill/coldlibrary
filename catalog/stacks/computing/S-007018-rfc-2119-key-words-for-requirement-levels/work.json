@@ -62,5 +62,12 @@
     "S-007017",
     "S-007023",
     "S-007019"
-  ]
+  ],
+  "score": {
+    "value": 8.2,
+    "note": {
+      "en": "Two pages that fixed what MUST, SHOULD and MAY mean, now used in thousands of standards; a small masterpiece of drafting whose plea for sparing use is often ignored.",
+      "zh": "两页纸定下 MUST、SHOULD、MAY 的含义，见于成千上万份标准；起草上的小杰作，只是“少用”的叮嘱常被忽略。"
+    }
+  }
 }

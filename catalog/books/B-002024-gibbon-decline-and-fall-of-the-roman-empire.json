@@ -1,0 +1,49 @@
+{
+  "id": "B-002024",
+  "slug": "gibbon-decline-and-fall-of-the-roman-empire",
+  "category": "history",
+  "title": {
+    "orig": "The History of the Decline and Fall of the Roman Empire",
+    "en": "The History of the Decline and Fall of the Roman Empire",
+    "zh": "罗马帝国衰亡史"
+  },
+  "author": {
+    "orig": "Edward Gibbon",
+    "en": "Edward Gibbon",
+    "zh": "爱德华·吉本",
+    "dates": "1737 – 1794",
+    "dates_zh": "1737 – 1794"
+  },
+  "year": 1776,
+  "year_display": {
+    "en": "1776–1789",
+    "zh": "1776–1789 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "England",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/25717",
+      "note": {
+        "en": "complete text with H. H. Milman's notes (1845 edition)",
+        "zh": "全本，附米尔曼注（1845 年版）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q313030",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "Six volumes carry the Roman world from the age of the Antonines to the fall of Constantinople, with a last look at the ruins of the city. Gibbon read the ancient sources closely and wrote in balanced, ironic periods that make long reigns move. His chapters on early Christianity caused a storm, and much of his scholarship has been revised. The architecture of the whole and the prose still hold.",
+    "zh": "六卷书把罗马世界从安东尼王朝写到君士坦丁堡陷落，最后回望罗马城的废墟。吉本细读古代史料，句式匀称而带讥讽，让漫长的朝代流动起来。论早期基督教的两章当年引起轩然大波，他的许多学术结论也已被修正。但全书的结构与文笔至今立得住。"
+  },
+  "checked": "2026-10-15"
+}

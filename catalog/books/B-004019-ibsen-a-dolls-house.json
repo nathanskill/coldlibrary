@@ -1,0 +1,57 @@
+{
+  "id": "B-004019",
+  "slug": "ibsen-a-dolls-house",
+  "category": "literature",
+  "title": {
+    "orig": "Et dukkehjem",
+    "en": "A Doll’s House",
+    "zh": "玩偶之家"
+  },
+  "author": {
+    "orig": "Henrik Ibsen",
+    "en": "Henrik Ibsen",
+    "zh": "亨利克·易卜生",
+    "dates": "1828–1906",
+    "dates_zh": "1828–1906"
+  },
+  "year": 1879,
+  "year_display": {
+    "en": "1879",
+    "zh": "1879 年"
+  },
+  "lang": "no",
+  "origin": {
+    "en": "Written in Italy by a Norwegian author",
+    "zh": "挪威作家写于意大利"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/henrik-ibsen/a-dolls-house/r-farquharson-sharp",
+      "note": {
+        "en": "R. Farquharson Sharp’s translation (1910)",
+        "zh": "法夸尔森·夏普英译（1910）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2542",
+      "note": {
+        "en": "R. Farquharson Sharp’s translation (1910)",
+        "zh": "法夸尔森·夏普英译（1910）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q669694",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "A comfortable household, a secret loan and a wife who is treated as a pet until she decides to think for herself. Ibsen builds the plot like a well-made thriller and then stops it for a conversation, and the closing door became one of the most argued-over endings in theatre. Some machinery creaks, but the last act still lands.",
+    "zh": "一个安逸的家、一笔秘密借款，一个被当作宠物对待的妻子，直到她决定自己思考。易卜生把情节搭得像一部严丝合缝的悬疑剧，然后让它停下来，变成一场谈话；那一声关门成了戏剧史上争论最多的结尾之一。有些机关略显吱呀，最后一幕依然有力。"
+  },
+  "checked": "2026-10-15"
+}

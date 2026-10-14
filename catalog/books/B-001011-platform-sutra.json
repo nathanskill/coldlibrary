@@ -1,0 +1,45 @@
+{
+  "id": "B-001011",
+  "slug": "platform-sutra",
+  "category": "faith",
+  "title": {
+    "orig": "六祖大師法寶壇經",
+    "en": "The Platform Sutra of the Sixth Patriarch",
+    "zh": "六祖坛经"
+  },
+  "author": null,
+  "year": 780,
+  "year_display": {
+    "en": "8th century",
+    "zh": "8 世纪"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": {
+    "en": "Chan (Zen) Buddhism",
+    "zh": "禅宗"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/六祖大師法寶壇經",
+      "note": {
+        "en": "the Zongbao edition (Yuan dynasty), in Chinese",
+        "zh": "宗宝本（元代），中文原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q2418783",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The teachings and life of Huineng, the Sixth Patriarch of Chan, as recorded by his disciples: how an unlettered seller of firewood received the robe, and his teaching of sudden awakening to one's own nature. It is the only Chinese Buddhist work honoured with the name of sutra. Its versions grew over centuries, from the Dunhuang manuscript to the longer Yuan edition.",
+    "zh": "禅宗六祖惠能的言教与生平，由弟子记录：一个不识字的卖柴人如何得受衣钵，以及他直指本心、顿悟成佛的教法。它是唯一被尊称为“经”的中国人撰述的佛教著作。版本历代增益，从敦煌写本到元代的宗宝本，篇幅越来越长。"
+  },
+  "checked": "2026-10-15"
+}

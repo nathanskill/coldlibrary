@@ -1,0 +1,46 @@
+{
+  "id": "A-002020",
+  "slug": "the-clash-london-calling",
+  "title": {
+    "orig": "London Calling",
+    "en": "London Calling",
+    "zh": "伦敦呼唤"
+  },
+  "artist": {
+    "orig": "The Clash",
+    "en": "The Clash",
+    "zh": "冲撞乐队",
+    "mbid": "8f92558c-2baa-4758-8c38-615519e9deda"
+  },
+  "year": 1979,
+  "released": "1979-12-14",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "punk",
+    "rock",
+    "reggae"
+  ],
+  "style": {
+    "en": "punk rock",
+    "zh": "朋克摇滚"
+  },
+  "label": "CBS",
+  "tracks": 19,
+  "length": "63:59",
+  "mbid": "8d73e45e-7ca1-3cb4-ae28-6da76196c17c",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/8d73e45e-7ca1-3cb4-ae28-6da76196c17c",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/London_Calling",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E5%80%AB%E6%95%A6%E5%91%BC%E5%96%9A"
+  },
+  "start_with": "London Calling",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "A double album sold for roughly the price of a single one, London Calling took the Clash far past punk's first rules into rockabilly, reggae, ska, soul and jazz. Producer Guy Stevens kept the sessions loose. Nineteen songs of urban unrest and old American music made it a landmark for what a punk band could become.",
+    "zh": "这张双专辑以接近单张的价格发售，带着冲撞乐队远远越过朋克最初的规矩，走进山区摇滚、雷鬼、斯卡、灵魂乐和爵士。制作人盖伊·史蒂文斯让录音保持松弛。十九首歌写城市动荡，也写老美国音乐，它标出了一支朋克乐队可以走多远。"
+  },
+  "checked": "2026-10-15"
+}

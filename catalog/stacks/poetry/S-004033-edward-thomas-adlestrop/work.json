@@ -72,5 +72,12 @@
   "plate": null,
   "pairs": [
     "S-001044"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "One unscheduled minute at a country station, kept whole by a list of names, willows and a blackbird; its smallness is the achievement, and it is nearly flawless.",
+      "zh": "乡间小站一分钟的意外停靠，靠地名、柳树和一只乌鸫完整保存；小，正是它的成就，几乎无瑕。"
+    }
+  }
 }

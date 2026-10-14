@@ -139,5 +139,12 @@
     "S-007007",
     "S-007206",
     "S-007003"
-  ]
+  ],
+  "score": {
+    "value": 8.2,
+    "note": {
+      "en": "A short review by a great logician that asks how much thinking a machine could do and answers without hype; slight in length, sharp in judgment, and remarkably prescient.",
+      "zh": "一位大逻辑学家的短评，追问机器能承担多少思考，回答不事夸张；篇幅小，判断锐利，眼光相当超前。"
+    }
+  }
 }

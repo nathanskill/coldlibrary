@@ -224,5 +224,12 @@
   "pairs": [
     "S-006005",
     "S-002041"
-  ]
+  ],
+  "score": {
+    "value": 8.4,
+    "note": {
+      "en": "An early, clear statement that running water carves landscapes, tested against other places as a field geologist would; a short note, but the reasoning is sound.",
+      "zh": "很早就清楚指出流水塑造山形，并像野外地质学家那样拿别处验证；只是一则短札，推理却很扎实。"
+    }
+  }
 }

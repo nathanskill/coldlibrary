@@ -1,0 +1,38 @@
+{
+  "id": "B-005028",
+  "slug": "the-three-body-problem",
+  "category": "literature",
+  "title": {
+    "orig": "三体",
+    "en": "The Three-Body Problem",
+    "zh": "三体"
+  },
+  "author": {
+    "orig": "刘慈欣",
+    "en": "Liu Cixin",
+    "zh": "刘慈欣",
+    "dates": "b. 1963",
+    "dates_zh": "1963 年生"
+  },
+  "year": 2008,
+  "year_display": {
+    "en": "Serialised 2006; book 2008",
+    "zh": "2006 年连载；2008 年出版"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q607112",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "A nanomaterials scientist is drawn into a strange online game and a decades-old secret involving a distant star system. The first volume of Liu Cixin's trilogy is hard science fiction of enormous scale, building its wonders out of real physics. The prose and characters are workmanlike; the ideas are thrilling. Ken Liu's translation won the Hugo Award in 2015.",
+    "zh": "纳米材料科学家汪淼被卷入一款奇怪的网络游戏，以及一个牵涉遥远星系、隐藏了几十年的秘密。刘慈欣三部曲的第一部，是格局宏大的硬科幻，奇观都建立在真实的物理之上。文字和人物较平实，构想却令人兴奋。英译本 2015 年获雨果奖。"
+  },
+  "checked": "2026-10-15"
+}

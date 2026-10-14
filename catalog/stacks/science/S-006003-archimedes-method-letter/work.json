@@ -103,5 +103,12 @@
     "S-006019",
     "S-006002",
     "S-005017"
-  ]
+  ],
+  "score": {
+    "value": 9.1,
+    "note": {
+      "en": "A rare look at how a great Greek geometer found results before proving them, saved by chance beneath a prayer book; its line between insight and proof still holds.",
+      "zh": "难得看到希腊几何大师在证明之前如何发现结果，靠祈祷书下的残迹留存；它对洞见与证明的区分至今有效。"
+    }
+  }
 }

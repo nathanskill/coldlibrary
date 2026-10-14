@@ -167,5 +167,12 @@
     "S-006006",
     "S-006008",
     "S-006009"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "Newton’s first paper and a model of experimental argument: a hole in a shutter, two prisms, and white light shown to be a mixture of colours.",
+      "zh": "牛顿的第一篇论文，实验论证的典范：窗板上一个孔、两块棱镜，证明白光是多种色光的混合。"
+    }
+  }
 }

@@ -1,0 +1,42 @@
+{
+  "id": "A-004023",
+  "slug": "mohammad-reza-shajarian-bidad",
+  "title": {
+    "orig": "بیداد",
+    "en": "Bidad",
+    "zh": "比达德"
+  },
+  "artist": {
+    "orig": "محمدرضا شجريان",
+    "en": "Mohammad-Reza Shajarian",
+    "zh": "穆罕默德-礼萨·沙贾里安",
+    "mbid": "1e6c8164-a1a1-457f-9c39-efbef12942c6"
+  },
+  "year": 1985,
+  "released": "1985",
+  "region": "IR",
+  "lang": "fa",
+  "genres": [
+    "classical",
+    "traditional"
+  ],
+  "style": {
+    "en": "Persian classical (dastgah)",
+    "zh": "波斯古典音乐（达斯特加）"
+  },
+  "mbid": "760bcc99-1082-4b49-99e3-d3cae8eb31c2",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/760bcc99-1082-4b49-99e3-d3cae8eb31c2",
+    "wikipedia_en": null,
+    "wikipedia_zh": null
+  },
+  "start_with": "Tasnife Yade Bad",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "A recording by the singer Mohammad-Reza Shajarian with the santur player and composer Parviz Meshkatian, in the dastgah of Homayoun and its section Bidad, which gives the album its name. It follows the classical sequence of instrumental overture, improvised vocal passages answered by the instruments, and composed songs. It is among the most widely known recordings of Persian classical music made after 1979.",
+    "zh": "歌唱家穆罕默德-礼萨·沙贾里安与桑图尔琴演奏家、作曲家帕尔维兹·梅什卡蒂安合作的录音，调式为霍马雍达斯特加及其中的比达德段落，专辑由此得名。它依循古典的次序：器乐序曲，人声即兴与乐器应答，再到谱写好的歌曲。这是 1979 年之后流传最广的波斯古典音乐录音之一。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "B-003018",
+  "slug": "lu-yu-classic-of-tea",
+  "category": "aesthetics",
+  "title": {
+    "orig": "茶經",
+    "en": "The Classic of Tea",
+    "zh": "茶经"
+  },
+  "author": {
+    "orig": "陸羽",
+    "en": "Lu Yu",
+    "zh": "陆羽",
+    "dates": "733 – 804",
+    "dates_zh": "733 – 804"
+  },
+  "year": 770,
+  "year_display": {
+    "en": "c. 760–780",
+    "zh": "约 760—780 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China (Tang)",
+    "zh": "中国（唐）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (zh)",
+      "url": "https://zh.wikisource.org/wiki/茶經",
+      "note": {
+        "en": "classical Chinese text in three juan",
+        "zh": "文言原文，三卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q259153",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "The first book wholly about tea, in ten short sections on its origins, tools, making, vessels, brewing, drinking, history and regions. It is practical rather than theoretical, but its care over water, fire and cups turned a drink into a discipline of taste, and every later tea culture in East Asia traces itself back to it.",
+    "zh": "第一部专论茶的书，分十节，讲茶的源、具、造、器、煮、饮、事、出等。它重实用而非理论，但对水、火、茶碗的讲究，把一种饮品变成了一门品味的修养，东亚后来的各种茶文化都追溯到它。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "B-005024",
+  "slug": "red-sorghum",
+  "category": "literature",
+  "title": {
+    "orig": "红高粱家族",
+    "en": "Red Sorghum",
+    "zh": "红高粱家族"
+  },
+  "author": {
+    "orig": "莫言",
+    "en": "Mo Yan",
+    "zh": "莫言",
+    "dates": "b. 1955",
+    "dates_zh": "1955 年生"
+  },
+  "year": 1987,
+  "year_display": {
+    "en": "Novellas 1986; novel 1987",
+    "zh": "1986 年以中篇陆续发表；1987 年合为长篇"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q1766205",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "A narrator pieces together the legends of his grandparents in Northeast Gaomi, among sorghum fields, a distillery and the war against Japan. Mo Yan's prose is lush, sensory and often violent, mixing memory and myth. Uneven and excessive by design, it announced a new, wild voice in Chinese fiction.",
+    "zh": "叙述者在高密东北乡的高粱地里，拼凑“我爷爷”“我奶奶”的传奇：酒坊、土匪、抗日的伏击。莫言的语言浓烈、感官化，常常血腥，记忆与神话交缠。刻意的放纵使它参差，却宣告了中国小说里一个狂野的新声音。"
+  },
+  "checked": "2026-10-15"
+}

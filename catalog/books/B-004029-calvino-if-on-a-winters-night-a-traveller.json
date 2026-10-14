@@ -1,0 +1,40 @@
+{
+  "id": "B-004029",
+  "slug": "calvino-if-on-a-winters-night-a-traveller",
+  "category": "literature",
+  "title": {
+    "orig": "Se una notte d’inverno un viaggiatore",
+    "en": "If on a Winter’s Night a Traveller",
+    "zh": "如果在冬夜，一个旅人"
+  },
+  "author": {
+    "orig": "Italo Calvino",
+    "en": "Italo Calvino",
+    "zh": "伊塔洛·卡尔维诺",
+    "dates": "1923–1985",
+    "dates_zh": "1923–1985"
+  },
+  "year": 1979,
+  "year_display": {
+    "en": "1979",
+    "zh": "1979 年"
+  },
+  "lang": "it",
+  "origin": {
+    "en": "Italy",
+    "zh": "意大利"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q1032190",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "You, the reader, start a novel by Calvino, find it misbound, and chase its continuation through ten openings of ten different books that never go on. It is a game about reading itself, elegant and full of wit, with a love story running through it. The trick is brilliant; the cleverness can keep feeling at arm’s length.",
+    "zh": "你，读者，开始读一本卡尔维诺的新小说，发现装订出错，于是追着去找下文，却遇到十本不同小说的十个开头，没有一本续下去。这是一场关于阅读本身的游戏，优雅机智，中间贯穿着一段爱情。构思精彩，只是机巧有时让情感隔着一层。"
+  },
+  "checked": "2026-10-15"
+}

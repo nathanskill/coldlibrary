@@ -1,0 +1,44 @@
+{
+  "id": "A-002017",
+  "slug": "kraftwerk-trans-europe-express",
+  "title": {
+    "orig": "Trans Europa Express",
+    "en": "Trans-Europe Express",
+    "zh": "Trans-Europe Express"
+  },
+  "artist": {
+    "orig": "Kraftwerk",
+    "en": "Kraftwerk",
+    "zh": "发电站乐队",
+    "mbid": "5700dcd4-c139-4f31-aa3e-6382b9af9032"
+  },
+  "year": 1977,
+  "released": "1977",
+  "region": "DE",
+  "lang": "de",
+  "genres": [
+    "electronic"
+  ],
+  "style": {
+    "en": "synth-pop",
+    "zh": "合成器流行"
+  },
+  "label": "Kling Klang",
+  "tracks": 8,
+  "length": "42:46",
+  "mbid": "33101a28-ae05-3a69-873c-684e336fe2df",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/33101a28-ae05-3a69-873c-684e336fe2df",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Trans-Europe_Express_(album)",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E7%8E%AF%E6%AC%A7%E5%BF%AB%E8%BD%A6_(%E4%B8%93%E8%BE%91)"
+  },
+  "start_with": "Trans Europa Express",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Kraftwerk's 1977 album, issued in German and English versions, builds a portrait of Europe from rail travel, mirrors and mannequins using synthesizers and electronic percussion. The title track's mechanical rhythm was taken up by Afrika Bambaataa for Planet Rock in 1982, one route by which the record shaped hip hop and electronic dance music.",
+    "zh": "发电站乐队 1977 年的这张专辑有德语和英语两个版本，用合成器和电子打击乐，从铁路旅行、镜厅和橱窗模特拼出一幅欧洲图景。同名曲的机械节奏在 1982 年被阿夫里卡·班巴塔用进《Planet Rock》，这张唱片由此影响了嘻哈和电子舞曲。"
+  },
+  "checked": "2026-10-15"
+}

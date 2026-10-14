@@ -72,5 +72,12 @@
   "plate": null,
   "pairs": [
     "S-004022"
-  ]
+  ],
+  "score": {
+    "value": 9.1,
+    "note": {
+      "en": "An octave of a world smeared by trade and a sestet that answers it with freshness deep down things; Hopkins’s music at its most controlled.",
+      "zh": "八行写被劳作与买卖弄脏的世界，六行以万物深处的清新作答；霍普金斯的音乐在这里最为收放自如。"
+    }
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "id": "B-002028",
+  "slug": "braudel-the-mediterranean",
+  "category": "history",
+  "title": {
+    "orig": "La Méditerranée et le monde méditerranéen à l'époque de Philippe II",
+    "en": "The Mediterranean and the Mediterranean World in the Age of Philip II",
+    "zh": "菲利普二世时代的地中海和地中海世界"
+  },
+  "author": {
+    "orig": "Fernand Braudel",
+    "en": "Fernand Braudel",
+    "zh": "费尔南·布罗代尔",
+    "dates": "1902 – 1985",
+    "dates_zh": "1902 – 1985"
+  },
+  "year": 1949,
+  "year_display": {
+    "en": "1949",
+    "zh": "1949 年"
+  },
+  "lang": "fr",
+  "origin": {
+    "en": "France",
+    "zh": "法国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q1169779",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "Braudel makes a sea the hero of a history. The book moves through three speeds of time: the near-motionless history of mountains, plains and climate; the slower rhythms of economies, states and civilisations; and only last the quick surface of events around Philip II. Its scale can overwhelm and the parts do not fully join. Few histories have so changed how historians think about time and place.",
+    "zh": "布罗代尔让一片海成为历史的主角。全书按三种时间速度展开：山地、平原与气候几乎静止的历史；经济、国家与文明较缓慢的节律；最后才是腓力二世周围事件那层快速的表面。篇幅宏大到令人难以招架，三部分也未完全接合。但很少有史书如此改变了史家对时间与地理的思考。"
+  },
+  "checked": "2026-10-15"
+}

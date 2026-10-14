@@ -1,0 +1,49 @@
+{
+  "id": "B-003003",
+  "slug": "longinus-on-the-sublime",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Περὶ ὕψους",
+    "en": "On the Sublime",
+    "zh": "论崇高"
+  },
+  "author": {
+    "orig": "Λογγῖνος",
+    "en": "Longinus (author unknown)",
+    "zh": "朗吉努斯（作者不详）",
+    "dates": "1st century CE",
+    "dates_zh": "公元 1 世纪"
+  },
+  "year": 50,
+  "year_display": {
+    "en": "1st century CE",
+    "zh": "公元 1 世纪"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Roman Empire",
+    "zh": "罗马帝国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/17957",
+      "note": {
+        "en": "H. L. Havell's translation (1890)",
+        "zh": "哈维尔英译本（1890）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q6245111",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "An unknown teacher's treatise on what lifts writing until it overwhelms the reader, drawn from Homer, Sappho, Demosthenes and even Genesis. It survives with gaps, but its warmth and quick judgment are intact. Rediscovered in the Renaissance, it gave the eighteenth century its idea of the sublime and still reads like a lesson from someone who loved books.",
+    "zh": "一位不知名的教师论文章何以高到令读者震撼，例子取自荷马、萨福、德摩斯梯尼，甚至《创世记》。原书有缺页，但热情和敏锐的判断都在。它在文艺复兴时被重新发现，给了十八世纪“崇高”这一观念，今天读来仍像一位爱书人亲口授课。"
+  },
+  "checked": "2026-10-15"
+}

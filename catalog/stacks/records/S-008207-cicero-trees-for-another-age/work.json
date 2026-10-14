@@ -96,5 +96,13 @@
     "S-008012",
     "S-008009",
     "S-004104"
-  ]
+  ],
+  "score": {
+    "value": 8.3,
+    "note": {
+      "en": "A short passage from a beloved dialogue, with the plainest image of the long view, farmers planting trees for an age to come; slight in length, durable in sense.",
+      "zh": "出自一部深受喜爱的对话，以老农为后代种树写长远眼光，最为朴素；篇幅很短，道理耐久。"
+    }
+  },
+  "category": "thought"
 }

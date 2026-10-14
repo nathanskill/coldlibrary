@@ -1,0 +1,45 @@
+{
+  "id": "A-004015",
+  "slug": "eraserheads-cutterpillow",
+  "title": {
+    "orig": "Cutterpillow",
+    "en": "Cutterpillow",
+    "zh": "Cutterpillow"
+  },
+  "artist": {
+    "orig": "Eraserheads",
+    "en": "Eraserheads",
+    "zh": "Eraserheads",
+    "mbid": "b1640065-cc2f-4f92-ac4f-eb2d9f31d8da"
+  },
+  "year": 1995,
+  "released": "1995-12-08",
+  "region": "PH",
+  "lang": "tl",
+  "genres": [
+    "rock",
+    "pop"
+  ],
+  "style": {
+    "en": "Pinoy rock",
+    "zh": "菲律宾摇滚"
+  },
+  "label": "Musiko Records",
+  "tracks": 15,
+  "length": "59:18",
+  "mbid": "caa36f59-4ae0-46bf-910d-aadd29d2ffaa",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/caa36f59-4ae0-46bf-910d-aadd29d2ffaa",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Cutterpillow",
+    "wikipedia_zh": null
+  },
+  "start_with": "Ang Huling El Bimbo",
+  "score": {
+    "value": 7.9
+  },
+  "review": {
+    "en": "The third album by the Manila band Eraserheads, led by Ely Buendia, became one of the best-selling records in Philippine history. It moves between English and Tagalog, punk bursts and Beatles-style melody, and closes with Ang Huling El Bimbo, a seven-minute story of youth and loss that has become a national standard. Uneven across fifteen tracks, but central to Filipino rock.",
+    "zh": "马尼拉乐队 Eraserheads 的第三张专辑，主唱埃利·布恩迪亚，成了菲律宾史上最畅销的唱片之一。它在英语和他加禄语之间切换，有朋克式的爆发，也有披头士式的旋律，结尾的《Ang Huling El Bimbo》是一个七分钟的青春与失去的故事，已成为全民传唱的歌。十五首歌并不整齐，却是菲律宾摇滚的中心。"
+  },
+  "checked": "2026-10-15"
+}

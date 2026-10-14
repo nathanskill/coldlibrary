@@ -111,5 +111,12 @@
     "S-006008",
     "S-006002",
     "S-006009"
-  ]
+  ],
+  "score": {
+    "value": 9.2,
+    "note": {
+      "en": "The first book of telescopic astronomy, and a model of observation that lets the evidence change the observer’s mind; four moons of Jupiter changed what the heavens could be.",
+      "zh": "第一部望远镜天文学著作，也是让证据改变观察者想法的范例；木星的四颗卫星改变了人们对天空的理解。"
+    }
+  }
 }

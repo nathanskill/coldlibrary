@@ -1,0 +1,51 @@
+{
+  "id": "B-005002",
+  "slug": "chu-ci",
+  "category": "literature",
+  "title": {
+    "orig": "楚辭",
+    "en": "Songs of the South",
+    "zh": "楚辞"
+  },
+  "author": {
+    "orig": "屈原",
+    "en": "Qu Yuan",
+    "zh": "屈原",
+    "dates": "c. 340–278 BCE",
+    "dates_zh": "约前 340–前 278"
+  },
+  "year": -300,
+  "year_display": {
+    "en": "4th–3rd century BCE; compiled by Liu Xiang, 1st century BCE",
+    "zh": "战国；西汉刘向编集"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/楚辭",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "stacks": [
+    "S-001005"
+  ],
+  "wikidata": "Q874601",
+  "score": {
+    "value": 9.3
+  },
+  "review": {
+    "en": "The poems of Qu Yuan and those who wrote in his manner, gathered in the Han from the southern state of Chu. Where the Classic of Poetry is terse, these are long, perfumed and visionary, full of shamans, fragrant herbs and journeys through the sky. Together the two books are the twin springs of Chinese verse.",
+    "zh": "以屈原为代表的楚地诗歌，西汉时编集成书，也收入宋玉和汉人的仿作。与《诗经》的简净相反，这里篇幅铺展，香草美人，巫风神游，情感激越。“风”与“骚”并称，是中国诗歌的两个源头。读《离骚》会难，不妨先从《九歌》的山鬼、湘君读起。"
+  },
+  "checked": "2026-10-15"
+}

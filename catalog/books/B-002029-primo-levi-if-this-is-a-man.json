@@ -1,0 +1,40 @@
+{
+  "id": "B-002029",
+  "slug": "primo-levi-if-this-is-a-man",
+  "category": "history",
+  "title": {
+    "orig": "Se questo è un uomo",
+    "en": "If This Is a Man",
+    "zh": "如果这是一个人"
+  },
+  "author": {
+    "orig": "Primo Levi",
+    "en": "Primo Levi",
+    "zh": "普里莫·莱维",
+    "dates": "1919 – 1987",
+    "dates_zh": "1919 – 1987"
+  },
+  "year": 1947,
+  "year_display": {
+    "en": "1947",
+    "zh": "1947 年"
+  },
+  "lang": "it",
+  "origin": {
+    "en": "Italy",
+    "zh": "意大利"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q836036",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "A young Italian chemist deported to Auschwitz in 1944 describes the camp with a scientist's precision: its rules, its trade in bread and spoons, the ways people were stripped down and the rare ways some held on. Levi refuses both rhetoric and easy consolation. As testimony it is a primary document; as a study of what such a place does to human beings it has few equals.",
+    "zh": "一位年轻的意大利化学家 1944 年被押往奥斯维辛，他以科学家的精确记下集中营：规则、面包与汤勺的交易、人被一层层剥夺的方式，以及少数人勉强守住自己的办法。莱维拒绝修辞，也拒绝廉价的安慰。作为证言，它是第一手文献；作为对这种地方如何摧残人的研究，罕有其匹。"
+  },
+  "checked": "2026-10-15"
+}

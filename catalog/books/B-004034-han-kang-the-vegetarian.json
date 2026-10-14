@@ -1,0 +1,40 @@
+{
+  "id": "B-004034",
+  "slug": "han-kang-the-vegetarian",
+  "category": "literature",
+  "title": {
+    "orig": "채식주의자",
+    "en": "The Vegetarian",
+    "zh": "素食者"
+  },
+  "author": {
+    "orig": "한강",
+    "en": "Han Kang",
+    "zh": "韩江",
+    "dates": "1970–",
+    "dates_zh": "1970–"
+  },
+  "year": 2007,
+  "year_display": {
+    "en": "2007",
+    "zh": "2007 年"
+  },
+  "lang": "ko",
+  "origin": {
+    "en": "South Korea",
+    "zh": "韩国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q24082770",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "After a dream, a woman stops eating meat, and her husband, father and sister react in ways that reveal more about them than about her. Told in three parts by three other people, the book is short, strange and violent in places. In Deborah Smith’s translation it won the International Booker Prize in 2016; its images stay longer than its argument.",
+    "zh": "一场梦之后，一个女人不再吃肉；丈夫、父亲和姐姐的反应，暴露的更多是他们自己。全书分三部，由三个旁人讲述，篇幅短，怪异，有些地方很暴烈。黛博拉·史密斯的英译本获得 2016 年国际布克奖；它的意象比它的论点留得更久。"
+  },
+  "checked": "2026-10-15"
+}

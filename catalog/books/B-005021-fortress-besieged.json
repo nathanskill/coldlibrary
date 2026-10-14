@@ -1,0 +1,37 @@
+{
+  "id": "B-005021",
+  "slug": "fortress-besieged",
+  "category": "literature",
+  "title": {
+    "orig": "圍城",
+    "en": "Fortress Besieged",
+    "zh": "围城"
+  },
+  "author": {
+    "orig": "錢鍾書",
+    "en": "Qian Zhongshu",
+    "zh": "钱锺书",
+    "dates": "1910–1998"
+  },
+  "year": 1947,
+  "year_display": {
+    "en": "1947",
+    "zh": "1947 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q3209149",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Fang Hongjian comes home from Europe with a fake degree and drifts through love, a provincial college and marriage in the late 1930s. Qian Zhongshu, a scholar of immense reading, fills every page with similes sharp enough to quote. The comedy of vanity and small cowardice is brilliant; under it lies a sad, clear view of how people trap themselves.",
+    "zh": "方鸿渐带着一张假文凭从欧洲回国，在恋爱、内地的大学和婚姻之间随波逐流。钱锺书学识渊博，满纸妙喻，几乎句句可以摘引。写虚荣与怯懦的喜剧精彩之极，底下却是对人如何自困的清醒而悲凉的观察。他唯一的长篇小说。"
+  },
+  "checked": "2026-10-15"
+}

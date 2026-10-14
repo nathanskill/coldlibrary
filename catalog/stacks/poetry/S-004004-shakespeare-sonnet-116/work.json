@@ -72,5 +72,12 @@
   "pairs": [
     "S-004028",
     "S-004001"
-  ]
+  ],
+  "score": {
+    "value": 9.1,
+    "note": {
+      "en": "A definition of love by negation, anchored by the image of a star whose height can be taken though its worth cannot; the sonnet sequence at its most resolute.",
+      "zh": "以否定来定义爱，核心是一颗星：高度可以测量，价值无法估算；莎士比亚十四行诗中最坚定的一首。"
+    }
+  }
 }

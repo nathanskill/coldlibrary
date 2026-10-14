@@ -1,0 +1,45 @@
+{
+  "id": "A-004007",
+  "slug": "sheena-ringo-muzai-moratorium",
+  "title": {
+    "orig": "無罪モラトリアム",
+    "en": "Muzai Moratorium",
+    "zh": "无罪推定期"
+  },
+  "artist": {
+    "orig": "椎名林檎",
+    "en": "Sheena Ringo",
+    "zh": "椎名林檎",
+    "mbid": "9e414497-23b7-4ab7-9ec6-8ea9864c9e87"
+  },
+  "year": 1999,
+  "released": "1999-02-24",
+  "region": "JP",
+  "lang": "ja",
+  "genres": [
+    "rock",
+    "pop"
+  ],
+  "style": {
+    "en": "alternative rock",
+    "zh": "另类摇滚"
+  },
+  "label": "EASTWORLD",
+  "tracks": 11,
+  "length": "41:00",
+  "mbid": "923db16c-6620-3e44-ba00-a20745c6a957",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/923db16c-6620-3e44-ba00-a20745c6a957",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Muzai_Moratorium",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E7%84%A1%E9%99%90%E5%84%9F%E9%82%84"
+  },
+  "start_with": "歌舞伎町の女王",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "Sheena Ringo's debut album arrived fully formed: punk guitars, cabaret, jazz chords and old kayōkyoku melody, held together by a writer of twenty with a precise ear for words. It sold over a million copies and made her one of the defining Japanese artists of the following decades. The ambition here is still raw; what makes it last is how much she already knew she wanted.",
+    "zh": "椎名林檎的出道专辑一出来就已成形：朋克吉他、歌舞厅、爵士和弦和老派歌谣曲的旋律，由一个二十岁、对字句极其敏感的作者收拢在一起。专辑销量过百万，让她成为此后几十年日本最有分量的音乐人之一。这里的野心还很生涩，可它耐听，是因为她当时就清楚自己要什么。"
+  },
+  "checked": "2026-10-15"
+}

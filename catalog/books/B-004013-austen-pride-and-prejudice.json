@@ -1,0 +1,57 @@
+{
+  "id": "B-004013",
+  "slug": "austen-pride-and-prejudice",
+  "category": "literature",
+  "title": {
+    "orig": "Pride and Prejudice",
+    "en": "Pride and Prejudice",
+    "zh": "傲慢与偏见"
+  },
+  "author": {
+    "orig": "Jane Austen",
+    "en": "Jane Austen",
+    "zh": "简·奥斯汀",
+    "dates": "1775–1817",
+    "dates_zh": "1775–1817"
+  },
+  "year": 1813,
+  "year_display": {
+    "en": "1813",
+    "zh": "1813 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "England",
+    "zh": "英格兰"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/jane-austen/pride-and-prejudice",
+      "note": {
+        "en": "The 1813 novel",
+        "zh": "1813 年小说原文"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1342",
+      "note": {
+        "en": "The 1813 novel",
+        "zh": "1813 年小说原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q170583",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Five sisters, an entailed estate and two people who misjudge each other at a dance. Austen’s comedy works through dialogue so precise that a single reply can change a reader’s mind about a character, and under the wit runs a clear sense of what marriage meant for women with no money of their own. It is as pleasurable to reread as anything in English.",
+    "zh": "五个姐妹、一份只能由男性继承的产业，还有两个在舞会上互相看错的人。奥斯汀的喜剧靠对话推进，精确到一句回答就能改变读者对人物的看法；机智之下，是对没有自己财产的女性而言婚姻意味着什么的清醒认识。在英语作品里，它是最经得起重读的乐事之一。"
+  },
+  "checked": "2026-10-15"
+}

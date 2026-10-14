@@ -1,0 +1,45 @@
+{
+  "id": "A-002005",
+  "slug": "the-velvet-underground-and-nico",
+  "title": {
+    "orig": "The Velvet Underground & Nico",
+    "en": "The Velvet Underground & Nico",
+    "zh": "The Velvet Underground & Nico"
+  },
+  "artist": {
+    "orig": "The Velvet Underground",
+    "en": "The Velvet Underground",
+    "zh": "地下丝绒",
+    "mbid": "94b0fb9d-a066-4823-b2ec-af1d324bcfcf"
+  },
+  "year": 1967,
+  "released": "1967-03",
+  "region": "US",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "experimental"
+  ],
+  "style": {
+    "en": "art rock",
+    "zh": "艺术摇滚"
+  },
+  "label": "Verve",
+  "tracks": 11,
+  "length": "49:13",
+  "mbid": "5cbd9d7b-597a-3c5e-bfd1-c2b364215560",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/5cbd9d7b-597a-3c5e-bfd1-c2b364215560",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/The_Velvet_Underground_%26_Nico",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/The_Velvet_Underground_%26_Nico"
+  },
+  "start_with": "Femme Fatale",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "Presented by Andy Warhol, with Nico singing three songs, this debut sold poorly in 1967 and has influenced rock ever since. Lou Reed wrote about drugs and street life without judgement; John Cale's droning viola and the band's noise sat beside gentle ballads. Punk, post-punk and indie rock all trace a line back here.",
+    "zh": "由安迪·沃霍尔推出、妮可唱了其中三首的这张首专，1967 年几乎卖不动，却影响了此后整个摇滚。卢·里德不加评判地写毒品与街头，约翰·凯尔的中提琴嗡鸣和噪音，与轻柔的情歌并排而立。朋克、后朋克和独立摇滚，都能从这里找到源头。"
+  },
+  "checked": "2026-10-15"
+}

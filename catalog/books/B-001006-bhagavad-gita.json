@@ -1,0 +1,45 @@
+{
+  "id": "B-001006",
+  "slug": "bhagavad-gita",
+  "category": "faith",
+  "title": {
+    "orig": "भगवद्गीता",
+    "en": "Bhagavad Gita",
+    "zh": "薄伽梵歌"
+  },
+  "author": null,
+  "year": -200,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "India",
+    "zh": "印度"
+  },
+  "tradition": {
+    "en": "Hinduism",
+    "zh": "印度教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2388",
+      "note": {
+        "en": "Edwin Arnold's verse translation, The Song Celestial (1885)",
+        "zh": "埃德温·阿诺德诗体英译本《天上之歌》（1885）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q46802",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "Seven hundred verses within the Mahabharata: on the eve of battle the warrior Arjuna loses heart, and his charioteer Krishna teaches him about duty, action without attachment, knowledge and devotion. Short enough to memorise and deep enough for lifetimes of commentary, it is recited daily by many Hindus and has been read closely by thinkers far beyond India.",
+    "zh": "《摩诃婆罗多》中的七百颂。大战前夕，武士阿周那失去斗志，为他驾车的黑天向他讲述职责、不执着于结果的行动、知识与虔信。它短到可以背诵，又深到历代注释不绝，许多印度教徒每天诵读，印度以外的思想者也细细读过它。"
+  },
+  "checked": "2026-10-15"
+}

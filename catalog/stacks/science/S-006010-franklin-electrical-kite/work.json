@@ -74,5 +74,12 @@
     "S-008011",
     "S-008012",
     "S-006013"
-  ]
+  ],
+  "score": {
+    "value": 8.3,
+    "note": {
+      "en": "One paragraph that joined lightning to the laboratory spark, written as a recipe others could check; famous out of proportion to its length, and fairly so.",
+      "zh": "一段话把闪电与实验室里的电火花连在一起，写成可供复验的步骤；名气远超篇幅，也算实至名归。"
+    }
+  }
 }

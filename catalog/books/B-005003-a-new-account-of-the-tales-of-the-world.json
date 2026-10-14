@@ -1,0 +1,47 @@
+{
+  "id": "B-005003",
+  "slug": "a-new-account-of-the-tales-of-the-world",
+  "category": "literature",
+  "title": {
+    "orig": "世說新語",
+    "en": "A New Account of the Tales of the World",
+    "zh": "世说新语"
+  },
+  "author": {
+    "orig": "劉義慶",
+    "en": "Liu Yiqing",
+    "zh": "刘义庆",
+    "dates": "403–444"
+  },
+  "year": 430,
+  "year_display": {
+    "en": "5th century (Liu Song dynasty)",
+    "zh": "南朝宋，5 世纪"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/世說新語",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q387863",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "More than a thousand short anecdotes of scholars, generals and eccentrics from the Han to the Eastern Jin, sorted into thirty-six kinds of virtue and folly. Many entries are a single exchange or gesture, yet a whole temperament shows through. It fixed the image of the free-spirited Wei-Jin gentleman and supplied Chinese writing with idioms ever since.",
+    "zh": "南朝宋刘义庆主持编成，一千多则汉末至东晋名士的言行轶事，分三十六门。往往只是一句应答、一个动作，人物的风神便立住了。魏晋风度的形象多半出自这里，后世的成语典故也不断从中取用。适合随手翻开，读三两则就合上。"
+  },
+  "checked": "2026-10-15"
+}

@@ -62,5 +62,12 @@
     "S-007015",
     "S-007016",
     "S-007018"
-  ]
+  ],
+  "score": {
+    "value": 7.5,
+    "note": {
+      "en": "A well-aimed parody of putting everything on HTTP, remembered chiefly for error 418; funnier in its first pages than its last, and lasting more as folklore than as satire.",
+      "zh": "精准戏仿“万物皆走 HTTP”，人们记住的主要是 418 错误码；前半比后半好笑，流传多是作为掌故而非讽刺。"
+    }
+  }
 }

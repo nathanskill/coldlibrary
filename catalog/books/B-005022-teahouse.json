@@ -1,0 +1,37 @@
+{
+  "id": "B-005022",
+  "slug": "teahouse",
+  "category": "literature",
+  "title": {
+    "orig": "茶馆",
+    "en": "Teahouse",
+    "zh": "茶馆"
+  },
+  "author": {
+    "orig": "老舍",
+    "en": "Lao She",
+    "zh": "老舍",
+    "dates": "1899–1966"
+  },
+  "year": 1957,
+  "year_display": {
+    "en": "1957; first staged 1958",
+    "zh": "1957 年发表；1958 年首演"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q5370592",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Three acts in one Beijing teahouse, at the end of the Qing, in the warlord years and after the war with Japan, some fifty years in all. Dozens of customers pass through, each defined in a few lines of perfect Beijing speech. Lao She compresses an age into a single room, and the play has been a cornerstone of the Beijing People's Art Theatre since 1958.",
+    "zh": "三幕都在北京裕泰大茶馆：清末、军阀混战、抗战胜利后，前后五十来年。几十个人物进进出出，几句京白就立住一个人。老舍把一个时代压缩进一间屋子，自 1958 年首演以来，一直是北京人艺的看家戏。"
+  },
+  "checked": "2026-10-15"
+}

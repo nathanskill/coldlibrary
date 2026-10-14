@@ -1,0 +1,55 @@
+{
+  "id": "B-005015",
+  "slug": "lu-xun-wild-grass",
+  "category": "literature",
+  "title": {
+    "orig": "野草",
+    "en": "Wild Grass",
+    "zh": "野草"
+  },
+  "author": {
+    "orig": "魯迅",
+    "en": "Lu Xun",
+    "zh": "鲁迅",
+    "dates": "1881–1936"
+  },
+  "year": 1927,
+  "year_display": {
+    "en": "1927 (written 1924–1926)",
+    "zh": "1927 年（作于 1924–1926 年）"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/野艸",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "stacks": [
+    "S-003005",
+    "S-003006",
+    "S-003007",
+    "S-003008",
+    "S-003009",
+    "S-003043"
+  ],
+  "wikidata": "Q16691195",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "Twenty-three prose poems and a foreword, written in a small Beijing study between 1924 and 1926. Dreams, graves, frozen fire and an autumn night under two jujube trees: this is Lu Xun at his most private and most modern. Some pieces remain hard to decode, which is part of their pull. The Open Stacks hold six of them.",
+    "zh": "二十三篇散文诗加一篇题辞，写于北京西三条胡同的小书房。梦、坟、死火、后园的两株枣树，这是鲁迅最私密、也最现代的一面。有些篇章至今难以索解，这也正是它的吸引力。开架书库收有其中六篇。"
+  },
+  "checked": "2026-10-15"
+}

@@ -64,5 +64,12 @@
     "S-007024",
     "S-007016",
     "S-007007"
-  ]
+  ],
+  "score": {
+    "value": 8.0,
+    "note": {
+      "en": "A witty record of early hacker culture’s words and values, with the laws of Brooks and Conway in miniature; uneven by nature, as any collective glossary is.",
+      "zh": "风趣记录早期黑客文化的词汇与价值观，布鲁克斯、康威定律都在其中；众人合编的词典，难免良莠不齐。"
+    }
+  }
 }

@@ -1,0 +1,38 @@
+{
+  "id": "B-005026",
+  "slug": "the-song-of-everlasting-sorrow",
+  "category": "literature",
+  "title": {
+    "orig": "长恨歌",
+    "en": "The Song of Everlasting Sorrow",
+    "zh": "长恨歌"
+  },
+  "author": {
+    "orig": "王安忆",
+    "en": "Wang Anyi",
+    "zh": "王安忆",
+    "dates": "b. 1954",
+    "dates_zh": "1954 年生"
+  },
+  "year": 1995,
+  "year_display": {
+    "en": "Serialised 1995; book 1996",
+    "zh": "1995 年连载；1996 年出版"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q15954677",
+  "score": {
+    "value": 8.1
+  },
+  "review": {
+    "en": "Wang Qiyao, a pretty Shanghai girl of the 1940s, lives on through four decades of the city's changes. Wang Anyi writes long, slow paragraphs about alleys, pigeons, rumours and rooms, so that Shanghai itself becomes the heroine. The opening descriptions demand patience; the reward is a fine-grained portrait of a city and a woman's life. It won the Mao Dun Prize in 2000.",
+    "zh": "四十年代的上海小姐王琦瑶，随这座城市走过此后四十年的变迁。王安忆用绵长的段落写弄堂、鸽子、流言和闺阁，上海本身成了主角。开头的大段描写需要耐心，回报是一幅细密的城市与女性的生活图景。2000 年获茅盾文学奖。"
+  },
+  "checked": "2026-10-15"
+}

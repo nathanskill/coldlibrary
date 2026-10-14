@@ -263,5 +263,12 @@
   ],
   "pairs": [
     "S-002025"
-  ]
+  ],
+  "score": {
+    "value": 9.4,
+    "note": {
+      "en": "A plain, perfectly paced tale that gave Chinese its lasting image of a good place beyond reach; few short texts anywhere have shaped a culture’s imagination so deeply.",
+      "zh": "平实而节奏完美的叙述，留下“世外桃源”这一永恒意象；很少有短文如此深地塑造了一种文化的想象。"
+    }
+  }
 }

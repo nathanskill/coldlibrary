@@ -1,0 +1,51 @@
+{
+  "id": "B-002012",
+  "slug": "ban-gu-han-shu",
+  "category": "history",
+  "title": {
+    "orig": "漢書",
+    "en": "Book of Han",
+    "zh": "汉书"
+  },
+  "author": {
+    "orig": "班固",
+    "en": "Ban Gu (completed by Ban Zhao)",
+    "zh": "班固（班昭续成）",
+    "dates": "32 – 92 CE",
+    "dates_zh": "32 – 92"
+  },
+  "year": 111,
+  "year_display": {
+    "en": "completed c. 111 CE",
+    "zh": "约公元 111 年成书"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/漢書",
+      "note": {
+        "en": "the classical Chinese text",
+        "zh": "文言原文"
+      }
+    }
+  ],
+  "stacks": [
+    "S-008201"
+  ],
+  "wikidata": "Q846905",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "Begun by Ban Biao, written by his son Ban Gu and finished by his daughter Ban Zhao after Ban Gu died in prison, the Han shu covers the Western Han in one hundred chapters. It was the first history in Sima Qian's form to cover a single dynasty, the model for every official history after it. Its prose is more formal than the Shiji's, and its treatises on law, economy, geography and books are invaluable.",
+    "zh": "班彪开端，班固撰写，班固死于狱中后由妹妹班昭续成，《汉书》百篇专记西汉。它第一次以《史记》的体例只写一个朝代，此后历代正史都照此修撰。文字比《史记》庄重整饬，刑法、食货、地理、艺文诸志尤为珍贵。"
+  },
+  "checked": "2026-10-15"
+}

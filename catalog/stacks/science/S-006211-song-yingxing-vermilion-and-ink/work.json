@@ -215,5 +215,12 @@
     "S-006007",
     "S-002043",
     "S-006212"
-  ]
+  ],
+  "score": {
+    "value": 8.2,
+    "note": {
+      "en": "Engineer’s prose on vermilion and ink, with quantities and firing times in sticks of incense; precise and useful, though narrower than the book’s great chapters.",
+      "zh": "以工程师的笔法写朱与墨，用量与火候以香计时，一一记明；精确实用，只是比全书最重要的几章窄一些。"
+    }
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "id": "A-002010",
+  "slug": "joni-mitchell-blue",
+  "title": {
+    "orig": "Blue",
+    "en": "Blue",
+    "zh": "蓝色"
+  },
+  "artist": {
+    "orig": "Joni Mitchell",
+    "en": "Joni Mitchell",
+    "zh": "琼尼·米切尔",
+    "mbid": "a6de8ef9-b1a1-4756-97aa-481bbb8a4069"
+  },
+  "year": 1971,
+  "released": "1971-06-22",
+  "region": "CA",
+  "lang": "en",
+  "genres": [
+    "folk",
+    "singer-songwriter"
+  ],
+  "style": {
+    "en": "confessional folk",
+    "zh": "自白式民谣"
+  },
+  "label": "Reprise Records",
+  "tracks": 10,
+  "length": "36:14",
+  "mbid": "42d725fb-a8b7-388c-8866-3b02789af326",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/42d725fb-a8b7-388c-8866-3b02789af326",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Blue_(Joni_Mitchell_album)",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E8%93%9D%E8%89%B2_(%E7%90%BC%E5%B0%BC%C2%B7%E7%B1%B3%E6%AD%87%E5%B0%94%E4%B8%93%E8%BE%91)"
+  },
+  "start_with": "A Case of You",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "Blue is arranged for little more than Mitchell's guitar, piano and Appalachian dulcimer, with a few guests. Her open tunings and wide-ranging melodies carry songs of travel, love and leaving written with unusual candour. It became a model for personal songwriting, and later artists across folk and pop keep naming it.",
+    "zh": "《Blue》的编制很简单，主要是米切尔自己的吉他、钢琴和阿巴拉契亚扬琴，外加几位客串。开放调弦和起伏很大的旋律，托着她以少见的坦白写下的旅行、爱与离开。它成了个人化写作的范本，后来民谣和流行两边的音乐人都一再提到它。"
+  },
+  "checked": "2026-10-15"
+}

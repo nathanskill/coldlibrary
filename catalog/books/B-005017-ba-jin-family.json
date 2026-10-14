@@ -1,0 +1,37 @@
+{
+  "id": "B-005017",
+  "slug": "ba-jin-family",
+  "category": "literature",
+  "title": {
+    "orig": "家",
+    "en": "Family",
+    "zh": "家"
+  },
+  "author": {
+    "orig": "巴金",
+    "en": "Ba Jin",
+    "zh": "巴金",
+    "dates": "1904–2005"
+  },
+  "year": 1933,
+  "year_display": {
+    "en": "Serialised 1931–32; book 1933",
+    "zh": "1931–32 年连载；1933 年出版"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q4215790",
+  "score": {
+    "value": 7.7
+  },
+  "review": {
+    "en": "Three brothers in a wealthy Chengdu household around 1920 meet the new ideas of the May Fourth years under a patriarch who will not bend. Drawing on his own youth, Ba Jin wrote with open indignation, and a generation of young readers saw their families in it. The characters can be schematic and the feeling heavy-handed, but its historical force is plain.",
+    "zh": "1920 年前后成都高公馆里的三兄弟，在五四新思潮和专制家长之间挣扎。巴金取材于自己的青少年时代，写得激愤直接，一代青年在书里认出了自己的家。人物有时类型化，情感也嫌直白，但它的历史分量毋庸置疑。“激流三部曲”的第一部。"
+  },
+  "checked": "2026-10-15"
+}

@@ -78,5 +78,12 @@
     "S-002005",
     "S-002007",
     "S-002006"
-  ]
+  ],
+  "score": {
+    "value": 8.0,
+    "note": {
+      "en": "Scored as a translation: Legge’s careful, learned version served English readers for generations, though its stiffness and choices such as ‘the superior man’ now feel dated.",
+      "zh": "按译本评分：理雅各的译文严谨博学，服务英文读者数代，但行文板滞，“君子”译作“superior man”已显陈旧。"
+    }
+  }
 }

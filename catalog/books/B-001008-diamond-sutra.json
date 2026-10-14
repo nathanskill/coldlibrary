@@ -1,0 +1,45 @@
+{
+  "id": "B-001008",
+  "slug": "diamond-sutra",
+  "category": "faith",
+  "title": {
+    "orig": "वज्रच्छेदिकाप्रज्ञापारमितासूत्र",
+    "en": "The Diamond Sutra",
+    "zh": "金刚经"
+  },
+  "author": null,
+  "year": 400,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "India",
+    "zh": "印度"
+  },
+  "tradition": {
+    "en": "Buddhism",
+    "zh": "佛教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/金剛般若波羅蜜經",
+      "note": {
+        "en": "Kumarajiva's Chinese translation (early 5th century)",
+        "zh": "鸠摩罗什汉译本（5 世纪初）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q494235",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "A short Mahayana sutra on the perfection of wisdom, framed as a dialogue between the Buddha and his disciple Subhuti about letting go of fixed ideas, even of the teaching itself. Kumarajiva's Chinese version is chanted in temples across East Asia and was central to Chan. A printed copy dated 868, found at Dunhuang, is the oldest dated printed book known.",
+    "zh": "一部讲般若智慧的大乘短经，以佛陀与须菩提问答的形式，讲如何放下一切执着，连佛法本身也不执取。鸠摩罗什的汉译本在东亚寺院中普遍诵持，对禅宗影响尤深。敦煌发现的一卷印本刻有 868 年的纪年，是已知最早注明日期的印刷书籍。"
+  },
+  "checked": "2026-10-15"
+}

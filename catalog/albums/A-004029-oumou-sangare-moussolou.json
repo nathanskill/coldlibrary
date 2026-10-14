@@ -1,0 +1,45 @@
+{
+  "id": "A-004029",
+  "slug": "oumou-sangare-moussolou",
+  "title": {
+    "orig": "Moussolou",
+    "en": "Moussolou",
+    "zh": "女人们"
+  },
+  "artist": {
+    "orig": "Oumou Sangaré",
+    "en": "Oumou Sangaré",
+    "zh": "乌穆·桑加雷",
+    "mbid": "2013f3af-51a3-404d-9afc-91b3f277ea4e"
+  },
+  "year": 1991,
+  "released": "1991",
+  "region": "ML",
+  "lang": "bm",
+  "genres": [
+    "world",
+    "traditional"
+  ],
+  "style": {
+    "en": "Wassoulou",
+    "zh": "瓦苏卢"
+  },
+  "label": "World Circuit",
+  "tracks": 6,
+  "length": "32:02",
+  "mbid": "7be8494e-202a-3f8d-b6e0-8ea6d4fcfc75",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/7be8494e-202a-3f8d-b6e0-8ea6d4fcfc75",
+    "wikipedia_en": null,
+    "wikipedia_zh": null
+  },
+  "start_with": "Diarraby Nene",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "Oumou Sangaré's debut, first a best-selling cassette in Mali and then released internationally by World Circuit in 1991, when she was barely in her twenties. The title means women, and her songs address love, marriage and women's lives in the Wassoulou style, with kamalengoni harp, fiddle and call-and-response singing. It made her one of the leading voices of West African music.",
+    "zh": "乌穆·桑加雷的出道作，先以磁带形式在马里大卖，1991 年由 World Circuit 在国际发行，那时她才二十出头。标题意为“女人们”，她以瓦苏卢风格唱爱情、婚姻和女性的生活，伴以卡马伦戈尼竖琴、提琴和一唱众和。这张专辑让她成为西非音乐最重要的声音之一。"
+  },
+  "checked": "2026-10-15"
+}

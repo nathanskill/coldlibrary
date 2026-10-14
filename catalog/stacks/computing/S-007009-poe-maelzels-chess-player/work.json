@@ -124,5 +124,12 @@
     "S-007002",
     "S-007001",
     "S-007007"
-  ]
+  ],
+  "score": {
+    "value": 7.6,
+    "note": {
+      "en": "A clever piece of detection that rightly found the hidden player, though its argument that no machine could play chess has aged badly; long, and more ingenious than wise.",
+      "zh": "一篇机巧的推理，正确断定机器里藏着人，但机器不可能下棋的论证已经过时；篇幅冗长，机巧多于睿智。"
+    }
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "id": "B-002016",
+  "slug": "sima-guang-zizhi-tongjian",
+  "category": "history",
+  "title": {
+    "orig": "資治通鑑",
+    "en": "Comprehensive Mirror in Aid of Governance (Zizhi Tongjian)",
+    "zh": "资治通鉴"
+  },
+  "author": {
+    "orig": "司馬光",
+    "en": "Sima Guang",
+    "zh": "司马光",
+    "dates": "1019 – 1086",
+    "dates_zh": "1019 – 1086"
+  },
+  "year": 1084,
+  "year_display": {
+    "en": "1084",
+    "zh": "1084 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China (Northern Song)",
+    "zh": "中国（北宋）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/資治通鑑",
+      "note": {
+        "en": "the classical Chinese text, all 294 chapters",
+        "zh": "文言原文，二百九十四卷全"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q207062",
+  "score": {
+    "value": 9.3
+  },
+  "review": {
+    "en": "Sima Guang and his collaborators spent nineteen years turning 1,362 years of history, from 403 BCE to 959 CE, into one year-by-year narrative of 294 chapters. A separate thirty-chapter examination of discrepancies records how conflicting sources were weighed. Written to counsel rulers, it is clear, judicious and immensely readable, and for centuries it was the general history most Chinese readers actually knew.",
+    "zh": "司马光与助手历时十九年，把公元前 403 年至公元 959 年共一千三百六十二年的历史，编成二百九十四卷的逐年叙事。另有《考异》三十卷，记下各种矛盾史料如何取舍。此书为资治而作，叙事清楚，判断稳妥，极其耐读，数百年间是大多数读者真正读过的通史。"
+  },
+  "checked": "2026-10-15"
+}

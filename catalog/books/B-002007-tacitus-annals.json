@@ -1,0 +1,49 @@
+{
+  "id": "B-002007",
+  "slug": "tacitus-annals",
+  "category": "history",
+  "title": {
+    "orig": "Annales",
+    "en": "The Annals",
+    "zh": "编年史"
+  },
+  "author": {
+    "orig": "Publius Cornelius Tacitus",
+    "en": "Tacitus",
+    "zh": "塔西佗",
+    "dates": "c. 56 – c. 120 CE",
+    "dates_zh": "约 56 – 约 120"
+  },
+  "year": 117,
+  "year_display": {
+    "en": "early 2nd century CE",
+    "zh": "公元 2 世纪初"
+  },
+  "lang": "la",
+  "origin": {
+    "en": "Rome",
+    "zh": "罗马"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/The_Annals_(Tacitus)",
+      "note": {
+        "en": "Church and Brodribb's translation (1876)",
+        "zh": "丘奇与布罗德里布英译本（1876）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q564358",
+  "score": {
+    "value": 9.1
+  },
+  "review": {
+    "en": "A senator's year-by-year history of Rome from Tiberius to Nero, AD 14 to 68, with books 7 to 10 and parts of others lost. Tacitus writes with compression and irony, watching how an aristocracy learned to flatter and how fear worked inside the palace. He is not neutral, but he is exact about the mechanics of power, and his portraits of Tiberius and Nero have lasted.",
+    "zh": "一位元老逐年写下罗马从提比略到尼禄的历史，公元 14 至 68 年，第七至十卷及他卷部分已佚。塔西佗下笔凝练而多讽，看贵族如何学会谄媚，恐惧如何在宫廷里运转。他并不中立，但对权力的机关看得极准，他笔下的提比略和尼禄流传至今。"
+  },
+  "checked": "2026-10-15"
+}

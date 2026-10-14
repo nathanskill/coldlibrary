@@ -71,5 +71,12 @@
   "plate": null,
   "pairs": [
     "S-004013"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "Eight lines of conspiratorial comedy, with the frog telling its name all day to an admiring bog; light, but its view of fame has only grown truer.",
+      "zh": "八行诗带着同谋般的幽默，青蛙整天对着仰慕它的泥沼报名字；很轻，但它对名声的看法如今更显真切。"
+    }
+  }
 }

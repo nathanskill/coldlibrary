@@ -199,5 +199,13 @@
     "S-005011",
     "S-005019",
     "S-005205"
-  ]
+  ],
+  "category": "aesthetics",
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "A one-page portrait of the reader who reads for pleasure, and an essay on judging one’s own time; graceful, generous criticism, more suggestive than systematic.",
+      "zh": "一页写为乐趣而读的普通读者，一篇谈如何评判同时代的书；优雅宽厚的批评，启发多于体系。"
+    }
+  }
 }

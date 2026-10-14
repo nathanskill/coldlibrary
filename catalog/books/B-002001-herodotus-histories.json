@@ -1,0 +1,59 @@
+{
+  "id": "B-002001",
+  "slug": "herodotus-histories",
+  "category": "history",
+  "title": {
+    "orig": "Ἱστορίαι",
+    "en": "The Histories",
+    "zh": "历史"
+  },
+  "author": {
+    "orig": "Ἡρόδοτος",
+    "en": "Herodotus",
+    "zh": "希罗多德",
+    "dates": "c. 484 – c. 425 BCE",
+    "dates_zh": "约前 484 – 约前 425"
+  },
+  "year": -430,
+  "year_display": {
+    "en": "c. 430 BCE",
+    "zh": "约公元前 430 年"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Greece",
+    "zh": "希腊"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2707",
+      "note": {
+        "en": "G. C. Macaulay's translation (1890), volume 1",
+        "zh": "麦考利英译本（1890），第一卷"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2456",
+      "note": {
+        "en": "G. C. Macaulay's translation (1890), volume 2",
+        "zh": "麦考利英译本（1890），第二卷"
+      }
+    }
+  ],
+  "stacks": [
+    "S-008014"
+  ],
+  "wikidata": "Q746583",
+  "score": {
+    "value": 9.4
+  },
+  "review": {
+    "en": "Herodotus set out to explain why Greeks and Persians went to war, and on the way he asked about everything: Egyptian embalming, Scythian burials, the rise of Lydia and Persia. He reports what he was told, often says when he doubts it, and gives non-Greeks their due. The digressions are the method, not a lapse. The word for his inquiry became the name of the whole subject.",
+    "zh": "希罗多德要解释希腊与波斯为何开战，一路却什么都问：埃及的防腐、斯基泰的葬俗、吕底亚与波斯的兴起。听来的就照录，存疑处常常直说，对异族也肯给公道。枝蔓正是他的方法。他称这部书为“探究”，这个词后来成了整门学问的名字。"
+  },
+  "checked": "2026-10-15"
+}

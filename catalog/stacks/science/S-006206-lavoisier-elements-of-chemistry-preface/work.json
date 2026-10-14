@@ -160,5 +160,12 @@
     "S-006008",
     "S-005204",
     "S-005017"
-  ]
+  ],
+  "score": {
+    "value": 8.9,
+    "note": {
+      "en": "The preface to the book that founded modern chemistry, arguing that reforming names meant reforming thought; dense, but its rule of known to unknown still guides teaching.",
+      "zh": "奠定近代化学之书的序言，主张改革名称就是改革思想；行文紧密，但“由已知到未知”至今仍是教学准绳。"
+    }
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "id": "B-003016",
+  "slug": "li-yu-xianqing-ouji",
+  "category": "aesthetics",
+  "title": {
+    "orig": "閒情偶寄",
+    "en": "Casual Expressions of Idle Feeling",
+    "zh": "闲情偶寄"
+  },
+  "author": {
+    "orig": "李漁",
+    "en": "Li Yu",
+    "zh": "李渔",
+    "dates": "1611 – 1680",
+    "dates_zh": "1611 – 1680"
+  },
+  "year": 1671,
+  "year_display": {
+    "en": "1671",
+    "zh": "1671 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China (Qing)",
+    "zh": "中国（清）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (zh)",
+      "url": "https://zh.wikisource.org/wiki/閑情偶寄",
+      "note": {
+        "en": "classical Chinese text",
+        "zh": "文言原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q17031431",
+  "score": {
+    "value": 8.3
+  },
+  "review": {
+    "en": "A playwright and publisher's handbook of living well: how to build a play and train actors, then houses, windows, rockeries, furniture, food, flowers and the care of the body. Its pages on drama are the sharpest of its age, and the rest is practical, witty and opinionated, a portrait of urban taste in seventeenth-century China.",
+    "zh": "一位剧作家兼出版人写的生活艺术手册：先讲如何结构戏曲、训练演员，再讲房舍、窗栏、山石、器玩、饮食、花木与颐养。论戏曲的部分是那个时代最锐利的，其余部分实用、风趣、主见鲜明，是十七世纪中国城市趣味的一幅画像。"
+  },
+  "checked": "2026-10-15"
+}

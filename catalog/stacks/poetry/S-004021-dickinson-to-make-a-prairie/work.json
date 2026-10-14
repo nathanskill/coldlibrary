@@ -70,5 +70,12 @@
   "plate": null,
   "pairs": [
     "S-004014"
-  ]
+  ],
+  "score": {
+    "value": 8.1,
+    "note": {
+      "en": "Five lines, a recipe with an escape clause, and a whole poetics in the word revery; witty and complete, a miniature that knows its size.",
+      "zh": "五行诗，一张带“免责条款”的配方，一个“遐想”就是一整套诗学；机智完整，知道自己的尺寸。"
+    }
+  }
 }

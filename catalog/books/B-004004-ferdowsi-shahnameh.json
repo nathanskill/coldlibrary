@@ -1,0 +1,57 @@
+{
+  "id": "B-004004",
+  "slug": "ferdowsi-shahnameh",
+  "category": "literature",
+  "title": {
+    "orig": "شاهنامه",
+    "en": "Shahnameh (The Book of Kings)",
+    "zh": "列王纪"
+  },
+  "author": {
+    "orig": "فردوسی",
+    "en": "Ferdowsi",
+    "zh": "菲尔多西",
+    "dates": "940 – c. 1020",
+    "dates_zh": "940 – 约 1020"
+  },
+  "year": 1010,
+  "year_display": {
+    "en": "1010",
+    "zh": "1010 年"
+  },
+  "lang": "fa",
+  "origin": {
+    "en": "Khorasan, Persia",
+    "zh": "波斯呼罗珊"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/10315",
+      "note": {
+        "en": "James Atkinson’s abridged translation (1832), in the anthology Persian Literature (1900)",
+        "zh": "詹姆斯·阿特金森节译本（1832），收入《波斯文学》选集（1900）"
+      }
+    },
+    {
+      "name": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/Persian_Literature/Volume_1/The_S%C3%A1h_N%C3%A1meh",
+      "note": {
+        "en": "The same Atkinson translation, transcribed from scans",
+        "zh": "同一阿特金森译本，据扫描本录入"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q8279",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "Some fifty thousand couplets of myth and history, from the first kings to the fall of the Sasanians, written in a Persian kept almost free of Arabic loanwords. The tragedy of Rostam and Sohrab is its best-known episode, but the whole poem is about loyalty under bad rulers and how glory passes. It shaped the language and the painting of Persia for a thousand years.",
+    "zh": "约五万联诗句，从最初的君王一直写到萨珊王朝的覆亡，所用波斯语刻意少用阿拉伯借词。鲁斯塔姆与苏赫拉布的悲剧最为人熟知，但全诗关心的是在昏君之下如何守住忠诚，以及荣耀如何流逝。一千年来，它塑造了波斯的语言，也塑造了波斯的绘画。"
+  },
+  "checked": "2026-10-15"
+}

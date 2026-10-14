@@ -229,5 +229,12 @@
   "pairs": [
     "S-006001",
     "S-006004"
-  ]
+  ],
+  "score": {
+    "value": 8.3,
+    "note": {
+      "en": "The case for Euclid by the man who fixed much of China’s geometric vocabulary, sharp on why precise thinking carries over to everything; brief and partisan, but historically pivotal.",
+      "zh": "定下许多中文几何术语的人为《几何原本》所作的辩护，说透精密思维何以通于万事；简短而偏爱，但举足轻重。"
+    }
+  }
 }

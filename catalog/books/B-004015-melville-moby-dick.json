@@ -1,0 +1,57 @@
+{
+  "id": "B-004015",
+  "slug": "melville-moby-dick",
+  "category": "literature",
+  "title": {
+    "orig": "Moby-Dick; or, The Whale",
+    "en": "Moby-Dick",
+    "zh": "白鲸"
+  },
+  "author": {
+    "orig": "Herman Melville",
+    "en": "Herman Melville",
+    "zh": "赫尔曼·梅尔维尔",
+    "dates": "1819–1891",
+    "dates_zh": "1819–1891"
+  },
+  "year": 1851,
+  "year_display": {
+    "en": "1851",
+    "zh": "1851 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/herman-melville/moby-dick",
+      "note": {
+        "en": "The 1851 novel",
+        "zh": "1851 年小说原文"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/15",
+      "note": {
+        "en": "Based on the first American edition (1851)",
+        "zh": "据 1851 年美国初版"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q174596",
+  "score": {
+    "value": 9.1
+  },
+  "review": {
+    "en": "A whaling voyage, a captain who wants revenge on a whale, and a narrator who keeps stopping to explain rope, blubber, sermons and the colour white. The digressions are the point: Melville tries every kind of writing to get at something that will not be caught. It sold poorly in his lifetime and is now one of the founding books of American literature.",
+    "zh": "一次捕鲸航行，一位要向白鲸复仇的船长，一个不断停下来讲解绳索、鲸脂、布道和白色的叙述者。离题正是要义：梅尔维尔试遍各种写法，去够一个抓不住的东西。它在作者生前销路惨淡，如今是美国文学的奠基之作之一。"
+  },
+  "checked": "2026-10-15"
+}

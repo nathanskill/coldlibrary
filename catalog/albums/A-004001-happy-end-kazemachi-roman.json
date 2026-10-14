@@ -1,0 +1,45 @@
+{
+  "id": "A-004001",
+  "slug": "happy-end-kazemachi-roman",
+  "title": {
+    "orig": "風街ろまん",
+    "en": "Kazemachi Roman",
+    "zh": "风街浪漫"
+  },
+  "artist": {
+    "orig": "はっぴいえんど",
+    "en": "Happy End",
+    "zh": "はっぴいえんど",
+    "mbid": "4bd19b19-4ef4-42e0-ac5c-a21f709d248b"
+  },
+  "year": 1971,
+  "released": "1971-11-20",
+  "region": "JP",
+  "lang": "ja",
+  "genres": [
+    "rock",
+    "folk"
+  ],
+  "style": {
+    "en": "Japanese-language folk rock",
+    "zh": "日语民谣摇滚"
+  },
+  "label": "URC",
+  "tracks": 12,
+  "length": "37:12",
+  "mbid": "14cfc058-73ac-3028-8661-5e87c101c029",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/14cfc058-73ac-3028-8661-5e87c101c029",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Kazemachi_Roman",
+    "wikipedia_zh": null
+  },
+  "start_with": "風をあつめて",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "The second album by Haruomi Hosono, Eiichi Ohtaki, Takashi Matsumoto and Shigeru Suzuki, and the clearest answer to the question of the day: whether rock could be sung in Japanese. Matsumoto's lyrics map an old Tokyo already disappearing, set to West Coast folk rock played with restraint. Its members went on to shape decades of Japanese pop, which is much of why this record still sits at the root of so many family trees.",
+    "zh": "细野晴臣、大泷咏一、松本隆、铃木茂的第二张专辑，也是当年那场争论最清楚的回答：摇滚能不能用日语唱。松本隆的词描画一座正在消失的旧东京，配上克制的西海岸民谣摇滚。四人后来几乎塑造了此后几十年的日本流行乐，这张唱片也因此长在许多谱系的根上。"
+  },
+  "checked": "2026-10-15"
+}

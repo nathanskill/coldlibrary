@@ -117,5 +117,12 @@
     "S-007010",
     "S-008201",
     "S-008009"
-  ]
+  ],
+  "score": {
+    "value": 7.6,
+    "note": {
+      "en": "A short, practical promise across decades: portable code, a stable format, thorough tests, many copies; admirable as a plan, modest as writing, and only time can score its promise.",
+      "zh": "跨越几十年的务实承诺：可移植代码、稳定格式、彻底测试、多处副本；计划可敬，文字平常，兑现与否交给时间。"
+    }
+  }
 }

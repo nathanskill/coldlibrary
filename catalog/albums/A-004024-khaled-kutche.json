@@ -1,0 +1,45 @@
+{
+  "id": "A-004024",
+  "slug": "khaled-kutche",
+  "title": {
+    "orig": "Kutché",
+    "en": "Kutché",
+    "zh": "Kutché"
+  },
+  "artist": {
+    "orig": "خالد",
+    "en": "Khaled",
+    "zh": "哈立德",
+    "mbid": "b4a479aa-4384-4acf-88b0-dee9188faeb5"
+  },
+  "year": 1988,
+  "released": "1988",
+  "region": "DZ",
+  "lang": "ar",
+  "genres": [
+    "world",
+    "pop"
+  ],
+  "style": {
+    "en": "raï",
+    "zh": "拉伊"
+  },
+  "label": "Charles Talar Records",
+  "tracks": 8,
+  "length": "43:04",
+  "mbid": "fb9ee85c-dc4e-351a-ac21-6e0571bd2e84",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/fb9ee85c-dc4e-351a-ac21-6e0571bd2e84",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Kutché",
+    "wikipedia_zh": null
+  },
+  "start_with": "Kutché",
+  "score": {
+    "value": 7.9
+  },
+  "review": {
+    "en": "Credited to Cheb Khaled and the Algerian composer Safy Boutella, who arranged and produced it, this album set raï singing against jazz, funk and synthesizers. It was one of the first raï records aimed at listeners outside the Maghreb and helped prepare Khaled's later international success. Some of the production is of its time, but the meeting it stages was new.",
+    "zh": "这张专辑署名为谢布·哈立德与阿尔及利亚作曲家萨菲·布泰拉，后者担任编曲和制作，把拉伊的歌唱放进爵士、放克和合成器之中。它是最早面向马格里布以外听众的拉伊唱片之一，也为哈立德后来的国际成功做了铺垫。部分制作带着时代痕迹，但它促成的这次相遇是新的。"
+  },
+  "checked": "2026-10-15"
+}

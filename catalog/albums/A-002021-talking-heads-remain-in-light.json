@@ -1,0 +1,45 @@
+{
+  "id": "A-002021",
+  "slug": "talking-heads-remain-in-light",
+  "title": {
+    "orig": "Remain in Light",
+    "en": "Remain in Light",
+    "zh": "Remain in Light"
+  },
+  "artist": {
+    "orig": "Talking Heads",
+    "en": "Talking Heads",
+    "zh": "传声头像",
+    "mbid": "a94a7155-c79d-4409-9fcf-220cb0e4dc3a"
+  },
+  "year": 1980,
+  "released": "1980-10-01",
+  "region": "US",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "funk"
+  ],
+  "style": {
+    "en": "art funk",
+    "zh": "艺术放克"
+  },
+  "label": "Sire Records",
+  "tracks": 8,
+  "length": "40:08",
+  "mbid": "f6b1b900-6108-32f0-abbd-2855af9151eb",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/f6b1b900-6108-32f0-abbd-2855af9151eb",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Remain_in_Light",
+    "wikipedia_zh": null
+  },
+  "start_with": "Once in a Lifetime",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "With Brian Eno producing, Talking Heads built these songs from layered, looping grooves inspired in part by Fela Kuti's Afrobeat, adding players such as Adrian Belew and Jon Hassell. David Byrne's vocals came late, fitted over the rhythm. Once in a Lifetime anchors a record that joined new wave to African and funk polyrhythm.",
+    "zh": "由布莱恩·伊诺制作，传声头像从层层循环的律动出发搭建这些歌，部分灵感来自费拉·库蒂的非洲节拍，又请来阿德里安·贝卢、乔恩·哈塞尔等乐手。大卫·伯恩的人声是后来才贴上节奏的。《Once in a Lifetime》撑起了这张把新浪潮与非洲、放克复节奏接在一起的唱片。"
+  },
+  "checked": "2026-10-15"
+}

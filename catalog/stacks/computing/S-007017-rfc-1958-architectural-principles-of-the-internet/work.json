@@ -61,5 +61,12 @@
     "S-007016",
     "S-007018",
     "S-007024"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "A few plain pages that set down the Internet’s design principles, modest about change; it records end-to-end design and running code rather than inventing them.",
+      "zh": "寥寥数页写下互联网的设计原则，对变化保持谦逊；它记录而非发明端到端原则与“先有可运行代码”的传统。"
+    }
+  }
 }

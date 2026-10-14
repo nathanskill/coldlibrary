@@ -1,0 +1,38 @@
+{
+  "id": "B-005032",
+  "slug": "taipei-people",
+  "category": "literature",
+  "title": {
+    "orig": "臺北人",
+    "en": "Taipei People",
+    "zh": "台北人"
+  },
+  "author": {
+    "orig": "白先勇",
+    "en": "Pai Hsien-yung",
+    "zh": "白先勇",
+    "dates": "b. 1937",
+    "dates_zh": "1937 年生"
+  },
+  "year": 1971,
+  "year_display": {
+    "en": "1971 (stories of the 1960s)",
+    "zh": "1971 年（收 1960 年代所作小说）"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "United States (published in Taiwan)",
+    "zh": "美国（在台湾出版）"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q7676307",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Fourteen stories, written in California in the late 1960s, about people who came to Taipei from the mainland after 1949: a dance hostess, retired generals, a former opera singer. Pai Hsien-yung writes each in its own voice and makes the loss of a whole world felt through parties, funerals and old songs. Elegant, controlled and deeply moving.",
+    "zh": "十四篇小说，六十年代后期写于美国加州，写 1949 年后从大陆来到台北的人：舞女、退休的将军、昔日的昆曲名伶。白先勇为每一篇找到各自的声口，在宴会、葬礼和旧曲里写出一整个世界的失落。典雅、克制，深深动人。"
+  },
+  "checked": "2026-10-15"
+}

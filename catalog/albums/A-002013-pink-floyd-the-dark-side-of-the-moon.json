@@ -1,0 +1,45 @@
+{
+  "id": "A-002013",
+  "slug": "pink-floyd-the-dark-side-of-the-moon",
+  "title": {
+    "orig": "The Dark Side of the Moon",
+    "en": "The Dark Side of the Moon",
+    "zh": "月之暗面"
+  },
+  "artist": {
+    "orig": "Pink Floyd",
+    "en": "Pink Floyd",
+    "zh": "平克·弗洛伊德",
+    "mbid": "83d91898-7763-47d7-b03b-b92132375c47"
+  },
+  "year": 1973,
+  "released": "1973-03-24",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "experimental"
+  ],
+  "style": {
+    "en": "progressive rock",
+    "zh": "前卫摇滚"
+  },
+  "label": "Harvest",
+  "tracks": 10,
+  "length": "42:59",
+  "mbid": "f5093c06-23e3-404f-aeaa-40f72885ee3a",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/f5093c06-23e3-404f-aeaa-40f72885ee3a",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2_(%E4%B8%93%E8%BE%91)"
+  },
+  "start_with": "Time",
+  "score": {
+    "value": 9.1
+  },
+  "review": {
+    "en": "Recorded at Abbey Road with engineer Alan Parsons, the album runs as one continuous piece about time, money, conflict and mental strain. Tape loops, synthesizers, clocks and spoken fragments link the songs. Its craft in sound and sequencing, and its years on the charts, made it a reference for the album as a whole work.",
+    "zh": "在艾比路录音室与录音师艾伦·帕森斯一起完成，整张唱片连成一体，写时间、金钱、冲突与精神压力。磁带循环、合成器、钟声和零碎的人声对白把歌串起来。它在声音与编排上的工艺，加上常年在榜，让它成了“专辑作为整体作品”的参照。"
+  },
+  "checked": "2026-10-15"
+}

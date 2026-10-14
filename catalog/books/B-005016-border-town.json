@@ -1,0 +1,37 @@
+{
+  "id": "B-005016",
+  "slug": "border-town",
+  "category": "literature",
+  "title": {
+    "orig": "邊城",
+    "en": "Border Town",
+    "zh": "边城"
+  },
+  "author": {
+    "orig": "沈從文",
+    "en": "Shen Congwen",
+    "zh": "沈从文",
+    "dates": "1902–1988"
+  },
+  "year": 1934,
+  "year_display": {
+    "en": "Serialised and published 1934",
+    "zh": "1934 年连载并出版"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q10546824",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "A ferryman and his granddaughter Cuicui live by a river crossing on the Hunan-Sichuan border, and two brothers come courting. Shen Congwen writes this short novel with the clarity of water: festivals, boat races, songs across the river, and a sorrow that arrives without fuss. The most beautiful prose pastoral of modern Chinese.",
+    "zh": "湘西茶峒的渡口，老船夫和孙女翠翠相依为命，船总家的两兄弟都喜欢上了她。沈从文把这个中篇写得像河水一样清澈：端午的龙舟、对岸的山歌、不动声色到来的忧伤。现代中文里最美的田园牧歌。"
+  },
+  "checked": "2026-10-15"
+}

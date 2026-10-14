@@ -1,0 +1,49 @@
+{
+  "id": "B-003008",
+  "slug": "ruskin-modern-painters",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Modern Painters",
+    "en": "Modern Painters",
+    "zh": "现代画家"
+  },
+  "author": {
+    "orig": "John Ruskin",
+    "en": "John Ruskin",
+    "zh": "约翰·罗斯金",
+    "dates": "1819 – 1900",
+    "dates_zh": "1819 – 1900"
+  },
+  "year": 1843,
+  "year_display": {
+    "en": "1843–1860, five volumes",
+    "zh": "1843—1860 年，共五卷"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United Kingdom",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/29907",
+      "note": {
+        "en": "volume 1 of 5; the other four volumes are also on Project Gutenberg",
+        "zh": "五卷之第一卷，其余四卷亦在古登堡计划"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q6888803",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "Begun as a young man's defence of Turner, it grew over seventeen years into five volumes on clouds, rocks, leaves, truth and the moral life of seeing. It is sprawling and often preachy, yet its descriptions of nature are among the finest English prose, and it taught generations to look closely before they judged.",
+    "zh": "此书起初是青年罗斯金为透纳所作的辩护，十七年间长成五卷，写云、岩石、树叶、真实，以及观看的道德。全书铺陈过度，常带说教，但其中描写自然的段落是英语散文中的上品，教会了几代人先细看、再评判。"
+  },
+  "checked": "2026-10-15"
+}

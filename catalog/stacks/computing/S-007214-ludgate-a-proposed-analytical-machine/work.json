@@ -143,5 +143,12 @@
     "S-007001",
     "S-007002",
     "S-007210"
-  ]
+  ],
+  "score": {
+    "value": 7.7,
+    "note": {
+      "en": "A Dublin clerk’s independent design for a general-purpose machine, clear and inventive; never built and long forgotten, it matters as a second arrival at Babbage’s idea.",
+      "zh": "都柏林一位职员独立设计的通用计算机，清晰而有创意；从未造出，长期湮没，意义在于再次抵达巴贝奇的构想。"
+    }
+  }
 }

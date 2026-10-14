@@ -1,0 +1,46 @@
+{
+  "id": "A-002007",
+  "slug": "van-morrison-astral-weeks",
+  "title": {
+    "orig": "Astral Weeks",
+    "en": "Astral Weeks",
+    "zh": "Astral Weeks"
+  },
+  "artist": {
+    "orig": "Van Morrison",
+    "en": "Van Morrison",
+    "zh": "范·莫里森",
+    "mbid": "a41ac10f-0a56-4672-9161-b83f9b223559"
+  },
+  "year": 1968,
+  "released": "1968-11",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "folk",
+    "rock",
+    "jazz"
+  ],
+  "style": {
+    "en": "folk jazz",
+    "zh": "民谣爵士"
+  },
+  "label": "Warner Bros. Records",
+  "tracks": 8,
+  "length": "47:14",
+  "mbid": "7d568f14-d86e-3584-97d0-c1824599de04",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/7d568f14-d86e-3584-97d0-c1824599de04",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Astral_Weeks",
+    "wikipedia_zh": null
+  },
+  "start_with": "Sweet Thing",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "Recorded in New York in a few sessions in 1968, Astral Weeks set Morrison's voice and acoustic guitar against jazz players, including bassist Richard Davis, with strings added afterwards. The songs drift back to Belfast streets and stretch into long, open-ended forms. It sold modestly at first and grew into one of the most revered albums of its time.",
+    "zh": "1968 年在纽约用几次录音完成：莫里森的嗓音和原声吉他，配上贝斯手理查德·戴维斯等爵士乐手，弦乐后来加入。歌曲回到贝尔法斯特的街巷，形式长而开放。它起初销量平平，后来成为那个年代最受敬重的专辑之一。"
+  },
+  "checked": "2026-10-15"
+}

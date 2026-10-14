@@ -94,5 +94,12 @@
     "S-007002",
     "S-007009",
     "S-007007"
-  ]
+  ],
+  "score": {
+    "value": 9.2,
+    "note": {
+      "en": "The notes that carried the first published program and an early, clear vision of machines working on symbols beyond number; her caution against overclaiming matters as much.",
+      "zh": "载有第一个公开发表的程序，也早早设想了处理数字以外符号的机器；她对夸大其词的警惕同样可贵。"
+    }
+  }
 }

@@ -103,5 +103,12 @@
   "pairs": [
     "S-001001",
     "S-001047"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "Twenty characters that work like a short film, ending on a gate opened in the snow at night; a near-perfect quatrain whose ambiguity is a strength.",
+      "zh": "二十个字像一段短片，结束在风雪夜里打开的柴门；几近完美的五绝，归人是谁的歧义反成长处。"
+    }
+  }
 }

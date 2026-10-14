@@ -1,0 +1,45 @@
+{
+  "id": "A-002004",
+  "slug": "the-beatles-revolver",
+  "title": {
+    "orig": "Revolver",
+    "en": "Revolver",
+    "zh": "左轮手枪"
+  },
+  "artist": {
+    "orig": "The Beatles",
+    "en": "The Beatles",
+    "zh": "披头士乐队",
+    "mbid": "b10bbbfc-cf9e-42e0-be17-e2c3e1d2600d"
+  },
+  "year": 1966,
+  "released": "1966-08-05",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "pop"
+  ],
+  "style": {
+    "en": "psychedelic pop",
+    "zh": "迷幻流行"
+  },
+  "label": "Parlophone",
+  "tracks": 14,
+  "length": "35:26",
+  "mbid": "72d15666-99a7-321e-b1f3-a3f8c09dff9f",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/72d15666-99a7-321e-b1f3-a3f8c09dff9f",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Revolver_(Beatles_album)",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/%E5%B7%A6%E8%BD%AE%E6%89%8B%E6%9E%AA_(%E6%8A%AB%E5%A4%B4%E5%A3%AB%E4%B8%93%E8%BE%91)"
+  },
+  "start_with": "Tomorrow Never Knows",
+  "score": {
+    "value": 9.4
+  },
+  "review": {
+    "en": "Made in the spring of 1966, as the Beatles were about to stop touring, Revolver treats the studio as an instrument. Tape loops and a droning single chord drive the closing track, a string octet carries Eleanor Rigby, and George Harrison contributes three songs including the opener. Fourteen short songs, nearly every one a new idea.",
+    "zh": "1966 年春天录制，披头士正要告别巡演，开始把录音室当成乐器。终曲靠磁带循环和单一和弦推进，《Eleanor Rigby》只用弦乐八重奏伴奏，哈里森也贡献了三首歌，包括开场曲。十四首短歌，几乎每一首都是一个新主意。"
+  },
+  "checked": "2026-10-15"
+}

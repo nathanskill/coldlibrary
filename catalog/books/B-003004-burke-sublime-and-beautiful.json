@@ -1,0 +1,49 @@
+{
+  "id": "B-003004",
+  "slug": "burke-sublime-and-beautiful",
+  "category": "aesthetics",
+  "title": {
+    "orig": "A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful",
+    "en": "A Philosophical Enquiry into the Origin of Our Ideas of the Sublime and Beautiful",
+    "zh": "崇高与美的哲学探索"
+  },
+  "author": {
+    "orig": "Edmund Burke",
+    "en": "Edmund Burke",
+    "zh": "埃德蒙·伯克",
+    "dates": "1729 – 1797",
+    "dates_zh": "1729 – 1797"
+  },
+  "year": 1757,
+  "year_display": {
+    "en": "1757",
+    "zh": "1757 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "Great Britain",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/15043",
+      "note": {
+        "en": "in volume 1 of Burke's Works (John C. Nimmo, 1887)",
+        "zh": "收于伯克文集第一卷（尼莫版，1887）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q947972",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "A young man's book that splits the beautiful, small and smooth and pleasing, from the sublime, which grows from terror, darkness, vastness and power. Its physiology is dated, but the distinction it drew fed Kant, Gothic fiction and the painting of storms and mountains. Clear, bold and quotable, it still frames how we feel awe.",
+    "zh": "这是伯克青年时的作品，把美与崇高分开：美是小巧、光滑、令人愉悦的，崇高则来自恐惧、黑暗、广大与力量。书中的生理学解释早已过时，但这一区分滋养了康德、哥特小说和描绘风暴高山的绘画。行文清楚大胆，至今仍框定着我们感受敬畏的方式。"
+  },
+  "checked": "2026-10-15"
+}

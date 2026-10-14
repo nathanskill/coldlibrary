@@ -1,0 +1,49 @@
+{
+  "id": "B-003019",
+  "slug": "bharata-natyashastra",
+  "category": "aesthetics",
+  "title": {
+    "orig": "नाट्यशास्त्र",
+    "en": "Nāṭyaśāstra",
+    "zh": "舞论"
+  },
+  "author": {
+    "orig": "भरत मुनि",
+    "en": "Bharata Muni (traditional)",
+    "zh": "婆罗多牟尼（传）",
+    "dates": "traditional",
+    "dates_zh": "传说人物"
+  },
+  "year": 0,
+  "year_display": {
+    "en": "c. 200 BCE – 200 CE, traditional",
+    "zh": "约公元前 200 年至公元 200 年，传统说法"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "India",
+    "zh": "印度"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (sa)",
+      "url": "https://sa.wikisource.org/wiki/नाट्यशास्त्रम्",
+      "note": {
+        "en": "Sanskrit text in 37 chapters",
+        "zh": "梵文原文，三十七章"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q550599",
+  "score": {
+    "value": 9.1
+  },
+  "review": {
+    "en": "A vast compilation on theatre, covering stage building, dance, gesture, music, metre, costume and the training of actors, said to have been given by the gods as a fifth Veda. Its short account of rasa, the flavours an audience tastes through feeling, grew under later commentators into the central idea of Indian aesthetics.",
+    "zh": "一部关于戏剧的庞大汇编，涉及剧场营建、舞蹈、手势、音乐、格律、服饰和演员训练，相传由天神授予，号称第五吠陀。书中关于“味”（rasa）的简短论述，即观众经由情感所品尝的滋味，经后世注家阐发，成为印度美学的核心观念。"
+  },
+  "checked": "2026-10-15"
+}

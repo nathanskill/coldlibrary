@@ -1,0 +1,57 @@
+{
+  "id": "B-004002",
+  "slug": "homer-iliad",
+  "category": "literature",
+  "title": {
+    "orig": "Ἰλιάς",
+    "en": "The Iliad",
+    "zh": "伊利亚特"
+  },
+  "author": {
+    "orig": "Ὅμηρος",
+    "en": "Homer",
+    "zh": "荷马",
+    "dates": "c. 8th century BCE",
+    "dates_zh": "约公元前 8 世纪"
+  },
+  "year": -750,
+  "year_display": {
+    "en": "c. 750 BCE",
+    "zh": "约公元前 750 年"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Ancient Greece",
+    "zh": "古希腊"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2199",
+      "note": {
+        "en": "Samuel Butler’s prose translation (1898)",
+        "zh": "塞缪尔·巴特勒散文英译（1898）"
+      }
+    },
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant",
+      "note": {
+        "en": "William Cullen Bryant’s verse translation (1870)",
+        "zh": "威廉·卡伦·布莱恩特诗体英译（1870）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q8275",
+  "score": {
+    "value": 9.6
+  },
+  "review": {
+    "en": "A few weeks in the tenth year of a war, told around one man’s anger. Homer gives every death a name and a home, and lets enemies grieve in the same tent. Its similes keep opening onto fields, weather and ordinary work, so the slaughter is always seen against the life it ends. Few poems since have looked at violence so steadily.",
+    "zh": "只写战争第十年里的几个星期，围绕一个人的愤怒展开。荷马给每一个阵亡者名字和故乡，也让敌人在同一座营帐里一起哭泣。比喻不断把目光引向田野、天气和日常劳作，杀戮因此总映衬着被它终结的生活。此后很少有诗这样平静地直视暴力。"
+  },
+  "checked": "2026-10-15"
+}

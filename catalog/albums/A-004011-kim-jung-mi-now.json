@@ -1,0 +1,45 @@
+{
+  "id": "A-004011",
+  "slug": "kim-jung-mi-now",
+  "title": {
+    "orig": "Now",
+    "en": "Now",
+    "zh": "Now"
+  },
+  "artist": {
+    "orig": "김정미",
+    "en": "Kim Jung Mi",
+    "zh": "金贞美",
+    "mbid": "2304cb80-bb44-4727-a6b2-7a4a2cd1c5c8"
+  },
+  "year": 1973,
+  "released": "1973",
+  "region": "KR",
+  "lang": "ko",
+  "genres": [
+    "rock",
+    "folk"
+  ],
+  "style": {
+    "en": "psychedelic folk",
+    "zh": "迷幻民谣"
+  },
+  "label": "Fontana",
+  "tracks": 10,
+  "length": "39:48",
+  "mbid": "66301651-80fa-43d0-8cab-7109195fd2f3",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/66301651-80fa-43d0-8cab-7109195fd2f3",
+    "wikipedia_en": null,
+    "wikipedia_zh": null
+  },
+  "start_with": "햇님",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "Kim Jung Mi's album was written and produced by Shin Jung-hyeon, the guitarist and songwriter at the centre of Korean rock in the early seventies. Her soft, airy singing over his long, slow-burning psychedelic arrangements gave Korean pop something it had not had. Largely forgotten for decades, it returned through reissues in the 2000s and became one of the best-known Korean records abroad.",
+    "zh": "金贞美的这张专辑由申重铉作曲并制作，他是七十年代初韩国摇滚的核心人物。她轻柔空灵的歌声，配上他悠长、慢慢燃起的迷幻编曲，给韩国流行乐带来了此前没有的东西。这张唱片被遗忘了几十年，2000 年代再版后重新流传，成了海外最为人知的韩国唱片之一。"
+  },
+  "checked": "2026-10-15"
+}

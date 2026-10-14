@@ -62,5 +62,12 @@
     "S-007022",
     "S-007023",
     "S-007024"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "The founding text of free software, clear and urgent, with consequences far beyond GNU; some economic arguments have aged, but as a call for help it succeeded.",
+      "zh": "自由软件运动的奠基文本，清楚而急切，影响远超 GNU 本身；部分经济论证已过时，但作为求援号召它成功了。"
+    }
+  }
 }

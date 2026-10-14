@@ -1,0 +1,40 @@
+{
+  "id": "B-004030",
+  "slug": "rushdie-midnights-children",
+  "category": "literature",
+  "title": {
+    "orig": "Midnight’s Children",
+    "en": "Midnight’s Children",
+    "zh": "午夜之子"
+  },
+  "author": {
+    "orig": "Salman Rushdie",
+    "en": "Salman Rushdie",
+    "zh": "萨尔曼·鲁西迪",
+    "dates": "1947–",
+    "dates_zh": "1947–"
+  },
+  "year": 1981,
+  "year_display": {
+    "en": "1981",
+    "zh": "1981 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United Kingdom",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q625764",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Saleem Sinai is born at the stroke of India’s independence, and his life is chained to the country’s history; a thousand other children born in that hour share strange gifts. Rushdie writes in a crowded, comic, pickling voice that mixes English with the rhythms of Bombay. It won the Booker Prize; its energy is enormous and occasionally exhausting.",
+    "zh": "萨利姆·西奈恰在印度独立的那一刻出生，一生与国家历史拴在一起；同一小时出生的上千个孩子各有奇异天赋。鲁西迪的叙述拥挤、诙谐，把英语和孟买的节奏搅在一起。它获得布克奖；能量巨大，偶尔也让人疲惫。"
+  },
+  "checked": "2026-10-15"
+}

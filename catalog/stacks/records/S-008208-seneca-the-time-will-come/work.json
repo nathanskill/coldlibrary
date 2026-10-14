@@ -125,5 +125,13 @@
     "S-008015",
     "S-006006",
     "S-008209"
-  ]
+  ],
+  "score": {
+    "value": 8.4,
+    "note": {
+      "en": "Seneca admits how little anyone knows of comets and turns it into a prophecy of progress, glad to be outdone; the astronomy has dated, the spirit has not.",
+      "zh": "塞涅卡坦承人们对彗星所知甚少，由此预言后人必将超越自己，且乐见其成；天文学已过时，这份胸襟没有。"
+    }
+  },
+  "category": "science"
 }

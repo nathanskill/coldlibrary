@@ -1,0 +1,49 @@
+{
+  "id": "B-001015",
+  "slug": "imitation-of-christ",
+  "category": "faith",
+  "title": {
+    "orig": "De imitatione Christi",
+    "en": "The Imitation of Christ",
+    "zh": "效法基督"
+  },
+  "author": {
+    "orig": "Thomas a Kempis",
+    "en": "Thomas à Kempis",
+    "zh": "托马斯·肯皮斯",
+    "dates": "c. 1380–1471",
+    "dates_zh": "约 1380–1471"
+  },
+  "year": 1420,
+  "year_display": {
+    "en": "c. 1418–1427",
+    "zh": "约 1418–1427 年"
+  },
+  "lang": "la",
+  "origin": {
+    "en": "Low Countries",
+    "zh": "低地国家"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1653",
+      "note": {
+        "en": "William Benham's translation (1886)",
+        "zh": "本汉英译本（1886）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q670350",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Four short books of counsel for the inner life, from the Brethren of the Common Life in the Low Countries, usually credited to Thomas à Kempis. Humility, silence, the reading of scripture and the sacrament are its subjects, set down in brief, balanced sentences. After the Bible it has been perhaps the most widely read Christian book, by Catholics and Protestants alike.",
+    "zh": "四卷短书，劝人修养内心，出自低地国家的共同生活弟兄会，一般归于托马斯·肯皮斯名下。谦卑、静默、读经和圣事是它的主题，句子简短而匀称。在基督教书籍中，它的读者之多大概仅次于圣经，天主教和新教都读它。中文又译《师主篇》。"
+  },
+  "checked": "2026-10-15"
+}

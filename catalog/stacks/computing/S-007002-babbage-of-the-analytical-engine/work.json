@@ -72,5 +72,12 @@
     "S-007001",
     "S-007009",
     "S-007005"
-  ]
+  ],
+  "score": {
+    "value": 8.3,
+    "note": {
+      "en": "The inventor’s own account of the store, the mill and the punched cards, and his generous credit to Lovelace; memoir prose, discursive and a little rueful, but first-hand.",
+      "zh": "发明者亲述存储器、运算器和穿孔卡，并慷慨记下洛夫莱斯的功劳；回忆录笔法，散漫而略带怅惘，但是第一手。"
+    }
+  }
 }

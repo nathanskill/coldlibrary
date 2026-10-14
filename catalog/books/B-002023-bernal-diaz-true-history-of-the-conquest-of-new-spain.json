@@ -1,0 +1,57 @@
+{
+  "id": "B-002023",
+  "slug": "bernal-diaz-true-history-of-the-conquest-of-new-spain",
+  "category": "history",
+  "title": {
+    "orig": "Historia verdadera de la conquista de la Nueva España",
+    "en": "The True History of the Conquest of New Spain",
+    "zh": "征服新西班牙信史"
+  },
+  "author": {
+    "orig": "Bernal Díaz del Castillo",
+    "en": "Bernal Díaz del Castillo",
+    "zh": "贝尔纳尔·迪亚斯·德尔·卡斯蒂略",
+    "dates": "c. 1496 – 1584",
+    "dates_zh": "约 1496 – 1584"
+  },
+  "year": 1568,
+  "year_display": {
+    "en": "finished 1568; printed 1632",
+    "zh": "1568 年写成，1632 年刊行"
+  },
+  "lang": "es",
+  "origin": {
+    "en": "Guatemala (Spanish America)",
+    "zh": "危地马拉（西属美洲）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/32474",
+      "note": {
+        "en": "John Ingram Lockhart's translation (1844), volume 1",
+        "zh": "洛克哈特英译本（1844），第一卷"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/32475",
+      "note": {
+        "en": "John Ingram Lockhart's translation (1844), volume 2",
+        "zh": "洛克哈特英译本（1844），第二卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q378485",
+  "score": {
+    "value": 8.3
+  },
+  "review": {
+    "en": "An old foot soldier who marched with Cortés finished this memoir in Guatemala in 1568, partly to correct histories that gave all the credit to the captain. He remembers horses by name, the first sight of Tenochtitlan across the lake, hunger and fear. He is a participant, with a participant's blind spots about the people he helped conquer, and his book stands among the most vivid eyewitness histories ever written.",
+    "zh": "一位随科尔特斯征战的老兵，1568 年在危地马拉写完这部回忆录，部分是为纠正那些把功劳全归于统帅的史书。他记得战马的名字，记得隔着湖水初见特诺奇蒂特兰，记得饥饿与恐惧。他是参与者，对被征服的人们有参与者的盲点；但这是最鲜活的亲历史书之一。"
+  },
+  "checked": "2026-10-15"
+}

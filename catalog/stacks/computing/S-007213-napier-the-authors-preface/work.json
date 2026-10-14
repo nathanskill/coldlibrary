@@ -129,5 +129,12 @@
     "S-007005",
     "S-007209",
     "S-007212"
-  ]
+  ],
+  "score": {
+    "value": 7.7,
+    "note": {
+      "en": "A short preface that names the problem logarithms solved, slow and slippery arithmetic, with real grace; the invention matters far more than these few lines.",
+      "zh": "短短一篇序，优雅地点明对数要解决的难题：又慢又易错的运算；真正重要的是发明本身，不是这几行字。"
+    }
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "id": "B-002006",
+  "slug": "caesar-gallic-war",
+  "category": "history",
+  "title": {
+    "orig": "Commentarii de Bello Gallico",
+    "en": "The Gallic War",
+    "zh": "高卢战记"
+  },
+  "author": {
+    "orig": "Gaius Iulius Caesar",
+    "en": "Julius Caesar",
+    "zh": "尤利乌斯·恺撒",
+    "dates": "100 – 44 BCE",
+    "dates_zh": "前 100 – 前 44"
+  },
+  "year": -52,
+  "year_display": {
+    "en": "c. 50s BCE",
+    "zh": "约公元前 1 世纪 50 年代"
+  },
+  "lang": "la",
+  "origin": {
+    "en": "Rome (written in Gaul)",
+    "zh": "罗马（写于高卢）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/10657",
+      "note": {
+        "en": "W. A. McDevitte's translation, Everyman's Library edition (1915)",
+        "zh": "麦克德维特英译，人人文库版（1915）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q106199",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Caesar's own account of nine years of war in Gaul, told in the third person in clear, level Latin that schoolchildren have parsed ever since. The plainness is a strategy: the narrator is always reasonable and the reader is rarely invited to ask about his enemies' losses or his own ambitions. It remains the main source for the conquest and a lesson in how a commander writes himself into history. Book 8 is by Aulus Hirtius.",
+    "zh": "恺撒亲述在高卢九年的战争，用第三人称，拉丁文清楚平稳，后世学童一直拿来逐句分析。平实本身就是策略：叙述者永远通情达理，读者很少被引去追问敌方的伤亡或他本人的野心。它至今是这场征服的主要史料，也示范了统帅怎样把自己写进历史。第八卷出自希尔提乌斯之手。"
+  },
+  "checked": "2026-10-15"
+}

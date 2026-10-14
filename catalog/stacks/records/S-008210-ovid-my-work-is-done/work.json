@@ -98,5 +98,13 @@
     "S-008019",
     "S-004002",
     "S-008211"
-  ]
+  ],
+  "score": {
+    "value": 9.1,
+    "note": {
+      "en": "Nine lines that close the Metamorphoses by exempting the poem from change, a claim history has granted; magnificent, though more an echo of Horace than a new thought.",
+      "zh": "九行诗为《变形记》收尾，宣布唯独此诗不受变化支配，历史果然应允；气象宏大，只是更像贺拉斯的回响。"
+    }
+  },
+  "category": "literature"
 }

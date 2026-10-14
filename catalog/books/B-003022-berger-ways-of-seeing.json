@@ -1,0 +1,40 @@
+{
+  "id": "B-003022",
+  "slug": "berger-ways-of-seeing",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Ways of Seeing",
+    "en": "Ways of Seeing",
+    "zh": "观看之道"
+  },
+  "author": {
+    "orig": "John Berger",
+    "en": "John Berger",
+    "zh": "约翰·伯格",
+    "dates": "1926 – 2017",
+    "dates_zh": "1926 – 2017"
+  },
+  "year": 1972,
+  "year_display": {
+    "en": "1972",
+    "zh": "1972 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United Kingdom",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q14479917",
+  "score": {
+    "value": 7.9
+  },
+  "review": {
+    "en": "Made with a BBC television series, this slim book of seven essays, three told only in pictures, asks how reproduction, ownership and the male gaze shape what we see in oil paintings and advertisements. It is brisk and deliberately one-sided, but it opened art history to questions of power and became a standard first reading.",
+    "zh": "此书与 BBC 同名电视节目同时制作，薄薄一册，收七篇文章，其中三篇全用图像讲述。它追问复制、占有与男性目光如何塑造我们在油画和广告中看到的东西。论述明快，刻意片面，却把权力问题带进了艺术史，成为常见的入门读物。"
+  },
+  "checked": "2026-10-15"
+}

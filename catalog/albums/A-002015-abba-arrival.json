@@ -1,0 +1,44 @@
+{
+  "id": "A-002015",
+  "slug": "abba-arrival",
+  "title": {
+    "orig": "Arrival",
+    "en": "Arrival",
+    "zh": "Arrival"
+  },
+  "artist": {
+    "orig": "ABBA",
+    "en": "ABBA",
+    "zh": "ABBA",
+    "mbid": "d87e52c5-bb8d-4da8-b941-9f4928627dc8"
+  },
+  "year": 1976,
+  "released": "1976-10-11",
+  "region": "SE",
+  "lang": "en",
+  "genres": [
+    "pop"
+  ],
+  "style": {
+    "en": "Europop",
+    "zh": "欧陆流行"
+  },
+  "label": "Polar",
+  "tracks": 10,
+  "length": "33:32",
+  "mbid": "e464e167-83ab-3b59-88bd-262cf552056e",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/e464e167-83ab-3b59-88bd-262cf552056e",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Arrival_(ABBA_album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Knowing Me, Knowing You",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "ABBA's fourth album, made in Stockholm, carries Dancing Queen, Knowing Me, Knowing You and Money, Money, Money, written and produced by Benny Andersson and Björn Ulvaeus. The singles show precise, layered pop craft; the remaining tracks are lighter. It is a clear record of Swedish pop reaching the whole world.",
+    "zh": "ABBA 在斯德哥尔摩做的第四张专辑，收有《Dancing Queen》《Knowing Me, Knowing You》《Money, Money, Money》，由本尼·安德森和比约恩·奥瓦尔斯词曲兼制作。几首单曲展示了精确而层次分明的流行工艺，其余曲目则轻一些。它清楚记录了瑞典流行乐走向全世界的时刻。"
+  },
+  "checked": "2026-10-15"
+}

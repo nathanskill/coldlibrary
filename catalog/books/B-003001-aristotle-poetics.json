@@ -1,0 +1,49 @@
+{
+  "id": "B-003001",
+  "slug": "aristotle-poetics",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Περὶ ποιητικῆς",
+    "en": "Poetics",
+    "zh": "诗学"
+  },
+  "author": {
+    "orig": "Ἀριστοτέλης",
+    "en": "Aristotle",
+    "zh": "亚里士多德",
+    "dates": "384 – 322 BCE",
+    "dates_zh": "前 384 – 前 322"
+  },
+  "year": -335,
+  "year_display": {
+    "en": "c. 335 BCE",
+    "zh": "约公元前 335 年"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Greece",
+    "zh": "希腊"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1974",
+      "note": {
+        "en": "S. H. Butcher's translation",
+        "zh": "布彻英译本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q264714",
+  "score": {
+    "value": 9.5
+  },
+  "review": {
+    "en": "A short, compressed set of lecture notes that still sets the terms for talking about drama and story: imitation, plot as the soul of tragedy, reversal and recognition, pity and fear. Half of it is lost, and what survives is often cryptic, yet critics in every European century have argued with it. Few books so small have shaped so much later making.",
+    "zh": "这是一份简短、紧凑的讲稿，却至今规定着人们谈论戏剧与故事的语汇：摹仿，情节是悲剧的灵魂，突转与发现，怜悯与恐惧。全书一半已佚，留下的部分也常常语焉不详，但欧洲每个世纪的批评家都在和它争论。篇幅这样小而影响这样大的书，极少。"
+  },
+  "checked": "2026-10-15"
+}

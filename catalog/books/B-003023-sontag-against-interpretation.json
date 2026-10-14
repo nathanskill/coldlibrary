@@ -1,0 +1,40 @@
+{
+  "id": "B-003023",
+  "slug": "sontag-against-interpretation",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Against Interpretation",
+    "en": "Against Interpretation and Other Essays",
+    "zh": "反对阐释"
+  },
+  "author": {
+    "orig": "Susan Sontag",
+    "en": "Susan Sontag",
+    "zh": "苏珊·桑塔格",
+    "dates": "1933 – 2004",
+    "dates_zh": "1933 – 2004"
+  },
+  "year": 1966,
+  "year_display": {
+    "en": "1966",
+    "zh": "1966 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q4691035",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Sontag's first collection of essays, from the title piece, which asks critics to attend to form and the senses rather than dig for hidden meanings, to the notes on camp and pieces on film, theatre and new novels. Some of it is bound to its decade, but its best essays still set the agenda for writing about modern art.",
+    "zh": "桑塔格的第一部文集。同名文章主张批评应关注形式与感官，而不是去挖掘隐藏的意义；书中还有《关于“坎普”的札记》以及论电影、戏剧和新小说的文章。部分内容带着那个年代的印记，但其中最好的篇章至今仍影响着人们书写现代艺术的方式。"
+  },
+  "checked": "2026-10-15"
+}

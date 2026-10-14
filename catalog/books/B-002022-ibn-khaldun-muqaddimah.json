@@ -1,0 +1,57 @@
+{
+  "id": "B-002022",
+  "slug": "ibn-khaldun-muqaddimah",
+  "category": "history",
+  "title": {
+    "orig": "المقدمة",
+    "en": "The Muqaddimah",
+    "zh": "历史绪论"
+  },
+  "author": {
+    "orig": "ابن خلدون",
+    "en": "Ibn Khaldun",
+    "zh": "伊本·赫勒敦",
+    "dates": "1332 – 1406",
+    "dates_zh": "1332 – 1406"
+  },
+  "year": 1377,
+  "year_display": {
+    "en": "1377",
+    "zh": "1377 年"
+  },
+  "lang": "ar",
+  "origin": {
+    "en": "North Africa (the Maghreb)",
+    "zh": "北非（马格里布）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://ar.wikisource.org/wiki/مقدمة_ابن_خلدون",
+      "note": {
+        "en": "the Arabic text",
+        "zh": "阿拉伯文原文"
+      }
+    },
+    {
+      "name": "Internet Archive",
+      "url": "https://archive.org/details/lesprolgomne01abdauoft",
+      "note": {
+        "en": "Baron de Slane's French translation, volume 1 (1863)",
+        "zh": "德·斯兰男爵法译本，第一卷（1863）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1259616",
+  "score": {
+    "value": 9.1
+  },
+  "review": {
+    "en": "Written in 1377 as the introduction to a universal history, the Muqaddimah begins by listing why historians err and then asks what laws govern human society. Its answers, about group solidarity, the rise and decay of dynasties, desert and city, crafts and prices, read like early social science. Ibn Khaldun was a working statesman and it shows. Few books have rethought what history is for so thoroughly.",
+    "zh": "《历史绪论》作于 1377 年，原是一部世界史的导论。它先列举史家致误的缘由，再追问支配人类社会的规律：群体凝聚力、王朝的兴衰、沙漠与城市、手艺与物价，读来像早期的社会科学。伊本·赫勒敦本是宦海中人，书中处处可见。很少有书如此彻底地重新思考历史的用处。"
+  },
+  "checked": "2026-10-15"
+}

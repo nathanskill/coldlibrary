@@ -1,0 +1,57 @@
+{
+  "id": "B-004008",
+  "slug": "dante-divine-comedy",
+  "category": "literature",
+  "title": {
+    "orig": "Divina Commedia",
+    "en": "The Divine Comedy",
+    "zh": "神曲"
+  },
+  "author": {
+    "orig": "Dante Alighieri",
+    "en": "Dante Alighieri",
+    "zh": "但丁",
+    "dates": "1265–1321",
+    "dates_zh": "1265–1321"
+  },
+  "year": 1320,
+  "year_display": {
+    "en": "c. 1320",
+    "zh": "约 1320 年"
+  },
+  "lang": "it",
+  "origin": {
+    "en": "Italy (written in exile)",
+    "zh": "意大利（流亡中写成）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow",
+      "note": {
+        "en": "Henry Wadsworth Longfellow’s translation (1867)",
+        "zh": "朗费罗英译（1867）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1008",
+      "note": {
+        "en": "Henry Francis Cary’s translation (1814)",
+        "zh": "卡里英译（1814）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q40185",
+  "score": {
+    "value": 9.7
+  },
+  "review": {
+    "en": "A journey through hell, purgatory and paradise in a hundred cantos of interlocking rhyme, crowded with real people Dante knew, hated or mourned. Its architecture is exact down to the number of lines, yet what stays is the voices: lovers still bound together, a teacher met in fire, a guide who must turn back. It made a vernacular Italian fit for anything.",
+    "zh": "一百歌、环环相扣的韵律，走过地狱、炼狱与天堂，沿途挤满但丁认识、憎恨或哀悼的真实人物。它的结构精确到诗行的数目，留下来的却是那些声音：仍被绑在一起的恋人、火中重逢的老师、不得不止步的引路人。它让俗语意大利语足以承载一切。"
+  },
+  "checked": "2026-10-15"
+}

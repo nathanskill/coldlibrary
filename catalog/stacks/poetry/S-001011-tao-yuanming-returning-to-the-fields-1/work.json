@@ -117,5 +117,12 @@
     "S-001012",
     "S-002025",
     "S-004026"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "The founding poem of the Chinese pastoral, built from an inventory of ordinary things, a dog, a cock, some smoke, that poets have returned to ever since.",
+      "zh": "中国田园诗的奠基之作，用一份平常的清单写成：狗吠、鸡鸣、炊烟，后世诗人一再回到这里。"
+    }
+  }
 }

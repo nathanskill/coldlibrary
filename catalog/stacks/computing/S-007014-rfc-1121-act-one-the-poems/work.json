@@ -62,5 +62,12 @@
     "S-007013",
     "S-007020",
     "S-007017"
-  ]
+  ],
+  "score": {
+    "value": 6.7,
+    "note": {
+      "en": "Occasional verse from the network’s twentieth birthday, valuable for who wrote it and what it remembers, such as the first IMP arriving early, rather than as poetry.",
+      "zh": "ARPANET 二十周年的应景诗，可贵在作者是谁、记下了什么，比如第一台 IMP 提前运到，而不在诗艺。"
+    }
+  }
 }

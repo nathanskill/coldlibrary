@@ -1,0 +1,57 @@
+{
+  "id": "B-003005",
+  "slug": "lessing-laocoon",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Laokoon oder über die Grenzen der Mahlerey und Poesie",
+    "en": "Laocoön: An Essay on the Limits of Painting and Poetry",
+    "zh": "拉奥孔"
+  },
+  "author": {
+    "orig": "Gotthold Ephraim Lessing",
+    "en": "Gotthold Ephraim Lessing",
+    "zh": "莱辛",
+    "dates": "1729 – 1781",
+    "dates_zh": "1729 – 1781"
+  },
+  "year": 1766,
+  "year_display": {
+    "en": "1766",
+    "zh": "1766 年"
+  },
+  "lang": "de",
+  "origin": {
+    "en": "Germany",
+    "zh": "德国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/6889",
+      "note": {
+        "en": "German text",
+        "zh": "德文原文"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/73078",
+      "note": {
+        "en": "Ellen Frothingham's translation (1873)",
+        "zh": "弗罗辛厄姆英译本（1873）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1805712",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Starting from why the Laocoön statue's priest does not scream as Virgil's does, Lessing argues that painting works with bodies in space and poetry with actions in time, so each must do what the other cannot. The argument is lucid and lively, and it ended a long habit of treating poems as pictures in words.",
+    "zh": "莱辛从一个问题出发：为什么拉奥孔雕像里的祭司不像维吉尔诗中那样嘶喊。他论证绘画处理空间中的形体，诗处理时间中的动作，各自应做对方做不到的事。论证清晰而生动，结束了把诗当作文字图画的长久习惯。"
+  },
+  "checked": "2026-10-15"
+}

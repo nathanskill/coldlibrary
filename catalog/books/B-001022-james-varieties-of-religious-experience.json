@@ -1,0 +1,49 @@
+{
+  "id": "B-001022",
+  "slug": "james-varieties-of-religious-experience",
+  "category": "faith",
+  "title": {
+    "orig": "The Varieties of Religious Experience",
+    "en": "The Varieties of Religious Experience",
+    "zh": "宗教经验之种种"
+  },
+  "author": {
+    "orig": "William James",
+    "en": "William James",
+    "zh": "威廉·詹姆斯",
+    "dates": "1842–1910",
+    "dates_zh": "1842–1910"
+  },
+  "year": 1902,
+  "year_display": {
+    "en": "1902",
+    "zh": "1902 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/621",
+      "note": {
+        "en": "the English original (1902)",
+        "zh": "英文原著（1902）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q2605035",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "The Gifford Lectures given at Edinburgh by an American psychologist and philosopher, studying religion as personal experience rather than doctrine: conversion, saintliness, mysticism, the sick soul and the healthy-minded. James quotes his witnesses at length and judges them by their fruits in life. It founded the psychology of religion and remains generous, curious and readable.",
+    "zh": "美国心理学家、哲学家詹姆斯在爱丁堡所作的吉福德讲座。他把宗教当作个人经验而不是教义来研究：皈依、圣徒性、神秘主义、病态的灵魂与健全的心态。他大段引用见证者的自述，并以其在生活中结出的果实来衡量。此书开创了宗教心理学，至今读来宽厚、好奇而流畅。"
+  },
+  "checked": "2026-10-15"
+}

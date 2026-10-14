@@ -1,0 +1,48 @@
+{
+  "id": "B-005007",
+  "slug": "water-margin",
+  "category": "literature",
+  "title": {
+    "orig": "水滸傳",
+    "en": "Water Margin",
+    "zh": "水浒传"
+  },
+  "author": {
+    "orig": "施耐庵",
+    "en": "Shi Nai'an",
+    "zh": "施耐庵",
+    "dates": "14th century (traditional attribution)",
+    "dates_zh": "元末明初（旧题）"
+  },
+  "year": 1500,
+  "year_display": {
+    "en": "14th–16th century; earliest complete edition 1589",
+    "zh": "元末至明中叶成书；现存最早完整刊本 1589 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/水滸傳",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q70827",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "One hundred and eight outlaws gather, one story at a time, in the marshes of Liangshan under the Song. The early chapters, each centred on a single hero driven outside the law, are some of the most vivid storytelling in Chinese vernacular prose. Its violence is real and unsoftened; its sense of brotherhood and injustice has never stopped speaking to readers.",
+    "zh": "北宋末年，一百单八条好汉一个接一个被逼上梁山。前半部以人物为单元，武松、林冲、鲁智深各占几回，是白话小说里最鲜活的叙事。书里的暴力写得直接，不加粉饰；对不公的愤慨和对兄弟义气的看重，至今仍打动读者。作者旧题施耐庵，成书经过仍有争议。"
+  },
+  "checked": "2026-10-15"
+}

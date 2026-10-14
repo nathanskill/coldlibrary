@@ -113,5 +113,12 @@
     "S-007207",
     "S-007208",
     "S-007003"
-  ]
+  ],
+  "score": {
+    "value": 7.2,
+    "note": {
+      "en": "A careful description of a mechanical logic machine that improved on Jevons; of real historical interest, especially for the electrical sketch that followed it, but dry and narrow.",
+      "zh": "细致说明一台改进杰文斯设计的机械逻辑机；有真实的历史意义，尤其因为随后的电路草图，但文字枯燥、范围狭窄。"
+    }
+  }
 }

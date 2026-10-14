@@ -1,0 +1,53 @@
+{
+  "id": "B-001004",
+  "slug": "rigveda",
+  "category": "faith",
+  "title": {
+    "orig": "ऋग्वेद",
+    "en": "Rigveda",
+    "zh": "梨俱吠陀"
+  },
+  "author": null,
+  "year": -1200,
+  "year_display": {
+    "en": "c. 1500–1000 BCE",
+    "zh": "约前 1500–前 1000 年"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "Northwest India",
+    "zh": "印度西北部"
+  },
+  "tradition": {
+    "en": "Hinduism",
+    "zh": "印度教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://sa.wikisource.org/wiki/ऋग्वेदः",
+      "note": {
+        "en": "the Sanskrit text",
+        "zh": "梵文原文"
+      }
+    },
+    {
+      "name": "sacred-texts.com",
+      "url": "https://sacred-texts.com/hin/rigveda/index.htm",
+      "note": {
+        "en": "Ralph T. H. Griffith's translation (1896)",
+        "zh": "格里菲斯英译本（1896）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q727413",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The oldest of the four Vedas: more than a thousand hymns in ten books, addressed to Agni, Indra, Soma and other gods, and kept for many centuries by exact oral recitation before it was written down. Its verses are still chanted in Hindu rites, and its late hymns on creation are among the first philosophical poems in any language.",
+    "zh": "四吠陀中最古老的一部，十卷，一千多首颂歌，献给阿耆尼、因陀罗、苏摩等神。它在写定之前靠精确的口诵传承了许多世纪。今天的印度教仪式仍在吟诵其中的诗句，晚出的几首创世颂，是世上最早的哲理诗之一。"
+  },
+  "checked": "2026-10-15"
+}

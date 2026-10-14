@@ -111,5 +111,12 @@
     "S-008004",
     "S-008007",
     "S-006002"
-  ]
+  ],
+  "score": {
+    "value": 8.4,
+    "note": {
+      "en": "A great physicist explaining invisible things to a general audience with real clarity; the ending’s argument from identical molecules to a maker has not survived later physics.",
+      "zh": "伟大物理学家向大众清楚讲解看不见的东西；结尾由分子全同推出造物者的论证，未能经受后来物理学的检验。"
+    }
+  }
 }

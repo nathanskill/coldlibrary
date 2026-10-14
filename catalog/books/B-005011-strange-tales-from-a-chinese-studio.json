@@ -1,0 +1,47 @@
+{
+  "id": "B-005011",
+  "slug": "strange-tales-from-a-chinese-studio",
+  "category": "literature",
+  "title": {
+    "orig": "聊齋志異",
+    "en": "Strange Tales from a Chinese Studio",
+    "zh": "聊斋志异"
+  },
+  "author": {
+    "orig": "蒲松齡",
+    "en": "Pu Songling",
+    "zh": "蒲松龄",
+    "dates": "1640–1715"
+  },
+  "year": 1700,
+  "year_display": {
+    "en": "Written over decades around 1700; first printed 1766",
+    "zh": "约 17 世纪末至 18 世纪初陆续写成；1766 年初刻"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/聊齋志異",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q83755",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "Nearly five hundred tales of fox spirits, ghosts, flower fairies and the people who meet them, written in compact classical Chinese by a country tutor who never passed the higher examinations. The supernatural is often kinder than the human world it visits. Pu Songling brought the old tale of the strange to its finest pitch; many entries run only a page.",
+    "zh": "近五百篇狐鬼花妖的故事，出自一位屡试不第的乡村塾师之手，用简练的文言写成。异类往往比人间更有情义，鬼狐的世界映照出人世的冷暖。志怪与传奇的传统在这里达到高峰。许多篇只有一页，适合夜里读一两则。"
+  },
+  "checked": "2026-10-15"
+}

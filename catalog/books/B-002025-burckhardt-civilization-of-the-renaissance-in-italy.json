@@ -1,0 +1,49 @@
+{
+  "id": "B-002025",
+  "slug": "burckhardt-civilization-of-the-renaissance-in-italy",
+  "category": "history",
+  "title": {
+    "orig": "Die Cultur der Renaissance in Italien",
+    "en": "The Civilization of the Renaissance in Italy",
+    "zh": "意大利文艺复兴时期的文化"
+  },
+  "author": {
+    "orig": "Jacob Burckhardt",
+    "en": "Jacob Burckhardt",
+    "zh": "雅各布·布克哈特",
+    "dates": "1818 – 1897",
+    "dates_zh": "1818 – 1897"
+  },
+  "year": 1860,
+  "year_display": {
+    "en": "1860",
+    "zh": "1860 年"
+  },
+  "lang": "de",
+  "origin": {
+    "en": "Switzerland (Basel)",
+    "zh": "瑞士（巴塞尔）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/2074",
+      "note": {
+        "en": "S. G. C. Middlemore's translation (1878)",
+        "zh": "米德尔莫尔英译本（1878）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1839282",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "Burckhardt tried to describe a whole culture at once, in six essays: the state as a work of art, the development of the individual, the revival of antiquity, the discovery of the world and of man, society and festivals, morality and religion. Later research has qualified much of it, especially the sharp break with the Middle Ages. But it invented the modern idea of the Renaissance, and of cultural history.",
+    "zh": "布克哈特想一次写出一整个文化，分为六篇：作为艺术品的国家、个人的发展、古典的复兴、世界与人的发现、社交与节庆、道德与宗教。后来的研究修正了其中许多论断，尤其是与中世纪的截然断裂。但现代人心中的“文艺复兴”，以及文化史这门学问，都由此书开创。"
+  },
+  "checked": "2026-10-15"
+}

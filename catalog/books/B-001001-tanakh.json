@@ -1,0 +1,45 @@
+{
+  "id": "B-001001",
+  "slug": "tanakh",
+  "category": "faith",
+  "title": {
+    "orig": "תנ״ך",
+    "en": "Tanakh (The Hebrew Bible)",
+    "zh": "塔纳赫（希伯来圣经）"
+  },
+  "author": null,
+  "year": -400,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "he",
+  "origin": {
+    "en": "Land of Israel and Babylonia",
+    "zh": "以色列地与巴比伦"
+  },
+  "tradition": {
+    "en": "Judaism",
+    "zh": "犹太教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "sacred-texts.com",
+      "url": "https://sacred-texts.com/bib/jps/index.htm",
+      "note": {
+        "en": "Jewish Publication Society translation (1917)",
+        "zh": "美国犹太出版社英译本（1917）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q83367",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The scripture of Judaism, in three parts: Torah, Prophets and Writings, whose initials give the name. Its books gather law, story, prophecy, song and proverb over many centuries, mostly in Hebrew with some Aramaic. It is read aloud in the synagogue through the year, studied line by line in the commentaries, and it underlies the Christian Old Testament.",
+    "zh": "犹太教的经典，分为律法书、先知书和圣录三部分，名称即取三者的首字母。书中有律法、叙事、预言、诗歌和箴言，历经许多世纪写成，多用希伯来语，少数章节用亚兰语。会堂里按年轮流诵读，历代注释逐句研习，基督教的《旧约》也以它为本。"
+  },
+  "checked": "2026-10-15"
+}

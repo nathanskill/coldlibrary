@@ -1,0 +1,49 @@
+{
+  "id": "B-001024",
+  "slug": "hanshan-poems",
+  "category": "faith",
+  "title": {
+    "orig": "寒山詩",
+    "en": "The Poems of Hanshan (Cold Mountain)",
+    "zh": "寒山诗"
+  },
+  "author": {
+    "orig": "寒山",
+    "en": "Hanshan",
+    "zh": "寒山",
+    "dates": "Tang dynasty",
+    "dates_zh": "唐代"
+  },
+  "year": 800,
+  "year_display": {
+    "en": "Tang dynasty",
+    "zh": "唐代"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "Tiantai Mountains, China",
+    "zh": "中国天台山"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/全唐詩/卷806",
+      "note": {
+        "en": "the 303 poems in the Complete Tang Poems, juan 806",
+        "zh": "《全唐诗》卷八百六所收三百零三首"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q97500061",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "About three hundred poems said to have been written on rocks and trees by a recluse of the Tiantai mountains, whose dates and very existence are uncertain. They mix Buddhist sermon, mountain solitude and plain jokes in colloquial verse. Long on the edge of the Chinese canon, they became beloved in Japan and, through translations of the 1950s, in America.",
+    "zh": "约三百首诗，相传是天台山一位隐者题写在石壁和树上的，此人的年代乃至是否真有其人都难以确定。诗中有佛理劝诫，有山中独居，也有直白的玩笑，语言近乎口语。它们长期处在中国诗歌正统的边缘，却深受日本读者喜爱，二十世纪五十年代经英译又在美国流行。"
+  },
+  "checked": "2026-10-15"
+}

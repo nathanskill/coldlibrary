@@ -1,0 +1,53 @@
+{
+  "id": "B-001005",
+  "slug": "upanishads",
+  "category": "faith",
+  "title": {
+    "orig": "उपनिषद्",
+    "en": "The Upanishads",
+    "zh": "奥义书"
+  },
+  "author": null,
+  "year": -600,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "India",
+    "zh": "印度"
+  },
+  "tradition": {
+    "en": "Hinduism",
+    "zh": "印度教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "sacred-texts.com",
+      "url": "https://sacred-texts.com/hin/sbe01/index.htm",
+      "note": {
+        "en": "F. Max Müller's translation, part one (1879)",
+        "zh": "麦克斯·缪勒英译本第一部（1879）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/3283",
+      "note": {
+        "en": "Swami Paramananda's translation of several Upanishads",
+        "zh": "帕拉玛南达选译本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q6113985",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The closing part of the Vedas, a group of dialogues and teachings on the self, atman, and the ground of all things, brahman. The oldest are prose conversations between sages, kings, wives and students. They are the main source of Vedanta, quoted in the Bhagavad Gita and in later Hindu schools, and since the nineteenth century widely read in the West.",
+    "zh": "吠陀的末尾部分，一组关于自我（阿特曼）与万物之本（梵）的对话和教诲。最古老的几部是散文，记录圣者、国王、妻子和学生之间的问答。它们是吠檀多哲学的主要来源，《薄伽梵歌》和后来的印度教各派都引用它们，十九世纪以来也在西方广为阅读。"
+  },
+  "checked": "2026-10-15"
+}

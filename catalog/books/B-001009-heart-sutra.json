@@ -1,0 +1,45 @@
+{
+  "id": "B-001009",
+  "slug": "heart-sutra",
+  "category": "faith",
+  "title": {
+    "orig": "般若波羅蜜多心經",
+    "en": "The Heart Sutra",
+    "zh": "心经"
+  },
+  "author": null,
+  "year": 649,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "sa",
+  "origin": {
+    "en": "India or China",
+    "zh": "印度或中国"
+  },
+  "tradition": {
+    "en": "Buddhism",
+    "zh": "佛教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/般若波羅蜜多心經",
+      "note": {
+        "en": "Xuanzang's Chinese version (649)",
+        "zh": "玄奘汉译本（649）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q622868",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The shortest of the great Mahayana sutras, about 260 Chinese characters in Xuanzang's version, condensing the teaching of emptiness into a few lines and ending in a mantra. It is chanted daily in Chinese, Japanese, Korean, Vietnamese and Tibetan Buddhism and copied out by hand as a practice. Some scholars argue it was first composed in Chinese.",
+    "zh": "大乘经典中最短的一部，玄奘译本约二百六十字，把空性的教义凝缩在几行之中，以一段咒语作结。汉传、日本、韩国、越南和藏传佛教都每日诵读它，抄写心经本身也是一种修行。有学者认为它最初是用汉语写成的。"
+  },
+  "checked": "2026-10-15"
+}

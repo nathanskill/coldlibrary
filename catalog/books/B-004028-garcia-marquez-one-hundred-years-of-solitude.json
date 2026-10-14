@@ -1,0 +1,40 @@
+{
+  "id": "B-004028",
+  "slug": "garcia-marquez-one-hundred-years-of-solitude",
+  "category": "literature",
+  "title": {
+    "orig": "Cien años de soledad",
+    "en": "One Hundred Years of Solitude",
+    "zh": "百年孤独"
+  },
+  "author": {
+    "orig": "Gabriel García Márquez",
+    "en": "Gabriel García Márquez",
+    "zh": "加夫列尔·加西亚·马尔克斯",
+    "dates": "1927–2014",
+    "dates_zh": "1927–2014"
+  },
+  "year": 1967,
+  "year_display": {
+    "en": "1967",
+    "zh": "1967 年"
+  },
+  "lang": "es",
+  "origin": {
+    "en": "Mexico City (by a Colombian author)",
+    "zh": "墨西哥城（哥伦比亚作家）"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q178869",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "Seven generations of the Buendía family in the town of Macondo, from its founding to its end, told in a calm voice that treats miracles and massacres alike. García Márquez folds a continent’s history of wars, companies and forgetting into one household. The repeating names can blur, and that blur is part of its design.",
+    "zh": "布恩迪亚家族七代人在马孔多小镇的故事，从建镇写到终结，叙述口吻平静，奇迹与屠杀一视同仁。加西亚·马尔克斯把一片大陆的战争、公司与遗忘折进一个家族。反复出现的名字容易让人混淆，而这种混淆本身就是设计的一部分。"
+  },
+  "checked": "2026-10-15"
+}

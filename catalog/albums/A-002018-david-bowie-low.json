@@ -1,0 +1,46 @@
+{
+  "id": "A-002018",
+  "slug": "david-bowie-low",
+  "title": {
+    "orig": "Low",
+    "en": "Low",
+    "zh": "Low"
+  },
+  "artist": {
+    "orig": "David Bowie",
+    "en": "David Bowie",
+    "zh": "大卫·鲍伊",
+    "mbid": "5441c29d-3602-4898-b1a1-b77fa23b8e50"
+  },
+  "year": 1977,
+  "released": "1977-01-14",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "electronic",
+    "experimental"
+  ],
+  "style": {
+    "en": "art rock",
+    "zh": "艺术摇滚"
+  },
+  "label": "RCA Victor",
+  "tracks": 11,
+  "length": "38:49",
+  "mbid": "f6a51281-56c4-3538-b915-65a9d4eb29b5",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/f6a51281-56c4-3538-b915-65a9d4eb29b5",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Low_(David_Bowie_album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "Sound and Vision",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "Made in France and at Hansa in Berlin with Brian Eno and producer Tony Visconti, Low splits into short, fractured songs on one side and largely wordless instrumentals on the other. Its processed drum sound and electronic textures fed directly into post-punk. It opened the run of records later called the Berlin trilogy.",
+    "zh": "在法国和柏林汉莎录音室，与布莱恩·伊诺和制作人托尼·维斯康蒂一起完成。一面是短促破碎的歌，另一面多是几乎无词的器乐。经过处理的鼓声和电子质感直接流入了后朋克。它开启了后来被称为“柏林三部曲”的系列。"
+  },
+  "checked": "2026-10-15"
+}

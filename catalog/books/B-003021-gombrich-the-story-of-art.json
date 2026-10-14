@@ -1,0 +1,40 @@
+{
+  "id": "B-003021",
+  "slug": "gombrich-the-story-of-art",
+  "category": "aesthetics",
+  "title": {
+    "orig": "The Story of Art",
+    "en": "The Story of Art",
+    "zh": "艺术的故事"
+  },
+  "author": {
+    "orig": "Ernst Gombrich",
+    "en": "E. H. Gombrich",
+    "zh": "贡布里希",
+    "dates": "1909 – 2001",
+    "dates_zh": "1909 – 2001"
+  },
+  "year": 1950,
+  "year_display": {
+    "en": "1950",
+    "zh": "1950 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United Kingdom",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q2747004",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "A single-volume history of art from cave paintings to the twentieth century, written for young readers in plain language and arranged so that every work discussed is pictured. Its range outside Europe is thin, but as a patient account of how artists solved problems of making, it has taught more people to look at pictures than almost any other book.",
+    "zh": "一卷本的艺术史，从洞穴壁画写到二十世纪，用平实的语言为年轻读者而写，凡讨论到的作品都配有插图。欧洲以外的部分着墨不多，但作为一部耐心讲述艺术家如何解决创作难题的书，它教会了无数人看画，很少有书能及。"
+  },
+  "checked": "2026-10-15"
+}

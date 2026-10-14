@@ -99,5 +99,12 @@
     "S-007004",
     "S-005017",
     "S-006001"
-  ]
+  ],
+  "score": {
+    "value": 8.8,
+    "note": {
+      "en": "The opening of the book that turned logic into algebra, the root of digital circuit design; patient and abstract as prose, but its ambition was fully earned.",
+      "zh": "把逻辑变成代数的那部书的开篇，是数字电路设计的源头；文字耐心而抽象，但它的雄心完全兑现了。"
+    }
+  }
 }

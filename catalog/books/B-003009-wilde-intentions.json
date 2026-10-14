@@ -1,0 +1,49 @@
+{
+  "id": "B-003009",
+  "slug": "wilde-intentions",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Intentions",
+    "en": "Intentions",
+    "zh": "意图集"
+  },
+  "author": {
+    "orig": "Oscar Wilde",
+    "en": "Oscar Wilde",
+    "zh": "奥斯卡·王尔德",
+    "dates": "1854 – 1900",
+    "dates_zh": "1854 – 1900"
+  },
+  "year": 1891,
+  "year_display": {
+    "en": "1891",
+    "zh": "1891 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United Kingdom",
+    "zh": "英国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/887",
+      "note": {
+        "en": "text of the 1913 Methuen edition",
+        "zh": "1913 年梅休因版文本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q3799362",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Four essays, two of them dialogues, in which Wilde argues with great wit that life imitates art, that lying is an art, and that criticism is itself creation. The paradoxes sparkle and sometimes merely glitter, but behind them lies a serious case for the autonomy of art that the next century took up.",
+    "zh": "四篇文章，其中两篇是对话，王尔德以机智论证生活摹仿艺术、说谎是一门艺术、批评本身就是创造。悖论闪闪发光，有时也只是闪光而已，但背后是一份严肃的艺术自主宣言，后来的一个世纪接过了它。"
+  },
+  "checked": "2026-10-15"
+}

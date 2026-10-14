@@ -1,0 +1,49 @@
+{
+  "id": "B-001018",
+  "slug": "attar-conference-of-the-birds",
+  "category": "faith",
+  "title": {
+    "orig": "منطق‌الطیر",
+    "en": "The Conference of the Birds",
+    "zh": "百鸟朝凤"
+  },
+  "author": {
+    "orig": "فریدالدین عطار",
+    "en": "Attar of Nishapur",
+    "zh": "阿塔尔",
+    "dates": "c. 1145–c. 1221",
+    "dates_zh": "约 1145–约 1221"
+  },
+  "year": 1177,
+  "year_display": {
+    "en": "1177",
+    "zh": "1177 年"
+  },
+  "lang": "fa",
+  "origin": {
+    "en": "Nishapur, Persia",
+    "zh": "波斯内沙布尔"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://fa.wikisource.org/wiki/منطق‌الطیر",
+      "note": {
+        "en": "the Persian text",
+        "zh": "波斯文原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q2271966",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "A Persian poem in which the birds of the world, led by the hoopoe, set out to find the Simorgh, their king. Most turn back with excuses, each answered by a story; thirty cross seven valleys and discover that they themselves, si morgh, thirty birds, are what they sought. The frame is simple and the pun profound, and Sufi poets after Attar built on both.",
+    "zh": "一部波斯长诗：世上的鸟由戴胜带领，出发寻找它们的王西摩格。大多数鸟找借口退缩，每个借口都用一个故事回应；最后三十只鸟越过七道山谷，发现它们自己，波斯语的“三十只鸟”，正是所寻之物。框架简单，双关深远，后来的苏非诗人都在此基础上继续写作。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "B-004020",
+  "slug": "proust-in-search-of-lost-time",
+  "category": "literature",
+  "title": {
+    "orig": "À la recherche du temps perdu",
+    "en": "In Search of Lost Time",
+    "zh": "追忆似水年华"
+  },
+  "author": {
+    "orig": "Marcel Proust",
+    "en": "Marcel Proust",
+    "zh": "马塞尔·普鲁斯特",
+    "dates": "1871–1922",
+    "dates_zh": "1871–1922"
+  },
+  "year": 1913,
+  "year_display": {
+    "en": "1913–1927",
+    "zh": "1913–1927 年"
+  },
+  "lang": "fr",
+  "origin": {
+    "en": "France",
+    "zh": "法国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (fr)",
+      "url": "https://fr.wikisource.org/wiki/%C3%80_la_recherche_du_temps_perdu",
+      "note": {
+        "en": "The original French, all seven volumes",
+        "zh": "法语原文，全七卷"
+      }
+    },
+    {
+      "name": "Standard Ebooks",
+      "url": "https://standardebooks.org/ebooks/marcel-proust/in-search-of-lost-time/c-k-scott-moncrieff",
+      "note": {
+        "en": "C. K. Scott Moncrieff’s translation of the first six volumes (1922–1930)",
+        "zh": "斯科特·蒙克里夫所译前六卷（1922–1930）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q464928",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "Seven volumes about a man remembering his life in Paris and by the sea: childhood, jealousy, society, illness, and the slow discovery that time can be recovered only in art. The long sentences follow thought as it actually turns, and the comedy of the salons is sharper than its reputation. It asks for patience and repays it.",
+    "zh": "七卷书，写一个人回忆他在巴黎和海边的一生：童年、嫉妒、社交场、疾病，以及慢慢发现失去的时间只有在艺术里才能找回。长句追随思绪真实的转折，沙龙里的喜剧也比传闻中锋利。它需要耐心，也回报耐心。"
+  },
+  "checked": "2026-10-15"
+}

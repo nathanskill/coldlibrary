@@ -1,0 +1,45 @@
+{
+  "id": "A-002016",
+  "slug": "fleetwood-mac-rumours",
+  "title": {
+    "orig": "Rumours",
+    "en": "Rumours",
+    "zh": "Rumours"
+  },
+  "artist": {
+    "orig": "Fleetwood Mac",
+    "en": "Fleetwood Mac",
+    "zh": "Fleetwood Mac",
+    "mbid": "bd13909f-1c29-4c27-a874-d4aaf27c5b1a"
+  },
+  "year": 1977,
+  "released": "1977-02-04",
+  "region": "US",
+  "lang": "en",
+  "genres": [
+    "rock",
+    "pop"
+  ],
+  "style": {
+    "en": "soft rock",
+    "zh": "软摇滚"
+  },
+  "label": "Warner Bros. Records",
+  "tracks": 11,
+  "length": "39:03",
+  "mbid": "416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/416bb5e5-c7d1-3977-8fd7-7c9daf6c2be6",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Rumours_(album)",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/Rumours_(%E5%B0%88%E8%BC%AF)"
+  },
+  "start_with": "Dreams",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Rumours was made while two couples inside the band were breaking up, and the songs by Stevie Nicks, Christine McVie and Lindsey Buckingham answer one another across the record. Clean, warm production holds the tension in check. It became one of the best-selling albums ever and won the Grammy for Album of the Year.",
+    "zh": "《Rumours》录制时，乐队里两对伴侣正在分手，史蒂薇·尼克斯、克里斯汀·麦克维和林赛·白金汉的歌在整张唱片里彼此回应。干净温暖的制作把紧张压住。它成了史上最畅销的专辑之一，并获得格莱美年度专辑。"
+  },
+  "checked": "2026-10-15"
+}

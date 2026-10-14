@@ -255,5 +255,13 @@
     "S-008017",
     "S-008016",
     "S-008201"
-  ]
+  ],
+  "score": {
+    "value": 9.0,
+    "note": {
+      "en": "The afterword to the first systematic book of Chinese criticism, giving its plan, its predecessors and its hope; the closing line about writing carrying a mind is unforgettable.",
+      "zh": "中国第一部体系化文学批评的后序，交代纲目、前人得失与寄托；结尾“文果载心，余心有寄”令人难忘。"
+    }
+  },
+  "category": "aesthetics"
 }

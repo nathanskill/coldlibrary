@@ -271,5 +271,12 @@
   "pairs": [
     "S-002030",
     "S-002022"
-  ]
+  ],
+  "score": {
+    "value": 9.6,
+    "note": {
+      "en": "Moonlight, a flute, a guest’s grief and Su Shi’s answer that water and moon change and do not change; prose, poetry and philosophy fuse here as almost nowhere else.",
+      "zh": "月色、箫声、客之悲，与苏轼“变与不变”的回答；文、诗、哲思在此融为一体，几乎无出其右。"
+    }
+  }
 }

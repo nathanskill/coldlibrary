@@ -1,0 +1,56 @@
+{
+  "id": "B-005004",
+  "slug": "romance-of-the-western-chamber",
+  "category": "literature",
+  "title": {
+    "orig": "西廂記",
+    "en": "The Story of the Western Wing",
+    "zh": "西厢记"
+  },
+  "author": {
+    "orig": "王實甫",
+    "en": "Wang Shifu",
+    "zh": "王实甫",
+    "dates": "fl. c. 1300",
+    "dates_zh": "约活动于 1300 年前后"
+  },
+  "year": 1300,
+  "year_display": {
+    "en": "c. 1300 (Yuan dynasty)",
+    "zh": "约 1300 年，元代"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/西廂記",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/23906",
+      "note": {
+        "en": "Chinese text",
+        "zh": "中文原文"
+      }
+    }
+  ],
+  "wikidata": "Q58765",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "A young scholar and a minister's daughter meet in a monastery, and a quick-witted maid carries their letters. Wang Shifu turned an old Tang tale into a long zaju play whose sung verses are among the most admired lyrics in Chinese drama. Its warmth toward young love made it loved, and sometimes banned, for centuries.",
+    "zh": "书生张生在普救寺遇见相国小姐崔莺莺，丫鬟红娘在两人之间传书递简。王实甫把唐人《莺莺传》以来的故事写成多本连演的杂剧，曲词秾丽流转，被称作元杂剧的压卷之作。它对青年人情感的同情，让它被读者珍爱了几百年。"
+  },
+  "checked": "2026-10-15"
+}

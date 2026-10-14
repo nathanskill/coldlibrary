@@ -125,5 +125,12 @@
     "S-007001",
     "S-007002",
     "S-007209"
-  ]
+  ],
+  "score": {
+    "value": 7.9,
+    "note": {
+      "en": "The paper behind the punched-card census of 1890, and so behind data processing; clear engineering prose, admirable on checking errors, though written to describe rather than to last.",
+      "zh": "1890 年人口普查打孔卡制表的论文，也是数据处理的起点；工程文字清楚，查错部分尤佳，只是为说明而写。"
+    }
+  }
 }

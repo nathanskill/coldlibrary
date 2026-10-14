@@ -1,0 +1,48 @@
+{
+  "id": "B-005008",
+  "slug": "journey-to-the-west",
+  "category": "literature",
+  "title": {
+    "orig": "西遊記",
+    "en": "Journey to the West",
+    "zh": "西游记"
+  },
+  "author": {
+    "orig": "吳承恩",
+    "en": "Wu Cheng'en",
+    "zh": "吴承恩",
+    "dates": "c. 1500–c. 1582",
+    "dates_zh": "约 1500–约 1582"
+  },
+  "year": 1592,
+  "year_display": {
+    "en": "1592 (earliest surviving edition)",
+    "zh": "1592 年（现存最早刊本）"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/西遊記",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q70784",
+  "score": {
+    "value": 9.1
+  },
+  "review": {
+    "en": "A monk travels to India for scriptures, guarded by a rebellious stone monkey, a greedy pig and a quiet river spirit. Usually attributed to Wu Cheng'en, the hundred chapters are a comic epic, by turns farce, fable and gentle satire of heaven's bureaucracy. Sun Wukong may be the most beloved character in Chinese fiction, and the book is far funnier than its fame suggests.",
+    "zh": "唐僧西行取经，一路有孙悟空、猪八戒、沙僧护持。一般认为作者是吴承恩。一百回写成一部喜剧式的史诗，有闹剧，有寓言，也有对天庭官场的温和讽刺。孙悟空大概是中国小说里最受喜爱的人物；真正读下去，会发现它比名声里更好笑。"
+  },
+  "checked": "2026-10-15"
+}

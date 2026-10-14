@@ -1,0 +1,49 @@
+{
+  "id": "B-002008",
+  "slug": "plutarch-parallel-lives",
+  "category": "history",
+  "title": {
+    "orig": "Βίοι Παράλληλοι",
+    "en": "Parallel Lives",
+    "zh": "希腊罗马名人传"
+  },
+  "author": {
+    "orig": "Πλούταρχος",
+    "en": "Plutarch",
+    "zh": "普鲁塔克",
+    "dates": "c. 46 – after 119 CE",
+    "dates_zh": "约 46 – 119 年后"
+  },
+  "year": 110,
+  "year_display": {
+    "en": "early 2nd century CE",
+    "zh": "公元 2 世纪初"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Greece (Chaeronea)",
+    "zh": "希腊（喀罗尼亚）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/674",
+      "note": {
+        "en": "the 'Dryden' translation revised by A. H. Clough (1859)",
+        "zh": "克拉夫修订的“德莱顿”英译本（1859）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q842337",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "Twenty-three pairs of lives, each setting a Greek beside a Roman, plus four single lives. Plutarch says plainly in the Life of Alexander that he writes lives, not histories: a joke or a small habit may show character better than a battle. The method is moral rather than critical, yet the anecdotes are often the only ones we have, and Shakespeare and Montaigne drew deeply on them.",
+    "zh": "二十三组传记，每组以一位希腊人配一位罗马人，另有四篇单传。普鲁塔克在《亚历山大传》里说得明白：他写的是传记而非历史，一句玩笑、一个小习惯，往往比一场战役更能见出品性。方法重道德而不重考订，但许多轶事只赖此书存世，莎士比亚和蒙田都从中取材甚多。"
+  },
+  "checked": "2026-10-15"
+}

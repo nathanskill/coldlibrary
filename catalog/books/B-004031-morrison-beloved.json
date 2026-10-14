@@ -1,0 +1,40 @@
+{
+  "id": "B-004031",
+  "slug": "morrison-beloved",
+  "category": "literature",
+  "title": {
+    "orig": "Beloved",
+    "en": "Beloved",
+    "zh": "宠儿"
+  },
+  "author": {
+    "orig": "Toni Morrison",
+    "en": "Toni Morrison",
+    "zh": "托妮·莫里森",
+    "dates": "1931–2019",
+    "dates_zh": "1931–2019"
+  },
+  "year": 1987,
+  "year_display": {
+    "en": "1987",
+    "zh": "1987 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q971767",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "In Ohio after the Civil War, a woman who escaped slavery lives in a house haunted by her dead daughter, until a young stranger arrives. Morrison tells the past in pieces, as memory refuses and returns, and gives voice to what the records of slavery left out. It is demanding and grave, and won the Pulitzer Prize.",
+    "zh": "内战后的俄亥俄，一个逃离奴隶制的女人住在被死去女儿的鬼魂纠缠的房子里，直到一位陌生的年轻女子到来。莫里森把过去拆成碎片来讲，记忆拒绝又回返，替奴隶制档案遗漏的东西发出声音。它沉重、要求很高，获得普利策奖。"
+  },
+  "checked": "2026-10-15"
+}

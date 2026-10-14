@@ -1,0 +1,51 @@
+{
+  "id": "B-002013",
+  "slug": "fan-ye-hou-han-shu",
+  "category": "history",
+  "title": {
+    "orig": "後漢書",
+    "en": "Book of the Later Han",
+    "zh": "后汉书"
+  },
+  "author": {
+    "orig": "范曄",
+    "en": "Fan Ye",
+    "zh": "范晔",
+    "dates": "398 – 445",
+    "dates_zh": "398 – 445"
+  },
+  "year": 445,
+  "year_display": {
+    "en": "c. 432–445",
+    "zh": "约 432–445 年"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/後漢書",
+      "note": {
+        "en": "the classical Chinese text",
+        "zh": "文言原文"
+      }
+    }
+  ],
+  "stacks": [
+    "S-006210"
+  ],
+  "wikidata": "Q430428",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Written more than two centuries after the Eastern Han fell, Fan Ye's history distilled many earlier accounts and outlived them. He added chapters for groups the older histories had no room for, among them exemplary women, recluses and eunuchs, and his chapter on the Western Regions gives early Chinese reports of Rome. He was executed before finishing; the treatises were later supplied from Sima Biao's work.",
+    "zh": "范晔在东汉亡后两百多年写成此书，熔铸众家后汉史，众书遂废。他为旧史无处安放的人另立类传，如列女、逸民、宦者；《西域传》中有中国关于罗马的早期记述。他未及完稿即被处死，八志后来取自司马彪的《续汉书》补入。"
+  },
+  "checked": "2026-10-15"
+}

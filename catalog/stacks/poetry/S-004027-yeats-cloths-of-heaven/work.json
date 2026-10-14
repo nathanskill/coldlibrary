@@ -71,5 +71,12 @@
   "plate": null,
   "pairs": [
     "S-004028"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "Eight lines woven from a few repeated words that end in a plea to tread softly; exquisite and complete, though its range is that of a single gesture.",
+      "zh": "八行诗由几个反复的词织成，结尾请人轻轻地踩；精美完整，只是格局仅是一个手势。"
+    }
+  }
 }

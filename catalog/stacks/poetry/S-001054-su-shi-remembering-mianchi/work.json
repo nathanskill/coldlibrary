@@ -132,5 +132,12 @@
   "pairs": [
     "S-001053",
     "S-001057"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "A young man’s poem that gave Chinese the goose’s tracks in snowy mud, an image for every faint trace a life leaves; the closing memory keeps it human.",
+      "zh": "青年苏轼为汉语留下“雪泥鸿爪”，成了人生微痕的通用比喻；结尾那段旧路回忆让它更有人味。"
+    }
+  }
 }

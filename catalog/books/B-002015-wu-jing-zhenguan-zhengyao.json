@@ -1,0 +1,49 @@
+{
+  "id": "B-002015",
+  "slug": "wu-jing-zhenguan-zhengyao",
+  "category": "history",
+  "title": {
+    "orig": "貞觀政要",
+    "en": "Essentials of Government of the Zhenguan Era",
+    "zh": "贞观政要"
+  },
+  "author": {
+    "orig": "吳兢",
+    "en": "Wu Jing",
+    "zh": "吴兢",
+    "dates": "670 – 749",
+    "dates_zh": "670 – 749"
+  },
+  "year": 720,
+  "year_display": {
+    "en": "first half of the 8th century",
+    "zh": "公元 8 世纪上半叶"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/貞觀政要",
+      "note": {
+        "en": "the classical Chinese text, ten chapters",
+        "zh": "文言原文，十卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q5361136",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Wu Jing gathered the conversations of Emperor Taizong of Tang with ministers such as Wei Zheng into ten chapters and forty topics: choosing officials, accepting criticism, frugality, law. It is a handbook for rulers more than a narrative history, and it tidies its hero. Still, the exchanges are frank and specific, and the book was read by later rulers in China and well beyond it.",
+    "zh": "吴兢把唐太宗与魏徵等大臣的问答，分类编成十卷四十篇：择官、纳谏、俭约、刑法。它更像一部君主手册而非叙事史，对主角也有所修饰。但君臣对答直率具体，后世中国以及周边各国的君主都曾研读。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "B-002034",
+  "slug": "harari-sapiens",
+  "category": "history",
+  "title": {
+    "orig": "קיצור תולדות האנושות",
+    "en": "Sapiens: A Brief History of Humankind",
+    "zh": "人类简史：从动物到上帝"
+  },
+  "author": {
+    "orig": "יובל נח הררי",
+    "en": "Yuval Noah Harari",
+    "zh": "尤瓦尔·赫拉利",
+    "dates": "b. 1976",
+    "dates_zh": "1976 年生"
+  },
+  "year": 2011,
+  "year_display": {
+    "en": "2011 (Hebrew); English 2014",
+    "zh": "2011 年希伯来文版；2014 年英文版"
+  },
+  "lang": "he",
+  "origin": {
+    "en": "Israel",
+    "zh": "以色列"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q12411055",
+  "score": {
+    "value": 7.0
+  },
+  "review": {
+    "en": "Grown from university lectures, Sapiens tells the human story through three revolutions, cognitive, agricultural and scientific, and the shared fictions, such as money and empires, that let strangers cooperate. It is fluent and provocative and has led many readers to large questions. Specialists have faulted its speculation, generalisations and loose handling of evidence. Good as an invitation; less dependable as history.",
+    "zh": "此书源于大学讲座，以认知、农业、科学三次革命讲述人类历程，并强调金钱、帝国这类共同虚构让陌生人得以合作。文笔流畅、富于挑衅，引许多读者去想大问题。专家则批评它推测过多、概括过宽、使用证据不够严谨。作为入门邀请不错，作为历史不太可靠。"
+  },
+  "checked": "2026-10-15"
+}

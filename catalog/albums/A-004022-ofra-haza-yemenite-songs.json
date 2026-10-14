@@ -1,0 +1,45 @@
+{
+  "id": "A-004022",
+  "slug": "ofra-haza-yemenite-songs",
+  "title": {
+    "orig": "שירי תימן",
+    "en": "Yemenite Songs",
+    "zh": "也门之歌"
+  },
+  "artist": {
+    "orig": "עפרה חזה",
+    "en": "Ofra Haza",
+    "zh": "奥芙拉·哈扎",
+    "mbid": "7591796a-a545-4b51-ba52-bf2539b90d99"
+  },
+  "year": 1984,
+  "released": "1984",
+  "region": "IL",
+  "lang": "he",
+  "genres": [
+    "traditional",
+    "world"
+  ],
+  "style": {
+    "en": "Yemenite Jewish song",
+    "zh": "也门犹太歌曲"
+  },
+  "label": "Hed Arzi",
+  "tracks": 8,
+  "length": "38:40",
+  "mbid": "4f2c568a-fb10-4dba-8737-ca1dce285426",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/4f2c568a-fb10-4dba-8737-ca1dce285426",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Yemenite_Songs",
+    "wikipedia_zh": null
+  },
+  "start_with": "אם ננעלו",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "Ofra Haza, daughter of Yemenite Jewish immigrants, recorded the songs of her parents' tradition, many set to poems by the seventeenth-century poet Shalom Shabazi, with arrangements that mix traditional percussion and modern orchestration. Released abroad it found an international audience, and its song Im Nin'alu, remixed a few years later, became a hit across Europe. A bridge between family memory and the wider world.",
+    "zh": "奥芙拉·哈扎是也门犹太移民的女儿，她录下父母传统里的歌，许多歌词出自十七世纪诗人沙洛姆·沙巴齐，编曲把传统打击乐与现代管弦乐交织在一起。专辑在海外发行后找到了国际听众，其中《Im Nin'alu》几年后经混音，在欧洲多国走红。它连接了家族记忆和更广阔的世界。"
+  },
+  "checked": "2026-10-15"
+}

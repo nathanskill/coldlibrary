@@ -113,5 +113,12 @@
     "S-007003",
     "S-007005",
     "S-007006"
-  ]
+  ],
+  "score": {
+    "value": 8.7,
+    "note": {
+      "en": "The classic paper on counting with 0 and 1, lucid and excited, with a famous detour through the hexagrams; binary is now the alphabet of every computer.",
+      "zh": "以 0 和 1 计数的经典论文，清晰而兴奋，还绕道讲了一段卦象；如今二进制是每台计算机的字母表。"
+    }
+  }
 }

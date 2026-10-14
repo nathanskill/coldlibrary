@@ -1,0 +1,55 @@
+{
+  "id": "B-005005",
+  "slug": "the-peony-pavilion",
+  "category": "literature",
+  "title": {
+    "orig": "牡丹亭",
+    "en": "The Peony Pavilion",
+    "zh": "牡丹亭"
+  },
+  "author": {
+    "orig": "湯顯祖",
+    "en": "Tang Xianzu",
+    "zh": "汤显祖",
+    "dates": "1550–1616"
+  },
+  "year": 1598,
+  "year_display": {
+    "en": "1598",
+    "zh": "1598 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/牡丹亭",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/23849",
+      "note": {
+        "en": "Chinese text",
+        "zh": "中文原文"
+      }
+    }
+  ],
+  "wikidata": "Q1196332",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "A magistrate's daughter dreams of a young man in a spring garden, pines for him, and the play follows that longing past the boundary of death. Tang Xianzu wrote it in fifty-five scenes for the southern stage, and its garden scenes remain at the heart of the Kunqu repertoire. Few works argue so boldly that feeling can be stronger than life.",
+    "zh": "太守之女杜丽娘游园入梦，梦中遇见书生，醒后相思成疾，情意竟越过了生死的界限。汤显祖写成五十五出的传奇，《游园》《惊梦》至今是昆曲最常演的折子。很少有作品这样大胆地主张“情”可以比生死更有力量，读剧本时文辞本身就很美。"
+  },
+  "checked": "2026-10-15"
+}

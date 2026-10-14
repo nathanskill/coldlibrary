@@ -1,0 +1,48 @@
+{
+  "id": "B-005009",
+  "slug": "dream-of-the-red-chamber",
+  "category": "literature",
+  "title": {
+    "orig": "紅樓夢",
+    "en": "Dream of the Red Chamber",
+    "zh": "红楼梦"
+  },
+  "author": {
+    "orig": "曹雪芹",
+    "en": "Cao Xueqin",
+    "zh": "曹雪芹",
+    "dates": "c. 1715–c. 1763",
+    "dates_zh": "约 1715–约 1763"
+  },
+  "year": 1760,
+  "year_display": {
+    "en": "Circulated in manuscript from the 1750s; first printed 1791",
+    "zh": "1750 年代起以抄本流传，1791 年初次排印"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/紅樓夢",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    }
+  ],
+  "wikidata": "Q8265",
+  "score": {
+    "value": 9.8
+  },
+  "review": {
+    "en": "The rise and slow decline of a great Qing household, seen through a sensitive young heir and the young women of its garden. Hundreds of characters are drawn with such exact speech and feeling that the book became the standard against which all Chinese fiction is measured. Cao Xueqin left it unfinished; the last forty chapters of the 1791 printing are generally thought to be by another hand.",
+    "zh": "一个大家族的盛与衰，透过贾宝玉和大观园里的女孩子们来写。几百个人物，各有各的声口和心事，日常的一顿饭、一首诗都写得细致入微，此后的中国小说都以它为尺度。曹雪芹生前没有写完，1791 年初印本的后四十回一般认为出自他人之手。"
+  },
+  "checked": "2026-10-15"
+}

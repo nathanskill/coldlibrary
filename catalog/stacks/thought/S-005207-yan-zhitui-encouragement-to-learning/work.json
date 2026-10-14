@@ -232,5 +232,12 @@
     "S-002006",
     "S-002007",
     "S-005209"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "The model for later Chinese family instructions: practical, unflattering about idle sons of good families, and honest that late learning costs more and is still worth it.",
+      "zh": "后世中国家训的典范：讲求实用，不恭维游手好闲的子弟，也坦言晚学代价更高却依然值得。"
+    }
+  }
 }

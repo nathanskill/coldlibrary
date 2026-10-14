@@ -1,0 +1,49 @@
+{
+  "id": "B-004005",
+  "slug": "sei-shonagon-pillow-book",
+  "category": "literature",
+  "title": {
+    "orig": "枕草子",
+    "en": "The Pillow Book",
+    "zh": "枕草子"
+  },
+  "author": {
+    "orig": "清少納言",
+    "en": "Sei Shōnagon",
+    "zh": "清少纳言",
+    "dates": "c. 966 – c. 1025",
+    "dates_zh": "约 966 – 约 1025"
+  },
+  "year": 1002,
+  "year_display": {
+    "en": "c. 1002",
+    "zh": "约 1002 年"
+  },
+  "lang": "ja",
+  "origin": {
+    "en": "Heian-kyō (Kyoto), Japan",
+    "zh": "日本平安京（京都）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (ja)",
+      "url": "https://ja.wikisource.org/wiki/%E6%9E%95%E8%8D%89%E7%B4%99_(%E5%9C%8B%E6%96%87%E5%A4%A7%E8%A7%80)",
+      "note": {
+        "en": "The original Japanese, Kokubun Taikan edition",
+        "zh": "日文原文，《国文大观》本"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q615137",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "A court lady’s lists, judgments and scenes: hateful things, things that quicken the heart, the best hour of each season. Sei Shōnagon is quick, vain, funny and exact, and a thousand years later her taste still feels personal. The book founded the Japanese tradition of the zuihitsu, writing that follows the brush wherever it goes.",
+    "zh": "一位宫廷女官写下的清单、评判与片段：可憎之事、令人心跳之事、四季各自最好的时辰。清少纳言机敏、自负、好笑而精确，一千年后她的趣味仍然鲜活。这本书开创了日本“随笔”的传统，随笔所至，便是文章。"
+  },
+  "checked": "2026-10-15"
+}

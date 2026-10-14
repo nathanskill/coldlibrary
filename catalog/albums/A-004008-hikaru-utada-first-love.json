@@ -1,0 +1,45 @@
+{
+  "id": "A-004008",
+  "slug": "hikaru-utada-first-love",
+  "title": {
+    "orig": "First Love",
+    "en": "First Love",
+    "zh": "First Love"
+  },
+  "artist": {
+    "orig": "宇多田ヒカル",
+    "en": "Hikaru Utada",
+    "zh": "宇多田光",
+    "mbid": "b539e453-c4fe-47e3-8a07-8517eac74429"
+  },
+  "year": 1999,
+  "released": "1999-03-10",
+  "region": "JP",
+  "lang": "ja",
+  "genres": [
+    "pop",
+    "rnb"
+  ],
+  "style": {
+    "en": "J-pop R&B",
+    "zh": "日式节奏布鲁斯"
+  },
+  "label": "EASTWORLD",
+  "tracks": 12,
+  "length": "54:15",
+  "mbid": "c60fcd45-9420-30aa-98e5-2bffb894021a",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/c60fcd45-9420-30aa-98e5-2bffb894021a",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/First_Love_(Hikaru_Utada_album)",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/First_Love_(%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%E5%B0%88%E8%BC%AF)"
+  },
+  "start_with": "First Love",
+  "score": {
+    "value": 8.0
+  },
+  "review": {
+    "en": "Hikaru Utada was sixteen when this debut came out, and it became the best-selling album in Japanese history. The songs bring the phrasing of American R&B into Japanese pop with an ease few had managed, and the title ballad has stayed in the culture for a generation. Some of the production belongs to its year; the writing and the voice do not.",
+    "zh": "宇多田光发行这张出道专辑时只有十六岁，它成了日本史上销量最高的专辑。这些歌把美国节奏布鲁斯的唱腔自然地带进日语流行乐，此前少有人做得这样从容；同名抒情曲在一代人的记忆里一直没有退场。部分制作带着那个年份的痕迹，写作和嗓音却没有。"
+  },
+  "checked": "2026-10-15"
+}

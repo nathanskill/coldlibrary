@@ -1,0 +1,40 @@
+{
+  "id": "B-004023",
+  "slug": "kawabata-snow-country",
+  "category": "literature",
+  "title": {
+    "orig": "雪国",
+    "en": "Snow Country",
+    "zh": "雪国"
+  },
+  "author": {
+    "orig": "川端康成",
+    "en": "Yasunari Kawabata",
+    "zh": "川端康成",
+    "dates": "1899–1972",
+    "dates_zh": "1899–1972"
+  },
+  "year": 1948,
+  "year_display": {
+    "en": "1935–1948",
+    "zh": "1935–1948 年"
+  },
+  "lang": "ja",
+  "origin": {
+    "en": "Japan",
+    "zh": "日本"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q1376060",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "A man from Tokyo visits a hot-spring town in the snow and a geisha who loves him more than he can love her back. Kawabata writes in images and silences, scenes that end before they explain themselves, and the cold landscape carries much of the feeling. Its restraint can feel chilly, which is partly the point.",
+    "zh": "一个东京男人来到雪中的温泉小镇，见一位艺伎；她爱他，比他能回报的更多。川端康成用意象和留白写作，场景常在解释之前便已结束，许多情感交给了寒冷的风景。它的克制有时显得冷，而这本身也是用意的一部分。"
+  },
+  "checked": "2026-10-15"
+}

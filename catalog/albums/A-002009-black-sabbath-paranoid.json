@@ -1,0 +1,45 @@
+{
+  "id": "A-002009",
+  "slug": "black-sabbath-paranoid",
+  "title": {
+    "orig": "Paranoid",
+    "en": "Paranoid",
+    "zh": "Paranoid"
+  },
+  "artist": {
+    "orig": "Black Sabbath",
+    "en": "Black Sabbath",
+    "zh": "黑色安息日",
+    "mbid": "5182c1d9-c7d2-4dad-afa0-ccfeada921a8"
+  },
+  "year": 1970,
+  "released": "1970-09-18",
+  "region": "GB",
+  "lang": "en",
+  "genres": [
+    "metal",
+    "rock"
+  ],
+  "style": {
+    "en": "heavy metal",
+    "zh": "重金属"
+  },
+  "label": "Vertigo",
+  "tracks": 8,
+  "length": "41:49",
+  "mbid": "cc053745-c447-3566-8f27-bed5438c9133",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/cc053745-c447-3566-8f27-bed5438c9133",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Paranoid_(album)",
+    "wikipedia_zh": "https://zh.wikipedia.org/wiki/Paranoid_(%E5%B0%88%E8%BC%AF)"
+  },
+  "start_with": "War Pigs",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Black Sabbath's second album, released in 1970, set down much of heavy metal's vocabulary: Tony Iommi's slow, heavy riffs, a rhythm section that swings, and lyrics about war, madness and dread. War Pigs, Iron Man and the quickly written title track became foundations of the genre, while Planet Caravan shows a quieter side.",
+    "zh": "黑色安息日 1970 年的第二张专辑，奠定了重金属的大半语汇：托尼·艾奥米缓慢沉重的连复段、带摇摆感的节奏组，以及关于战争、疯狂与恐惧的歌词。《War Pigs》《Iron Man》和匆匆写成的同名曲成了这一类型的基石，《Planet Caravan》则露出安静的一面。"
+  },
+  "checked": "2026-10-15"
+}

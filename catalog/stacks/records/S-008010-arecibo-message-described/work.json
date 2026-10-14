@@ -65,5 +65,12 @@
     "S-008004",
     "S-008007",
     "S-008009"
-  ]
+  ],
+  "score": {
+    "value": 7.0,
+    "note": {
+      "en": "A plain guide I wrote for this library, showing how the message was meant to be decoded; useful for following the bits, but secondary to what it describes.",
+      "zh": "我为本馆写的一篇朴素说明，讲这条信息该如何解码；便于读者跟上每一位，但次于它所描述的对象。"
+    }
+  }
 }

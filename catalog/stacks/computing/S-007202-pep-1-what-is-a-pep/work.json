@@ -90,5 +90,12 @@
     "S-007201",
     "S-007012",
     "S-007018"
-  ]
+  ],
+  "score": {
+    "value": 7.0,
+    "note": {
+      "en": "A process document, clear and procedural, kept here for its insistence on recording dissent and keeping every revision; important to Python’s governance, modest as writing.",
+      "zh": "一份流程文件，清楚而程序化，收它是因为坚持记录异议、保留每次修订；对 Python 治理很重要，文字平常。"
+    }
+  }
 }

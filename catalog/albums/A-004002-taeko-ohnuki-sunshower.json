@@ -1,0 +1,45 @@
+{
+  "id": "A-004002",
+  "slug": "taeko-ohnuki-sunshower",
+  "title": {
+    "orig": "SUNSHOWER",
+    "en": "Sunshower",
+    "zh": "Sunshower"
+  },
+  "artist": {
+    "orig": "大貫妙子",
+    "en": "Taeko Ohnuki",
+    "zh": "大贯妙子",
+    "mbid": "8370abe0-dbe1-48f4-99d5-6646ff2d8264"
+  },
+  "year": 1977,
+  "released": "1977-07-25",
+  "region": "JP",
+  "lang": "ja",
+  "genres": [
+    "pop",
+    "jazz"
+  ],
+  "style": {
+    "en": "city pop",
+    "zh": "城市流行"
+  },
+  "label": "PANAM",
+  "tracks": 10,
+  "length": "44:33",
+  "mbid": "e23a19fc-4caa-47b3-8670-5f5e63176810",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/e23a19fc-4caa-47b3-8670-5f5e63176810",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Sunshower_(Taeko_Ohnuki_album)",
+    "wikipedia_zh": null
+  },
+  "start_with": "都会",
+  "score": {
+    "value": 8.4
+  },
+  "review": {
+    "en": "Taeko Ohnuki's second solo album, made with Ryuichi Sakamoto at the arranging desk and the American drummer Chris Parker among the players. Its cool jazz-fusion settings and her plain, unhurried writing made little noise at the time. Decades later it was reissued and passed around as a model of what is now called city pop, a quiet record that found its audience late.",
+    "zh": "大贯妙子的第二张个人专辑，坂本龙一担任编曲，美国鼓手克里斯·帕克参与演奏。冷静的爵士融合编配，加上她朴素从容的写法，当年并没有掀起多少声响。几十年后再版流传，被当作如今所说的“城市流行”的范本，是一张晚到才遇见听众的安静唱片。"
+  },
+  "checked": "2026-10-15"
+}

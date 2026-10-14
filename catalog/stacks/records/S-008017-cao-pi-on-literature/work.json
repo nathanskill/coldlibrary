@@ -251,5 +251,13 @@
     "S-008016",
     "S-008019",
     "S-003042"
-  ]
+  ],
+  "score": {
+    "value": 8.9,
+    "note": {
+      "en": "Usually counted the first Chinese essay on literature as such, sharp on why writers belittle one another; uneven, but its claim for writing as lasting work set a tradition.",
+      "zh": "通常被视为中国第一篇专论文学的文章，“文人相轻”说得透彻；行文不甚匀称，但“文章不朽”之论开启了传统。"
+    }
+  },
+  "category": "aesthetics"
 }

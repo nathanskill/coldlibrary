@@ -1,0 +1,49 @@
+{
+  "id": "B-003013",
+  "slug": "zhong-rong-shipin",
+  "category": "aesthetics",
+  "title": {
+    "orig": "詩品",
+    "en": "Grades of Poets (Shipin)",
+    "zh": "诗品"
+  },
+  "author": {
+    "orig": "鍾嶸",
+    "en": "Zhong Rong",
+    "zh": "钟嵘",
+    "dates": "c. 468 – c. 518",
+    "dates_zh": "约 468 – 约 518"
+  },
+  "year": 515,
+  "year_display": {
+    "en": "early 6th century",
+    "zh": "六世纪初"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China (Liang)",
+    "zh": "中国（梁）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (zh)",
+      "url": "https://zh.wikisource.org/wiki/詩品",
+      "note": {
+        "en": "classical Chinese text",
+        "zh": "文言原文"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q5368175",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Zhong Rong sorts more than a hundred poets in five-character verse into upper, middle and lower grades, tracing who learned from whom and naming each one's flavour in a few phrases. His rankings can be argued with, and were, but his insistence on direct feeling over allusion and tonal rules, and his idea of lingering taste, shaped Chinese criticism for good.",
+    "zh": "钟嵘把一百多位五言诗人分为上、中、下三品，追溯师承源流，几句话点出各家风味。他的品第可以争论，后人也确实争论不休，但他主张直寻真情、反对堆砌典故和拘泥声律，提出“滋味”之说，深深影响了后来的中国诗论。"
+  },
+  "checked": "2026-10-15"
+}

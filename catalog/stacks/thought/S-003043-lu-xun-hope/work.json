@@ -70,5 +70,13 @@
     "en": "Despair is as vain as hope.",
     "zh": "绝望之为虚妄，正与希望相同。"
   },
-  "plate": null
+  "plate": null,
+  "score": {
+    "value": 8.7,
+    "note": {
+      "en": "One of the strongest prose poems in Wild Grass, refusing both hope and despair in some seven hundred characters; Lu Xun at his most exact and least consoled.",
+      "zh": "《野草》中最有力的散文诗之一，七百来字里同时拒绝希望与绝望；鲁迅在此最准确，也最不肯自我安慰。"
+    }
+  },
+  "category": "literature"
 }

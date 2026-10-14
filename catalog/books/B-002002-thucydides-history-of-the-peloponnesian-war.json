@@ -1,0 +1,51 @@
+{
+  "id": "B-002002",
+  "slug": "thucydides-history-of-the-peloponnesian-war",
+  "category": "history",
+  "title": {
+    "orig": "Ἱστορίαι",
+    "en": "History of the Peloponnesian War",
+    "zh": "伯罗奔尼撒战争史"
+  },
+  "author": {
+    "orig": "Θουκυδίδης",
+    "en": "Thucydides",
+    "zh": "修昔底德",
+    "dates": "c. 460 – c. 400 BCE",
+    "dates_zh": "约前 460 – 约前 400"
+  },
+  "year": -400,
+  "year_display": {
+    "en": "late 5th century BCE",
+    "zh": "公元前 5 世纪末"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Greece (Athens)",
+    "zh": "希腊（雅典）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/7142",
+      "note": {
+        "en": "Richard Crawley's translation (1874)",
+        "zh": "克劳利英译本（1874）"
+      }
+    }
+  ],
+  "stacks": [
+    "S-008015"
+  ],
+  "wikidata": "Q639493",
+  "score": {
+    "value": 9.6
+  },
+  "review": {
+    "en": "An Athenian general who lost a command wrote the history of the war he lived through, counting it by summers and winters and testing every report. The speeches, which he admits are reconstructed, lay bare how cities argue themselves into ruin: the Melian dialogue, the plague, the Sicilian disaster. It breaks off mid-sentence in 411 BCE. Few books since have matched its severity of judgment.",
+    "zh": "一位失去兵权的雅典将军，写下了自己亲历的战争，按夏季冬季逐年记事，每条消息都要查验。书中演说他坦承是重构的，却把城邦如何一步步说服自己走向毁灭写得透彻：米洛斯对话、瘟疫、西西里远征。书在公元前 411 年戛然中断。论判断之冷峻，后世少有能及。"
+  },
+  "checked": "2026-10-15"
+}

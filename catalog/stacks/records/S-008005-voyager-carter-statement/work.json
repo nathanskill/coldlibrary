@@ -69,5 +69,12 @@
     "S-008006",
     "S-008007",
     "S-008020"
-  ]
+  ],
+  "score": {
+    "value": 8.0,
+    "note": {
+      "en": "A rare official text addressed to a reader who may never exist, and frank about the divided world that sent it; brief and dignified, if inevitably a little ceremonial.",
+      "zh": "少见的官方文字，写给也许永远不存在的读者，并坦承寄出它的世界仍然分裂；简短庄重，免不了几分仪式感。"
+    }
+  }
 }

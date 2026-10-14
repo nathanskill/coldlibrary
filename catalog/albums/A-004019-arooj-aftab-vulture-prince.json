@@ -1,0 +1,46 @@
+{
+  "id": "A-004019",
+  "slug": "arooj-aftab-vulture-prince",
+  "title": {
+    "orig": "Vulture Prince",
+    "en": "Vulture Prince",
+    "zh": "秃鹫王子"
+  },
+  "artist": {
+    "orig": "Arooj Aftab",
+    "en": "Arooj Aftab",
+    "zh": "阿鲁吉·阿夫塔布",
+    "mbid": "12d0b276-b102-4779-ac35-6939c584d9da"
+  },
+  "year": 2021,
+  "released": "2021-04-23",
+  "region": "US",
+  "lang": "ur",
+  "genres": [
+    "world",
+    "jazz",
+    "ambient"
+  ],
+  "style": {
+    "en": "neo-Sufi ghazal",
+    "zh": "新苏非加扎勒"
+  },
+  "label": "New Amsterdam Records",
+  "tracks": 7,
+  "length": "46:36",
+  "mbid": "68f7ceb6-e159-4326-8ec1-90dddcb2342c",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/68f7ceb6-e159-4326-8ec1-90dddcb2342c",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Vulture_Prince",
+    "wikipedia_zh": null
+  },
+  "start_with": "Mohabbat",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "The Pakistani-born, New York-based singer Arooj Aftab sets ghazals and Urdu poetry in slow arrangements of harp, strings, guitar and bass, leaving long silences around the voice. The album is shaped by grief and was dedicated to her younger brother. Its song Mohabbat won a Grammy for best global music performance, bringing a centuries-old poetic form to a new audience without hurrying it.",
+    "zh": "生于巴基斯坦、定居纽约的歌手阿鲁吉·阿夫塔布，把加扎勒和乌尔都语诗歌放进竖琴、弦乐、吉他和贝斯的缓慢编配里，人声周围留出大片空白。专辑带着哀伤，献给她的弟弟。其中《Mohabbat》获得格莱美最佳全球音乐表演奖，把一种数百年的诗歌形式带给了新的听众，也没有催促它。"
+  },
+  "checked": "2026-10-15"
+}

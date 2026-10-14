@@ -99,5 +99,12 @@
     "S-006021",
     "S-002045",
     "S-006016"
-  ]
+  ],
+  "score": {
+    "value": 9.7,
+    "note": {
+      "en": "Perhaps the most influential textbook ever written, and still a model of proof: every step traceable, every assumption named, except the few that later readers had to find.",
+      "zh": "或许是史上影响最大的教科书，至今仍是证明的典范：步步可查，假设一一写明，只有少数要靠后人发现。"
+    }
+  }
 }

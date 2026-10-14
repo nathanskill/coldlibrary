@@ -1,0 +1,49 @@
+{
+  "id": "B-002020",
+  "slug": "anna-komnene-alexiad",
+  "category": "history",
+  "title": {
+    "orig": "Ἀλεξιάς",
+    "en": "The Alexiad",
+    "zh": "阿莱克修斯传"
+  },
+  "author": {
+    "orig": "Ἄννα Κομνηνή",
+    "en": "Anna Komnene",
+    "zh": "安娜·科穆宁娜",
+    "dates": "1083 – c. 1153",
+    "dates_zh": "1083 – 约 1153"
+  },
+  "year": 1148,
+  "year_display": {
+    "en": "c. 1148",
+    "zh": "约 1148 年"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Byzantium (Constantinople)",
+    "zh": "拜占庭（君士坦丁堡）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://en.wikisource.org/wiki/The_Alexiad",
+      "note": {
+        "en": "Elizabeth A. S. Dawes's translation (1928)",
+        "zh": "道斯英译本（1928）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q177359",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "A Byzantine princess writes the reign of her father, Alexios I, in fifteen books of learned, classicising Greek. She is openly partisan and sometimes vague on dates, but she knew the court from inside, and her account of the Normans and the armies of the First Crusade is a key view from the other side. It is also one of the earliest histories by a woman that survive.",
+    "zh": "一位拜占庭公主以十五卷典雅仿古的希腊文，写她父亲阿莱克修斯一世的统治。她公开偏袒父亲，有时年代含糊，但她熟知宫廷内情，书中对诺曼人和第一次十字军的记述，是来自另一方的关键视角。这也是现存最早的女性史著之一。"
+  },
+  "checked": "2026-10-15"
+}

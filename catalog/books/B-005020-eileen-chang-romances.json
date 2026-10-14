@@ -1,0 +1,37 @@
+{
+  "id": "B-005020",
+  "slug": "eileen-chang-romances",
+  "category": "literature",
+  "title": {
+    "orig": "傳奇",
+    "en": "Romances",
+    "zh": "传奇"
+  },
+  "author": {
+    "orig": "張愛玲",
+    "en": "Eileen Chang",
+    "zh": "张爱玲",
+    "dates": "1920–1995"
+  },
+  "year": 1944,
+  "year_display": {
+    "en": "1944; enlarged edition 1947",
+    "zh": "1944 年；1947 年增订本"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q123377549",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "The collection that made Eileen Chang's name, with The Golden Cangue and Love in a Fallen City, stories of Shanghai and Hong Kong in the war years. She writes about marriage as a matter of money and survival, with a painter's eye for clothes, rooms and light. Her images are startling and her coldness is a kind of honesty.",
+    "zh": "张爱玲的成名小说集，收《金锁记》《倾城之恋》《沉香屑》等，写战时的上海与香港。婚姻在她笔下是金钱与生存的算计，衣饰、房间、光线却写得像画家一样精确。比喻常出人意料，冷峻里有一种诚实。"
+  },
+  "checked": "2026-10-15"
+}

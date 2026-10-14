@@ -244,5 +244,12 @@
     "S-006001",
     "S-002045",
     "S-002046"
-  ]
+  ],
+  "score": {
+    "value": 8.4,
+    "note": {
+      "en": "One of the oldest Chinese mathematical books, showing the three-four-five triangle with a bent square rather than proving it; the dialogue on learning by analogy is its finest page.",
+      "zh": "中国最古老的算书之一，以折矩示出勾三股四弦五而不作证明；陈子论类推的对话是其中最好的一页。"
+    }
+  }
 }

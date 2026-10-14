@@ -1,0 +1,40 @@
+{
+  "id": "B-004024",
+  "slug": "bulgakov-master-and-margarita",
+  "category": "literature",
+  "title": {
+    "orig": "Мастер и Маргарита",
+    "en": "The Master and Margarita",
+    "zh": "大师与玛格丽特"
+  },
+  "author": {
+    "orig": "Михаил Булгаков",
+    "en": "Mikhail Bulgakov",
+    "zh": "米哈伊尔·布尔加科夫",
+    "dates": "1891–1940",
+    "dates_zh": "1891–1940"
+  },
+  "year": 1967,
+  "year_display": {
+    "en": "1966–1967",
+    "zh": "1966–1967 年"
+  },
+  "lang": "ru",
+  "origin": {
+    "en": "Moscow, Soviet Union",
+    "zh": "苏联莫斯科"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q188538",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "The devil and his retinue visit Moscow and expose its writers and officials, while a novel about Pontius Pilate runs alongside and a woman risks everything for the author she loves. Bulgakov revised it until his death and it was published decades later. It is wild, funny and unfinished in places, and its faith in art outlasting censors is moving.",
+    "zh": "魔鬼带着随从来到莫斯科，让作家和官员原形毕露；与此同时，一部关于本丢·彼拉多的小说并行展开，一个女人为她所爱的作者不顾一切。布尔加科夫修改此书直到去世，几十年后才得以出版。它狂放、好笑，有些地方没有完成；它相信艺术会比审查者活得长，这一点令人动容。"
+  },
+  "checked": "2026-10-15"
+}

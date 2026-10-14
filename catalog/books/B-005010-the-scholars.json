@@ -1,0 +1,55 @@
+{
+  "id": "B-005010",
+  "slug": "the-scholars",
+  "category": "literature",
+  "title": {
+    "orig": "儒林外史",
+    "en": "The Scholars",
+    "zh": "儒林外史"
+  },
+  "author": {
+    "orig": "吳敬梓",
+    "en": "Wu Jingzi",
+    "zh": "吴敬梓",
+    "dates": "1701–1754"
+  },
+  "year": 1750,
+  "year_display": {
+    "en": "c. 1750; earliest surviving edition 1803",
+    "zh": "约 1750 年成书；现存最早刻本 1803 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/儒林外史",
+      "note": {
+        "en": "Chinese Wikisource text",
+        "zh": "维基文库本"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/24032",
+      "note": {
+        "en": "Chinese text",
+        "zh": "中文原文"
+      }
+    }
+  ],
+  "wikidata": "Q1218689",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "A loose chain of portraits of men who live for, or against, the imperial examinations. Wu Jingzi writes without speeches or villains' sneers: he simply lets people talk and act until their vanity shows. The satire is cool and exact, and the few honest characters glow all the more for it. A model of quiet irony in Chinese prose.",
+    "zh": "以科举为中心，一连串读书人的群像，有人为功名颠倒，也有人淡然自守。吴敬梓不下断语，只让人物说话、做事，虚荣与可笑自然显露。讽刺冷静而准确，少数几位正直人物因此更显光彩。中国小说里少见的含蓄反讽之作。"
+  },
+  "checked": "2026-10-15"
+}

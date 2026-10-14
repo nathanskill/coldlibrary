@@ -64,5 +64,12 @@
     "S-007011",
     "S-007025",
     "S-007017"
-  ]
+  ],
+  "score": {
+    "value": 8.3,
+    "note": {
+      "en": "A good gathering of Unix design wisdom, McIlroy, Pike and Thompson included, with seventeen rules that still guide programmers; more anthology than original thought.",
+      "zh": "汇集 Unix 设计智慧的好文章，有麦克罗伊、派克、汤普森之言和仍在指导程序员的十七条规则；编选多于原创。"
+    }
+  }
 }

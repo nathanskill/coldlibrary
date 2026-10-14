@@ -79,5 +79,12 @@
     "S-006001",
     "S-006019",
     "S-006021"
-  ]
+  ],
+  "score": {
+    "value": 9.3,
+    "note": {
+      "en": "One lecture that freed geometry from necessity and handed the shape of space to physics; its middle section, left out here, became the mathematics of general relativity.",
+      "zh": "一次讲演把几何从“必然”中解放出来，把空间的形状交给物理学；这里略去的中段，后来成了广义相对论的数学。"
+    }
+  }
 }

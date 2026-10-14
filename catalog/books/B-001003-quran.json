@@ -1,0 +1,53 @@
+{
+  "id": "B-001003",
+  "slug": "quran",
+  "category": "faith",
+  "title": {
+    "orig": "القرآن",
+    "en": "The Qur'an",
+    "zh": "古兰经"
+  },
+  "author": null,
+  "year": 632,
+  "year_display": {
+    "en": "7th century",
+    "zh": "7 世纪"
+  },
+  "lang": "ar",
+  "origin": {
+    "en": "Arabia",
+    "zh": "阿拉伯半岛"
+  },
+  "tradition": {
+    "en": "Islam",
+    "zh": "伊斯兰教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://ar.wikisource.org/wiki/القرآن_الكريم",
+      "note": {
+        "en": "the Arabic text",
+        "zh": "阿拉伯语原文"
+      }
+    },
+    {
+      "name": "sacred-texts.com",
+      "url": "https://sacred-texts.com/isl/pick/index.htm",
+      "note": {
+        "en": "Marmaduke Pickthall's English rendering of the meaning (1930)",
+        "zh": "皮克塔尔英译释义本（1930）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q428",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The scripture of Islam, held by Muslims to be the word of God revealed to the Prophet Muhammad, in 114 suras of rhymed Arabic prose. It is recited in every daily prayer and learned by heart by millions. Its sound and rhythm are part of its meaning, which is why Muslims treat translations as interpretations; it also set the standard of classical Arabic.",
+    "zh": "伊斯兰教的经典，穆斯林相信它是真主降示给先知穆罕默德的话语，共 114 章，以押韵的阿拉伯散文写成。每日礼拜都要诵读，数以百万计的人能够背诵。它的声音和节奏本身就是意义的一部分，所以穆斯林把译本视为释义；它也确立了古典阿拉伯语的标准。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "A-004032",
+  "slug": "tinariwen-aman-iman",
+  "title": {
+    "orig": "Aman Iman",
+    "en": "Aman Iman: Water Is Life",
+    "zh": "水即生命"
+  },
+  "artist": {
+    "orig": "Tinariwen",
+    "en": "Tinariwen",
+    "zh": "Tinariwen",
+    "mbid": "5c98fc12-be83-4246-ae5b-2184192913b9"
+  },
+  "year": 2006,
+  "released": "2006",
+  "region": "ML",
+  "lang": "tmh",
+  "genres": [
+    "rock",
+    "blues",
+    "world"
+  ],
+  "style": {
+    "en": "Tuareg guitar music",
+    "zh": "图阿雷格吉他音乐"
+  },
+  "label": "EMMA Productions",
+  "tracks": 12,
+  "length": "54:17",
+  "mbid": "46bddb86-91ba-39ed-a053-bafef73e1dee",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/46bddb86-91ba-39ed-a053-bafef73e1dee",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Aman_Iman",
+    "wikipedia_zh": null
+  },
+  "start_with": "Cler Achel",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Tinariwen, a Tuareg collective of guitarists and singers from the Sahara, made this album with the producer Justin Adams. Circling electric guitars, hand percussion and call-and-response singing in Tamasheq carry songs of exile, homeland and hardship. It brought the group a large international audience and made the desert guitar sound a reference for musicians from Mali and Niger to Europe and America.",
+    "zh": "Tinariwen 是来自撒哈拉的图阿雷格吉他手与歌手的集体，这张专辑由贾斯汀·亚当斯制作。盘旋的电吉他、手鼓和塔马舍克语的一唱众和，承载着流亡、故土与艰难的歌。它为乐队带来大批国际听众，也让这种沙漠吉他之声成为从马里、尼日尔到欧美许多音乐人的参照。"
+  },
+  "checked": "2026-10-15"
+}

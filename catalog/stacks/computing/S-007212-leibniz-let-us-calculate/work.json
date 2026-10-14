@@ -168,5 +168,12 @@
     "S-007206",
     "S-007004",
     "S-007003"
-  ]
+  ],
+  "score": {
+    "value": 8.6,
+    "note": {
+      "en": "A clear statement of Leibniz’s dream that disputes could be settled by calculation, with the limits he set on it; an unpublished draft that later logic kept returning to.",
+      "zh": "清楚写出莱布尼茨“争论可以靠计算解决”的梦想及其界限；生前未发表的草稿，后来的逻辑学却一再回到这里。"
+    }
+  }
 }

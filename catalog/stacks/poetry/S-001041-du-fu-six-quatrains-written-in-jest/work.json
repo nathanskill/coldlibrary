@@ -132,5 +132,13 @@
     "S-002021",
     "S-008017",
     "S-001016"
-  ]
+  ],
+  "category": "aesthetics",
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "Criticism in verse that began a long tradition of discussing poetry in quatrains; the arguments are generous and still sound, though their allusions now need a guide.",
+      "zh": "以诗论诗，开了论诗绝句的传统；见解宽厚，至今成立，只是其中典故如今要靠注释才能读通。"
+    }
+  }
 }

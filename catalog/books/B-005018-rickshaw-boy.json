@@ -1,0 +1,37 @@
+{
+  "id": "B-005018",
+  "slug": "rickshaw-boy",
+  "category": "literature",
+  "title": {
+    "orig": "駱駝祥子",
+    "en": "Rickshaw Boy",
+    "zh": "骆驼祥子"
+  },
+  "author": {
+    "orig": "老舍",
+    "en": "Lao She",
+    "zh": "老舍",
+    "dates": "1899–1966"
+  },
+  "year": 1937,
+  "year_display": {
+    "en": "Serialised 1936–37; book 1939",
+    "zh": "1936–37 年连载；1939 年出版单行本"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "wikidata": "Q3140506",
+  "score": {
+    "value": 8.5
+  },
+  "review": {
+    "en": "Xiangzi, a strong young rickshaw puller in 1920s Beijing, wants only a rickshaw of his own. Lao She follows him through the city's weather, streets and slang with real tenderness and no illusions. The Beijing idiom is a pleasure in itself, and the novel remains one of the clearest portraits of a working life in Chinese fiction.",
+    "zh": "二十年代的北平，年轻力壮的车夫祥子，只想拥有一辆自己的洋车。老舍跟着他走过北平的风雨、街巷和市声，有同情，也不存幻想。京味语言本身就是享受，这部小说至今是中文里写劳动者生活最清晰的一部。"
+  },
+  "checked": "2026-10-15"
+}

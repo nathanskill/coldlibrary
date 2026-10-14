@@ -1,0 +1,51 @@
+{
+  "id": "B-002009",
+  "slug": "zuo-zhuan",
+  "category": "history",
+  "title": {
+    "orig": "春秋左氏傳",
+    "en": "The Zuo Tradition (Zuo Zhuan)",
+    "zh": "左传"
+  },
+  "author": {
+    "orig": "左丘明（傳）",
+    "en": "Zuo Qiuming (traditionally attributed)",
+    "zh": "左丘明（相传）",
+    "dates": "5th century BCE (traditional)",
+    "dates_zh": "公元前 5 世纪（传统说法）"
+  },
+  "year": -350,
+  "year_display": {
+    "en": "c. 4th century BCE",
+    "zh": "约公元前 4 世纪成书"
+  },
+  "lang": "lzh",
+  "origin": {
+    "en": "China",
+    "zh": "中国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource",
+      "url": "https://zh.wikisource.org/wiki/春秋左氏傳",
+      "note": {
+        "en": "the classical Chinese text",
+        "zh": "文言原文"
+      }
+    }
+  ],
+  "stacks": [
+    "S-008016"
+  ],
+  "wikidata": "Q230230",
+  "score": {
+    "value": 9.2
+  },
+  "review": {
+    "en": "Attached to the terse Spring and Autumn Annals, the Zuo Zhuan turns 722 to 468 BCE into narrative: battles told through the decisions before them, envoys trading verses, ministers arguing in a few exact lines. Its authorship and date are uncertain. For two thousand years it was how educated Chinese learned their early history and how they learned to write narrative prose.",
+    "zh": "《左传》依附简略的《春秋》，把公元前 722 至前 468 年的历史写成叙事：写战争重在战前的抉择，写使臣赋诗应对，写大夫寥寥数语的争辩。作者与成书年代至今难定。两千年来，读书人靠它了解上古史，也从它学会怎样写叙事文。"
+  },
+  "checked": "2026-10-15"
+}

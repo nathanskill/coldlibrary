@@ -1,0 +1,45 @@
+{
+  "id": "A-004030",
+  "slug": "cesaria-evora-miss-perfumado",
+  "title": {
+    "orig": "Miss Perfumado",
+    "en": "Miss Perfumado",
+    "zh": "香水小姐"
+  },
+  "artist": {
+    "orig": "Cesária Évora",
+    "en": "Cesária Évora",
+    "zh": "塞萨莉亚·埃沃拉",
+    "mbid": "ceafdf2f-bc18-4b99-8c71-d1834b0065c3"
+  },
+  "year": 1992,
+  "released": "1992-06",
+  "region": "CV",
+  "lang": "kea",
+  "genres": [
+    "world",
+    "traditional"
+  ],
+  "style": {
+    "en": "morna",
+    "zh": "莫尔纳"
+  },
+  "label": "Lusafrica",
+  "tracks": 14,
+  "length": "63:19",
+  "mbid": "be6e9478-a32d-3a5f-9ad0-f0be447ac42d",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/be6e9478-a32d-3a5f-9ad0-f0be447ac42d",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Miss_Perfumado",
+    "wikipedia_zh": null
+  },
+  "start_with": "Sodade",
+  "score": {
+    "value": 8.7
+  },
+  "review": {
+    "en": "Cesária Évora was past fifty when this album, sung in Cape Verdean Creole, brought her an international audience, beginning in France. It is built mostly on morna, the slow, melancholy song form of the islands, played by a small acoustic group, and it includes Sodade, which became her signature. Plain, unhurried and unforced, it made a small island tradition known worldwide.",
+    "zh": "塞萨莉亚·埃沃拉五十多岁时，这张用佛得角克里奥尔语演唱的专辑从法国开始，为她带来国际听众。专辑以莫尔纳为主，这是群岛上缓慢而忧郁的歌曲形式，由小型原声乐队伴奏，其中的《Sodade》成了她的代表作。朴素、从容、不用力，它让一个小岛的传统被全世界知道。"
+  },
+  "checked": "2026-10-15"
+}

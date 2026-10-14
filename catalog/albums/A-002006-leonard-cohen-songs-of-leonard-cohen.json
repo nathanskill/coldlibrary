@@ -1,0 +1,41 @@
+{
+  "id": "A-002006",
+  "slug": "leonard-cohen-songs-of-leonard-cohen",
+  "title": {
+    "orig": "Songs of Leonard Cohen",
+    "en": "Songs of Leonard Cohen",
+    "zh": "Songs of Leonard Cohen"
+  },
+  "artist": {
+    "orig": "Leonard Cohen",
+    "en": "Leonard Cohen",
+    "zh": "莱昂纳德·科恩",
+    "mbid": "65314b12-0e08-43fa-ba33-baaa7b874c15"
+  },
+  "year": 1967,
+  "released": "1967-12-27",
+  "region": "CA",
+  "lang": "en",
+  "genres": [
+    "folk",
+    "singer-songwriter"
+  ],
+  "label": "Columbia",
+  "tracks": 10,
+  "length": "41:09",
+  "mbid": "34291a49-8df9-304e-bd39-16b11d829d5f",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/34291a49-8df9-304e-bd39-16b11d829d5f",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Songs_of_Leonard_Cohen",
+    "wikipedia_zh": null
+  },
+  "start_with": "Suzanne",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "Cohen was already a published poet and novelist in his thirties when he made this debut, produced by John Simon. Nylon-string guitar, a narrow voice and sparse added textures leave room for the words. Suzanne, Sisters of Mercy and So Long, Marianne became standards of the singer-songwriter era and gave the form a new literary weight.",
+    "zh": "科恩出这张首专时已三十多岁，是出版过诗集和小说的作家，制作人是约翰·西蒙。尼龙弦吉他、音域不宽的嗓子和稀疏的点缀，把空间留给词句。《Suzanne》《Sisters of Mercy》《So Long, Marianne》成了唱作时代的经典，也让这一形式多了文学的分量。"
+  },
+  "checked": "2026-10-15"
+}

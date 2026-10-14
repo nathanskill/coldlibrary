@@ -1,0 +1,57 @@
+{
+  "id": "B-002004",
+  "slug": "polybius-histories",
+  "category": "history",
+  "title": {
+    "orig": "Ἱστορίαι",
+    "en": "The Histories",
+    "zh": "通史"
+  },
+  "author": {
+    "orig": "Πολύβιος",
+    "en": "Polybius",
+    "zh": "波利比乌斯",
+    "dates": "c. 200 – c. 118 BCE",
+    "dates_zh": "约前 200 – 约前 118"
+  },
+  "year": -150,
+  "year_display": {
+    "en": "2nd century BCE",
+    "zh": "公元前 2 世纪"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Greece and Rome",
+    "zh": "希腊与罗马"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/44125",
+      "note": {
+        "en": "Evelyn S. Shuckburgh's translation (1889), volume 1",
+        "zh": "舒克伯勒英译本（1889），第一卷"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/44126",
+      "note": {
+        "en": "Evelyn S. Shuckburgh's translation (1889), volume 2",
+        "zh": "舒克伯勒英译本（1889），第二卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q250816",
+  "score": {
+    "value": 8.6
+  },
+  "review": {
+    "en": "A Greek hostage in Rome asks how the Romans came to rule nearly the whole known world in about fifty-three years. Of forty books only the first five survive whole, yet they hold the Punic Wars and, in Book VI, his account of the Roman mixed constitution, which later political thinkers read closely. He is dry and argumentative, scornful of writers who never saw a battlefield, and careful about cause.",
+    "zh": "一个在罗马做人质的希腊人追问：罗马人怎样在约五十三年间几乎统治了整个已知世界。四十卷只有前五卷完整传世，却已包含布匿战争，以及第六卷对罗马混合政体的分析，后世政治思想家读得很细。他文笔干涩、好辩，看不起没上过战场的史家，对因果格外用心。"
+  },
+  "checked": "2026-10-15"
+}

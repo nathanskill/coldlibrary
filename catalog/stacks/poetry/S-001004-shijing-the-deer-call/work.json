@@ -112,5 +112,12 @@
   "pairs": [
     "S-001032",
     "S-001022"
-  ]
+  ],
+  "score": {
+    "value": 8.0,
+    "note": {
+      "en": "A gracious banquet song whose opening lines Cao Cao borrowed and whose name later examination feasts took; its worth is more ceremonial and historical than lyrical.",
+      "zh": "温雅的宴客之歌，开篇为曹操所借，篇名传为后世的鹿鸣宴；价值多在礼乐与历史，不在抒情。"
+    }
+  }
 }

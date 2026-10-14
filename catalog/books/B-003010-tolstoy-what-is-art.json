@@ -1,0 +1,49 @@
+{
+  "id": "B-003010",
+  "slug": "tolstoy-what-is-art",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Что такое искусство?",
+    "en": "What Is Art?",
+    "zh": "什么是艺术？"
+  },
+  "author": {
+    "orig": "Лев Николаевич Толстой",
+    "en": "Leo Tolstoy",
+    "zh": "列夫·托尔斯泰",
+    "dates": "1828 – 1910",
+    "dates_zh": "1828 – 1910"
+  },
+  "year": 1897,
+  "year_display": {
+    "en": "1897",
+    "zh": "1897 年"
+  },
+  "lang": "ru",
+  "origin": {
+    "en": "Russia",
+    "zh": "俄国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/64908",
+      "note": {
+        "en": "Aylmer Maude's translation (Funk & Wagnalls, 1904)",
+        "zh": "莫德英译本（1904 年版）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q4517325",
+  "score": {
+    "value": 7.8
+  },
+  "review": {
+    "en": "Late in life Tolstoy defines art as the passing of felt emotion from one person to others, and judges it by whether it unites people. From there he dismisses much of the modern canon, his own great novels included. The verdicts are often perverse, but the questions about who art serves and what it costs are honest and still unsettling.",
+    "zh": "晚年的托尔斯泰把艺术定义为一个人把自己体验过的情感传给他人，并以能否把人们联合起来作为评判标准。由此他否定了大半近代经典，连自己的长篇巨著也不放过。结论常常偏激，但关于艺术为谁服务、代价几何的追问是真诚的，今天仍令人不安。"
+  },
+  "checked": "2026-10-15"
+}

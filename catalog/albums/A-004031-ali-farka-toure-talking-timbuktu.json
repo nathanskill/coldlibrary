@@ -1,0 +1,45 @@
+{
+  "id": "A-004031",
+  "slug": "ali-farka-toure-talking-timbuktu",
+  "title": {
+    "orig": "Talking Timbuktu",
+    "en": "Talking Timbuktu",
+    "zh": "谈论廷巴克图"
+  },
+  "artist": {
+    "orig": "Ali Farka Touré",
+    "en": "Ali Farka Touré",
+    "zh": "阿里·法尔卡·图雷",
+    "mbid": "9be2a5ac-8201-489b-b5f6-91f958bf9060"
+  },
+  "year": 1994,
+  "released": "1994-03-28",
+  "region": "ML",
+  "lang": "son",
+  "genres": [
+    "world",
+    "blues"
+  ],
+  "style": {
+    "en": "desert blues",
+    "zh": "沙漠布鲁斯"
+  },
+  "label": "World Circuit",
+  "tracks": 10,
+  "length": "60:04",
+  "mbid": "a5a7a716-a039-3815-aee3-88ac135721c5",
+  "links": {
+    "musicbrainz": "https://musicbrainz.org/release-group/a5a7a716-a039-3815-aee3-88ac135721c5",
+    "wikipedia_en": "https://en.wikipedia.org/wiki/Talking_Timbuktu",
+    "wikipedia_zh": null
+  },
+  "start_with": "Diaraby",
+  "score": {
+    "value": 8.8
+  },
+  "review": {
+    "en": "The Malian guitarist Ali Farka Touré recorded these songs with Ry Cooder, who added slide guitar and other textures without crowding him. The album won a Grammy for best world music album and drew wide attention to the kinship between the music of the Niger bend and American blues. The songs are Touré's, and the restraint of everyone around him is the record's quiet strength.",
+    "zh": "马里吉他手阿里·法尔卡·图雷与莱·库德合作录下这些歌，库德加入滑棒吉他等音色，却没有挤占他的位置。专辑获得格莱美最佳世界音乐专辑奖，让许多人注意到尼日尔河湾的音乐与美国布鲁斯之间的亲缘。歌是图雷的，身边每个人的克制，是这张唱片安静的力量。"
+  },
+  "checked": "2026-10-15"
+}

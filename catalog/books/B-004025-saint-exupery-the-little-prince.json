@@ -1,0 +1,40 @@
+{
+  "id": "B-004025",
+  "slug": "saint-exupery-the-little-prince",
+  "category": "literature",
+  "title": {
+    "orig": "Le Petit Prince",
+    "en": "The Little Prince",
+    "zh": "小王子"
+  },
+  "author": {
+    "orig": "Antoine de Saint-Exupéry",
+    "en": "Antoine de Saint-Exupéry",
+    "zh": "安托万·德·圣埃克苏佩里",
+    "dates": "1900–1944",
+    "dates_zh": "1900–1944"
+  },
+  "year": 1943,
+  "year_display": {
+    "en": "1943",
+    "zh": "1943 年"
+  },
+  "lang": "fr",
+  "origin": {
+    "en": "New York, United States",
+    "zh": "美国纽约"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q25338",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "A pilot stranded in the desert meets a small boy from an asteroid who tells him about a rose, a fox and the grown-ups he met on other planets. With its own watercolours, the book has become one of the most translated works in the world. Its wisdom is sometimes stated too plainly, but its sadness is earned.",
+    "zh": "一位迫降沙漠的飞行员，遇见一个来自小行星的男孩，听他讲一朵玫瑰、一只狐狸，以及他在别的星球上遇到的大人。配着作者自己的水彩画，这本书成了世界上译本最多的作品之一。它的道理有时说得太直白，但那份悲伤是真实的。"
+  },
+  "checked": "2026-10-15"
+}

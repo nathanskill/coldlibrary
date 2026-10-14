@@ -1,0 +1,40 @@
+{
+  "id": "B-002033",
+  "slug": "diamond-guns-germs-and-steel",
+  "category": "history",
+  "title": {
+    "orig": "Guns, Germs, and Steel: The Fates of Human Societies",
+    "en": "Guns, Germs, and Steel",
+    "zh": "枪炮、病菌与钢铁"
+  },
+  "author": {
+    "orig": "Jared Diamond",
+    "en": "Jared Diamond",
+    "zh": "贾雷德·戴蒙德",
+    "dates": "b. 1937",
+    "dates_zh": "1937 年生"
+  },
+  "year": 1997,
+  "year_display": {
+    "en": "1997",
+    "zh": "1997 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q279022",
+  "score": {
+    "value": 7.6
+  },
+  "review": {
+    "en": "Why did some societies come to conquer others? Diamond answers from geography: which continents had domesticable plants and animals, which axes eased the spread of crops, which peoples gained immunity to crowd diseases. The scope is bracing and the writing clear, and it won a Pulitzer Prize. Historians and anthropologists have objected that it leaves little room for choices, institutions and contingency.",
+    "zh": "为什么有些社会征服了另一些？戴蒙德从地理作答：哪些大陆有可驯化的动植物，哪条轴线便于作物传播，哪些人群获得了对群聚疾病的免疫。视野开阔，文字清楚，获普利策奖。史学家和人类学家则批评它几乎不给选择、制度与偶然留下余地。"
+  },
+  "checked": "2026-10-15"
+}

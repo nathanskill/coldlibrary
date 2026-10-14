@@ -1,0 +1,40 @@
+{
+  "id": "B-002031",
+  "slug": "tuchman-the-guns-of-august",
+  "category": "history",
+  "title": {
+    "orig": "The Guns of August",
+    "en": "The Guns of August",
+    "zh": "八月炮火"
+  },
+  "author": {
+    "orig": "Barbara W. Tuchman",
+    "en": "Barbara W. Tuchman",
+    "zh": "芭芭拉·塔奇曼",
+    "dates": "1912 – 1989",
+    "dates_zh": "1912 – 1989"
+  },
+  "year": 1962,
+  "year_display": {
+    "en": "1962",
+    "zh": "1962 年"
+  },
+  "lang": "en",
+  "origin": {
+    "en": "United States",
+    "zh": "美国"
+  },
+  "tradition": null,
+  "full_text": "none",
+  "read": [],
+  "stacks": [],
+  "wikidata": "Q2417024",
+  "score": {
+    "value": 8.2
+  },
+  "review": {
+    "en": "The first month of the First World War, from the plans laid years before to the Battle of the Marne, told as narrative with a novelist's command of character and pace. Tuchman shows how rigid plans, pride and misread signals carried Europe into a war no one had planned to fight that way. Specialists have questioned some emphases, but it remains a model of narrative history and won a Pulitzer Prize.",
+    "zh": "第一次世界大战的第一个月，从多年前定下的作战计划写到马恩河战役，叙事兼有小说家对人物和节奏的掌控。塔奇曼写出僵硬的计划、傲慢与误读的信号，怎样把欧洲拖进一场谁都没料到会这样打的战争。专家对其部分侧重有所质疑，但它仍是叙事史的典范，并获普利策奖。"
+  },
+  "checked": "2026-10-15"
+}

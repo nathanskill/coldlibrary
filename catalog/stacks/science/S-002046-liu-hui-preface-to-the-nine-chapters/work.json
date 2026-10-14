@@ -267,5 +267,12 @@
     "S-002045",
     "S-006004",
     "S-007006"
-  ]
+  ],
+  "score": {
+    "value": 8.5,
+    "note": {
+      "en": "The preface of one of China’s greatest mathematicians, with a way to measure the unreachable from two points; its flat-earth sun distances are wrong, its method sound.",
+      "zh": "中国最伟大的数学家之一所作的序，给出从两点测量不可及之物的方法；日距有误，方法站得住。"
+    }
+  }
 }

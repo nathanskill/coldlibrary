@@ -115,5 +115,12 @@
   "pairs": [
     "S-001066",
     "S-002029"
-  ]
+  ],
+  "score": {
+    "value": 8.2,
+    "note": {
+      "en": "Often called the first Chinese poem on an object, it sees the orange tree vividly; the second half’s praise of steadfastness is earnest but less surprising.",
+      "zh": "常被视为中国咏物诗之祖，前半把橘树写得鲜明可见；后半转入颂德，真诚，却少了意外。"
+    }
+  }
 }

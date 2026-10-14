@@ -146,5 +146,12 @@
     "S-007004",
     "S-007003",
     "S-007207"
-  ]
+  ],
+  "score": {
+    "value": 8.7,
+    "note": {
+      "en": "A chapter of a great book that states, three centuries early, that reasoning is reckoning, and then lists exactly how it goes wrong; hard old prose, lasting insight.",
+      "zh": "伟大著作中的一章，早三百年说出“推理即计算”，又逐条列出推理如何出错；古旧难读的文字，持久的洞见。"
+    }
+  }
 }

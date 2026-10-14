@@ -1,0 +1,53 @@
+{
+  "id": "B-001002",
+  "slug": "bible",
+  "category": "faith",
+  "title": {
+    "orig": "Biblia",
+    "en": "The Bible",
+    "zh": "圣经"
+  },
+  "author": null,
+  "year": 100,
+  "year_display": {
+    "en": "traditional",
+    "zh": "传统年代"
+  },
+  "lang": "grc",
+  "origin": {
+    "en": "Near East and Mediterranean",
+    "zh": "近东与地中海"
+  },
+  "tradition": {
+    "en": "Christianity",
+    "zh": "基督教"
+  },
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/10",
+      "note": {
+        "en": "King James Version (1611)",
+        "zh": "英王钦定本（1611）"
+      }
+    },
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/1581",
+      "note": {
+        "en": "Douay-Rheims version (1582–1610, revised by Challoner)",
+        "zh": "杜埃-兰斯本（1582–1610，查洛纳修订）"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1845",
+  "score": null,
+  "unscored": "scripture",
+  "review": {
+    "en": "The scripture of Christianity: the Old Testament, which it shares in large part with the Hebrew Bible, and the New Testament of gospels, letters and an apocalypse, written in Greek in the first century. Churches differ on the exact list of books. Read in worship, prayed, sung and endlessly translated, its English and Chinese versions shaped both languages.",
+    "zh": "基督教的经典：《旧约》大部分与希伯来圣经相同，《新约》包括福音书、书信和启示录，一世纪时用希腊语写成。各教会认定的书卷略有出入。它在礼拜中诵读，被祈祷、被歌唱，被译成无数语言，英文与中文的译本都深深影响了各自的语言。"
+  },
+  "checked": "2026-10-15"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "B-003017",
+  "slug": "wang-guowei-renjian-cihua",
+  "category": "aesthetics",
+  "title": {
+    "orig": "人間詞話",
+    "en": "Poetic Remarks in the Human World",
+    "zh": "人间词话"
+  },
+  "author": {
+    "orig": "王國維",
+    "en": "Wang Guowei",
+    "zh": "王国维",
+    "dates": "1877 – 1927",
+    "dates_zh": "1877 – 1927"
+  },
+  "year": 1908,
+  "year_display": {
+    "en": "1908–1909",
+    "zh": "1908—1909 年"
+  },
+  "lang": "zh",
+  "origin": {
+    "en": "China (Qing)",
+    "zh": "中国（清）"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Wikisource (zh)",
+      "url": "https://zh.wikisource.org/wiki/人間詞話",
+      "note": {
+        "en": "Chinese text, with unpublished and deleted entries",
+        "zh": "中文原文，含未刊稿与删稿"
+      }
+    }
+  ],
+  "stacks": [
+    "S-003041"
+  ],
+  "wikidata": "Q6855046",
+  "score": {
+    "value": 9.0
+  },
+  "review": {
+    "en": "In brief numbered notes on ci lyrics, Wang Guowei joins the old shihua form to ideas met in Kant and Schopenhauer and puts one term, jingjie, the world a poem opens, at the centre. His judgments of poets are sharp and personal. Small as it is, it became the most widely read work of Chinese criticism of the last century.",
+    "zh": "王国维以一则则简短的札记论词，把传统诗话的体例与他从康德、叔本华那里得来的思想结合，并把“境界”一词置于中心。他对词人的评断锐利而有个性。篇幅虽小，却成了上个世纪读者最多的中国文论著作。"
+  },
+  "checked": "2026-10-15"
+}

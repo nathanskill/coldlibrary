@@ -1,0 +1,49 @@
+{
+  "id": "B-003007",
+  "slug": "hegel-lectures-on-aesthetics",
+  "category": "aesthetics",
+  "title": {
+    "orig": "Vorlesungen über die Ästhetik",
+    "en": "Lectures on Aesthetics",
+    "zh": "美学"
+  },
+  "author": {
+    "orig": "Georg Wilhelm Friedrich Hegel",
+    "en": "G. W. F. Hegel",
+    "zh": "黑格尔",
+    "dates": "1770 – 1831",
+    "dates_zh": "1770 – 1831"
+  },
+  "year": 1835,
+  "year_display": {
+    "en": "lectures of the 1820s, published 1835–1838",
+    "zh": "1820 年代讲授，1835—1838 年出版"
+  },
+  "lang": "de",
+  "origin": {
+    "en": "Germany",
+    "zh": "德国"
+  },
+  "tradition": null,
+  "full_text": "free",
+  "read": [
+    {
+      "name": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/ebooks/55334",
+      "note": {
+        "en": "F. P. B. Osmaston's translation, volume 1 of 4",
+        "zh": "奥斯马斯顿英译本，四卷之第一卷"
+      }
+    }
+  ],
+  "stacks": [],
+  "wikidata": "Q1045336",
+  "score": {
+    "value": 8.9
+  },
+  "review": {
+    "en": "Assembled from Hegel's Berlin lectures after his death, this is the grand attempt to place every art in history: symbolic, classical and romantic forms, and a ladder from architecture through sculpture and painting to music and poetry. Its system can feel forced, but its readings of Greek tragedy and of particular arts remain rich, and its claim that art had become a thing of the past still provokes.",
+    "zh": "此书在黑格尔身后据他的柏林讲稿整理而成，是把各门艺术安放进历史的宏大尝试：象征型、古典型、浪漫型，以及从建筑、雕塑、绘画到音乐和诗的阶梯。体系有时显得勉强，但对希腊悲剧和各门艺术的解读依然丰富，“艺术已成过去”的论断至今引人争论。"
+  },
+  "checked": "2026-10-15"
+}
