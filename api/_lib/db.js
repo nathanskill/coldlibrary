@@ -65,6 +65,27 @@ export async function ensureSchema() {
         created_at timestamptz not null default now(),
         verified_at timestamptz
       )`;
+      // Readers' scores (2026-10-15): one row per entry per device; the device is a random id the browser keeps,
+      // stored here only as a hash. Tribute lamps: one per person per device per day. Counted, never named.
+      await sql`create table if not exists ratings (
+        item text not null,
+        device text not null,
+        stars smallint not null check (stars between 1 and 5),
+        ip_hash text,
+        created_at timestamptz not null default now(),
+        updated_at timestamptz not null default now(),
+        primary key (item, device)
+      )`;
+      await sql`create index if not exists ratings_item on ratings (item)`;
+      await sql`create table if not exists tributes (
+        person text not null,
+        device text not null,
+        day date not null default current_date,
+        ip_hash text,
+        created_at timestamptz not null default now(),
+        primary key (person, device, day)
+      )`;
+      await sql`create index if not exists tributes_person on tributes (person)`;
       await sql`delete from submissions where status = 'unverified' and created_at < now() - interval '2 days'`;
       await sql`insert into librarians (uid, email_norm, pen_name, locale, listed, created_at)
                 values (1, null, 'Founding Librarian', 'en', true, '2026-10-04T00:00:00Z')

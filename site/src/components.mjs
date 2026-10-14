@@ -142,8 +142,8 @@ export function libCard(lang, { no, role, since }) {
 export function searchBox(lang, { big = false, autofocus = false, value = '' } = {}) {
   const tt = T(lang);
   return `<form class="search${big ? ' big' : ''}" role="search" action="${href(lang, 'open-stacks/search')}" method="get" data-search-form>
-  <label class="vh" for="q-${big ? 'big' : 'small'}">${tt('Search the Open Stacks', '搜索开架书库')}</label>
-  ${ICON_SEARCH}<input id="q-${big ? 'big' : 'small'}" type="search" name="q" value="${esc(value)}" placeholder="${tt('Search titles, authors and lines', '搜书名、作者或诗句')}" autocomplete="off" spellcheck="false"${autofocus ? ' autofocus' : ''}>
+  <label class="vh" for="q-${big ? 'big' : 'small'}">${tt('Search the library', '搜索图书馆')}</label>
+  ${ICON_SEARCH}<input id="q-${big ? 'big' : 'small'}" type="search" name="q" value="${esc(value)}" placeholder="${tt('Search titles, authors, albums and lines', '搜书名、作者、专辑或诗句')}" autocomplete="off" spellcheck="false"${autofocus ? ' autofocus' : ''}>
 </form>`;
 }
 

@@ -1,5 +1,6 @@
 // Authors (spec §5.7): an A–Z index by the initial of author.en (pinyin for Chinese authors), and a page for every
 // author with two or more works. No biography: only what the catalogue records.
+import { lampBlock, isPerson } from '../rate/ui.mjs';
 import { esc, t, sep, act, ph, tagOf } from '../lib.mjs';
 import { shelfOf, workHref, shelfHref } from '../stacks.mjs';
 import { wrow, rowList } from '../components.mjs';
@@ -56,7 +57,7 @@ export function authorPages(ctx) {
     title: (lang) => `${authorNames(lang, rec.author).name} · ${t(lang)('The Open Stacks', '开架书库')}`,
     description: (lang) => t(lang)(`${rec.works.length} works by ${rec.author.en} on the Open Stacks, each with its source.`, `开架书库收录的 ${authorNames(lang, rec.author).name} 作品 ${rec.works.length} 部，各附来源。`),
     bodyClass: () => 'stacks os-page-author',
-    scripts: ['search'],
+    scripts: ['search', 'rate'],
     render: (lang) => renderAuthor(lang, stacks, rec),
   }))];
 }
@@ -112,6 +113,7 @@ function renderAuthor(lang, stacks, rec) {
     sub: n.other ? `<span${n.otherLang ? ` lang="${n.otherLang}"` : ` lang="${esc(tagOf(works[0].lang))}"`}>${esc(n.other)}</span>` : '',
     facts: [dates ? `<span class="tabular">${esc(dates)}</span>` : '', T(`${count(works.length, 'work', lang)} on the Open Stacks`, `开架书库收录 ${num(works.length, lang)} 部`), yearRange(works, lang), shelves.map((k) => { const s = shelfOf(k); return `<a href="${shelfHref(lang, k)}">${esc(T(s.en, s.zh))}</a>`; }).join(T(', ', '、'))].filter(Boolean).join(sep),
     plate: platePh(lang, portraitOf(stacks, rec)),
+    actions: isPerson(rec.author) ? lampBlock(lang, 'author', rec.author) : '',
     cls: 'os-ph',
   });
   const body = `<div class="wrap">${rowList(works.map((w) => wrow(lang, w, stacks)))}<p class="os-next"><a class="go" href="${osHref(lang, 'authors')}">${T('All authors', '全部作者')}<span class="nw">&nbsp;→</span></a></p></div>`;

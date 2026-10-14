@@ -9,7 +9,7 @@ import { fileURLToPath } from 'node:url';
 const dist = join(dirname(fileURLToPath(import.meta.url)), 'dist');
 const port = Number(process.env.PORT || 4178);
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg', '.png': 'image/png', '.woff2': 'font/woff2', '.json': 'application/json', '.xml': 'application/xml', '.txt': 'text/plain' };
-const mock = { librarians: [{ uid: 1, penName: 'Founding Librarian', since: '2026-10-04' }], lamps: {} };
+const mock = { librarians: [{ uid: 1, penName: 'Founding Librarian', since: '2026-10-04' }], lamps: {}, ratings: {}, tributes: {} };
 const hashes = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), '../api/_lib/lamp-hashes.json'), 'utf8'));
 
 function json(res, status, body) { res.writeHead(status, { 'content-type': 'application/json' }); res.end(JSON.stringify(body)); }
@@ -33,6 +33,28 @@ createServer((req, res) => {
         if (!h || createHash('sha256').update(String(body.token)).digest('hex') !== h.hash) return json(res, 403, { message: 'Only recognised visitors can light a lamp. (mock)' });
         (mock.lamps[body.item] ||= []).unshift({ text: body.note || null, at: new Date().toISOString() });
         return json(res, 200, { ok: true });
+      }
+      // Readers' scores and tribute lamps, in memory (one rating per device per entry; one lamp per device per day).
+      if (url.pathname === '/api/ratings' && req.method === 'GET') {
+        const stats = {};
+        for (const id of String(url.searchParams.get('ids') || '').split(',')) { const r = Object.values(mock.ratings[id] || {}); if (r.length) stats[id] = [r.length, r.reduce((a, b) => a + b, 0)]; }
+        return json(res, 200, { stats });
+      }
+      if (url.pathname === '/api/ratings') {
+        if (!/^[0-9a-f]{32}$/.test(body.device || '') || !(body.stars >= 1 && body.stars <= 5)) return json(res, 400, { message: 'bad rating (mock)' });
+        (mock.ratings[body.id] ||= {})[body.device] = body.stars;
+        const r = Object.values(mock.ratings[body.id]);
+        return json(res, 200, { ok: true, n: r.length, sum: r.reduce((a, b) => a + b, 0) });
+      }
+      if (url.pathname === '/api/tributes' && req.method === 'GET') {
+        const counts = {};
+        for (const k of String(url.searchParams.get('keys') || '').split(',')) if (mock.tributes[k]) counts[k] = mock.tributes[k].size;
+        return json(res, 200, { counts });
+      }
+      if (url.pathname === '/api/tributes') {
+        const day = new Date().toISOString().slice(0, 10);
+        (mock.tributes[body.key] ||= new Set()).add(body.device + ':' + day);
+        return json(res, 200, { ok: true, count: mock.tributes[body.key].size });
       }
       if (url.pathname === '/api/items/submit') return json(res, 200, { ok: true, id: 'S-mock', mock: true, bytes: JSON.stringify(body.item || {}).length });
       if (url.pathname === '/api/items/confirm') return body.code === '000000' ? json(res, 200, { ok: true }) : json(res, 400, { message: 'mock: use 000000' });

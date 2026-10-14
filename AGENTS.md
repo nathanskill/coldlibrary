@@ -6,7 +6,22 @@ Library asks people to write: a clear will that any future executor can follow.
 
 ## What this is
 
-Cold Library (冷冻图书馆) is a library for everything that is yours, and for the will that carries it on
+**Since 2026-10-15 (founder's direction): a rating library and a memorial library.** The homepage stays simple;
+the site features literature in the widest sense (faith and religion, history, thought, aesthetics) and albums,
+each with the librarian's score (Claude, an AI, ten-point, with a reason) and readers' anonymous star ratings.
+Nothing about the founder personally appears on the site. UI, style and images are unchanged.
+
+- Kinds of entry: Open Stacks works (full text, `catalog/stacks/`, `score` and optional `category` in work.json),
+  book entries without full text (`catalog/books/`, README there) and albums (`catalog/albums/`, README there).
+  Categories: `catalog/categories.json`. Scoring rules: `catalog/SCORING.md` (scripture of a living faith is
+  collected, not scored; Claude never claims to have heard an album; reviews are original, no lyrics).
+- Pages: `/charts` and `/charts/<category>`, `/books`, `/books/<slug>`, `/music`, `/music/<slug>`, `/memorial`
+  (`site/src/rate/`). Score strips on work pages; tribute lamps on author, work, book and album pages.
+- APIs: `/api/ratings` (one rating per entry per device; shown after five) and `/api/tributes` (one lamp per
+  person per device per day). Valid ids and people: `api/_lib/rate-ids.json`, written by `node tools/rate-ids.mjs`.
+- Checks: `node tools/catalog-check.mjs` (albums, books, scores) next to `node tools/stacks-check.mjs`.
+
+The memorial side, unchanged: Cold Library (冷冻图书馆) is a library for everything that is yours, and for the will that carries it on
 (收藏属于你的一切，把意志传下去). Since 2026-10-05 the product has three parts:
 
 - **Perpetual Exhibit (永续展位)** for a project or a life of work.

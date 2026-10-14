@@ -17,6 +17,8 @@ import { stackPages } from './src/stacks/lists.mjs';
 import { fontHead, writeManifest } from './src/fonts.mjs';
 import { emitOutputs } from './src/outputs.mjs';
 import { checkStacks } from '../tools/stacks-check.mjs';
+import { loadCatalog, rateIds } from './src/catalog.mjs';
+import { ratePages } from './src/rate/pages.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, '..');
@@ -48,9 +50,17 @@ const tests = existsSync(testDir) ? readdirSync(testDir).filter((f) => f.endsWit
 const open = loadStacks(root);
 // The catalogue checker runs on every build, as a warning: content edits never block a deploy.
 try { const r = checkStacks(root); const n = (r && (r.errors || r.problems) || []).length; const wn = (r && r.warnings || []).length; console.log(`stacks-check: ${n} problem(s), ${wn} warning(s)`); } catch (e) { console.warn('stacks-check could not run: ' + e.message); }
-const ctx = { root, projects, items, log, tests, open };
+// The rated catalogue (2026-10-15): scores on works, book entries and albums.
+const cat = loadCatalog(root, open);
+const ctx = { root, projects, items, log, tests, open, cat };
+// The API only accepts ids and people listed in api/_lib/rate-ids.json (tools/rate-ids.mjs writes it).
+try {
+  const want = JSON.stringify(rateIds(cat, open));
+  const have = existsSync(join(root, 'api/_lib/rate-ids.json')) ? JSON.stringify(JSON.parse(readFileSync(join(root, 'api/_lib/rate-ids.json'), 'utf8'))) : '';
+  if (want !== have) console.warn('rate-ids: api/_lib/rate-ids.json is out of date; run node tools/rate-ids.mjs');
+} catch (e) { console.warn('rate-ids could not be checked: ' + e.message); }
 
-const all = [...PAGES, ...items.map(itemPage), ...stackPages(ctx), ...workPages(ctx)];
+const all = [...PAGES, ...items.map(itemPage), ...stackPages(ctx), ...workPages(ctx), ...ratePages(ctx)];
 const seen = new Set();
 for (const p of all) { if (seen.has(p.slug)) throw new Error(`two pages claim the slug "${p.slug}"`); seen.add(p.slug); }
 
@@ -126,6 +136,11 @@ for (const i of items) {
 
 // Open Stacks outputs: .txt copies, search data, feeds, /s/ and /g/ short URLs, extra sitemap entries.
 const extraUrls = emitOutputs(ctx, dist) || [];
+// Search data for the rated catalogue (books and albums), read by search.js next to index.json.
+writeFileSync(join(dist, 'open-stacks/catalog.json'), JSON.stringify({ entries: cat.entries.filter((e) => e.kind !== 'work').map((e) => {
+  const r = e.ref, p = e.kind === 'album' ? r.artist : r.author;
+  return { i: e.id, t: [r.title.orig, r.title.en, r.title.zh].filter((x, k, a) => x && a.indexOf(x) === k).join(' / '), a: p ? [p.orig, p.en, p.zh].filter((x, k, a) => x && a.indexOf(x) === k).join(' / ') : '', y: r.year };
+}) }) + '\n');
 
 writeFileSync(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...urls, ...extraUrls].map((u) => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: ${SITE}/sitemap.xml\n`);
@@ -134,4 +149,4 @@ writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api
 mkdirSync(join(dist, 'spec/v0.1'), { recursive: true });
 copyFileSync(join(root, 'spec/v0.1/core.schema.json'), join(dist, 'spec/v0.1/core.schema.json'));
 
-console.log(`built ${pages} pages (${open.works.length} works, ${open.plates.length} plates) → ${dist}`);
+console.log(`built ${pages} pages (${open.works.length} works, ${open.plates.length} plates, ${cat.books.length} books, ${cat.albums.length} albums) → ${dist}`);

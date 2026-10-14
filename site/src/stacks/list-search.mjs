@@ -5,17 +5,18 @@
 import { esc, t, go, sep, act, ph } from '../lib.mjs';
 import { plateHref, workHref, shelfHref, counts, titles } from '../stacks.mjs';
 import { searchBox, wrow, rowList, plateRights } from '../components.mjs';
+import { entryHref, entryTitle, entryBy, entryYear, fmtScore } from '../catalog.mjs';
 import { osHref, crumbs, count, num, srow, filterBar, filterEmpty, facetsFor, togglesFor, sortsFor, chipLabels, dataBlock, plateTitle, plateArtist, plateYear, plateKind, inWords, SHELVES } from './list-common.mjs';
 
 export function searchPages(ctx) {
   const stacks = ctx.open;
   return [{
     slug: 'open-stacks/search',
-    title: { en: 'Search the Open Stacks', zh: '搜索开架书库' },
-    description: (lang) => t(lang)(`Search ${stacks.works.length} public-domain works by title, author or line, or browse them all by shelf, era and tag.`, `按书名、作者或诗句搜索 ${stacks.works.length} 部公版作品，或按书架、年代和主题浏览全部作品。`),
+    title: { en: 'Search the library', zh: '搜索图书馆' },
+    description: (lang) => t(lang)(`Search ${stacks.works.length} public-domain works by title, author or line, and the books and albums the library rates.`, `按书名、作者或诗句搜索 ${stacks.works.length} 部公版作品，以及本馆评分的书和专辑。`),
     bodyClass: () => 'stacks os-page-search',
     scripts: ['shelf', 'search'],
-    render: (lang) => renderSearch(lang, stacks),
+    render: (lang) => renderSearch(lang, stacks, ctx.cat),
   }, {
     slug: 'open-stacks/random',
     title: { en: 'A random work', zh: '随便读一部' },
@@ -27,14 +28,14 @@ export function searchPages(ctx) {
   }];
 }
 
-function renderSearch(lang, stacks) {
+function renderSearch(lang, stacks, cat) {
   const T = t(lang);
   const c = counts(stacks);
   const head = ph({
     lang,
     crumbs: crumbs(lang, [[T('Search', '搜索')]]),
-    h1: T('Search the Open Stacks', '搜索开架书库'),
-    lede: T('Titles, authors and the lines themselves. A query in simplified characters finds the traditional text.', '可以搜书名、作者，也可以搜诗文里的句子。用简体字也能搜到繁体原文。'),
+    h1: T('Search the library', '搜索图书馆'),
+    lede: T('Titles, authors and the lines themselves, and the books and albums in the charts. A query in simplified characters finds the traditional text.', '可以搜书名、作者、诗文里的句子，也能搜到榜单里的书和专辑。用简体字也能搜到繁体原文。'),
     facts: [count(c.works, 'work', lang), count(c.plates, 'plate', lang)].join(sep),
     actions: `<div class="os-hsearch">${searchBox(lang, { big: true })}<button type="button" class="os-clearq" data-clear-q hidden aria-label="${T('Clear the search', '清除搜索')}">×</button></div>`,
     cls: 'os-ph',
@@ -54,6 +55,14 @@ function renderSearch(lang, stacks) {
   <span class="r-author"><span data-m>${esc(plateArtist(lang, p))}</span></span>
   <span class="r-date">${esc(plateYear(lang, p))}</span><span class="r-marks"><span class="id">${esc(plateRights(lang, p))}</span></span>
 </li>`).join('');
+  // Books and albums of the rated catalogue: hidden rows that search.js shows when they match (like plates).
+  const xs = cat ? cat.entries.filter((e) => e.kind !== 'work') : [];
+  const xrows = xs.map((e) => { const tt = entryTitle(lang, e); const by = entryBy(lang, e); return `<li class="wrow os-srow os-xrow" data-xid="${esc(e.id)}" hidden>
+  <span class="r-id id">${e.kind === 'album' ? T('Album', '专辑') : T('Book', '书')}</span>
+  <span class="r-title"><a href="${entryHref(lang, e)}"><span data-m>${esc(tt.main)}</span></a>${tt.sub ? `<span class="alt"><span data-m>${esc(tt.sub)}</span></span>` : ''}</span>
+  <span class="r-author"><span data-m>${esc(by.name)}</span></span>
+  <span class="r-date">${esc(entryYear(lang, e))}</span><span class="r-marks">${typeof e.score === 'number' ? `<span class="sb">${fmtScore(e.score)}</span>` : ''}</span>
+</li>`; }).join('');
   const shelfLinks = SHELVES.map((s) => `<a href="${shelfHref(lang, s.key)}">${esc(T(s.en, s.zh))}</a>`).join('<span class="sep" aria-hidden="true">·</span><wbr>');
   const body = `<div class="wrap os-search" data-filter="search" data-search-page data-total="${works.length}">
   <noscript><p class="meta os-noscript">${T('Search needs JavaScript; every work is listed below, on its shelf and in the author index.', '搜索需要 JavaScript；所有作品都列在下面，也可以按书架或作者索引查找。')} <a href="${osHref(lang)}">${T('The shelves', '书架')}</a><span class="sep" aria-hidden="true">·</span><wbr><a href="${osHref(lang, 'authors')}">${T('Authors', '作者')}</a></p></noscript>
@@ -62,6 +71,7 @@ function renderSearch(lang, stacks) {
     <ol class="wrows" data-results aria-label="${T('Results', '搜索结果')}"></ol>
     <p class="meta os-more-note" data-more hidden></p>
   </div>
+  <section class="os-presults" data-xresults hidden aria-labelledby="h-xresults"><h2 class="os-gh" id="h-xresults">${T('Books and albums', '书目和唱片')}</h2><ul class="wrows">${xrows}</ul></section>
   <section class="os-presults" data-presults hidden aria-labelledby="h-presults"><h2 class="os-gh" id="h-presults">${T('Plates', '图版')} <span class="id" data-pcount></span></h2><ul class="wrows">${plates}</ul></section>
   <div class="os-groups" data-groups>${groups}</div>
   ${filterEmpty(lang, { searchAll: false })}

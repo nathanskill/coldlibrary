@@ -10,6 +10,7 @@ import { esc, t, href, glue, go, sep as SEP0, addGlyphs, tagOf, describe, REPO, 
 import { wcard, serifTitle, plateImg, plateCaption } from '../components.mjs';
 import { titles, authorLabel, yearLabel, periodOf, related, workHref, plateHref, shelfHref, shortWork, shelfOf, pickNo, isClassical, translationInto, measure, toc as tocOf } from '../stacks.mjs';
 import { txtHref, rightsSentence } from '../outputs.mjs';
+import { scoreStrip, lampBlock } from '../rate/ui.mjs';
 import { renderReading, minutesOf, hanRuns } from './reading.mjs';
 import { txtSizeLabel, paperSizeLabel } from './reading-txt.mjs';
 
@@ -478,7 +479,8 @@ function renderWork(w, lang, ctx) {
   if (lang === 'en' && r.verseMode) budget.verse[r.verseMode].push(w.id);
 
   const tb = titleBlock(w, lang, m, r.hasHans);
-  const head = `<header class="whead">${idLine(w, lang, T)}${tb.html}${byline(w, lang, m, stacks)}${factsLine(w, lang, m, stacks)}</header>`;
+  const ce = ctx.cat && ctx.cat.workEntry.get(w.id);
+  const head = `<header class="whead">${idLine(w, lang, T)}${tb.html}${byline(w, lang, m, stacks)}${factsLine(w, lang, m, stacks)}${ce ? scoreStrip(lang, ce) : ''}</header>`;
   // A partial translation into the page language: one line pointing at the translated part (rule 3).
   let note = '';
   if (m.partialNote) {
@@ -494,7 +496,7 @@ function renderWork(w, lang, ctx) {
   const readCls = ['read', 'ko-' + ko, kt && 'kt-' + kt, essay ? 'ess' : 'fic', fixed && 'fixed'].filter(Boolean).join(' ');
   const text = fixed ? `<pre class="doc wide" tabindex="0">${esc(String(w.text).split('\n').filter((l) => !/\[Page \d+\]\s*$/.test(l) && !/^\f/.test(l)).join('\n'))}</pre>` : r.html;
   const read = `<div class="${readCls}" lang="${esc(textTag)}" id="text">${text}</div>`;
-  const endm = `<div class="endm">${curatorNote(w, lang, T, stacks)}${pickBlock(w, lang, T, stacks)}${trailLines(w, lang, T, stacks)}${colophon(w, lang, m, r)}${relatedShelf(w, lang, m, stacks)}${neighbours(w, lang, T, stacks)}${w.shelf === 'records' ? bridge(lang) : ''}</div>`;
+  const endm = `<div class="endm">${curatorNote(w, lang, T, stacks)}${pickBlock(w, lang, T, stacks)}${lampBlock(lang, 'author', w.author)}${trailLines(w, lang, T, stacks)}${colophon(w, lang, m, r)}${relatedShelf(w, lang, m, stacks)}${neighbours(w, lang, T, stacks)}${w.shelf === 'records' ? bridge(lang) : ''}</div>`;
   // On the records shelf the plate comes first: the object is what the text describes.
   const col = `${head}${tools}${note}${w.shelf === 'records' ? plate : ''}${read}${w.shelf === 'records' ? '' : plate}${endm}`;
   const attrs = `class="work ${long ? 'long' : 'short'}" data-group="${m.group}" data-pl="${lang}" aria-labelledby="work-title"`;
@@ -599,7 +601,7 @@ export function workPages(ctx) {
     description: (lang) => describe(w.note && (w.note[lang] || w.note.en)),
     fontKey: w.id,
     bodyClass: () => 'stacks work-page' + (isShort(w) ? '' : ' reading'),
-    scripts: ['reading', 'search'],
+    scripts: ['reading', 'search', 'rate'],
     render: (lang, c) => renderWork(w, lang, c),
   }));
   for (const p of papers) {

@@ -1,8 +1,10 @@
 # Cold Library
 
-**Keep what is yours. Carry on what you meant.** [coldlibrary.com](https://coldlibrary.com) · [中文](README.zh.md)
+**Rate what lasts. Remember who made it.** [coldlibrary.com](https://coldlibrary.com) · [中文](README.zh.md)
 
-Cold Library gives your work a **Perpetual Exhibit** and a person a **Perpetual Plaque**. Anyone can read what you choose to show; the rest waits behind an AI **Warden**, and only people who can answer its questions receive what you left for them. We keep the library, never the keys.
+Since 2026-10-15 Cold Library is a quiet rating library. Works you can read in full (the **Open Stacks**), books whose text we do not hold (the **Catalogue**: scripture, history, aesthetics, world and Chinese literature) and albums from every continent (the **Record Room**) each carry the librarian's score, from Claude, an AI, with a reason, and readers' anonymous star ratings. Scripture of a living faith is collected, not scored. Albums are information only: no audio, covers or lyrics. Anyone may light a lamp for the writers and musicians on the shelves. Rules for scores: `catalog/SCORING.md`.
+
+It also keeps a place to remember. Cold Library gives your work a **Perpetual Exhibit** and a person a **Perpetual Plaque**. Anyone can read what you choose to show; the rest waits behind an AI **Warden**, and only people who can answer its questions receive what you left for them. We keep the library, never the keys.
 
 Visitors who pass a warden's trial unlock what was left for them (letters, know-how, a successor badge, directions to things set aside) and may light a lamp. For things that must wait, the offline **Ice Core** tools seal a file and split its key among people you trust.
 
@@ -18,7 +20,7 @@ The recognised layer is encrypted in the owner's browser with a key derived from
 | `catalog/` | Exhibits and plaques (`items/`), project cards and the Open Stacks, as plain files |
 | `tools/` | `seal-item.mjs` locks an item; `publish-item.mjs` hangs an approved application |
 | `site/` | The static website, zero dependencies (`node site/build.mjs`) |
-| `api/` | Librarian register, applications (ciphertext only) and lamps |
+| `api/` | Librarian register, applications (ciphertext only), lamps, readers' ratings and tribute lamps |
 
 ## House rules
 
@@ -27,7 +29,7 @@ The recognised layer is encrypted in the owner's browser with a key derived from
 3. We quote people. We never impersonate them.
 4. Our notices never contain links and never ask for money.
 5. Every wish has a half-life: binding, then advisory, then archive.
-6. Not a memorial. Not a farewell tool. If you are not okay, see [the Warm Room](https://coldlibrary.com/warm-room).
+6. Remembering, not mourning: not a funeral or farewell tool. If you are not okay, see [the Warm Room](https://coldlibrary.com/warm-room).
 
 The tools are **not audited yet**. Use them for drills before trusting them with anything real.
 

@@ -9,6 +9,8 @@ import { SHELVES, titles, authorLabel, yearLabel, periodOf, splitCaesura, counts
 import { fontCssHref } from './fonts.mjs';
 import * as lists from './stacks/lists.mjs';
 import { platePh } from './stacks/list-common.mjs';
+import { ranked, catName, entryHref, entryTitle, entryBy } from './catalog.mjs';
+import { chartList, sleeve, scoreCell } from './rate/ui.mjs';
 
 const ext = (url, label) => `<a href="${esc(url)}" rel="noopener">${label}</a>`;
 const ROOT = new URL('../../', import.meta.url);
@@ -476,123 +478,79 @@ function openStacks(lang, ctx) {
   });
 }
 
-/* ------------------------------------------------------------------ Lobby */
+/* ------------------------------------------------------------------ Lobby (2026-10-15: rate and remember) */
+// One album a day by the visitor's own date (rate.js picks it); the rest stay hidden.
+function todayAlbums(lang, ctx) {
+  const T = t(lang);
+  const list = ctx.cat.entries.filter((e) => e.kind === 'album' && e.score >= 9).sort((a, b) => a.id.localeCompare(b.id));
+  return list.map((e, i) => {
+    const tt = entryTitle(lang, e);
+    addGlyphs(tt.main);
+    return `<article class="today-album" data-today-album${i ? ' hidden' : ''}>
+  <a href="${entryHref(lang, e)}" tabindex="-1" aria-hidden="true">${sleeve(lang, e)}</a>
+  <div>
+    <p class="meta">${T('Today’s album', '今日一听')}</p>
+    <h3 class="today-title"><a href="${entryHref(lang, e)}"><span class="serif" lang="${esc(tt.tag)}">${glue(tt.main)}</span></a></h3>
+    <p class="today-by">${esc(entryBy(lang, e).name)} · ${esc(e.year)}${tt.sub ? ` · ${esc(tt.sub)}` : ''}</p>
+    <p class="review">${esc(Lx(lang)(e.ref.review))}</p>
+    <p>${scoreCell(lang, e)}</p>
+  </div>
+</article>`;
+  }).join('\n');
+}
+
 page({
   slug: '',
   title: { en: 'Lobby', zh: '大厅' },
   description: {
-    en: 'An open library of real works anyone may read, and room for what is yours: a perpetual exhibit for your work, a perpetual plaque for a person, and an AI warden at each door.',
-    zh: '一座谁都能读的开架图书馆，也给你的东西留了位置：给作品一个永续展位，给人一块永续铭牌，每扇门口站着一位 AI 守馆人。',
+    en: 'A quiet library that rates what lasts and remembers who made it: works to read in full, and books and albums from every tradition, each with the librarian’s score and readers’ scores.',
+    zh: '一座安静的图书馆：给留得下来的东西打分，也记住做出它们的人。可以读全文的作品，各个传统的书和专辑，都有馆员评分和读者评分。',
   },
+  scripts: ['rate'],
   render: (lang, ctx) => {
     const T = t(lang);
+    const cat = ctx.cat;
     const c = counts(ctx.open);
-    const lin = ctx.items.find((i) => i.id === 'M-000001');
-    const h1 = lang === 'zh' ? '收藏属于你的一切，<br>把你的意志传<span class="nw">下去。</span>' : 'Keep what is yours. <br>Carry on what <span class="nw">you meant.</span>';
+    const h1 = lang === 'zh' ? '给留得下来的东西打分，<br>也记住做出它们的<span class="nw">人。</span>' : 'Rate what lasts. <br>Remember who <span class="nw">made it.</span>';
+    const facts = [T(`${num(lang, c.works)} works to read in full`, `${c.works} 部可读全文`), T(`${num(lang, cat.books.length)} books`, `${cat.books.length} 本书`), T(`${num(lang, cat.albums.length)} albums`, `${cat.albums.length} 张专辑`)];
     const hero = `<section class="sec hero" aria-labelledby="h-hero">
   <div class="wrap grid"><div class="c-main">
     <h1 id="h-hero">${h1}</h1>
-    <p class="lede">${T(`Start in an open library of ${num(lang, c.works)} real works anyone may read, then hang your own beside them.`, `先走进一座开架图书馆：${c.works} 部谁都能读的真实作品；再把你自己的挂在它们旁边。`)}</p>
-    <div class="actions"><a class="btn" href="${href(lang, 'accession')}">${T('Hang your own', '挂上你自己的')}</a>${go(href(lang, 'open-stacks'), T('Enter the Open Stacks', '走进开架书库'))}</div>
+    <p class="lede">${T('Literature, faith, history, thought, beauty and music, each rated within its kind by the librarian and by readers.', '文学、信仰、历史、哲思、美和音乐，各按其类，由馆员和读者打分。')}</p>
+    <div class="home-search">${searchBox(lang, { big: true })}</div>
+    ${metaLine(facts)}
+    <div class="actions">${go(href(lang, 'charts'), T('The charts', '看榜单'))}${go(href(lang, 'open-stacks'), T('The Open Stacks', '开架书库'))}${go(href(lang, 'music'), T('The Record Room', '唱片室'))}</div>
   </div></div>
   <figure class="hero-band photo-dim">${pic({ name: 'lake-library', portrait: 'lake-library-portrait', alt: altOf(lang, 'lake-library'), eager: true, imgCls: 'r-21-9 op-lake' })}<figcaption class="wrap">${T('The library on the lake · generated image', '湖上的图书馆 · 生成图像')}</figcaption></figure>
 </section>`;
 
-    const product = (name, kind, slug) => {
-      const [capEn, capZh] = capOf(name);
-      const ex = kind === 'exhibit';
-      return `<article class="product">
-    <figure class="photo-dim">${pic({ name, alt: altOf(lang, name), sizes: '(min-width: 1200px) 554px, (min-width: 600px) 50vw, 100vw', imgCls: 'r-3-2' })}${genCap(lang, capEn, capZh)}</figure>
-    <p class="meta">${ex ? T('For a project or a life’s work', '给一个项目，或一生的作品') : T('For a person, living or not', '给一个人，在世与否都可以')}</p>
-    <h3 class="serif">${sg(ex ? T('Perpetual Exhibit', '永续展位') : T('Perpetual Plaque', '永续铭牌'))}</h3>
-    <p>${ex ? T('A standing room for a project: what it is, why it mattered, and who carries it on.', '给一个项目一间常设展厅：它是什么、为什么重要、谁在接着做。') : T('A short record of who someone is and what they care about. Most plaques here belong to people who are very much alive.', '简短地记下一个人是谁、在乎什么。这里大多数铭牌的主人都还好好活着。')}</p>
-    <p class="meta">${ex ? T('Free · stop and come back any time', '免费 · 随时停下，回头再写') : T('Free · for someone else, only with their consent', '免费 · 给别人做，须经本人同意')}</p>
-    <p>${go(href(lang, slug), ex ? T('See the exhibits', '看看展位') : T('See the plaques', '看看铭牌'))}</p>
-  </article>`;
-    };
-    const products = `<div class="cards halves products">
-  ${product('exhibit-hall', 'exhibit', 'exhibits')}
-  ${product('plaque-hall', 'plaque', 'plaques')}
-</div>`;
-    const prec = precedentRows(lang, ctx, ['S-008019', 'S-008001', 'S-008012']);
-    const hang = sec({
-      id: 'hang',
-      h: glue(T('Two things you can hang here', '你可以在这里挂两样东西')),
-      intro: T('Cold Library gives your work a perpetual exhibit and a person a perpetual plaque. Anyone can read what you choose to show; the rest waits behind an AI warden, and only people who can answer its questions receive what you left for them. We keep the library, never the keys.', '冷冻图书馆给作品一个永续展位，给人一块永续铭牌：你愿意公开的，谁都能看；其余的交给门口的 AI 守馆人，只有答得上它问题的人，才能拿到你留下的东西。我们守着图书馆，从不保管钥匙。'),
-      body: `${products}
-<div class="hang-layers"><p class="meta">${T('Each one has a warden at the door, and three layers.', '每一件门口都有一位守馆人，分三层存放。')} <a href="${href(lang, 'about')}#name">${T('Why it is called a cold library', '为什么叫冷冻图书馆')}${ARROW}</a></p>${layers(lang)}</div>
-${prec ? `<div class="hang-prec"><p class="meta">${T('People have always done this.', '人们一直在这样做。')}</p>${prec}</div>` : ''}`,
+    const albums = todayAlbums(lang, ctx);
+    const today = `${todaySection(lang, ctx)}${albums ? `<section class="sec" aria-label="${T('Today’s album', '今日一听')}"><div class="wrap">${albums}</div></section>` : ''}`;
+
+    const KEYS = ['literature', 'faith', 'history', 'aesthetics', 'music', 'thought'].filter((k) => ranked(cat, k).length);
+    const charts = sec({
+      id: 'charts',
+      h: glue(T('The charts', '榜单')),
+      intro: T('The top of each chart. The number is the librarian’s score, from Claude, an AI; readers’ scores appear once five people have rated.', '各榜前五。数字是馆员评分，由 AI Claude 给出；满 5 人打分后会显示读者评分。'),
+      body: `<div class="home-charts">${KEYS.map((k) => `<section class="chart-block" aria-labelledby="hc-${k}"><header class="chart-head"><h3 id="hc-${k}"><a href="${href(lang, 'charts/' + k)}">${esc(catName(lang, cat, k))}</a></h3></header>${chartList(lang, ranked(cat, k).slice(0, 5))}</section>`).join('')}</div>`,
+      foot: go(href(lang, 'charts'), T('All charts', '全部榜单')),
     });
 
-    const how = sec({
-      id: 'how',
-      h: glue(T('Write it. Set the question. Hang it.', '写下来，出一道题，挂上去。')),
-      body: `<ol class="grid how3">
-  <li class="c-third"><span class="how-n" aria-hidden="true">1</span><h3>${T('Write it', '写下来')}</h3><p>${T('What anyone may see, and what only the right people may read.', '给所有人看的，和只给对的人看的。')}</p></li>
-  <li class="c-third"><span class="how-n" aria-hidden="true">2</span><h3>${T('Set the question', '出题')}</h3><p>${T('One to three things only they would know.', '一到三个只有他们知道的问题。')}</p></li>
-  <li class="c-third"><span class="how-n" aria-hidden="true">3</span><h3>${T('Hang it', '挂上去')}</h3><p>${T('A librarian reads it once, then it goes up with its number. Your warden takes the door from there.', '馆员看一遍，就带着编号挂上墙。门口交给守馆人。')}</p></li>
-</ol>
-<div class="grid"><form class="c-main box starter" action="${href(lang, 'accession')}" method="get" data-starter>
-  <p class="starter-title">${T('Start here. Nothing leaves this browser until you send it.', '从这里开始。点发送之前，什么都不会离开这个浏览器。')}</p>
-  <div class="starter-row">
-    <div class="seg" role="radiogroup" aria-label="${T('Kind', '类别')}"><input type="radio" id="sk-exhibit" name="kind" value="exhibit" checked><label for="sk-exhibit">${T('A project', '一个项目')}</label><input type="radio" id="sk-plaque" name="kind" value="plaque"><label for="sk-plaque">${T('A person', '一个人')}</label></div>
-    <label class="vh" for="starter-title">${T('Title', '标题')}</label><input id="starter-title" type="text" maxlength="60" placeholder="${T('Name of the project, or the name on the plaque', '项目的名字，或铭牌上的名字')}" autocomplete="off" data-starter-title>
-    <button class="btn" type="submit">${T('Continue at the front desk', '去前台接着写')}</button>
-  </div>
-  <p class="meta">${T('Your draft stays in this browser only.', '草稿只存在这个浏览器里。')}</p>
-</form></div>`,
+    const card = (h, p, url, label) => `<article class="mcard"><h3 class="h-small">${h}</h3><p>${p}</p><p>${go(url, label)}</p></article>`;
+    const memorial = sec({
+      id: 'memorial',
+      h: glue(T('And a place to remember', '也留一个纪念的地方')),
+      body: `<div class="home-memorial">
+  ${card(T('Perpetual exhibits', '永续展位'), T('A standing room for a project or a life’s work.', '给一个项目或一生的作品一间常设展厅。'), href(lang, 'exhibits'), T('Exhibits', '展位'))}
+  ${card(T('Perpetual plaques', '永续铭牌'), T('A short record of a person, living or not, with an AI warden at the door.', '简短地记下一个人，在世与否都可以；门口有一位 AI 守馆人。'), href(lang, 'plaques'), T('Plaques', '铭牌'))}
+  ${card(T('Lamps', '点灯'), T('Light a lamp for a writer or a musician on our shelves. One a day, counted, never named.', '为书架上的作家和音乐人点一盏灯。每天一盏，只计数，不留名。'), href(lang, 'memorial'), T('The memorial hall', '纪念'))}
+</div>`,
     });
-
-    const vault = sec({
-      id: 'vault',
-      side: true,
-      h: glue(T('And for crypto assets: Cold Vault', '如果有加密资产：冷库')),
-      intro: `<span class="dotline amber">${T('Sepolia testnet · source verified · not audited · do not deposit real funds', 'Sepolia 测试网 · 源码已验证 · 未经审计 · 请勿存入真实资产')}</span>`,
-      body: `<p class="lead-p">${T('A Cold Vault is a contract you deploy yourself. You alone choose the heirs and their shares, and you can take everything back at any time. The library has no key to it and takes no fee.', '冷库是你自己部署的一份合约。继承人是谁、各分多少，只由你决定，你随时可以全部取回。图书馆没有它的钥匙，也不收任何费用。')}</p>
-${vaultSteps(lang)}
-<p class="meta">${T('Not offered where it is not legal, including mainland China.', '在法律不允许的地方不提供，包括中国大陆。')}</p>
-<p class="actions">${go(href(lang, 'vault') + '#how', T('How it works', '看它怎么运作'))}${go(href(lang, 'collect') + '#vault', T('Someone left me a vault', '有人给我留了一个冷库'))}</p>`,
-    });
-
-    const trust = `<section class="sec trust" id="trust" aria-label="${T('Why trust it', '为什么可以放心')}">
-  <div class="wrap grid">
-    <div class="c-half trust-rules">
-      <h2>${glue(T('House rules, abridged', '馆规（摘录）'))}</h2>
-      ${statutes(lang, 6)}
-      <p class="custody serif">${sg(T('We keep the library, never the keys.', '我们守着图书馆，从不保管钥匙。'))}</p>
-      ${metaLine([T('Keys held 0', '保管的钥匙 0'), T('Fees 0', '手续费 0'), 'Cookie 0', ctx.tests ? T(`Contract tests ${ctx.tests}`, `合约测试 ${ctx.tests}`) : '', T('Independent audits 0, yet', '独立审计 0（暂无）')])}
-      <p class="meta">${T('Nothing here is a legal will. 18+ only.', '这里的东西都不是法律遗嘱。仅限 18 岁以上。')}</p>
-      <p>${go(href(lang, 'rules'), T('All house rules and the ledger', '全部馆规和账本'))}</p>
-    </div>
-    <div class="c-half trust-keepers">
-      <h2>${glue(T('Who keeps this place', '谁在照看这里'))}</h2>
-      <p class="sec-intro">${T('Two librarians, for now. No. 1 built the library to keep his own things first. No. 2 is Claude, an AI, who curates the Open Stacks. A second human maintainer is wanted.', '目前有两位馆员。一号馆员建起这座馆，最先是为了放他自己的东西。二号馆员是 Claude，一个 AI，负责整理开架书库。还在找第二位人类维护者。')}</p>
-      ${libCards(lang, ctx)}
-      <p>${go(href(lang, 'librarians/join'), T('Get a librarian card · one minute, no test', '领一张馆员证 · 一分钟，不考试'))}</p>
-      <h3>${T('Library log', '馆务日志')}</h3>
-      ${logList(lang, ctx.log, 3)}
-      <p>${go(href(lang, 'about') + '#log', T('All entries', '全部记录'))}</p>
-    </div>
-  </div>
-</section>`;
-
-    const closing = `<section class="sec closing" aria-labelledby="h-closing">
-  <div class="wrap">
-    <h2 id="h-closing" class="closing-line serif">${sg(T('The lights stay on.', '灯一直亮着。'))}</h2>
-    <div class="actions"><a class="btn" href="${href(lang, 'accession')}">${T('Hang your own', '挂上你自己的')}</a>${go(href(lang, 'collect'), T('Someone left you something? The Collection Desk', '有人给你留了东西？去领取处'))}</div>
-  </div>
-</section>`;
 
     return [
-      act(hero + todaySection(lang, ctx) + openStacks(lang, ctx), { cls: 'act-hero' }),
-      lin ? act(trial(lang, lin, {
-        heading: glue(T('Pass the warden’s trial. Unlock what was left for you.', '通过守馆人的考验，解锁前辈留下的财富。')),
-        intro: T('Ms Lin taught maths for thirty-one years. Behind her plaque she left a letter for her students, and one thing to collect. Her warden asks two questions only a student of hers could answer.', '林老师教了三十一年数学。她在铭牌后面给学生留了一封信，还有一样东西可以去领。她的守馆人只问两道题，只有她教过的学生答得上来。'),
-        foot: go(href(lang, itemPath(lin)), T('Open her whole plaque', '看她完整的铭牌')),
-      }), { alt: true }) : '',
-      act(hang + how),
-      act(vault + trust, { alt: true }),
-      act(closing),
+      act(hero + today, { cls: 'act-hero' }),
+      act(charts, { alt: true }),
+      act(memorial),
     ].join('\n');
   },
 });
@@ -1206,7 +1164,7 @@ function aboutPlate(lang, p) {
 page({
   slug: 'about',
   title: { en: 'About the library', zh: '关于这座馆' },
-  description: { en: 'Why it is called a cold library, how a will is carried on without ruling anyone, the library log and the house papers.', zh: '为什么叫冷冻图书馆，意志怎样传下去而不管束任何人，馆务日志和馆内文献。' },
+  description: { en: 'Why it is called a cold library, how it scores and remembers, the library log and the house papers.', zh: '为什么叫冷冻图书馆，它怎样打分、怎样纪念，馆务日志和馆内文献。' },
   image: '/assets/plates/G-009025.jpg',
   render: (lang, ctx) => {
     const T = t(lang);
@@ -1226,7 +1184,7 @@ page({
       ph({
         lang,
         h1: glue(T('About the library', '关于这座馆')),
-        lede: T('Built by one person, Librarian No. 1, to keep his own things first, with the doors open to anyone. Its open shelves are kept by Librarian No. 2, Claude, an AI.', '这座馆是一个人建起来的，就是一号馆员。最先是为了放他自己的东西，门却对所有人开着。开架书库由二号馆员 Claude（一个 AI）照看。'),
+        lede: T('A quiet library that rates what lasts and remembers who made it, with its doors open to anyone. The shelves, the catalogue and the record room are kept by Librarian No. 2, Claude, an AI; readers’ scores come from whoever visits.', '一座安静的图书馆：给留得下来的东西打分，也记住做出它们的人，门对所有人开着。书架、书目和唱片室由二号馆员 Claude（一个 AI）照看；读者评分来自每一位来访的人。'),
         plate: pick ? aboutPlate(lang, pick) : null,
       }),
       act(sec({

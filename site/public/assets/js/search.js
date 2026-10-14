@@ -38,11 +38,12 @@
   try { labels = JSON.parse($('#fs-labels').textContent); } catch (e) { /* optional */ }
   var M = labels.msg || {}, TAG = labels.tag || {};
   function fill(k, v) { return String(M[k] || '').replace('{n}', v.n).replace('{q}', v.q); }
-  var docs = null, plates = [], lines = null, busy = false, failed = false;
+  var docs = null, plates = [], xdocs = [], lines = null, busy = false, failed = false;
   function get(u) { return fetch(u).then((r) => { if (!r.ok) throw r; return r.json(); }); }
   function load() {
     if (busy) return;
     busy = true;
+    get('/open-stacks/catalog.json').then((j) => { xdocs = j.entries || []; if (docs) run(); }, () => { /* books and albums are optional */ });
     get('/open-stacks/index.json').then((j) => { docs = j.works || []; plates = j.plates || []; run(); return get('/open-stacks/lines.json'); })
       .then((j) => { lines = j; run(); }, () => { if (!docs) { failed = true; docs = []; } lines = lines || {}; run(); });
   }
@@ -94,20 +95,23 @@
     if (line) { var s = d.createElement('span'); s.className = 'os-snip'; s.innerHTML = hl(line, ts); ($('.r-title', row) || row).appendChild(s); }
   }
 
-  var cur = { ts: [], hits: {}, plates: [] }, timer;
+  var cur = { ts: [], hits: {}, plates: [], xs: [] }, timer;
   var count = $('[data-count]', page), zero = $('[data-zero]', page), pres = $('[data-presults]', page), prow = {};
   $$('[data-pid]', page).forEach((r) => { prow[r.getAttribute('data-pid')] = r; });
+  var xres = $('[data-xresults]', page), xrow = {};
+  $$('[data-xid]', page).forEach((r) => { xrow[r.getAttribute('data-xid')] = r; });
   var clear = $('.os-clearq') || d.createElement('b');
 
   function run() {
     var q = input.value.trim(), ts = terms(q), sc = null;
     clear.hidden = !input.value;
-    cur = { ts: ts, hits: {}, plates: [] };
+    cur = { ts: ts, hits: {}, plates: [], xs: [] };
     if (ts.length && !docs) load();
     if (ts.length && docs && !failed) {
       sc = {};
       docs.forEach((o) => { var s = score(o, ts); if (s) { sc[o.i] = s; cur.hits[o.i] = o; } });
       cur.plates = plates.map((p) => [p.i, score(p, ts, 30)]).filter((x) => x[1]).sort((a, b) => b[1] - a[1]).slice(0, 12);
+      cur.xs = xdocs.map((p) => [p.i, score(p, ts, 30)]).filter((x) => x[1]).sort((a, b) => b[1] - a[1]).slice(0, 24);
     }
     F.setQuery(q, sc);
   }
@@ -120,17 +124,20 @@
     marked.forEach((el) => { el.textContent = el._o; });
     marked = [];
     $$('.os-snip', page).forEach((s) => { s.parentNode.removeChild(s); });
-    var q = F.q, ts = cur.ts, pl = st.query && !st.filters ? cur.plates : [];
+    var q = F.q, ts = cur.ts, pl = st.query && !st.filters ? cur.plates : [], xl = st.query && !st.filters ? cur.xs : [];
     for (var id in prow) prow[id].hidden = true;
     pl.forEach((x) => { var r = prow[x[0]]; if (r) { r.hidden = false; r.parentNode.appendChild(r); mark(r, ts); } });
     pres.hidden = !pl.length;
+    for (var xid in xrow) xrow[xid].hidden = true;
+    xl.forEach((x) => { var r = xrow[x[0]]; if (r) { r.hidden = false; r.parentNode.appendChild(r); mark(r, ts); } });
+    if (xres) xres.hidden = !xl.length;
     zero.hidden = true;
     if (!st.query) {
       if (ts.length) say(failed ? 'fail' : 'searching', { n: st.total });
       return;
     }
     st.shown.forEach((r) => { var o = cur.hits[r.getAttribute('data-id')]; mark(r, ts, o ? snippet(o, ts) : ''); });
-    var n = st.k + pl.length;
+    var n = st.k + pl.length + xl.length;
     say(n === 1 ? 'one' : 'many', { n: n, q: q, w: lines ? '' : M.lines });
     if (n) return;
     zero.hidden = false;

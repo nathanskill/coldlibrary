@@ -1,0 +1,10 @@
+{
+  "literature": { "en": "Literature", "zh": "文学", "shelves": ["poetry", "prose"] },
+  "faith": { "en": "Faith", "zh": "信仰", "shelves": [] },
+  "history": { "en": "History", "zh": "历史", "shelves": ["records"] },
+  "thought": { "en": "Thought", "zh": "哲思", "shelves": ["thought"] },
+  "aesthetics": { "en": "Aesthetics", "zh": "美学", "shelves": [] },
+  "science": { "en": "Science", "zh": "科学", "shelves": ["science"] },
+  "computing": { "en": "Computing", "zh": "计算", "shelves": ["computing"] },
+  "music": { "en": "Music", "zh": "唱片", "shelves": [] }
+}
