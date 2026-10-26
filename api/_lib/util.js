@@ -1,6 +1,8 @@
 // Small helpers for the librarian registration service.
 // Stores only: email, pen name, number, locale, listed flag, dates. Never anything else.
 import crypto from 'node:crypto';
+import { limits, mailPaused } from './config.js';
+import { reserveMailBudget } from './db.js';
 
 export function send(res, status, body, headers = {}) {
   res.statusCode = status;
@@ -12,13 +14,39 @@ export function send(res, status, body, headers = {}) {
 export function lang(x) { return x === 'zh' ? 'zh' : 'en'; }
 export const L = (lg, en, zh) => (lg === 'zh' ? zh : en);
 
-export function readJson(req) {
-  if (req.body && typeof req.body === 'object') return Promise.resolve(req.body);
+export async function readJson(req, res) {
+  const max = limits().bodyBytes;
+  const fail = (status) => { send(res, status, { message: status === 413 ? 'The form is too large. 表单太大。' : 'Invalid JSON.' }); return null; };
+  const parse = (raw) => {
+    if (Buffer.byteLength(raw) > max) return fail(413);
+    try { const body = JSON.parse(raw || '{}'); return body && typeof body === 'object' && !Array.isArray(body) ? body : fail(400); }
+    catch { return fail(400); }
+  };
+  if (Number(req.headers?.['content-length']) > max) return fail(413);
+  // On Vercel req.body is a lazy getter that throws on malformed JSON, so even reading it is guarded.
+  let pre;
+  try { pre = req.body; } catch { return fail(400); }
+  if (pre !== undefined) {
+    try {
+      const raw = Buffer.isBuffer(pre) ? pre.toString('utf8') : typeof pre === 'string' ? pre : JSON.stringify(pre);
+      return parse(raw);
+    } catch { return fail(400); }
+  }
+  // Nothing left to stream (already consumed, or no body at all): answer now instead of waiting for 'end'.
+  if (req.readableEnded || req.complete) return parse('');
   return new Promise((resolve) => {
-    let raw = '';
-    req.on('data', (c) => { raw += c; if (raw.length > 8192) req.destroy(); });
-    req.on('end', () => { try { resolve(JSON.parse(raw || '{}')); } catch { resolve({}); } });
-    req.on('error', () => resolve({}));
+    const chunks = []; let size = 0, done = false;
+    const finish = (body) => { done = true; resolve(body); };
+    req.on('data', (c) => {
+      if (done) return;
+      const chunk = Buffer.isBuffer(c) ? c : Buffer.from(c);
+      size += chunk.length;
+      if (size > max) { chunks.length = 0; finish(fail(413)); return; }
+      chunks.push(chunk);
+    });
+    req.on('end', () => { if (!done) finish(parse(Buffer.concat(chunks).toString('utf8'))); });
+    req.on('error', () => { if (!done) finish(fail(400)); });
+    req.on('aborted', () => { if (!done) finish(fail(400)); });
   });
 }
 
@@ -79,7 +107,13 @@ export function mailConfigured() {
   return mailProvider() === 'postmark' ? true : Boolean(process.env.RESEND_API_KEY);
 }
 
-export async function mail({ to, subject, text }) {
+export async function mail({ sql, to, subject, text, beforeSend = async () => {} }) {
+  if (mailPaused()) return { ok: false, reason: 'paused' };
+  if (!mailConfigured()) return { ok: false, reason: 'not-configured' };
+  // Every provider and every caller (including welcome mail) goes through this
+  // shared reservation. Failed sends retain their debit: retries cannot bypass it.
+  if (!sql || !(await reserveMailBudget(sql, sha256('mail:' + to)))) return { ok: false, reason: 'limited' };
+  await beforeSend();
   const from = process.env.MAIL_FROM || 'Cold Library Front Desk <desk@mail.coldlibrary.com>';
   if (mailProvider() === 'postmark') {
     // Plain text only, like every Cold Library email. 422 is permanent; 429 and 5xx are transient.

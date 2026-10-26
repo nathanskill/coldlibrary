@@ -294,7 +294,7 @@ def test_verify_passes_then_fails_after_one_flipped_byte(sealed_en, tmp_path):
 def test_verify_reports_missing_and_extra_files(sealed_en, tmp_path):
     copy = tmp_path / "copy"
     shutil.copytree(sealed_en.sealed, copy)
-    (copy / "letters" / "002-project.age").unlink()
+    (copy / "letters" / "002-project.age").rename(tmp_path / "held-project.age")
     (copy / "letters" / "003-new.age").write_bytes(b"not from the owner")
     (copy / ".DS_Store").write_bytes(b"")
     result = invoke("verify", copy)

@@ -65,7 +65,11 @@ const seen = new Set();
 for (const p of all) { if (seen.has(p.slug)) throw new Error(`two pages claim the slug "${p.slug}"`); seen.add(p.slug); }
 
 // ---- render ----
-rmSync(dist, { recursive: true, force: true });
+// Offline reviews may forbid deleting any files. Require a fresh output folder
+// in that mode; never merge into stale output or remove a previous build.
+if (process.env.CL_NO_CLEAN === '1') {
+  if (existsSync(dist)) throw new Error('CL_NO_CLEAN needs a new CL_DIST directory');
+} else rmSync(dist, { recursive: true, force: true });
 mkdirSync(dist, { recursive: true });
 copyDir(join(here, 'public'), dist);
 

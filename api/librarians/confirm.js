@@ -3,32 +3,38 @@
 // leave → retires the number and forgets the email
 import { ensureSchema, rateLimit } from '../_lib/db.js';
 import { send, readJson, normEmail, L, codeHash, sameHash, clientKey, randomNumber, mail, welcomeMail } from '../_lib/util.js';
+import { entryLimit } from '../_lib/entry.js';
+import { limits } from '../_lib/config.js';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return send(res, 405, { message: 'POST only' });
-  const body = await readJson(req);
+  if (!entryLimit(req, res, 'librarian-confirm')) return;
+  const body = await readJson(req, res);
+  if (!body) return;
+  const email = normEmail(body.email);
+  const code = String(body.code || '').replace(/\D/g, '');
+  if (!email || code.length !== 6) return send(res, 400, { message: 'Please enter the six-digit code.' });
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: 'The register is closed for maintenance.' });
 
-  const email = normEmail(body.email);
-  const code = String(body.code || '').replace(/\D/g, '');
-  if (!email || code.length !== 6) return send(res, 400, { message: 'Please enter the six-digit code.' });
-  if (!(await rateLimit(sql, 'cf:' + clientKey(req), 20))) return send(res, 429, { message: 'Too many attempts. Please wait ten minutes.' });
+  if (!(await rateLimit(sql, 'cf:' + clientKey(req), limits().confirm))) return send(res, 429, { message: 'Too many attempts. Please wait ten minutes.' });
 
-  const rows = await sql`select * from pending where email_norm = ${email}`;
+  // Claim a comparison atomically, including the successful comparison.
+  const rows = await sql`update pending set attempts = attempts + 1
+    where email_norm = ${email} and attempts < 5 and expires_at > now()
+    returning *, expires_at::text as code_version`;
   const p = rows[0];
   const lg = p?.locale === 'zh' ? 'zh' : 'en';
-  if (!p || new Date(p.expires_at) < new Date()) return send(res, 400, { message: L(lg, 'That code has expired. Please ask for a new one.', '验证码已过期，请重新获取。') });
-  if (p.attempts >= 5) {
-    await sql`delete from pending where email_norm = ${email}`;
-    return send(res, 400, { message: L(lg, 'Too many wrong codes. Please ask for a new one.', '错误次数太多，请重新获取验证码。') });
-  }
+  if (!p) return send(res, 400, { message: L(lg, 'That code has expired or had too many tries. Please ask for a new one.', '验证码已过期或尝试次数太多，请重新获取。') });
   if (!sameHash(codeHash(code, email), p.code_hash)) {
-    await sql`update pending set attempts = attempts + 1 where email_norm = ${email}`;
     return send(res, 400, { message: L(lg, 'That code did not match.', '验证码不对。') });
   }
-  await sql`delete from pending where email_norm = ${email}`;
+  // Only the winner may act, and an older request cannot consume a resent code.
+  const consumed = await sql`delete from pending where email_norm = ${email}
+    and code_hash = ${p.code_hash} and expires_at = ${p.code_version}::timestamptz and expires_at > now()
+    returning email_norm`;
+  if (!consumed.length) return send(res, 400, { message: L(lg, 'Please use the latest code, once.', '请使用最新验证码，验证码仅可使用一次。') });
 
   if (p.purpose === 'leave') {
     await sql`update librarians set status = 'retired', email_norm = null, pen_name = '—', listed = false, retired_at = now()
@@ -48,7 +54,8 @@ export default async function handler(req, res) {
       values (${n}, ${email}, ${p.pen_name}, ${lg}, ${p.listed}) on conflict do nothing returning uid, created_at`;
     if (ins[0]) {
       const m = welcomeMail(lg, n, p.pen_name);
-      mail({ to: email, subject: m.subject, text: m.text }).catch(() => {});
+      // Welcome mail is optional; a mail outage/quota must never undo registration.
+      await mail({ sql, to: email, subject: m.subject, text: m.text }).catch(() => {});
       return send(res, 200, { uid: n, penName: p.pen_name, since: new Date(ins[0].created_at).toISOString().slice(0, 10) });
     }
     const raced = await sql`select uid, pen_name, created_at from librarians where email_norm = ${email}`;

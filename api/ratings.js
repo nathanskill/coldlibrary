@@ -3,15 +3,18 @@
 // One rating per entry per device (a new one replaces the old). Scripture of a living faith cannot be rated.
 // Stored: entry, a hash of the device id, stars, a hash of the address, dates. Nothing that names anyone.
 import { createRequire } from 'node:module';
-import { ensureSchema, rateLimit } from './_lib/db.js';
+import { ensureSchema, rateLimit, saveRating } from './_lib/db.js';
 import { send, readJson, lang, L, sha256, clientKey } from './_lib/util.js';
+import { entryLimit } from './_lib/entry.js';
+import { limits } from './_lib/config.js';
 
 const require = createRequire(import.meta.url);
 const RATE = new Set(require('./_lib/rate-ids.json').rate);
 const DEVICE = /^[0-9a-f]{32}$/;
-const PER_ADDRESS = 5; // devices behind one address that may rate the same entry
 
 export default async function handler(req, res) {
+  if (!['GET', 'POST'].includes(req.method)) return send(res, 405, { message: 'GET or POST' });
+  if (!entryLimit(req, res, 'ratings')) return;
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (req.method === 'GET') {
@@ -25,7 +28,8 @@ export default async function handler(req, res) {
     return send(res, 200, { stats: Object.fromEntries(rows.map((r) => [r.item, [r.n, r.s]])) });
   }
   if (req.method !== 'POST') return send(res, 405, { message: 'GET or POST' });
-  const body = await readJson(req);
+  const body = await readJson(req, res);
+  if (!body) return;
   const lg = lang(body.locale);
   const id = String(body.id || '');
   const stars = Number(body.stars);
@@ -33,12 +37,9 @@ export default async function handler(req, res) {
   if (!RATE.has(id) || !Number.isInteger(stars) || stars < 1 || stars > 5 || !DEVICE.test(dv)) return send(res, 400, { message: L(lg, 'This rating cannot be saved.', '这个评分存不了。') });
   if (!sql) return send(res, 503, { message: L(lg, 'Ratings are resting for maintenance.', '评分正在维护。') });
   const ip = clientKey(req);
-  if (!(await rateLimit(sql, 'rate:' + ip, 60))) return send(res, 429, { message: L(lg, 'That is a lot of ratings at once. Try again in a few minutes.', '一下子打了太多分，过几分钟再试。') });
+  if (!(await rateLimit(sql, 'rate:' + ip, limits().ratings))) return send(res, 429, { message: L(lg, 'That is a lot of ratings at once. Try again in a few minutes.', '一下子打了太多分，过几分钟再试。') });
   const dh = sha256('device:' + dv).slice(0, 32);
-  const [seen] = await sql`select count(*)::int as n, bool_or(device = ${dh}) as mine from ratings where item = ${id} and ip_hash = ${ip}`;
-  if (seen.n >= PER_ADDRESS && !seen.mine) return send(res, 429, { message: L(lg, 'Enough ratings for this one have come from here already.', '这一部从这里打的分已经够多了。') });
-  await sql`insert into ratings (item, device, stars, ip_hash) values (${id}, ${dh}, ${stars}, ${ip})
-    on conflict (item, device) do update set stars = excluded.stars, updated_at = now()`;
+  if (!(await saveRating(sql, id, dh, stars, ip))) return send(res, 429, { message: L(lg, 'Enough ratings for this one have come from here already.', '这一部从这里打的分已经够多了。') });
   const [r] = await sql`select count(*)::int as n, coalesce(sum(stars), 0)::int as s from ratings where item = ${id}`;
   return send(res, 200, { ok: true, n: r.n, sum: r.s });
 }

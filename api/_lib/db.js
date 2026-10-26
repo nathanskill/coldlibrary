@@ -1,5 +1,6 @@
 // Neon Postgres. The connection string is injected by the Vercel integration (DATABASE_URL).
 import { neon } from '@neondatabase/serverless';
+import { limits } from './config.js';
 
 let sqlFn = null;
 let ready = null;
@@ -86,6 +87,13 @@ export async function ensureSchema() {
         primary key (person, device, day)
       )`;
       await sql`create index if not exists tributes_person on tributes (person)`;
+      // Shared mail budget (2026-10-26): a hash of the recipient and the time, nothing else. Also in migrations/.
+      await sql`create table if not exists mail_dispatches (
+        recipient_hash text not null,
+        reserved_at timestamptz not null default clock_timestamp()
+      )`;
+      await sql`create index if not exists mail_dispatches_time on mail_dispatches (reserved_at)`;
+      await sql`create index if not exists mail_dispatches_recipient_time on mail_dispatches (recipient_hash, reserved_at)`;
       await sql`delete from submissions where status = 'unverified' and created_at < now() - interval '2 days'`;
       await sql`insert into librarians (uid, email_norm, pen_name, locale, listed, created_at)
                 values (1, null, 'Founding Librarian', 'en', true, '2026-10-04T00:00:00Z')
@@ -99,10 +107,51 @@ export async function ensureSchema() {
 }
 
 // Allows `limit` hits per key per 10-minute bucket.
+const blocked = new Map();
 export async function rateLimit(sql, key, limit) {
+  const now = Date.now();
+  if ((blocked.get(key) || 0) > now) return false;
   const rows = await sql`insert into rate (key, bucket, hits)
     values (${key}, date_trunc('hour', now()) + floor(extract(minute from now()) / 10) * interval '10 minutes', 1)
     on conflict (key, bucket) do update set hits = rate.hits + 1
-    returning hits`;
-  return rows[0].hits <= limit;
+    where rate.hits < ${limit}
+    returning hits, extract(epoch from (bucket + interval '10 minutes')) * 1000 as until`;
+  if (!rows.length || rows[0].hits >= limit) {
+    if (blocked.size >= limits().cacheKeys) blocked.delete(blocked.keys().next().value);
+    // A denial without RETURNING is cached briefly, never beyond the local boundary.
+    const until = rows[0] ? Number(rows[0].until) : Math.min(now + 1000, (Math.floor(now / 600000) + 1) * 600000);
+    blocked.set(key, Math.max(blocked.get(key) || 0, until));
+  }
+  return rows.length > 0;
+}
+
+export async function reserveMailBudget(sql, recipientHash) {
+  const cfg = limits();
+  // One transaction, one global lock, then fresh READ COMMITTED snapshots.
+  // Never combine the lock and COUNT in one statement (its snapshot can be stale).
+  const [, , rows] = await sql.transaction([
+    sql`select pg_advisory_xact_lock(20261026, 1)`,
+    sql`delete from mail_dispatches where reserved_at <= clock_timestamp() - interval '24 hours'`,
+    sql`insert into mail_dispatches (recipient_hash)
+      select ${recipientHash}
+      where (select count(*) from mail_dispatches) < ${cfg.mailDay}
+        and (select count(*) from mail_dispatches where recipient_hash = ${recipientHash}) < ${cfg.mailEmailDay}
+        and (select count(*) from mail_dispatches where recipient_hash = ${recipientHash}
+          and reserved_at > clock_timestamp() - interval '10 minutes') < ${cfg.mailEmailBurst}
+      returning recipient_hash`,
+  ], { isolationLevel: 'ReadCommitted' });
+  return rows.length === 1;
+}
+
+export async function saveRating(sql, id, device, stars, ip) {
+  const [, rows] = await sql.transaction([
+    sql`select pg_advisory_xact_lock(hashtextextended(${`rating:${id}:${ip}`}, 0))`,
+    sql`insert into ratings (item, device, stars, ip_hash)
+      select ${id}, ${device}, ${stars}, ${ip}
+      where exists (select 1 from ratings where item = ${id} and device = ${device})
+        or (select count(*) from ratings where item = ${id} and ip_hash = ${ip}) < ${limits().devices}
+      on conflict (item, device) do update set stars = excluded.stars, updated_at = now()
+      returning device`,
+  ], { isolationLevel: 'ReadCommitted' });
+  return rows.length === 1;
 }

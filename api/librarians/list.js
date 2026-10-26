@@ -1,8 +1,11 @@
 // GET /api/librarians/list?lang=en|zh  → the public register (pen names and numbers only)
 import { ensureSchema } from '../_lib/db.js';
 import { send } from '../_lib/util.js';
+import { entryLimit } from '../_lib/entry.js';
 
 export default async function handler(req, res) {
+  if (req.method !== 'GET') return send(res, 405, { message: 'GET only' });
+  if (!entryLimit(req, res, 'librarians-list')) return;
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { librarians: [] });

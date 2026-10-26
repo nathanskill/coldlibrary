@@ -4,12 +4,16 @@
 import { createRequire } from 'node:module';
 import { ensureSchema, rateLimit } from './_lib/db.js';
 import { send, readJson, lang, L, sha256, clientKey } from './_lib/util.js';
+import { entryLimit } from './_lib/entry.js';
+import { limits } from './_lib/config.js';
 
 const require = createRequire(import.meta.url);
 const PEOPLE = new Set(require('./_lib/rate-ids.json').people);
 const DEVICE = /^[0-9a-f]{32}$/;
 
 export default async function handler(req, res) {
+  if (!['GET', 'POST'].includes(req.method)) return send(res, 405, { message: 'GET or POST' });
+  if (!entryLimit(req, res, 'tributes')) return;
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (req.method === 'GET') {
@@ -23,14 +27,15 @@ export default async function handler(req, res) {
     return send(res, 200, { counts: Object.fromEntries(rows.map((r) => [r.person, r.n])) });
   }
   if (req.method !== 'POST') return send(res, 405, { message: 'GET or POST' });
-  const body = await readJson(req);
+  const body = await readJson(req, res);
+  if (!body) return;
   const lg = lang(body.locale);
   const key = String(body.key || '');
   const dv = String(body.device || '');
   if (!PEOPLE.has(key) || !DEVICE.test(dv)) return send(res, 400, { message: L(lg, 'This lamp cannot be lit.', '这盏灯点不了。') });
   if (!sql) return send(res, 503, { message: L(lg, 'The lamps are resting for maintenance.', '灯正在维护。') });
   const ip = clientKey(req);
-  if (!(await rateLimit(sql, 'tribute:' + ip, 30))) return send(res, 429, { message: L(lg, 'Many lamps at once. Come back in a little while.', '一下子点了太多盏灯，过一会儿再来。') });
+  if (!(await rateLimit(sql, 'tribute:' + ip, limits().tributes))) return send(res, 429, { message: L(lg, 'Many lamps at once. Come back in a little while.', '一下子点了太多盏灯，过一会儿再来。') });
   const dh = sha256('device:' + dv).slice(0, 32);
   await sql`insert into tributes (person, device, ip_hash) values (${key}, ${dh}, ${ip}) on conflict do nothing`;
   const [r] = await sql`select count(*)::int as n from tributes where person = ${key}`;

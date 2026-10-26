@@ -4,6 +4,8 @@
 import { createRequire } from 'node:module';
 import { ensureSchema, rateLimit } from './_lib/db.js';
 import { send, readJson, lang, L, sha256, clientKey } from './_lib/util.js';
+import { entryLimit } from './_lib/entry.js';
+import { limits } from './_lib/config.js';
 
 const require = createRequire(import.meta.url);
 const HASHES = require('./_lib/lamp-hashes.json');
@@ -13,6 +15,8 @@ const ID = /^[EM]-\d{6}$/;
 function expected(item) { return HASHES[item] || null; }
 
 export default async function handler(req, res) {
+  if (!['GET', 'POST'].includes(req.method)) return send(res, 405, { message: 'GET or POST' });
+  if (!entryLimit(req, res, 'lamps')) return;
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (req.method === 'GET') {
@@ -28,7 +32,8 @@ export default async function handler(req, res) {
     return send(res, 200, { count: n, notes });
   }
   if (req.method !== 'POST') return send(res, 405, { message: 'GET or POST' });
-  const body = await readJson(req);
+  const body = await readJson(req, res);
+  if (!body) return;
   const lg = lang(body.locale);
   const item = String(body.item || '');
   if (!ID.test(item) || typeof body.token !== 'string') return send(res, 400, { message: L(lg, 'This lamp cannot be lit.', '这盏灯点不了。') });
@@ -36,7 +41,7 @@ export default async function handler(req, res) {
   const exp = expected(item);
   if (!exp || sha256(body.token) !== exp.hash) return send(res, 403, { message: L(lg, 'Only people the warden recognised can light a lamp here.', '只有守馆人认可的人才能在这里点灯。') });
   const ip = clientKey(req);
-  if (!(await rateLimit(sql, 'lamp:' + ip, 6))) return send(res, 429, { message: L(lg, 'Your lamp is already lit. Come back another day.', '你的灯已经亮着了，改天再来。') });
+  if (!(await rateLimit(sql, 'lamp:' + ip, limits().lamps))) return send(res, 429, { message: L(lg, 'Your lamp is already lit. Come back another day.', '你的灯已经亮着了，改天再来。') });
   const note = String(body.note || '').replace(/[\u0000-\u001f\u007f<>]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 140) || null;
   await sql`insert into lamps (item, note, locale, ip_hash) values (${item}, ${note}, ${lg}, ${ip})`;
   return send(res, 200, { ok: true });

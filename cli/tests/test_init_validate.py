@@ -270,7 +270,7 @@ def test_invalid_json_reports_a_line(workspace):
 
 def test_missing_letter_file_is_an_error(tmp_path):
     ws = copy_workspace(EN_EXAMPLE, tmp_path / "ws")
-    (ws / "letters" / "002-project.md").unlink()
+    (ws / "letters" / "002-project.md").rename(tmp_path / "held-project.md")
     result = invoke("validate", ws)
     assert result.code == 1
     assert "letters/002-project.md does not exist" in result.out
