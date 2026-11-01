@@ -386,6 +386,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "alastair/python-musicbrainzngs",
+      "reason": "tool not updated since 2022-01",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "albertms10/music_notes",
       "reason": "small or duplicate music-theory library (tonal, music21 kept)",
       "on": "2026-11-01"
@@ -581,6 +586,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "AnotherAdhikari/indic-primary-sources",
+      "reason": "rights unclear: OCR of some post-1929 editions (e.g. IFP) alongside PD texts; 3 stars, new",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "ansari-project/ansari-skill",
       "reason": "AI agent skill",
       "on": "2026-11-01"
@@ -601,6 +611,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "apache/solr",
+      "reason": "generic enterprise search server",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "aquantumofdonuts/mixarr",
       "reason": "music discovery / library automation for personal collections",
       "on": "2026-11-01"
@@ -613,6 +628,11 @@
     {
       "repo": "ARBML/Calliar",
       "reason": "generic AI/NLP, machine-learning research code or AI app",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "ArchiveBox/ArchiveBox",
+      "reason": "web page archiver/scraper for personal bookmarks; off subject",
       "on": "2026-11-01"
     },
     {
@@ -638,6 +658,11 @@
     {
       "repo": "art-institute-of-chicago/aic-mobile-ios",
       "reason": "museum visitor app, kiosk or website code rather than open collection data",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "art-institute-of-chicago/data-aggregator",
+      "reason": "API server code; art-institute-of-chicago/api-data already shelved",
       "on": "2026-11-01"
     },
     {
@@ -868,6 +893,46 @@
     {
       "repo": "bernsteining/scoryst",
       "reason": "niche or overlapping notation helper (main notation tools kept)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/BDBAramaicLexicon",
+      "reason": "duplicate: BDB already shelved via openscriptures/HebrewLexicon; 0 stars",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/BDBHebrewLexicon",
+      "reason": "duplicate: openscriptures/HebrewLexicon (BDB) already shelved",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/LouisSegond1910",
+      "reason": "single PD translation re-upload, 0 stars; covered by open-bibles/scrollmapper",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/ReinaValera1909",
+      "reason": "single PD translation re-upload, 2 stars; covered by open-bibles/scrollmapper",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/UBSGreekNTDictionary",
+      "reason": "duplicate of UBS Greek NT dictionary in ubsicap/ubs-open-license (accepted)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/UBSRealiaLexicon",
+      "reason": "UBS dictionaries covered by ubsicap/ubs-open-license (accepted); 0 stars",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/UWTranslationQuestions",
+      "reason": "translator checking questions; low value for readers, 0 stars",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "BibleAquifer/WestminsterLeningradCodex",
+      "reason": "duplicate: openscriptures/morphhb (WLC) already shelved",
       "on": "2026-11-01"
     },
     {
@@ -1191,6 +1256,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "carbon-design-system/carbon",
+      "reason": "corporate UI design system, generic web tooling",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "Carleslc/AudioToText",
       "reason": "speech recognition / transcription / meeting tool, generic AI",
       "on": "2026-11-01"
@@ -1243,6 +1313,11 @@
     {
       "repo": "cernopendata/opendata.cern.ch",
       "reason": "physics open-data portal, off subject",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "cfpramod/open-museum-mcp",
+      "reason": "AI agent (MCP) wrapper, tiny project",
       "on": "2026-11-01"
     },
     {
@@ -1411,6 +1486,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "color-js/color.js",
+      "reason": "generic colour programming library",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "Computational-Cognitive-Musicology-Lab/CoCoPops",
       "reason": "transcriptions of copyrighted pop recordings",
       "on": "2026-11-01"
@@ -1443,6 +1523,11 @@
     {
       "repo": "coollabsio/fonts",
       "reason": "CSS or font-loading/packaging wrapper rather than a typeface",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "cooperhewitt/cooperhewitt-typeface",
+      "reason": "Latin font; cap reached",
       "on": "2026-11-01"
     },
     {
@@ -1483,6 +1568,11 @@
     {
       "repo": "CPJKU/beat_this",
       "reason": "research code for a single paper / ML model",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "CPJKU/madmom",
+      "reason": "tool last changed 2024-08-25, over two years ago",
       "on": "2026-11-01"
     },
     {
@@ -1588,6 +1678,11 @@
     {
       "repo": "d-flood/triiiceratops",
       "reason": "minor IIIF library, server or plugin; kept the main viewers, servers and awesome-iiif",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "d3/d3-scale-chromatic",
+      "reason": "generic charting colour library",
       "on": "2026-11-01"
     },
     {
@@ -1728,6 +1823,11 @@
     {
       "repo": "dbuezas/lovelace-plotly-graph-card",
       "reason": "home automation dashboard",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "DCMLab/pitchtypes",
+      "reason": "tool not updated since 2022-11; tiny utility",
       "on": "2026-11-01"
     },
     {
@@ -2221,6 +2321,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "epicfaace/awesome-sanskrit",
+      "reason": "list not updated since 2021, 3 stars",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "epilys/gerb",
       "reason": "font engineering tool beyond the few kept (fonttools, FontForge, Fontra, AFDKO)",
       "on": "2026-11-01"
@@ -2276,6 +2381,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "Evercoder/culori",
+      "reason": "generic colour programming library",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "exPHAT/SwiftWhisper",
       "reason": "speech recognition / transcription / meeting tool, generic AI",
       "on": "2026-11-01"
@@ -2308,6 +2418,11 @@
     {
       "repo": "fabrizioschiavi/pragmatapro",
       "reason": "redistributes proprietary or commercial fonts without permission",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "facebookincubator/Meta-open-sound",
+      "reason": "game and VR sound-effect samples, not music scholarship",
       "on": "2026-11-01"
     },
     {
@@ -2353,6 +2468,11 @@
     {
       "repo": "fcitx/fcitx5-chinese-addons",
       "reason": "Chinese input method add-ons, general-purpose",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "feathericons/feather",
+      "reason": "generic UI icon set",
       "on": "2026-11-01"
     },
     {
@@ -2656,6 +2776,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "georgeanthonypaul-cloud/hindu-scriptures-open-catalog",
+      "reason": "0 stars, new, mostly a to-do catalogue with few verified texts",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "georgeretsi/HTR-best-practices",
       "reason": "research code",
       "on": "2026-11-01"
@@ -2741,8 +2866,78 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "gka/chroma.js",
+      "reason": "generic colour programming library",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "gkurt/tegaki",
       "reason": "general programming or web-development software, not on subject",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/digitalnz",
+      "reason": "notebooks not updated since 2021",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/national-museum-australia",
+      "reason": "notebooks not updated since 2020",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/state-library-south-australia",
+      "reason": "notebooks not updated since 2019",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/state-library-victoria",
+      "reason": "small regional notebook set (1 star); GLAM data list kept",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/te-papa-api",
+      "reason": "notebooks not updated since 2021",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/trove-books",
+      "reason": "notebooks not updated since 2023",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/trove-journals",
+      "reason": "small notebook set (2 stars), narrow Australian scope",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/trove-lists",
+      "reason": "small notebook set (1 star)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/trove-maps",
+      "reason": "small notebook set (1 star)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/trove-newspaper-harvester",
+      "reason": "tool not updated in two years",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/trove-newspapers",
+      "reason": "notebook collection not updated in two years",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/trove-parliamentary-papers-data",
+      "reason": "narrow metadata set with no licence; low reader value",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "GLAM-Workbench/web-archives",
+      "reason": "research notebooks not updated in two years; off the library subjects",
       "on": "2026-11-01"
     },
     {
@@ -2801,6 +2996,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "gohugoio/hugo",
+      "reason": "generic static site generator",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "golang-design/history",
       "reason": "programming-language history, general software",
       "on": "2026-11-01"
@@ -2823,6 +3023,11 @@
     {
       "repo": "gonnavis/Timeline",
       "reason": "rehosts a third-party atlas without stated permission; no licence",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/atkinson-hyperlegible-next",
+      "reason": "Latin font; cap reached",
       "on": "2026-11-01"
     },
     {
@@ -2876,6 +3081,21 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "googlefonts/Inconsolata",
+      "reason": "Latin programming font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/lexend",
+      "reason": "Latin font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/literata",
+      "reason": "Latin font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "googlefonts/nanoemoji",
       "reason": "font engineering tool beyond the few kept (fonttools, FontForge, Fontra, AFDKO)",
       "on": "2026-11-01"
@@ -2891,6 +3111,26 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "googlefonts/roboto-flex",
+      "reason": "Latin font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/roboto-serif",
+      "reason": "Latin font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/RobotoMono",
+      "reason": "Latin programming font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/rubik",
+      "reason": "Latin font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "googlefonts/sfntly",
       "reason": "general programming or web-development software, not on subject",
       "on": "2026-11-01"
@@ -2898,6 +3138,16 @@
     {
       "repo": "googlefonts/shaperglot",
       "reason": "font engineering tool beyond the few kept (fonttools, FontForge, Fontra, AFDKO)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/spacemono",
+      "reason": "Latin programming font; cap reached",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "googlefonts/tajawal",
+      "reason": "Arabic UI sans overlapping shelved Arabic fonts (Vazirmatn, Amiri)",
       "on": "2026-11-01"
     },
     {
@@ -3386,6 +3636,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "impallari/Libre-Baskerville",
+      "reason": "Latin font; cap reached (open-baskerville shelved)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "indestructible-type/Jost",
       "reason": "Latin/programming typeface beyond the cap of about 25; kept better-known families",
       "on": "2026-11-01"
@@ -3461,6 +3716,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "internetarchive/heritrix3",
+      "reason": "web crawler; crawlers excluded",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "IntuitionMachines/OrigamiNet",
       "reason": "generic or research-paper HTR/OCR model code, not a maintained tool for historical documents",
       "on": "2026-11-01"
@@ -3473,6 +3733,11 @@
     {
       "repo": "inveniosoftware/invenio",
       "reason": "general research-repository framework",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "inveniosoftware/invenio-rdm-records",
+      "reason": "internal component of a research-data platform",
       "on": "2026-11-01"
     },
     {
@@ -3563,6 +3828,11 @@
     {
       "repo": "izelnakri/paper_trail",
       "reason": "general programming library",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "JabRef/jabref",
+      "reason": "generic academic citation manager; Zotero already shelved",
       "on": "2026-11-01"
     },
     {
@@ -3671,6 +3941,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "jekyll/jekyll",
+      "reason": "generic static site generator",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "jenskutilek/FiraSystemFontReplacement",
       "reason": "general programming or web-development software, not on subject",
       "on": "2026-11-01"
@@ -3688,6 +3963,11 @@
     {
       "repo": "jgehrcke/covid-19-germany-gae",
       "reason": "COVID data",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "jgm/pandoc",
+      "reason": "general-purpose document converter",
       "on": "2026-11-01"
     },
     {
@@ -3901,6 +4181,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "jxnblk/colorable",
+      "reason": "small generic contrast tester, unmaintained",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "K-Render/best-chinese-prompt",
       "reason": "AI prompt collection, off subject",
       "on": "2026-11-01"
@@ -3946,8 +4231,18 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "kartta-labs/mapwarper",
+      "reason": "derivative of timwaters/mapwarper, already shelved; not updated since 2021",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "kaspernordkvist/uncut_sans",
       "reason": "Latin/programming typeface beyond the cap of about 25; kept better-known families",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "kba/awesome-ocr",
+      "reason": "list unmaintained since 2021; OCR lists already shelved",
       "on": "2026-11-01"
     },
     {
@@ -3986,6 +4281,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "kerameikos/collections",
+      "reason": "subsidiary RDF export with no stars; kerameikos/data kept",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "kettanaito/async-history-stack",
       "reason": "general programming library",
       "on": "2026-11-01"
@@ -4018,6 +4318,11 @@
     {
       "repo": "kinegratii/borax",
       "reason": "general utility library with lunar module",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "kingsdigitallab/dprr-django",
+      "reason": "website code for a single project; data lives on the project site",
       "on": "2026-11-01"
     },
     {
@@ -4093,6 +4398,11 @@
     {
       "repo": "korbinjoe/excalidraw-cn",
       "reason": "general programming or web-development software, not on subject",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "kosmos/awesome-generative-art",
+      "reason": "stale list overlapping awesome-creative-coding",
       "on": "2026-11-01"
     },
     {
@@ -4301,6 +4611,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "LibraryOfCongress/gazetteer",
+      "reason": "tool not maintained since 2014",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "libvips/libvips",
       "reason": "general programming or web-development software, not on subject",
       "on": "2026-11-01"
@@ -4493,6 +4808,11 @@
     {
       "repo": "lucasvieirasilva/nx-plugins",
       "reason": "Python packaging tooling (python-poetry), not poetry",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "lucide-icons/lucide",
+      "reason": "generic UI icon set",
       "on": "2026-11-01"
     },
     {
@@ -4791,8 +5111,23 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "metabrainz/libcoverart",
+      "reason": "tool not updated since 2023-02; thin client",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "metabrainz/libdiscid",
       "reason": "duplicate of MusicBrainz/Picard/beets (add-on, deployment or alternative)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "metabrainz/libmusicbrainz",
+      "reason": "thin C client library; musicbrainz-server and picard already shelved",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "metabrainz/mbdata",
+      "reason": "developer-only database models; musicbrainz-server already shelved",
       "on": "2026-11-01"
     },
     {
@@ -4803,6 +5138,11 @@
     {
       "repo": "metabrainz/picard-plugins",
       "reason": "duplicate of MusicBrainz/Picard/beets (add-on, deployment or alternative)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "metabrainz/troi-recommendation-playground",
+      "reason": "recommendation-engine experiment, not a reference resource",
       "on": "2026-11-01"
     },
     {
@@ -4941,6 +5281,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "mir-evaluation/mir_eval",
+      "reason": "algorithm benchmarking code for MIR researchers, not for readers or musicians",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "mire403/VisionForge",
       "reason": "generic AI/NLP, machine-learning research code or AI app",
       "on": "2026-11-01"
@@ -4978,6 +5323,11 @@
     {
       "repo": "MitchTalmadge/Emoji-Tools",
       "reason": "icon, emoji or symbol font kit",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "mjmirza/quran-dataset",
+      "reason": "2 stars; several Quran text datasets already shelved",
       "on": "2026-11-01"
     },
     {
@@ -5168,6 +5518,21 @@
     {
       "repo": "MTG/DeepConvSep",
       "reason": "research code for a single paper / ML model",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "MTG/essentia.js",
+      "reason": "tool not updated since 2022-07 (over two years); MTG/essentia already shelved",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "MTG/freesound-datasets",
+      "reason": "crowdsourcing platform code for audio collections; not a reference resource",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "MTG/freesound-python",
+      "reason": "thin API client for a sound-effects platform",
       "on": "2026-11-01"
     },
     {
@@ -5486,6 +5851,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "nomisma/framework",
+      "reason": "website code for nomisma.org, little direct use to readers",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "NoorBayan/Diwan",
       "reason": "web-collected corpus including modern copyrighted poems; data files currently unavailable",
       "on": "2026-11-01"
@@ -5676,6 +6046,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "OpenHistoricalMap/openhistoricalmap-embed",
+      "reason": "thin single-page embed wrapper; maplibre-gl-dates kept",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "OpenITI/Annotation",
       "reason": "project notes, no content",
       "on": "2026-11-01"
@@ -5708,6 +6083,11 @@
     {
       "repo": "OpenNumismat/open-numismat",
       "reason": "personal collection inventory app",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "openpreserve/jpylyzer",
+      "reason": "niche JP2 validator; JHOVE covers validation",
       "on": "2026-11-01"
     },
     {
@@ -5936,6 +6316,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "pelagios/simple-gazetteer-server",
+      "reason": "tool not updated since 2022",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "pelmesh619/itmo_conspects",
       "reason": "student lecture notes",
       "on": "2026-11-01"
@@ -6096,6 +6481,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "primer/octicons",
+      "reason": "generic UI icon set",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "Princeton-CDH/piffle",
       "reason": "minor IIIF library, server or plugin; kept the main viewers, servers and awesome-iiif",
       "on": "2026-11-01"
@@ -6191,8 +6581,18 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "quickwit-oss/tantivy",
+      "reason": "generic search engine library",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "quiple/galmuri",
       "reason": "pixel/bitmap font; only Ark Pixel and Fusion Pixel kept for CJK coverage",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "quodlibet/mutagen",
+      "reason": "general audio-file tag library for developers; picard/beets already cover tagging",
       "on": "2026-11-01"
     },
     {
@@ -6356,6 +6756,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "revisedcommonversion/Scripture-Databases",
+      "reason": "0 stars; PD English Bibles already covered by open-bibles and scrollmapper",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "rewtnull/amigafonts",
       "reason": "novelty or gimmick font",
       "on": "2026-11-01"
@@ -6363,6 +6768,11 @@
     {
       "repo": "riatelab/bertin",
       "reason": "general cartography library",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "richardlehane/siegfried",
+      "reason": "overlaps DROID (format identification)",
       "on": "2026-11-01"
     },
     {
@@ -7016,8 +7426,18 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "simonw/datasette",
+      "reason": "generic data publishing tool",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "simonw/museums",
       "reason": "personal recommendation website",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "simple-icons/simple-icons",
+      "reason": "brand logo icons, not on subject",
       "on": "2026-11-01"
     },
     {
@@ -7108,6 +7528,11 @@
     {
       "repo": "smilelight/lightNLP",
       "reason": "general NLP framework",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "Smithsonian/smithsonian-openaccess",
+      "reason": "thin API client; Smithsonian/OpenAccess already shelved",
       "on": "2026-11-01"
     },
     {
@@ -7231,6 +7656,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "squidfunk/mkdocs-material",
+      "reason": "generic documentation theme",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "srazi/Saaghar",
       "reason": "second Ganjoor reader (ganjoor/desktop kept)",
       "on": "2026-11-01"
@@ -7248,6 +7678,76 @@
     {
       "repo": "sslarch/sslarch.github.io",
       "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/alexandre-dumas_the-count-of-monte-cristo_chapman-and-hall",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/anton-chekhov_short-fiction_constance-garnett",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/bram-stoker_dracula",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/edgar-allan-poe_short-fiction",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/f-scott-fitzgerald_the-great-gatsby",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/henry-david-thoreau_walden",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/herman-melville_moby-dick",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/james-joyce_dubliners",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/jane-austen_pride-and-prejudice",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/lewis-carroll_alices-adventures-in-wonderland_john-tenniel",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/mary-shelley_frankenstein",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/miguel-de-cervantes-saavedra_don-quixote_john-ormsby",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/robert-louis-stevenson_the-strange-case-of-dr-jekyll-and-mr-hyde",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "standardebooks/robert-w-chambers_the-king-in-yellow",
+      "reason": "single-book source; Standard Ebooks is represented by standardebooks/tools",
       "on": "2026-11-01"
     },
     {
@@ -7381,6 +7881,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "suttacentral/pali",
+      "reason": "archived 2021 Pali files, superseded by suttacentral/bilara-data and sc-data",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "sveinbjornt/hear",
       "reason": "speech recognition / transcription / meeting tool, generic AI",
       "on": "2026-11-01"
@@ -7438,6 +7943,16 @@
     {
       "repo": "T0MM11Y/voxscribe-live-caption",
       "reason": "speech transcription overlay",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "tabler/tabler-icons",
+      "reason": "generic UI icon set",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "taglib/taglib",
+      "reason": "general audio-file tag library for developers; picard/beets already cover tagging",
       "on": "2026-11-01"
     },
     {
@@ -7661,6 +8176,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "tokushige-koyasan/tibetan-corpus",
+      "reason": "0-star re-split of Esukhia derge-kangyur/derge-tengyur; prefer the Esukhia originals",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "TomBener/quarto-chinese",
       "reason": "general programming or web-development software, not on subject",
       "on": "2026-11-01"
@@ -7773,6 +8293,11 @@
     {
       "repo": "typesense/showcase-songs-search",
       "reason": "service client / account-based app",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "typesense/typesense",
+      "reason": "generic search server",
       "on": "2026-11-01"
     },
     {
@@ -7916,6 +8441,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "veraPDF/veraPDF-library",
+      "reason": "generic PDF/A compliance validator",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "vercel/satori",
       "reason": "general programming or web-development software, not on subject",
       "on": "2026-11-01"
@@ -7933,6 +8463,11 @@
     {
       "repo": "Vexa-ai/vexa",
       "reason": "speech recognition / transcription / meeting tool, generic AI",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "vexflow/vexflow",
+      "reason": "duplicate: 0xfe/vexflow already shelved",
       "on": "2026-11-01"
     },
     {
@@ -8098,6 +8633,21 @@
     {
       "repo": "webern/mx",
       "reason": "niche or overlapping notation helper (main notation tools kept)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "webrecorder/browsertrix",
+      "reason": "hosted web crawling service; crawlers excluded",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "webrecorder/pywb",
+      "reason": "web archiving of the web, off subject",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "webrecorder/replayweb.page",
+      "reason": "web archiving of the web, off subject",
       "on": "2026-11-01"
     },
     {
@@ -8373,6 +8923,11 @@
     {
       "repo": "yale-web-technologies/IIIF-Manifest-Generator",
       "reason": "minor IIIF library, server or plugin; kept the main viewers, servers and awesome-iiif",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "yamathcy/awesome-music-informatics",
+      "reason": "list not updated since 2023-07; ismir/mir-datasets and awesome-music already shelved",
       "on": "2026-11-01"
     },
     {

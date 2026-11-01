@@ -11549,6 +11549,1971 @@
       "homepage": "https://ia-upload.wmcloud.org",
       "added": "2026-11-01",
       "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000445",
+      "repo": "dbamman/litbank",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Hand annotations of entities, events and coreference across 100 English novels, for computational literary study.",
+        "zh": "100 部英文小说的人物、事件与指代人工标注，供计算文学研究"
+      },
+      "desc": "Annotated dataset of 100 works of fiction to support tasks in natural language processing and the computational humanities.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 386,
+      "updated": "2021-07-06",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000446",
+      "repo": "textcreationpartnership/Texts",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "CSV catalogue of the EEBO-TCP transcriptions of early English printed books.",
+        "zh": "早期英文印本 EEBO-TCP 转录本的 CSV 总目录"
+      },
+      "desc": "the EEBO TCP texts",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 38,
+      "updated": "2015-06-08",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000447",
+      "repo": "dracor-org/fredracor",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "French plays, largely classical, encoded in TEI with speakers and scenes marked.",
+        "zh": "法语戏剧 TEI 语料，以古典剧为主，标出人物和场次"
+      },
+      "desc": "French Drama Corpus",
+      "license": null,
+      "rights": "unstated",
+      "stars": 6,
+      "updated": "2026-10-02",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000448",
+      "repo": "dracor-org/romdracor",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Roman comedies and tragedies from Perseus, re-encoded in TEI for drama analysis.",
+        "zh": "取自 Perseus 的古罗马戏剧，重编为 TEI，便于分析剧本"
+      },
+      "desc": "Roman drama corpus, adapted from Perseus Digital Library.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 4,
+      "updated": "2026-10-02",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000449",
+      "repo": "PerseusDL/canonical-farsiLit",
+      "cat": "literature",
+      "kind": "text",
+      "note": {
+        "en": "Classical Persian literary texts in TEI from the Perseus Digital Library.",
+        "zh": "Perseus 数字图书馆的古典波斯文学文本，TEI 格式"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 4,
+      "updated": "2017-10-20",
+      "archived": false,
+      "topics": [],
+      "homepage": "http://cts.perseids.org/read/farsiLit",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000450",
+      "repo": "dracor-org/dutchdracor",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Dutch plays encoded in TEI with speakers and scenes marked, for drama study.",
+        "zh": "荷兰语戏剧 TEI 语料，标出人物和场次，供戏剧研究"
+      },
+      "desc": "Dutch Drama Corpus",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 3,
+      "updated": "2026-10-15",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000451",
+      "repo": "COST-ELTeC/ELTeC-deu",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century German novels in TEI, from the European Literary Text Collection.",
+        "zh": "德语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 3,
+      "updated": "2026-04-09",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000452",
+      "repo": "COST-ELTeC/ELTeC-por",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Portuguese novels in TEI, from the European Literary Text Collection.",
+        "zh": "葡萄牙语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "Portuguese collection in ELTeC (European Literary Text Collection)",
+      "license": null,
+      "rights": "unstated",
+      "stars": 3,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://distant-reading.net",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000453",
+      "repo": "dracor-org/poldracor",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Polish plays in TEI with characters and scenes marked, part of the DraCor drama corpora.",
+        "zh": "波兰语戏剧 TEI 语料，标出人物与场次，属 DraCor 戏剧库"
+      },
+      "desc": "PolDraCor (Polish Drama Corpus)",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 2,
+      "updated": "2026-10-02",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000454",
+      "repo": "dracor-org/neolatdracor",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Neo-Latin plays encoded in TEI for reading and network analysis of early modern drama.",
+        "zh": "新拉丁语戏剧 TEI 语料，可读近代早期剧本、析人物网络"
+      },
+      "desc": "Neo-Latin Drama Corpus",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 2,
+      "updated": "2026-10-29",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000455",
+      "repo": "dracor-org/greekdracor",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Ancient Greek tragedies and comedies from Perseus, re-encoded in TEI with speakers marked.",
+        "zh": "取自 Perseus 的古希腊悲喜剧，重编 TEI 并标出说话人"
+      },
+      "desc": "Ancient Greek plays from Perseus Digital Library",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2026-10-02",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000456",
+      "repo": "dracor-org/swedracor",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Swedish plays encoded in TEI with characters and scenes marked.",
+        "zh": "瑞典语戏剧 TEI 语料，标出人物和场次"
+      },
+      "desc": "Swedish Drama Corpus",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2026-10-02",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000457",
+      "repo": "COST-ELTeC/ELTeC-slv",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Slovenian novels in TEI, from the European Literary Text Collection.",
+        "zh": "斯洛文尼亚语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2026-04-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000458",
+      "repo": "COST-ELTeC/ELTeC-geo",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Georgian novels in TEI, from the European Literary Text Collection.",
+        "zh": "格鲁吉亚语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "Corpus of Georgian Novels",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2024-11-17",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000459",
+      "repo": "PerseusDL/canonical-norseLit",
+      "cat": "literature",
+      "kind": "text",
+      "note": {
+        "en": "Old Norse literary texts in TEI from the Perseus Digital Library.",
+        "zh": "Perseus 数字图书馆的古诺斯文学文本，TEI 格式"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2015-06-04",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000460",
+      "repo": "COST-ELTeC/ELTeC-ukr",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Ukrainian novels in TEI, from the European Literary Text Collection.",
+        "zh": "乌克兰语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000461",
+      "repo": "COST-ELTeC/ELTeC-srp",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Serbian novels in TEI, from the European Literary Text Collection.",
+        "zh": "塞尔维亚语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000462",
+      "repo": "COST-ELTeC/ELTeC-spa",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Spanish novels in TEI, from the European Literary Text Collection.",
+        "zh": "西班牙语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "Spanish novels for the European Literary Text Collection (ELTeC)",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000463",
+      "repo": "COST-ELTeC/ELTeC-rom",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Romanian novels in TEI, from the European Literary Text Collection.",
+        "zh": "罗马尼亚语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000464",
+      "repo": "nevenjovanovic/cts-croala",
+      "cat": "literature",
+      "kind": "text",
+      "note": {
+        "en": "Neo-Latin texts by Croatian authors from CroALa, encoded in TEI with CTS citation metadata.",
+        "zh": "克罗地亚作者的新拉丁语文本，TEI 编码并带 CTS 引用标识"
+      },
+      "desc": "Convert Neo-Latin XML editions from CroALa to CTS / CITE Architecture",
+      "license": "CC-BY-4.0",
+      "rights": "permissive",
+      "stars": 1,
+      "updated": "2019-12-02",
+      "archived": false,
+      "topics": [
+        "language",
+        "literature",
+        "latin",
+        "corpus",
+        "neo-latin",
+        "croatia",
+        "cts"
+      ],
+      "homepage": "http://croala.ffzg.unizg.hr",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000465",
+      "repo": "COST-ELTeC/ELTeC-cze",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Czech novels in TEI, from the European Literary Text Collection.",
+        "zh": "捷克语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 1,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000466",
+      "repo": "COST-ELTeC/ELTeC-pol",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Polish novels in TEI, from the European Literary Text Collection.",
+        "zh": "波兰语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 1,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000467",
+      "repo": "COST-ELTeC/ELTeC-ita",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Italian novels in TEI, from the European Literary Text Collection.",
+        "zh": "意大利语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 0,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000468",
+      "repo": "COST-ELTeC/ELTeC-hun",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Hungarian novels in TEI, from the European Literary Text Collection.",
+        "zh": "匈牙利语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 0,
+      "updated": "2023-02-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000469",
+      "repo": "COST-ELTeC/ELTeC-gsw",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Nineteenth- and early twentieth-century Swiss German novels in TEI, from the European Literary Text Collection.",
+        "zh": "瑞士德语近代小说语料，TEI 编码，属欧洲文学文本集 ELTeC"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 0,
+      "updated": "2023-04-18",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000470",
+      "repo": "openbibleinfo/Bible-Passage-Reference-Parser",
+      "cat": "faith",
+      "kind": "tool",
+      "note": {
+        "en": "Parses Bible references such as John 3:16 in many languages into structured, normalised passages.",
+        "zh": "识别正文里的圣经出处（如约 3:16），支持多种语言，转成规范经节。"
+      },
+      "desc": "Typescript to identify and understand Bible references like \"John 3:16.\"",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 265,
+      "updated": "2026-10-17",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000471",
+      "repo": "suttacentral/suttacentral",
+      "cat": "faith",
+      "kind": "tool",
+      "note": {
+        "en": "Source code of the SuttaCentral site and API for reading early Buddhist texts across languages.",
+        "zh": "SuttaCentral 网站和接口的源码，用来阅读和对照多语种早期佛典。"
+      },
+      "desc": "SuttaCentral website application",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 176,
+      "updated": "2026-10-26",
+      "archived": false,
+      "topics": [
+        "python",
+        "api",
+        "lit",
+        "arangodb",
+        "flask",
+        "docker"
+      ],
+      "homepage": "https://suttacentral.net",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000472",
+      "repo": "digitalpalidictionary/dpd-db",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "Digital Pali Dictionary database: headwords, grammar, inflections and roots for reading the Pali canon.",
+        "zh": "数字巴利语词典数据库：词条、语法、变格和词根，辅助读巴利经典。"
+      },
+      "desc": "Digital Pāḷi Dictionary",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 74,
+      "updated": "2026-11-01",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://dpdict.net",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000473",
+      "repo": "suttacentral/bilara-data",
+      "cat": "faith",
+      "kind": "text",
+      "note": {
+        "en": "SuttaCentral's segmented root texts and translations of early Buddhist scriptures, aligned segment by segment.",
+        "zh": "SuttaCentral 的分段佛典原文与译文数据，逐段对齐，可对照阅读。"
+      },
+      "desc": "Content for Bilara translation webapp. ",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 56,
+      "updated": "2026-11-01",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://bilara.suttacentral.net",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000474",
+      "repo": "ubsicap/ubs-open-license",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "United Bible Societies semantic dictionaries of biblical Hebrew and Greek, with images and Bible routes, CC BY-SA.",
+        "zh": "联合圣经公会开放的希伯来文、希腊文语义词典，含中文，另有图片和路线。"
+      },
+      "desc": "",
+      "license": "CC-BY-SA-4.0",
+      "rights": "share-alike",
+      "stars": 51,
+      "updated": "2026-10-21",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000475",
+      "repo": "Center-for-New-Testament-Restoration/SR",
+      "cat": "faith",
+      "kind": "text",
+      "note": {
+        "en": "Statistical Restoration Greek New Testament, a text reconstructed from early manuscripts by statistical method.",
+        "zh": "新约复原中心用统计方法从早期抄本重建的希腊文新约文本。"
+      },
+      "desc": "Statistical Restoration Greek New Testament produced by the Center for New Testament Restoration",
+      "license": "CC-BY-4.0",
+      "rights": "permissive",
+      "stars": 47,
+      "updated": "2024-07-16",
+      "archived": false,
+      "topics": [
+        "download",
+        "free",
+        "greek",
+        "new",
+        "restoration",
+        "statistical",
+        "testament",
+        "koine",
+        "computer",
+        "generated",
+        "cntr"
+      ],
+      "homepage": "https://greekcntr.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000476",
+      "repo": "translatable-exegetical-tools/Abbott-Smith",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "Abbott-Smith's Manual Greek Lexicon of the New Testament (1922) as marked-up text.",
+        "zh": "阿博特-史密斯《新约希腊文手册词典》（1922）的标记文本。"
+      },
+      "desc": "Abbott-Smith's Manual Greek Lexicon",
+      "license": null,
+      "rights": "unstated",
+      "stars": 42,
+      "updated": "2024-07-01",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000477",
+      "repo": "jtauber/apostolic-fathers",
+      "cat": "faith",
+      "kind": "text",
+      "note": {
+        "en": "Corrected Greek text of the Apostolic Fathers based on Kirsopp Lake's edition.",
+        "zh": "使徒教父著作的希腊文本，依莱克版校订。"
+      },
+      "desc": "Corrected Lake Greek Text and (eventually) analysis",
+      "license": null,
+      "rights": "unstated",
+      "stars": 34,
+      "updated": "2019-11-23",
+      "archived": false,
+      "topics": [
+        "greek-texts"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000478",
+      "repo": "biblicalhumanities/Dodson-Greek-Lexicon",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "Dodson's concise Greek New Testament lexicon in XML and CSV, public domain.",
+        "zh": "多德森简明希腊文新约词典，XML 和 CSV 格式，公有领域。"
+      },
+      "desc": "Jeffrey Dodson's lexicon from http://greeklexicon.org/lexicon/about/, in XML and csv",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 25,
+      "updated": "2018-01-11",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000479",
+      "repo": "nathans/lxx-swete",
+      "cat": "faith",
+      "kind": "text",
+      "note": {
+        "en": "Plain text of Swete's edition of the Septuagint, the Greek Old Testament.",
+        "zh": "斯威特编订的七十士译本希腊文旧约纯文本。"
+      },
+      "desc": "The Old Testament in Greek According to the Septuagint, edited by Henry Barclay Swete",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 19,
+      "updated": "2025-12-18",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000480",
+      "repo": "Center-for-New-Testament-Restoration/transcriptions",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "Electronic transcriptions of early Greek New Testament manuscripts, for comparing readings.",
+        "zh": "新约复原中心对早期希腊文新约抄本的电子转录，可比较异文。"
+      },
+      "desc": "Electronic Transcriptions produced by the Center for New Testament Restoration",
+      "license": "CC-BY-SA-4.0",
+      "rights": "share-alike",
+      "stars": 17,
+      "updated": "2026-10-01",
+      "archived": false,
+      "topics": [
+        "download",
+        "electronic",
+        "free",
+        "greek",
+        "new",
+        "testament",
+        "transcriptions",
+        "cntr"
+      ],
+      "homepage": "https://greekcntr.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000481",
+      "repo": "byztxt/greektext-antoniades",
+      "cat": "faith",
+      "kind": "text",
+      "note": {
+        "en": "Antoniades' 1904 Patriarchal Greek New Testament with morphological tags and Strong's numbers.",
+        "zh": "1904 年安东尼亚德斯牧首版希腊文新约，附词形标注和斯特朗编号。"
+      },
+      "desc": "Greek New Testament text of Antoniades' 1904 Patriarchal edition, with morphological parsing tags and Strong's numbers",
+      "license": null,
+      "rights": "unstated",
+      "stars": 14,
+      "updated": "2023-03-21",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000482",
+      "repo": "Clear-Bible/speaker-quotations",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "Marks quoted speech in the Hebrew and Greek Bible and links each quotation to its speaker.",
+        "zh": "标出希伯来文、希腊文圣经里的引语，并对应到说话人物。"
+      },
+      "desc": "Data in this repository attempts to identify the original language words, in both the Old and New Testaments, translated as quotations (material using \"double\" and 'single' quotation marks) in various English Bibles. It also attempts to associate speakers with the quotations, where possible, using data from Faith Comes By Hearing.",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 10,
+      "updated": "2024-03-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000483",
+      "repo": "nida-institute/awesome-biblical-data",
+      "cat": "faith",
+      "kind": "list",
+      "note": {
+        "en": "Catalogue of open biblical datasets and tools: base texts, manuscripts, lexicons, treebanks, maps and standards.",
+        "zh": "开放圣经研究数据和工具目录：底本、抄本、词典、树库、地图和标准。"
+      },
+      "desc": "",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 9,
+      "updated": "2026-10-02",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000484",
+      "repo": "BibleAquifer/BiblicaOpenBibleMaps",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "Biblica's open Bible maps with descriptive articles in several languages, CC BY-SA.",
+        "zh": "Biblica 开放圣经地图及说明文字，多种语言，CC BY-SA 授权。"
+      },
+      "desc": "Aquifer resource repository for BiblicaOpenBibleMaps, containing resource-level metadata, article-level metadata, and content files.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 8,
+      "updated": "2026-09-18",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000485",
+      "repo": "BibleAquifer/AquiferOpenBibleDictionary",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "Open Bible dictionary adapted from the Tyndale Open Bible Dictionary, in English and eight other languages.",
+        "zh": "改编自丁道尔开放圣经辞典的圣经辞典，有英文和八种其他语言。"
+      },
+      "desc": "Aquifer resource repository for AquiferOpenBibleDictionary, containing resource-level metadata, article-level metadata, and content files in JSON and Markdown formats.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 6,
+      "updated": "2026-10-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000486",
+      "repo": "ETCBC/dhammapada",
+      "cat": "faith",
+      "kind": "text",
+      "note": {
+        "en": "The Pali Dhammapada with Fausboll's Latin translation, encoded for linguistic study.",
+        "zh": "巴利文《法句经》原文，附拉丁文译文，可作语言研究。"
+      },
+      "desc": "Text of the Dhammapadi (Pali language) with Latin translation",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 6,
+      "updated": "2023-11-14",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000487",
+      "repo": "ETCBC/extrabiblical",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "ETCBC-encoded extra-biblical Hebrew writings in Text-Fabric format, for study alongside the BHSA.",
+        "zh": "ETCBC 编码的圣经以外希伯来文献，Text-Fabric 格式，可配 BHSA 研究。"
+      },
+      "desc": "Non-masoretic texts related to the Hebrew Bible",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 4,
+      "updated": "2026-08-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000488",
+      "repo": "BibleAquifer/ChineseUnionVersionTraditional",
+      "cat": "faith",
+      "kind": "text",
+      "note": {
+        "en": "Chinese Union Version Bible in traditional characters, USFM and USX, with machine word alignments to the originals.",
+        "zh": "和合本圣经繁体版，USFM 和 USX 格式，附机器生成的原文逐词对齐。"
+      },
+      "desc": "Aquifer resource repository for ChineseUnionVersionTraditional, containing resource-level metadata, article-level metadata, and content files.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 0,
+      "updated": "2026-10-17",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000489",
+      "repo": "LibraryOfCongress/newspaper-navigator",
+      "cat": "history",
+      "kind": "dataset",
+      "note": {
+        "en": "Archived project extracting photographs, maps and illustrations from historic American newspapers.",
+        "zh": "从美国历史报纸中提取照片、地图和插图的已结项数据工程"
+      },
+      "desc": "",
+      "license": "Unlicense",
+      "rights": "public-domain",
+      "stars": 272,
+      "updated": "2022-02-15",
+      "archived": true,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000490",
+      "repo": "OpenHistoricalMap/data",
+      "cat": "history",
+      "kind": "dataset",
+      "note": {
+        "en": "Public-domain historical GIS files, including past borders, gathered by OpenHistoricalMap.",
+        "zh": "开放历史地图收集的公版历史 GIS 文件，含历代疆界"
+      },
+      "desc": "Directory for Historical GIS vector data",
+      "license": null,
+      "rights": "unstated",
+      "stars": 11,
+      "updated": "2021-02-17",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000491",
+      "repo": "GLAM-Workbench/glam-data-list",
+      "cat": "history",
+      "kind": "list",
+      "note": {
+        "en": "List of open datasets published by galleries, libraries, archives and museums.",
+        "zh": "图书馆、档案馆、博物馆等机构公开数据集的清单"
+      },
+      "desc": "",
+      "license": "Unlicense",
+      "rights": "public-domain",
+      "stars": 9,
+      "updated": "2026-09-20",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000492",
+      "repo": "cdli-gh/mtaac_gold_corpus",
+      "cat": "history",
+      "kind": "dataset",
+      "note": {
+        "en": "Hand-annotated Sumerian administrative texts from cuneiform tablets, for linguistic study.",
+        "zh": "人工标注的苏美尔语行政泥板文本，供语言研究"
+      },
+      "desc": "",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 9,
+      "updated": "2021-12-15",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000493",
+      "repo": "cdli-gh/proto-cuneiform_signs",
+      "cat": "history",
+      "kind": "dataset",
+      "note": {
+        "en": "Sign list of proto-cuneiform, the earliest Mesopotamian writing.",
+        "zh": "原始楔形文字（两河最早文字）的字符表"
+      },
+      "desc": "Proto-cuneiform sign list",
+      "license": "CC-BY-4.0",
+      "rights": "permissive",
+      "stars": 9,
+      "updated": "2023-08-31",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://cdli-gh.github.io/proto-cuneiform_signs/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000494",
+      "repo": "kerameikos/data",
+      "cat": "history",
+      "kind": "dataset",
+      "note": {
+        "en": "Linked-data thesaurus of ancient Greek pottery shapes, painters, wares and techniques.",
+        "zh": "古希腊陶器的器形、画师、器类与技法术语关联数据"
+      },
+      "desc": "Canonical RDF/XML representations of ceramic LOD thesaurus identifiers",
+      "license": "ODbL-1.0",
+      "rights": "share-alike",
+      "stars": 2,
+      "updated": "2025-08-25",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000495",
+      "repo": "terkelg/awesome-creative-coding",
+      "cat": "aesthetics",
+      "kind": "list",
+      "note": {
+        "en": "Curated list of resources for generative art, creative coding and interactive design.",
+        "zh": "生成艺术、创意编程和互动设计的资源清单。"
+      },
+      "desc": "Creative Coding: Generative Art, Data visualization, Interaction Design, Resources.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 15527,
+      "updated": "2026-07-21",
+      "archived": false,
+      "topics": [
+        "awesome",
+        "creative-coding",
+        "interaction-design",
+        "information-visualization",
+        "list",
+        "graphics-programming",
+        "awesome-list",
+        "generative-art",
+        "data-visualization",
+        "3d-graphics",
+        "webgl",
+        "art",
+        "design",
+        "shaders",
+        "resources"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000496",
+      "repo": "Siilwyn/awesome-pixel-art",
+      "cat": "aesthetics",
+      "kind": "list",
+      "note": {
+        "en": "Curated list of pixel-art tutorials, tools, palettes and artists.",
+        "zh": "像素画教程、工具、调色板和画家的整理清单。"
+      },
+      "desc": "Curated list of everything awesome around pixel art.",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 1273,
+      "updated": "2026-10-01",
+      "archived": false,
+      "topics": [
+        "awesome-list",
+        "pixel-art",
+        "hacktoberfest"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000497",
+      "repo": "axismaps/colorbrewer",
+      "cat": "aesthetics",
+      "kind": "tool",
+      "note": {
+        "en": "Source of the ColorBrewer colour schemes for maps, with sequential, diverging and qualitative palettes.",
+        "zh": "ColorBrewer地图配色方案的源码，含渐变、发散和分类色板。"
+      },
+      "desc": "",
+      "license": "Apache-2.0",
+      "rights": "permissive",
+      "stars": 1109,
+      "updated": "2021-05-03",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://colorbrewer2.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000498",
+      "repo": "googlefonts/morisawa-biz-ud-gothic",
+      "cat": "aesthetics",
+      "kind": "font",
+      "note": {
+        "en": "Morisawa's open universal-design Japanese gothic typeface with full kanji, for clear text and headings.",
+        "zh": "森泽开源的通用设计日文黑体，含汉字，适合清晰的正文和标题。"
+      },
+      "desc": "",
+      "license": "OFL-1.1",
+      "rights": "permissive",
+      "stars": 675,
+      "updated": "2023-09-06",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000499",
+      "repo": "googlefonts/morisawa-biz-ud-mincho",
+      "cat": "aesthetics",
+      "kind": "font",
+      "note": {
+        "en": "Morisawa's open universal-design Japanese mincho typeface with kanji, for long-form text.",
+        "zh": "森泽开源的通用设计日文明朝体，含汉字，适合长篇正文。"
+      },
+      "desc": "",
+      "license": "OFL-1.1",
+      "rights": "permissive",
+      "stars": 503,
+      "updated": "2022-12-07",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000500",
+      "repo": "googlefonts/zen-marugothic",
+      "cat": "aesthetics",
+      "kind": "font",
+      "note": {
+        "en": "Japanese rounded gothic typeface with kanji, in several weights.",
+        "zh": "日文圆体黑体，含汉字，有多种字重。"
+      },
+      "desc": "ZenFonts.jp Maru Gothic",
+      "license": "OFL-1.1",
+      "rights": "permissive",
+      "stars": 119,
+      "updated": "2024-08-02",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000501",
+      "repo": "NYPL/pic-data",
+      "cat": "aesthetics",
+      "kind": "dataset",
+      "note": {
+        "en": "Data behind NYPL's Photographers' Identities Catalog: biographies and locations of photographers worldwide.",
+        "zh": "纽约公共图书馆摄影师身份目录的数据，含生平与活动地点"
+      },
+      "desc": "Raw data and indexing scripts for the Photographers' Identities Catalog",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 20,
+      "updated": "2021-09-28",
+      "archived": false,
+      "topics": [],
+      "homepage": "http://pic.nypl.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000502",
+      "repo": "Audiveris/audiveris",
+      "cat": "music",
+      "kind": "tool",
+      "note": {
+        "en": "Optical music recognition engine that turns scanned printed scores into MusicXML for editing.",
+        "zh": "光学识谱程序，把扫描的印刷乐谱转成可编辑的 MusicXML。"
+      },
+      "desc": "Latest generation of Audiveris OMR engine",
+      "license": "AGPL-3.0",
+      "rights": "share-alike",
+      "stars": 2937,
+      "updated": "2026-08-13",
+      "archived": false,
+      "topics": [
+        "java",
+        "open-source",
+        "optical-music-recognition"
+      ],
+      "homepage": "https://audiveris.github.io/audiveris",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000503",
+      "repo": "MTG/sms-tools",
+      "cat": "music",
+      "kind": "tool",
+      "note": {
+        "en": "Spectral modelling tools and teaching notebooks for analysing and resynthesising musical sounds.",
+        "zh": "频谱建模分析与合成乐音的工具和教学笔记，配套音频处理课程。"
+      },
+      "desc": "Sound analysis/synthesis tools for music applications",
+      "license": "AGPL-3.0",
+      "rights": "share-alike",
+      "stars": 1802,
+      "updated": "2026-03-19",
+      "archived": false,
+      "topics": [
+        "jupyter-notebook",
+        "sound-analysis",
+        "python",
+        "sound-synthesis",
+        "teaching-materials"
+      ],
+      "homepage": "https://www.upf.edu/web/mtg/sms-tools",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000504",
+      "repo": "craffel/pretty-midi",
+      "cat": "music",
+      "kind": "tool",
+      "note": {
+        "en": "Python library for reading, editing and analysing MIDI files: notes, instruments, tempo and timing.",
+        "zh": "Python 处理 MIDI 文件的库，可读写音符、乐器、速度和时值。"
+      },
+      "desc": "Utility functions for handling MIDI data in a nice/intuitive way.",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 1048,
+      "updated": "2026-10-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000505",
+      "repo": "mir-dataset-loaders/mirdata",
+      "cat": "music",
+      "kind": "tool",
+      "note": {
+        "en": "Python loaders that download, validate and read common music information retrieval datasets through one interface.",
+        "zh": "统一下载、校验和读取常用音乐信息检索数据集的 Python 库。"
+      },
+      "desc": "Python library for working with Music Information Retrieval datasets",
+      "license": "BSD-3-Clause",
+      "rights": "permissive",
+      "stars": 419,
+      "updated": "2026-10-20",
+      "archived": false,
+      "topics": [
+        "music",
+        "audio",
+        "python",
+        "dataset",
+        "mirdata",
+        "mir"
+      ],
+      "homepage": "https://mirdata.readthedocs.io/en/stable/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000506",
+      "repo": "metabrainz/critiquebrainz",
+      "cat": "music",
+      "kind": "api",
+      "note": {
+        "en": "Source code of CritiqueBrainz, an open site and API of Creative Commons licensed album and music reviews.",
+        "zh": "CritiqueBrainz 源码：以知识共享许可发布专辑和音乐评论的开放网站及接口。"
+      },
+      "desc": "Repository for Creative Commons licensed reviews",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 73,
+      "updated": "2026-09-15",
+      "archived": false,
+      "topics": [
+        "reviews",
+        "python",
+        "critiquebrainz",
+        "web-app",
+        "music",
+        "flask"
+      ],
+      "homepage": "https://critiquebrainz.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000507",
+      "repo": "DCMLab/JazzHarmonyTreebank",
+      "cat": "music",
+      "kind": "dataset",
+      "note": {
+        "en": "Jazz standard chord sequences with hand-made tree analyses of their harmonic structure.",
+        "zh": "爵士标准曲的和弦进行，附人工标注的和声树状结构分析。"
+      },
+      "desc": "@dharasim The iRealPro jazz chord sequences including tree analysis",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 49,
+      "updated": "2021-06-28",
+      "archived": false,
+      "topics": [
+        "treebank",
+        "jazz",
+        "chord-sequences"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000508",
+      "repo": "music-encoding/sample-encodings",
+      "cat": "music",
+      "kind": "dataset",
+      "note": {
+        "en": "Example MEI files showing how different kinds of music notation are encoded, for learning and testing.",
+        "zh": "MEI 音乐编码示例文件，演示各类记谱的编码方法，供学习和测试。"
+      },
+      "desc": "A directory of Sample Encodings for MEI ",
+      "license": "ECL-2.0",
+      "rights": "custom",
+      "stars": 33,
+      "updated": "2025-01-22",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000509",
+      "repo": "DCMLab/mozart_piano_sonatas",
+      "cat": "music",
+      "kind": "dataset",
+      "note": {
+        "en": "Harmony, cadence and phrase annotations for Mozart's 18 piano sonatas, aligned with MuseScore scores.",
+        "zh": "莫扎特 18 首钢琴奏鸣曲的和声、终止式与乐句标注，对齐乐谱。"
+      },
+      "desc": "Harmony, cadence, and phrase annotations for Mozart's 18 piano sonatas",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 29,
+      "updated": "2025-04-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://dcmlab.github.io/mozart_piano_sonatas/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000510",
+      "repo": "DCMLab/dimcat",
+      "cat": "music",
+      "kind": "tool",
+      "note": {
+        "en": "Python toolkit for statistical analysis of annotated music corpora such as the DCML datasets.",
+        "zh": "统计分析带标注音乐语料（如 DCML 语料）的 Python 工具包。"
+      },
+      "desc": "DIgital Musicology Corpus Analysis Toolkit",
+      "license": "GPL-3.0",
+      "rights": "share-alike",
+      "stars": 14,
+      "updated": "2026-07-28",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://dimcat.readthedocs.io",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000511",
+      "repo": "DCMLab/corelli",
+      "cat": "music",
+      "kind": "dataset",
+      "note": {
+        "en": "Corelli's trio sonatas as MuseScore files with expert harmony, cadence and phrase annotations.",
+        "zh": "科雷利三重奏鸣曲的 MuseScore 乐谱，附和声、终止式与乐句标注。"
+      },
+      "desc": "",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 5,
+      "updated": "2026-10-07",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://dcmlab.github.io/corelli/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000512",
+      "repo": "DCMLab/beethoven_piano_sonatas",
+      "cat": "music",
+      "kind": "dataset",
+      "note": {
+        "en": "Harmony, cadence and phrase annotations for Beethoven's piano sonatas, aligned with MuseScore scores.",
+        "zh": "贝多芬钢琴奏鸣曲的和声、终止式与乐句标注，对齐 MuseScore 乐谱。"
+      },
+      "desc": "",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 5,
+      "updated": "2025-04-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000513",
+      "repo": "DCMLab/chopin_mazurkas",
+      "cat": "music",
+      "kind": "dataset",
+      "note": {
+        "en": "Harmony, cadence and phrase annotations for Chopin's mazurkas, aligned with MuseScore scores.",
+        "zh": "肖邦玛祖卡的和声、终止式与乐句标注，对齐 MuseScore 乐谱。"
+      },
+      "desc": "",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 3,
+      "updated": "2025-04-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://dcmlab.github.io/chopin_mazurkas/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000514",
+      "repo": "DCMLab/ravel_piano",
+      "cat": "music",
+      "kind": "dataset",
+      "note": {
+        "en": "Harmony, cadence and phrase annotations for Ravel's piano pieces, aligned with MuseScore scores.",
+        "zh": "拉威尔钢琴作品的和声、终止式与乐句标注，对齐 MuseScore 乐谱。"
+      },
+      "desc": "",
+      "license": null,
+      "rights": "unstated",
+      "stars": 2,
+      "updated": "2025-04-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://dcmlab.github.io/ravel_piano/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000515",
+      "repo": "PaddlePaddle/PaddleOCR",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Multilingual OCR toolkit with strong Chinese recognition, for turning scanned pages and PDFs into text.",
+        "zh": "多语种文字识别工具包，中文识别好，可把扫描页和PDF转成文字。"
+      },
+      "desc": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "license": "Apache-2.0",
+      "rights": "permissive",
+      "stars": 92055,
+      "updated": "2026-09-16",
+      "archived": false,
+      "topics": [
+        "ocr",
+        "chineseocr",
+        "pdf2markdown",
+        "pp-ocr",
+        "pp-structure",
+        "document-parsing",
+        "document-translation",
+        "kie",
+        "ai4science",
+        "pdf-extractor-rag",
+        "pdf-parser",
+        "rag",
+        "paddleocr-vl"
+      ],
+      "homepage": "https://www.paddleocr.com",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000516",
+      "repo": "OpenRefine/OpenRefine",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Desktop tool for cleaning and reconciling messy catalogue data, widely used in libraries and digital humanities.",
+        "zh": "清洗和对齐杂乱著录数据的桌面工具，图书馆和数字人文常用。"
+      },
+      "desc": "OpenRefine is a free, open source power tool for working with messy data and improving it",
+      "license": "BSD-3-Clause",
+      "rights": "permissive",
+      "stars": 12086,
+      "updated": "2026-10-26",
+      "archived": false,
+      "topics": [
+        "datacleansing",
+        "data-analysis",
+        "java",
+        "opendata",
+        "wikidata",
+        "journalism",
+        "data-science",
+        "datajournalism",
+        "datacleaning",
+        "datamining",
+        "reconciliation",
+        "data-wrangling"
+      ],
+      "homepage": "https://openrefine.org/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000517",
+      "repo": "Sigil-Ebook/Sigil",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Desktop editor for building and correcting EPUB ebooks, including the table of contents and styling.",
+        "zh": "EPUB电子书桌面编辑器，可修目录、改样式、整理电子书。"
+      },
+      "desc": "Sigil is a multi-platform EPUB ebook editor",
+      "license": "GPL-3.0",
+      "rights": "share-alike",
+      "stars": 7010,
+      "updated": "2026-10-31",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000518",
+      "repo": "futurepress/epub.js",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "JavaScript library for reading EPUB books directly in a web page.",
+        "zh": "在网页里直接打开和翻阅EPUB电子书的前端库。"
+      },
+      "desc": "Enhanced eBooks in the browser.",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 6966,
+      "updated": "2026-03-24",
+      "archived": false,
+      "topics": [
+        "epub"
+      ],
+      "homepage": "http://futurepress.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000519",
+      "repo": "Pagefind/pagefind",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Search index for static sites that runs in the browser, suited to digital collections without a server.",
+        "zh": "给静态网站建全文索引、在浏览器里检索，适合无服务器的数字馆藏。"
+      },
+      "desc": "Static low-bandwidth search at scale",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 5542,
+      "updated": "2026-11-01",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://pagefind.app",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000520",
+      "repo": "w3c/epubcheck",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Reference validator that checks EPUB files against the specification before publishing.",
+        "zh": "EPUB官方校验器，发布前检查电子书是否合乎规范。"
+      },
+      "desc": "The conformance checker for EPUB publications",
+      "license": "BSD-3-Clause",
+      "rights": "permissive",
+      "stars": 1987,
+      "updated": "2026-10-29",
+      "archived": false,
+      "topics": [
+        "publishing",
+        "digital-publishing",
+        "epub",
+        "epub3",
+        "epubcheck",
+        "epub-publications"
+      ],
+      "homepage": "https://www.w3.org/publishing/epubcheck/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000521",
+      "repo": "tropy/tropy",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Desktop app for organising and describing photographs taken in archives, with notes per item.",
+        "zh": "整理档案馆所拍照片的桌面程序，可逐张著录、做笔记。"
+      },
+      "desc": "Research photo management",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 1163,
+      "updated": "2026-10-31",
+      "archived": false,
+      "topics": [
+        "photo",
+        "metadata",
+        "electron",
+        "node-js",
+        "sqlite3",
+        "javascript",
+        "linked-data",
+        "rdf"
+      ],
+      "homepage": "https://tropy.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000522",
+      "repo": "digital-preservation/droid",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "File-format identification tool from the UK National Archives for auditing digital collections.",
+        "zh": "英国国家档案馆的文件格式识别工具，用来清点数字馆藏格式。"
+      },
+      "desc": "DROID (Digital Record and Object Identification)",
+      "license": "BSD-3-Clause",
+      "rights": "permissive",
+      "stars": 396,
+      "updated": "2026-10-28",
+      "archived": false,
+      "topics": [
+        "droid",
+        "identification",
+        "pronom",
+        "java",
+        "file-identification",
+        "file-identity"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000523",
+      "repo": "artefactual/atom",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Web application for archival description following international standards, with public access to finding aids.",
+        "zh": "按国际标准著录档案的网络系统，可公开检索档案目录。"
+      },
+      "desc": "Open-source, web application for archival description and public access.",
+      "license": "AGPL-3.0",
+      "rights": "share-alike",
+      "stars": 304,
+      "updated": "2026-10-26",
+      "archived": false,
+      "topics": [],
+      "homepage": "http://www.accesstomemory.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000524",
+      "repo": "LibraryOfCongress/bagit-python",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Library of Congress tool for packaging files in BagIt bags with manifests and checksums.",
+        "zh": "美国国会图书馆的BagIt打包工具，给文件生成清单和校验值。"
+      },
+      "desc": "Work with BagIt packages from Python.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 273,
+      "updated": "2026-06-18",
+      "archived": false,
+      "topics": [],
+      "homepage": "http://libraryofcongress.github.io/bagit-python",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000525",
+      "repo": "NUKnightLab/StoryMapJS",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Builds slide-by-slide map narratives, useful for telling journeys or historical events place by place.",
+        "zh": "按地点逐页讲故事的地图组件，可串起旅程或历史事件"
+      },
+      "desc": "Maps that tell stories.",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 253,
+      "updated": "2026-09-13",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://storymap.knightlab.com/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000526",
+      "repo": "openpreserve/jhove",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Validates and characterises files such as PDF, TIFF and JPEG for long-term preservation.",
+        "zh": "校验PDF、TIFF、JPEG等文件并提取技术信息，供长期保存。"
+      },
+      "desc": "File validation and characterisation.",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 204,
+      "updated": "2026-09-16",
+      "archived": false,
+      "topics": [
+        "digital-preservation",
+        "format-validation"
+      ],
+      "homepage": "http://jhove.openpreservation.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000527",
+      "repo": "samvera/hyrax",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Rails engine from the Samvera community for building library and archive digital repositories.",
+        "zh": "Samvera社区的数字仓储框架，用来搭建图书馆和档案馆的典藏库。"
+      },
+      "desc": "Hyrax is a Ruby on Rails Engine built by the Samvera community. Hyrax provides a foundation for creating many different digital repository applications.",
+      "license": "Apache-2.0",
+      "rights": "permissive",
+      "stars": 201,
+      "updated": "2026-10-31",
+      "archived": false,
+      "topics": [
+        "repository",
+        "sufia",
+        "rails",
+        "hydra-community",
+        "fcrepo",
+        "blacklight",
+        "hyrax",
+        "samvera",
+        "samvera-community"
+      ],
+      "homepage": "http://hyrax.samvera.org/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000528",
+      "repo": "LibraryOfCongress/concordia",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Software behind the Library of Congress volunteer platform for transcribing and tagging manuscripts.",
+        "zh": "美国国会图书馆众包平台的源码，供志愿者转录和标注手稿"
+      },
+      "desc": "Crowdsourcing platform for full text transcription and tagging. https://crowd.loc.gov",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 175,
+      "updated": "2026-10-30",
+      "archived": false,
+      "topics": [
+        "transcription",
+        "volunteers",
+        "loc",
+        "crowdsourcing",
+        "django"
+      ],
+      "homepage": "https://labs.loc.gov/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000529",
+      "repo": "digipres/awesome-digital-preservation",
+      "cat": "tools",
+      "kind": "list",
+      "note": {
+        "en": "Curated list of tools, standards and guides for preserving digital collections.",
+        "zh": "数字长期保存的工具、标准和指南清单。"
+      },
+      "desc": "Carefully curated list of awesome digital preservation resources.",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 149,
+      "updated": "2026-08-13",
+      "archived": false,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "digital-preservation"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000530",
+      "repo": "allmaps/allmaps",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Tools for georeferencing IIIF map scans and viewing them over modern maps.",
+        "zh": "为 IIIF 古地图扫描件做地理配准，并叠在现代地图上看"
+      },
+      "desc": "Curating, georeferencing and exploring for IIIF maps",
+      "license": null,
+      "rights": "unstated",
+      "stars": 144,
+      "updated": "2026-10-28",
+      "archived": false,
+      "topics": [],
+      "homepage": "https://allmaps.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000531",
+      "repo": "code4history/Maplat",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Viewer that aligns old and illustrated maps with modern coordinates without distorting the originals.",
+        "zh": "古地图和绘本地图看图器，不扭曲原图即可与现代地图对位"
+      },
+      "desc": "Maplat is the cool Historical Map/Illustrated Map Viewer.  It can transform each map coordinates with nonlinear but homeomorphic projection and makes possible that the maps can collaborate with GPS/accurate maps, without distorting original maps. Data editor of this solution is provided as another project, MaplatEditor",
+      "license": "Apache-2.0",
+      "rights": "permissive",
+      "stars": 126,
+      "updated": "2026-10-25",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000532",
+      "repo": "daisy/ace",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Accessibility checker for EPUB books, reporting problems such as reading order and missing image descriptions.",
+        "zh": "检查EPUB无障碍问题的工具，报告阅读顺序、图片缺说明等。"
+      },
+      "desc": "Ace by DAISY, an Accessibility Checker for EPUB",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 101,
+      "updated": "2026-05-01",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000533",
+      "repo": "LibraryOfCongress/ndnp-open-ocr",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Library of Congress pipeline that re-runs OCR on digitized historic newspapers, producing ALTO XML and PDF.",
+        "zh": "美国国会图书馆重做历史报纸 OCR 的流程，输出 ALTO XML 和 PDF"
+      },
+      "desc": "An open-source pipeline developed by the Library of Congress for reprocessing the OCR of National Digital Newspaper Program (NDNP) data. The application efficiently creates new ALTO XML and PDF files at scale, can be deployed locally or in common cloud environments, uses Tesseract Open-Source OCR engine and custom post-processing steps.",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 33,
+      "updated": "2026-09-10",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000534",
+      "repo": "OpenHistoricalMap/maplibre-gl-dates",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "MapLibre plugin that filters map features by date, so historical maps change with the chosen year.",
+        "zh": "按日期筛选地图要素的插件，让历史地图随所选年份变化"
+      },
+      "desc": "MapLibre GL JS plugin for filtering the map based on a date",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 17,
+      "updated": "2026-10-21",
+      "archived": false,
+      "topics": [
+        "datetime",
+        "maplibre-gl-js",
+        "openhistoricalmap"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
     }
   ]
 }
