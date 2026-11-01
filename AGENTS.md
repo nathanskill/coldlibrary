@@ -138,9 +138,9 @@ Cake is the cautionary example: a memorial tone that makes visitors feel they ar
   plaque. Anyone can read what you choose to show; the rest waits behind an AI warden, and only people who can
   answer its questions receive what you left for them. We keep the library, never the keys." /
   "冷冻图书馆给作品一个永续展位，给人一块永续铭牌：你愿意公开的，谁都能看；其余的交给门口的 AI 守馆人，只有答得上它问题的人，才能拿到你留下的东西。我们守着图书馆，从不保管钥匙。"
-- Floors (the directory board, since 2026-11-01): 13 About · 12 House Rules · 11 Librarians · 10 Wardens · 9 Exhibits ·
-  8 Plaques · 7 Memorial · 6 Collection Desk · 5 Front Desk · 4 Record Room · 3 Catalogue · **2 Reference Room** ·
-  **1 Open Stacks** · M Charts · L Lobby · B1 Sealed layer · B2 Cold Vault.
+- Floors (the directory board): 12 About · 11 House Rules · 10 Librarians · 9 Wardens · 8 Exhibits · 7 Plaques ·
+  6 Memorial · 5 Collection Desk · 4 Front Desk · 3 Record Room · 2 Catalogue · **1A Reference Room** (2026-11-01, added
+  without renumbering the others) · **1 Open Stacks** · M Charts · L Lobby · B1 Sealed layer · B2 Cold Vault.
 - The Reference Room (`/reference`, since 2026-11-01): open resources on GitHub that belong with the library's kinds
   (literature, faith, history, aesthetics, music, and the tools for them). It keeps a name, a one-line note by Claude
   (CC0), the repository's own description, the licence (five tiers) and a link, never the contents. The pages show only
