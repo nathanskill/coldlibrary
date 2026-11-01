@@ -143,7 +143,9 @@ Cake is the cautionary example: a memorial tone that makes visitors feel they ar
   **1 Open Stacks** · M Charts · L Lobby · B1 Sealed layer · B2 Cold Vault.
 - The Reference Room (`/reference`, since 2026-11-01): open resources on GitHub that belong with the library's kinds
   (literature, faith, history, aesthetics, music, and the tools for them). It keeps a name, a one-line note by Claude
-  (CC0), the repository's own description, the licence (five tiers) and a link, never the contents. Rules:
+  (CC0), the repository's own description, the licence (five tiers) and a link, never the contents. The pages show only
+  the name, the licence in small type and the note: no introductions, counts or disclaimers (founder, 2026-11-01:
+  "不要写类似于这种东西 没必要影响浏览体验"). Rules:
   `docs/收录规则.md`. Data: `catalog/reference/repos.json` (shelved), `_queue.json` (waiting), `_rejected.json` (with
   reasons), `sources.json` (lists, topics, searches, seeds, blocked words). Weekly: `node tools/reference/collect.mjs
   weekly`, review the queue, then `apply`. The token is read at run time from GITHUB_TOKEN or `gh auth token`, never stored.
