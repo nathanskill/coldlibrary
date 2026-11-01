@@ -138,8 +138,15 @@ Cake is the cautionary example: a memorial tone that makes visitors feel they ar
   plaque. Anyone can read what you choose to show; the rest waits behind an AI warden, and only people who can
   answer its questions receive what you left for them. We keep the library, never the keys." /
   "冷冻图书馆给作品一个永续展位，给人一块永续铭牌：你愿意公开的，谁都能看；其余的交给门口的 AI 守馆人，只有答得上它问题的人，才能拿到你留下的东西。我们守着图书馆，从不保管钥匙。"
-- Floors (the directory board): 9 About · 8 House Rules · 7 Librarians · 6 Wardens · 5 Exhibits · 4 Plaques ·
-  3 Collection Desk · 2 Front Desk · **1 Open Stacks** · L Lobby · B1 Sealed layer · B2 Cold Vault (since 2026-10-11).
+- Floors (the directory board, since 2026-11-01): 13 About · 12 House Rules · 11 Librarians · 10 Wardens · 9 Exhibits ·
+  8 Plaques · 7 Memorial · 6 Collection Desk · 5 Front Desk · 4 Record Room · 3 Catalogue · **2 Reference Room** ·
+  **1 Open Stacks** · M Charts · L Lobby · B1 Sealed layer · B2 Cold Vault.
+- The Reference Room (`/reference`, since 2026-11-01): open resources on GitHub that belong with the library's kinds
+  (literature, faith, history, aesthetics, music, and the tools for them). It keeps a name, a one-line note by Claude
+  (CC0), the repository's own description, the licence (five tiers) and a link, never the contents. Rules:
+  `docs/收录规则.md`. Data: `catalog/reference/repos.json` (shelved), `_queue.json` (waiting), `_rejected.json` (with
+  reasons), `sources.json` (lists, topics, searches, seeds, blocked words). Weekly: `node tools/reference/collect.mjs
+  weekly`, review the queue, then `apply`. The token is read at run time from GITHUB_TOKEN or `gh auth token`, never stored.
 - Lobby (since 2026-10-11): four acts, one job per block — I see it: hero (h1 unchanged, one solid "Hang your own",
   a text link into the Open Stacks, the 21:9 lake band), today's reading, the Open Stacks; II try it: the warden
   trial (M-000001); III make yours: exhibits and plaques (the positioning paragraph above, word for word), how it

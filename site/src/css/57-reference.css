@@ -1,0 +1,48 @@
+/* ---------- the Reference Room (2026-11-01): open resources on GitHub ----------
+   A plain catalogue: the name in sans, the librarian's line in the reading colour, the repository's own words quieter,
+   facts in the meta line. Cards only on the room's front page, one per kind of resource. */
+
+.ref-search { flex: 1 1 100%; width: 100%; max-width: 36em; margin-top: var(--s2); }
+.ref-search[hidden] { display: none; }
+
+.ref-cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s6) var(--gutter); }
+@media (max-width: 1099px) { .ref-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 699px) { .ref-cards { grid-template-columns: minmax(0, 1fr); } }
+.ref-card { display: flex; flex-direction: column; padding: var(--s5); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); min-width: 0; }
+.ref-card .h-small { margin-top: 0; }
+.ref-card .h-small a { color: var(--ink); text-decoration: none; }
+.ref-card .h-small a:hover { text-decoration: underline; }
+.ref-card > p { color: var(--ink-2); margin: 0 0 var(--s3); }
+.ref-card > p:last-child { margin: auto 0 0; padding-top: var(--s3); }
+.ref-picks { list-style: none; margin: 0 0 var(--s3); padding: 0; display: grid; gap: var(--s2); }
+.ref-picks li { font-size: var(--t5); line-height: var(--lh5); min-width: 0; overflow-wrap: anywhere; }
+.ref-picks .meta { display: block; }
+
+.refs { list-style: none; margin: 0; padding: 0; }
+.ref { padding: var(--s5) 0; border-top: 1px solid var(--line); min-width: 0; }
+.ref:last-child { border-bottom: 1px solid var(--line); }
+.ref[hidden], .ref-group[hidden] { display: none; }
+.ref-name { margin: 0; font: 500 var(--t4)/1.4 var(--f-sans); overflow-wrap: anywhere; }
+.ref-name a { color: var(--ink); text-decoration: none; }
+.ref-name a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.ref-owner { color: var(--ink-3); font-weight: 400; }
+.ref-kind { margin-left: var(--s2); font: 400 var(--t6)/1.4 var(--f-sans); color: var(--ink-3); letter-spacing: 0.04em; white-space: nowrap; }
+.ref-note { margin: var(--s2) 0 0; color: var(--ink); max-width: 40em; }
+.ref-desc { margin: var(--s2) 0 0; font-size: var(--t5); line-height: var(--lh5); color: var(--ink-2); max-width: 44em; overflow-wrap: anywhere; }
+.ref-said { font-size: var(--t6); color: var(--ink-3); letter-spacing: 0.04em; margin-right: var(--s1); }
+.ref-excerpt { margin: var(--s3) 0 0; padding-left: var(--s4); border-left: 2px solid var(--line-2); }
+.ref-excerpt p { margin: 0; font: 400 var(--t5)/1.7 var(--f-serif); color: var(--ink-2); white-space: pre-line; }
+.ref-facts { margin: var(--s2) 0 0; }
+.ref-lic { font-family: var(--f-mono); font-size: var(--t6); color: var(--ink-2); }
+
+.ref-group + .ref-group { margin-top: var(--s8); }
+.ref-gh { margin: 0 0 var(--s3); font: 500 var(--t4)/1.4 var(--f-sans); color: var(--ink); }
+.ref-filters { margin-bottom: var(--s7); }
+.ref-filters[hidden] { display: none; }
+.ref-f { height: 36px; width: min(100%, 18em); padding: 0 var(--s3); margin-right: var(--s3); background: var(--surface); border: 1px solid var(--line-2); border-radius: var(--radius); font-size: var(--t5); color: var(--ink); }
+.ref-f:focus { border-color: var(--link); outline: 2px solid var(--link); outline-offset: 1px; }
+.ref-filters .linkish { white-space: nowrap; }
+@media (max-width: 599px) { .ref-f { display: block; width: 100%; margin: 0 0 var(--s3); } }
+.ref-results { padding-bottom: var(--s7); }
+.ref-results[hidden] { display: none; }
+.ref-rights, .ref-others { margin-top: var(--s7); max-width: 44em; }

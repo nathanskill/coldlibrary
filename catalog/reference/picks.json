@@ -1,0 +1,9 @@
+{
+  "_about": "The four entries each category card on /reference shows first, chosen by the librarian. Repository names; anything not shelved is skipped and the card fills up by stars.",
+  "literature": ["chinese-poetry/chinese-poetry", "garychowcmu/daizhigev20", "PerseusDL/canonical-greekLit", "COST-ELTeC/ELTeC-eng"],
+  "faith": ["cbeta-org/xml-p5", "suttacentral/sc-data", "Sefaria/Sefaria-Export", "Clear-Bible/macula-hebrew"],
+  "history": ["aourednik/historical-basemaps", "isawnyu/pleiades.datasets", "papyri/idp.data", "unitedstates/congress-legislators"],
+  "aesthetics": ["metmuseum/openaccess", "MuseumofModernArt/collection", "lxgw/LxgwWenKai", "skishore/makemeahanzi"],
+  "music": ["metabrainz/musicbrainz-server", "OpenScore/Lieder", "adactio/TheSession-data", "cuthbertLab/music21"],
+  "tools": ["tesseract-ocr/tesseract", "BYVoid/OpenCC", "mittagessen/kraken", "ProjectMirador/mirador"]
+}

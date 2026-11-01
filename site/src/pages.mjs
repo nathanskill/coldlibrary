@@ -520,7 +520,7 @@ page({
     <p class="lede">${T('Literature, faith, history, thought, beauty and music, each rated within its kind by the librarian and by readers.', '书、经典、历史、美学和唱片。馆员打分，你也可以打分。')}</p>
     <div class="home-search">${searchBox(lang, { big: true })}</div>
     ${metaLine(facts)}
-    <div class="actions">${go(href(lang, 'charts'), T('The charts', '看榜单'))}${go(href(lang, 'open-stacks'), T('The Open Stacks', '开架书库'))}${go(href(lang, 'music'), T('The Record Room', '唱片室'))}</div>
+    <div class="actions">${go(href(lang, 'charts'), T('The charts', '看榜单'))}${go(href(lang, 'open-stacks'), T('The Open Stacks', '开架书库'))}${go(href(lang, 'music'), T('The Record Room', '唱片室'))}${go(href(lang, 'reference'), T('The Reference Room', '资料室'))}</div>
   </div></div>
   <figure class="hero-band photo-dim">${pic({ name: 'lake-library', portrait: 'lake-library-portrait', alt: altOf(lang, 'lake-library'), eager: true, imgCls: 'r-21-9 op-lake' })}<figcaption class="wrap">${T('The library on the lake · generated image', '湖上的图书馆 · 生成图像')}</figcaption></figure>
 </section>`;

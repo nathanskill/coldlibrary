@@ -19,6 +19,7 @@ import { emitOutputs } from './src/outputs.mjs';
 import { checkStacks } from '../tools/stacks-check.mjs';
 import { loadCatalog, rateIds } from './src/catalog.mjs';
 import { ratePages } from './src/rate/pages.mjs';
+import { loadReference, referencePages, referenceIndex } from './src/reference.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, '..');
@@ -52,7 +53,9 @@ const open = loadStacks(root);
 try { const r = checkStacks(root); const n = (r && (r.errors || r.problems) || []).length; const wn = (r && r.warnings || []).length; console.log(`stacks-check: ${n} problem(s), ${wn} warning(s)`); } catch (e) { console.warn('stacks-check could not run: ' + e.message); }
 // The rated catalogue (2026-10-15): scores on works, book entries and albums.
 const cat = loadCatalog(root, open);
-const ctx = { root, projects, items, log, tests, open, cat };
+// The Reference Room (2026-11-01): open resources on GitHub, written by tools/reference/collect.mjs.
+const ref = loadReference(root);
+const ctx = { root, projects, items, log, tests, open, cat, ref };
 // The API only accepts ids and people listed in api/_lib/rate-ids.json (tools/rate-ids.mjs writes it).
 try {
   const want = JSON.stringify(rateIds(cat, open));
@@ -60,7 +63,7 @@ try {
   if (want !== have) console.warn('rate-ids: api/_lib/rate-ids.json is out of date; run node tools/rate-ids.mjs');
 } catch (e) { console.warn('rate-ids could not be checked: ' + e.message); }
 
-const all = [...PAGES, ...items.map(itemPage), ...stackPages(ctx), ...workPages(ctx), ...ratePages(ctx)];
+const all = [...PAGES, ...items.map(itemPage), ...stackPages(ctx), ...workPages(ctx), ...ratePages(ctx), ...referencePages(ctx)];
 const seen = new Set();
 for (const p of all) { if (seen.has(p.slug)) throw new Error(`two pages claim the slug "${p.slug}"`); seen.add(p.slug); }
 
@@ -146,6 +149,9 @@ writeFileSync(join(dist, 'open-stacks/catalog.json'), JSON.stringify({ entries: 
   return { i: e.id, t: [r.title.orig, r.title.en, r.title.zh].filter((x, k, a) => x && a.indexOf(x) === k).join(' / '), a: p ? [p.orig, p.en, p.zh].filter((x, k, a) => x && a.indexOf(x) === k).join(' / ') : '', y: r.year };
 }) }) + '\n');
 
+// Search data for the Reference Room, read by reference.js on /reference.
+if (ref.entries.length) { mkdirSync(join(dist, 'reference'), { recursive: true }); writeFileSync(join(dist, 'reference/index.json'), JSON.stringify(referenceIndex(ref)) + '\n'); }
+
 writeFileSync(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...urls, ...extraUrls].map((u) => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: ${SITE}/sitemap.xml\n`);
 
@@ -153,4 +159,4 @@ writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api
 mkdirSync(join(dist, 'spec/v0.1'), { recursive: true });
 copyFileSync(join(root, 'spec/v0.1/core.schema.json'), join(dist, 'spec/v0.1/core.schema.json'));
 
-console.log(`built ${pages} pages (${open.works.length} works, ${open.plates.length} plates, ${cat.books.length} books, ${cat.albums.length} albums) → ${dist}`);
+console.log(`built ${pages} pages (${open.works.length} works, ${open.plates.length} plates, ${cat.books.length} books, ${cat.albums.length} albums, ${ref.entries.length} reference entries) → ${dist}`);

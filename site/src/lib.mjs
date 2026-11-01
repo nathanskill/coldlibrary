@@ -68,17 +68,18 @@ export const metaLine = (parts, cls = 'meta') => `<p class="${cls}">${parts.filt
 
 // ---------- floors: the directory is an optional delight; the header, menu and footer do the real work ----------
 export const FLOORS = [
-  { code: '12', slug: 'about', en: 'About the library', zh: '关于这座馆', what_en: 'Why it is called a cold library, and the log.', what_zh: '为什么叫冷冻图书馆，以及馆务日志。' },
-  { code: '11', slug: 'rules', en: 'House Rules & Ledger', zh: '馆规与账本', what_en: 'What we will never do, and every cost.', what_zh: '我们永远不会做的事，和每一笔开支。' },
-  { code: '10', slug: 'librarians', en: 'Librarians', zh: '馆员', what_en: 'Who keeps this place. A card in one minute.', what_zh: '谁在照看这里。一分钟领一张馆员证。' },
-  { code: '9', slug: 'wardens', en: 'Wardens', zh: '守馆人', what_en: 'The AI at each door, and its trial.', what_zh: '每扇门口的 AI，和它的考验。' },
-  { code: '8', slug: 'exhibits', en: 'Exhibits', zh: '展位', what_en: 'Perpetual exhibits for projects and life works.', what_zh: '给项目和一生作品的永续展位。' },
-  { code: '7', slug: 'plaques', en: 'Plaques', zh: '铭牌', what_en: 'Perpetual plaques for people, living or not.', what_zh: '给人的永续铭牌，在世与否都可以。' },
-  { code: '6', slug: 'memorial', en: 'Memorial', zh: '纪念', what_en: 'Exhibits, plaques and lamps for the makers.', what_zh: '展位、铭牌，和为作者点的灯。' },
-  { code: '5', slug: 'collect', en: 'Collection Desk', zh: '领取处', what_en: 'Someone left you something? Start here.', what_zh: '有人给你留了东西？从这里开始。' },
-  { code: '4', slug: 'accession', en: 'Front Desk', zh: '前台', what_en: 'Hang your own exhibit or plaque.', what_zh: '挂上你自己的展位或铭牌。' },
-  { code: '3', slug: 'music', en: 'Record Room', zh: '唱片室', what_en: 'Albums from every continent, rated.', what_zh: '来自各大洲的专辑，都有评分。' },
-  { code: '2', slug: 'books', en: 'Catalogue', zh: '书目', what_en: 'Books rated without their text: scripture, history, beauty, novels.', what_zh: '只收书目和评分的书：经典、历史、美学、小说。' },
+  { code: '13', slug: 'about', en: 'About the library', zh: '关于这座馆', what_en: 'Why it is called a cold library, and the log.', what_zh: '为什么叫冷冻图书馆，以及馆务日志。' },
+  { code: '12', slug: 'rules', en: 'House Rules & Ledger', zh: '馆规与账本', what_en: 'What we will never do, and every cost.', what_zh: '我们永远不会做的事，和每一笔开支。' },
+  { code: '11', slug: 'librarians', en: 'Librarians', zh: '馆员', what_en: 'Who keeps this place. A card in one minute.', what_zh: '谁在照看这里。一分钟领一张馆员证。' },
+  { code: '10', slug: 'wardens', en: 'Wardens', zh: '守馆人', what_en: 'The AI at each door, and its trial.', what_zh: '每扇门口的 AI，和它的考验。' },
+  { code: '9', slug: 'exhibits', en: 'Exhibits', zh: '展位', what_en: 'Perpetual exhibits for projects and life works.', what_zh: '给项目和一生作品的永续展位。' },
+  { code: '8', slug: 'plaques', en: 'Plaques', zh: '铭牌', what_en: 'Perpetual plaques for people, living or not.', what_zh: '给人的永续铭牌，在世与否都可以。' },
+  { code: '7', slug: 'memorial', en: 'Memorial', zh: '纪念', what_en: 'Exhibits, plaques and lamps for the makers.', what_zh: '展位、铭牌，和为作者点的灯。' },
+  { code: '6', slug: 'collect', en: 'Collection Desk', zh: '领取处', what_en: 'Someone left you something? Start here.', what_zh: '有人给你留了东西？从这里开始。' },
+  { code: '5', slug: 'accession', en: 'Front Desk', zh: '前台', what_en: 'Hang your own exhibit or plaque.', what_zh: '挂上你自己的展位或铭牌。' },
+  { code: '4', slug: 'music', en: 'Record Room', zh: '唱片室', what_en: 'Albums from every continent, rated.', what_zh: '来自各大洲的专辑，都有评分。' },
+  { code: '3', slug: 'books', en: 'Catalogue', zh: '书目', what_en: 'Books rated without their text: scripture, history, beauty, novels.', what_zh: '只收书目和评分的书：经典、历史、美学、小说。' },
+  { code: '2', slug: 'reference', en: 'Reference Room', zh: '资料室', what_en: 'Open texts, data, typefaces and tools on GitHub, with their licences.', what_zh: 'GitHub 上的开放文本、数据、字体和工具，写明许可证。' },
   { code: '1', slug: 'open-stacks', en: 'Open Stacks', zh: '开架书库', what_en: 'Real works anyone may read, copy and keep.', what_zh: '谁都能读、能抄、能带走的真实作品。' },
   { code: 'M', slug: 'charts', en: 'Charts', zh: '榜单', what_en: 'Everything ranked within its kind.', what_zh: '一切都按其类排了名。' },
   { code: 'L', slug: '', en: 'Lobby', zh: '大厅', what_en: 'Where everyone comes in from the cold.', what_zh: '从外面的冷里走进来的地方。' },
@@ -92,7 +93,7 @@ export const LOGO = `<svg class="logo-mark" viewBox="0 0 40 28" aria-hidden="tru
 export const ICON_SEARCH = `<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.9" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>`;
 const ICON_THEME = `<svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="5.6" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M8 2.4a5.6 5.6 0 0 1 0 11.2z" fill="currentColor"/></svg>`;
 
-const NAV = [['charts', 'Charts', '榜单'], ['open-stacks', 'Open Stacks', '开架书库'], ['books', 'Catalogue', '书目'], ['music', 'Record Room', '唱片室'], ['memorial', 'Memorial', '纪念']];
+const NAV = [['charts', 'Charts', '榜单'], ['open-stacks', 'Open Stacks', '开架书库'], ['books', 'Catalogue', '书目'], ['music', 'Record Room', '唱片室'], ['reference', 'Reference Room', '资料室'], ['memorial', 'Memorial', '纪念']];
 const MORE = [['exhibits', 'Exhibits', '展位'], ['plaques', 'Plaques', '铭牌'], ['wardens', 'Wardens', '守馆人'], ['accession', 'Front Desk', '前台'], ['collect', 'Collection Desk', '领取处'], ['vault', 'Cold Vault', '冷库'], ['librarians', 'Librarians', '馆员'], ['rules', 'House rules', '馆规'], ['about', 'About', '关于']];
 
 export function directoryBoard(lang, slug) {
@@ -144,7 +145,7 @@ export function footer(lang) {
   <div class="wrap">
     <div class="grid foot-cols">
       <div class="foot-brand"><a class="brand" href="${href(lang, '')}">${LOGO}<span>${T('Cold Library', '冷冻图书馆')}</span></a><p>${T('We keep the library, never the keys.', '我们守着图书馆，从不保管钥匙。')}</p></div>
-      <div class="foot-col"><h2>${T('Collections', '馆藏')}</h2><ul>${li('charts', 'Charts', '榜单')}${li('open-stacks', 'Open Stacks', '开架书库')}${li('books', 'Catalogue', '书目')}${li('music', 'Record Room', '唱片室')}${li('open-stacks/claude', 'Claude’s shelf', 'Claude 的书架')}${li('open-stacks/plates', 'Plates', '图版')}</ul></div>
+      <div class="foot-col"><h2>${T('Collections', '馆藏')}</h2><ul>${li('charts', 'Charts', '榜单')}${li('open-stacks', 'Open Stacks', '开架书库')}${li('books', 'Catalogue', '书目')}${li('music', 'Record Room', '唱片室')}${li('reference', 'Reference Room', '资料室')}${li('open-stacks/claude', 'Claude’s shelf', 'Claude 的书架')}${li('open-stacks/plates', 'Plates', '图版')}</ul></div>
       <div class="foot-col"><h2>${T('Memorial', '纪念')}</h2><ul>${li('memorial', 'Memorial hall', '纪念')}${li('exhibits', 'Exhibits', '展位')}${li('plaques', 'Plaques', '铭牌')}${li('wardens', 'Wardens', '守馆人')}${li('accession', 'Front Desk', '前台')}${li('collect', 'Collection Desk', '领取处')}${li('vault', 'Cold Vault', '冷库')}</ul></div>
       <div class="foot-col"><h2>${T('About', '关于')}</h2><ul>${li('about', 'About the library', '关于这座馆')}${li('rules', 'House rules & ledger', '馆规与账本')}${li('librarians', 'Librarians', '馆员')}<li><button class="linkish" type="button" data-open-directory aria-controls="directory">${T('Floor directory', '楼层指引')}</button></li><li><a href="${lang === 'en' ? '/en' : ''}/open-stacks/feed.xml">${T('New accessions (feed)', '新入藏（订阅）')}</a></li><li><a href="${REPO}">${T('Source on GitHub', 'GitHub 源代码')}</a></li></ul></div>
     </div>
