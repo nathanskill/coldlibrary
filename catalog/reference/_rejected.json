@@ -26,6 +26,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "10291124jcjc-dotcom/cleopatra-modern-life",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "1032740078/Ashare-nodejs-ts",
       "reason": "stock market data",
       "on": "2026-11-01"
@@ -58,6 +63,11 @@
     {
       "repo": "10up/simple-podcasting",
       "reason": "WordPress Gutenberg editor tooling, not Project Gutenberg",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "11000100111010101100111/SpringBoot-Vue-libraryManagerSystem",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -168,6 +178,11 @@
     {
       "repo": "AaronDavidNewman/Smoosic",
       "reason": "niche or overlapping notation helper (main notation tools kept)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "AASJournals/AASTeX60",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -541,6 +556,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "andy8609/audio_processor",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "anewtypeofinterference/Optician-Sans",
       "reason": "Latin/programming typeface beyond the cap of about 25; kept better-known families",
       "on": "2026-11-01"
@@ -628,6 +648,11 @@
     {
       "repo": "arukaraz/synthseek",
       "reason": "music discovery / library automation for personal collections",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "asadshah0307589/Kingdom-Come-2-Savior-Suite",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -888,6 +913,11 @@
     {
       "repo": "birdears/birdears",
       "reason": "practice or toy app, low reference value",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "birros/web-archives",
+      "reason": "general offline web-archive reader",
       "on": "2026-11-01"
     },
     {
@@ -1236,6 +1266,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "cheshire137/nash-grave-plot",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "chinese-poetry/chinese-poetry-npm",
       "reason": "npm wrapper of chinese-poetry; the data repository is shelved",
       "on": "2026-11-01"
@@ -1333,6 +1368,11 @@
     {
       "repo": "clauseggers/Inknut-Antiqua",
       "reason": "Latin display font; Latin fonts kept to a short list",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "cloudberry-contrib/cbcopy",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -1538,6 +1578,11 @@
     {
       "repo": "Cyletix/CyIME",
       "reason": "Chinese input method, general-purpose",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "CynthiaSuwi/ASR-for-Chinese-Pipeline",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -2296,6 +2341,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "fayechenlong/plumelog",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "fblupi/3DCurator",
       "reason": "narrow research software",
       "on": "2026-11-01"
@@ -2481,6 +2531,16 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "FoxBary/smallvps",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "fqyy360t/ai-director-video-commentary",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "franklioxygen/v2s",
       "reason": "speech recognition / transcription / meeting tool, generic AI",
       "on": "2026-11-01"
@@ -2556,6 +2616,16 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "ganjoor/ganjoor-musueum",
+      "reason": "thin client; ganjoor/desktop is shelved",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "ganjoor/ganjoor-tex",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "ganjoor/GanjoorService",
       "reason": "website backend code, not the poetry texts themselves",
       "on": "2026-11-01"
@@ -2578,6 +2648,11 @@
     {
       "repo": "general-zhu1944/GWRAS",
       "reason": "weather radar software",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "geopacha/DeepAndes",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -2931,6 +3006,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "haigechanlun/chanlun_auto_trading",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "hal9ai/awesome-dataviz",
       "reason": "generic data-visualization list",
       "on": "2026-11-01"
@@ -3178,6 +3258,11 @@
     {
       "repo": "hunterhug/china-history",
       "reason": "includes modern vernacular translations of unclear rights; no licence",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "hxgdzyuyi/tang_poetry",
+      "reason": "duplicate of chinese-poetry data",
       "on": "2026-11-01"
     },
     {
@@ -3516,8 +3601,18 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "jakethakur/antorax",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "jamesbrindle/YTMusicUploader",
       "reason": "music discovery / library automation for personal collections",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "jamezmca/fantacss",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -3563,6 +3658,11 @@
     {
       "repo": "jaywcjlove/svgtofont",
       "reason": "icon, emoji or symbol font kit",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "jbiaojerry/ebook-treasure-chest",
+      "reason": "links to copyrighted e-book downloads",
       "on": "2026-11-01"
     },
     {
@@ -3783,6 +3883,11 @@
     {
       "repo": "justfont/Huninn",
       "reason": "variant or near-duplicate of an accepted typeface family",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "justjavac/esowiki",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -4016,6 +4121,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "kuangdd2024/auto-video-generateor",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "kujirahand/EJDict",
       "reason": "general bilingual dictionary, off subject",
       "on": "2026-11-01"
@@ -4113,6 +4223,11 @@
     {
       "repo": "ldqk/Masuit.Tools",
       "reason": "general programming utility library",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "LearnPrompt/laoyeye",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -4526,6 +4641,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "marcopatzelt/brunnfeld-agentic-world",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "MarcTheSpark/scamp",
       "reason": "music programming / live-coding language, not reference",
       "on": "2026-11-01"
@@ -4608,6 +4728,11 @@
     {
       "repo": "mbreuss/diffusion-literature-for-robotics",
       "reason": "scientific literature tooling or paper list, off subject",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "Mbucari/GEHistoricalImagery",
+      "reason": "downloads imagery from commercial map services",
       "on": "2026-11-01"
     },
     {
@@ -5301,6 +5426,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "niuniu-869/guwenguanzhi",
+      "reason": "modern translations and notes of unclear origin",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "nix-community/nix-init",
       "reason": "Python packaging tooling (python-poetry), not poetry",
       "on": "2026-11-01"
@@ -5373,6 +5503,11 @@
     {
       "repo": "NoorBayan/Noor",
       "reason": "research platform overlapping the Quranic treebank already accepted",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "norybaby/poet",
+      "reason": "poetry generation model",
       "on": "2026-11-01"
     },
     {
@@ -5541,6 +5676,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "OpenITI/Annotation",
+      "reason": "project notes, no content",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "openjournals/joss",
       "reason": "off subject: scholarly open-access publishing, science or general repository software",
       "on": "2026-11-01"
@@ -5628,6 +5768,11 @@
     {
       "repo": "origin-brain/beat-ai",
       "reason": "AI tutorial, off subject",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "OrsoEric/Gridfinity-medieval-tiles",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -5751,6 +5896,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "patrick-morrison/qgis_sea_level_tool",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "patrickvorgers/Home-Assistant-Import-Energy-Data",
       "reason": "home automation",
       "on": "2026-11-01"
@@ -5768,6 +5918,11 @@
     {
       "repo": "pawamoy/copier-poetry",
       "reason": "Python packaging tooling (python-poetry), not poetry",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "PawLaboratory/FurryArtStudio",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -5833,6 +5988,11 @@
     {
       "repo": "pierpaolosichera/NormaTEI",
       "reason": "small utility",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "pilgrimage233/Minecraft-Rcon-Manage",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -6131,6 +6291,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "RayXBuilds/Machine-Learning-Papers",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "rbanffy/3270font",
       "reason": "novelty or gimmick font",
       "on": "2026-11-01"
@@ -6158,6 +6323,11 @@
     {
       "repo": "rektdeckard/departure-mono",
       "reason": "pixel/bitmap font; only Ark Pixel and Fusion Pixel kept for CJK coverage",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "remance/Royal-Ordains",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -6323,6 +6493,11 @@
     {
       "repo": "ropensci-archive/fulltext",
       "reason": "off subject: scholarly open-access publishing, science or general repository software",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "ropensci-archive/rperseus",
+      "reason": "archived",
       "on": "2026-11-01"
     },
     {
@@ -6756,6 +6931,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "Shef-AIRE/llms_post-ocr_correction",
+      "reason": "research code for one paper",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "shenmin/cassotis-ime",
       "reason": "Chinese input method, general-purpose",
       "on": "2026-11-01"
@@ -6901,8 +7081,18 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "small-bears/artifact",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "small-bears/culture",
       "reason": "small demo, student project or personal toy",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "smart-open/skills",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -6968,6 +7158,11 @@
     {
       "repo": "solivr/tf-crnn",
       "reason": "generic or research-paper HTR/OCR model code, not a maintained tool for historical documents",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "somastllc/somali-nlp-corpus",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -7048,6 +7243,11 @@
     {
       "repo": "sreegjl/timelines",
       "reason": "general note-timeline app (TimelineJS kept)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "sslarch/sslarch.github.io",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -7138,6 +7338,11 @@
     {
       "repo": "Sudo-Biao/Chinese-Metaphysics-Platform",
       "reason": "fortune-telling with LLM",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "suifengqjn/videoWater",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -7286,6 +7491,16 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "tesselle/kairos",
+      "reason": "moved to Codeberg",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "tesselle/tabula",
+      "reason": "moved to Codeberg",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "TezRomacH/python-package-template",
       "reason": "Python packaging tooling (python-poetry), not poetry",
       "on": "2026-11-01"
@@ -7308,6 +7523,11 @@
     {
       "repo": "The-Quran-Project/Quran-API",
       "reason": "duplicate Quran API",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "The-Swarm-Corporation/ATLAS",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -7493,6 +7713,11 @@
     {
       "repo": "trufont/trufont",
       "reason": "font engineering tool beyond the few kept (fonttools, FontForge, Fontra, AFDKO)",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "trymnilsen/kingdomarchitect",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -7956,6 +8181,16 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "wikimedia/wikimedia-ocr",
+      "reason": "moved to Wikimedia GitLab",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "wikimedia/ws-export",
+      "reason": "moved to Wikimedia GitLab",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "willianjusten/awesome-audio-visualization",
       "reason": "audio research list, generic or LLM-focused",
       "on": "2026-11-01"
@@ -8041,6 +8276,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "wu-shaobing/go_oceanengine_vue",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "wuye9036/CppTemplateTutorial",
       "reason": "general software or AI, unrelated to classical Chinese",
       "on": "2026-11-01"
@@ -8066,6 +8306,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "xiaofengShi/CHINESE-OCR",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "xiaopangxia/TCM-Ancient-Books",
       "reason": "medical subset overlapping daizhigev20; no source or licence notes",
       "on": "2026-11-01"
@@ -8073,6 +8318,11 @@
     {
       "repo": "ximeiorg/Xime",
       "reason": "Chinese input method, general-purpose",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "xinyi-code/Chinese-Text-Classification",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -8103,6 +8353,11 @@
     {
       "repo": "xxjwxc/uber_go_guide_cn",
       "reason": "general software or AI, unrelated to classical Chinese",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "xxnuo/jizhi-mod",
+      "reason": "browser new-tab extension",
       "on": "2026-11-01"
     },
     {
@@ -8148,6 +8403,11 @@
     {
       "repo": "yangjianxin1/GPT2-chitchat",
       "reason": "general Chinese NLP tool or dataset",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "yangqian2024/PowerB",
+      "reason": "off subject (general software, game, AI or business tool)",
       "on": "2026-11-01"
     },
     {
@@ -8226,6 +8486,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "ynazar1/Arh",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "yogeshhk/BharatVidya",
       "reason": "personal study slides",
       "on": "2026-11-01"
@@ -8236,8 +8501,18 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "yotamberk/timeline-plus",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "you-dont-need/You-Dont-Need-JavaScript",
       "reason": "general programming or web-development software, not on subject",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "youyuge34/Poems_generator_Keras",
+      "reason": "poetry generation model",
       "on": "2026-11-01"
     },
     {
@@ -8386,6 +8661,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "zhoutaoo/SpringCloud",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "zhugecaomao/ALTRun",
       "reason": "general desktop launcher",
       "on": "2026-11-01"
@@ -8426,6 +8706,11 @@
       "on": "2026-11-01"
     },
     {
+      "repo": "zjinhu/SwiftLog",
+      "reason": "off subject (general software, game, AI or business tool)",
+      "on": "2026-11-01"
+    },
+    {
       "repo": "zjnolen/PopGLen",
       "reason": "bioinformatics pipeline",
       "on": "2026-11-01"
@@ -8448,6 +8733,11 @@
     {
       "repo": "ZWolken/PingFang",
       "reason": "redistributes proprietary or commercial fonts without permission",
+      "on": "2026-11-01"
+    },
+    {
+      "repo": "zzhorc/oneiro",
+      "reason": "browser new-tab extension",
       "on": "2026-11-01"
     },
     {

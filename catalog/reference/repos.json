@@ -3092,7 +3092,7 @@
         "annotations",
         "layered-text"
       ],
-      "homepage": "",
+      "homepage": "https://toolkit.openpecha.org",
       "added": "2026-11-01",
       "checked": "2026-11-01"
     },
@@ -4664,9 +4664,9 @@
       "rights": "permissive",
       "stars": 2500,
       "updated": "2023-01-25",
-      "archived": false,
+      "archived": true,
       "topics": [],
-      "homepage": "",
+      "homepage": "http://fonts.google.com/noto",
       "added": "2026-11-01",
       "checked": "2026-11-01"
     },
@@ -7013,7 +7013,7 @@
       "updated": "2026-10-19",
       "archived": false,
       "topics": [],
-      "homepage": "",
+      "homepage": "http://www.frescobaldi.org/",
       "added": "2026-11-01",
       "checked": "2026-11-01"
     },
@@ -8093,7 +8093,7 @@
         "image-processing",
         "tesseract"
       ],
-      "homepage": "",
+      "homepage": "http://ocrmypdf.readthedocs.io/",
       "added": "2026-11-01",
       "checked": "2026-11-01"
     },
@@ -10825,6 +10825,728 @@
         "kunten"
       ],
       "homepage": "https://typst.app/universe/package/hundouk",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000417",
+      "repo": "OpenITI/RELEASE",
+      "cat": "literature",
+      "kind": "text",
+      "note": {
+        "en": "Versioned releases of the OpenITI corpus of premodern Arabic and Persian texts, with metadata.",
+        "zh": "OpenITI 前现代阿拉伯语、波斯语文本语料的历次发布版，附元数据。"
+      },
+      "desc": "OpenITI releases",
+      "license": null,
+      "rights": "unstated",
+      "stars": 67,
+      "updated": "2026-02-09",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000418",
+      "repo": "kanripo/KR-Catalog",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Catalogue files of the Kanseki Repository, a collection of premodern Chinese texts.",
+        "zh": "漢籍リポジトリ（Kanseki Repository）的各种汉籍目录文件。"
+      },
+      "desc": "Catalog files for Kanseki Repository 各種漢籍目録",
+      "license": null,
+      "rights": "unstated",
+      "stars": 59,
+      "updated": "2026-10-06",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000419",
+      "repo": "cis-india/Wikisource-Reader",
+      "cat": "literature",
+      "kind": "tool",
+      "note": {
+        "en": "Android app for reading public-domain and freely licensed books from Wikisource, in Indian and other languages.",
+        "zh": "读维基文库公版和自由授权书籍的安卓应用，支持多种印度语言。"
+      },
+      "desc": "Android app to read public domain and freely licensed works from the Wikisource project.",
+      "license": "Apache-2.0",
+      "rights": "permissive",
+      "stars": 40,
+      "updated": "2026-10-29",
+      "archived": false,
+      "topics": [
+        "reader",
+        "wikisource",
+        "android",
+        "books"
+      ],
+      "homepage": "https://cis-india.github.io/wikisource-reader-app/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000420",
+      "repo": "lagrange-landada/shuowen",
+      "cat": "literature",
+      "kind": "text",
+      "note": {
+        "en": "A digital text of Duan Yucai's Qing-dynasty commentary on the Shuowen Jiezi dictionary.",
+        "zh": "段玉裁《说文解字注》的数字文本。"
+      },
+      "desc": "说文解字段注（LTSC）",
+      "license": null,
+      "rights": "unstated",
+      "stars": 40,
+      "updated": "2026-08-17",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000421",
+      "repo": "KaijieMo-kj/Ancient-Chinese-Allusion-Resource-Database",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "A database of allusions in classical Chinese poetry, built to help recognise them automatically.",
+        "zh": "古代汉语典故资源库，收集诗文中的典故，供自动识别研究。"
+      },
+      "desc": "This project provides an Ancient Chinese Allusion Resource Library to facilitate the automatic analysis of allusions in classical texts and to support research in humanities and language education. ",
+      "license": null,
+      "rights": "unstated",
+      "stars": 28,
+      "updated": "2024-12-27",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000422",
+      "repo": "sveinbjornt/sagadb.org",
+      "cat": "literature",
+      "kind": "text",
+      "note": {
+        "en": "The Icelandic sagas in Old Norse and translation, with the code of the Saga Database site.",
+        "zh": "冰岛萨迦的古诺尔斯语原文与译本，附 Saga Database 网站源码。"
+      },
+      "desc": "Icelandic Saga Database",
+      "license": "BSD-3-Clause",
+      "rights": "permissive",
+      "stars": 25,
+      "updated": "2026-07-24",
+      "archived": false,
+      "topics": [],
+      "homepage": "http://sagadb.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000423",
+      "repo": "nk2028/tshet-uinh-images",
+      "cat": "literature",
+      "kind": "dataset",
+      "note": {
+        "en": "Scans of rhyme dictionaries and rhyme tables of the Qieyun tradition, for historical Chinese phonology.",
+        "zh": "切韵系韵书和韵图的书影，供汉语音韵学研究。"
+      },
+      "desc": "切韻系韻書及韻圖書影 Images of ancient documents of the Qieyun system",
+      "license": null,
+      "rights": "unstated",
+      "stars": 19,
+      "updated": "2025-08-26",
+      "archived": false,
+      "topics": [
+        "classics",
+        "historical-linguistics",
+        "middle-chinese"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000424",
+      "repo": "DILA-edu/cbeta-metadata",
+      "cat": "faith",
+      "kind": "dataset",
+      "note": {
+        "en": "CBETA catalogue metadata: sections, missing characters, authors and translators, dynasties.",
+        "zh": "CBETA 佛典的目录、部类、缺字、作译者和朝代等元数据。"
+      },
+      "desc": "CBETA 的 目錄、部類、缺字、作譯者、朝代等 metadata.",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 22,
+      "updated": "2026-10-10",
+      "archived": false,
+      "topics": [
+        "cbeta",
+        "catalog",
+        "time",
+        "author",
+        "gaiji",
+        "category",
+        "buddhist-sutras",
+        "metadata",
+        "creator"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000425",
+      "repo": "benmarwick/ctv-archaeology",
+      "cat": "history",
+      "kind": "list",
+      "note": {
+        "en": "The CRAN task view for archaeological science: R packages grouped by task.",
+        "zh": "考古科学的 CRAN 任务视图：按用途整理的 R 语言包清单。"
+      },
+      "desc": "CRAN Task View: Archaeological Science",
+      "license": null,
+      "rights": "unstated",
+      "stars": 169,
+      "updated": "2026-02-26",
+      "archived": false,
+      "topics": [
+        "archaeology",
+        "archaeological-science",
+        "r",
+        "cran-task",
+        "data-science",
+        "task-view"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000426",
+      "repo": "SPAAM-community/AncientMetagenomeDir",
+      "cat": "history",
+      "kind": "dataset",
+      "note": {
+        "en": "Community-kept tables of every published ancient metagenomic sample, with site, date and accession.",
+        "zh": "已发表的古代宏基因组样本总表：出土地点、年代和数据编号，社区维护。"
+      },
+      "desc": "Repository containing lists of all published ancient metagenomic  (and related)  samples and libraries",
+      "license": "CC-BY-4.0",
+      "rights": "permissive",
+      "stars": 87,
+      "updated": "2026-10-29",
+      "archived": false,
+      "topics": [
+        "dataset",
+        "metadata",
+        "metagenomics-data",
+        "archaeology",
+        "palaeogenomics",
+        "ancient-dna",
+        "metagenomics",
+        "microbiome",
+        "pathogen",
+        "sedadna"
+      ],
+      "homepage": "http://www.spaam-community.org/AncientMetagenomeDir/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000427",
+      "repo": "josephlewis/leastcostpath",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "R package for modelling likely paths of past movement across a landscape.",
+        "zh": "R 语言包，模拟古人穿越地形时最可能走的路线。"
+      },
+      "desc": "leastcostpath: Modelling Pathways and Movement Potential Within a Landscape",
+      "license": null,
+      "rights": "unstated",
+      "stars": 71,
+      "updated": "2025-06-09",
+      "archived": false,
+      "topics": [
+        "archaeology",
+        "cost-paths",
+        "movement-potential",
+        "cost-surfaces"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000428",
+      "repo": "wenzhenl/wikitimeline",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "Turns Wikipedia articles into interactive timelines so lives and events can be compared side by side.",
+        "zh": "把维基百科条目变成交互时间线，可并排比较人物和事件。"
+      },
+      "desc": "WikiTimeline: Transform Wikipedia articles into interactive timelines where you can compare historical figures/events and discover surprising connections",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 57,
+      "updated": "2025-04-26",
+      "archived": false,
+      "topics": [
+        "ai",
+        "timeline",
+        "wikipedia",
+        "history",
+        "visualization",
+        "wikidata",
+        "chronology",
+        "education"
+      ],
+      "homepage": "https://wiki-timeline.com",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000429",
+      "repo": "ropensci/c14bazAAR",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "R package that downloads radiocarbon dates from many archaeological databases and merges them.",
+        "zh": "R 语言包，从多个考古数据库下载碳十四年代数据并合并整理。"
+      },
+      "desc": "R Package - Download and Prepare C14 Dates from Different Source Databases",
+      "license": "GPL-2.0",
+      "rights": "share-alike",
+      "stars": 33,
+      "updated": "2026-08-10",
+      "archived": false,
+      "topics": [
+        "radiocarbon-dates",
+        "archaeology",
+        "r"
+      ],
+      "homepage": "https://docs.ropensci.org/c14bazAAR",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000430",
+      "repo": "joeroe/stratigraphr",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "R package for archaeological stratigraphy: Harris matrices and chronological sequences.",
+        "zh": "R 语言包，处理考古地层学的哈里斯矩阵和年代序列。"
+      },
+      "desc": "R package for archaeological stratigraphy and chronological sequences",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 32,
+      "updated": "2026-09-03",
+      "archived": false,
+      "topics": [
+        "r",
+        "r-package",
+        "archaeology",
+        "stratigraphy",
+        "radiocarbon-dates",
+        "tidyverse"
+      ],
+      "homepage": "https://stratigraphr.joeroe.io",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000431",
+      "repo": "mpeeples2008/ArchNetSci",
+      "cat": "history",
+      "kind": "text",
+      "note": {
+        "en": "Open online companion to network science in archaeology, with code and worked examples.",
+        "zh": "考古网络分析的开放在线教程，附代码和示例。"
+      },
+      "desc": "Code repository and Bookdown project for Online Companion to Network Science in Archaeology by Tom Brughmans and Matthew A. Peeples (Cambridge Manuals in Archaeology)",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 31,
+      "updated": "2025-02-14",
+      "archived": false,
+      "topics": [
+        "book",
+        "archaeology",
+        "education",
+        "graph-theory",
+        "network",
+        "network-analysis",
+        "spatial",
+        "archaeological-datasets",
+        "archaeological-science",
+        "bookdown-book",
+        "social-network-analysis",
+        "complex-networks",
+        "network-visualization",
+        "uncertainty-quantification"
+      ],
+      "homepage": "https://book.archnetworks.net",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000432",
+      "repo": "nico579/lidar2map",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "Builds offline relief maps from open LiDAR data in 27 countries, for spotting archaeological earthworks.",
+        "zh": "用 27 国开放激光雷达数据做离线地形图，便于发现古代土木遗迹。"
+      },
+      "desc": "Offline archaeological LiDAR maps from open data in 27 countries: bare-earth relief (hillshade, Sky-View Factor, LRM) + IGN raster/vector (France) + OSM, exported for Locus Map / OsmAnd / TwoNav.",
+      "license": "GPL-3.0",
+      "rights": "share-alike",
+      "stars": 23,
+      "updated": "2026-10-20",
+      "archived": false,
+      "topics": [
+        "france",
+        "gdal",
+        "geospatial",
+        "gis",
+        "hillshade",
+        "ign",
+        "lidar",
+        "locus-map",
+        "mbtiles",
+        "offline-maps",
+        "openstreetmap",
+        "osmand",
+        "python",
+        "sky-view-factor",
+        "archaeology"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000433",
+      "repo": "sebastien-plutniak/archeoviz",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "R application for exploring and publishing the spatial data of an archaeological excavation in 3D.",
+        "zh": "R 语言应用，三维浏览和发布考古发掘的空间数据。"
+      },
+      "desc": "Visualisation, Exploration, and Web Communication of Archaeological Spatial Data",
+      "license": "GPL-3.0",
+      "rights": "share-alike",
+      "stars": 22,
+      "updated": "2026-09-16",
+      "archived": false,
+      "topics": [
+        "archaeology",
+        "archeology",
+        "data-visualization",
+        "r",
+        "r-package",
+        "rstats"
+      ],
+      "homepage": "https://archeoviz.hypotheses.org",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000434",
+      "repo": "sebastien-plutniak/archeofrag",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "R package for analysing refitted fragments to test the spatial layers of an archaeological site.",
+        "zh": "R 语言包，用可拼合的碎片分析遗址地层的空间关系。"
+      },
+      "desc": "R package for Refitting and Spatial Analysis in Archaeology",
+      "license": "GPL-3.0",
+      "rights": "share-alike",
+      "stars": 22,
+      "updated": "2026-09-30",
+      "archived": false,
+      "topics": [
+        "archaeology",
+        "archaeological-science",
+        "archaeological-objects",
+        "network-analysis",
+        "fragmentation"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000435",
+      "repo": "alexandrosm/Demograph",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "Interactive remake of the 1931 Histomap: four thousand years of world history as streams of power.",
+        "zh": "1931 年《世界史流图》的交互版，把四千年世界史画成势力消长的河流。"
+      },
+      "desc": "Interactive remake of Sparks's 1931 Histomap: 4,000 years of world history as a population stream graph (Cliopatria x HYDE), with civilizational coloring, geographic focus, and data-driven event annotations.",
+      "license": "CC0-1.0",
+      "rights": "public-domain",
+      "stars": 21,
+      "updated": "2026-07-03",
+      "archived": false,
+      "topics": [
+        "d3js",
+        "data-visualization",
+        "demography",
+        "historical-gis",
+        "history",
+        "streamgraph"
+      ],
+      "homepage": "https://alexandrosm.github.io/Demograph/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000436",
+      "repo": "ISAAKiel/mortAAR",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "R package for building life tables from archaeological burial data.",
+        "zh": "R 语言包，用考古墓葬数据计算生命表和死亡率。"
+      },
+      "desc": "R Package - Analysis of Archaeological Mortality Data",
+      "license": "GPL-3.0",
+      "rights": "share-alike",
+      "stars": 19,
+      "updated": "2026-05-02",
+      "archived": false,
+      "topics": [
+        "r",
+        "archaeology",
+        "anthropology",
+        "statistics",
+        "demography"
+      ],
+      "homepage": "https://isaakiel.github.io/mortAAR/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000437",
+      "repo": "people3k/p3k14c",
+      "cat": "history",
+      "kind": "dataset",
+      "note": {
+        "en": "R package of the p3k14c database of archaeological radiocarbon dates from around the world.",
+        "zh": "p3k14c 全球考古碳十四年代数据库的 R 语言包。"
+      },
+      "desc": "The Official R package for p3k14c",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 19,
+      "updated": "2025-09-02",
+      "archived": false,
+      "topics": [
+        "archaeology",
+        "r",
+        "radiocarbon",
+        "radiocarbon-dates",
+        "rstats"
+      ],
+      "homepage": "https://p3k14c.org/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000438",
+      "repo": "renevoorburg/omnesviae",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "Route planner over the Roman road network of the Tabula Peutingeriana.",
+        "zh": "按《波伊廷格古地图》的罗马道路网规划路线的工具。"
+      },
+      "desc": "omnesviae roman route planner",
+      "license": null,
+      "rights": "unstated",
+      "stars": 16,
+      "updated": "2026-07-05",
+      "archived": false,
+      "topics": [
+        "archaeology",
+        "romans",
+        "routeplanner"
+      ],
+      "homepage": "https://omnesviae.org/",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000439",
+      "repo": "joeroe/era",
+      "cat": "history",
+      "kind": "tool",
+      "note": {
+        "en": "R package for year-based time scales: BCE/CE, BP and other calendar eras, with conversion.",
+        "zh": "R 语言包，处理公元前后、距今等纪年体系并互相换算。"
+      },
+      "desc": "R package for year-based time scales",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 15,
+      "updated": "2026-07-30",
+      "archived": false,
+      "topics": [
+        "r",
+        "r-package",
+        "archaeology",
+        "geology",
+        "paleontology",
+        "paleoclimate",
+        "vctrs"
+      ],
+      "homepage": "https://era.joeroe.io",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000440",
+      "repo": "kfcd/chaizi",
+      "cat": "aesthetics",
+      "kind": "dataset",
+      "note": {
+        "en": "A dictionary of how 17,803 Chinese characters break into components, in traditional and simplified versions.",
+        "zh": "汉语拆字字典：17,803 个汉字的部件拆法，分繁体、简体两版。"
+      },
+      "desc": "漢語拆字字典",
+      "license": "NOASSERTION",
+      "rights": "custom",
+      "stars": 828,
+      "updated": "2017-09-01",
+      "archived": false,
+      "topics": [
+        "chinese",
+        "dictionaries",
+        "chinese-characters",
+        "hanzi",
+        "radicals",
+        "strokes",
+        "components",
+        "creative-commons"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000441",
+      "repo": "dainst/idai-field",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Field recording app from the German Archaeological Institute for excavations, finds and surveys, working offline.",
+        "zh": "德国考古研究院的田野记录软件，记录发掘、遗物和调查，可离线用。"
+      },
+      "desc": "Archaeological Field Recording App by the German Archaeological Institute and the Head Office of the GBV Common Library Network",
+      "license": "Apache-2.0",
+      "rights": "permissive",
+      "stars": 53,
+      "updated": "2026-10-29",
+      "archived": false,
+      "topics": [
+        "archaeology",
+        "data-recording",
+        "excavation"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000442",
+      "repo": "matgrioni/betacode",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Python package converting Greek between Beta Code, used in older classical corpora, and Unicode.",
+        "zh": "在 Beta Code 和统一码之间转换希腊文的 Python 包，用于旧古典语料。"
+      },
+      "desc": "A small python package to flexibly convert from betacode to unicode and back.",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 21,
+      "updated": "2026-08-31",
+      "archived": false,
+      "topics": [
+        "unicode",
+        "betacode",
+        "greek",
+        "nlp",
+        "classics"
+      ],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000443",
+      "repo": "surf3s/E5",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Configurable data-entry program for recording finds and observations on archaeological excavations.",
+        "zh": "可配置的考古发掘数据录入程序，记录遗物和现场观察。"
+      },
+      "desc": "Configurable data entry program for archaeology",
+      "license": "MIT",
+      "rights": "permissive",
+      "stars": 19,
+      "updated": "2026-07-24",
+      "archived": false,
+      "topics": [],
+      "homepage": "",
+      "added": "2026-11-01",
+      "checked": "2026-11-01"
+    },
+    {
+      "id": "R-000444",
+      "repo": "wikisource/ia-upload",
+      "cat": "tools",
+      "kind": "tool",
+      "note": {
+        "en": "Moves scanned books from the Internet Archive to Wikimedia Commons for transcription on Wikisource.",
+        "zh": "把互联网档案馆的扫描书搬到维基共享资源，供维基文库校录。"
+      },
+      "desc": "Tool to import files from the Internet Archive to Wikimedia Commons.",
+      "license": null,
+      "rights": "unstated",
+      "stars": 18,
+      "updated": "2026-10-29",
+      "archived": false,
+      "topics": [
+        "internet-archive",
+        "wikimedia-commons",
+        "wikisource",
+        "djvu",
+        "pdf"
+      ],
+      "homepage": "https://ia-upload.wmcloud.org",
       "added": "2026-11-01",
       "checked": "2026-11-01"
     }
