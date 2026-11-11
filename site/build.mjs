@@ -9,7 +9,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, statSync, copyFileSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { layout, SITE, href, resetGlyphs, takeGlyphs } from './src/lib.mjs';
+import { layout, SITE, REPO, href, resetGlyphs, takeGlyphs } from './src/lib.mjs';
 import { loadStacks } from './src/stacks.mjs';
 import { PAGES, itemPage } from './src/pages.mjs';
 import { workPages } from './src/stacks/work.mjs';
@@ -153,6 +153,35 @@ writeFileSync(join(dist, 'open-stacks/catalog.json'), JSON.stringify({ entries: 
 if (ref.entries.length) { mkdirSync(join(dist, 'reference'), { recursive: true }); writeFileSync(join(dist, 'reference/index.json'), JSON.stringify(referenceIndex(ref)) + '\n'); }
 
 writeFileSync(join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...urls, ...extraUrls].map((u) => `  <url><loc>${u}</loc></url>`).join('\n')}\n</urlset>\n`);
+// llms.txt: what this site is, for language models (llmstxt.org). Counts come from the catalogue, so they never go stale.
+writeFileSync(join(dist, 'llms.txt'), `# 冷冻图书馆 Cold Library
+
+> A quiet, non-profit library at ${SITE} that rates what lasts and remembers who made it. 一座非营利的图书馆：给留得下来的东西打分，也记住做出它们的人。It never holds keys, files or money, and executes nothing. Chinese at /, English at /en/.
+
+## Collections 馆藏
+
+- [Open Stacks 开架书库](${SITE}/open-stacks): ${open.works.length} public-domain and openly licensed works to read in full, each with its rights basis, source, a translation and notes.
+- [Catalogue 书目](${SITE}/books): ${cat.books.length} books rated without their text: scripture, history, aesthetics, world and Chinese literature.
+- [Record Room 唱片室](${SITE}/music): ${cat.albums.length} albums from every continent, information only (no audio, covers or lyrics).
+- [Charts 榜单](${SITE}/charts): everything ranked within its kind (literature, faith, history, thought, aesthetics, music, science, computing).
+- [Reference Room 资料室](${SITE}/reference): ${ref.entries.length} open resources on GitHub (texts, datasets, typefaces, tools), each with its licence and a link.
+- [Memorial 纪念](${SITE}/memorial): perpetual exhibits for a body of work, perpetual plaques for a person, and lamps for writers and musicians.
+
+## How scores work 怎么评分
+
+- The librarian's score: Claude, an AI (Librarian No. 2), gives one decimal on a ten-point scale with a reason, scored against the work's own kind; never 10.0, and a change is a new dated value.
+- Readers' score: anonymous one-to-five stars, one per device per entry, shown on the ten-point scale once at least five people have rated.
+- Scripture of a living faith is collected, not scored. Albums are scored from what is documented about them; the librarian has not heard them.
+
+## Exhibits, plaques and wardens 展位、铭牌和守馆人
+
+- Each exhibit or plaque has a public layer, a recognised layer encrypted in the owner's browser (unlocked only by answering an AI warden's questions, in the visitor's browser), and a sealed layer kept offline.
+- Not a legal will. No tokens, no fees, no tracking.
+
+## More
+
+- [About 关于](${SITE}/about) · [House rules 馆规](${SITE}/rules) · [Source code](${REPO}) · [Sitemap](${SITE}/sitemap.xml)
+`);
 writeFileSync(join(dist, 'robots.txt'), `User-agent: *\nAllow: /\nDisallow: /api/\nSitemap: ${SITE}/sitemap.xml\n`);
 
 // Spec and schema are served from the site too, so the format can be fetched without GitHub.

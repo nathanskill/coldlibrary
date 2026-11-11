@@ -170,6 +170,19 @@ export function describe(s) {
   return (out || x.slice(0, max - 3).replace(/\s+\S*$/, '') + '…').trim();
 }
 
+// Structured data for the lobby only: the site and who keeps it. A data block, never run, so the CSP allows it.
+function siteData(lang) {
+  const T = t(lang);
+  const description = T('A non-profit library that rates what lasts and remembers who made it: public-domain works to read in full, books and albums with scores, perpetual exhibits and plaques. It never holds keys, files or money.',
+    '一座非营利的图书馆：给留得下来的东西打分，也记住做出它们的人。可读全文的公版作品、带评分的书和专辑、永续展位和铭牌。从不保管钥匙、文件和钱。');
+  const data = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'WebSite', '@id': SITE + '/#website', name: '冷冻图书馆 Cold Library', alternateName: ['Cold Library', '冷冻图书馆'], url: SITE + href(lang, ''), description, inLanguage: htmlLang(lang), publisher: { '@id': SITE + '/#organization' },
+      potentialAction: { '@type': 'SearchAction', target: SITE + href(lang, 'open-stacks/search') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
+    { '@type': 'Organization', '@id': SITE + '/#organization', name: '冷冻图书馆 Cold Library', alternateName: 'Cold Library', url: SITE, logo: SITE + '/favicon.svg', description, foundingDate: FOUNDED, sameAs: [REPO] },
+  ] };
+  return `<script type="application/ld+json">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>`;
+}
+
 export function layout({ lang, slug, title, description, body, image = '/assets/img/lake-library.jpg', bodyClass = '', noindex = false, head = '', scripts = [], alternates = true, notFound = false }) {
   const T = t(lang);
   const canonical = SITE + href(lang, slug);
@@ -197,7 +210,7 @@ ${alternates ? `<link rel="alternate" hreflang="en" href="${SITE + href('en', sl
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#F3F1EC" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0E1417" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+${!slug && !notFound ? siteData(lang) + '\n' : ''}<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/assets/fonts/ibm-plex-sans-latin-400-normal.v2.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
 ${head}<script src="/assets/js/prefs.js"></script>
