@@ -1,7 +1,7 @@
 // POST /api/items/submit { email, locale, kind, whose, item, adult, consent }
 // The recognised layer arrives already locked by the applicant's browser; we never see answers or plaintext.
 import { randomBytes } from 'node:crypto';
-import { ensureSchema, rateLimit } from '../_lib/db.js';
+import { ensureSchema, rateLimit, dailyLimit } from '../_lib/db.js';
 import { send, readJson, normEmail, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
 import { entryLimit } from '../_lib/entry.js';
 import { limits } from '../_lib/config.js';
@@ -34,6 +34,7 @@ export default async function handler(req, res) {
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: L(lg, 'The front desk is closed for maintenance.', '前台正在维护。') });
   if (!(await rateLimit(sql, 'sub-ip:' + clientKey(req), limits().submit))) return send(res, 429, { message: L(lg, 'Too many applications. Please wait ten minutes.', '提交太频繁，请十分钟后再试。') });
+  if (!(await dailyLimit(sql, 'mail-ip:' + clientKey(req), limits().mailIpDay))) return send(res, 429, { message: L(lg, 'Too many requests from this network today. Please try again tomorrow.', '这个网络今天的请求太多了，请明天再试。') });
 
   const item = {
     title: clip(it.title, 60), subtitle: clip(it.subtitle, 120), story: clip(it.story, 2000),

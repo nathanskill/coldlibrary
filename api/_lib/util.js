@@ -69,9 +69,20 @@ export function sameHash(a, b) {
   const x = Buffer.from(a, 'hex'), y = Buffer.from(b, 'hex');
   return x.length === y.length && crypto.timingSafeEqual(x, y);
 }
+// IPv6 addresses are keyed by their /64 prefix: one subscriber usually holds a whole /64,
+// so the full address would let one person rotate through unlimited keys (2026-11-13 audit).
+export function addressPrefix(ip) {
+  if (!ip.includes(':') || /^::ffff:\d+\.\d+\.\d+\.\d+$/i.test(ip)) return ip.replace(/^::ffff:/i, '');
+  const bare = ip.replace(/%.*$/, '').toLowerCase();
+  const [head, tail] = bare.split('::');
+  const a = head ? head.split(':') : [], b = tail !== undefined && tail ? tail.split(':') : [];
+  const groups = tail === undefined ? a : [...a, ...Array(Math.max(0, 8 - a.length - b.length)).fill('0'), ...b];
+  if (groups.length !== 8) return bare;
+  return groups.slice(0, 4).map((g) => g.replace(/^0+(?=.)/, '')).join(':') + '::/64';
+}
 export function clientKey(req) {
   const ip = String(req.headers['x-forwarded-for'] || req.socket?.remoteAddress || '').split(',')[0].trim();
-  return sha256('ip:' + ip + ':' + pepper()).slice(0, 32);
+  return sha256('ip:' + addressPrefix(ip) + ':' + pepper()).slice(0, 32);
 }
 
 // Numbers below 100000 and memorable numbers are held back for events and contributors.

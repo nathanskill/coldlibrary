@@ -16,6 +16,8 @@ export const limits = () => ({
   mailDay: limit('CL_MAIL_GLOBAL_PER_DAY', 30, 1, 1000),
   mailEmailDay: limit('CL_MAIL_EMAIL_PER_DAY', 6, 1, 50),
   mailEmailBurst: limit('CL_MAIL_EMAIL_PER_10_MINUTES', 3, 1, 20),
+  // 2026-11-13 audit: one network address cannot take the whole day's mail budget (register + submit share it).
+  mailIpDay: limit('CL_MAIL_REQUESTS_PER_ADDRESS_PER_DAY', 10, 1, 1000),
   register: limit('CL_REGISTER_PER_10_MINUTES', 20),
   submit: limit('CL_SUBMIT_PER_10_MINUTES', 10),
   confirm: limit('CL_CONFIRM_PER_10_MINUTES', 60),

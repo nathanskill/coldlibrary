@@ -125,6 +125,16 @@ export async function rateLimit(sql, key, limit) {
   return rows.length > 0;
 }
 
+// Allows `limit` hits per key per UTC day (same table as rateLimit; rows are swept after a day).
+export async function dailyLimit(sql, key, limit) {
+  const rows = await sql`insert into rate (key, bucket, hits)
+    values (${key}, date_trunc('day', now()), 1)
+    on conflict (key, bucket) do update set hits = rate.hits + 1
+    where rate.hits < ${limit}
+    returning hits`;
+  return rows.length > 0;
+}
+
 export async function reserveMailBudget(sql, recipientHash) {
   const cfg = limits();
   // One transaction, one global lock, then fresh READ COMMITTED snapshots.

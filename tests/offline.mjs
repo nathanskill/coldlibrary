@@ -54,7 +54,8 @@ export async function harness(settings = {}) {
     }
     if (s.startsWith('insert into rate')) {
       assert.match(s, /where rate.hits < \?/);
-      const [key, max] = v, bucket = Math.floor(state.now / 600000), k = key + ':' + bucket;
+      const daily = s.includes("date_trunc('day'");
+      const [key, max] = v, bucket = Math.floor(state.now / (daily ? 86400000 : 600000)), k = key + ':' + (daily ? 'd' : '') + bucket;
       const hits = state.rates.get(k) || 0;
       if (hits >= max) return [];
       state.rates.set(k, hits + 1); state.writes++;

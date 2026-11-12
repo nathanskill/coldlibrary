@@ -1,6 +1,6 @@
 // POST /api/librarians/register  { email, penName, locale, listed, adult, oath, purpose? }
 // Sends a six-digit code by email. Responds the same way whether or not the email is already registered.
-import { ensureSchema, rateLimit } from '../_lib/db.js';
+import { ensureSchema, rateLimit, dailyLimit } from '../_lib/db.js';
 import { send, readJson, normEmail, cleanName, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
 import { entryLimit } from '../_lib/entry.js';
 import { limits } from '../_lib/config.js';
@@ -26,6 +26,7 @@ export default async function handler(req, res) {
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: L(lg, 'The register is closed for maintenance.', '名册正在维护。') });
   if (!(await rateLimit(sql, 'ip:' + clientKey(req), limits().register))) return send(res, 429, { message: L(lg, 'Too many requests. Please wait ten minutes.', '请求太频繁，请十分钟后再试。') });
+  if (!(await dailyLimit(sql, 'mail-ip:' + clientKey(req), limits().mailIpDay))) return send(res, 429, { message: L(lg, 'Too many requests from this network today. Please try again tomorrow.', '这个网络今天的请求太多了，请明天再试。') });
 
   const code = newCode();
   const m = codeMail(lg, code, purpose);

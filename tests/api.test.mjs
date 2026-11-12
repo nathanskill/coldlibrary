@@ -15,7 +15,8 @@ const submission = () => ({ email, adult: true, consent: true, kind: 'exhibit',
   item: { title: 'Offline test', subtitle: 'A test item', story: '', links: [] } });
 
 test('P1: both code endpoints share a rolling day and burst budget (864 requests)', async () => {
-  const h = await harness();
+  // This test is about the per-recipient budget; the per-address daily cap has its own test below.
+  const h = await harness({ CL_MAIL_REQUESTS_PER_ADDRESS_PER_DAY: '1000' });
   for (let window = 0; window < 144; window++) {
     for (let i = 0; i < 3; i++) {
       await h.call('api/librarians/register.js', registration);
@@ -318,4 +319,26 @@ test('configuration rejects unsafe limits and migration is additive', async () =
   const sql = readFileSync('migrations/20261026_mail_budget.sql', 'utf8').replace(/--[^\n]*/g, '');
   assert.doesNotMatch(sql, /\b(drop|delete|update|truncate|alter)\b/i);
   assert.match(sql, /CREATE TABLE IF NOT EXISTS mail_dispatches/);
+});
+
+test('P1: one network address cannot take the whole day of mail (2026-11-13 audit)', async () => {
+  const h = await harness({ CL_MAIL_REQUESTS_PER_ADDRESS_PER_DAY: '4' });
+  const codes = [];
+  for (let i = 0; i < 6; i++) codes.push((await h.call('api/librarians/register.js', { ...registration, email: `a${i}@example.test` }, 'POST', '198.51.100.7')).statusCode);
+  assert.deepEqual(codes, [200, 200, 200, 200, 429, 429]);
+  // Another address still gets through on the same day.
+  assert.equal((await h.call('api/items/submit.js', { ...submission(), email: 'b@example.test' }, 'POST', '198.51.100.8')).statusCode, 200);
+  // Next UTC day the first address is allowed again.
+  h.state.now += 86400000;
+  assert.equal((await h.call('api/librarians/register.js', { ...registration, email: 'c@example.test' }, 'POST', '198.51.100.7')).statusCode, 200);
+});
+
+test('P2: IPv6 addresses in the same /64 share one key', async () => {
+  const h = await harness();
+  const { addressPrefix } = await h.load('api/_lib/util.js');
+  assert.equal(addressPrefix('2001:db8:1:2::1'), '2001:db8:1:2::/64');
+  assert.equal(addressPrefix('2001:0db8:0001:0002:aaaa:bbbb:cccc:dddd'), '2001:db8:1:2::/64');
+  assert.equal(addressPrefix('2001:db8::5'), '2001:db8:0:0::/64');
+  assert.equal(addressPrefix('203.0.113.9'), '203.0.113.9');
+  assert.equal(addressPrefix('::ffff:203.0.113.9'), '203.0.113.9');
 });
