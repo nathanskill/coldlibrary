@@ -342,3 +342,21 @@ test('P2: IPv6 addresses in the same /64 share one key', async () => {
   assert.equal(addressPrefix('203.0.113.9'), '203.0.113.9');
   assert.equal(addressPrefix('::ffff:203.0.113.9'), '203.0.113.9');
 });
+
+test('11/16: rating counts are read from memory between refreshes; your own rating shows at once', async () => {
+  const h = await harness(); await h.load('api/ratings.js');
+  const id = JSON.parse(readFileSync(new URL('../api/_lib/rate-ids.json', import.meta.url))).rate[0];
+  const mod = await h.load('api/ratings.js');
+  const get = async () => { const req = request({}, 'GET'); req.query = { ids: id }; const res = response(); await mod.default(req, res); return res; };
+  await h.call('api/ratings.js', { id, stars: 4, device: '1'.repeat(32) });
+  const reads = () => h.state.queries.filter((q) => q.startsWith('select item, count(*)')).length;
+  const a = await get(); const b = await get(); const c = await get();
+  assert.equal(reads(), 1);
+  assert.deepEqual(a.body.stats[id], [1, 4]); assert.deepEqual(c.body.stats[id], [1, 4]);
+  await h.call('api/ratings.js', { id, stars: 2, device: '2'.repeat(32) });
+  assert.deepEqual((await get()).body.stats[id], [2, 6]);
+  assert.equal(reads(), 1);
+  h.state.now += 1800001;
+  await get();
+  assert.equal(reads(), 2);
+});

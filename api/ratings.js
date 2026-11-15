@@ -7,6 +7,7 @@ import { ensureSchema, rateLimit, saveRating } from './_lib/db.js';
 import { send, readJson, lang, L, sha256, clientKey } from './_lib/util.js';
 import { entryLimit } from './_lib/entry.js';
 import { limits } from './_lib/config.js';
+import { cachedCounts, updateCount } from './_lib/counts.js';
 
 const require = createRequire(import.meta.url);
 const RATE = new Set(require('./_lib/rate-ids.json').rate);
@@ -15,18 +16,24 @@ const DEVICE = /^[0-9a-f]{32}$/;
 export default async function handler(req, res) {
   if (!['GET', 'POST'].includes(req.method)) return send(res, 405, { message: 'GET or POST' });
   if (!entryLimit(req, res, 'ratings')) return;
-  let sql;
-  try { sql = await ensureSchema(); } catch { sql = null; }
   if (req.method === 'GET') {
     const raw = String(req.query?.ids || new URL(req.url, 'http://x').searchParams.get('ids') || '');
     const ids = [...new Set(raw.split(',').map((s) => s.trim()).filter((s) => RATE.has(s)))].slice(0, 100);
     if (!ids.length) return send(res, 400, { message: 'bad ids' });
-    if (!sql) return send(res, 200, { stats: {} });
-    const rows = await sql`select item, count(*)::int as n, sum(stars)::int as s from ratings
-      where item = any(string_to_array(${ids.join(',')}, ',')) group by item`;
-    res.setHeader('cache-control', 'public, s-maxage=60, stale-while-revalidate=600');
-    return send(res, 200, { stats: Object.fromEntries(rows.map((r) => [r.item, [r.n, r.s]])) });
+    let all;
+    try {
+      all = await cachedCounts('ratings', async () => {
+        const sql = await ensureSchema();
+        if (!sql) throw new Error('no database');
+        const rows = await sql`select item, count(*)::int as n, sum(stars)::int as s from ratings group by item`;
+        return new Map(rows.map((r) => [r.item, [r.n, r.s]]));
+      });
+    } catch { return send(res, 200, { stats: {} }); }
+    res.setHeader('cache-control', 'public, s-maxage=600, stale-while-revalidate=3600');
+    return send(res, 200, { stats: Object.fromEntries(ids.filter((id) => all.has(id)).map((id) => [id, all.get(id)])) });
   }
+  let sql;
+  try { sql = await ensureSchema(); } catch { sql = null; }
   if (req.method !== 'POST') return send(res, 405, { message: 'GET or POST' });
   const body = await readJson(req, res);
   if (!body) return;
@@ -41,5 +48,6 @@ export default async function handler(req, res) {
   const dh = sha256('device:' + dv).slice(0, 32);
   if (!(await saveRating(sql, id, dh, stars, ip))) return send(res, 429, { message: L(lg, 'Enough ratings for this one have come from here already.', '这一部从这里打的分已经够多了。') });
   const [r] = await sql`select count(*)::int as n, coalesce(sum(stars), 0)::int as s from ratings where item = ${id}`;
+  updateCount('ratings', id, [r.n, r.s]);
   return send(res, 200, { ok: true, n: r.n, sum: r.s });
 }

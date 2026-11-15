@@ -124,6 +124,11 @@ export async function harness(settings = {}) {
       const rows = [...state.ratings.values()].filter((x) => x.item === v[0]);
       return [{ n: rows.length, s: rows.reduce((sum, x) => sum + x.stars, 0) }];
     }
+    if (s === 'select item, count(*)::int as n, sum(stars)::int as s from ratings group by item') {
+      const by = new Map();
+      for (const x of state.ratings.values()) { const t = by.get(x.item) || { item: x.item, n: 0, s: 0 }; t.n++; t.s += x.stars; by.set(x.item, t); }
+      return [...by.values()];
+    }
     throw new Error('Unmodelled SQL: ' + s);
   }
   function sql(strings, ...values) {

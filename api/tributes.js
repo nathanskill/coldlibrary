@@ -6,6 +6,7 @@ import { ensureSchema, rateLimit } from './_lib/db.js';
 import { send, readJson, lang, L, sha256, clientKey } from './_lib/util.js';
 import { entryLimit } from './_lib/entry.js';
 import { limits } from './_lib/config.js';
+import { cachedCounts, updateCount } from './_lib/counts.js';
 
 const require = createRequire(import.meta.url);
 const PEOPLE = new Set(require('./_lib/rate-ids.json').people);
@@ -14,18 +15,24 @@ const DEVICE = /^[0-9a-f]{32}$/;
 export default async function handler(req, res) {
   if (!['GET', 'POST'].includes(req.method)) return send(res, 405, { message: 'GET or POST' });
   if (!entryLimit(req, res, 'tributes')) return;
-  let sql;
-  try { sql = await ensureSchema(); } catch { sql = null; }
   if (req.method === 'GET') {
     const raw = String(req.query?.keys || new URL(req.url, 'http://x').searchParams.get('keys') || '');
     const keys = [...new Set(raw.split(',').map((s) => s.trim()).filter((s) => PEOPLE.has(s)))].slice(0, 50);
     if (!keys.length) return send(res, 400, { message: 'bad keys' });
-    if (!sql) return send(res, 200, { counts: {} });
-    const rows = await sql`select person, count(*)::int as n from tributes
-      where person = any(string_to_array(${keys.join(',')}, ',')) group by person`;
-    res.setHeader('cache-control', 'public, s-maxage=60, stale-while-revalidate=600');
-    return send(res, 200, { counts: Object.fromEntries(rows.map((r) => [r.person, r.n])) });
+    let all;
+    try {
+      all = await cachedCounts('tributes', async () => {
+        const sql = await ensureSchema();
+        if (!sql) throw new Error('no database');
+        const rows = await sql`select person, count(*)::int as n from tributes group by person`;
+        return new Map(rows.map((r) => [r.person, r.n]));
+      });
+    } catch { return send(res, 200, { counts: {} }); }
+    res.setHeader('cache-control', 'public, s-maxage=600, stale-while-revalidate=3600');
+    return send(res, 200, { counts: Object.fromEntries(keys.filter((k) => all.has(k)).map((k) => [k, all.get(k)])) });
   }
+  let sql;
+  try { sql = await ensureSchema(); } catch { sql = null; }
   if (req.method !== 'POST') return send(res, 405, { message: 'GET or POST' });
   const body = await readJson(req, res);
   if (!body) return;
@@ -39,5 +46,6 @@ export default async function handler(req, res) {
   const dh = sha256('device:' + dv).slice(0, 32);
   await sql`insert into tributes (person, device, ip_hash) values (${key}, ${dh}, ${ip}) on conflict do nothing`;
   const [r] = await sql`select count(*)::int as n from tributes where person = ${key}`;
+  updateCount('tributes', key, r.n);
   return send(res, 200, { ok: true, count: r.n });
 }
