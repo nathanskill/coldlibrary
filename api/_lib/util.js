@@ -14,6 +14,28 @@ export function send(res, status, body, headers = {}) {
 export function lang(x) { return x === 'zh' ? 'zh' : 'en'; }
 export const L = (lg, en, zh) => (lg === 'zh' ? zh : en);
 
+// Check JSON types before normalising input: String({ toString: null }) throws,
+// and coercion would also turn arrays/booleans into valid names, ids or scores.
+export function validFields(value, required, optional = {}) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) return false;
+  const matches = (v, type) => type === 'object' ? !!v && typeof v === 'object' && !Array.isArray(v)
+    : type === 'strings' ? Array.isArray(v) && v.every((s) => typeof s === 'string')
+    : typeof v === type;
+  return Object.entries(required).every(([key, type]) => matches(value[key], type)) &&
+    Object.entries(optional).every(([key, type]) => !Object.hasOwn(value, key) || matches(value[key], type));
+}
+
+// The host may parse repeated query parameters into arrays. Accept one string
+// only, including when the handler is called with the raw request URL.
+export function queryString(req, name) {
+  try {
+    const values = new URL(req.url || '/', 'http://localhost').searchParams.getAll(name);
+    if (values.length > 1) return null;
+    if (Object.hasOwn(req.query || {}, name)) return typeof req.query[name] === 'string' ? req.query[name] : null;
+    return values[0] || '';
+  } catch { return null; }
+}
+
 export async function readJson(req, res) {
   const max = limits().bodyBytes;
   const fail = (status) => { send(res, status, { message: status === 413 ? 'The form is too large. 表单太大。' : 'Invalid JSON.' }); return null; };
@@ -32,8 +54,10 @@ export async function readJson(req, res) {
       return parse(raw);
     } catch { return fail(400); }
   }
-  // Nothing left to stream (already consumed, or no body at all): answer now instead of waiting for 'end'.
-  if (req.readableEnded || req.complete) return parse('');
+  // An already-consumed stream will not emit 'end' again.
+  // IncomingMessage.complete only means all bytes have arrived, not that its
+  // readable buffer was consumed. Buffered bytes still need to be parsed.
+  if (req.readableEnded) return parse('');
   return new Promise((resolve) => {
     const chunks = []; let size = 0, done = false;
     const finish = (body) => { done = true; resolve(body); };
@@ -51,13 +75,15 @@ export async function readJson(req, res) {
 }
 
 export function normEmail(e) {
-  const s = String(e || '').trim().toLowerCase();
+  if (typeof e !== 'string') return null;
+  const s = e.trim().toLowerCase();
   if (s.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(s)) return null;
   return s;
 }
 
 export function cleanName(n) {
-  const s = String(n || '').replace(/[\u0000-\u001f\u007f<>]/g, '').replace(/\s+/g, ' ').trim().slice(0, 40);
+  if (typeof n !== 'string') return null;
+  const s = n.replace(/[\u0000-\u001f\u007f<>]/g, '').replace(/\s+/g, ' ').trim().slice(0, 40);
   return s.length ? s : null;
 }
 

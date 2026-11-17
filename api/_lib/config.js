@@ -12,6 +12,7 @@ export const limits = () => ({
   healthSeconds: limit('CL_HEALTH_CACHE_SECONDS', 60, 5, 3600),
   // Read side of ratings and lamp counts: re-read the database at most this often per warm instance (11/16 Neon cost).
   countsSeconds: limit('CL_COUNTS_CACHE_SECONDS', 1800, 0, 86400),
+  countsRetrySeconds: limit('CL_COUNTS_RETRY_SECONDS', 60, 1, 3600),
   // Mail is the one thing here that can turn into a bill. 30 a day (900 a month at most) stays well under
   // half of a free tier (Resend: 100 a day / 3,000 a month) and is a small share of the shared Postmark plan.
   // A join is 2 mails (code + welcome), an application 1; 6 per address per day leaves room for a resend.

@@ -1,6 +1,6 @@
 // POST /api/items/confirm { id, email, code } → marks an application as verified and waiting for a librarian.
 import { ensureSchema, rateLimit } from '../_lib/db.js';
-import { send, readJson, normEmail, lang, L, codeHash, sameHash, clientKey } from '../_lib/util.js';
+import { send, readJson, validFields, normEmail, lang, L, codeHash, sameHash, clientKey } from '../_lib/util.js';
 import { entryLimit } from '../_lib/entry.js';
 import { limits } from '../_lib/config.js';
 
@@ -10,9 +10,10 @@ export default async function handler(req, res) {
   const body = await readJson(req, res);
   if (!body) return;
   const lg = lang(body.locale);
+  if (!validFields(body, { email: 'string', code: 'string', id: 'string' }, { locale: 'string' })) return send(res, 400, { message: L(lg, 'Please check the form fields.', '请检查表单字段。') });
   const email = normEmail(body.email);
-  const code = String(body.code || '').replace(/\D/g, '');
-  const id = String(body.id || '');
+  const code = body.code.replace(/\D/g, '');
+  const id = body.id;
   if (!email || code.length !== 6 || !/^S-[0-9a-f]{12}$/.test(id)) return send(res, 400, { message: L(lg, 'Please enter the six-digit code.', '请输入六位验证码。') });
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }

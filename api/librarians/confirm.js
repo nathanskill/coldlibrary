@@ -2,7 +2,7 @@
 // join  → assigns a unique, non-sequential number (or returns the existing one)
 // leave → retires the number and forgets the email
 import { ensureSchema, rateLimit } from '../_lib/db.js';
-import { send, readJson, normEmail, L, codeHash, sameHash, clientKey, randomNumber, mail, welcomeMail } from '../_lib/util.js';
+import { send, readJson, validFields, normEmail, L, codeHash, sameHash, clientKey, randomNumber, mail, welcomeMail } from '../_lib/util.js';
 import { entryLimit } from '../_lib/entry.js';
 import { limits } from '../_lib/config.js';
 
@@ -11,8 +11,9 @@ export default async function handler(req, res) {
   if (!entryLimit(req, res, 'librarian-confirm')) return;
   const body = await readJson(req, res);
   if (!body) return;
+  if (!validFields(body, { email: 'string', code: 'string' }, { locale: 'string' })) return send(res, 400, { message: 'Please check the form fields. 请检查表单字段。' });
   const email = normEmail(body.email);
-  const code = String(body.code || '').replace(/\D/g, '');
+  const code = body.code.replace(/\D/g, '');
   if (!email || code.length !== 6) return send(res, 400, { message: 'Please enter the six-digit code.' });
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }

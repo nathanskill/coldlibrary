@@ -19,9 +19,9 @@ export function request(body = {}, method = 'POST', address = 'offline-source') 
   return Object.assign(new EventEmitter(), { method, body, headers: { 'x-forwarded-for': address }, query: {}, url: '/' });
 }
 
-export async function harness(settings = {}) {
+export async function harness(settings = {}, fixtures = {}) {
   const state = { now: Date.UTC(2026, 9, 26, 12), dispatches: [], delivered: [], pending: new Map(), submissions: new Map(),
-    librarians: new Map(), ratings: new Map(), rates: new Map(), queries: [], writes: 0, claims: 0, retirements: 0,
+    librarians: new Map(), ratings: new Map(), tributes: new Map(), lamps: [], rates: new Map(), queries: [], statements: [], writes: 0, claims: 0, retirements: 0,
     failMail: false, failDB: false, onConsume: null };
   const env = { DATABASE_URL: 'offline-only', RESEND_API_KEY: 'offline-placeholder', ...settings };
   class Clock extends Date {
@@ -31,6 +31,7 @@ export async function harness(settings = {}) {
   function execute(q, transaction = false) {
     const { text: s, values: v } = q;
     state.queries.push(s);
+    state.statements.push(q);
     if (state.failDB) throw new Error('offline database unavailable');
     if (/^create (table|index) if not exists/.test(s) || /^delete from (pending|rate|submissions) where (expires_at|bucket|status)/.test(s)) return [];
     if (s.startsWith('select pg_advisory_xact_lock')) { assert.ok(transaction); return []; }
@@ -107,6 +108,14 @@ export async function harness(settings = {}) {
     if (s.startsWith('select uid, pen_name, created_at from librarians where email_norm')) {
       const p = state.librarians.get(v[0]); return p ? [{ ...p }] : [];
     }
+    if (s.startsWith('select uid, pen_name, created_at from librarians where status')) {
+      assert.match(s, /status = 'active' and \(listed or uid = 1\) order by created_at asc, uid asc limit 500/);
+      return [...state.librarians.values()].filter((p) => p.status === 'active' && (p.listed || p.uid === 1))
+        .sort((a, b) => a.created_at - b.created_at || a.uid - b.uid).slice(0, 500);
+    }
+    if (s === "select count(*)::int as n from librarians where status = 'active'") {
+      return [{ n: [...state.librarians.values()].filter((p) => p.status === 'active').length }];
+    }
     if (s.startsWith("update librarians set status = 'retired'")) {
       state.librarians.delete(v[0]); state.retirements++; state.writes++; return [];
     }
@@ -128,6 +137,30 @@ export async function harness(settings = {}) {
       const by = new Map();
       for (const x of state.ratings.values()) { const t = by.get(x.item) || { item: x.item, n: 0, s: 0 }; t.n++; t.s += x.stars; by.set(x.item, t); }
       return [...by.values()];
+    }
+    if (s.startsWith('insert into tributes')) {
+      assert.match(s, /on conflict do nothing$/);
+      const [person, device, ip_hash] = v, day = Math.floor(state.now / 86400000), key = `${person}:${device}:${day}`;
+      if (!state.tributes.has(key)) { state.tributes.set(key, { person, device, ip_hash }); state.writes++; }
+      return [];
+    }
+    if (s === 'select count(*)::int as n from tributes where person = ?') {
+      return [{ n: [...state.tributes.values()].filter((p) => p.person === v[0]).length }];
+    }
+    if (s === 'select person, count(*)::int as n from tributes group by person') {
+      const by = new Map();
+      for (const p of state.tributes.values()) { const t = by.get(p.person) || { person: p.person, n: 0 }; t.n++; by.set(p.person, t); }
+      return [...by.values()];
+    }
+    if (s.startsWith('insert into lamps')) {
+      const [item, note, locale, ip_hash] = v;
+      state.lamps.push({ item, note, locale, ip_hash, created_at: new Date(state.now).toISOString() }); state.writes++;
+      return [];
+    }
+    if (s === 'select count(*)::int as n from lamps where item = ?') return [{ n: state.lamps.filter((p) => p.item === v[0]).length }];
+    if (s.startsWith('select note, created_at from lamps')) {
+      assert.match(s, /where item = \? and note is not null order by created_at desc limit 30$/);
+      return state.lamps.filter((p) => p.item === v[0] && p.note !== null).slice().reverse().slice(0, 30);
     }
     throw new Error('Unmodelled SQL: ' + s);
   }
@@ -154,7 +187,14 @@ export async function harness(settings = {}) {
     if (modules.has(id)) return modules.get(id);
     let mod;
     if (id === '@neondatabase/serverless' || id.startsWith('node:')) {
-      const exports = id === '@neondatabase/serverless' ? { neon: () => sql } : await import(id);
+      let exports = id === '@neondatabase/serverless' ? { neon: () => sql } : await import(id);
+      if (id === 'node:module') {
+        const { createRequire } = exports;
+        exports = { ...exports, createRequire: (url) => {
+          const require = createRequire(url);
+          return (name) => Object.hasOwn(fixtures, name) ? fixtures[name] : require(name);
+        } };
+      }
       mod = new vm.SyntheticModule(Object.keys(exports), function () {
         for (const [k, v] of Object.entries(exports)) this.setExport(k, v);
       }, { context, identifier: id });

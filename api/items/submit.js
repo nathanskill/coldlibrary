@@ -2,7 +2,7 @@
 // The recognised layer arrives already locked by the applicant's browser; we never see answers or plaintext.
 import { randomBytes } from 'node:crypto';
 import { ensureSchema, rateLimit, dailyLimit } from '../_lib/db.js';
-import { send, readJson, normEmail, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
+import { send, readJson, validFields, normEmail, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
 import { entryLimit } from '../_lib/entry.js';
 import { limits } from '../_lib/config.js';
 import { validWarden } from '../_lib/warden.js';
@@ -15,12 +15,17 @@ export default async function handler(req, res) {
   const body = await readJson(req, res);
   if (!body) return;
   const lg = lang(body.locale);
-  if (!mailConfigured()) return send(res, 503, { message: L(lg, 'The front desk is not taking applications yet.', '前台暂时还不收申请。') });
+  if (!validFields(body, { email: 'string', kind: 'string', item: 'object' }, { locale: 'string', adult: 'boolean', consent: 'boolean', third_party_consent: 'boolean' }) ||
+      !['exhibit', 'plaque'].includes(body.kind) ||
+      (body.kind === 'plaque' ? !['self', 'other'].includes(body.whose) : body.whose != null && !['self', 'other'].includes(body.whose)) ||
+      !validFields(body.item, { title: 'string', subtitle: 'string' }, { story: 'string', links: 'strings', questions: 'strings', kdf: 'object', locked: 'object', lamp_hash: 'string' })) {
+    return send(res, 400, { message: L(lg, 'Please check the form fields.', '请检查表单字段。') });
+  }
   const email = normEmail(body.email);
   if (!email) return send(res, 400, { message: L(lg, 'Please check the email address.', '请检查邮箱地址。') });
   if (body.adult !== true || body.consent !== true) return send(res, 400, { message: L(lg, 'Please confirm the consent box.', '请勾选同意声明。') });
-  const kind = body.kind === 'plaque' ? 'plaque' : 'exhibit';
-  const it = body.item || {};
+  const kind = body.kind;
+  const it = body.item;
   if (!clip(it.title, 60) || !clip(it.subtitle, 120)) return send(res, 400, { message: L(lg, 'A title and one line are needed.', '需要一个标题和一句话。') });
   if (kind === 'plaque' && body.whose === 'other' && body.third_party_consent !== true) return send(res, 400, { message: L(lg, 'A plaque for someone else needs their consent.', '给别人立铭牌，需要本人同意。') });
   // The warden block is all or nothing: questions, kdf, ciphertext and lamp hash, or none of them.
@@ -28,8 +33,9 @@ export default async function handler(req, res) {
   const anyWarden = qs.length || it.kdf || it.locked || it.lamp_hash;
   const wardenOk = qs.length >= 1 && validWarden(it.kdf, it.locked) && /^[0-9a-f]{64}$/.test(it.lamp_hash || '');
   if (anyWarden && !wardenOk) return send(res, 400, { message: L(lg, 'The warden part is incomplete. Please lock it again.', '守馆人那部分不完整，请重新锁一次。') });
-  if (String(it.story || '').length > 2000) return send(res, 400, { message: L(lg, 'The story is too long.', '介绍太长了。') });
+  if ((it.story || '').length > 2000) return send(res, 400, { message: L(lg, 'The story is too long.', '介绍太长了。') });
 
+  if (!mailConfigured()) return send(res, 503, { message: L(lg, 'The front desk is not taking applications yet.', '前台暂时还不收申请。') });
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: L(lg, 'The front desk is closed for maintenance.', '前台正在维护。') });

@@ -1,7 +1,7 @@
 // POST /api/librarians/register  { email, penName, locale, listed, adult, oath, purpose? }
 // Sends a six-digit code by email. Responds the same way whether or not the email is already registered.
 import { ensureSchema, rateLimit, dailyLimit } from '../_lib/db.js';
-import { send, readJson, normEmail, cleanName, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
+import { send, readJson, validFields, normEmail, cleanName, lang, L, newCode, codeHash, clientKey, mail, mailConfigured, codeMail } from '../_lib/util.js';
 import { entryLimit } from '../_lib/entry.js';
 import { limits } from '../_lib/config.js';
 
@@ -11,8 +11,9 @@ export default async function handler(req, res) {
   const body = await readJson(req, res);
   if (!body) return;
   const lg = lang(body.locale);
+  if (!validFields(body, { email: 'string' }, { penName: 'string', purpose: 'string', locale: 'string', listed: 'boolean', adult: 'boolean', oath: 'boolean' }) ||
+      (body.purpose !== undefined && !['join', 'leave'].includes(body.purpose))) return send(res, 400, { message: L(lg, 'Please check the form fields.', '请检查表单字段。') });
   const purpose = body.purpose === 'leave' ? 'leave' : 'join';
-  if (!mailConfigured()) return send(res, 503, { message: L(lg, 'The front desk is not taking registrations yet.', '前台暂时还没开始登记。') });
   const email = normEmail(body.email);
   if (!email) return send(res, 400, { message: L(lg, 'Please check the email address.', '请检查邮箱地址。') });
   let name = null;
@@ -22,6 +23,7 @@ export default async function handler(req, res) {
     if (body.adult !== true || body.oath !== true) return send(res, 400, { message: L(lg, 'Orientation is not finished.', '入职还没完成。') });
   }
 
+  if (!mailConfigured()) return send(res, 503, { message: L(lg, 'The front desk is not taking registrations yet.', '前台暂时还没开始登记。') });
   let sql;
   try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: L(lg, 'The register is closed for maintenance.', '名册正在维护。') });

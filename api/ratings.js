@@ -4,7 +4,7 @@
 // Stored: entry, a hash of the device id, stars, a hash of the address, dates. Nothing that names anyone.
 import { createRequire } from 'node:module';
 import { ensureSchema, rateLimit, saveRating } from './_lib/db.js';
-import { send, readJson, lang, L, sha256, clientKey } from './_lib/util.js';
+import { send, readJson, validFields, queryString, lang, L, sha256, clientKey } from './_lib/util.js';
 import { entryLimit } from './_lib/entry.js';
 import { limits } from './_lib/config.js';
 import { cachedCounts, updateCount } from './_lib/counts.js';
@@ -17,7 +17,8 @@ export default async function handler(req, res) {
   if (!['GET', 'POST'].includes(req.method)) return send(res, 405, { message: 'GET or POST' });
   if (!entryLimit(req, res, 'ratings')) return;
   if (req.method === 'GET') {
-    const raw = String(req.query?.ids || new URL(req.url, 'http://x').searchParams.get('ids') || '');
+    const raw = queryString(req, 'ids');
+    if (raw === null) return send(res, 400, { message: 'bad ids' });
     const ids = [...new Set(raw.split(',').map((s) => s.trim()).filter((s) => RATE.has(s)))].slice(0, 100);
     if (!ids.length) return send(res, 400, { message: 'bad ids' });
     let all;
@@ -32,16 +33,16 @@ export default async function handler(req, res) {
     res.setHeader('cache-control', 'public, s-maxage=600, stale-while-revalidate=3600');
     return send(res, 200, { stats: Object.fromEntries(ids.filter((id) => all.has(id)).map((id) => [id, all.get(id)])) });
   }
-  let sql;
-  try { sql = await ensureSchema(); } catch { sql = null; }
-  if (req.method !== 'POST') return send(res, 405, { message: 'GET or POST' });
   const body = await readJson(req, res);
   if (!body) return;
   const lg = lang(body.locale);
-  const id = String(body.id || '');
-  const stars = Number(body.stars);
-  const dv = String(body.device || '');
+  if (!validFields(body, { id: 'string', stars: 'number', device: 'string' }, { locale: 'string' })) return send(res, 400, { message: L(lg, 'This rating cannot be saved.', '这个评分存不了。') });
+  const id = body.id;
+  const stars = body.stars;
+  const dv = body.device;
   if (!RATE.has(id) || !Number.isInteger(stars) || stars < 1 || stars > 5 || !DEVICE.test(dv)) return send(res, 400, { message: L(lg, 'This rating cannot be saved.', '这个评分存不了。') });
+  let sql;
+  try { sql = await ensureSchema(); } catch { sql = null; }
   if (!sql) return send(res, 503, { message: L(lg, 'Ratings are resting for maintenance.', '评分正在维护。') });
   const ip = clientKey(req);
   if (!(await rateLimit(sql, 'rate:' + ip, limits().ratings))) return send(res, 429, { message: L(lg, 'That is a lot of ratings at once. Try again in a few minutes.', '一下子打了太多分，过几分钟再试。') });
